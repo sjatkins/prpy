@@ -1,15 +1,31 @@
 def parse_exits(loc, lines):
     pass
 
-def parse_multi_line(loc, lines, starting_data=''):
+def parse_multi_line(loc, lines, starting_data='', level=0):
     res = []
     if starting_data:
         res.append(starting_data)
-    while lines[loc] != '}':
-        res.append(lines[loc])
-        loc += 1
-    while (loc < len(lines)) and lines[loc] == '}':
-        loc += 1
+
+    def add_lines(loc, level):
+        while (loc < len(lines)) and lines[loc] != '}':
+            res.append(lines[loc])
+            if lines[loc].endswith('{'):
+                level += 1
+            loc += 1
+            if loc == len(lines):
+                print('what is happening')
+        while (loc < len(lines)) and lines[loc] == '}':
+            if level > 1:
+                res.append(lines[loc])
+            loc += 1
+            level -= 1
+        if level and (loc < len(lines)):
+            add_lines(loc, level)
+        return loc, level
+
+    while (loc < len(lines)) and level:
+        loc, level = add_lines(loc, level)
+
     return res, loc
 
 def named_value(loc, lines):
@@ -35,11 +51,11 @@ def named_value(loc, lines):
         elif parts[-1] == parts[1]:
             #  multi-line string value
             loc += 1
-            val, loc = parse_multi_line(loc, lines)
+            val, loc = parse_multi_line(loc, lines, level=1)
             res = {key: val}, loc
         else:  # some of the data on this line but the rest on subsequent lines ending with line of "}"
             start = ' '.join(parts[2:])
-            val, loc = parse_multi_line(loc+1, lines, starting_data=start)
+            val, loc = parse_multi_line(loc+1, lines, starting_data=start, level=1)
             res = {key: val}, loc
 
     return res

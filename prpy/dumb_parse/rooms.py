@@ -74,7 +74,7 @@ class RoomsFileParser:
 
     def parse_room(self, lines):
         index = int(lines[0])
-        if index == 8:
+        if index == 600:
             print('trouble')
         print(f'processing room {index}')
         g_lines = [l for l in lines[2:-1]]  # skip open-close brace lines
