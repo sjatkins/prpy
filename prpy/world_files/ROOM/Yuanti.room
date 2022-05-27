@@ -1,0 +1,3962 @@
+#offset Yuanti
+
+0
+{
+  name { A damp sandstone tunnel  }
+  desc {
+"   You are standing in a long, damp tunnel formed from hard sandstone.
+The walls, floors and ceiling are all smooth and flat, creating the
+perfect dungeon corridor.  You can exit west towards a light at the end
+of the tunnel and to the east you can exit to the Myconoid Fungus
+Temple.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_mob, indoors, no_sum, tunnel }
+  exits {
+  to { w, 1 }
+  to { e, EasternDesert:21 }
+  }
+}
+
+1
+{
+  name { A damp sandstone tunnel  }
+  desc {
+"   You are standing in a long, damp tunnel formed from hard sandstone.
+The walls, floors and ceiling are all smooth and flat, creating the
+perfect dungeon corridor.  You can exit west towards a light at the end
+of the tunnel or east back out of the tunnel.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, indoors, no_sum, tunnel }
+  exits {
+  to { e, 0 }
+  to { w, 2 }
+  }
+}
+
+2
+{
+  name { A damp sandstone tunnel  }
+  desc {
+"   You are standing in a long, damp tunnel formed from hard sandstone.
+The walls, floors and ceiling are all smooth and flat, creating the
+perfect dungeon corridor.  You can exit west towards a light at the end
+of the tunnel or east back out of the tunnel.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, indoors, no_sum, tunnel }
+  exits {
+  to { e, 1 }
+  to { w, 3 }
+  }
+}
+
+3
+{
+  name { Entrance to the Yuan-Ti Palace  }
+  desc {
+"   The sandstone tunnel widens here and affords you your first glimpse
+of the palace beyond.  Two alcoves have been set in to the wall to
+accomodate Yuan-Ti guards and a hanging brazier provides a warm, almost
+comforting light.  Beyond you can see a balustrade that looks out over a
+wide cavern. Water cascades down from above it and sparkles like millions
+of silver fish falling in unison.  You can exit west into the palace or
+east back in to the dark, damp tunnel.
+  }
+  sector { Sandstone_Cave }
+  flags { no_mob, indoors, no_sum, tunnel }
+  exits {
+  to { e, 2 }
+  to { w, 4 }
+  }
+}
+
+4
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { corridors rooms levels platforms }
+  desc {
+"
+A corridor, or platform edged by a balustrade, encircles the whole of the
+cavern. There is another below you and at the bottom there is a corridor
+that stretches around the outside of the whirlpool area.  Rooms line the
+platforms, some covered by hanging curtains and others left open, and it
+is possible to make out Yuan-Ti furniture and artefacts in each.  There
+are an obvious three levels to the palace complex.
+
+" }
+  keywords { floor whirlpool }
+  desc {
+"
+The very bottom of the cavern has been carved in to a swirling corridor
+that spirals in to a central point.  The water from the ceiling flows
+down the corridor channels and seems to flow away beneath the central
+point.
+
+" }
+  keywords { water rain downpour }
+  desc {
+"
+
+The water is crystal clear and reflects the light from the braziers that
+hang gracefully above the platforms, causing the whole cavern to gleam
+and glimmer as if touched by a magical hand.
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { ceiling holes }
+  desc {
+"
+The ceiling is littered with holes, and from each one one water pours in
+droplets and streams, cascading down to the floor below.
+
+" }
+  keywords { cavern }
+  desc {
+"
+The cavern is a natural formation that has been shaped by the Yuan-Ti to
+their own needs.
+
+" }
+  keywords { platform }
+  desc {
+"
+This is the topmost platform in the palace.  It circles the entire cavern
+and allows you to walk quite safely to any of the rooms on this level.  It
+has been carved from the natural sandstone.
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  keywords { balustrade }
+  desc {
+"
+The balustrade on this level is very unique.  Each baluster has been hand
+carved from the same hard sandstone of the cavern itself.  The details on
+each one depict a pair of Yuan-Ti sitting with tails curled beneath them
+on a pair of thrones.  Underneath the figures the words 'Divine Grace to
+the Whirlpool Champion' can be read.  It looks like it might be possible
+to climb down to the next level from here, were you brave enough to try
+and descend.
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 19 }
+  to { e, 3 }
+  to { s, 5 }
+  to { 10, 38 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 114 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+5
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+#{blue}You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!#{o}
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 4 }
+  to { e, 24 }
+  to { s, 6 }
+  to { 10, 37 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 115 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+6
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+#{green}#{bold}You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!#{o}
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 5 }
+  to { w, 7 }
+  to { 10, 36 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 115 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+7
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 6 }
+  to { s, 23 }
+  to { w, 8 }
+  to { 10, 35 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 115 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+8
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 7 }
+  to { w, 9 }
+  to { 10, 34 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 110 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+9
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 8 }
+  to { s, 22 }
+  to { w, 10 }
+  to { 10, 33 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 118 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+10
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 11 }
+  to { e, 9 }
+  to { 10, 32 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 118 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+11
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 12 }
+  to { s, 10 }
+  to { w, 27 }
+  to { 10, 31 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 118 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+12
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 13 }
+  to { s, 11 }
+  to { w, 28 }
+  to { 10, 30 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 117 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+13
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 14 }
+  to { s, 12 }
+  to { w, 26 }
+  to { 10, 45 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 116 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+14
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 15 }
+  to { s, 13 }
+  to { 10, 44 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 116 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+15
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 21 }
+  to { e, 16 }
+  to { w, 14 }
+  to { 10, 43 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 116 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+16
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 17 }
+  to { w, 15 }
+  to { 10, 42 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 111 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+17
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 20 }
+  to { e, 18 }
+  to { w, 16 }
+  to { 10, 41 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 113 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+18
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform near the top of a large, natural sand-
+stone cavern.  Above you a simple brazier burns brightly, casting a warm
+light around.  Next to you is a balustrade that allows you to look over
+the whole of the cavern.  Looking up you can see that the ceiling of the
+cavern is a trypophobics worst nightmare, with holes from the size of a
+pin head to the size of a fist dotting every inch.  Water cascades down
+from the holes, dripping and gushing and creating the illusion of a
+permanent downpour that gathers on the floor of the cavern, three stories
+below, and rushes away in a whirlpool.  Rooms can be seen lining the
+corridors that look over the main cavern.  There are two more levels below
+you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 19 }
+  to { w, 17 }
+  to { 10, 40 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 113 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+19
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on the uppermost platform inside of a gigantic cave-
+like structure.  Above your head a brazier burns brightly, casting a warm
+glow about the area.  Next to you is a balustrade that comes up to your
+waist and lets you view the whole of the cavern.  Looking up you can see
+that the ceiling is peppered with holes of various sizes and that water
+pours from them in an endless stream of glittering droplets.  The water
+hits the cavern floor three stories below and gushes away in a whirlpool
+at the centre.  Rooms can be seen lining the corridors that look over the
+main cavern.  There are two more levels below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex11 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 18 }
+  to { e, 25 }
+  to { s, 4 }
+  to { 10, 39 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 11, 113 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+20
+{
+  name { Lair of the Yuan-Ti Ceremonial Advisor  }
+  desc {
+"   This room full opulence and splendour.  The walls are covered in tiny
+glass tiles that sparkle and refract the light from the torches that cast
+their warmth around the chamber.  There is a single chair and desk that
+sits against the west wall.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 17 }
+  }
+}
+
+21
+{
+  name { Lair of the Yuan-Ti Broodguard Captain  }
+  desc {
+"   Reports upon reports upon reports litter the lair of the Yuan-Ti Brood
+-guard Captain.  This is one busy... Umm... Beast?  There is a table
+standing in the centre of the room where Yuan-Ti broodguards gather to
+discuss the defence of the Palace Complex.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 15 }
+  }
+}
+
+22
+{
+  name { Lair of the Yuan-Ti King  }
+  desc {
+"   The lair of the King of the Yuan-Ti is surprisingly sparse in decor
+compared to the Queen's chambers.  A single, round cushion occupies the
+very centre of the room and it clearly for the King to rest upon as he
+takes audiences with various peoples from around the world.  It has been
+rumoured that the King will also reward anyone who completes the Whirl-
+pool Arena.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 9 }
+  }
+}
+
+23
+{
+  name { Lair of the Yuan-Ti Queen  }
+  desc {
+"   A giant throne occupies most of this room.  The lair of the Queen Yuan
+-Ti is a space of opulence and splendour, with the sandstone walls draped
+in tapestries and silks.  The floor is covered in a plush red carpet that
+feels soft and warm under your feet.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 7 }
+  }
+}
+
+24
+{
+  name { Lair of the Yuan-Ti High Commandant  }
+  desc {
+"   This is the lair of the Yuan-Ti High Commandant.  His role is to over-
+see the safety of his people and ensure that the Queen's justice is swift
+and decisive to any wrong-doer.  The room has been carved directly in to
+the sandstone of the cavern.  A low bed covered in silk sheets adorns one
+corner whilst a table sits in another next to simple stand containing a
+few personal items.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 5 }
+  }
+}
+
+25
+{
+  name { Lair of the Yuan-Ti Ambassador  }
+  desc {
+"   This room is opulent beyond measure!  Striking works of art line the
+walls, the furnishings are all covered in the finest silks and cushioned
+with softest down.  If you were a visiting diplomat, this is exactly
+the place where you would be, talking to the the ambassador and making
+your trade agreements.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 19 }
+  }
+}
+
+26
+{
+  name { Lair of the Yuan-Ti Arch Priest  }
+  desc {
+"   You are standing in the lair of the Yuan-Ti Arch Priest.  The walls
+are adorned with images of a giant squid like creature terrorising some
+underwater sea kingdom.  The furniture is opulent, with a chaise-lounge,
+decorative side boards and comfy chairs on which to sit.  It seems being
+a priest is a good career move.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 13 }
+  }
+}
+
+27
+{
+  name { Lair of the Yuan-Ti Head Sorcerer  }
+  desc {
+"   The lair of the Yuan-Ti Sorcerer is large and dimly light.  A single
+brazier hangs from the ceiling, casting a ruddy glow around the chamber.
+Scrolls, potions, books and other articles of the sorcerers research
+litter tables that are scattered about the room.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 11 }
+  }
+}
+
+28
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   This a stairway that has been cut in to cavern wall.  The steps are
+wide and curve gently down to the next level, allowing visitors and Yuan-
+Ti alike to traverse the whole area with ease.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 12 }
+  to { d, 29 }
+  }
+}
+
+29
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   This a stairway that has been cut in to cavern wall.  The steps are
+wide and curve gently down to the next level, allowing visitors and Yuan-
+Ti alike to traverse the whole area with ease.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 30 }
+  to { u, 28 }
+  }
+}
+
+30
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 45 }
+  to { s, 31 }
+  to { w, 29 }
+  to { 10, 12 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 68 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 120 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+31
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 30 }
+  to { s, 32 }
+  to { w, 53 }
+  to { 10, 11 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 66 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 119 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+32
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 31 }
+  to { e, 33 }
+  to { 10, 10 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 65 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 119 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+33
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 34 }
+  to { s, 52 }
+  to { w, 32 }
+  to { 10, 9 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 63 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 119 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+34
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 35 }
+  to { w, 33 }
+  to { 10, 8 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 62 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 109 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+35
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 36 }
+  to { s, 51 }
+  to { w, 34 }
+  to { 10, 7 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 60 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 108 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+36
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 37 }
+  to { w, 35 }
+  to { 10, 6 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 59 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 108 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+37
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 38 }
+  to { e, 50 }
+  to { s, 36 }
+  to { 10, 5 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 57 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 108 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+38
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { water rain downpour }
+  desc {
+"
+
+The water is crystal clear and reflects the light from the braziers that
+hang gracefully above the platforms, causing the whole cavern to gleam
+and glimmer as if touched by a magical hand.
+
+" }
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 39 }
+  to { e, 54 }
+  to { s, 37 }
+  to { 10, 4 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 56 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 107 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+39
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 40 }
+  to { e, 49 }
+  to { s, 38 }
+  to { 10, 19 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 78 }
+    info { secret, hidden, message }
+    keywords { desc }
+  to { 12, 104 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+40
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 39 }
+  to { w, 41 }
+  to { 10, 18 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 77 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 104 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+41
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 48 }
+  to { e, 40 }
+  to { w, 42 }
+  to { 10, 17 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 75 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 104 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+42
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 41 }
+  to { w, 43 }
+  to { 10, 16 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 74 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 105 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+43
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 47 }
+  to { e, 42 }
+  to { w, 44 }
+  to { 10, 15 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 72 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 121 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+44
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 43 }
+  to { s, 45 }
+  to { 10, 14 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 71 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 121 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+45
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are standing on a platform roughly halfway up (or down) a large,
+natural sandstone cavern.  Next to you is a balustrade that allows you to
+look over the whole cavern.  A cascade of water droplets gives the impression
+of a continuous downpour from the porous ceiling above.  Below you can
+clearly make our a swirling corridors that collects the water and funnels it
+to the centre where it appears to drain off somewhere.   Rooms can be seen
+lining the corridors that look over the main cavern.  There is one level
+above you and one level below you.
+  }
+  sector { Sandstone_Cave }
+  extra {
+  keywords { _ex12 }
+  desc {
+"
+You step up on to the balustrade and launch yourself in to the air!
+It's lucky you have wings!
+
+" }
+  keywords { _ex10 }
+  desc {
+"
+Standing on the balustrade you manage to grab a hold of the platform
+floor above and pull yourself up!  Whew!  Luckily you didn't fall!
+
+" }
+  keywords { _ex11 }
+  desc {
+"
+You carefully hook a foot over the balustrade and climb down to the next
+level.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 44 }
+  to { s, 30 }
+  to { w, 46 }
+  to { 10, 13 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  to { 11, 69 }
+    info { secret, hidden, message }
+    keywords { descend }
+  to { 12, 121 }
+    info { secret, hidden, message }
+    keywords { air }
+  }
+}
+
+46
+{
+  name { Lair of the Yuan-Ti Whirlpool Arena Champion  }
+  desc {
+"   A veritable plethora of trophies line the walls, stacked shelf upon
+shelf.  The glitter and sparkle in this room makes your eyes hurt.  The
+occupent is clearly a master of arms, having survived countless battles,
+and is also probably a lot more intelligent than you!  Although, let's
+face it, it's not difficult to be more intelligent that you :(
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 45 }
+  }
+}
+
+47
+{
+  name { Lair of the Yuan-Ti Poisoner  }
+  desc {
+"   Yes, it appears that 'poisoner' is not only a career choice amongst
+the Yuan-Ti, it is also one that comes with its own office!  There is,
+surprisingly, a distinct lack of vials of suspicious looking liquids in
+this room.  However, it would probably be best to refuse any food or
+drink offered to you.  Or even touch anything!
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 43 }
+  }
+}
+
+48
+{
+  name { Lair of the Yuan-Ti War Dancer  }
+  desc {
+"   War dancing is an art that only the Yuan-Ti can perform.  That is only
+because it requires you to be part snake.  Swaying and bending, the war
+dancer hypnotises her adversaries as she fights, bringing about a death
+this is at the same time both horrific and beautiful.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 41 }
+  }
+}
+
+49
+{
+  name { Lair of the Yuan-Ti Demonologist  }
+  desc {
+"   Why the Yuan-Ti practice demonology is a mystery to all outsiders.  In
+this room can be found all the paraphernalia required to practice the old
+rituals that will eventually lead to the summoning of a demon that is
+just as likely to kill you as it is to perform your wishes.  You should
+always be careful when dealing with a demonologist, for you never know
+what they might summon!
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 39 }
+  }
+}
+
+50
+{
+  name { Lair of the Cat of Nine Lives  }
+  desc {
+"   This room is a cat lovers dream!  There are crude drawings, possibly
+done in crayon, of various cat-like forms.  But, instead of being all
+cute and fluffy, all of these drawings seem to have used a grotesque
+amount of red.  Weird.  There are cat scratchers and piles of blankets
+everywhere, as if something loves this little home.  And maybe doesn't
+want to share it!
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 37 }
+  }
+}
+
+51
+{
+  name { Lair of the Yuan-Ti Prince  }
+  desc {
+"   Princes can be fickle creatures, no matter their race.  And the Yuan-
+Ti Prince is no exception to this rule.  One of the walls here is littered
+with the impacts of darts.  And in some cases, the darts are still present
+in the sandstone.  This in itself would not be so sinister, but the little
+creatures pinned by the darts, some of which still struggle in their death
+throws... Gross.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 35 }
+  }
+}
+
+52
+{
+  name { Lair of the Yuan-Ti Princess  }
+  desc {
+"   Pink.  That's all there is to say.  Even a race of half-human, half-
+snake people have little princesses that adore pink.  You're almost sure
+that there will be a cute and fluffy stuffed unicorn in this room some-
+where.  Possibly with a name like 'Mister Rainbow'.  But all horned
+equine fantasies aside, it's also possible this room could be a virtual
+treasure trove!
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 33 }
+  }
+}
+
+53
+{
+  name { Lair of the Yuan-Ti Cleric  }
+  desc {
+"   The Yuan-Ti Cleric chambers are much like every religious chamber in
+the world; spartan. The Cleric spends most of her time praying to the God
+and the only thing that makes this place a room is the spectacular tiled
+image of a giant tentacle monster like God that seems to be the focus of
+worship here.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 31 }
+  }
+}
+
+54
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   This a stairway that has been cut in to cavern wall.  The steps are
+wide and curve gently down to the next level, allowing visitors and Yuan-
+Ti alike to traverse the whole area with ease.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 38 }
+  to { d, 55 }
+  }
+}
+
+55
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   This a stairway that has been cut in to cavern wall.  The steps are
+wide and curve gently down to the next level, allowing visitors and Yuan-
+Ti alike to traverse the whole area with ease.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 56 }
+  to { u, 54 }
+  }
+}
+
+56
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 78 }
+  to { e, 55 }
+  to { s, 57 }
+  to { 10, 38 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+57
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 56 }
+  to { e, 58 }
+  to { s, 59 }
+  to { 10, 37 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+58
+{
+  name { The Yuan-Ti Nursery  }
+  desc {
+"   The sounds of screaming fills your ears as you enter this room.  There
+are little Yuan-Ti babies literally everywhere!  And a matron to look
+after them too.  Even at this young and tender age they are vicious little
+buggers.  Watch your fingers when petting one!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 57 }
+  }
+}
+
+59
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 57 }
+  to { w, 60 }
+  to { 10, 36 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+60
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 59 }
+  to { s, 61 }
+  to { w, 62 }
+  to { 10, 35 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+61
+{
+  name { The Yuan-Ti Male's Chambers  }
+  desc {
+"   If you female, and let's face it, you're not, you would be either very
+welcome or thrown out for being in here!  That's because the males have an
+inbuilt appreciation that while they need their own space, they also need
+a female occasionally.  This room is a mess.  It is littered with discarded
+food, old pieces of jewellery and weapons.  The males here would call it
+organised chaos, but it looks as if a very small and localised tornado has
+ripped through the place, throwing everything about randomly.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 60 }
+  }
+}
+
+62
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 60 }
+  to { w, 63 }
+  to { 10, 34 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+63
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 62 }
+  to { s, 64 }
+  to { w, 65 }
+  to { 10, 33 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+64
+{
+  name { The Yuan-Ti Food Store  }
+  desc {
+"   Food is everywhere in this room.  It litters the shelves that line the
+sandstone walls, it floats on the surface, it writhes and wriggles and
+even tries to escape!  And guarding it all is the Cook.  The Cook.  And
+woe betide to any whom try to take something that is not ready for the
+eating!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 63 }
+  }
+}
+
+65
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 66 }
+  to { e, 63 }
+  to { 10, 32 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+66
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 68 }
+  to { s, 65 }
+  to { w, 67 }
+  to { 10, 31 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+67
+{
+  name { The Yuan-Ti Battleschool  }
+  desc {
+"   It seems that every culture has it's battle master or battle mistress,
+and this true also of the Yuan-Ti.  They even have their own school of
+battle, where fledgling Yuan-Ti are turned in to the capable fighters
+that defend the palace complex from invasion of other subterranean races
+who covet the Yuan-Ti way of life.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 66 }
+  }
+}
+
+68
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 69 }
+  to { e, 80 }
+  to { s, 66 }
+  to { 10, 30 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+69
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 71 }
+  to { s, 68 }
+  to { w, 70 }
+  to { 10, 45 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+70
+{
+  name { The Yuan-Ti Guard Barracks  }
+  desc {
+"   This is the where the guards of the Yuan-Ti all hang out, play dice,
+compare tail-length and generally relax.  They have it nice in here too,
+with water that comes up to your waist and lots of space of sleeping.
+There are many guards with far less in the world.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 69 }
+  }
+}
+
+71
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 72 }
+  to { s, 69 }
+  to { 10, 44 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+72
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 73 }
+  to { e, 74 }
+  to { w, 71 }
+  to { 10, 43 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+73
+{
+  name { The Yuan-Ti Snake Pen  }
+  desc {
+"   The name of this room gives it all away!  Yes, this is indeed where
+the Yuan-Ti keep their snakes.  Be careful!  Some of them are poisonous!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 72 }
+  }
+}
+
+74
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 75 }
+  to { w, 72 }
+  to { 10, 42 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+75
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 76 }
+  to { e, 77 }
+  to { w, 74 }
+  to { 10, 41 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+76
+{
+  name { The Yuan-Ti Wizardry School  }
+  desc {
+"   Here, with the safety of the water to hide in when the odd fireball
+spell misfires, the Yuan-Ti teach their wizards the ways of magic, how
+to weave the every changing winds in to spells that will allow them, one
+day, to rule this world.  Maybe.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 75 }
+  }
+}
+
+77
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting you move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 78 }
+  to { w, 75 }
+  to { 10, 40 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+78
+{
+  name { Inside the Yuan-Ti Palace  }
+  desc {
+"   You are you standing at the bottom of a large, natural sandstone cavern.
+There is a wall next to you that you cannot see over.  Through the gap
+between the platform floor above and the wall you can make out the rain
+of water that ceaselessly pours from the ceiling of the cavern far above.
+The corridor you stand in is waist high in water, restricting your move-
+ments a little.
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You grab the top of the wall and use it to pull yourself up on to the
+platform above.  Luckily you didn't fall!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 77 }
+  to { e, 79 }
+  to { s, 56 }
+  to { 10, 39 }
+    info { secret, hidden, message }
+    keywords { ascend }
+  }
+}
+
+79
+{
+  name { The Yuan-Ti Female Quarters  }
+  desc {
+"   If you are male, then you probably shouldn't be in this room.  It is
+for the female Yuan-Ti only.  And by the looks of things, the mistress of
+the room will have your skin flayed from your body for even peering in!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { w, 78 }
+  }
+}
+
+80
+{
+  name { Entrance to the Whirlpool Arena  }
+  desc {
+"   Welcome to the Whirlpool Arena.  The Yuan-Ti elite use this area for
+entertaining the masses, where the crowds can gather and look down upon
+the arena and cheer for their champions!  There are a set of rules that
+have been chiselled in to the wall here.  It would probably be wise to
+study them!
+  }
+  sector { Flooded_Cave }
+  extra {
+  keywords { rules }
+  desc {
+"
++-----------------------------------------------------------------------+
+|                       THE YUAN-TI WHIRLPOOL ARENA                     |
+|                                                                       |
+|                                 RULES                                 |
+|                                                                       |
+| I     You must defeat the guardian of each room in order to advance!  |
+| II    You can retreat in terror freely from each guardian!            |
+| III   Each guardian is aggressive! You shalt not linger!              |
+| IV    Each victory comes with a reward!                               |
+| V     There will be no coveting of the arena keys! Use or lose!       |
+|       Each key can only be used once!                                 |
+| VI    There are two safe rooms.  There is something special about the |
+|       safe rooms!                                                     |
+| VII   Very brave challengers may take the final test at the end!      |
+|       Your ability to breathe underwater will be tested here!         |
+| VIII  More rules can and will be added at any time!                   |
+| IX    Have fun and die bravely!                                       |
+| X     Touch your Prize Tokens to redeem them!                         |
++-----------------------------------------------------------------------+
+
+" }
+  }
+  flags { no_mob, indoors, no_sum, tunnel, private }
+  exits {
+  to { s, 81 }
+    info { door, closed, autoclose, }
+    keywords { gate }
+  to { w, 68 }
+  }
+}
+
+81
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   The first room of the Yuan-Ti Whirlpool Arena is much the same as all
+the other rooms in this entire complex.  The walls are made of sandstone
+and the floor is submerged under waist high water.  Fighting in this is
+not going to be a barrel of laughs.  It actually promises to be more like
+a barrel of cats.  Really angry cats.  Be careful!  You can retreat back
+to the north with your tail between your legs and a yellow stripe down
+your back, or defeat the challenge in this room to continue east.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { n, 80 }
+  to { e, 82 }
+    key { 114001 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { gate }
+  }
+}
+
+82
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   The second room of the Whirlpool Arena in this Yuan-Ti complex.  The
+cheers from the surrounding balconies above you are loud and raucous.  It
+is almost as if you're proving to be very popular with the crowds.  Much
+like the all the other rooms on this level of the complex, the water level
+is up to your waist.  This is not fun!  You can retreat back to the west
+or defeat the challenge in this room to continue east!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { e, 83 }
+    key { 114002 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { gate }
+  to { w, 81 }
+  }
+}
+
+83
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   Water, water, water.  It comes up to your waist, it restricts your
+movements and it has no positive plus side.  Unless you count your ability
+to urinate without detection?  There is not even a rail or raised platform
+for you to stand on to get your legs out of the wet.  And to make matters
+even worse, you have yet another challenge to overcome!  Although, judging
+by the roar of the crowd above, you're doing well! You can retreat back to
+the west and maybe you won't be called a coward, or defeat the challenge
+in this room to continue north.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { n, 84 }
+    key { 114003 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { gate }
+  to { w, 82 }
+  }
+}
+
+84
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   Welcome to the first safe room in the Whirlpool Arena!  The water in 
+this room is just as high as the rest, but at least you don't have to fight!
+The crowds above you go quiet, as this is a natural point at which to grab
+a half-time snack and find a better place to stand.  You can retreat back
+to the south to the sound of booing, or rest in this room and continue
+north.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar }
+  exits {
+  to { n, 85 }
+  to { s, 83 }
+  }
+}
+
+85
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   Another challenging room in the Whirlpool Arena.  Your progress has by
+now attracted a lot of attention from the Yuan-Ti and visitors to this
+complex alike.  Not many, it seems, reach this point, have your power and
+abilities!  You should be very proud.  You can retreat back to the south
+and lose the admiration of the crowd, or defeat the challenge in this
+room and continue west.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { s, 84 }
+  to { w, 86 }
+    key { 114005 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { gate }
+  }
+}
+
+86
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   The roar of the crowd is so loud it deafens everything else about you.
+The sound silences all.  The water around your waist is as quiet as the
+grave and the challenge in this room will be fought without the ringing
+of steel and the yells of pain that accompany all battles.  You can
+retreat back back to the east, and maybe there will be no shame with how
+far you have come, or you can defeat the challenge in this room and
+continue west.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { e, 85 }
+  to { w, 87 }
+    key { 114006 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { gate }
+  }
+}
+
+87
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   The second safe room!  You made it!  The crowd is loud and rowdy, the
+balconies above you are crowded and full as you're watched.  You do not 
+know  what you will face in the final room but you can be assured that to 
+even  get there is an achievement.  You can leave south-east or run away, 
+back to the east.  The choice is yours!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar }
+  exits {
+  to { e, 86 }
+  to { southeast, 88 }
+  }
+}
+
+88
+{
+  name { The Whirlpool Arena  }
+  desc {
+"   You have reached the final room!  The crowds on the balconies above
+are now silent as all watch you.  The walls of this room are colourful
+mosaics all showing amazing visuals of the Marilith demon that sits at
+the heart of the Whirlpool Arena.  And the final challenge you face!
+There is a locked sluice towards the bottom of one wall where water
+drains away from the arena.
+  }
+  sector { Flooded_Cave }
+  flags { indoors, no_sum, tunnel, private }
+  exits {
+  to { d, 89 }
+    key { 114008 }
+    info { door, closed, locked, pickproof, autoclose, autolock }
+    keywords { sluice grate }
+  to { northwest, 87 }
+  }
+}
+
+89
+{
+  name { In a Submerged Tunnel  }
+  desc {
+"   You are swimming in a submerged cave under the Whirlpool Arena of the
+Yuan-Ti complex.  The water rushing in from the grate above is powerful
+enough to cause you to be pushed along by the current!  The walls here
+are the same sandstone as the Yuan-Ti caverns above, although why this
+place exists out of knowledge seems strange.  You have a bad feeling
+about this!  You can climb back through the grate or continue south.
+  }
+  sector { Submerged_Cave }
+  river { s, 15 }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you south ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, no_mob, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 90 }
+  exits {
+  to { s, 90 }
+  to { 10, 88 }
+    keywords { grate }
+  }
+}
+
+90
+{
+  name { A Submerged Tunnel  }
+  desc {
+"   That foreboding feeling of impending doom is not lifting as the strong
+current drags at you, pleading with you to go south.  The walls of the
+tunnel are still the same sandstone as the main complex, they have even
+been worked by the same tools at the ones above.  Yet, this entire area
+is submerged.  There is something very wrong about all this!  You can
+swim back north or let the current drag you south!
+  }
+  sector { Submerged_Cave }
+  river { s, 15 }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you south ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, no_mob, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 91 }
+  exits {
+  to { n, 89 }
+  to { s, 91 }
+  }
+}
+
+91
+{
+  name { Before the Lair of Buntagonamadon, the Tentacle Monster God  }
+  desc {
+"   You can see that the tunnel opens up in to a large, totally submerged,
+cavern just to the south of here.  There is an ominous, evil feeling that
+permeates the area.  Something terrible lurks just inside.  Something so
+evil that it taints the very water that you swim in.  You can swim back
+to the north, escaping from your swift and merciless death, or let the
+current take you where it will, to glory or death!
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {
+"
+#{cyan}#{bold}. o ( ~~~ the current drags you south-west ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, no_mob, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 92 }
+  exits {
+  to { n, 90 }
+  to { s, 93 }
+  to { southeast, 94 }
+  to { southwest, 92 }
+  }
+}
+
+92
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The walls, ceiling and floor are all
+made of the same chiselled sandstone as the corridors above.  You can
+exit southwest, south, southeast, east or fight the current and head back
+to the northeast and the way out.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you south ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 98 }
+  exits {
+  to { e, 93 }
+  to { s, 98 }
+  to { northeast, 91 }
+  to { southeast, 97 }
+  to { southwest, 99 }
+  }
+}
+
+93
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The ceiling and floor are all made of
+the same chiselled sandstone as the corridors above.  You can exit
+west, south, southwest, southeast, north or fight the current and head
+back to the east.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you south ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 97 }
+  exits {
+  to { n, 91 }
+  to { e, 94 }
+  to { s, 97 }
+  to { w, 92 }
+  to { southeast, 96 }
+  to { southwest, 98 }
+  }
+}
+
+94
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The walls, ceiling and floor are all
+made of the same chiselled sandstone as the corridors above.  You can
+exit southwest, northwest, west, southeast or fight the current and head
+back to the south.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you west ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 93 }
+  exits {
+  to { s, 96 }
+  to { w, 93 }
+  to { southeast, 95 }
+  to { southwest, 97 }
+  to { northwest, 91 }
+  }
+}
+
+95
+{
+  name { An alcove next to the Lair of Buntagonamadon, the Tentacle Monster God  }
+  desc {
+"   You have emerged on to a shelf-like platform that contains a pocket of 
+fresh air.  Well, when I said fresh, it tastes like old farts but as you
+are at least not going to run out of it so for now you can stop holding
+your breath or using magic to survive down here.  There is something in
+this room that feels special.  Like a sense of peace and safety.  Maybe
+this place will help you recover from your trials?
+  }
+  sector { Flooded_Cave }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar, no_mob }
+  exits {
+  to { w, 96 }
+  to { southwest, 102 }
+  to { northwest, 94 }
+  }
+}
+
+96
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The ceiling and floor are all made of
+the same chiselled sandstone as the corridors above.  You can exit
+east, west, southwest, northwest, north or fight the current and head
+back to the south.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you north ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 94 }
+  exits {
+  to { n, 94 }
+  to { e, 95 }
+  to { s, 102 }
+  to { w, 97 }
+  to { southwest, 101 }
+  to { northwest, 93 }
+  }
+}
+
+97
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming in the very centre of a large cavern underneath the
+Yuan-Ti palace complex.  This is no ordinary cavern, filled with fishes
+and crabs.  This is the lair of Buntagonamadon, the Tentacle Monster God!
+You should be careful not to incur his wrath.  The current at the centre
+acts much like the eye of a storm, creating a peaceful swirl of water
+that for once you don't have to fight against.  Were this is not a cave
+submerged in water and filled with a nightmare tentacle god, this would
+be almost pleasant.  You can exit in all directions, except up and down
+as that way is blocked by the chiselled sandstone of the area.
+  }
+  sector { Submerged_Cave }
+  flags { dark, indoors, no_sum, tunnel, private }
+  exits {
+  to { n, 93 }
+  to { e, 96 }
+  to { s, 101 }
+  to { w, 98 }
+  to { northeast, 94 }
+  to { southeast, 102 }
+  to { southwest, 100 }
+  to { northwest, 92 }
+  }
+}
+
+98
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The ceiling and floor are all made of
+the same chiselled sandstone as the corridors above.  You can exit
+west, south, southeast, east, northeast or fight the current and head
+back to the north and the way out.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you south ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 100 }
+  exits {
+  to { n, 92 }
+  to { e, 97 }
+  to { s, 100 }
+  to { w, 99 }
+  to { northeast, 93 }
+  to { southeast, 101 }
+  }
+}
+
+99
+{
+  name { An alcove next to the Lair of Buntagonamadon, the Tentacle Monster God  }
+  desc {
+"   You have emerged on to a shelf-like platform that contains a pocket of 
+fresh air.  Well, when I said fresh, it tastes like old farts but as you
+are at least not going to run out of it so for now you can stop holding
+your breath or using magic to survive down here.  There is a small opening
+in the rock wall here that you might be able to squeeze through... If you
+breath in and wriggle hard!
+  }
+  sector { Flooded_Cave }
+  flags { indoors, tunnel, private, no_sum, no_mob }
+  exits {
+  to { e, 98 }
+  to { northeast, 92 }
+  to { southeast, 100 }
+  to { 10, 122 }
+    keywords { opening }
+    info { secret, hidden, message }
+  }
+}
+
+100
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The walls, ceiling and floor are all
+made of the same chiselled sandstone as the corridors above.  You can
+exit northwest, southeast, east, northeast or fight the current and head
+back to the north and the way out.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you east ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 101 }
+  exits {
+  to { n, 98 }
+  to { e, 101 }
+  to { northeast, 97 }
+  to { southeast, 103 }
+  to { northwest, 99 }
+  }
+}
+
+101
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The ceiling and floor are all made of
+the same chiselled sandstone as the corridors above.  You can exit
+south, east, northeast, north, northwest or fight the current and head
+back to the west.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you east ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 102 }
+  exits {
+  to { n, 97 }
+  to { e, 102 }
+  to { s, 103 }
+  to { w, 100 }
+  to { northeast, 96 }
+  to { northwest, 98 }
+  }
+}
+
+102
+{
+  name { #{red}#{bold}The Lair of Buntagonamadon, the Tentacle Monster God#{o}  }
+  desc {
+"   You are swimming inside a large cavern underneath the Yuan-Ti palace
+complex.  This is no ordinary cavern, filled with fishes and crabs.  This
+is the lair of Buntagonamadon, the Tentacle Monster God!  You should be
+careful not to incur his wrath!  The walls, ceiling and floor are all
+made of the same chiselled sandstone as the corridors above.  You can
+exit northwest, north, northeast, southwest or fight the current and head
+back to the west.
+  }
+  sector { Submerged_Cave }
+  extra {
+  keywords { _teleport }
+  desc {  "
+#{cyan}#{bold}. o ( ~~~ the current drags you north ~~~ ) o .#{o}
+
+" }
+  }
+  flags { dark, indoors, no_sum, tunnel, private }
+  tele { 240, 1, 96 }
+  exits {
+  to { n, 96 }
+  to { w, 101 }
+  to { northeast, 95 }
+  to { southwest, 103 }
+  to { northwest, 97 }
+  }
+}
+
+103
+{
+  name { An alcove next to the Lair of Buntagonamadon, the Tentacle Monster God  }
+  desc {
+"   You have emerged on to a shelf-like platform that contains a pocket of 
+fresh air.  Well, when I said fresh, it tastes like old farts but as you
+are at least not going to run out of it so for now you can stop holding
+your breath or using magic to survive down here.  There is something in
+this room that feels special.  Like a sense of peace and safety.  Maybe
+this place will help you recover from your trials?
+  }
+  sector { Flooded_Cave }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar, no_mob }
+  exits {
+  to { n, 101 }
+  to { northeast, 102 }
+  to { northwest, 100 }
+  }
+}
+
+104
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower northeastern of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 107 }
+  to { w, 105 }
+  to { u, 113 }
+  to { southwest, 106 }
+  to { 10, 40 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+105
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower northern edge of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 104 }
+  to { s, 106 }
+  to { w, 121 }
+  to { u, 111 }
+  to { southeast, 107 }
+  to { southwest, 120 }
+  to { 10, 42 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+106
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower centre of the cavern.   Directly below you
+is the Whirlpool Arena, and flying here gives you a great view of the
+combatants who bravely fight for glory in its mazes.  Maybe that will be
+you one day?  You can fly in to the Arena do a thick, immoveable grate
+that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 105 }
+  to { e, 107 }
+  to { s, 109 }
+  to { w, 120 }
+  to { u, 112 }
+  to { northeast, 104 }
+  to { southeast, 108 }
+  to { southwest, 119 }
+  to { northwest, 121 }
+  }
+}
+
+107
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower eastern edge of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 104 }
+  to { s, 108 }
+  to { w, 106 }
+  to { u, 114 }
+  to { southwest, 109 }
+  to { northwest, 105 }
+  to { 10, 38 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+108
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower southeastern of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 107 }
+  to { w, 109 }
+  to { u, 115 }
+  to { northwest, 106 }
+  to { 10, 36 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+109
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower southern edge of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 106 }
+  to { e, 108 }
+  to { w, 119 }
+  to { u, 110 }
+  to { northeast, 107 }
+  to { northwest, 120 }
+  to { 10, 34 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+110
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper southern edge of the cavern.   Yuan-Ti
+craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 112 }
+  to { e, 115 }
+  to { w, 118 }
+  to { d, 109 }
+  to { northeast, 114 }
+  to { northwest, 117 }
+  to { 10, 8 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+111
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper northern edge of the cavern.   Yuan-Ti
+craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 113 }
+  to { s, 112 }
+  to { w, 116 }
+  to { d, 105 }
+  to { southeast, 114 }
+  to { southwest, 117 }
+  to { 10, 16 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+112
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper centre of the cavern.   Yuan-Ti crafts-
+manship can been seen ever here, where the holes in the ceiling have
+been worked to better allow water to flow in long streams and droplets.
+A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 111 }
+  to { e, 114 }
+  to { s, 110 }
+  to { w, 117 }
+  to { d, 106 }
+  to { northeast, 113 }
+  to { southeast, 115 }
+  to { southwest, 118 }
+  to { northwest, 116 }
+  }
+}
+
+113
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper northeastern corner of the cavern.   Yuan-
+Ti craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { s, 114 }
+  to { w, 111 }
+  to { d, 104 }
+  to { southwest, 112 }
+  to { 10, 18 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+114
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper eastern edge of the cavern.   Yuan-Ti
+craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 113 }
+  to { s, 115 }
+  to { w, 112 }
+  to { d, 107 }
+  to { southwest, 110 }
+  to { northwest, 111 }
+  to { 10, 4 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+115
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper southeastern corner of the cavern.   Yuan-
+Ti craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 114 }
+  to { w, 110 }
+  to { d, 108 }
+  to { northwest, 112 }
+  to { 10, 6 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+116
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper northwestern corner of the cavern.   Yuan-
+Ti craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 111 }
+  to { s, 117 }
+  to { d, 121 }
+  to { southeast, 112 }
+  to { 10, 14 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+117
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying at the upper western edge of the palace cavern.   Yuan-
+Ti craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 116 }
+  to { e, 112 }
+  to { s, 118 }
+  to { d, 120 }
+  to { northeast, 111 }
+  to { southeast, 110 }
+  to { 10, 12 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+118
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the upper southwestern corner of the cavern.   Yuan-
+Ti craftsmanship can been seen ever here, where the holes in the ceiling
+have been worked to better allow water to flow in long streams and drop-
+lets.  A sticky, wet, web-like substance coats the ceiling.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 117 }
+  to { e, 110 }
+  to { d, 119 }
+  to { northeast, 112 }
+  to { 10, 10 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+119
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower southwestern of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 120 }
+  to { e, 109 }
+  to { u, 118 }
+  to { northeast, 106 }
+  to { 10, 32 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+120
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower western edge of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { n, 121 }
+  to { e, 106 }
+  to { s, 119 }
+  to { u, 117 }
+  to { northeast, 105 }
+  to { southeast, 109 }
+  to { 10, 30 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+121
+{
+  name { Flying around the Cavern  }
+  desc {
+"   You are flying in the lower northwestern of the cavern.   Directly
+below you is the Whirlpool Arena, and flying here gives you a great view
+of the combatants who bravely fight for glory in its mazes.  Maybe that
+will be you one day?  You can fly in to the Arena do a thick, immoveable
+grate that prevents access.  You'll have to find another way in.
+  }
+  sector { Air }
+  extra {
+  keywords { _ex10 }
+  desc {
+"
+You gracefully swoop down on to the platform, finding solid ground
+under your feet once more.  That was fun!
+
+" }
+  }
+  flags { indoors, no_sum, tunnel }
+  exits {
+  to { e, 105 }
+  to { s, 120 }
+  to { u, 116 }
+  to { southeast, 106 }
+  to { 10, 44 }
+    info { message }
+    keywords { platform }
+  }
+}
+
+122
+{
+  name { A Musty, Malodorous, Mangy Cave  }
+  desc {
+"   You manage to pull yourself through the opening, and it only once you
+are through that you realise that the smell in here is horrendous!  It is
+as if Bunta has been in here and farted one of those evil, never ending
+guffs that leaves the air smelling worse than the centre of a stinking
+cloud!  Ack!  You can exit back through the opening or you can leave west
+and explore this fetid cave system even more!
+  }  
+  sector { Flooded_Cave }
+  flags { dark, indoors, no_sum, no_mob, peaceful, nosteal, no_magic, private, dispel_magic }
+  exits {
+    to { west, 123 }
+	to { 10, 99 }
+	  keywords { opening }
+	  info { secret, hidden }
+  }
+}
+
+123
+{
+  name { A Dank, Dark, Dreadful Cave  }
+  desc {
+"   The air is horrible, full of rotting fumes from the mushrooms that 
+favour these hideous conditions.  Everything smells like Bunta has been
+farting in here for a century.  Gaaah!  It's like breathing straight
+through the crotch of a zombies' trousers!  And it looks as though some 
+mushrooms really do grow here.  Isn't that nice?
+  }
+  sector { Flooded_Cave }
+  flags { dark, indoors, no_sum, no_mob, peaceful, nosteal, no_magic, private, dispel_magic }
+  exits {
+    to { east, 122 }
+  }	
+}

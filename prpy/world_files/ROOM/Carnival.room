@@ -1,0 +1,1455 @@
+#offset Carnival
+
+0
+{
+  name { The Entrance to the Carnival  }
+  desc {
+"   A dirt road into the carnival continues to the north.  A large banner stands
+over head reading "CARNIVAL".  A red and white striped stand rests beneath the
+left pole of the banner.  A ticket man stands behind the stand and smiles in
+your direction.  You can see a gigantic ferris wheel to the east and a spinning
+carousel to the west.  A huge red and white striped tent lies at the end of
+the dirt road in the distance to the north.  People can be seen everywhere
+walking and enjoying themselves.  Why not join them?
+  }
+  flags { mapable, no_mob, peaceful, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 1 }
+	to { 10, Midgard:72 }
+	  keywords { midgard }
+  }
+}
+
+1
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  The
+huge banner reading "EXIT" can be seen directly to the south.  A hoop toss
+game station can be found directly to the west and the fragrant smell of 
+roasting hot dogs drifts in from the east.  The carnival is brimming with
+fun and excitement.  People can be seen in every direction, laughing, smiling
+and generally enjoying themselves.  A gigantic ferris wheel can be seen to the
+east of the carnival and a spinning carousel can be seen to the west.  A huge
+red and white striped tent lies at the end of the dirt road to the far north.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 4 }
+	to { e, 3 }
+	to { s, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { A Game Station: Hoop Toss  }
+  desc {
+"   A large white sign with red letters reading "Hoop Toss" lies above your head.
+The game looks simple enough.  Several large stuffed animals lie just beyond
+the counter to the west.  You have to toss a hula hoop from here and completely
+encircle one of the animals.  The man behind the counter holds up three large
+hula hoops and smiles in your direction.  Care to take a chance?  The way
+back into the carnival lies to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 1 }
+  }
+}
+
+3
+{
+  name { The Hot Dog Stand  }
+  desc {
+"   A large white sign with red letters reading "HOT DOGS" hangs above your head.
+A homely looking woman half-smiles as you approach the stand.  The smell of
+roasting hot dogs is so overwhelming that your mouth starts to salivate
+uncontrollably.  The need to purchase one of the delectable treats almost
+compulsively forces you to reach for your coins.  You could always turn to the
+west and go back into the carnival.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 1 }
+  }
+}
+
+4
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  The
+huge banner reading "EXIT" can be seen a little ways to the south.  The sweet
+smell of sugary cotton candy drifts in from the west.  *THOCK*  Looking to 
+the east, you can see someone throwing all sorts of weapons at a wooden wall.
+*THOCK*  That looks rather dangerous!  Better continue along further into
+the carnival.  A gigantic ferris wheel can be seen to the east of the carnival
+and a spinning carousel can be seen to the west.  A huge red and white striped
+tent lies at the end of the dirt road to the far north.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 7 }
+	to { e, 6 }
+	to { s, 1 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { A Cotton Candy Stand  }
+  desc {
+"   A large white sign with red letters reading "Cotton Candy" hangs above your
+head.  The sweet, sugary smell of cotton candy floats all through the air.
+You find yourself drifting slowly towards the counter to get a closer look.
+The pudgy man behind the counter is hard at work preparing the next batch of
+tasty treats.  He looks up and smiles at you, noticing the drool dripping from
+your lips.  The path through the carnival lies directly to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 4 }
+  }
+}
+
+6
+{
+  name { The Weapon Toss Show  }
+  desc {
+"   *THOCK*  The sound immediately jars you as you walk into the weapon toss
+show.  A dangerous looking man stands towards the southeast of the room and
+lets out a little grin as he notices you jump.  There is a large wooden wall
+leaning up against the northern part of the carnival stand.  Circles of
+varying size are painted into the wood, almost like a bulls-eye target.
+*THOCK*  The man lets out a short chuckle, content that he made you jump again.
+A fully stocked rack of weapons lies along the southern part of the carnival
+stand.  The man swiftly walks over to the stand, pulls out a gigantic axe and
+dramatically hurls it at the wooden wall.  *THOCK*  The way back into the
+carnival lies to the west.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 4 }
+  }
+}
+
+7
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north, south, east and
+west.  The huge banner reading "EXIT" can be seen a little ways to the south.
+A gigantic ferris wheel can be seen to the east of the carnival and a spinning
+carousel can be seen to the west.  People can be seen everywhere walking, 
+talking and enjoying themselves.  The sweet and delectable smells of the
+carnival food can be smelled drifting through the air.  A huge red and white
+striped tend lies at the end of the dirt road to the far north.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 16 }
+	to { e, 12 }
+	to { s, 4 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the east and west.  People
+walk around the path laughing, talking and generally enjoying themselves.  The
+pleasant smell of the different carnival foods drift all through the air.  A 
+spinning carousel can be seen on the west side of the carnival.  A gigantic
+ferris wheel can be seen on the opposite side of the carnival to the east.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 7 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the east.  A huge spinning
+carousel lies directly to the north.  The line into the ride does not seem that
+long!  The ball toss game station lies directly to the south.  You can hear
+the station attendant calling you over to play from here.  People are walking
+all through the carnival, laughing and enjoying the beautiful day.  A gigantic
+ferris wheel can seen in the distance at the far east side of the carnival.  The
+top of a giant red and white striped tent can be seen towards the northern
+end of the carvnival.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 10 }
+	to { e, 8 }
+	to { s, 11 }
+  }
+}
+
+10
+{
+  name { Entrance to the Carousel  }
+  desc {
+"   A large and spinning carousel slowly goes about its way to the northwest.
+There are quite a few people enjoying the ride.  The are many fun and unusual
+seats to sit on.  You can see dragons, horses, skexies, gelflings, githyankis
+and hyenas.  Something for every child and adult!  The ticket taker is a 
+slovenly pig and does not even want to take your ticket.  Picking his nose,
+he points to the gate and grunts.  How rude!  The way back into the carnival
+can be seen to the south.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { s, 9 }
+	to { northwest, 43 }
+	  key { 6601 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+  }
+}
+
+11
+{
+  name { A Game Station: Ball Toss  }
+  desc {
+"   A large white sign with red letters reading "Ball Toss" lies above your head.
+The game looks simple enough.  Several large, slim necked bottles like just
+beyond the counter to the south.  You have to toss a ball into the neck of the
+bottle and hope it goes all the way in.  The man behind the counter smiles and
+holds up three red balls for you to take.  Care to take a chance?  The way
+back into the carnival lies to the north.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 9 }
+  }
+}
+
+12
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the east and west.  People
+walk around the path laughing, talking and generally enjoying themselves.  The
+pleasant smell of the different carnival foods drift all through the air.  A
+gigantic ferris wheel can be seen just a little ways to the east.  The top
+of a huge red and white striped tent can be seen in the distance to the north.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 13 }
+	to { w, 7 }
+  }
+}
+
+13
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the west.  A gigantic
+rotating ferris wheel lies directly to the north.  The line into the ride
+does not seem that long!  The dart toss game lies directly to the south.
+You can hear the dart station attendant calling you over to play from here.
+People are walking all through the carnival, laughing and enjoying the
+beautiful day.  The top of a spinning carousel can be seen in the distance
+to the far west of the carnival.  The red and white striped top of a giant
+tent can be seen towards the northern end of the carnival.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 15 }
+	to { s, 14 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { A Game Station: Dart Throw  }
+  desc {
+"   A large white sign with red letters reading "Dart Throw" lies above your
+head.  This game does not look easy in the least.  A large wooden board lies
+at the back of the booth to the south.  There is a large bulls-eye painted on
+the board with dozens and dozens of circles inside, leading to a small dot
+in the center.  Each of the circles provides a certain prize, but with how
+thin the distance between the circles are, it will probably be impossible
+to get the prize you want.  The woman behind the counter smiles and offers
+you several sharp darts.  Care to take a chance?  They way back into the 
+carnival likes to the north.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 13 }
+  }
+}
+
+15
+{
+  name { Entrance to the Ferris Wheel  }
+  desc {
+"   The path through the carnival continues to the south.  A gigantic steel
+ferris wheel towers above you.  It rotates slowly in a clock-wise direction.
+The cages that contain carnival patrons rock and sway with each rotation of
+the giant wheel.  The screams and laughter of the riders get you excited
+for the next ride.  The yawning ticket taker stops the ride and points to
+the locked cage, suggesting you should unlock it.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 47 }
+	  key { 6602 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+	to { s, 13 }
+  }
+}
+
+16
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  A
+giant red and white striped tent lies at the end of the path in the distance
+to the north.  A huge banner reading "EXIT" can barely be seen to the
+far south of the carnival.  The smell of powdered sugar and fresh, fried
+dough drifts in from the east.  The sounds of laughter and excitement can
+be heard from the carnival booth to the west.  Carnival patrons walk up
+and down the path, enjoying all that the carnival has to offer.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 40 }
+	to { e, 41 }
+	to { s, 7 }
+	to { w, 42 }
+  }
+}
+
+17
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south. A
+giant red and white striped tent lies at the end of the path in the distance
+to the north.  The smells of hot roasting peanuts drifts in from the carnival
+booth to the east.  The sounds of laughter and joy can be heard directly to
+the west.  There looks like there is plenty of action and movement coming from
+that booth.  It might be fun to check it out!
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 20 }
+	to { e, 19 }
+	to { s, 40 }
+	to { w, 18 }
+  }
+}
+
+18
+{
+  name { The Clown Show  }
+  desc {
+"   A gigantic stage lays towards the back of this carnival booth to the west.
+There are several clowns performing all over the stage.  The clowns are
+each performing something different from the other, it is difficult to keep
+your eyes on just one thing.  They certainly seem to be having fun!  The
+path through the carnival lies directly to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 17 }
+  }
+}
+
+19
+{
+  name { A Hot Peanut Stand  }
+  desc {
+"   A large white sign with red letters reading "Hot Nuts" hangs above your
+head.  The aromatic smell of peanuts roasting fills the air like a thick cloud.
+You find yourself drifting slowly towards the counter to order something.
+There is a steel grill behind the counter with a thin, wrinkled piece of
+metal on top of it.  An unusually tall and skinny man stands behind the
+grill, roasting the peanuts over the open fire.  He smiles at you as you
+approach the counter.  The path through the carnival lies directly to the
+west.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 17 }
+  }
+}
+
+20
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  A
+giant red and white striped tent lies at the end of the path in the distance
+to the north.  The sounds of balloons popping can be heard coming from the
+carnival booth to the east.  A loud *DING* bell sound can be heard coming
+from the carnival booth to the west.  What is happening on there?  A gigantic
+rotating ferris wheel can be seen to the southeast on the outskirts of the
+carnival and the top of a spinning carousel can be seen to the southwest on
+the other side of the carnival.  Carnival patrons walk up and down the dirt
+path, laughing, talking and generally enjoying themselves.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 23 }
+	to { e, 22 }
+	to { s, 17 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { A Game Station: Strength  }
+  desc {
+"   A large white sign with red letters reading "Strength" hangs above your
+head.  The game looks simple enough.  A weight is attached to a giant pole
+towards the back of the carnival booth to the west.  The weight rests just
+above a sandbag.  You must take the strongman's hammer and slam the sandbag
+as hard as you can.  If you are strong enough, you will ring the bell at the
+top of the pole and win a prize.  Care to take a chance?  The path through
+the carnival can be found to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 20 }
+  }
+}
+
+22
+{
+  name { A Game Station: Balloon Pop  }
+  desc {
+"   A large white sign with red letters reading "Balloon Pop" lies above your
+head.  The game looks simple enough.  A large wooden board lies at the back of
+the booth to the east.  There are small balloons of different colors attached
+to the wooden board, probably thirty or so.  The goal is to pop certain colors
+in order to obtain certain prizes.  The man behind the counter smiles and
+offers you several sharp darts.  Care to take a chance?  The way back into
+the carnival lies to the west.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 20 }
+  }
+}
+
+23
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  A
+giant red and white striped tent lies at the end of the path just a little
+ways to the north.  The smells and sounds of the carnival drift through the
+air.  The excitement of the carnival patrons is electrifying.  You can see
+people walking up and down the dirt path, laughing, talking and enjoying
+themselves.  A gigantic rotating ferris wheel can seen to the southeast on
+the outskirts of the carnival and the top of a spinning carousel can be
+seen to the southwest on the other side of the carnival.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 24 }
+	to { s, 20 }
+  }
+}
+
+24
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  A
+giant red and white striped tent lies at the end of the path just a little
+ways to the north.  A shiny light reflects in from the carnival booth to the
+west.  What could be in there?  You hear the crowd to the east making some
+gasps and screams.  There must be something interesting going on in there.
+The smells and sounds of the carnival drift through the air like a cloud.
+You breath them in with joy and continue on your way through the paths.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 27 }
+	to { e, 25 }
+	to { s, 23 }
+	to { w, 26 }
+  }
+}
+
+25
+{
+  name { The Contortionist's Show  }
+  desc {
+"   A tarp suddenly closes over the top of this carnival booth, bringing darkness
+to the entire room.  A spotlight shines on the stage against the eastern wall.
+A pale blue ball rolls out on stage and stop directly in the middle of the
+spotlight.  The ball begins to spin in place, rotating faster and faster.  It
+stops abruptly, and something begins to rise from the top of the ball.  The
+something appears to be an arm, as the fingers unfold and wave to the crowd.
+One by one, appendages unravel from the ball and stretch themselves to full
+length.  The contortionist jumps up and lands with arms raised in the air. The
+crowd roars in delight and amazement.  The path through the carnival can be
+found directly to the west.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { Entrance to the House of Mirrors  }
+  desc {
+"   The entrance to the house of mirrors is a gate towards the back west of
+this carnival booth.  The gate is covered with mirrors of all shapes and sizes
+that are reflecting the sun in your face.  You can see a key slot directly in
+the middle of the gate, which must allow access to the house of mirrors.  The
+crazy looking cock-eyed attendant points to the key hole and continues to
+stare at you with a creepy intentness.  Maybe you should avoid this attraction!
+The path through the carnival lies directly to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 24 }
+	to { w, 51 }
+	  key { 6600 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+  }
+}
+
+27
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival ends at the gate to the red and white
+striped bigtop.  The gate seems to have a key hole right in the center.  It
+is just begging to be unlocked.  The roar of the crowd inside can be heard
+from there.  There must be something very special happening in there!  You
+better hurry up and get in there.  Looking out to the south, you can see
+over the entire carnival from here.  The bigtop must be at the top of a 
+small hill.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 28 }
+	  key { 6603 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { s, 24 }
+  }
+}
+
+28
+{
+  name { The Entrance to the Bigtop  }
+  desc {
+"   The bigtop opens up to the north.  There are large bleachers to the east
+and west.  It looks like you can climb into the bleachers easily from here
+and enjoy the show.  Looking to the north, you can see some action in the 
+center ring.  Lions and tigers and bears, oh my!  The gate leading to the
+carnival blocks your way to the south.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 31 }
+	to { e, 29 }
+	to { s, 27 }
+	  key { 6603 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { w, 30 }
+  }
+}
+
+29
+{
+  name { A Tall Section of Bleachers  }
+  desc {
+"   The wooden bleachers go all the way from the floor of the bigtop to the top
+of the giant tent.  They are full of people having the time of their life and
+enjoying the show.  There does not appear to be a bad seat from anywhere.  You
+can see all three of the floor rings and have a clear shot of the trapeze act.
+Uh oh, it looks like the show is about to start!
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 32 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { A Tall Section of Bleachers  }
+  desc {
+"   The wooden bleachers go all the way from the floor of the bigtop to the top
+of the giant tent.  They are full of people having the time of their life and
+enjoying the show.  There does not appear to be a bad seat from anywhere.  You
+can see all three of the floor rings and have a clear shot of the trapeze act.
+Uh oh, it looks like the show is about to start!
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 33 }
+	to { e, 28 }
+  }
+}
+
+31
+{
+  name { Standing in the Center Ring  }
+  desc {
+"   All of the spotlights in the bigtop are honed in on the center ring.  This
+is where all the action is.  You can tell that every eye in this place is 
+staring directly at you!  Looking up, you can see the trapeze artist dancing
+through the air.  Where is her net?  The ring master is too busy with a
+fierce looking tiger to notice that you are taking his spotlight.  You better
+run before he sees you!
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 32 }
+	to { s, 28 }
+	to { w, 33 }
+  }
+}
+
+32
+{
+  name { Standing in the East Ring  }
+  desc {
+"   You are almost unnoticed in this part of the bigtop.  Every eye in this
+building seems to be focused on the center ring.  There are rising wooden
+bleachers directly to the south, full of patrons watching the circus.  The
+ring master and a deadly looking tiger are squaring off in the center ring.
+Better not get too close to them!  A large pole sticks out from the ground
+here and goes all the way to the top of the tent.  Rungs are clipped every
+few feet along the pole so that someone could climb to the top.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { s, 29 }
+	to { w, 31 }
+	to { u, 35 }
+  }
+}
+
+33
+{
+  name { Standing in the West Ring  }
+  desc {
+"   You are almost completely unnoticed in this part of the bigtop.  Every eye
+in this place seems to be focused on the center ring.  There are rising
+wooden bleachers directly to the south, full of patrons watching the circus.
+A large gray elephant is tied up directly to the north.  The ring master and
+a deadly looking tiger are squaring off in the center ring.  Better not get
+too close to them!  A large pole sticks out of from the grounds here and
+goes all the way to the top of the tent.  Rungs are clipped every few feet
+along the pole so that someone could climb up and down.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 31 }
+	to { s, 30 }
+	to { u, 34 }
+  }
+}
+
+34
+{
+  name { Climbing Along the Trapeze Pole  }
+  desc {
+"   The long and thick pole goes all the way from the ground up to the top of
+the tent.  There are rungs every few feet that allow easy goings up and down
+the pole.  The platform before the trapeze is just a few feet further up.
+The rings of the circus lie directly below you.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { u, 37 }
+	to { d, 33 }
+  }
+}
+
+35
+{
+  name { Climbing Along the Trapeze Pole  }
+  desc {
+"   The long and thick pole goes all the way from the ground up to the top of
+the tent.  There are rungs every few feet that allow easy goings up and down
+the pole.  The platform before the trapeze is just a few feet further up.
+The rings of the circus lie directly below you.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { u, 36 }
+	to { d, 32 }
+  }
+}
+
+36
+{
+  name { High Above the Bigtop  }
+  desc {
+"   The platform at the top of the bigtop looks out over the entire circus.  It
+would probably be a deadly fall from here.  You can see out over the entire
+circus.  The circus patrons seem to be having the time of their life.  Their
+cheers are reaching all the way up here.  The trapeze swings lie directly to
+the west.  It is probably best to avoid them and climb back down the pole.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _ex3 }
+	desc {  You grab the trapeze bar and go flying into the air! 	}
+  }
+  exits {
+	to { w, 39 }
+	  info { message }
+	to { d, 35 }
+  }
+}
+
+37
+{
+  name { High Above the Bigtop  }
+  desc {
+"   The platform at the top of the bigtop looks out over the entire circus.  It
+would probably be a deadly fall from here.  You can see out over the entire
+circus.  The circus patrons seem to be having the time of their life.  Their
+cheers are reaching all the way up here.  The trapeze swings lie directly to
+the east.  It is probably best to avoid them and climb back down the pole.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _ex1 }
+	desc {  You grab the trapeze bar and go flying into the air! 	}
+  }
+  exits {
+	to { e, 38 }
+	  info { message }
+	to { d, 34 }
+  }
+}
+
+38
+{
+  name { Flying Through the Air  }
+  desc {
+"   OMG! This is so scary!  One hand slip and you will definitely wind up
+splattered on the floor or food for the tiger.  Either way, the crowd is bound 
+to cheer.  The other trapeze bar is swinging back towards you, it is a good
+time to grab it and swing on!  You could always be a wimp and go back to the
+platform to the west.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _ex3 }
+	desc {  Whew! You finally reach the platform and safety. 	}
+	keywords { _teleport }
+	desc { 
+Swinging through the air, you grab desperately for the next trapeze bar.
+	}
+  }
+  tele { 5, 0, 39 }
+  exits {
+	to { w, 37 }
+	  info { message }
+  }
+}
+
+39
+{
+  name { Flying Through the Air  }
+  desc {
+"   OMG! This is so scary!  One hand slip and you will definitely wind up
+splattered on the floor or food for the tiger.  Either way, the crowd is bound 
+to cheer.  The other trapeze bar is swinging back towards you, it is a good
+time to grab it and swing on!  You could always be a wimp and go back to the
+platform to the east.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _ex1 }
+	desc {  Whew! You finally reach the platform and safety. 	}
+	keywords { _teleport }
+	desc { 
+Swinging through the air, you grab desperately for the next trapeze bar.
+	}
+  }
+  tele { 5, 0, 38 }
+  exits {
+	to { e, 36 }
+	  info { message }
+  }
+}
+
+40
+{
+  name { A Path Through the Carnival  }
+  desc {
+"   The dirt path through the carnival continues to the north and south.  A
+giant red and white striped tent lies at the end of the path in the distance
+to the north.  A huge banner reading "EXIT" can barely be seen to the far
+south of the carnival.  There is a gigantic rotating ferris wheel to the
+east of the carnival and a large spinning carousel to the west of the
+carnival.  The carnival patrons walk, run and laugh all through the streets.
+Everyone is having such a great time.  The wonderful smells of the carnival
+fill the air, making your stomach rumble in hunger.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 17 }
+	to { s, 16 }
+  }
+}
+
+41
+{
+  name { The Fried Dough Stand  }
+  desc {
+"   A large white sign with red letters reading "Fried Dough" hangs above your
+head.  The powdered sugar and fried dough smell is so intoxicating that you
+find yourself uncontrollably approaching the counter.  A man dripping in 
+sweat stands over a hot oil pot, watching his latest concoction cook to
+completion.  Looking up from his work, he smiles and brings the amazing smelling
+treat to the counter.  He lifts the powdered sugar jar and begins to shake is
+all over the delectable snack.  The path through the carnival lies directly
+to the west.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 16 }
+  }
+}
+
+42
+{
+  name { The Juggling Show  }
+  desc {
+"   A large platform lies to the back of the carnival booth to the west.  A
+young man with a thick goatee walks across the stage, flipping playing cards
+into the air and catching the between two fingers.  He tosses one, then three,
+then ten, and all of a sudden it looks as though he is juggling the entire
+deck of cards.  The cards disappear with a *POOF* as you draw closer to the
+stage.  The juggler steps towards you and kneels down towards the end of the
+stage.  Extending his hands towards you, he shines a bright smile and closes
+his fists.  The path through the carnival lies directly to the east.
+  }
+  flags { mapable, no_mob, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 16 }
+  }
+}
+
+43
+{
+  name { Around the Carousel  }
+  desc {
+"   The carousel continues to spin round and round.  There are many people
+sitting on the perfectly rendered seats and enjoying themselves.  The seats
+look so life like that they almost seem like they are moving.  You start
+to get sick as you watch the carousel continue its motion.  Hopefully the
+ride will end soon.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { northeast, 44 }
+	to { southeast, 10 }
+	  key { 6601 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { northwest, 45 }
+  }
+}
+
+44
+{
+  name { Around the Carousel  }
+  desc {
+"   The carousel continues to spin round and round.  There are many people
+sitting on the perfectly rendered seats and enjoying themselves.  The seats
+look so life like that they almost seem like they are moving.  You start
+to get sick as you watch the carousel continue its motion.  Hopefully the
+ride will end soon.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { southwest, 43 }
+	to { northwest, 46 }
+  }
+}
+
+45
+{
+  name { Around the Carousel  }
+  desc {
+"   The carousel continues to spin round and round.  There are many people
+sitting on the perfectly rendered seats and enjoying themselves.  The seats
+look so life like that they almost seem like they are moving.  You start
+to get sick as you watch the carousel continue its motion.  Hopefully the
+ride will end soon.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { northeast, 46 }
+	to { southeast, 43 }
+  }
+}
+
+46
+{
+  name { Around the Carousel  }
+  desc {
+"   The carousel continues to spin round and round.  There are many people
+sitting on the perfectly rendered seats and enjoying themselves.  The seats
+look so life like that they almost seem like they are moving.  You start
+to get sick as you watch the carousel continue its motion.  Hopefully the
+ride will end soon.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { southeast, 44 }
+	to { southwest, 45 }
+  }
+}
+
+47
+{
+  name { Inside the Ferris Wheel Cage  }
+  desc {
+"   The ferris wheel starts up with a jump as the iron cage closes and locks.
+The cage slowly lifts into the air and you get to look out all over the
+carnival.  The ground slowly gets further and further away.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  tele { 15, 1, 48 }
+}
+
+48
+{
+  name { Inside the Ferris Wheel Cage  }
+  desc {
+"   The ferris wheel cage rocks and sways as it continues to go up into the
+air.  You quickly grab a seat so that you do not fall onto the floor.  You
+can see the entire carnival from here.  The people walking through the
+carnival are starting to look like ants on the ground.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  tele { 15, 1, 49 }
+}
+
+49
+{
+  name { Inside the Ferris Wheel Cage  }
+  desc {
+"   The ferris wheel cage rocks and sways as it reaches the apex of the ride.
+Looking out to the west, you can see out all over the carnival.  Looking out
+to the east, the entire city of Midgard spreads out before you.  This is 
+quite a wonder to behold.  The ride quickly continues on its way.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  tele { 15, 1, 50 }
+}
+
+50
+{
+  name { Inside the Ferris Wheel Cage  }
+  desc {
+"   The ferris wheel cage rocks and sways as it continues along its way.  The
+walls surrounding Midgard are now to high to see out over the city.  What
+a shame.  The ground is getting closer, the ride must be coming to an end.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  tele { 15, 1, 63 }
+}
+
+51
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The room is immediately disorienting.  All you can see is your reflection
+to the north, south, east and west.  It looks like there is no way out of this
+place.  Just as you start to panic, one of the mirrors begins to shift.  It
+looks like your face splits in two.  What is happening?
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _teleport }
+	desc { 
+The mirrors begin to shift and you feel as though you are in another room.
+	}
+  }
+  tele { 20, 0, 52 }
+  exits {
+	to { e, 26 }
+	  key { 6600 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+  }
+}
+
+52
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The hallway through the house of mirrors continues to the north and west.
+You can see people walking all through the attraction in the mirror reflections.
+It is strange because there are no people directly in front, to the side or
+around you.  They must be further along in the house of mirrors.  This place
+is extremely disorienting.  You'll be lucky to find yourself!  Maybe if you
+sit here long enough someone will find you.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _teleport }
+	desc { 
+The mirrors begin to shift and you feel as though you are in another room.
+	}
+  }
+  tele { 120, 1, 51 }
+  exits {
+	to { n, 53 }
+	to { w, 54 }
+  }
+}
+
+53
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The hallway through the house of mirrors continues to the north and south.
+It is difficult to tell which way you are going with all these mirrors.  You
+have to walk with your hands out in front of you in fear that you may smack 
+into a mirrored wall.  You see someone waving at you to your west.  Walking
+to them instinctively, you bang your face right into a mirror.  This place
+sucks!
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 55 }
+	to { s, 52 }
+  }
+}
+
+54
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The hallway through the house of mirrors continues to the east, south
+and northwest.  It is difficult to tell which way you are going with all
+these mirrors.  You have to walk with your hands out in front of you
+in fear that you may smack your face into a mirrored wall.  You can see
+reflections of people walking all throughout the attraction.  They seem to
+be as lost as you are.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { e, 52 }
+	to { s, 57 }
+	to { northwest, 58 }
+  }
+}
+
+55
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   It is getting difficult to ascertain exactly which way the hallways are
+going.  You have to walk with your hands out in front of you in fear that
+you may smack your face into a mirrored wall.  You can see people walking
+all through the attraction, but it does not look like any of them are close
+to you.  This place is extremely disorienting, good luck getting out of here.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { s, 53 }
+	to { w, 56 }
+  }
+}
+
+56
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The mirrors start to shift as you enter the room.  It looks like your body
+is splitting into a million pieces.  You immediately grasp behind you to the
+east, only to find there is no mirror there.  That direction might be a good
+place to escape.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _teleport }
+	desc { 
+The mirrors begin to shift and you feel as though you are in another room.
+	}
+  }
+  tele { 10, 0, 52 }
+  exits {
+	to { e, 55 }
+  }
+}
+
+57
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   Reaching your hands out to touch the mirrors, you can feel that the
+hallways through the house of mirrors continue to the north and south.  It
+is difficult to tell which way you are going with all these mirrored walls.
+You can see carnival patrons walking all throughout this attraction.  They
+look even more lost than you do!  Maybe you should help them get out, if
+you could only find an exit.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { n, 54 }
+	to { s, 60 }
+  }
+}
+
+58
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The mirrors start to shift as you enter the room.  It looks like your body
+is splitting into a million pieces.  You immediately grasp behind around you
+and find no mirrors to the southeast and northwest.  Those might be good 
+directions to escape to.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _teleport }
+	desc { 
+The mirrors begin to shift and you feel as though you are in another room.
+	}
+  }
+  tele { 10, 0, 52 }
+  exits {
+	to { southeast, 54 }
+	to { northwest, 59 }
+  }
+}
+
+59
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   It is getting difficult to ascertain exactly which way the hallways are
+going.  You have to walk with your hands out in front of you in fear that
+you may smack your face into a mirrored wall.  You see someone directly
+into front of you and they flip you the bird.  Running to beat some sense
+into them, you smash your face right into a mirror.  How rude!
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { southeast, 58 }
+  }
+}
+
+60
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   The mirrors start to shift as you enter the room.  It looks like your body
+is splitting into a million pieces.  You immediately grasp around you and find
+no mirrors to the north and northwest.  Those might be good directions to
+escape to.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  extra {
+	keywords { _teleport }
+	desc { 
+The mirrors begin to shift and you feel as though you are in another room.
+	}
+  }
+  tele { 10, 0, 54 }
+  exits {
+	to { n, 57 }
+	to { northwest, 61 }
+  }
+}
+
+61
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"  It is getting near impossible to ascertain exactly which way the hallways
+are going.  You have to walk with your hands out in front of you in fear that
+you may smack your face into a mirrored wall.  This place is extremely
+disorienting, good luck getting out of here.  You can see other carnival
+patrons making their way through the maze of mirrors.  They looks even more
+lost than you do.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { southeast, 60 }
+	to { northwest, 62 }
+  }
+}
+
+62
+{
+  name { A Hallway in the House of Mirrors  }
+  desc {
+"   It appears that the only way out of this room is to the southeast.  You
+throw your hands out and try to touch the walls to see exactly which exit
+is real.  This place is so disorienting that you just want to sit down and 
+cry.  Looking in the mirror at the other patrons, it looks like some of
+them are doing just that.  You can't give up now.  There must be a way
+out of here.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { southeast, 61 }
+  }
+}
+
+63
+{
+  name { Inside the Ferris Wheel Cage  }
+  desc {
+"   The ferris wheel cage comes to a jumpy halt as the ride comes to its
+conclusion.  This would be a great time to unlock the cage and leave.  You
+might be stuck for another ride if you do not leave soon.  Hurry!  The
+ferris wheel attendant does not seem very attentive in the least.
+  }
+  flags { mapable, fast_mana, fast_hit_points, fast_moves }
+  tele { 15, 1, 48 }
+  exits {
+	to { s, 15 }
+	  key { 6602 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+  }
+}
+
+64
+{
+  name { 259064  }
+  desc { Empty   }
+}
+
+65
+{
+  name { 259065  }
+  desc { Empty   }
+}
+
+66
+{
+  name { 259066  }
+  desc { Empty   }
+}
+
+67
+{
+  name { 259067  }
+  desc { Empty   }
+}
+
+68
+{
+  name { 259068  }
+  desc { Empty   }
+}
+
+69
+{
+  name { 259069  }
+  desc { Empty   }
+}
+
+70
+{
+  name { 259070  }
+  desc { Empty   }
+}
+
+71
+{
+  name { 259071  }
+  desc { Empty   }
+}
+
+72
+{
+  name { 259072  }
+  desc { Empty   }
+}
+
+73
+{
+  name { 259073  }
+  desc { Empty   }
+}
+
+74
+{
+  name { 259074  }
+  desc { Empty   }
+}
+
+75
+{
+  name { 259075  }
+  desc { Empty   }
+}
+
+76
+{
+  name { 259076  }
+  desc { Empty   }
+}
+
+77
+{
+  name { 259077  }
+  desc { Empty   }
+}
+
+78
+{
+  name { 259078  }
+  desc { Empty   }
+}
+
+79
+{
+  name { 259079  }
+  desc { Empty   }
+}
+
+80
+{
+  name { 259080  }
+  desc { Empty   }
+}
+
+81
+{
+  name { 259081  }
+  desc { Empty   }
+}
+
+82
+{
+  name { 259082  }
+  desc { Empty   }
+}
+
+83
+{
+  name { 259083  }
+  desc { Empty   }
+}
+
+84
+{
+  name { 259084  }
+  desc { Empty   }
+}
+
+85
+{
+  name { 259085  }
+  desc { Empty   }
+}
+
+86
+{
+  name { 259086  }
+  desc { Empty   }
+}
+
+87
+{
+  name { 259087  }
+  desc { Empty   }
+}
+
+88
+{
+  name { 259088  }
+  desc { Empty   }
+}
+
+89
+{
+  name { 259089  }
+  desc { Empty   }
+}
+
+90
+{
+  name { 259090  }
+  desc { Empty   }
+}
+
+91
+{
+  name { 259091  }
+  desc { Empty   }
+}
+
+92
+{
+  name { 259092  }
+  desc { Empty   }
+}
+
+93
+{
+  name { 259093  }
+  desc { Empty   }
+}
+
+94
+{
+  name { 259094  }
+  desc { Empty   }
+}
+
+95
+{
+  name { 259095  }
+  desc { Empty   }
+}
+
+96
+{
+  name { 259096  }
+  desc { Empty   }
+}
+
+97
+{
+  name { 259097  }
+  desc { Empty   }
+}
+
+98
+{
+  name { 259098  }
+  desc { Empty   }
+}
+
+99
+{
+  name { 259099  }
+  desc { Empty   }
+}

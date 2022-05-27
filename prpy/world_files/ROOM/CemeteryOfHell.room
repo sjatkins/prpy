@@ -1,0 +1,1925 @@
+#offset CemeteryOfHell
+
+0
+{
+  name { The Decrepit Fountain  }
+  desc {
+"   An ancient stone fountain lies empty of any water, crumbling 
+into dust from years of neglect and decay.  The once detailed and
+beveled edges of the fountain are now rounded from the constant 
+exposure to the elements and time.  In the center of the fountain
+is the remains of a statue, a once majestic winged angel transformed
+into something hideous and twisted.  Thick layers of dust and grime
+coat the entire structure, as thick viscous webs cling to its many
+jagged surfaces.  The fine detail that once decorated this fountain
+has long since been obscured with the passing of the ages.
+  }
+  extra {
+	keywords { statue angel }
+	desc { 
+Once this pure white marble statue showed a glorious winged angel,
+her arm outstretched with a flaming sword in preparation for battle.
+Over time, the statue has decayed and transformed into something more
+base and hideous, its once fine features twisted in a dark parody of
+what the sculptor originally intended, something horrible to the 
+imagination, a nightmarish antithesis of the once inspiring beauty
+and tranquility.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { s, 15 }
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { A Cobbled Pathway  }
+  desc {
+"   A worn and decrepit road of cobbled stone branches from the
+fountain.  The stones that compose the road have been worn smooth
+from the passing of time and the exposure to the elements.  A fine
+grey dust clings to the stones, settling in a fine blanket over the
+road.  Thick gnarled branches litter one side of the path, tied into
+a bundle of deadwood.  A thick fetid odor is carried on the passing
+wind, a constant reminder of the passing mortality housed within
+these stone walls.
+  }
+  extra {
+	keywords { deadwood bundle branches }
+	desc { 
+A thick bundle of fallen deadwood lies to the side of the cobbled
+stones, tied together with heavy rough twine.
+	}
+  }
+  sector { Road }
+  flags { dark, indoors, no_sum, mapable }
+  exits {
+	to { n, 2 }
+	to { e, 0 }
+  }
+}
+
+2
+{
+  name { The Darken Woods  }
+  desc {
+"   The misshapen and blackened trees that decorate the road, reach
+their gnarled and twisted branches toward the pathway.  Their cursed
+and flame-blasted trunks seemingly warped in a perverse parody of a 
+long and agonising scream that endures for all eternity.  The land is
+barren of any vegetation, the ground hard and cracked save for these
+bitter trees reaching vainly towards the meandering trail that makes
+its way through its depths.  A thick and heavy odor is carried on the
+wind, as an utter still silence fills the air.
+  }
+  extra {
+	keywords { trees }
+	desc { 
+The hulks of the trees are twisted by flames, blackened and scarred
+for ages past.  Their long clawing and twisted branches reach vainly
+toward the path, seeking vengeance for deeds long ago.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { s, 1 }
+	to { northwest, 3 }
+  }
+}
+
+3
+{
+  name { A Barren Plateau  }
+  desc {
+"   A small desolate wasteland borders the dark and twisted copse
+of fire ravaged trees.  The stark plateau is devoid of any living
+vegetation, as the earth below is dry and cracked from lack of 
+tending and caring for years gone by.  The withered remains and
+dry husks of plants are brittle, crumbling into dust and blowing 
+away with the gentle wind.  A sparse pile of boulders litters one
+edge of the barren fields, and opposite them are two small care
+worn buildings ravaged by time and neglect.  Thick bundles of
+dried cured branches lie off to the side of one of the buildings,
+as a faint dirt path meanders through the bleak plateau, finally
+coming to rest at these two buildings.
+  }
+  extra {
+	keywords { boulders pile }
+	desc { 
+Upon closer examination, this small pile of boulders is in reality
+the remains of a granite statue.  Once it was the statue of a proud
+regal woman, dressed in fineries.  Years of neglect and exposure to
+the harsh elements has reduced it to a smattering of rocks, as only
+the lower part of the woman and base remains.
+	}
+	keywords { buildings shed hearth }
+	desc { 
+Upon passing through the barren fields, the two buildings
+appear to be the hearth and tool shed for the caretaker of
+the graveyards.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 5 }
+	  info { door, autoclose }
+	  keywords { shed }
+	to { w, 4 }
+	  info { door, closed, autoclose }
+	  keywords { hearth }
+	to { southeast, 2 }
+  }
+}
+
+4
+{
+  name { The Caretaker's Hearth  }
+  desc {
+"   A warm glowing fire basks its radiance on this sparsely decorated
+room, shedding its light from a simple hearth.  An unadorned pine 
+desk rests along the far wall, a small pile of books lying on its
+surface.  A matching chair of the same light wood has a huge spun
+cotton cushion on it, a vivid blue color that is reminiscent of the
+azure sky on a sunlight day.  The bed is formed from a dark chestnut
+coloured wood, the headboard carved in simple designs.  A tattered 
+rug of woven wool rests in the center of the room, dyed in a handful
+of muted colors.  A brass lantern of intricate design rests on a 
+dark hook by the door, above some scattered tools in a wrought iron
+bucket of sand.
+  }
+  extra {
+	keywords { books }
+	desc { 
+On the desk are a few books on gardening and horticulture, as well
+as other subjects pertaining to the caretaker's life.
+	}
+	keywords { lantern brass }
+	desc { 
+On an iron wrought hook is a polished brass lantern worked in the 
+design of a small dragon, a contrast between light and darkness.
+	}
+  }
+  flags { indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 3 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+5
+{
+  name { The Caretaker's Shed  }
+  desc {
+"   The old wooden walls of the tool shed are run down and worm eaten,
+warped from decades of the shifting extremes from the fleeting seasons.
+A faint howling from the passing winds runs through the decrepit roof,
+sending a rattling tremor throughout the shed.  Despite the horrendous
+appearance of the shed, the gardening tools are meticulously clean and
+well cared for.  Their bright clean metal edges gleam sharply, as the
+faint light reflects off the thin layer of glistening oil.  The pungent
+smell of clove oils wafts throughout the shed, from the oil soaked rags
+that rest on the rough hewn work table.  Sharpening stones and small
+ceramic jars of clove oil litter the surface of the table, as a bucket
+of clean white sand lies to its side.
+  }
+  extra {
+	keywords { jars clove oil }
+	desc { 
+Small ceramic jars containing clove oil are placed next to a pile
+of rags on the rough hewn table.  The oil is used after cleaning 
+the tools to prevent rusting and pitting of the metalwork.
+	}
+	keywords { bucket sand }
+	desc { 
+A rusted iron bucket filled with clean white sand rests at the edge
+of the table.  The pristinely kept smaller tools are placed in the
+sand to prevent rusting due to the exposure to moisture.
+	}
+  }
+  flags { indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { s, 3 }
+	  info { door, autoclose }
+	  keywords { door }
+  }
+}
+
+6
+{
+  name { A Foreboding Entrance  }
+  desc {
+"   A pair of huge rusted iron wrought gates lies twisted and
+shattered beyond repair, barely clinging to their hinges.  The
+once finely detailed and worked gates are slowly decaying, the
+former proud dark iron giving way to a crimson blood-like rust as
+time passes by.  A faint wind blows across the gates, causing
+them to tremble in their tentative moorings, a long mournful
+cry, full of despair and longing, that echoes and then fades
+into an unearthly silence beyond.  The faint wet smell of 
+freshly unsettled earth mixes together with the sharp tang of
+decay that hangs in the thick fog-laden air enclosed within
+these stone and mortar walls.  The once proud walls that 
+surrounded the area are also decaying, some of them sprouting
+holes in their previously impervious bodies and some of them
+merely crumbling into dust.
+  }
+  extra {
+	keywords { gates iron }
+	desc { 
+Huge shaped iron wrought gates once stood proud to the testament
+of time, however eternity is forever and the once proud gates are
+starting to decay.  Their once black surface, filigreed with silver,
+has begun to fade and warp, turning a crimson blood color as time
+passes on.
+	}
+  }
+  flags { dark, no_mob, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 7 }
+	to { 10, Midgard:544 }
+	  keywords { gate }
+  }
+}
+
+7
+{
+  name { The Decrepit Trail  }
+  desc {
+"   An ancient trail spans from the shattered and rusted gates, and
+continues deeper within these enclosed walls.  Numerous statues of
+grotesque imagination line the tops of the walls, and peer for all
+eternity into the horizon, waiting till the end of time.  The trail 
+itself is free of debris, yet there are many leering and gaping 
+holes within.  Thick heavy dust settles on everything, despite the
+constant low winds.  The cloying scent of death and decay permeates
+the air, mixed with the smell of upturned earth.
+  }
+  extra {
+	keywords { gargoyles statues }
+	desc { 
+A multitude of basalt statues line the top of the walls, gargoyles
+of horrific imagination.  Each of these are different yet vaguely
+unsettling in their mannerisms, staring patiently for all eternity.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 8 }
+	to { s, 6 }
+  }
+}
+
+8
+{
+  name { The Landing  }
+  desc {
+"   The crumbling remains of a carved sculpture stand in the center of
+the landing, huge chunks of weathered marble surrounding the base of
+this once proud statue.  A gentle constant wind stirs the thin layer
+of pulverised marble, sending it into twirling eddies of white-gray
+dust.  The cobbled stones are worn smooth to the touch, and faintly
+reflect the light cast upon them.  The faint odor of death and decay
+fills the air, as a languishing mournful cry pierces the silence.
+  }
+  extra {
+	keywords { statue remains }
+	desc { 
+The shattered remains of an angelic statue, carved from fine
+marble stands in the center of this cobbled landing.  The once
+proud angel is nothing more than a pile of marble chunks that
+surrounds a large square base.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 9 }
+	to { e, 28 }
+	to { s, 7 }
+	to { southwest, 19 }
+  }
+}
+
+9
+{
+  name { The Graveyard  }
+  desc {
+"   Rows upon rows of upright headstones litter the field ahead,
+their carved granite surface so weathered down from the passing
+of time and exposure, that the information on them has long since  
+been obliterated.  Many of the stones are crumbling or shattered,
+the withered remains of long dead flowers covering many of the 
+graves.  The grass covering the plots has a sickly brown tinge
+to it, and the wind gently blows the desiccated remains away.
+The faint cloying stench of death filters in the air above,
+a clinging reminder of mortality.  All is silent except for the
+rustling of the grass in the wind, and the crumbling from the
+ancient stone markers.
+  }
+  extra {
+	keywords { headstones }
+	desc { 
+Ancient headstones mark the plots of the deceased, a testament
+to the honoured dead.  However, the markings on the stones and 
+many of the engraved designs are gone or illegible due to the
+elements and the passing of time.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 10 }
+	to { s, 8 }
+  }
+}
+
+10
+{
+  name { The Graveyard  }
+  desc {
+"   Many more graves line the fields ahead, their tombstones sprouting
+out of the ground like stone fingers, grasping wantonly in the land 
+above.  The grass and other vegetation have withered to light brown
+husks, devoid of all life.  Flowers and wreaths that once decorated 
+the tombs have withered away to dust, scattered to the winds.  Most
+of the tombstones are shattered and crumbled, and those that remain
+are worn down and illegible, their once sharp edges long dulled by
+the passing of time.  Silence fills the air enclosed within the walls
+of the graveyard, as the constant fetid reminder of death hangs on
+the passing wind.
+  }
+  extra {
+	keywords { tombstones }
+	desc { 
+The tombstones stretch as far as the horizon, constant reminders
+of mortality and how fleeting life is.  Their stony outcroppings
+stretch heavenwards, as if in a constant for something for all of
+eternity.  Many of the grave markers are shattered and crumbled, 
+giving the illusion a more grotesque and horrific appearance.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { s, 9 }
+	to { northeast, 16 }
+	to { northwest, 11 }
+  }
+}
+
+11
+{
+  name { The Graveyard  }
+  desc {
+"   The withered remains of small animals lie scattered all across
+the graves, their bodies devoid of all life and fluids.  These dry
+remains are nothing more than bits of fur and bone, and sometimes
+considerably less.  The larger skeletons have bones that are gnawed
+upon or that have been split asunder and the dark marrow within is
+missing.  The stench of death and rot fills the air surrounding the
+graves, as a bitter chill carries on the wind.  The world around is
+silent, as crimson eyes stare with hatred from the dark underbrush.
+  }
+  extra {
+	keywords { bones }
+	desc { 
+The bones of many numerous animals are scattered all across the
+graves.  They are nothing more than limp bodybags of bone and
+fur, and sometimes just empty bags of skin.  Many of the bones
+from the larger animals have deep triangular incisions set in a
+close pattern, as if something was gnawing on it with great vigor
+and enthusiasm.  Other bones, especially the larger long ones are
+broken  open, their jagged edges and inner cavity meticulously 
+clean of the dark marrow.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 12 }
+	to { southeast, 10 }
+  }
+}
+
+12
+{
+  name { The Graveyard  }
+  desc {
+"   Many of the graves seem to have been uprooted, the dark wet
+dirt piled to one side of each grave.  Many of the old decrepit
+headstones have been defaced or outright destroyed, shattered 
+into many pieces.  The decaying remains of empty coffins lay
+strewn all around the graveyard, thick mildew and rot eating
+away at their wooden surfaces.  Thick bones, split asunder, 
+lay all around the graveyard, empty of any marrow.  Within the
+heavy moist soil surrounding each of the upturned grave lie many 
+different prints and tracks.  Tiny little eddies of wind blow
+fragments of rotting cloth into small tight circles, coming to 
+rest gently on the grass.
+  }
+  extra {
+	keywords { prints tracks }
+	desc { 
+There is a chaotic turmoil of conflicting prints: tracks of animals
+such as claws and hooves, steady plodding of heavy feet, and even 
+marks of straight lines as if something heavy has been dragged in
+the wet soil.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 13 }
+	to { e, 11 }
+	to { s, 27 }
+  }
+}
+
+13
+{
+  name { The Graveyard  }
+  desc {
+"   The fields are unusually green and vibrant, the dull brown and
+withered grass and vegetation that inhabit the other parts of the
+graveyard seem to spring to life here.  The graves are in neat and
+orderly rows, the headstones have been repaired and cleaned.  Yet
+there is the strong stench of death and decay that lingers in the 
+air, constantly worsening in its intensity.  Faint reverberating
+echoes break the still silence, undeterminable in nature and always
+present.  Small scurrying forms race in the background, glowing
+crimson eyes staring back with hatred, along the borders of light.
+  }
+  extra {
+	keywords { forms }
+	desc { 
+Small quick forms dart back and forth along the edge of light.  
+Crimson blood eyes, glowing with absorbed light, stare back at
+you with hatred filled eyes.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { s, 12 }
+	to { northwest, 14 }
+  }
+}
+
+14
+{
+  name { The Courtyard  }
+  desc {
+"   A long paved courtyard of smooth cobblestones is adjoined to 
+the fields of the graveyard.  Large grotesque statues cover the
+four corners, globes of light eternal held in their claws.  Thick
+lichen covers the statues, as a heavy carpet of blue-green moss
+blankets the stones below.  A small granite bench with reliefs
+carved into its sides decorates each side of the courtyard, a 
+crimson rust crawling up its surface.  Thick puffs of yellow dust
+cloud the air ahead, mixing with the constant smell of rot and
+death.  Silence hangs over the courtyard, the echoes of faint 
+footfalls and some other indiscernable sounds breaking the quiet.
+  }
+  extra {
+	keywords { statues }
+	desc { 
+"   Large statues of horrific and grotesque imagination decorate the
+four corners of the courtyard, winged being of indescribable horror.
+Within their long sharp claws are perfect crystal globes of pure
+white light that shed their luminescence on this colourful scene.
+	}
+  }
+  flags { indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 15 }
+	to { southeast, 13 }
+  }
+}
+
+15
+{
+  name { The Old Courtyard Annex  }
+  desc {
+"   This old annexed part of the courtyard is devoid of all life and
+color.  Nothing alive seems to exist or flourish within these walls,
+not even the dried remains of vegetation or empty husks of animals.
+Only the barren cracked surface of stone from the undecorated walls
+and hideous statues decorate this enclosed space.  The reflection 
+of light from the multi-coloured moss and lichens of the courtyard
+proper, barely spills within this walled area.  The smell of decay
+fills the air, far fainter than anywhere else within this graveyard.
+A quick clattering sound fades into gentle silence, as if something
+scuttles across a stone floor that echoes from beyond.
+  }
+  extra {
+	keywords { statues }
+	desc { 
+More grotesque and twisted statues decorate the four corners
+of the courtyard annex.  The walls that enclose this annex are
+free of decorations, but seem to complement the twisted winged
+horrors of stone that stand in their edges.
+	}
+  }
+  flags { indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 0 }
+	to { e, 14 }
+  }
+}
+
+16
+{
+  name { The Bed of Flowers  }
+  desc {
+"   Closely set graves are placed in neat orderly rows, the headstones
+and markings of each grave like small alert soldiers in formation.  The
+headstones are pristinely clean and well cared for, their chiseled edges
+are crisp and sharp, and the writing is easily legible on them.  The 
+grass is well tended and cut short, a vibrant healthy emerald green that
+contrasts significantly with the death within these stone walls.  In the 
+center of the graves, a bed of faded pink tulips, deep purple irises, 
+lush red roses, and bright yellow marigolds is planted, a host of vivid
+colors on a background of emerald.  A lone statue of pure marble stands
+alone to one edge of the graves, watching over them for eternity.
+  }
+  extra {
+	keywords { statue angel }
+	desc { 
+A pure white marble statue of a vigilant angel, wings spread out in
+full glory with her arm outstretched with a flaming sword, watches 
+over the graves for eons past.
+	}
+  }
+  flags { no_mob, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 17 }
+	to { southwest, 10 }
+  }
+}
+
+17
+{
+  name { The Ancient Oak Tree  }
+  desc {
+"   An ancient oak tree spreads its vast canopy of lush green leaves 
+over these graves, shading them from the blazing sun during the day.
+Its thick heavy trunk is gnarled from time, yet healthy and alive, a
+rich dark brown color full of life.  On the surface of the trunk are
+small carvings and remembrances to the honoured dead, cherished ones
+lost but loved.  Intricately detailed stone benches are placed under
+the tree, their edges and surface worn smooth from years of use.  A
+small garden of different coloured tulips, roses, irises, carnations,
+marigolds, babys breath, and other flowers give the graves a vibrant
+splash of colors.  A gentle blowing wind rustles the flowers, sending
+their beautiful scents up into the air, lingering and mixing and then
+slowly fading away.
+  }
+  extra {
+	keywords { oak tree }
+	desc { 
+A huge ancient oak spreads its long branches full of thick leaves
+over the graves, throwing shade upon them during the day.  It is
+full of vibrant life, having stood the test of time for eons upon
+eons.  Small carvings decorate its surface, adding to something to
+its life, a sense of purpose.
+	}
+	keywords { carvings remembrances }
+	desc { 
+Within the surface of the thick oak tree are numerous small carvings
+and inscriptions, remembrances to those long dead but honoured and not
+forgotten.  Little sentiments of love lost or cherished, friendships
+eternal, and others decorate its surface for the rest of time.
+	}
+  }
+  flags { no_mob, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 16 }
+	to { southeast, 18 }
+  }
+}
+
+18
+{
+  name { The Duck Pond  }
+  desc {
+"   The gentle winds blow across this pond, sending tiny ripples
+across its placid surface.  An assorted selection of different 
+types of flowers and colors rustles gently in the wind, the 
+sweet scent is thrown into the air and lingers there.  A tranquil
+feeling fills the air, as the thin willow trees bend gently
+and bob in the wind.  A thick growth of reeds grows along the
+shore of the pond, flashes of speckled blue coming from their
+long thin masses.  The silence is shattered by the occasional
+sounds of feathers flapping and splashing, as the ducks chase
+each other playfully across the water.
+  }
+  extra {
+	keywords { reeds }
+	desc { 
+Hidden within the reeds along the tranquil pond are large duck
+eggs.  They are nestled near the shoreline, their white surface
+mottled with dark speckles of blue.
+	}
+  }
+  flags { no_mob, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { s, 30 }
+	to { northwest, 17 }
+  }
+}
+
+19
+{
+  name { The Graveyard  }
+  desc {
+"   A host of freshly dug graves stretches across the surface of
+the small hillock, the field of slightly withered green is broken
+up by the fresh dark wet loam piled next to the rectangular cut
+holes in the earth.  The smell of rich wet earth fills the air,
+mixing with a slight tinge of cloying decay, noticeable only as
+the gentle winds stop blowing.  A few scattered tools lie near
+the newly dug graves, their handles worn smooth from years of
+use, their metal heads slowly being eaten away by a thick coat
+of rust.  A still silence fills the air, being broken only by
+the flapping of distant wings.
+  }
+  extra {
+	keywords { tools }
+	desc { 
+Scattered all around these freshly dug graves are a few tools.
+They are well worn and old, smooth to the touch from years of
+constant use.  They were once magnificent tools, but they have
+fallen into a state of disrepair.  Their once steel forged and
+sharpened heads are coated in a thick decaying rust, as a wet
+rot crawls its way up the wooden handle.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 20 }
+	to { northeast, 8 }
+  }
+}
+
+20
+{
+  name { The Graveyard  }
+  desc {
+"   The thick stone walls enclosing the graveyard can be seen in
+the distance, their grotesque and twisted sculptures watching all
+movement within the unhallowed walls.  Thick and twisted ivy and
+brambles crawl along their surface, entangling the statues on top,
+pulling them down in an eternal struggle of vegetation and stone.
+Huge plots of grass, once a healthy emerald green, fade away to
+a more putrid yellow, a fine layer of rot coating the tips of
+each blade.  A sickly smell fills the air, blown on the gentle
+winds that seem to begin and die within these cursed walls of
+evenly cut stone.  Thick shadows grow and thicken to near darkness,
+a dark inky void seemingly swallowing all within its path.
+  }
+  extra {
+	keywords { statues sculptures statue }
+	desc { 
+Along the thick walls of evenly cut stone in the distance, are 
+an army of twisted gargoyles.  Carved from the minds of horror
+and twisted imagination, they are being overrun from the thick
+growths of ivy and brambles that climb up the walls' surface. 
+One can almost imagine the constant struggle between the two,
+the grasping pull of the vegetation below and the constant and
+eternal resistance of the stone to stave off its destruction.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 25 }
+	to { e, 19 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { The Graveyard  }
+  desc {
+"   Numerous graves litter the hillock, their headstones raised up
+from the ground, like tiny fingers stretching toward the sky in an
+eternal search.  The tomb markings are weathered and worn, their 
+once fine chiseled edges beveled smooth to the touch and the carved
+writings are near illegible.  Fine cracks mar the surface of each
+headstone, spreading out in a spiderweb pattern and engulfing the
+entire stone.  The grass has withered away and crumbles to dust,
+fading in the wind.  Shadows spawn into being and elongate, the
+hill and its subsequent graves swallowed into near darkness as a
+lingering stench of rot and decay cling to the air.
+  }
+  extra {
+	keywords { headstones }
+	desc { 
+Once finely carved headstones decorated the hillock, marking 
+carefully each of the graves.  As time passed, the fine edges
+have been worn smooth and the writing became obliterated.  As
+with all things subjected to the ravages of time, even stone
+starts to decay and break down, hairline cracks marring the 
+surface of each stone.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 20 }
+	to { southwest, 22 }
+  }
+}
+
+22
+{
+  name { The Graveyard  }
+  desc {
+"   Huge choking weeds grow rampantly across the hillside, their 
+grasping tendrils covering the graves from sight.  Occasional
+headstones make their way through the surface, glimpses of dark
+grey stone in a vast field of withered brown.  The thick and
+tangled underbrush covers the entire hill, except for a thin
+pathway burned clean through its depths.  The trail meanders
+through the choking mass, a thick layer of gray ash along its
+surface.  The sickly smell of sulfur clings to the air, mixed
+with the distinct scent of death.  The shadows move their way
+slowly along the creeping surface, turning to a deep darkness
+that is all encompassing.
+  }
+  extra {
+	keywords { shadows }
+	desc { 
+The shadows have an almost tangible feel, engulfing all that
+they come across.  As the shadows progress along the hillock,
+they seem to change to an utter darkness and recedes, only to
+begin the cycle anew.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 23 }
+	to { northeast, 21 }
+  }
+}
+
+23
+{
+  name { The Graveyard  }
+  desc {
+"   Many of the graves have been excavated and pilfered, the wooden
+remains of simple coffins littered across the hill.  Thick piles of
+wet heavy soil lies on top of the withered remains of grass, as the
+glinting of small metal objects reflect back from the churned soil. 
+The soil has taken on a crimson hue, akin to blood or a deep dark
+rust, slowly spreading across the hillside.  Yellowed bones from 
+the long deceased lie scattered and mixed together, the putrid 
+remnants of their clothes and personal affair decaying further 
+with the exposure to the moist air.  The heavy stench of rot and
+decay fill the air, engulfing the hill in its sickly pallor.  A
+deep shadow lengthens across the graves, its dark fingers grasping
+at the remains lying scattered across the ground.
+  }
+  extra {
+	keywords { bones soil }
+	desc { 
+Ancient bones, yellow with age, lie scattered across the ground.
+The crimson soil is piled high, as many of the graves are looted,
+the remains of trinkets and other objects of little value mixed
+with the earth.  The deep red of the soil seems to leech further
+into the ground, turning the withered remains of the grass a 
+muted hue similar to that of dried blood.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 22 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { The Graveyard  }
+  desc {
+"   A lone candle defies the wind, staying constantly lit despite
+the gentle gusts.  The candle lies atop a large carved monument of
+pure marble, meticulously clean except for the drippings of melted
+wax.  A circular garden of snapdragons, mandrakes, and nightshade 
+all grow around the monument, their dark colors a contrast to the
+vibrant emerald of the luxurious lawn of grass surrounding it.  A
+faint sweet scent from these flowers fills the air, a cloying 
+reminder of the deadliness of this beautiful garden, constantly
+lingering in the chill air for hours.  The shadows surround the
+monument, but can not penetrate the circle, held at bay by the
+lone candle.  Not a single sound penetrates the veil of silence
+that pervades this hallowed monument.
+  }
+  extra {
+	keywords { monument }
+	desc { 
+A finely carved monument of a pure white marble, in the shape of 
+a large rectangular base.  Atop the base is a group of statues,
+a mix of adventurers bold and true that have seen and survived
+much, only to succumb to the cold grasp of death.
+	}
+  }
+  flags { indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 23 }
+  }
+}
+
+25
+{
+  name { The Graveyard  }
+  desc {
+"   A thin layer of blue-green moss creeps its way up the headstones
+of these graves.  The faintly luminescent glow pierces the shadows
+that linger constantly on the old trail.  The headstones are in good
+repair, but well worn from age.  Within each of the inscriptions on 
+the headstones, a crimson moss has sprouted, the writings glowing a 
+faint blood red color visible to all.  A haunting quality lingers in 
+the air, a reminder of mortality and inescapable death, and the utter
+futility of it all.  The gentle wind rustles through the emerald fields
+of grass, a small wave of motion in the utter stillness.  A faintly
+sweet, sickly odor is carried on the breeze, from elsewhere and fades
+away, nothing but a passing memory.
+  }
+  extra {
+	keywords { headstones }
+	desc { 
+This unusual part of the graveyard has headstones that are covered
+in a bluish-green moss that envelopes its entire stony surface.  The
+inscriptions and carvings on the stone reminders have filled with a
+deep crimson colored moss, its glow penetrating the constant struggle
+with shadows that pervades this unhallowed ground.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 26 }
+	to { s, 20 }
+  }
+}
+
+26
+{
+  name { A Cobbled Pathway  }
+  desc {
+"   A long pathway of evenly cut stone marks the areas between
+the separate parts of the graveyard.  It traverses the hillocks
+and fields, through the lawns of emerald grass and through the
+withered remains of dying brown.  Along its edge are flowers of
+dark hues, marking the path from the rolling hills of graves.  A
+gentle wind blows past, sending the vegetation into a wave of
+motion, stirring up the gentle scents to mix with the lingering
+death that pervades these walls.
+  }
+  extra {
+	keywords { flowers }
+	desc { 
+Numerous dark hued flowers line the edge of the path, making
+a clear distinction between the trail and the fields of graves
+just beyond, a transitional road that borders on vibrant life
+and cold death.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 27 }
+	to { s, 25 }
+  }
+}
+
+27
+{
+  name { The Graveyard  }
+  desc {
+"   The lush green grass has gradually faded to a yellow pallor, 
+the flowers that decorate the many graves are dried and withered,
+turning to a light dust that blows away with the wind.  Many of
+the headstones here are broken and cracked, tiny fine spiderwebs
+crawling along its stony surface.  A few of the grave markers 
+have been toppled and shattered, defaced memories of the long
+cherished dead.  Twisted and fire-burnt trees reach their long
+tendril-like branches towards the graves, a homage to the dead.
+The gnarled and horrific trunks are warped to resemble a face,
+screaming in horror for eternity in sheer and utter silence.
+  }
+  extra {
+	keywords { trees }
+	desc { 
+These trees have been burnt and twisted by magic, tortured
+remnants of the unholy war within these walls.  Long reaching
+branches complement the horror of the gnarled trunks, for 
+within its hulk is a face twisted by pain and suffering, a
+long wailing cry that no one shall ever hear.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 12 }
+	to { s, 26 }
+  }
+}
+
+28
+{
+  name { The Graveyard  }
+  desc {
+"   The hillocks are bare and unused, except for a few freshly dug 
+graves.  A lush field of long emerald green grass grows along the
+sides of the hill, the background for a lush and vibrant canvas,
+splotches of colors and life as wildflowers grow quickly in these
+fertile grounds.  Shadows hover and cling tenaciously along the 
+edges of the field, grasping for a constant hold.  A gentle wind
+rustles the grass and flowers, sending pollen and the sweet scent
+of the flowers into the air.  A tranquil silence hangs above this
+lush field, as a moment of foreboding whispers on the wind.
+  }
+  extra {
+	keywords { wildflowers flowers }
+	desc { 
+A pallete of many vibrant colors, rich and alive, dot the emerald
+green grass. Wildflowers of every kind and hue span the side of the
+hill, bringing wonderment at how such warm life can exist in this
+place of cold death.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 29 }
+	to { w, 8 }
+  }
+}
+
+29
+{
+  name { The Graveyard  }
+  desc {
+"   Much of this fertile field of green has been left untouched,
+except for a few spots where there have been graves recently dug
+and the dead recently interred.  The grass is long and lush, a
+vibrant green decorated with spots of color from a scattering of
+wildflowers.  A handful of tools lay around the new graves, their
+wooden handles wet and slowly rotting, their steel forged heads
+thick with a layer of crimson rust, faint holes and pitting in
+the surface of the steel.  A solemn wind blows by, sending the
+grass and flowers into motion, rocking gently to and from in a 
+gentle wave.  The sweet scent of the flowers and grass is marred
+only by a faint sickly smell, the beginnings of rotting flesh.
+The shadows thicken and coagulate along the surface of the hills,
+as a strange silence fills the air.
+  }
+  extra {
+	keywords { tools }
+	desc { 
+These fine tools have begun to decay slowly.  Their once steel forged
+and sharpened heads have a thick crimson layer of rust on them, that
+eats slowly away at its surface, causing pits and holes to appear on 
+its once smooth exterior.  The smooth sanded handle that has been worn
+by age and use, has a thin layer of wood rot on it, consuming it and
+converting it to a pulpy mass.  Like many things within these walls,
+it has fallen into a state of decay and rot.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { A Branching Trail  }
+  desc {
+"   The wide stone trail that leads its way through the hills and past
+the newly dug graves, branches off into different directions.  On the
+northern most trail, the pathway changes to a gradual sloping set of
+steps that leads down to the tranquil duck pond, the faint sound of
+the wind whispering through the reeds, mixes together with the gentle
+splashing sounds of water.  The other trail continues onto a paved
+pathway that leads up a winding road to a structure off in the far
+distance.  Small willowy trees and a colourful garden of flowers are
+planted along the edge of the roads, bending and swaying gently in
+the passing wind.
+  }
+  extra {
+	keywords { trees flowers }
+	desc { 
+Small willow-like trees and a garden bed full of colourful vibrant
+flowers decorate the edges of the trails, bringing color and life
+to this place of death.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 18 }
+	to { w, 29 }
+	to { northeast, 31 }
+  }
+}
+
+31
+{
+  name { A Paved Trail  }
+  desc {
+"   A simple paved trail leads away from the branched road, leading
+on to a foreboding building in the distance.  The road is smooth and
+free of any decoration, in good repair with little or no cracks. Tiny
+shoots of green sprout from those few cracks that exist, reaching 
+upwards in their quest for life.   To the side of the road are a few
+oak trees, throwing their vast shadows onto the path.  Small delicate
+flowers of red and purple are planted in a circle around the trees, 
+and a few wildflowers have sprouted here and there.  The sweet smell
+of all the flowers mixes together with the earthy aroma of the oak,
+bringing an illusion of tranquility and nature in this place.
+  }
+  extra {
+	keywords { trees }
+	desc { 
+Thick oaken trees are planted alongside the road, to bring shade to
+it and protect from the elements.  Their trunks are a rich earthy
+brown, as their leaves are a vibrant green, seemingly glowing in
+the collecting deep shadows.
+	}
+	keywords { flowers wildflowers }
+	desc { 
+A host of color sprout alongside this path, from the circle pattern
+of planted flowers around the oak trees to the mild scattering of 
+wildflowers next to the trail.  Their sweet perfume mixes with the
+earthen scent of the trees, a gentle reminder of life and nature.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 32 }
+	to { southwest, 30 }
+  }
+}
+
+32
+{
+  name { A Winding Pathway  }
+  desc {
+"   A smooth pathway of inlaid stone blocks, winds its way around the
+hill, past the graves and the constant reminder of death.  Ancient
+oak trees spread their gnarled trunks on the side of the road, their
+huge lush green canopies casting shade onto the path.  A constant
+chill wind blows across the fields, sending the grass into waves of
+motion, as the tips of each blade whiten with frost.  Vibrant and
+colourful flowers start to lose their hue, and fade away to nothing,
+as the shadows deepen and elongate along the path.
+  }
+  extra {
+	keywords { flowers }
+	desc { 
+The once vibrant flowers start to fade, their hues becoming more
+and more muted, as the flowers wither and die at an alarming pace.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 31 }
+	to { northeast, 33 }
+  }
+}
+
+33
+{
+  name { A Winding Pathway  }
+  desc {
+"   A brisk wind, tinged with cold, blows across the fields adjacent
+to the winding road as it meanders through its depths.  The thick 
+old oaken trees that line the path have a heavy layer of pure white
+frost on them, the leaves withering and falling to the ground, leaving
+skeletal branches overhead.  The once brightly coloured flowers start
+to fade, their hues becoming muted, pale shadows of their former selves,
+as they start to wither and decay.  A sickly fetid odor fills the
+air, the stench of decay and death that is carried on the wind.  The
+once smooth paved road of inlaid stone starts to crack and shatter, as
+a network of hairline fractures spreads across the path.
+  }
+  extra {
+	keywords { flowers }
+	desc { 
+The once beautiful flowers are tinged with a heavy coat of frost. 
+Their vibrant colors fading away till it is but a pale hue of its
+original self.  Over the span of a few minutes, the flowers fade
+even further, withering to a dull brown and dying, decaying into
+dust that carries away on the wind.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { e, 34 }
+	to { southwest, 32 }
+  }
+}
+
+34
+{
+  name { A Winding Path  }
+  desc {
+"   From the vantage point of the road, there is a dark and foreboding
+building off in the near distance.  The winding road that leads up to
+it is shattered, lying in many pieces.  Thick layers of cobweb hang
+from the gnarled and twisted oak trees, covering the rapidly dying
+and fading flowers.  The oak trees spread their skeletal branches
+upwards toward the sky, reaching and yearning for more.  The flowers
+have faded and died, quickly disintegrating into a fine dust that
+carries away on the brisk cold wind.  Thick layers of frost cover 
+the trunks of these trees, making them appear to be like ancient
+men screaming in agony.  Heavy shadows lengthen alongside the road,
+stretching hungrily toward it.
+  }
+  extra {
+	keywords { oak trees tree }
+	desc { 
+The oaken trees have been bent and twisted by dark magic, their once
+beautiful forms perverted into these skeletal monstrosities.  Their
+canopies, once full and lush with leaves, are now nothing more than
+thin skeletal branches reaching towards the sun.  Their thick trunks 
+are covered in frost, giving the appearance of some ancient wizened
+men screaming in eternal agony and pain.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { w, 33 }
+	to { southeast, 35 }
+  }
+}
+
+35
+{
+  name { A Winding Pathway  }
+  desc {
+"   The winding road is broken and uneven, the once smooth inlaid 
+cobblestone path lies shattered beyond repair. Layers of fragmented  
+stone, rest upon each other, making footing treacherous.  A thick 
+layer of frost, from the cold biting winds covers the pathway, 
+blanketing it in an icy grave.  The oaken trees are nothing more 
+than empty skeletal shells, stretching their dead branches toward 
+the sky.  Their trunks are twisted in agony and perverted by magic, 
+with imagined faces on them twisted in agony and terror.  Pure and 
+utter silence hangs in the still air, as if waiting.
+  }
+  extra {
+	keywords { trees oak }
+	desc { 
+The oaken trees are nothing but shattered shells, skeletal branches
+reaching heavenwards for reprise.  Their trunks resemble horrific
+faces, screaming in pain and terror, staring at you with their 
+hollowed eyes in fear.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { northeast, 36 }
+	to { northwest, 34 }
+  }
+}
+
+36
+{
+  name { A Winding Pathway  }
+  desc {
+"  The winding trail continues on, the shattered stones heavily
+layered in thick ice and frost.  At the end of the road is a huge
+and foreboding building, ancient and rickety by all appearances.
+All that remains of the once mighty oaken trees that lined the
+pathway are hollowed out skeletal shells, their empty branches
+scattered about the dead trunk in disarray.  The biting winds 
+have stopped, but the after-effects of their work can be seen
+as everything is blanketed in thick white.  Along the trail is
+a statue that has been partially shattered, covered in thick 
+frost as to distort its imagery.
+  }
+  extra {
+	keywords { building }
+	desc { 
+Off in the distance is an ancient and decrepit building, falling 
+into disrepair, as the bare rotted wood and broken windows can be
+seen.  The building is huge and slightly foreboding, a dark aura
+seeming to emanate from its walls.
+	}
+	keywords { statue }
+	desc { 
+A large winged statue of a nude demoness is carved from basalt and
+stands by the side of the trail.  The statue is perverted and twisted,
+no place in this realm of the cherished dead.  She wields a crimson
+stained sword and has an expression of defiance and hate on her face,
+beautiful and horrid at the same time.  A thick layer of ice covers
+her, twisting the imagery even more.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 37 }
+	to { southwest, 35 }
+  }
+}
+
+37
+{
+  name { The Mausoleum Entrance  }
+  desc {
+"   Huge ancient pillars line the porch of the mausoleum, long and
+slightly warped, seeming to be on the verge of falling down.  A
+set of huge iron doors with bronze fittings is covered in layers of
+thick crimson rust, deep heavy scratches gouging its pitted surface.
+The paint has faded long ago, leaving the wood to warp and rot from
+the exposure.  Tiny grub-like creatures crawl along its surface, as
+they continue to consume the foreboding structure.  Large windows
+lay shattered, their empty panes like glimpses into the soul of the
+building.  The plants near the building seem perverted, a mockery
+of life that grows and consumes, as it crawls along the surface of
+the house.  Small piles of bones lie scattered near the rapidly
+crawling plants, a meal for these dark and twisted things.
+  }
+  extra {
+	keywords { grubs }
+	desc { 
+A swarm of huge grub-like creatures crawls along the rotting surface
+of the building, eating away at the decaying exposed wood.
+	}
+	keywords { windows pane window }
+	desc { 
+Broken windows face towards the pathway, empty soulless eyes that
+stare for all eternity at the unnatural chaos that occurs within
+these ancient walls.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Road }
+  exits {
+	to { n, 38 }
+	  key { 5524 }
+	  info { door, closed, autoclose, autolock, locked }
+	  keywords { doors iron door mausoleum }
+	to { s, 36 }
+  }
+}
+
+38
+{
+  name { The Reception Room  }
+  desc {
+"   A large reception room lies beyond the thick iron doors, filled
+with ancient antiques.  Old silks of light hues drape around the room,
+rotting and falling apart with age.  Carved wooden statues of various
+types have become pitted and succumbed to wood rot.  Large shelves of  
+books have turned into nothing more than a pulpy mass, covered with
+a thick layer of yellowish mold that bursts into the air at a touch.
+Once beautifully carved furniture lies in shattered pieces, like so
+much kindling, as they slowly disintegrate under the growing blanket
+of mold.  On the floor are sigils that have been painted in a dried
+crimson coloured liquid, as an iron-tanged scent fills the air that
+pervades the smell of old dust and mold.
+  }
+  extra {
+	keywords { statues }
+	desc { 
+Ancient carved statues of expensive woods in various poses of beauty 
+have become rotted and are starting to decay.  Their once fine features
+have become pitted and warped, slowly being covered with mold and then
+rotting away to nothingness.
+	}
+	keywords { sigils }
+	desc { 
+Sigils and unknown runes have been scrawled on the stone floor beyond
+the iron doors in blood.  The blood has dried over the years, giving
+the sigils a faintly haunting grainy texture.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 41 }
+	to { e, 39 }
+	to { s, 37 }
+	  key { 5524 }
+	  info { door, closed, autoclose, autolock, locked }
+	  keywords { doors iron door mausoleum }
+	to { w, 40 }
+  }
+}
+
+39
+{
+  name { The Waiting Room  }
+  desc {
+"   A small room with simple decorations and furnishings, which is used
+for waiting until the ceremony for the deceased has begun.  There is a
+long unadorned table with a cracked vase on its top, within the vase
+are the remains of a bouquet of long dead and withered flowers.  Dried
+and curled petals lie scattered around the vase, marring the thick layer
+of dust on the surface of the table.  A long plush sofa, covered in a 
+heavy blanket of mold lies adjacent to the table, the stench of the mold
+overpowering in the room.  A couple of paintings decorate the walls of
+the room, their paint faded and under layers of dust and mold.
+  }
+  extra {
+	keywords { flowers petals vase }
+	desc { 
+On the table top is a fine vase, covered in a network of spiderweb-like
+cracks.  Within the vase is the dried remains of flowers, their once 
+brilliant and vivid colors faded to pale shadows of their former selves.
+Surrounding the vase are dried petals, curling from the age after their
+brief journey.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { The Viewing Room  }
+  desc {
+"   A large casket lies prominent in the center of the room, its polished
+mahogany surface and brass fittings gleaming despite the layers of dust
+on its surface.  A long thin table rests adjacent to the far wall, with
+numerous vases of dried flowers and marble statues on its surface.  Rows
+of unadorned chairs are seated before the casket, the final homage to the
+recently deceased.   A pair of paintings are on the wall, their surface 
+long faded by time.  There is a faint smell of death that hangs in the 
+air, coupled with the faint stench of decay.
+  }
+  extra {
+	keywords { casket }
+	desc { 
+A polished casket of fine mahogany, complete with brass fittings, lies
+in the center of the room.  Here is where the deceased rests, to be 
+viewed by his loved ones before the final burial.  The casket gleams
+despite the layers of dust that coat the entire room.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 38 }
+  }
+}
+
+41
+{
+  name { The Alcove  }
+  desc {
+"   Large arches mark the doorways to the other areas of the mausoleum.
+Made of cut stone, they are placed carefully to buttress the high ceiling
+of this long hallway.  Wall sconces of wrought iron are placed in various
+positions of the walls, the burned out remains of torches still in them.
+A thick crimson carpet, covered with designs, spans the entire hallway.
+Huge webs of intricate workings span each of the arches, covering them
+in heavy cloaks of web that faintly shimmer in the reflected light.
+  }
+  extra {
+	keywords { carpet }
+	desc { 
+A thick carpet of crimson covers the entire hallway, worked with 
+more sigils and runes.  Upon closer inspection tho, the realisation
+that this is not entirely all carpet strikes like an epiphany.  It
+has been mixed with blood, with runes scrawled into its surface. 
+Over the years the blood has dried atop the carpet, and a plush
+layer of crimson mold has grown on it, although it leaves the 
+sigils and runes untouched.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 44 }
+	to { e, 43 }
+	to { s, 38 }
+	to { w, 42 }
+  }
+}
+
+42
+{
+  name { The Grieving Room  }
+  desc {
+"   A small room lies beyond the arch, simply furnished where those that
+are grieving can come and be alone.  There is an intricately carved chair
+of the finest wood, covered in a deep yellow mold that slowly eats away
+at its surface.  A small altar with a statue of some god, rests across 
+from the chair, the statue is defaced and covered in dust and webs.  A
+woven rug of fine wool, dyed deep red lies on the ground.  A tranquil
+feeling fills the air, tinged with a deep sorrow and loss.
+  }
+  extra {
+	keywords { statue god }
+	desc { 
+A statue made of onyx rests on a small altar, its speckled black and
+white surface oddly comforting in this time of need.  The statue is 
+of one of the long forgotten gods of the dead, unfortunately it seems
+to have been defaced and broken, as it lies in pieces among the heavy
+layers of dust and cobwebs.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 41 }
+  }
+}
+
+43
+{
+  name { The Chapel  }
+  desc {
+"   In this corner of the huge mausoleum is a large chapel, carved from
+stones and blessed by good clerics and priests.  There are many rows
+of carved cherry wood pews, holy prayers and decorations carved into
+their polished surface.  To the far corner of the chapel is a pulpit,
+glowing faintly despite the darkness.   All along its polished surface
+are holy inscriptions to the pantheon of gods, litanies and prayers to
+the heavens.  All around are holy fixtures, the blessed artefacts of the
+gods.  The holy room is free of cobwebs and is mysteriously dust free,
+as if it was meticulously cleaned.  A tranquil feeling settles over 
+the room, an aura of holiness that pervades every corner of the room,
+keeping evil and darkness at bay.
+  }
+  extra {
+	keywords { inscriptions prayers decorations litanies }
+	desc { 
+On almost every surface are some form of inscriptions or prayers
+carved to the gods above.  These holy litanies to the heavens help
+to protect this room of peace from the evil just outside the doors.
+	}
+  }
+  flags { dark, no_mob, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { w, 41 }
+  }
+}
+
+44
+{
+  name { The Staircase  }
+  desc {
+"   A large marble staircase leads downstairs to the basement level.  
+The steps are cut from pure marble, with tiny little inscriptions 
+carved into their surface.  A polished mahogany rail completes the
+stairs, marred by cobwebs and a nest of spiders crawling in between
+the rails.  Faint echos seem to reverberate against the walls, and
+then fade away to a still and uneasy silence.  A faintly fetid odor
+fills the air, strengthening in its intensity before fading away.
+  }
+  extra {
+	keywords { inscriptions }
+	desc { 
+Elegant inscriptions are carved into the side of the steps, holy
+litanies to the gods of the dead to oversee the deceased on their
+journey into the afterlife.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { s, 41 }
+	to { d, 45 }
+  }
+}
+
+45
+{
+  name { The Landing  }
+  desc {
+"   The marble staircase comes to an end onto this raised and polished
+landing of mahogany, that matches the rails of the staircase.  The prayers
+and inscriptions that were carved onto the steps have been obliterated,
+defaced by some unknown hand.  A thick layer of dust and cobwebs covers 
+the entire landing, the webs forming intricate and beautiful patterns and
+designs that join the floor and their adjacent walls. An uneasy feeling 
+fills the air, as faint echoes can be heard in the distance.
+  }
+  extra {
+	keywords { prayers inscriptions }
+	desc { 
+Once holy and blessed inscriptions to the gods that were intricately
+carved onto the surface of the steps, have now been destroyed in their 
+entirety.  Someone felt it was necessary to deface the holy prayers and
+protections against the dead.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 47 }
+	to { s, 48 }
+	to { w, 46 }
+	to { u, 44 }
+  }
+}
+
+46
+{
+  name { The Crematorium  }
+  desc {
+"   A huge protected oven stands prominent in the room, taking up
+much of the space.  Waves of heat emanate from the oven, as exhaust
+vents pour out large clouds of steam that obscure the vision within
+the room.  A long table with various types of urns and vases rests 
+opposite the oven, the final resting place for those bodies turned 
+to fine ash.  Lengthy forged tools that help to stir the flames, and 
+bellows to keep it constantly burning at a high temperature are 
+placed near the door.  The smell of sulfur and brimstone fills the
+air, their bitter acrid stench mixing together with the thick smoke 
+from the coals and the dried cured hardwoods.
+  }
+  extra {
+	keywords { urns jars vases }
+	desc { 
+Delicate urns of differing qualities line the table near the oven.
+This is where the remains of the body, turned to fine ash from the
+intense heat of the oven is placed for their final resting place.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 45 }
+	to { s, 50 }
+  }
+}
+
+47
+{
+  name { The Embalmer's Room  }
+  desc {
+"   A huge thick obsidian slab rests in the center of the room, its
+surface polished to a glossy reflective shine.  Odd metal devices with
+tubes and dials lie near the slab, used to remove liquids from the body
+or inject them with embalming fluids.  On heavy wooden shelves that lie
+across the slab, are large glass bottles and jars marked with writings
+that identify them as embalming fluids and other assorted chemicals.
+Heavy cutting tools lie on a long rough hewn table, their steel forged 
+surface stained with old dried blood.  A bitter acrid stench fills the
+room, mixed with the smell of decay from those long dead.
+  }
+  extra {
+	keywords { tools }
+	desc { 
+On the table are sharply forged cutting tools, used to open up
+the secrets of the body.  Their fine steel surface is covered in
+dried blood and other gore, staining the rough table underneath 
+them.
+	}
+	keywords { devices device tubes }
+	desc { 
+An odd contraption made of metal and an assortment of tubes lies
+near the slab.  Its main function is to remove the blood and other
+liquids from the body, and then reverse the flow to inject embalming
+fluids and chemicals to retard the corruption and decay of the body.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { s, 49 }
+	to { w, 45 }
+  }
+}
+
+48
+{
+  name { The Woodshop  }
+  desc {
+"   Scattered along the surface of the huge granite worktable is an
+assortment of woodcutting tools.  Levels and planes lie amidst the
+mess, mixed in with hammers, assorted sizes of nails and screws, a
+set of nail punches and awls, and other types of tools.  Thick heavy
+bristled brushes rest on the top of jars of lacquer and stains, with
+a stack of sandpaper next to them.  Large slabs of bundled wood lie 
+ready for finishing, to be made into the final product.  A large box
+of brass fittings is on the ground next to the table, waiting to be
+polished and placed onto the lacquered coffins.  In the middle of the
+room is a partially completed casket, covered in a thick layers of
+sawdust that drizzle gently onto the floor.  The entire room smells
+of sawdust and the faint odor of cut wood, mixing with a faint cloying 
+scent of something else.
+  }
+  extra {
+	keywords { casket }
+	desc { 
+A partially finished casket rests on two sawhorses.  It is made 
+of solid pine wood, already planed and sanded smooth, awaiting
+the final coating of stain and lacquer.  Finally the polished
+finishings of brass will be affixed to it, and velvet linings
+added to the inside.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 45 }
+	to { e, 49 }
+	to { w, 50 }
+  }
+}
+
+49
+{
+  name { The Storage Room  }
+  desc {
+"   Stone shelves line the walls of the storage room, holding a vast
+assortment of items necessary for the smooth running of this place.
+There are bottles and jars of embalming fluids and chemicals, sharp
+heavy cutting tools gleaming in the faint light, and extra tubes for
+the contraption in the embalming room.  On another set of shelves are
+jars of lacquer and polish, brass fittings, and extra woodworking tools
+such as planes, levels, and hammers.  To the farthest corner are tied
+bundles of long slabs of wood, ready for the building of caskets for
+the deceased.  A thick layer of dust covers everything in here, giving
+it an aged forgotten look.
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 47 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { The Entrance to the Tombs  }
+  desc {
+"   A large stone arch marks this alcove, leading to the tombs and
+crypts below.  A faint musty odor drifts from below, mixing with the 
+stale air above.  Large iron sconces are placed onto the four corners
+of the wall, the burnt out nubs of torches within their iron cage.  A 
+layer of putrid mold grows along the floors near the southern corner,
+as a huge web of intricate design hangs from the ceiling, connecting 
+it to the walls.  Thick layers of dust cover the ground below, altered
+by the prints of what appears to be some being dragging a heavy object
+through it.  A pair of thick cold wrought iron doors protects the 
+entrance to the tombs, their surface crawling with sigils and runes
+of the gods.
+  }
+  extra {
+	keywords { prints dust }
+	desc { 
+Some being has disturbed the thick layer of dust, the occasional prints
+of a being dragging a heavy object can be seen easily in its midst.
+	}
+	keywords { entrance iron pair }
+	desc { 
+The entrance to the tomb is guarded by a pair of thick doors of 
+cold wrought iron marked with the sigils and runes of the holy
+gods.  The doors glow faintly in the impeding darkness, ancient
+enchantments failing in their protections.
+
+"	}
+  }
+  flags { dark, no_mob, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 46 }
+	to { e, 48 }
+	to { d, 51 }
+	  desc { 
+The entrance to the tomb is guarded by a pair of thick doors of 
+cold wrought iron marked with the sigils and runes of the holy
+gods.  The doors glow faintly in the impeding darkness, ancient
+enchantments failing in their protections.
+
+"}
+	  info { door, autoclose }
+	  keywords { tomb tombs crypt crypts door iron }
+  }
+}
+
+51
+{
+  name { The Tombs  }
+  desc {
+"   A faint breeze comes from the entrance above, bringing fresh air
+to this stale and musty place of death.  There is a line of tombs
+against each of the walls, with small bronze plaques set at the end
+of each of the deceased, containing the information of the dead.  
+Surrounding the pair of iron doors that faithfully guarded these
+tombs and crypts are sets of long gouges, as well as deep scratches
+within the surface of the iron wrought doors.  A faint howling starts
+in the distance and reverberates throughout the tombs, coming to a 
+still and unnatural silence.
+  }
+  extra {
+	keywords { gouges scratches }
+	desc { 
+Deep gouges and scratches mar the smooth surface of the door, as
+if something with long sharp claws tried to force its way out.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 54 }
+	to { w, 52 }
+	to { u, 50 }
+	  info { door, autoclose }
+	  keywords { entrance }
+  }
+}
+
+52
+{
+  name { The Tombs  }
+  desc {
+"   Thick iron torch sconces set in the stone wall mark the corners
+of the tombs.  The sconces are empty, the torches long ago falling
+to dust in ages gone by.  The air is thick with the scent of death,
+stale and musty from being trapped down here for years gone by.  A
+heavy layer of dust settles over the stacked rows upon rows of tombs
+that line these hallowed walls.  The remains of bodies, and the
+shredded remnants of cloth that hangs from their desiccated forms,  
+can be seen clearly in the gloom.  The shadows grow and thicken,
+elongating and consuming in the still silence.
+  }
+  extra {
+	keywords { bodies }
+	desc { 
+The bodies lie here in the peaceful slumber of death and eternity.
+The tattered remains of clothes hang from the preserved bodies, as
+small glints of cherished treasures reflect in the passing light. 
+A feeling of mortality and sorrow washes over you, as the shadows
+thrive and grow in this place of death.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 53 }
+	to { e, 51 }
+	to { w, 56 }
+  }
+}
+
+53
+{
+  name { The Crypts  }
+  desc {
+"   Lengthy scratches pierce deep within the surface of the rocky 
+cavern, even ripping asunder some of the metal doors of the crypts.
+Some of the heavy locks lie scattered on the floor, covered in a 
+thick layer of crimson rust.  All around the rocky floor are the
+remains of many bodies, their desiccated remains ripped to pieces.
+Many of the edges have been gnawed and chewed upon, small gouges
+along their surface.  Caved in skulls lie mixed together with bones
+that have been broken in half, the marrow sucked clean from them. 
+A dark shadow clings to the rocky cavern, climbing up its surface
+and growing to envelope the entire crypt.
+  }
+  extra {
+	keywords { locks doors }
+	desc { 
+Long gouges slash deep within the metal surface of the doors, marring
+their once smooth surface.  Many of the doors and crippled locks have
+been ripped from their moorings, lying on the ground covered in thick
+rust and a heavy layer of dust.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 54 }
+	to { s, 52 }
+	to { w, 55 }
+  }
+}
+
+54
+{
+  name { The Crypts  }
+  desc {
+"   A long row of crypts lines the walls of this cavern, their metal
+doors reflecting in the light.  Thick shadows lengthen and coagulate, 
+crawling up the surface of the crypt doors, coming to rest on the heavy
+locks that protect the dead.  Many of the polished surfaces have been
+marred by deep gouges, as if something powerful tried to penetrate 
+them and failed.  Some of the locks lie shattered on the ground, their
+mechanisms covered in a thin layer of rust.  A faint scratching sound
+fills the air, as the stale musty air grows danker and more foul, a
+thickening fetid stench of decay and death.
+  }
+  extra {
+	keywords { locks }
+	desc { 
+Thick and heavy complex locks are used to protect the embalmed 
+bodies of the recently interred within these tombs.  However it
+seems that some of them have failed in their duty, as a few of
+the crippled and shattered locks lie on the floor, covered in a
+layer of rust.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { s, 51 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { The Crypts  }
+  desc {
+"   A long howling, filled with the hatred of all things living, shatters
+the air of the crypt.  The horrid stench of the long dead, decomposing
+and rotting into the un-life permeates the very essence of the room.  A
+large circle, written in blood so dark it appears black, is decorated 
+with dark and unholy runes all along its circumference.  The shattered
+and consumed remains of the long dead lie in piles in the corners of
+this rocky cavern.  Many of the crypt doors have been ripped off their
+hinges, the rusting remains tossed aside in contempt and hatred.  An  
+almost palatable and electic aura of hatred and death fills the air,
+the shadows deepening into darkness at the chaos within.
+  }
+  extra {
+	keywords { circle runes blood }
+	desc { 
+An unholy circle of dried blood, with runes of dark power decorating
+its circumference, is written on the floor in this corner of the tomb.
+A feeling of dark palatable evil washes over you, as the light reflects
+and is twisted by the perverted runes, just as the dead housed within
+these once holy walls were twisted and changed.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { e, 53 }
+	to { s, 56 }
+  }
+}
+
+56
+{
+  name { The Tombs  }
+  desc {
+"   This is where the oldest remains are placed in these tombs, their
+place of final rest.  Stacks of hollowed out crevices are carved deep
+into the walls, holding the cleaned remains of the dead.  The skeletons
+are placed in a final pose of respite and peace, their bony arms placed
+over their sternum.  Some kind of cherished remains lies at the bottom
+of each of these tombs, usually placed between their skeletal legs.  A
+shuffling sound pierces the silence, as clouds of dust are thrown up in
+the air from something moving in the shadows.
+  }
+  extra {
+	keywords { remains momentos }
+	desc { 
+At the edge of each tomb, near the deceased's legs is some form
+of remembrance.  Some kind of remains of an enemy killed in battle
+or momento from a cherished love one to aid them in their final long
+journey into the afterlife.
+	}
+  }
+  flags { dark, indoors, no_sum, mapable }
+  sector { Castle }
+  exits {
+	to { n, 55 }
+	to { e, 52 }
+  }
+}

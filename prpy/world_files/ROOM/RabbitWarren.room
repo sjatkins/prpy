@@ -1,0 +1,83 @@
+#offset RabbitWarren
+
+0
+{
+  name { Midnight Thicket  }
+  desc {
+"  Amongst the tangles of and snarls of the dense underbrush you see a
+small hole. Desperate for any escape from the surrounding suffocating
+darkness, you warily get down on your knees to examine the hole closer.
+In the dim, shadowy light you sense that the hole might lead somewhere.
+Suddenly! A small rabbit bolts past your nose. It seems that you are not
+the only one who is a bit edgy being here.
+  }
+  sector { Forest }
+  exits {
+	to { e, EasternDesert:78 }
+	to { 10, 1 }
+	  keywords { hole }
+  }
+}
+
+1
+{
+  name { The Warren  }
+  desc {
+You crawl through the hole and find yourself in a smallish earthen cave
+burrowed underneath enormous roots from what are very likely ancient
+trees and shrubs. The roots form ominous looking shadows. For a moment
+you could have sworn you saw a grizzled troll just poking his nose
+around.the corner, but gathering up what's left of your courage you
+convince yourself that trolls are only something your big sister used to
+scare you with when you were a toddler.
+  In a corner of the warren, you see a small pile of leaves and and fur. 
+It is probably where a small animal lives. Opposite the nest you see a
+hole which might facilitate your escape.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+	to { n, 2 }
+	to { 10, 0 }
+	  keywords { thicket }
+  }
+}
+
+2
+{
+  name { The Hole  }
+  desc {
+Moving through the hole, you find yourself in the center of what was
+once a majestic oak. Now after more than five hundred years of growing
+it has finally died and rotted away from the inside. Luckily for you,
+this hollow in the dead oak seems to be a nice safe shelter to rest in.
+That is, if you could get over the stench of rotting moldy wood.
+  }
+  sector { Forest }
+  flags { indoors }
+  exits {
+	to { s, 1 }
+	to { 10, 3 }
+	  keywords { forest }
+  }
+}
+
+3
+{
+  name { Forest  }
+  desc {
+As you wander aimlessly through the forest, an old dead oak attracts
+your ever vigilant attention. Towering high above you, the once grand
+oak's branches seem to creak dangerously in the wind. Remembering that
+oak is a particularly hard wood (a lesson you learned in school every
+time you had your knuckles whacked) you hastily investigate the tree
+further. About a yard from the forest floor there is a large hole in
+the oak. If you squeeze your body just right, you will be able to enter.
+  }
+  sector { Forest }
+  exits {
+	to { w, HaondorLight:0 }
+	to { 10, 2 }
+	  keywords { hole }
+  }
+}

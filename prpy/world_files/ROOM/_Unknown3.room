@@ -1,0 +1,1704 @@
+#offset _Unknown3
+
+0
+{
+  name { Here There Be Orcs, My Pet. Ah Yes. Ah Yes.  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+1
+{
+  name { Kr'ch Smithy - Shop  }
+  desc {
+"   This large room is comprised of gray walls that emit a curious illumination,
+allowing objects to be seen as though it were broad daylight but without any
+glare or reflection being apparent.  A long stone counter is set out a few 
+feet from the western wall, and behind it are numerous pieces of weaponry
+and armour available for purchase.  The room extends to the south, from which
+wafts the smell of iron and oil in tandem.  While it is not deafeningly loud
+in this room, the air is punctured frequently by clangs and bangs, with the
+sounds originating southward.  A door leading outside occupies the eastern 
+wall.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { s, 2 }
+	to { 10, 12 }
+	  keywords { street }
+  }
+}
+
+2
+{
+  name { Kr'ch Smithy - Supply Room  }
+  desc {
+"   This long room extends both to the north and south, and is illuminated by
+a glow which seeps from the gray stones used to construct the building.  There
+are hundreds of shelves, racks and cabinets lining the walls and even hanging
+from the ceiling of this room, storing blocks of metal, barrels of liquid and
+tools, some of which are thoroughly unidentifiable.  The secrets of smithcraft
+have at least a part of themselves vested in this area, though the blasts of
+sound and heat from the south would suggest that even more can be discovered
+there.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Kr'ch Smithy - Forge  }
+  desc {
+"   This room runs north and south, and is wide enough to permit activity freely,
+while being long enough to accomodate numerous sections.  Lighting is provided
+by the walls themselves, crafted flawlessly of a gray luminescent stone.  In
+this section of the room, forges, anvils and smelting pots completely dominate
+all available space.  The loud crashing of hammer-on-anvil rings out constantly
+and the stench of molten iron and sulphur fills the immediate area.  Strips of
+metal lay in various configurations upon the anvils, some intended to be armor
+and others weapons and still others tools or household goods.  The men who work
+the forge do so wearing nothing but a loincloth, heedless of the possibility of
+being spattered with molten metal.  Sweat pours freely down their bodies,
+but their dedication to their craft is so complete that only the neophytes
+take even the time to wipe their brows.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 2 }
+	to { s, 4 }
+  }
+}
+
+4
+{
+  name { Kr'ch Smithy - Quenching Room  }
+  desc {
+"   Vats, barrels, jars, basins, troughs and all manner of containers are 
+set throughout this room, each containing varying levels of varying liquids.
+Some, such as oil, can be easily identified.  Others are a bit more difficult,
+though blood appears to be present in a few of the concoctions.  A cloud of
+steam hangs over this section of this long north-south room, created by the
+constant submersion of red-hot metal in liquid.  The steam obscures even the
+keenest vision, leaving the corners of the room inscrutable.  The imparation
+of senses does not end with sight -- the loud noises ringing out from the area
+north of this one echo through the steam and create a barrier of noise.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 3 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Kr'ch Smithy - Finishing Room  }
+  desc {
+"   Small worktables have been erected all around the southern end of this
+room, each covered with the last tools required by a smith.  There are a 
+variety of stations created, some being used to bind hilts, others to decorate
+them.  Partially completed scabbards lay in piles on the floor, awaiting
+the attention of the smiths.  The light emanating from the gray stone walls
+seems to penetrate the various jewels at rest on the tables, causing them to
+increase in brilliance without casting shadows or reflections.  An occasional
+waft of steam enters this room from the north, and the sound of hammering can
+dimly be heard emerging from the same direction.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 4 }
+  }
+}
+
+6
+{
+  name { 176206  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+7
+{
+  name { A Black Stone Street  }
+  desc {
+"   Black stones meld here, one to another, their small flaws massing and
+dissipating as the street winds north and south, causing the road itself to
+appear to move, or at least alter its consistency from time to time.  This
+illusion is abetted by the glow of the lanterns hanging over the road and 
+illuminating the area, as the light seems almost to seep into the stones and
+be released in some subtly altered form.  This street is not busy, and all 
+who traverse it appear to have some purpose or another.  To the west stands
+the solid wall of a building, constructed of grey stones that actually provide
+a faint luminosity.  To the northeast rises the temple of Iy-Tarig, beautifully
+constructed of white marble and rising above all other structures nearby.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 9 }
+	to { s, 40 }
+  }
+}
+
+8
+{
+  name { 176208  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+9
+{
+  name { A Black Stone Street  }
+  desc {
+"  The black stones used for this street have been laid by a master; their 
+edges are only barely perceptible, and they blend together to such a fantastic
+degree that the road itself seems to undulate, the differences in stone making
+themselves apparent only when considered as a part of the whole.  The effect
+is heightened by the tendency of the stone to absorb the light cast off by
+the streetlamps.  To the east stands the temple, announced by a decorous arch
+as well as the sound of chanting and the smell of incense.  From the warm wall
+to the west, formed of grey stones, comes the sound of hammers beating metal,
+as well as a faint stench of sulphur.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 10 }
+	to { s, 7 }
+	to { 10, 19 }
+	  keywords { temple }
+  }
+}
+
+10
+{
+  name { A Black Stone Street  }
+  desc {
+"  Flawless black stones, flawlessly laid, seem to meld together in order to
+form this thoroughfare.  The sound of crashing, of smashing, of bashing and
+occasionally even of lashing emanates from beyond the wall to the west, grey
+stone that is hot to the touch.  From the east, via a beautiful runed arch, 
+comes the rise and fall of mass chanting along with the smell of sweetgrass
+incense burning.  Tall black iron poles, positioned every ten feet, provide
+unfailing light upon the streets, and causes the glossy black stones to 
+shimmer.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 11 }
+	to { s, 9 }
+	to { 10, 18 }
+	  keywords { temple }
+  }
+}
+
+11
+{
+  name { A Black Stone Street  }
+  desc {
+"   This street has been constructed of seamlessly laid black stones, creating
+a smooth and shimmering surface which appears to absorb all light cast towards
+it by the lanterns which sway gently atop poles positioned so as to illuminate
+the area completely.  The crashing sound of hammer on anvil thunders out of the
+southwest, while the sound of chanting and a faint whiff of incense flows 
+through an ornate temple archway to the east.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 12 }
+	to { s, 10 }
+	to { 10, 17 }
+	  keywords { temple }
+  }
+}
+
+12
+{
+  name { A Black Stone Street  }
+  desc {
+"  The stones laid to form this street are glistening and black, absorbing the
+light cast from the hanging lanterns and releasing it as a strange shimmer 
+that hangs across the street.  The sound of hammering and the smell of smoke
+emanates from the west and south, while to the southeast can be seen the spire
+of a temple, rising above the other structures in this quarter of the city. 
+The street is not busy, and virtually everbody moving along it appears to have
+some definite purpose from which they will not deviate.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 13 }
+	to { s, 11 }
+	to { 11, 1 }
+	  keywords { smithy }
+  }
+}
+
+13
+{
+  name { A Black and Crimson Intersection  }
+  desc {
+"  Glossy black stones wind about blazing crimson ones to form this intersection,
+the interplay between them causing myriad optical illusions to be played upon 
+the viewer, as infinite spirals chase one another, the colours of the bands
+involved switching back and forth.  The stonemason who laid this intersection
+had to have possessed an advanced understanding of mathematics and optics both,
+and the area serves as testament and praise to their ability.  Southeast
+towers a massive white marble temple whose walls bear a similar, though
+certainly different, mark of expertise.  Southwest lies a blocky structure of
+luminous grey stone, overhung with a cloud of smoke and steam and stinking
+of sulphur.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 15 }
+	to { s, 12 }
+  }
+}
+
+14
+{
+  name { 176214  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+15
+{
+  name { A Crimson Roadway  }
+  desc {
+"  Crimson stones have been laid with perfection to create this road, and
+their surfaces appear to glisten as though slick with liquid when the light
+from the street lanterns falls across them.  To the south rises the marble 
+walls, white as freshly fallen snow, of the temple of Iy-Tarig, while the
+massive black gates can be just barely glimpsed protruding above housetops
+to the northeast.  The road runs west, where the crimson stones entwine with
+black ones, and east, where they meld into gray.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 21 }
+	to { w, 13 }
+  }
+}
+
+16
+{
+  name { Temple of Iy-Tarig - Acolyte Quarters  }
+  desc {
+"  This small room has hardly been appointed in a generous manner.  Several
+cots are lined against the wall, each one set beneath a mosaic depicting the
+bloody birth of Iy-Tarig, with loving attention focused upon his ripping 
+apart the womb of Gri-Sterin, the all mother, in his quest to shape a world
+of his own.  The only other decorations come in the form of Tariganae, dolls
+representing Iy-Tarig made by female Targa children upon the occasion of their
+first menses.  One doll rests upon each of the cots.  A curtain divides this
+room from the rest of the temple, which stretches to the south.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { s, 17 }
+  }
+}
+
+17
+{
+  name { Temple of Iy-Tarig - Grand Hall  }
+  desc {
+"   This massive hallway is overarched by a tremendous vaulted ceiling.
+Huge, finely detailed tapestries hang down from the walls and are illuminated
+by the sun and moonlight which shines through the stained glass, enchanted
+so as to provide a consistent amount of light regardless of the time of day.
+A large stone staircase can be seen winding its way upwards to the south, and
+a platform lies halfway between the staircase and the ceiling, formed entirely
+of bloodstone.  The acoustics in this hall are superb, with even the faintest
+of sounds transmitting clearly from one end to the other.  A separate area is
+curtained off to the north.  Ornate archways are set on the eastern and 
+western walls of this hallway, leading outside.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 16 }
+	to { s, 18 }
+	to { 10, 23 }
+	  keywords { avenue }
+	to { 11, 11 }
+	  keywords { street }
+  }
+}
+
+18
+{
+  name { Temple of Iy-Tarig - Grand Stairway  }
+  desc {
+"   This hall is vast, with beautifully constructed archways leading outside
+set within both the eastern and western walls.  Massive tapestries hang down
+over the white marble used to construct the temple, each depicting another
+stage in the creation of Iy-Tarig and the world.  A slender black marble
+staircase winds both upwards and downwards, the former climbing to the 
+platform from which the high priest preaches, and the former into darkness
+below.  The chanting of the faithful never abates within this temple, and
+the air is ever thick the pungent smell of burning incense.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 17 }
+	to { s, 19 }
+	to { u, 27 }
+	to { d, 63 }
+	to { 10, 24 }
+	  keywords { avenue }
+	to { 11, 10 }
+	  keywords { street }
+  }
+}
+
+19
+{
+  name { Temple of Iy-Tarig - Grand Hall  }
+  desc {
+"   This hall stretches far to both the north and south, and has been 
+flawlessly constructed of luminous white marble.  Tapestries hang down from
+the vaulted ceiling far above to the impeccably clean floor, depicting the
+struggles of Iy-Tarig against his children, culminating in the Permeation, 
+the core of Tarigan belief.  The figures depicted in the tapestries are 
+staggeringly massive and finely detailed.  Beautifully ornate archways allow
+access to the outside to the east and the west, and a platform can be seen
+to the north.  A portion of the hall has been curtained off to the south. The
+sound of chanting resonates constantly, echoing from the walls, and the smell
+of sweetgrass incense wafts through the temple.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 18 }
+	to { s, 20 }
+	to { 10, 25 }
+	  keywords { avenue }
+	to { 11, 9 }
+	  keywords { street }
+  }
+}
+
+20
+{
+  name { Temple of Iy-Tarig - Priest's Quarters  }
+  desc {
+"   This large room has been constructed of shining white marble, and carries
+virtually no decoration.  The walls are barren, as is the floor, excepting only
+a single woven prayer mat which likely also serves as a bed.  A blue curtain
+hangs across the northern portion of the room, and chanting can be heard and
+incense smelled, wafting from beyond the curtain.  The overall effect of this
+room is smallness, or insignificance.  The ceiling stands at least thirty feet
+high, and the walls are one hundred feet apart.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 19 }
+  }
+}
+
+21
+{
+  name { A Gray and Crimson Intersection  }
+  desc {
+"  Crimson stones blend into gray ones in a staggering array of spirals and
+whorls, before eventually becoming entirely crimson to the east and west and
+entirely gray to the south.  The stones appear to be slick with moisture, as
+a result of the odd play between the stone and the lanterns which hang from
+poles to illuminate the area.  A grand, white marble temple lies to the 
+southwest, while the view to the north is blocked by the massive iron gate that
+bottles this quarter off from the rest of Midgard.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 41 }
+	to { e, 29 }
+	to { s, 22 }
+	to { w, 15 }
+  }
+}
+
+22
+{
+  name { A Gray Avenue  }
+  desc {
+"   The gray stones have the characteristic colour of stormclouds, and their
+perfect cut and seamless fitting allows them to gather the illusion of being
+a street composed of somehow solidified clouds, billowing to the north, where
+they intersect with crimson stones, and to the south, where they continue
+unabated.  The sound of chanting rains across this street, and a large temple
+of white marble can be seen rising up to the southwest.  There are numerous
+homes on this street, all allowing access through simple archways instead of
+doors.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 21 }
+	to { s, 23 }
+  }
+}
+
+23
+{
+  name { A Gray Avenue  }
+  desc {
+"   The stones used to create this street bear an uncanny resemblance to 
+stormclouds gathering on a horizon, and continue to both the north and the
+south.  A broad, decorative archway permits access to a massive temple of 
+white marble to the west, while numerous houses also possessing archways as
+entrances line the street to the east.  The sound of chanting and the smell
+of incense hang upon the air, and few travellers appear to traverse this 
+street.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 22 }
+	to { s, 24 }
+	to { 10, 17 }
+	  keywords { temple }
+	to { 11, 44 }
+	  keywords { house }
+  }
+}
+
+24
+{
+  name { A Gray Avenue  }
+  desc {
+"   This street has the appearance of a stormcloud grabbed from the sky and
+somehow stretched into a roadway running north and south.  To the west, an
+archway covered in runes and pictorials permits access to a shining temple of
+white marble, and various houses also line this street, several with small
+gardens of pale flowers that seem somehow to accentuate the colour of the
+stones.  A pungent smell of incense wafts occasionally into the street, and
+the sound of chanting can be heard quite clearly, though not clearly enough
+to properly understand what is being chanted.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 23 }
+	to { s, 25 }
+	to { 10, 18 }
+	  keywords { temple }
+  }
+}
+
+25
+{
+  name { A Gray Avenue  }
+  desc {
+"  Gray stones form this street, flawlessly cut and masterfully laid, giving 
+the definite illusion of walking across a stormcloud.  A large, heavily
+adorned archway permits access to a massive temple of white marble to the
+west, while numerous houses lining the eastern portion of the street can be
+reached via significantly less decorous archways.  The street continues to
+the north, where the black gates can be glimpsed, and to the south, eventually
+terminating before a small shrine.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 24 }
+	to { s, 26 }
+	to { 10, 19 }
+	  keywords { temple }
+	to { 11, 48 }
+	  keywords { house }
+  }
+}
+
+26
+{
+  name { A Gray Avenue  }
+  desc {
+"   Formed entirely of gray stones with the depth and colour of stormclouds, this
+street runs north towards the black gates and south towards an intersection and
+shrine.  To the west, the white walls of the temple of Iy-Tarig rise up, 
+shimmering regardless of the light conditions.  Houses also line this street,
+their archways allowing access to anybody who happens to be walking by.  The
+faint sounds of chanting can be heard, here, and the smell of incense steals
+past from time to time.  The gray stones intersect with blue ones to the south,
+giving the appearance of a troubled sky.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 25 }
+	to { s, 38 }
+  }
+}
+
+27
+{
+  name { Temple of Iy-Tarig - Overlook  }
+  desc {
+"   It is from this bloodstone platform, suspended upon a slender staircase
+formed of black marble, that the high priest inducts his brethren into
+the mysteries, day after day.  The entirety of the great hall can be seen from
+this vantage, and the slightest whisper or rustle will carry from the platform
+to each of the worshippers gathered below.  The faint smell of incense pervades
+the air, and the sound of chanting is slightly muted.  The staircase grows 
+even more slender as it leads upwards, through the roof of the temple.  The
+grand tapestries hanging from the walls of the temple appear, from this point,
+to tell of a mystery that none could hope to comprehend.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 28 }
+	to { d, 18 }
+  }
+}
+
+28
+{
+  name { Temple of Iy-Tarig - Meditation Vista  }
+  desc {
+"   A slender staircase of black marble leads downwards from this platform,
+suspending it several meters above the roof the the large, ornate building
+below.  Gentle breezes waft past, carrying the scents of iron and leather
+upon them.  The sound of chanting arrives faintly from below.
+  }
+  flags { no_sum, private, fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { d, 27 }
+  }
+}
+
+29
+{
+  name { A Crimson Road  }
+  desc {
+"  The crimson stones used for this roadway must have been selected and laid
+with exquisite care.  Their surfaces possess a curious sheen, which in 
+combination with the lamplight shed upon them from the lanterns hanging above
+the road causes them to appear slick with some viscuous liquid.  The roadway
+run west, where the crimson stones swirl into gray ones, and east, where they
+encounter pale yellow stones and intertwine with them.  To the southwest can
+be seen the marble walls and meditation tower of the temple of Iy-Tarig, while
+the simple bulk of the council building can occasionally be glimpsed through
+the houses to the southwest.  As well, one can occasionally see the Black Gates
+which protect this quarter looming to the northwest.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 30 }
+	to { w, 21 }
+  }
+}
+
+30
+{
+  name { A Crimson and Yellow Intersection  }
+  desc {
+"   Vibrant crimson stones lay alongside of pale yellow ones, creating a curious
+optical effect -- the colours are distinct enough that the eyes follow only one
+of them at the same time, and the red stones run west while the yellow run
+south.  The aesthetic affect is surprisingly powerful, considering the 
+incompatability of the colours selected.  To the southwest can be seen the
+temple of Iy-Tarig, rising above all other buildings, while to the southeast
+lies the black squatting bulk of the council chambers.  The lanterns hanging
+on poles above the streets provide a sheen to the crimson stones as though
+covering them in some oozing liquid, while causing the yellow stones to be 
+lit in a radiant way reminiscent of wheatfields at dawn.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 31 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { A Yellow Road  }
+  desc {
+"   The yellow stones of this road are lit perfectly by the streetlamps, giving
+them a glow of warmth and even of cheer.  The smell of freshly baked bread
+fills the air, and the doorway to the bakery stands open to the east.  The
+road continues north and south, lined on both sides by houses with wide 
+archways to permit access, lacking even doors to close.  Numerous plants are
+in bloom alongside of the road, and beds of sweetgrass can be seen before
+nearly every residence.  To the west, the tower of the temple of Iy-Tarig can
+be seen rising above this quarter of Midgard.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 30 }
+	to { s, 32 }
+	to { 10, 43 }
+	  keywords { bakery }
+  }
+}
+
+32
+{
+  name { A Yellow Road  }
+  desc {
+"   The light from the hanging lanterns grants the yellow stones used for this
+road a golden hue of warmth.  The smell of bread baking wafts down the road,
+and pleasant houses stand to either side of it, accessible through arches and
+adorned with beds of sweetgrass and wildflowers.  The road continues to the
+north and south, with the black stone council chambers to be easily seen to
+the southeast.  An occasional glimpse of the white marble temple of Iy-Tarig
+can be caught to the west, proud and tall and flawlessly crafted.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 31 }
+	to { s, 33 }
+	to { 10, 44 }
+	  keywords { house }
+  }
+}
+
+33
+{
+  name { A Yellow Road  }
+  desc {
+"   The stones used for this street are uniform in size and depth, and laid so
+close to each other that the seems are virtually invisible.  They are lit by
+the lanterns hanging from evenly spaced iron poles set alongside the street, 
+and they diffuse this glow as a warm and inviting golden light.  The squatting
+black bulk of the council chambers, a simple pillbox structure, loom to the
+east, while the road itself continues running north and south.  The residences
+lining the road are impeccably maintained and universally made of stone, with
+wide archways allowing entrance and beds of flowers prevailing.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 32 }
+	to { s, 34 }
+	to { 10, 51 }
+	  keywords { council }
+  }
+}
+
+34
+{
+  name { A Yellow Road  }
+  desc {
+"   A golden glow rises up from the yellow stones used to make this road, as
+a result of some unique property of the stone itself which permits it to
+warm and diffuse light.  The road is lined by houses, each of which permits
+access through an archway rather than a door.  To the northeast, the black
+bulk of the council building can be seen, squatting within the residential
+section.  Further to the west may be glimpsed occasionally the temple of
+Iy-Tarig, all shining white marble.  The yellow road continues running nroth
+and south.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 33 }
+	to { s, 35 }
+	to { 10, 48 }
+	  keywords { house }
+  }
+}
+
+35
+{
+  name { A Yellow Road  }
+  desc {
+"  Walking along this yellow road is rather like walking through a shaft of
+sunlight.  A diffuse golden glow rises up from the stones, somehow transmuted
+from the simpler light shed by the lanterns that hang along the road.  The
+yellow road runs to the north, lined by houses, and intersects with several
+blue stones to the south, forming a swirling mosaic of yellow and blue.  A
+curious rune-covered building, constructed of a variety of different stones,
+stands to the east.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 34 }
+	to { s, 36 }
+	to { 10, 57 }
+	  keywords { tattooist }
+  }
+}
+
+36
+{
+  name { A Yellow and Blue Intersection  }
+  desc {
+"   The warm, golden glow of yellow stones mingles with blue stones that mimic
+exactly the colour of the sky here, creating the equivalent of a miniature 
+skyscape with each step.  The two colours swirl in and out of each other, 
+entwining and disengaging, until eventually a pure blue road leads west and
+a pure yellow one leads north.  A small building, dwarfed by its neighbours,
+has been constructed to the south.  The stone it is made from is almost, but
+not quite, transparent, and there appear to be droplets of luminous gold set
+within the stone itself, shining their light outwards.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 35 }
+	to { w, 37 }
+	to { 10, 60 }
+	  keywords { stonemaster }
+  }
+}
+
+37
+{
+  name { A Blue Street  }
+  desc {
+"   The stones in this street appear to reflect the sky at midday: they are a
+brilliant blue in colour and appear to have an incredible depth.  Looking down
+causes disorientation in those not used to the effect, as it appears that one
+is walking across an open sky without benefit of wings.  The stones continue
+to run to the east, where they merge with yellow stones to create a plethora
+of sun-filled skyscapes, or west where they merge with gray stones and take on
+the characteristics of a cloud-tossed sky.  To the northwest, the spire of the
+temple of Iy-Tarig can be seen, rising above this quarter of the city.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 36 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { A Gray and Blue Intersection  }
+  desc {
+"   The blue stones laid here reflect the midday sky; the grey ones appear to 
+have the bilious nature of clouds.  Combined, this intersection gives the 
+impression of nothing so much as a stormy skyline.  Eventually, the road
+becomes entirely blue to the east and west, and entirely gray to the north. A
+small shrine lies to the south, and the temple of Iy-Tarig, formed of shining
+white marble, can be seen to the northwest.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 26 }
+	to { e, 37 }
+	to { s, 42 }
+	to { w, 39 }
+  }
+}
+
+39
+{
+  name { A Blue Street  }
+  desc {
+"   These blue stones appear to have been cut from the sky, so fine are their
+edges and so bright their colour.  They continue to run to both the east and
+the west, a brilliant trail through this area of beautiful stonework.  Examples
+of such can be seen in the small shrine to the southeast, or in the brilliant
+white marble temple rising up to the north.  To the west, the blue stones come
+into contact with black ones, an intersection of midday sky and midnight dark.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 38 }
+	to { w, 40 }
+  }
+}
+
+40
+{
+  name { A Black and Blue Intersection  }
+  desc {
+"  Black stones swirl into blue ones, spiralling and entwining, with the bulk
+of the blue stones running east and the bulk of the black ones running west. 
+The points where they join, connect, and dwarf one another are fantastic 
+examples of the stonemasons craft, with more artistry in simple geometry and
+worksmanship than could be found in most paintings or poems.  A haze hangs over
+the stones, caused by the brightly glowing lanterns posted periodically atop
+the iron poles that line this intersection.  A curious hut-like dwelling that
+seems to have been forged entirely of black iron stands to the south.  The
+sound of hammers, anvils, and all other implements of ironwork emanates from
+the northwest, whilst from the northeast comes the muted sound of chanting and
+a slight smell of incense, likely connected with the white marble temple that
+overwhelms all other nearby structures.
+  }
+  sector { Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 7 }
+	to { e, 39 }
+	to { 10, 61 }
+	  keywords { ironmaster }
+  }
+}
+
+41
+{
+  name { The Black Gates  }
+  desc {
+"   A massive set of black iron gates have been fastened into a tremendous
+red stone archway, here, completely controlling all traffic passing along the
+north-south thoroughfare.  The ironwork is remarkable, with scrollwork sliding
+along the bars in such fine detail that the minute letters and glyphs appear to
+undulate as the light shimmers across the gate.  To the south lies a section
+of the city which obviously takes a certain amount of pride in its stonework:
+an intersection of crimson and gray stone streets lies to the south, and a
+masterfully masoned stone building stands beyond it, a lone gray tower jutting
+up into the sky from a long base of glossy black stone.  To the north, the 
+quality of the roads visibly deteriorates and artistry is lost.
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, OldportForest:16 }
+	to { s, 21 }
+  }
+}
+
+42
+{
+  name { The Shrine to Siragus  }
+  desc {
+"   This shrine has been constructed from red-veined white marble, and is 
+devoted to the school of architectural simplicity.  There are no superfluous
+juttings, pillars, or otherwise.  It is a simple structure, made to house and
+exhibit a beautifully crafted statue of red-veined black marble which occupies
+the center of the room, with the only other furnishing being the small worship
+mat laid before it.
+  }
+  extra {
+	keywords { statue }
+	desc { 
+"   This statue is life-size and depicts a tall and muscular man clad in 
+platemail armor.  His eyes seem to reflect a mixture of cunning and strength,
+and his muscles are taut, as though prepared to unwind with a devastating
+blow from the massive sword easily cradled in the left hand of this warrior.
+Below the statue lies a plaque, reading simply: "Siragus. The Strongest Arm
+of Our People.
+	}
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 38 }
+  }
+}
+
+43
+{
+  name { A Fragrant Bakery  }
+  desc {
+"   Before any visual cues can register themselves, the smell of leavened and
+unleavened bread, sweetcakes, pastries and all other varieties of baked goods
+immediately identifies this establishment.  Stone hearths are set in the walls,
+with smaller ovens occupying floorspace, and all of them appear to be in 
+production every minute of the day.  Bakers and apprentices scurry around in
+the seemingly chaotic environment, changing trays and wrapping items for
+delivery.  There is no counter for selling the items made here, but instead a
+small area in the northern portion of the room serves as a storage for goods
+to be sold in the store itself, with one of the bakers detailed to sell them
+to whomever might wander in, as well as to take orders for delivery or special
+goods.
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 31 }
+	  keywords { road }
+  }
+}
+
+44
+{
+  name { A Flowered Courtyard  }
+  desc {
+"   Beautiful stonework has been laid in order to create a plethora of beds used
+to house a variety of wildflowers.  Though the plants are seemingly untended, 
+with some varieties choking off others, they represent a staggering variety of
+colours, and would rival even the most closely tended garden of cultivated
+orchids.  The stones used to create this courtyard have been chosen in such
+a way that their colours and textures compliment those of the flowers cascading
+across them.  Broad archways permit access westwards to a gray avenue and
+eastwards to a yellow road, while the courtyard becomes an enclosed area to
+the south.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { s, 45 }
+	to { 10, 32 }
+	  keywords { road }
+	to { 11, 23 }
+	  keywords { avenue }
+  }
+}
+
+45
+{
+  name { A Stone Dwelling  }
+  desc {
+"   The stones used to construct this building are dun in colour and smooth
+of texture.  They've been laid extremely well, with no gaps to be seen between
+stones.  In addition to forming the walls, celing, and staircase for this home,
+they also jut out from the walls and floors in order to create tables, chairs,
+and shelving.  A few trailing vines wind through the stones through the use of
+purposefully bored holes, and a small spring bubbles merrily in the southern
+corner of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 44 }
+	to { u, 46 }
+  }
+}
+
+46
+{
+  name { A Small Library  }
+  desc {
+"   The stones used to construct this building jut out artfully from the walls
+in this small room in order to provide shelving for the numerous books, tomes
+and scrolls in storage.  A small desk is positioned in the southeastern corner
+of the room, with an oil lamp resting atop it.  Stairs wind down towards a
+living room of sorts, and this room is separated via a curtain from another
+which lies to the north.
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, 47 }
+	to { d, 45 }
+  }
+}
+
+47
+{
+  name { An Airy Bedroom  }
+  desc {
+"   The most striking feature about this room is its lack of a roof: the stone
+walls rise up for perhaps four feet and terminate, leaving only the open sky
+laid out above the bed.  Warmth seems to radiate from the walls, insuring that
+the room is comfortable no matter what the weather might be.  The bed in the
+center of the room is luxurious, with finely woven sheets and a warm tan 
+blanket.  A few flowers grow in depressions in the floor, all of them with
+blooms of either white or yellow.
+  }
+  flags { no_sum, private, fast_hit_points, fast_moves }
+  exits {
+	to { s, 46 }
+  }
+}
+
+48
+{
+  name { An Enclosed Courtyard  }
+  desc {
+"   This courtyard of pale grey stone is essentially enclosed, although archways
+do lead outside to the east and west, bereft of doors or even curtains to 
+prevent unwanted visitors.  The stones used to make this courtyard are roughly
+textured and absorb a great deal of warmth from the sun.  Small channels 
+chiselled into them provide hanging vines with a place to climb, although 
+the proliferation of flowers does not in any way appear to have weakened or
+marred the stonework.  A staircase made of the same stone descends downwards
+into a basement, the mustiness of which overwhelms the floral scent of this
+courtyard.  The stairs also lead upwards, to a small room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 50 }
+	to { d, 49 }
+	to { 10, 34 }
+	  keywords { road }
+	to { 11, 25 }
+	  keywords { avenue }
+  }
+}
+
+49
+{
+  name { A Musty Basement  }
+  desc {
+"   This basement seems to serve no purpose -- nothing is stored here, and it
+is not kept in a state of order sufficient for accomodating guests.  Dust 
+hangs heavily in the air, and the near lightlessness of the room makes it a
+claustrophobic area.  A staircase leads upwards to a more pleasant courtyard.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 48 }
+  }
+}
+
+50
+{
+  name { A Small Bedroom  }
+  desc {
+"   This small room has been spartanly furnished, with a bed only large enough
+to accomodate a single person flushed against the eastern wall of the room,
+and a small writing desk adorned only with an oil lamp pushed against the
+western.  The ceiling has been cut in such a way that small slats allow shafts
+of sunlight to dance across the brown stone floor and walls, with small motes
+of dust coruscating within the beams.  A staircase cut from the same stone as
+the house itself leads downwards to a courtyard.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { d, 48 }
+  }
+}
+
+51
+{
+  name { The Council - Southwest Quarter  }
+  desc {
+"   This building has been constructed entirely of a dull black stone, from 
+which light can reflect only wanly.  Though extremely large in terms of area
+covered, the roof cannot be more than twelve feet tall.  No windows break the
+monotony of the walls, and the air is stale and smells only of dust and rot.
+Within this quarter of the room is a pale yellow desk, curved to face towards
+the empty center of the chamber, and with seats behind it to accomodate three
+persons.  Despite the seeming lack of care that went into the aesthetic of this
+building, it is quite sturdy, and sound carries astonishingly well.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 52 }
+	to { e, 54 }
+	to { northeast, 55 }
+	to { 10, 33 }
+	  keywords { road }
+  }
+}
+
+52
+{
+  name { The Council - Northwest Quarter  }
+  desc {
+"   This building has been created by flawlessly stacking blocks of dull
+black stone to form a sort of rudimentary dorm.  While its surface area is
+rather large, the ceiling is no taller than two men standing one atop the
+other.  Despite the vastness of the chamber, sound travels exceedingly well,
+so that even the rustle of robes reaches, with clarity, from one end of the
+room to the other.  Within this quarter of the room stands a blue stone desk,
+behind which are three chairs.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 55 }
+	to { s, 51 }
+	to { southeast, 54 }
+  }
+}
+
+53
+{
+  name { 176253  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+54
+{
+  name { The Council - Southeast Corner  }
+  desc {
+"   The entirety of this structure is formed of dull black stone that only
+barely seems to reflect light.  The air is stale, and tastes of dust and rot.
+While the chamber is vast, the ceiling is extremely low, perhaps a little more
+than ten feet, and the illumination so dim that it is difficult to make out
+figures in the other portions of the room.  Despite this, sound carries very
+well, with a whisper arriving almost undistorted from over a hundred feet 
+away.  A black stone desk rests in this corner of the room, with three black
+stools behind it.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 55 }
+	to { w, 51 }
+	to { northwest, 52 }
+  }
+}
+
+55
+{
+  name { The Council - Northeast Corner  }
+  desc {
+"   The walls, floor, and ceiling of this large chamber have been constructed
+with dull black stones that only dimly reflect any light focused upon them. 
+The ceiling is quite low considering the vastness of the chamber itself, 
+perhaps ten or twelve feet in heigh compared to well over one hundred feet
+in width.  This quarter of the chamber plays host to a crimson desk, behind
+which are located three uncomfortable-looking stone stools.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 54 }
+	to { w, 52 }
+	to { southwest, 51 }
+  }
+}
+
+56
+{
+  name { 176256  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+57
+{
+  name { Tagrin - Waiting Area  }
+  desc {
+"   This dwelling is formed of stones that carry a colour roughly approximate
+to the tone of bronzed skin.  Across the walls are scrawled various patterns,
+figures, runes and symbols, each one repeated in the colours red, green and
+blue.  The room continues to the south, though it is partitioned by means of
+a simple curtain.  Several chairs are arranged against the walls, and a few
+tables are scattered about, their surfaces littered with interrupted games-of-
+chance, dice and cards scattered about.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { s, 58 }
+	to { 10, 35 }
+	  keywords { road }
+  }
+}
+
+58
+{
+  name { Tagrin - Workroom  }
+  desc {
+"   The walls of this room are painted a pale blue that merges to a sort of 
+bronze near the curtain partitioning it to the north.  A chair rests in the
+middle of the room, seemingly comfortable, with a stool placed alongside of
+it.  A workbench is within reach of the stool, and is covered in beakers of
+ink, needles, and delicate knives.  A chewed-upon towel is hung from a hook
+near the chair.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 57 }
+  }
+}
+
+59
+{
+  name { 176259  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+60
+{
+  name { The Stonemaster's Home  }
+  desc {
+"   This small building has walls formed of some sort of semi-transparent stone,
+within which are trapped droplets and gobules of irridescent gold, their light
+shining through and refracted by the walls, illuminating this home with a light
+that travels in successive waves.  There is no furniture present, nor any
+windows, and an opening leads north to an intersection.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { 10, 36 }
+	  keywords { intersection }
+  }
+}
+
+61
+{
+  name { The Ironmaster's Home  }
+  desc {
+"   The walls, ceiling, floor and door of this building have all been forged
+flawlessly of thick black iron, completely isolating it from its surroundings
+by virtue of prohibiting any sound from entering.  There is no furniture here,
+nor any evidence that the building is inhabited save that it is impeccably
+clean.  The door leading outwards is set in the northern wall.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { 10, 40 }
+	  keywords { intersection }
+  }
+}
+
+62
+{
+  name { 176262  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+63
+{
+  name { The Proof of Worth  }
+  desc {
+"   This room is lit by the flickering glow cast by bracketed torches that ring
+the area.  Their light is too weak to properly penetrate the darkness, and 
+leave many areas of the room shrouded in shadows.  The only features that can
+be easily discerned are the torches themselves, the black marble staircase
+leading upwards to light and the sound of chanting, and the mosaic formed on
+the northern wall, depicting a young warrior being pierced by spears.
+  }
+  extra {
+	keywords { _ex10 The mosaic grinds closed behind you. }
+	desc {  l 	}
+	keywords { mosaic }
+	desc { 
+"   This mosaic has been rendered in a manner that compliments the torches 
+illuminating the room.  The shadows they cast appear to lend a sense of motion
+to the image, showing spears piercing the body of a young warrior who maintains
+a stoic expression on his face.  The artistry of the image causes the blood 
+appear to move in time to the torches flickering, and the rate thereof 
+increases as you gaze upon the mosaic.  As the blood flows more and more
+rapidly, the right-hand side of the mosaic seems to alter slightly, revealing
+what appears to be a small depression, just of a size for a hand to grip the
+stone.
+	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 18 }
+	to { 10, 64 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { mosaic }
+  }
+}
+
+64
+{
+  name { The Path of Proof  }
+  desc {
+"   The stones used to create this floor are jagged-edged, and yet laid with
+flush precision, as though a single stone had been shattered by some violent
+impact and then re-assembled to create the walkway.  The walls have been
+created of the same black stone, though they are smoother.  Bracketed torches
+light the way, though they are too dim to provide total illumination of the
+area.  Shadows are cast across the dark stone, slinking and slithering about,
+and a guttering, hissing sound arises from the torches themselves.  The hall
+runs to the north and terminates south before a mosaic depicting a young
+warrior being flayed by shadowy demons.
+  }
+  extra {
+	keywords { mosaic }
+	desc { 
+"   Shadowy figures seem to scamper about this mosaic, gripping wickedly barbed
+flails and using them to flay the flesh from a young warrior who bears the
+treatment expressionlessly.  A faint depression in the left-hand side of the
+mosaic would appear to be a handle used to shift it in some manner.
+	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 65 }
+	to { 10, 63 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { mosaic }
+  }
+}
+
+65
+{
+  name { The Path of Proof  }
+  desc {
+"   Glossy black stones have been laid to form the floor, their edges jaggedly
+connecting one another.  The walls, too, are formed of the same stones, albeit
+somewhat smoother.  Shadows slink and slither across the surfaces, created by
+the wan light of bracketed torches, the flames guttering and hissing like 
+serpents suddenly exposed.  The hallway runs both to the north and the south,
+its character not seeming to change in either direction.  Now and again, the
+shadows playing on the walls will somehow coagulate into an image, always one
+of a vaguely humanoid figure being pierced, maimed, or flayed.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 66 }
+	to { s, 64 }
+  }
+}
+
+66
+{
+  name { The Path of Proof  }
+  desc {
+"   Jagged and glossy black stones are laid together to create the floor, and
+smoother stones of the same substance sweep up to form the walls and ceilings.
+Bracketed torches flicker and gutter, their sibilance infusing the shadows 
+that creep and crawl across the walls.  The hallway continues to the north and
+to the south, with seemingly no change in its composition.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 67 }
+	to { s, 65 }
+  }
+}
+
+67
+{
+  name { The Path of Proof  }
+  desc {
+"  Jagged black stones are interconnected to create a floor that appears to
+have been shattered and reconstituted through the application of incredible
+skill and patience.  Smoother stones rise up to form the walls and ceilings,
+aplay with shadows thrown by the flickering torches locked in brackets every
+few feet along the wall.  The floor is wet, slick with some sticky liquid, 
+towards the northern portion of the hall and dry to the southern.  A keening
+wail echoes intermittently down the hallway, causing the torches to gutter 
+more than usual.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 68 }
+	to { s, 66 }
+  }
+}
+
+68
+{
+  name { A Bloodstained Intersection  }
+  desc {
+"   This intersection of hallways is stained with blood, some of it blackened
+and dried and some of it fresh and shining crimson in the light cast by the
+array of torches locked into the walls and dangling from the ceiling.  The
+bloodstains grow more and more plentiful to the east, while they dissipate to
+the west, where the black stone of this intersection gives way to a crystalline
+substance.  The hallway to the north is bereft of bloodstains and lit from 
+some incredibly luminescent source, the light shining bright enough to wound
+eyes that fasten upon it for too long.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 76 }
+	to { e, 69 }
+	to { s, 67 }
+	to { w, 78 }
+  }
+}
+
+69
+{
+  name { A Bloodstained Hallway  }
+  desc {
+"   The black stones used to build this hallway have been slicked with blood,
+glimmering as a darker shade than the stones themselves within the light of
+the torches used for illumination of the room.  Wailing sounds rise up from
+seemingly nowhere, and are quelled into a hissing that itself fades into a 
+moment of silence before the cycle repeats itself.  The hallway continues to
+both the east and the west, with the blood growing more prevalent to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 70 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { A Bloodstained Hallway  }
+  desc {
+"   This hallway of black stone has been slicked with blood, some of it in 
+rather deep and sticky pools, shimmering crimson and onyx when exposed to
+the light of the torches that run along the walls.  The shadows swirl and
+dart just beyond the scope of the light, and the sound of footsteps can be
+heard, faintly muffled and their origin indeterminate.  The hallway runs both
+east and west, with the amount of blood -- old and new, dried and fresh -- 
+increasing to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 71 }
+	to { w, 69 }
+  }
+}
+
+71
+{
+  name { A Bloody Intersection  }
+  desc {
+"   The black stone walls, floor, and even ceiling of this intersection are
+streaked and stained with blood, some of which has dried and caked to a 
+coagulated black mass, and some of which remains fresh enough to continue
+slowly dripping and oozing from high place to low.  The intersection branches
+off in all four cardinal directions, and the sound of wailing, of shrieking, 
+and occasionally of screaming echoes through this location, though it is
+impossible to pinpoint the direction from which they arise.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 72 }
+	to { e, 74 }
+	to { s, 73 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { A Bloody Chamber  }
+  desc {
+"   This chamber is dimly lit by a single burning brazier positioned in the
+center of the room, forged of copper and gleaming unstained in the light that
+it generates.  The brazier is the only portion of the room unmarred by the 
+ichor and blood that stains, crusts, and oozes across the floor, wall, and
+ceiling.  The sound of beastly wails and screams penetrates the air from time
+to time, their origin unknowable.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 71 }
+  }
+}
+
+73
+{
+  name { A Bloody Chamber  }
+  desc {
+"   The copper brazier in the center of this room is the only aspect of it that
+has not been covered in blood and guts.  Ichor and blood oozes down the walls,
+forms pools on the floor, and has even crusted over portions of the ceiling.
+The sound of running footsteps echoes through the chamber, though their origin
+cannot be pinpointed.  A simple archway allows for departure to the north.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 71 }
+  }
+}
+
+74
+{
+  name { A Blood-Covered Room  }
+  desc {
+"   Blood completely covers the walls, floor, and ceiling of this room, making
+the original colour and texture of the stone far distant and unguessable from
+its current state.  Deep pools of bile, blood, and ichor have formed on the
+floor, fed by drips from the ceiling and walls.  Screeching, screaming, and
+hissing can all be heard echoing throughout the room, seeming to come from
+every direction at once.  A hole has been bored through the center of the 
+floor, and blood falls down it in a relatively steady steam.  A wretched stench
+wafts upwards from below, and the sound of grinding and clacking can clearly
+be heard.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 71 }
+	to { d, 75 }
+  }
+}
+
+75
+{
+  name { A Putrid Hole  }
+  desc {
+"   The overwhelming stench of decay permeates this room, with no refuge to be
+found save by sojourn.  Corpses, body parts, bile, ichor, blood and all manner
+of the manifestations of death are piled untidily across the floor.  A dim, 
+flickering illumination streams in through a hole in the ceiling, accompanied
+by droplets and streams of blood that pour down upon the center of the room.
+A clacking sound fills this putrid location, the only noise that seems to
+successfully break the silence.
+  }
+  flags { no_sum, private }
+  exits {
+	to { u, 74 }
+  }
+}
+
+76
+{
+  name { The Shining Path  }
+  desc {
+"   This pathway is illuminated so brilliantly that it is exceedingly
+difficult to gaze upon it, or to find its termination.  The material
+used to construct it does not appear to have any colour at all, although
+the brilliance emanating from it may simply be obscuring whatever its
+natural state may be.  It can barely be determined that the path continues
+to the north, while the light diminishes greatly to the south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 77 }
+	  info { door, closed }
+	  keywords { radiant door }
+	to { s, 68 }
+  }
+}
+
+77
+{
+  name { The Shining Path  }
+  desc {
+"   This brilliantly lit pathway causes spots of colour and darkness to
+flit across the eyes, making it nearly impossible to determine anything
+about the qualities or materials of its construction.  With difficulty,
+it can be determined to run north and south, the light remaining painfully
+bright in either direction, though seeming slightly dimmer to the south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 86 }
+	  info { door, closed }
+	  keywords { brilliant door }
+	to { s, 76 }
+	  info { door, closed }
+	  keywords { radiant door }
+  }
+}
+
+78
+{
+  name { A Crystalline Walkway  }
+  desc {
+"   This hallway seems to have been hewn from a vein of pure, crystalline
+material.  Light shimmers, reflects and refracts within the cracks and the
+impurities of this vein, casting rainbows and pockets of intensely bright
+light throughout the area.  To the east, the crystal gives way to a black
+stone intersection, upon which can be seen smears of blood.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 68 }
+	to { w, 79 }
+  }
+}
+
+79
+{
+  name { A Crystalline Walkway  }
+  desc {
+"   This hallway of crystal extends to the east and to the west, both
+directions illuminated in a confusing manner by shimmering rainbows
+and coruscating streams of light.  Motes of dust dance within beams
+formed from every component of the light spectrum, glowing children
+of the fine powder that swirls upward from the floor.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 78 }
+	to { w, 80 }
+  }
+}
+
+80
+{
+  name { A Crystalline Intersection  }
+  desc {
+"   This intersection of pure crystal is illuminated by the constant
+reflection of light from the angled faces of the crystal.  Rainbows
+and shadows chase each other, dissolve, and reform elsewhere in the
+intersection.  To the south, the shadows completely dominate, while
+the room to the north is resplendent with rainbows.  West, the 
+crystal hallway ends in a bright room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 81 }
+	to { e, 79 }
+	to { s, 82 }
+	to { w, 83 }
+  }
+}
+
+81
+{
+  name { The Rainbow Room  }
+  desc {
+"   A thousand rainbows form, mutate and reform in this room.  The peculiar
+light given by them causes a strobe effect, making it difficult to discern
+any details in the actual chamber.  The only exit lies to the south, where
+the presence of rainbows is greatly diminished within a crystalline
+intersection.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 80 }
+  }
+}
+
+82
+{
+  name { The Shadow Room  }
+  desc {
+"   This room is completely cast in shadows, as though all the light from
+the intersection visible to the north had stopped in this place to deposit
+its opposite.  No details of its construction can be made out, although the
+walls are smooth and glassy to the touch.
+  }
+  flags { dark, indoors, no_sum, private }
+  exits {
+	to { n, 80 }
+  }
+}
+
+83
+{
+  name { A Room of Pure Crystal  }
+  desc {
+"   This room is formed of a pure and flawless crystal, and the lack of
+impurities within the material ensures the purity of the brilliant light
+flooding the room.  The only break in its construction comes from the
+perfectly circular hole in the floor, leading down into a chamber pulsating
+with a light so bright that it wounds the eyes.  This chamber runs into an
+intersection to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 80 }
+	to { d, 84 }
+  }
+}
+
+84
+{
+  name { A Pulsating Crystal Room  }
+  desc {
+"   This room pulses with a light so incredibly bright that it is almost
+impossible to make out the details of the walls and floor.  There is a
+vague impression of mosaics, or etchings, although how much of what is
+perceived is a result of illusions caused by the bright light and how
+much actual is impossible to determine.  The only exit is a hole in the
+ceiling leading to a room that, although brilliantly lit, is nowhere
+near as bright as this one.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 83 }
+  }
+}
+
+85
+{
+  name { 176285  }
+  desc { Empty   }
+  flags { no_sum, private }
+}
+
+86
+{
+  name { A Glowing Room  }
+  desc {
+"   This circular chamber is lit by a glow of the magnitude one simply does
+not expect; the effect is as of staring at the sun.  Absolutely no details
+can be made out aside from the general shape of the room.  A peculiar smell
+fills the air, as though lightning had struck recently, and nearby.  A
+similarly bright hallway extends to the south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 77 }
+	  info { door, closed }
+	  keywords { brilliant door }
+  }
+}

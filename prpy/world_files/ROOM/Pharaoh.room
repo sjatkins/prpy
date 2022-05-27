@@ -1,0 +1,2077 @@
+#offset Pharaoh
+
+0
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert span out to the north.  The landscape is completely
+barren except for the occasional cactus growing out from the sands.  Dust balls
+swim freely across the top of the desert as though they have someplace to go.
+The only wildlife visible is a random scorpion or lizard skittering out from
+beneath a rock to see who is invading their territory.  Two large slabs of stone
+jut out from the sand in the distance to the north.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 1 }
+	to { s, 59 }
+  }
+}
+
+1
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue in every direction.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slabs of stone jut out from the sand in the
+distance to the north.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 4 }
+	to { e, 3 }
+	to { s, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue to the north and east.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slabs of stone jut out from the sand in the
+distance to the northeast.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 6 }
+	to { e, 1 }
+  }
+}
+
+3
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue to the north and west.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slaps of stone jut out from the sand in the
+distance to the northwest.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 5 }
+	to { w, 1 }
+  }
+}
+
+4
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue in every direction.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slabs of stone jut out from the sand in the
+distance to the north.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 7 }
+	to { e, 5 }
+	to { s, 1 }
+	to { w, 6 }
+  }
+}
+
+5
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue in every direction.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slabs of stone jut out from the sand in the
+distance to the northwest.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 10 }
+	to { e, 11 }
+	to { s, 3 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue in every direction.  The landscape is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swim freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion or lizard skittering out from beneath a rock to see who is invading
+their territory.  Two large slabs of stone jut out from the sand in the
+distance to the northeast.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 8 }
+	to { e, 4 }
+	to { s, 2 }
+	to { w, 9 }
+  }
+}
+
+7
+{
+  name { Before the Stone Doors  }
+  desc {
+"   Two large doors are built into huge stone slabs jutting out from the sand
+to the north.  There are some hieroglyphics etched into the doors, most likely
+informing the identities of the residents of the sarcophagus, or could it be
+a warning?  A couple of men dressed in tan clothes and white safari hats are
+vigorously debating the etchings, they do not seem to agree on eachothers
+translations.
+  }
+  sector { Desert }
+  flags { no_mob, no_sum, private }
+  exits {
+	to { n, 12 }
+	  key { 248012 }
+	  info { door, closed, autoclose }
+	  keywords { doors }
+	to { e, 10 }
+	to { s, 4 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { The Sands of Time  }
+  desc {
+"   Huge stone slabs jut out from the sand, blocking any further travel to the
+north.  The sands of the desert continue to the east and south.  There is some
+sort of commotion coming from the east.  A couple of men dressed in tan clothes
+stand before a set of doors talking loudly.  The landscape of the desert is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swims freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion of lizard skittering out from beneath a rock to see who is invading
+their territory.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { e, 7 }
+	to { s, 6 }
+  }
+}
+
+9
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue to the west.  The landscape is completely
+barren except for the occasional cactus growing out from the sands.  The sky
+seems to glow with a multi-colored light, ribbons of color float and twist in
+the air.  Dust balls swim freely across the top of the desert as though they
+have someplace to go.  The only wildlife visible is the random scorpion or
+lizard skittering out from beneath a rock to see who is invading their
+territory.  The two large slabs jutting out from the ground to the northeast
+seem to be the feet of a gigantic sarcophagus!  What could be in there?
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { e, 6 }
+  }
+}
+
+10
+{
+  name { The Sands of Time  }
+  desc {
+"   Huge stone slabs jut out from the sand, blocking any further travel to the
+north.  The sands of the desert continue to the west and south.  There is some
+sort of commotion coming from the west.  A couple of men dressed in tan clothes
+stand before a set of doors talking loudly.  The landscape of the desert is
+completely barren except for the occasional cactus growing out from the sands.
+The sky seems to glow with a multi-colored light, ribbons of color float and
+twist in the air.  Dust balls swims freely across the top of the desert as
+though they have someplace to go.  The only wildlife visible is the random
+scorpion of lizard skittering out from beneath a rock to see who is invading
+their territory.
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { s, 5 }
+	to { w, 7 }
+  }
+}
+
+11
+{
+  name { The Sands of Time  }
+  desc {
+"   The sands of the desert continue to the west.  The landscape is completely
+barren except for the occasional cactus growing out from the sands.  The sky
+seems to glow with a multi-colored light, ribbons of color float and twist in
+the air.  Dust balls swim freely across the top of the desert as though they
+have someplace to go.  The only wildlife visible is the random scorpion or
+lizard skittering out from beneath a rock to see who is invading their
+territory.  The two large slabs jutting out from the ground to the northwest
+seem to be the feet of a gigantic sarcophagus!  What could be in there?
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { w, 5 }
+  }
+}
+
+12
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   Two large stone doors block any further travel to the south.  The hallway
+through the crypt continues to the north.  The walls of the crypt are covered
+with beautiful and intricately etched hieroglyphics.  The artwork has faded
+with time, but some of the designs are still decipherable.  If only you
+understood ancient languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 13 }
+	to { s, 7 }
+	  key { 248012 }
+	  info { door, closed, autoclose }
+	  keywords { doors }
+  }
+}
+
+13
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the north and south.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 14 }
+	to { s, 12 }
+  }
+}
+
+14
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continue in every direction.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followes.
+There is a bright, bold colored skull and cross-bones at the end of some of
+the sentences, probably not a good sign.  If only you understood ancient
+languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 17 }
+	to { e, 15 }
+	to { s, 13 }
+	to { w, 16 }
+  }
+}
+
+15
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the west.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the east.  A large pile of rocks and overturned, broken coffins block any
+further traverl to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the east.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the west.  A large pile of rocks and overturned, broken coffins block any
+further travel to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 14 }
+  }
+}
+
+17
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the north and south.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 18 }
+	to { s, 14 }
+  }
+}
+
+18
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continue in every direction.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followes.
+There is a bright, bold colored skull and cross-bones at the end of some of
+the sentences, probably not a good sign.  If only you understood ancient
+languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 21 }
+	to { e, 19 }
+	to { s, 17 }
+	to { w, 20 }
+  }
+}
+
+19
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the west and east.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { e, 25 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the west and east.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { e, 18 }
+	to { w, 22 }
+  }
+}
+
+21
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the north and south.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 28 }
+	to { s, 18 }
+  }
+}
+
+22
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continue to the north, south and east.  The walls
+of the crypt are covered with beautiful and intricately etched hieroglyphics.
+The artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!  A low moan echoes in
+from the hallways to the north and south, promptly followed by the human screams.
+What is going on in here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 23 }
+	to { e, 20 }
+	to { s, 24 }
+  }
+}
+
+23
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the south.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the north.  A large pile of rocks and overturned, broken coffins block any
+further travel to the north.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the north.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the north.  A large pile of rocks and overturned, broken coffins block any
+further travel to the south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 22 }
+  }
+}
+
+25
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continue to the north, south and west.  The walls
+of the crypt are covered with beautiful and intricately etched hieroglyphics.
+The artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!  A low moan echoes in
+from the hallways to the north and south, promptly followed by the human screams.
+What is going on in here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 26 }
+	to { s, 27 }
+	to { w, 19 }
+  }
+}
+
+26
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the south.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the north.  A large pile of rocks and overturned, broken coffins block any
+further travel to the north.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 25 }
+  }
+}
+
+27
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the north.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the north.  A large pile of rocks and overturned, broken coffins block any
+further travel to the south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 25 }
+  }
+}
+
+28
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continue in every direction.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followes.
+There is a bright, bold colored skull and cross-bones at the end of some of
+the sentences, probably not a good sign.  If only you understood ancient
+languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 31 }
+	to { e, 29 }
+	to { s, 21 }
+	to { w, 30 }
+  }
+}
+
+29
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the west.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the east.  A large pile of rocks and overturned, broken coffins block any
+further traverl to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the east.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the west.  A large pile of rocks and overturned, broken coffins block any
+further travel to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 28 }
+  }
+}
+
+31
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway continues to the north and south.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followers.
+The skull and cross-bones at the end of some of the sentences is probably not
+a good sign.  If only you understood ancient languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 32 }
+	to { s, 28 }
+  }
+}
+
+32
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallways continues in every direction.  The walls of the
+crypt are covered with beautiful and intricately etched hieroglyphics.  The
+artwork has faded with time, but some of the designs are still decipherable.
+The markings seem to be telling the tale of the pharaoh and his followes.
+There is a bright, bold colored skull and cross-bones at the end of some of
+the sentences, probably not a good sign.  If only you understood ancient
+languages!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 35 }
+	to { e, 33 }
+	to { s, 31 }
+	to { w, 34 }
+  }
+}
+
+33
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the west.  It appears there was some
+sort of cave-in, as a pile of rocks and debris blocks any further travel
+to the east.  A long, white tweed rope sways down from a small hole in the
+ceiling of the catacombs.  Could someone have come in this way?  A quick
+and brief flash of movement in the shadows reveals that you are not alone.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the east.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  There
+are skull and cross-bones markings at the end of some of the sentences,
+probably not a good sign.  There seems to have been some type of cave-in to
+the west.  A large pile of rocks and overturned, broken coffins block any
+further travel to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 32 }
+  }
+}
+
+35
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The long stone hallway opens up to the south.  The walls of the crypt are
+covered with beautiful and intricately etched hieroglyphics.  The artwork
+has faded with time, but some of the designs are still decipherable.  The
+markings seem to be telling the tale of the pharaoh and his followers.  The
+skull and cross_bones markings at the end of some of the sentences are
+probably not a good sign.  If only you understood ancient languages.  There
+is a large scarab etched into the floor of the room.  A slit with metal handles
+on each side runs down the center of the artwork.  It looks like the scarab
+might be able to be opened.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { s, 32 }
+	to { d, 36 }
+	  info { door, closed, autoclose }
+	  keywords { scarab }
+  }
+}
+
+36
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the northeast and northwest.  There is a
+small staircase leading up to a large scarab sketched into the ceiling.  A long
+slit with two metal handles on each side makes it appear as though this is
+some kind of door.  The doors could probably be opened to access the catacombs
+above.  The hallways are lit with torches attached to the walls every few feet.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { u, 35 }
+	  info { door, closed, autoclose }
+	  keywords { scarab }
+	to { northeast, 43 }
+	to { northwest, 37 }
+  }
+}
+
+37
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the southeast and northwest.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { southeast, 36 }
+	to { northwest, 38 }
+  }
+}
+
+38
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the northeast and southeast.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { northeast, 39 }
+	to { southeast, 37 }
+  }
+}
+
+39
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the northeast and southwest.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { northeast, 40 }
+	to { southwest, 38 }
+  }
+}
+
+40
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the north, southeast and southwest.  The
+hallways are lit with flaming torches attached to the walls every few feet.
+Low, unearthly moans can be heard to the north.  The sounds of slow, dragging
+foot steps can be heard echoing in from the hallways in the distance.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 44 }
+	to { southeast, 41 }
+	to { southwest, 39 }
+  }
+}
+
+41
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the southeast and northwest.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { southeast, 42 }
+	to { northwest, 40 }
+  }
+}
+
+42
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the northwest and southwest.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { southwest, 43 }
+	to { northwest, 41 }
+  }
+}
+
+43
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the northeast and southwest.  The hallways
+are lit with flaming torches attached to the walls every few feet.  The sounds
+of slow, dragging foot steps can be heard echoing in from the hallways in the
+distance.  What could be down here?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { northeast, 42 }
+	to { southwest, 36 }
+  }
+}
+
+44
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue in every direction.  The hallways are lit with
+flaming torches attached to the walls every few feet.  Loud moans and screams
+can be heard coming from the rooms to the east and west.  The sounds of slow,
+dragging foot steps can be heard echoing in from the hallways in the distance.
+It sounds like they are closing in on you.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 47 }
+	to { e, 45 }
+	to { s, 40 }
+	to { w, 46 }
+  }
+}
+
+45
+{
+  name { A Simple Burial Chamber  }
+  desc {
+"   The chamber is filled expensive carpets and tapestries from the pharaoh's
+kingdom.  The tapestries hang beautifully from the walls, displaying their
+intricate patterns and colors.  The carpets lines the floor like a glorious
+field of plush multi-colored grass.  There are coffins over-turned all over
+the chamber.  It looks like someone has already ransacked this room for all
+of its treasures.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { A Simple Burial Chamber  }
+  desc {
+"   The chamber is filled expensive carpets and tapestries from the pharaoh's
+kingdom.  The tapestries hang beautifully from the walls, displaying their
+intricate patterns and colors.  The carpets lines the floor like a glorious
+field of plush multi-colored grass.  There are coffins over-turned all over
+the chamber.  It looks like someone has already ransacked this room for all
+of its treasures.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 44 }
+  }
+}
+
+47
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the north and south.  The hallways are lit
+with flaming torches attached to the walls every few feet.  Low and unearthly
+moans can be heard to the north and south.  The sounds of slow, dragging foot
+steps can be heard echoing in the the hallways in the distance.  It seems
+like they are getting closer.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 48 }
+	to { s, 44 }
+  }
+}
+
+48
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue in every direction.  The hallways are lit with
+flaming torches attached to the walls every few feet.  Loud moans and screams
+can be heard coming from the rooms to the east and west.  The sounds of slow,
+dragging foot steps can be heard echoing in from the hallways in the distance.
+It sounds like they are closing in on you.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 51 }
+	to { e, 49 }
+	to { s, 47 }
+	to { w, 50 }
+  }
+}
+
+49
+{
+  name { The Queen's Crypt  }
+  desc {
+"   A medium sized sarcophagus rests atop a large stone altar against the east
+wall.  The top of the queen's final resting place is laced with gold and jewels
+in the likeness of the former empress.  She must have been quite beautiful
+during her reign with the pharaoh.  The room is full of paintings and artwork
+that the queen must have collected during her lifetime.  The sarcophagus begins
+to shake violently and falls to the ground, flipping the lid to the floor.  A
+decaying and bandaged covered body begins to crawl from the coffin with a loud
+and frightening scream.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { The Prince's Crypt  }
+  desc {
+"   A small sarcophagus rests atop a large stone altar against the west wall.
+The top of the prince's final resting place is laced with jewels and gold in
+the likeness of the young man.  The floor of the room is littered with the
+toys the prince must have played with while he was still alive.  It is strange
+that they are scattered around, so though they were recently used.  The top
+of the sarcophagus slowly slides open, letting a small moan escape into the
+air.  A decrepit, rotting hand raises from the stone coffin and grasps the
+air as though it was searching for something.  This is probably a good time 
+to go back into the hallways to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 48 }
+  }
+}
+
+51
+{
+  name { Hallway Through the Catacombs  }
+  desc {
+"   The stone hallways continue to the north and south.  The hallways are lit
+with flaming torches attached to the walls every few feet.  Low and unearthly
+moans can be heard to the north and south.  The sounds of slow, dragging foot
+steps can be heard echoing in the the hallways in the distance.  It seems
+like they are getting closer.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 52 }
+	to { s, 48 }
+  }
+}
+
+52
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   The royal burial chamber is huge and full of the pharaoh's fortune.  Piles
+of gold and treasures sit in piles everywhere.  The walls are covered in
+magnificent and colorful tapestries, bringing a beautiful glow off the
+reflection of the gold.  Flaming torches sparkle every few feet on the walls
+of the chamber.  A large stone sarcophagus rests atop a large altar against
+the wall to the north.  This must be the final resting place of the pharaoh.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 55 }
+	to { e, 53 }
+	to { s, 51 }
+	to { w, 54 }
+  }
+}
+
+53
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   The royal burial chamber is huge and full of the pharaoh's fortune.  Piles
+of gold and treasures sit in piles everywhere.  The walls are covered in
+magnificent and colorful tapestries, bringing a beautiful glow off the
+reflection of the gold.  Flaming torches sparkle every few feet on the walls
+of the chamber.  A large stone sarcophagus rests atop a large altar against
+the wall to the northwest.  This must be the final resting place of the pharaoh.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 56 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   The royal burial chamber is huge and full of the pharaoh's fortune.  Piles
+of gold and treasures sit in piles everywhere.  The walls are covered in
+magnificent and colorful tapestries, bringing a beautiful glow off the
+reflection of the gold.  Flaming torches sparkle every few feet on the walls
+of the chamber.  A large stone sarcophagus rests atop a large altar against
+the wall to the northeast.  This must be the final resting place of the pharaoh.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 57 }
+	to { e, 52 }
+  }
+}
+
+55
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   A large stone sarcophagus rests atop a white marble altar against the wall
+to the north.  The top of the pharaoh's final resting place is placed in gold
+and jewels in the likeness of the once mighty ruler.  The visage is both
+beautiful and frightening at the same time.  It was clear that this man ruled
+his kingdom with a mighty hand.  The royal burial chamber opens up to the east,
+west and south.  A hallway leading to the catacombs can be found to the far
+south.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 56 }
+	to { s, 52 }
+	to { w, 57 }
+  }
+}
+
+56
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   The royal burial chamber is huge and full of the pharaoh's fortune.  Piles
+of gold and treasures sit in piles everywhere.  The walls are covered in
+magnificent and colorful tapestries, bringing a beautiful glow off the
+reflection of the gold.  Flaming torches sparkle every few feet on the walls
+of the chamber.  A large stone sarcophagus rests atop a large altar against
+the wall to the west.  This must be the final resting place of the pharaoh.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 53 }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { The Royal Burial Chamber  }
+  desc {
+"   The royal burial chamber is huge and full of the pharaoh's fortune.  Piles
+of gold and treasures sit in piles everywhere.  The walls are covered in
+magnificent and colorful tapestries, bringing a beautiful glow off the
+reflection of the gold.  Flaming torches sparkle every few feet on the walls
+of the chamber.  A large stone sarcophagus rests atop a large altar against
+the wall to the east.  This must be the final resting place of the pharaoh.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 55 }
+	to { s, 54 }
+  }
+}
+
+58
+{
+  name { A Swirling Vortex of Energy  }
+  desc {
+"   A long column of energy swirls around you in a multi-colored hue.  It seems
+to be directing you further along to the north.  There must be something
+important in the distance to the north.  A large stone statue seems to be
+blocking the way.  The enormous behemoth is holding a wooden sign that probably
+needs to be read.  You can get back to the bounce room by touching the door
+frame to the south.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+"   This area is for levels 15 to 50.  Any and all explorers above this level
+need to touch the door frame and go back to the bounce room.  There is no way
+for you to access this area.  Please respect the pharaoh's wishes.
+
+  Stone Statue Inc.
+
+"	}
+  }
+  flags { indoors, peaceful, no_sum, private }
+  exits {
+	to { n, 59 }
+  }
+}
+
+59
+{
+  name { A Swirling Vortex of Energy  }
+  desc {
+"   A long column of energy swirls around you in a multi-colored hue.  It seems
+to be directing you further to the north.  There must be something important in
+there.  You can get back to the bounce room by going to the south and touching
+the door frame.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { n, 0 }
+	to { s, 58 }
+  }
+}
+
+60
+{
+  name { Entrance to Pharoah's Maze  }
+  desc {
+"   You are standing at the base of a spiral stone staircase. Above you a massive
+sandstone looks like it will move if you try and push passed it, but has the look
+of cunning craftsmanship that will prevent anyone entering from above.  A corridor
+lined in perfectly fitted sandstone blocks leads north into darkness.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_mob, no_sum, private, dark }
+  exits {
+	to { u, 55 }
+	to { n, 61 }
+  }
+}
+
+61
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south, east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 60 }
+	to { w, 62 }
+        to { e, 64 }
+  }
+}
+
+62
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 63 }
+        to { e, 61 }
+  }
+}
+
+63
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A passage leads off north.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 62 }
+  }
+}
+
+64
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 65 }
+	to { s, 66 }
+	to { w, 61 }
+  }
+}
+
+65
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 64 }
+  }
+}
+
+66
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 64 }
+        to { s, 67 }
+        to { e, 69 }
+  }
+}
+
+67
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 66 }
+        to { w, 68 }
+  }
+}
+
+68
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south, east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 71 }
+        to { e, 67 }
+        to { w, 70 }
+  }
+}
+
+69
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { w, 66 }
+  }
+}
+
+70
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 68 }
+  }
+}
+
+71
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 68 }
+        to { s, 72 }
+        to { e, 73 }
+  }
+}
+
+72
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off north.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 71 }
+  }
+}
+
+73
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 74 }
+        to { w, 71 }
+  }
+}
+
+74
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 75 }
+        to { s, 76 }
+		to { w, 73 }
+  }
+}
+
+75
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 74 }
+  }
+}
+
+76
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 74 }
+        to { w, 77 }
+  }
+}
+
+77
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 78 }
+        to { e, 76 }
+  }
+}
+
+78
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 77 }
+        to { w, 79 }
+  }
+}
+
+79
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 78 }
+        to { w, 80 }
+  }
+}
+
+80
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 81 }
+        to { e, 79 }
+  }
+}
+
+81
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 82 }
+        to { s, 80 }
+  }
+}
+
+82
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 81 }
+        to { w, 83 }
+  }
+}
+
+83
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south, east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 84 }
+        to { e, 82 }
+        to { w, 86 }
+  }
+}
+
+84
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 83 }
+        to { w, 85 }
+  }
+}
+
+85
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 84 }
+  }
+}
+
+86
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 87 }
+        to { e, 83 }
+  }
+}
+
+87
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 91 }
+        to { s, 86 }
+        to { w, 88 }
+  }
+}
+
+88
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 89 }
+        to { e, 87 }
+  }
+}
+
+89
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 90 }
+        to { s, 88 }
+  }
+}
+
+90
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 89 }
+  }
+}
+
+91
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 92 }
+        to { s, 87 }
+  }
+}
+
+92
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 91 }
+        to { e, 94 }
+  }
+}
+
+93
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 97 }
+        to { e, 96 }
+  }
+}
+
+94
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off west, north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { w, 92 }
+        to { n, 96 }
+        to { s, 95 }
+  }
+}
+
+95
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 94 }
+        to { s, 99 }
+  }
+}
+
+96
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 94 }
+        to { w, 93 }
+  }
+}
+
+97
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 93 }
+        to { e, 98 }
+  }
+}
+
+98
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 100 }
+        to { w, 97 }
+  }
+}
+
+99
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off north.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 95 }
+  }
+}
+
+100
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 103 }
+        to { s, 101 }
+        to { w, 98 }
+  }
+}
+
+101
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 100 }
+        to { e, 102 }
+  }
+}
+
+102
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { w, 101 }
+  }
+}
+103
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 100 }
+        to { e, 104 }
+  }
+}
+
+104
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 105 }
+        to { w, 103 }
+  }
+}
+
+105
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 106 }
+        to { w, 104 }
+  }
+}
+
+106
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, east and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 105 }
+        to { e, 108 }
+        to { w, 107 }
+  }
+}
+
+107
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { e, 106 }
+  }
+}
+
+108
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 109 }
+        to { w, 106 }
+  }
+}
+
+109
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 108 }
+        to { S, 110 }
+  }
+}
+
+110
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 109 }
+        to { e, 111 }
+  }
+}
+
+111
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 112 }
+        to { s, 114 }
+        to { w, 110 }
+  }
+}
+
+112
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 113 }
+        to { s, 111 }
+  }
+}
+
+113
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 112 }
+  }
+}
+
+114
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 111 }
+        to { e, 115 }
+  }
+}
+
+115
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north, south and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 116 }
+        to { s, 117 }
+        to { w, 114 }
+  }
+}
+
+116
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 115 }
+  }
+}
+
+117
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and west.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 115 }
+        to { w, 118 }
+  }
+}
+
+118
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off south and east.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { s, 119 }
+        to { e, 117 }
+  }
+}
+
+119
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+Passages lead off north and south.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 118 }
+        to { s, 120 }
+  }
+}
+
+120
+{
+  name { Pharoah's Maze  }
+  desc {
+"   You are standing in a corridor lined in perfectly fitted sandstone blocks.
+A Passage leads off north.
+  }
+  sector { Sandstone_Cave }
+  flags { indoors, no_sum, private, dark }
+  exits {
+	to { n, 119 }
+  }
+}

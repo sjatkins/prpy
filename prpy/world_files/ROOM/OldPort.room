@@ -1,0 +1,7277 @@
+#offset OldPort
+
+0
+{
+  name { Outside Central Gate  }
+  desc {
+"   The Central Gate of Oldport looms to the east, rising from the fog like
+some ancient maw.  You hope that the atmosphere inside the city will be a
+little more hospitable than out here.  The wet fog continues to pour in
+from the river and marsh, like a thick growth of reeds along the side of
+the road.
+  }
+  flags { mapable }
+  exits {
+	to { e, 531 }
+	to { w, 169 }
+	to { southwest, 387 }
+  }
+}
+
+1
+{
+  name { Central Gates  }
+  desc {
+"   You can smell the decay of the mighty gates of OldPort as you are ushered
+quickly through by the Town Watch.  Despite the obvious effects of the constant
+fog, you have no doubt of the reinforced wood's strength.
+   Ahead of you the road widens and shows evidence of recent repairs.  Although
+it could be your imagination, the mood seems even more oppressive.
+  }
+  flags { mapable }
+  exits {
+	to { e, 2 }
+	to { w, 533 }
+  }
+}
+
+2
+{
+  name { Vast Intersection  }
+  desc {
+"   A vast intersection stretches away from the Central Gate here.  You stare
+in wonder.  The dimensions of the intersection are very generous.  So generous
+in fact that you would expect to see a constant crowd of people pushing their
+way through.  To your surprise, you are the only travelers around.
+   Signs identify the road to the east as Inlet's Mouth.  To the north and
+south Shoal Road cuts a swath through the urban sprawl.  Sounds you associate
+with a normal city atmosphere can be dimly heard from the east, but are
+strangely absent to both the north and south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 18 }
+	to { e, 3 }
+	to { s, 24 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { Inlet's Mouth  }
+  desc {
+"   The houses lining the street appear to be vacant.  An air of abandonment
+lies about the shuttered and barred buildings.  All of the windows and doors 
+appear to have been either nailed shut or boarded over.  The sloppy workman-
+ship shows that all the modifications to the homes were made with great haste.
+   Further east down the street you can see a dog skulk into an alley.  Puzzled,
+you look carefully for any other signs of life, but are unable to find any.
+  }
+  flags { mapable }
+  exits {
+	to { e, 4 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { Inlet's Mouth  }
+  desc {
+"   The mood remains sullen here.  Although you can still hear sounds of 
+life echoing sharply off the buildings ahead, the road here is utterly devoid
+of life.  A dark shape slips across the street ahead at run, crossing so
+quickly and quietly that you wonder if it was actually there.
+   The buildings cluster more closely together here with no room for alleys
+between.  You look around quickly.  Some sixth sense warns you repeatedly
+that you aren't alone anymore.
+  }
+  flags { mapable, no_mob, no_sum }
+  exits {
+	to { e, 5 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { Inlet's Mouth  }
+  desc {
+"   Beautiful marble reliefs are cut into the buildings here.  This entire area
+looks like it was recently redone and must have cost the city a fortune.  You
+can't fathom why the city would sink so much money into an area that apparently
+has no people!
+  To the east, an intersection opens into a sunlit square.  To the west the 
+road is smothered in shade and has an ominous look to it.
+  }
+  flags { mapable, dark, indoors, no_sum }
+  exits {
+	to { e, 6 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { Inlet's Mouth  }
+  desc {
+"   Inlet's mouth gives way to Inlet's Way at this three-way intersection.
+The air of abandonment that prevails in this part of the city is briefly
+broken by the appearance of an open and welcoming Inn to the east.  It is
+heavily guarded by several large men who eye you carefully as you approach.
+   A neatly lettered sign is mounted on a marble stand in the center of the
+intersection.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+The shiny bronze plaque has been securly fastened to the marble base.  It
+reads:
+
+North -  Beautiful views of the OldPort harbor can be had for lunch!  Many
+         outstanding restaurants lie just blocks away to the north!
+
+South -  To the south the path of commerce could lead to a road of riches!
+         The southern road will lead into the heart of OldPort's commerce
+         district!
+
+West  -  Travel west to behold one of the largest planned market centers in
+         the civilized world!  Your most exotic desires can surely be met by
+         one of OldPort's many establishments!
+
+
+Look to find more guidance plates at all major intersections.  A free service
+provided by the OldPort Council of Commerce.
+	}
+  }
+  flags { mapable, dark, indoors, no_sum }
+  exits {
+	to { n, 98 }
+	to { e, 159 }
+	to { s, 7 }
+	to { w, 5 }
+  }
+}
+
+7
+{
+  name { Inlet's Way - East  }
+  desc {
+"  A change comes over the city as you pass through these streets.  The further
+south you look, the seedier the buildings become.  The same sense of abandon-
+ment hovers here as in the higher class neighborhoods though.  Whatever has
+happened to OldPort, it is an equal opportunity ailment.
+  }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 6 }
+	to { s, 8 }
+  }
+}
+
+8
+{
+  name { Inlet's Way - East  }
+  desc {
+"   Run-down homes and businesses line both sides of the street.  To the
+east you can hear the crashing of waves.  Many of the buildings appear to
+have been deserted longer than the boarded up businesses, as though they
+were condemned and abandoned long before whatever happened here came to pass.
+  }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 7 }
+	to { e, 9 }
+  }
+}
+
+9
+{
+  name { Inlet's Way - East  }
+  desc {
+"   Inlet's Way continues its east to west trek, cutting through the mass of
+buildings here.  The buildings don't appear to have been boarded up, and many
+look ransacked.  An alley stretches off to the south.  You can't be sure from 
+here but it looks like some sort of barricade has been erected at the far end
+of the alley.
+  }
+  extra {
+	keywords { note }
+	desc { 
+The note reads:  There is minor distortion used here.  The alley to the south
+should technically be once space shorter, but I am employing distortion to
+add a sense of confusion.  The alleys are narrow and easy to get lost in, so
+I think this fits in.  I will not distort things unreasonably though.  I don't
+want to undermine the realism here.  In case you are wondering why I am writing
+this ins a note:  I wanted to practice extras. :)
+	}
+  }
+  flags { mapable, dark, indoors }
+  exits {
+	to { e, 10 }
+	to { s, 99 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { Inlet's Way - East  }
+  desc {
+"   The street runs past decrepit houses and shops.  Nothing seems to have been
+done to these houses in the recent city-wide restoration, but the road shows
+signs of repairs.
+   The pounding of the surf is louder from the east the closer you get.  To the
+west the road continues to front run-down structures until it makes a massive,
+sweeping turn to the north.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 11 }
+	to { w, 9 }
+  }
+}
+
+11
+{
+  name { Inlet's Way - East  }
+  desc {
+"   The only thing that sets this stretch or roadway apart from countless others
+you have passed is the presence of a small alley slinking off the the north.
+Litter lies piled in the alley, and in this street as well as in the street
+to the west.  The road to the east has been carefully cleared though, and 
+approaches some sort of barricade.
+  }
+  flags { mapable, no_mob, indoors }
+  exits {
+	to { n, 126 }
+	to { e, 12 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { Inlet's Way - East  }
+  desc {
+"   The street here has been cleared of all litter and debris.  To the east
+a massive barricade looms.  You can see men patrolling the makeshift guard-
+post.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 13 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { Northern Guard Station  }
+  desc {
+"   A guardpost has been set up here.  Several men-at-arms stand beside a make-
+shift barricade that divides the road.  They draw their swords as you approach.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 72 }
+	to { e, 71 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { Current-SWISH  }
+  desc {
+"   The powerful current rockets you along the coast and between boulders at
+such a frantic pace you know a collision would prove fatal.  Water fills your
+mouth and nose, you can't tell up from down, you are tumbling blindly through
+a manmade reef towards a harbor crowded with massive, moving ships, each one
+capable of crushing you to nothing against its bow.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  tele { 30, 1, 158 }
+}
+
+15
+{
+  name { Rocky Slope  }
+  desc {
+"   A broken railing gives access to the rocky slope leading into the water.  
+The surf crashes into the rocks with surprising force even behind the safety
+of the stone formation.  You can't imagine how the children manage to go down
+these rocks without slipping!  They are so slimy and the mud that squeezes up
+between them isnt helping --- WHOA!!
+
+*SPLASH*
+
+"  }
+  sector { Shallow Water }
+  flags { no_mob, indoors }
+  tele { 40, 1, 14 }
+}
+
+16
+{
+  name { Bay Hook Road  }
+  desc {
+"   Another pier lies to the north.  The constant press of commerce on 
+this street makes standing still difficult.  The road continues both 
+east and west.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 154 }
+	to { e, 56 }
+	to { w, 107 }
+  }
+}
+
+17
+{
+  name { Underground Pool  }
+  desc {
+"   The current dies with shocking suddeness.  You bouy to the top and burst
+through gasping for breath.  Still reeling from your underwater adventure it
+takes you several seconds to focus on your surroundings.
+   The space around you is very dark.  You are floating in a pool of water that
+is isolated by stone on all sides.  A dim gray light diffuses from under the
+surface to the west, but the strong inflow of water from that direction tells
+you that escape from the way you entered is impossible.
+   Swimming to the edge, you pull yourself up onto a ledge that is made from
+well fitted stones.  Somebody has taken every precaution to ensure this small
+shelf of stone does not erode any time soon.  A small archway lies to the north.   No other exit is visible.
+  }
+  flags { dark, indoors }
+  exits {
+	to { 10, 94 }
+	  keywords { ledge }
+  }
+}
+
+18
+{
+  name { Shoal Road  }
+  desc {
+"   The road follows the city wall moving lazily to the north.  A narrow band
+of grass is all that seperates the two, providing a clear space to repel 
+attackers should they crest the wall.  The buildings facing onto the street
+also seem to have been built defensively with no windows on the ground floor
+and expensive tile roofs that would help them to survive a rain of fire tipped arrows.
+   There are no people in sight.  Shops aren't open, and flapping banners are
+the only traces of movement.  Further to the north you see a few old carts
+pushed out into the street.  To the south a vast intersection runs in all directions.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 19 }
+	to { s, 2 }
+  }
+}
+
+19
+{
+  name { Scorches on Shoal Road  }
+  desc {
+"   The grass strip along the base of the city wall here is blackened, and the
+stonework scorched.  A patch of black soot mars the street for nkingy half a
+block leaving no doubt that an explosion of monumental proportion occured here.
+   Directly ahead three wooden carts appear to have been hastily pushed into 
+the street in a crude attempt at a barricade.  Strangely, as pathetic an effort 
+as it was, it appears to have paid off.  That the carts remain untoppled in the 
+intersection is proof that the pursuers were unable to break through.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 20 }
+	to { e, 111 }
+	to { s, 18 }
+  }
+}
+
+20
+{
+  name { Shoal Road  }
+  desc {
+"   Three carts have been pushed into the street here.  They look like they
+once may have been used to display food or wares, but now they stand empty.
+As you inspect them you find a very small dart stuck into a spoke in one of
+the wheels.  You also see some marks on the sides of the carts that could 
+have come from sword slashings.  Then again, they could have come from a rough
+life in the market place.
+   Shoal Road continues to the south and north from here.  To the south you 
+can see a large scorch mark stretching down the street some half block.  Things
+appear to be more normal to the north.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 21 }
+	to { s, 19 }
+  }
+}
+
+21
+{
+  name { Shoal Road  }
+  desc {
+"   The buildings give way to a small, dark opening to the east.  From the alley
+a fetid odor pours into the street.  To the south three carts have been pulled
+into the street for some reason.  To the north all is clear.
+   Was that movement you just saw down the alleyway?
+  }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 22 }
+	to { e, 115 }
+	to { s, 20 }
+  }
+}
+
+22
+{
+  name { Shoal Road  }
+  desc {
+"   Nothing stirs on this section of Shoal Road.  To the distant south you can 
+see some sort of obstruction in the road.  Buildings line the roadway on both
+sides here without break.  All are heavily boarded and securely locked.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 23 }
+	to { s, 21 }
+  }
+}
+
+23
+{
+  name { Shoal Road  }
+  desc {
+"   Giving way to Bay Hook Road here, Shoal Road comes alongside of the
+harbor itself.  Although the buildings continue to line the road along the
+inner side of the road, the outerside is clear, permitting an unobstructed
+view of the water.
+  }
+  flags { mapable }
+  exits {
+	to { e, 87 }
+	to { s, 22 }
+  }
+}
+
+24
+{
+  name { Shoal Road  }
+  desc {
+"   Although the houses and businesses lining the street seem to have been
+of good standing, they stand empty one and the same now.  Every window
+has been boarded up, or else it's broken.  There are no signs that anyone
+has been here recently.
+  }
+  flags { mapable }
+  exits {
+	to { n, 2 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { Shoal Road  }
+  desc {
+"   The quiet continues to persist.  There is an air of expectancy that 
+lingers in the streets and empty doorways.  You can't help but wonder
+what could have caused such a wide-scale desertion of home and shop
+alike in OldPort.
+  }
+  flags { mapable }
+  exits {
+	to { n, 24 }
+	to { s, 26 }
+  }
+}
+
+26
+{
+  name { Shoal Road  }
+  desc {
+"   Blank windows...  Empty streets...  A raven flaps noisly from a 
+fancifully carved buttress landing in the street in front of you.  It
+stares intently for several seconds and takes to the air again.
+  }
+  flags { mapable }
+  exits {
+	to { n, 25 }
+	to { s, 27 }
+  }
+}
+
+27
+{
+  name { Shoal Road  }
+  desc {
+"   The road bends from north-south to east-west at this quiet corner
+courtyard.  Signs of neglect still prevail but there is a faint noise
+(a crowd?) coming from the east.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 26 }
+	to { e, 54 }
+  }
+}
+
+28
+{
+  name { Shoal Road  }
+  desc {
+"   In the east you can vaguely make out an obstruction further down the
+road.  Occasional shouts echo off the marble cased buildings from that
+direction, although the source is much too distant to make out any clear
+words.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 29 }
+	to { w, 54 }
+  }
+}
+
+29
+{
+  name { Shoal Road  }
+  desc {
+"   To the east an obstruction is visible.  Although you can't be sure from
+this distance, it appears to be some sort of guard post.  It blocks the
+entire street anyway, and there are men pacing atop it.  The sounds of
+civilization wash over you from that direction.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Shoal Road  }
+  desc {
+"   You study the roadblock to the east.  Constructed from granite blocks
+it looks anything but temporary.  Three armed guards are pacing atop the 
+wall which is approximately 5 feet in height.  They stop and stare at you
+as you approach.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 31 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { Shoal Road  }
+  desc {
+"   A manned guardpost has been set up here.  The guards defend against the
+wandering packs of thieves that have overrun the northeastern region of the
+city.  From this point, the guards can intercept anyone coming through the 
+alley to the north, or anyone attempting to follow the city wall to the east.
+   This guardpost also serves as a waystation for reinforcements to the 
+guardpost at the Central gate.
+  }
+  flags { mapable }
+  exits {
+	to { n, 100 }
+	to { e, 32 }
+	to { w, 30 }
+  }
+}
+
+32
+{
+  name { Shoal Road  }
+  desc {
+"   To the east a magnificent gate rises up from a crowd of people who huddle
+around it shouting curses at the guards who hold them back.  You can catch
+glimpses of a tree lined corridor stretching away from the gate eastward, but
+the constantly shifting crowd makes it too dificult to get a good view of
+things.
+   The road curves to the south here, cutting eastward travel off abruptly.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { e, 505 }
+	to { s, 33 }
+	to { w, 31 }
+  }
+}
+
+33
+{
+  name { Shoal Road  }
+  desc {
+"   An iron fence separates the road from the grounds of the park to the
+east.  You can travel to the north where a large crowd is gathered, or
+to the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 32 }
+	to { s, 34 }
+  }
+}
+
+34
+{
+  name { Shoal Road  }
+  desc {
+"   The road runs flat and straight from north to south.  An iron fence
+separates it from the grounds of the park to the east where a dense
+forest grows.
+  }
+  flags { mapable }
+  exits {
+	to { n, 33 }
+	to { s, 38 }
+  }
+}
+
+35
+{
+  name { Shoal Road  }
+  desc {
+"   Several small, decrepit houses line the street here and make way to
+a small pond of scum water at the end of the street.  As you walk further
+towards the water, you notice a thick layer of green slime covering the
+pond entirely.
+  }
+  flags { mapable }
+  exits {
+	to { n, 101 }
+  }
+}
+
+36
+{
+  name { Shoal Road  }
+  desc {
+"   Several small, decrepit houses line the street here and make way to
+a small pond of scum water at the end of the street.  As you walk further
+towards the water, you notice a thick layer of green slime covering the
+pond entirely.
+  }
+  flags { mapable }
+  exits {
+	to { n, 103 }
+  }
+}
+
+37
+{
+  name { Shoal Road  }
+  desc {
+"   Several small houses line Shoal Stretch to the north.  You hear the
+faint sounds of small children laughing and playing games.  Your heart
+is warmed by their voices but you still feel a slight uneasiness.
+  }
+  flags { mapable }
+  exits {
+	to { n, 40 }
+  }
+}
+
+38
+{
+  name { Shoal Road  }
+  desc {
+"   Shoal Road turns east into its final leg at this small intersection.  For
+the remainder of its run it is known as Shoal Stretch because of the large, 
+flat distance it travels, forming the city's entire southern border.
+  }
+  flags { mapable }
+  exits {
+	to { n, 34 }
+	to { e, 101 }
+	to { 10, 42 }
+	  info { hidden }
+	  keywords { alley }
+  }
+}
+
+39
+{
+  name { Municipal Gate  }
+  desc {
+"   Six fluted columns of pink marble support a capstone emblazoned with
+the symbol of the ruling house of OldPort.  The gates themselves, massive
+steel bars gilded with gold and silver, are open and inviting, welcoming
+all to enter and wander throughout the municipal heart of OldPort.  
+   Nobody seems to be entering though...
+  }
+  flags { mapable }
+  exits {
+	to { n, 350 }
+	to { e, 40 }
+	to { w, 103 }
+  }
+}
+
+40
+{
+  name { Shoal Stretch  }
+  desc {
+"   Shabby homes crowd the southern streetfront.  An iron fence prohibits
+access to the north as well.  A large plaza lies to the east while some
+sort of gate can be glimpsed to the west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 41 }
+	to { s, 37 }
+	to { w, 39 }
+  }
+}
+
+41
+{
+  name { Shoal Stretch  }
+  desc { "   A formidable iron fence lines the northern side of the road.
+  }
+  flags { mapable }
+  exits {
+	to { e, 44 }
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { Shoal Stretch  }
+  desc {
+"   This narrow alley makes its way in between several houses lining
+Shoal Stretch.  Hidden behind the shelter of the homes, many do not
+even realize that this alley exists in their city.
+  }
+  flags { mapable }
+  exits {
+	to { w, 43 }
+	to { 10, 38 }
+	  keywords { stretch }
+  }
+}
+
+43
+{
+  name { Shoal Stretch  }
+  desc {
+"   This small extension of Shoal Stretch is the home of several of the
+city's homeless.  Several large waste containers line the walls of the
+houses enclosing this narrow alley.
+  }
+  flags { mapable }
+  exits {
+	to { e, 42 }
+  }
+}
+
+44
+{
+  name { Southern Intersection  }
+  desc {
+"   To the south you can make out the smaller frame of the South Gate.  Not
+nearly as large as the Central Gate of OldPort, it nonetheless moves huge
+numbers of people with tight security.
+  Roads stretch in every direction from this point.  To the west Shoal Stretch
+fades into the distance while Shoal Narrows does the same to the east.  Bay
+Hook Road leads northward to the harbor, and the heart of the city.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+The sign reads:
+
+Bay Hook Road -- North
+Shoal Narrows -- East
+South Gate -- South
+Shaol Stretch --West
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 55 }
+	to { e, 45 }
+	to { s, 52 }
+	to { w, 41 }
+  }
+}
+
+45
+{
+  name { Shoal Narrows  }
+  desc {
+"   The shops of OldPort can be found east of here.  This section of OldPort is
+among the oldest, and the shops here are well established.
+  }
+  flags { mapable }
+  exits {
+	to { e, 46 }
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { Shoal Narrows  }
+  desc {
+"   Countless feet have worn the cobblestones smooth here, the stride
+hastened by the smell of commerce in the air.  Looking down the street
+you can see banners and sign boards proudly proclaiming the trade of the 
+shop owners within.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 134 }
+	to { e, 47 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { Shoal Narrows  }
+  desc {
+"   A cute shop lies to the north.  The smell of exotic spices and oil tickle
+your nostrils enticing you to enter.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 135 }
+	to { e, 48 }
+	to { w, 46 }
+  }
+}
+
+48
+{
+  name { Shoal Narrows  }
+  desc {
+"   A small sign competing for attention on this advertising blitz of a 
+street proclaims simply 'Chressport east.'
+  }
+  flags { mapable }
+  exits {
+	to { e, 49 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { Shoal Narrows  }
+  desc {
+"   Exotic in its simplicity, a conservative building rests on the southern
+curb of Shoal Narrows.  Listening carefully you hear occasional creaks
+coming from within.  A sign showing a needle and a spool of thread hangs
+over the door.
+  }
+  flags { mapable }
+  exits {
+	to { n, 171 }
+	to { e, 88 }
+	to { s, 136 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { Shoal Narrows  }
+  desc {
+"   The Narrows ends here in a majestic outcropping of stone, the work of both
+man and nature flowing together to carry the road high out over the ocean.
+  }
+  flags { mapable }
+  exits {
+	to { e, OldportBeach:0 }
+	to { w, 89 }
+  }
+}
+
+51
+{
+  name { Entering OldPort  }
+  desc {
+"   The guards usher you through the gates in a brisk, yet polite manner.  You
+notice that they carefully appraise your visible weapons and the manner in
+which you are outfitted.  Not much gets past these men.
+  }
+  flags { mapable }
+  exits {
+	to { n, 151 }
+	to { s, 106 }
+  }
+}
+
+52
+{
+  name { Southern Plaza  }
+  desc {
+"   This plaza stretches from the South Gate itself at the southern end to the
+intersection of Bay Hook Road to the north.  All along the fringes of this 
+vast paved marketplace businesses and Inns have sprung up to accomodate the
+needs of the constant stream of travellers South Gate admits to the city.
+   The largest of these establishments, Sehrabella's Inn, occupies nearly the
+entire western portion of the courtyard and reaches several stories into the
+vast, motionless sky.
+  }
+  flags { mapable }
+  exits {
+	to { n, 44 }
+	to { s, 151 }
+  }
+}
+
+53
+{
+  name { Bay Hook Road  }
+  desc {
+"   The roadway here is crowded with people making their way from the piers
+to the north southward to the market.  The piers themselves are barely
+visible through the mass to the north, but you can see that several large ships
+are moored there, some nearly unattended.
+   To the south the Southern Plaza teems with activity, many of the items
+being unloaded from the ships taken there and sold directly.
+  }
+  flags { mapable }
+  exits {
+	to { n, 61 }
+	to { s, 55 }
+  }
+}
+
+54
+{
+  name { Shoal Road  }
+  desc {
+"   The sounds of everyday activity are stronger to the east, weaker to
+the west.  There is still no sign of life in the buildings.
+  }
+  flags { mapable }
+  exits {
+	to { e, 28 }
+	to { w, 27 }
+  }
+}
+
+55
+{
+  name { Lower Bay Intersection  }
+  desc {
+"   Bay Hook Road forks in two directions here.  The longer of the two continues
+to the east along the edge of the harbor to meet up with The Works.  The other
+leg veers sharply south spreading out into the Southern Intersection of OldPort.
+Every way is packed with people.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+The sign reads:
+
+Bay Hook Road -- North, or East
+Southern Gate -- South
+
+The Southern Plaza may also be found to the south, as may several fine Inns.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 53 }
+	to { e, 109 }
+	to { s, 44 }
+  }
+}
+
+56
+{
+  name { Bay Hook Road  }
+  desc {
+"   Crowds block the street.  If you can press your way through the throng
+of citizens you can reach a large pier to either the east or west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 57 }
+	to { w, 16 }
+  }
+}
+
+57
+{
+  name { Bay Hook Road  }
+  desc {
+"   A great pier breaks from the road stretching away to the north here.  Many
+of the people on the street have business on the pier apparently, because to
+the east the road is much less crowded.
+  }
+  flags { mapable }
+  exits {
+	to { n, 156 }
+	to { e, 58 }
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { Bay Hook Road  }
+  desc {
+"   The Works is immediately to your east.  It jutts impressively into
+the harbor protecting the shipping lane from the ocean's rough waves.  A
+pier is dwarfed by the works but still reaches impressively into the harbor
+to the west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 59 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { The Works  }
+  desc {
+"   Bay Hook Road slowly vanishes here.  The buildings and carts are crowded so
+closely together that travel to the east would be futile even if the ocean
+did not form its own indisputable barrier.
+   To the north, you can see The Works, the pride of OldPort's engineering
+department.  The Works consists of a massive granite protrusion that forms the
+entire southeastern border of the bay.  Over the years, the sand eroding 
+naturally from the two islands in the center of the harbor has gathered into
+the lee of the stone adding further support to The Works.  Soon, the massive
+granite finger will be as solid a part of the continent as any other.
+  }
+  flags { mapable }
+  exits {
+	to { n, 90 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { In a Clearing  }
+  desc {
+"   You have stumbled into a clearing in the forest.  There is not much
+here other than a line of trees surrounding you.  Darkness fills the
+voids between the trees in the forest, as you try to search for a path
+out of here.  Unfortunately, it looks as though you are stuck here.
+  }
+  exits {
+	to { w, 105 }
+  }
+}
+
+61
+{
+  name { Bay Hook Road  }
+  desc {
+"   A pier stretches out into the bay to the east.   Ships moored to it rock
+gently with the waves, swaying in a motion that the people carrying cargo to
+and from don't seem to notice.
+   A loud din comes from the south.  Looking that way you see a massive crowd
+of people pushing through what looks like three combined intersections.  What
+a mess.
+  }
+  flags { mapable }
+  exits {
+	to { n, 62 }
+	to { e, 141 }
+	to { s, 53 }
+  }
+}
+
+62
+{
+  name { Bay Hook Road  }
+  desc {
+"   A pier breaks off into the water to the east.  Boats are tied up to it
+on either side.   Bay Hook Road continues to the north where more piers are
+visible, and to the south where in addition to more piers, you can hear the
+din of a crowd.
+  }
+  flags { mapable }
+  exits {
+	to { n, 63 }
+	to { e, 142 }
+	to { s, 61 }
+  }
+}
+
+63
+{
+  name { Bay Hook Road  }
+  desc {
+"   A pier breaks off into the water to the east.  Boats are tied up to each
+side of it.  More piers are visible to the south, Bay Hook Road stretches away
+to the north.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 64 }
+	to { e, 143 }
+	to { s, 62 }
+  }
+}
+
+64
+{
+  name { Bay Hook Road  }
+  desc {
+"   Piers are visible to the north and the south.  Bay Hook Road continues to
+the west, where it turns north sharply and to the south where it runs parallel
+to the shore.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { s, 63 }
+	to { w, 65 }
+  }
+}
+
+65
+{
+  name { Bay Hook Road  }
+  desc {
+"   To both the north and south piers with ships docked line the coast.  Bay 
+Hook road continues both directions, providing easy access for cargo movement.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 66 }
+	to { e, 64 }
+  }
+}
+
+66
+{
+  name { Bay Hook Road  }
+  desc {
+"   A pier breaks off into the water to the east.  Ships are tied to each side
+of it and rock gently with the waves.  Bay Hook Road continues both north and
+south, following the curves of the bay.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 67 }
+	to { e, 140 }
+	to { s, 65 }
+  }
+}
+
+67
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road, coastline, and fence all turn slowly from their east-west
+courses in favor of a new north-south trek.  Glancing south you see several
+large ships docked at peirs and realize you are approaching the Harbor
+proper of the city of OldPort.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { s, 66 }
+	to { w, 68 }
+  }
+}
+
+68
+{
+  name { Bay Hook Road  }
+  desc {
+"   Although the road runs a straight east-west course here, you can see
+that it veers off to the south at the end of the fence to the east.  The
+narrow ribbon of road continues unchanged to the west.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 67 }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { Bay Hook Road  }
+  desc {
+"   Water to the north...  Foliage to the south...  You continue to follow
+the narrow road as it runs its east-west course.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 68 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { Bay Hook Road  }
+  desc {
+"   This is a quiet section of town.  The placid water of the harbor dominates
+the north.  The endless tangle of trees behind the fence to the south make
+up your southerly view.
+  }
+  flags { mapable }
+  exits {
+	to { e, 69 }
+	to { w, 71 }
+  }
+}
+
+71
+{
+  name { Bay Hook Road  }
+  desc {
+"   The space left for the road to follow the waterside is severly limited 
+here by the appearance of a massive iron fence to the south.  Through the fence
+you can see many young trees crowding together, although the tangle of boughs
+in the young forest prevent you from seeing past them.
+  Bay Hook Road continues, both east and west.  To the west some sort of guard
+post has been erected.  To the east the road continues, filling nearly the 
+entire width of the narrow ribbon of land between waterfront and fence.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { e, 70 }
+	to { w, 13 }
+  }
+}
+
+72
+{
+  name { Bay Hook Road  }
+  desc {
+"   A long, lonely stretch of Bay Hook road runs north to south along the sea-
+shore here.  To the south, a guardpost blocks further, unmolested travel.  To
+the north, the road dwindles until it turns out of sight to the west.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 73 }
+	to { s, 13 }
+  }
+}
+
+73
+{
+  name { Bay Hook Road  }
+  desc {
+"   Empty, dark, beautiful.  This section of Bay Hook road is all that and more.
+The surf slaps the stone of the seawall, lulling you into a state of peaceful
+suspension.  To the south some sort of barricade has been erected.  Nothing is
+to the north except windswept cobbles.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 74 }
+	to { s, 72 }
+  }
+}
+
+74
+{
+  name { Bay Hook Road  }
+  desc {
+"   The building's shadows stretch out over the beach to the east, covering the
+road and seawall completely.  There is no sign of life.  A sudden gust of wind
+sends leaves and dust spinning into the air, swirling high over the beach 
+where, joined by flying sand, they drop into the surf.
+  }
+  flags { mapable, indoors }
+  exits {
+	to { n, 75 }
+	to { s, 73 }
+  }
+}
+
+75
+{
+  name { Bay Hook Road  }
+  desc {
+"   The continuous wall of buildings breaks briefly here.  The small alley this
+break produces is littered with garbage and stinks.  You think you saw a flash
+of movement down there!
+   Bay Hook Road continues to trace the shoreline, stretching to both the
+north and the south from here.
+  }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 76 }
+	to { s, 74 }
+	to { w, 118 }
+  }
+}
+
+76
+{
+  name { Bay Hook Road  }
+  desc {
+"   From this corner your view of the harbor islands is very good.  The island
+to the north has a gracefully constructed lighthouse at its eastern-most point
+but remains undeveloped everywhere else.  The larger southern island by
+comparison is heavily crowded with small shops and houses.  It is hard to tell 
+from this distance, but you think you can make out people moving around on the
+shore.
+   Further to the south, you can see a small peninsula breaking the force of 
+the waves from the ocean.  Wait!  That's no peninsula, that's a pier!  It must
+be one of, if not the, biggest manmade piers in existence.  Boats line the
+length of it, and nestle into the smooth waters it creates.  You can see 
+shapes moving along the road that caps it.
+  }
+  flags { mapable }
+  exits {
+	to { s, 75 }
+	to { w, 77 }
+  }
+}
+
+77
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road simply follows the shore here.  There is still not a person in
+sight, and the shops remain boarded up and securly locked.
+  }
+  flags { mapable }
+  exits {
+	to { e, 76 }
+	to { w, 78 }
+  }
+}
+
+78
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road simply follows the shore here.  There is still not a person in
+sight, and the shops remain boarded up and securely locked.
+  }
+  flags { mapable }
+  exits {
+	to { e, 77 }
+	to { w, 79 }
+  }
+}
+
+79
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road follows the shoreline here, and continues to do so for some time.
+Looking to the south, you can see an intersection in the distance.  With the
+sun far in the west, the buildings that line the street throw their shadows on
+you, and the gentle ocean breeze takes on a biting edge.  The intersection to
+the south, however, is bathed in a beautiful golden light.
+   An alley slips off to the west here through a small break in the storefront
+barrier to the west.  Was that a flash of movement you saw?  It is too dark in
+the shadow streaked alley to be sure.
+  }
+  flags { mapable }
+  exits {
+	to { n, 80 }
+	to { e, 78 }
+	to { w, 124 }
+  }
+}
+
+80
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road merely follows the bay to the south here.  You pass into the shadow
+of the buildings to the west and the formerly pleasant breeze chills you.
+  }
+  flags { mapable }
+  exits {
+	to { n, 81 }
+	to { s, 79 }
+  }
+}
+
+81
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road twists into a sharp curve here, changing from an east to west 
+course to a south north course.  Marvelous stonework carries the road to the
+very edge of the water.  Behind the cobbled street hearty aspen trees line 
+a pretty, but abandoned row of shops.  The manhole in the middle of the
+road looks slightly askew.
+   Across the waters of the bay, two islands are clearly visible.  The smaller
+of the two sits in a more northerly position, and sports a tall, slender
+lighthouse.  No features distinguish the second island, although it appears
+to be heavily built upon.
+  }
+  flags { mapable }
+  exits {
+	to { s, 80 }
+	to { w, 82 }
+	to { 10, 353 }
+	  info { door, closed, autoclose }
+	  keywords { manhole }
+  }
+}
+
+82
+{
+  name { Bay Hook Road  }
+  desc {
+"   There is no beach here.  In another miracle of engineering, the OldPort
+Building Comission has constructed a stone wall that makes it possible for
+the road to follow the coast exactly, resting on cobbled filler packed
+tightly in behind the wall to produce an effect very similar to a natural
+cliff with the waves lapping right up against the side of the wall, only
+six or eight feet below the surface of the road itself.
+   It's a shame that the shops here are boarded up.  This roadway must have
+been a shining jewel at one time.
+  }
+  flags { mapable }
+  exits {
+	to { e, 81 }
+	to { w, 83 }
+  }
+}
+
+83
+{
+  name { Bay Hook Road  }
+  desc {
+"   To the north an unobstructed view of the harbor continues.  Ships move
+across the water with regularity and although you are no sailor, you can
+tell that the water is bursting with activity, a complete contrast to the
+streets and markets here.  You also notice, though, that there are no docks
+visible and that most of the ships are turning gradually to the south-east,
+disappearing from sight around the point of Bay Hook Road.
+   To the south, there is a break in the seaside buildings, allowing Inlet's
+Way to slip into the heart of the buildings of Northern OldPort.
+  }
+  flags { mapable }
+  exits {
+	to { e, 82 }
+	to { s, 95 }
+	to { w, 84 }
+  }
+}
+
+84
+{
+  name { Bay Hook Road  }
+  desc {
+"   Tables are scattered around the roadsides, placed in arrangements that
+always allow a good view of the harbor.  Although most of the tables have
+chairs pushed firmly under them, some of the chairs are pushed back as if
+they have been used since the establishment barricaded itself behind wooden
+planks.
+   Bay Hook Road continues, and to the north there are more tables, while to
+the east there is a break in the buildings, eventually allowing travel to
+the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 85 }
+	to { e, 83 }
+  }
+}
+
+85
+{
+  name { Bay Hook Road  }
+  desc {
+"   Bay Hook Road curves at ninety degrees here, sporting what looks like
+a very charming outdoors cafe.  Tables scatter the space between the store-
+fronts and the roadway, and appear again on the grassy embankment overlooking
+the harbor itself.
+  To the west a small alley peeks into the road, and to the south, the tables
+continue.
+  }
+  flags { mapable }
+  exits {
+	to { s, 84 }
+	to { w, 86 }
+  }
+}
+
+86
+{
+  name { Bay Hook Road  }
+  desc {
+"   Across the northern branch of the bay a line of uninterrupted evergreens
+softens the look of the far shore.  Ships sail lazily south-east, routinely 
+making the trip into the harbor proper towards the commercial area of the  
+city.
+   Bay Hook Road continues both east and west here, and a small alley breaks
+trough the storefronts to the south.
+  }
+  flags { mapable }
+  exits {
+	to { e, 85 }
+	to { s, 122 }
+	to { w, 87 }
+  }
+}
+
+87
+{
+  name { Bay Hook Road  }
+  desc {
+"   From this point, you get your first good look at the northern shore of
+OldPort.  The harbor proper doesn't stretch this far to the north-west, but
+a tapering branch of it does.  The result is that OldPort is cradled in 
+a protective moat from its north-western most corner all the way to the 
+southern border of its east wall, where heavy stone does the defensive job
+of the bay equally well.
+   Bay Hook Road does just that, hooking along the coast and tracing the 
+harbor as far as the eye can see.
+  }
+  flags { mapable }
+  exits {
+	to { e, 86 }
+	to { w, 23 }
+  }
+}
+
+88
+{
+  name { Shoal Narrows  }
+  desc {
+"   An image of a wicked looking sword has been graven into the wood above
+the door of the northern shop.  A sour fishy smell emerges from the door
+to the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 137 }
+	to { e, 89 }
+	to { s, 138 }
+	to { w, 49 }
+  }
+}
+
+89
+{
+  name { Shoal narrows  }
+  desc {
+"   The last shop on Shoal Narrows has a lonely worn look to it.  A barrel
+sits beside the door filled with rainwater and a greenish weed.  A cracked
+and faded picture of a boat is propped against the wall to the left of the
+door where it probably once hung.
+  }
+  flags { mapable }
+  exits {
+	to { e, 50 }
+	to { s, 139 }
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { The Works  }
+  desc {
+"   The road along the Works is straight and level.  As you walk you can feel
+the mighty waves crashing against the length of the structure.  Massive ships
+take advantage of the calm water to the west and children run by laughing and
+playing.
+  }
+  flags { mapable }
+  exits {
+	to { n, 91 }
+	to { s, 59 }
+  }
+}
+
+91
+{
+  name { The Works  }
+  desc {
+"   The Works runs on.  To the north you can see a wide plaza with people 
+standing about.  A constant breeze blows over the length of the roadway carry-
+ing the sounds of the gulls out over the distant sandbars to your ears.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 92 }
+	to { s, 90 }
+  }
+}
+
+92
+{
+  name { The Works  }
+  desc {
+"   The channel to the west is speckled with cargo ships.  Some of them are 
+making the journey fom one side of the strait to the other, bringing precious
+goods to OldPort markets.  To the west, ships moor against the many piers
+that jut from the harbor side of the Works.  People scuttle about in the ropes
+and over the decks, giving the entire bayfront the illusion of being covered 
+in swarming insects, busily going about the rituals of commerce.
+   Further ahead the Works seems to end in a railed platform.  Children swim
+in the shallow water and play among the rocks that give the structure support.
+Although you can't seem to find a way down to the water from here, you are sure
+that there is one further ahead.
+  }
+  flags { mapable }
+  exits {
+	to { n, 93 }
+	to { s, 91 }
+  }
+}
+
+93
+{
+  name { The Works  }
+  desc {
+"   Although the Works ends here, you can see an island across the bay to the 
+north.  Past that, you can make out another island, and barely visible past that
+the northern shore of the bay where the mainland resumes.
+   To the west the city of OldPort stretches along the coast, wrapping slowly
+along the sothern side of the bay to the point where it joins launches the 
+Works out into the water.  The vast community has grown over the years to fit
+the coastline with tailored accuracy.
+   The Works itself ends here in a flat plaza obviously designed to serve as
+some sort of park, or ocean observatory.  Benches lie scattered about and a
+safety railing lines the perimeter of the area.  Everything looks well worn
+by the elements, in fact the railing looks to be nearly worn through in several
+places.  One such place near the western side of the plaza looks more promising
+for somebody wanting to slip past the barrier than the rest.
+  }
+  flags { mapable }
+  exits {
+	to { s, 92 }
+	to { w, 15 }
+  }
+}
+
+94
+{
+  name { Dark Tunnel  }
+  desc {
+"   The rocks are slick and dangerous.  To the south the tunnel ends, dumping
+out onto a ledge bordering a dark pool.  The waters of the pool froth and 
+churn, sending a steady mist into the air, which has over the years made the
+rocks of this tunnel smooth and slimy.
+   To the north the tunnel stretches off into darkness.  No sound comes from 
+the tunnel itself, although a dim crashing throb runs throughout the entire
+mass of stone which you realize must be the powerful waves of the open sea
+crashing into the Works above.
+  }
+  exits {
+	to { n, 227 }
+	to { 10, 17 }
+	  keywords { pool }
+  }
+}
+
+95
+{
+  name { Inlet's Way - North  }
+  desc {
+"   Inlet's Way fades into Bay Hook Road to the north as it reaches the shore
+of the Harbor.  You can see ships sailing the seas and entering the harbor,
+and to the north-east, you can see some sort of island.  You will no doubt
+have a better view of the ocean from Bay Hook Road.
+   To both the east and west the shopfronts break allowing the formation of
+narrow alleys which stretch off into gloom.  Was that a flash of movement from
+the east?
+  }
+  flags { mapable }
+  exits {
+	to { n, 83 }
+	to { e, 124 }
+	to { s, 96 }
+	to { w, 120 }
+  }
+}
+
+96
+{
+  name { Inlet's Way - North  }
+  desc {
+"   Inlet's Way runs true to the compass north and south here.  Nothing of
+note lies along this stretch of roadway.  What looks to have once been a 
+tanning shop lies to the west, while a large warehouse lies to the east.
+Both are securely boarded and closed.
+  }
+  flags { mapable }
+  exits {
+	to { n, 95 }
+	to { s, 97 }
+  }
+}
+
+97
+{
+  name { Inlet's Way - North  }
+  desc {
+"   Inlet's Way is intersected by a narrow alley running from east to west here.
+Looking down the alley either way provides a gloomy view of refuse, and in the
+extreme background, another intersection.
+   From the south you can hear the faint din of a busy market, and to the north
+you can see the ocean.
+  }
+  flags { mapable }
+  exits {
+	to { n, 96 }
+	to { e, 114 }
+	to { s, 98 }
+	to { w, 113 }
+  }
+}
+
+98
+{
+  name { Inlet's Way - North  }
+  desc {
+"   Although a gradual incline blocks your view to the north, the strong salt
+breeze blowing down the street leaves little doubt that the ocean lies that
+way.  To the south the road cuts deeper into the heart of the city.
+  }
+  flags { mapable }
+  exits {
+	to { n, 97 }
+	to { s, 6 }
+  }
+}
+
+99
+{
+  name { Alley  }
+  desc {
+"   This alley has been cleared of any debris.  Inlet's Way runs by to the 
+north, leading from the east to the west.  To the south, you can see a heavily
+manned guardpost.
+  }
+  flags { mapable }
+  exits {
+	to { n, 9 }
+	to { s, 100 }
+  }
+}
+
+100
+{
+  name { Clear Alley  }
+  desc {
+"   This alley has been thoroughly cleaned of debris.  To the south a heavily
+fortified guardpost encloses the mouth of the alley.  To the north, Inlet's
+Way is visible through the shadows.
+  }
+  flags { mapable }
+  exits {
+	to { n, 99 }
+	to { s, 31 }
+  }
+}
+
+101
+{
+  name { Shoal Stretch  }
+  desc {
+"   The road borders the park to the north, held back by a strong iron
+fence.  To the south shabby homes line the road.
+  }
+  flags { mapable }
+  exits {
+	to { e, 102 }
+	to { s, 35 }
+	to { w, 38 }
+  }
+}
+
+102
+{
+  name { Shoal Stretch  }
+  desc {
+"   The road borders the park to the north, held back by a strong iron
+fence.  To the south, shabby homes line the road.
+  }
+  flags { mapable }
+  exits {
+	to { e, 103 }
+	to { w, 101 }
+  }
+}
+
+103
+{
+  name { Shoal Stretch  }
+  desc {
+"   The road borders the park to the north, held back by a strong iron
+fence.  To the south, shabby homes line the road.  You smell roses.
+  }
+  flags { mapable }
+  exits {
+	to { e, 39 }
+	to { s, 36 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { Before the South Gate  }
+  desc {
+"   You have come to the southern wall of the city of OldPort.  The grey stone
+is weathered and timeworn, but you don't doubt its strength for a second.  The
+same can be said for the great wooden and steel gate itself.  Although battered
+by the elements and occasionally invading forces, it stands straight and 
+imposing, ready to turn away any unwanted visitor.
+  }
+  flags { mapable }
+  tele { 20, 1, 165 }
+  exits {
+	to { s, 150 }
+  }
+}
+
+105
+{
+  name { In a Clearing  }
+  desc {
+"   You have stumbled into a clearing in the forest.  There is nothing
+really here other than a line of trees surrounding you.  Darkness fills
+the voids between the trees in the forest as you try to search for a
+path out of here.  Unfortunately, it looks as though you are stuck here.
+  }
+  exits {
+	to { e, 60 }
+  }
+}
+
+106
+{
+  name { Leaving OldPort  }
+  desc {
+"   You are escorted from the city by the guards.  They are an honor escort of
+course, given to every traveller as a gesture of the hospitality of OldPort
+to accompany them through the gates.  You could swear they are looking closely
+at what you are carrying though, as if they were checking for goods reported
+missing.
+  }
+  flags { mapable }
+  tele { 20, 1, 163 }
+  exits {
+	to { n, 151 }
+  }
+}
+
+107
+{
+  name { Bay Hook Road  }
+  desc {
+"   The road is noisy and crowded.  Massive piers loom northward to both 
+the east and the west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 16 }
+	to { w, 108 }
+  }
+}
+
+108
+{
+  name { Bay Hook Road  }
+  desc {
+"   People press against you on this busy street.  A massive pier reaches
+out into the harbor to the north where a few ships appear to be docked.
+The road continues towards the Works to the east or to the Lower Bay
+intersection westward.
+  }
+  flags { mapable }
+  exits {
+	to { n, 152 }
+	to { e, 107 }
+	to { w, 109 }
+  }
+}
+
+109
+{
+  name { Bay Hook Road  }
+  desc {
+"   Bay Hook Road runs a straight flat course along the shore of the bay to
+the east.  Three massive piers project from the shore along its length.  Each
+of the three piers appear to have a good crowd of people and a few ships tied
+up.  Also visible to the east is the massive bulk of the Works, the harbor
+committee's project of projects.
+   To the west the Lower Bay intersection gives access to the rest of Bay Hook
+Road, and the smaller piers you can see to the north.  You can also hear the
+steady drone of a crowded market place from the west.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { e, 108 }
+	to { w, 55 }
+  }
+}
+
+110
+{
+  name { Before the Closed Gates  }
+  desc {
+"   The gates of Oldport stand before you, securely closed.  You wonder why
+an active trade city such as Oldport would keep their gates closed during
+the day, but before you can give it too much thought a voice shouts out,
+'Hail! Who comes to Oldport?'
+   Thinking quickly, you give the response 'Weary travelers seeking the
+comfort of this fine city!' and as you expected, the gates creep open and
+you are ushered through by the City Watch.  Grinning to yourself, you think
+'Works every time.'
+  }
+  flags { mapable }
+  tele { 20, 1, 530 }
+  exits {
+	to { w, 0 }
+  }
+}
+
+111
+{
+  name { Narrow Alley  }
+  desc {
+"   Although the light is dim, and grows dimmer the further east you look, it
+isn't hard to see that the ground is covered with scorch marks.  An oblong
+charred shape is pushed up against the side of a badly burned crate, looks 
+like it may have been a cat at once time.  The scorch marks grow more defined
+to the west, and gradually fade to the east.
+   From the east, you hear a loud clatter followed by thick silence.  No 
+movement is apparent.
+  }
+  exits {
+	to { e, 112 }
+	to { w, 19 }
+  }
+}
+
+112
+{
+  name { Narrow Alley  }
+  desc {
+"   This is the darkest point of the alley.  There are rats and beetles moving
+freely over the piles of refuse dropped from windows above.  Shadows crisscross
+the corridor leaving niches deep enough for several men to hide in.  Suddenly
+the exits at either end of the alley seem very far away.
+  }
+  flags { rent_room }
+  exits {
+	to { n, 123 }
+	to { e, 113 }
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { Narrow Alley  }
+  desc {
+"   Light from Inlet's Way tries to penetrate this murky passage from the east
+without success.  The alley is dirty here, but it is clear that these 
+conditions would be sanitary compared to what lies further west.
+   You hear a distant 'clang' as if something heavy and metal had just been
+dropped, but due to the echoes you cant tell from exactly which way it came.
+  }
+  exits {
+	to { e, 97 }
+	to { w, 112 }
+  }
+}
+
+114
+{
+  name { Narrow Alley  }
+  desc {
+"   This alley is no different from any other you have seen in OldPort, except
+for its size.  Looking to the east you can see that this alley is much longer
+than the surrounding ones.  You also notice that at about half its length 
+the shadows are almost total.
+   Where you are the visibility is fine.  Much of the clutter has been moved
+away due to its proximity to Inlet's Way, and the lighting is good.  In add-
+ition, a fresh salty breeze blows alternately from both ends of the alley, 
+making the fetid air less stagnant.
+  }
+  exits {
+	to { e, 116 }
+	to { w, 97 }
+  }
+}
+
+115
+{
+  name { Narrow Alley  }
+  desc {
+"   The light from Shoal Road to the west slants sharply into the alley, cutting
+across the wall of the building to the north like a knife.  It doesn't really
+penetrate past that point though, leaving the rest of the alley in shadow.
+   Trying to act unconcerned by the fact that some of the refuse occasionally
+moves on its own accord, you catch a flash of movement only to turn and find
+nothing.  This would be the perfect place for an ambush.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "  Some large hands break through a window and pull you through.
+	}
+  }
+  tele { 20, 1, 452 }
+  exits {
+	to { e, 119 }
+	to { w, 21 }
+  }
+}
+
+116
+{
+  name { Narrow Alley  }
+  desc {
+"   A massive growth of hibiscus covers the wall to the north, spreading its
+lush greenery like a carpet over the upper story of the building.  The lower
+half of the ancient vine is almost bare of leaves, which makes sense in this
+shadowed, sunless alley.  You wonder how a vine like this ever got a good
+start in a place like this. The vine grows up the trellis to an ending at the 
+ledge of a window high above the street.
+
+   Immediately to the east a small alley branches off from this one.  As you
+glance away, looking to the west, a loud clattering brings your head back
+around.  It sounded as if something flat and heavy, obviously metal, had been
+dropped.  It sounded like someone letting a manhole cover fall back into place.
+  }
+  exits {
+	to { e, 117 }
+	to { w, 114 }
+  }
+}
+
+117
+{
+  name { Narrow Alley  }
+  desc {
+"   The narrow alley continues to slice between the buildings.  Shadows lend
+this stretch of roughly paved passageway a frightening quality.  Feeling that
+you are being watched you have an overwhelming urge to get out of here and 
+back into the sunlight filled city streets.
+   To either direction you can make out the wide expanse of a city road proper,
+and a small alley branches off from this one to the south.
+  }
+  exits {
+	to { e, 118 }
+	  desc {  You see increasing brightness...
+}
+	to { s, 121 }
+	to { w, 116 }
+  }
+}
+
+118
+{
+  name { Narrow Alley  }
+  desc {
+"   Where the alley meets Bay Hook Road to the east, it is fairly clean and 
+airy.  As the distance from Bay Hook Road increases though, it takes on a
+sinister transformation.  Garbage clogs the narrow space, and the resulting
+reek makes the air hard to breathe.
+  To the west, another alley branches off in a southerly direction.  Other than
+the occasional scuttle of rats, the alley appears to be devoid of life.
+  }
+  exits {
+	to { e, 75 }
+	to { w, 117 }
+  }
+}
+
+119
+{
+  name { Narrow Alley  }
+  desc {
+"   Refuse is piled heavily against both sides of the alley.  Rats and worse 
+scuttle about, making the alley echo with tiny clicks and scratching noises.
+Barely any light penetrates into the alley here, leaving shadows deep enough
+to conceal a host of men.  This is the perfect place for an ambush.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "  Some large hands break through a window and pull you through.
+	}
+  }
+  tele { 20, 1, 451 }
+  exits {
+	to { n, 122 }
+	to { e, 120 }
+	to { s, 123 }
+	to { w, 115 }
+  }
+}
+
+120
+{
+  name { Narrow Alley  }
+  desc {
+"   Some of the garbage has been cleared away here, probably due to the close
+proximity of Inlet's Way to the east.  More light creeps in as well, making 
+this section of the alleys a little less dangerous than the rest.
+   A flash of movement from the west catches your attention.  Maybe it was just
+a rat.  Maybe it was more.
+  }
+  exits {
+	to { e, 95 }
+	to { w, 119 }
+  }
+}
+
+121
+{
+  name { Narrow Alley  }
+  desc {
+"   Dark, nasty, and narrow, this alley stretches away to the south.  Dark
+flashes of movement catch your attention, but upon turning you always find
+the alley empty.
+  }
+  exits {
+	to { n, 117 }
+	to { s, 125 }
+  }
+}
+
+122
+{
+  name { Narrow Alley  }
+  desc {
+"   A fresh salt breeze helps to vanquish the stench of the alleys here, but
+does understandably little to improve the overall feel of the place.  A
+thick gloom seems to hang onto the stonework itself, refusing to be broken
+by anything but direct sunlight.
+  }
+  exits {
+	to { n, 86 }
+	to { s, 119 }
+  }
+}
+
+123
+{
+  name { Narrow Alley  }
+  desc {
+"   The alley here is much like it is everywhere else, dark and dirty.  The
+only exceptional feature is a small manhole set into the ground towards the 
+center of this stretch.  There is no garbage covering it, which is strange
+when considering the amount of litter everywhere else.
+  }
+  flags { mapable }
+  exits {
+	to { n, 119 }
+	to { s, 112 }
+  }
+}
+
+124
+{
+  name { Narrow Alley  }
+  desc {
+"   This small section of alley is nearly clear of garbage.  The outlet into
+Bay Hook Road to the east allows light to penetrate indirectly into the alley,
+as does the outlet into Inlet's Way to the west.
+   Suddenly a loud screeching sound rends the air.  Pressing yourself against
+a wall, you quickly surmise the situation.  A window on the second floor of
+the building forming the southern wall of the alley is standing open on its
+rusty hinges.  The mortar between the bricks of the building is old and
+crumbling.  It may be possible to climb up and take a look.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 79 }
+	to { w, 95 }
+	to { u, 131 }
+  }
+}
+
+125
+{
+  name { Narrow Alley  }
+  desc {
+"   Another alley, even more crowded and littered breaks off here to the west.
+Other than that, this spot is no different from the rest, dirty and smelly.
+A dark flash of movement catches your attention, but spinning you find that the
+alley is empty.
+  }
+  flags { mapable }
+  exits {
+	to { n, 121 }
+	to { s, 126 }
+	to { w, 127 }
+  }
+}
+
+126
+{
+  name { Narrow Alley  }
+  desc {
+"   Garbage crunches underfoot as you travel the alley.  It is dark, narrow, and
+it stinks of decay.  Dark flashes of movement catch your attention, but turning
+you always find the alley empty.
+  }
+  flags { mapable }
+  exits {
+	to { n, 125 }
+	to { s, 11 }
+  }
+}
+
+127
+{
+  name { Narrow Alley  }
+  desc {
+"   A narrow finger stretches between the buildings.  This alley looks to be
+an unintentional creation of bad planning.  It is more narrow than the rest
+of the crowded bunch.  Nevertheless, the urchins of the city seems to have 
+made good use of it.  Grafitti covers the walls, and litter the floor.
+  }
+  flags { mapable }
+  exits {
+	to { e, 125 }
+	to { w, 128 }
+  }
+}
+
+128
+{
+  name { Narrow Alley  }
+  desc {
+"   The only thing that distingushes this section of the alley from any other 
+is the small manhole set into the ground.  Although nearly every inch of the
+alley floor is covered with some sort of refuse, the manhole appears to be
+clear of obstruction.
+  }
+  flags { mapable }
+  exits {
+	to { e, 127 }
+	to { w, 129 }
+  }
+}
+
+129
+{
+  name { Narrow Alley  }
+  desc {
+"   You are very near the end of the alley.  A manhole cover is set into the 
+ground to the east, and a wall is to the west.  Litter is scattered heavily
+over the cracked cobbles.
+  }
+  flags { mapable }
+  exits {
+	to { e, 128 }
+	to { w, 130 }
+  }
+}
+
+130
+{
+  name { Narrow Alley  }
+  desc {
+"   Darkness prevails in the narrow space between the buildings of OldPort.
+Rats and worse scuttle away from you as you move around the piles of refuse.
+Although nothing is apparent, you have the feeling that you are being watched,
+and occasionally catch a flash of movement only to turn and find nothing.
+   This is the perfect place for an ambush.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "  Some large hands break through a window and pull you through.
+	}
+  }
+  flags { mapable }
+  tele { 20, 1, 450 }
+  exits {
+	to { e, 129 }
+  }
+}
+
+131
+{
+  name { Second Story Window  }
+  desc {
+"   This is the tallest building in Oldport.  As you look out the window,
+you are able to see the busy port on the bay.  Many fishing and transport
+vessels are docking or leaving the city of Oldport.  There is a constant
+flow of people and business in the town seems to be booming.  As you look
+to the southeast, you notice the famed castle of Earl Trakad and his royal
+family.  There is so much to see in Oldport, perhaps it is time to look
+around.
+  }
+  flags { mapable }
+  exits {
+	to { d, 124 }
+  }
+}
+
+132
+{
+  name { Leaving OldPort  }
+  desc {
+"   You leave the city proper and wander out into the wilds, and at once the
+fog starts to thicken.  Marsh stretches away to either side of the road, but as
+long as you stick to this predetermined path, you should be fine.
+  }
+  flags { mapable }
+  exits {
+	to { e, 531 }
+	to { w, 0 }
+  }
+}
+
+133
+{
+  name { Before the Closed Gate  }
+  desc {
+"   These guards are going to think you have nothing better to do than make them
+crank the massive gates open and shut all day.  Maybe you don't.  Whatever the
+case may be, they obediently crank them open, again, and usher you through.
+  }
+  flags { mapable }
+  tele { 20, 1, 532 }
+  exits {
+	to { e, 1 }
+  }
+}
+
+134
+{
+  name { Babette's Bakery  }
+  desc {
+"   Babette is a busty woman indeed!  You quickly try to hide your suprise
+and supress a grin as she offers to let you get a peek at her buns.
+  }
+  flags { mapable }
+  exits {
+	to { s, 46 }
+  }
+}
+
+135
+{
+  name { Fickle Pickle  }
+  desc {
+"   OldPort's local grocer is a man of great wealth.  This shop is bursting
+with stock, from the mundane loaves of bread on the north wall to the rare
+spice stock against the east.  The grocer himself lounges amongst several
+cushions behind a counter worked by a young and attractive woman.
+  }
+  flags { mapable }
+  exits {
+	to { s, 47 }
+  }
+}
+
+136
+{
+  name { Sew So Straight  }
+  desc {
+"   You have entered a cheerful little shop.  A few old women are 
+rocking chairs quietly as they sew and don't look up as you enter.
+Cloth of every shade and hue imaginable can be bought here, what for 
+you can't imagine.
+  }
+  flags { mapable }
+  exits {
+	to { n, 49 }
+  }
+}
+
+137
+{
+  name { Swords & Scabbards  }
+  desc {
+"   Some of the finest swords in the region can be bought here -- for a price.
+Although the man behind the counter is of slight build and advanced age, the
+tales of his fighting prowress that have reached you all suggest one thing, 
+DON'T MESS WITH HIM!
+  }
+  flags { mapable, no_sum, no_magic, private, dispel_magic }
+  exits {
+	to { s, 88 }
+  }
+}
+
+138
+{
+  name { Nautical Wares  }
+  desc {
+"   Wares of a nautical nature line the walls.  A full display of bouys 
+fills the western wall.  Several tables have been set out in the floor 
+to accomodate smaller goods.  Compasses and fishing hooks lie side by
+side on one, scarves and gloves lie on another.  Casks of fish oil sit
+on a third.
+   The proprieter, a well dressed man who looks as if he has never set
+foot on a boat in his life, grins at you as you enter.
+  }
+  flags { mapable, no_sum, no_magic, private }
+  exits {
+	to { n, 88 }
+  }
+}
+
+139
+{
+  name { Sea Worthy  }
+  desc {
+"   Well weathered floorboards creak as you enter.  The woodwork is dinged
+and scuffed but the atmosphere is friendly.  A wrinkled old man sits on
+a stool beside the counter mending rends in a large fishing net.  A small
+door behind the counter leads into an enclosed store yard where you can make
+out several small boats and rafts in dry-storage.
+  }
+  flags { mapable, no_sum, no_magic, private }
+  exits {
+	to { n, 89 }
+  }
+}
+
+140
+{
+  name { S-Peir 1  }
+  desc {
+"   This small dock is more of a scenery byway.  Steel railing follows
+its edges, disallowing any possibility of fishing ships to tie their
+boats up and unload their belongings.  A clear view of the hectic
+waters can be seen from here.
+  }
+  flags { mapable }
+  exits {
+	to { w, 66 }
+  }
+}
+
+141
+{
+  name { S-Peir 4  }
+  desc {
+"   Staring off into the horizon, you barely notice a small island in the
+middle of nowhere.  A lighthouse flashes its powerful, white beam of light
+around the shore to both guide and protect incoming vessels during periods
+of poor weather, from the island.  It doesn't look like there is much else
+that could fit on that tiny piece of land.
+  }
+  flags { mapable }
+  exits {
+	to { n, 148 }
+	to { s, 149 }
+	to { w, 61 }
+  }
+}
+
+142
+{
+  name { S-Pier 3  }
+  desc {
+"   A wooden pier with several ships on either side protrudes from
+Bay Hook Road here.  Not much can be heard over the loud crash of waves
+smashing into the shoreline.  Although, there is a lot of activity that
+can be observed.
+  }
+  flags { mapable }
+  exits {
+	to { n, 146 }
+	to { s, 147 }
+	to { w, 62 }
+  }
+}
+
+143
+{
+  name { S-Pier 2  }
+  desc {
+"   A wooden pier with several ships on either side protrudes from
+Bay Hook Road here.  Not much can be heard over the loud crash of waves
+smashing into the shoreline.  Although, there is a lot of activity
+that can be observed.
+  }
+  flags { mapable }
+  exits {
+	to { n, 144 }
+	to { s, 145 }
+	to { w, 63 }
+  }
+}
+
+144
+{
+  name { On a Ship  }
+  desc {
+"   Several fisherman are unloading their fishing gear after what seems
+to be a long days work.  Seemingly tired and grumpy, they notice you
+onboard and stare at you with an evil glare.  Obviously, they are not
+too fond of your presence here.
+  }
+  flags { mapable }
+  exits {
+	to { s, 143 }
+  }
+}
+
+145
+{
+  name { On a Ship  }
+  desc {
+"   Void of any crew members, this ship seems deserted.  Along its
+withered deck, many barrels lay scattered about, with their lids still
+intact.  Heavy and mysterious, you are curious to find out what could
+be inside of them.
+  }
+  flags { mapable }
+  exits {
+	to { n, 143 }
+  }
+}
+
+146
+{
+  name { On a Ship  }
+  desc {
+"   The strength of the incoming waves is causing the entire boat to
+sway tremendously.  As you try to maintain you balance, you start to
+become nauseous from the sudden changes in equilibrium that your body is
+experiencing.
+  }
+  flags { mapable }
+  exits {
+	to { s, 142 }
+  }
+}
+
+147
+{
+  name { On a Ship  }
+  desc {
+"   There are several friendly fishermen aboard the ship that greet you
+as you board the vessel.  They are eager to converse with others after
+being tossed at sea for nearly a month.  They offer to take you along on
+their next excursion, but you politely refuse.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 142 }
+  }
+}
+
+148
+{
+  name { On the Ship  }
+  desc {
+"   As you walk about the wooden deck of this tiny cargo ship, you
+sway in order to counterbalance the rocking motion caused by the powerful
+waves that crash into its hull.  Several sweating men are working hard
+trying to load the ship with heavy cargo.
+  }
+  flags { mapable }
+  exits {
+	to { s, 141 }
+  }
+}
+
+149
+{
+  name { On the Ship  }
+  desc {
+"   There is not much aboard this ship.  Any and all crew members have
+left this ship deserted, leaving for the hospitality of the city of Oldport.
+By the way it looks, this vessel is a fishing boat.  There are only several
+nets and a barrel full of water left on board, that lead you to this
+conclusion.
+  }
+  flags { mapable }
+  exits {
+	to { n, 141 }
+  }
+}
+
+150
+{
+  name { Road to the South Gate  }
+  desc {
+"   Before you to the north stands a tall, grey wall.  It seems to surround
+the limits of a large and powerful city.  A steel and wooden gate forbades
+any imposing visitors.  To the west, a small trail seems to lead around
+the wall of the city.
+  }
+  flags { mapable }
+  exits {
+	to { n, 104 }
+	to { w, 534 }
+	to { southwest, CastleMistamere:378 }
+  }
+}
+
+151
+{
+  name { Southern Plaza Gate  }
+  desc {
+"   This end of the plaza is nkingy empty.  Apparently not many people want to
+leave the safety of OldPort today.  The Southern Gate itself stands directly
+to the south.  The Southern Plaza continues to the north.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 52 }
+	to { s, 106 }
+  }
+}
+
+152
+{
+  name { L-Pier 1  }
+  desc {
+"   Several enthusiastic fishermen line the edge of the pier, loading
+their equipment onto their flotsam fishing rigs.  As the waves crash
+into the hulls of the boat, the impact causes them to sway but 
+somehow maintain their balance aboard the ship.
+  }
+  flags { mapable }
+  exits {
+	to { n, 153 }
+	to { s, 108 }
+  }
+}
+
+153
+{
+  name { L-Pier 1  }
+  desc {
+"   The stench of rotting fish and seaweed pollutes the air and forces
+you to hang your head over the railing in order to catch a breath of
+fresh air.  As you look down below the wooden deck, you notice the
+many rocks, lined with dead fish and washed up algae, that support you
+below.
+  }
+  flags { mapable }
+  exits {
+	to { s, 152 }
+  }
+}
+
+154
+{
+  name { L-Pier 2  }
+  desc {
+"   There is a long line of people collected at this particular pier.
+For some reason, an orderly line is established along the eastern edge
+of the pier.  A tall man dressed in formal wear is collecting money.
+Curious to see what this is all about, you patiently wait in line.
+  }
+  flags { mapable }
+  exits {
+	to { n, 155 }
+	to { s, 16 }
+  }
+}
+
+155
+{
+  name { L-Pier 2  }
+  desc {
+"   As you near the beginning of the line, you notice that the man
+is charging for entrance onto the ship on the eastern side of the dock.
+A small sign hangs from the side of the boat and the letters
+M-I-L-L-E-R-S  F-A-L-L-S are written along its hull in bold, red lettering.
+  }
+  flags { mapable }
+  exits {
+	to { e, Continent:15 }
+	to { s, 154 }
+  }
+}
+
+156
+{
+  name { L-Peir 3  }
+  desc {
+"   The crashing waves of the shoreline make it near impossible to hear
+anything else.  A constant wave of people seem to be coming from a ship
+on the western side of the dock ahead.  A passenger ship of some kind
+must have docked here recently.
+  }
+  flags { mapable }
+  exits {
+	to { n, 157 }
+	to { s, 57 }
+  }
+}
+
+157
+{
+  name { L-Peir 3  }
+  desc {
+"   As you look west, you notice the large passenger ship and the
+consistant flow of people leaving its hospitality behind.  As you
+examine the people more closely, some of them do not seem to be
+from around these parts.
+  }
+  flags { mapable }
+  exits {
+	to { s, 156 }
+  }
+}
+
+158
+{
+  name { Current-SWISH  }
+  desc {""  }
+  sector { Underwater }
+  flags { mapable }
+  tele { 30, 1, 162 }
+}
+
+159
+{
+  name { Lobby  }
+  desc {
+"   You have stepped into a small lobby area, where several seemingly
+important men converse.  Curiosity causes you to try to overhear their
+conversation.  As you listen in, you hear only bits of phrases, but
+it sounded like they were talking about the downfall of the earl.  What
+could that be all about?
+  }
+  flags { mapable }
+  exits {
+	to { n, 170 }
+	to { s, 160 }
+	to { w, 6 }
+  }
+}
+
+160
+{
+  name { Bar  }
+  desc {
+"   A long, wooden bar extends along the eastern side of the room.  A
+scrawny bartender paces back and forth behind it waiting on the many
+customers he has to deal with.  As you scan along the bar, you notice
+a drunken man screaming at the bartender for more alcohol.  The bartender
+refuses to serve him anymore.
+   As you look around the room some more, you observe a staircase on the
+southern side of the room that leads upstairs.
+  }
+  flags { mapable }
+  exits {
+	to { n, 159 }
+	to { u, 161 }
+  }
+}
+
+161
+{
+  name { Reception  }
+  desc {
+"   An old lady stares at you as you enter the room.  It looks as if she
+is angry about your arrival.  As she stands up to greet you she says,
+"Just one room for you today?"  Calmed by her greeting, you eagerly jump
+at the chance to get a good night's sleep.
+  }
+  flags { mapable, rent_room }
+  exits {
+	to { d, 160 }
+  }
+}
+
+162
+{
+  name { Current-SWISH  }
+  desc {""  }
+  sector { Underwater }
+  flags { mapable }
+  tele { 30, 1, 17 }
+}
+
+163
+{
+  name { The gate to Oldport slowly begins to open before you.  }
+  desc {""  }
+  flags { mapable }
+  tele { 1, 0, 164 }
+}
+
+164
+{
+  name { Leaving Oldport  }
+  desc {
+"   You are escorted from the city by the guards.  They are an honor escort of
+course, given to every traveller as a gesture of the hospitality of Oldport
+to accompany them through the gates.  You could swear they are looking closely
+at what you are carrying though, as if they were checking for goods reported
+missing.
+  }
+  flags { mapable }
+  exits {
+	to { n, 151 }
+	to { s, 150 }
+  }
+}
+
+165
+{
+  name { The gate to Oldport slowly begins to open before you.  }
+  desc {""  }
+  flags { mapable, dark }
+  tele { 1, 0, 317 }
+}
+
+166
+{
+  name { You struggle to row against the crashing waves of the sea.  }
+  desc {""  }
+  flags { dark }
+  tele { 20, 1, 167 }
+}
+
+167
+{
+  name { You finally make it back to the shore of Oldport.  }
+  desc {""  }
+  flags { dark }
+  tele { 10, 1, 168 }
+}
+
+168
+{
+  name { You tie up the boat and climb up to the dock.  }
+  desc {""  }
+  flags { dark }
+  tele { 5, 1, 157 }
+}
+
+169
+{
+  name { A Path Around the City  }
+  desc {
+"   A path around the city continues to the east and north.  A large forest
+begins across the fields to the north and to the west, the huge gates of
+Oldport rise to meet the sky.  Heavy and sturdy, it must take ten men to
+open those gates.  The forest to the north covers the entire northern
+part of the peninsula.  It must go on forever!  Wonder what could be in
+the forest?  Only one way to find out.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, OldportForest:0 }
+	to { e, 0 }
+  }
+}
+
+170
+{
+  name { The Infirmary  }
+  desc {
+"  You stand in an almost empty room, with the exception of a large tubular 
+chamber in one corner.  Type "list" for details.
+  }
+  flags { mapable }
+  exits {
+	to { s, 159 }
+  }
+}
+
+171
+{
+  name { A Shop of Magical Wonders  }
+  desc {
+"  The smell of spices and herbs immediately brings your senses to 
+attention.  Looking around the room, there are many magical looking
+items placed along the wooden shelves covering the walls to the east
+and west. To the back of the room, a long wooden table is covered
+in scrolls, potions, and spell ingredients. An elderly gentleman dressed
+in a long blue robe stands behind the table, busy with his work. He
+stares over his wire-rimmed glasses into the potion he is working on 
+and nods his head in agreement. The only way out seems to be back 
+on to Shoal Narrows to the south.
+  }
+  flags { mapable, no_mob, indoors, peaceful, nosteal, no_sum, no_magic, private }
+  exits {
+	to { s, 49 }
+  }
+}
+
+199
+{
+  name { Lighthouse  }
+  desc {
+"   This is a small foyer.  Nothing of interest is here, only a rack for hanging
+coats and a small bracket for torches by the door.  The door to the north leads
+out of the lighthouse, while the door set in the south wall leads deeper into
+the structure.
+  }
+  flags { mapable }
+  exits {
+	to { n, 225 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 200 }
+	  info { door, closed }
+  }
+}
+
+200
+{
+  name { Lighthouse-Central Room  }
+  desc {
+"   This appears to be the central room of the lighthouse.  Doors lead in every
+direction from here, and a rough iron spiral staircase gives access to both the
+upper rooms and the cellars.
+  }
+  flags { mapable }
+  exits {
+	to { n, 199 }
+	  info { door, closed }
+	to { e, 201 }
+	  info { door, closed }
+	to { s, 205 }
+	  info { door, closed }
+	to { w, 202 }
+	  info { door, closed }
+	to { d, 226 }
+	to { 10, 212 }
+	  keywords { stairs }
+  }
+}
+
+201
+{
+  name { Lighthouse  }
+  desc {
+"   This room looks to be a library of sorts.  A few books, mostly of nautical
+variety are packed into a bookshelf built into the outer wall.  There is a 
+small table with a lamp on it, and one chair.  Set into the north wall of this
+tiny room is a plain wooden door.
+  }
+  flags { mapable }
+  exits {
+	to { n, 203 }
+	  info { door, closed }
+	to { w, 200 }
+	  info { door, closed }
+  }
+}
+
+202
+{
+  name { Lighthouse  }
+  desc {
+"   This room is little more in size than what you might expect a closet to be.
+At a glance you can't discern any real function this room serves, except maybe
+as a place to clean fish.  The lingering smell certainly suggests that was once
+a use.
+  }
+  flags { fall }
+  exits {
+	to { n, 204 }
+	to { e, 200 }
+	  info { door, closed }
+  }
+}
+
+203
+{
+  name { Lighthouse  }
+  desc {
+"   This room appears to be dedicated to housing charts and maps of the harbour.
+There is a large wooden table in the center of the room on which a huge map of
+OldPort is spread out.  You think it a bit strange that a map of the city would
+be the main focus of a lighthouse chart room.
+  }
+  flags { fall }
+  exits {
+	to { s, 201 }
+	  info { door, closed }
+  }
+}
+
+204
+{
+  name { Lighthouse  }
+  desc {
+"   This combination pantry/kitchen is nearly cleaned out.  The shelves are bare
+and the utensils don't appear to have been used in ages.
+  }
+  flags { mapable }
+  exits {
+	to { s, 202 }
+  }
+}
+
+205
+{
+  name { Lighthouse  }
+  desc {
+"   This is a small closet.  Two doors lead off from here, one to the east, an
+one to the west.
+  }
+  flags { mapable }
+  exits {
+	to { n, 200 }
+	  info { door, closed }
+	to { e, 206 }
+	  info { door, closed }
+	to { w, 207 }
+	  info { door, closed }
+  }
+}
+
+206
+{
+  name { Lighthouse  }
+  desc {
+"   A storage room.  Bouys and paddles, ropes and casks of oil are stacked 
+against the walls.  A thin layer of dust covers everything.
+  }
+  flags { mapable }
+  exits {
+	to { w, 205 }
+	  info { door, closed }
+  }
+}
+
+207
+{
+  name { Lighthouse  }
+  desc {
+"   A storage room.  Bouys and paddles, ropes and casks of oil are stacked 
+against the walls.  A thin layer of dust covers everything.
+  }
+  flags { mapable }
+  exits {
+	to { e, 205 }
+	  info { door, closed }
+  }
+}
+
+208
+{
+  name { Spiral-Second Floor  }
+  desc {
+"   The incline runs east again, signifying your first complete revolution on
+the staircase.  You estimate that you are about 1/3 of the way up the tower's
+impressive height.  The structure seems to vibrate with a particularly fierce
+crash, the result of a wave of mammoth proportions no doubt.
+  }
+  flags { mapable }
+  exits {
+	to { e, 209 }
+	to { s, 215 }
+  }
+}
+
+209
+{
+  name { Spiral-Second Floor  }
+  desc {
+"   The incline curves back to the south here.  Faint spots of rust speckle the
+banister to your right.  Examining the banister more closely, you notice that
+it is still slightly wet.  As you pull your hand back, a drip of icy water 
+slaps the iron with a distinctly metallic 'plink'.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 210 }
+	to { w, 208 }
+  }
+}
+
+210
+{
+  name { Spiral-Second Floor  }
+  desc {
+"   The incline curves around to the west.  Although still dry, the staircase
+has several small spots of water, and the accompanying rust scattered on the
+broad steps.
+   The integrity of the staircase does not appear to have been violated by the
+small spots of rust.
+  }
+  flags { mapable }
+  exits {
+	to { n, 209 }
+	to { w, 211 }
+  }
+}
+
+211
+{
+  name { Spiral-Second Floor  }
+  desc {
+"   The incline coils to the north.  You are sure of it now, the curve is 
+tighter now, te empty space in the center of the lighthouse is narrower.  You
+must be near the top.
+   A damp breeze brushes your cheek, and distantly you hear a rushing sound.
+  }
+  flags { mapable }
+  exits {
+	to { n, 220 }
+	to { e, 210 }
+  }
+}
+
+212
+{
+  name { Spiral-First Floor  }
+  desc {
+"   The center column of the lighthouse is a hollow cylinder reaching nearly one
+hundred feet into the air.  The only way to reach the top is by this wide spiral
+staircase made from iron that hugs the inner wall, coiling slowly to the upper
+chamber.  The staircase winds in a clock-wise fashion through several slowly
+tightening loops.
+   A fall from the staircase onto the hard stones of the central room below 
+would surely be fatal.
+  }
+  flags { mapable }
+  exits {
+	to { e, 213 }
+	to { d, 200 }
+  }
+}
+
+213
+{
+  name { Spiral-First Floor  }
+  desc {
+"   The incline runs to the south, slowly taking you higher into the lighthouse.
+You can still feel the crashing of the waves outside against the bluff, but
+the crash of the water against the bluff is unable to penetrate the thick stone
+walls.
+  }
+  flags { mapable }
+  exits {
+	to { s, 214 }
+	to { w, 212 }
+  }
+}
+
+214
+{
+  name { Spiral-First Floor  }
+  desc {
+"   The incline runs to the west here.  Fanciful figures are cut in relief into
+the heavy iron railing, strangely ornate for a lighthouse.
+  }
+  flags { mapable }
+  exits {
+	to { n, 213 }
+	to { w, 215 }
+  }
+}
+
+215
+{
+  name { Spiral-First Floor  }
+  desc {
+"   The incline runs to the north here.  Looking over the railing at the central
+room below, you see that although you are less than one revolution from the
+starting point of the staircase, you have covered some 20 feet of verticle
+space.  You hadn't realized the staircase was so steep.  One slip would surely
+prove fatal.
+  }
+  flags { mapable }
+  exits {
+	to { n, 208 }
+	to { e, 214 }
+  }
+}
+
+216
+{
+  name { Spiral-Third Floor  }
+  desc {
+"   The incline runs to the north.  Water trickles down the walls now.  The
+distant patter of rain reaches your ears over the howling of the wind.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 218 }
+	to { e, 217 }
+  }
+}
+
+217
+{
+  name { Spiral-Third Floor  }
+  desc {
+"   The incline lies to the west, where the stairs seem suddenly cramped as 
+they hug the sharp curve of the wall.  Water lies freely now on the steps, fed
+by continual trickles from above.  A cold draft swirls in the tight confines
+of this space.
+  }
+  flags { mapable }
+  exits {
+	to { n, 221 }
+	to { w, 216 }
+  }
+}
+
+218
+{
+  name { Spiral-Fourth Floor  }
+  desc {
+"   You stop to gather your wits.  You are very nearly at the top of the light-
+house now.  Above your head a stone and wooden ceiling seperates the central
+space of the lighthouse from the upper chamber.  You can see where the stair-
+case ascends slightly higher to the north, then ends jutting out over the empty
+space in the center of the tower before running up through the hole in the
+ceiling.  Water runs freely from the staircase ahead.
+  }
+  flags { mapable }
+  exits {
+	to { e, 219 }
+	to { s, 216 }
+  }
+}
+
+219
+{
+  name { Spiral-Below the hole  }
+  desc {
+"   Water trickles from the ceiling onto the iron stairs and has for some time
+judging by the rust streaks covering the rail and steps alike.  The damp
+wind howling down through the hole in the center of the ceiling chills your
+face and makes your cheeks ache from the cold.
+   The staircase breaks from the wall stretching gracefully onto the center
+of the lighthouse where it coils tightly onto itself forming a verticle route
+by which you can ascend through the hole in the ceiling into what must be the 
+highest chamber of the lighthouse.  The passage is an easy one, why do your 
+feet not want to move?
+  }
+  flags { mapable }
+  exits {
+	to { w, 218 }
+	to { u, 222 }
+  }
+}
+
+220
+{
+  name { Spiral-Third Floor  }
+  desc {
+"   The incline runs to the east from here.  The air stirs, carrying hints of 
+the storm outside to you.  The occasional drips of water have become slow
+trickles here, trickles from the edges of the staircase as it wraps around
+above you.  The metal here is severly colored by rust in several places.
+  }
+  flags { mapable }
+  exits {
+	to { e, 221 }
+	to { s, 211 }
+  }
+}
+
+221
+{
+  name { Spiral-Third Floor  }
+  desc {
+"   The incline increases as the stairs swing south again.  Puddles of water 
+that normally send occasional drips to the floors below surge as you step
+into them, splashing down into the darkness below.  The air stirs constantly,
+heavy with the smell of brimstone.
+  }
+  flags { mapable }
+  exits {
+	to { s, 217 }
+	to { w, 220 }
+  }
+}
+
+222
+{
+  name { Upper Chamber  }
+  desc {
+"   This chamber must have been magnificent once.  Eight massive planes of glass
+make up the walls, which surround a vast collection of brass gears and shiny
+wheels.  The wheels and gears operate the giant lamp that guides ships for 
+miles to the safety of OldPort.
+   Thats not the case now.  At least 5 of the panes of glass are broken, three
+missing entirely, two cracked and leaking.  The rain pours freely through the
+openings into the room, covering everything in the corrosive moisture.  The 
+lamp itself is in bad shape.  Although the magical light still burns, the 
+focus lens is halfway between engaged and disengaged.  The ropes and pulleys 
+hang lose and neglected.
+  }
+  flags { mapable }
+  exits {
+	to { d, 219 }
+  }
+}
+
+223
+{
+  name { Lighthouse  }
+  desc {
+"   As you walk along the dock, you notice a small, abandoned rowboat that
+waits for someone to row it back to the shore of Oldport.  As you climb
+aboard, you sway from its instability.  Although, you are certain that it
+will survive long enough to make the journey back to Oldport.
+  }
+  flags { mapable }
+  exits {
+	to { w, 224 }
+	to { 10, 166 }
+	  keywords { rowboat }
+  }
+}
+
+224
+{
+  name { Lighthouse  }
+  desc {
+"   As you look to at the lighthouse, you notice its immense size.  The
+powerful beam of light it creates is as bright as the sunlight on this
+hazy day.  As you look to the east, you notice a small wooden dock
+protruding from the shore.
+  }
+  flags { mapable }
+  exits {
+	to { e, 223 }
+	to { northeast, 225 }
+  }
+}
+
+225
+{
+  name { Lighthouse  }
+  desc {
+"   There is a small path that leads around the base of the lighthouse
+here.  As you look out to sea, you are able to look back at the city of
+Oldport.  Outside of the city, you can see the vast port that makes this
+city an intrical part of the world economy.
+  }
+  flags { mapable }
+  exits {
+	to { s, 199 }
+	  info { door, closed }
+	  keywords { door }
+	to { southwest, 224 }
+  }
+}
+
+226
+{
+  name { Under The Lighthouse  }
+  desc {
+"   Rough boards make up the roughly circular ceiling of this cellar-like
+room.  A small ladder gives access to whatever lies above through a small
+hatch in the center of the ceiling.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 229 }
+	to { u, 200 }
+  }
+}
+
+227
+{
+  name { Dark Tunnel  }
+  desc {
+"   The tunnel is damp and dark.  You walk carefully to avoid a painful
+fall.
+  }
+  flags { mapable }
+  exits {
+	to { n, 228 }
+	to { s, 94 }
+  }
+}
+
+228
+{
+  name { Dark Tunnel  }
+  desc {
+"   The dampness seeps into your bones.  The steady vibration of the
+breaking waves above makes a vague humm which echoes eerily with the
+sound of your footfalls through the length of the corridor.
+  }
+  flags { mapable }
+  exits {
+	to { n, 229 }
+	to { s, 227 }
+  }
+}
+
+229
+{
+  name { Dark Tunnel  }
+  desc {
+"   A small tunnel breaks off to the west from the main one here.  Diffused
+light brightens the passage to the north.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 226 }
+	to { s, 228 }
+	to { w, 318 }
+  }
+}
+
+299
+{
+  name { Courtyard of Sciences  }
+  desc {
+"   A magnificent white marble fountain sends a shower of glistening water
+high into the air, and catches it again in an ornate free-form basin.  Benches
+circle the fountain at a safe distance lest the sitting patron be splashed by
+sprinkles caught on sudden winds.
+   Large gleaming temples lie to every side of this courtyard, comprising the
+walls that seperate it from the formal gardens which surround the entire com-
+plex.  To the north a large statue is outlined in and open-air passageway that
+is the only way to leave the Complex of Municipal Affairs.
+  }
+  flags { mapable }
+  exits {
+	to { n, 300 }
+	to { e, 301 }
+	to { s, 302 }
+	to { w, 303 }
+  }
+}
+
+300
+{
+  name { Temple of Judgment  }
+  desc {
+"   A broad expanse of marble forms a small plaza suitable for presenting
+speeches.  Rising up from the center of the plaza is a statue of a woman
+bearing a sword in one hand an a tablet in the crook of her arm.
+   A wide fan of marble stairs descends into the central courtyard to the
+south.  To the north the Temple of Justice is bisected by an open-air
+passageway leading out of the complex.
+  }
+  flags { mapable }
+  exits {
+	to { n, 313 }
+	to { s, 299 }
+  }
+}
+
+301
+{
+  name { Temple of the Arts  }
+  desc {
+"   The flat plaza of marble facing the temple to the east is no different 
+from the others with one exception.  The marble here has been carved and 
+colored to form a gigantic, breath-taking mural.  The mural depicts a god 
+holding a chair high over his head, threatening the teeming mass of mortals
+clustered about his feet.  To the west stairs lead into a central courtyard. 
+An alcove to the east holds two bronze doors, proped open to admit the 
+fragrant breeze.
+  }
+  flags { mapable }
+  exits {
+	to { e, 304 }
+	to { w, 299 }
+  }
+}
+
+302
+{
+  name { Temple of Commerce  }
+  desc {
+"   A flat expanse of marble with a wide fan-shaped staircase leading down 
+into the courtyard to the north fronts the Temple of Commerce.  To the south
+a dark alcove houses two colossal bronze doors, which stand open allowing
+you to catch a glimpse of a richly appointed antechamber.
+  }
+  flags { mapable }
+  exits {
+	to { n, 299 }
+	to { s, 310 }
+  }
+}
+
+303
+{
+  name { Temple of Defense  }
+  desc {
+"   A flat expanse of marble similar to that facing the Temple of Justice, 
+only smaller, no speeches are made from here.  Wide stairs lead down into 
+the courtyard to the east, and a shadowy antechamber of some sort is to the
+west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 299 }
+	to { w, 307 }
+  }
+}
+
+304
+{
+  name { Antechamber  }
+  desc {
+"   This chamber is made entirely of cold white marble.  A door to the 
+north bears a glowing star.  To the south, there is a door bearing a
+shining golden sun.
+  }
+  flags { mapable }
+  exits {
+	to { n, 305 }
+	to { s, 306 }
+	to { w, 301 }
+  }
+}
+
+305
+{
+  name { Chamber of Sorcery  }
+  desc {
+"   The walls here are built from thick sheets of obsidian to protect those
+who pass by from the powerful magic that is often performed in this room.
+There is a small ring of people engaged in a chant.  As you enter the room,
+they all turn to you in anticipation of your membership.  Although, they look
+skeptical of you.  Are you sure you are prepared to endure this training?
+  }
+  flags { mapable, rent_room }
+  exits {
+	to { s, 304 }
+  }
+}
+
+306
+{
+  name { Chamber of the Cleric  }
+  desc {
+"   There is a natural sense of purification throughout your body as you
+enter this room.  Your aches and pains are, at least temporarily, gone.
+There is a solemn man standing here, waiting to hear of your recent
+accomplishments.  As you converse with him, he verses you in the teachings
+of the cleric.  But, do you have the intelligence and wisdom to use these
+new skills effectively?  We will soon find out.
+  }
+  flags { mapable }
+  exits {
+	to { n, 304 }
+  }
+}
+
+307
+{
+  name { Antechamber  }
+  desc {
+"   This chamber is lined with slabs of roughly cut reddish marble sealed 
+tightly at the corners.  Suits of armor and shields bearing ornate family
+seals hang from the walls.  To the north there is a sturdy wooden door braced
+with bronze.  A similar door braced in silver lies to the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 308 }
+	to { e, 303 }
+	to { s, 309 }
+  }
+}
+
+308
+{
+  name { Office of the Sword  }
+  desc {
+"   There is a raised platform that stands in the center of the room.  Along
+the walls, are many decorated weapons of combat.  There is a massive man
+standing here who awaits your participation.  As you approach the platform,
+you notice the others who have come here to learn their trade as warriors.
+This man is ready to train you in his ways of combat.  But are you ready
+for the challenge ahead?
+  }
+  flags { mapable }
+  exits {
+	to { s, 307 }
+  }
+}
+
+309
+{
+  name { Office of the Shield  }
+  desc {
+"   There is a sense of good that infiltrates you as you enter this room.
+You have the urge to spread peace and goodwill to all men, women and children
+alike.  There is a humble man who happily greets you as you enter the
+building.  He is happy to learn of your recent adventures and eager to
+train you in the many verses of the paladin.
+  }
+  flags { mapable }
+  exits {
+	to { n, 307 }
+  }
+}
+
+310
+{
+  name { Antechamber  }
+  desc {
+"   This chamber is luxuriously appointed in fineries of every kind.  Deep
+rugs cover the floor.  Heavy wooden chairs, carved in magnificent patterns
+and covered in silky satin line the walls.  Identical gilded doors lead both
+east and west.
+  }
+  flags { mapable }
+  exits {
+	to { n, 302 }
+	to { e, 311 }
+	to { w, 312 }
+  }
+}
+
+311
+{
+  name { Office of Figures  }
+  desc {
+"   There is a beautiful red rug that lies on the floor here.  A shiny,
+golden desk sits on top of it, facing towards the west.  A large library
+of books fill the shelves of the eastern wall and a rolling ladder rests
+against the wall for those books too far away for outstretched arms.
+  }
+  flags { mapable }
+  exits {
+	to { w, 310 }
+  }
+}
+
+312
+{
+  name { Office of Tax  }
+  desc {
+"   There is a beautiful red rug that lies on the floor here.  A shiny,
+golden desk sits on top of it, facing towards the east.  A large library
+of books fill the shelves of the western wall and a rolling ladder lines
+the wall for those books too far away for outstretched arms.
+  }
+  flags { mapable }
+  exits {
+	to { e, 310 }
+  }
+}
+
+313
+{
+  name { Airy Passage  }
+  desc {
+"   This magnificent passageway, splits the Temple of Judgment into two equal
+halves. Six fluted columns line either side of the wide passageway, supporting
+the ceiling high above.  To the south a massive statue gazes out over the 
+courtyard of the sciences into which this passageway, ends with a flourish of
+marble steps.
+   Doors lead to the offices of the city judges, both east and west.  Guards
+posted at either door look you carefully over as you stop to take in the
+sights.
+  }
+  flags { mapable }
+  exits {
+	to { n, 314 }
+	to { e, 315 }
+	to { s, 300 }
+	to { w, 316 }
+  }
+}
+
+314
+{
+  name { Before the Complex  }
+  desc {
+"   The complex that houses all the municipal functions of OldPort lies directly
+to the south.  The formal gardens that you have walked through up to this point 
+encircle the building, surrounding it completely in cascading falls of blossom
+and varigated leaves.
+  }
+  flags { mapable }
+  exits {
+	to { n, 319 }
+	to { s, 313 }
+  }
+}
+
+315
+{
+  name { Judge of the East  }
+  desc {
+"   There is a tall wooden desk that stands over five feet high along the
+eastern wall.  Several wooden pew-like benches form several rows leading
+up to the desk.  There is a small wooden gavel that rests on the desk,
+awaiting the judgement of the next trial.
+  }
+  flags { mapable }
+  exits {
+	to { w, 313 }
+  }
+}
+
+316
+{
+  name { Judge of the West  }
+  desc {
+"   There is a tall wooden desk that stands over five feet high along the
+western wall.  Several wooden pew-like benches form several rows leading
+up to the desk.  There is a small wooden gavel that rests on the desk,
+awaiting the judgement of the next trial.
+  }
+  flags { mapable }
+  exits {
+	to { e, 313 }
+  }
+}
+
+317
+{
+  name { Before the South Gate  }
+  desc {
+"   You have come to the southern wall of the city of Oldport.  The grey stone
+is weathered and timeworn, but you don't doubt its strength for a second.  The
+same can be said for the great wooden and steel gate itself.  Although battered
+by the elements and occasionally invading forces, it stands straight and
+imposing, ready to turn away any unwanted visitor.
+  }
+  flags { mapable }
+  exits {
+	to { n, 51 }
+	to { s, 150 }
+  }
+}
+
+318
+{
+  name { A Narrow Tunnel  }
+  desc {
+"   There is a small tunnel here that extends to the east and west.  It must
+offer you a way out of this smelly, damp place.
+  }
+  flags { mapable }
+  exits {
+	to { e, 229 }
+	to { w, 351 }
+  }
+}
+
+319
+{
+  name { Marble Gates  }
+  desc {
+"   Neatly trimmed vines cling to the white marble archway framing the path
+here.  Sprays of blooming flowers and sweet smelling blossoms fill your head
+to bursting with vibrant colors.  A temple of some sort has rallied against
+the teeming foliage to the south.
+  }
+  flags { mapable, no_mob, mapable }
+  exits {
+	to { n, 320 }
+	to { s, 314 }
+  }
+}
+
+320
+{
+  name { Distant Temple  }
+  desc {
+"   A small path opens up to the south here.  Glancing down it you can see
+a pair of marble gates through the thick foliage that surrounds everything
+in this garden of insane proportion.  In addition to the gates to the south
+you can make out what may be some sort of temple poking over the tree-tops.
+The three silver towers are still visible to the northwest from here.
+  }
+  flags { mapable }
+  exits {
+	to { e, 344 }
+	to { s, 319 }
+	to { w, 321 }
+  }
+}
+
+321
+{
+  name { Formal Gardens  }
+  desc {
+"   You can already tell this is no ordinary garden.  Knowing the Tourism
+Commission of OldPort like you do, you wonder why an attraction as stunning 
+as this isn't heavily advertised.  Turning your head you behold wonder 
+after wonder, and you have a strange feeling that you haven't seen anything
+yet.
+  }
+  flags { mapable }
+  exits {
+	to { n, 322 }
+	to { e, 320 }
+	to { w, 323 }
+  }
+}
+
+322
+{
+  name { Formal Gardens - Orchard  }
+  desc {
+"   You stand amidst a cluster of small fruit trees.  Each one is ladden with
+sweet looking specimens, and fruit lays nestled in the soft lustrious grass as 
+well.   The drone of honey-bees fills your ears.
+   To the north, three silver towers soar over the tree-tops.  You had almost
+forgotten about the towers in this magnificently distracting garden.
+  }
+  flags { mapable }
+  exits {
+	to { n, 359 }
+	to { s, 321 }
+  }
+}
+
+323
+{
+  name { Formal Gardens  }
+  desc {
+"   All colors and scents seem somehow enhanced in this place of beauty.  This
+garden defies reason in every way.  Who would finance such a project?  As you
+ponder you note that the gentle sweep of grass makes a graceful curve from 
+east to south, offering a route deeper into the garden.
+  }
+  flags { mapable }
+  exits {
+	to { e, 321 }
+	to { s, 324 }
+  }
+}
+
+324
+{
+  name { Formal Gardens  }
+  desc {
+"   A gentle expanse of lush grass rolls slowly in from the north and turns 
+westward.  Small flowers and fancifully sculpted shrubs dot the sweep of
+greenery in vivid contrast.
+  }
+  flags { mapable }
+  exits {
+	to { n, 323 }
+	to { w, 325 }
+  }
+}
+
+325
+{
+  name { Formal Gardens - Lush Junction  }
+  desc {
+"   To the south a massive serpent's head rears its fangs!  The sculpted
+hedge stands at least six feet high and stretches out of sight.  All
+other foliage has been cleared away from the serpent to attract attention
+to this rather garish creation.
+   The garden continues its course to both the east and west, although the 
+way west seems to be heavily obstructed by a thick growth of cat-tails.
+  }
+  flags { mapable }
+  exits {
+	to { e, 324 }
+	to { s, 326 }
+	to { w, 332 }
+  }
+}
+
+326
+{
+  name { Formal Gardens - Serpent's Head  }
+  desc {
+"   The grotesque head looks no more inviting up close, although an even
+greater level of detail becomes apparent.  The slithering body stretches
+away to the south, beckoning you to follow.  The knowledge that the ser-
+pent is one-hundred percent foliage doesn't help to calm your nerves.
+  }
+  flags { mapable }
+  exits {
+	to { n, 325 }
+	to { s, 327 }
+  }
+}
+
+327
+{
+  name { Formal Gardens - Serpent  }
+  desc {
+"   The lush green body stretches away in both directions.  The garden ends a
+short distance to either side of the serpent in a wall of impenetrable wild
+growth held back by the efforts of a silvery sort of vine.
+  }
+  flags { mapable }
+  exits {
+	to { n, 326 }
+	to { s, 328 }
+  }
+}
+
+328
+{
+  name { Formal Gardens - Serpent  }
+  desc {
+"   The body makes a sharp turn to the west.  The garden path faithfully
+follows.  You notice an error in the carving of the hedge.  There is a
+faint bulge in diameter.  The again, maybe it isn't a mistake.
+  }
+  flags { mapable }
+  exits {
+	to { n, 327 }
+	to { w, 329 }
+  }
+}
+
+329
+{
+  name { Formal Gardens - Twisted Serpent  }
+  desc {
+"   The twisted form of the serpent slowly straightens out here, running from
+east to west.  A familiar scent tickles your nose...  Roses!
+  }
+  flags { mapable }
+  exits {
+	to { e, 328 }
+	to { w, 330 }
+  }
+}
+
+330
+{
+  name { Formal Gardens - Twisted Serpent  }
+  desc {
+"   The snake's body slowly begins to taper to an end, while curving sharply
+to the north.  The breeze tosses the rose scent about on the path as a low
+droning buzz seeps in from the north.
+  }
+  flags { mapable }
+  exits {
+	to { n, 331 }
+	to { e, 329 }
+  }
+}
+
+331
+{
+  name { Formal Gardens - Serpent's Tail - Rose Tangle  }
+  desc {
+"   You have stumbled into a small clearing amidst a tangle of rose bushes 
+looming ancient in their twisted formation, rising eight or more feet in 
+height over the clearing on all sides.  The serpent's tail tapers to an 
+end more or less in the center of this strange place.  Although the roses 
+grow on a wild scale, it is clear that they are kept carefully trimmed back
+from the clearing itself.
+  }
+  flags { mapable }
+  exits {
+	to { s, 330 }
+  }
+}
+
+332
+{
+  name { Formal Gardens - Lovely Pond  }
+  desc {
+"   Brushing your way through uncharacteristically wild cat-tails that block
+the path off completely here you stumble onto a small clearing with a lovely
+pond in its center.  Due to the cat-tail barrier, this small clearing is 
+totally isolated, and forms a sort of barrier in the garden.  A few ducks
+float serenly about on the water's surface, and the croaking of frogs fills
+the air.
+  }
+  flags { mapable }
+  exits {
+	to { e, 325 }
+	to { w, 333 }
+  }
+}
+
+333
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   The lush foliage pauses here for an intersection.  To the north a flat
+expanse of grass is broken only by small but abundant beds of flowers and
+shaped shrubery, all kept to a maximum height of about 3 feet.  Over this
+massive stretch of manicured spawn of imagination looms the side of a mamm-
+oth stone palace, gracefully fluted in marble and adjuted by spiral towers
+at irregular intervals along its outter walls.
+   To both the east and west the garden continues, although the foliage to
+the west seems particularly colorful.
+  }
+  flags { mapable }
+  exits {
+	to { n, 334 }
+	to { e, 332 }
+	to { w, 340 }
+  }
+}
+
+334
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   Snarling wargs are surrounded by blooming roses.  Beautiful humming-birds
+flutter their wings amid beds of cactus.  All manner of creature and flower 
+squat under a three foot restraint across the length and width of this sweep-
+ing road to the palace.
+  }
+  flags { mapable }
+  exits {
+	to { n, 335 }
+	to { s, 333 }
+  }
+}
+
+335
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   A spiral of some sort, formed from a waxy leafed plant with scarlet under-
+bellied leaves punctuates a flat rendition of a grinning face that stretches
+nearly the entire width of the way here.  Although it is difficult to see from
+here, the grinning visage must look maniacle indeed from the towers of the
+palace.
+  }
+  flags { mapable }
+  exits {
+	to { n, 336 }
+	to { s, 334 }
+  }
+}
+
+336
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   The themes of the plaza blend here into something entirely new.  It looks
+as if great pains have been takes to trim the hedges here into gently rolling
+waves.  The effect is startling, it's almost as if you are standing on the shore
+of some great sea of greenery.  As a charming touch, mermaids leap and frolic
+in the distance, frozen in time.  A path has been left clear through the mid-
+dle of all this, the artist confident enough in his work to know that small
+disruptions can't mar the illusion.
+  }
+  flags { mapable }
+  exits {
+	to { n, 337 }
+	to { s, 335 }
+  }
+}
+
+337
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   You stare in delight.  The city of oldPort seems to have been recreated 
+here in caricature.  Fanciful buildings crowd the way here.  You have to 
+step carefully to avoid crushing any of the tiny shaped bushes.  Around the
+edge of the path row upon row of fiery red and yellow blooms crowd in on
+the mock city, as if the designer of this fantasy land fears intrusion from
+the outer world.
+  }
+  flags { mapable }
+  exits {
+	to { n, 338 }
+	to { s, 336 }
+  }
+}
+
+338
+{
+  name { Formal Gardens - Magnificent Plaza  }
+  desc {
+"   The scattered sculptures all converge as you approach the Palace formal, 
+joining finally to form two geometrically perfect walls to guide you to the
+steps themselves.  While starting out at an innocent height of three feet 
+the walls around you quickly soar to more than twenty feet, leaving you in
+deep shadow, cut off from the sun completely.
+   Marble steps stretch out ahead of you leading to a flat plaza devoid of
+all plant life.
+  }
+  flags { mapable }
+  exits {
+	to { n, 339 }
+	to { s, 337 }
+  }
+}
+
+339
+{
+  name { Fairy Tale View  }
+  desc {
+"   From this plaza of marble, the view is astounding.  To the north a vast
+Palace blends gracefully into the landscaping and natural contours of the
+hills.  Great trees crowd in on its walls, hugging it in their ancient arms.
+To the south a narrow path of sculpted hedges gives way to a plaza of wonder
+that stretches as far as your eye can see into the distance.
+   A small trail of smooth rock leads into the private gardens of the Palace
+proper.  Guards stand at the northernmost side of the plaza, blocking access
+to the trail.
+  }
+  flags { mapable }
+  exits {
+	to { n, 389 }
+	to { s, 338 }
+  }
+}
+
+340
+{
+  name { Formal Gardens - Islands of Color  }
+  desc {
+"   Scattered about this flat grassy strecth of garden are flower beds that 
+have been shaped by skilled hands into circular mounds.  Each of these mounds 
+overflows with flowers of every color imaginable, each flower playing off the
+others, each mounds playing off the other mounds until colors that boggle the
+mind assault you from every direction.  The mounds stand out so sharply from 
+the grass seperating them from one another that the illusion of them being 
+'islands' awash in a sea of greenery is succesfully played off.
+  }
+  flags { mapable }
+  exits {
+	to { e, 333 }
+	to { w, 341 }
+  }
+}
+
+341
+{
+  name { Formal Gardens - Islands of Blooms  }
+  desc {
+"   Mounds of bloom erupt from the garden floor, streching as far as the eye 
+can see.  This isn't a considerable distance considering that the mounds are
+so numerous and scattered, so tall and full that they block out all sight past
+forty feet or so.  The blooms themselves are as varied in size as the flowers
+of the previous 'islands' were in color.  Some of the blooms are as big as two
+feet across!
+  }
+  flags { mapable }
+  exits {
+	to { e, 340 }
+	to { s, 342 }
+  }
+}
+
+342
+{
+  name { Formal gardens - Islands of Perfume  }
+  desc {
+"   The 'islands' have been visually turned down a notch or two here.  They are
+short, hugging the ground, and very easy to see over.  The entire field of 
+grass is visible up to the point where the flowers turn into brightly colored
+stones further to the south.  You quickly understand the purpose of this place
+in the garden though, as you inhale the swelling air and your nose tries to sort
+out a thousand fine perfumes at once.  Where the other 'islands' were meant to
+boggle and amaze the eye, these were designed to do the same to your sense of
+smell.  Although the perfume is heavy, it is in no way uplesant, and you feel
+reluctant to leave this place.
+  }
+  flags { mapable }
+  exits {
+	to { n, 341 }
+	to { s, 343 }
+  }
+}
+
+343
+{
+  name { Formal Gardens - Islands of Stone  }
+  desc {
+"   A thick growth of hedge holds the trees back from the garden.  Stones of
+every shape and color have been carefully arranged to form beautiful groups
+of varried size.  These 'islands' of stones are scattered about the clear area
+between the hedges with paths or fields of flowers seperating one from another.
+   The effect is breathtaking.  In this quiet secluded place, with the azure
+sky high above and the warm sunlight washing over you, it isn't so hard to
+imagine what heaven might be like.
+  }
+  flags { mapable }
+  exits {
+	to { n, 342 }
+	to { 10, 354 }
+	  info { door, closed, autoclose }
+	  keywords { island }
+  }
+}
+
+344
+{
+  name { Formal Gardens  }
+  desc {
+"   The beauty and complication of this garden continue to astound you!  In
+every direction feats of sculpture are commonplace, waterfalls of blossoming
+vines slide gracefully into ponds of real water, with sculpted ducks of 
+glistening leaves float lazily over its surface.  Hummingbirds and honey
+bees fill the air.  Perfumed breezes fill your nose as golden sunlight warms
+your back.
+   Three silver towers glitter in the bright afternoon sunlight somewhere to
+the northwest.  Each tower is of perfect symmetry, rounded and smooth, slowly
+tapering off as they soar above the tree-tops.  That you didn't notice the
+towers until this moment is a testament to the power which this garden exerts
+over your senses.
+  }
+  flags { mapable }
+  exits {
+	to { e, 345 }
+	to { w, 320 }
+  }
+}
+
+345
+{
+  name { Formal Gardens  }
+  desc {
+"   As the forest gave way gradually to the clearing, so the clearing gradually
+gives way here to a garden.  At first the garden consists of a few naturally
+growing trees and bushes, trimmed neatly and looking more vibrantly healthy
+than a plant possibly can.  Gradually though, as you continue to the north 
+it becomes clear that a force is exerting control over all that is green and 
+growing, bringing all manner of tree and flower together into a magnificent
+garden of monumental proportion.  Soon delicate sculptures begin to appear, 
+carved from the living plants, but not in a way that demeans them.  Each 
+sculpture flows with the natural lines of the host, forming but also being
+formed by the plant.  The beauty is breathtaking.  As you travel deeper and
+deeper into what now can only be called a formal garden, you wonder who could
+produce such beauty on so vast a scale?
+  }
+  flags { mapable }
+  exits {
+	to { s, 346 }
+	to { w, 344 }
+  }
+}
+
+346
+{
+  name { A Sunny Clearing  }
+  desc {
+"   This clearing is laid bare by sunlight.  Dark trees loom to the south
+while in vivid contrast a beautiful garden of sorts begins to the north.
+  }
+  flags { mapable }
+  exits {
+	to { n, 345 }
+	to { s, 347 }
+  }
+}
+
+347
+{
+  name { Some Light  }
+  desc {
+"   Light begins to diffuse into the gloom, bringing the illumination level
+to about twilight.
+  }
+  flags { mapable }
+  exits {
+	to { n, 346 }
+	to { w, 348 }
+  }
+}
+
+348
+{
+  name { Deep Forest  }
+  desc {
+"   There is now no sound coming from the forest.  The light filtering
+through the thick branches overhead is grey and weak barely lighting
+your way along the smooth and even road.  You have an urge to hurry
+through this place.
+  }
+  flags { mapable }
+  exits {
+	to { e, 347 }
+	to { w, 349 }
+  }
+}
+
+349
+{
+  name { Deep Forest  }
+  desc {
+"   There is now no sound coming from the forest.  The light filtering
+through the thick branches overhead is grey and weak barely lighting
+your way along the smooth and even road.  You have an urge to hurry 
+through this place.
+  }
+  flags { mapable }
+  exits {
+	to { e, 348 }
+	to { s, 350 }
+  }
+}
+
+350
+{
+  name { Entering the Trees  }
+  desc {
+"   The road passes from the gate into shadow quickly.  Trees rise in a thick
+barrier to each side of the road blocking out the sun.  Birds call in the
+distance faintly but the air muffles the sound even as it is produced.
+  }
+  flags { no_mob, mapable }
+  exits {
+	to { n, 349 }
+	to { s, 39 }
+  }
+}
+
+351
+{
+  name { A Narrow Tunnel  }
+  desc {
+"   The amount of water on the floor of the tunnel increases as you head in
+a western direction.  There are mold and lichens growing along the walls
+and ceiling of the tunnel here.
+  }
+  flags { mapable }
+  exits {
+	to { e, 318 }
+	to { s, 385 }
+	to { w, 352 }
+  }
+}
+
+352
+{
+  name { A Narrow Tunnel  }
+  desc {
+"   The water level is vastly increasing as you move west.  You are able to
+wade through the knee-high water, as several strange insects and animals
+swim past your legs.  There is a door that leads north.  However, it may
+be difficult to open with all of the water that is pushing against it.
+  }
+  flags { mapable }
+  exits {
+	to { n, 386 }
+	  info { door, closed }
+	  keywords { north }
+	to { e, 351 }
+	to { w, 353 }
+  }
+}
+
+353
+{
+  name { A Narrow Tunnel  }
+  desc {
+"   The level of sitting water in the tunnel is now waist high.  Luckily,
+there is a ladder along the northern wall that leads to a trapdoor above.
+Hopefully, it will bring you back to the city of Oldport.
+  }
+  flags { no_mob, mapable }
+  exits {
+	to { e, 352 }
+	to { u, 81 }
+	  info { door, closed, autoclose }
+	  keywords { trapdoor }
+  }
+}
+
+354
+{
+  name { Dank Tomb  }
+  desc {
+"   The walls are of dark earth and crumbling stone caseing.  Roots poke
+through speeding ther inevitable failure of the structure of this dark
+tomb.  Stone steps lead from the garden entrance above down onto a rough
+hewn floor.  It is apparent that this tomb predates OldPort by several
+thousand years and you wonder why it was not destroyed when the garden
+was planted rather than being covered by an island of flowers.
+   Rising from the center of the floor is a stone sarphogus layered
+in dust.  There is no life in this place.
+  }
+  flags { mapable }
+  exits {
+	to { 10, 343 }
+	  info { door, closed, autoclose }
+	  keywords { garden }
+  }
+}
+
+359
+{
+  name { Dense Forest  }
+  desc {
+"   There is only a small path here that makes its way through a dense
+patch of vegetation.  As you walk through the path, you are careful to
+avoid the many branches that extend into the path and disrupt any chance
+of smooth travel down it.
+  }
+  flags { mapable }
+  exits {
+	to { n, 360 }
+	to { s, 322 }
+  }
+}
+
+360
+{
+  name { Soaring Towers  }
+  desc {
+"   As you look to the north, you are able to make out two immense towers
+ahead.  Their purpose is unknown but they are massive enough to serve as
+several watchtowers over the city and its boundaries.
+  }
+  flags { mapable }
+  exits {
+	to { n, 361 }
+	to { s, 359 }
+  }
+}
+
+361
+{
+  name { Tower Gates  }
+  desc {
+"   As you approach the gates of the tower, you are suprised to see very
+little security here.  Normally, throughout Oldport, the entrances to
+important buildings are tightly monitored and extremely secure.  Perhaps
+this building is not important but it is almost too prominent to not be.
+  }
+  flags { no_mob, mapable }
+  exits {
+	to { n, 362 }
+	to { s, 360 }
+  }
+}
+
+362
+{
+  name { Entry Hall  }
+  desc {
+"   There is a long hallway that begins here and extends to the north.  Several
+guard nooks line the hallway on either side.  A long, black rug lies in the
+center of the hall and extends to the end of the hallway.
+  }
+  flags { mapable }
+  exits {
+	to { n, 372 }
+	to { e, 363 }
+	to { s, 361 }
+	to { w, 364 }
+  }
+}
+
+363
+{
+  name { Guard's Nook  }
+  desc {
+"   There is a large captain's chair that stands here, in this small nook
+off the main road.  When the guards take a break from duty, this is where
+they are able to relax.  The security here is a bit lax since there are
+not many travelers who frequent this area.
+  }
+  flags { mapable }
+  exits {
+	to { w, 362 }
+  }
+}
+
+364
+{
+  name { Guard's Nook  }
+  desc {
+"   There is a large captain's chair that stands here, in this small nook
+off the main road.  When the guards take a break from duty, this is where
+they are able to relax.  The security here is a bit lax since there are
+not many travelers who frequent this area.
+  }
+  flags { mapable }
+  exits {
+	to { e, 362 }
+  }
+}
+
+365
+{
+  name { Grand Hall  }
+  desc {
+"   The Grand Hall comes into a large intersection of halls here.  One
+hall extends in an east-west direction, eventually leading to a small
+stairway.  The Grand Hall continues to lead to the north and head back
+to the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 373 }
+	to { e, 366 }
+	to { s, 372 }
+	to { w, 369 }
+  }
+}
+
+366
+{
+  name { Eastern Passage  }
+  desc {
+"   The Eastern Passage begins here and continues to the east.  Several large
+tapistries line the wall and decorate an otherwise bland colored wall.  As
+you walk down the hallway, you feel a chill travel down your spine.  The
+air is extremely humid and the temperature is moderate.  Although, it is
+extraordinarily desolate in there.
+  }
+  flags { mapable }
+  exits {
+	to { e, 367 }
+	to { w, 365 }
+  }
+}
+
+367
+{
+  name { Eastern Passage  }
+  desc {
+"   The Eastern Passage makes a turn to the northeast here and leads to
+the base of a stairway.  Several odd paintings line the wall here and
+offer a varied view of the Earl and the people of Oldport.
+  }
+  flags { mapable }
+  exits {
+	to { w, 366 }
+	to { northeast, 368 }
+  }
+}
+
+368
+{
+  name { Tower of the Rising Sun  }
+  desc {
+"   There is a constantly faint light that eminates here.  There is a spiral
+staircase that leads upwards.  You are unable to see up the stairs to see
+what lies ahead, due to the strange configuration of the stairway.
+  }
+  flags { mapable }
+  exits {
+	to { southwest, 367 }
+	to { 10, 376 }
+	  keywords { stairs }
+  }
+}
+
+369
+{
+  name { Western Passage  }
+  desc {
+"   The Western Passage begins here and continues to the west.  Several
+large tapistries line the wall and decorate an otherwise bland colored wall.
+As you walk down the hallway, you feel a chill travel down your spine.  The
+air is extremely humid and the temperature is moderate.  Although, it is
+extraordinarily desolate in here.
+  }
+  flags { mapable }
+  exits {
+	to { e, 365 }
+	to { w, 370 }
+  }
+}
+
+370
+{
+  name { Western Passage  }
+  desc {
+"   The Western Passage makes a turn to the northwest here and leads to
+the base of a stairway.  Several odd paintings line the wall here and
+offer a varied view of the Earl and the people of Oldport.
+  }
+  flags { mapable }
+  exits {
+	to { e, 369 }
+	to { northwest, 371 }
+  }
+}
+
+371
+{
+  name { Tower of the Slipping Sun  }
+  desc {
+"   There is a constantly faint light that eminates here.  There is a spiral
+staircase that leads upwards.  You are unable to see up the stairs to see
+what lies ahead, due to the strange configuration of the stairway.
+  }
+  flags { mapable }
+  exits {
+	to { southeast, 370 }
+	to { 10, 375 }
+	  keywords { stairs }
+  }
+}
+
+372
+{
+  name { Grand Hall  }
+  desc {
+"   The Grand Hall begins here and continues to the north.  Several large
+tapistries line the wall and decorate an otherwise bland colored wall.  As
+you walk down the hallway, you feel a chill travel down your spine.  The
+air is extremely humid and the temperature is moderate.  Although, it is
+extrordinarily desolate in here.
+  }
+  flags { mapable }
+  exits {
+	to { n, 365 }
+	to { s, 362 }
+  }
+}
+
+373
+{
+  name { Grand Gallery  }
+  desc {
+"   You have entered the Grand Gallery.  There are several paintings that
+line the wall here and color up the room.  There is a large tapistry
+mounted to the ceiling, attached by four nails at each corner.  The tapistry
+depicts the tale of a religious war, which believers claim occurred over
+2000 years ago.
+  }
+  flags { mapable }
+  exits {
+	to { n, 374 }
+	to { s, 365 }
+  }
+}
+
+374
+{
+  name { Brass Contraption  }
+  desc {
+"   There is some sort of machine here, made of brass, that seems to operate
+a lifting device that lies to the north.  There is a raised wall ahead
+with a lifting device to raise people to the top.  There are several small
+gears and a strange motor that automatically starts when pressure is applied
+to the platform.
+  }
+  flags { mapable }
+  exits {
+	to { n, 384 }
+	to { s, 373 }
+  }
+}
+
+375
+{
+  name { Spiral of Twilight  }
+  desc {
+"   There is a strange column of light that shines down from above.  The
+light is almost magical, as its beams are bright but do not reflect on the
+rest of the room.  The spiral staircase winds around this odd light source.
+  }
+  flags { mapable }
+  exits {
+	to { u, 381 }
+	to { d, 371 }
+  }
+}
+
+376
+{
+  name { Spiral of Light  }
+  desc {
+"   There is a strange column of light that shines down from above.  The
+light is almost magical, as its beams are bright but do not reflect on the
+rest of the room.  The spiral staircase winds around this odd light source.
+  }
+  flags { mapable }
+  exits {
+	to { u, 377 }
+	to { d, 368 }
+  }
+}
+
+377
+{
+  name { Tower of the Rising Sun  }
+  desc {
+"   A small mirrored object of some sort absorbs all of the sunlight here
+and concentrates it into a single beam of light.  The light is sent to
+the bottom of the staircase.  Although, you are unsure of the purpose
+it could have.
+  }
+  flags { mapable }
+  exits {
+	to { d, 376 }
+	to { northwest, 378 }
+  }
+}
+
+378
+{
+  name { Arching Bridge  }
+  desc {
+"   There is a small steel bridge that allows people to pass over the top
+of the tower here.  Several strong rails line each side to prevent those
+passing through from falling to their death.
+  }
+  flags { mapable }
+  exits {
+	to { southeast, 377 }
+	to { northwest, 379 }
+  }
+}
+
+379
+{
+  name { Chamber of Horizons  }
+  desc {
+"   There are several sources of light that rise and fall in the distance.
+You are confused as to how this is possible.  Perhaps, the mirrored objects
+you encountered before have something to do with it.
+  }
+  flags { mapable }
+  exits {
+	to { u, 382 }
+	to { southeast, 378 }
+	to { southwest, 380 }
+  }
+}
+
+380
+{
+  name { Arching Bridge  }
+  desc {
+"   There is a small steel bridge that allows people to pass over the top
+of the tower here.  Several strong rails line each side to prevent those
+passing through from falling to their death.
+  }
+  flags { mapable }
+  exits {
+	to { northeast, 379 }
+	to { southwest, 381 }
+  }
+}
+
+381
+{
+  name { Tower of the Setting Sun  }
+  desc {
+"   A small mirrored object of some sort absorbs all of the sunlight here
+and concentrates it into a single beam of light.  The light is sent to
+the bottom of the staircase.  Although, you are unsure of the purpose it
+could have.
+  }
+  flags { mapable }
+  exits {
+	to { d, 375 }
+	to { northeast, 380 }
+  }
+}
+
+382
+{
+  name { Chamber of the Stars  }
+  desc {
+"   There is a wide open ceiling here that allows visitors to view the
+entire skyline.  There is complete darkness above which allows a perfect
+view of every star and constellation in the universe.
+  }
+  flags { mapable }
+  exits {
+	to { d, 379 }
+  }
+}
+
+383
+{
+  name { At the Platform's Peak  }
+  desc {
+"   As you reach to the top of the ceiling you notice a small display
+case.  A glass door denies you access to its contents.  Although, perhaps
+you could try opening it.
+  }
+  flags { indoors, mapable }
+  exits {
+	to { d, 384 }
+  }
+}
+
+384
+{
+  name { Knobs and Gears  }
+  desc {
+"   There are several controls that operate the brass machinery south of
+here.  As you step on the platform from the machine, the motor begins and
+you slowly begin to rise along the northern wall.
+  }
+  flags { mapable }
+  exits {
+	to { s, 374 }
+	to { 10, 383 }
+	  keywords { platform }
+  }
+}
+
+385
+{
+  name { The Machine Room  }
+  desc {
+"   This room contains the machinery that operates the powerful light at
+the top of the lighthouse.  The power generated from this machine is
+routed to the top by means of thick cabling.  If someone were to remove
+the cabling, the incoming ships would have trouble navigating in times of
+poor weather.
+  }
+  flags { mapable }
+  exits {
+	to { n, 351 }
+  }
+}
+
+386
+{
+  name { A Wooden Casket  }
+  desc {
+"   There is a small altar here with a rotting wooden casket resting on
+top.  The altar is made of black stone and intricately carved with some
+sort of religous engraving.  You would like to open the casket to examine
+its contents.  Although, you are afraid to find out what could possibly be
+inside.
+  }
+  flags { mapable }
+  exits {
+	to { s, 352 }
+	  info { door, closed }
+	  keywords { north }
+  }
+}
+
+387
+{
+  name { On the Outer Path  }
+  desc {
+"   A small, dirt trail seems to encircle the city wall here.  As you
+travel through the narrow path, your feet sink into the moist and sloppy
+mud that lies beneath you.
+  }
+  flags { mapable }
+  exits {
+	to { s, 388 }
+	to { northeast, 0 }
+  }
+}
+
+388
+{
+  name { On the Outer Path  }
+  desc {
+"   High grass and weeds line the edge of the tiny trail that makes its
+way around the city limits.  Puddles of water lay intermittantly along
+the path.
+  }
+  flags { mapable }
+  exits {
+	to { n, 387 }
+	to { s, 406 }
+  }
+}
+
+389
+{
+  name { Palace - Private Gardens  }
+  desc {
+"   These gardens, planted for the exclusive pleasure of the royal family
+of OldPort, are even more exotic than those located further south and around
+the temple complex.  Life-sized shockingly realistic figures strike poses
+of every nature.  Not a trace of wilt can be seen anywhere, this is the 
+most wholesome garden you have ever seen.
+  }
+  flags { mapable }
+  exits {
+	to { n, 390 }
+	to { s, 339 }
+  }
+}
+
+390
+{
+  name { Rear Entrance - Foyer  }
+  desc {
+"   As you approach the rear entrance to this royal castle, you are
+amazed at the lack of security at its exits.  In the middle of the path
+through the gardens, a large marble fountain flows with crystal clear
+water.  The path encompasses the fountain and makes it a centerpiece of
+the surrounding gardens.
+  }
+  flags { no_mob, mapable }
+  exits {
+	to { n, 391 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 389 }
+  }
+}
+
+391
+{
+  name { Southern Gallery  }
+  desc {
+"   A somewhat narrow hallway extends in a north-south direction here.
+To the west, a closed wooden door prohibits your travel and causes a bit of
+curiosity to run through your head.  Perhaps, you should see what is
+behind the door.
+  }
+  flags { mapable }
+  exits {
+	to { n, 392 }
+	to { s, 390 }
+	  info { door, closed }
+	  keywords { door }
+	to { w, 401 }
+	  info { door, closed, autoclose }
+	  keywords { wooden }
+  }
+}
+
+392
+{
+  name { Southern Gallery  }
+  desc {
+"   The Southern Gallery contains some fascinating gems and treasures from
+King Trakad's many adventures.  Unlike most of the royalty before him, the
+King is an adventurous and free-spirited man, who enjoys displaying the
+many trophies of his dangerous and inspiring crusades.
+  }
+  flags { mapable }
+  exits {
+	to { n, 393 }
+	to { s, 391 }
+  }
+}
+
+393
+{
+  name { Grand Gallery Junction  }
+  desc {
+"   This room seems to be a large intersection for a number of hallways that
+lead in almost all cardinal directions.  As you look to the south, a narrow
+hallway leads to a door at the end.  Perhaps that is the southern exit from
+the castle.
+  }
+  flags { mapable }
+  exits {
+	to { n, 394 }
+	to { e, 402 }
+	to { s, 392 }
+	to { w, 396 }
+  }
+}
+
+394
+{
+  name { Northern Gallery  }
+  desc {
+"   The Northern Gallery does not have anything that captures your interest.
+There are only several red and white banners that line the wall in decoration.
+Although, the hallway continues in both a north and south direction.
+  }
+  flags { mapable }
+  exits {
+	to { n, 395 }
+	to { s, 393 }
+  }
+}
+
+395
+{
+  name { Tower of Seers  }
+  desc {
+"   A man by the name of Seers lives in this room.  He is supposedly the all
+purpose man that works for Earl Trakad.  He runs all of the electrical,
+heating and plumbing devices of the castle and is responsible for ensuring
+that they all operate efficiently.
+  }
+  flags { mapable }
+  exits {
+	to { s, 394 }
+	to { u, 426 }
+  }
+}
+
+396
+{
+  name { Western Gallery  }
+  desc {
+"   As you walk through this hallway, you notice several openings in
+the walls where there seem to have once been pictures of some sort.
+Several nails are pounded into the wall here for the purpose of
+supporting some sort of framed paintings.  Perhaps the room is under
+construction.  Although, it doesn't seem like anyone is working on it
+right now.
+  }
+  flags { mapable }
+  exits {
+	to { e, 393 }
+	to { w, 397 }
+  }
+}
+
+397
+{
+  name { Western Gallery  }
+  desc {
+"   The Western Gallery comes to an abrupt halt here but meets with
+another hallway that leads north and south.  Although, there are several
+closed wooden doors that prevent you to travel in either direction.  You
+see nothing wrong with taking a gander throughout the castle.  It looks
+like everyone else is anyway.
+  }
+  flags { mapable }
+  exits {
+	to { n, 398 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { e, 396 }
+	to { s, 400 }
+	  info { door, closed, autoclose }
+	  keywords { wooden door }
+  }
+}
+
+398
+{
+  name { Antechamber - Tower of Westarch  }
+  desc {
+"   As you enter this room, a clammy and desolate feeling overcomes you.
+The bare cement walls, smelling of milldew and littered with cobwebs,
+are anything but inviting.  As you approach the room north of here, you
+hear someone mumbling some incantations of some kind.
+  }
+  flags { mapable }
+  exits {
+	to { n, 399 }
+	to { s, 397 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+399
+{
+  name { Westarch  }
+  desc {
+"   This is the home of Zintar, the fabled old mage who hides himself in
+the Earl's castle to enhance his magic powers.  As you look around the
+room, you can't help but notice an enormous library of books that cover
+the entire northern wall.
+  }
+  flags { mapable }
+  exits {
+	to { s, 398 }
+	to { u, 424 }
+  }
+}
+
+400
+{
+  name { Watch West  }
+  desc {
+"   There is a strong, iron staircase that leads up to a rather wide
+opening in the ceiling above.  You notice several shadows crossing the
+hole as you look above.  There must be someone up there, but for what
+reason?
+  }
+  flags { mapable }
+  exits {
+	to { n, 397 }
+	  info { door, autoclose }
+	  keywords { door }
+	to { u, 425 }
+  }
+}
+
+401
+{
+  name { Watch Southerly  }
+  desc {
+"   There is a strong, iron staircase that leads up to a rather wide
+opening in the ceiling above.  You notice several shadows crossing the
+hole as you look above.  There must be someone up there, but for what
+reason?
+  }
+  flags { mapable }
+  exits {
+	to { e, 391 }
+	  info { door, closed, autoclose }
+	  keywords { wooden }
+	to { u, 428 }
+  }
+}
+
+402
+{
+  name { Eastern Gallery  }
+  desc {
+"   This narrow hallway allows you to travel in only an east-west direction.
+As you look to the west, you notice a larger gallery that allows you to
+travel in almost all directions.  If you look to the east, you can see that
+there is another hallway that turns to the north and south.
+  }
+  flags { mapable }
+  exits {
+	to { e, 403 }
+	to { w, 393 }
+  }
+}
+
+403
+{
+  name { Eastern Gallery  }
+  desc {
+"   There are several exits that lead you out of this room.  To the south,
+there is a large room that, in part, consists a tower of the castle.  As
+you look to the north, a hallway extends and leads, eventually, to a wooden
+door.  If you were to journey west, you would walk through a narrow hallway
+that seems to lead to a larger intersection of halls.
+  }
+  flags { mapable }
+  exits {
+	to { n, 405 }
+	to { s, 404 }
+	to { w, 402 }
+  }
+}
+
+404
+{
+  name { Tower of Divine Light  }
+  desc {
+"   The hallway ends abruptly here and gives way to a small spiral staircase
+that leads up.  As you look above to see where it leads to, you are blinded
+by an intense light that shines through.
+  }
+  flags { mapable }
+  exits {
+	to { n, 403 }
+	to { u, 427 }
+  }
+}
+
+405
+{
+  name { Eastern Gallery  }
+  desc {
+"   The Eastern Gallery makes a T-like intersection here and allows you to
+travel in only three directions.  As you look to the east, you notice a
+narrow hallway that brings you to a large gallery.  To the south, another
+hallway, decorated with paintings and sculpture, makes its way through the
+castle.  There is a door to the north, that reads 'Security'.  It must be
+the office of the guards.
+  }
+  flags { mapable }
+  exits {
+	to { n, 407 }
+	to { e, 408 }
+	to { s, 403 }
+  }
+}
+
+406
+{
+  name { On the Outer Path  }
+  desc {
+"   This trail does not seem like it is a heavily traveled area.  Although,
+there are enough people that frequent it in order to define the path among
+all of the weeds and grass.
+  }
+  flags { mapable }
+  exits {
+	to { n, 388 }
+	to { s, 423 }
+  }
+}
+
+407
+{
+  name { Tower of the Knight Marshal  }
+  desc {
+"   This is the tower of the Knight Marshal.  Knight Marshal is rumored to
+be the head of security throughout the castle and the Earl's earldom.  Those
+who are endowed enough to know him, are very fond of him.  Although, those
+who oppose him usually tend to regret it.
+  }
+  flags { mapable }
+  exits {
+	to { s, 405 }
+  }
+}
+
+408
+{
+  name { Eastern Gallery  }
+  desc {
+"   A narrow hallway extends to the Eastern Gallery here.  As you go east
+from here, you stumble upon the Grand Gallery and all of the royal family
+treasures.  Unfortunately, they are tightly secured and there isn't much
+of a chance in stealing them.
+  }
+  flags { mapable }
+  exits {
+	to { e, 409 }
+	to { w, 405 }
+  }
+}
+
+409
+{
+  name { Eastern Gallery  }
+  desc {
+"   Several portraits of the earl and his family line the walls of the
+hallway here.  There are older pictures of the children, the prince and
+princess, as they were growing up.  The family seemed to always be
+elated and content.  Although, things seem to have changed since.
+  }
+  flags { mapable }
+  exits {
+	to { n, 411 }
+	to { s, 410 }
+	to { w, 408 }
+  }
+}
+
+410
+{
+  name { Tower of Divine Light  }
+  desc {
+"   A tiny electrical line of some sort runs along the ceiling here and
+leads into a hole in the northern wall.  A sturdy wooden ladder leans
+against the eastern wall, allowing anyone access to the top of the
+tower above.
+  }
+  flags { mapable }
+  exits {
+	to { n, 409 }
+	to { u, 430 }
+  }
+}
+
+411
+{
+  name { Grand Gallery  }
+  desc {
+"   Several busy-bodied people pace the hallways here, each seeming to
+have a mission of some sort.  Although, from their actions you cannot
+tell what that could be.  As you look to the east, you notice a more
+prominent hallway extending beyond your eyes limitations.
+  }
+  flags { mapable }
+  exits {
+	to { n, 412 }
+	to { e, 414 }
+	to { s, 409 }
+  }
+}
+
+412
+{
+  name { Adorned Gallery  }
+  desc {
+"   An intersection of hallways converges here and lead in almost all
+cardinal directions.  You can't help but notice the impressive paintings
+of famous artists decorating the walls of the hallway.  You feel an urge
+to take one for your own but several protective steel bars prevent you to.
+From the looks of it, they must have had that problem before.
+  }
+  flags { mapable }
+  exits {
+	to { n, 434 }
+	to { e, 435 }
+	to { s, 411 }
+	to { w, 413 }
+  }
+}
+
+413
+{
+  name { Watch North  }
+  desc {
+"   There is a strong, iron staircase that leads up to a rather wide
+opening in the ceiling above.  You notice several shadows crossing the
+hole as you look above.  There must be someone up there, but for what
+reason?
+  }
+  flags { mapable }
+  exits {
+	to { e, 412 }
+	to { u, 429 }
+  }
+}
+
+414
+{
+  name { Grand Gallery  }
+  desc {
+"   The Grand Gallery runs in an east-west direction here.  There are several
+tapistries that line the wall here and portray some of the battles that
+Oldport has encountered and endured in its long history.
+  }
+  flags { mapable }
+  exits {
+	to { e, 415 }
+	to { w, 411 }
+  }
+}
+
+415
+{
+  name { Grand Gallery  }
+  desc {
+"   The hallway extends to the east and to the west.  As you look to the
+east, you notice a large intersection of rooms.  To the west, the gallery
+continues, displaying the many decorations of the Earl and his family.
+  }
+  flags { mapable }
+  exits {
+	to { e, 416 }
+	to { w, 414 }
+  }
+}
+
+416
+{
+  name { Throne Room  }
+  desc {
+"   The hallway ends here, leaving way to a large, open room with a raised
+ceiling.  Several stone pillars stand to the south, leading up a flight of
+stairs.  Along the pillars, several guards stand in your way in order to
+protect something beyond them.
+  }
+  flags { mapable }
+  exits {
+	to { n, 420 }
+	to { e, 417 }
+	to { s, 422 }
+	to { w, 415 }
+  }
+}
+
+417
+{
+  name { Grand gallery  }
+  desc {
+"   As you look at the many pictures on the walls, you notice several family
+portraits.  They must be the kin of the royal family.  The pictures seem to
+date back to many years ago, even before your birth.
+  }
+  flags { mapable }
+  exits {
+	to { e, 418 }
+	to { w, 416 }
+  }
+}
+
+418
+{
+  name { Shadowy Gallery  }
+  desc {
+"   Several small lanterns are mounted on the walls to give light and direction
+as you walk through its path.  Giving off a small amount of light, they
+barely allow you to distinguish figures that pass you as you stand here.
+  }
+  flags { mapable }
+  exits {
+	to { e, 419 }
+	to { w, 417 }
+  }
+}
+
+419
+{
+  name { Frust's Tower  }
+  desc {
+"   The Gallery gives way to a small, black spiral staircase here that leads
+up to another room above.  There is a small lantern on the northern wall that
+provides a faint light with which you can see.  Although, the corners of the
+room are not distinguishable and are hidden in the shadows.
+  }
+  flags { mapable }
+  exits {
+	to { w, 418 }
+	to { u, 432 }
+  }
+}
+
+420
+{
+  name { Throne Room  }
+  desc {
+"   This small hallway leads to a wooden door to the west.  Several golden
+chairs line the northern wall, which contains an enormous mirror that
+displays your dazzling beauty.
+  }
+  extra {
+	keywords { mirror }
+	desc {  It displays a picture of yourself--its enough to make you vomit. :)
+	}
+  }
+  flags { mapable }
+  exits {
+	to { s, 416 }
+	to { w, 421 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+421
+{
+  name { Royal Apartments  }
+  desc {
+"   There are two beds here, one on the southern wall and one along the
+northern wall.  The bed frames are decorated in gold, while white canopies
+lace the exterior and conceal what may be inside.  A small staircase leads
+its way up to another room above.
+  }
+  flags { mapable }
+  exits {
+	to { e, 420 }
+	  info { door, closed }
+	  keywords { door }
+	to { u, 431 }
+  }
+}
+
+422
+{
+  name { Throne Room - On High  }
+  desc {
+"   A large, golden chair, with soft, red seat cushions stands on a pedestal
+above the rest of the room.  Beside it, two small, less-prestigous, chairs
+sit on either side.   As you examine the larger chair, you notice the many
+jeweled designs that decorate the golden frame.  This must be the throne of
+King Trakad and his family.
+  }
+  flags { mapable }
+  exits {
+	to { n, 416 }
+  }
+}
+
+423
+{
+  name { On the Outer Path  }
+  desc {
+"   Several strange birds fly overhead as you walk along this weary path.
+They seem to be circling over this area in search of prey.  You should
+make sure you are ready in case they decide to choose you as their next
+victim.
+  }
+  flags { mapable }
+  exits {
+	to { n, 406 }
+	to { southeast, 433 }
+  }
+}
+
+424
+{
+  name { A Scarce Bedroom  }
+  desc {
+"   From the looks of it, this must be the bedroom of Zintar.  There is
+a small desk along the western wall of this tiny room and a pile of straw
+that sits in the southeastern corner of the bedroom, which must serve
+as a mattress for his aging body.
+  }
+  flags { mapable }
+  exits {
+	to { d, 399 }
+  }
+}
+
+425
+{
+  name { On the Western Watchtower  }
+  desc {
+"   Two massive beasts stand guard here, obviously loyal to their master,
+the Earl.  They are alerted to your presence but are not distracted from
+their work, knowing that the Earl had expected guests today.  Little do
+they know, you weren't invited to the party.
+  }
+  flags { mapable }
+  exits {
+	to { d, 400 }
+  }
+}
+
+426
+{
+  name { The Furnace Room  }
+  desc {
+"   A large furnace sits here in the middle of the room, making you a little
+uncomfortable with all of the heat it disperses.   As you take a closer look,
+it seems to be running from a magical fuel that sits in a tank beside it.
+From the heat it emits, you would imagine that it would take much more amounts
+of fuel to run but for some strange reason, it doesn't.
+  }
+  flags { mapable }
+  exits {
+	to { d, 395 }
+  }
+}
+
+427
+{
+  name { Divine Light  }
+  desc {
+"   As you climb to the top of the tower and stand here, you are fascinated
+by the intense light that eminates from the sun above.  This is a strange
+place, as beams of light from the sun seem to be concentrated on this very
+location.  A strange device of some sort seems to be collecting the rays of
+sun here and using them to produce a glowing aura of energy.
+  }
+  flags { mapable }
+  exits {
+	to { d, 404 }
+  }
+}
+
+428
+{
+  name { On the Southwestern Watchtower  }
+  desc {
+"   Two massive beasts stand guard here, obviously loyal to their master,
+the Earl.  They are alerted to your presence but are not distracted from
+their work, knowing that the Earl had expected guests today.  Little do
+they know, you weren't invited to the party.
+  }
+  flags { mapable }
+  exits {
+	to { d, 401 }
+  }
+}
+
+429
+{
+  name { On the Northwestern Watchtower  }
+  desc {
+"   Two massive beasts stand guard here, obviously loyal to their master,
+the Earl.  They are alerted to your presence but are not distracted from
+their work, knowing that the Earl had expected guests today.  Little do
+they know, you weren't invited to the party.
+  }
+  flags { mapable }
+  exits {
+	to { d, 413 }
+  }
+}
+
+430
+{
+  name { Divine Light  }
+  desc {
+"   As you climb to the top of the tower and stand here, you are fascinated
+by the intense light that eminates from the sun above.  This is a strange
+place, as beams of light from the sun seem to be concentrated on this very
+location.  A strange device of some sort seems to be collecting the rays of
+sun here and using them to produce a glowing aura of energy.
+  }
+  flags { mapable }
+  exits {
+	to { d, 410 }
+  }
+}
+
+431
+{
+  name { Apartments  }
+  desc {
+"   One grand size bed, glittering with exquisite beauty sits in the center
+of the northern wall, with its headboard squared against the wall.  A large
+oaken dresser is adjacent to the bed, along the eastern wall.  There is a
+thick oak door against the western wall.  Of course, it's locked!  Who could
+have the key?
+  }
+  flags { mapable }
+  exits {
+	to { w, 453 }
+	  key { 93057 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { door }
+	to { d, 421 }
+  }
+}
+
+432
+{
+  name { Frust's Laboratory  }
+  desc {
+"   A madman by the name of Frust works here diligently.  As you observe his
+actions, he is putting together a concoction of some sort.  Although he
+doesn't seem to have any kind of magical powers, his work seems to be
+concentrated on the quirks of nature.  Steel cages line the walls to the
+north, east and west.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 456 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+	to { e, 457 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+	to { w, 455 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+	to { d, 419 }
+  }
+}
+
+433
+{
+  name { On the Outer Path  }
+  desc {
+"   This tiny trail doesn't leave much room to manuever, unfortunately.
+If you were to run into any sort of threat, it would be difficult to
+put up a good fight with all of this brush in the way.
+  }
+  flags { mapable }
+  exits {
+	to { southeast, 438 }
+	to { northwest, 423 }
+  }
+}
+
+434
+{
+  name { Main Entrance  }
+  desc {
+"   A long, wide hallway leads itself to an intersection of hallways to
+the south.  As you look to the north, you notice several gates that
+seem to exit from this magnificent castle.
+  }
+  flags { rent_room }
+  exits {
+	to { n, 499 }
+	to { s, 412 }
+  }
+}
+
+435
+{
+  name { Adorned Gallery  }
+  desc {
+"   Several abstract paintings line the walls here, filling your mind
+with both intrigue and confusion.  As you look a little closer, there
+is one painting that stands out among the rest.  It contains the face
+of a man who is suppressed by the anguishes of life.
+  }
+  flags { mapable }
+  exits {
+	to { e, 436 }
+	to { w, 412 }
+  }
+}
+
+436
+{
+  name { Formal Dining Hall  }
+  desc {
+"   A long, slender and wooden dining table extends across the room
+with an east-west angle.  At each end of the table, a golden chair with
+red velvet cushions sits humbly, waiting for their royalty to enlighten
+their day with their presence.
+  }
+  flags { mapable }
+  exits {
+	to { n, 437 }
+	to { w, 435 }
+  }
+}
+
+437
+{
+  name { The Royal Kitchen  }
+  desc {
+"   There is a small sign on the wall verifying the fact that this is
+indeed the royal kitchen.  Although the name designates it as a royal
+kitchen, you would not have thought of this scene as a setting of
+royalty.  There are over ten men and women who slave to complete their
+meal and present it to the Earl.
+  }
+  flags { mapable }
+  exits {
+	to { s, 436 }
+  }
+}
+
+438
+{
+  name { On the Outer Path  }
+  desc {
+"   The puddles of water along the path seem to have accumulated here the
+most.  Your feet stick in the mud and you are forced to use all of your
+might to break them free of the mud's grasp.
+  }
+  flags { mapable }
+  exits {
+	to { s, 439 }
+	to { northwest, 433 }
+  }
+}
+
+439
+{
+  name { On the Outer Path  }
+  desc {
+"   The tall grass and weeds that form the outline of the path seem to
+be growing in density as you travel further to the north.  The dirt path
+below is littered with small puddles of water that are turning it into
+a sloppy mess.
+  }
+  flags { mapable }
+  exits {
+	to { n, 438 }
+	to { southeast, 534 }
+  }
+}
+
+449
+{
+  name { 93450  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+450
+{
+  name { Through the Building  }
+  desc {
+"   Assessing the situtation, the only way out is back through the window.  It
+is obvious that these people have been living here for a while.  There are 
+broken tables and chairs, which must have been the reminence of the previous 
+store's owners.  The cash register has been thrown off the counter and lays on 
+floor in pieces.  The only light is coming in from the window you were just
+drug through.
+  }
+  flags { mapable }
+  exits {
+	to { 10, 130 }
+	  keywords { window }
+  }
+}
+
+451
+{
+  name { Through the Building  }
+  desc {
+"   Assessing the situtation, the only way out is back through the window.  It
+is obvious that these people have been living here for a while.  There are 
+broken tables and chairs, which must have been the reminence of the previous 
+store's owners.  The cash register has been thrown off the counter and lays on 
+floor in pieces.  The only light is coming in from the window you were just
+drug through.
+  }
+  flags { mapable }
+  exits {
+	to { 10, 119 }
+	  keywords { window }
+  }
+}
+
+452
+{
+  name { Through the Building  }
+  desc {
+"   Assessing the situtation, the only way out is back through the window.  It
+is obvious that these people have been living here for a while.  There are 
+broken tables and chairs, which must have been the reminence of the previous 
+store's owners.  The cash register has been thrown off the counter and lays on 
+floor in pieces.  The only light is coming in from the window you were just
+drug through.
+  }
+  flags { mapable }
+  exits {
+	to { 10, 115 }
+	  keywords { window }
+  }
+}
+
+453
+{
+  name { A Long and Dusty Hallway  }
+  desc {
+"   The long hallway extends to the west and east.  A small amount of light can
+be seen flickering from a barred window in the door to the far west of the
+dusty hallway.  A gust of wind passes through the hallway from the west, along
+with the moan of someone in pain.  This door is locked too.  Who in OldPort is
+in there?!
+  }
+  flags { mapable }
+  exits {
+	to { e, 431 }
+	  key { 93057 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { door }
+	to { w, 454 }
+	  key { 93058 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { door }
+  }
+}
+
+454
+{
+  name { Earl Trakad's Playroom  }
+  desc {
+"   This room has not been taken care of at all.  The bookcases covering the
+south and west walls are laced with cobwebs.  Oddly, a chair, with its back
+facing the northeast corner of the room, appears plush and comfortable.  It
+almost as though someone has recently sat here.  Another moan lets out from
+the south of the room.  There is a woman lying on the floor of the eastern
+wall, with her wrists cuffed and chained to the wall.  A cool breeze blows in
+from the half opened window through the northern wall, brushing her dirty 
+hair from her cheek and revealing a dark and recent bruise.  "Help..... 
+me.......", she whispers quietly.  "Have you seen my children", she says to
+you, suddenly manic, "Please!  He told me he would save them!".  Quietly, she 
+sits down and continues sobbing to herself.
+  }
+  flags { mapable }
+  exits {
+	to { e, 453 }
+	  key { 93058 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { door }
+  }
+}
+
+455
+{
+  name { Inside a Cage  }
+  desc {
+"   The cage is not very big and can barely be fit into with its inhabitant. 
+There are feeding dishes overturned against the cage walls and animal feces 
+on the floor.  Someone needs to clean this poor creatures cage! A dark fabric 
+covers the cage, preventing light from the outside getting through.
+  }
+  flags { dark }
+  exits {
+	to { e, 432 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+  }
+}
+
+456
+{
+  name { Inside a Cage  }
+  desc {
+"   The cage is not very big and can barely be fit into with its inhabitant. 
+There are feeding dishes overturned against the cage walls and animal feces 
+on the floor.  Someone needs to clean this poor creatures cage! A dark fabric 
+covers the cage, preventing light from the outside getting through.
+  }
+  flags { dark }
+  exits {
+	to { s, 432 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+  }
+}
+
+457
+{
+  name { Inside a Cage  }
+  desc {
+"   The cage is not very big and can barely be fit into with its inhabitant. 
+There are feeding dishes overturned against the cage walls and animal feces 
+on the floor.  Someone needs to clean this poor creatures cage! A dark fabric 
+covers the cage, preventing light from the outside getting through.
+  }
+  flags { dark }
+  exits {
+	to { w, 432 }
+	  info { door, closed, autoclose }
+	  keywords { cage }
+  }
+}
+
+499
+{
+  name { Palace Gates  }
+  desc {
+"   A wide, stone path makes its way from an iron gate, to the north, to
+a large, cement castle.  Healthy, green shrubery and red rose bushes,
+which are obviously well cared for, are planted in flower beds that
+encompass the path.  In the distance, marble statues are scattered
+throughout the vast and open lawn before the castle.
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 500 }
+	to { s, 434 }
+  }
+}
+
+500
+{
+  name { Before the Gates  }
+  desc {
+"   A formidable iron gate bars any southern movement.  The entrance
+to an immense building stands before you.  Several massive guards
+carefully eye your movement with their weapons drawn.  That building
+must be something of importance to this city and its people.
+  }
+  flags { mapable }
+  exits {
+	to { n, 501 }
+	to { s, 499 }
+  }
+}
+
+501
+{
+  name { Southward Bend - Stray Path  }
+  desc {
+"   A narrow path splits off in three directions here.  To the west, a
+large white gazebo houses the guests of a small party.  As you look
+east, a tiny trail makes its way through the increasingly dense shrubbery.
+A wider, more defined stone path leads to a large building of some sort.
+  }
+  flags { mapable }
+  exits {
+	to { e, 506 }
+	to { s, 500 }
+	to { w, 502 }
+  }
+}
+
+502
+{
+  name { Palace Prominade  }
+  desc {
+"   As you make your way through the noisy and crowded party, you notice
+the generous hospitality of the servants among the crowd.  Although,
+you do feel uncomfortable here.  Scanning the crowd, you observe that
+everyone is dressed in their formals.  Luckily, nobody has been paying
+any attention to what you are wearing.
+  }
+  flags { mapable }
+  exits {
+	to { e, 501 }
+	to { w, 503 }
+  }
+}
+
+503
+{
+  name { Palace Prominade  }
+  desc {
+"   An immense white gazebo restricts the path from continuing to the
+east.  Although, an arching white doorway allows you climb its several
+stairs and frolic with people who are socializing under its shelter.
+  }
+  flags { mapable }
+  exits {
+	to { e, 502 }
+	to { w, 504 }
+  }
+}
+
+504
+{
+  name { Palace Prominade  }
+  desc {
+"   Several hummingbirds hover over the small shrubery and brilliant
+flowers along the path.  They seem to be feeding on the rich nectar
+of these flawless plants.
+  }
+  flags { mapable }
+  exits {
+	to { e, 503 }
+	to { w, 505 }
+  }
+}
+
+505
+{
+  name { Palace Prominade  }
+  desc {
+"   Rows of assorted bright, red and yellow tulips line the path that forms
+between them.  To the east, a white arch bows over the narrow stretch.
+This path seems rarely traveled as there is not an ounce of litter to be
+found.  Although, a great deal of commotion can be heard to the west.
+  }
+  flags { mapable }
+  exits {
+	to { e, 504 }
+	to { w, 32 }
+  }
+}
+
+506
+{
+  name { Stray Trail  }
+  desc {
+"   This stray trail breaks off from the road and quickly carries you deep
+into the Earl's Forest.  Although you originally took this path to be a
+trail worn by the passage of hunters, you begin to wonder now.  Why would
+even the bravest hunter come into this dark and spooky forest.  Wait.  No-
+body but the Earl can hunt these lands, and everyone knows that Trakad
+hasn't had a hunting expedition in years.  What the?...
+  }
+  flags { mapable, no_mob, mapable }
+  exits {
+	to { n, 507 }
+	to { w, 501 }
+  }
+}
+
+507
+{
+  name { Overgrown Road  }
+  desc {
+"   As you carefully look over the forest floor here, your eyes pick out
+what might be some sort of path leading away to the west.  Although weeds
+heavily choke the way, there is a fairly wide run of ground that is clear
+of old-growth trees.
+  }
+  flags { mapable }
+  exits {
+	to { s, 506 }
+	to { w, 508 }
+  }
+}
+
+508
+{
+  name { Weed-Choked Road  }
+  desc {
+"   A rutted dirt lane begins to emerge from the weeds, becoming more 
+substantial to the west.  Its hard to believe that someone would have
+made a road this deep into the Earl's Forest anytime recently.
+  }
+  flags { mapable }
+  exits {
+	to { e, 507 }
+	to { w, 509 }
+  }
+}
+
+509
+{
+  name { Whoa!  Deja-vu!  }
+  desc {
+"   A quaint little path through a beautiful forest of light green.  You
+can hear the birds singing in the breeze, and somewhere in the distance
+you can hear the plucking melody of someone playing a koto.  There is a
+small wooden sign along the side of the road, hand carved.  The path
+continues west.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+If you don't understand why it is Deja-vu, don't bother asking :)
+
+The above looks as if it was scrawled by a divine hand, the original
+contents of the small wooden sign have long ago faded from common
+memory.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 508 }
+	to { w, 510 }
+  }
+}
+
+510
+{
+  name { T in Dirt Road  }
+  desc {
+"   The road forms a 'T' here, continuing its way west to the Lotus
+Blossom and branching off north towards the other side of town.  There
+is a certain feeling of tranquility in the air, heightened by the soft
+music of a flute somewhere nearby, floating along the breeze...
+  }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 513 }
+	to { e, 509 }
+	to { w, 511 }
+  }
+}
+
+511
+{
+  name { Outside the Lotus Blossom  }
+  desc {
+"   The second favorite hangout of the Shogun's men.  The Lotus Blossom
+sits peacefully to the south here, where the road ends.  The building
+is small and unobtrusive; not much sound emanates from within, and a
+small curl of black smoke rises from the chimney.  The dirt road goes
+back east.
+  }
+  flags { mapable }
+  exits {
+	to { e, 510 }
+	to { s, 512 }
+  }
+}
+
+512
+{
+  name { The Lotus Blossom  }
+  desc {
+"   The most popular bar (and the only bar) in town.  The only place
+where samurai and yakuza can sit in the same room and drink a hot
+cup of sake.  Many a farmer with marital problems can be found here,
+although most respectable people stay away.  Strange...not as many
+people are here as you expected from the numbers going in...
+   There is an ornate teakwood door inconspicuously beckoning at the
+back of the room on the west wall, and you can leave north.
+  }
+  flags { mapable }
+  exits {
+	to { n, 511 }
+	to { w, 526 }
+	  info { door, closed }
+	  keywords { teak door secret }
+  }
+}
+
+513
+{
+  name { Outside Brothel  }
+  desc {
+"   You stand outside the Happy Samurai, a favorite hangout of the Shogun's
+men.  The low roof droops down invitingly over the entrance to the east.
+Hmm..wonder if anyone's around...
+  }
+  flags { mapable }
+  exits {
+	to { n, 522 }
+	to { e, 514 }
+	to { s, 510 }
+  }
+}
+
+514
+{
+  name { Foyer  }
+  desc {
+"   The foyer of the Happy Samurai, the local whorehouse.  Very tastefully
+decorated, considering the business that is done here.  Paintings of cranes
+and peacocks line the walls, adding to the warm, friendly atmosphere.  You
+can take the stairway up to go deeper (?) into the building, or you can exit
+to the west.  (There is a certain part of you screaming "GO UP! GO UP!!")
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 513 }
+	to { u, 515 }
+  }
+}
+
+515
+{
+  name { Hallway  }
+  desc {
+"   This is a quaint, well-kept hallway.  Not elegant, but...servicable.
+There are two sliding paper screens here, to the north and south.  The
+hall continues east, and you can go down the stairs to the foyer.  Was
+that a giggle you just heard?...
+  }
+  flags { mapable }
+  exits {
+	to { n, 520 }
+	  info { door, closed, autoclose }
+	  keywords { screen }
+	to { e, 516 }
+	to { s, 521 }
+	  info { door, autoclose }
+	  keywords { screen }
+	to { d, 514 }
+  }
+}
+
+516
+{
+  name { Hallway  }
+  desc {
+"   The hallway ends here at another paper screen to the east, with two others
+to your north and south.  You can travel west back down the hall, or maybe do
+a little "exploring."
+   Did you just hear a moan?  Nah...
+  }
+  flags { mapable }
+  exits {
+	to { n, 518 }
+	  info { door, autoclose }
+	  keywords { screen }
+	to { e, 517 }
+	  info { door, autoclose }
+	  keywords { screen }
+	to { s, 519 }
+	  info { door, autoclose }
+	  keywords { screen }
+	to { w, 515 }
+  }
+}
+
+517
+{
+  name { Matron Mistress' bedroom  }
+  desc {
+"   This room is different from the others, there is only one mat and one
+pillow, and the light is dimmer.  Hope you didn't interrupt anything...
+  }
+  flags { mapable }
+  exits {
+	to { w, 516 }
+	  info { door, autoclose }
+	  keywords { screen }
+  }
+}
+
+518
+{
+  name { A Bedroom  }
+  desc {
+"   There is a small bed that sits in the middle of the room, with its
+covers completely messed up.  There is not much else in the way of decoration
+in here other than the closed blinds that cover the window to the outside.
+  }
+  flags { mapable }
+  exits {
+	to { s, 516 }
+	  info { door, autoclose }
+	  keywords { screen }
+  }
+}
+
+519
+{
+  name { A Bedroom  }
+  desc {
+"   There is a small bed that sits in the middle of the room, with its
+covers completely messed up.  There is not much else in the way of decoration
+in here other than the closed blinds that cover the window to the outside.
+  }
+  flags { mapable }
+  exits {
+	to { n, 516 }
+	  info { door, autoclose }
+	  keywords { screen }
+  }
+}
+
+520
+{
+  name { A Bedroom  }
+  desc {
+"   There is a small bed that sits in the middle of the room, with its
+covers completely messed up.  There is not much else in the way of decoration
+in here other than the closed blinds that cover the window to the outside.
+  }
+  flags { mapable }
+  exits {
+	to { s, 515 }
+	  info { door, closed, autoclose }
+	  keywords { screen }
+  }
+}
+
+521
+{
+  name { A Bedroom  }
+  desc {
+"   There is a small bed that sits in the middle of the room, with its
+covers completely messed up.  There is not much else in the way of decoration
+in here other than the closed blinds that cover the window to the outside.
+  }
+  flags { mapable }
+  exits {
+	to { n, 515 }
+	  info { door, autoclose }
+	  keywords { screen }
+  }
+}
+
+522
+{
+  name { Tangled Ruins  }
+  desc {
+"   Beyond this point the forest has reclaimed the rest of this abandoned
+town totally.  To the northwest, ruins of what once must have been an 
+impressive palace lie half burried in the dense vegetation, and some sort
+of blunt-walled compound once stood to the west of this spot.
+   To the east the remains of several huts huddle around a weed choked
+common.  A few appear to be intact.
+  }
+  flags { no_mob, mapable }
+  exits {
+	to { e, 523 }
+	to { s, 513 }
+  }
+}
+
+523
+{
+  name { Village  }
+  desc {
+"   You have stumbled upon a small village outside of the city of Oldport.
+It seems to house the several farmers and helping hands who plant and harvest
+the city's cash crop, rice.  These poor farmers are unable to profit from
+their labor, since all of the money made goes to Earl Trakad.  Although, they
+do not seem upset by that.  In fact, the Earl seems to reward them well.
+  }
+  flags { mapable }
+  exits {
+	to { n, 524 }
+	to { e, 525 }
+	to { w, 522 }
+  }
+}
+
+524
+{
+  name { Farmer's Hut  }
+  desc {
+"   You have entered the home of a humble farmer.  Little does he need to
+enlighten his day after his work is done, other than a few drinks and the
+company of woman.  Unfortunately, it doesn't look like he is home right now.
+  }
+  flags { mapable }
+  exits {
+	to { s, 523 }
+  }
+}
+
+525
+{
+  name { Rice Mill  }
+  desc {
+"   There is a large mill of workers here, who diligently work on packaging
+the harvested rice.  There are several mounds of rice that have piled up
+for one reason or another.  It seems that one contains the sorted product
+that has been selected to be packaged.  The others have yet to be sifted
+through, except for one that contains the spoiled and decaying rice.
+  }
+  flags { mapable }
+  exits {
+	to { w, 523 }
+  }
+}
+
+526
+{
+  name { Opium Room  }
+  desc {
+"   A small building sits here and inside lies many rows of plants and
+seedlings.  As you take a closer look at the vegetation, it seems to be
+a plant that you remember.  Although, you cannot put your finger on where
+you have seen it before.
+  }
+  flags { mapable }
+  exits {
+	to { e, 512 }
+	  info { door, closed }
+	  keywords { teak door secret }
+	to { d, 527 }
+	  info { door, closed, secret, autoclose }
+	  keywords { mat }
+  }
+}
+
+527
+{
+  name { Yakuza Den  }
+  desc {
+"   A long, wooden bar extends across the room, along the northern wall.
+There are several mirrors behind that bar that display the excitement that
+fills this room.  Several men sit in the back, enthralled in an arm
+wrestling competition.  While others, relax and sit back to drink their
+alcohol with the many beautiful ladies that grace this place with their
+presence.
+  }
+  flags { mapable }
+  exits {
+	to { e, 529 }
+	  info { door, closed, secret, autoclose }
+	  keywords { secret }
+	to { w, 528 }
+	to { u, 526 }
+	  info { door, closed, secret, autoclose }
+	  keywords { mat }
+  }
+}
+
+528
+{
+  name { The Cellar  }
+  desc {
+"   This room is the cellar for all of the beer and wine that is consumed in
+the Yakuza Den.  Since the Yakuza Den is such a popular place in Oldport,
+they go through a vast amount of alcohol here.  The cellar is filled with
+barrels of beer and shelves of hard liquor and champagne, kept cold in order
+to satisfy the Yakuza Den's many customers.
+  }
+  flags { mapable }
+  exits {
+	to { e, 527 }
+  }
+}
+
+529
+{
+  name { The Backroom  }
+  desc {
+"   There are several tables scattered about the room here.  Many of the
+townspeople sit along the edges of the tables and focus on several
+playing cards that are in their hand.  A few of the men are ecstatic over
+something, as others are angered by the situation.  As you look around,
+the entire room is filled with a hazy fog from the cigars that these
+gentleman have smoked.  There seems to be only one thing happening in
+this room, gambling.
+  }
+  flags { mapable }
+  exits {
+	to { w, 527 }
+	  info { door, closed, secret, autoclose }
+	  keywords { secret }
+  }
+}
+
+530
+{
+  name { The gate to Oldport slowly begins to open before you.  }
+  desc {""  }
+  flags { mapable, noshowexit }
+  tele { 1, 0, 531 }
+}
+
+531
+{
+  name { Before the Closed Gates  }
+  desc {
+"   The gates of Oldport stand before you, securely closed.  You wonder why
+an active trade city such as Oldport would keep their gates closed during
+the day, but before you can give it too much thought a voice shouts out,
+'Hail! Who comes to Oldport?'
+   Thinking quickly, you give the response 'Weary travelers seeking the
+comfort of this fine city!' and as you expected, the gates creep open and
+you are ushered through by the City Watch.  Grinning to yourself, you think
+'Works every time.'
+  }
+  flags { mapable }
+  exits {
+	to { e, 1 }
+	to { w, 0 }
+  }
+}
+
+532
+{
+  name { The gate of Oldport slowly begins to open before you.  }
+  desc {""  }
+  flags { mapable, noshowexit }
+  tele { 1, 0, 533 }
+}
+
+533
+{
+  name { Before the Closed Gate  }
+  desc {
+"   These guards are going to think you have nothing better to do than make
+them crank the massive gates open and shut all day.  Maybe you don't.
+Whatever the case may be, they obediantly crank them open, again, and usher
+you through.
+  }
+  flags { mapable }
+  exits {
+	to { e, 1 }
+	to { w, 132 }
+  }
+}
+
+534
+{
+  name { On the Outer Path  }
+  desc {
+"   As you look to the east, you notice a larger path that connects to
+this one.  As you try to fight your way through the brush that lines the
+path, you think it might be easier to find another path.
+  }
+  flags { mapable }
+  exits {
+	to { e, 150 }
+	to { northwest, 439 }
+  }
+}
+
+599
+{
+  name { 93600  }
+  desc { Empty
+  }
+  exits {
+	to { n, 600 }
+	to { e, 624 }
+	to { s, 626 }
+	to { w, 625 }
+  }
+}
+
+600
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 623 }
+	to { e, 604 }
+	to { s, 599 }
+	to { w, 605 }
+  }
+}
+
+601
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 623 }
+	to { s, 605 }
+	to { w, 602 }
+  }
+}
+
+602
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 606 }
+	to { e, 601 }
+	to { southeast, 605 }
+  }
+}
+
+603
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 609 }
+	to { w, 621 }
+	to { southwest, 604 }
+  }
+}
+
+604
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 621 }
+	to { w, 600 }
+	to { northeast, 603 }
+	to { southwest, 624 }
+  }
+}
+
+605
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 601 }
+	to { e, 600 }
+	to { southeast, 625 }
+	to { northwest, 602 }
+  }
+}
+
+606
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 607 }
+	to { s, 602 }
+  }
+}
+
+607
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 620 }
+	to { s, 606 }
+  }
+}
+
+608
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   There is a rather large window on the wall of the boat's cabin here,
+approximately three feet in length and two feet high.  Allowing the ship's
+crew to stare out into the swirling sea and navigate the vessel, the window
+is reflecting the bright sun's glare back into your eyes, preventing you from
+taking a look into the cabin of the boat.
+  }
+  exits {
+	to { n, 615 }
+	to { e, 612 }
+	to { w, 620 }
+  }
+}
+
+609
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   There is a break in the railing along the side of the ship here.
+Between the rails, rests a large wooden plank, protruding from the
+deck of the ship and fastened tightly by large, flathead nails.
+  }
+  exits {
+	to { n, 610 }
+	to { s, 603 }
+	to { 10, 627 }
+	  keywords { gangplank }
+  }
+}
+
+610
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   You stand on the starbord side of a large pinnace.  From the looks
+of this vessel, you tend to believe that it is not used as an ordinary
+fishing boat.  Rather, it seems to be used for the explicit purpose of
+warcraft.
+  }
+  exits {
+	to { n, 622 }
+	to { s, 609 }
+  }
+}
+
+611
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   There are several barrels here, lined along the wall of the ship.
+As you examine the contents of the barrels, it seems that they contain
+water to quench the thirst of the sailors aboard the pinnace.
+  }
+  exits {
+	to { n, 614 }
+	to { e, 622 }
+	to { w, 612 }
+  }
+}
+
+612
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   As you look to the south, notice a large oaken door with a deep brown
+wood grain running the entire length of it.  There are three black hinges
+that fasten the door to the wall of the boat's cabin.  A small, brass
+doorknob, corroded by the weathering sea, prevents the door from flying open.
+Trying to open it, you find that you are locked out of the contents inside.
+  }
+  exits {
+	to { n, 613 }
+	to { e, 611 }
+	to { s, 612 }
+	  info { door, closed, locked }
+	  keywords { door }
+	to { w, 608 }
+  }
+}
+
+613
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 616 }
+	to { e, 614 }
+	to { s, 612 }
+	to { w, 615 }
+  }
+}
+
+614
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { s, 611 }
+	to { w, 613 }
+	to { southeast, 622 }
+	to { northwest, 618 }
+  }
+}
+
+615
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 613 }
+	to { s, 608 }
+	to { northeast, 617 }
+	to { southwest, 620 }
+  }
+}
+
+616
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 619 }
+	to { e, 618 }
+	to { s, 613 }
+	to { w, 617 }
+  }
+}
+
+617
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 616 }
+	to { northeast, 619 }
+	to { southwest, 615 }
+  }
+}
+
+618
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { w, 616 }
+	to { southeast, 614 }
+	to { northwest, 619 }
+  }
+}
+
+619
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { s, 616 }
+	to { southeast, 618 }
+	to { southwest, 617 }
+  }
+}
+
+620
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 608 }
+	to { s, 607 }
+	to { northeast, 615 }
+  }
+}
+
+621
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 603 }
+	to { s, 604 }
+	to { w, 623 }
+  }
+}
+
+622
+{
+  name { Aboard a Pinnace  }
+  desc {
+"   You stand along the starbord edge of the boat, overlooking the vast
+wreckless sea.  Along the western side of you, stands a small building
+with an overlook at the top of one the ship's sails.  There doesn't seem
+to be anyone up there at the moment.  Although, you can't quite be
+certain.
+  }
+  exits {
+	to { s, 610 }
+	to { w, 611 }
+	to { northwest, 614 }
+  }
+}
+
+623
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 621 }
+	to { s, 600 }
+	to { w, 601 }
+  }
+}
+
+624
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { w, 599 }
+	to { northeast, 604 }
+	to { southwest, 626 }
+	to { 10, 633 }
+	  keywords { ladder }
+  }
+}
+
+625
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 599 }
+	to { southeast, 626 }
+	to { northwest, 605 }
+  }
+}
+
+626
+{
+  name { Aboard a Pinnace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 599 }
+	to { northeast, 624 }
+	to { northwest, 625 }
+  }
+}
+
+627
+{
+  name { On a Wooden Gangplank  }
+  desc {
+"   You stand on a two foot wide wooden plank that extends from the
+side of the ship.  As you look below, you stand above a strong swirling
+sea current.  Held up by this tiny wooden board, any sudden movement
+could throw you into the deadly waters below.
+  }
+  extra {
+	keywords { _teleport }
+	desc { ""	}
+  }
+  tele { 60, 1, 628 }
+  exits {
+	to { 10, 630 }
+	  info { hidden }
+	  keywords { water }
+	to { 11, 609 }
+	  keywords { ship }
+  }
+}
+
+628
+{
+  name { You feel someone forcefully shove you in the back!  }
+  desc {""  }
+  flags { noshowexit }
+  tele { 10, 1, 629 }
+}
+
+629
+{
+  name { You lose your balance and fall into the stirring sea.  }
+  desc {""  }
+  flags { noshowexit }
+  tele { 1, 0, 630 }
+}
+
+630
+{
+  name {""  }
+  desc {""  }
+  sector { Underwater }
+  flags { noshowexit }
+  tele { 25, 1, 631 }
+}
+
+631
+{
+  name { You lose consiousness and fall prey to the sea's wrath.  }
+  desc {""  }
+  sector { Underwater }
+  flags { noshowexit }
+  tele { 30, 1, 632 }
+}
+
+632
+{
+  name { You find yourself washed up along an unfamiliar shore.  }
+  desc {""  }
+  flags { noshowexit }
+  tele { 10, 1, 225 }
+}
+
+633
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 645 }
+	to { e, 637 }
+	to { s, 637 }
+	to { 10, 624 }
+	  keywords { ladder }
+  }
+}
+
+634
+{
+  name { On the Swirling Sea  }
+  desc {
+"   You continue to battle the overpowering current of the sea.  As you
+try to gather your bearings and maintain direction, you notice a small ship
+on the northern horizon.  Hopefully, they will be able to provide some help
+in your journey across the sea.  Although, these are rough waters and you
+may want to be cautious.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 633 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+635
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging currenct of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 634 }
+  }
+}
+
+636
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 635 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+637
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 636 }
+	to { e, 638 }
+	to { w, 637 }
+  }
+}
+
+638
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 639 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+639
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 640 }
+	to { e, 647 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+640
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 641 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+641
+{
+  name { On the Swirling Sea  }
+  desc {
+"   You continue to battle the overpowering current of the sea.  As you
+try to gather your bearings and maintain direction, you notice a small ship
+on the eastern horizon.  Hopefully, they will be able to provide some help
+in your journey across the sea.  Although, these are rough waters and you
+may want to be cautious.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 642 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+642
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { e, 644 }
+	to { s, 637 }
+	to { w, 637 }
+	to { 10, 643 }
+	  keywords { ladder }
+  }
+}
+
+643
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { 10, 642 }
+	  keywords { ladder }
+  }
+}
+
+644
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 642 }
+  }
+}
+
+645
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 646 }
+	to { e, 637 }
+	to { s, 633 }
+  }
+}
+
+646
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 637 }
+	to { s, 645 }
+  }
+}
+
+647
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 648 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+648
+{
+  name { On the Swirling Sea  }
+  desc {
+"   The raging current of the powerful sea pushes you in every direction
+possible.  Navigation under the crashing waves is near impossible but you
+believe that you are making progress.  The water makes a loud smacking noise
+as it collides with you and your boat, drenching you as you try to steer clear
+of its treachery.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 649 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+649
+{
+  name { On the Swirling Sea  }
+  desc {
+"   You continue to battle the overpowering current of the sea.  As you
+try to gather your bearings and maintain direction, you notice a small ship
+on the eastern horizon.  Hopefully, they will be able to provide some help
+in your journey across the sea.  Although, these are rough waters and you
+may want to be cautious.
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 650 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}
+
+650
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { s, 651 }
+	to { w, 637 }
+  }
+}
+
+651
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { n, 650 }
+	to { s, 637 }
+	to { w, 637 }
+	to { 10, 652 }
+	  keywords { ladder }
+  }
+}
+
+652
+{
+  name { On the Swirling Sea  }
+  desc { Empty
+  }
+  tele { 70, 1, 637 }
+  exits {
+	to { 10, 651 }
+	  keywords { ladder }
+  }
+}
+
+653
+{
+  name { The stalwart waves of the sea push you away from your destination.  }
+  desc {""  }
+  flags { noshowexit }
+  tele { 5, 1, 637 }
+  exits {
+	to { n, 637 }
+	to { e, 637 }
+	to { s, 637 }
+	to { w, 637 }
+  }
+}

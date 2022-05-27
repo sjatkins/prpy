@@ -1,0 +1,1120 @@
+#offset CarriageService
+
+0
+{
+  name { Travelling to Midgard  }
+  desc {
+"   The carriage is beginning to slow down.  
+Looking out through the window, pushing the curtains
+aside you can see the outskirts of the city, the great
+walls towering over the carriage.  The carriage is
+bumping around a bit more as it slows down and dodges
+other traffic.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 1, Midgard:661 }
+}
+
+1
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 0 }
+}
+
+2
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 1 }
+}
+
+3
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 2 }
+}
+
+4
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 3 }
+}
+
+5
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 4 }
+}
+
+6
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 5 }
+}
+
+7
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 6 }
+}
+
+8
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 7 }
+}
+
+9
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 8 }
+}
+
+10
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 9 }
+}
+
+11
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 10 }
+}
+
+12
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 11 }
+}
+
+13
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 12 }
+}
+
+14
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 13 }
+}
+
+15
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 14 }
+}
+
+16
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 15 }
+}
+
+17
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 16 }
+}
+
+18
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 17 }
+}
+
+19
+{
+  name { Leaving NewHaven  }
+  desc {
+"   You are in a stationary carriage.  The carriage
+is quite sizable and the seats appear comfortable.
+The luggage has been stored under the seats and the
+doors shut.  The windows are covered by heavy blue
+felt cloth but they seem old and dust stained.
+Your other passengers are all settled for the
+long journey.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"   You are shaken from your feet as the driver
+cracks the whip and the horses begin to the
+pull the carriage.
+	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 18 }
+}
+
+20
+{
+  name { Leaving Midgard  }
+  desc {
+"   You are in a stationary carriage.  The carriage
+is quite sizable and the seats appear comfortable.
+The luggage has been stored under the seats and the
+doors shut.  The windows are covered by heavy blue
+felt cloth but they seem old and dust stained.
+Your other passengers are all settled for the
+long journey.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"   You are shaken from your feet as the driver
+cracks the whip and the horses begin to the
+pull the carriage.
+	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 21 }
+  exits {
+	to { 10, Midgard:661 }
+	  keywords { door }
+  }
+}
+
+21
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 22 }
+}
+
+22
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 23 }
+}
+
+23
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 24 }
+}
+
+24
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 25 }
+}
+
+25
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 26 }
+}
+
+26
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 27 }
+}
+
+27
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 28 }
+}
+
+28
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 29 }
+}
+
+29
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 30 }
+}
+
+30
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 31 }
+}
+
+31
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 32 }
+}
+
+32
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 33 }
+}
+
+33
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 34 }
+}
+
+34
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 35 }
+}
+
+35
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 36 }
+}
+
+36
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 37 }
+}
+
+37
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 38 }
+}
+
+38
+{
+  name { Travelling to Midgard  }
+  desc {
+"   You are in a travelling carriage.  The horses
+gallop along, travelling at some speed.  There are
+two windows through which you can look.  The seats
+are reasonably comfortable but look well worn and
+in need of replacement.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The carriage shudders as it bounces over a hole in
+the road.
+
+"	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 50, 0, 39 }
+}
+
+39
+{
+  name { Arriving at NewHaven  }
+  desc {
+"   The carriage is beginning to slow down.  
+Looking out through the window, pushing the curtains
+aside you can see the outskirts of the city, the great
+walls towering over the carriage.  The carriage is
+bumping around a bit more as it slows down and dodges
+other traffic.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The carraige shudders to a halt and you are escorted
+down to more solid land.
+	}
+	keywords { window outside }
+	desc { 
+"   You pull aside the heavy curtains but the
+view outside is obscured by the clouds of dust
+kicked up by the horses.
+	}
+  }
+  tele { 40, 1, 40 }
+}
+
+40
+{
+  name { Tiernan's Carriage Service - NewHaven Depot  }
+  desc {
+"   You are in a carriage station.  There is no ticket master but you can
+see some fine carriages and their teams of horses.  Several are prepared
+and waiting for departure.  While you wait you see the occassional
+passenger purchase a ticket and mount a carriage.  Looking around you can
+only see one exit, that to the stables.  By the looks of the tracks, all
+the carriages enter and leave via the stables.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"   You jump aside as a carriage recklessly rushes through
+the stables and screeches to a halt at the back of the
+barn.
+	}
+  }
+  tele { 66, 0, 40 }
+  exits {
+	to { 10, ClanHousesTowns:156 }
+	  keywords { door }
+	to { 11, 19 }
+	  key { 10021 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { midgard }
+  }
+}

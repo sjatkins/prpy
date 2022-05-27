@@ -1,0 +1,72 @@
+#offset TwistedPath
+
+0
+{
+  name { A Twisted Path  }
+  desc {
+The vegetation here is severly disfigured.  You have no idea as to what
+caused this horrible mutation.  The trail continues southward and to the
+north is a small plateau.  The wind is beginning to howl as blows into
+your face.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, Tagol:3 }
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { A Twisted Path  }
+  desc {
+You walk along a twisting path which is made up of mostly dirt.  The
+vegetation around seems to be dying as if by some slow festering
+disease. The horizon to the south looks quite gloomy as you can
+barely make out some shadows of mountains.  The path also continues
+to the north.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { A Twisted Path  }
+  desc {
+You are standing on unused path.  The path has deformed vegetation around
+it. The trees look hideous and almost alive.  The formation of mountains
+looms in the south.  The howling wind is quite frightening maybe you
+should head back to the safe city of Tagol.  The path leads the north
+as well.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Entryway to the Mountains  }
+  desc {
+You stand before some majestic mountains which lie to the south.
+They tower above you and this path seems to be there only entrance.
+There is no sign of animal or plant life here and that scares you.
+The wind howls from the south.  You can turn back to the north and
+evade these mountains altogether.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	to { s, Abyss:1 }
+  }
+}

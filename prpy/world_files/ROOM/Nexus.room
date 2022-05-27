@@ -1,0 +1,650 @@
+#offset Nexus
+
+0
+{
+  name { Welcome to The Perilous Realms  }
+  desc {
+"
+                       WELCOME!
+
+Now that you have arrived you will need to make a choice.
+You will need to decide to go into the Tower of learning area 
+or jump right into the real world.  All players are encouraged 
+to use our Tower of learning area, and we will teach you the 
+best ways to get to know The Perilous Realms. 
+
+At this time - please decide to...
+
+Enter the Tower of learning: 
+do this by typing -> go tower
+
+ - or - 
+
+Enter the Perilous Realms:
+do this by typing -> go world
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, 10 }
+	  keywords { tower }
+	to { 11, Midgard:0 }
+	  keywords { world }
+  }
+}
+
+1
+{
+  name { The Nexus: The Resting Place  }
+  desc {
+"   You are in a large room, surrounding by glowing
+crystal walls.  The room stretches away in the distance
+as a series of spheres, each with strange coffin-like
+structures attached to their walls.  These famed 
+regeneration units are available freely to all visitors
+to the nexus.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic, rent_room }
+}
+
+2
+{
+  name { The Nexus: Resurrection  }
+  desc {
+"   The strange forces at play in the strange space
+within which the Nexus lies retain a hold on the souls
+and spirits of those who have frequented the Nexus,
+in this life, a past life or a future life.  For time
+has no meaning.  The process of being extracted from
+the halls of death to the Nexus is a painful and
+all too frequent process for some visitors.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+}
+
+3
+{
+  name { The Nexus: The Ascendent's Rules  }
+  desc {
+"   The ascendent beings' rules are all that keep order
+in the Nexus, there is no compassion for those who breach
+them, from either ignorance or wilfulness.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+}
+
+4
+{
+  name { Welcome to The Perilous Realms   }
+  desc {
+"   You have arrived!  Now what you need to do is make a choice to
+either go to the learning area or jump right into the real game.  All players
+are encouraged to visit our tutorial area, and as a reward - we will 
+help you along with some great experience, equipment, and some situations
+that provide the best ways to get to know The Perilous Realms Mud. 
+
+So at this time - please decide to enter the tower of learning: do this by
+typing 'go tower' - or - skip right to the live game by typing 'go game'.
+
+On behalf of the immortals - Enjoy!!
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, Midgard:0 }
+	  keywords { game }
+	to { 11, 10 }
+	  keywords { tower }
+  }
+}
+
+5
+{
+  name { The Nexus: A Glowing Portal  }
+  desc {
+"   In this crystalline sphere, a glowing portal lies
+near one wall.  It's controlled by a crystal pillar
+in the middle of the room.  As you watch, travellers
+touch the glowing crystal on top of the pillar, the
+portal grabs them and sucks their spirit away from
+the Nexus.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+}
+
+6
+{
+  name { The Nexus  }
+  desc {
+"   You are in a strange crystal sphere, connected to
+other rooms by narrow corridors.  The crystal walls
+glow, but whether that is due to their structure or
+the strange nothingness beyond is beyond all knowledge.
+Here it is peaceful and quiet.
+  }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+   You enter the Chamber of Selection.  From here you can
+enter the worlds of Perilous Realms by simply touching
+any of the pillars.  But be careful, you can only choose
+once.
+	}
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, 7 }
+	  info { door, message }
+	  keywords { door }
+  }
+}
+
+7
+{
+  name { The Nexus: The Soul Crystals  }
+  desc {
+"   You are in a strange crystal sphere, connected to
+other rooms by narrow corridors.  The crystal walls
+glow, but whether that is due to their structure or
+the strange nothingness beyond is beyond all knowledge.
+Here it is peaceful and quiet.  This is where you can
+select which world to visit.  You may do this only once.
+To do it, please just touch the pillar of your choice.
+The original world can be obtained by typing TOUCH CLASSIC.
+Thank you for playing Perilous Realms.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, 6 }
+	  keywords { door }
+  }
+}
+
+8
+{
+  name { The Nexus  }
+  desc { Empty
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+}
+
+9
+{
+  name { Entrance to Perilous Realms  }
+  desc {
+"   You stand at the entrance to Perilous Realms.  Before you lies adventure,
+treasure, excitement, and the occasional fatality.  This room is safe but
+once you enter the Realms, use GAME exit, anything can happen.  If this is
+your first visit to these lands, please take the time to travel through
+the Tower of Learning.  Within the tower you'll learn the basics of how
+to play the game.  This is recommended for both players new and experienced
+as each game has it's own variations.  To enter the tower type "GO TOWER".
+To go directly to the game, just type "GO GAME"  
+
+   The immortals are the administrators of the game and do not take part in
+any aspect of the game itself.  They will be more than happy to answer any
+questions you have about how to play the game but cannot assist you in playing
+the game itself.  
+  
+  Above all else, we hope to ensure that you have an enjoyable time while
+playing Perilous Realms.  Above all else, Perilous Realms is not just a
+game, it is a place to make friends and have new experiences.  We only
+have one major rule, have fun, and don't stop others having fun.
+   
+                                       On behalf of the Immortals
+                                           Fionn
+  }
+  sector { City }
+  extra {
+	keywords { movement }
+	desc { 
+MOVEMENT
+ 
+    This is a list of basic commands you will use to move yourself around
+the game world.  Also included is a list of commands to change your position.
+Whether you are sitting, standing, or otherwise resting affects how quickly
+you recover from both physical and mental exhaustion.
+ 
+North, East, West, South, NE, NW, SE, SW,
+  Up, Down  --  The basic directions, as well as UP and DOWN will move you
+                in that direction.  Pretty self explanatory.  Note that if
+                you are falling DOWN, you may not be able to stop yourself
+ 
+Enter  --  Allows you to enter a specifically denoted exit in the room (see
+           also GO)
+ 
+Leave  --  Similar to ENTER, but works only if you are inside
+ 
+Stand  --  If you are reclining (see REST) or sitting (see SIT) this will
+           stand you upright on your own two feet (or more, if you have them)
+ 
+Sit  --  This command places you in a sitting position
+ 
+Rest  --  This command will sprawl you out on the floor (or ground) in a
+          rather leisurely position until you STAND or SIT up
+ 
+Sleep  --  When you get tired, you can sleep for a while.  Note that when
+           you are asleep the only recognized command is WAKE, and you are
+           in a rather vulnerable position
+ 
+Wake  --  If you are asleep, this command will wake you up and place you
+          in a sitting position
+ 
+Follow  --  If you don't know the way, you can tag along behind someone with
+            this command
+ 
+Hide  **  Only those specially trained in the stealthy arts can perform
+          this task.  If successful, you duck behind the nearest object and
+          try to not be seen
+ 
+Sneak  **  Only those specially trained in the stealthy arts can perform
+           this task.  If successful, you can progress unnoticed past people
+           and enter and leave the room quietly
+	}
+	keywords { INTRO }
+	desc { 
+INTRODUCTION
+
+
+
+
+   Welcome to Perilous Realms a world where the great powers of 
+the world have had their empires destroyed by a massive natural 
+disaster, imagine a small city state between two such great 
+empires, held back for generations but now ready to spring forth
+and create a new empire based on might and opportunity. In such a 
+world, the brave, the adventurous can engrave their names among 
+the founders of empires.
+
+   The opportunities are endless but there are a few things that 
+can be done to help make your start a little bit easier.  Later
+I will show you a list of commands that I recommend you practice.
+But first, in general it is important to develop your character
+so that it becomes stronger, more capable of defending against
+those who attack it, and capable of killing the monsters that
+abound and hence grow in experience.  However at first, your
+untrained, weak self can easily die.  Monsters can kill you
+but so can other players.  However at the start, you have
+protection against players killing you and this is only removed
+at your choice.  Staying within the city of midgard is safest
+as the monsters and mobile creatures (MOBS) are weakest there and
+they won't attack first.  However it is still possible to die
+so remember "cowardice is the best part of valour" and those
+who fight and run, live to fight another day.
+
+   Now here are some important commands to help you on your
+way.
+
+HELP     ---  help alone will list the help topics and help with
+              a topic will give you information on that topic.
+
+LISTHELP ---  will list all the help topics
+
+COMMANDS ---  will list all the commands
+
+NORTH/EAST -  will move you in that direction, all directions 
+SOUTH/WEST -  can be abbreviated by the first character of their
+UP/DOWN    -  name.
+
+GO       ---  sometimes exits are named, like "door".  In these
+              cases you have to type "GO DOOR"
+
+GET      ---  lets you get things off the ground or out of a corpse
+              GET ALL CORPSE will get everything from a corpse.  Very
+              useful
+
+DROP     ---  drops an item, DROP ALL is not recommended as everything
+              will be dropped
+
+WEAR     ---  wears all your equipment.  WEAR ALL tries to wear everything.
+
+"	}
+  }
+  flags { no_mob, peaceful, no_magic, private, rent_room }
+}
+
+10
+{
+  name { Tower of Learning  }
+  desc {
+MOVEMENT
+--------
+  
+   Movement is core to the game.  At the bottom of every room description 
+there is a line starting with "Exits: ".  The exits are listed.  Some 
+will be directions, such as NORTH, SOUTH... some will be names, like DOOR.  
+To go in a particular direction, all you need do is type GO <exit>, for 
+example GO NORTH or GO TOWER.
+
+   Movement using the go command has many benefits, the GO command supports
+stacking of movements like an alias in a client would do. GO halts if you
+run into a wall or a door you cant open. (SEE "HELP GO")
+
+                       EXAMPLE: go 3n 2w
+    (This would move you from abv ftn to the clerics guildmaster)
+  
+   Most commands in Perilous Realms (PR) can be abbreviated, so to move in 
+these directions, it is possible to just type: N, S, E, W, NW, NE, SW, SE,
+U, or D. However to go through a named exit, you need to type go <exitname>
+  
+   A very useful option is the ability to follow someone else.  To do this 
+all you need type is FOLLOW <person>, for example "follow fionn".
+   
+   Movement is not possible if you are sitting or sleeping.  Sleeping is 
+useful if you want to recover from your wounds quickly.  To go to sleep 
+type SLEEP, to wake type, WAKE.  You may also want to sit down (SIT), but 
+to move you'll need to stand up again (STAND).
+  
+   For more information on these topics, type HELP MOVEMENT.  Each subtopic
+also has it's own help file.  
+  
+   To learn how to communicate in Perilous Realms type "GO UP" or "U"
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 11 }
+  }
+}
+
+11
+{
+  name { Tower of Learning  }
+  desc {
+COMMUNICATION
+-------------
+   
+   Communication is very important in any multi-user game.  Whether you
+wish to talk to people or talk to interactive computer generated characters,
+you'll need to understand the basic skills.  Communication on PR is divided
+into four categories, entire mud, local area, within your room, private one
+to one.
+  
+Private One-to-One Communication
+--------------------------------
+   This is very important and no-one but your target can hear what you say.
+The main way to do this is to tell someone, TELL <name> <message>, for
+example "TELL FIONN HELLO".  If the person is online, they will receive
+your message, irrespective of where they are.  Another technique is to
+whisper your message, but you need to be in the same room as them, for
+example WHISPER FIONN HELLO.
+  
+Within Room Broadcasts
+----------------------
+   With this you can tell everyone in a room something, by saying a message,
+for example, "SAY HELLO", everyone will hear hello.  The command SAY can be
+abbreviated by single quote ', for example 'HELLO
+
+SEE: HELP COMMUNICATION, HELP SHOUT, HELP GOSSIP, HELP AUCTION
+   
+  Now that you know how to chat it's time to learn about your character,
+type "GO UP" or "U" to learn basic information about your class and race.
+
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 12 }
+  }
+}
+
+12
+{
+  name { Tower of Learning  }
+  desc {
+Learning About your Character
+-----------------------------
+
+The main command to learn how your character is doing is to type SCORE.
+Another command is ATTRIBUTE (ATT).  Type SCORE now, and you should see
+something like the following
+
+   You are 17 years old. It's your birthday today.
+   You have 29(29) hit, 100(100) mana, 100(100) power, and 161(161) move
+   Your alignment (-1000 : +1000): 0
+   Your questpoint total is: 0
+   You have 50 gold coins on hand, and 0 in the bank.
+   You are a male Human Warrior at level 1 with 1 exp.
+   You need 999 XP to advance a level.
+   You are: Laughy says, "I haven't used the TITLE command yet!"
+   You have been playing for 0 days and 0 hours.
+   You are standing.
+
+This shows how many hit points you have, power, moves.  Your
+alignment, your gold reserves.  It also shows how much XP you have
+and how many points you need to get to the next level.
+
+Now type ATT.  Between the information given by SCORE and ATT you
+can identify your abilities.  Much of this information you might
+not want to share with other competitors.   For more information
+
+SEE: HELP SCORE, HELP ATT.
+
+Type "GO UP" or "U" to go to the next room.
+
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 13 }
+  }
+}
+
+13
+{
+  name { Tower of Learning  }
+  desc {
+PRACTISING SKILLS
+-----------------
+   In Perilous Realms, everyone has a range of skills, spells and
+proficiencies.  It is necessary to practice these to be able
+to use them.  If you type PRACTICE you will see something like
+the following, though it will differ from class to class:
+
+   You have got 50 practice sessions left.
+   You can practice any of these skills:
+   Level Name             Difficulty cost GLD MAX How Well
+   [  1] kick                   1     0    95  95 0
+   [  1] bash                   3     0    95  95 0
+   You can practice any of these proficiencies:
+   Level Two  Name             Difficulty cost GLD MAX How Well
+   [  1]      shortsword             1     0   100 100 0
+   [  1]      longsword              1     0   100 100 90
+
+   This says that I can use longsword at 90% of my maximum
+ability but nothing else.  To use these other skills, I'll need
+to practice these at a guildmaster.  You have a limited number
+of practices, currently 50.  You gain more as you gain levels.
+It just happens that there is one here, so pick a proficiency
+that you want to use, and type for example PRACTICE LONGSWORD
+If you want to practice many types, type PRACTICE 100 SHORTSWORD.
+Go on, practice your weapon skills.. you'll need it to fight.
+
+SEE: HELP PRACTICE.
+
+Follow the path up to continue your learning...
+
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 14 }
+  }
+}
+
+14
+{
+  name { Tower of Learning  }
+  desc {
+WEARING EQUIPMENT
+-----------------
+
+   In PR, everyone has the basic peasants cloth clothes, but
+it is possible to wear other equipment such as armor, hats,
+boots.  To see what you are holding type INV (short for
+inventory.  You should see a list of objects.  To wear them,
+you can type "WEAR <name>".  A shortcut would be to type
+"WEAR ALL".  Type this.  Now that you are wearing something,
+type EQ (short for equipment) to see what you're wearing.
+You should see something like the following:
+   You are using:
+   [1] <worn on body>       a studded leather training jacket
+   [2] <worn on head>       a leather training helm
+   [3] <worn as shield>     a training shield
+   [4] <wielded>            a long training sword
+
+To remove an article of clothing, type "REMOVE <name>" or
+more simply "REMOVE ALL".
+
+SEE: HELP OBJECTS.
+
+Follow the path up to continue your learning...
+
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 15 }
+  }
+}
+
+15
+{
+  name { Tower of Learning  }
+  desc {
+COMBAT
+------
+
+   To succeed in the world of Perilous Realms you'll need to fight.
+It is the only way to gain experience points (XPs).  The simple
+way to start a fight is to say "HIT <target>".  However before
+we do this there is a second important command to learn.  That
+is the CONSIDER command.  This is used by saying "CONSIDER <target>"
+It will give you an indication whether you'll win the fight or not.
+It's not guaranteed either way, but it will give you an idea.
+There are several creatures in the room here.  Try type CONSIDER
+at the various creatures, for example CONSIDER SPAVE, and
+look at the results.  Some of the typical responses are the following:
+
+    Too easy to be believed            - No problem
+    Rather easy.
+    You're a bit more skillful.
+    The perfect match!
+    You would need a lot of luck!
+    You ARE mad!                       - You're going to die!
+
+SEE: HELP CONSIDER.
+
+Follow the path up to continue your learning...
+
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 16 }
+  }
+}
+
+16
+{
+  name { Tower of Learning  }
+  desc {
+COMBAT
+------
+
+   In this room we have a small duckling.  To kill your first
+creature, type "KILL DUCKLING".  As you advance you will learn
+other deadly techniques and spells that will bring death and destruction
+to your enemies.
+  If you're a spell-caster and you have a spell you have practised,
+you can start combat by casting an attack-spell in the following way
+"CAST 'MAGIC MISSILE' DUCKLING".
+
+   When you've killed the duckling, do a LOOK, you'll be able to see
+that there is a corpse in the room.  You can get items from a
+corpse by typing "GET ALL CORPSE".  In this case you should get some
+gold.
+
+   Type SCORE, you should notice that your experience has gone up
+and you'll need less experience points to get to your next level.
+
+Follow the path up to continue your learning...
+
+  }
+  flags { no_mob, indoors, no_sum }
+  exits {
+	to { u, 17 }
+  }
+}
+
+17
+{
+  name { Tower of Learning  }
+  desc {
+Leaving the Game
+----------------
+
+   When you are finished playing the game, you need to rest your weary bones.
+In Perilous Realms we have a RENT system.  It is free and we do not have any
+level restrictions on RENTing.  What you need to do is find a receptionist in
+an inn and type RENT.  If you type RENT and you are not in the right place,
+you'll be told that you can't do that here.
+
+   What you should never do is type QUIT.  If you type quit, you will leave the
+game however all your equipment will fall off you.
+
+   The centre of the PR game is the underground tavern in Midgard.  This is
+where all players start.  There is a receptionist in this tavern.  There is
+a receptionist in most major towns in the game.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { u, 18 }
+  }
+}
+
+18
+{
+  name { Tower of Learning  }
+  desc {
+GAINING LEVELS and OTHER MATTERS
+--------------------------------
+
+   Once you have enough experience points, it's time to find a
+guildmaster and type GAIN.  This will let you gain levels.  There
+are plenty of guildmasters around the city of Midgard.
+
+   As a starting bonus, in the tavern, if you go down from the
+entry room, there is a room called BOUNCE.  Type BOUNCE, and you
+will get a bonus of enough XP for 4 levels.  Then go to a
+guildmaster and gain a few levels and practice your weapons.
+
+   In the tavernm there is a room to the south called The Donation
+Room.  In here equipment is donated by other players.  There
+can be surprisingly good equipment here.  It is a useful place to
+pick up free gear.  It only works if people donate, so remember
+to donate when you have excess equipment.
+
+   There are boards situated around the world.  Some of these
+you can post to, these are used for general chat, opinions,
+anything non-offensive.  There are also boards for immortals
+postings, these are generally about quests, rules, guidelines,
+requests for builders.
+
+   To enter the game, just type GO BOUNCE from here.  Thank you for
+reading these messages, and I hope you enjoy yourself in our
+world.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, Midgard:0 }
+        keywords { bounce }
+  }
+}
+
+19
+{
+  name { Tower of Learning  }
+  desc {
+OFF GRID
+  }
+  flags { no_mob, indoors, peaceful, no_sum, no_magic }
+  exits {
+	to { 10, Midgard:0 }
+	  keywords { bounce }
+  }
+}
+

@@ -1,0 +1,1609 @@
+#offset Centaur
+
+
+0
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path seems to be gradually getting wider the further south you go.
+Off in the distance you can hear the faint sounds of civilization.  The 
+path leads off to the south and back to the north.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, Gnome:500 }
+	to { s, 1 }
+  }
+}
+
+1
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path has gradually widened to allow for a lot of travelers or 
+merchants.  The path is showing recent signs of repair along both sides
+of the roads, large stones have been to place to make travel very 
+difficult off the path into the forest.  The trees are starting to thin
+out off to the south.  The path continues off to the south and back to the
+north.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path widens considerably here and the stones to either sides has 
+gradually formed into rather formidable walls now.  Off to the south is what
+appears to be a rather large village.  The gates even from here look quite 
+impressive for a village out in the middle of nowhere like this one, it
+also appears the village has been surrounded by a very imposing wall.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Outside The Gates  }
+  desc {
+"   The path ends here at a set of very serious looking gates.  The gates
+are made of some very sturdy looking wood if closed you could not imagine
+anybody being able to get them open from this side.  The gates are large 
+enough to let through even the biggest merchant carts.  The path leads 
+back to the north and the gates lead off to the south.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 2 }
+	to { s, 4 }
+  }
+}
+
+4
+{
+  name { Entrance To the Centaur Village  }
+  desc {
+"   Coming through the gates you are in what seems to be a rather large 
+village.  All the roads are paved and the surrounding buildings are well
+maintained.  The villagers are definitely a proud people, you can tell by 
+the maintenance that has been put into there buildings and roads.  The 
+gates are back to the north and the road leads off to the east and west.
+  }
+  sector { City }
+  exits {
+	to { n, 3 }
+	to { e, 5 }
+	to { w, 6 }
+  }
+}
+
+5
+{
+  name { A Well Kept Street  }
+  desc {
+"   The street leads off to the east, back to the west is the entrance to the 
+village.  The streets seem to be busy with activity, traders with carts of 
+no telling what going every which way.  The centaurs running their daily
+errands.  The street has been well made and is well maintained.
+  }
+  sector { City }
+  exits {
+	to { e, 15 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { A Well Kept Street  }
+  desc {
+"   The street leads off to the west, back to the east is the entrance to the 
+village.  The streets seem to be busy with activity, traders with carts of 
+no telling what going every which way.  The centaurs running their daily
+errands.  The street has been well made and is well maintained.
+  }
+  sector { City }
+  exits {
+	to { e, 4 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { A Well Kept Street  }
+  desc {
+"   The street leads off to the south where it appears there are quite a few
+beautiful houses.  The houses seem to be only one story but they all are 
+very well maintained.  The street leads back to the east and off to the 
+south is the main village.
+  }
+  sector { City }
+  exits {
+	to { e, 6 }
+	to { s, 8 }
+  }
+}
+
+8
+{
+  name { A Well Kept Street  }
+  desc {
+"   The street leads off to the south where it appears there are quite a few
+beautiful houses.  The houses seem to be only one story but they all are 
+very well maintained.  The street leads back to the north and off to the 
+south is the main village.
+  }
+  sector { City }
+  exits {
+	to { n, 7 }
+	to { e, 18 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door east }
+	to { s, 9 }
+	to { w, 17 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+9
+{
+  name { A Well Kept Street  }
+  desc {
+"   Off to both sides of the street there are houses.  The houses have had 
+a lot of work put into them, although small they seem warm and inviting.
+The doors are intricatley carved and there are small windows looking out
+to the street.  Through the windows you see the soft glow of light and
+movement inside.
+  }
+  sector { City }
+  exits {
+	to { n, 8 }
+	to { e, 11 }
+	  key { 240111 }
+	  info { door, closed }
+	  keywords { door east }
+	to { s, 12 }
+	to { w, 10 }
+	  key { 240111 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+10
+{
+  name { A Beautiful House  }
+  desc {
+"   The house is just one large room and is sparsely decorated, everything in
+the house has some sort of purpose it seems.  There are various bandages and
+large jars of herbs on shelves all over the room. Obviously this is home to
+some sort of healer.
+  }
+  sector { Inside }
+  flags { indoors }
+  exits {
+	to { e, 9 }
+	  key { 240111 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+11
+{
+  name { A Beautiful House  }
+  desc {
+"   The house seems to be just one big room but it has been decorated with
+all sorts of beautiful oversized furniture, it seems no expense was spared 
+with the furniture and the decorations.  The are several pieces of art and
+small knick knacks from all over.  the only obvious exit is back through
+the door to the street.
+  }
+  exits {
+	to { w, 9 }
+	  key { 240111 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}
+
+12
+{
+  name { A Well Kept Street  }
+  desc {
+"   Off to both sides of the street there are houses.  The houses have had 
+a lot of work put into them, although small they seem warm and inviting.
+The doors are intricatley carved and there are small windows looking out
+to the street.  Through the windows you see the soft glow of light and
+movement inside.
+  }
+  sector { City }
+  exits {
+	to { n, 9 }
+	to { e, 14 }
+	  info { door, closed }
+	  keywords { door east }
+	to { s, 19 }
+	to { w, 13 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+13
+{
+  name { A Beautiful House  }
+  desc {
+"   The house seems to be just one big room but it has been decorated with
+all sorts of beautiful oversized furniture, it seems no expense was spared 
+with the furniture and the decorations.  The are several pieces of art and
+small knick knacks from all over.  the only obvious exit is back through
+the door to the street.
+  }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+14
+{
+  name { A Beautiful House  }
+  desc {
+"   The house seems to be just one big room but it has been decorated with
+all sorts of beautiful oversized furniture, it seems no expense was spared 
+with the furniture and the decorations.  The are several pieces of art and
+small knick knacks from all over.  the only obvious exit is back through
+the door to the street.
+  }
+  flags { indoors }
+  exits {
+	to { w, 12 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}
+
+15
+{
+  name { A Well Kept Street  }
+  desc {
+"  This part of the village is starting to look more fortified then
+the sections you have been through so far.  The building are not as
+beautiful and seem to be heavily fortified off to the south looks the 
+barracks for the military.
+  }
+  sector { City }
+  exits {
+	to { s, 23 }
+	to { w, 5 }
+  }
+}
+
+16
+{
+  name { A Well Kept Street  }
+  desc { Empty
+  }
+
+}
+
+17
+{
+  name { The Mystic's Home  }
+  desc {
+"   The house seems to be just one large room, there is very little in the 
+way of decoration.  All the walls are covered with shelves containing books,
+tomes and a assortment of arcane looking items.  The only obvious exit is 
+back through the door to the street.
+  }
+  flags { indoors }
+  exits {
+	to { e, 8 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+18
+{
+  name { The Home Of A Warrior  }
+  desc {
+"  The house seems very comfortable, there is a nice fire going in the 
+fireplace. There are various animals mounted on the walls with a few you
+do not recognize.  The are various bows and arrows assorted throughout
+the room.  The only obvious exit appears to be out through the door back
+to the street.
+  }
+  flags { indoors }
+  exits {
+	to { w, 8 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}
+
+19
+{
+  name { A Well Kept Street  }
+  desc {
+"   Off to both sides of the street there are houses.  The houses have had 
+a lot of work put into them, although small they seem warm and inviting.
+The doors are intricatley carved and there are small windows looking out
+to the street.  Through the windows you see the soft glow of light and
+movement inside.
+  }
+  sector { City }
+  exits {
+	to { n, 12 }
+	to { e, 21 }
+	  info { door, closed }
+	  keywords { door east }
+	to { s, 22 }
+	to { w, 20 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+20
+{
+  name { The Officer's House  }
+  desc {
+"   This house while although beautiful from the outside, it is all business
+on the inside with what appears to be different duty rosters posted here 
+and there on the walls and a map of the city with points where guards are 
+posted, probably something the person who stays here would not like you 
+seeing.  The only obvious exit is back through the door to the street.
+  }
+  sector { Inside }
+  flags { indoors }
+  exits {
+	to { e, 19 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+21
+{
+  name { The Officer's House  }
+  desc {
+"   This house while although beautiful from the outside, it is all business
+on the inside with what appears to be different duty rosters posted here 
+and there on the walls and a map of the city with points where guards are 
+posted, probably something the person who stays here would not like you 
+seeing.  The only obvious exit is back through the door to the street.
+  }
+  sector { Inside }
+  flags { indoors }
+  exits {
+	to { w, 19 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}
+
+22
+{
+  name { A Well Kept Street  }
+  desc {
+"   Off to both sides of the street there are houses.  The houses have had 
+a lot of work put into them, although small they seem warm and inviting.
+The doors are intricatley carved and there are small windows looking out
+to the street.  Through the windows you see the soft glow of light and
+movement inside.
+  }
+  sector { City }
+  exits {
+	to { n, 19 }
+	to { e, 41 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door east }
+	to { s, 39 }
+	to { w, 40 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+23
+{
+  name { Entrance To The Barracks  }
+  desc {
+"   The barracks seems to be the biggest building in this part of the village
+although large it like the rest of village is very well maintained, but it
+looks much more business like then the other buildings.  Big enough to house
+several soldiers it would seem from here.  The door to the south leads into
+the barracks and back north heads back to the main street.
+  }
+  sector { City }
+  exits {
+	to { n, 15 }
+	to { s, 24 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door south }
+  }
+}
+
+24
+{
+  name { Inside The Barracks  }
+  desc {
+"   Coming through the door you are now in a hallway which is decorated with 
+small arms and different shield with assorted crest.  There are doors to the
+east and west.  The hallway continues to the south and you can exit back to 
+the street through the door north.
+  }
+  exits {
+	to { n, 23 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door south }
+	to { e, 26 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 27 }
+	to { w, 25 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+25
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 24 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+26
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  exits {
+	to { w, 24 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+27
+{
+  name { Inside The Barracks  }
+  desc {
+"  The hallway has small arms lockers located by both doors so the the
+the soldiers can easily equip themselves with what ever weapons might be
+required in the different situations.  There are doors to the east and 
+west and the hallway continues to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 24 }
+	to { e, 29 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 30 }
+	to { w, 28 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+28
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 27 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+29
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 27 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+30
+{
+  name { Inside The Barracks   }
+  desc {
+"  The hallway has small arms lockers located by both doors so the the
+the soldiers can easily equip themselves with what ever weapons might be
+required in the different situations.  There are doors to the east and 
+west and the hallway continues to the south.
+  }
+  exits {
+	to { n, 27 }
+	to { e, 32 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 33 }
+	to { w, 31 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+31
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 30 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+32
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 30 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+33
+{
+  name { Inside The Barracks  }
+  desc {
+"  The hallway has small arms lockers located by both doors so the the
+the soldiers can easily equip themselves with what ever weapons might be
+required in the different situations.  There are doors to the east and 
+west and the hallway continues to the south.
+  }
+  flags { indoors }
+  exits {
+	to { n, 30 }
+	to { e, 35 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 36 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door north }
+	to { w, 34 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+34
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { e, 33 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+35
+{
+  name { A Small Room  }
+  desc {
+"   The small room is much what you would expect of a barracks room it has 
+only what is need a foot locker at the end of the bed and a wall locker
+for the soldier to store none military items.  The door leads back to the 
+hallway.
+  }
+  flags { indoors }
+  exits {
+	to { w, 33 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+36
+{
+  name { A Well Maintained Street  }
+  desc {
+"   Off to the southwest is huge wall.  This must contain the main village
+The walls seem to be even larger then the first set and you notice the are
+being patrolled by some rather serious looking centaurs. The road lead off
+to the west.
+  }
+  sector { City }
+  exits {
+	to { n, 33 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door north }
+	to { w, 37 }
+  }
+}
+
+37
+{
+  name { Outside The Main Village Gates  }
+  desc {
+"   The gate to the south are rather large, imposing and have some very stern 
+looking guards, it would seem all are turned back from the main village 
+unless you are a centaur.  The street leads south to the gates and the guards.
+  }
+  sector { City }
+  exits {
+	to { e, 36 }
+	to { s, 38 }
+	to { w, 39 }
+  }
+}
+
+38
+{
+  name { Gates To The Main Village  }
+  desc {
+"   The guards glance at you as you come in from the north and move in front
+of the gates to block your path.  So your first thoughts were correct, only
+centaurs are allowed any further into the village without a fight.  The road 
+leads back to the north and the gates seem to lead into the wall.
+  }
+  sector { City }
+  exits {
+	to { n, 37 }
+	to { s, 42 }
+	  key { 1253 }
+	  info { door, closed, locked }
+	  keywords { gates }
+  }
+}
+
+39
+{
+  name { A Well Maintained Street  }
+  desc {
+"   Off to the southwest is huge wall, this must contain the main village
+The walls seem to be even larger then the first set and you notice they are
+being patrolled by some rather serious looking centaurs. The road lead off
+to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 22 }
+	to { e, 37 }
+  }
+}
+
+40
+{
+  name { The Clerk's Office  }
+  desc {
+"   The office has various piles of paper work lying around everywhere 
+the office has a desk and a few chairs in front of the desk.  It looks 
+like the clerk does different things for the centaurs.  The door leads 
+back to the street.
+  }
+  flags { indoors }
+  exits {
+	to { e, 22 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+41
+{
+  name { A Small House  }
+  desc {
+"   The home is the simple house of a maid.  There are several things that
+a maid would have lying around, like uniforms for the guards awaiting pick
+up by there various owners.  You can see various cleaning supplies for the 
+barracks quite possibly.
+  }
+  flags { indoors }
+  exits {
+	to { w, 22 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}
+
+42
+{
+  name { Inside The Wall  }
+  desc {
+"   You are standing inside the walls, without the torches you are sure 
+it would be pitch black in here.  The walls are made of solid stone and 
+have been expertly crafted so there are no cracks or holes that would
+show any weakness in them.  The only way to go forward would be up and
+out through the trap door.  You can go back the way you came through the 
+gates.
+  }
+  flags { indoors }
+  exits {
+	to { n, 38 }
+	  key { 1253 }
+	  info { door, closed, locked }
+	  keywords { gates }
+	to { u, 43 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { trapdoor }
+  }
+}
+
+43
+{
+  name { On The Wall  }
+  desc {
+"   You are now standing on top of the walls.  You can see the top of the 
+many buildings in the village and off to the south what compared to the
+other buildings would be mansion.  The wall leads off both to the east
+and west.
+  }
+  sector { City }
+  exits {
+	to { e, 45 }
+	to { w, 44 }
+	to { d, 42 }
+	  key { 240101 }
+	  info { door, closed }
+	  keywords { trapdoor }
+  }
+}
+
+44
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls you wonder what enemy would require such 
+fortifications to keep them out, but there must be someone or thing 
+out there brave or stupid enough to try it or why would the centaurs
+bother with all these guards.  The wall continues to the west and back 
+to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 43 }
+	to { w, 46 }
+  }
+}
+
+45
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls you wonder what enemy would require such 
+fortifications to keep them out, but there must be someone or thing 
+out there brave or stupid enough to try it or why would the centaurs
+bother with all these guards.  The wall continues to the south and back 
+to the east.
+  }
+  sector { City }
+  exits {
+	to { s, 82 }
+	to { w, 43 }
+  }
+}
+
+46
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 44 }
+	to { w, 47 }
+  }
+}
+
+47
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 46 }
+	to { s, 48 }
+  }
+}
+
+48
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the east and west in appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the north and off to the south. 
+  }
+  sector { City }
+  exits {
+	to { n, 47 }
+	to { s, 49 }
+  }
+}
+
+49
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the east and west in appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the north and off to the south. 
+  }
+  sector { City }
+  exits {
+	to { n, 48 }
+	to { s, 50 }
+  }
+}
+
+50
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls you wonder what enemy would require such 
+fortifications to keep them out, but there must be someone or thing 
+out there brave or stupid enough to try it or why would the centaurs
+bother with all these guards.  There is a ladder that looks like it 
+leads down into the village.  The wall continues to the south and back
+to the north.
+  }
+  sector { City }
+  exits {
+	to { n, 49 }
+	to { s, 52 }
+	to { 10, 51 }
+	  keywords { ladder }
+  }
+}
+
+51
+{
+  name { Inside The Village  }
+  desc {
+"   Coming in from the walls you stand by huge gate that looks like it would
+only be open in wartime to let all the troops out.  To the east is the main
+village, it would seem the road leads off to several different buildings in 
+the distance.  You can go back up to the wall or follow the road into the
+village.
+  }
+  sector { City }
+  exits {
+	to { e, 53 }
+	to { 10, 50 }
+	  keywords { ladder }
+  }
+}
+
+52
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the east and west in appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the north and off to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 50 }
+	to { s, 57 }
+  }
+}
+
+53
+{
+  name { Main Street  }
+  desc {
+"   There are buildings and houses further off to the east, the main 
+village has a more comfortable feel to it.  As should be the case with
+the huge walls and all the guards on them.  If one could not feel 
+comfortable with that then no where would feel safe.  Main street 
+continues off to the east and you can go back west to the wall.
+  }
+  sector { City }
+  exits {
+	to { e, 54 }
+	to { w, 51 }
+  }
+}
+
+54
+{
+  name { Main Street  }
+  desc {
+"    The road is well maintained and all around you the streets teem with life.
+To the north are what appear to be a tavern and a couple of small shops.  To
+the south is what appears to be the largest centaur dwelling.  Main street 
+continues to the east and west.
+  }
+  sector { City }
+  exits {
+	to { n, 55 }
+	to { e, 56 }
+	to { s, 61 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { Poplar Street  }
+  desc {
+"   The street has become smaller and less foot traffic on this road.  There is a
+large sign to the east inviting you in for a tankard of ale to the north you can 
+hear the sounds of metal being pounded, to the west is a small shop.  You can go 
+back south to main street or north to the weaponsmith and west leads to the tavern.
+  }
+  sector { City }
+  exits {
+	to { n, 65 }
+	  keywords { street }
+	to { e, 59 }
+	to { s, 54 }
+	to { w, 58 }
+  }
+}
+
+56
+{
+  name { Main Street  }
+  desc {
+"   There are buildings and houses off to the north and south. The main 
+village has a more comfortable feel to it.  As should be the case with
+the huge walls and all the guards on them.  If one could not feel 
+comfortable with that then no where would feel safe.  Main Street continues
+back to the west and oak Street leads both to the north and south.
+  }
+  sector { City }
+  exits {
+	to { n, 86 }
+	to { s, 87 }
+	to { w, 54 }
+  }
+}
+
+57
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls looking and around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the west and south in appears the
+forest has been untouched, well at least untouched where it is out of arrow
+range.  The wall continues back to the north and off to the south.
+  }
+  sector { City }
+  exits {
+	to { n, 52 }
+	to { e, 78 }
+  }
+}
+
+58
+{
+  name { The Three Legged Monkey  }
+  desc {
+"   The three legged monkey appears to be a tavern where the guards like to let 
+off a little steam and have one of the famous centaur ales.  All around you
+notice evidence of quite a few patrons maybe having a few to many and throwing
+a table or two against the wall.  The bartender looks to be more of sergeant 
+major then anything else.  He definitely looks if things get to out of hand he
+can definitely handle the trouble maker with ease.
+  }
+  exits {
+	to { e, 55 }
+  }
+}
+
+59
+{
+  name { Mardar's Place  }
+  desc {
+"   The shop has shelves full of every kind of herb one could imagine plus a few 
+noxious concoctions some might call potions.  There is evidence all over the shop
+of potions that have gone wrong from all the scorch marks.  It is amazing the 
+place is still standing and has not burnt down long ago.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_magic }
+  exits {
+	to { w, 55 }
+  }
+}
+
+60
+{
+  name { 240162  }
+  desc { Empty }
+}
+
+61
+{
+  name { Azarmoth Way  }
+  desc {
+"   The mood has definitely changed in this part of town the only foot traffic here
+is centaurs armed to the teeth.  On both sides of the room is what appears to be 
+guard shacks.  Which would only make sense as what appears to be a control point 
+of some kind limiting access through the gates to the south.  Better have an 
+appointment because the guards to the south look like if not the might become a 
+bit rough.  The obvious exits are back to the north is Main street, east and west 
+seems to lead to the guard shacks and to the south appears to be some gates.
+  }
+  sector { City }
+  exits {
+	to { n, 54 }
+	to { s, 62 }
+  }
+}
+
+62
+{
+  name { Palace Gates  }
+  desc {
+The palace gates are the the only thing that seems to have not been made of
+entirely wood.  They look to be very heavily plated with iron even without the 
+guards here the would take quite a bit to break through if one did not have the
+key.  The obvious exits are back to the north and south through the gates.
+  }
+  sector { City }
+  exits {
+	to { n, 61 }
+	to { s, 64 }
+	  key { 1253 }
+	  info { door, closed, locked }
+	  keywords { gates }
+  }
+}
+
+63
+{
+  name { The House Of Armor  }
+  desc {
+"    The armor is lined neatly in racks, some sets have their own display 
+cases, most of those in display case are rare or at least duplicates of 
+rare and ancient armor.  Some of those in the display cases have small
+plaques on them perhaps detailing their story or owners of a by gone
+age.  The only visible exit is back south to the street.
+  }
+  flags { no_mob, indoors, nosteal, no_magic }
+  exits {
+	to { w, 86 }
+  }
+}
+
+64
+{
+  name { Under The Wall  }
+  desc {
+"   The gates lead right under the wall that surronds the main city.  Like 
+everything else in the centaur village the wall has been painstakely built 
+everything seems to be in perfect order as you look at the walls.  The obvious
+exits are back through the gates and south heads towards what appears to be a
+courtyard.
+  }
+  sector { City }
+  exits {
+	to { n, 62 }
+	  key { 1253 }
+	  info { door, closed, locked }
+	  keywords { gates }
+	to { s, 66 }
+  }
+}
+
+65
+{
+  name { The Weapons Workshop  }
+  desc {
+"   This seems to be nothing more then a forge for the weaponsmith, man its
+nice and warm in here with flames jumping out of the fire pit, the forge has
+waves of heat emmnating of it.  The weaponsmith glances your way....  Maybe 
+you should get your business done and quickly, he does not look like he is 
+at all pleased with your interruption.  There are various weapons lying 
+around some broken to be fixed, others fixed and waiting for there owners to
+pick them up.  The only way out is back out to the street.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_magic }
+  exits {
+	to { s, 55 }
+	  keywords { street }
+  }
+}
+
+66
+{
+  name { Under The Wall  }
+  desc {
+"   Standing under the wall it would appear several other people are 
+coming to the royal chambers today and it appears the guards are
+stopping most of them.  The lane leading to the south has a lot more 
+oranmentation then all the other places in centaur so far, obviously
+the centaur have wealth.  The obvious exits are to the south to the 
+main courtyard and back north through the gates.
+  }
+  exits {
+	to { n, 64 }
+	to { s, 68 }
+  }
+}
+
+67
+{
+  name { The Clerical Shop  }
+  desc {
+"   The shop is full of shelves and they all got something on them, whomever
+supplies the shop keeper must have no problem getting in and out of the
+village.  There are potions of assorted colors, some even look a bit 
+dangerous.  for a small fee maybe you can find a potion to your liking. 
+The only visible exit is back out to the street. 
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_magic }
+  exits {
+	to { e, 86 }
+  }
+}
+
+68
+{
+  name { Royal Courtyard  }
+  desc {
+"   Standing in the courtyard every thing around you seems to glow with
+an inner light, every thing around seems like it could almost be brand
+new it is so well cared for.  To the south is the entrance to the royal
+chambers and back to the north is back toward the gates.
+  }
+  exits {
+	to { n, 66 }
+	to { s, 69 }
+  }
+}
+
+69
+{
+  name { Entrance To The Royal Tower  }
+  desc {
+"   While from the outside it does not look like much just the entrance
+is magnificent, much time and thought were put into the murals of past
+kings in battle.  The floor is one gigantic mural of the centaurs war 
+with the orcs, it leads off to the doors to the south, east and west.
+  }
+  exits {
+	to { n, 68 }
+	to { e, 72 }
+	  info { door, closed }
+	  keywords { door }
+	to { s, 70 }
+	to { w, 75 }
+  }
+}
+
+70
+{
+  name { Royal Chamber Entrance  }
+  desc {
+"   Standing before a stone door you could only imagine through the doors
+has to be a royal chamber because you could not see any one else having
+such a magnificent door, it is as if you can see the king in the mural 
+moving towards battle.
+  }
+  exits {
+	to { n, 69 }
+	to { s, 71 }
+  }
+}
+
+71
+{
+  name { The King's Throne Room  }
+  desc {
+"   The enormous throne in the middle of the room overshadows all else in 
+the room it appears to be made of onyx and it appears as if it would shine
+with no light in the room.  The rest of the room is full of chairs so the 
+king can hold his court in this room it appears, there are maps of what 
+appear to be the surrounding forest and its key points.  The obvious exits
+are back out the door to the north.
+  }
+  exits {
+	to { n, 70 }
+	to { w, 74 }
+  }
+}
+
+72
+{
+  name { The Prince's Room  }
+  desc {
+"   The room has minatures of everything to include bed and table.  There are
+toys and toy boxes scatered all about the room.  By looking around you can tell
+the prince has one of almost every toy ever made.  The obvious exits are back to
+the door to the west.
+  }
+  exits {
+	to { s, 73 }
+	to { w, 69 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+73
+{
+  name { The Queen's Bedroom  }
+  desc {
+"   The bedroom is immense even for a centaur's room it is big and lined with 
+some of the most exotic wood furniture you have ever seen, the queen must be
+well loved by her king cause even the most simple knick knack is made of ivory
+and gold.  The space not covered by books or other things is covered with
+murals.  The only obvious exit is back to through the door.
+  }
+  exits {
+	to { n, 72 }
+  }
+}
+
+74
+{
+  name { The King's Bodyguard's Quarters  }
+  desc {
+"   The room is big enough to fit a small army.  But it only has four beds in it
+obviously being the king's bodyguards is a great previlge with almost all the
+males being warriors only the most devout become them.  The room is simple with 
+only the beds, footlockers and wall lockers.  But they are only here for one 
+thing and that is protect the king with there lives as need be.  The only 
+obvious exit is back through the door.
+  }
+  exits {
+	to { e, 71 }
+  }
+}
+
+75
+{
+  name { The Royal Priest's Quarters  }
+  desc {
+"   The room is lined with all kinds of potions and books and what appear to 
+be herbs although some would only be could that with the broadest sense of 
+the word.  Other then that the room seems quite ordinary to be part of the
+royal chambers at least.
+  }
+  exits {
+	to { e, 69 }
+  }
+}
+
+76
+{
+  name { The Elders Home  }
+  desc {
+"   Coming in off the streets its like you have traveled back in time, all
+The stuff in the house seems to be ancient even the funiture has been 
+around longer then you have been alive.  The homes owner has to be ancient
+to own all this stuff.  The only visible exit is back out into the street.
+  }
+  flags { no_mob, indoors }
+}
+
+77
+{
+  name { The Elders Home  }
+  desc {
+"   Coming in off the streets its like you have traveled back in time, all
+The stuff in the house seems to be ancient even the funiture has been 
+around longer then you have been alive.  The homes owner has to be ancient
+to own all this stuff.  The only visible exit is back out into the street.
+  }
+  flags { no_mob, indoors }
+}
+
+78
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 79 }
+	to { w, 57 }
+  }
+}
+
+79
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 80 }
+	to { w, 78 }
+  }
+}
+
+80
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 81 }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the east and west it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { e, 85 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the north and south it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 45 }
+	to { s, 83 }
+  }
+}
+
+83
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls you wonder what enemy would require such 
+fortifications to keep them out, But there must be someone or thing 
+out there brave or stupid enough to try it or why would the centaurs
+bother with all these guards.  The wall continues to the south and back 
+to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 82 }
+	to { s, 84 }
+  }
+}
+
+84
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls and looking around, it is a amazing scene laid out
+before you.  The village almost appears like it just sprung up one day right 
+in middle of the forest.  Immediately to the east and west it appears the 
+forest has been untouched, well at least untouched where it is out of arrow 
+range.  The wall continues back to the west and off to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 83 }
+	to { s, 85 }
+  }
+}
+
+85
+{
+  name { On The Wall  }
+  desc {
+"   Standing upon the walls you wonder what enemy would require such 
+fortifications to keep them out, but there must be someone or thing 
+out there brave or stupid enough to try it or why would the centaurs
+bother with all these guards.  The wall continues to the south and back 
+to the east.
+  }
+  sector { City }
+  exits {
+	to { n, 84 }
+	to { w, 81 }
+  }
+}
+
+86
+{
+  name { Oak Street  }
+  desc {
+"   The street is well maintained like everything else you have seen in the 
+centaur village.  To the west is a small clerical shop and to the east is what
+appears to be an armorers shop.  Oak street leads back to main street to the south.
+  }
+  sector { City }
+  exits {
+	to { e, 63 }
+	to { s, 56 }
+	to { w, 67 }
+  }
+}
+
+87
+{
+  name { Oak Street  }
+  desc {
+"   The street appears to end here, on both sides of the street are some very rich
+looking homes.  Both of them are well maintained like everything else in centaur.
+there are exits to the homes to the east and west and back to the north is Main 
+street. 
+  }
+  sector { City }
+  exits {
+	to { n, 56 }
+	to { e, 89 }
+	  info { door, closed }
+	  keywords { door east }
+	to { w, 88 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+88
+{
+  name { The Royal Mage's Home  }
+  desc {
+"   The house has many bookshelves covered with books and some rare magical items
+that would seem to be better left alone.  Other then the bookshelves the room is 
+sparse except for a table and small desk that looks like the mage's working area.
+The obvious exits are back to the west to oak street.
+  }
+  exits {
+	to { e, 87 }
+	  info { door, closed }
+	  keywords { door west }
+  }
+}
+
+89
+{
+  name { The Royal Cleric's Home  }
+  desc {
+"   The home has a very weird smell to it which proably has a lot to do with the 
+jars full of some very suspect looking things, which some would appear to still
+be alive.  There is also a small work bench and a table that looks large enough to
+hold a centaur.  The obvious exit is to the east back to Oak street.
+  }
+  exits {
+	to { w, 87 }
+	  info { door, closed }
+	  keywords { door east }
+  }
+}

@@ -1,0 +1,1588 @@
+#offset Pyragard
+
+1
+{
+  name { Upon the cliff top  }
+  desc {
+"   You are standing upon the top of a cliff over looking a rolling tundra.
+Far to the north, rising above a dense, deep icy fog, you can see the tops
+of a mountain range.  A small goat track leads north and down to the tundra
+floor whilst the cliff top trail heads west.
+  }
+  sector { Hills }
+  exits {
+	to { n, 2 }
+	to { w, Nodonn:0 }
+  }
+}
+
+2
+{
+  name { A small goat track.  }
+  desc {
+"   You are standing in the middle of a goat track that leads to the tundra
+floor below you and up to the top of a cliff.  Far to the north you can just
+make out the tops of some mountains, but mostly they are obscured by a thick
+icy fog that shrouds the northern end of the tundra valley.
+  }
+  sector { Hills }
+  exits {
+	to { s, 1 }
+	to { d, 3 }
+  }
+}
+
+3
+{
+  name { The Tundra  }
+  desc {
+"   You stand upon the tundra floor.  A freezing wind whips about you, ice
+crystals stabbing at your face.  All around you, you see an endless sea of
+rolling hills spreading off in all directions.  To the north the hills are
+hazy and are lost in a frigid, cloudy fog.  To your south is a small goat 
+track that leads up a tall cliff to it's top.
+  }
+  sector { arctic }
+  flags { no_mob }
+  exits {
+	to { n, 4 }
+	to { e, 6 }
+	to { w, 5 }
+	to { u, 2 }
+  }
+}
+
+4
+{
+  name { The Tundra  }
+  desc {
+"   The vast wastes of the tundra cover you on all sides you begin to feel that
+your own mortality, for this is a timeless place. Where someone could starve to
+death easily.  Just to the north the freezing fog obscures your view of the
+mountains you know lurk beyond them.
+  }
+  sector { arctic }
+  exits {
+	to { n, 15 }
+	to { e, 9 }
+	to { s, 3 }
+	to { w, 8 }
+  }
+}
+
+5
+{
+  name { The Tundra  }
+  desc {
+"   You continue to climb an endless sea of hills only to reach top to view 
+nothing but more hills sprawled out before you.  Far to the north, a freezing
+fog obscurs your view of the mountains.
+  }
+  sector { arctic }
+  exits {
+	to { n, 8 }
+	to { e, 3 }
+	to { w, 7 }
+  }
+}
+
+6
+{
+  name { The Tundra  }
+  desc {
+"   You continue on your way climbing an endless sea of rolling hills only to
+reach the tops to view nothing but more hills.  Far to the north, a freezing
+fog obscurs your view of the mountains.
+  }
+  sector { arctic }
+  exits {
+	to { n, 9 }
+	to { e, 10 }
+	to { w, 3 }
+  }
+}
+
+7
+{
+  name { The Tundra  }
+  desc {
+You climb yet another hill and look out to the west to see the tundra spreads
+on endlessly to the horizon.  You feel no need to test it's mighty length. 
+To the north a dense, cold fog obscurs your view of the mountain range.
+  }
+  sector { arctic }
+  exits {
+	to { n, 11 }
+	to { e, 5 }
+  }
+}
+
+8
+{
+  name { The Tundra  }
+  desc {
+"   The tundra spreads out around in all directions giving you nothing but an
+endless view of hills and gullies. The wind sweeps these lands biting deep to
+bone. You feel that should anything live here it must lead a lonely life.
+Just to the north, a thick icy fog obscurs your view of the mountain range.
+  }
+  sector { arctic }
+  exits {
+	to { n, 16 }
+	to { e, 4 }
+	to { s, 5 }
+	to { w, 11 }
+  }
+}
+
+9
+{
+  name { The Tundra  }
+  desc {
+"  The vast wastes of the tundra send your mind reeling as you try to take in
+their emmense size. All around you they spread giving nothing except the view
+on rolling hills covered in long flowing brown grass and dirty ice.  Just to
+the north a curtain of icy fog obscurs your view of the mountain range.
+  }
+  sector { arctic }
+  exits {
+	to { n, 14 }
+	to { e, 12 }
+	to { s, 6 }
+	to { w, 4 }
+  }
+}
+
+10
+{
+  name { The Tundra  }
+  desc {
+"  You climb yet more hills to witness the tundra running of to the east beyond
+imagining. You see no point on continuing in that direction and turn north
+deeper into the tundra vast wastes.  Just to the north a vast billowing fog
+obscurs your view of the mountain range.
+  }
+  sector { arctic }
+  exits {
+	to { n, 12 }
+	to { w, 6 }
+  }
+}
+
+11
+{
+  name { The Tundra  }
+  desc {
+"   The tundra sprawls out around as far as the eye can see leaving you dwarfed
+by it's vast and times body. All around the hills role on giving no sign of
+life.  Just to the north a vast wall of icy fog obscurs your view of the range
+of mountains.
+  }
+  sector { arctic }
+  exits {
+	to { n, 17 }
+	to { e, 8 }
+	to { s, 7 }
+  }
+}
+
+12
+{
+  name { The Tundra  }
+  desc {
+"   You begin to feel lonely upon this vast sweeping grass land as all you see
+before is the endless rise and fall of the grassy hill like the one upon
+which you now stand.  The wind has picked up it's tempo and you are forced
+to pull your cloak tight around to protect from it's icy bite.  Just to the
+north a wall of icy fog lies like a soft blanket across the land.
+  }
+  sector { arctic }
+  exits {
+	to { n, 13 }
+	to { s, 10 }
+	to { w, 9 }
+  }
+}
+
+13
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"   The fog here obscures everything.  The cold is so bitter that it seeps
+between your clothes and chills your bones.  The air is still.  Something
+seems out of place.  Perhaps heading south to the Tundra would be a good
+idea.
+  }
+  sector { cold }
+  exits {
+	to { n, 22 }
+	to { s, 12 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"   The bleak wall of white, freezing fog prevents you seeing far in any
+direction.  The air is so bitterly cold that it seems to bite you.  You
+are sure that this would be a truly lonely place to die.
+  }
+  sector { cold }
+  exits {
+	to { n, 21 }
+	to { e, 13 }
+	to { s, 9 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"   Cold seeps endlessly in to your bones, freezing you where you stand.
+Finding a way out of this forsaken Tundra would be a good idea.
+  }
+  sector { cold }
+  exits {
+	to { n, 20 }
+	to { e, 14 }
+	to { s, 4 }
+	to { w, 16 }
+  }
+}
+
+16
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"  You begin to wonder if this vast fog will ever thin.  It almost
+seems to stick to you like a misty blanket, dampening your vision.
+  }
+  sector { cold }
+  exits {
+	to { n, 19 }
+	to { e, 15 }
+	to { s, 8 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"   You begin to feel fatigued at the sheer task of traversing this unforgiving
+and desolate land.  Freezing fog chills you to the very bone.
+  }
+  sector { cold }
+  exits {
+	to { n, 18 }
+	to { e, 16 }
+	to { s, 11 }
+  }
+}
+
+18
+{
+  name { Before a glacial wall  }
+  desc {
+"  Finally you find something to break the weary monotony of this vast tundra
+and thick, murky fog.  Rising out of the gloom to the north you see a large
+glacier that has eaten it's way down a valley channel.  The front of this
+glacier is potted with fissures and a single, large, looming cavern entrance.
+  }
+  sector { cold }
+  exits {
+	to { e, 19 }
+	to { s, 17 }
+	to { 10, 63 }
+      info { secret, hidden }
+      keywords { cavern }
+  }
+  extra {
+	keywords { cavern glacier fissures entrance }
+	desc { 
+"
+There is a large, looming cavern entrance in the face of the glacier wall.
+You could probably 'go cavern' and enter it.  There might be some nice
+treasure inside for you to steal.  Yes, steal.  There, I said it.  You call
+yourself an adventurer but really you're just a high-class thief taking
+other peoples stuff and then passing it off as your own.
+
+"	}
+  }
+}
+
+19
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"  The vast expanse of fog you have become so accustomed too seems to have
+no end in sight.  It hides deep crevasses and other perilous things that you
+can't see until you are right on top of them.  Is there a way out?
+  }
+  sector { cold }
+  exits {
+	to { e, 20 }
+	to { s, 16 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { Inside the Fog on the Tundra  }
+  desc {
+"   Have you been here before?  It is impossible to tell with the fog
+obscuring everything in every direction.
+  }
+  sector { cold }
+  exits {
+	to { e, 21 }
+	to { s, 15 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { A trail to the north.  }
+  desc {
+"  The fog finally thins, allowing you to view a trial leading upwards in to
+a mountainous pass.  The air looks crisp and sharp to the north, and maybe it
+might even be warmer.  
+  }
+  sector { cold }
+  exits {
+	to { n, 23 }
+	to { e, 22 }
+	to { s, 14 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { The Tundra  }
+  desc {
+"   The vast tundra gives way to the rockier ground as you begin to rise into
+the foothills of the mountains to the north. You are forced to turn west when
+you find no trails to lead you into the mountains.  Still the bank of fog
+offers no respite to your tired eyes.
+  }
+  sector { cold }
+  exits {
+	to { s, 13 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { A Mountain Pass  }
+  desc {
+"   You have entered a large mountain pass that is flanked on both sides by
+huge cliff faces that tower above you.  To the north you can see what appears
+to be a huge stone structure that blocks off the entire northern end of the
+pass.  To the south is a rocky mountain trail that leads down to the tundra
+and back in to the freezing, murky fog.
+  }
+  sector { Mountains }
+  extra {
+  	keywords { door doors structure stone }
+  	desc { 
+"   This giant stone structure is actually a set of gates that have closed to
+block off the pass from invaders.  They are mighty affairs, with stones and
+iron bindings.  But a simple, un-pickable lock keeps the riff-raff out (or 
+in).
+  	}
+  }
+  exits {
+	to { n, 24 }
+	  key { 16202 }
+	  info { door, closed, locked, autolock, autoclose, pickproof }
+	  keywords { doors }
+	to { s, 21 }
+  }
+}
+
+24
+{
+  name { A Guard Post  }
+  desc {
+"  You are standing in what appears to be some sort of guard post. On both
+sides are small (for a giant) alcoves that have been hollowed out in a such
+a way as to provide a place to stand, sit or sleep for any oversize guards
+that are on duty.  To the south are a set of mighty stone doors that block
+off access to the Tundra beyond.  To the north the trail, now quite well
+and well maintained, leads in to a mountain valley.
+  }
+  sector { Mountains }
+  extra {
+  	keywords { door doors structure stone }
+  	desc { 
+"   This giant stone structure is actually a set of gates that have closed to
+block off the gorge from invaders.  They are mighty affairs, with stones and
+iron bindings.  But a simple, un-pickable lock keeps the riff-raff out (or 
+in).
+  	}
+  }
+  exits {
+	to { n, 25 }
+	to { s, 23 }
+	  key { 16202 }
+	  info { door, closed, locked, autolock, autoclose, pickproof }
+	  keywords { doors }
+  }
+}
+
+25
+{
+  name { The Valley Crossroads  }
+  desc {
+"   You stand at a crossroads at the bottom of a deep mountain valley.  Far To
+the north you can see a well-maintained causeway leading up to a large long-
+house set in to the mountains' face.  To the east the trail heads off in a
+downwards slope towards the base of the mountain, whilst to the west the trail
+rises up towards the valley tops where low hanging, thick storm clouds hover
+ominously.  And to the south stand a massive set of gates that protect this
+picturesque valley from the likes of you.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 26 }
+	to { e, 28 }
+	to { s, 24 }
+	to { w, 27 }
+  }
+}
+
+26
+{
+  name { The giant Causeway  }
+  desc {
+"   You are standing on a wide, giant causeway that is flanked on each side by
+large round houses with timber walls and thick, warm thatch roofs.  Judging by
+sheer size of the abodes, the dwellers must stand at least twice as tall as you
+easily.  To the north the causeway leads to a huge set of doors that mark the
+entrance to an over-sized long-house that has been built in to the very side of
+the mountain itself.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 29 }
+	to { s, 25 }
+  }
+}
+
+27
+{
+  name { Higher up the valley side }
+  desc {
+"   You are standing on an ill-maintained path roughly half-way up the side
+of the steep mountain valley.  Below you can see the crossroads to the east
+and the long-house further to the north, it's gigantic structure built into
+the very sides of the mountain.  The path veers off northwards and up here,
+towards the gusty valley top where ominous-looking storm clouds gather and
+blow at mountains as if to topple them. To the southwest is a low, conical
+cave that reeks of sulphur and burning pitch.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 33 }
+	to { e, 25 }
+	to { southwest, 34 }
+  }
+}
+
+28
+{
+  name { The Valley Road  }
+  desc {
+"   You are standing on the road at the very base of the valley.  Large round
+houses made of stone with thatch roofs dot the sides of the track here and
+there, but none of them looking interesting enough to enter.  Here the road
+heads west to the valley crossroads or east towards the mountain road where,
+to the east and south, a mighty forge has been constructed that belches out
+thick black clouds of soot and smoke.  You can hear the ringing of hammers
+even from here.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 36 }
+	to { w, 25 }
+	to { 10, 77 }
+	  info { hidden, secret }
+	  keywords { opening }
+  }
+  extra {
+    keywords { roundhouse house }
+	desc {
+"
+The Roundhouses are all made of stone with mouldy old straw roofs.  Fires
+lit on the inside cause the straw and thatch to steam and smoke as the fumes
+escape in to the air.  There is a small #{bold}opening#{o} that could be entered if an
+adventurer like you so wanted. 
+"
+	}
+  }
+}
+
+29
+{
+  name { Before the doors of Helsengard  }
+  desc {
+"   To the north of you stand the doors of Helsengard, the long-house home and
+the council centre for the dwellers of this place.  It's walls are rock-hard
+mottle and daub, oak timbers and shale, all carved with the likenesses of
+fierce angular dragons.  It is an imposing obstacle to pass.  The doors seem
+to be locked... But who would want a burgle such a place?
+  }
+  sector { Mountains }
+  extra {
+  	keywords { door doors long house longhouse }
+  	desc { 
+"   The doors to the long house are huge, towering up at least twenty feet,
+and are barred with iron.  A gigantic, stylised dragon with five heads has
+been carved in to the wood in a Game of Thrones knock-off style that makes
+you think of strange lands, scantily clad ladies and blue-eyed zombies.  The
+doors are locked.  You'll need a key to get in there.
+  	}
+  }  
+  exits {
+	to { n, 30 }
+	  key { 16203 }
+	  info { door, closed, autoclose, locked, autolock, pickproof }
+	  keywords { door }
+	to { s, 26 }
+  }
+}
+
+30
+{
+  name { The Great Hall  }
+  desc {
+"   This is the Great Hall of Helsengard.  A fire pit, surrounded by benches
+and tables that dwarf you, throws off enough to singe away your eyebrows.
+The great room stretches off to the west and east, the flames from the
+fire put acting like a runway that casts a ruddy glow off to in to the
+alternate directions.  You can leave east.  Or west.  It's a hard life
+having to make all these decisions, isn't it?
+  }
+  sector { ship_deck }
+  extra {
+  	keywords { door doors }
+  	desc { 
+"   This giant doors have been made... Well... For a giant.  They tower up
+in to the smokey, murky, depths of the ceiling, at least twenty feet high
+and are barred with iron.  The wood is plain on this side, but clearly very
+thick and hard.  An effective lock acts as a simple means to keep burglars
+out.  After all, one never knows what the kids around here will nick these
+days.
+  	}
+  }  
+  flags { indoors }
+  exits {
+	to { e, 32 }
+	to { s, 29 }
+	  key { 16203 }
+	  info { door, closed, autoclose, locked, autolock, pickproof }
+	  keywords { door }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { The West End of the Great Hall  }
+  desc {
+"   This is the west end of the great hall.  Chairs, benches, tables and
+sorts line the fire pit.  The atmosphere is warm, cosy and if you were
+to stay too long, would likely be sleepy too.  This place is perfect
+for those long drawn out conversations and arguments about the price
+of wheat, who stole whose goat and how to invade Midgard with a bunch
+of evil black skinned Drow.
+  }
+  sector { ship_deck }
+  flags { indoors }
+  exits {
+	to { e, 30 }
+  }
+}
+
+32
+{
+  name { The East End of the Great Hall  }
+  desc {
+"   The east end of the great hall is where the women and children can be
+found, feasting, fighting and quaffing ale with the same enthusiasm as
+the males.  Not that it makes much difference for the giants what your
+gender is, that seems to be a human problem.  The fire pit casts it's
+bright, hot glow over everything, making the whole hall an inviting and
+cheerful place.  At least, inviting for anyone over ten-feet in height.
+  }
+  sector { ship_deck }
+  flags { indoors }
+  exits {
+	to { w, 30 }
+  }
+}
+
+33
+{
+  name { A Windy Valley Path  }
+  desc {
+"   You are standing on a windy, gusty, valley path that leads up to the
+summit of the valley tops where dark grey storm clouds scud across the
+rocky hills in a never-ending battle for supremacy.  The ground is made
+up of loose shale and pebbles, perfect for slipping on and breaking a
+leg, an arm, or even your neck.  You can head up to the valley top, or
+down to the valley sides and the eventual evenness of the valley floor.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 27 }
+	to { w, 35 }
+  }
+}
+
+34
+{
+  name { The Nest of Gnatt  }
+  desc {
+"   You are standing in a giant, disgusting nest.  There is no other means
+to describe it.  The floor is littered with bones of all sizes, showing that
+whatever calls this place home is probably capable of taking care of itself.
+A crack in the south wall of the nest, that might be big enough for you to 
+squeeze through, belches out hot, noxious fumes that makes the nest smell
+like Bunta's toilet.  The rest of the detritus that litters here is made up
+of mildewed straw and other rotting plant-life that seems to form a soft,
+damp and smelly bed.
+  }
+  sector { Cavern }
+  exits {
+    to { northeast, 27 }
+	to { 10, 64 }
+      info { secret, hidden, message }
+      keywords { shimmy }
+  }
+  extra {
+	keywords { crack wall }
+	desc { 
+"
+There is a crack running the entire length of the south wall of this nest.
+Yes, that's right, length.  Meaning you're not sidling in like a burglar in
+the night, you're going to have to #{bold}shimmy#{o} in on your belly and hope you're
+not caught prone if there is anything beyond.  Thick, hot clouds of sulphur
+billow out from it.  Will the air be safe to breathe in there?
+
+"	}
+  	keywords { _ex10 }
+  	desc {  "
+	
+#{yellow}You shimmy in to the crack... 
+
+For a moment you wish you followed that New Years diet plan...
+
+It's a tight squeeze but... POP!#{o}
+
+"   }
+  }
+}
+
+35
+{
+  name { The Valley Top  }
+  desc {
+"   This is the top of the valley.  The storm clouds are so close here you
+could almost step on to them as they whistle, hiss and scud against the
+rocks at the top here.  It is cold and blowy, but the air is crisp and
+clean and gives you a wonderful view of the valley below.  You can exit
+down the path here towards the valley floor.
+  }
+  sector { Mountains }
+  exits {
+	to { e, 33 }
+	to { 10, 65 }
+	  info { hidden, secret, message }
+	  keywords { float }
+  }
+  extra { 
+	keywords { clouds storm }
+	desc { 
+"
+The clouds here never seem to lose their grip on the valley top.  In
+fact, they appear to be attached to it.  Magic perhaps?  Who knows.
+But you it is possible you could #{bold}float#{o} your way over to them if you
+had the ability to fly...
+
+"
+	}
+	keywords { _ex10 }
+	desc {  "
+	  
+#{cyan}Laughing like a child you deftly float from the ground to the cloud.
+
+How cool is that??#{o}	  
+	  
+"   }
+    keywords { valley floor mountain }
+	desc {  
+"
+The valley is perfectly visible from here.  You can see the trail down from
+your vantage point and follow as it worms it's way north to the long house
+built in to the mountain wall itself.  You can see the billow of translucent
+yellowy sulphur and brimstone from the conical cave of the valley side.  The
+dark black smoke from the forge (although you are too far away for the sound
+to reach here) that resides like a cancerous smudge to the south-east of the
+valley.  And you can even see the looming gates that lead in to the mountain
+of Pyragard itself, standing out in reds and golds that gleam and sparkle in
+the distance.  If you had a way to record this view, you surely would.
+
+" 
+	}
+  }
+}
+
+36
+{
+  name { The Mountain Road  }
+  desc {
+"   The road is intercepted here by a mountain road running from north to south
+and heading deep into the mountain range to the north.  To the south you can
+see a mighty forge bellowing out thick, dirty black clouds of soot, smoke and
+steam.  The ringing of hammers and industriousness fills the air.  Well that
+just HAS to be worth a visit!  You can exit south to the forge or head north
+and follow the mountain road where it eventually leads into the depths of
+Mount Pyragard itself.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 39 }
+	to { s, 37 }
+	to { w, 28 }
+  }
+}
+
+37
+{
+  name { The Forge  }
+  desc {
+"   You are standing in what appears to be a giant forge.  Ironic as you
+are clearly in giant lands.  All around you is the clash of hammer on steel
+as the industry of war churns out it's produce.  But this is no ordinary
+forge.  Dark figures, shorter than a human, flitter from machine to anvil,
+press to trough, adjusting works, adding things to the mixes of molten metals
+that light up the building with an eerie orange glow.
+  }
+  sector { ship_deck }
+  flags { indoors }
+  exits {
+	to { n, 36 }
+	to { s, 38 }
+  }
+}
+
+38
+{
+  name { The Foundry  }
+  desc {
+"   Complimenting the forge to the north is the foundry, where ore dug from
+the depths of Mount Pyragard by the fire giants is turned in to the useful
+materials needed to make iron and steel.  The materials of war.  The heat in
+this place is oppressive.  Ugh.
+  }
+  sector { ship_deck }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+  }
+}
+
+39
+{
+  name { Mountain road  }
+  desc {
+"   This mountain road winds it way through the mountain passes and gorges
+giving you wonderful views of the snow capped mountain peak that towers above
+you.  Away to the south, the distant sound of hammering and industry can be
+heard.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 40 }
+	to { s, 36 }
+  }
+}
+
+40
+{
+  name { Mountain Pass  }
+  desc {
+"   You stand upon a mountain trail that leads off deep into the heart of the
+mountain.  To the northeast you can just about see the trail disappear around
+the corner of the mountain face.  To the south you see a well maintained 
+mountain road.
+  }
+  sector { Mountains }
+  exits {
+	to { s, 39 }
+	to { northeast, 41 }
+  }
+}
+
+41
+{
+  name { A Mountain Ledge  }
+  desc {
+"   You find yourself at the bottom of a small cliff face.  Above you there is
+a small ledge or plateau.  To the southwest a mountain trail leads on into the
+mountain valley.
+  }
+  sector { Mountains }
+  exits {
+	to { u, 42 }
+	to { southwest, 40 }
+  }
+}
+
+42
+{
+  name { Mountain Entrance  }
+  desc {
+"   You are standing at the top of a small cliff with an entrance in to the
+mountain to the north.  From this entrance issues a warm and scented breeze.
+Below you at the base of the cliff you can see a small mountain trail.  The
+entrance is sealed by a portcullis.  There seems to be no way around to get
+around it without a key.
+  }
+  sector { Mountains }
+  exits {
+	to { n, 44 }
+	  key { 16204 }
+      info { door, closed, autoclose, locked, autolock, pickproof }
+      keywords { portcullis }
+	to { d, 41 }
+  }
+}
+
+43
+{
+  name { A downward shaft  }
+  desc {
+"   You are standing above a large, circular shaft that has been built in to
+floor.  Although you can see nothing in the darkness below you, a fierce heat
+blows up from below as if driven on invisible air currents.  A wide, but crude,
+stair has been cut in to the side of the shaft, spiralling around and leading
+downwards.  To the south the light from the entrance is bright and welcoming.
+  }
+  flags { dark, indoors }
+  sector { cavern }
+  exits {
+	to { s, 44 }
+	to { d, 45 }
+  }
+}
+
+44
+{
+  name { Inside the Mountain }
+  desc {
+"   You are standing inside of Mount Pyragard itself.  Impressive enough on
+the outside, the inside is just wondrous; filled with rocks, pebbles, the
+odd dead insect.  You truly are an explorer like no-one before.  Remarkable
+how this hasn't all been named after you.  From the north the air is hot and
+dry, whilst to the south it tastes fresh and clean.  A portcullis, embedded
+in to the rock, prevents you leaving south.  Unless you have a key that is.
+  }
+  flags { dark }
+  sector { cavern }
+  exits {
+	to { n, 43 }
+	to { s, 42 }
+	  key { 16204 }
+	  info { door, closed, autoclose, locked, autolock, pickproof }
+	  keywords { portcullis }
+  }
+}
+
+45
+{
+  name { Bottom of the shaft  }
+  desc {
+"   You are standing at the bottom of a deep and roughly hewn shaft.  The air
+is stifling hot and the breeze is the merest hint of movement across your
+skin.  Aside from that there isn't much to see.  The walls are rock.  The
+ceiling is rock.  The floor is rock.  That might be a pebble over there,
+otherwise I think you'll find it's mostly rock.
+  }
+  flags { dark, indoors, private }
+  sector { cavern }
+  exits {
+	to { e, 46 }
+	to { u, 43 }
+  }
+}
+
+46
+{
+  name { A Hot Tunnel  }
+  desc {
+"   You are standing at the a turning in a stiflingly hot tunnel.  Away to
+the north you can make out the eerie red glow of flames.  The gentle, almost
+soothing hiss of flames can be heard.  But not much else.  There's a lot of
+rock around you, which is unsurprising as you are deep within the mountain
+known as Pyragard.
+  }
+  flags { dark, indoors, private }
+  sector { cavern }
+  exits {
+	to { n, 47 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { The Bridge of Flames  }
+  desc {
+"   A thin span of rock, no more than the width of an elven foot, bridges
+the gap here between the tunnel to the south and the complex of caves to
+the north.  Below, at least one hundred feet away, a river of lava flows,
+slow and thick like custard poured over a cake.  It wouldn't be a great
+idea to fall off here.
+  }
+  sector { Fire }
+  flags { private, indoors }
+  exits {
+	to { n, 48 }
+	to { s, 46 }
+  }
+}
+
+48
+{
+  name { The Fire Caves  }
+  desc {
+"   The fire caves, the home of the Fire Giants, the most terrible of all
+the giantkin that roam Mount Pyragard, the rocky valley, the thunderous
+cloudscape and the icy tundra waste.  The caves are man (or giant) made,
+hewn from the rock and smoothed over centuries of use.  You're sure to
+find something to endanger down here.
+  }
+  sector { cavern }
+  flags { indoors }
+  exits {
+	to { n, 49 }
+	to { s, 47 }
+  }
+}
+
+49
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   You are standing at a junction inside the fire caves of the fire
+giants--as unimaginative as that sounds.  There are amazingly no sign
+posts to help guide your way.  You can exit west, where a fiery glow
+warms the way, or east, where a fiery glow doesn't warm the way, or
+south, where yes, another fiery glow warms the way.  These options will
+of course help to narrow down your choices.  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { e, 51 }
+	to { s, 48 }
+	to { w, 60 }
+  }
+}
+
+50
+{
+  name { Sanctuary  }
+  desc {
+"   You are standing in a small but cool chamber that is too big to allow
+Tiamat to enter.  This is lucky for you.  Perhaps you can rest here and
+consider a way to get out without being eaten.
+  }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar, no_mob }
+  sector { cavern }
+  exits {
+    to { southeast, 59 }
+  }
+}
+
+51
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   You head east along the causeway being dazzled by the display of fire that
+erupts from the blow holes along the roadside, to light your way. Leaving
+you with brilliant after images as they subside. The road here continues to
+the east and also turns north. It is from the east that the sounds of anguish
+and torment you have heard since entering Pyragard seem to be emanating.
+  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { n, 52 }
+	to { e, 53 }
+	to { w, 49 }
+  }
+}
+
+52
+{
+  name { Inside the Fire Caves }
+  desc {
+"   You are standing in a tunnel inside the fire caves.  It is not exciting.
+To the south you can see that the tunnel branches off at a junction point and
+away to the north it turns east.  Oooh whatever will you decide to do.
+  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { n, 56 }
+	to { s, 51 }
+  }
+}
+
+53
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   The eastern end of the fire caves end here with a door leading south.
+However, the door is locked, barred and heavily fortified, no doubt forcing
+you to go and find a key from some obscure monster to open it with.  You can
+exit west.
+  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { s, 54 }
+	  key { 16205 }
+      info { door, closed, autoclose, locked, autolock, pickproof }
+      keywords { prison }
+	to { w, 51 }
+  }
+}
+
+54
+{
+  name { Inside this Prison  }
+  desc {
+"   This room is hot beyond belief.  The walls shimmer and waver with steam
+that rises from the floor.  Everything is burning.  Only a crude cut bench
+offers any prisoner in this place any kind of opportunity to sit and rest.
+You certainly wouldn't want to face a life-time in here, you'd be hard-
+boiled in a week.
+  }
+  sector { Fire }
+  flags { private, indoors }
+  exits {
+	to { n, 53 }
+	  key { 16205 }
+      info { door, closed, autoclose, locked, autolock, pickproof }
+      keywords { prison }
+  }
+}
+
+55
+{
+  name { Sanctuary  }
+  desc {
+"   You are standing in a small but cool chamber that is too big to allow
+Tiamat to enter.  This is lucky for you.  Perhaps you can rest here and
+consider a way to get out without being eaten.
+  }
+  flags { indoors, tunnel, private, fast_mana, fast_hit_points, fast_moves, blue_glow, evil_altar, good_altar, neutral_altar, no_mob }
+  sector { cavern }
+  exits {
+    to { southwest, 59 }
+  }
+}
+
+56
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   You are standing in a tunnel system inside the fire caves.  There's not
+much to see.  The tunnel heads off east and south.  Choices choices.
+  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { e, 57 }
+	to { s, 52 }
+  }
+}
+
+57
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   Interestingly enough you are in a tunnel.  Inside the fire caves.  What
+makes this any different to the myriad of other tunnels in the fire caves?
+Well now, I am glad you asked.  Away to the north you can make out a door.
+Or a dam.  It is huge, towering, beyond words to describe.  The tunnel widens
+like the top of a funnel, spreading outwards in a conical fashion.  That has
+to be a worth a look?
+  }
+  flags { private, indoors }
+  sector { cavern }
+  exits {
+	to { n, 58 }
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { Gates of Pyrax  }
+  desc {
+"   Legend tells that the Gates of Pyrax are the mythical boundary between
+this realm and the realms of the Gods.  If that is true, then you have stepped
+in to myth right here.  Before you a giant dam-like gate rises up over one
+hundred feet in to the air.  Hinges, so big they would dwarf a giant, almost
+seem to creak and groan at the effort of holding the doors, nay, the dam in
+place.  There seems to be no way of opening it to find out what is beyond...
+Shame.
+  }
+  sector { cavern }
+  flags { indoors }
+  exits {
+	to { n, 59 }
+	  key { 60004 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gates }
+	to { s, 57 }
+  }
+}
+
+59
+{
+  name { The Imprisonment of Tiamat  }
+  desc {
+"   You are standing in a giant, egg-shaped prison hewn from the rock.  Drow
+like runes and symbols burn, spit and blister upon every surface, even the
+floor itself, singeing your feet and sending shocks up your legs.  Five mighty
+chains have been anchored in to the walls at even intervals, each loop bigger
+than you will ever be, and they connect together to form a bond powerful enough
+to chain a Goddess.  This can only be the be place that Tiamat herself has been
+imprisoned.  Two alcoves, too small for Tiamat to enter, have been dug in to
+the northwest and northeast walls.  They may well offer sanctuary to any soul
+unfortunate enough to find themselves in this place.
+  }
+  flags { no_sum, no_magic, private }
+  sector { fire }
+  exits {
+	to { northwest, 50 }
+	to { northeast, 55 }
+  }
+}
+
+60
+{
+  name { Inside the Fire Caves  }
+  desc {
+"   You are standing at a turning inside the fire caves.  From here you can
+feel the hot blast of heat emanating from the north, where something special
+clearly happens.  The noise level is also rising, and you can hear the voice
+of giants from all around you.  Perhaps there is a hub of some kind away to
+the north?
+  }
+  flags { private }
+  sector { cavern }
+  exits {
+	to { n, 61 }
+	to { e, 49 }
+  }
+}
+
+61
+{
+  name { Rune Covered Chamber  }
+  desc {
+"   You stand within a large chamber lit by the glow of hundreds and thousands
+of red hot blistering runes that have been carved in to the walls.  No matter
+how hard you try you cannot decipher these runes.  One thing is for certain,
+they are Drow in origin.  Why and what for, we may never know.
+  }
+  flags { no_mob, no_sum, dispel_magic }
+  sector { cavern }
+  exits {
+	to { n, 62 }
+	to { s, 60 }
+  }
+}
+
+62
+{
+  name { The Throne of Fire  }
+  desc {
+This is the Throne of the Fire Giant King.  From here he (or sometimes a queen),
+rules the caves with a iron (or fire) fist.  Many tables and benches have been
+laid out, as if constant feasting and merry making takes place here.  And, as if
+you didn't guess, there is a place laid for someone not of giant size.  Behind
+the throne a series of the same blistering red hot runes forms another rune on
+the wall.
+  }
+  sector { Fire }
+  flags { no_magic, private }
+  exits {
+	to { s, 61 }
+  }
+}
+
+63
+{
+  name { Ice Crown  }
+  desc {
+"   You are standing inside a vast icy cavern inside a glacier.  Known only
+as 'Ice Crown', this giant hollow is the home of the Frost Giants and their
+Jarl.  From here the giants roam out in to the Tundra in search of prey and
+to guard their land from intruders.  A chair formed from jagged spears of
+ice dominates the northern end of the cave, a possible throne for a powerful
+Jarl?
+  }
+  sector { arctic }
+  flags { private, indoors, no_sum }
+  exits {
+	to { s, 18 }
+  }
+  extra {
+	keywords { throne ice chair spears }
+	desc { 
+"
+This is a chair formed from hundreds, if not thousands, of jagged, sharp
+shards of ice.  Anyone sitting on it is likely to get a sore bottom.
+
+"	}  
+  }
+}
+
+64
+{
+  name { The Eggy Chamber  }
+  desc {
+"   Eggs, eggs, eggs.  They are the size of your fist and they stretch
+around the whole of this room.  Clearly this is where Gnatt lays her
+eggs.  The air in here is fetid, foul, disgusting.  It's so full of
+moisture and sulphur that you could choke on the fumes!
+  }
+  sector { gas }
+  flags { private, indoors, no_sum }
+  exits {
+	to { 10, 34 }
+	info { message }
+	keywords { nest }
+  }
+  extra {
+  	keywords { _ex10 }
+  	desc {  "
+	
+#{yellow}You shimmy in to the crack and pop out who knows where!#{o}
+
+"   }  
+  }
+}
+
+65
+{
+  name { Upon the Cloud Tops  }
+  desc {
+"   You are standing on top of the clouds at the top of the valley.
+They are firm yet spongey beneath your feet and range in colour
+from dark grey to pale blue.  Soft wisps seem to break off and
+reattach even as you watch.  The clouds swirl out south and east
+of here, forming a vortex that curls back around to the north in
+an anti-clockwise motion.  The rest of the cloud-scape, and the
+valley floor, is obscured by the misty greyness.  You can also
+skip back over to the valley top if you're scared.
+  }
+  sector { cloud }
+  flags { private, no_sum, no_mob }
+  exits {
+	to { 10, 35 }
+	  info { message }
+	  keywords { valley }
+	to { southeast, 66 }
+  }
+  extra {
+  	keywords { _ex10 }
+  	desc {  "
+	
+#{cyan}You skip lightly back on to the valley top!#{o}
+
+"   }  
+  }
+}
+
+66
+{
+  name { Upon a Cloud  }
+  desc {
+"   You are standing on a thin stream of cloudy mist and vapour that
+somehow supports your enormous weight (har har).  The wisps of
+cloudy mist feel spongey but safe.  You can exit east and head
+further in to the swirling maelstrom that leads, eventually, to
+the thick black clouds at the centre or head west and towards
+the valley top.  But west is only for cowards - just so you
+know.
+  }
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { northwest, 65 }
+	to { e, 67 }
+  }  
+}
+
+67
+{
+  name { Upon a Cloud  }
+  desc {
+"   You float high in the sky like a bird on the wing.  And if it
+wasn't for the almost insubstantial wisp of cloud beneath your
+feet you'd surely be falling like a rock through the air.  At
+this point you can see the valley below, spread it like some
+sort of miniture model.  Ant-sized giants wander the paths and
+go about their mundane existence.  So the south you can even
+spy the distant fields of ice that mark the vast tundra of the
+ice giants.  But to the north all you can see is the swirling
+black maelstrom of the storm clouds.  You can exit east on to
+darker grey clouds or head west towards the valley top.
+  }
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { w, 66 }
+	to { e, 68 }
+  }  
+}
+
+68
+{
+  name { Upon a Dark Cloud  }
+  desc {
+"   You are standing on a dark grey cloud.  It feels spongey and
+bouncy underfoot.  Thin tendrils and wisps break away and 
+merge again, giving the feeling that this whole cloudscape
+is somehow a living thing.  The mire beneath your feet is
+too murky to see through and gaze at the valley below.  You
+can exit here and head west, towards the valley top, but
+you know in your heart that way is for losers.  Or you can
+exit northeast and head in to the swirling chaos at the very
+centre of the growing storm.
+
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { w, 67 }
+	to { northeast, 69 }
+  }  
+}
+
+69
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+"   You are standing on the very edge of a swirling maelstrom
+that flashes and growls angrily like a Goddess awoken from
+her slumber ten minutes too early with no sign of a coffee
+anywhere.  You can feel the rumble beneath you feet as it
+sends shock waves through the storm.  To the northwest the
+ground illuminates in bright strobes, each flash accompanied
+by a sinister crack of thunder.  It might be better to head
+back to the southwest and the safety of the valley top.  It's
+okay to be a coward.
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { southwest, 68 }
+	to { northwest, 75 }
+	to { n, 70 }
+  }  
+}
+
+70
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+
+"   This is the edge of the swirling storm that seems to be
+forever frozen above the valley.  Try as you might, you can't
+seem to leap off to your death so I'd stop if I were you.  To
+the west and northwest the clouds become more dense and dark,
+angrier in a way.  Lightning flashes here and there and the
+crash of thunder is loud in your ears.  You can exit to the
+southwest and toward the valley top, leaving this cloud scape
+like a running coward, or head west or northwest, further in
+to the maelstrom. 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { s, 69 }
+	to { northwest, 71 }
+	to { w, 75 }
+  }  
+}
+
+71
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+
+"   You are standing on the northern edge of a swirling mass
+of storm clouds.  Lightning and thunder rage all around you,
+filling the air with the taste of tin.  To the southwest the
+eye of the storm is hidden by a shroud of mist that can only
+be penetrated by walking through it.  You could do that, or
+you could move along the edge of the storm as you see fit.  No
+one would call you a coward for leaving this place... 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { southwest, 76 }
+	to { w, 72 }
+	to { s, 75 }
+	to { southeast, 70 }
+  }  
+}
+
+72
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+
+"   You are standing on the northwestern edge of a swirling
+storm.  Insubstantial storm clouds, dark and heavy with rain
+the promise of destruction, are all that hold you up in this
+place.  The eye of the storm is directly south of you.  You
+can also exit southwest, east or southeast as you see fit. 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { southwest, 73 }
+	to { e, 71 }
+	to { s, 76 }
+	to { southeast, 75 }
+  }  
+}
+
+73
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+
+"   You are perched on the very western edge of a swirling mass
+of storm clouds that swirl anti-clockwise above the rocky valley
+below.  The air is filled with the crash of thunder and the flashes
+of lightning, leaving the air tasting metallic and tangy, as if you
+have been licking tin and chewing on wool.  The eye of the storm
+lies directly to the east of you, obscured by thick mists.  The
+edges of the maelstrom spread out southwest and northwest. 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { southeast, 74 }
+	to { e, 76 }
+	to { northeast, 72 }
+  }  
+}
+
+74
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+"   You are standing on the very edge of a swirling chaotic storm
+that rages above the stony valley of giants below you.  The clouds
+are spongey and springy under your feet yet the moisture they hold
+still manages to soak your toes.  This is no place to be standing
+around idly enjoying the views.  Away to the south, far out of range
+for a leap, the tethering, fluffy trail of the storm seems hooked to
+the valley tops somehow whilst to the north the eye of the storm is
+obscured by thick mists. 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { northwest, 73 }
+	to { northeast, 75 }
+	to { n, 76 }
+  }  
+}
+
+75
+{
+  name { Edge of The Swirling Storm  }
+  desc {
+"   The clouds rush beneath your feet here, being sucked from the
+southwest before being flung east towards the eye of the storm. 
+You cannot penetrate the eye, but darker shadows seem to move within
+it, as if it is alive in some way... 
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { n, 71 }
+	to { northwest, 72 }
+	to { w, 76 }
+	to { southwest, 74 }
+	to { southeast, 69 }
+	to { e, 70 }
+  }  
+}
+
+76
+{
+  name { In the Eye of the Storm  }
+  desc {
+"   You are standing in the eye of the storm.  Everything is calm in
+here, the wind is silent, the thunder a long forgotten memory, the
+lightning a mere atmospheric glow.  All around you can see the mists
+that enclose this place, that protect it and keep it secret.  Below
+your feet is nothing but air.  And yet you can walk on it just fine.
+In the centre of the eye a dias of bright, glowing, fluffy cloud
+rises in to a throne-like shape...
+}
+  sector { cloud }
+  flags { private, no_sum }
+  exits {
+	to { n, 72 }
+	to { w, 73 }
+	to { s, 74 }
+	to { e, 75 }
+	to { northeast, 71 }
+  }  
+}
+
+
+77
+{
+  name { Inside a Roundhouse  }
+  desc {
+"   You are standing inside a roundhouse on the valley road in the mountain
+stronghold known as Pyragard.  Whomever, or whatever, lives here is a slob.
+The dishes are unwashed and discarded over the floor.  Dirty, used clothing
+is spread about and acts like a treacherous (and possibly sticky) carpet.
+Yuck.  Why would you want to live in a place like this?  There isn't even
+a window to let that awful smell out.  Gah!  You can exit back through the
+opening to the valley road.
+  }
+  sector { ship_deck }
+  flags { indoors }
+  exits {
+	to { 10, 28 }
+	  keywords { opening }
+  }
+}

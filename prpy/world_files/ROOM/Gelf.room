@@ -1,0 +1,397 @@
+#offset Gelf
+
+0
+{
+  name { Inside A Skexie Fireplace  }
+  desc {
+"   This is the inside of a huge fireplace. Tucked deep in one corner, not
+visible from the outside, is a small hole, about 2 feet in diameter. In the
+soot you see the tracks of a humanoid. Someone lives down there!
+  }
+  extra {
+	keywords { tracks }
+	desc { 
+"   These tracks look like they were made by someone about 4 feet tall,
+weighing maybe  close to 100 pounds.
+	}
+  }
+  exits {
+	to { e, SkexiePalace:15 }
+	to { 10, 1 }
+	  keywords { fireplace }
+  }
+}
+
+1
+{
+  name { A Huge Slide  }
+  desc {
+"   You found your way to a large slide and took the plunge down into the
+darkness. The slide is small, barely enough for your derriere, it is smooth and
+cold. It is made of a strong metal, and is of sturdy construction. This was
+definitely not built by the Skexies.
+  }
+  flags { no_mob }
+  tele { 30, 1, 2 }
+  exits {
+	to { d, 2 }
+  }
+}
+
+2
+{
+  name { On A Huge Slide  }
+  desc {
+"   You are approaching the end of the slide. Brace yourself for impact!
+  }
+  tele { 30, 1, 3 }
+  exits {
+	to { d, 3 }
+  }
+}
+
+3
+{
+  name { The Bottom of the Slide  }
+  desc {
+"    THUD! You have reached the bottom of the slide. Your butt hurts a bit.
+The smell of the Skexie Palace has dissipated. You are in a large cavern.
+You shiver with cold. The temperature has easily dropped 50 degrees. There
+is the sound of socializing and talking to the west. There are also three
+signs on the wall. The first is labeled "Notes", the second is labeled
+"Traps", and the last is labeled "Kills". The slide you traveled down
+has springs which caused the slide to receed back up into the ceiling.
+Too bad......You're stuck.
+  }
+  extra {
+	keywords { kills }
+	desc { 
+"    The sign reads:
+                              K I L L S
+
+    I killed a Skexie Guard today! Hooray!
+                                                   Thrack
+
+    I slashed a Mantern while he waited on the Balcony!
+                                                   Gilkey
+
+    I massacred a Skexie maiden in the powder room! Blood everywhere!
+                                                   Haag
+	}
+	keywords { notes }
+	desc { 
+"   The sign reads:
+
+                               N O T E S
+
+         Dasillea should know that I wont be coming home for dinner.
+                                                        Thrack
+
+         I learned to carve ice spikes today!
+                                                        Gilkey
+
+         It's hard to be humble when you are perfect in every way!
+                                                        Haag
+	}
+  }
+  exits {
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { The Gelfling Meeting Room  }
+  desc {
+"   This room is large. The walls are entirely natural. You are in a damp cave
+environment. There are tables and chairs everywhere. There is a board here
+with a large diagram on it. There are exits in all directions.
+  }
+  extra {
+	keywords { large }
+	desc { 
+"   Z <---              The Palace of the Skexies
+
+                    The Challenge _ Directions Room
+                                 |_|
+          _   _   _   _   _   _   [   _   _   _
+         |3|-|6| |9| |c| |f| |i| |l| |o| |r| |u|
+      _   [   [   [   [   [   [   [   [   [   [
+Ent  |1|-|2|-|5|-|8|-|b|-|e|-|h|-|k|-|n|-|q|-|t|-?
+rance     |   |   |   |   |   |   |   |   |   |
+         |4|-|7| |a| |d| |g| |j| |m| |p| |s| |v|
+                                  |
+                                 |_|
+                         The Skexie Quarters
+	}
+	keywords { board }
+	desc { 
+"    Z <---              The Palace of the Skexies
+
+                       The Skexie _ Quarters
+                                 |_|
+          _   _   _   _   _   _   [   _   _   _
+         |3|-|6| |9| |c| |f| |i| |l| |o| |r| |u|
+      _   [   [   [   [   [   [   [   [   [   [
+Ent  |1|-|2|-|5|-|8|-|b|-|e|-|h|-|k|-|n|-|q|-|t|-?
+rance     |   |   |   |   |   |   |   |   |   |
+         |4|-|7| |a| |d| |g| |j| |m| |p| |s| |v|
+                                  |
+                                 |_|
+                    The Challenge Directions Room
+	}
+  }
+  exits {
+	to { n, 30 }
+	to { e, 3 }
+	to { s, 20 }
+	to { w, 10 }
+  }
+}
+
+10
+{
+  name { The Gelfling Cleric's Abode  }
+  desc {
+A Gelfling cleric lives in this room. The rough cave walls are lined with
+ritualistic symbols, and other artifacts. A mat lies in one corner, presumably
+where the cleric sleeps. The Gelfling visit the cleric to seek counsel and
+healing.
+  }
+  exits {
+	to { e, 4 }
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { An Unused Gelfling Cave  }
+  desc {
+"   This room has not been cleared of stalactites or stalagmites. The ground is
+muddy and the room is especially cold. Drawings decorate the small cave area.
+This room seems to get little use. A white line is drawn on the floor. Beyond
+which you are not recommended to go.
+  }
+  extra {
+	keywords { drawing }
+	desc { 
+"   These drawings show a Gelfling  massacring Skexies right and left.
+   There is also a message on the wall:
+
+   Leave Mehkar alone. Do not cross the white line.
+	}
+	keywords { drawings }
+	desc { 
+"   These drawings show a Gelfling  massacring Skexies right and left.
+   There is also a message on the wall:
+
+   Leave Mehkar alone. Do not cross  the white line.
+	}
+  }
+  exits {
+	to { n, 13 }
+	to { e, 10 }
+	to { s, 14 }
+	to { d, 12 }
+  }
+}
+
+12
+{
+  name { The Mad Gelfling's Lair  }
+  desc {
+"   One mean, crazy Gelfling lives here. There is a huge mess. Nothing like
+you have ever seen. The walls have been sanded down. Straw padding lines the
+wall. You have a sudden urge to throw yourself against the wall. You change
+your mind just in time.
+  }
+  exits {
+	to { u, 11 }
+  }
+}
+
+13
+{
+  name { The Home of Gilkey the Gelfling  }
+  desc {
+"   This is the home of Gilkey. Gilkey is a well known warrior among the
+Gelfling.  The cave has been decorated with an unusual rug. Braziers light
+the room to a dim level. White silk covers the ceiling. Water drips from the
+silk cover into a large bowl. It makes for an interesting waterfall of sorts.
+  }
+  exits {
+	to { s, 11 }
+  }
+}
+
+14
+{
+  name { The Gelfling Weapons Factory  }
+  desc {
+"   This is where all the Gelfling weapons and traps are made. Various
+projects in various stages of completion are being worked on. Several look
+quite dangerous (spikes and wires etc.) There are metal working instruments
+about, and a large forge with attached billows for crafting weapons. The heat
+makes for a comfortable environment.
+  }
+  exits {
+	to { n, 11 }
+  }
+}
+
+20
+{
+  name { A Gelfling Hallway  }
+  desc {
+"   To the west you see the start of various slides. That is the must be the
+transportation system for the Gelfling.  A cave hallway continues to the
+south. There is little or nothing of consequence in the nearby area.
+  }
+  exits {
+	to { n, 4 }
+	to { e, 21 }
+	to { s, 25 }
+	to { w, SkexieChallenge:0 }
+  }
+}
+
+21
+{
+  name { The Gelfling Playroom  }
+  desc {
+"   Toys of fake weapons are scattered about the room. There are ugly Skexie
+dolls, and beautiful Gelfling  warrior dolls. There is an old tree stump in
+the room, where young Gelfling  often stand and practicing their balancing.
+The cave walls are sanded. Straw mats cover the rooms floor.
+  }
+  exits {
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { The Gelfling Armory  }
+  desc {
+"   This is where all the Gelfling protective gear is made. A huge forge and
+billows heats metal to white-hot, then the blacksmith pounds and shapes the
+armor. A massive anvil is near the forge, as well as a large barrel of
+water for cooling finished products.
+  }
+  exits {
+	to { e, 25 }
+  }
+}
+
+23
+{
+  name { The Gelfling Leather Shop  }
+  desc {
+"   This is where all the Gelfling leather gear is made. The items include
+boots, caps, gloves, bags, and other leather products. The Gefling secret
+is to use the cold treated hide of a Skexie. Unfortunately, the Gefling do
+not sell their goods to outsiders.
+  }
+  exits {
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { A Gelfling Hallway  }
+  desc {
+The hallway ends here with small passages to the East and West. The smell
+of leather emanates from the East, and clanking sounds can be heared to
+the West.
+  }
+  exits {
+	to { n, 20 }
+	to { e, 23 }
+	to { w, 22 }
+  }
+}
+
+30
+{
+  name { The Gelfling Warrior's Guild  }
+  desc {
+"   This is the meeting place for the Gefling Warriors. There are diagrams
+on the wall. There are braziers maintaining dim light in the cave atmosphere.
+Several cases line the walls filled with weapons of many types.
+  }
+  extra {
+	keywords { diagram }
+	desc { 
+"   These diagrams show the weak spots in the Skexie anatomy. The Gelfling
+are apparently learning the best way to kill Skexie.
+
+ed ext diagrams
+   These diagrams show the weak spots in the Skexie anatomy. The Gelfling
+are apparently learning the best way to kill Skexie.
+	}
+  }
+  exits {
+	to { n, 31 }
+	to { s, 4 }
+  }
+}
+
+31
+{
+  name { A Gefling Cave  }
+  desc {
+"   This is a huge cave. The walls are lined with bunk beds. This is the group
+sleeping area for the Gelfling. There is a large pit in the center which
+harbors a fire. The fire has burnt down to only the embers. The chamber is
+warm by Gelfling standards....a blazing 40 degrees F.
+  }
+  exits {
+	to { n, 34 }
+	to { e, 33 }
+	to { s, 30 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { A Gelfling Ice Pool  }
+  desc {
+"   Yikes! You have wandered into a cold subterannean pool. This is the bathing
+room for the Gelfling. The pool is a wonderfully refreshing 35 degrees F!
+You feel sick as the cold water splashes against your skin. You scream out in
+pain....No sound comes out.
+  }
+  exits {
+	to { e, 31 }
+  }
+}
+
+33
+{
+  name { The Gelfling Kitchen  }
+  desc {
+"   This room is small. There is a hearth which warms the room to a refreshing
+70 degrees F. Finally, a break from the harsh cold. This is where food is
+prepared. The Gelfling do their best to avoid the room when possible. The
+heat is dreadful!
+  }
+  exits {
+	to { w, 31 }
+  }
+}
+
+34
+{
+  name { The Gelfling Cold Chamber  }
+  desc {
+"   This is where the Gelfling choose to relax. The room is a relaxing 10
+degrees. Fans blow to cool the room. Tables lie nearby where games can be
+played.
+  }
+  exits {
+	to { s, 31 }
+  }
+}

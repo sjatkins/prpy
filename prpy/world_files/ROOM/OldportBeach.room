@@ -1,0 +1,6122 @@
+#offset OldportBeach
+0
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side is a majestic sight to behold.  You can
+see out over the ocean surrounding Pharsica for miles.  The crashing waves
+of the sea slam and explode into the side of the cliff far below.  It looks
+like a long drop from here to the sea below.  The trail along the cliff side
+continues to the southeast.  The Shoal Narrows of Oldport can be found through
+the gates to the west.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+	to { west, OldPort:50 }
+	to { southeast, 1 }
+  }
+}
+
+1
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side continues to the south and northwest.  The
+tall stone walls surrounding the city of Oldport tower above you.  Looking out
+to the east and across the ocean surrounding Pharsica, it is truly a beautiful
+sight to behold.  The waters are still a ways down, but you can see the waves
+cresting and foaming from here.  The cliff face below takes quite a beating
+from the continual crashing of the relentless ocean.  Thankfully the resilient 
+rock seems up to the battle.
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { s, 2 }
+	to { northwest, 0 }
+  }
+}
+
+2
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side continues to the north and southwest.  The
+tall stone walls surrounding the city of Oldport tower above you.  Looking out
+to the east and across the ocean surrounding Pharsica, it is truly a beautiful
+sight to behold.  The waters are still a ways down, but you can see the waves
+cresting and foaming from here.  The cliff face below takes quite a beating
+from the continual crashing of the relentless ocean.  Thankfully the resilient 
+rock seems up to the battle.
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { n, 1 }
+	to { southwest, 3 }
+  }
+}
+
+3
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side continues to the northeast and southwest.
+You cling tightly to the cliff side, hoping not fall of the ledge and plunge
+into the ocean below.  It is still quite a ways down to the water from here.
+The ocean surrounding Pharsica is truly beautiful from here.  It goes all the
+way out to meet the horizon.  Looking up the cliff face, you can see the 
+stone walls surrounding the city of Oldport climb to the heavens.  The city
+looks very well fortified from here.
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { northeast, 2 }
+	to { southwest, 4 }
+  }
+}
+
+4
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side continues to the northeast and also takes
+a scary dip down from here.  It looks like about a ten foot climb down from
+here.  You better climb down carefully or you might wind up splashing into
+the ocean below.  That would be quite a drop!
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { d, 5 }
+	to { northeast, 3 }
+  }
+}
+
+5
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   There is a short climb up the trail along the cliff side from here.  It
+looks like it is only about ten feet or so.  You better hold your grip
+tight so that you do now tumble down the cliff face and into the sea below.
+The trail along the cliff side continues to the south.
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { s, 6 }
+	to { u, 4 }
+  }
+}
+
+6
+{
+  name { A Trail Along the Cliff Side  }
+  desc {
+"   The trail along the cliff side comes to an end and gives way to the start
+of some sand dunes to the southeast.  The sand looks soft and inviting.  You
+can almost feel the warmth of the sun emanating from the sand from here.  The
+waves of the ocean surrounding Pharsica splash against the sides of the cliff
+face and spray clouds of sea water directly in your face.  Smiling up at the
+hot sun above, the misty refresher from the sea is a welcome change.
+  }
+  sector { Mountains }
+  flags { mapable }
+  exits {
+	to { n, 5 }
+	to { southeast, 7 }
+  }
+}
+
+7
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet.  Your only
+instinct is to take off your boots and sink your toes deep in the undoubtedly 
+warm sand.  The strong smell of salt water drifts through the air the closer
+you get to the water.  Walking towards the end of the sand to the east, it
+would not be a long jump into the water from here.  However, the waters look
+entire to dangerous, as the rolling waves crash into the sand with an explosion
+of water.  Looking up the cliff side to the west, you can see the towering
+walls surrounding the city of Oldport.  That place appears to be well fortified!
+The beach continues to the southwest while the path around the cliff can be
+found to the northwest.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { southwest, 8 }
+	to { northwest, 6 }
+  }
+}
+
+8
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet as you walk
+along the path towards the water.  You could think of nothing better than to
+rip off your boots and plunging your toes and feet deep within the warm sand.
+Reaching down to touch the sand, you see shells in whole and some crushed to
+pieces.  The outskirts of the sand are blocked off by thick patches of weeds
+and cattails.  It would be impossible to get into the water of the ocean
+surrounding Pharsica from here.  Looking up into the sky, you can see seagulls
+starting to circle high above.  There must be people or at least food fairly
+close to here.  The sandy path through the beach continues to the northeast
+and southwest.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { northeast, 7 }
+	to { southwest, 9 }
+  }
+}
+
+9
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet as you walk
+along the path towards the water.  You could think of nothing better than to
+rip off your boots and plunging your toes and feet deep within the warm sand.
+Reaching down to touch the sand, you see shells in whole and some crushed to
+pieces.  The outskirts of the sand are blocked off by thick patches of weeds
+and cattails.  It would be impossible to get into the water of the ocean
+surrounding Pharsica from here.  Looking up into the sky, you can see seagulls
+starting to circle high above.  There must be people or at least food fairly
+close to here.  The sandy path through the beach continues to the northeast
+and southwest.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { northeast, 8 }
+	to { southwest, 10 }
+  }
+}
+
+10
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet as you walk
+along the path towards the water.  You could think of nothing better than to
+rip off your boots and plunging your toes and feet deep within the warm sand.
+Reaching down to touch the sand, you see shells in whole and some crushed to
+pieces.  The outskirts of the sand are blocked off by thick patches of weeds
+and cattails.  It would be impossible to get into the water of the ocean
+surrounding Pharsica from here.  Looking up into the sky, you can see seagulls
+starting to circle high above.  There must be people or at least food fairly
+close to here.  The sandy path through the beach continues to the northeast
+and southeast.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { northeast, 9 }
+	to { southeast, 11 }
+  }
+}
+
+11
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet as you walk
+along the path towards the water.  You could think of nothing better than to
+rip off your boots and plunging your toes and feet deep within the warm sand.
+Reaching down to touch the sand, you see shells in whole and some crushed to
+pieces.  The outskirts of the sand are blocked off by thick patches of weeds
+and cattails.  It would be impossible to get into the water of the ocean
+surrounding Pharsica from here.  Looking up into the sky, you can see seagulls
+starting to circle high above.  There must be people or at least food fairly
+close to here.  The sandy path through the beach continues to the northwest
+and southeast.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { southeast, 12 }
+	to { northwest, 10 }
+  }
+}
+
+12
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The soft sand of the beach immediately sinks beneath your feet as you walk
+along the path towards the water.  You could think of nothing better than to
+rip off your boots and plunging your toes and feet deep within the warm sand.
+Reaching down to touch the sand, you see shells in whole and some crushed to
+pieces.  The outskirts of the sand are blocked off by thick patches of weeds
+and cattails.  It would be impossible to get into the water of the ocean
+surrounding Pharsica from here.  Looking up into the sky, you can see seagulls
+starting to circle high above.  There must be people or at least food fairly
+close to here.  The sandy path through the beach continues to the northwest
+and southwest.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { southwest, 13 }
+	to { northwest, 11 }
+  }
+}
+
+13
+{
+  name { A Path Through the Sand  }
+  desc {
+"   The full beach is finally in sight to the south.  The beach area is huge!
+It looks like it goes on for a mile at least.  It looks like there are a ton
+of people all along the beach, enjoying themselves and relaxing under the
+radiant sun.  Maybe you should go join them!  The sandy path through the
+beach continues to the south and norhteast.
+  }
+  sector { Desert }
+  flags { no_mob }
+  exits {
+	to { s, 15 }
+	to { northeast, 12 }
+  }
+}
+
+14
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites growing
+up from the floor.  It is obvious that this place has been here a long time. 
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  There is a mass of vines covering the wall to the south.  It looks
+like you can open the vines just like a sheet of curtains.  The tunnel through
+the mountain continues to the north.
+  }
+  sector { Mountains }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 81 }
+	to { s, 23 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { vines }
+  }
+}
+
+15
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is teeming with life and energy.  There are beach goer's camped
+out and walking all throughout the soft warm sand of the beach.  It looks like
+a perfect day to take off all your armor, whip out a towel and relax along the
+beach with them.  The sounds of seagulls squawking high above pierce your ears
+as they circle the beach looking for their next meal.  The salty smell of the
+ocean water is getting stronger the further you move along the beach.  The end of
+the beach and entry to the water is a ways off to the south.  The sandy beach
+continues to the west, south and east.  A sandy trail along the cliff face
+can be found directly to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 13 }
+	to { e, 16 }
+	to { s, 29 }
+	to { w, 17 }
+  }
+}
+
+16
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach comes to an abrupt end in a small alcove.  The weeds and cattails
+have completely blocked any kind of access to the ocean surrounding Pharsica to
+the east.  Looking out over the ocean, it is a breath-taking sight to behold.
+You can see all the way to the horizon from here.  It looks completely serene
+and blissful.  The sand beneath your feet is soft and warm.  You can even feel
+the heat through your boots.  It would probably feel great just to take off
+your boots and sink your toes deep into the sand.  The sandy beach continues
+to the west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { w, 15 }
+  }
+}
+
+17
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 15 }
+	to { s, 30 }
+	to { w, 18 }
+  }
+}
+
+18
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 17 }
+	to { s, 31 }
+	to { w, 19 }
+  }
+}
+
+19
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 18 }
+	to { s, 32 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 19 }
+	to { s, 33 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 20 }
+	to { s, 34 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 21 }
+	to { s, 35 }
+	to { w, 23 }
+  }
+}
+
+23
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  This section of vines looks
+a little different from the others.  It is like a curtain of vines covers
+this part of the cliff face, almost begging to be opened.  How strange.
+Flowers of assorted colors bloom all along the vines.  They really are quite
+lovely and smell very fragrant.  Looking far up the cliff face, you can see
+the strong and mighty walls surrounding the city of Oldport.  That place looks
+pretty impenetrable from here.  The sandy beach continues to the west, south 
+and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 14 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { vines }
+	to { e, 22 }
+	to { s, 36 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 23 }
+	to { s, 37 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 24 }
+	to { s, 38 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 25 }
+	to { s, 39 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop at the cliff face.  The cliff looks
+extremely rigid and steep, impossible to climb from here.  There are vibrant
+green vines growing all the way up the mountain.  Flowers of assorted colors
+bloom all along the vines.  Grabbing onto the vines to see if they might
+help you climb up the cliff face, they simply break off and fall limp into
+your hand.  Looking far up the cliff face, you can see the strong and mighty
+walls surrounding the city of Oldport.  That place looks pretty impenetrable 
+from here.  The sandy beach continues to the west, south and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 26 }
+	to { s, 40 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { Beneath the Cliff Face  }
+  desc {
+"   The beach comes to a sudden stop to the north, west and south.  The cliff
+face that supports the city of Oldport lies directly tot he north.  Looking
+up to the top of the cliff, you can see gigantic and strong looking walls
+defending Oldport.  They look to be nearly impenetrable from here.  The
+west and south are blocked by some tall and pretty cattails and weeds.  You
+can look out over the weeds to see the ocean surrounding Pharsica.  It seems
+to go out to meet the horizon.  The sandy beach continues to the east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 27 }
+  }
+}
+
+29
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is lively with excitement and fun.  You can see beach goer's
+having their time in almost every corner of the beach.  This place is packed!
+The large cliff holding up the city of Oldport can be found a short distance
+to the northwest.  There are some tall and pretty cattails and weeds blocking
+any further movement to the east and south.  You can look out over the weeds
+to see the ocean surrounding the island of Pharsica.  It seems to go out to
+meet the horizon.  The sandy beach continues to the north and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 15 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 17 }
+	to { e, 29 }
+	to { s, 41 }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 18 }
+	to { e, 30 }
+	to { s, 42 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 19 }
+	to { e, 31 }
+	to { s, 43 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 20 }
+	to { e, 32 }
+	to { s, 44 }
+	to { w, 34 }
+  }
+}
+
+34
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 21 }
+	to { e, 33 }
+	to { s, 45 }
+	to { w, 35 }
+  }
+}
+
+35
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 22 }
+	to { e, 34 }
+	to { s, 46 }
+	to { w, 36 }
+  }
+}
+
+36
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 23 }
+	to { e, 35 }
+	to { s, 47 }
+	to { w, 37 }
+  }
+}
+
+37
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 24 }
+	to { e, 36 }
+	to { s, 48 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 25 }
+	to { e, 37 }
+	to { s, 49 }
+	to { w, 39 }
+  }
+}
+
+39
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is jumping with fun and excitement in every direction.  You can
+see people relaxing, sunning, laughing and generally having a good time in
+nearly every corner of the beach.  This place is packed.  The large cliff
+holding up the city of Oldport can be found a short distance to the north.
+The sounds of sea gulls squawking can be heard high above you in the air.
+They seem to be circling, hoping the someone will drop a scrap of food
+for them to grab.  The sandy beach continues to the north, east, south
+and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 26 }
+	to { e, 38 }
+	to { s, 50 }
+	to { w, 40 }
+  }
+}
+
+40
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach is lively with excitement and fun.  You can see beach goer's
+having their time in almost every corner of the beach.  This place is packed!
+The large cliff holding up the city of Oldport can be found a short distance
+to the north.  There are some tall and pretty cattails and weeds blocking
+any further movement to the west and south.  You can look out over the weeds
+to see the ocean surrounding the island of Pharsica.  It seems to go out to
+meet the horizon.  The sandy beach continues to the east and north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 27 }
+	to { e, 39 }
+  }
+}
+
+41
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is brimming with joy and excitement in every direction.  No
+matter where you look there are people sunning, laughing, relaxing and generally
+having a really great time.  This beach is packed to the hilts!  Looking to
+the north, you can see the large cliff supporting the city of Oldport.  Even
+from here the cliff looks huge and it is still a good distance to the north.
+There are patches of cattails and weeds blocking any access to the east.  You
+can look out over the weeds and see the ocean surrounding the island of Pharsica.
+The ocean seems to go our forever, it tries to embrace the horizon like good
+friends.  The sandy beach continues to the north, west and south.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 30 }
+	to { s, 51 }
+	to { w, 42 }
+  }
+}
+
+42
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 31 }
+	to { e, 41 }
+	to { s, 53 }
+	to { w, 43 }
+  }
+}
+
+43
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 32 }
+	to { e, 42 }
+	to { s, 54 }
+	to { w, 44 }
+  }
+}
+
+44
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 33 }
+	to { e, 43 }
+	to { s, 55 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 34 }
+	to { e, 44 }
+	to { s, 56 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 35 }
+	to { e, 45 }
+	to { s, 57 }
+	to { w, 47 }
+  }
+}
+
+47
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 36 }
+	to { e, 46 }
+	to { s, 58 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 37 }
+	to { e, 47 }
+	to { s, 59 }
+	to { w, 49 }
+  }
+}
+
+49
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Geez, this beach is packed today.  It seems that you cannot take a few steps
+without stepping on someone or something.  The beach goer's are having the time
+of their lives.  They are all laughing, sunning, relaxing and generally enjoying
+themselves.  Looking up in the sky, you can see sea gulls flapping their wings
+through the air.  They circle the beach like vultures, hoping one of the beach
+goer's will drop a morsel of food.  Animals!  The gigantic cliff holding up
+the city of Oldport just a short distance to the north.  The ocean surrounding
+Pharsica can be walked into in the distance to the south.  The sandy beach
+continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 38 }
+	to { e, 48 }
+	to { s, 60 }
+	to { w, 50 }
+  }
+}
+
+50
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is brimming with joy and excitement in every direction.  No
+matter where you look there are people sunning, laughing, relaxing and generally
+having a really great time.  This beach is packed to the hilts!  Looking to
+the north, you can see the large cliff supporting the city of Oldport.  Even
+from here the cliff looks huge and it is still a good distance to the north.
+There are patches of cattails and weeds blocking any access to the west.  You
+can look out over the weeds and see the ocean surrounding the island of Pharsica.
+The ocean seems to go our forever, it tries to embrace the horizon like good
+friends.  The sandy beach continues to the north, east and south.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 39 }
+	to { e, 49 }
+	to { s, 61 }
+  }
+}
+
+51
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 41 }
+	to { e, 52 }
+	to { s, 63 }
+	to { w, 53 }
+  }
+}
+
+52
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach comes to an end in a quiet alcove.  The sand dunes rise from the
+beach and block any further travel to the east.  Covered in lovely cattails and
+annoying weeds, the sand dunes can be climbed a ways to see over the ocean
+surrounding Pharsica.  The excitement and sounds people enjoying the beach
+can be heard coming from the west.  Perhaps you should join them!
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { w, 51 }
+  }
+}
+
+53
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 42 }
+	to { e, 51 }
+	to { s, 64 }
+	to { w, 54 }
+  }
+}
+
+54
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 43 }
+	to { e, 53 }
+	to { s, 65 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 44 }
+	to { e, 54 }
+	to { s, 66 }
+	to { w, 56 }
+  }
+}
+
+56
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 45 }
+	to { e, 55 }
+	to { s, 67 }
+	to { w, 57 }
+  }
+}
+
+57
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 46 }
+	to { e, 56 }
+	to { s, 68 }
+	to { w, 58 }
+  }
+}
+
+58
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 47 }
+	to { e, 57 }
+	to { s, 69 }
+	to { w, 59 }
+  }
+}
+
+59
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 48 }
+	to { e, 58 }
+	to { s, 70 }
+	to { w, 60 }
+  }
+}
+
+60
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 49 }
+	to { e, 59 }
+	to { s, 71 }
+	to { w, 61 }
+  }
+}
+
+61
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach is covered with people, blankets and umbrellas.  The beach
+goer's all seem to be having the time of their lives.  You have never seen
+larger smiles or heard louder laughs coming from all over the beach.  Loud
+squawking from the sky forces you to look up.  The sky is covered in sea gulls 
+circling the beach like giant vultures.  Random gulls swoop down from the sky
+every now and again, scooping up any piece of food someone has dropped in the sand.
+The radiant sun beams are getting so hot that all you want to do is run further
+south to the end of the beach and jump in the refreshing water.  Sounds like
+a good plan.  Looking in the distance to the north, the gigantic cliffs
+supporting Oldport reach up into the sky.  The sandy beach continues to the
+north, south, east and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 50 }
+	to { e, 60 }
+	to { s, 72 }
+	to { w, 62 }
+  }
+}
+
+62
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The beach comes to an end in a quiet alcove.  The sand dunes rise from the
+beach and block any further travel to the west.  Covered in lovely cattails and
+annoying weeds, the sand dunes can be climbed a ways to see over the ocean
+surrounding Pharsica.  The excitement and sounds people enjoying the beach
+can be heard coming from the east.  Perhaps you should join them!
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { e, 61 }
+  }
+}
+
+63
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Large sand dunes rise from the beach and block any further travel to the
+east and south.  The sand dunes are covered in lovely cattails and clumpy
+weeds that only add to the atheistic of the beach.  Climbing up the dunes 
+a short way, you can look out over the ocean surrounding Pharsica.  It is
+truly a beautiful sight to behold.  The ocean flows all the way to the horizon
+and folds into its embrace.  The joyful and excited sounds of the beach goer's
+can be heard coming from the north and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 51 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 53 }
+	to { e, 63 }
+	to { s, 73 }
+	to { w, 65 }
+  }
+}
+
+65
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 54 }
+	to { e, 64 }
+	to { s, 74 }
+	to { w, 66 }
+  }
+}
+
+66
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 55 }
+	to { e, 65 }
+	to { s, 75 }
+	to { w, 67 }
+  }
+}
+
+67
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 56 }
+	to { e, 66 }
+	to { s, 76 }
+	to { w, 68 }
+  }
+}
+
+68
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 57 }
+	to { e, 67 }
+	to { s, 77 }
+	to { w, 69 }
+  }
+}
+
+69
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 58 }
+	to { e, 68 }
+	to { s, 78 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 59 }
+	to { e, 69 }
+	to { s, 79 }
+	to { w, 71 }
+  }
+}
+
+71
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The sandy beach has never seen a busier day in its long existence.  Every
+inch of the beach is covered in people, blankets and large beach umbrellas.
+All the beach goer's seem to be having the times of their lives.  You have
+never seen people having more fun or enjoying themselves relaxing.  Maybe
+you should join them?  The cliff supporting the city of Oldport is starting
+to appear over the top of the beach to the north.  The entry into the cool
+and refreshing water of the ocean surrounding Pharsica is a short distance
+to the south.  The sandy beach continues to the north, east, south and west.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 60 }
+	to { e, 70 }
+	to { s, 80 }
+	to { w, 72 }
+  }
+}
+
+72
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   Large sand dunes rise from the beach and block any further travel to the
+west and south.  The sand dunes are covered in lovely cattails and clumpy
+weeds that only add to the atheistic of the beach.  Climbing up the dunes 
+a short way, you can look out over the ocean surrounding Pharsica.  It is
+truly a beautiful sight to behold.  The ocean flows all the way to the horizon
+and folds into its embrace.  The joyful and excited sounds of the beach goer's
+can be heard coming from the north and east.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 61 }
+	to { e, 71 }
+  }
+}
+
+73
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the west and the sandy
+beach crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 64 }
+	to { s, 109 }
+	to { w, 74 }
+  }
+}
+
+74
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 65 }
+	to { e, 73 }
+	to { s, 110 }
+	to { w, 75 }
+  }
+}
+
+75
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 66 }
+	to { e, 74 }
+	to { s, 111 }
+	to { w, 76 }
+  }
+}
+
+76
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 67 }
+	to { e, 75 }
+	to { s, 112 }
+	to { w, 77 }
+  }
+}
+
+77
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 68 }
+	to { e, 76 }
+	to { s, 113 }
+	to { w, 78 }
+  }
+}
+
+78
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 69 }
+	to { e, 77 }
+	to { s, 114 }
+	to { w, 79 }
+  }
+}
+
+79
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and west.  The
+sandy beach slowly crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 70 }
+	to { e, 78 }
+	to { s, 115 }
+	to { w, 80 }
+  }
+}
+
+80
+{
+  name { Along the Sandy Beach  }
+  desc {
+"   The shoreline of the Oldport beach is very relaxing.  The water ebbs and
+wanes as the tide moves the waves along the ocean.  Water splashes on your
+boots as you walk along the sandy shore.  The ocean to the south looks
+extremely calm.  You could probably walk right into the water.  It looks
+cool and refreshing, a nice contrast to the sun beating down on you from above.
+Looking to the north, you can see beach goer's laid out and walking all over
+the beach.  They all seem to be relaxing and enjoying themselves on this
+bright and sunny day.  The shoreline continues to the east and the sandy
+beach crawls up to the north.
+  }
+  sector { Desert }
+  flags { mapable }
+  exits {
+	to { n, 71 }
+	to { e, 79 }
+	to { s, 116 }
+  }
+}
+
+81
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites growing
+up from the floor.  It is obvious that this place has been here a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel takes a massive drop down from here.  You better hold onto 
+the stalagmites tightly or you may slip and fall!  The tunnel through the
+mountain continues to the south and down.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 14 }
+	to { d, 82 }
+  }
+}
+
+82
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel through the mountain continues to the northeast and up.  The
+ceiling is covered with stalactites and stalagmites grow up from the tunnel
+floor.  It is obvious that this place has been here for a long time.  The
+sound of water dripping from somewhere echoes in from the walls of the tunnel.
+Be careful climbing up the tunnel, the tunnel floors are wet and you could
+fall.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { u, 81 }
+	to { northeast, 83 }
+  }
+}
+
+83
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  You can also hear the sound of a running river coming from the
+northeast.  The tunnel through the mountain continues to the northeast and
+southwest.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { northeast, 84 }
+	to { southwest, 82 }
+  }
+}
+
+84
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  You can also hear the sound of a running river coming from the
+north.  The tunnel through the mountain continues to the north and
+southeast.
+  }
+  sector { Mountains }
+  extra {
+	keywords { _ex0 }
+	desc {  Watch your step!  This is a narrow cliff!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 85 }
+	  info { message }
+	to { southwest, 83 }
+  }
+}
+
+85
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   Wow!  You almost fell into the river running through the mountain!  Barely
+managing to hold your feet, you wobble back and forth carefully as pebbles from
+the edge of the cliff fall into the water.  There is a good sized jump to
+another cliff across the river.  You better be careful or you might fall in!
+Of course, you could always jump into the river if you need a refreshing bath.
+God only knows where it leads.  The tunnel through the mountain leads safely
+to the south.
+  }
+  sector { Mountains }
+  extra {
+	keywords { _ex0 }
+	desc {  1....2.....3....and jump!  Whew, you made is safely across the river.
+	}
+	keywords { _ex5 }
+	desc { 
+**Sploosh!** Diving into the river the current quickly sweeps you to the east.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 87 }
+	  info { message }
+	to { s, 84 }
+	  info { message }
+	to { d, 86 }
+	  info { message }
+  }
+}
+
+86
+{
+  name { An Underwater River  }
+  desc {
+"   The underwater river is flowing quite quickly.  It is difficult to tell
+where the water is coming from, but the current is quickly carrying you to
+the east.  Holding onto the sides of the tunnel, you can barely keep yourself
+in place.  It is probably best to just go with the flow.
+  }
+  sector { Underwater }
+  river { e, 2 }
+  extra {
+	keywords { _ex4 }
+	desc { 
+With a deep breath, you emerge from the water and quickly climb up the cliff.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 88 }
+	to { u, 85 }
+	  info { message }
+  }
+}
+
+87
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  You can also hear the sound of a running river coming from the
+south.  The tunnel through the mountain continues to the north and
+south.
+  }
+  sector { Mountains }
+  extra {
+	keywords { _ex2 }
+	desc {  Watch your step!  This is a narrow cliff!
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 91 }
+	to { s, 85 }
+	  info { message }
+  }
+}
+
+88
+{
+  name { An Underwater River  }
+  desc {
+"   The underwater river is flowing quite quickly.  The current is moving you
+to the south at a rapid pace.  Holding onto the sides of the tunnel, you can
+barely keep yourself in place.  It is probably best to just go with the
+flow of the river.
+  }
+  sector { Underwater }
+  river { s, 2 }
+  flags { dark, indoors }
+  exits {
+	to { s, 89 }
+	to { w, 86 }
+  }
+}
+
+89
+{
+  name { An Underwater River  }
+  desc {
+"   The underwater river is flowing even more quickly at this point.  Even
+underwater, you can hear the rush of the water to the southeast shooting
+into the air.  You are quickly pulled through this tunnel into the southeast.
+There is no point resisting by holding onto the tunnel walls.  This current
+is just too strong.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _ex7 }
+	desc {  You emerge from the underwater river and fall down the waterfall.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 88 }
+	to { southeast, 90 }
+	  info { message }
+  }
+}
+
+90
+{
+  name { A Small Lake in the Mountain  }
+  desc {
+"   The lake is a beautiful reprieve in this dark and dank series of tunnels
+through the mountain.  The waterfall shoots out from the underwater river
+above you to the northwest.  The water falls into a lake that has formed in
+the middle of the room.  The lake is considerably large and looks like you
+could easily enter and swim through it.  What could be in there?
+  }
+  sector { Mountains }
+  extra {
+	keywords { _ex9 }
+	desc {  *Sploosh*!  You swim up the waterfall and dive into the river.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { northwest, 89 }
+	  info { message }
+	to { 10, 108 }
+	  keywords { lake }
+  }
+}
+
+91
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  You can also hear the sound of running water coming from the tunnel
+to the south.  The tunnel through the mountain continues to the east, west
+and south.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 92 }
+	to { s, 87 }
+	to { w, 97 }
+  }
+}
+
+92
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The whispers of someone talking hits your ears but just as quickly disappears.
+It is possible that you are not alone.  The sound of water dripping from 
+somewhere echoes in from the walls of the tunnel.  The tunnel through the
+mountain continues to the north, east and west.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 94 }
+	to { e, 93 }
+	to { w, 91 }
+  }
+}
+
+93
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel comes to an end in a hollow cave.  The tunnel is covered with
+stalactites on the ceiling and stalagmites grow up from the floor.  It is
+obvious that this place has been here for a long time.  The sound of water
+dripping from somewhere echoes in from the walls of the tunnel.  The 
+tunnel through the mountain continues to the west.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel through the mountain continues to the north and south.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 95 }
+	to { s, 92 }
+  }
+}
+
+95
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel through the mountain continues to the south and northeast.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 94 }
+	to { northeast, 96 }
+  }
+}
+
+96
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel comes to an end in a hollow cave.  The tunnel is covered with
+stalactites on the ceiling and stalagmites grow up from the floor.  It is
+obvious that this place has been here for a long time.  The sound of water
+dripping from somewhere echoes in from the walls of the tunnel.  The 
+tunnel through the mountain continues to the southwest.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { southwest, 95 }
+  }
+}
+
+97
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel through the mountain continues to the east and west.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 91 }
+	to { w, 98 }
+  }
+}
+
+98
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel through the mountain continues to the east, southwest
+and northwest.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { e, 97 }
+	to { southwest, 101 }
+	to { northwest, 99 }
+  }
+}
+
+99
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites grow
+up from the floor.  It is obvious this place has been here for a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel through the mountain continues to the southeast and northwest.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { southeast, 98 }
+	to { northwest, 100 }
+  }
+}
+
+100
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel comes to an end in a hollow cave.  The tunnel is covered with
+stalactites on the ceiling and stalagmites grow up from the floor.  It is
+obvious that this place has been here for a long time.  The sound of water
+dripping from somewhere echoes in from the walls of the tunnel.  The 
+tunnel through the mountain continues to the southeast.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { southeast, 99 }
+  }
+}
+
+101
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites growing
+up from the floor.  It is obvious that this place has been here a long time.
+The sound of water dripping from somewhere echoes in from the walls of the
+tunnel.  The tunnel takes a massive drop down from here.  You better hold onto 
+the stalagmites tightly or you may slip and fall!  The tunnel through the
+mountain continues to the northeast and down.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { d, 102 }
+	to { northeast, 98 }
+  }
+}
+
+102
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel through the mountain continues to the west and up.  The ceiling
+is covered with stalactites and stalagmites grow up from the tunnel floor.  
+It is obvious that this place has been here for a long time.  The sound of
+water dripping from somewhere echoes in from the walls of the tunnel.  Be
+careful climbing up the tunnel, the tunnel floors are wet and you could fall
+down.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { w, 103 }
+	to { u, 101 }
+  }
+}
+
+103
+{
+  name { A Tunnel Through the Mountain  }
+  desc {
+"   The tunnel is covered with stalactites on the ceiling and stalagmites growing
+up from the floor.  It is obvious that this place has been here a long time.
+Some water drips down from the stalactites and falls into an underwater lake.
+The lake looks large enough that you could dive in and take a look around.
+You better be careful, you never know what is waiting in a lone reservoir. 
+The tunnel through the mountain continues to the east.
+  }
+  sector { Mountains }
+  flags { dark, indoors, no_mob }
+  exits {
+	to { e, 102 }
+	to { d, 104 }
+  }
+}
+
+104
+{
+  name { An Underwater Reservoir   }
+  desc {
+"   The underwater reservoir looks like it was once a large cave or den of some
+large animal.  The cave was obviously flooded and is more than likely no longer
+inhabited.  Or is it?  The underwater reservoir continues to the south and west.
+The tunnel through the mountain can be found up after you emerge from the water.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { s, 106 }
+	to { w, 105 }
+	to { u, 103 }
+  }
+}
+
+105
+{
+  name { An Underwater Reservoir   }
+  desc {
+"   The underwater reservoir looks like it was once a large cave or den of some
+large animal.  The cave was obviously flooded and is more than likely no longer
+inhabited.  Or is it?  The underwater reservoir continues to the east and south.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { e, 104 }
+	to { s, 107 }
+  }
+}
+
+106
+{
+  name { An Underwater Reservoir   }
+  desc {
+"   The underwater reservoir looks like it was once a large cave or den of some
+large animal.  The cave was obviously flooded and is more than likely no longer
+inhabited.  Or is it?  The underwater reservoir continues to the north and west.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 104 }
+	to { w, 107 }
+  }
+}
+
+107
+{
+  name { An Underwater Reservoir   }
+  desc {
+"   The underwater reservoir looks like it was once a large cave or den of some
+large animal.  The cave was obviously flooded and is more than likely no longer
+inhabited.  Or is it?  The underwater reservoir continues to the north and east.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 105 }
+	to { e, 106 }
+  }
+}
+
+108
+{
+  name { An Underwater Lake  }
+  desc {
+"   The lake is cool and completely serene.  It is impossible to see the
+bottom of the lake in this darkness.  Even with a light source, the shadows
+bouncing off jagged rocks conceal anyone or anything hiding in here.  A
+quick movement in the corner of your eye startles you.  It looks like you
+may not be alone after all.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { 10, 90 }
+	  keywords { cavern }
+  }
+}
+
+109
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 73 }
+	to { s, 117 }
+	to { w, 110 }
+  }
+}
+
+110
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 74 }
+	to { e, 109 }
+	to { s, 118 }
+	to { w, 111 }
+  }
+}
+
+111
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 75 }
+	to { e, 110 }
+	to { s, 119 }
+	to { w, 112 }
+  }
+}
+
+112
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 76 }
+	to { e, 111 }
+	to { s, 120 }
+	to { w, 113 }
+  }
+}
+
+113
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 77 }
+	to { e, 112 }
+	to { s, 121 }
+	to { w, 114 }
+  }
+}
+
+114
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 78 }
+	to { e, 113 }
+	to { s, 122 }
+	to { w, 115 }
+  }
+}
+
+115
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 79 }
+	to { e, 114 }
+	to { s, 123 }
+	to { w, 116 }
+  }
+}
+
+116
+{
+  name { Walking Through Ankle Deep Water  }
+  desc {
+"   The water instantly cools your feet through your boots as you walk through
+the ankle deep shore.  The remnants of once wild and foaming waves gently
+slap against your legs.  You can see that the waves in much deeper water
+are rough and would probably roll you over.  It would be wise to be careful
+in open water.  The shoreline of the Oldport beach lies directly to the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 80 }
+	to { e, 115 }
+	to { s, 124 }
+  }
+}
+
+117
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 109 }
+	to { e, 126 }
+	to { s, 128 }
+	to { w, 118 }
+  }
+}
+
+118
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 110 }
+	to { e, 117 }
+	to { s, 129 }
+	to { w, 119 }
+  }
+}
+
+119
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 111 }
+	to { e, 118 }
+	to { s, 130 }
+	to { w, 120 }
+  }
+}
+
+120
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 112 }
+	to { e, 119 }
+	to { s, 131 }
+	to { w, 121 }
+  }
+}
+
+121
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 113 }
+	to { e, 120 }
+	to { s, 132 }
+	to { w, 122 }
+  }
+}
+
+122
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 114 }
+	to { e, 121 }
+	to { s, 133 }
+	to { w, 123 }
+  }
+}
+
+123
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 115 }
+	to { e, 122 }
+	to { s, 134 }
+	to { w, 124 }
+  }
+}
+
+124
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+north.  The open sea of the ocean surrounding Pharsica lies directly to the
+south.  You can wade through the waters to your west and east without too much
+trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 116 }
+	to { e, 123 }
+	to { s, 135 }
+	to { w, 125 }
+  }
+}
+
+125
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+northeast.  The sea is much too rough to the north and west to wade any further.
+The open sea of the ocean surrounding Pharsica can be swum through to the south.
+You can wade through the waters to the east without too much trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { e, 124 }
+	to { s, 136 }
+  }
+}
+
+126
+{
+  name { Wading Through the Water  }
+  desc {
+"   The ocean water in this area is about four feet deep.  An average size person
+would be up to their chest in the water if they stood on the ocean floor.  It
+is not easy to walk through this area of the water.  The small waves coming in
+from the open water sometimes crash into your head, knocking your footing
+asunder.  The shoreline of the Oldport beach is just a little further to the
+northwest.  The sea is much too rough to the east and north to wade any further.
+The open sea of the ocean surrounding Pharsica can be swum through to the south.
+You can wade through the waters to the west without too much trouble.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { s, 127 }
+	to { w, 117 }
+  }
+}
+
+127
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out to the ocean to
+you west, it seems to go out forever.  There are no land masses in sight.
+The ocean is far too rough to the east and south to go in those directions.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 126 }
+	to { w, 128 }
+	to { d, 165 }
+  }
+}
+
+128
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 117 }
+	to { e, 127 }
+	to { s, 137 }
+	to { w, 129 }
+	to { d, 166 }
+  }
+}
+
+129
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 118 }
+	to { e, 128 }
+	to { s, 138 }
+	to { w, 130 }
+	to { d, 167 }
+  }
+}
+
+130
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 119 }
+	to { e, 129 }
+	to { s, 139 }
+	to { w, 131 }
+	to { d, 168 }
+  }
+}
+
+131
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 120 }
+	to { e, 130 }
+	to { s, 140 }
+	to { w, 132 }
+	to { d, 169 }
+  }
+}
+
+132
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 121 }
+	to { e, 131 }
+	to { s, 141 }
+	to { w, 133 }
+	to { d, 170 }
+  }
+}
+
+133
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 122 }
+	to { e, 132 }
+	to { s, 142 }
+	to { w, 134 }
+	to { d, 171 }
+  }
+}
+
+134
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 123 }
+	to { e, 133 }
+	to { s, 143 }
+	to { w, 135 }
+	to { d, 172 }
+  }
+}
+
+135
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out over the ocean
+to the east, west and south, it seems to go out forever.  There are no
+land masses in sight!
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 124 }
+	to { e, 134 }
+	to { s, 144 }
+	to { w, 136 }
+	to { d, 173 }
+  }
+}
+
+136
+{
+  name { Out Over Open Water  }
+  desc {
+"   The beach of Oldport is a good distance to the north from here.  The only
+way you know the beach is there is the gigantic cliffs behind the beach are
+poking up above the horizon.  You can see the walls surrounding the city of
+Oldport very clearly from here.  The waves on the open water are getting
+rougher and larger.  Crashing against you, the white crested waves almost
+force you to fall into the blue water below.  Looking out to the ocean to
+you east, it seems to go out forever.  There are no land masses in sight.
+The ocean is far too rough to the west and south to go in those directions.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 125 }
+	to { e, 135 }
+	to { d, 174 }
+  }
+}
+
+137
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, west and south.  The waves look entirely too dangerous to go
+any further to the east.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 128 }
+	to { s, 145 }
+	to { w, 138 }
+	to { d, 176 }
+  }
+}
+
+138
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 129 }
+	to { e, 137 }
+	to { s, 146 }
+	to { w, 139 }
+	to { d, 177 }
+  }
+}
+
+139
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 130 }
+	to { e, 138 }
+	to { s, 147 }
+	to { w, 140 }
+	to { d, 178 }
+  }
+}
+
+140
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 131 }
+	to { e, 139 }
+	to { s, 148 }
+	to { w, 141 }
+	to { d, 179 }
+  }
+}
+
+141
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 132 }
+	to { e, 140 }
+	to { s, 149 }
+	to { w, 142 }
+	to { d, 180 }
+  }
+}
+
+142
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 133 }
+	to { e, 141 }
+	to { s, 150 }
+	to { w, 143 }
+	to { d, 181 }
+  }
+}
+
+143
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 134 }
+	to { e, 142 }
+	to { s, 151 }
+	to { w, 144 }
+	to { d, 182 }
+  }
+}
+
+144
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and south.  The waves look entirely too dangerous to go
+any further to the west.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 135 }
+	to { e, 143 }
+	to { s, 152 }
+	to { d, 183 }
+  }
+}
+
+145
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 137 }
+	to { e, 154 }
+	to { s, 156 }
+	to { w, 146 }
+	to { d, 186 }
+  }
+}
+
+146
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 138 }
+	to { e, 145 }
+	to { s, 157 }
+	to { w, 147 }
+	to { d, 187 }
+  }
+}
+
+147
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 139 }
+	to { e, 146 }
+	to { s, 158 }
+	to { w, 148 }
+	to { d, 188 }
+  }
+}
+
+148
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 140 }
+	to { e, 147 }
+	to { s, 159 }
+	to { w, 149 }
+	to { d, 189 }
+  }
+}
+
+149
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 141 }
+	to { e, 148 }
+	to { s, 160 }
+	to { w, 150 }
+	to { d, 190 }
+  }
+}
+
+150
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 142 }
+	to { e, 149 }
+	to { s, 161 }
+	to { w, 151 }
+	to { d, 191 }
+  }
+}
+
+151
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 143 }
+	to { e, 150 }
+	to { s, 162 }
+	to { w, 152 }
+	to { d, 192 }
+  }
+}
+
+152
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east, west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 144 }
+	to { e, 151 }
+	to { s, 163 }
+	to { w, 153 }
+	to { d, 193 }
+  }
+}
+
+153
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the east and south.  The waves look entirely too dangerous to go any further
+to the west and north.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { e, 152 }
+	to { s, 164 }
+	to { d, 194 }
+  }
+}
+
+154
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the west and south.  The waves look entirely too dangerous to go any further
+to the north and east.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { s, 155 }
+	to { w, 145 }
+	to { d, 185 }
+  }
+}
+
+155
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north and west.  The waves look entirely too dangerous to go any further
+to the south and east.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 154 }
+	to { w, 156 }
+	to { d, 195 }
+  }
+}
+
+156
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 145 }
+	to { e, 155 }
+	to { w, 157 }
+	to { d, 196 }
+  }
+}
+
+157
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 146 }
+	to { e, 156 }
+	to { w, 158 }
+	to { d, 197 }
+  }
+}
+
+158
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 147 }
+	to { e, 157 }
+	to { w, 159 }
+	to { d, 198 }
+  }
+}
+
+159
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 148 }
+	to { e, 158 }
+	to { w, 160 }
+	to { d, 199 }
+  }
+}
+
+160
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 149 }
+	to { e, 159 }
+	to { w, 161 }
+	to { d, 200 }
+  }
+}
+
+161
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 150 }
+	to { e, 160 }
+	to { w, 162 }
+	to { d, 201 }
+  }
+}
+
+162
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 151 }
+	to { e, 161 }
+	to { w, 163 }
+	to { d, 202 }
+  }
+}
+
+163
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north, east and west.  The waves look entirely too dangerous to go any
+further to the south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 152 }
+	to { e, 162 }
+	to { w, 164 }
+	to { d, 203 }
+  }
+}
+
+164
+{
+  name { Out Over Open Water  }
+  desc {
+"   The ocean surrounding the island of Pharsica spans out apparently forever.  You
+cannot see any land masses in any direction.  The only ends to the ocean 
+appears to be the waiting horizons.  The waves on the open water are getting
+rougher and larger.  Crashing into you in an explosion, the white crested
+waves almost force you to fall into the blue water below.  The ocean continues
+to the north and east.  The waves look entirely too dangerous to go any further
+to the west and south.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 153 }
+	to { e, 163 }
+	to { d, 204 }
+  }
+}
+
+165
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the south and west.  The ocean current
+is too strong to swim any further to the east.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 255 }
+  exits {
+	to { s, 175 }
+	to { w, 166 }
+	to { u, 127 }
+  }
+}
+
+166
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 165 }
+	to { s, 176 }
+	to { w, 167 }
+	to { u, 128 }
+  }
+}
+
+167
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 166 }
+	to { s, 177 }
+	to { w, 168 }
+	to { u, 129 }
+  }
+}
+
+168
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 167 }
+	to { s, 178 }
+	to { w, 169 }
+	to { u, 130 }
+  }
+}
+
+169
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 168 }
+	to { s, 179 }
+	to { w, 170 }
+	to { u, 131 }
+  }
+}
+
+170
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 169 }
+	to { s, 180 }
+	to { w, 171 }
+	to { u, 132 }
+  }
+}
+
+171
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 170 }
+	to { s, 181 }
+	to { w, 172 }
+	to { u, 133 }
+  }
+}
+
+172
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 171 }
+	to { s, 182 }
+	to { w, 173 }
+	to { u, 134 }
+  }
+}
+
+173
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the west, east and south.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 172 }
+	to { s, 183 }
+	to { w, 174 }
+	to { u, 135 }
+  }
+}
+
+174
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish swimming
+and people snorkeling all throughout the water.  The fish come up so close to
+you that you can practically touch them!  They must be used to this kind of
+traffic.  The bottom of the ocean leading up to the shoreline is directly to
+the north.  The top of the ocean can be found directly above you.  You can
+also swim out deeper into the ocean to the south and east.  The ocean current
+is too strong to swim any further to the west.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 261 }
+  exits {
+	to { e, 173 }
+	to { s, 184 }
+	to { u, 136 }
+  }
+}
+
+175
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+The waves must be too rough because you can not seem to break the surface
+of the water.  You can also swim deeper into the ocean to the west, north,
+south and down.  The ocean's currents are just too strong to swim any
+further to the east.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 165 }
+	to { s, 185 }
+	to { w, 176 }
+	to { d, 205 }
+  }
+}
+
+176
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 166 }
+	to { e, 175 }
+	to { s, 186 }
+	to { w, 177 }
+	to { u, 137 }
+	to { d, 206 }
+  }
+}
+
+177
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 167 }
+	to { e, 176 }
+	to { s, 187 }
+	to { w, 178 }
+	to { u, 138 }
+	to { d, 207 }
+  }
+}
+
+178
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 168 }
+	to { e, 177 }
+	to { s, 188 }
+	to { w, 179 }
+	to { u, 139 }
+	to { d, 208 }
+  }
+}
+
+179
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 169 }
+	to { e, 178 }
+	to { s, 189 }
+	to { w, 180 }
+	to { u, 140 }
+	to { d, 209 }
+  }
+}
+
+180
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 170 }
+	to { e, 179 }
+	to { s, 190 }
+	to { w, 181 }
+	to { u, 141 }
+	to { d, 210 }
+  }
+}
+
+181
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 171 }
+	to { e, 180 }
+	to { s, 191 }
+	to { w, 182 }
+	to { u, 142 }
+	to { d, 211 }
+  }
+}
+
+182
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 172 }
+	to { e, 181 }
+	to { s, 192 }
+	to { w, 183 }
+	to { u, 143 }
+	to { d, 212 }
+  }
+}
+
+183
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 173 }
+	to { e, 182 }
+	to { s, 193 }
+	to { w, 184 }
+	to { u, 144 }
+	to { d, 213 }
+  }
+}
+
+184
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found a little further to 
+the north.  There is light filtering down from the sun beaming high above.
+The waves must be too rough because you can not seem to break the surface
+of the water.  You can also swim deeper into the ocean to the east, north,
+south and down.  The ocean's currents are just too strong to swim any
+further to the west.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 174 }
+	to { e, 183 }
+	to { s, 194 }
+	to { d, 214 }
+  }
+}
+
+185
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the west, north, south
+and down.  The ocean's currents are just too strong to swim any further
+to the east.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 175 }
+	to { s, 195 }
+	to { w, 186 }
+	to { u, 154 }
+	to { d, 215 }
+  }
+}
+
+186
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 176 }
+	to { e, 185 }
+	to { s, 196 }
+	to { w, 187 }
+	to { u, 145 }
+	to { d, 216 }
+  }
+}
+
+187
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 177 }
+	to { e, 186 }
+	to { s, 197 }
+	to { w, 188 }
+	to { u, 146 }
+	to { d, 217 }
+  }
+}
+
+188
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 178 }
+	to { e, 187 }
+	to { s, 198 }
+	to { w, 189 }
+	to { u, 147 }
+	to { d, 218 }
+  }
+}
+
+189
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 179 }
+	to { e, 188 }
+	to { s, 199 }
+	to { w, 190 }
+	to { u, 148 }
+	to { d, 219 }
+  }
+}
+
+190
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 180 }
+	to { e, 189 }
+	to { s, 200 }
+	to { w, 191 }
+	to { u, 149 }
+	to { d, 220 }
+  }
+}
+
+191
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 181 }
+	to { e, 190 }
+	to { s, 201 }
+	to { w, 192 }
+	to { u, 150 }
+	to { d, 221 }
+  }
+}
+
+192
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 182 }
+	to { e, 191 }
+	to { s, 202 }
+	to { w, 193 }
+	to { u, 151 }
+	to { d, 222 }
+  }
+}
+
+193
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, west,
+south and down.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 183 }
+	to { e, 192 }
+	to { s, 203 }
+	to { w, 194 }
+	to { u, 152 }
+	to { d, 223 }
+  }
+}
+
+194
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  The bottom of the ocean leading
+up to the shoreline of the Oldport beach can be found in the distance to 
+the north.  There is light filtering down from the sun beaming high above.
+You can probably exit the ocean by emerging through the water above your
+head.  You can also swim deeper into the ocean to the east, north, south
+and down.  The ocean's currents are just too strong to swim any further
+to the west.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 184 }
+	to { e, 193 }
+	to { s, 204 }
+	to { u, 153 }
+	to { d, 224 }
+  }
+}
+
+195
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west and down.  The ocean currents
+are entirely too strong to swim any further to the east and south.  Looking
+straight down, you can see the coral reef in the distance.  The vibrant
+colors of the animals and plants all along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 185 }
+	to { w, 196 }
+	to { u, 155 }
+	to { d, 225 }
+  }
+}
+
+196
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 186 }
+	to { e, 195 }
+	to { w, 197 }
+	to { u, 156 }
+	to { d, 226 }
+  }
+}
+
+197
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 187 }
+	to { e, 196 }
+	to { w, 198 }
+	to { u, 157 }
+	to { d, 227 }
+  }
+}
+
+198
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 188 }
+	to { e, 197 }
+	to { w, 199 }
+	to { u, 158 }
+	to { d, 228 }
+  }
+}
+
+199
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 189 }
+	to { e, 198 }
+	to { w, 200 }
+	to { u, 159 }
+	to { d, 229 }
+  }
+}
+
+200
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 190 }
+	to { e, 199 }
+	to { w, 201 }
+	to { u, 160 }
+	to { d, 230 }
+  }
+}
+
+201
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 191 }
+	to { e, 200 }
+	to { w, 202 }
+	to { u, 161 }
+	to { d, 231 }
+  }
+}
+
+202
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 192 }
+	to { e, 201 }
+	to { w, 203 }
+	to { u, 162 }
+	to { d, 232 }
+  }
+}
+
+203
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, west, east and down.  The ocean
+currents are entirely too strong to swim any further to the south.
+Looking straight down, you can see a long coral reef resting at the
+bottom of the ocean.  The vibrant colors of the animals and plants all
+along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 193 }
+	to { e, 202 }
+	to { w, 204 }
+	to { u, 163 }
+	to { d, 233 }
+  }
+}
+
+204
+{
+  name { Swimming Through the Water  }
+  desc {
+"   The water is very serene and clear today.  You can see several fish of
+different sizes and colors swimming all throughout the water.  There are
+also several people snorkeling all along the ocean floor.  They must be
+making their way down to the coral reef.  There is light filtering down
+from the sun beaming high above the ocean.  You can probably exit the
+ocean by emerging through the water above your head.  You can also swim
+deeper into the ocean to the north, east and down.  The ocean currents
+are entirely too strong to swim any further to the west and south.  Looking
+straight down, you can see the coral reef in the distance.  The vibrant
+colors of the animals and plants all along the reef stick out beautifully.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 194 }
+	to { e, 203 }
+	to { u, 164 }
+	to { d, 234 }
+  }
+}
+
+205
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the coral reef to the far south.  The ocean currents are far too
+dangerous to swim any further to the east.  You may continue to swim through
+the ocean to the west, south and up.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 255 }
+  exits {
+	to { s, 215 }
+	to { w, 206 }
+	to { u, 175 }
+  }
+}
+
+206
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 205 }
+	to { s, 216 }
+	to { w, 207 }
+	to { u, 176 }
+  }
+}
+
+207
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 206 }
+	to { s, 217 }
+	to { w, 208 }
+	to { u, 177 }
+  }
+}
+
+208
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 207 }
+	to { s, 218 }
+	to { w, 209 }
+	to { u, 178 }
+  }
+}
+
+209
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 208 }
+	to { s, 219 }
+	to { w, 210 }
+	to { u, 179 }
+  }
+}
+
+210
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 209 }
+	to { s, 220 }
+	to { w, 211 }
+	to { u, 180 }
+  }
+}
+
+211
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 210 }
+	to { s, 221 }
+	to { w, 212 }
+	to { u, 181 }
+  }
+}
+
+212
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 211 }
+	to { s, 222 }
+	to { w, 213 }
+	to { u, 182 }
+  }
+}
+
+213
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the oral reef to the far south.  You may continue to swim through
+the ocean to the east, south, west and up.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 212 }
+	to { s, 223 }
+	to { w, 214 }
+	to { u, 183 }
+  }
+}
+
+214
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and moves towards the north.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They are all
+quite beautiful as they swim through the water.  You can also see several beach
+goer's snorkeling through the water.  They must either be returning from or
+heading to the coral reef to the far south.  The ocean currents are far too
+dangerous to swim any further to the west.  You may continue to swim through
+the ocean to the east, south and up.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 261 }
+  exits {
+	to { e, 213 }
+	to { s, 224 }
+	to { u, 184 }
+  }
+}
+
+215
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  The ocean currents are far too dangerous to swim any further to
+the east.  You may continue to swim through the ocean to the north, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 205 }
+	to { s, 225 }
+	to { w, 216 }
+	to { u, 185 }
+	to { d, 235 }
+  }
+}
+
+216
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 206 }
+	to { e, 215 }
+	to { s, 226 }
+	to { w, 217 }
+	to { u, 186 }
+	to { d, 236 }
+  }
+}
+
+217
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 207 }
+	to { e, 216 }
+	to { s, 227 }
+	to { w, 218 }
+	to { u, 187 }
+	to { d, 237 }
+  }
+}
+
+218
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 208 }
+	to { e, 217 }
+	to { s, 228 }
+	to { w, 219 }
+	to { u, 188 }
+	to { d, 238 }
+  }
+}
+
+219
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 209 }
+	to { e, 218 }
+	to { s, 229 }
+	to { w, 220 }
+	to { u, 189 }
+	to { d, 239 }
+  }
+}
+
+220
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 210 }
+	to { e, 219 }
+	to { s, 230 }
+	to { w, 221 }
+	to { u, 190 }
+	to { d, 240 }
+  }
+}
+
+221
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 211 }
+	to { e, 220 }
+	to { s, 231 }
+	to { w, 222 }
+	to { u, 191 }
+	to { d, 241 }
+  }
+}
+
+222
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 212 }
+	to { e, 221 }
+	to { s, 232 }
+	to { w, 223 }
+	to { u, 192 }
+	to { d, 242 }
+  }
+}
+
+223
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  You may continue to swim through the ocean to the north, east, west,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 213 }
+	to { e, 222 }
+	to { s, 233 }
+	to { w, 224 }
+	to { u, 193 }
+	to { d, 243 }
+  }
+}
+
+224
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is still
+very serene and clear.  The bottom of the ocean leading up to the shoreline
+is directly beneath you and heads towards the beach to the north.  Looking
+around, you can see several different kinds of fish, varying in size and
+color.  They are all quite beautiful as they swim through the water.  You
+can also see many different beach goer's snorkeling through the water.  They
+must either be returning from or heading to the coral reef down and to the
+south.  The ocean currents are far too dangerous to swim any further to
+the west.  You may continue to swim through the ocean to the north, east,
+south, up and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 214 }
+	to { e, 223 }
+	to { s, 234 }
+	to { u, 194 }
+	to { d, 244 }
+  }
+}
+
+225
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the east and south.
+You may continue to swim through the ocean to the north, west, up and down.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 255 }
+  exits {
+	to { n, 215 }
+	to { w, 226 }
+	to { u, 195 }
+	to { d, 245 }
+  }
+}
+
+226
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 216 }
+	to { e, 225 }
+	to { w, 227 }
+	to { u, 196 }
+	to { d, 246 }
+  }
+}
+
+227
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 255 }
+  exits {
+	to { n, 217 }
+	to { e, 226 }
+	to { w, 228 }
+	to { u, 197 }
+	to { d, 247 }
+  }
+}
+
+228
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 218 }
+	to { e, 227 }
+	to { w, 229 }
+	to { u, 198 }
+	to { d, 248 }
+  }
+}
+
+229
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 219 }
+	to { e, 228 }
+	to { w, 230 }
+	to { u, 199 }
+	to { d, 249 }
+  }
+}
+
+230
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 220 }
+	to { e, 229 }
+	to { w, 231 }
+	to { u, 200 }
+	to { d, 250 }
+  }
+}
+
+231
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 261 }
+  exits {
+	to { n, 221 }
+	to { e, 230 }
+	to { w, 232 }
+	to { u, 201 }
+	to { d, 251 }
+  }
+}
+
+232
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 222 }
+	to { e, 231 }
+	to { w, 233 }
+	to { u, 202 }
+	to { d, 252 }
+  }
+}
+
+233
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the south.  You
+may continue to swim through the ocean to the north, west, east, up
+and down.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { n, 223 }
+	to { e, 232 }
+	to { w, 234 }
+	to { u, 203 }
+	to { d, 253 }
+  }
+}
+
+234
+{
+  name { Deep Under the Water  }
+  desc {
+"   The water at this level of the ocean is darker than above, but it is
+still very serene and clear.  You cannot even see the shoreline of the
+Oldport beach from here.  No matter which way you look you can only see
+open water of the ocean surrounding Pharsica.  Looking around, you can
+see several different kinds of fish, varying in size and color.  They
+are all quite beautiful as they swim through the water.  You can also see
+many beach goer's snorkeling around the coral reef below.  The ocean
+currents are far too dangerous to swim any further to the west and south.
+You may continue to swim through the ocean to the north, east, up and down.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The whole room begins to swirl as you are pulled quickly into the current.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 261 }
+  exits {
+	to { n, 224 }
+	to { e, 233 }
+	to { u, 204 }
+	to { d, 254 }
+  }
+}
+
+235
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the west and south.  The expansive ocean surrounding 
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { s, 245 }
+	to { w, 236 }
+	to { u, 215 }
+  }
+}
+
+236
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 235 }
+	to { s, 246 }
+	to { w, 237 }
+	to { u, 216 }
+  }
+}
+
+237
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 236 }
+	to { s, 247 }
+	to { w, 238 }
+	to { u, 217 }
+  }
+}
+
+238
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 237 }
+	to { s, 248 }
+	to { w, 239 }
+	to { u, 218 }
+  }
+}
+
+239
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 238 }
+	to { s, 249 }
+	to { w, 240 }
+	to { u, 219 }
+  }
+}
+
+240
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 239 }
+	to { s, 250 }
+	to { w, 241 }
+	to { u, 220 }
+  }
+}
+
+241
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 240 }
+	to { s, 251 }
+	to { w, 242 }
+	to { u, 221 }
+  }
+}
+
+242
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 241 }
+	to { s, 252 }
+	to { w, 243 }
+	to { u, 222 }
+  }
+}
+
+243
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and south.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 242 }
+	to { s, 253 }
+	to { w, 244 }
+	to { u, 223 }
+  }
+}
+
+244
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east and south.  The expansive ocean surrounding 
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 243 }
+	to { s, 254 }
+	to { u, 224 }
+  }
+}
+
+245
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the north and west.  The expansive ocean surrounding 
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 235 }
+	to { w, 246 }
+	to { u, 225 }
+  }
+}
+
+246
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 236 }
+	to { e, 245 }
+	to { w, 247 }
+	to { u, 226 }
+  }
+}
+
+247
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 237 }
+	to { e, 246 }
+	to { w, 248 }
+	to { u, 227 }
+  }
+}
+
+248
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 238 }
+	to { e, 247 }
+	to { w, 249 }
+	to { u, 228 }
+  }
+}
+
+249
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 239 }
+	to { e, 248 }
+	to { w, 250 }
+	to { u, 229 }
+  }
+}
+
+250
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 240 }
+	to { e, 249 }
+	to { w, 251 }
+	to { u, 230 }
+  }
+}
+
+251
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 241 }
+	to { e, 250 }
+	to { w, 252 }
+	to { u, 231 }
+  }
+}
+
+252
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 242 }
+	to { e, 251 }
+	to { w, 253 }
+	to { u, 232 }
+  }
+}
+
+253
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the east, west and north.  The expansive ocean surrounding
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 243 }
+	to { e, 252 }
+	to { w, 254 }
+	to { u, 233 }
+  }
+}
+
+254
+{
+  name { Along the Coral Reef  }
+  desc {
+"   The coral reef at the bottom of the ocean is one of the mostly lovely
+sights you have ever seen.  There is beautifully colored color and sea
+anemone rooted all over the rocks of the reef.  You can see different 
+colored fishes or various sizes and shapes darting in and out of the
+reef like a playground.  They really seem to be enjoying themselves in
+their natural habitat.  You can see several other beach goer's snorkeling
+down here with you, enjoying the coral reef.  You can continue along the
+coral reef to the north and east.  The expansive ocean surrounding 
+Pharsica continues upward.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 244 }
+	to { e, 253 }
+	to { u, 234 }
+  }
+}
+
+255
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the northern and eastern directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 257 }
+	to { e, 256 }
+  }
+}
+
+256
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the northern and western directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 258 }
+	to { w, 255 }
+  }
+}
+
+257
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the eastern and southern directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 258 }
+	to { s, 255 }
+  }
+}
+
+258
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean currents are even stronger in this room.  It feels like you are
+being pulled deeper into the sea.  It is difficult to tell exactly where you
+are doing.  It feels like the current is not too difficult to swim to in the
+western and southern directions.  However, you feel that you should stay in
+this place for some reason.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current grabs you from behind and starts to whip you through the water.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 259 }
+  exits {
+	to { s, 256 }
+	to { w, 257 }
+  }
+}
+
+259
+{
+  name { Lost in the Currents  }
+  desc {
+"   Panic is starting to set in as the current whips you around.  You cannot
+seem to escape its strong embrace as it successfully holds you in place.  Just
+as you are losing your mind, the current quickly grabs you and pulls you
+further through the ocean.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current grabs you from behind and starts to whip you through the water.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 260 }
+}
+
+260
+{
+  name { Lost in the Currents  }
+  desc {
+"   Panic is starting to set in as the current whips you around.  You cannot
+seem to escape its strong embrace as it successfully holds you in place.  Just
+as you are losing your mind, the current quickly grabs you and pulls you
+further through the ocean.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current shoots you up and out of the water, crashing onto the sandy beach.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 78 }
+}
+
+261
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the southern and western directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { s, 263 }
+	to { w, 262 }
+  }
+}
+
+262
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the southern and eastern directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 261 }
+	to { s, 264 }
+  }
+}
+
+263
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean current tosses and turns you around.  It is difficult to tell
+exactly where you are going.  It feels like the current is not too difficult
+to swim to in the northern and western directions.  Maybe you should swim
+a little further to find out!
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 261 }
+	to { w, 264 }
+  }
+}
+
+264
+{
+  name { Caught in the Current  }
+  desc {
+"   The ocean currents are even stronger in this room.  It feels like you are
+being pulled deeper into the sea.  It is difficult to tell exactly where you
+are doing.  It feels like the current is not too difficult to swim to in the
+northern and eastern directions.  However, you feel that you should stay in
+this place for some reason.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current grabs you from behind and starts to whip you through the water.
+	}
+  }
+  flags { no_mob, indoors }
+  tele { 10, 0, 265 }
+  exits {
+	to { n, 262 }
+	to { e, 263 }
+  }
+}
+
+265
+{
+  name { Lost in the Currents  }
+  desc {
+"   Panic is starting to set in as the current whips you around.  You cannot
+seem to escape its strong embrace as it successfully holds you in place.  Just
+as you are losing your mind, the current quickly grabs you and pulls you
+further through the ocean.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current grabs you from behind and starts to whip you through the water.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 266 }
+}
+
+266
+{
+  name { Lost in the Currents  }
+  desc {
+"   Panic is starting to set in as the current whips you around.  You cannot
+seem to escape its strong embrace as it successfully holds you in place.  Just
+as you are losing your mind, the current quickly grabs you and pulls you
+further through the ocean.
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc { 
+The current shoots you up and out of the water, crashing onto the sandy beach.
+	}
+  }
+  flags { indoors }
+  tele { 10, 0, 77 }
+}

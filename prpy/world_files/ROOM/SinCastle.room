@@ -1,0 +1,2413 @@
+#offset SinCastle
+0
+{
+  name { Pladoh's drawing room  }
+  desc { Empty
+  }
+}
+
+1
+{
+  name { Entrance to the Castle of S.I.N.  }
+  desc {
+"  This castle was once occupied by a wealthy noble.  Unfortunately, this noble
+dishonored the name of S.I.N. and because of this S.I.N. overran the castle and
+butchered the noble and his family.  They now use the castle as their home. 
+Four unidentifiable graves lay about thirty feet from the entrance.
+  }
+  exits {
+	to { n, 2 }
+	to { d, OnikumasClanRooms:211 }
+  }
+}
+
+2
+{
+  name { The Great Hall of Sins  }
+  desc {
+"  The room ahead of you is almost as deep as the castle.  The ceiling looks
+to reach three stories high and statues of descendants of the noble family
+used to line the sides of the room.  Now they are just piles of dust and 
+rubble spread acrossed the floor.
+  }
+  flags { indoors }
+  exits {
+	to { n, 28 }
+	to { e, 7 }
+	to { s, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 2 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 3 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	to { e, 4 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { Inside the Southwest Tower  }
+  desc {
+"  Weapons in racks and lockers cover the walls of this room.  A staircase
+circles the room ascending the tower.  The perfect spot for archers to grab
+a bow and run up the tower and get an advantage on an enemy invasion.
+  }
+  flags { indoors }
+  exits {
+	to { e, 5 }
+	to { u, 41 }
+  }
+}
+
+7
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 8 }
+	to { w, 2 }
+  }
+}
+
+8
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 9 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 27 }
+	to { e, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { Inside the Southeast Tower  }
+  desc {
+"  Weapons in racks and lockers cover the walls of this room.  A staircase
+circles the room ascending the tower.  The perfect spot for archers to grab
+a bow and run up the tower and get an advantage on an enemy invasion.
+  }
+  flags { indoors }
+  exits {
+	to { w, 9 }
+	to { u, 59 }
+  }
+}
+
+11
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+	to { e, 153 }
+	to { s, 5 }
+	to { w, 115 }
+  }
+}
+
+12
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	to { e, 154 }
+	to { s, 11 }
+  }
+}
+
+13
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 14 }
+	to { e, 155 }
+	to { s, 12 }
+  }
+}
+
+14
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	to { e, 156 }
+	to { s, 13 }
+	to { w, 117 }
+  }
+}
+
+15
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 17 }
+	to { s, 14 }
+	to { w, 16 }
+  }
+}
+
+16
+{
+  name { Inside the Northwest Tower  }
+  desc {
+"  Stairs circle the room ascending up the tower.  A large counter sits in
+the center of the room.  Torches light the room very well and it gives
+you a sense of calm.
+  }
+  flags { indoors, rent_room }
+  exits {
+	to { e, 15 }
+	to { u, 47 }
+  }
+}
+
+17
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 18 }
+	to { w, 15 }
+  }
+}
+
+18
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 19 }
+	to { s, 32 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 20 }
+	to { s, 31 }
+	to { w, 18 }
+  }
+}
+
+20
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 21 }
+	to { s, 37 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 22 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { e, 23 }
+	to { s, 24 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { Inside the Northeast Tower  }
+  desc {
+"  Weapons in racks and lockers cover the walls of this room.  A staircase
+circles the room ascending the tower.  The perfect spot for archers to grab
+a bow and run up the tower and get an advantage on an enemy invasion.
+  }
+  flags { indoors }
+  exits {
+	to { w, 22 }
+	to { u, 53 }
+  }
+}
+
+24
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 22 }
+	to { e, 119 }
+	  key { 270119 }
+	  info { door, autoclose }
+	  keywords { Small Wooden Door }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 24 }
+	to { s, 26 }
+  }
+}
+
+26
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 25 }
+	to { s, 27 }
+  }
+}
+
+27
+{
+  name { Small Hallway  }
+  desc {
+"  The hallway is very narrow and as you pass through it your sheathed
+weapon nearly scrapes the wall.  Torches hang on the walls giving off
+hardly enough light to see what is ahead of you.
+  }
+  flags { indoors }
+  exits {
+	to { n, 26 }
+	to { e, 121 }
+	to { s, 9 }
+  }
+}
+
+28
+{
+  name { The Great Hall of Sins  }
+  desc {
+"  The room ahead of you is almost as deep as the castle.  The ceiling looks
+to reach three stories high and statues of descendants of the noble family
+used to line the sides of the room.  Now they are just piles of dust and 
+rubble spread acrossed the floor.
+  Above you is a large balcony where musicians would play while everyone
+feasted.
+  }
+  flags { indoors }
+  exits {
+	to { n, 29 }
+	to { s, 2 }
+  }
+}
+
+29
+{
+  name { The Great Hall of Sins  }
+  desc {
+"  The room ahead of you is almost as deep as the castle.  The ceiling looks
+to reach three stories high and statues of descendants of the noble family
+used to line the sides of the room.  Now they are just piles of dust and 
+rubble spread acrossed the floor.
+  }
+  flags { indoors }
+  exits {
+	to { n, 30 }
+	to { s, 28 }
+  }
+}
+
+30
+{
+  name { The Great Hall of Sins  }
+  desc {
+"  The room ahead of you is almost as deep as the castle.  The ceiling looks
+to reach three stories high and statues of descendants of the noble family
+used to line the sides of the room.  Now they are just piles of dust and 
+rubble spread acrossed the floor.
+  }
+  flags { indoors }
+  exits {
+	to { n, 31 }
+	to { s, 29 }
+  }
+}
+
+31
+{
+  name { The Dais of Sin's Great Hall  }
+  desc {
+"  This section of the hall is raised so the nobleman and his family could
+watch the shows that were acted out while they dined.  As you climb the
+steps you can see a large oak table in the center of the room with finely
+crafted chairs behind it.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { Sin's Kitchen  }
+  desc {
+"  The kitchen is used by S.I.N.'s wenches and slaves.  A large stone overn
+sits against the west wall and a table is in the center of the room.
+  }
+  flags { indoors }
+  exits {
+	to { n, 18 }
+	to { s, 33 }
+  }
+}
+
+33
+{
+  name { The Pantry  }
+  desc {
+"  This room is used to hold food for the wenches to cook.  The shelves
+are almost bare except for a few sacks of rice and wheat.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	to { s, 34 }
+  }
+}
+
+34
+{
+  name { The Bottlery  }
+  desc {
+"  Very few bottles of wine remain, most of the bottle sockets are empty.
+Some ale in small jars are here ready to be served.
+  }
+  flags { indoors }
+  exits {
+	to { n, 33 }
+	to { s, 35 }
+  }
+}
+
+35
+{
+  name { The Buttery  }
+  desc {
+"  Ale, ale, and more ale are stored in barrels that are stacked as high
+as the ceiling.  The preferred beverage of S.I.N. members, there is 
+plenty of stock!
+  }
+  flags { indoors }
+  exits {
+	to { n, 34 }
+	to { d, 36 }
+  }
+}
+
+36
+{
+  name { The Storage Room  }
+  desc {
+"  This room used to be used to store wares for dining.
+S.I.N. uses it now to store it's wenches.  Pallets
+covered with hay lay on the floor where the wenches
+retreat for the night.
+  }
+  flags { indoors }
+  exits {
+	to { u, 35 }
+  }
+}
+
+37
+{
+  name { A Cramped Hallway  }
+  desc {
+"  With barely enough room to walk, the hallways is empty except for a few
+torches to light the way to the stairs.
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	to { s, 38 }
+  }
+}
+
+38
+{
+  name { A Cramped Hallway  }
+  desc {
+"  With barely enough room to walk, the hallways is empty except for a few
+torches to light the way to the stairs.
+  }
+  flags { indoors }
+  exits {
+	to { n, 37 }
+	to { s, 39 }
+  }
+}
+
+39
+{
+  name { Stairway leading up  }
+  desc {
+"  With barely enough room to walk, the hallways is empty except for a few
+torches to light the way to the stairs.
+A set of steep stairs lead up.
+  }
+  exits {
+	to { n, 38 }
+	to { s, 40 }
+	to { u, 87 }
+  }
+}
+
+40
+{
+  name { Stairway leading down  }
+  desc {
+"  Your standing at the end of the hallway.  There is a set of stairs leading
+down into the dark basement.
+  }
+  flags { indoors }
+  exits {
+	to { n, 39 }
+	to { d, 123 }
+  }
+}
+
+41
+{
+  name { Climbing the Southwest Tower  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about four floors up.
+  }
+  exits {
+	to { u, 42 }
+	to { d, 6 }
+  }
+}
+
+42
+{
+  name { Climbing the Southwest Tower  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about three floors up.
+  }
+  exits {
+	to { u, 43 }
+	to { d, 41 }
+  }
+}
+
+43
+{
+  name { Climbing the Southwest Tower  }
+  desc {
+"  To the east and north of you is the castle walks.
+Once used to patrol the land around the castle it
+now sits empty.
+  }
+  exits {
+	to { n, 72 }
+	to { e, 65 }
+	to { u, 44 }
+	to { d, 42 }
+  }
+}
+
+44
+{
+  name { Approaching a door in the Southwest Tower  }
+  desc {
+"  At last! Finally made it!  Let us hope you can get
+in or you will have to sit down and rest before you
+start your descend back down!
+  }
+  exits {
+	to { u, 45 }
+	  key { 270045 }
+	  info { door, closed }
+	  keywords { Strong Oak Door }
+	to { d, 43 }
+  }
+}
+
+45
+{
+  name { Inside the Keep of the Southwest Tower  }
+  desc {
+"  Shackles are built into the stone on the northeast side
+of the wall.  On the south side is windows for archers to
+gain an advantage on incoming enemies.
+  }
+  exits {
+	to { u, 46 }
+	to { d, 44 }
+	  key { 270045 }
+	  info { door, closed }
+	  keywords { Strong Oak Door }
+  }
+}
+
+46
+{
+  name { Above the Tower Keep  }
+  desc {
+"  You are standing outside on the top of the tower.
+Battlements about three feet high surround the
+circular wall.
+  }
+  exits {
+	to { d, 45 }
+  }
+}
+
+47
+{
+  name { Climbing the Northwest Tower  }
+  desc {
+"  As you climb the circling stairway you gaze up the center
+of the tower and see a doorway.
+  }
+  exits {
+	to { u, 48 }
+	to { d, 16 }
+  }
+}
+
+48
+{
+  name { Climbing the Northwest Tower  }
+  desc {
+"  As you climb the circling stairway the doorway gets
+closer to you.  You look out the openings as you climb
+and see the ground getting further away from you.
+  }
+  exits {
+	to { u, 49 }
+	to { d, 47 }
+  }
+}
+
+49
+{
+  name { Climbing the Northwest Tower  }
+  desc {
+"  To the east and south of you is the castle walks.
+Once used to patrol the land around the castle it
+now sits empty.
+  }
+  exits {
+	to { e, 76 }
+	to { s, 75 }
+	to { u, 50 }
+	to { d, 48 }
+  }
+}
+
+50
+{
+  name { Approaching a door in the Northwest Tower  }
+  desc {
+"  At last! Finally made it!  Let us hope you can get
+in or you will have to sit down and rest before you
+start your descend back down!
+  }
+  exits {
+	to { u, 51 }
+	  key { 270051 }
+	  info { door, autoclose }
+	  keywords { Solid Mahogany Door }
+	to { d, 49 }
+  }
+}
+
+51
+{
+  name { Inside the Keep of the Northwest Tower  }
+  desc {
+"  As you enter the small room you see tables covered with
+bottles and vials of liquids.  Steam is coming out of some
+pots that are sitting above a small fire.
+  }
+  exits {
+	to { u, 52 }
+	to { d, 50 }
+	  key { 270051 }
+	  info { door, autoclose }
+	  keywords { Solid Mahogany Door }
+  }
+}
+
+52
+{
+  name { Above the Tower Keep  }
+  desc {
+"  You are standing outside on the top of the tower.
+Battlements about three feet high surround the
+circular wall.
+  }
+  exits {
+	to { d, 51 }
+  }
+}
+
+53
+{
+  name { Climbing the Northeast Castle  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about four floors up.  The
+staircase continues to climb the tower.
+  }
+  exits {
+	to { u, 54 }
+	to { d, 23 }
+  }
+}
+
+54
+{
+  name { Climbing the Northeast Castle  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about three floors up.
+  }
+  exits {
+	to { u, 55 }
+	to { d, 53 }
+  }
+}
+
+55
+{
+  name { Climbing the Northeast Castle  }
+  desc {
+"  To the west and south of you is the castle walks.
+Once used to patrol the land around the castle it
+now sits empty.
+  }
+  exits {
+	to { s, 83 }
+	to { w, 82 }
+	to { u, 56 }
+	to { d, 54 }
+  }
+}
+
+56
+{
+  name { Approaching a door in the Northeast Tower  }
+  desc {
+"  At last! Finally made it!  Let us hope you can get
+in or you will have to sit down and rest before you
+start your descend back down!
+  }
+  exits {
+	to { u, 57 }
+	to { d, 55 }
+  }
+}
+
+57
+{
+  name { Inside the Keep of the Northeast Tower  }
+  desc {
+"  Shackles are built into the stone on the southwest side
+of the wall.  On the north side is windows for archers to
+gain an advantage on incoming enemies.
+  }
+  exits {
+	to { u, 58 }
+	to { d, 56 }
+  }
+}
+
+58
+{
+  name { Above the Tower Keep  }
+  desc {
+"  You are standing outside on the top of the tower.
+Battlements about three feet high surround the
+circular wall.
+  }
+  exits {
+	to { d, 57 }
+  }
+}
+
+59
+{
+  name { Climbing the Southeast Tower  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about four floors up.
+  }
+  exits {
+	to { u, 60 }
+	to { d, 10 }
+  }
+}
+
+60
+{
+  name { Climbing the Southeast Tower  }
+  desc {
+"  As you climb the tower you look up the center of the
+tower and see a door about three floors up.
+  }
+  exits {
+	to { u, 61 }
+	to { d, 59 }
+  }
+}
+
+61
+{
+  name { Climbing the Southeast Tower  }
+  desc {
+"  To the west and north of you is the castle walks.
+Once used to patrol the land around the castle it
+now sits empty.
+  }
+  exits {
+	to { n, 86 }
+	to { w, 71 }
+	to { u, 62 }
+	to { d, 60 }
+  }
+}
+
+62
+{
+  name { Approaching a door in the Southeast Tower  }
+  desc {
+"  At last! Finally made it!  Let us hope you can get
+in or you will have to sit down and rest before you
+start your descend back down!
+  }
+  exits {
+	to { u, 63 }
+	to { d, 61 }
+  }
+}
+
+63
+{
+  name { Inside the Keep of the Southeast Tower  }
+  desc {
+"  Shackles are built into the stone on the northwest side
+of the wall.  On the south side is windows for archers to
+gain an advantage on incoming enemies.
+  }
+  exits {
+	to { u, 64 }
+	to { d, 62 }
+  }
+}
+
+64
+{
+  name { Above the Tower Keep  }
+  desc {
+"  You are standing outside on the top of the tower.
+Battlements about three feet high surround the
+circular wall.
+  }
+  exits {
+	to { d, 63 }
+  }
+}
+
+65
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 66 }
+	to { w, 43 }
+  }
+}
+
+66
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 67 }
+	to { w, 65 }
+  }
+}
+
+67
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 68 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above
+  }
+  exits {
+	to { e, 69 }
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 70 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 71 }
+	to { w, 69 }
+  }
+}
+
+71
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 61 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 73 }
+	to { s, 43 }
+  }
+}
+
+73
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 74 }
+	to { s, 72 }
+  }
+}
+
+74
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 75 }
+	to { s, 73 }
+  }
+}
+
+75
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 49 }
+	to { s, 74 }
+  }
+}
+
+76
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 77 }
+	to { w, 49 }
+  }
+}
+
+77
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 78 }
+	to { w, 76 }
+  }
+}
+
+78
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 79 }
+	to { w, 77 }
+  }
+}
+
+79
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 80 }
+	to { w, 78 }
+  }
+}
+
+80
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 81 }
+	to { w, 79 }
+  }
+}
+
+81
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 82 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { e, 55 }
+	to { w, 81 }
+  }
+}
+
+83
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 55 }
+	to { s, 84 }
+  }
+}
+
+84
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 83 }
+	to { s, 85 }
+  }
+}
+
+85
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 84 }
+	to { s, 86 }
+  }
+}
+
+86
+{
+  name { The Castle Walk  }
+  desc {
+"  From here you can see the land far in the distance.  There
+are battlements down the entire walk with archers loops in
+them for protection while they fire on enemies from above.
+  }
+  exits {
+	to { n, 85 }
+	to { s, 61 }
+  }
+}
+
+87
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { e, 88 }
+	to { w, 90 }
+	to { d, 39 }
+  }
+}
+
+88
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 108 }
+	to { e, 89 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { A Storage Room  }
+  desc { Empty
+  }
+  exits {
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 94 }
+	to { e, 87 }
+	to { w, 91 }
+  }
+}
+
+91
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 101 }
+	to { e, 90 }
+	to { w, 92 }
+  }
+}
+
+92
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 102 }
+	to { e, 91 }
+	to { w, 93 }
+  }
+}
+
+93
+{
+  name { A Storage Room  }
+  desc { Empty
+  }
+  exits {
+	to { e, 92 }
+  }
+}
+
+94
+{
+  name { Hallway to the Royal Chambers  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 95 }
+	to { s, 90 }
+  }
+}
+
+95
+{
+  name { Hallway to the Royal Chambers  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 96 }
+	to { e, 99 }
+	to { s, 94 }
+	to { w, 98 }
+  }
+}
+
+96
+{
+  name { S.I.N.'s Treasury  }
+  desc {
+"  Once this was the Royal Chambers to the great nobleman and his
+Lady.  Now S.I.N. has made this room their room to store their
+plunder.  As you examine the room you can see large blood stains
+where something awful must of happened here.  A vault is built
+into the north wall.
+  }
+  flags { autosave }
+  exits {
+	to { n, 157 }
+	to { e, 100 }
+	to { s, 95 }
+	to { w, 97 }
+  }
+}
+
+97
+{
+  name { The Royal Wardrobe  }
+  desc { Empty
+  }
+  exits {
+	to { e, 96 }
+	to { s, 98 }
+  }
+}
+
+98
+{
+  name { The Solar  }
+  desc { Empty
+  }
+  exits {
+	to { n, 97 }
+	to { e, 95 }
+  }
+}
+
+99
+{
+  name { The Royal Bathroom  }
+  desc { Empty
+  }
+  exits {
+	to { n, 100 }
+	to { w, 95 }
+  }
+}
+
+100
+{
+  name { The Royal Bower  }
+  desc { Empty
+  }
+  exits {
+	to { s, 99 }
+	to { w, 96 }
+  }
+}
+
+101
+{
+  name { Soldiers Barracks  }
+  desc {
+"  This room once housed the most trusted soldier of
+the nobles guards.  Now it just houses his blood on
+the floor.
+  }
+  exits {
+	to { s, 91 }
+  }
+}
+
+102
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches, the floors are covered in red
+carpets that are stained with blood that runs out from udner the door
+to the west.  A horrible stench comes from the room even though the
+door is tightly sealed.
+  }
+  exits {
+	to { n, 104 }
+	to { s, 92 }
+	to { w, 103 }
+	  key { 270103 }
+	  info { door, closed, autoclose }
+	  keywords { Blood Covered Door }
+  }
+}
+
+103
+{
+  name { Krieg's Slaughter House  }
+  desc {
+"  Disgusting!!  Blood all over the place!  The west wall
+is lined with barrels you look in a barrel and see what
+looks like human body parts.  The south wall has some
+plants growing in pots, you are unsure what kind they
+are but they have a strange aroma to them.  On the north
+wall there is a large vase with water in it and a chair
+behind the vase.
+  }
+  exits {
+	to { e, 102 }
+	  key { 270103 }
+	  info { door, closed, autoclose }
+	  keywords { Blood Covered Door }
+  }
+}
+
+104
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 106 }
+	to { s, 102 }
+	to { w, 105 }
+  }
+}
+
+105
+{
+  name { Theorx's Dwelling  }
+  desc {
+"  This room has very little furnishings it is waiting
+for a new member so S.I.N. to occupy it.
+  }
+  exits {
+	to { e, 104 }
+  }
+}
+
+106
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+There is a door to the west that looks to be made of human remains.
+  }
+  exits {
+	to { s, 104 }
+	to { w, 107 }
+	  key { 270107 }
+	  info { door, autoclose }
+	  keywords { Large Skeletal Door }
+  }
+}
+
+107
+{
+  name { Matt's Room of Horrors  }
+  desc { Empty
+  }
+  exits {
+	to { e, 106 }
+	  key { 270107 }
+	  info { door, autoclose }
+	  keywords { Large Skeletal Door }
+  }
+}
+
+108
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 111 }
+	to { e, 110 }
+	to { s, 88 }
+	to { w, 109 }
+  }
+}
+
+109
+{
+  name { An Unused Room  }
+  desc {
+"  This room has very little furnishings.  It is
+waiting for a new S.I.N. member to occupy it.
+  }
+  exits {
+	to { e, 108 }
+  }
+}
+
+110
+{
+  name { Velarion's Abode  }
+  desc { Empty
+  }
+  exits {
+	to { w, 108 }
+  }
+}
+
+111
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { n, 113 }
+	to { e, 112 }
+	to { s, 108 }
+  }
+}
+
+112
+{
+  name { Ginta's Abode  }
+  desc { "  Ginta is the biggest noob of S.I.N.
+  }
+  exits {
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { Upstairs Hallway  }
+  desc {
+"  The hallway is lined with torches which give off plenty of light.  Red
+carpets cover the floors, little spots of dried up blood still stain them.
+S.I.N. makes no attempt at cleaning or concealing the blood stains, it
+is left as a warning never to dishonor S.I.N.
+  }
+  exits {
+	to { e, 114 }
+	to { s, 111 }
+  }
+}
+
+114
+{
+  name { Cooter's Cell
+  }
+  desc {
+"  This room has very little furnishings.  It is waiting
+for a new S.I.N. member to occupy it.
+  }
+  exits {
+	to { w, 113 }
+  }
+}
+
+115
+{
+  name { The Armoury  }
+  desc {
+"  Lockers line the walls and equipment is piled in the corners of the
+room.  There is a wooden sign on the wall for those who can read.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+--------------------------------------------------------
+                   S.I.N Members
+
+  This locker is for sharing beneficial ARMOR with
+  your fellow NON-remort S.I.N. members.  Any equipment
+  you wish to keep for yourself please store in your
+  private quarters.  REMEMBER:  Repair the equipment
+  before storing it to decrease the amount of spam in
+  the locker.  Any equipment that would be beneficial
+  to a REMORT store it in the locker to the north.
+
+--------------------------------------------------------
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 116 }
+	to { e, 11 }
+  }
+}
+
+116
+{
+  name { The Armoury  }
+  desc {
+"  Lockers line the walls and equipment is piled in the corners of the
+room.  There is a wooden sign on the wall for those who can read.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+--------------------------------------------------------
+                   S.I.N Members
+
+  This locker is for sharing beneficial ARMOR with your
+  fellow S.I.N. members who are remorted.  Any
+  equipment you wish to keep for yourself please store
+  in your private quarters.  REMEMBER: Repair the
+  equipment before storing it to decrease the amount of
+  spam in the locker.  Any equipment that would be
+  beneficial to a NON-remort store in the locker to the
+  south.
+
+-------------------------------------------------------
+	}
+  }
+  flags { indoors }
+  exits {
+	to { s, 115 }
+  }
+}
+
+117
+{
+  name { The Weaponry  }
+  desc {
+"  Lockers line the walls of the room and weapons are thrown about and
+leaning up against any exposed area of the walls.  There is a wooden
+sign on the wall for those who can read.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+--------------------------------------------------------
+                   S.I.N Members
+
+  This locker is for sharing beneficial WEAPONS with
+  your fellow S.I.N. members who are not remorted.  Any
+  equipment you wish to keep for yourself please store
+  in your private quarters. REMEMBER: Repair the
+  equipment before storing it to decrease the amount of
+  spam in the locker.  Any equipment that would be
+  beneficial to a REMORT store is the locker to the
+  south.
+
+--------------------------------------------------------
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 14 }
+	to { s, 118 }
+  }
+}
+
+118
+{
+  name { The Weaponry  }
+  desc {
+"  Lockers line the walls of the room and weapons are thrown about and
+leaning up against any exposed area of the walls.  A anvil is in the center 
+of the room along with a fire pit.  There is a wooden sign on the wall for 
+those who can read.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+--------------------------------------------------------
+                   S.I.N Members
+
+  This locker is for sharing beneficial WEAPONS with
+  your fellow S.I.N. members who are remorted.  Any
+  equipment you wish to keep for yourself please store
+  in your private quarters.  REMEMBER: Repair the
+  equipment before storing it to decrease the amount
+  of spam in the locker.  Any equipment that would be
+  beneficial to a NON-remort store in the locker to
+  the north.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 117 }
+  }
+}
+
+119
+{
+  name { Entrance to the Privy  }
+  desc {
+"  This room is empty,  the two sets of doors are
+an attempt to keep the smell from the privy from
+entering the castle.
+  }
+  exits {
+	to { s, 120 }
+	  key { 270120 }
+	  info { door, autoclose }
+	  keywords { Small Wooden Door }
+	to { w, 24 }
+	  key { 270119 }
+	  info { door, autoclose }
+	  keywords { Small Wooden Door }
+  }
+}
+
+120
+{
+  name { The Castle Privy  }
+  desc {
+"  This where the residents of the castle come to relieve
+themselves.  There are holes in the floor that have
+chutes that lead out to the castle moat.
+  }
+  exits {
+	to { n, 119 }
+	  key { 270120 }
+	  info { door, autoclose }
+	  keywords { Small Wooden Door }
+  }
+}
+
+121
+{
+  name { The Castle Chapel  }
+  desc {
+"  There is not much left to this room, all the statues
+were demolished and the pews burned.  This room is now
+unused.
+  }
+  flags { indoors }
+  exits {
+	to { n, 122 }
+	to { w, 27 }
+  }
+}
+
+122
+{
+  name { The Castle Oratory  }
+  desc {
+"  There is not much left to this room, all the statues
+were demolished and the pews burned.  This room is now
+unused.
+  }
+  flags { indoors, fast_hit_points }
+  exits {
+	to { s, 121 }
+  }
+}
+
+123
+{
+  name { Down into the Basement  }
+  desc {
+"  The stairwell is dark you slowly make your way
+down feeling for the next step.  Cold air flows
+up from below.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 40 }
+	to { d, 124 }
+  }
+}
+
+124
+{
+  name { Down into the Basement  }
+  desc {
+"  The stairwell is dark you slowly make your way
+down feeling for the next step.  Cold air flows
+up from below.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 123 }
+	to { d, 125 }
+  }
+}
+
+125
+{
+  name { Castle Basement  }
+  desc {
+"  As you enter the basement you can see dark tunnels have been
+dug throughout randomly.  The tunnel floors are dirt and rock
+and not very even, and a foul smell emanates from somewhere.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 126 }
+	to { u, 124 }
+  }
+}
+
+126
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  Faint light comes from the
+southwest.  Darkness continues through the northwest.
+  }
+  flags { dark }
+  exits {
+	to { e, 125 }
+	to { southwest, 127 }
+	to { northwest, 132 }
+  }
+}
+
+127
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  The light coming from the
+southeast is much brighter now.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 126 }
+	to { southeast, 128 }
+  }
+}
+
+128
+{
+  name { Battle Room  }
+  desc {
+"  Here soldiers gather to prepare for battle.  Armor and weapons
+lay in piles ready to be grabbed in the time of need.  There is
+a large table in the center of the room.  A fire pit is built
+into the east wall.
+  }
+  flags { dark }
+  exits {
+	to { e, 129 }
+	to { s, 131 }
+	to { northwest, 127 }
+  }
+}
+
+129
+{
+  name { Battle Room  }
+  desc {
+"  Here soldiers gather to prepare for battle.  Armor and weapons
+lay in piles ready to be grabbed in the time of need.  There is
+a large table in the center of the room.  A fire pit is built
+into the east wall.
+  }
+  flags { dark }
+  exits {
+	to { s, 130 }
+	to { w, 128 }
+  }
+}
+
+130
+{
+  name { Battle Room  }
+  desc {
+"  Here soldiers gather to prepare for battle.  Armor and weapons
+lay in piles ready to be grabbed in the time of need.  There is
+a large table in the center of the room.  A fire pit is built
+into the east wall.
+  }
+  flags { dark }
+  exits {
+	to { n, 129 }
+	to { w, 131 }
+  }
+}
+
+131
+{
+  name { Battle Room  }
+  desc {
+"  Here soldiers gather to prepare for battle.  Armor and weapons
+lay in piles ready to be grabbed in the time of need.  There is
+a large table in the center of the room.  A fire pit is built
+into the east wall.
+  }
+  flags { dark }
+  exits {
+	to { n, 128 }
+	to { e, 130 }
+  }
+}
+
+132
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The light is gone now and
+darkness fills the air.
+  }
+  flags { dark }
+  exits {
+	to { southeast, 126 }
+	to { northwest, 133 }
+  }
+}
+
+133
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The light is gone now and
+darkness fills the air.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 134 }
+	to { southeast, 132 }
+  }
+}
+
+134
+{
+  name { A split in the tunnel  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  Darkness and cold air come
+from both tunnels.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 135 }
+	to { southwest, 133 }
+	to { northwest, 146 }
+  }
+}
+
+135
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+intense in this direction.
+  }
+  flags { dark }
+  exits {
+	to { e, 136 }
+	to { southwest, 134 }
+  }
+}
+
+136
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+intense in this direction.
+  }
+  flags { dark }
+  exits {
+	to { e, 137 }
+	to { w, 135 }
+  }
+}
+
+137
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+intense in this direction.
+  }
+  flags { dark }
+  exits {
+	to { w, 136 }
+	to { southeast, 138 }
+  }
+}
+
+138
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+unbearable.
+  }
+  flags { dark }
+  exits {
+	to { s, 139 }
+	to { northwest, 137 }
+  }
+}
+
+139
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+unbearable.
+  }
+  flags { dark }
+  exits {
+	to { n, 138 }
+	to { southeast, 140 }
+  }
+}
+
+140
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+unbearable.
+  }
+  flags { dark }
+  exits {
+	to { e, 141 }
+	to { northwest, 139 }
+  }
+}
+
+141
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell gets a little more
+unbearable.
+  }
+  flags { dark }
+  exits {
+	to { w, 140 }
+	to { northeast, 142 }
+  }
+}
+
+142
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell is disgusting now
+you want to throw up.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 143 }
+	to { southwest, 141 }
+  }
+}
+
+143
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness beads off the cold walls, your footsteps
+echo through the tunnels.  The smell is disgusting now
+you want to throw up.
+  }
+  flags { dark }
+  exits {
+	to { southwest, 142 }
+	to { northwest, 144 }
+  }
+}
+
+144
+{
+  name { The End of the Tunnel  }
+  desc {
+"  The foul smell is nearly overcoming you, you grab
+the nearest wall to stop and get your bearings. You
+can tell that the smell is coming from behind the
+door to the west of you.
+  }
+  flags { dark }
+  exits {
+	to { w, 145 }
+	  key { 270145 }
+	  info { door, autoclose }
+	  keywords { Reinforced Steel Door }
+	to { southeast, 143 }
+  }
+}
+
+145
+{
+  name { The Oubliette  }
+  desc {
+"  Skeletons everywhere!  A decomposing body is on the
+ground in front of you, maggots are finishing off
+what is left of it.  The last thing some poor souls
+get to see is the walls of this room.  Shackles are
+fastened to the stone walls.  This is where someone
+is left to die.
+  }
+  flags { dark }
+  exits {
+	to { e, 144 }
+	  key { 270145 }
+	  info { door, autoclose }
+	  keywords { Reinforced Steel Door }
+  }
+}
+
+146
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  As you step through the
+darkness you feel yourself walk over a mound of dirt.
+You know the mound was recently placed here since you
+sink down as you step on it.
+  }
+  flags { dark }
+  exits {
+	to { southeast, 134 }
+	to { northwest, 147 }
+  }
+}
+
+147
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  As you walk you feel yourself
+step over another mound of dirt, this one much more
+packed than the last.
+  }
+  flags { dark }
+  exits {
+	to { w, 148 }
+	to { southeast, 146 }
+  }
+}
+
+148
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  As you walk you feel yourself
+step over another mound of dirt, this one much more
+packed than the last.
+  }
+  flags { dark }
+  exits {
+	to { e, 147 }
+	to { southwest, 149 }
+  }
+}
+
+149
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  You take a step and almost
+fall forward as you drop into a hole.  Quickly you pull
+yourself out and continue on.
+  }
+  flags { dark }
+  exits {
+	to { s, 150 }
+	to { northeast, 148 }
+  }
+}
+
+150
+{
+  name { Through the Tunnels  }
+  desc {
+"  The dampness sweats off the cold walls, your footsteps
+echo through the tunnels.  The ground is much more
+stable now your footing returns to normal.
+  }
+  flags { dark }
+  exits {
+	to { n, 149 }
+	to { southwest, 151 }
+  }
+}
+
+151
+{
+  name { Through the Tunnels  }
+  desc {
+"  A faint light can be seen to the west, the echo of
+your footsteps is gone.
+  }
+  flags { dark }
+  exits {
+	to { w, 152 }
+	to { northeast, 150 }
+  }
+}
+
+152
+{
+  name { Through the Tunnels  }
+  desc {
+"  Looks like this tunnel was left unfinished. This
+room has enough light from a single torch to make
+out a shovel leaning up against the wall.
+  }
+  flags { dark }
+  exits {
+	to { e, 151 }
+  }
+}
+
+153
+{
+  name { Temple of Sin's Witchdoctor  }
+  desc {
+"  A boiling pot of liquid boils atop of a fire.  Trinkets
+bones, and body parts hang from twine, their shadows
+dance on the walls from the jumping fire.
+  }
+  flags { indoors }
+  exits {
+	to { w, 11 }
+  }
+}
+
+154
+{
+  name { Room of the Dead  }
+  desc {
+"  The room is empty aside from a few stone tables in the center of the room.
+It is deathly cold in here you can see steam with every breath you take. A
+strange quiet fills the air like your in a room with no exits.
+  }
+  flags { indoors }
+  exits {
+	to { w, 12 }
+  }
+}
+
+155
+{
+  name { Castle Records Room  }
+  desc {
+"  The room is very cramped from all the clutter.  Books are piled everywhere,
+scrolls rolling around freely, papers stacked on tables and in crates.  You
+quickly decide this is the room of the Nobleman's Scribe.
+  }
+  flags { indoors }
+  exits {
+	to { w, 13 }
+  }
+}
+
+156
+{
+  name { The Castle Forge  }
+  desc {
+"  This room is very hot, you start to sweat the moment you walk in.  A anvil
+is in the center of the room, and a sledge hammer leans up against it.  A forge
+is near the anvil spitting fire out the opening.  Finished and unfinished wares
+are scattered about the room.
+  }
+  flags { indoors }
+  exits {
+	to { w, 14 }
+  }
+}
+
+157
+{
+  name { Inside the Vault of S.I.N.  }
+  desc {
+"  The vault is stuffed full of all of S.I.N.'s conquests.  Gold is
+dumped in piles and jewels are mixed in with it.  Some necklaces,
+crowns, and rings lay in the piles.  Some drops of dried blood is
+noticeable on some of the jewelry.
+  }
+  exits {
+	to { s, 96 }
+  }
+}

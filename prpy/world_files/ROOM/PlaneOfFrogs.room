@@ -1,0 +1,224 @@
+#offset PlaneOfFrogs
+
+0
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, relocate_distort, private }
+  tele { 0, 1, 1 }
+  exits {
+	to { s, 1 }
+	to { w, 5 }
+	to { northeast, 7 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+1
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 2 }
+  exits {
+	to { n, 0 }
+	to { w, 4 }
+	to { southeast, 2 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+2
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 3 }
+  exits {
+	to { e, 3 }
+	to { s, 7 }
+	to { northwest, 1 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+3
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 4 }
+  exits {
+	to { s, 6 }
+	to { w, 2 }
+	to { northeast, 4 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+4
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 5 }
+  exits {
+	to { n, 5 }
+	to { e, 1 }
+	to { southwest, 3 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+5
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 6 }
+  exits {
+	to { e, 0 }
+	to { s, 4 }
+	to { northwest, 6 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+6
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 7 }
+  exits {
+	to { n, 3 }
+	to { w, 7 }
+	to { southeast, 5 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+7
+{
+  name { On another plane...  }
+  desc {
+"   You are standing on a strange, organic surface in the middle of a giant
+mushroom patch.  The mushrooms are purple in colour and tower all around.
+They look to steep to climb, but something about the surface indicates that
+they appear to be very supple... Almost as if you could 'go push' your way
+into the centre of them.  Maybe.  The sky is a nasty vomit yellow colour.
+There is no wind, and no smell.  Somewhere, away to the north, something
+so big it casts shadows where no shadows should be, moves with all the grace
+of an elf in a tree.  You're not sure you want to be here.
+  }
+  sector { Astral }
+  flags { dark, no_sum, relocate_distort, private }
+  tele { 0, 1, 0 }
+  exits {
+	to { n, 2 }
+	to { e, 6 }
+	to { southwest, 0 }
+	to { 10, 8 }
+	  info { secret, hidden }
+	  keywords { push }
+  }
+}
+
+8
+{
+  name { The centre of a mushroom...  }
+  desc {
+"   You are standing in the centre of a massive mushroom.  The fronds that
+parted so nicely to let you in have closed in around you.  There is no
+way out now!!  With a sense of dread you realise that your air supply has
+been cut off, and very shortly you will run out of air and die!  What are
+you going to do now??
+  }
+  sector { Astral }
+  flags { dark, no_mob, no_sum, relocate_distort, private }
+  tele { 0, 1, InsideDarkHornHill:83 }
+}

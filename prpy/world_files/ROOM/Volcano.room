@@ -1,0 +1,466 @@
+#offset Volcano
+
+0
+{
+  name { A Hot Side Tunnel.  }
+  desc {
+The tunnel walls glow red from the lava flowing just behind the
+hardened rock. Cooled magma has formed a small zephyrs that have 
+since been cracked and shattered by some powerful force.
+
+"  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { w, 9 }
+	to { northeast, 1 }
+	to { southeast, 7 }
+  }
+}
+
+1
+{
+  name { A Hot Passage.  }
+  desc {
+Heat radiates from the walls and floor make it a very uncomfortable
+place to be.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 2 }
+	to { southwest, 0 }
+  }
+}
+
+2
+{
+  name { A Large Cavern.  }
+  desc {
+A large intersection has formed here. Lava tunnels branch off from this
+large cavern. Unbearable heat radiates from the south while red hot
+steal billows from an entrance north.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { n, 11 }
+	to { southeast, 3 }
+	to { southwest, 1 }
+  }
+}
+
+3
+{
+  name { A Hot Passage.  }
+  desc {
+Heat radiates from the walls and floor make it a very uncomfortable
+place to be.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 4 }
+	to { northwest, 2 }
+  }
+}
+
+4
+{
+  name { A Hot Cavern.  }
+  desc {
+A flow of lava leaks down from the ceiling causing a 'lavafall'. A
+small river of lava flows east of here into a small tunnel. It looks
+like you can get through without burning your feet.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { e, 10 }
+	to { northwest, 3 }
+	to { 10, 16 }
+	  info { door, hidden }
+	  keywords { lavafall }
+  }
+}
+
+5
+{
+  name { A Hot Cave.  }
+  desc {
+Heat radiates from the walls and floor make it a very uncomfortable
+place to be.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { e, 23 }
+	to { southwest, 6 }
+  }
+}
+
+6
+{
+  name { A Hot Side Tunnel.  }
+  desc {
+Heat radiates from the walls and floor make it a very uncomfortable
+place to be.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 5 }
+	to { northwest, 7 }
+  }
+}
+
+7
+{
+  name { A Hot Passage.  }
+  desc {
+Heat radiates from the walls and floor make it a very uncomfortable
+place to be.
+  }
+  sector { Mountains }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 6 }
+	to { northwest, 0 }
+  }
+}
+
+8
+{
+  name { A Lava Filled Cavern.  }
+  desc {
+A lake of magma stretches out across the cavern. Waves of lava flow
+out from the center and splash up on the walls sending globes of molten
+rock shooting up toward a huge circular opening at the top of the
+cavern. The floor of the volcano shifts and cracks as new lava flows
+push up from below. If the heat is enough to melt rock, then flesh
+will stand no chance
+  }
+  sector { Fire }
+  flags { no_sum, private }
+  exits {
+	to { e, 16 }
+  }
+}
+
+9
+{
+  name { A Hot Cave.  }
+  desc {
+Pools of magma have formed on the floor. Ripples spread out over
+the puddles as though something is moving under the surface
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 0 }
+	to { w, 17 }
+  }
+}
+
+10
+{
+  name { The Hatchery.  }
+  desc {
+A small cave has opened up. Steam billows in through cracks in the wall
+and the heat almost too much to bear. Circles of cold magma have formed
+nest like indentations in the floor. Various bits broken shell litter
+the ground around the dents. You notice a small crack in the far
+wall. is it big enough to enter?
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 4 }
+	to { 10, 12 }
+	  info { hidden }
+	  keywords { crack }
+  }
+}
+
+11
+{
+  name { A Steam Filled Cave.  }
+  desc {
+Steam fills the cave making it impossible to breath. Shelves of rock
+have been cut away in the cave sides and in the centre a pool of
+water bubbles and spits as it boils.
+  }
+  sector { Underwater }
+  flags { no_sum, private }
+  exits {
+	to { s, 2 }
+  }
+}
+
+12
+{
+  name { A Narrow Tunnel.  }
+  desc {
+The tunnel is perfectly round and very narrow. Pipes carrying hot lava
+disappear along the corridor to the east.
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 13 }
+	to { 10, 10 }
+	  info { hidden }
+	  keywords { crack }
+  }
+}
+
+13
+{
+  name { A Narrow Tunnel.  }
+  desc {
+The tunnel seems slightly larger here but the pipes still run along
+the bottom of th wall. It is noticably cooler here, but its still
+hot as hell.
+
+"  }
+  flags { no_sum, private }
+  exits {
+	to { e, 14 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { A Cavern.  }
+  desc {
+A cavern has opened up. Pipes filter into the room from the walls and
+ceiling ending in large vats that continually fill with boiling lava.
+Its hot in here, but much more bearable. Lumps of magma seem to move
+of the own accord across the vat surface. You notice a door across
+the cave.
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 15 }
+	  info { door, closed, secret, autoclose }
+	  keywords { rock door }
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { A Work Room.  }
+  desc {
+The room is dominated by a huge table made of cooled lava. Small flames
+dance across its surface and occasionally murge to form humanoid shapes
+then disperse once more. Phials and bottles fill a shelf at the back
+of the work room.
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 14 }
+	  info { door, closed, secret, autoclose }
+	  keywords { rock door }
+  }
+}
+
+16
+{
+  name { A Blistering Hot Tunnel.  }
+  desc {
+The walls glow red with the heat from the lava flowing behind them.
+The floor is almost to hot to stand on as it slops down toward the 
+passage end. The heat from further down makes your eyes water.
+  }
+  flags { no_mob, no_sum, private }
+  exits {
+	to { w, 8 }
+	to { 10, 4 }
+	  info { door, hidden }
+	  keywords { lavafall }
+  }
+}
+
+17
+{
+  name { " A Hot Side Tunnel  }
+  desc {
+A stream of lava flows west into the next cavern. The heat has 
+started to make you uncomfortable.  
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 9 }
+	to { w, 18 }
+  }
+}
+
+18
+{
+  name { " A Hot Side Tunnel  }
+  desc {
+Lava still flows West but the stream is becoming wider. The heat is 
+also getting more intense.
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 17 }
+	to { w, 19 }
+  }
+}
+
+19
+{
+  name { " A Hot Side Tunnel  }
+  desc {
+The stream has turned into a river of lava. A ledge enables you to
+continue into the next cavern. The heat is almost unbearable.  
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 18 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { A Lava Lake.  }
+  desc {
+A lake of lava spreads out before you. Islands of rock float along
+on currents within the lake. Something seems to be stirring under
+the lava.  
+  }
+  flags { no_sum, private }
+  tele { 70, 1, 22 }
+  exits {
+	to { e, 19 }
+  }
+}
+
+21
+{
+  name { On The Lava Lake.  
+  }
+  desc {
+The lava boils and pops showering red hot molten rock over the
+entire cavern. The platform you are stood on rocks as waves of magma
+crash against it side.  
+  }
+  exits {
+	to { e, 19 }
+  }
+}
+
+22
+{
+  name {
+The ledge crumbles beneath your feet dropping you onto one of the 
+floating rock  }
+  desc { "
+  }
+  tele { 20, 1, 21 }
+}
+
+23
+{
+  name { A Rough Walled Passage.   }
+  desc {
+Heat, fumes and pitful moans flood the passage. Anything living
+in these conditions must be hardy creatures with a liking for heat.
+The passage ahead look like it curves round to the south.
+  }
+  exits {
+	to { e, 24 }
+	to { w, 5 }
+  }
+}
+
+24
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The heat, although bearable, is quite uncomfortable. The sound of
+rocks cracking under intense heat can be heard further down the passage.
+  }
+  exits {
+	to { e, 25 }
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The heat from the west has increased noticably. Your nose is 
+starting to sting from the acrid fumes coming into the passage.
+  }
+  exits {
+	to { e, 26 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The heat from the west has increased noticably. Your nose is 
+starting to sting from the acrid fumes coming into the passage
+  }
+  exits {
+	to { e, 27 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The walls of the cave are getting warmer to the touch. The smell of
+of sulphur is getting a little stronger.
+  }
+  exits {
+	to { e, 28 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The walls of the cave are getting warmer to the touch. The smell of
+of sulphur is getting a little stronger.
+  }
+  exits {
+	to { e, 29 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { A Rough Walled Passage.   }
+  desc {
+The walls of the cave are getting warmer to the touch. The smell of
+of sulphur is getting a little stronger.
+  }
+  exits {
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { A Rough Walled Cave.   }
+  desc {
+A rough walled cave stretches out to the west. A warm breeze drifts
+from the west and the faint smell of sulphur tickles your nose.
+  }
+  exits {
+	to { w, 29 }
+  }
+}

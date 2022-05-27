@@ -1,0 +1,7358 @@
+#offset DarkCastle
+0
+{
+  name { A Small Clearing  }
+  desc {
+"   Finally!  You have found your way to something besides more trees.  To
+the south west you see a beautiful sight after all that forest,plush green
+rolling hills intersected by a small valley.  To the south is a well 
+maintained wagon trail that looks like it leads right to the valley.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { s, 1 }
+  }
+}
+
+1
+{
+  name { A Wagon Trail  }
+  desc {
+"   The trail runs right outside of the forest towards the hills in the
+west.  Looking at the hills it would appear several of them have smoke
+coming from what could be chimneys. The trail continues on towards the
+west. You can also go north back to the forest.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { n, 0 }
+  to { w, 2 }
+  }
+}
+
+2
+{
+  name { A Wagon Trail  }
+  desc {
+"   The trail runs right outside of the forest towards the hills in the
+south west.  You now have a better view of the hills and yes that smoke
+is definitely coming from small chimneys in each hill. Looks like somebody
+has made the hills into there homes.  The trail continues west towards the
+valley. You can also go east back towards the forest.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { e, 1 }
+  to { w, 3 }
+  }
+}
+
+3
+{
+  name { A Wagon Trail  }
+  desc {
+"   The trail is still at the edge of the forest but up ahead it is turning
+away from the forest and heading south into the village.  The hills 
+just exude peacefulness from here, with the wind catching the chimney
+smoke making it appear as it is almost dancing through the tall grass
+and wildflowers. The trail continues west towards the valley.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { e, 2 }
+  to { w, 4 }
+  }
+}
+
+4
+{
+  name { A Wagon Trail  }
+  desc {
+"   The trail is changing as you near the valley from an old wagon trail to
+a well packed path.  The trail turn southwest towards the village and away
+from the forest.  The trail ends up ahead and turns into a well maintained
+earthen road.  You can continue southwest towards the village or go back
+east.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { e, 3 }
+  to { southwest, 63 }
+  }
+}
+
+5
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  flags { no_mob, no_sum }
+  exits {
+  to { n, 64 }
+  to { s, 6 }
+  }
+}
+
+6
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 5 }
+  to { e, 7 }
+  to { s, 14 }
+  to { w, 10 }
+  }
+}
+
+7
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { s, 15 }
+  to { w, 6 }
+  to { northeast, 8 }
+  }
+}
+
+8
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 9 }
+  to { southwest, 7 }
+  }
+}
+
+9
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { w, 8 }
+  to { southeast, 21 }
+  }
+}
+
+10
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 6 }
+  to { s, 13 }
+  to { northwest, 11 }
+  }
+}
+
+11
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { w, 12 }
+  to { southeast, 10 }
+  }
+}
+
+12
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 11 }
+  to { southwest, 50 }
+  }
+}
+
+13
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 10 }
+  to { e, 14 }
+  to { w, 22 }
+  }
+}
+
+14
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 6 }
+  to { e, 15 }
+  to { s, 28 }
+  to { w, 13 }
+  }
+}
+
+15
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 7 }
+  to { e, 16 }
+  to { w, 14 }
+  }
+}
+
+16
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { s, 17 }
+  to { w, 15 }
+  }
+}
+
+17
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 16 }
+  to { southeast, 19 }
+  to { southwest, 18 }
+  }
+}
+
+18
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { s, 20 }
+  to { w, 29 }
+  to { northeast, 17 }
+  }
+}
+
+19
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 47 }
+  to { s, 59 }
+  to { northwest, 17 }
+  }
+}
+
+20
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 18 }
+  }
+}
+
+21
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 53 }
+  to { southeast, 54 }
+  to { southwest, 62 }
+  to { northwest, 9 }
+  }
+}
+
+22
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 13 }
+  to { s, 23 }
+  }
+}
+
+23
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 22 }
+  to { southeast, 25 }
+  to { southwest, 24 }
+  }
+}
+
+24
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { s, 56 }
+  to { w, 37 }
+  to { northeast, 23 }
+  }
+}
+
+25
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 29 }
+  to { s, 27 }
+  to { northwest, 23 }
+  }
+}
+
+26
+{
+  name { 240326  }
+  desc { Empty
+  }
+  sector { Hills }
+}
+
+27
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 25 }
+  }
+}
+
+28
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 14 }
+  to { s, 29 }
+  }
+}
+
+29
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 28 }
+  to { e, 18 }
+  to { s, 30 }
+  to { w, 25 }
+  }
+}
+
+30
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 29 }
+  to { s, 31 }
+  }
+}
+
+31
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 30 }
+  to { s, 32 }
+  }
+}
+
+32
+{
+  name { An Ancient Stream Bed around a Carrock  }
+  desc {
+"   You are standing at the base of a massive pinacle of rock that rises
+up so high it vanishes into the fog above you.  The base of the rock is
+stained red where once the stream swirled around it on its journey down
+the valley.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+  to { n, 31 }
+  to { southeast, 33 }
+  to { southwest, 34 }
+  }
+}
+
+33
+{
+  name { An Ancient Stream Bed around a Carrock  }
+  desc {
+"   You are standing at the base of a massive pinacle of rock that rises
+up so high it vanishes into the fog above you.  The base of the rock is
+stained red where once the stream swirled around it on its journey down
+the valley.
+  }
+  sector { Hills }
+  exits {
+  to { e, 40 }
+  to { southwest, 44 }
+  to { northwest, 32 }
+  }
+}
+
+34
+{
+  name { An Ancient Stream Bed around a Carrock  }
+  desc {
+"   You are standing at the base of a massive pinacle of rock that rises
+up so high it vanishes into the fog above you.  The base of the rock is
+stained red where once the stream swirled around it on its journey down
+the valley.
+  }
+  sector { Hills }
+  exits {
+  to { w, 35 }
+  to { northeast, 32 }
+  to { southeast, 44 }
+  }
+}
+
+35
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { e, 34 }
+  to { southwest, 43 }
+  to { northwest, 36 }
+  }
+}
+
+36
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { southeast, 35 }
+  }
+}
+
+37
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { e, 24 }
+  to { southwest, 39 }
+  to { northwest, 38 }
+  }
+}
+
+38
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { southeast, 37 }
+  }
+}
+
+39
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 37 }
+  }
+}
+
+40
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { w, 33 }
+  to { northeast, 41 }
+  to { southeast, 42 }
+  }
+}
+
+41
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { southwest, 40 }
+  }
+}
+
+42
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { northwest, 40 }
+  }
+}
+
+43
+{
+  name { Lost on a Foggy, Rock-Strewn Moor  }
+  desc {
+"   You are standing on a rock-strewn moor.  The fog is thick like gravy
+and offers no help in finding your way forwards, backwards or anywards.
+  }
+  sector { Hills }
+  exits {
+  to { northeast, 35 }
+  }
+}
+
+44
+{
+  name { An Ancient Stream Bed around a Carrock  }
+  desc {
+"   You are standing at the base of a massive pinacle of rock that rises
+up so high it vanishes into the fog above you.  The base of the rock is
+stained red where once the stream swirled around it on its journey down
+the valley.
+  }
+  sector { Hills }
+  exits {
+  to { s, 45 }
+  to { northeast, 33 }
+  to { northwest, 34 }
+  }
+}
+
+45
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Hills }
+  exits {
+  to { n, 44 }
+  to { s, 46 }
+  }
+}
+
+46
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+  to { n, 45 }
+  to { e, 66 }
+  to { w, 65 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+47
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { w, 19 }
+  to { northeast, 48 }
+  to { southeast, 49 }
+  }
+}
+
+48
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { southwest, 47 }
+  }
+}
+
+49
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northwest, 47 }
+  }
+}
+
+50
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 12 }
+  to { southeast, 55 }
+  to { southwest, 52 }
+  to { northwest, 51 }
+  }
+}
+
+51
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { southeast, 50 }
+  }
+}
+
+52
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 50 }
+  }
+}
+
+53
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { southwest, 21 }
+  }
+}
+
+54
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northwest, 21 }
+  }
+}
+
+55
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northwest, 50 }
+  }
+}
+
+56
+{
+  name { Next to the Hanging Tree  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.  A single tree stands out here, it looks sturdier than
+the others you have seen.  A noose of rough-looking hemp hangs from a
+solid looking branch.
+  }
+  sector { Forest }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+You climb the branches with practised ease...
+
+" }
+  }
+  exits {
+  to { n, 24 }
+  to { southeast, 58 }
+  to { southwest, 57 }
+  to { 10, 449 }
+    info { message }
+    keywords { climb-tree }
+  }
+}
+
+57
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 56 }
+  }
+}
+
+58
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northwest, 56 }
+  }
+}
+
+59
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { n, 19 }
+  to { southeast, 61 }
+  to { southwest, 60 }
+  }
+}
+
+60
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 59 }
+  }
+}
+
+61
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northwest, 59 }
+  }
+}
+
+62
+{
+  name { Lost in the Dead Forest  }
+  desc {
+"   You are standing in a foggy dead forest.  All about you the pale and
+diseased-looking limbs of dead tree's criss-cross and interlace.  The
+base of the tree's are dead-red, like they have been stained by the blood
+from the stream.
+  }
+  sector { Forest }
+  exits {
+  to { northeast, 21 }
+  }
+}
+
+63
+{
+  name { The Remnants of a Ceremonial Site  }
+  desc {
+"   Piles of rocks and rubble are all that remain from what looks like
+a ceremonial site of some kind.  Intricate patterns adorn the hand 
+crafted rocks that have survived whatever has happened in this place.
+An arc of embossed blackened rock is all that remains of what looks 
+to be a large portal that possibly would take you back from wherever 
+it is you have come.  The terrain is somewhat firm but feels like it
+is living and breathing and slowly moves beneath you.  The mass starts
+here and heads south where in the distance you can make out a large
+structure of some kind.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+  to { s, 64 }
+  to { northeast, 4 }
+  }
+}
+
+64
+{
+  name { An Ancient Stream Bed  }
+  desc {
+"   You are standing in the dried bed of an ancient stream.  A thin
+trickle of thick, red liquid oozes down the centre.  The sight of it
+makes your stomach turn.  The fog is thick here.
+  }
+  sector { Forest }
+  exits {
+  to { n, 63 }
+  to { s, 5 }
+  }
+}
+
+65
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { e, 46 }
+  to { southwest, 69 }
+  to { northwest, 70 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+66
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { w, 46 }
+  to { northeast, 67 }
+  to { southeast, 68 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+67
+{
+  name { Inside a Shallow Cave  }
+  desc {
+"   You are standing inside a shallow cave that, judging from the contours
+of the rocks, was created by debris thrown up when that meteor struck the
+ground nearby...  You wonder if anything ever made its home in here.
+  }
+  exits {
+  to { southwest, 66 }
+  }
+}
+
+68
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { southwest, 73 }
+  to { northwest, 66 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+69
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { northeast, 65 }
+  to { southeast, 71 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+70
+{
+  name { Inside a Shallow Cave  }
+  desc {
+"   You are standing inside a shallow cave that, judging from the contours
+of the rocks, was created by debris thrown up when that meteor struck the
+ground nearby...  You wonder if anything ever made its home in here.
+  }
+  exits {
+  to { southeast, 65 }
+  }
+}
+
+71
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { e, 72 }
+  to { northwest, 69 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+72
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+  to { e, 73 }
+  to { s, 74 }
+  to { w, 71 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+73
+{
+  name { An Ancient Impact Crater  }
+  desc {
+"   You are standing at the base of a massive impact crater.  The crater
+is filled with oozing and bubbling, thick red liquid.  The sight of it
+makes your stomach heave, but you hold on to the contents of your last
+meal and swallow the bile down.  At the southern edge of the crater a 
+thin trickle of the disgusting liquid seeps out and makes its way down
+the valley via an ancient stream bed.  The fog is thick but you think
+you can make out the rocky meteor in the centre of the crater.
+  }
+  sector { Hills }
+  exits {
+  to { w, 72 }
+  to { northeast, 68 }
+  to { 10, 431 }
+    info { secret, hidden }
+    keywords { meteor }
+  }
+}
+
+74
+{
+  name { A Steep Rise  }
+  desc {
+"   You are climbing a steep rise.  The fog has thinned sufficiently so
+that for the first time you can get a good look around.  To the north the
+land is covered in a thick blanket of concealing mist and the only thing
+you can see that way is a sharp pinnacle of rock rising up a shortways to
+the north.  So the south the view is dominated by a tall, spikey castle
+more commonly associated with evil overlords and other nasty bad-guys.
+There appears to be some fences just ahead.
+  }
+  sector { Hills }
+  exits {
+  to { n, 72 }
+  to { s, 75 }
+  }
+}
+
+75
+{
+  name { Approaching an Enormous Castle  }
+  desc {
+"  You are standing before some apron fences.  These massive spiky walls
+of steel, iron and wood are littered with decaying corpses and grizzly
+body parts.  Yuck!  Best move on, away from this area!
+  }
+  sector { City }
+  exits {
+  to { n, 74 }
+  to { southeast, 76 }
+  to { southwest, 77 }
+  }
+}
+
+76
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { northeast, 80 }
+  to { southeast, 79 }
+  to { southwest, 78 }
+  to { northwest, 75 }
+  }
+}
+
+77
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { northeast, 75 }
+  to { southeast, 78 }
+  to { southwest, 82 }
+  to { northwest, 81 }
+  }
+}
+
+78
+{
+  name { The Castle Land Bridge  }
+  desc {
+"    Before you, to the south, rises a spiky walkway that leads to the
+castle door, which has a distinctly mouthy-look to it...  Almost like a
+giant maw.  Behind you, to the north, the horror of the apron fences
+awaits your footfalls.
+  }
+  sector { City }
+  exits {
+  to { s, 100 }
+  to { northeast, 76 }
+  to { northwest, 77 }
+  }
+}
+
+79
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { northwest, 76 }
+  }
+}
+
+80
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { southwest, 76 }
+  }
+}
+
+81
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { southeast, 77 }
+  }
+}
+
+82
+{
+  name { Between the Apron Fences  }
+  desc {
+"   You are walking between the apron the fences before the castle. These
+massive spiky walls of steel, iron and wood are littered with decaying
+corpses and grizzly body parts.  Yuck!  You'd do well to get out of here
+quickly!
+  }
+  sector { City }
+  exits {
+  to { northeast, 77 }
+  }
+}
+
+83
+{
+  name { 240383  }
+  desc { Empty
+  }
+}
+
+84
+{
+  name { 240384  }
+  desc { Empty
+  }
+}
+
+85
+{
+  name { 240385  }
+  desc { Empty
+  }
+}
+
+100
+{
+  name { Before the Castle Forecourt  }
+  desc {
+"   You are standing in the shadow of a massive castle.  This is not your
+traditional fairy-tale building.  Before you is a forecourt surrounded by
+high, spikey, pillars and beyond is the castle entrance, a massive gaping
+maw full of sharp-looking decorations.  Inside the entrance you can see a
+portcullis that has been invitingly raised.  The spikes along the bottom
+of the portcullis give the entrance the look of a mouth about to snap
+shut at any moment.  The forecourt and castle are all made of the same
+dark stone.  You can't tell what it is but it seems to reflect a blood-
+red luster.  The castle continues high into the sky where tall spikey
+towers look ominously down upon you.  A sense of dread fills you.  Dare
+you continue?  You can exit south into the castle forecourt or return
+north to the plane.
+  }
+  sector { Mountains }
+  exits {
+  to { n, 78 }
+  to { s, 101 }
+  }
+}
+
+101
+{
+  name { The Castle Forecourt  }
+  desc {
+"   You are standing in a massive forecourt before the castle.  Along each
+side massive spiked pillars reach into the sky.  They are all taller than
+any building you have ever seen, yet they are dwarfed by the enormity of
+the castle before you.  You have to lean so far back now to get all of it
+in view that you fear you will fall over.  The pillars, and castle, seem
+to be made of some strange dark stone.  It is almost liquid in appearance
+and yet as solid as granite.  As you stare into it you feel that it seems
+to reflect a blood-red luster.  You shiver.  The forecourt continues to
+the south where it finally leads in to the entrance, which is looking far
+more mouth-like than before.  Faint traces of smoke or steam escape from
+it.  You can exit north back towards the plane or south towards the un-
+inviting entrance.
+  }
+  sector { Mountains }
+  flags { no_mob }
+  exits {
+  to { n, 100 }
+  to { s, 102 }
+  }
+}
+
+102
+{
+  name { The Castle Forecourt  }
+  desc {
+"   You are standing right before the entrance to the castle.  The pillars
+on either side continue right up to the rock of the entrance.  Looking up
+you estimate the mouth-like entrance to be at least 30 or 40 feet high.
+Whatever calls this place home must be BIG!  The detail of the actual
+castle is now lost to view.  The same dark stone is prevailant everywhere
+here and you still get a sense of blood-red luster from it.  Steam trails
+lazily from corners of the gaping maw-like entrance.  You wonder, and not
+for the first time, if you've made a mistake coming this far?  You can
+exit south to the entrance or north and head back to the plane.
+  }
+  sector { Mountains }
+  exits {
+  to { n, 101 }
+  to { s, 200 }
+  }
+}
+
+103
+{
+  name { The Gaping Maw  }
+  desc {
+"   Above you, arching like the roof of a mouth, the ceiling of the
+entrance seems ominously high.  You stand upon something soft and for a
+brief moment your heart leaps in shock!  Looking down you see you are
+standing on a dark red carpet made of a plush material.  You can see that
+its years of wear have left it threadbare in places.  The walls are
+covered in tapestries.  Each depicting strange battles and stranger look-
+ing heroes.  They all appear to have been given pale skin and there seems
+to be too much liking for the impaling and crucifiction of the losers.
+Spaced evenly apart, but way out of your reach, large pools of oil burn
+in sconces hanging from dark rafters.  Steam billows from them and seaps
+lazily out of the entrance.  There is a rather unpleasant smell coming
+from the east, but the oil torches are lit that way.  The corridor
+continues in darkness to the west.  Which way will you choose?  You can
+exit west in to darkness, east towards the terrible stench or back north
+to the forecourt and the plane.
+  }
+  exits {
+  to { e, 104 }
+  to { w, 184 }
+  }
+}
+
+104
+{
+  name { 240404  }
+  desc { Empty
+  }
+  exits {
+  to { e, 105 }
+  to { w, 103 }
+  }
+}
+
+105
+{
+  name { 240405  }
+  desc { Empty
+  }
+  exits {
+  to { e, 106 }
+  to { w, 104 }
+  }
+}
+
+106
+{
+  name { 240406  }
+  desc { Empty
+  }
+  exits {
+  to { w, 105 }
+  to { u, 107 }
+  to { d, 148 }
+  }
+}
+
+107
+{
+  name { 240407  }
+  desc { Empty
+  }
+  exits {
+  to { n, 108 }
+  to { d, 106 }
+  }
+}
+
+108
+{
+  name { 240408  }
+  desc { Empty
+  }
+  exits {
+  to { n, 109 }
+  to { s, 107 }
+  }
+}
+
+109
+{
+  name { 240409  }
+  desc { Empty
+  }
+  exits {
+  to { n, 110 }
+  to { e, 124 }
+  to { s, 108 }
+  to { w, 136 }
+  }
+}
+
+110
+{
+  name { 240410  }
+  desc { Empty
+  }
+  exits {
+  to { n, 111 }
+  to { s, 109 }
+  }
+}
+
+111
+{
+  name { 240411  }
+  desc { Empty
+  }
+  exits {
+  to { s, 110 }
+  to { u, 112 }
+  }
+}
+
+112
+{
+  name { 240412  }
+  desc { Empty
+  }
+  exits {
+  to { n, 113 }
+  to { d, 111 }
+  }
+}
+
+113
+{
+  name { 240413  }
+  desc { Empty
+  }
+  exits {
+  to { n, 114 }
+  to { s, 112 }
+  }
+}
+
+114
+{
+  name { 240414  }
+  desc { Empty
+  }
+  exits {
+  to { n, 115 }
+  to { s, 113 }
+  }
+}
+
+115
+{
+  name { 240415  }
+  desc { Empty
+  }
+  exits {
+  to { n, 100 }
+  to { e, 119 }
+  to { s, 114 }
+  to { w, 116 }
+  }
+}
+
+116
+{
+  name { 240416  }
+  desc { Empty
+  }
+  exits {
+  to { e, 115 }
+  to { w, 117 }
+  }
+}
+
+117
+{
+  name { 240417  }
+  desc { Empty
+  }
+  exits {
+  to { e, 116 }
+  to { s, 118 }
+  }
+}
+
+118
+{
+  name { 240418  }
+  desc { Empty
+  }
+  exits {
+  to { n, 117 }
+  to { s, 123 }
+  }
+}
+
+119
+{
+  name { 240419  }
+  desc { Empty
+  }
+  exits {
+  to { e, 120 }
+  to { w, 115 }
+  }
+}
+
+120
+{
+  name { 240420  }
+  desc { Empty
+  }
+  exits {
+  to { s, 121 }
+  to { w, 119 }
+  }
+}
+
+121
+{
+  name { 240421  }
+  desc { Empty
+  }
+  exits {
+  to { n, 120 }
+  to { s, 122 }
+  }
+}
+
+122
+{
+  name { 240422  }
+  desc { Empty
+  }
+  exits {
+  to { n, 121 }
+  to { u, 152 }
+  }
+}
+
+123
+{
+  name { 240423  }
+  desc { Empty
+  }
+  exits {
+  to { n, 118 }
+  to { u, 166 }
+  }
+}
+
+124
+{
+  name { 240424  }
+  desc { Empty
+  }
+  exits {
+  to { n, 130 }
+  to { e, 125 }
+  to { w, 109 }
+  }
+}
+
+125
+{
+  name { 240425  }
+  desc { Empty
+  }
+  exits {
+  to { n, 131 }
+  to { e, 126 }
+  to { w, 124 }
+  }
+}
+
+126
+{
+  name { 240426  }
+  desc { Empty
+  }
+  exits {
+  to { n, 132 }
+  to { e, 127 }
+  to { w, 125 }
+  }
+}
+
+127
+{
+  name { 240427  }
+  desc { Empty
+  }
+  exits {
+  to { e, 128 }
+  to { s, 133 }
+  to { w, 126 }
+  }
+}
+
+128
+{
+  name { 240428  }
+  desc { Empty
+  }
+  exits {
+  to { e, 129 }
+  to { s, 134 }
+  to { w, 127 }
+  }
+}
+
+129
+{
+  name { 240429  }
+  desc { Empty
+  }
+  exits {
+  to { s, 135 }
+  to { w, 128 }
+  }
+}
+
+130
+{
+  name { 240430  }
+  desc { Empty
+  }
+  exits {
+  to { s, 124 }
+  }
+}
+
+131
+{
+  name { 240431  }
+  desc { Empty
+  }
+  exits {
+  to { s, 125 }
+  }
+}
+
+132
+{
+  name { 240432  }
+  desc { Empty
+  }
+  exits {
+  to { s, 126 }
+  }
+}
+
+133
+{
+  name { 240433  }
+  desc { Empty
+  }
+  exits {
+  to { n, 127 }
+  }
+}
+
+134
+{
+  name { 240434  }
+  desc { Empty
+  }
+  exits {
+  to { n, 128 }
+  }
+}
+
+135
+{
+  name { 240435  }
+  desc { Empty
+  }
+  exits {
+  to { n, 129 }
+  }
+}
+
+136
+{
+  name { 240436  }
+  desc { Empty
+  }
+  exits {
+  to { e, 109 }
+  to { w, 137 }
+  }
+}
+
+137
+{
+  name { 240437  }
+  desc { Empty
+  }
+  exits {
+  to { n, 146 }
+  to { e, 136 }
+  to { s, 147 }
+  to { w, 138 }
+  }
+}
+
+138
+{
+  name { 240438  }
+  desc { Empty
+  }
+  exits {
+  to { e, 137 }
+  to { w, 139 }
+  }
+}
+
+139
+{
+  name { 240439  }
+  desc { Empty
+  }
+  exits {
+  to { n, 145 }
+  to { e, 138 }
+  to { s, 144 }
+  to { w, 140 }
+  }
+}
+
+140
+{
+  name { 240440  }
+  desc { Empty
+  }
+  exits {
+  to { e, 139 }
+  to { w, 141 }
+  }
+}
+
+141
+{
+  name { 240441  }
+  desc { Empty
+  }
+  exits {
+  to { n, 142 }
+  to { e, 140 }
+  to { s, 143 }
+  }
+}
+
+142
+{
+  name { 240442  }
+  desc { Empty
+  }
+  exits {
+  to { s, 141 }
+  }
+}
+
+143
+{
+  name { 240443  }
+  desc { Empty
+  }
+  exits {
+  to { n, 141 }
+  }
+}
+
+144
+{
+  name { 240444  }
+  desc { Empty
+  }
+  exits {
+  to { n, 139 }
+  }
+}
+
+145
+{
+  name { 240445  }
+  desc { Empty
+  }
+  exits {
+  to { s, 139 }
+  }
+}
+
+146
+{
+  name { 240446  }
+  desc { Empty
+  }
+  exits {
+  to { s, 137 }
+  }
+}
+
+147
+{
+  name { 240447  }
+  desc { Empty
+  }
+  exits {
+  to { n, 137 }
+  }
+}
+
+148
+{
+  name { 240448  }
+  desc { Empty
+  }
+  exits {
+  to { u, 106 }
+  to { d, 149 }
+  }
+}
+
+149
+{
+  name { 240449  }
+  desc { Empty
+  }
+  exits {
+  to { n, 190 }
+  to { e, 150 }
+  to { w, 151 }
+  to { u, 148 }
+  }
+}
+
+150
+{
+  name { 240450  }
+  desc { Empty
+  }
+  exits {
+  to { w, 149 }
+  }
+}
+
+151
+{
+  name { 240451  }
+  desc { Empty
+  }
+  exits {
+  to { e, 149 }
+  }
+}
+
+152
+{
+  name { 240452  }
+  desc { Empty
+  }
+  exits {
+  to { e, 153 }
+  to { d, 122 }
+  }
+}
+
+153
+{
+  name { 240453  }
+  desc { Empty
+  }
+  exits {
+  to { n, 164 }
+  to { e, 154 }
+  to { s, 165 }
+  to { w, 152 }
+  }
+}
+
+154
+{
+  name { 240454  }
+  desc { Empty
+  }
+  exits {
+  to { e, 155 }
+  to { w, 153 }
+  }
+}
+
+155
+{
+  name { 240455  }
+  desc { Empty
+  }
+  exits {
+  to { e, 156 }
+  to { w, 154 }
+  }
+}
+
+156
+{
+  name { 240456  }
+  desc { Empty
+  }
+  exits {
+  to { n, 157 }
+  to { e, 159 }
+  to { w, 155 }
+  }
+}
+
+157
+{
+  name { 240457  }
+  desc { Empty
+  }
+  exits {
+  to { n, 158 }
+  to { s, 156 }
+  }
+}
+
+158
+{
+  name { 240458  }
+  desc { Empty
+  }
+  exits {
+  to { n, 182 }
+  to { s, 157 }
+  }
+}
+
+159
+{
+  name { 240459  }
+  desc { Empty
+  }
+  exits {
+  to { e, 160 }
+  to { w, 156 }
+  }
+}
+
+160
+{
+  name { 240460  }
+  desc { Empty
+  }
+  exits {
+  to { e, 161 }
+  to { w, 159 }
+  }
+}
+
+161
+{
+  name { 240461  }
+  desc { Empty
+  }
+  exits {
+  to { n, 163 }
+  to { s, 162 }
+  to { w, 160 }
+  }
+}
+
+162
+{
+  name { 240462  }
+  desc { Empty
+  }
+  exits {
+  to { n, 161 }
+  }
+}
+
+163
+{
+  name { 240463  }
+  desc { Empty
+  }
+  exits {
+  to { s, 161 }
+  }
+}
+
+164
+{
+  name { 240464  }
+  desc { Empty
+  }
+  exits {
+  to { s, 153 }
+  }
+}
+
+165
+{
+  name { 240465  }
+  desc { Empty
+  }
+  exits {
+  to { n, 153 }
+  }
+}
+
+166
+{
+  name { 240466  }
+  desc { Empty
+  }
+  exits {
+  to { w, 167 }
+  to { d, 123 }
+  }
+}
+
+167
+{
+  name { 240467  }
+  desc { Empty
+  }
+  exits {
+  to { n, 180 }
+  to { e, 166 }
+  to { s, 179 }
+  to { w, 168 }
+  }
+}
+
+168
+{
+  name { 240468  }
+  desc { Empty
+  }
+  exits {
+  to { e, 167 }
+  to { w, 169 }
+  }
+}
+
+169
+{
+  name { 240469  }
+  desc { Empty
+  }
+  exits {
+  to { e, 168 }
+  to { w, 170 }
+  }
+}
+
+170
+{
+  name { 240470  }
+  desc { Empty
+  }
+  exits {
+  to { e, 169 }
+  to { s, 176 }
+  to { w, 171 }
+  }
+}
+
+171
+{
+  name { 240471  }
+  desc { Empty
+  }
+  exits {
+  to { e, 170 }
+  to { w, 172 }
+  }
+}
+
+172
+{
+  name { 240472  }
+  desc { Empty
+  }
+  exits {
+  to { e, 171 }
+  to { w, 173 }
+  }
+}
+
+173
+{
+  name { 240473  }
+  desc { Empty
+  }
+  exits {
+  to { n, 174 }
+  to { e, 172 }
+  to { s, 175 }
+  }
+}
+
+174
+{
+  name { 240474  }
+  desc { Empty
+  }
+  exits {
+  to { s, 173 }
+  }
+}
+
+175
+{
+  name { 240475  }
+  desc { Empty
+  }
+  exits {
+  to { n, 173 }
+  }
+}
+
+176
+{
+  name { 240476  }
+  desc { Empty
+  }
+  exits {
+  to { n, 170 }
+  to { s, 177 }
+  }
+}
+
+177
+{
+  name { 240477  }
+  desc { Empty
+  }
+  exits {
+  to { n, 176 }
+  to { s, 178 }
+  }
+}
+
+178
+{
+  name { 240478  }
+  desc { Empty
+  }
+  exits {
+  to { n, 177 }
+  to { u, 181 }
+  }
+}
+
+179
+{
+  name { 240479  }
+  desc { Empty
+  }
+  exits {
+  to { n, 167 }
+  }
+}
+
+180
+{
+  name { 240480  }
+  desc { Empty
+  }
+  exits {
+  to { s, 167 }
+  }
+}
+
+181
+{
+  name { 240481  }
+  desc { Empty
+  }
+  exits {
+  to { d, 178 }
+  }
+}
+
+182
+{
+  name { 240482  }
+  desc { Empty
+  }
+  exits {
+  to { s, 158 }
+  to { u, 183 }
+  }
+}
+
+183
+{
+  name { 240483  }
+  desc { Empty
+  }
+  exits {
+  to { d, 182 }
+  }
+}
+
+184
+{
+  name { 240484  }
+  desc { Empty
+  }
+  exits {
+  to { e, 103 }
+  to { w, 185 }
+  }
+}
+
+185
+{
+  name { 240485  }
+  desc { Empty
+  }
+  exits {
+  to { n, 187 }
+  to { e, 184 }
+  to { s, 186 }
+  }
+}
+
+186
+{
+  name { 240486  }
+  desc { Empty
+  }
+  exits {
+  to { n, 185 }
+  to { w, 189 }
+  }
+}
+
+187
+{
+  name { 240487  }
+  desc { Empty
+  }
+  exits {
+  to { s, 185 }
+  to { w, 188 }
+  }
+}
+
+188
+{
+  name { 240488  }
+  desc { Empty
+  }
+  extra {
+  keywords { _teleport }
+  desc {  The crypt flashes blue.....
+  }
+  }
+  tele { 12, 0, DarkForest:97 }
+  exits {
+  to { e, 187 }
+  }
+}
+
+189
+{
+  name { 240489  }
+  desc { Empty
+  }
+  extra {
+  keywords { _teleport }
+  desc {  The crypt flashes blue.....
+  }
+  }
+  tele { 12, 0, DarkForest:94 }
+  exits {
+  to { e, 186 }
+  }
+}
+
+190
+{
+  name { 240490  }
+  desc { Empty
+  }
+  exits {
+  to { s, 149 }
+  }
+}
+
+191
+{
+  name { 240491  }
+  desc { Empty
+  }
+}
+
+192
+{
+  name { 240492  }
+  desc { Empty
+  }
+}
+
+193
+{
+  name { 240493  }
+  desc { Empty
+  }
+}
+
+194
+{
+  name { 240494  }
+  desc { Empty
+  }
+}
+
+195
+{
+  name { 240495  }
+  desc { Empty
+  }
+}
+
+196
+{
+  name { 240496  }
+  desc { Empty
+  }
+}
+
+197
+{
+  name { 240497  }
+  desc { Empty
+  }
+}
+
+198
+{
+  name { 240498  }
+  desc { Empty
+  }
+}
+
+199
+{
+  name { 240499  }
+  desc { Empty
+  }
+}
+
+200
+{
+  name { Inside the Gaping Maw  }
+  desc {
+"   You are standing in the entrance to the Castle. Behind you, the fore-
+court stretches off back towards the plane.  The ceiling's in here are
+very high.  Thin streamers of mist and fog pool in the gaps in the beams
+before pouring through the entrance.  To the south a corridor opens up
+into a massive hall.  The corridor here also continues east and west, in
+to darkness.
+  }
+  flags { dark }
+  exits {
+  to { n, 102 }
+  to { e, 243 }
+  to { s, 244 }
+  to { w, 201 }
+  }
+}
+
+201
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue west or east.
+  }
+  extra {
+  keywords { bats ceiling shadows }
+  desc { 
+You look into the shadows for a while, and wait for your eyes to adjust
+to the dim light. Eventually you can make out the dark-grey shapes of
+hundreds of bats roosting on the high, vaulted ceiling.  Their eyes,
+glowing evil-red orbs, stare right back at you...  Uh oh!
+  }
+  }
+  flags { dark }
+  exits {
+  to { e, 200 }
+  to { w, 202 }
+  }
+}
+
+202
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue north-west into a narrow
+corridor or south-west or east.
+  }
+  extra {
+  keywords { bats ceiling shadows }
+  desc { 
+You look into the shadows for a while, and wait for your eyes to adjust
+to the dim light. Eventually you can make out the dark-grey shapes of
+hundreds of bats roosting on the high, vaulted ceiling.  Their eyes,
+glowing evil-red orbs, stare right back at you...  Uh oh!
+  }
+  }
+  flags { dark }
+  exits {
+  to { e, 201 }
+  to { southwest, 207 }
+  to { northwest, 203 }
+  }
+}
+
+203
+{
+  name { The Base of the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue west, into darkness, or south-east back to the
+main corridor.
+  }
+  flags { dark }
+  exits {
+  to { w, 204 }
+  to { southeast, 202 }
+  }
+}
+
+204
+{
+  name { The Base of the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue south-west or east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 203 }
+  to { southwest, 205 }
+  }
+}
+
+205
+{
+  name { The Base of the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue south-east or north-east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 204 }
+  to { southeast, 206 }
+  }
+}
+
+206
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues east and
+south. A tall, narrow corridor leads north-west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 207 }
+  to { s, 208 }
+  to { northwest, 205 }
+  }
+}
+
+207
+{
+  name { Entry to the Western Tower  }
+  desc {
+"   The corridor here opens up to reveal the entrance to the western tower
+of the castle.  The door, a once-solid oak affair, has been reduced to a
+heap of rotting splinters.  Claw marks around the door frame hint that at
+some point a powerful creature ripped through this place.  The ceiling at
+this juncture is lower, but you can make out ancient burn marks on the
+beams.  A gust of freezing cold air from the tower entry chills you to
+the bone.  You can continue along the corridor west and north-east or see
+what terrors lurk in the tower to the north-west.
+  }
+  flags { dark }
+  exits {
+  to { w, 206 }
+  to { northeast, 202 }
+  to { northwest, 274 }
+  }
+}
+
+208
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue north or southwest.
+  }
+  flags { dark }
+  exits {
+  to { n, 206 }
+  to { southwest, 209 }
+  }
+}
+
+209
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue northeast or south.
+  }
+  flags { dark }
+  exits {
+  to { s, 210 }
+  to { northeast, 208 }
+  }
+}
+
+210
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue north or south.
+  }
+  flags { dark }
+  exits {
+  to { n, 209 }
+  to { s, 211 }
+  }
+}
+
+211
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues north and
+east. A tall, narrow corridor leads southwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { n, 210 }
+  to { e, 216 }
+  to { southwest, 212 }
+  }
+}
+
+212
+{
+  name { The Base of the Ruined Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+fire-blackened stone and beams and joists in the ceiling above creak and
+groan from the weight of rubble resting on them.  Huge pits and rents are
+in evidence everywhere, and the signs of ancient battle are rife. No doubt
+that what ever used this place for defence failed.  You can continue north
+-east or south-east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 211 }
+  to { southeast, 213 }
+  }
+}
+
+213
+{
+  name { The Base of the Ruined Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+fire-blackened stone and beams and joists in the ceiling above creak and
+groan from the weight of rubble resting on them.  Huge pits and rents are
+in evidence everywhere, and the signs of ancient battle are rife. No doubt
+that what ever used this place for defence failed.  You can continue north
+-west or east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 214 }
+  to { northwest, 212 }
+  }
+}
+
+214
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues north-
+east and south-east. A tall, narrow corridor leads west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 213 }
+  to { northeast, 215 }
+  to { southeast, 217 }
+  }
+}
+
+215
+{
+  name { The Base of the Ruined Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+fire-blackened stone and beams and joists in the ceiling above creak and
+groan from the weight of rubble resting on them.  Huge pits and rents are
+in evidence everywhere, and the signs of ancient battle are rife. On the
+north-west the colour of the stones doesn't look quite right.  You can
+continue north-west or east into darkness.
+  }
+  extra {
+  keywords { wall stones }
+  desc { 
+The stones of the wall are not nearly as faded as they should be.  On
+closer inspection you can see that the dirt has been applied after the
+original battle in this section took place.  How odd.
+  }
+  }
+  flags { dark }
+  exits {
+  to { northeast, 270 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { wall }
+  to { southwest, 214 }
+  to { northwest, 216 }
+  }
+}
+
+216
+{
+  name { Blocked Entry to the Ruined Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  At this point a doorway
+once allowed access to the ruined southwest tower, but it has long since
+been blocked off by hundreds of tons of fallen debris.  The walls are
+made of fire-blackened stone and beams and joists in the ceiling above
+creak and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue west or southeast into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 211 }
+  to { southeast, 215 }
+  }
+}
+
+217
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue east or northwest.
+  }
+  flags { dark }
+  exits {
+  to { e, 218 }
+  to { northwest, 214 }
+  }
+}
+
+218
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue east or west.
+  }
+  flags { dark }
+  exits {
+  to { e, 219 }
+  to { w, 217 }
+  }
+}
+
+219
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue east or west.
+  }
+  flags { dark }
+  exits {
+  to { e, 220 }
+  to { w, 218 }
+  }
+}
+
+220
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  A portrait of an young woman adorns the
+northwest wall.  The corridor here also continues north-east and west. A
+tall, narrow corridor leads south-east into darkness.
+  }
+  extra {
+  keywords { portrait wall }
+  desc { 
+This ancient portrait depicts the terrible visage of a woman wielding
+immense power.  The canvas is dull and faded by the right side of the
+frame appears to have been touched a lot.
+  }
+  }
+  flags { dark }
+  exits {
+  to { w, 219 }
+  to { northeast, 225 }
+  to { southeast, 221 }
+  to { northwest, 272 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { wall }
+  }
+}
+
+221
+{
+  name { Around the Base of the South Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue east or northwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 222 }
+  to { northwest, 220 }
+  }
+}
+
+222
+{
+  name { Around the Base of the South Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue west or northeast into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 221 }
+  to { northeast, 223 }
+  }
+}
+
+223
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues north-
+west and north-east. A tall, narrow corridor leads south-west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 226 }
+  to { southwest, 222 }
+  to { northwest, 224 }
+  }
+}
+
+224
+{
+  name { Around the Base of the South Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue west or southeast into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 225 }
+  to { southeast, 223 }
+  }
+}
+
+225
+{
+  name { Around the Base of the South Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue east or southwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 224 }
+  to { southwest, 220 }
+  }
+}
+
+226
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue east or southwest.
+  }
+  flags { dark }
+  exits {
+  to { e, 227 }
+  to { southwest, 223 }
+  }
+}
+
+227
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue west or northeast.
+  }
+  flags { dark }
+  exits {
+  to { w, 226 }
+  to { northeast, 228 }
+  }
+}
+
+228
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue north or southwest.
+  }
+  flags { dark }
+  exits {
+  to { n, 229 }
+  to { southwest, 227 }
+  }
+}
+
+229
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues south
+and west. A tall, narrow corridor leads north-east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { s, 228 }
+  to { w, 236 }
+  to { northeast, 230 }
+  }
+}
+
+230
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue north or southwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { n, 231 }
+  to { southwest, 229 }
+  }
+}
+
+231
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue south or northwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { s, 230 }
+  to { northwest, 232 }
+  }
+}
+
+232
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue west or southeast into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 233 }
+  to { southeast, 231 }
+  }
+}
+
+233
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  The corridor here also continues north-
+west and south-west. A tall, narrow corridor leads east into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 232 }
+  to { southwest, 234 }
+  to { northwest, 237 }
+  }
+}
+
+234
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   The corridor here opens up to reveal the entrance to the gods tower of
+the castle.  The door is made of gilded metal and is high decorated.  Not
+a scratch adorns its surface, which is odd in this ancient place.  There
+are claw marks in the stone around the door frame but naught else.  The
+ceiling at this juncture is lower, but you can make out ancient burn marks
+on the beams.  On the western wall hangs an ancient shield that only a man
+with the strength of the gods could possibly lift.  You can continue along
+the corridor south and north-east or see what terrors lurk in the tower to
+east.
+  }
+  extra {
+  keywords { shield }
+  desc { 
+This shield is the size of a small door. It is made from beaten iron and
+has been hung in such a way that the edges all fit squarely to the wall.
+There is a skull and crossbones motif on it and it is surprisingly free
+from dust or marks.
+  }
+  }
+  flags { dark }
+  exits {
+  to { e, 276 }
+  to { s, 235 }
+  to { w, 267 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { shield }
+  to { northeast, 233 }
+  }
+}
+
+235
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue north or southeast into darkness.
+  }
+  flags { dark }
+  exits {
+  to { n, 234 }
+  to { southeast, 236 }
+  }
+}
+
+236
+{
+  name { Around the Base of the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of 
+fire-blackened stone and beams and joists in the ceiling above creak 
+and groan from the weight of rubble resting on them.  Huge pits and
+rents are in evidence everywhere, and the signs of ancient battle are
+rife.  You can continue east or northwest into darkness.
+  }
+  flags { dark }
+  exits {
+  to { e, 229 }
+  to { northwest, 235 }
+  }
+}
+
+237
+{
+  name { The Eastern Tower  }
+  desc {
+"   The corridor here opens up to reveal the entrance to the eastern tower
+of the castle.  The door is made of iron but is pitted and rusted with
+age and the surface is covered in long claw marks that hint that at some
+powerful creature attempting to gain access.  The ceiling at this juncture
+is lower, but you can make out ancient burn marks on the beams.  You can
+continue along the corridor west and south-east or see what terrors lurk
+in the tower to the north-east.
+  }
+  flags { dark }
+  exits {
+  to { w, 242 }
+  to { northeast, 238 }
+  to { southeast, 233 }
+  }
+}
+
+238
+{
+  name { The Base of the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue south-west or north-west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { southwest, 237 }
+  to { northwest, 239 }
+  }
+}
+
+239
+{
+  name { The Base of the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue south-east or west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 240 }
+  to { southeast, 238 }
+  }
+}
+
+240
+{
+  name { The Base of the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.  You can continue east, into darkness, or south-west back to the
+main corridor.
+  }
+  flags { dark }
+  exits {
+  to { e, 239 }
+  to { southwest, 241 }
+  }
+}
+
+241
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue north-east into a narrow
+corridor or south-east or west.
+  }
+  extra {
+  keywords { bats ceiling shadows }
+  desc { 
+You look into the shadows for a while, and wait for your eyes to adjust
+to the dim light. Eventually you can make out the dark-grey shapes of
+hundreds of bats roosting on the high, vaulted ceiling.  Their eyes,
+glowing evil-red orbs, stare right back at you...  Uh oh!
+  }
+  }
+  flags { dark }
+  exits {
+  to { w, 243 }
+  to { northeast, 240 }
+  to { southeast, 242 }
+  }
+}
+
+242
+{
+  name { Entry to the Eastern Tower  }
+  desc {
+"   The corridor here opens up to reveal the entrance to the eastern tower
+of the castle.  The door is made of iron but is pitted and rusted with
+age and the surface is covered in long claw marks that hint that at some
+powerful creature attempting to gain access.  The ceiling at this juncture
+is lower, but you can make out ancient burn marks on the beams.  You can
+continue along the corridor east and north-east or see what terrors lurk
+in the tower to the north-west.
+  }
+  flags { dark }
+  exits {
+  to { e, 237 }
+  to { northeast, 275 }
+  to { northwest, 241 }
+  }
+}
+
+243
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is so far above
+you it is a pool of shadow where tiny red orbs blink. The hairs on the
+back of your neck stand on end and a feeling of being watched washes over
+you. A high-pitched shriek pierces the silence and there is a flap of dry
+leathery wings.  The walls were once brightly decorated but time has faded 
+everything and paper hangs from the walls in tatters.  The floor here is
+a mulch of dried, white guano.  You can continue west or east.
+  }
+  extra {
+  keywords { bats ceiling shadows }
+  desc { 
+You look into the shadows for a while, and wait for your eyes to adjust
+to the dim light. Eventually you can make out the dark-grey shapes of
+hundreds of bats roosting on the high, vaulted ceiling.  Their eyes,
+glowing evil-red orbs, stare right back at you...  Uh oh!
+  }
+  }
+  flags { dark }
+  exits {
+  to { e, 241 }
+  to { w, 200 }
+  }
+}
+
+244
+{
+  name { Entrance to the Great Hall  }
+  desc {
+"   You are standing in the entrance to a long hall.  Torches gutter in
+sconces along the walls and the remnants of ancient banners hang in 
+tatters from a balustrade that lines a balcony overlooking the centre
+of the hall from the floor above.  The ceiling here is very high and even
+the light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east and
+west wall and, to the far south of the hall, a pair of thrones sit upon a
+dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 200 }
+  to { e, 246 }
+  to { s, 248 }
+  to { w, 245 }
+  to { southeast, 247 }
+  to { southwest, 249 }
+  }
+}
+
+245
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the far-northwest section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners 
+hang in tatters from a balustrade that lines a balcony overlooking the 
+centre of the hall from the floor above.  The ceiling here is very high 
+and even the light from the large chandelier hanging on a rusty chain 
+fails to penetrate into its shadowy depths.  There are doorways along the
+east, west and north wall and, to the far south of the hall, a pair of 
+thrones sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { e, 244 }
+  to { s, 249 }
+  to { southeast, 248 }
+  }
+}
+
+246
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the far-northeast section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  The ceiling here is very high
+and even the light from the large chandelier hanging on a rusty chain
+fails to penetrate into its shadowy depths.  There are doorways along the
+east, west and north wall and, to the far south of the hall, a pair or
+thrones sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { s, 247 }
+  to { w, 244 }
+  to { southwest, 248 }
+  }
+}
+
+247
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-northeast section of a long hall.  
+Torches gutter in sconces along the walls and the remnants of ancient 
+banners hang in tatters from a balustrade that lines a balcony over look-
+ing the centre of the hall from the floor above.  Several balusters have
+been kicked out from the balustrade in the centre to the south, leaving a
+wide gap in the protective rail.  The ceiling here is very high and even
+the light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There is a doorway directly east of
+here.  There are also doorways along the west and north wall and, to the
+far south of the hall, a pair or thrones sit upon a dias of faded red
+carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 246 }
+  to { e, 260 }
+  to { s, 252 }
+  to { w, 248 }
+  to { southwest, 251 }
+  to { northwest, 244 }
+  }
+}
+
+248
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-north section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the far south of the hall, a pair or thrones
+sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 244 }
+  to { e, 247 }
+  to { s, 251 }
+  to { w, 249 }
+  to { northeast, 246 }
+  to { southeast, 252 }
+  to { southwest, 250 }
+  to { northwest, 245 }
+  }
+}
+
+249
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-northwest section of a long hall.  
+Torches gutter in sconces along the walls and the remnants of ancient 
+banners hang in tatters from a balustrade that lines a balcony overlook-
+ing the centre of the hall from the floor above.  Several balusters have
+been kicked out from the balustrade in the centre to the south, leaving a
+wide gap in the protective rail.  The ceiling here is very high and even
+the light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the far south of the hall, a pair or thrones 
+sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 245 }
+  to { e, 248 }
+  to { s, 250 }
+  to { northeast, 244 }
+  to { southeast, 251 }
+  }
+}
+
+250
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-west section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to 
+penetrate into its shadowy depths.  There is a doorway directly to the
+west here, leading into darkness.  There are also doorways along the west
+and north wall and, to the far south of the hall, a pair or thrones sit
+upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 249 }
+  to { e, 251 }
+  to { s, 255 }
+  to { w, 257 }
+  to { northeast, 248 }
+  to { southeast, 254 }
+  }
+}
+
+251
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the exact centre of a long hall.  Torches gutter
+in sconces along the walls and the remnants of ancient banners hang in
+tatters from a balustrade that lines a balcony overlooking the centre of
+the hall from the floor above.  Several balusters have been kicked out
+from the balustrade in the centre to the south, leaving a wide gap in the
+protective rail.  The ceiling here is very high and even the light from
+the large chandelier hanging on a rusty chain directly above you fails to
+penetrate into its shadowy depths.  Roofing tiles and old lead litter the
+floor and a small puddle is fed by continuous, yet slow, drips from some-
+where above.  There are doorways along the east, west and north wall and,
+to the far south of the hall, a pair or thrones sit upon a dias of faded
+red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 248 }
+  to { e, 252 }
+  to { s, 254 }
+  to { w, 250 }
+  to { northeast, 247 }
+  to { southeast, 253 }
+  to { southwest, 255 }
+  to { northwest, 249 }
+  }
+}
+
+252
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-east section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the far south of the hall, a pair or thrones
+sit upon a dias of faded red carpet.  In the alcove lit by torches on
+either side sits a beautiful guillotine.
+  }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+You step up on to the guillotine and seat yourself on the Bascule.
+
+" }
+  }
+  flags { dark }
+  exits {
+  to { n, 247 }
+  to { s, 253 }
+  to { w, 251 }
+  to { southwest, 254 }
+  to { northwest, 248 }
+  to { 10, 444 }
+    info { message }
+    keywords { guillotine }
+  }
+}
+
+253
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the south-west section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the southeast of the hall, a pair or thrones
+sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 252 }
+  to { w, 254 }
+  to { southwest, 256 }
+  to { northwest, 251 }
+  }
+}
+
+254
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the central-south section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the south of the hall, a pair or thrones sit
+upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 251 }
+  to { e, 253 }
+  to { s, 256 }
+  to { w, 255 }
+  to { northeast, 252 }
+  to { northwest, 250 }
+  }
+}
+
+255
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing in the south-east section of a long hall.  Torches
+gutter in sconces along the walls and the remnants of ancient banners
+hang in tatters from a balustrade that lines a balcony overlooking the
+centre of the hall from the floor above.  Several balusters have been
+kicked out from the balustrade in the centre to the south, leaving a wide
+gap in the protective rail.  The ceiling here is very high and even the
+light from the large chandelier hanging on a rusty chain fails to
+penetrate into its shadowy depths.  There are doorways along the east,
+west and north wall and, to the southwest of the hall, a pair or thrones
+sit upon a dias of faded red carpet.
+  }
+  flags { dark }
+  exits {
+  to { n, 250 }
+  to { e, 254 }
+  to { northeast, 251 }
+  to { southeast, 256 }
+  }
+}
+
+256
+{
+  name { The Great Hall  }
+  desc {
+"   You are standing upon a dias of faded red carpet at the end of a long
+hall.  The ceiling here is low, around 10 feet, and you can only see the
+southern part of the balcony on the second level, where the missing parts
+of the balustrade make for an ugly view.  The thones look old, but well
+used and sturdy.  Both have been carved with loops and whirls and some-
+one has taken the time to emblazon them with bat motifs.  To the back of
+the dias, behind the thrones, there is simple wooden panelling that looks
+a little loose in places.  You can exit in any northerly direction, back
+into the hall.
+  }
+  extra {
+  keywords { panel }
+  desc { 
+The panel rattles in it's place. It is obvious it can be moved and even
+opened.  Perhaps something is behind it?
+  }
+  }
+  flags { dark }
+  exits {
+  to { n, 254 }
+  to { s, 273 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { panel }
+  to { northeast, 253 }
+  to { northwest, 255 }
+  }
+}
+
+257
+{
+  name { Entrance to the Servant Quarters  }
+  desc {
+"   You are standing in the entrance to the servant quarters.  There is an
+exit to the north that leads to what smells like an ancient privy, and to
+the south is a dark and dusty room.  A tapestry on the west wall moves in
+a slight breeze.
+  }
+  extra {
+  keywords { tapestry }
+  desc { 
+This tapestry is faded with the passage of time.  It appears to depict
+a battle in a land you do recognise.  Fields of blood, that were once
+vibrant and lush, are now a dull brown, making the tapestry appear to
+be in the grips of a fall.  A faint breeze rustles the fabric from
+behind.
+  }
+  }
+  flags { dark }
+  exits {
+  to { n, 258 }
+  to { e, 250 }
+  to { s, 259 }
+  to { w, 268 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  }
+}
+
+258
+{
+  name { The Kitchen  }
+  desc {
+"   This kitchen reeks!  OMG!  The smell of something rotten fills your
+nostrils.  You almost gag.  Flies and buzz and swarm angrily...  Maybe
+this isn't such a healthy place after all?
+  }
+  flags { dark }
+  exits {
+  to { s, 257 }
+  }
+}
+
+259
+{
+  name { A Crowded Bunk-room  }
+  desc {
+"   This room is crowded with bunks; they line the walls and are stacked
+six-high in places!  You could sleep maybe fifty or sixty people in here!
+This is, if you didn't mind the smell and the stuffiness... Yuck.
+  }
+  flags { dark }
+  exits {
+  to { n, 257 }
+  }
+}
+
+260
+{
+  name { A Corridor  }
+  desc {
+"   You are standing in a plain corridor.  There are no adornments of any
+kind.  The floor is dusty and sports fresh human-sized prints.
+  }
+  flags { dark }
+  exits {
+  to { s, 261 }
+  to { w, 247 }
+  }
+}
+
+261
+{
+  name { A Corridor  }
+  desc {
+"   You are standing in a plain corridor.  There are no adornments of any
+kind.  The floor is dusty and sports fresh human-sized prints.  A tapestry
+on the east wall flutters softly from an unfelt gust.
+  }
+  extra {
+  keywords { tapestry }
+  desc { 
+This ancient, faded cloth tapestry shows the rise to power of a beautiful
+woman.  It moves in an unseen gust.
+  }
+  }
+  flags { dark }
+  exits {
+  to { n, 260 }
+  to { e, 267 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  to { s, 262 }
+  }
+}
+
+262
+{
+  name { A Corridor  }
+  desc {
+"   You are standing in a plain corridor.  There are no adornments of any
+kind.  The floor is dusty and sports fresh human-sized prints.  A set of
+stairs defy health and safety regulations and plunge steeply down with
+no sign of a rail to hold on to.
+  }
+  flags { dark }
+  exits {
+  to { n, 261 }
+  to { d, 395 }
+  to { southeast, 263 }
+  }
+}
+
+263
+{
+  name { Outside a Guard Barrack  }
+  desc {
+"   You are standing outside what looks like a guard barrack.  There are
+three entry-ways leading off, all of them door-less, although you can make
+out the ancient iron hinges which once held the doors in place.  There is
+something evil in the air that you can't quite put your finger on.  Oh
+well, maybe it's just your imagination playing havoc... Again.
+  }
+  flags { dark }
+  exits {
+  to { w, 264 }
+  to { southeast, 266 }
+  to { southwest, 265 }
+  to { northwest, 262 }
+  }
+}
+
+264
+{
+  name { Inside a Guard Barrack  }
+  desc {
+"   This is a guard barrack.  Four bunks line the walls and a simple table
+sits in the middle of the room.  A couple of old chairs have been left
+haphazardly around the room.  There isn't much else to see.
+  }
+  flags { dark }
+  exits {
+  to { e, 263 }
+  }
+}
+
+265
+{
+  name { Inside a Guard Barrack  }
+  desc {
+"   This is a guard barrack.  Four bunks line the walls and a simple table
+sits in the middle of the room.  A couple of old chairs have been left
+haphazardly around the room.  There isn't much else to see.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 263 }
+  }
+}
+
+266
+{
+  name { Inside a Guard Barrack  }
+  desc {
+"   This is a guard barrack.  Four bunks line the walls and a simple table
+sits in the middle of the room.  A couple of old chairs have been left
+haphazardly around the room.  There isn't much else to see.
+  }
+  flags { dark }
+  exits {
+  to { northwest, 263 }
+  }
+}
+
+267
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { e, 234 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { shield }
+  to { w, 261 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  }
+}
+
+268
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { e, 257 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  to { s, 269 }
+  }
+}
+
+269
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { n, 268 }
+  to { southeast, 270 }
+  }
+}
+
+270
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { southeast, 271 }
+  to { southwest, 215 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { wall }
+  to { northwest, 269 }
+  }
+}
+
+271
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { s, 272 }
+  to { northwest, 270 }
+  }
+}
+
+272
+{
+  name { Inside a Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { n, 271 }
+  to { southeast, 220 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { wall }
+  }
+}
+
+273
+{
+  name { A Secret Passage  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { n, 256 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { panel }
+  to { u, 336 }
+  }
+}
+
+274
+{
+  name { Inside the Western Tower  }
+  desc {
+"   You are standing in a narrow stair-case.  There is not a lot of room
+in here.  The stairs are made of stone and are stained with some strange
+and mysterious dark substance.  A chill wind gusts from above and causes
+you to shiver.  From above, there is a creak and groan, as if a weight
+has been placed on a floorboard.  You can continue up the tower into the
+darkness or south-east to the main corridor.
+  }
+  flags { dark }
+  exits {
+  to { u, 286 }
+  to { southeast, 207 }
+  }
+}
+
+275
+{
+  name { Inside the Eastern Tower  }
+  desc {
+"   You are standing in a narrow stair-case.  There is not a lot of room
+in here.  The stairs are made of stone and are stained with some strange
+and mysterious dark substance.  A chill wind gusts from above and causes
+you to shiver.  From above, there is a creak and groan, as if a weight
+has been placed on a floorboard.  You can continue up the tower into the
+darkness or south-west to the main corridor.
+  }
+  flags { dark }
+  exits {
+  to { u, 318 }
+  to { southwest, 242 }
+  }
+}
+
+276
+{
+  name { Entrance to the Gods Tower  }
+  desc {
+"   You are standing in the entrance to a wide and finely crafted stair-
+way.  The wide steps can easily allow five or six heavily armed warriors
+to walk shoulder to shoulder.  The steps are made of stone and stained
+with some strange and mysterious dark substance.
+  }
+  flags { dark }
+  exits {
+  to { w, 234 }
+  to { southeast, 277 }
+  }
+}
+
+277
+{
+  name { Base of the Gods Tower  }
+  desc {
+"   You are standing in a wide stair-case.  There is enough room for 
+several people to climb the steps at once in here.  The stairs are 
+made of stone and are stained with some strange and mysterious dark 
+substance.  A chill wind gusts from above and causes you to shiver. 
+From above, there is a creak and groan, as if a weight has been placed
+on a floorboard.  You can continue up the tower into the darkness or 
+north-east to the tower entrance.
+  }
+  flags { dark }
+  exits {
+  to { u, 320 }
+  to { northwest, 276 }
+  }
+}
+
+278
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 321 }
+  to { s, 322 }
+  to { w, 279 }
+  }
+}
+
+279
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 278 }
+  to { w, 280 }
+  }
+}
+
+280
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 279 }
+  to { southwest, 285 }
+  to { northwest, 281 }
+  }
+}
+
+281
+{
+  name { Around the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { w, 282 }
+  to { southeast, 280 }
+  }
+}
+
+282
+{
+  name { Around the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { e, 281 }
+  to { southwest, 283 }
+  }
+}
+
+283
+{
+  name { Around the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 282 }
+  to { southeast, 284 }
+  }
+}
+
+284
+{
+  name { Around the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { e, 285 }
+  to { northwest, 283 }
+  }
+}
+
+285
+{
+  name { Around the Western Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { s, 287 }
+  to { w, 284 }
+  to { northeast, 280 }
+  to { northwest, 286 }
+  }
+}
+
+286
+{
+  name { Inside the Western Tower  }
+  desc {
+"   You are standing in a narrow stair-case.  There is not a lot of room
+in here.  The stairs are made of stone and are stained with some strange
+and mysterious dark substance.  A chill wind gusts from above and causes
+you to shiver.  From above, there is a creak and groan, as if a weight
+has been placed on a floorboard.  You can continue up or down the tower
+into the darkness or south-east to the main corridor.
+  }
+  flags { dark }
+  exits {
+  to { u, 378 }
+  to { d, 274 }
+  to { southeast, 285 }
+  }
+}
+
+287
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { n, 285 }
+  to { s, 288 }
+  }
+}
+
+288
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { n, 287 }
+  to { s, 289 }
+  }
+}
+
+289
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { n, 288 }
+  to { southwest, 290 }
+  }
+}
+
+290
+{
+  name { Around the Ruined Tower  }
+  desc {
+"   You are standing in the debris of the ruined tower.  Fallen masonary
+and old bleached bones little floor and the occassional mote of dust falls
+from the beams supporting the roof with a loud creak and groan.  It may
+not be safe to linger here too long.
+  }
+  flags { dark }
+  exits {
+  to { w, 291 }
+  to { northeast, 289 }
+  to { southeast, 292 }
+  }
+}
+
+291
+{
+  name { Around the Ruined Tower  }
+  desc {
+"   You are standing in the debris of the ruined tower.  Fallen masonary
+and old bleached bones little floor and the occassional mote of dust falls
+from the beams supporting the roof with a loud creak and groan.  It may
+not be safe to linger here too long.
+  }
+  flags { dark }
+  exits {
+  to { e, 290 }
+  }
+}
+
+292
+{
+  name { Around the Ruined Tower  }
+  desc {
+"   You are standing in the debris of the ruined tower.  Fallen masonary
+and old bleached bones little floor and the occassional mote of dust falls
+from the beams supporting the roof with a loud creak and groan.  It may
+not be safe to linger here too long.
+  }
+  flags { dark }
+  exits {
+  to { e, 294 }
+  to { southwest, 293 }
+  to { northwest, 290 }
+  }
+}
+
+293
+{
+  name { Around the Ruined Tower  }
+  desc {
+"   You are standing in the debris of the ruined tower.  Fallen masonary
+and old bleached bones little floor and the occassional mote of dust falls
+from the beams supporting the roof with a loud creak and groan.  It may
+not be safe to linger here too long.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 292 }
+  }
+}
+
+294
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 292 }
+  to { southeast, 295 }
+  }
+}
+
+295
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { southeast, 296 }
+  to { northwest, 294 }
+  }
+}
+
+296
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 301 }
+  to { southeast, 297 }
+  to { northwest, 295 }
+  }
+}
+
+297
+{
+  name { Around the Southern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { e, 298 }
+  to { northwest, 296 }
+  }
+}
+
+298
+{
+  name { Around the Southern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { w, 297 }
+  to { northeast, 299 }
+  }
+}
+
+299
+{
+  name { Around the Southern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { southwest, 298 }
+  to { northwest, 300 }
+  }
+}
+
+300
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 301 }
+  to { northeast, 302 }
+  to { southeast, 299 }
+  }
+}
+
+301
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 300 }
+  to { southwest, 296 }
+  }
+}
+
+302
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 303 }
+  to { southwest, 300 }
+  }
+}
+
+303
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 302 }
+  to { northeast, 304 }
+  }
+}
+
+304
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 305 }
+  to { southwest, 303 }
+  to { northwest, 311 }
+  }
+}
+
+305
+{
+  name { Around the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { w, 304 }
+  to { northeast, 306 }
+  }
+}
+
+306
+{
+  name { Around the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { n, 307 }
+  to { southwest, 305 }
+  }
+}
+
+307
+{
+  name { Around the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { s, 306 }
+  to { northwest, 308 }
+  }
+}
+
+308
+{
+  name { Around the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { w, 309 }
+  to { southeast, 307 }
+  }
+}
+
+309
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 308 }
+  to { southwest, 310 }
+  to { northwest, 312 }
+  }
+}
+
+310
+{
+  name { Around the Gods Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.
+  }
+  flags { dark }
+  exits {
+  to { e, 319 }
+  to { s, 311 }
+  to { northeast, 309 }
+  }
+}
+
+311
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { n, 310 }
+  to { southeast, 304 }
+  }
+}
+
+312
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 317 }
+  to { northeast, 313 }
+  to { southeast, 309 }
+  }
+}
+
+313
+{
+  name { Around the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { southwest, 312 }
+  to { northwest, 314 }
+  }
+}
+
+314
+{
+  name { Around the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { w, 315 }
+  to { southeast, 313 }
+  }
+}
+
+315
+{
+  name { Around the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { e, 314 }
+  to { southwest, 316 }
+  }
+}
+
+316
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 321 }
+  to { northeast, 315 }
+  to { southeast, 317 }
+  }
+}
+
+317
+{
+  name { Around the Eastern Tower  }
+  desc {
+"   You are standing in a high, narrow corridor.  The walls are made of
+plain stone, but are marred by dark stains and long claw marks--almost as
+if a dread battle once took place here.  Every five feet or so is an
+arrow slit.  No doubt that once this stretch of the castle was used for
+defence.
+  }
+  flags { dark }
+  exits {
+  to { e, 312 }
+  to { northeast, 318 }
+  to { northwest, 316 }
+  }
+}
+
+318
+{
+  name { Inside the Eastern Tower  }
+  desc {
+"   You are standing in a narrow stair-case.  There is not a lot of room
+in here.  The stairs are made of stone and are stained with some strange
+and mysterious dark substance.  A chill wind gusts from above and causes
+you to shiver.  From above, there is a creak and groan, as if a weight
+has been placed on a floorboard.  You can continue up or down the tower
+into the darkness or south-west to the main corridor.
+  }
+  flags { dark }
+  exits {
+  to { u, 379 }
+  to { d, 275 }
+  to { southwest, 317 }
+  }
+}
+
+319
+{
+  name { First Floor Entrance to the Gods Tower  }
+  desc {
+"   You are standing in the entrance to a wide and finely crafted stair-
+way.  The wide steps can easily allow five or six heavily armed warriors
+to walk shoulder to shoulder.  The steps are made of stone and stained
+with some strange and mysterious dark substance.
+  }
+  flags { dark }
+  exits {
+  to { w, 310 }
+  to { southeast, 320 }
+  }
+}
+
+320
+{
+  name { Inside the Gods Tower  }
+  desc {
+"   You are standing in a wide stair-case.  There is enough room for 
+several people to climb the steps at once in here.  The stairs are 
+made of stone and are stained with some strange and mysterious dark 
+substance.  A chill wind gusts from above and causes you to shiver. 
+From above, there is a creak and groan, as if a weight has been placed
+on a floorboard.  You can continue up or down the tower into the 
+darkness or north-east to the tower entrance.
+  }
+  flags { dark }
+  exits {
+  to { u, 347 }
+  to { d, 277 }
+  to { northwest, 319 }
+  }
+}
+
+321
+{
+  name { Inside the Castle  }
+  desc {
+"   You are standing in a massive corridor.  The ceiling is made of ancient
+stone held aloft by dark beams of iron-hard oak.  The walls are covered in
+faded and torn paper.  Oak floorboards can be seen through the faded and
+threadbare carpet that lines the floor.
+  }
+  flags { dark }
+  exits {
+  to { e, 316 }
+  to { w, 278 }
+  }
+}
+
+322
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  Several of the
+balusters have been kicked out of the balustrade here, leaving a very
+inviting chance to jump to the grand, wagon-wheel shaped chandelier
+that swings over the centre of the hall.  Along the east and west sides
+of the balcony are doorways leading off into darkness.  There is also a
+doorway leading off to the north here.  You can exit east or west or try
+the doorway to the north.
+  }
+  extra {
+  keywords { balustrade, balcony, balusters }
+  desc { 
+Several balusters have been kicked out from the balustrade here.  This
+leaves a gap of air over the hall below and a very inviting chandelier
+swaying gently on a rusty, but sturdy-looking chain.  Maybe if you were
+to 'go jump' you'd be able to make the leap to the chandelier?
+  }
+  keywords { _ex10 }
+  desc {  "
+Your legs pin-wheel as you fly through the air...
+
+" }
+  }
+  flags { dark }
+  exits {
+  to { n, 278 }
+  to { e, 331 }
+  to { w, 323 }
+  to { 10, 426 }
+    info { secret, hidden, message }
+    keywords { jump }
+  }
+}
+
+323
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit east or south.
+  }
+  flags { dark }
+  exits {
+  to { e, 322 }
+  to { s, 324 }
+  }
+}
+
+324
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit north or south.
+  }
+  flags { dark }
+  exits {
+  to { n, 323 }
+  to { s, 325 }
+  }
+}
+
+325
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east sides of the balcony are
+doorways leading off into darkness.  There is also a doorway leading off
+west from here.  You can exit north or south or try the exit to the west.
+  }
+  flags { dark }
+  exits {
+  to { n, 324 }
+  to { s, 326 }
+  to { w, 332 }
+  }
+}
+
+326
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit north or east.
+  }
+  flags { dark }
+  exits {
+  to { n, 325 }
+  to { e, 327 }
+  }
+}
+
+327
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit west or east.
+  }
+  flags { dark }
+  exits {
+  to { e, 328 }
+  to { w, 326 }
+  }
+}
+
+328
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit west or north.
+  }
+  flags { dark }
+  exits {
+  to { n, 329 }
+  to { w, 327 }
+  }
+}
+
+329
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, west sides of the balcony are
+doorways leading off into darkness.  There is also a doorway leading off
+east from here.  You can exit north or south or try the exit to the east.
+  }
+  flags { dark }
+  exits {
+  to { n, 330 }
+  to { e, 342 }
+  to { s, 328 }
+  }
+}
+
+330
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit south or north.
+  }
+  flags { dark }
+  exits {
+  to { n, 331 }
+  to { s, 329 }
+  }
+}
+
+331
+{
+  name { Around a Balcony  }
+  desc {
+"   You are standing in a dusty, cobweb-filled, corridor.  To one side is
+a balcony surrounded by a balustrade over looking the great hall below.
+You judge the height to be approximately twenty feet.  A grand, wagon-
+wheel shaped chandelier swings over the centre of the hall--it looks too
+far away to jump on to here from, you'd need a run up and the balustrade
+is preventing that.  Along the north, east and west sides of the balcony
+are doorways leading off into darkness.  You can exit south or west.
+  }
+  flags { dark }
+  exits {
+  to { s, 330 }
+  to { w, 322 }
+  }
+}
+
+332
+{
+  name { Inside the Master Bedroom  }
+  desc {
+"   You are standing in a grandoise bedroom of epic proportions.  In this
+part several plush sofas have been arranged around a low table made of the
+finest walnut you have ever seen.  The shag of the carpet is deep and your
+feet sink a little as you walk around the room.  To the north is a gigantic
+bed and to the south a stylish dressing area.
+  }
+  flags { dark }
+  exits {
+  to { n, 333 }
+  to { e, 325 }
+  to { s, 334 }
+  }
+}
+
+333
+{
+  name { Inside the Master Bedroom  }
+  desc {
+"   The bed in this part of the room is a structure bigger than the average 
+peasants' hovel.  It is covered in the finest silken sheets and stuffed with
+the softest down. You could sink into happy oblivion in this bed.
+  }
+  flags { dark }
+  exits {
+  to { s, 332 }
+  }
+}
+
+334
+{
+  name { Inside the Master Bedroom  }
+  desc {
+"   This stylish dressing area is complete with everything a true lady would
+need to ensure she looks beautiful and perfect for the world.  Wardrobes
+hold a plethora of fine clothing and small tables line walls covered in the
+finest brushes and expensive make-ups.  What is missing though is a mirror
+for the fine lady to admire herself in... How odd.  In the southeast corner
+of the room is a large and ornate fireplace.
+  }
+  extra {
+  keywords { fireplace }
+  desc { 
+Strangely free of soot, this fireplace looks big enough to walk through.
+  }
+  }
+  flags { dark }
+  exits {
+  to { n, 332 }
+  to { southeast, 335 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { fireplace }
+  }
+}
+
+335
+{
+  name { A Dusty Secret Corridor  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { e, 336 }
+  to { northwest, 334 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { fireplace }
+  }
+}
+
+336
+{
+  name { A Dusty Secret Corridor  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { e, 337 }
+  to { w, 335 }
+  to { d, 273 }
+  }
+}
+
+337
+{
+  name { A Dusty Secret Corridor  }
+  desc {
+"   You are standing in what appears to a gloomy passage.  The floor is
+covered in dust and the walls are laced with ancient spider webs.
+  }
+  flags { dark }
+  exits {
+  to { e, 338 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { painting }
+  to { w, 336 }
+  }
+}
+
+338
+{
+  name { The Guest Bedrooms  }
+  desc {
+"  You are standing in a long corridor that stretches north and south. Along the west wall are 4 doors.  There is another door at the north end
+of the corridor.  The walls covered in ancient faded wallpaper that is
+peeling with age and damp.  The wall on the south of the corridor sports
+a grand painting of a sinister fellow with a very pale complexion.  You
+would need to get closer to make out the details.
+  }
+  flags { dark }
+  exits {
+  to { n, 340 }
+  to { e, 339 }
+  to { w, 337 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { painting }
+  }
+}
+
+339
+{
+  name { A Decayed Bedroom  }
+  desc {
+"   This decayed room was once a bedroom of one some noble member of the
+family that ruled this castle.  But the lustrous colours have faded to
+dull pastels and the polished woods have long since faded to an ancient
+grey.
+  }
+  flags { dark }
+  exits {
+  to { w, 338 }
+  }
+}
+
+340
+{
+  name { The Guest Bedrooms  }
+  desc {
+"   You are standing in a long corridor that stretches north and south. Along the west wall are 4 doors.  There is another door at the north end
+of the corridor.  The walls covered in ancient faded wallpaper that is
+peeling with age and damp.  The wall on the south of the corridor sports
+a grand painting of a sinister fellow with a very pale complexion.  You
+would need to get closer to make out the details.
+  }
+  flags { dark }
+  exits {
+  to { n, 342 }
+  to { e, 341 }
+  to { s, 338 }
+  }
+}
+
+341
+{
+  name { A Perfect Bedroom  }
+  desc {
+"   The color and vibrancy of this room is striking compared to the rest
+of the castle.  A deep plush red carpet covers the floor and is free
+from even the smallest speck of dust.  A perfect and highly polished four
+poster bed resides against one wall and a dressing table, arrayed with
+implements befitting the finest ladies, sparkles against another wall.
+All in all, this is a perfect room... And you can't help feeling slightly
+spooked by it.
+  }
+  flags { dark }
+  exits {
+  to { w, 340 }
+  }
+}
+
+342
+{
+  name { The Guest Bedrooms  }
+  desc {
+"   You are standing in a long corridor that stretches north and south. Along the west wall are 4 doors.  There is another door at the north end
+of the corridor.  The walls covered in ancient faded wallpaper that is
+peeling with age and damp.  The wall on the south of the corridor sports
+a grand painting of a sinister fellow with a very pale complexion.  You
+would need to get closer to make out the details.
+  }
+  flags { dark }
+  exits {
+  to { n, 344 }
+  to { e, 343 }
+  to { s, 340 }
+  to { w, 329 }
+  }
+}
+
+343
+{
+  name { A Charred Bedroom  }
+  desc {
+"   The walls and floor of this room are a mass of charred and fire blackened
+wood and stone.  If any furniture had ever been in here then it is now a
+part of the ash and dry cinder that litters the floor.
+  }
+  flags { dark }
+  exits {
+  to { w, 342 }
+  }
+}
+
+344
+{
+  name { The Guest Bedrooms  }
+  desc {
+"   You are standing in a long corridor that stretches north and south. Along the west wall are 4 doors.  There is another door at the north end
+of the corridor.  The walls covered in ancient faded wallpaper that is
+peeling with age and damp.  The wall on the south of the corridor sports
+a grand painting of a sinister fellow with a very pale complexion.  You
+would need to get closer to make out the details.
+  }
+  flags { dark }
+  exits {
+  to { n, 345 }
+  to { e, 346 }
+  to { s, 342 }
+  }
+}
+
+345
+{
+  name { A Rotting Bedroom  }
+  desc {
+"   The stench of ancient decay hits as you enter this room.  The floors
+are soft and damp from mould and ancient paper hangs in ragged wet strips
+from the walls.  You can almost feel the disease that festers under the
+rotten sheets of the collapsed bed.  The choice to linger is yours...
+  }
+  flags { dark }
+  exits {
+  to { s, 344 }
+  }
+}
+
+346
+{
+  name { A Decayed Bedroom  }
+  desc {
+"   This decayed room was once a bedroom of one some noble member of the
+family that ruled this castle.  But the lustrous colours have faded to
+dull pastels and the polished woods have long since faded to an ancient
+grey.
+  }
+  flags { dark }
+  exits {
+  to { w, 344 }
+  }
+}
+
+347
+{
+  name { God's Tower Entrance to the Roof  }
+  desc {
+"   You are standing in a wide stair-case.  There is enough room for 
+several people to climb the steps at once in here.  The stairs are 
+made of stone and are stained with some strange and mysterious dark 
+substance.  To the southwest the stairwell opens on to the roof of
+the castle.  The staircase narrows as it continues up into darkness.
+  }
+  flags { dark }
+  exits {
+  to { u, 384 }
+  to { d, 320 }
+  to { southwest, 348 }
+  }
+}
+
+348
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the very unstable roof of the castle.  To the north
+-east is the entrance to a tower.
+  }
+  flags { dark }
+  exits {
+  to { e, 349 }
+  to { w, 354 }
+  to { northeast, 347 }
+  }
+}
+
+349
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { w, 348 }
+  to { northeast, 350 }
+  }
+}
+
+350
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { n, 351 }
+  to { southwest, 349 }
+  }
+}
+
+351
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { s, 350 }
+  to { northwest, 352 }
+  }
+}
+
+352
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { w, 353 }
+  to { southeast, 351 }
+  }
+}
+
+353
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { e, 352 }
+  }
+}
+
+354
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { e, 348 }
+  to { northwest, 355 }
+  }
+}
+
+355
+{
+  name { On the Roof  }
+  desc { "   You are standing on the very unstable roof of the castle.
+  }
+  flags { dark }
+  exits {
+  to { southeast, 354 }
+  to { northwest, 356 }
+  }
+}
+
+356
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the very unstable roof of the castle.  To the north
+-west can you make out more roof, but it is too far to jump.
+  }
+  flags { dark }
+  exits {
+  to { southeast, 355 }
+  }
+}
+
+357
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.   The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threating to drop you through at any moment.  There is a 
+gaping hole directly to the east here.  You can see a path leading to the
+Gods Tower, but you just couldn't make the jump to the other side to go
+and explore it.  Shame.  Towers rise to the north, south and east.  A
+piercing shriek chills you to the bones. Where did that come from?  You
+can exit northwest and south.
+  }
+  flags { dark }
+  exits {
+  to { s, 363 }
+  to { northwest, 358 }
+  }
+}
+
+358
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit northeast and southeast.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 359 }
+  to { southeast, 357 }
+  }
+}
+
+359
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit northwest and southwest.
+  }
+  flags { dark }
+  exits {
+  to { southwest, 358 }
+  to { northwest, 360 }
+  }
+}
+
+360
+{
+  name { The Murder Holes  }
+  desc {
+"   You are standing on the northern most section of the roof.  A massive
+rusty iron cauldron rests here on its side.  Some ancient, rusted metal-
+work seems to indicate that it might once have been used to hold some-
+thing.  Scorched stones under the apparatus hints that whatever the iron
+cauldron held was hot.  There is a massive hole just this side of the
+crenulations that looks like a sluice.  You guess that at some point the
+contents of the iron cauldron were poured down the sluice, possibly to
+pour over attackers in front of the Gaping Maw.  But your knowledge of
+seige tactics is as limited as your knowledge of cake making, and so all
+you can do is guess.  The northern crenulations continue east and west
+where you can make out more iron cauldrons.
+  }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+You step in the murder hole, lose your grip and sliiiiiiiiide!
+
+" }
+  }
+  flags { dark }
+  exits {
+  to { e, 362 }
+  to { w, 361 }
+  to { southeast, 359 }
+  to { 10, 439 }
+    info { message }
+    keywords { murder-hole }
+  }
+}
+
+361
+{
+  name { The Murder Holes  }
+  desc {
+"   You are standing on the northern most section of the roof.  A massive
+rusty iron cauldron rests here on its side.  Some ancient, rusted metal-
+work seems to indicate that it might once have been used to hold some-
+thing.  Scorched stones under the apparatus hints that whatever the iron
+cauldron held was hot.  There is a massive hole just this side of the
+crenulations that looks like a sluice.  You guess that at some point the
+contents of the iron cauldron were poured down the sluice, possibly to
+pour over attackers in front of the Gaping Maw.  But your knowledge of
+seige tactics is as limited as your knowledge of cake making, and so all
+you can do is guess.  The northern crenulations continue east where you
+can make out more iron cauldrons.
+  }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+You step in the murder hole, lose your grip and sliiiiiiiiide!
+
+" }
+  }
+  flags { dark }
+  exits {
+  to { e, 360 }
+  to { 10, 439 }
+    keywords { murder-hole }
+  }
+}
+
+362
+{
+  name { The Murder Holes  }
+  desc {
+"   You are standing on the northern most section of the roof.  A massive
+rusty iron cauldron rests here on its side.  Some ancient, rusted metal-
+work seems to indicate that it might once have been used to hold some-
+thing.  Scorched stones under the apparatus hints that whatever the iron
+cauldron held was hot.  There is a massive hole just this side of the
+crenulations that looks like a sluice.  You guess that at some point the
+contents of the iron cauldron were poured down the sluice, possibly to
+pour over attackers in front of the Gaping Maw.  But your knowledge of
+seige tactics is as limited as your knowledge of cake making, and so all
+you can do is guess.  The northern crenulations continue west where you
+can make out more iron cauldrons.
+  }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+You step in the murder hole, lose your grip and sliiiiiiiiide!
+
+" }
+  }
+  flags { dark }
+  exits {
+  to { w, 360 }
+  to { 10, 439 }
+    keywords { murder-hole }
+  }
+}
+
+363
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit north and southwest.
+  }
+  flags { dark }
+  exits {
+  to { n, 357 }
+  to { southwest, 366 }
+  }
+}
+
+364
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.   The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threating to drop you through at any moment.  There is a 
+gaping hole directly to the northeast here.  You can see a path leading
+into the entrance to the Gods Tower, but you just couldn't make the jump
+to the other side to go and explore it.  Shame.  Towers rise to the north,
+south and east.  A piercing shriek chills you to the bones. Where did that
+come from?  You can exit west.
+  }
+  flags { dark }
+  exits {
+  to { w, 365 }
+  }
+}
+
+365
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit east, northwest and southwest.
+  }
+  flags { dark }
+  exits {
+  to { e, 364 }
+  to { southwest, 372 }
+  to { northwest, 366 }
+  }
+}
+
+366
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit west, northeast and southeast.
+  }
+  flags { dark }
+  exits {
+  to { w, 367 }
+  to { northeast, 363 }
+  to { southeast, 365 }
+  }
+}
+
+367
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit east and southwest.
+  }
+  flags { dark }
+  exits {
+  to { e, 366 }
+  to { southwest, 368 }
+  }
+}
+
+368
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit west and northeast.
+  }
+  flags { dark }
+  exits {
+  to { w, 369 }
+  to { northeast, 367 }
+  }
+}
+
+369
+{
+  name { Atop the Ruined Tower  }
+  desc {
+"   You are standing upon the edge of the ruined tower.  Below you is the
+utter destruction that only fire can reap; heat blackened stones and the
+occasional charred bone.  In the gloom something moves... What was that?
+You can exit east, southwest or northwest.
+  }
+  flags { dark }
+  exits {
+  to { e, 368 }
+  to { southwest, 371 }
+  to { northwest, 370 }
+  }
+}
+
+370
+{
+  name { Atop the Ruined Tower  }
+  desc {
+"   You are standing upon the edge of the ruined tower.  Below you is the
+utter destruction that only fire can reap; heat blackened stones and the
+occasional charred bone.  In the gloom something moves... What was that?
+You can exit southeast.
+  }
+  flags { dark }
+  exits {
+  to { southeast, 369 }
+  }
+}
+
+371
+{
+  name { Atop the Ruined Tower  }
+  desc {
+"   You are standing upon the edge of the ruined tower.  Below you is the
+utter destruction that only fire can reap; heat blackened stones and the
+occasional charred bone.  In the gloom something moves... What was that?
+You can exit northeast.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 369 }
+  }
+}
+
+372
+{
+  name { On the Roof  }
+  desc {
+"   You are standing on the roof of the castle.  The ancient joists and
+beams are pitted with damp and rot and the whole structure groans under
+your weight, threatening to drop you through at any moment.  Towers rise
+to the north, south and east.  A piercing shriek chills you to the bones.
+Where did that come from?  You can exit south and northeast.
+  }
+  flags { dark }
+  exits {
+  to { s, 373 }
+  to { northeast, 365 }
+  }
+}
+
+373
+{
+  name { Entrance to the South Tower  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { n, 372 }
+  to { e, 377 }
+  to { southeast, 374 }
+  }
+}
+
+374
+{
+  name { Around the South Tower  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { e, 375 }
+  to { northwest, 373 }
+  }
+}
+
+375
+{
+  name { Around the South Tower  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { w, 374 }
+  to { northeast, 376 }
+  }
+}
+
+376
+{
+  name { Around the South Tower  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { southwest, 375 }
+  }
+}
+
+377
+{
+  name { 240677  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { w, 373 }
+  to { u, 393 }
+  }
+}
+
+378
+{
+  name { Inside the Western Tower  }
+  desc {
+"   You are standing in a narrow staircase.  A chill wind gusts from above
+that carries the scent the carrion.
+  }
+  flags { dark }
+  exits {
+  to { u, 380 }
+  to { d, 286 }
+  }
+}
+
+379
+{
+  name { Inside the Eastern Tower  }
+  desc {
+"   You are standing in a narrow staircase.  A chill wind gusts from above
+that carries the scent the carrion.
+  }
+  flags { dark }
+  exits {
+  to { u, 382 }
+  to { d, 318 }
+  }
+}
+
+380
+{
+  name { Top of the Western Tower  }
+  desc {
+"   You are standing at the top of the stairs of the Western Tower.  To the
+east is an opening leading out on to the ramparts.
+  }
+  flags { dark }
+  exits {
+  to { e, 381 }
+  to { d, 378 }
+  }
+}
+
+381
+{
+  name { A gusty rampart  }
+  desc {
+"   This is a rampart at the very top of the Western Tower.  The wind whips 
+at your legs and threatens to topple you.  To the west an opening leads
+back in to the tower.
+  }
+  flags { dark }
+  exits {
+  to { w, 380 }
+  }
+}
+
+382
+{
+  name { Top of the Eastern Tower  }
+  desc {
+"   You have made it to the top of the Eastern Tower.  An arch-way of old
+crumbly stone leads to a balcony to the west.  A freezing, icy wind chills
+your bones.
+  }
+  flags { dark }
+  exits {
+  to { w, 383 }
+  to { d, 379 }
+  }
+}
+
+383
+{
+  name { Balcony on the Eastern Tower  }
+  desc {
+"   You are standing on a thin balcony of ancient stone.  A low balustrade
+of stone pillars surround the edge.  All you can see is dense, thick fog
+in every direction.
+  }
+  flags { dark }
+  exits {
+  to { e, 382 }
+  }
+}
+
+384
+{
+  name { The Top of the God's Tower Stairway  }
+  desc {
+"   You are standing at the top of a staircase.  A doorway, long since
+doorless, leads into what looks like a large room to the west.  Stairs
+lead down into darkness where a chill wind catches at your clothes.
+  }
+  flags { dark }
+  exits {
+  to { w, 385 }
+  to { u, 388 }
+  to { d, 347 }
+  }
+}
+
+385
+{
+  name { A Sinister Laboratory  }
+  desc {
+"   This room is lined with books and the stuffed remains of strange and
+ancient animals.  Several tables are cluttered with mechanical appliances,
+the likes of which you have never seen and would have no idea how to
+operate.  A pair of large copper balls hang from the ceiling by long rods
+wrapped in coils of red wire.  The air thrums with an odd electrical
+energy that makes your hair stand on end.
+  }
+  flags { dark }
+  exits {
+  to { n, 386 }
+  to { e, 384 }
+  }
+}
+
+386
+{
+  name { A Cluttered Study  }
+  desc {
+"   You are standing in the middle of a cluttered and dusty study.  Several
+desks have been arranged around the west wall, each covered in half-
+finished drawings and imaginings of what you can only surmise is a mad and
+crazed mind.  On the opposite east wall is a large, ornate fireplace that
+has the look of never being used.
+  }
+  flags { dark }
+  exits {
+  to { e, 387 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { fireplace }
+  to { s, 385 }
+  }
+}
+
+387
+{
+  name { A Secret Torture Chamber!  }
+  desc {
+"   Oh my!  This is a disturbing little chamber full of the implements of
+torture and pain.
+  }
+  flags { dark }
+  exits {
+  to { w, 386 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { fireplace }
+  }
+}
+
+388
+{
+  name { God's Tower Ramparts  }
+  desc {
+"   You are standing on the ramparts of the God's Tower.  If the air were
+clear you could probably see for several miles from up here!  A pity that
+the air is filled with a thick, dense fog that obscures your vision after
+only a few meters.
+  }
+  flags { dark }
+  exits {
+  to { w, 389 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  to { d, 384 }
+  }
+}
+
+389
+{
+  name { 240689  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { n, 390 }
+  to { e, 388 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { tapestry }
+  }
+}
+
+390
+{
+  name { 240690  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { e, 391 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { mirror }
+  to { s, 389 }
+  }
+}
+
+391
+{
+  name { 240691  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { w, 390 }
+    info { door, closed, secret, hidden, autoclose }
+    keywords { mirror }
+  to { u, 392 }
+  }
+}
+
+392
+{
+  name { 240692  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { d, 391 }
+  }
+}
+
+393
+{
+  name { 240693  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { d, 377 }
+  to { southeast, 394 }
+  }
+}
+
+394
+{
+  name { 240694  }
+  desc { Empty
+  }
+  flags { dark }
+  exits {
+  to { northwest, 393 }
+  }
+}
+
+395
+{
+  name { Entrance to the Basement  }
+  desc {
+"   You standing at the base of a very steep set of stone steps.  The air
+is chilly here and you have a sense that you have descended underground.
+The walls are made of dark stone that shine with a red luster in the
+torch light.  The floor, also stone, is covered in cobwebs that grab at
+yours boots before twanging back on to the ground.  There are two arches
+leading away to the east and west and a doorway leading south.  The arch
+to the west is covered in cobwebs whilst the one to the east is free of
+them.  The doorway to the south once held a sturdy iron bound door but
+it has long since been laid to waste.  Sticky cobwebs line the doorway
+like fine silken sheets.  You can exit east, west or south into darkness
+or ascend the steep stairs upwards.
+  }
+  flags { dark }
+  exits {
+  to { e, 397 }
+  to { s, 398 }
+  to { w, 396 }
+  to { u, 262 }
+  }
+}
+
+396
+{
+  name { Steps to the Dungeons  }
+  desc {
+"   You are standing at the top of a steep stairway.  The walls, floor and
+ceiling are covered in thick, sticky webs that pull at your boots and
+twang back with an alarming doonk.  The air is musty and dry.  Something,
+like light shining off a thousand closely packed glass-balls, glints in
+the darkness below...  You shiver.  Whatever are you doing in this place?
+You can exit down, into darkness, or east to the base of the steeps lead-
+up.
+  }
+  flags { dark }
+  exits {
+  to { e, 395 }
+  to { d, 401 }
+  }
+}
+
+397
+{
+  name { Steps to the Crypts  }
+  desc {
+"   You are standing at the top of a long stairway.  The steps are well
+worn but no so steep as others you have seen around this place and the
+stones themselves, altough dark, no longer show that red luster.  A sense
+of peace fills the air.  Looking down the stairs you can see the ruddy
+glow of a torch lighting the way below.  You can exit down into the light
+or west into darkness.
+  }
+  flags { dark }
+  exits {
+  to { w, 395 }
+  to { d, 406 }
+  }
+}
+
+398
+{
+  name { In the Basement  }
+  desc {
+"   You are standing in a stone-lined room covered in sticky cobwebs that
+grab at your boots and twang when released.  The walls under the webs are
+cool to the touch and shine with a red luster in the torch light.  Some
+ancient barrels and crates line the walls, their contents long since gone
+and the wood rotten with worms and damp.  There are two small doorways
+leading southwest and southeast, both of which are thickly covered in
+webs.  You can exit southwest, southeast or north into darkness.
+  }
+  flags { dark }
+  exits {
+  to { n, 395 }
+  to { southeast, 400 }
+  to { southwest, 399 }
+  }
+}
+
+399
+{
+  name { An Ancient Storeroom in the Basement  }
+  desc {
+"   You are standing in stone-lined room that is sticky with cobwebs--they
+are so thick and sticky here that movement has become difficult and the
+walls underneath cannot be seen.  Webs cover everything.  You can make
+out lumps and bumps that match the shape of barrels and crates.  You feel
+something prickle on the back of your neck...  This is not a good place
+to linger.  You can exit northeast in to darkness.
+  }
+  flags { dark }
+  exits {
+  to { northeast, 398 }
+  }
+}
+
+400
+{
+  name { An Ancient Storeroom in the Basement  }
+  desc {
+"   You are standing in stone-lined room that is sticky with cobwebs--they
+are so thick and sticky here that movement has become difficult and the
+walls underneath cannot be seen.  Webs cover everything.  You can make
+out lumps and bumps that match the shape of barrels and crates.  You feel
+something prickle on the back of your neck...  This is not a good place
+to linger.  You can exit northwest in to darkness.
+  }
+  flags { dark }
+  exits {
+  to { northwest, 398 }
+  }
+}
+
+401
+{
+  name { In the Dungeons  }
+  desc {
+"   You are standing at the base of a set of steep, web-covered stairs.  
+The air here is dry and warm.  Sweat trickles down your neck.  Something
+scuttles in the darkness and you feel a little worried that you have made
+a terrible mistake in coming down here.  Everything is covered in webs.
+You can't make out any details.  A web-like tunnel leads off to the west.
+  }
+  exits {
+  to { w, 402 }
+  to { u, 396 }
+  }
+}
+
+402
+{
+  name { In the Dungeons  }
+  desc {
+"   You standing in a web-covered room.  The air is dry and hot.  You feel
+sweat trickling down your brow.  Everything here is covered in thick and
+sticky webs that pluck at your boots and twang with an alarming shudder
+when you move.  Three tunnels lead off here to the north, south and west.
+You can also exit east back towards the stairs.
+  }
+  exits {
+  to { n, 404 }
+  to { e, 401 }
+  to { s, 405 }
+  to { w, 403 }
+  }
+}
+
+403
+{
+  name { In the Dungeons  }
+  desc {
+"   The webbing is this room has been spun like a nest of some sorts.  You
+try to tread carefully but the sticky webs that cover everything twing
+and twang and shudder with the slightest movements.  It is very hot and
+dry in here.  The hairs on the back of your neck stand up.  What is it
+you're doing in here?
+  }
+  exits {
+  to { e, 402 }
+  }
+}
+
+404
+{
+  name { In the Dungeons  }
+  desc {
+"   You are standing in a web-covered room.  Large lumps hang from the
+ceiling by thick, silky strands.  The air is dry and hot and a pervading
+smell of rotting flesh sours your nostrils.  You can't make any details
+as the webs are too thick and your weapon fails to cut the sticky, flex-
+ible strands.  The only exit is to the south.
+  }
+  exits {
+  to { s, 402 }
+  }
+}
+
+405
+{
+  name { In the Dungeons  }
+  desc {
+"   You are standing in a web-covered room.  Large lumps hang from the
+ceiling by thick, silky strands.  The air is dry and hot and a pervading
+smell of rotting flesh sours your nostrils.  The only detail you can see
+is the large Iron Maiden against the back wall, which is remarkably free
+from webs.  You can't make any other details as the webs are too thick
+and your weapon fails to cut the sticky, flex-ible strands.  The only
+exit is to the north, or, if you have a death-wish, you can enter the
+Iron Maiden.
+  }
+  extra {
+  keywords { _ex10 }
+  desc {  "
+*CLICK*
+
+" }
+  }
+  exits {
+  to { n, 402 }
+  to { 10, 437 }
+    info { message }
+    keywords { iron-maiden }
+  }
+}
+
+406
+{
+  name { Into the Crypts...  }
+  desc {
+"   You are standing at the base of stone steps.  A long corridor stretches
+away to the east and torches light it brightly at regular intervals.  How-
+ever, the air shimmers and distorts as you look along and although you can
+make out a brightly shining light at the end you can't make any details of
+anyhing else in the corridor.  A strange mosaic of white tiles has been
+designed with care and attention on the west wall.
+  }
+  exits {
+  to { e, 432 }
+  to { u, 397 }
+  }
+}
+
+407
+{
+  name { Entry to the Crypt  }
+  desc {
+"   You are standing in the entry to an ancient crypt.  This chamber is a
+massive stone construction with a vaulted ceiling painted like the night
+sky.  The walls are made of sparkling white marble, yet evil-looking
+veins of black, have began to snake up them from the floor, which is a
+rotten mulch of ancient earth and brittle bones.  In the centre of the
+chamber is a white marble plinth, above which an angelic statue stands
+with hands clasped in prayer--she looks very peaceful indeed.  The walls
+are lined with seven low doors, and a name appears to be engraved in
+gold on each...  You would need to move closer to read them.  You can
+exit west, back along the corridor that brought you here, or south-east,
+east or north-east.
+  }
+  exits {
+  to { e, 409 }
+  to { w, 436 }
+  to { northeast, 410 }
+  to { southeast, 408 }
+  }
+}
+
+408
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the southwest is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|      S K A B R U S       |
+|                          |
+|     God  of Disease      |
++--------------------------+
+  }
+  }
+  exits {
+  to { n, 409 }
+  to { e, 411 }
+  to { northeast, 412 }
+  to { southwest, 418 }
+  to { northwest, 407 }
+  }
+}
+
+409
+{
+  name { Inside the Crypt  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.
+  }
+  exits {
+  to { n, 410 }
+  to { e, 412 }
+  to { s, 408 }
+  to { w, 407 }
+  to { northeast, 413 }
+  to { southeast, 411 }
+  }
+}
+
+410
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the northwest is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|       L O T H O R        |
+|                          |
+|     God of Insanity      |
++--------------------------+
+  }
+  }
+  exits {
+  to { e, 413 }
+  to { s, 409 }
+  to { southeast, 412 }
+  to { southwest, 407 }
+  to { northwest, 424 }
+  }
+}
+
+411
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the south is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|     B E R B E R I S      |
+|                          |
+|       God of Hate        |
++--------------------------+
+  }
+  }
+  exits {
+  to { n, 412 }
+  to { e, 415 }
+  to { s, 419 }
+  to { w, 408 }
+  to { northeast, 414 }
+  to { northwest, 409 }
+  }
+}
+
+412
+{
+  name { Sanctuary  }
+  desc {
+"   You are standing in the very centre of the chamber.  A sense of peace
+and calmness overwhelms you.  A grand plinth rests here and an alabaster
+angel stands with hands cupped, her gaze lifted towards the vaulted
+ceiling.  You feel like you could stay here forever and nothing would
+harm you.
+  }
+  flags { blue_glow }
+  exits {
+  to { n, 413 }
+  to { e, 414 }
+  to { s, 411 }
+  to { w, 409 }
+  to { northeast, 416 }
+  to { southeast, 415 }
+  to { southwest, 408 }
+  to { northwest, 410 }
+  }
+}
+
+413
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the north is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|       F E R V I A        |
+|                          |
+|    Goddess of Murder     |
++--------------------------+
+  }
+  }
+  exits {
+  to { n, 423 }
+  to { e, 416 }
+  to { s, 412 }
+  to { w, 410 }
+  to { southeast, 414 }
+  to { southwest, 409 }
+  }
+}
+
+414
+{
+  name { Inside the Crypt  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.
+  }
+  exits {
+  to { n, 416 }
+  to { e, 417 }
+  to { s, 415 }
+  to { w, 412 }
+  to { southwest, 411 }
+  to { northwest, 413 }
+  }
+}
+
+415
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the southeast is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|       M A L A K I        |
+|                          |
+|       God of Fire        |
++--------------------------+
+  }
+  }
+  exits {
+  to { n, 414 }
+  to { w, 411 }
+  to { northeast, 417 }
+  to { southeast, 420 }
+  to { northwest, 412 }
+  }
+}
+
+416
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the northeast is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|      D E M A R I N       |
+|                          |
+|        God of Ice        |
++--------------------------+
+  }
+  }
+  exits {
+  to { s, 414 }
+  to { w, 413 }
+  to { northeast, 422 }
+  to { southeast, 417 }
+  to { southwest, 412 }
+  }
+}
+
+417
+{
+  name { Outside of a Tomb  }
+  desc {
+"   As your feet move on the fetid ground dust and debris shifts.  An evil
+smell assaults your nostrils.  Death.  Decay.  Disease.  This place is
+full putrid evil.  Only the marbe plinth in the centre of the chamber seems
+to offer any respite.  To the east is a low door above which is a gold
+plaque.
+  }
+  extra {
+  keywords { plaque gold }
+  desc { 
++--------------------------+
+|         Here is          |
+|                          |
+|      T O R E L I N       |
+|                          |
+|     Goddess of Death     |
++--------------------------+
+  }
+  }
+  exits {
+  to { e, 421 }
+  to { w, 414 }
+  to { southwest, 415 }
+  to { northwest, 416 }
+  }
+}
+
+418
+{
+  name { the Tomb of Skabrus, God of Disease  }
+  desc {
+"   The marble walls of this tomb are covered in slime and filth.  The air
+is full of some terrible stench; like fish-guts and raw sewege.  You dare
+not cut yourself in here... Terrible things could happen!
+  }
+  exits {
+  to { northeast, 408 }
+  }
+}
+
+419
+{
+  name { The Tomb of Berberis, God of Hate  }
+  desc {
+"   The marble walls of this tomb are creak and groan in the gloom.  You
+feel an oppressive weight on your shoulders as if something is turning all
+of its hate upon you.
+  }
+  exits {
+  to { n, 411 }
+  }
+}
+
+420
+{
+  name { The Tomb of Malaki, God of Fire  }
+  desc {
+"   The marble walls of this tomb are steam and waver in the heat.  The
+very floor on which you stand sizzles and pops alarmingly.  You too well
+that won't be able to stand the heat for long...
+  }
+  exits {
+  to { northwest, 415 }
+  }
+}
+
+421
+{
+  name { The Tomb of Torelin, Goddess of Death  }
+  desc {
+"   Darkness wisps from the floor in tangable vapours.  A darkness so
+profound that your eyes cannot pierce through.  It leaves the room
+dissected into a mesmerizing collidascope of patterns...  This is not
+the place start a fight.
+
+"  }
+  exits {
+  to { e, 425 }
+    key { 260721 }
+    info { door, locked, autoclose }
+    keywords { mural }
+  to { w, 417 }
+  }
+}
+
+422
+{
+  name { the Tomb of Demarin, God of Ice  }
+  desc {
+"   The marble walls of this tomb are frosted and glazed with ice.  Your
+breath steams in the freezing air.  As you move, your feet stick with a
+quick clack momentarily to floor.  Best to keep moving!
+  }
+  exits {
+  to { southwest, 416 }
+  }
+}
+
+423
+{
+  name { the Tomb of Fervia, Goddess of Murder  }
+  desc {
+"   The marble walls of this tomb are covered blood and the angry splatters
+of obvious maiming.  The floor is strewn with ancient carcasses as if a
+whole battlefield has somehow been squeezed into this small chamber.
+  }
+  exits {
+  to { s, 413 }
+  }
+}
+
+424
+{
+  name { the Tomb of Lothor, God of Insanity  }
+  desc {
+"   The marble walls of this tomb are covered in mad scribbles and other
+odd marks.  The floor is a litter of bird skulls and feathers and your
+mind reels as you try to work out how such an animal ever got into this
+place...
+  }
+  exits {
+  to { southeast, 410 }
+  }
+}
+
+425
+{
+  name { A Hidden Vault  }
+  desc {
+"   The marble walls gleam in here.  As if this hidden room has never
+been touched by the foulness of the rest of the chamber.
+  }
+  exits {
+  to { w, 421 }
+    key { 260721 }
+    info { door, locked, autoclose }
+    keywords { mural }
+  }
+}
+
+426
+{
+  name { The Edge of the Chandelier  }
+  desc {
+"   Wow!  That was a great jump!  But you're not safe yet.  Perhaps you
+should 'go scramble' to the centre of the chandelier?
+  }
+  sector { Air }
+  exits {
+  to { 10, 427 }
+    info { secret, hidden }
+    keywords { scramble }
+  }
+}
+
+427
+{
+  name { Centre of the Chandelier  }
+  desc {
+"   You are gripping the chain in the centre of the chandelier.  Below you
+is the great hall; a good twenty feet below... Dropping would probably
+involve some pain.  The chain leads up in to darkness where you can make
+out some dry leathery movement in the shadows and you occassionally catch
+a glimpse of a pair of red orbs blinking in the gloom.
+  }
+  sector { Air }
+  exits {
+  to { 10, 428 }
+    keywords { chain }
+  }
+}
+
+428
+{
+  name { Climbing the Chain  }
+  desc {
+"   You are half way up a chandelier chain.  There is so little room here
+that you couldn't share this chain with anyone or anything else.  If you
+were really brave you could let go of the chain and drop to the great
+hall thirty feet below... But that is little to be very, very painful.
+Looking up you can make out shadowy, bat shapes the gloom of the rafters,
+and what look to be handholds, but you'll need to ascend further to find
+out.
+  }
+  sector { Air }
+  max_people { 1 }
+  exits {
+  to { 10, 427 }
+    keywords { chandelier }
+  to { 11, 429 }
+    keywords { rafters }
+  }
+}
+
+429
+{
+  name { In the Rafters  }
+  desc {
+"   You are hanging from a convenient handhold in the rafters of the great
+hall.  All around you are bats, all with their glowing red orbs fixed up-
+on you and watching your every move... You really hope they don't decide
+to all fly off at once as you're not sure how long you can hold on here.
+The chain is an inviting way back down, or if you trust in your abilities
+you could drop down the forty feet to the great hall below... But that
+would likely break something.  Looking around, you spy a hole in the roof
+big enough to climb through.  But the roof doesn't look very strong so
+maybe you should be careful.
+  }
+  extra {
+  keywords { _ex11 }
+  desc { 
+"
+You slip!
+
+You grab a beam!
+
+You hang on tight!
+
+You pull yourself up, onto the roof!
+
+Phew!
+
+" }
+  }
+  exits {
+  to { 10, 428 }
+    keywords { chain }
+  to { 11, 357 }
+    info { secret, hidden, message }
+    keywords { hole }
+  }
+}
+
+430
+{
+  name { 240730  }
+  desc { Empty
+  }
+  exits {
+  to { e, 407 }
+  }
+}
+
+431
+{
+  name { On top of the red meteor  }
+  desc {
+"   You are standing on the sunken remains of a meteor.  How you managed to
+get here without getting that disgusting liquid on your footwear is a small
+miracle.  The meteor extends to the north.  Perhaps you can get out that way?
+  }
+  sector { Arctic }
+  exits {
+  to { n, 46 }
+    info { secret, hidden }
+  }
+}
+
+432
+{
+  name { Along a Corridor...  }
+  desc {
+"   You're standing in a torch-lit room.  The walls are made of plain,
+dark stone that are covered in runes.  As you entered, the runes flared
+to life. You feel safe, even with the eldritch glow of the runes now add-
+ing to the ruddy light.  To the east, the corridor shimmers and wavers
+and you can't tell what is in front of you...
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+
+A skeletal hand appears and drags you kicking and screaming back at the 
+start of the corridor!
+
+" }
+  }
+  tele { 100, 1, 406 }
+  exits {
+  to { e, 433 }
+  to { w, 406 }
+  }
+}
+
+433
+{
+  name { Along a Corridor...  }
+  desc {
+"   You're standing in a torch-lit room.  The walls are made of plain,
+dark stone that are covered in runes.  As you entered, the runes flared
+to life. You feel as if a clock is counting down.  To the east, the
+corridor shimmers and wavers and you can't tell what is in front of
+you...
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+
+A skeletal hand appears and drags you kicking and screaming back at the 
+start of the corridor!
+
+" }
+  }
+  tele { 150, 1, 406 }
+  exits {
+  to { e, 434 }
+  to { w, 432 }
+  }
+}
+
+434
+{
+  name { Along a Corridor...  }
+  desc {
+"   You're standing in a torch-lit room.  The walls are made of plain,
+dark stone that are covered in runes.  As you entered, the runes flared
+to life. You feel as if a clock is counting down.  To the east, the
+corridor shimmers and wavers and you can't tell what is in front of
+you...
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+
+A skeletal hand appears and drags you kicking and screaming back at the 
+start of the corridor!
+
+" }
+  }
+  tele { 180, 1, 406 }
+  exits {
+  to { e, 435 }
+  to { w, 433 }
+  }
+}
+
+435
+{
+  name { Along a Corridor...  }
+  desc {
+"   You're standing in a torch-lit room.  The walls are made of plain,
+dark stone that are covered in runes.  As you entered, the runes flared
+to life. You feel as if a clock is counting down.  To the east, the
+corridor shimmers and wavers and you can't tell what is in front of
+you...
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+
+A skeletal hand appears and drags you kicking and screaming back at the 
+start of the corridor!
+
+" }
+  }
+  tele { 75, 1, 406 }
+  exits {
+  to { e, 436 }
+  to { w, 434 }
+  }
+}
+
+436
+{
+  name { Along a Corridor...  }
+  desc {
+"   You are standing in the entry to an ancient crypt.  This chamber is a
+massive stone construction with a vaulted ceiling painted like the night
+sky.  The walls are made of sparkling white marble, yet evil-looking
+veins of black, have began to snake up them from the floor, which is a
+rotten mulch of ancient earth and brittle bones.  In the centre of the
+chamber is a white marble plinth, above which an angelic statue stands
+with hands clasped in prayer--she looks very peaceful indeed.  The walls
+are lined with seven low doors, and a name appears to be engraved in
+gold on each...  You would need to move closer to read them.  You can
+exit west, back along the corridor that brought you here, or south-east,
+east or north-east.
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+
+A skeletal hand appears and drags you kicking and screaming back at the 
+start of the corridor!
+
+" }
+  }
+  tele { 350, 1, 406 }
+  exits {
+  to { e, 407 }
+  to { w, 435 }
+  }
+}
+
+437
+{
+  name { Inside the Iron Maiden  }
+  desc {
+"   You are inside an Iron Maiden.  The outer door has swung shut...  This
+can't be good.  What madness made you step inside?
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+There is a giggling somewhere outside the maiden...
+
+A *CLUNK-CLICK* as a lever is pulled...
+
+A lot of long iron-spikes pierce your body, resulting in a lot of blood
+and, quite quickly, death.
+
+" }
+  }
+  flags { dark, no_sum }
+  tele { 40, 1, 438 }
+}
+
+438
+{
+  name { Inside the Iron Maiden  }
+  desc {
+"   You have been impaled by long steel spikes...  Well.  What did you
+expect to happen?  This IS an Iron Maiden.
+  }
+  flags { dark, death, no_sum }
+}
+
+439
+{
+  name { Sliding down the Murder Hole  }
+  desc {
+"   You are sliding down the sluice of the Murder Hole...  Are you insane?
+  }
+  extra {
+  keywords { _teleport }
+  desc {  "
+Swiiiiiiiisssh!
+
+" }
+  }
+  flags { dark, no_sum }
+  tele { 15, 1, 442 }
+}
+
+440
+{
+  name { Flying Free as a Bird...  }
+  desc {
+"   With a *WHOOSH* you exit the sluice at top speed.  You are now flying
+towards the ground at high velocity...
+  }
+  extra {
+  keywords { _teleport }
+  desc {  "
+Wheeeeeeeee-oooo-shitshitshit-Aaaarrrrrgggh!
+
+" }
+  }
+  flags { dark, no_sum }
+  tele { 5, 1, 441 }
+}
+
+441
+{
+  name { Bottom of the Murder Hole  }
+  desc {
+"   *THUNK*
+
+   You have landed.  You appear to be in one piece...  But where is the
+land bridge leading into the castle?  Where the hell are you?  You look
+around but shadows extend in all directions.  The hair on the back of
+your neck prickles...  Uh oh!
+  }
+  extra {
+  keywords { _teleport }
+  desc {  "
+Something moves in the shadows... SHIT!!
+
+" }
+  }
+  flags { dark, no_sum }
+  tele { 30, 0, 443 }
+}
+
+442
+{
+  name { Sliding down the Murder Hole  }
+  desc {
+"   The sluice merges with two other sluices.
+
+   You are picking up a lot of speed...
+  }
+  extra {
+  keywords { _teleport }
+  desc {  "
+Swoooooooosssh!
+
+" }
+  }
+  flags { dark, no_sum }
+  tele { 10, 1, 440 }
+}
+
+443
+{
+  name { Bottom of the Murder Hole  }
+  desc {
+"   *THUNK*
+
+   You have landed.  You appear to be in one piece...  But where is the
+land bridge leading into the castle?  Where the hell are you?  You look
+around but shadows extend in all directions.  The hair on the back of
+your neck prickles...  Uh oh!
+  }
+  flags { dark, no_sum }
+}
+
+444
+{
+  name { Sitting on the Guillotine  }
+  desc {
+"   You are seated on the Bascule of the Guillotine. Before you the wooden
+beams of the guillotine rise up to the cross bar. About halfway up is the
+mouton and blade, held firmly in place by the Declic (release handle). If
+you wanted, you could pop your head through the Lunette and see what it
+would be like to be stuck in one of these devices.
+  }
+  extra {
+  keywords { _ex11 }
+  desc { 
+"
+You poke your head through the Lunette. There is a slide and a click!
+
+An evil giggle sounds beyond your vision...
+
+Uh oh!
+
+" }
+  }
+  exits {
+  to { 10, 252 }
+    info { message }
+    keywords { great-hall }
+  to { 11, 446 }
+    info { message }
+    keywords { lunette }
+  }
+}
+
+445
+{
+  name { 240745  }
+  desc { Empty
+  }
+}
+
+446
+{
+  name { Head in the Lunette!  }
+  desc { "   Your head is firmly set in the Lunette... Uh oh!
+  }
+  extra {
+  keywords { _teleport }
+  desc {  "
+Above you the mouton and blade rasp as they are raised
+
+" }
+  keywords { _telelort }
+  desc {  "
+Above you the mouton and blade rasp as they are raised
+
+" }
+  }
+  flags { no_magic }
+  tele { 12, 0, 447 }
+}
+
+447
+{
+  name { Head in the Lunette!  }
+  desc { "   Your head is firmly set in the Lunette... Uh oh!
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+For a few brief seconds you experience the horror of headlessness.
+
+That was really SILLY!
+
+" }
+  }
+  flags { no_magic }
+  tele { 12, 0, 448 }
+}
+
+448
+{
+  name { A Headless Wonder  }
+  desc { "   The light in your eyes fade. A lesson learnt?
+  }
+  flags { death, no_magic }
+}
+
+449
+{
+  name { Amongst the Branches  }
+  desc {
+"   The branches creak and groan under you, but they hold firm.  From here
+you can shimmy out on the branch with the noose attached.
+  }
+  sector { Forest }
+  extra {
+  keywords { _ex11 }
+  desc { 
+"
+With your legs firmly holding on, you shimmy out on to the branch like a dog 
+with a worming problem...
+
+" }
+  keywords { _ex10 }
+  desc { 
+"
+You jump from the tree and land with faint *thunk* on the soft earth.
+
+" }
+  }
+  exits {
+  to { 10, 56 }
+    info { message }
+    keywords { jump-down }
+  to { 11, 450 }
+    info { message }
+    keywords { shimmy-out }
+  }
+}
+
+450
+{
+  name { Above the Noose  }
+  desc {
+"   You are sitting directly above the dangling noose.  The hemp rope has
+been tied so securely to the branch that its knots cannot be undone and
+your blade, no matter how sharp, can't seem to cut a single strand.  You
+can pull the noose up from here.
+  }
+  sector { Forest }
+  extra {
+  keywords { _ex11 }
+  desc { 
+"
+Hand-over-hand you pull the hemp rope up until the noose is in your hands.
+
+" }
+  keywords { _ex10 }
+  desc { 
+"
+With your legs firmly holding on, you shimmy back to the trunk like a dog 
+with a worming problem...
+  }
+  }
+  exits {
+  to { 10, 449 }
+    info { message }
+    keywords { shimmy-in }
+  to { 11, 451 }
+    info { message }
+    keywords { pull-up-noose }
+  }
+}
+
+451
+{
+  name { Holding the Noose  }
+  desc {
+"   You have pulled up the noose and examine the hemp rope.  It is thick
+and strong.  The noose itself will fit over your head.  You feel there is
+something magical about it, but you can't quite place your finger on what
+it could be.
+  }
+  sector { Forest }
+  extra {
+  keywords { _ex11 }
+  desc { 
+"
+You carefully poke your head through the noose...
+
+Like magic the knot slides and the noose is fastened tight about your
+neck! uh oh!
+
+" }
+  keywords { _ex10 }
+  desc { 
+"
+You drop the noose and shimmy back to the trunk like a dog with a worming
+problem...
+
+" }
+  }
+  exits {
+  to { 10, 449 }
+    info { message }
+    keywords { shimmy-in }
+  to { 11, 452 }
+    info { message }
+    keywords { put-head-in-noose }
+  }
+}
+
+452
+{
+  name { Ready for Hanging!  }
+  desc {
+"   The wind picks up!  The branch moves back and forth violenty! Uh oh!
+  }
+  extra {
+  keywords { _teleport }
+  desc { 
+"
+You are jolted from the tree branch and fall in the certain knowledge
+that death awaits a few feet below...
+
+" }
+  }
+  tele { 10, 1, 453 }
+}
+
+453
+{
+  name { Dancing the Hemp Fandango  }
+  desc {
+"   *CRACK*
+
+   Your neck broke as your entire weight snapped the rope taught! 
+
+   Your limp body dances the hemp fandago.
+
+   Your last breath bubbles from your lips as the light of the world fades.
+  }
+  sector { Forest }
+  flags { death }
+}

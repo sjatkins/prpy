@@ -1,0 +1,7348 @@
+#offset SwampsAmnos
+
+0
+{
+  name { Entrance to the Swamps of Amnos  }
+  desc {
+"   Before you stretches an enormous swamp.  The trees tower over you, but
+are far enough apart to let in the sun.  The beams of sunlight cheer you, and
+give you the courage to follow the path to the east.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 1 }
+	to { w, 408 }
+  }
+}
+
+1
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You are following an east-west path.  The cobbles keep your feet dry, but
+they seem to be very dirty here.  Mud has been tracked onto the path from 
+the south.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 35 }
+	to { s, 2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { Slogging through the mud.  }
+  desc {
+"   YUCK!  The mud is getting in your boots.  You can feel the mud squish
+between your toes.  Now you wish you had another route into the swamps.
+The mud seems to get a little shallower to the south.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Still slogging through the mud.  }
+  desc {
+"   Shlurp.  Shlurp.  Its very hard work pulling your feet out of the mud at
+each step, but the mud is getting slightly shallower.  There seems to be a
+rise in the land to the east, a safe haven from all this mud.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 2 }
+	to { e, 4 }
+  }
+}
+
+4
+{
+  name { On safe footing.  }
+  desc {
+"  Finally! Out of that awful mud.  The swamp seems much more pleasant away 
+from the mud.  Everything seems peaceful and quiet.  You can contiune 
+following the rise to the east.  To the south looks like one big mud puddle.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 6 }
+	to { s, 5 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { Mud puddle.  }
+  desc {
+"   You are surrounded by mud everywhere.  As you stand here you slowly sink
+up to your thighs in mud.  It's going to take a lot of work to get out of
+of this puddle.  Maybe you should avoid mud puddles from now on.
+  }
+  flags { mapable }
+  sector { Mud }
+  exits {
+	to { n, 4 }
+  }
+}
+
+6
+{
+  name { On safe footing.  }
+  desc {
+"   You find yourself following a rise in the swamp that goes to the west
+and the south.  In this peaceful area you can hear the wind rustling the
+branches, making a beautiful song.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { s, 7 }
+	to { w, 4 }
+  }
+}
+
+7
+{
+  name { In a glade.  }
+  desc {
+"   The rise into the swap ends in a sparking glade.  The sun shines down on
+the grass, turning the dew into rainbows.  Swarms of butterflies dance
+around the flowers, drinking their nectar.  As you approach the butterflies
+scatter and fly up into the trees.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 6 }
+	to { e, 10 }
+	to { s, 8 }
+  }
+}
+
+8
+{
+  name { In a glade.  }
+  desc {
+"   You wander in the glade, lost in thoughts of dew and rainbows.  A butterfly
+flitters down to your nose and lands there.  It looks deep into your eyes 
+then takes off to flutter amoung the trees.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 7 }
+	to { e, 9 }
+  }
+}
+
+9
+{
+  name { In a glade.  }
+  desc {
+"   You wander in the glade, entranced with the sparkle of the dew and the
+sunbeams shining through the trees.  The flowers bloom in a rainbow of 
+colors.  Every flower is surrounded with butterflies.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { Edge of glade.  }
+  desc {
+"   You are at the edge of the sparkling glade, and you've had just about 
+enough of sunbeams and flowers.  You're an adventurer and killing butterflies
+is for children.  The swamps and the mud are for real aventurers.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 11 }
+	to { s, 9 }
+	to { w, 7 }
+  }
+}
+
+11
+{
+  name { Back in the swamps.  }
+  desc {
+"   Squish!  Ah it's good to be back in the mud.  Squish!  The trees here cut
+out the sunlight.  There is no wind in the trees and everything seems
+strangely quiet.  As you strain your ears you can hear a faint clacking
+sound to the east, as if someone were hitting sticks together.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { e, 12 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { In the mud.  }
+  desc {
+"   Squish!  As your toes go numb from the swamp mud, you notice the clicking 
+sound here is very loud.  You are surprised to see two large walking sticks
+fighting in the trees above you.  As you turn your face up to get a better
+view the leg of one walking stick falls down in front of your eyes.  You turn 
+your eyes quickly back to your path.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { e, 13 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { Walking stick hatchery.  }
+  desc {
+"   You see before you an area filled with eggs and tiny walking sticks 
+hatching out.  Baby walking sticks scurry back and fourth, stopping now
+and then to have small fights amongst themselves.  You see some eating
+away at the leaves on the trees, which are by now almost defoliated.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { e, 14 }
+	to { s, 18 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { In the mud.  }
+  desc {
+"   Squish!  The trees loom silently above you blocking out most of the 
+sunlight.  As the clacking sound to the west starts to fade, you can hear
+an odd rustling sound to the east.
+  }
+  sector { Mud }
+  flags { no_mob }
+  exits {
+	to { e, 15 }
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { In the mud.  }
+  desc {
+"   A line of army ants travels quickly up in the branches.  They seem to be 
+carrying little bits of something to the south, but you can't quite make
+out what they have.  Luckily most of them seem to be well up in the trees,
+for they look quite mean.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 16 }
+	to { s, 17 }
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { Near a corpse.  }
+  desc {
+"   You tromp through the mud following the line of ants to see where they
+come from.  You watch them up in the branches and notice they come down off
+one of the trees to your right.  As you look down you see them feeding off
+an old corpse.  To the north you see some nasty thorns.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 195 }
+	to { s, 15 }
+  }
+}
+
+17
+{
+  name { Nest of army ants.  }
+  desc {
+"   The nest of army ants hangs from the branch of a tree.  It is made up of
+leaves all bound together.  You see many ants holding bits of flesh entering
+the nest and coming back out for a new load.  The queen ant seems quite 
+well protected from intruders.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 15 }
+  }
+}
+
+18
+{
+  name { Walking stick playground.  }
+  desc {
+"   Older walking sticks are running around here playing in mock fights. 
+Their antics seem almost comical as they each try to get the upper hand.
+One of them falls from the tree in its play and lands in a puddle in
+the mud.  As it struggles to get out you laugh.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 13 }
+	to { s, 19 }
+  }
+}
+
+19
+{
+  name { Near a stagnant pool.  }
+  desc {
+"   As you tromp through the mud you find yourself next to a stagnant pool.
+The water doesn't appear to be too deep, but with swamps you can never tell.
+A most offensive odor wafts through the air from the pool, and a faint
+humming sound can be heard.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 18 }
+	to { s, 26 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { In a stagnant pool.  }
+  desc {
+"   You are standing in water up to you knees.  The stench from the water is
+overwhelming.  Insects buzz over the water, swarms of mosquitoes and
+dragonflies.  A cloud of mosquitoes hover just over your head.  Did you 
+remember to bring your repellent with you?
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 21 }
+	to { e, 19 }
+	to { s, 25 }
+	to { w, 23 }
+  }
+}
+
+21
+{
+  name { In a stagnant pool.  }
+  desc {
+"   The water now comes up to your waist.  If it gets any deeper you'll
+have to start swimming.  The stench has become so bad it makes you dizzy.
+Bits of rotting leaves float in the water making a landing pad for a
+hovering dragonfly.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { s, 20 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { In a stagnant pool.  }
+  desc {
+"   The pool has become too deep to walk through.  It has turned strangely
+calm.  What has happened to all the insects?  Maybe the stench drove them
+off.  Small ripples come from the water.
+  }
+  sector { Deep Water }
+  extra {
+	keywords { pool }
+	desc { 
+"   The ripples attract your attention, and you look down into the water.
+You can see a monster faintly down in the depths.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 21 }
+	to { s, 23 }
+	to { d, 27 }
+	  info { hidden }
+  }
+}
+
+23
+{
+  name { In a stagnant pool.  }
+  desc {
+"   You are standing in water up to your knees.  The stench is terrible and
+seems to get worse to the north.  The dragonflies flitter about chasing
+the mosquitoes.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 22 }
+	to { e, 20 }
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { In a stagnant pool.  }
+  desc {
+"   The water here is shallow.  It barely gets in your boots.  Little water
+skimmers zip back and forth among the reeds.  Their movement causes small
+ripples on the surface of the pool.  You breath easier as the stench seems
+to dissipate.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 23 }
+	to { e, 25 }
+  }
+}
+
+25
+{
+  name { In a stagnant pool.  }
+  desc {
+"   You splash through the pool sending water everywhere.  The water skippers
+zip to the east scared of you noisy movement.  If only the mosquitoes would 
+leave you alone.  They constantly buzz in your ears.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 20 }
+	to { e, 26 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { Near a stagnant pool.  }
+  desc {
+"  You follow the edge to a pool of water.  The water doesn't look too deep
+wo walk through, but the clouds of mosquitoes hovering over it is a little
+discouraging.  As you look around bright flashes of light catch your eye
+to the south, appearing from a small hole in the leaves.
+  }
+  sector { Swamp }
+  flags { no_mob }
+  exits {
+	to { n, 19 }
+	to { s, 28 }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { In a deep pool.  }
+  desc {
+"   You find yourself deep in the water.  The muck is so thick it is hard to see
+anything.  You get a small bit of water in your mouth and it is the most foul and
+awful stuff you have ever tasted.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { u, 22 }
+  }
+}
+
+28
+{
+  name { In the beetle's home.  }
+  desc {
+"   You stand in the first room of the beetle's home.  Bright flashes of light
+are everywhere.  The cuticle of the iridescent beetles seems to give off a 
+light or maybe it's just a reflection of the sun's rays.  Wherever it comes
+from the light is blinding making them very hard to see.
+  }
+  sector { Inside }
+  flags { mapable }
+  exits {
+	to { n, 26 }
+	to { e, 29 }
+  }
+}
+
+29
+{
+  name { In the beetle's home.  }
+  desc {
+"   The glare here seems to be much better.  The smaller bettles don't seem to
+give off as much light as the larger ones.  You can see beetles scurrying 
+back and forth in their home.  They seem to be enlarging their home with
+bits of mud and stick.
+  }
+  sector { Inside }
+  flags { mapable }
+  exits {
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { The end of the beetle's home.  }
+  desc {
+"   You are in the last room of the beetles home.  It is much larger then the 
+other two rooms, and it needs to be.  This is the home of the ancient beetle.
+A little sleeping pad is here for it to rest on.  There seems to be a small
+hole in the wall to the north.
+  }
+  sector { Inside }
+  flags { mapable }
+  exits {
+	to { n, 31 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { In the brush.  }
+  desc {
+"   You squeeze into a narrow space between some bushes.  It is very cramped
+and the branches seem to tear at your clothing.  You see a small opening to
+the west, anything to get out of the bushes.
+  }
+  sector { Thicket }
+  flags { no_mob }
+  exits {
+	to { s, 30 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { A silence in the swamp.  }
+  desc {
+"   The mud here seems especially vile.  It seems to be taking on a life of 
+its own, grabbing your feet at every step.  You listen carefully and hear
+nothing.  Not the rustle of a leaf or a whisper of an insects wings.  A
+shiver runs down your spine and you're not sure you wish to go on.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 33 }
+	to { e, 31 }
+  }
+}
+
+33
+{
+  name { A silence in the swamp.  }
+  desc {
+"    As you try to pull your feet from the mud, you become more concerned with
+the silence.  Nothing makes a noise except your steps in the mud and even
+they are oddly hushed.  You resist an urge to flee this place, but you
+question the wisdom of going forward.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 34 }
+	to { s, 32 }
+  }
+}
+
+34
+{
+  name { The sound of slithering.  }
+  desc {
+"   You find yourself in the home of a large python.  He hangs from the
+branches of the tree above you.  You wish with all your might you had not
+wandered in here.  Maybe you can flee before he has you for breakfast.
+  }
+  sector { Inside }
+  flags { mapable }
+  exits {
+	to { s, 33 }
+  }
+}
+
+35
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You are still following the east-west path through the swamps.  The path
+does a good job of keeping your feet dry.  A winding trail that leads off
+to the north looks a little bit wet.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 36 }
+	to { e, 65 }
+	to { w, 1 }
+  }
+}
+
+36
+{
+  name { A wet trail.  }
+  desc {
+"   The swamp here is very open, with no trees to block the sun.  You splash
+down the twisting path, whistling as you go.  There is a huge stone with 
+writing on it coming out of the mud.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { stone rock }
+	desc { 
+"   The stone is covered with graffiti.  In bright red letters you see the
+words, Twilight was here.  Underneath and a little faded you can make out
+the words, dont follow this path I had a fr.....got lost....beware.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 37 }
+	to { s, 35 }
+  }
+}
+
+37
+{
+  name { A wet trail.  }
+  desc {
+"   As you follow the winding trail through the muck, the sun warms your head.
+A gentle breeze blows by keeping the mosquitoes away.  You make a game jumping
+from hillock to hillock.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 38 }
+	to { s, 36 }
+  }
+}
+
+38
+{
+  name { A wet trail.  }
+  desc {
+"   The trail you follow winds its way to the south now.  The water gets a 
+little deeper and you have to leap farther and farther to keep dry. You jump
+too far, slip and get wet head to toe.  You shake yourself off swearing at
+the swamp.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 39 }
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { A wet trail.  }
+  desc {
+"   The path seems easier to travel here.  Some kind soul put down logs to 
+walk on so you won't get wet.  The path seems go into an area of brush to 
+the east.  It looks as though you can get in but you might not able to get
+back again.
+  }
+  sector { Swamp_Road }
+  flags { no_mob }
+  exits {
+	to { e, 40 }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 50 }
+	to { e, 51 }
+	to { s, 41 }
+	to { w, 40 }
+  }
+}
+
+41
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 40 }
+	to { e, 50 }
+	to { s, 51 }
+	to { w, 42 }
+  }
+}
+
+42
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 52 }
+	to { e, 40 }
+	to { s, 43 }
+	to { w, 53 }
+  }
+}
+
+43
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 55 }
+	to { e, 44 }
+	to { s, 44 }
+	to { w, 56 }
+  }
+}
+
+44
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 55 }
+	to { e, 45 }
+	to { s, 58 }
+	to { w, 57 }
+  }
+}
+
+45
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 59 }
+	to { e, 44 }
+	to { s, 46 }
+	to { w, 40 }
+  }
+}
+
+46
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 47 }
+	to { e, 40 }
+	to { s, 45 }
+	to { w, 53 }
+  }
+}
+
+47
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 60 }
+	to { e, 61 }
+	to { s, 48 }
+	to { w, 40 }
+  }
+}
+
+48
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 49 }
+	to { e, 47 }
+	to { s, 62 }
+	to { w, 63 }
+  }
+}
+
+49
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you,
+but you see no way back to the winding path.  You start to get cold and
+can't figure out why, but it seems to be colder to the south.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 48 }
+	to { e, 63 }
+	to { s, 64 }
+	to { w, 40 }
+  }
+}
+
+50
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 40 }
+	to { e, 51 }
+	to { s, 50 }
+	to { w, 41 }
+  }
+}
+
+51
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 41 }
+	to { e, 51 }
+	to { s, 50 }
+	to { w, 40 }
+  }
+}
+
+52
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 41 }
+	to { e, 42 }
+	to { s, 52 }
+	to { w, 50 }
+  }
+}
+
+53
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 40 }
+	to { e, 50 }
+	to { s, 41 }
+	to { w, 51 }
+  }
+}
+
+54
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 50 }
+	to { e, 43 }
+	to { s, 53 }
+	to { w, 40 }
+  }
+}
+
+55
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 44 }
+	to { e, 41 }
+	to { s, 43 }
+	to { w, 40 }
+  }
+}
+
+56
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 43 }
+	to { e, 44 }
+	to { s, 55 }
+	to { w, 42 }
+  }
+}
+
+57
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 55 }
+	to { e, 56 }
+	to { s, 44 }
+	to { w, 43 }
+  }
+}
+
+58
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 44 }
+	to { e, 52 }
+	to { s, 56 }
+	to { w, 43 }
+  }
+}
+
+59
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 60 }
+	to { e, 45 }
+	to { s, 44 }
+	to { w, 58 }
+  }
+}
+
+60
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 47 }
+	to { e, 58 }
+	to { s, 59 }
+	to { w, 61 }
+  }
+}
+
+61
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 47 }
+	to { e, 60 }
+	to { s, 58 }
+	to { w, 59 }
+  }
+}
+
+62
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 41 }
+	to { e, 48 }
+	to { s, 61 }
+	to { w, 40 }
+  }
+}
+
+63
+{
+  name { Lost in the brush.  }
+  desc {
+"   You find yourself lost in the brush.  You desperately look around you
+but you see no way back to the winding path.  Each direction seems to be
+the same as the other.  You can push your way through in any direction, but
+none seems better than the others.
+  }
+  sector { Thicket }
+  flags { mapable }
+  exits {
+	to { n, 48 }
+	to { e, 50 }
+	to { s, 42 }
+	to { w, 40 }
+  }
+}
+
+64
+{
+  name { Fairie's frost.  }
+  desc {
+"   All around you the bushes are covered with frost.  A mad little fairy 
+seems to be zooming about, touching her wand to each plant.  As she
+touches one all the leaves become frosted up.  After a while the frost melts.
+So she ends up doing it over and over again.
+  }
+  sector { Winter_Forest }
+  flags { mapable }
+  exits {
+	to { e, 82 }
+  }
+}
+
+65
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You are following the main path through the swamps.  It continues on to the
+east.  You see a small branch in the path going to the south, leading toward
+a large camp.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { e, 68 }
+	to { s, 66 }
+	to { w, 35 }
+  }
+}
+
+66
+{
+  name { Large camp.  }
+  desc {
+"   You stand on a wooden platform above the swamp.  Many people are here
+milling about and trying to set up camp.  A few of them seem not to belong
+here.  They are tourists and are being helped by capable guides.  You can
+see a large tent to the west sporting a sign with 'Store' written on it.
+To the east is a small but sharp looking tent.
+  }
+  sector { Field }
+  flags { peaceful, no_sum, no_magic, private, fast_moves }
+  exits {
+	to { n, 65 }
+	to { e, 394 }
+	to { w, 67 }
+  }
+}
+
+67
+{
+  name { Camp store.  }
+  desc {
+"   You duck inside the canvas tent.  Inside is slightly dark but you still
+can make out three rows of shelves, covered with assorted provisions.  The
+proprietor of the store looks at you suspiciously. Then he says, "Go away 
+I'm closed to the likes of you."  There is a sign here.
+  }
+  sector { City }
+  extra {
+	keywords { sign }
+	desc {  "   Try our new mosquito repellent, only 3 coins a bottle. 	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 66 }
+  }
+}
+
+68
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You are following the main path through the swamps.  It continues to the
+east as far as your eyes can see.  The path is no longer cobblestoned, and you
+can tell that no carts can be pulled down here.  However, there are rocks 
+that have been thrown on the path to keep your feet dry.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 69 }
+	to { w, 65 }
+  }
+}
+
+69
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You follow a long path in the swamps.  As you wander along you start to
+look at the birds along the way.  Why look it's a snowy egret.  You'll have to
+put that one in your bird watching book.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { bird egret }
+	desc { 
+"   You see a small white heron that has a narrow black bill.  It must be the
+breeding season for it because it has beautiful plumes all along its back.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 70 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The rocky path goes deep into the swamp, barely keeping you above the
+water. The trees loom over you, dripping with moss. You get to a small
+rise. The path below you is now spongy with bright green moss.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { e, 71 }
+	to { w, 69 }
+  }
+}
+
+71
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You hop along the stony path looking for birds.  You gasp as you spy a
+rare Cory's Least Bittern running quickly through the reeds.  What a pretty
+little bird.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { bittern bird }
+	desc { 
+"   You look at the little bittern.  It runs with an amazing speed over the lily
+pads.  It has a long beak and reddish feathers.  As it runs from sight you can 
+still hear its coo-coo-coo.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 72 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You follow the main path through the swamps.  You hear in the distance the
+grunts of cormorant.  You look up into one of the trees and can see it in
+its nest of sticks.
+  }
+  extra {
+	keywords { cormorant bird }
+	desc { 
+"   The bird is all black with an orange throut pouch.  It sits up in its nest
+surveying its surroundings.
+	}
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { e, 73 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { Turn in the path.  }
+  desc {
+"   The path you follow takes a turn to the north.  If you continued to the 
+east you would run into a large patch of brambles.  Their thorns do not look
+too appealing.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { thorns }
+	desc { 
+"   The thorns poke out from a patch of multiflora roses.  The white flowers
+look lovely and the scent is wonderful, but the thorns look like they could 
+do a lot of damage if you pushed your way through.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 74 }
+	to { e, 195 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The path branches off here.  One path leads to the east and one to the north.
+Either path seems just as inviting.  As you strain your eyes to the north 
+you can just make out a few birds.  You see nothing to the east.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 75 }
+	to { e, 77 }
+	to { s, 73 }
+  }
+}
+
+75
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You follow the path through the swamps.  You are surprised to see the
+snake-like head of an Anhinga sticking up through the swamp water.  As 
+it catches a fish, it flips the fish up in the air.  The fish comes down
+headfirst right into the bird's beak.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { Anhings bird }
+	desc { 
+"   The Anhinga is an graceful bird with with a long thin neck.  Most of the bird si
+submerged in the water.  Just its neck sticks out.
+	}
+	keywords { bird Anhinga }
+	desc { 
+"   The Anhinga is a graceful bird with a long thin neck.  Most of the bird
+is submurged in the water.  Just its neck sticks out.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 76 }
+	to { s, 74 }
+  }
+}
+
+76
+{
+  name { At an intersection in the swamps.  }
+  desc {
+"   You are at an intersection where three paths come together.  The path to
+the north takes you deeper into the swamp.  You can hear the caws and grunts
+and coos of many birds but you can't seem to see any of them.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { bird }
+	desc { 
+"   Weren't you just told you didn't see any birds? Quit trying to look at
+nonexistant birds.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 78 }
+	to { e, 85 }
+	to { s, 77 }
+	to { w, 75 }
+  }
+}
+
+77
+{
+  name { On a path in the swamps  }
+  desc {
+"   You follow the path in the swamp skipping from rock to rock as you go.
+You can see a rickety old bridge to the east with a large reptillian 
+creature standing on it.  The path continues to the north.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 76 }
+	to { e, 84 }
+	to { w, 74 }
+  }
+}
+
+78
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You follow the path through the swamps.  It does not seem as well kept up
+as before.  Maybe the reptillian creatures to the east keep the path in repair
+and don't like going here.  Or maybe it's traveled on so much the stones have 
+sunk into the mud.  Whatever the reason you are going to have to be careful
+on this slippery path.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 79 }
+	to { s, 76 }
+  }
+}
+
+79
+{
+  name { On a path in the swamps.  }
+  desc {
+"   Well, it looks like a long ways to the next point for interest.  Maybe you
+should start putting more birds in your birding journal.  No birds of interest 
+seem to live here but maybe farther on?
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 80 }
+	to { s, 78 }
+  }
+}
+
+80
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You look madly around for more birds.  You think you see a Yellow-crowned
+Night Heron off the the north a little.  You quicken your pace so you can see
+past the next bush, but in your haste you trip over a rock sticking up.  Ick!
+Now your pants are all muddy and your bottom is sore.  Not only that but you
+made so much noise you scared off the birds.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 81 }
+	to { s, 79 }
+  }
+}
+
+81
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You tromp along the path swearing at your clumsiness.  You peer to the 
+north hoping to find something interesting for an adventurer, but all you see 
+is the path going north deeper into the swamp.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 82 }
+	to { s, 80 }
+  }
+}
+
+82
+{
+  name { On a path in the swamps.  }
+  desc {
+"   As you follow the north-south path,  it seems to be getting colder.  You 
+find a large very cold bush to the west.  You try to push through it but
+you don't seem to be strong enough.  You untangle the sticks from your hair
+and travel on.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 83 }
+	to { s, 81 }
+  }
+}
+
+83
+{
+  name { A turn in the path.  }
+  desc {
+"   The path makes a wide turn to the south and east.  The brush seems to be 
+thinning out but the puddles are getting deeper and deeper.  You step carefully
+around them.
+  }
+  sector { Swamp_Road }
+  flags { no_mob }
+  exits {
+	to { e, 139 }
+	to { s, 82 }
+  }
+}
+
+84
+{
+  name { Going over a bridge.  }
+  desc {
+"   You are standing on a very rickety bridge.  A large reptillian creature
+looms over you wanting to know your business with his people.  He shouts
+"Evil ones are not welcome, go back to where you come from before I have
+to kill you."  He then turns away and begins mumbling to himself.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 87 }
+	to { w, 77 }
+  }
+}
+
+85
+{
+  name { On a lake.  }
+  desc {
+"   You are on a deep lake.  The surface of the water seems to be slate gray,
+and very uninviting.  There are reptillian creatures paddling about in 
+small rowboats.  They seem to be catching mottled brown fish in their nets.
+The fish look very bony and unappetizing.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 86 }
+	to { w, 76 }
+  }
+}
+
+86
+{
+  name { On a lake.  }
+  desc {
+"   The lake gets a bit shallower here.  The reptillian creatures seem grim 
+and determined to haul up the most disgusting looking fish imaginable.  Why 
+would anyone want to eat those fish. Yuck!
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { s, 87 }
+	to { w, 85 }
+  }
+}
+
+87
+{
+  name { Near the shore of a lake.  }
+  desc {
+"   There are a couple of rowboats here in very shabby condition.  These
+creatures don't seem to have much respect for their things.  Bits of 
+fishbone and net are scattered all over the ground.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 86 }
+	to { e, 90 }
+	to { s, 88 }
+	to { w, 84 }
+  }
+}
+
+88
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You wonder where the reptiles live.  Maybe they stay in their boats all night
+long, but you doubt it.  So off you trudge into a forest in the swamp.  The
+trees hang down low and seem to be watching you with every step you make.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 87 }
+	to { e, 91 }
+	to { s, 89 }
+  }
+}
+
+89
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You think you hear a noise and jump in surprise.  You look all around you
+but you see nothing but thick forest.  As you try to listen closer you think
+you hear laughter off to the east.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 88 }
+	to { e, 92 }
+  }
+}
+
+90
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The branches of the trees hang low to the ground.  It's hard work pushing
+your way through.  Bits of needle and branch get stuck in your hair, as the 
+branches seem to grab at you.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { e, 95 }
+	to { s, 91 }
+	to { w, 87 }
+  }
+}
+
+91
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You are sure you can hear evil laughter all around you.  The swamps seem
+to close in and the mud pulls at your feet to keep you here.  You can see exits
+in all directions.  Maybe you should take one now.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 90 }
+	to { e, 96 }
+	to { s, 92 }
+	to { w, 88 }
+  }
+}
+
+92
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The sound of laughter fills the air.  You look everywhere to see where
+it could be coming from but you can't figure it out.  It seems the trees
+themselves are laughing at you.  The chill laughter makes a shiver run
+down your spine.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 91 }
+	to { e, 97 }
+	to { s, 93 }
+	to { w, 89 }
+  }
+}
+
+93
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The muck seems to be getting deeper here.  It oozes over the tops of your 
+boots.  As you pant from the exertion, you get a good whiff of the smell of 
+the swamp.  Gag!
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 92 }
+	to { e, 98 }
+	to { s, 94 }
+  }
+}
+
+94
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You see huddled in the muck a poor little reptile girl.  She is crying
+miserably.  When you ask her why she says "I like being a reptile, but I'm 
+not supposed to."  You try in vain to get her to talk to you again but can't.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 93 }
+	to { e, 99 }
+  }
+}
+
+95
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The trees close in around you with a life of their own.  Branches scrape at
+your face and tear small rips in your clothing.  They are too thick to the
+north and the east but if you hurry, maybe you push out to the south or west.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { s, 96 }
+	to { w, 90 }
+  }
+}
+
+96
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You continue to push your way through the cypress trees.  Their needles
+poke at you with each step you take.  You get the idea that they don't really
+want you here.  As you look for a good way out, you see that any direction is
+as good as the other.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 95 }
+	to { e, 100 }
+	to { s, 97 }
+	to { w, 91 }
+  }
+}
+
+97
+{
+  name { Trudging through the muck.  }
+  desc {
+"   Here is where the laughter is coming from.  Four reptillian children play
+throwing balls of mud at one another.  They seem to be having a grand old 
+time, unlike their parents.  Then one large hag-like reptile swoops down and
+scolds them.  "You know better than to play like this.  We must be quiet and
+good to prove to the Earth Mother that we have reformed.  You don't want to
+be reptiles all your life, do you?
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 96 }
+	to { e, 101 }
+	to { s, 98 }
+	to { w, 92 }
+  }
+}
+
+98
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You hear the sound of hushed laughter to the north.  The trees seem to be
+dripping on you.  The drips run off your hair and down your back.  Your back
+starts to itch like crazy, but you can't seem to reach it.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 97 }
+	to { e, 102 }
+	to { s, 99 }
+	to { w, 93 }
+  }
+}
+
+99
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The smell of decay and cypress start to make you sick.  Maybe now is a 
+good time to find somewhere else to go.  You miss the sun warming your armor,
+and you would love to find a good spot to dry out your feet.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 98 }
+	to { w, 94 }
+  }
+}
+
+100
+{
+  name { Trudging through the muck.  }
+  desc {
+"   The cypresses grow very closely together.  Some even seem to be intertwinned
+with one another.  You are sure that trees don't grow this way naturally.  What 
+could have caused their misshapen apperance?
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { e, 103 }
+	to { s, 101 }
+	to { w, 96 }
+  }
+}
+
+101
+{
+  name { Trudging through the muck.  }
+  desc {
+"   You tire of stomping through the mud.  You imagined much more excitement
+when you set off for your journey.  You sit down to rest leaning against a
+tree trunk.  You gaze up into the branches of the tree and think you see
+something up there, but you can't be sure.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 100 }
+	to { e, 104 }
+	to { s, 102 }
+	to { w, 97 }
+  }
+}
+
+102
+{
+  name { Trudging through the muck.  }
+  desc {
+"   One of the trees here seems to have a slightly different kind of bark.  It
+seems smoother and greener than the other trees.  You detect faint scratch
+marks on the bark.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 101 }
+	to { w, 98 }
+	to { 10, 138 }
+	  info { hidden }
+	  keywords { tree }
+  }
+}
+
+103
+{
+  name { Trudging through the muck.  }
+  desc {
+"   This must be the most dismal part of the swamp you have seen so far.  Just
+enough of the light gets through to see by, but it's dark enough that the
+colors of the trees have washed out.  Even the trees themselves look tired
+and worn out.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { s, 104 }
+	to { w, 100 }
+  }
+}
+
+104
+{
+  name { Trudging through the muck.  }
+  desc {
+"   Before you is a strange sight.  There is a reptillian mage chanting to a 
+small tree.  As he chants the tree twists and grows.  This continues for 
+quite some time, until the mage collapses into the mud, exhausted.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 103 }
+	to { w, 101 }
+  }
+}
+
+105
+{
+  name { Teacher's lounge.  }
+  desc {
+"   You find yourself in the teacher's lounge.  You see one teacher with his
+feet up on a desk smoking.  When you walk in he gasps and quickly puts out
+his cigarette.  He blushes and looks away.
+  }
+  flags { mapable }
+  exits {
+	to { w, 106 }
+  }
+}
+
+106
+{
+  name { Classroom.  }
+  desc {
+"   Little reptile children sit on the floor in rows.  Each one has a slate
+and chalk in their lap.  The teacher tells them all about King Gilfor and
+how he started the great war with the elves, and about the three great 
+weapons that were forged.  When the teacher sees you coming in he yells at
+you to leave.
+  }
+  flags { mapable }
+  exits {
+	to { e, 105 }
+	to { w, 107 }
+  }
+}
+
+107
+{
+  name { Hallway.  }
+  desc {
+"   The graceful curve of the hallway ends in a door to the east.  You can 
+hear the chitter of children and the screech of chalk against a blackboard.
+A small sign hangs from the doorknob.
+  }
+  extra {
+	keywords { sign }
+	desc {  "   Please do not disturb.  Class in progress. 	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 106 }
+	to { s, 108 }
+  }
+}
+
+108
+{
+  name { Hallway.  }
+  desc {
+"   You follow the bending in the hallway.  The branches of the floor follow 
+the curve of the hall beautifully.  They form a graceful sweep to the north-
+west.
+  }
+  flags { mapable }
+  exits {
+	to { n, 107 }
+	to { e, 109 }
+  }
+}
+
+109
+{
+  name { Hallway.  }
+  desc {
+"   You walk down the grimy hall carefully to avoid kicking up dust into the
+air.  You marvel at the construction of the hall and the walls.  Underneath
+the dirt they are the most beautiful things you have seen.
+  }
+  flags { mapable }
+  exits {
+	to { e, 110 }
+	to { s, 111 }
+	to { w, 108 }
+  }
+}
+
+110
+{
+  name { Bedroom.  }
+  desc {
+"   You enter a bare bedroom.  Someone is curled up in the corner sleeping.
+It looks very uncomfortable to sleep on the bare floor.  You wonder if the kids
+were having a mud fight in here.  Mud streaks the branches of the walls.
+  }
+  flags { mapable }
+  exits {
+	to { w, 109 }
+  }
+}
+
+111
+{
+  name { Hallway.  }
+  desc {
+"   You stand in a grungy hall with doors to either side of you.  The hall 
+continues on the the north, getting dirtier as you travel.  As you walk along
+your boots kick up clouds of dust making you cough.
+  }
+  flags { mapable }
+  exits {
+	to { n, 109 }
+	to { e, 112 }
+	to { s, 114 }
+	to { w, 113 }
+  }
+}
+
+112
+{
+  name { Bedroom.  }
+  desc {
+"  As you enter you trip over the mess on the floor.  Ick , someones dirty
+socks have been left here.  You see one small mattress in the corner and
+many little beds made of pine needles.
+  }
+  flags { mapable }
+  exits {
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { Bedroom.  }
+  desc {
+"   It looks like you are in the bedroom to several of the reptiles.  Their 
+clothes are scattered all over the floor.  It looks like they make nests of 
+them to sleep in.
+  }
+  flags { mapable }
+  exits {
+	to { e, 111 }
+  }
+}
+
+114
+{
+  name { In a large room.  }
+  desc {
+"   You stand in a very large room.  You look with awe on the magically built
+village made of trees, and you are saddened that it has fallen into such a
+state of disrepair.  You feel a sudden urge to scrub the floors.  There is
+a small store to the west.
+  }
+  flags { mapable }
+  exits {
+	to { n, 111 }
+	to { e, 116 }
+	to { s, 117 }
+	to { w, 115 }
+	  info { door }
+	  keywords { wooden, door }
+  }
+}
+
+115
+{
+  name { Small store.  }
+  desc {
+"   There is an ugly looking reptile staring at you from behind a counter.
+He looks very old and wrinkled.  All around the shop are piles of rotting 
+fish and vials carelessly thrown about.
+  }
+  flags { mapable }
+  exits {
+	to { e, 114 }
+	  info { door }
+	  keywords { wooden, door }
+  }
+}
+
+116
+{
+  name { In a large room.  }
+  desc {
+"   You find yourself in a very large room.  Your first thought is how beautiful
+the room is.  It is formed from the tree itself.  The branches are very close
+together and flat forming a very stable floor.  The walls are made of needles
+and branches from the cypresses.  As you take a second look you notice that
+it is also very ugly.  Trash is scattered all over the floor and dirt and dust
+streaks the walls.
+  }
+  flags { mapable }
+  exits {
+	to { s, 118 }
+	to { w, 114 }
+	to { 10, 138 }
+	  keywords { hole }
+  }
+}
+
+117
+{
+  name { In a large room.  }
+  desc {
+"   You are in a very large room formed entirely out of living tree.  You marvel
+at the magic it would take to build this.  To the west is a door made out of
+very dense branches.  A sign hangs over the door.
+  }
+  extra {
+	keywords { sign }
+	desc {  "   The Museum of Remembrance. 	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 114 }
+	to { e, 118 }
+	to { w, 133 }
+  }
+}
+
+118
+{
+  name { In a large room.  }
+  desc {
+"   You stand in a very large room.  The room continues to the north and west.
+To the south and east are very dingy hallways.  The branches of the trees
+grow very thickly overhead forming a watertight ceiling.
+  }
+  flags { mapable }
+  exits {
+	to { n, 116 }
+	to { e, 119 }
+	to { s, 120 }
+	to { w, 117 }
+  }
+}
+
+119
+{
+  name { Hallway.  }
+  desc {
+"   You stand in a dreary hallway.  To the east lies a very dismal church.
+You can hear the sound of chanting past the door.  The sound grates on you.
+Over the door hangs a sign.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+"   The sign is crudely carved from a piece of cypress.  It reads, "Leave your
+sins behind as you enter the sacred church of the Earth Mother.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 124 }
+	  keywords { cypress }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { Hallway.  }
+  desc {
+"   You walk down a very grimy hallway.  You are sure it hasn't been cleaned
+in years.  Bits of hair and bone and dust cover the floor.  The wall is 
+covered in dirty handprints.
+  }
+  flags { mapable }
+  exits {
+	to { n, 118 }
+	to { s, 121 }
+	  keywords { cypress }
+  }
+}
+
+121
+{
+  name { Llendolwir's bedroom.  }
+  desc {
+"   You are in a very tiny bedroom.  There is no real mattress on the floor,
+just boughs of cypress strewn about.  It looks very uncomfortable.  There
+is a cracked mirror on the wall and a small comb made of bone.
+  }
+  flags { mapable }
+  exits {
+	to { n, 120 }
+	  keywords { cypress }
+  }
+}
+
+122
+{
+  name { In the choir.  }
+  desc {
+"   You stand at the edge of the choir.  They seem to be chanting in croaks.
+The sound seems very silly to you, and you have trouble stifling your laughter.
+Reptiles definitely don't belong in a singing group.
+  }
+  flags { mapable }
+  exits {
+	to { e, 123 }
+	to { s, 124 }
+  }
+}
+
+123
+{
+  name { In the choir.  }
+  desc {
+"   As you travel through the choir, you disrupt the singing.  What was once
+a quiet croaking sound turns into a loud croaks and gasps.  The choir leader
+withers you with his stare.
+  }
+  flags { mapable }
+  exits {
+	to { s, 125 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { In a church.  }
+  desc {
+"   You stand at the back of the church.  In front of you are pews.  Not many 
+sit in the pews, and you don't blame them.  The priest talks in a flat mono-
+tone that lulls you to sleep.
+  }
+  flags { mapable }
+  exits {
+	to { n, 122 }
+	to { e, 125 }
+	to { s, 126 }
+	to { w, 119 }
+	  keywords { cypress }
+  }
+}
+
+125
+{
+  name { At the alter.  }
+  desc {
+"   The priest's glare tells you that you should not be standing here.  The
+priest drones on and on with his sermon.  It seems interminable.  His voice
+threatens to put you to sleep.
+  }
+  flags { mapable }
+  exits {
+	to { n, 123 }
+	to { e, 128 }
+	to { s, 127 }
+	to { w, 124 }
+  }
+}
+
+126
+{
+  name { In a church.  }
+  desc {
+"   You are in the middle of the pews.  There are songbooks in the back of each
+pew.  You take one out and see that it's written in an ancient elven tongue.
+You shudder to imagine the beautiful elven songs on the lips of these 
+reptiles.
+  }
+  flags { mapable }
+  exits {
+	to { n, 124 }
+	to { e, 127 }
+  }
+}
+
+127
+{
+  name { In a church.  }
+  desc {
+"   You are in the front row of pews.  You can hear the priest drone on and on.
+"We must atone for the sins of our forefathers.  Our forefathers hurt the
+Earth Mother with our greed.  We must cast off our greed.  Own nothing of
+true value, covet nothing of ......
+  }
+  flags { mapable }
+  exits {
+	to { n, 125 }
+	to { w, 126 }
+  }
+}
+
+128
+{
+  name { Meditation room.  }
+  desc {
+"   The meditation room fills with the smoke of incense.  The smoke burns at
+your eyes.  Through the smoke you can see three women quietly sitting in
+the middle of the room.
+  }
+  flags { mapable }
+  exits {
+	to { w, 125 }
+  }
+}
+
+129
+{
+  name { In an alcove in the museum.  }
+  desc {
+"   Before you hangs a beautiful portrait.  The artwork itself is exquisite,
+but the face is even more breathtaking.  It is a portrait of the most
+handsome elf you have ever seen.  There is a small label on the portrait.
+Below the portrait is a crown.
+  }
+  extra {
+	keywords { label }
+	desc {  "   King Llendlowir, may his reign last forever. 	}
+	keywords { crown }
+	desc { 
+"   The crown sits on a red velvet pillow.  It is wrought of gold and platinum
+twined together.  Each point is adorned with a five carat emerald.  The 
+largest emerald is on the front and sparkles even in the gloom.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { s, 130 }
+  }
+}
+
+130
+{
+  name { In a hall in the museum.  }
+  desc {
+"   You walk down a narrow hallway.  Your shoulders brush against the walls
+as you go.  You have to duck your head so you don't bump it on the ceiling.
+You are starting to feel very claustrophobic.
+  }
+  flags { mapable }
+  exits {
+	to { n, 129 }
+	to { s, 132 }
+  }
+}
+
+131
+{
+  name { In a museum.  }
+  desc {
+"   There is a display case on the wall. Inside is a beautiful wizard's robe.
+shimmering in the light.  There are runes embroidered on the robe in silver
+thread.  A brass label is below the display case.
+  }
+  extra {
+	keywords { label }
+	desc { 
+"   This robe was worn by Llidenowin,  the greatest mage of his time and the
+most dispised of them all.  The spell he cast destroyed us and cursed
+himself for all eternity.
+	}
+	keywords { robe }
+	desc { 
+"   The silver thread of the runes shimmer as you try to read them.  It gives
+you a spliting headache.  They seem to shift and change with every passing
+moment.  You turn away to rest your eyes.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 132 }
+	to { s, 134 }
+  }
+}
+
+132
+{
+  name { In a museum.  }
+  desc {
+"   A display case stands in the middle of the room.  It holds a most remarkable
+looking horn and was probably meant to call warriors to battle.  A brass label
+is on the display case.
+  }
+  extra {
+	keywords { label }
+	desc { 
+"   This horn has called our people to battle for thousands of years.  May it 
+never be blown again.
+	}
+	keywords { horn }
+	desc { 
+"   The horn must come from an unusual animal.  It is huge, two feet long, and
+shines brightly in the light.  It twists in spirals of green and blue.  You 
+wonder what kind of animal would grow a horn like that.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 130 }
+	to { e, 133 }
+	to { s, 135 }
+	to { w, 131 }
+  }
+}
+
+133
+{
+  name { In the museum.  }
+  desc {
+"   You stand in the entrance to the Museum of Remembrance.  You are shocked to 
+see that everything is clean.  No mud on the walls.  No dust to kick up.  For
+a group of slovenly reptiles they keep this place in perfect repair.  It 
+must be very important to them.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 117 }
+	to { s, 136 }
+	to { w, 132 }
+  }
+}
+
+134
+{
+  name { In a museum.  }
+  desc {
+"   The display case before you seems to hold a broken hammer.  It is the 
+largest hammer you have ever seen.  It would take a very strong person
+even to lift, much less wield it.  There is a label on the display case.
+  }
+  extra {
+	keywords { hammer }
+	desc { 
+"   The hammer seems to be made of steel and very heavy.  It looks broken but
+you think you might be able to get it fixed.  It is covered in dried blood.
+	}
+	keywords { label }
+	desc { 
+"   This hammer is one of the three great weapons forged by the dwarves to
+escalate the war.  It was carried by Gilfor's son into battle.  May it 
+never again be used in battle.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 131 }
+	to { e, 135 }
+  }
+}
+
+135
+{
+  name { In the museum.  }
+  desc {
+"   In your tour through the museum you see a portrait of a dwarf.  The dwarf
+wears a simple silver circlet on his brow.  A small brass label is affixed to
+the picture.
+  }
+  extra {
+	keywords { portrait picture }
+	desc { 
+"   The portrait shows a stout dwarf.  His brown eyes seem to follow you as you
+move.  The portrait is framed in wood.
+	}
+	keywords { label }
+	desc { 
+"   King Gilfor of the dwarves.  He started the Great War and now he lives 
+forever in agony.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 132 }
+	to { e, 136 }
+	to { w, 134 }
+  }
+}
+
+136
+{
+  name { In the museum.  }
+  desc {
+"   You stand before a display case.  Inside is the largest diamond you have
+ever seen in your life.  It glitters in the light and seems to call out to
+you.  Greed wells up in your heart and you feel you must possess it.  There
+is a small brass label attached to the case.
+  }
+  extra {
+	keywords { label }
+	desc { 
+"   We must banish greed from our race.  Greed was the cause of our downfall
+and the Earth Mother will not let us rise again until we have cleansed
+our souls of it.
+	}
+	keywords { diamond }
+	desc { 
+"   You gaze into the depths of the diamond.  It seems to draw you in to 
+itself.  You try to pull yourself away but greed overwhelms you and you
+search for a way into the case.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 133 }
+	to { w, 135 }
+  }
+}
+
+137
+{
+  name { 99138  }
+  desc { Empty   }
+  flags { mapable }
+}
+
+138
+{
+  name { Climbing a tree.  }
+  desc {
+"   Even though the tree bark is very smooth it is easy to climb.  Convenient
+branches stick out forming a ladder.  The branches grow very thick above
+you, but upon poking around, you find a small hole to climb through.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { 10, 102 }
+	  keywords { tree }
+	to { 11, 116 }
+	  keywords { hole }
+  }
+}
+
+139
+{
+  name { On a path in the swamps.  }
+  desc {
+"   Walking down the east-west path, you almost trip over a nest filled with
+eggs.  The nest is made of grass and looks somewhat like a cup.  There are 
+four bluish green eggs with small brown blotches on it.  As you lean over
+the nest, a very angry swamp sparrow dives down at you.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 140 }
+	to { e, 144 }
+	to { w, 83 }
+  }
+}
+
+140
+{
+  name { Faint path.  }
+  desc {
+"   As you push through the bushes you see a faint path on the ground.  
+Someone must go this way.  You can see the faint outline of a footprint.
+The footprint looks reptillian.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 141 }
+	to { s, 139 }
+  }
+}
+
+141
+{
+  name { Faint path.  }
+  desc {
+"   The path continues off to the east and west.  Not many have come here
+but you see a set of footprints heading to the east.  You can follow the
+the tracks.  The foot seems to have claws on the end, and strangely enough
+only three toes.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 142 }
+	to { w, 140 }
+  }
+}
+
+142
+{
+  name { Faint path.  }
+  desc {
+"   You stand at the end of a faint path.  It ends at the entrance to a small
+cottage.  The cottage is whitewashed and has baby blue curtains in the 
+window.  You open the gate and walk up to the door.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 143 }
+	to { w, 141 }
+  }
+}
+
+143
+{
+  name { Hermit's cottage.  }
+  desc {
+"   You stand in a quaint little cottage.  A woodstove stands in the corner
+with tea bubbling away on top.  The curtains have lace trim on the bottom.
+You hear a sound and look behind a table.  You see a strange old reptile 
+crying huddled on the floor.
+  }
+  sector { Inside }
+  extra {
+	keywords { mad hermit }
+	desc { 
+"   You stare at the man and he looks at you and says, "I was once a great mage.
+I could cast spells you could never attempt.  I should not be hiding here in
+disgrace.  Help me please."  He grabs you shirt to keep you from leaving,
+but you shrug him off easily.  Madmen can be so distasteful at times.
+	}
+	keywords { hermit strange }
+	desc { 
+"   You stare at the man and he looks at you and says, "I was once a great mage
+I could cast spells you could never attempt.  I should not be hiding in
+disgrace like this.  Help me please."  He grabs your shirt to keep you here,
+but you shrug him off easily.  Madmen can be so distasteful at times.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { s, 142 }
+  }
+}
+
+144
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The swamp starts to open up as the water gets deeper.  There are a few large
+trees that have drowned.  Their bare branches form a stark outline against the
+sky.  To the east you see a flock of cormorants drying their wings in the sun.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 145 }
+	to { w, 139 }
+  }
+}
+
+145
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The flock of cormorants spread their wings to the sun.  They grunt and
+bicker amoungst themselves as they do.  The water in the surrounding
+swamp gets deeper and deeper.  You hope the path that has been built up 
+continues on, otherwise it will become very hard to walk.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { bird cormorant }
+	desc { 
+"   The cormorants have no oil on their feathers so must dry them after swimming
+in the water.  They stretch their wings out wide to catch the most sun as 
+possible.  They are shiney black and have small feather tufts on the tops
+of their heads.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 146 }
+	to { w, 144 }
+  }
+}
+
+146
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The path here makes a lazy turn to the south and west.  As you peer over
+a huge rock you see a small hill in the distance to the east.  The rock looks
+unclimbable.  To the south-west is a huge pond covered in lily pads.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { s, 147 }
+	to { w, 145 }
+  }
+}
+
+147
+{
+  name { On a path in the swamps.  }
+  desc {
+"   The path here gets even worse.  You are kept out of the water by stepping
+stones and rotting logs.  As you step on one log you frighten a poor frog.
+He leaps off and disappears into the water.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 146 }
+	to { s, 148 }
+  }
+}
+
+148
+{
+  name { On a path in the swamps.  }
+  desc {
+"   As the path worsens you slow down, being careful of every step you make.
+One slip and you are in very deep water.  The footing has become treacherous.
+You are not sure you can swim carrying all your possesions.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 147 }
+	to { s, 149 }
+  }
+}
+
+149
+{
+  name { On a path in the swamps.  }
+  desc {
+"   Each step becomes more dangerous, but you think you can make it.  You 
+carefully jump from rock to rock.  One rotted log gives out on you but you
+catch yourself just in time.  Your heart beats madly with the thought of that
+near miss.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 148 }
+	to { s, 150 }
+  }
+}
+
+150
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You travel on along the path, thinking it has to get better soon.  But it
+doesn't get better, if possible it seems to be worse then ever.  You wipe the
+sweat from your brow and take another leap.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 149 }
+	to { s, 151 }
+  }
+}
+
+151
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You walk down a north-south path.  The path has become almost impassable.
+If it keeps up like this you will have to find another way through the swamps.
+There is a large pond to the west filled with lily pads and frogs croaking
+joyfully.
+  }
+  sector { Swamp_Road }
+  flags { no_mob }
+  exits {
+	to { n, 150 }
+	to { s, 152 }
+	to { w, 155 }
+  }
+}
+
+152
+{
+  name { On a path in the swamps.  }
+  desc {
+"   You thank your lucky stars as the path improves, and up ahead you see why.
+There is a small band of reptiles fixing the path.  They are hauling stone
+and trees.  They do not do a great job but it's better than the path you just
+crossed.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 151 }
+	to { s, 153 }
+  }
+}
+
+153
+{
+  name { On a path in the swamps.  }
+  desc {
+"  A group of hefty reptiles work hard at hauling stone and logs.  They drag
+over one fallen tree and plop it right in front of you.  Splash!  They
+get water all down your front.  That sure makes you fume!
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 152 }
+	to { s, 154 }
+  }
+}
+
+154
+{
+  name { Intersection.  }
+  desc {
+"   You stand at the intersection of three paths which come together.  The path
+to the north is being fixed by a workcrew.  The path to the south is small and
+very soggy.  The path to the east however is spectacular.  It is a wide swath
+of grass, five yards wide and lined with flowering fruit trees.  You are sure
+the reptiles did not make this, but who did?
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 153 }
+	to { e, 176 }
+	to { s, 208 }
+	to { w, 192 }
+  }
+}
+
+155
+{
+  name { On an endless pond.  }
+  desc {
+"   You are on the surface of a large pond.  It stretches out to the north
+and west, farther than you can see.  You listen carefully and hear the lazy
+hum of damselflies in the distance.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 160 }
+	to { e, 151 }
+	to { w, 156 }
+  }
+}
+
+156
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond is still and tranquil, and stretches on forever.  You drift along
+in a peaceful daze, listening to the song of a swamp sparrow.  Its monotone
+song lulls you into a daydream.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 159 }
+	to { e, 155 }
+	to { w, 157 }
+  }
+}
+
+157
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond stretches on and on, never ending.  It's a lovely place to be.  You
+dip your hand in the pond to feel the water glide over your fingers.  What a
+sensuous feeling.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 158 }
+	to { e, 156 }
+	to { w, 157 }
+  }
+}
+
+158
+{
+  name { On an endless pond.  }
+  desc {
+"   The water is getting deeper.  You can no longer see the bottom through the
+clear water, but as you take a second look you notice bright flashes of light
+in the depths.  Goldfish!  You watch school of goldfish swim lazily back 
+and forth through the water.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 163 }
+	to { e, 159 }
+	to { s, 157 }
+	to { w, 158 }
+  }
+}
+
+159
+{
+  name { On an endless pond.  }
+  desc {
+"   You drift along admiring the lily pads.  You see a fat contented frog
+sitting on one.  He croaks a tune for you, then hops off into the pond.
+His splash sends ripples across the pond.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 162 }
+	to { e, 160 }
+	to { s, 156 }
+	to { w, 158 }
+  }
+}
+
+160
+{
+  name { On an endless pond.  }
+  desc {
+"   You drift over some lily pads, with the most beautiful pink flowers.  The
+flowers have an incredible number of petals.  You can't resist reaching out
+and touching one.  They are soft like the inside of a puppy's ear.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 161 }
+	to { s, 155 }
+	to { w, 159 }
+  }
+}
+
+161
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond is very shallow here.  The cattails thrust up from the water,
+making a home for the damselflies.  The damselflies look for a few mosquitoes
+to have for lunch but there are no mosquitoes to be found in this peaceful
+spot.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 166 }
+	to { s, 160 }
+	to { w, 162 }
+  }
+}
+
+162
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond continues on in all directions.  Each direction seems as appealing
+as the next.  The bright sun shines down reflecting off the water, dazzling
+your eyes.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 165 }
+	to { e, 161 }
+	to { s, 159 }
+	to { w, 163 }
+  }
+}
+
+163
+{
+  name { On an endless pond.  }
+  desc {
+"   The deep water glides past underneath you.  The ripples in the pool catch
+the sun's rays, turning the water beneath you to diamonds.  Little water 
+skimmers zip from one glint on the water to the next.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 164 }
+	to { e, 162 }
+	to { s, 158 }
+	to { w, 163 }
+  }
+}
+
+164
+{
+  name { On an endless pond.  }
+  desc {
+"   A large log sticks up from the water.  A mother duck stands on the top 
+top of it quacking.  As you drift farther in you can see her little ducklings
+hiding behind the log in the water.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 169 }
+	to { e, 165 }
+	to { s, 163 }
+	to { w, 164 }
+  }
+}
+
+165
+{
+  name { On an endless pond.  }
+  desc {
+"   The sparkling water look so inviting to swim in.  A cool dip would feel so
+good right now, but you've been an adventurer too long.  You know that strange
+monsters can lurk in the quietest of places.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 168 }
+	to { e, 166 }
+	to { s, 162 }
+	to { w, 164 }
+  }
+}
+
+166
+{
+  name { On an endless pond.  }
+  desc {
+"   You travel through a forest of cattails.  You hear little rustles in the
+plants but can't quite make out their origin.  Then just as you are about to
+leave, a small black mouse in a top hat paddles by in a canoe.  He glares at
+you and says, "My name is Vach.".
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 167 }
+	to { s, 161 }
+	to { w, 165 }
+  }
+}
+
+167
+{
+  name { On an endless pond.  }
+  desc {
+"   Small reeds grow at the edge of the pond to the east.  You can see small
+marsh birds hunting through them for food.  Their little trills and coos
+sound very pleasant.  The pond continues on in all other directions.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 167 }
+	to { s, 166 }
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond continues on in all directions without end.  The water here seems
+very disturbed.  It bubbles and froths as though a large battle were being
+waged below you.  The water has been stirred up so badly it has become very
+muddy.  You can see nothing as you peer down.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 168 }
+	to { e, 167 }
+	to { s, 165 }
+	to { w, 169 }
+  }
+}
+
+169
+{
+  name { On an endless pond.  }
+  desc {
+"   The pond here is very deep.  The clear water looks enticing and beautiful.
+The water seems to call to you, asking you to revel in it.  Maybe it would
+be a good time for a swim.  You feel so hot and sweaty.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 169 }
+	to { e, 168 }
+	to { s, 164 }
+	to { w, 169 }
+	to { d, 170 }
+  }
+}
+
+170
+{
+  name { Swimming underwater.  }
+  desc {
+"   You gasp at the chill water, but it feels good as the water caresses your
+skin.  The clean water of the lake washes off all the mud and grime.  It
+looks like an underground river empties out here to the north, but the 
+current is to fast to swim against.  You can swim east to a muddy part of
+the lake or go up to the surface.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { e, 171 }
+	to { u, 169 }
+  }
+}
+
+171
+{
+  name { Swimming underwater.  }
+  desc {
+"   The water here becomes too murky to see through.  It seems to boil around
+you, and you feel something thrash in the water.  You feel the sting of 
+something against your arm, but can't tell what it is.
+  }
+  sector { Underwater }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { s, 172 }
+	to { w, 170 }
+  }
+}
+
+172
+{
+  name { Swimming underwater.  }
+  desc {
+"   The bottom of the pond seems to be very rocky.  Long tendrils of weed 
+grow from between the rocks, threatening to entangle you with every stroke
+of your arms.  A small pickerel hides amoung the weeds waiting to ambush
+his prey.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { n, 171 }
+	to { s, 173 }
+  }
+}
+
+173
+{
+  name { Swimming underwater.  }
+  desc {
+"   The rocky bottom is covered in a weedy growth.  The weeds have one main
+stem that reaches for the sunlight.  Around the stem are thousands of tiny
+leaves.  The tough stems seem to wrap themselves around you with a mind of
+their own.  Pulling your feet from them becomes a difficult task.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { n, 172 }
+	to { w, 174 }
+  }
+}
+
+174
+{
+  name { Swimming underwater.  }
+  desc {
+"   The sunlight streaks through the water, lighting up a huge fish.  The huge
+pike tries to hide behind the weeds, but with its bulk the little weeds 
+do nothing to screen it from view.  The Muskie's teeth glitter in the sun.
+You think this may be a good fish to stay away from.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { e, 173 }
+	to { s, 175 }
+  }
+}
+
+175
+{
+  name { Swimming underwater.  }
+  desc {
+"   You find youself amidst a school of goldfish.  They flash in and out of the
+weeds which grow up from the bottom of the pond.  The bottom of the pond here
+is sandy, and you see mussels living in the sand.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { n, 174 }
+  }
+}
+
+176
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  Its scent fills the air around you,
+mingling with the smell of apple blossoms.  Tiny flowers dot the lawn, lifting
+their cheery faces to the sun.  The alley is lined in flowering trees of every
+kind.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 177 }
+	to { w, 154 }
+  }
+}
+
+177
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  Beautiful flowering trees line the alley,
+and perfume the air with a spicy scent.  Bushes grow in neat little rows
+under the trees, and prevent you from going to the north or south.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 178 }
+	to { w, 176 }
+  }
+}
+
+178
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  There seems to be a break in the trees
+to the north and the south.  As you look each way you see the mud of the 
+swamp again.  The alley seems like a more pleasant place to be.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 262 }
+	to { e, 179 }
+	to { s, 237 }
+	to { w, 177 }
+  }
+}
+
+179
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  The flowering tress hang down low, 
+whispering in the gentle breeze.  Who could have made such a beautiful place?
+Maybe you'll find the answer up ahead.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 180 }
+	to { w, 178 }
+  }
+}
+
+180
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  The tress lining the alley shower you with
+petals.  Each petal is a work of art, perfectly symmetrical and soft as down.
+You see a small hole in the bushes to the north, destroying the beautiful
+symmetry of the alley.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 303 }
+	to { e, 181 }
+	to { w, 179 }
+  }
+}
+
+181
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  The drone of the honey bees in the flowers
+seems peaceful and relaxing.  Wysteria hangs from the tress, their blossoms
+a cascade of blue.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 182 }
+	to { w, 180 }
+  }
+}
+
+182
+{
+  name { Grass alley.  }
+  desc {
+"   You walk over freshly cut grass.  As you breath in the intoxicating scent
+of the trees, you notice the alley opens up to the east.  It becomes a large
+meadow with an enormous statue standing in the middle.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 183 }
+	to { w, 181 }
+  }
+}
+
+183
+{
+  name { Near a large statue.  }
+  desc {
+"   You stand at the edge of a large meadow.  A huge statue stands on a platform
+to the east.  You hear the song of many blue birds in the distance to the north.
+The grass alley goes of in the distance to the west.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 184 }
+	to { e, 191 }
+	to { s, 190 }
+	to { w, 182 }
+  }
+}
+
+184
+{
+  name { Near a large statue.  }
+  desc {
+"   The meadow continues to the south and east.  The trees lining the meadow
+hang down low preventing any other exit.  A flock of blue birds twitter in the
+trees, occasionally swooping down close to you.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 185 }
+	to { s, 183 }
+  }
+}
+
+185
+{
+  name { Near a large statue.  }
+  desc {
+"   The meadow continues in all directions except north.  However, your travel
+to the south is blocked by a row of white marble columns.  They tower high
+above the meadow, their polished surfaces glinting in the sun.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 186 }
+	to { w, 184 }
+  }
+}
+
+186
+{
+  name { Near a large statue.  }
+  desc {
+"   You stand in the north-east corner of a large meadow.  The trees hang down
+low from their large load of fruit.  There is a large diversity of fruit,
+apples, pears, oranges, plums, cherries, peaches, and so many more.  The fruit
+looks delicious.  You reach out to pick one.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { s, 187 }
+	to { w, 185 }
+  }
+}
+
+187
+{
+  name { Near a large statue.  }
+  desc {
+"   You stand at the entrance to a large meadow.  The meadow is lined in
+flowering trees.  You think you can see fruit laden trees to the north.  To 
+the west stands a large statue.  To the east is a dark swamp.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 186 }
+	to { e, 284 }
+	to { s, 188 }
+	to { w, 191 }
+  }
+}
+
+188
+{
+  name { Near a large statue.  }
+  desc {
+"   You stand in the southeast corner of a large meadow.  A lark soars through
+the air, singing its songs as it flies. Ti-ti. Ti-ti.  It seems very happy with
+life and uplifts your spirits as you watch it.
+  }
+  sector { Field }
+  extra {
+	keywords { lark bird }
+	desc { 
+"   The lark flying through the air looks like a very happy bird.  Its body is
+brown, and it has a black tail lined in white.
+	}
+	keywords { lark }
+	desc { ""	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, 187 }
+	to { w, 189 }
+  }
+}
+
+189
+{
+  name { Near a large statue.  }
+  desc {
+"   The meadow continues in all directions except south.  However, your travel
+to the north is blocked by a row of white marble columns.  They tower high
+above the meadow, their polished surfaces glinting in the sun.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 188 }
+	to { w, 190 }
+  }
+}
+
+190
+{
+  name { Near a large statue.  }
+  desc {
+"   You stand in the south-west corner of a large meadow.  You can see a huge
+statue to the northeast.  A butterfly flits down from the tree and lands on
+your head.  As you look up to try to see him better, he flies off.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 183 }
+	to { e, 189 }
+  }
+}
+
+191
+{
+  name { Statue of a goddess.  }
+  desc {
+"   You walk up a small flight of white marble steps.  At the top is a platform
+with a huge statue.  Large columns of marble flank the statue on either side.
+The marble is streaked with gold, silver, and all the colors of the rainbow,
+and delicately carved in a filigree of flowers and fruit.
+  }
+  sector { Field }
+  extra {
+	keywords { goddess statue }
+	desc { 
+"   The huge statue towers fifty feet into the sky.  It is carved of the same
+white marble as the platform and columns.  It is a statue of the Earth goddess.
+She is clothed in a flowing robe and wears sandels on her feet.  Her gaze
+is stern and looks out across all the swamp.  As you continue to stare at her,
+she seems to come to life.  She frowns at you and says, "You are not one of the
+cursed.  Mount Amnos and its two races have been cursed for a thousand years.
+As long as my blood flows from the earth the curse will hold.  Begone.   Avoid
+this swamp and leave now.
+	}
+	keywords { statue goddess }
+	desc { 
+"   The huge statue towers fifty feet into the sky.  It is carved of the same
+white marble as the platform and columns.  It is a statue of the Earth goddess.
+She is clothed in a flowing robe and wears sandels on her feet.  Her gaze 
+is stern and looks out across all the swamp.  As you continue to stare at her,
+she seems to come to life.  She frowns at you and says, "You are not one of the
+cursed.  Mount Amnos and its two races have been cursed for a thousand years.
+As long as my blood flows from the earth the curse will hold.  Begone.  Avoid
+this swamp and leave now.
+	}
+  }
+  flags { no_mob, peaceful, nosteal, no_magic, blue_glow }
+  exits {
+	to { e, 187 }
+	to { w, 183 }
+  }
+}
+
+192
+{
+  name { Crowded by bushes.  }
+  desc {
+"   You are on a hummock in the swamp.  It's nice being out of the water and
+mud but unfortuatly the bushes seem to like it too.  The area is filled with
+dense undergrowth, making it hard to see any exits.  You'll have to muscle
+your way in each direction to find an exit.
+  }
+  sector { Thicket }
+  flags { no_mob, noshowexit }
+  exits {
+	to { e, 154 }
+	to { s, 198 }
+	to { w, 193 }
+  }
+}
+
+193
+{
+  name { Crowded by bushes.  }
+  desc {
+"   You feel slightly claustrophobic in this dense brush.  Hopefully it will 
+open out soon.  As you look down you see the footprints of small creatures.
+The paths they use are way too small for you to follow.
+  }
+  sector { Thicket }
+  flags { no_mob, noshowexit }
+  exits {
+	to { e, 192 }
+	to { s, 197 }
+	to { w, 194 }
+  }
+}
+
+194
+{
+  name { Crowded by bushes.  }
+  desc {
+"   As the bushes close around you, you have a hard time breathing.  As you turn
+to leave your arm gets scratched by some thorns.  You look closer and find
+a large thorny thicket to the west.  It looks unpassable.
+  }
+  sector { Thicket }
+  flags { no_mob, noshowexit }
+  exits {
+	to { e, 193 }
+	to { s, 196 }
+  }
+}
+
+195
+{
+  name { THORNS!!!  }
+  desc {
+"   You're in a thicket of black raspberries.  It looks like all the raspberries
+have been picked off by the birds.  OUCH!  That hurts.  The thorns dig into
+your flesh sending blood running down your arms.
+  }
+  sector { Thicket }
+  flags { no_mob }
+  exits {
+	to { e, 194 }
+  }
+}
+
+196
+{
+  name { Crowded by bushes.  }
+  desc {
+"   The bushes grab your hair as you walk.  Little scratches form on your arms.
+None of the wounds are to serious but its enough to make your mood foul.  As
+you fume at the bushes you glance down and find the tracks of some large
+animals.  They seem to be going south.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 194 }
+	to { e, 197 }
+	to { s, 201 }
+  }
+}
+
+197
+{
+  name { Crowded by bushes.  }
+  desc {
+"   It is hard work pushing through the thick brush.  You sit down to take a 
+quick rest and a little mouse runs over your feet.  You quickly jump up and
+crash away through the brush.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 193 }
+	to { e, 198 }
+	to { w, 196 }
+  }
+}
+
+198
+{
+  name { Crowded by bushes.  }
+  desc {
+"   The bushes snap and break as you force your way through.  You find yourself
+next to a large hollow tree.  The fierce buzzing sound makes you look up.
+Hornets swam in and out of the tree.  They must have a very large nest up
+there.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 192 }
+	to { s, 199 }
+	to { w, 197 }
+  }
+}
+
+199
+{
+  name { Crowded by bushes.  }
+  desc {
+"   As you shove through the bushes,  the branches seem to shove back at you.
+You duck your head to avoid being hit by one branch.  The crows in the trees
+laugh at your slow progress.
+  }
+  sector { Thicket }
+  extra {
+	keywords { bird crow }
+	desc { 
+"   The crow is shiney black, and rather large.  His large beak looks rather
+dangrous.  When he caws it seems as if you are being laughed at.
+	}
+  }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 198 }
+	to { s, 204 }
+  }
+}
+
+200
+{
+  name { Lion's den.  }
+  desc {
+"   The thicket has been beaten down here by the weight of many bodies. 
+As you inch closer you hear the roar of a lion.  He sounds very hungry. 
+If you run quickly maybe you can escape before his dinnertime.
+  }
+  sector { Bracken }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { s, 203 }
+	to { w, 201 }
+  }
+}
+
+201
+{
+  name { Crowded by bushes.  }
+  desc {
+"   You hear branches crack as you push through the brush.  If there are animals
+in this thicket, they hear you for miles around.  The footprints in the dirt
+go to the east.  The animal has a very large pad reminding you of a dogs
+pawprint.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 196 }
+	to { e, 200 }
+	to { s, 202 }
+  }
+}
+
+202
+{
+  name { Crowded by bushes.  }
+  desc {
+"   You look carefully in the dirt and see the hoof prints of a large number
+of deer.  It looks like the herd was traveling south.  When you strain your
+ears you hear the babbling of a little brook.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 201 }
+	to { s, 207 }
+  }
+}
+
+203
+{
+  name { Crowded by bushes.  }
+  desc {
+"   The thicket seems a little beaten down here.  You wonder what could have
+caused it.  As you get farther to the north it is even more trampled down.
+Maybe you should go north to find out.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 200 }
+	to { e, 204 }
+  }
+}
+
+204
+{
+  name { Crowded by bushes.  }
+  desc {
+"   The bushes crowd in on you, scratching your legs.  You give them a hard
+kick but they just rebound right back in your face.  As you put your foot
+down, you step in the scat of some big animal.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 199 }
+	to { s, 205 }
+	to { w, 203 }
+  }
+}
+
+205
+{
+  name { In a blueberry patch.  }
+  desc {
+"   You push through some branches and find a large patch of blueberries.  You
+pick a few and put them in your mouth.  You pick faster and your hands start
+to become blue.  In your haste you almost trip over a large sleeping bear.
+He must have had his fill of blueberries too.  He's sure to be angry if you
+wake him up so you had better tiptoe out of here.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 204 }
+	to { w, 206 }
+  }
+}
+
+206
+{
+  name { Crowded by bushes.  }
+  desc {
+"   The bushes here are not quite so dense and they get less dense to the west.
+A few little blueberries grow on bushes to the east, making you hungry.  Off
+in the distance you hear the babble of a little brook.
+  }
+  sector { Thicket }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { e, 205 }
+	to { w, 207 }
+  }
+}
+
+207
+{
+  name { Clearing in the brush.  }
+  desc {
+"   The brush opens up into a clearing.  You can see a flock of crows circling 
+overhead.  A large herd of dear drink from a little babbling brook.  You look
+at the deer and think venison might be a nice addition to dinner tonight.
+  }
+  sector { Field }
+  extra {
+	keywords { deer }
+	desc { 
+"   The deer drink quietly from the creek.  Every now and then one pops its 
+head up listening intently.  When it hears nothing it goes back to drinking
+again.  The deer are a solid brown except for the fawns which are spotted.
+	}
+  }
+  flags { no_sum, private, noshowexit }
+  exits {
+	to { n, 202 }
+	to { e, 206 }
+  }
+}
+
+208
+{
+  name { Soggy path.  }
+  desc {
+"   The path here is nothing more that a slight rise and a group of footprints
+in the mud.  To the south the swamp seems to become overgrown with trees.
+They are not so dense as to impede your movement but it looks rather gloomy
+there.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 154 }
+	to { s, 209 }
+  }
+}
+
+209
+{
+  name { Soggy path.  }
+  desc {
+"   The rise you follow seems to be getting smaller and smaller, and the tress
+loom over you blocking out the sun.  You stumble along in the dim light,
+straining your eyes to make out the path.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 208 }
+	to { s, 210 }
+  }
+}
+
+210
+{
+  name { Soggy path.  }
+  desc {
+"   The rise sinks down into the muck of the swamp.  The gloom closes in about
+you.  Then you hear a faint noise to your south.  It sounds like someone
+shouting.  It looks like there is a large wooden platform to the south.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 209 }
+	to { s, 211 }
+  }
+}
+
+211
+{
+  name { Entrance to the bayou.  }
+  desc {
+"   You stand on a large wooden platform.  To the south a large bayou begins.
+Needless to say you'll need a boat to go in there.  If you didn't bring
+one Russel the skiff salesman will gladly sell you one.  He shouts, "Skiffs
+for sale.  Since you are my favorite customer I'll give you a bargain price.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 210 }
+	to { s, 212 }
+  }
+}
+
+212
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The bayou is still and quiet.  Tendrils of mist wrap their arms around
+you, drawing you farther in.  You have a disquieting feeling that something
+evil and deadly is waiting for you in the mists, but it calls to you with
+an attraction you can't resist.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { n, 211 }
+	to { w, 213 }
+  }
+}
+
+213
+{
+  name { Floating along the bayou.  }
+  desc {
+"   A small current starts to tug at you.  You can fight against it here but 
+farther on it seems to become faster.  The thick mist closes in around you 
+preventing you from seeing where you go.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 212 }
+	to { w, 214 }
+  }
+}
+
+214
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The current in the water drags you forward, to unseen places.  The mist
+that swirls around you clears for a brief second.  It gives you a quick
+glance at the water.  You see the large shapes of manatees in the water.
+One comes to the surface and stares at you with pleading eyes.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 213 }
+	to { w, 215 }
+  }
+}
+
+215
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The current gives you no rest, but draws you forward throught the mists.
+The mists dance around you, covering everthing with a fine spray of water.
+You can hear the drip, drip of water from the spanish moss.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 214 }
+	to { s, 216 }
+  }
+}
+
+216
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The current threatens to carry you eastward, but the evil draws you south.
+You ponder your choices and look south to see what is there, but the mists
+block your view.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 215 }
+	to { e, 223 }
+	to { s, 217 }
+  }
+}
+
+217
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The sense of evil becomes oppresive, but where is it coming from?  The 
+mists taunt you, hiding everything from view.  As you travel farther 
+south the sense of evil increases.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 216 }
+	to { s, 218 }
+  }
+}
+
+218
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You are sure there is something with you in the mists.  You can sense it
+even if you can't see it.  The dripping sounds of the spanish moss seem to
+get louder and more frequent, and you hear the sound of large feet squishing
+in the mud.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 217 }
+	to { e, 219 }
+  }
+}
+
+219
+{
+  name { Floating along the bayou.  }
+  desc {
+"   DRIP!  DRIP!  The mists clear for a bit but all you see are the trees
+covered in spanish moss.  The clumps of the moss are enormous.  Wait... 
+was one moss moving in the wind?  It couldn't be, there is no wind.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 220 }
+	to { w, 218 }
+  }
+}
+
+220
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You hear the sound of drips in the air.  You cannot tell where they come
+from.  It seems as though you are surrounded by them.  The sense of evil
+fills the air and threatens to overwhelm you.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 221 }
+	to { w, 219 }
+  }
+}
+
+221
+{
+  name { Walking on a Bog.  }
+  desc {
+"   As you step down you feel a very spongy surface under your feet.  You are
+walking on the surface of a peat bog.  It seems solid enough to you but it
+feels like walking on a trampoline. A massive gate has been erected here,
+towering out of the swamp.  The top of the gate is obscured by tendrils of
+thick, curling fog that seem to have a life of their own.  Whomever or what-
+ever constructed this gate wanted to keep you out... Or something in.  To
+the east and west an impenetrable wall of fog extends in to the distance,
+preventing you from bypassing this obstacle.
+  }
+  sector { Swamp }
+  flags { mapable }
+  extra {
+    keywords { gate gates }
+    desc {
+"
+This gate has been constructed of an unknown material that is cold and harsh
+to the touch, as if it somehow wants to stick to you, to infect you.  A nice
+design of a frog, that we have come to recognise as the Slaadi overlords of
+Dark Horn Hill, has been carved in to the gate and a strange halo of flames
+floats an inch or so above it's amphibious head, moving and dancing as if a
+breeze blows against the fiery tendrils.  Behind all this a whirlpool swirls
+slowly in a never ending dance.  No doubt impressive, maybe it is also a 
+clue?
+
+" }  
+    keywords { fog tendril wall }
+    desc {
+"
+Now well known as the Dark Wind, this magically created fog is the will of
+the Slaadi, invading and cursing the land, twisting the creatures therein
+and possessing all with evil.  The fog is known to seep endlessly from the
+Plane of Frogs and provides a crucial life-line for the Slaadi and their
+Sahougin minions.  Take care not to breathe too much of it in, for you too
+might well succumb to the deadly embrace of the Dark Wind.
+
+" }
+  }
+  exits {
+	to { n, 222 }
+	to { w, 220 }
+	to { s, DarkHornHill:018 }
+	  key { 114037 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate gates }
+  }
+}
+
+222
+{
+  name { Walking on a bog.  }
+  desc {
+"   You walk on the top of a peat bog.  You stumble across some strange ugly
+flowers.  You bend closer and peer through the mist.  They are the flowers 
+of a sundew plant.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 225 }
+	to { s, 221 }
+  }
+}
+
+223
+{
+  name { Floating along the bayou.  }
+  desc {
+"  You follow the current of the bayou.  Thump!  Something bumps into your
+skiff.  You peer over the edge and see two large eyes staring back at you.
+Only the eyes are out of the water.  Then suddenly, the crocodile flashes
+up and ...
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 224 }
+	to { w, 216 }
+  }
+}
+
+224
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The current drags you farther and farther into the bayou.  You peer
+cautiously over the edge of your skiff, but nothing seems to be in the 
+water.  You breath a sigh of relief.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 225 }
+	to { w, 223 }
+  }
+}
+
+225
+{
+  name { Floating along the bayou.  }
+  desc {
+"   As you float along clothed in mist, you hear grunts and chitters up above
+you.  A big shriek goes up then there silence.  All of a sudden you are 
+pelted by rotten fruit and loud hoots can be heard all around you.  You think
+the sounds are made by monkeys, and revenge would be very sweet right now.
+  }
+  sector { Deep Water }
+  flags { no_mob }
+  exits {
+	to { e, 226 }
+	to { w, 224 }
+  }
+}
+
+226
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The mist starts clearing out allowing you to see your surroundings.  Huge 
+trees hang down over the swamp, their branches laced in spanish moss.  You see
+a large stagnant area to the north.  It smells of rotting vegetation.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 227 }
+	to { w, 225 }
+  }
+}
+
+227
+{
+  name { Floating along the bayou.  }
+  desc {
+"   The mist has totally cleared up.  You might be happier if it hadn't.  This
+place is dismal and grey.  Even the leaves on the trees look more grey than
+green.  The trees block out all the sun, and you pine for its warmth.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 228 }
+	to { e, 230 }
+	to { s, 226 }
+  }
+}
+
+228
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You travel through an area gloomy area.  Your spirits sink and you become 
+discouraged with life.  You take a small whiff of the air and gag on the
+thick smell of rot.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 229 }
+	to { s, 227 }
+  }
+}
+
+229
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You are in the northeast corner of a large area smelling of rotting 
+vegetation.  You try to hold your nose but the smell can't be kept out.
+The smell gets in your clothing and you try to remember where the nearest
+dry cleaners is.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { s, 230 }
+	to { w, 228 }
+  }
+}
+
+230
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You are in a large area of stagnation.  The smell is oppresive.  You can
+go east to a less smelly place or south to what looks like a small river.
+The area of stagnation continues to the north and west.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 229 }
+	to { e, 231 }
+	to { s, 238 }
+	to { w, 227 }
+  }
+}
+
+231
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You float langidly along the bayou.  The water seems very clear here.  You
+drag you fingers through the water, making patterns of ripples around your
+boat.  Then, OUCH, something has bit your finger.  You put your fingers in
+your mouth and look over the side.  A couple of snapping turtles swim in
+the water.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 232 }
+	to { w, 230 }
+  }
+}
+
+232
+{
+  name { Floating along the bayou.  }
+  desc {
+"   You are at the end of a large bayou.  The bayou continues off the the west.
+To the north is a small muddy path, not much used.  The trees are thick here
+cutting out the sun and the warmth.  A small shiver runs down your spine from
+the cold.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 233 }
+	to { w, 231 }
+  }
+}
+
+233
+{
+  name { Muddy path.  }
+  desc {
+"   You slog through the mud.  Pick up one foot put it down.  Pick up the other
+put it down.  Traveling along the faint path has started to hypnotize you.
+You lift your bleary eyes and look south. You see the start or is it the end
+of a huge bayou.
+  }
+  sector { Mud }
+  flags { no_mob }
+  exits {
+	to { n, 234 }
+	to { s, 232 }
+  }
+}
+
+234
+{
+  name { Muddy path.  }
+  desc {
+"   You trudge down another boring path in the mud.  You wonder why the 
+goddess who made this place couldn't have magically made all the areas
+connected together without the paths.  You know she could have done it.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 235 }
+	to { s, 233 }
+  }
+}
+
+235
+{
+  name { Muddy path.  }
+  desc {
+"   You find this the most boring path you have travelled so far.  The mud
+is a uniform depth, no surprises anywhere.  It's just deep enough to be 
+annoying but not so deep to make it dangerous or hard to travel.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 236 }
+	to { s, 234 }
+  }
+}
+
+236
+{
+  name { Muddy path.  }
+  desc {
+"  The path makes a wide turn to the south and west.  As you gaze south, you
+see stretched before you a uniform grey path.  It has to be the most mundane
+place you have ever gone.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { s, 235 }
+	to { w, 237 }
+  }
+}
+
+237
+{
+  name { Muddy path.  }
+  desc {
+"   You stand at the beginning of a small muddy path.  The path continues off
+to the east.  To the north, you see a beautiful grassy path.  It sees perfect
+for that picnic with your special someone.
+  }
+  sector { Mud }
+  flags { mapable }
+  exits {
+	to { n, 178 }
+	to { e, 236 }
+  }
+}
+
+238
+{
+  name { Following a river.  }
+  desc {
+"   You float down a very small river.  The water is sluggish and flows to the
+east.  You hear the chitter of monkeys in the trees and frown.  As you scan the
+trees looking for them the sound fades away.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 230 }
+	to { e, 239 }
+  }
+}
+
+239
+{
+  name { Following a river.  }
+  desc {
+"   A large tree looms from the side of the river.  It looks like a troop of
+monkeys lives here from time to time.  Feces and trash litter the area under
+the tree.  A small monkey child leans over the river for a drink.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { s, 240 }
+	to { w, 238 }
+  }
+}
+
+240
+{
+  name { Following a river.  }
+  desc {
+"   The river picks up speed, taking you quickly to the south.  As you flash
+by you see many signs of the monkeys.  There must be a huge population
+in this corner of the swamps.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 239 }
+	to { s, 241 }
+  }
+}
+
+241
+{
+  name { Following a river.  }
+  desc {
+"   You come to a small rapids in the river.  A large hole on the left side 
+of the river threatens to flip your boat,  but you quickly paddle to the 
+right avoiding it.  A wave splashes in your face, drenching you from head
+to foot.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 240 }
+	to { e, 242 }
+  }
+}
+
+242
+{
+  name { Following a river.  }
+  desc {
+"   The river takes a large bend to the west and north.  As it carries you on
+you wonder if you'll be able to get back.  It will be very hard work paddling
+back upstream against the current.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 243 }
+	to { w, 241 }
+  }
+}
+
+243
+{
+  name { Following a river.  }
+  desc {
+"   A huge troop of baboons stares at you silently from the trees.  They watch
+you float down the river.  They seem to be gauging you, whether they should
+view you as a threat to their territory or not.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 244 }
+	to { s, 242 }
+  }
+}
+
+244
+{
+  name { Following a river.  }
+  desc {
+"  The river seems to be taking many twists and turns.  Here it bends from the
+south to the east. As you look farther down the river it seems to loop 
+around on itself.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 245 }
+	to { s, 243 }
+  }
+}
+
+245
+{
+  name { Following a river.  }
+  desc {
+"   A huge log blocks the river.  You scramble quickly to get to the shore.
+You barely make it there before getting stuck.  You have a hard time pushing
+your way through the trees to make the portage.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 246 }
+	to { w, 244 }
+  }
+}
+
+246
+{
+  name { Following a river.  }
+  desc {
+"   As the river twists from the south to the east, it gets deeper and deeper.
+Little whirlpools swirl by under you.  In the center of each whirlpool is
+a patch of dirty brown foam.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 247 }
+	to { s, 245 }
+  }
+}
+
+247
+{
+  name { Following a river.  }
+  desc {
+"   The whirlpools follow you down the river.  As the river gets deeper the
+whirlpools get larger.  Little bits of leaf and branch seem to be stuck
+in them, twirling around and around.  They mesmerize you as you watch them.
+You finally tear your gaze away and go on.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { s, 248 }
+	to { w, 246 }
+  }
+}
+
+248
+{
+  name { Following a river.  }
+  desc {
+"   The whirlpools become violent and threaten to pull your boat under.  You
+boat rocks back and forth and you paddle desperately to keep away from them.
+You see a lake to the south, a haven from the whirlpools.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 247 }
+	to { s, 249 }
+  }
+}
+
+249
+{
+  name { On a lake.  }
+  desc {
+"   You find yourself at the beginning a deep lake.  You try to look down
+into the depths but you see nothing, just an endless blue.  Large whirlpools
+in a river are to your north.  To your south and west the lake continues.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 248 }
+	to { s, 252 }
+	to { w, 250 }
+  }
+}
+
+250
+{
+  name { On a lake.  }
+  desc {
+"  A gentle breeze blows over the lake, creating small ripples on the surface of
+the water.  The air pulls at your hair, twisting it into tangles.  The lake
+continues on to the east and the south.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { e, 249 }
+	to { s, 251 }
+  }
+}
+
+251
+{
+  name { On a lake.  }
+  desc {
+"   The wind blows fiercly here.  It tugs and pulls at the water.  Little
+whirlpools start to form on the surface.  The wind gets stronger and one 
+whirlpool starts to grow.  You start going in circles around it.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  tele { 100, 1, 261 }
+  exits {
+	to { n, 250 }
+	to { e, 252 }
+  }
+}
+
+252
+{
+  name { On a lake.  }
+  desc {
+"   The trees open up above you and the sun shines down on the sparkling blue
+water.  The light does not seem to penatrate the water.  The lake continues
+to the north and the west.
+  }
+  sector { Deep Water }
+  flags { mapable }
+  exits {
+	to { n, 249 }
+	to { w, 251 }
+  }
+}
+
+253
+{
+  name { In an underwater hall.  }
+  desc {
+"   The whirlpool deposits you in a large underwater hallway.  To the south the
+hall has caved in preventing your exit in that direction.  You recognize the
+hallway as dwarven built.  The hall continues to the north.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 254 }
+  }
+}
+
+254
+{
+  name { In an underwater hall.  }
+  desc {
+"   There are two large doors on either side of you.  You tug as hard as you
+can on them but they seem to be stuck fast.  There is a large cave in to
+the north.  If you climb up the stones of the caved in walls you might be
+able to reach the next level up, or you can go down the hall to the south.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { s, 253 }
+	to { u, 255 }
+  }
+}
+
+255
+{
+  name { In an old library.  }
+  desc {
+"   You drag yourself out of the water and onto a damp slimy floor.  The walls
+drip with water and are covered in shelves filled with books, or what was
+once books.  Most of the books seem to have rotted.
+  }
+  flags { dark }
+  exits {
+	to { n, 257 }
+	to { e, 256 }
+	to { d, 254 }
+  }
+}
+
+256
+{
+  name { In an old library.  }
+  desc {
+"   Books line the walls of this old library.  Most of them have rotted away,
+but you can still find a few whole ones.  You take one down from the shelf
+and it starts to shred in your hands.  The writing seems strange to you
+until you realize it is written in an old dwarven tongue.
+  }
+  flags { dark }
+  exits {
+	to { n, 258 }
+	to { w, 255 }
+  }
+}
+
+257
+{
+  name { In an old library.  }
+  desc {
+"   Books line the walls of this old library.  Most of them have rotted away,
+but you can still find a few whole ones.  You take one down from the shelf
+and open it up.  The inside is riddled with maggots.
+  }
+  flags { dark }
+  exits {
+	to { e, 258 }
+	to { s, 255 }
+  }
+}
+
+258
+{
+  name { In an old library.  }
+  desc {
+"   You stand at the entrance to an ancient library.  It seems to belong to 
+another age.  There was once a door here, but it has been ripped off its
+hinges and lies on the floor.  A hallway goes to the north.
+  }
+  flags { dark }
+  exits {
+	to { n, 259 }
+	to { s, 256 }
+	to { w, 257 }
+  }
+}
+
+259
+{
+  name { In an old hallway.  }
+  desc {
+"   You follow an old decrepit hall.  The walls look like they may fall down 
+at any minute.  The stones were once well put together, but something has
+torn many of them down.  The hall continues to the north and there is an
+old library to the south.
+  }
+  flags { mapable }
+  exits {
+	to { n, 260 }
+	to { s, 258 }
+  }
+}
+
+260
+{
+  name { In an old hallway.  }
+  desc {
+"  The hall has collapsed to the north.  There is too much rubble to go forward.
+You notice two large columns flanking the hall.  They are large and ornate and
+have intricate carvings on their surface.
+  }
+  flags { mapable }
+  exits {
+	to { s, 259 }
+  }
+}
+
+261
+{
+  name {""  }
+  desc {
+"   The whirlpool grows deeper and deeper and you find yourself being sucked
+down deeper into it.  You spin around and around, getting dizzier as you
+as you spin.  The water starts getting in your mouth and you choke.
+  }
+  sector { Underwater }
+  flags { no_sum, private, noshowexit }
+  tele { 30, 1, 253 }
+}
+
+262
+{
+  name { By a large web.  }
+  desc {
+"   You stand before a huge spider web.  It is strung up between two enormous
+trees, that stand widely apart.  There is no way around the web, but you can
+climb up it if you dare.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { s, 178 }
+	to { 10, 264 }
+	  keywords { web }
+  }
+}
+
+263
+{
+  name { On the outside of the web.  }
+  desc {
+"   It looks like if you go up for a while you will get to the center of th
+web.  Little baby spiders swarm over the web, ignoring your presence.  The
+silk of the web digs into your hands as you climb.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 264 }
+	to { u, 266 }
+  }
+}
+
+264
+{
+  name { On the outside of the web.  }
+  desc {
+"   You climb at the bottom of the web.  The strands of the web are very easy
+to climb.  They seem slightly sticky but not so bad that you can't move around.
+The web continues to the west and up.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { w, 263 }
+	to { u, 267 }
+	to { d, 262 }
+  }
+}
+
+265
+{
+  name { On the outside of the web.  }
+  desc {
+"   You are at the western most part of the web.  An egg sack hangs off one
+strand of web.  You are sure the mother spider would get very angry if
+you fiddled with it.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 266 }
+	to { u, 269 }
+  }
+}
+
+266
+{
+  name { On a web.  }
+  desc {
+"   You stand very close to the center of the web.  Just above your head sits
+and enormous spider.  She hasn't noticed you yet and maybe you should keep
+it that way.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 267 }
+	to { w, 265 }
+	to { u, 275 }
+	to { d, 263 }
+  }
+}
+
+267
+{
+  name { On a web.  }
+  desc {
+"   You stand directly east of the center of the web.  A huge spider hangs there,
+waiting for prey.  You get the impression that you would make a very tasty
+morsel for her.  You can go down and leave the web.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { n, 271 }
+	to { e, 268 }
+	to { w, 275 }
+	to { d, 264 }
+  }
+}
+
+268
+{
+  name { On the outside of the web.  }
+  desc {
+"   You are climbing up the eastern most part of the web.  Little spiders 
+scurry back and forth along every strand of the web.  Ick, one little spider
+runs over your hand almost causing you to let go and plummet to your death.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { w, 267 }
+	to { u, 272 }
+  }
+}
+
+269
+{
+  name { On the outside of the web.  }
+  desc {
+"   You are at the western most part of the web.  Little baby spiders skitter
+over the web.  One group of them starts to make silk.  The wind picks up
+the small strands of silk, and the little spiders ballon off into the air.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 270 }
+	to { d, 265 }
+  }
+}
+
+270
+{
+  name { On a web.  }
+  desc {
+"   The little spiders seem to be in a mass exodus to the west.  What could 
+they be trying to find there?  A strong breeze blows toward the west, ruffling
+your hair.  You glance to the east and see the center of the web.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 275 }
+	to { w, 269 }
+	to { u, 273 }
+	to { d, 266 }
+  }
+}
+
+271
+{
+  name { Sticky web.  }
+  desc {
+"   The web gets stickier here.  You have trouble getting your hands and feet
+off of the web with each step.  You aren't the only one who seems to have 
+trouble,  a huge fly seems trapped here, buzzing consantly as it tries to
+dislodge itself.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 272 }
+	to { w, 270 }
+	to { u, 274 }
+	to { d, 275 }
+  }
+}
+
+272
+{
+  name { On the outside of the web.  }
+  desc {
+"   You climb up the eastern most part of the web.  You can feel a gentle breeze
+blowing across the web here.  The little spiders seem to be all going to the 
+west.  You look west and see a huge fly stuck in the web.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { w, 271 }
+	to { d, 268 }
+  }
+}
+
+273
+{
+  name { Sticky web.  }
+  desc {
+"   You have climbed to the top of the web.  The view here is amazing.  To the
+east you see a huge statue towering over the trees.  A small hill crawling
+with black blobs lies to the north.  As you turn to the west you see a large
+pond and the path on which you entered the swamp.
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 274 }
+	to { d, 270 }
+  }
+}
+
+274
+{
+  name { STUCK!  }
+  desc {
+"   You try to pull your hand from the web.  You tug with all of your strength,
+but you are stuck fast.  You mind drifts to the large spider that built
+this web, and you efforts become more frantic.  Your efforts are all in 
+vain however, you seem to be stuck here forever.
+  }
+  sector { Bridge }
+  flags { no_sum, private, noshowexit }
+  tele { 1, 0, 276 }
+  exits {
+	to { w, 273 }
+	to { d, 271 }
+  }
+}
+
+275
+{
+  name { In the center of the web.  }
+  desc {
+"   You find yourself clinging to the center of the web.  A huge spider lies
+in wait for its dinner.  She seems as tall as you, and you rethink your
+decision to climb this web.  She had her back turned to you when you entered,
+but she must have felt your vibrations on the web.  She nimbly turnes around
+facing you.....
+  }
+  sector { Bridge }
+  flags { mapable }
+  exits {
+	to { e, 267 }
+	to { w, 270 }
+	to { u, 271 }
+	to { d, 266 }
+  }
+}
+
+276
+{
+  name { STUCK!  }
+  desc {
+"   You try to pull your hand from the web.  You tug with all of your strength,
+but you are stuck fast.  Your mind drifts to the large spider that built
+this web, and your efforts become more frantic.  Your efforts are all in
+vain however, you seem to be stuck here forever.
+  }
+  flags { no_mob, noshowexit }
+}
+
+277
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You stand in a cul-de-sac off the edge of the battlefield.  The wind howls
+more fiercely here, threatening to pull you off your feet.  It whips you 
+around, pushing you toward the west.
+  }
+  sector { Hills }
+  flags { no_mob }
+  tele { 30, 1, 407 }
+  exits {
+	to { e, 278 }
+	to { w, 302 }
+  }
+}
+
+278
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The battlefield stretches off in all directions.  The wind wraps itself 
+around you, and sends up a fearsome howl.  Its cold fingers touches your
+face sending shivers of fear down your spine.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 278 }
+	to { e, 279 }
+	to { s, 281 }
+	to { w, 277 }
+  }
+}
+
+279
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Little bits of bone lie scattered.  No bone is whole.  All are splintered
+or turned to dust.  Some strange force must have pulverised them.  You glance
+behind yourself in fear but see nothing.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 279 }
+	to { e, 280 }
+	to { s, 282 }
+	to { w, 278 }
+  }
+}
+
+280
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You stand on the battlefield of the great war.  The ghosts of ancient
+warriors sing songs of glory and grief in your ears, or is it just the wind
+whispering by?
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 280 }
+	to { e, 280 }
+	to { s, 283 }
+	to { w, 279 }
+  }
+}
+
+281
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The swamp slowly buries the bones in the mud.  It has taken centuries
+but half a torso has already sunk into the muck.  In a few more centuries
+the bones will rest peacefully in a muddy grave.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 278 }
+	to { e, 282 }
+	to { s, 284 }
+  }
+}
+
+282
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You see the corpse of a young man, his face in the mud.  He seems to have
+no wounds on him anywhere.  What could have killed him?  As you turn him 
+over his face is frozen in a look of utter horror.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 279 }
+	to { e, 283 }
+	to { s, 285 }
+	to { w, 281 }
+  }
+}
+
+283
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Piles on piles of bone lie here, all bleached white by centuries of time.
+The wind rattles the bones, and eerie sound that send shivers down your
+spine.  The bones do not seem to rest easily.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 280 }
+	to { e, 283 }
+	to { s, 286 }
+	to { w, 282 }
+  }
+}
+
+284
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Steel grey skies reflect off the shallow water.  North, east, and south, a
+very old battlefield extends for as far as your eye can see.  No living trees
+grow from this fetted place.  Only a few dead trees rear their heads.  They 
+stand as skeletons against the sky, forboding the fate of all who dare enter.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 281 }
+	to { e, 285 }
+	to { s, 287 }
+	to { w, 187 }
+  }
+}
+
+285
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Piles of bones bleached white from time, rest here.  You are loath to disturb
+their rest.  Thousands have died here, their flesh washed away by the wind and
+rain.  Their only eulogy, the whistling of the wind.  Their only headstone,
+the dead stark tress.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 282 }
+	to { e, 286 }
+	to { s, 288 }
+	to { w, 284 }
+  }
+}
+
+286
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Two vultures wheel in the sky.  They circle above you.  You get the 
+impression they know something you don't.  You whirl around looking for
+signs of life but see nothing.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 283 }
+	to { e, 286 }
+	to { s, 289 }
+	to { w, 285 }
+  }
+}
+
+287
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   A few bones lie here cracked open.  You see a vulture circling in the sky.
+He carries a bone in his talons and when he gets over a large rock he drops
+it.  Its shatters on impact.  The vulture swoops down to eat the marrow from
+the center of the bone, but after centuries of the bone sitting in the swamp,
+he finds nothing.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 284 }
+	to { e, 288 }
+	to { s, 291 }
+  }
+}
+
+288
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   An old steel sword sticks up out of the mud.  Its handle is beautifully 
+carved in an abstract pattern.  There was once a large stone attached but
+someone has long since pried it off.  As you pull the sword out of the mud
+you see the blade has corroded in the swamp muck.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 285 }
+	to { e, 289 }
+	to { s, 292 }
+	to { w, 287 }
+  }
+}
+
+289
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The wind shrieks about the bones.  One delicate leg bone has broken and as
+the wind gusts over it, a mournful whistle goes up in the air.  It is a 
+beautiful yet haunting sound, well suited to the elf of long ago who lost his
+life in the war.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 286 }
+	to { e, 289 }
+	to { s, 293 }
+	to { w, 288 }
+  }
+}
+
+290
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The piles of bone shake in the wind.  Several of them seem to move closer
+to other bones.  You watch in horror as you see a whole skeleton slowly 
+coming together.  As the head fits on the the neck,  it turns to you and gives
+you an eyeless leer.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 291 }
+	to { s, 294 }
+  }
+}
+
+291
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You trip over something lodged in the mud.  You look down and pull out
+a pouch made of leather.  How could leather have survived all these years
+since the war?  As you pick it up it disintegrates in your hands and three
+small vials fall out and smash on the ground.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 287 }
+	to { e, 292 }
+	to { s, 295 }
+	to { w, 290 }
+  }
+}
+
+292
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The piles of bone here seem less touched by time.  Each skeleton is whole.
+No animal has picked through the pile, disturbing the bones.  Time seems to 
+have preserved them just as they died.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 288 }
+	to { e, 293 }
+	to { s, 296 }
+	to { w, 291 }
+  }
+}
+
+293
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You turn your eyes to the steel grey sky.  The clouds floating by seem to
+all blend together, until you see one lighter than the rest.  It is in the
+shape of an elf and a dwarf engaged in combat.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 289 }
+	to { e, 293 }
+	to { s, 297 }
+	to { w, 292 }
+  }
+}
+
+294
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You stand at the edge of a huge battlefield.  It reeks of age and decay.
+The grey water is still and unappealing.  You hesitate to move back into
+the heart of the battlefield.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 290 }
+	to { e, 295 }
+	to { s, 298 }
+  }
+}
+
+295
+{
+  name { On an ancient battlefield.  }
+  desc {
+"  The wind howls and screeches over huge piles of bone.  The sound grates on
+your nerves and disorients you.  You put hands over your ears to block
+out the noise and plunge away in a random direction.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 296 }
+	to { e, 299 }
+	to { s, 294 }
+	to { w, 291 }
+  }
+}
+
+296
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   A corroded suit of armor lies stuck in the mud.  It may once have been
+worn by a dwarf of the royal family, for the parts that haven't been corroded
+away seem beautiful and ornately decorated.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 292 }
+	to { e, 297 }
+	to { s, 300 }
+	to { w, 295 }
+  }
+}
+
+297
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   Two whole skeletons lie here frozen in time.  Each one has their hands
+wrapped around the others neck.  One skeleton is short, with thick and
+sturdy bones.  The other is tall, with slender fragile bones.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 293 }
+	to { e, 297 }
+	to { s, 301 }
+	to { w, 296 }
+  }
+}
+
+298
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The bones are piles up against a large rock to the west.  The rock looks
+unclimbable, but you can pick your way through the bones in any other 
+direction.
+  }
+  sector { Hills }
+  extra {
+	keywords { rock }
+	desc { 
+"   The rock stands tall and shear.  You lack the climbing skill to get over
+it but you wonder what can be there.  The rock is grey, much the same color
+of the water and the sky.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 294 }
+	to { e, 299 }
+	to { s, 298 }
+  }
+}
+
+299
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   A strange glow lights up the air.  You seem oppresed by an unseen evil.
+The air seems to close in around you keeping you from breathing.  You have 
+an irresistable urge to flee.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 295 }
+	to { e, 300 }
+	to { s, 299 }
+	to { w, 298 }
+  }
+}
+
+300
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   The wind twists and turns through the pile of bones.  Little whirlwinds
+carry bits of leave through a rib cage, burying it ever deeper in the ground.
+A skeletal hand half buried in the ground beseeches you for everlasting rest.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 296 }
+	to { e, 301 }
+	to { s, 300 }
+	to { w, 299 }
+  }
+}
+
+301
+{
+  name { On an ancient battlefield.  }
+  desc {
+"   You stand in the mud looking out in all directions.  Each direction seem
+the same as any other.  The ancient battlefield seems to stretch out in all
+dirctions with no end.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 297 }
+	to { e, 301 }
+	to { s, 301 }
+	to { w, 300 }
+  }
+}
+
+302
+{
+  name { Lair.  }
+  desc {
+"  The wind pushes you along forcing you into the lair of something.  You look
+around and see nothing except half eaten corpses, some old and some new.  You
+have the impression that you will be the newest corpse here.
+  }
+  sector { Hills }
+  flags { dark }
+  exits {
+	to { e, 277 }
+  }
+}
+
+303
+{
+  name { Entrance to hot springs.  }
+  desc {
+"   You stand at the entrance to an area of heavy geothermal activty.  Hot water
+boils and bubbles up around you.  Someone has built up wooden boardwalks to
+keep you from getting burned in the water.  You look down into the water and see
+that it is clouded with brown growths that thrive in all the minerals.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 304 }
+	to { e, 306 }
+	to { s, 180 }
+  }
+}
+
+304
+{
+  name { Hot springs.  }
+  desc {
+"   You follow one branch of the boardwalk.  You look down into the water.  It
+steams a bit but doesn't seem too hot.  The water appears scummy and brown.
+You can continue the north or south along the boardwalk.
+  }
+  sector { Swamp }
+  flags { mapable }
+  exits {
+	to { n, 305 }
+	to { s, 303 }
+  }
+}
+
+305
+{
+  name { Deep blue pool.  }
+  desc {
+"   You come to the end of te boardwalk.  There is a railing at the end and
+some tourists leaning way over it.  You hope it is strong enough to hold them.
+A small box with a slot in the lid is nailed firmly to a rail post.  You 
+walk over to the railing and look down.  You see the most beautiful sight in
+the world.  A pool going deep down into the earth.  It is round and deep 
+blue.  Towards the center the blue is the color of sapphires.  Towards the
+sides the color starts to lighten and turn blue-green.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { box }
+	desc { 
+"   There is a small wooden box tacked on to the post.  It has a slot in the 
+top the size of a gold coin.  There are some words burned into the side of
+the box, "Donations for the upkeep of this area are appreciated.  Without
+donations the boardwalk to Morning Glory Pool can not be maintained.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { s, 304 }
+  }
+}
+
+306
+{
+  name { Hot springs.  }
+  desc {
+"   You follow the largest of the boardwalks.  You are very glad someone built
+them.  The water seem to be deep in places and shallow in others.  In the
+shallow areas the bottom seems to be of some brittle rock.  You wonder if it
+would collapse below you when you walk on it.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 307 }
+	to { w, 303 }
+  }
+}
+
+307
+{
+  name { Hot springs.  }
+  desc {
+"   The boardwalk makes a sharp turn from the south to the east.  There is a
+little sign which reads, "You are entering an area of dangerous thermal
+activity.  Please stay on the boardwalks for your own safety.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { e, 308 }
+	to { s, 306 }
+  }
+}
+
+308
+{
+  name { Hot springs.  }
+  desc {
+"   The boardwalk turns from the west to the north.  There is a large railing
+to the south.  A small sign has been tacked to the railing.  You look over
+the railing and see a bubbling mud puddle.  Large bubbles of steam slowly
+move to the surface.  When it reaches the top the mud bubble bursts open
+splattering mud everywhere.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { sign }
+	desc { 
+"   _______________________________
+  |                               |
+  |     This boiling mud is       |
+  |          DANGEROUS            |
+  |      Please do not lean       |
+  |       over the railing.       |
+   _______________________________
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 310 }
+	to { s, 309 }
+	to { w, 307 }
+  }
+}
+
+309
+{
+  name { Boiling mud.  }
+  desc {
+"   You stand in a boiling pit of mud.  You sink down slowly in the mud.  It 
+comes up to your knees.  If you don't get out soon you'll be boiled alive,
+or suffocated in mud.  You're not quite sure which will happen first.  Quick,
+The mud now comes up to your thighs........
+  }
+  sector { Mud }
+  flags { no_mob }
+  tele { 50, 1, 326 }
+  exits {
+	to { n, 308 }
+  }
+}
+
+310
+{
+  name { Hot springs.  }
+  desc {
+"   The boardwalk goes north-south here.  There is a railing to the west.
+There are tourists waiting impatently around.  A few of them check their 
+watches.  Then one lets out a shout, as you see a huge geyser spout into
+the air to the west.  The tourists clap with glee.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 311 }
+	to { s, 308 }
+	to { 10, 312 }
+	  keywords { geysers }
+  }
+}
+
+311
+{
+  name { Hot springs.  }
+  desc {
+"   You have come to the end of the boardwalk.  Your tour ends here.  There
+seems to be a large warm pool to the north.  You see a few tourists there
+bathing in the mineral rich water.  To the west is a large flat area of 
+hot springs.  You think you could pick your way through it safely.
+  }
+  sector { Swamp_Road }
+  flags { mapable }
+  exits {
+	to { n, 316 }
+	to { s, 310 }
+	to { w, 313 }
+  }
+}
+
+312
+{
+  name { Geysers.  }
+  desc {
+"   Little bits of steam spurts up occasionally making you jump.  You know if
+you are here when the geyser goes off you are in deep trouble.  So maybe now
+is the time to leave.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  tele { 100, 1, 328 }
+  exits {
+	to { n, 313 }
+	to { e, 310 }
+  }
+}
+
+313
+{
+  name { Hot springs.  }
+  desc {
+"   You carefully make you way through the hot springs.  The hot water is
+rather pleasing to your toes.  To the west you see a falls, to the south
+is the geyser, and to the east is the boardwalk.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { e, 311 }
+	to { w, 314 }
+	to { 10, 312 }
+	  keywords { geysers }
+  }
+}
+
+314
+{
+  name { Travertine falls.  }
+  desc {
+"   You stand at the bottom of some spectacular travertine falls.  The falls
+are about twenty feet high, and water tumbles in multiple cascades over the
+travertine.  The brown travertine looks climbable but rather sharp.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { e, 313 }
+	to { w, 315 }
+  }
+}
+
+315
+{
+  name { Travertine pool.  }
+  desc {
+"   You climb the side of the falls, trying to stay out of the water spray.
+When you are at the top, you see there all falls on all sides.  The mineral
+laden water coming deep from the earth has built up its own large bowl.
+The other three sides look unclimbable.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { e, 314 }
+  }
+}
+
+316
+{
+  name { Warm pool.  }
+  desc {
+"   You are in a large but shallow pool of warm water.  The smell of sulfer
+fills the air.  A row of tourists soaking in the mineral water seem quite
+content with life.  They chat amongst themselves happily.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 317 }
+	to { s, 311 }
+  }
+}
+
+317
+{
+  name { Hot water.  }
+  desc {
+"   The pool of water seems to be quite hot here.  Only a few brave tourists
+sit in the water.  It is too hot for them to be totally submurged so only
+their legs and bottoms are in the water.  The flesh under the water looks
+quite red.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 318 }
+	to { s, 316 }
+  }
+}
+
+318
+{
+  name { Hot water.  }
+  desc {
+"   The water here is hotter than the pools to the south, but still bearable.
+You look north and see a huge mud puddle there.  You know from past experience
+that mud puddles can be quite dangerous.  To the east the hot spring continues.
+  }
+  sector { Shallow Water }
+  flags { mapable }
+  exits {
+	to { n, 324 }
+	to { e, 319 }
+	to { s, 317 }
+  }
+}
+
+319
+{
+  name { Uncomfortably hot water.  }
+  desc {
+"   The water becomes very hot.  You take quick mincing steps to keep your feet
+cool enough to walk.  Your ankles become beet red.  You hope you can find a
+cooler place to walk since you are becoming very uncomfortable.  You see steam 
+coming from the north.
+  }
+  sector { Shallow Water }
+  flags { no_mob }
+  exits {
+	to { n, 320 }
+	to { w, 318 }
+  }
+}
+
+320
+{
+  name { Uncomfortably hot water.  }
+  desc {
+"   Ouch!  The water seems almost too hot to walk in.  Steam comes off the
+water making it difficult to see.  You can vaguely tell the stream continues
+to the south and west.
+  }
+  sector { Fire }
+  flags { mapable }
+  exits {
+	to { n, 321 }
+	to { s, 319 }
+  }
+}
+
+321
+{
+  name { Boiling water.  }
+  desc {
+"   The water boils up around your feet.  It burns your feet, turning them
+to one big blister.  The steam comes up around you and as you breathe it in
+it sears your lungs.  You can follow the stream to its source, westward.
+  }
+  sector { Fire }
+  flags { mapable }
+  exits {
+	to { s, 320 }
+	to { w, 322 }
+  }
+}
+
+322
+{
+  name { Boiling water.  }
+  desc {
+"   Your choice of following the stream to its source seems like a very bad one 
+now.  The water only gets hotter.  Soon you will be nothing more than a
+scalded corpse.  You can continue following the stream to the west or you
+can go back the way you came to the east.
+  }
+  sector { Fire }
+  flags { mapable }
+  exits {
+	to { e, 321 }
+	to { w, 323 }
+  }
+}
+
+323
+{
+  name { Boiling water.  }
+  desc {
+"   You are being boiled to death by the hot stream.  You can barely breath
+and your lungs feel scorched.  The stream takes a turn to the south and east.
+Maybe you should turn back now before you die.
+  }
+  sector { Fire }
+  flags { mapable }
+  exits {
+	to { e, 322 }
+	to { s, 325 }
+  }
+}
+
+324
+{
+  name { Mud puddle.  }
+  desc {
+"   You slowly sink down in the mud.  You stop sinking when it gets to your
+thighs.  You sigh and struggle to get out, but you find yourself held fast
+in the mud.  No amount of effort will free you.
+  }
+  sector { Mud }
+  flags { no_mob }
+  tele { 3, 0, 327 }
+  exits {
+	to { s, 318 }
+	to { w, 325 }
+  }
+}
+
+325
+{
+  name { Source of the hot spring.  }
+  desc {
+"   The hot spring boils out of a gash in the ground.  You are astonished by
+its color.  As it leaves the ground it is a thick red.  As it gets farther 
+and farther from it source it thins out and becomes clearer.  At three feet
+from the gash it is as clear as any water in the hot springs.  To your east
+is a huge mud puddle, to the north all you can see is steam, to the west
+are some bushes that you might be able to push through.
+  }
+  sector { mud }
+  extra {
+	keywords { hot spring gash }
+	desc { 
+"   You look at the liquid poring out of the gash.  Its color intrigues you.
+You reach out to put your hand in it and ouch!  It is boiling hot, but as
+you take your hand out you notice no wounds or blisters.  Your hand feels
+just fine.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 323 }
+	to { e, 324 }
+	to { w, 335 }
+  }
+}
+
+326
+{
+  name { Trapped in the mud.  }
+  desc {
+"   Too late!!!  The mud sucks you down.  First your waist disappears, then your
+shoulders, last your head goes under.  You are suffocating on the mud.  You
+try valiantly to hold your breath, but you know it will give out soon.
+Exits: Ha! There is no exit to this pit of death.
+  }
+  sector { Mud }
+  flags { no_sum, private, noshowexit }
+  tele { 200, 1, 329 }
+}
+
+327
+{
+  name { Mud puddle.  }
+  desc {
+"   You slowly sink down in the mud.  You stop sinking when it gets to your
+thighs.  You sigh and struggle to get out.  but you find yourself held fast
+in the mud.  No amount of effort will free you.
+  }
+  sector { Mud }
+  flags { no_sum, private, noshowexit }
+}
+
+328
+{
+  name { In a geyser.  }
+  desc {
+"   You are thrown up by the geyser.  The water is so hot it scalds you.  You
+try to get out but are trapped by hot water all around you.  You'll just have 
+to wait until the geyser is done.
+  }
+  sector { Fire }
+  flags { no_magic, private, noshowexit }
+  tele { 60, 0, 312 }
+}
+
+329
+{
+  name { Under the mud pit.  }
+  desc {
+"   You feel hands pulling at your feet.  Then, plop, you are out.  You have 
+been pulled under the mud into a small cavern.  The cavern is filled with mud.
+The floors are covered with it as are the walls.  Mud drips down from the
+ceiling.  You look around for who saved you from the mud pit and you see small
+blobs of mud laughing and skittering away.
+  }
+  flags { dark, no_magic, private }
+  exits {
+	to { n, 330 }
+  }
+}
+
+330
+{
+  name { Under the mud pit.  }
+  desc {
+"   You are in a huge cavern made of mud.  The cavern goes off the to north
+and east.  There is a small alcove to the south.  A group of mud blobs laugh
+at you and one pelts you with a ball of mud.
+  }
+  flags { dark, no_magic, private }
+  exits {
+	to { n, 333 }
+	to { e, 331 }
+	to { s, 329 }
+  }
+}
+
+331
+{
+  name { Under the mud pit.  }
+  desc {
+"   There are lots of chittering mud blobs all around the cavern.  They come
+in all shapes and sizes.  They seem able to change shape at will.  This 
+could be potentialy hazardous if you try to kill them.  They might just
+change their bodies to avoid your weapon.
+  }
+  flags { dark, no_magic, private }
+  exits {
+	to { n, 332 }
+	to { w, 330 }
+  }
+}
+
+332
+{
+  name { Under the mud pit.  }
+  desc {
+"   The blobs of mud here are getting overly rambunctious.  They run up to you,
+flinging mud in your face.  Then they dance back.  They might have saved you
+from the mud pit just to keep you as a play thing for all eternity.
+  }
+  flags { dark, no_magic, private }
+  exits {
+	to { s, 331 }
+	to { w, 333 }
+  }
+}
+
+333
+{
+  name { Under the mud pit.  }
+  desc {
+"   The cavern ceiling drips down on you with annoying regularity.  Each drop
+of mud makes your temper flair.  You have to find a way out of here, but 
+where?  The cavern stretches out to the east and the south.  There is a 
+small alcove to the north.
+  }
+  flags { dark, no_magic, private }
+  exits {
+	to { n, 334 }
+	to { e, 332 }
+	to { s, 330 }
+  }
+}
+
+334
+{
+  name { Under the mud pit.  }
+  desc {
+"   You are in a small alcove to the north of the large mud cavern.  Its seems
+much more mud splattered here.  The mud blobs stand outside the alcove 
+watching you.  They refuse to enter which cheers you somewhat.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"   The mud below you starts to sputter.  Then a huge gush of mud erupts 
+out of the floor below you.  You fly through the air and are pushed through
+the mud ceiling, back into the mud pits by the tourists.
+	}
+  }
+  flags { dark, no_mob }
+  tele { 1000, 0, 309 }
+  exits {
+	to { s, 333 }
+  }
+}
+
+335
+{
+  name { On a path by a hill.  }
+  desc {
+"   You find yourself on a path around a small hill.  To the east is a patch of
+very thick bushes, too thick to push your way through.  The path continues to
+the south and west.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { s, 336 }
+	to { w, 350 }
+  }
+}
+
+336
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow a north-south path around a small hill.  There is a large group
+of rocks to the west going up the hill.  They seem too difficult to climb up.
+You see a small hole under one rock at the top.  You wonder what animal lives
+all the way up there.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 335 }
+	to { s, 337 }
+  }
+}
+
+337
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow a north-south path around a small hill.  A large group of 
+rocks lies to the west.  The rock face seems to go to the top of the hill,
+but it is very hard to see from the bottom.  You try to climb up one of the
+rocks but you slip and fall back.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 336 }
+	to { s, 338 }
+  }
+}
+
+338
+{
+  name { On a path by a hill.  }
+  desc {
+"   You are at a turn in the path.  It goes to the to the north and west.  To
+the north-west you see a large rock face going up the hill.  The rock formation
+look like it belongs at the top of a craggy peak, not a small little hill.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 337 }
+	to { w, 339 }
+  }
+}
+
+339
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow an east-west path around a hill.  To the north is a large 
+vertical rock face.  You see a group of climbers being led by a tour guide. 
+They slowly make their way up the face banging in pitons as they go.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 338 }
+	to { w, 340 }
+  }
+}
+
+340
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow an east-west path around a hill.  The large face to the north
+continues.  A three foot wide crack goes all the way up the face.  Three
+climbers all roped together inch their way up the chimney.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 339 }
+	to { w, 341 }
+  }
+}
+
+341
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow an east-west path around a hill.  You are at the edge of a large
+cliff face.  The sound of a group of teenagers laughing, makes you look up.
+You see them rappelling down the cliff under the instruction of a capable 
+looking guide.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 340 }
+	to { w, 342 }
+  }
+}
+
+342
+{
+  name { On a path by a hill.  }
+  desc {
+"   You find yourself at a turn in the path.  To the north the path gets very
+narrow.  You look south and see the top of a huge spider web.  It looks like
+a person is stuck up there.  He struggles and tries very hard to get out.
+You shake your head and mumble under your breath that newbies never learn.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 343 }
+	to { e, 341 }
+  }
+}
+
+343
+{
+  name { On a path by a hill.  }
+  desc {
+"   You follow a north-south path.  It narrows down here considerably, hemming
+you in on both sides.  The brush is just at eye level and occasionally you
+get a glimpse of the pond to the west.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 344 }
+	to { s, 342 }
+  }
+}
+
+344
+{
+  name { On a path by a hill.  }
+  desc {
+"   You continue to follow a north-south path.  There is heavy brush to the 
+west that you can just peek over.  As you glance over you see a huge fish
+jump out of the pond with an adventurer in its mouth.  The person valiantly
+tries to defend himself.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 345 }
+	to { s, 343 }
+  }
+}
+
+345
+{
+  name { On a path by a hill.  }
+  desc {
+"   As you walk around the hill on the path, you come across a large rock.
+You can easily hop on top of it and look down.  You see the main path
+through the swamps down there.  If you wish you can jump down, but you don't
+think you'll be able to get back.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { e, 346 }
+	to { s, 344 }
+	to { d, 146 }
+  }
+}
+
+346
+{
+  name { On a path by a hill.  }
+  desc {
+"   You stand on a path at the bottom of a hill.  You can see the top of the
+hill to your southeast.  The rocks jut out from the hill like a majestic peak.
+The rock formations look misplaced on a small hill.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 347 }
+	to { e, 351 }
+	to { s, 352 }
+	to { w, 345 }
+  }
+}
+
+347
+{
+  name { On a path by a hill.  }
+  desc {
+"   The path makes an abrupt turn to the east and south.  The path is muddier
+here and you can see numerous footprints in the mud.  Whatever made the prints
+must be very heavy because the footprints go very deep into the mud.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 348 }
+	to { s, 346 }
+  }
+}
+
+348
+{
+  name { On a path by a hill.  }
+  desc {
+"   You walk along and east-west path.  You see numerous footprints in the dirt.
+The footprints are webbed and have three toes.  Many of them lead to the south.
+What kind of creature would need webbed feet to live on a hill?
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { e, 349 }
+	to { s, 351 }
+	to { w, 347 }
+  }
+}
+
+349
+{
+  name { On a path by a hill.  }
+  desc {
+"   The path travels to the west and south.  The path is much rockier here.
+Chunks of bedrock cut through the earth making your footing treacherous.
+You see scuffle marks in the dirt under the rocks.  As you bend down to 
+examine them you notice a brown stain against one of the rocks.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { s, 350 }
+	to { w, 348 }
+  }
+}
+
+350
+{
+  name { On a path by a hill.  }
+  desc {
+"   The small path curves to the north and east.  You stumble over a bunch
+of rocks strewn across the path.  Then, ouch, one hits you on your head.
+You look up and see a small black creature kicking rocks down on you.  When
+he notices you look up, he flees into a small hole.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 349 }
+	to { e, 335 }
+  }
+}
+
+351
+{
+  name { On a hill.  }
+  desc {
+"   You are climbing up the side of a hill.  To the south is the top.  You
+think you can make it up, but it looks like a very hard climb.  To your east
+is a straight drop down, much too difficult to climb.
+  }
+  sector { Hills }
+  flags { no_mob }
+  exits {
+	to { n, 348 }
+	to { s, 353 }
+	to { w, 346 }
+  }
+}
+
+352
+{
+  name { On a hill.  }
+  desc {
+"   You huff and puff as you climb the side of a hill.  The top of the hill
+is to the east.  It looks like a laborious climb but not impossible.  Or you
+can go south going around the hill.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 346 }
+	to { e, 353 }
+	to { s, 355 }
+  }
+}
+
+353
+{
+  name { On the top of a hill.  }
+  desc {
+"   You stand on the top of Amnos Hill.  Once a great mountain, now it has
+sunk deep into the mud of the swamp.  Even though it is much diminished in
+stature it still provides a spectacular view of the countryside.  To the
+east you can see the ocean in the distance.  At the edge you see a town 
+which must be Old Port.  To the north you see a fortress resting high up 
+in the mountains.  To the west is the capitol, Arador and you can barely
+make out a large marsh just past it.  To the south you see a huge chasm and
+the dwarven range.  Rumor has it that dwarves once lived here when this hill
+was still a mountain.  Once there might have been tunnels connecting the 
+two dwarven kingdoms.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 351 }
+	to { e, 354 }
+	to { s, 356 }
+	to { w, 352 }
+  }
+}
+
+354
+{
+  name { On a hill.  }
+  desc {
+"   You see a black creature four feet tall with webbed feet.  He looks over
+the edge of the cliff to the north, throwing down rocks and cackling.  Then
+all of a sudden he whirls around and sees you.  He quickly scampers down
+a dark hole.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { s, 357 }
+	to { w, 353 }
+	to { 10, 358 }
+	  info { hidden }
+	  keywords { hole }
+  }
+}
+
+355
+{
+  name { On a hill.  }
+  desc {
+"   You are at the edge of a cliff.  A group of teenagers are resting here. 
+It looks as though they have just finished climbing up the face and are 
+getting ready to rappel back down.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 352 }
+	to { e, 356 }
+  }
+}
+
+356
+{
+  name { On a hill.  }
+  desc {
+"   You stand at the edge of a large cliff face.  Directly below you is a crack
+in the face about three feet wide.  There is a small group of climbers slowly
+inching their way up the chimney.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 353 }
+	to { e, 357 }
+	to { w, 355 }
+  }
+}
+
+357
+{
+  name { On a hill.  }
+  desc {
+"   You stand at the edge of a large cliff to the south and east.  You would
+never be able to climb down it but you see a group of climbers coming up
+the face.  They pound in their pitons sending ringing sounds all over the
+hill.
+  }
+  sector { Hills }
+  flags { mapable }
+  exits {
+	to { n, 354 }
+	to { w, 356 }
+  }
+}
+
+358
+{
+  name { Collapsed tunnel.  }
+  desc {
+"   The fit is very tight.  You squeeze between some rocks.  You crawl on 
+your belly trying not to get stuck.  The weight of the hill seems to push
+down on you and you start to have trouble breathing.
+  }
+  flags { dark }
+  exits {
+	to { n, 359 }
+	to { 10, 354 }
+	  keywords { hole }
+  }
+}
+
+359
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You follow an old dark hallway under the hill.  The walls of stone seem 
+sturdy and very well made.  To the south is a cave in.  You wonder what
+could have caused such sturdy walls to collapse.
+  }
+  flags { dark }
+  exits {
+	to { n, 360 }
+	to { s, 358 }
+  }
+}
+
+360
+{
+  name { In an ancient hallway.  }
+  desc {
+"   There are two doorways to the east and west.  Beautiful columns flank
+either side of the doors.  The work could only be dwarven.  No other race
+has such talent.  You tug on the eastern door but its metal has rusted 
+shut over time.
+  }
+  flags { dark }
+  exits {
+	to { n, 361 }
+	to { s, 359 }
+  }
+}
+
+361
+{
+  name { Over an ancient stairwell.  }
+  desc {
+"   You stand at the top of a beautiful ornate staircase. It is eight feet wide
+and spirals down into the darkness.  It is all carved from the bedrock of
+this place.  Even the handrail seems to be carved right from the original
+stone.  The place smells musty and you hear the faint slosh of water against
+the walls.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { s, 360 }
+	to { d, 362 }
+  }
+}
+
+362
+{
+  name { Under an ancient stairwell.  }
+  desc {
+"   You find yourself at the bottom of an old ornate stairwell.  The whole 
+place seems to be flooded.  The water you breathe seems foul and tainted.  A
+huge hallway stretches off the the west.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { w, 363 }
+	to { u, 361 }
+  }
+}
+
+363
+{
+  name { In an underwater hallway.  }
+  desc {
+"   You stand in a hallway that once went east-west.  Now the western side
+has collapsed.  To the south is a large room.  It once had a door, but now
+the door lays on it side in the hall.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { e, 362 }
+	to { s, 364 }
+  }
+}
+
+364
+{
+  name { In an old sitting room, underwater.  }
+  desc {
+"   You are in an old sitting room.  There is a small statue of Gilfor towards
+the eastern edge of the room.  It is beautifully carved.  Anything else that
+was once in this room has long since rotted in the water.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 363 }
+	to { w, 365 }
+  }
+}
+
+365
+{
+  name { In an old sitting room, underwater.  }
+  desc {
+"   This large sitting room was once where people waited to see the king.  A
+few chairs are left, the ones that were made of stone.  The room continues
+to the east, and an hallway is to the north.  There was once a door between
+the hall and this room but the stone door now lies on the ground.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 366 }
+	to { e, 364 }
+  }
+}
+
+366
+{
+  name { In an underwater hallway.  }
+  desc {
+"   There is a stairway going up out of the water.  The walls of the stairway
+are covered in crests and symbols.  The topmost one is a crest of the 
+dwaven king Gilfor.  The hall continues to the north and east, but the 
+eastern section has collapsed.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 367 }
+	to { s, 365 }
+	to { u, 371 }
+  }
+}
+
+367
+{
+  name { In an underwater hallway.  }
+  desc {
+"   You follow an hallway that goes north-south.  The water here tastes
+old and stale.  This place must have been underwater for a long time.
+There small shelves carved in the stone at regular intervals along the
+way.  Small stone carvings line the shelves.
+  }
+  sector { Underwater }
+  extra {
+	keywords { carvings stone }
+	desc { 
+"   The carvings are all small and made of stone.  They picture the everyday
+life of a dwarf.  The most frequent themes are of the forge.  Many little
+carvings show the dwaves working metal, pounding it on the anvil and pouring
+it into molds.
+	}
+  }
+  flags { dark }
+  exits {
+	to { n, 368 }
+	to { s, 366 }
+  }
+}
+
+368
+{
+  name { In an underwater hallway.  }
+  desc {
+"   Two enormous doors are on either side of the hallway.  The doors are made
+of solid stone but the hall seems to have crumbled a bit around them and
+now they are impossible to open.  Beautiful columns held up either side of
+the door but now they are cracked and parts have fallen onto the floor.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 369 }
+	to { s, 367 }
+  }
+}
+
+369
+{
+  name { In an underwater hallway.  }
+  desc {
+"   The vile taste of the water seems to be getting worse.  You wonder if the
+taste comes from those awful swamp creatures.  The walls here are plain cut
+stone, and they seem to have held up fairly well.  There are no cracks 
+running down the walls here and each stone seems perfectly placed.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { n, 370 }
+	to { s, 368 }
+  }
+}
+
+370
+{
+  name { In an underwater hallway.  }
+  desc {
+"   You stand underneath a wide stairway that goes up to the west.  The stairs
+seem to be covered in gold.  There are numerous scratches in them as though
+someone had tried to scrape off the gold.  But the gold remains indelibly
+fused to the stone.
+  }
+  sector { Underwater }
+  flags { dark }
+  exits {
+	to { s, 369 }
+	to { u, 375 }
+  }
+}
+
+371
+{
+  name { In a throne room.  }
+  desc {
+"   You find yourself in a very old throne room.  The walls are covered in 
+rich tapestries, and beautiful statues line the room.  The room seems
+heaped in treasure.
+  }
+  extra {
+	keywords { statues }
+	desc { 
+"   You look at the beautifully carved statues.  They are statues of dwaven
+kings.  Fourty-eight of them line the walls.  One for each king who ruled
+under Mount Amnos.
+	}
+	keywords { tapestries }
+	desc { 
+"   You look at the beautifly woven tapestries.  They seem dusty and very old.
+One huge tapestry catches your eye.  The tapestry is of a huge mountain
+covered in forest.  You can see little figures of dwarves coming out of the
+mountain.  They seem to be trading peacefully with a group of elves.
+	}
+  }
+  flags { dark, no_mob }
+  exits {
+	to { s, 374 }
+	to { w, 372 }
+	to { d, 366 }
+  }
+}
+
+372
+{
+  name { In a throne room.  }
+  desc {
+"   You are in the middle of an enourmous throne room.  The throne itself lies
+to the south, and an ugly beast rest on it.  To the east lies the stairway
+going back to the underwater hallway.
+  }
+  flags { dark }
+  exits {
+	to { e, 371 }
+	to { s, 373 }
+  }
+}
+
+373
+{
+  name { In a throne room.  }
+  desc {
+"   You stand next to a large throne.  All around the throne lies piles and
+piles of treasure.  You reach out to take a large diamond but as you do the
+hideous beast on the throne slaps your hand.  He says, "I am king Gilfor.
+Do not touch that, it is mine to keep... forever!
+  }
+  flags { dark }
+  exits {
+	to { n, 372 }
+	to { e, 374 }
+  }
+}
+
+374
+{
+  name { In a throne room.  }
+  desc {
+"   You are in the middle of a throne room.  To the west is the throne itself.
+It seems to have a hideous creature on it.  To the north is the stairway 
+back to the underwater hallway.
+  }
+  flags { dark }
+  exits {
+	to { n, 371 }
+	to { w, 373 }
+  }
+}
+
+375
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You stand at the top of the huge stairway lined in gold.  The water comes
+all the way up to the last stair and slops over the edge a bit.  The air 
+here is old and stale.  You worry that it may not be good to breathe.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { w, 376 }
+	to { d, 370 }
+  }
+}
+
+376
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You stand in a musty old hallway.  It was once very beautiful but now
+spiderwebs hang from the walls and ceilings.  Dust covers every surface and
+puddles of water seep along the floor.  There are two alcoves to the north
+and south.  They have no doors and seem very functional and unadorned.
+  }
+  flags { dark }
+  exits {
+	to { n, 388 }
+	to { e, 375 }
+	to { s, 389 }
+	to { w, 377 }
+  }
+}
+
+377
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You walk down a very orante part of the hallway.  Handsome oak columns 
+once held up the lintels to two huge doors, but now they have rotted out
+and parts of them have fallen down.  The doors, also made from oak, have 
+rotted off their hinges and now just lean against the stone walls of the rooms.
+  }
+  flags { dark }
+  exits {
+	to { n, 387 }
+	to { e, 376 }
+	to { s, 390 }
+	to { w, 378 }
+  }
+}
+
+378
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You are in a very ornate hallaway.  The oak columns here have stood the 
+test of time much better than those to the east.  Though they have rotted
+out slightly at the bottom, they still do their jobs of holding the lintels
+up.  The oak doors are closed and swelled shut, totally immobile.  You can
+still get in the rooms however, because someone has chopped away some of the
+rotted wood at the bottom.  The holes are a tight squeeze but you won't get
+stuck in them.
+  }
+  flags { dark }
+  exits {
+	to { n, 386 }
+	to { e, 377 }
+	to { s, 391 }
+	to { w, 379 }
+  }
+}
+
+379
+{
+  name { In an ancient hallway.  }
+  desc {
+"   On either side of the hall are two huge doors.  The northern one is
+done all in silver and the southern on in gold.  Two huge columns flank
+either side of the doors.  On the lintel above the columns a crown is
+carved.
+  }
+  flags { dark }
+  exits {
+	to { n, 385 }
+	  key { 93201 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { silver }
+	to { e, 378 }
+	to { s, 392 }
+	  key { 93200 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gold }
+	to { w, 380 }
+  }
+}
+
+380
+{
+  name { In an ancient hallway.  }
+  desc {
+"   You walk down a slimy hallway.  Phosphorescent growths cling to the
+walls providing a little illumination.  They do however make the hall
+very slippery and you have to pick your way through them very carefully.
+  }
+  flags { mapable }
+  exits {
+	to { e, 379 }
+	to { w, 381 }
+  }
+}
+
+381
+{
+  name { In an ancient hallway.  }
+  desc {
+"   The hallway makes a turn to the north, and the floor starts to slope down.
+You get a faint whiff of fresh water, a pleasant change from the smell of
+stale air to the east.
+  }
+  flags { dark }
+  exits {
+	to { n, 382 }
+	to { e, 380 }
+  }
+}
+
+382
+{
+  name { Near a cave in.  }
+  desc {
+"   The floor here tilts to the side and down, as though some huge force 
+had warped it.  Stones have fallen to the floor and you have to pick your
+way over them.  The hallway to the north has collapsed and it looks like
+you might not be able to get through.
+  }
+  flags { dark }
+  exits {
+	to { n, 383 }
+	to { s, 381 }
+  }
+}
+
+383
+{
+  name { Crawling through the rubble.  }
+  desc {
+"   You wiggle through the collapsed hall on your belly.  The hall once went
+to the south and north, but the northern end is totally impassable.  The
+floor is cracked in places and as you wriggle over one spot you see one crack
+goes all the way down to the next level.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { s, 382 }
+	to { d, 395 }
+  }
+}
+
+384
+{
+  name { Queen's bedroom.  }
+  desc {
+"  An enormous bed dominates the room.  It once had a canopy but it was torn
+off and tossed in one corner.  A pile of shredded pillows and blankets 
+lie on the bed.  It looks as though some creature has made a nest out of it.
+  }
+  flags { dark }
+  exits {
+	to { e, 385 }
+  }
+}
+
+385
+{
+  name { Queen's chambers.  }
+  desc {
+"   The queen's chambers have been lined in silver.  A huge mirror once
+reflected into the room but now it is smashed on the floor and its frame
+gone.  The drawers of the vanity have been taken out and broken, and one
+leg has been torn off.  A beautiful couch once graced the northern wall
+but its pillows have been shredded.  Now it is just a skeleton of what it
+once was.  There is a large bedroom off to the west.
+  }
+  flags { dark }
+  exits {
+	to { s, 379 }
+	  key { 93201 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { silver }
+	to { w, 384 }
+  }
+}
+
+386
+{
+  name { Prince's bedroom.  }
+  desc {
+"   You sqeeze through the hole at the bottom of the door.  The chill water on
+the stone floor seeps through to your legs and knees making you shiver with
+cold.  You stand up and shake the water off.  The room has three pieces of
+furniture, a four poster bed, a dresser and a desk.  You laugh as you take in
+the picture of them.  Each piece is very ornately carved.  Though you get the
+idea that this is a man's room from the dark blues and deep wood stains, the
+furnature is decorated in frills and bows.  The bedspread is covered in small
+silk bows and lined with lace.
+  }
+  flags { dark }
+  exits {
+	to { s, 378 }
+  }
+}
+
+387
+{
+  name { Princess's bedroom.  }
+  desc {
+"   You stand in a large bedroom.  The floor here stands a little higher than
+the hall.  This has kept the floor much drier and the contents of the room
+have stayed mostly intact.  Against the northern wall of the room stands a
+huge canopied bed.  Its musty rose colored covers rain dust on the floor as 
+you touch them.  A dresser stands on the western wall.  You try to tug open
+one of the drawers but it is warped shut.  On the eastern wall stands a 
+vanity with an enourmous mirror hanging over it.  Small vials of liquid have
+been smashed over the top.  A large silver brush rests amid the mess.
+  }
+  flags { dark }
+  exits {
+	to { s, 377 }
+  }
+}
+
+388
+{
+  name { Guardroom.  }
+  desc {
+"   A large spiderweb covers the entrance to the alcove.  You look at it in
+disgust before you push your way through.  Inside seems to be a small guard
+room.  It is set up to have a good view of the people coming up the stairs.
+A few old spearheads rust on the floor, totally useless now.
+  }
+  flags { dark }
+  exits {
+	to { s, 376 }
+  }
+}
+
+389
+{
+  name { Guardroom.  }
+  desc {
+"   This guard room looks over the stairway.  Whoever once sat here got a 
+good view of anyone coming up.  The room seems plain and unadorned.  There
+was nothing here to keep the guards from being distracted from their duty.
+  }
+  flags { dark }
+  exits {
+	to { n, 376 }
+  }
+}
+
+390
+{
+  name { Prince's bedroom.  }
+  desc {
+"   You walk through puddles of water to the middle of the room.  A huge four
+poster bed is covered in a plain blue quilt.  The bed itself is very unadorned.
+In fact the wood of all the furniture, the bed, the dresser and a desk, is
+made of plain dark stained wood.  There is no ornamentation on any of it.
+  }
+  flags { dark }
+  exits {
+	to { n, 377 }
+  }
+}
+
+391
+{
+  name { Crown prince's bedroom.  }
+  desc {
+"   You crawl through the hole on your hands and knees.  A bit of your armor
+catches on the door and you struggle free.  You stand up in what was once
+a spectacular bedroom.  All the furniture is tasteful yet beautiful.  A
+parchment on the desk catches your eye.  You wipe away the cobwebs to read
+it, but the parchment crumbles to dust at your touch.
+  }
+  flags { dark }
+  exits {
+	to { n, 378 }
+  }
+}
+
+392
+{
+  name { King's suite.  }
+  desc {
+"   This is where the king once had his private office.  Two huge desks face 
+the door.  One has been turned over and looted.  The other, all done up in
+gold leaf, is still solid.  You wonder why it has survived while the other
+didn't.  You go over to it and try to lift it.  Its weight is far beyond
+your strength.  It must be made of solid gold.  There is a large bedroom to
+the west.
+  }
+  flags { dark }
+  exits {
+	to { n, 379 }
+	  key { 93200 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gold }
+	to { w, 393 }
+  }
+}
+
+393
+{
+  name { King's bedroom.  }
+  desc {
+"   A huge bed stands in the middle of the room.  It too is made of gold.
+The large quilts hanging off the side are stiched in gold thread.  The 
+thought of all this gold boggles you.  The dwarven kingdom must have been
+very wealthy before it fell.
+  }
+  flags { dark }
+  exits {
+	to { e, 392 }
+  }
+}
+
+394
+{
+  name { ToursInc.  }
+  desc {
+"   A woman looks up from a piece of paper.  She smiles and says, "Come in. Come
+in.  I have two tour packages available right now.  The one to the bayou is
+rather popular.  It's much better than the one to the geyser.  The tour
+leaves at 8 am sharp so dont be late.  And it's 1000 coins in cash."  She 
+then goes back to writing.
+  }
+  sector { City }
+  flags { mapable }
+  exits {
+	to { w, 66 }
+  }
+}
+
+395
+{
+  name { In an underwater hallway.  }
+  desc {
+"   You are in an underwater hallway that goes east-west.  The eastern portion
+has collapsed into a pile of rubble.  You can make your way up the rubble to
+a small hole in the ceiling, or follow the hall to the west.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { w, 396 }
+	to { u, 383 }
+  }
+}
+
+396
+{
+  name { Underwater hall.  }
+  desc {
+"   You are following an east-west hall.  There is a door here to the north.
+The door is short, four and a half feet tall and unadorned.  It is made from
+what looks like the same stone of the hallway.  The hinges look rusted with
+time but when you give the door a pull, the hinges snap and fall through
+the water to the floor.
+  }
+  sector { Underwater }
+  flags { mapable }
+  exits {
+	to { n, 403 }
+	to { e, 395 }
+	to { w, 397 }
+  }
+}
+
+397
+{
+  name { Over a hole.  }
+  desc {
+"   The hallway goes to the east and west, but the western side has part of
+its floor missing.  You try to swim across but there are currents over the hole 
+that push you back.  You can go to the east or climb down the hole.
+  }
+  flags { mapable }
+  exits {
+	to { e, 396 }
+	to { d, 398 }
+  }
+}
+
+398
+{
+  name { Underwater mine.  }
+  desc {
+"   The eastern portion of the old dwaven mines has collapsed, but you can
+follow the tunnel to the west.  The current of an underground river moves
+to the south into what looks like natural limestone caverns.  However the
+current seems to pick up there and if you go you will likely not get back.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { s, 402 }
+	to { w, 399 }
+	to { u, 397 }
+  }
+}
+
+399
+{
+  name { Underwater mine.  }
+  desc {
+"   The underground river flows swiftly along the mining tunnel to the east.
+Little bits of an old cart lay trapped behind some rocks.  An old pickaxe
+lies abandoned on the floor, its handle rotted away from the water.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 398 }
+	to { w, 400 }
+  }
+}
+
+400
+{
+  name { Underwater mine.  }
+  desc {
+"   You follow an old mine tunnel.  The current threatens to drag you eastward.
+You see an old mining cart that is being dragged and slammed against a rock.
+It splinters into many small pieces each of which are picked up by the river
+and dragged farther on.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 399 }
+	to { w, 401 }
+  }
+}
+
+401
+{
+  name { Underwater mine.  }
+  desc {
+"   The underground river has broken through an ancient dwarven mine.  The 
+current here flows swiftly to the east, down the dwaven mining tunnel.  To
+the west the river runs through a naturally formed waterway.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 400 }
+  }
+}
+
+402
+{
+  name { Underwater river.  }
+  desc {
+"   You follow a natural tunnel made by an underground river.  The current 
+is swift an drags you to the south.  You grab the bottom of a large 
+stalagmite to keep yourself from drifting off.  There seems to be a huge
+cavern above you.
+  }
+  sector { Underwater }
+  flags { no_mob, indoors }
+  exits {
+	to { s, 170 }
+	to { u, 404 }
+  }
+}
+
+403
+{
+  name { Store room.  }
+  desc {
+"   The door to this room is short but wide, to accomodate the carts that
+hauled goods around the tunnels.  Most of the carts have fallen apart but
+one seems whole if a little fragile.  It has two large wheels in the middle
+supporting a large crate on top.  Two handles come out the front for the 
+dwarves to pull with.
+  }
+  flags { mapable }
+  exits {
+	to { s, 396 }
+  }
+}
+
+404
+{
+  name { Limestone caverns.  }
+  desc {
+"   You gasp in wonder as you break the surface of the water.  The huge
+cavern is filled with a large mass of stalagmites growing from the floor.
+As you look up you see strangely formed stalagtites drip from the cavern
+roof.  One set catches your eye.  There is a stalagmite and stalagtite almost
+touching.  There is a small water drip bridging the gap between the two.
+You see a yellow-green glow coming from the walls.  It is made by a small
+fungus growing on the limestone walls.
+  }
+  flags { indoors }
+  exits {
+	to { d, 402 }
+  }
+}
+
+405
+{
+  name { Magical vortex  }
+  desc {
+"   You feel the power of magic swirling around you.  The wounds of the 
+Earth Goddess leak the power of the earth directly to this spot.  Such 
+power is not meant to be felt by a mortal.  It twists your body in knots
+and turns you inside out.  Pain courses through you and you are not sure
+you can stand much more.
+  }
+  sector { Astral }
+  flags { private }
+  tele { 30, 1, 406 }
+}
+
+406
+{
+  name { Caught in a magical vortex.  }
+  desc {
+"   The power of the earth was not meant for mere mortals.  It takes you up 
+and transforms to you pure energy.  The pain you felt earlier fades away
+as your body changes.  You can no longer feel your hands or feet.  They are
+gone, taken away in a swirl of light.  As your head starts to metamorphose
+you loose your sense of sight.  You no longer see but you can sense the 
+flow of magic now.  It has a feel or is it a taste that you have no words
+to describe.  You feel the lines of power and sense two lines pulling you 
+towards the east and west.
+  }
+  flags { no_magic, private, noshowexit }
+  sector { Astral }
+  exits {
+	to { e, Void:99500 }
+	to { w, Void:99502 }
+	to { u, Void:95666 }
+  }
+}
+
+407
+{
+  name { Carried by the wind.  }
+  desc {
+"   The wind picks you up and carries you west.  You try desperately to fight
+against it but it is too strong.  You are whisked away towards a dark and
+dismal lair.
+  }
+  sector { Air }
+  flags { no_sum, private, noshowexit }
+  tele { 15, 1, 302 }
+}
+
+408
+{
+  name { Path to the swamps.  }
+  desc {
+"  The large cobbled path continues to the east and west.  You can make out the
+swamp to the east, but worse you can smell it.  The stench smells disgusting,
+compared to the clean air of the woods.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { e, 0 }
+	to { w, 409 }
+  }
+}
+
+409
+{
+  name { Path to the swamps.  }
+  desc {
+"   The path takes a bend to the north and east.  Someone seems to have paved
+this part of the path in stone.  The cobbles of the path are even and well
+laid.  They make walking here a pleasure.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { n, 410 }
+	to { e, 408 }
+  }
+}
+
+410
+{
+  name { Path to the swamps.  }
+  desc {
+"   The path continues to the north and south.  A small cart is stuck in the 
+mud.  Its wheels must have fallen off one of the rocks.  A peddler is trying
+to lever the wheel out of the mud.  He notices you and says, "Well don't just
+stand there help me get this free.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { n, 411 }
+	to { s, 409 }
+  }
+}
+
+411
+{
+  name { Path to the swamps.  }
+  desc {
+"   The large path becomes narrower to the south.  There it is only six feet
+wide, just barely wide enough to handle the carts traveling through.  The soft
+fertlie earth starts to become mud.  Here and there, where the puddles have
+taken over the path, large rocks have been carefully placed.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { n, 412 }
+	to { s, 410 }
+  }
+}
+
+412
+{
+  name { Path to the swamps.  }
+  desc {
+"   You follow a large path through the woods.  You see the imprint of many 
+feet inbeded deep withing the soil, soil which is getting softer and softer
+farther to the south.
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { n, 413 }
+	to { s, 411 }
+  }
+}
+
+413
+{
+  name { Path near the road.  }
+  desc {
+"   A large path goes south from the Old Trade Road.  It is in fact a small
+road of its own, being eight feet wide.  Wheel ruts go deep into the soft 
+earth.  Grass grows vigorously between the two ruts.  A wooden sign has been
+pounded into the ground.
+  }
+  extra {
+	keywords { sign wooden }
+	desc { 
+"   ______________________
+  |                      |
+  |        Swamps        |
+  |          of          |
+  |        Amnos         |
+  |                      |
+  |  South three miles.  |
+  |                      |
+  |(Paid for by ToursInc)|
+  |______________________|
+	}
+  }
+  flags { mapable }
+  sector { Swamp_Road }
+  exits {
+	to { n, OldportForest:302 }
+	to { s, 412 }
+  }
+}

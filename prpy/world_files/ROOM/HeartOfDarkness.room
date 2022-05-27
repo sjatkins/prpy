@@ -1,0 +1,1752 @@
+#offset HeartOfDarkness
+
+0
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast, southeast, southwest, northwest
+and down.
+  }
+  sector { Forest }
+  flags { no_mob }
+  exits {
+	to { d, EasternDesert:75 }
+	to { northeast, 6 }
+	to { southeast, 16 }
+	to { southwest, 13 }
+	to { northwest, 7 }
+  }
+}
+
+1
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northwest, southwest and up.
+  }
+  sector { Forest }
+  exits {
+	to { u, 2 }
+	to { southwest, 6 }
+	to { northwest, 3 }
+  }
+}
+
+2
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast and down.
+  }
+  sector { Forest }
+  exits {
+	to { d, 1 }
+	to { northeast, 4 }
+  }
+}
+
+3
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the southeast.
+  }
+  sector { Forest }
+  exits {
+	to { southeast, 1 }
+  }
+}
+
+4
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the southwest and east.
+  }
+  sector { Forest }
+  exits {
+	to { e, 5 }
+	to { southwest, 2 }
+  }
+}
+
+5
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the west.
+  }
+  sector { Forest }
+  exits {
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast and southwest.
+  }
+  sector { Forest }
+  exits {
+	to { northeast, 1 }
+	to { southwest, 0 }
+  }
+}
+
+7
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the southeast and northwest.
+  }
+  sector { Forest }
+  exits {
+	to { southeast, 0 }
+	to { northwest, 8 }
+  }
+}
+
+8
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast, southeast and southwest.
+  }
+  sector { Forest }
+  exits {
+	to { northeast, 9 }
+	to { southeast, 7 }
+	to { southwest, 10 }
+  }
+}
+
+9
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the southwest and down.
+  }
+  sector { Forest }
+  exits {
+	to { d, 11 }
+	to { southwest, 8 }
+  }
+}
+
+10
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast and up.
+  }
+  sector { Forest }
+  exits {
+	to { u, 12 }
+	to { northeast, 8 }
+  }
+}
+
+11
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues up.
+  }
+  sector { Forest }
+  exits {
+	to { u, 9 }
+  }
+}
+
+12
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues down.
+  }
+  sector { Forest }
+  exits {
+	to { d, 10 }
+  }
+}
+
+13
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast and southwest.
+  }
+  sector { Forest }
+  exits {
+	to { northeast, 0 }
+	to { southwest, 14 }
+  }
+}
+
+14
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northeast and up.
+  }
+  sector { Forest }
+  exits {
+	to { u, 15 }
+	to { northeast, 13 }
+  }
+}
+
+15
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues down.
+  }
+  sector { Forest }
+  exits {
+	to { d, 14 }
+  }
+}
+
+16
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the southeast and northwest.
+  }
+  sector { Forest }
+  exits {
+	to { southeast, 17 }
+	to { northwest, 0 }
+  }
+}
+
+17
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The sky above the thicket begins to dim as you enter deeper into the prickly
+vines.  The midnight thicket's vines have grown gigantic and are covered in
+sharp thorns that stick directly into your boots.  Ouch!  The vines are dark
+green in color, almost black, and are easily the size of large trees.  They
+are so large that you could easily walk along them without falling off.
+Shifting and pulsing beneath your feet, the dark green vines seem to have a 
+life of their own.  It is almost as though they are screaming in pain.  The
+prickly thicket continues to the northwest and down.
+  }
+  sector { Forest }
+  exits {
+	to { d, 18 }
+	to { northwest, 16 }
+  }
+}
+
+18
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast, southwest, northwest
+and up.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { u, 17 }
+	to { northeast, 19 }
+	to { southeast, 31 }
+	to { southwest, 26 }
+	to { northwest, 22 }
+  }
+}
+
+19
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast, southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 20 }
+	to { southeast, 36 }
+	to { southwest, 18 }
+	to { northwest, 24 }
+  }
+}
+
+20
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast and southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 21 }
+	to { southwest, 19 }
+  }
+}
+
+21
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 20 }
+  }
+}
+
+22
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast, southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 24 }
+	to { southeast, 18 }
+	to { southwest, 27 }
+	to { northwest, 23 }
+  }
+}
+
+23
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southeast and down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { d, 38 }
+	to { southeast, 22 }
+  }
+}
+
+24
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southeast, southwest and north.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 25 }
+	to { southeast, 19 }
+	to { southwest, 22 }
+  }
+}
+
+25
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 24 }
+  }
+}
+
+26
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast, northwest and up.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 28 }
+	to { northeast, 18 }
+	to { southeast, 34 }
+	to { northwest, 27 }
+  }
+}
+
+27
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast and southeast.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 22 }
+	to { southeast, 26 }
+  }
+}
+
+28
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southwest, south and down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 30 }
+	to { d, 26 }
+	to { southwest, 29 }
+  }
+}
+
+29
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 28 }
+  }
+}
+
+30
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southeast and north.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 28 }
+	to { southeast, 37 }
+  }
+}
+
+31
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast, southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 36 }
+	to { southeast, 32 }
+	to { southwest, 34 }
+	to { northwest, 18 }
+  }
+}
+
+32
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast, southeast and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 35 }
+	to { southeast, 33 }
+	to { northwest, 31 }
+  }
+}
+
+33
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northwest, 32 }
+  }
+}
+
+34
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northeast and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 31 }
+	to { northwest, 26 }
+  }
+}
+
+35
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 32 }
+  }
+}
+
+36
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 31 }
+	to { northwest, 19 }
+  }
+}
+
+37
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   The gigantic vines of the midnight thicket have completely blocked out the
+sky.  The lack of sunlight has led to complete darkness.  As if the darkness
+was not confusing enough, the endless miles of these prickly vines have made
+you lose your place.  It is difficult to tell where you are going or where
+you have been.  Looking around the thicket, it is amazing what has occurred
+here.  The midnight thicket's vines have grown to an enormous size and are
+covered in sharp thorns that stick directly into your boots.  The vines are
+dark green in color, almost black, and are easily the size of large trees.
+Touching the vines with your hands, you can feel a pulsing and shivering
+energy flowing through them.  It feels almost like they are alive!  The
+prickly thicket continues to the northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northwest, 30 }
+  }
+}
+
+38
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southeast, southwest, northwest, north and up.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { n, 39 }
+	to { u, 23 }
+	to { southeast, 52 }
+	to { southwest, 46 }
+	to { northwest, 42 }
+  }
+}
+
+39
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 40 }
+	to { s, 38 }
+  }
+}
+
+40
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 41 }
+	to { s, 39 }
+  }
+}
+
+41
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 40 }
+  }
+}
+
+42
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southeast and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southeast, 38 }
+	to { northwest, 43 }
+  }
+}
+
+43
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southeast, south and down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 45 }
+	to { d, 44 }
+	to { southeast, 42 }
+  }
+}
+
+44
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues up.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 43 }
+  }
+}
+
+45
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the north.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 43 }
+  }
+}
+
+46
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast and down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { d, 47 }
+	to { northeast, 38 }
+  }
+}
+
+47
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southwest and up.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 46 }
+	to { southwest, 48 }
+  }
+}
+
+48
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast and southeast.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 47 }
+	to { southeast, 49 }
+  }
+}
+
+49
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southeast and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 50 }
+	to { northwest, 48 }
+  }
+}
+
+50
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the north and up.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 49 }
+	to { u, 51 }
+  }
+}
+
+51
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { d, 50 }
+  }
+}
+
+52
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast, southeast, southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 55 }
+	to { southeast, 53 }
+	to { southwest, 56 }
+	to { northwest, 38 }
+  }
+}
+
+53
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast, southeast and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 58 }
+	to { southeast, 54 }
+	to { northwest, 52 }
+  }
+}
+
+54
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northwest and southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 61 }
+	to { northwest, 53 }
+  }
+}
+
+55
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the north and southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 56 }
+	to { southwest, 52 }
+  }
+}
+
+56
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast, east and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 57 }
+	to { s, 55 }
+	to { northeast, 52 }
+  }
+}
+
+57
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the west.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southwest and down.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { d, 59 }
+	to { southwest, 53 }
+  }
+}
+
+59
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast and up.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { u, 58 }
+	to { northeast, 60 }
+  }
+}
+
+60
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 59 }
+  }
+}
+
+61
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast and southeast.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 54 }
+	to { southeast, 62 }
+  }
+}
+
+62
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the southwest and northwest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { southwest, 63 }
+	to { northwest, 61 }
+  }
+}
+
+63
+{
+  name { Through the Prickly Thicket  }
+  desc {
+"   It is getting difficult to see more than a few feet in front of you.  The
+darkness in this level of the thicket seems to even suppress your light
+source.  It has become impossible to tell exactly where you are.  Every
+direction that you turn looks just like where you were.  Looking around at
+the immediate surroundings, it is amazing what has occurred here.  The
+midnight thicket's vines have grown to a gigantic size and are covered in
+sharp thorns that stick directly into your boots.  Reaching down to touch
+the vines beneath your feet, a pulsing rhythm beats underneath the plants
+skin.  It feels like it could be alive!  The prickly thicket continues to
+the northeast and southeast.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { northeast, 62 }
+	to { southeast, 64 }
+  }
+}
+
+64
+{
+  name { Before a Hole in the Ground  }
+  desc {
+"   The midnight thicket comes to an abrupt halt before a large hole in the
+ground.  It looks like something has dug a gigantic cavern directly into the
+ground here.  The cavern is pitch-black and it is impossible to see very
+far inside.  The vines of the midnight thicket are starting to go crazy.
+They are pulling themselves from the ground and lashing you violently.  You
+better gown down into the cave to back into the prickly thicket to the
+northwest.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { d, 65 }
+	to { northwest, 63 }
+  }
+}
+
+65
+{
+  name { A Rocky Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw and
+teeth marks all over the cavern walls.  You do not see any stalagmites or
+stalactites, so it is obvious this place has not been here for long.  The 
+pure darkness of the tunnel is almost suffocating.  You hurry along the cavern
+with your hands in front of you, hoping not to bump into anything.  The sheer
+panic of the dark is starting to get to you.  It might be best to go back up
+into the midnight thicket.  The cavern walls suggest that the tunnel continues
+to the south.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { s, 66 }
+	to { u, 64 }
+  }
+}
+
+66
+{
+  name { A Rocky Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw and
+teeth marks all over the cavern walls.  The walls are almost smooth to the
+touch, except for the random claw and teeth imprints.  The pure darkness of
+the tunnel is almost suffocating.  You hurry along the cavern with your hands
+brushing against the cavern wall, hoping not to bump into anything.  The
+sheer panic of the dark is starting to push you over the edge.  Your only 
+urge is to run back into the midnight thicket at the end of the cavern to 
+the north.  The cavern walls suggest that the tunnel continues to the north
+and south.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 65 }
+	to { s, 67 }
+  }
+}
+
+67
+{
+  name { A Rocky Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw and
+teeth marks all over the cavern walls.  The walls are almost smooth to the
+touch, except for the random claw and teeth imprints.  The pure darkness of
+the tunnel is starting to suffocate you.  The hurry along the cavern with 
+your hands brushing against the cavern wall, hoping not to bump into
+anything.  Suddenly, your foot slips down, it looks like you may be able to
+climb down deeper into the cavern.  The sheer panic of the darkness and
+the unknown is starting to push you over the edge.  Your only instinct is
+to run back into the midnight thicket at the end of the cavern to the
+far north.  Run!
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { n, 66 }
+	to { d, 68 }
+  }
+}
+
+68
+{
+  name { A Long and Dark Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  You can see a
+dull red glow pulsing through the hallways in the distance to the southwest.
+The sounds of laughter and joy can also be heard, faintly bouncing off the
+walls from the southwest.  Something must be happening down there.  It
+might be worth checking out.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { u, 67 }
+	to { southwest, 69 }
+  }
+}
+
+69
+{
+  name { A Long and Dark Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth
+to the touch, except for the random claw and teeth imprints.  A pulsing
+dull red glow can be seen towards the end of the cavern in the distance
+to the southwest.  There also seems to be some kind of meeting in that
+direction.  The sounds of voices laughing and singing bounce off the
+walls from that direction.  There must be something happening over there.
+  }
+  sector { Mountains }
+  flags { dark, indoors }
+  exits {
+	to { northeast, 68 }
+	to { southwest, 70 }
+  }
+}
+
+70
+{
+  name { A Long and Dark Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth
+to the touch, except for the random claw and teeth imprints.  A gigantic
+cavern opens up to the southwest.  A pulsing, dull red glow illuminates
+the cavern enough for you to tell that someone or several people in
+doing something in there.  The shadows of the people are casts upon the
+cavern walls all around you.  They must be standing directly in front
+of whatever is emanating the light.
+  }
+  sector { Mountains }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { northeast, 69 }
+	to { southwest, 71 }
+  }
+}
+
+71
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth
+to the touch, except for the random claw and teeth imprints.  This cavern
+is humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits in the middle of the cavern, directly to the southwest.  A
+dark tunnel lines to the northeast and the hollowed-out cavern continues to
+the west and south.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { s, 73 }
+	to { w, 72 }
+	to { northeast, 70 }
+  }
+}
+
+72
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  This cavern is
+humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits in the middle of the cavern to the south.  The hollowed-out
+cavern continues to the east and south.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { e, 71 }
+	to { s, 74 }
+  }
+}
+
+73
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   This cavern is humongous!  This must have taken someone years to dig out
+of the ground.  The cavern could easily hold hundreds of people.  A gigantic
+skeletal throne sits directly to the west.  The hollowed-out cavern continues
+in every direction.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 71 }
+	to { e, 76 }
+	to { s, 77 }
+	to { w, 74 }
+  }
+}
+
+74
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   A gigantic skeletal throne has grown straight out of the ground in this
+part of the cavern.  Whole and partial skeletal remains make up the macabre
+homage to whomever takes their seat upon it.  The throne seat is at least 
+twenty feet off the ground and looks out over all of the cavern.  It is
+clear that whomever sits upon it wants its followed to look up at it.
+How vain!  Looking around, it is hard to believe how large this cavern
+actually is.  This must have taken forever to build!  The hollowed-out
+cavern continues in every direction.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 72 }
+	to { e, 73 }
+	to { s, 78 }
+	to { w, 75 }
+  }
+}
+
+75
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  This cavern is
+humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits directly to the east.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { e, 74 }
+  }
+}
+
+76
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  This cavern is
+humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits in the middle of the cavern in the distance to the west.  The
+hollowed-out cavern continues to the west.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { w, 73 }
+  }
+}
+
+77
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  This cavern is
+humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits in the middle of the cavern to the northwest.  The hollowed-out
+cavern continues to the north and west.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 73 }
+	to { w, 78 }
+  }
+}
+
+78
+{
+  name { A Hollowed-Out Cavern  }
+  desc {
+"   The cavern looks as though it has been freshly dug out.  There are claw
+and teeth marks all over the cavern walls.  The walls are almost smooth to
+the touch, except for the random claw and teeth imprints.  This cavern is
+humongous!  It could easily hold hundreds of people.  A gigantic skeletal
+throne sits in the middle of the cavern to the north.  The hollowed-out
+cavern continues to the north and east.
+  }
+  sector { Mountains }
+  flags { indoors }
+  exits {
+	to { n, 74 }
+	to { e, 77 }
+  }
+}

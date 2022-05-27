@@ -1,0 +1,644 @@
+#offset NewWarg
+
+0
+{
+  name { Path Through the Forest  }
+  desc {
+"   Beams of light filter through the treetops of the forest.  It is 
+difficult to see the trails through the forest in the darkness.  The sounds
+of drums beating can be heard in every direction.  The only visible trails
+are deep into the forest to the east and into the house to the south.  The
+barking and growls of the forest creatures rings throughout the tress.  It
+sounds like this forest is full of life.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 1 }
+	to { 10, WargAlley:35 }
+	  keywords { window }
+  }
+}
+
+1
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums and animals barking can be heard in every direction.
+The light filtering in through the treetops reveals a small trail leading to
+the north and west.  The sounds of leaves rustling and branches snapping shows
+that you are no longer alone.  Shadows pass through the falling moonlight as
+someone, or something, runs quickly through the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums and animals barking can be heard in every direction.
+The light filtering in through the treetops reveals trails leading to the
+north, south and east.  The sounds of a crowd cheering is coming from the
+northwest.  Shadows pass through the falling moonlight as someone, or
+something, runs quickly through the forest.  The sounds of leaves rustling
+and branches snapping show that you are no longer alone.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { e, 21 }
+	to { s, 1 }
+	to { northeast, 4 }
+  }
+}
+
+3
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums beating and animals barking can be heard in every
+direction.  The light filtering in through the treetops reveals trails 
+leading to the west and east.  The roar of a crowd cheering can be heard
+drifting from the west.  The sounds of animals locked in mortal combat can
+also be heard to the west.  Loud yelps and screams of wounded animals 
+seems to drift through this area of the forest in between the crescendos of
+cheering.  What in Midgard is happening here?
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 7 }
+	to { w, 12 }
+  }
+}
+
+4
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums beating and animals barking can be heard in every
+direction.  The light filtering in through the treetops reveals trails
+leading to the northeast and southwest.  A simple wooden hut has been
+built on the forest floor to the east.  Shadows pass through the falling
+moonlight as someone, or something, runs quickly through the forest.  The
+drumbeats seem to be getting faster the further the northeast trail extends.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 5 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { northeast, 6 }
+	to { southwest, 2 }
+  }
+}
+
+5
+{
+  name { A Simple Wooden Hut  }
+  desc {
+"   The hut is set up very simply.  It is immediately apparent that the
+inhabitants are not able to, or choose not to, upgrade their lifestyles
+with modern conveniences.  A small fire blooms near the eastern wall,
+filling the small hut with a sense of warmth.  Several piles of pine
+needles and feathers give the appearance of bedding.  Food supplies and 
+tattered clothing are stacked up against the walls and hang loosely from
+the ceiling.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { w, 4 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+6
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums beating and animals barking can be heard in every
+direction.  The light filtering in through the treetops reveals trails
+leading to the northeast and southwest.  There are simple wooden huts
+built on the east and west sides of the path.  The drumbeats seem to be
+getting faster the further the trail extends northeast.  Shadows pass
+through the falling moonlight as someone, or something, runs quickly 
+through the forest.  The light from a gigantic fire can be seen poking
+through the forest to the northeast.  The sweet smell of burning pine
+tickles your nose.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 11 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { w, 10 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { northeast, 8 }
+	to { southwest, 4 }
+  }
+}
+
+7
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums beating and animals barking can be heard in every
+direction.  The light filtering in through the treetops reveals trails
+leading to the west and south.  The sounds of people cheering and shouting
+can be heard in the distance to the west.  Shadows pass through the falling
+moonlight as someone, or something, runs quickly through the forest.  The 
+founds of leaves rustling and branches snapping show that you are no longer
+alone.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 2 }
+	to { w, 3 }
+  }
+}
+
+8
+{
+  name { A Giant Campfire  }
+  desc {
+"   The forest has been cleared out in the shape of a circle.  A gigantic,
+roaring fire sits unattended in the middle of the clearing.  The
+drumbeats have completely stopped.  In fact, there is no sounds or movement
+at all, except for the very healthy fire before you.  How can this fire
+maintain its brilliance without anyone feeding it?  The rustling of tree
+branches and snapping of twigs soon answer the question.
+  }
+  sector { Forest }
+  extra {
+	keywords { _teleport }
+	desc { 
+Some hands reach out from the forest and pull you into the dense trees.
+	}
+  }
+  flags { dark }
+  tele { 40, 1, 9 }
+  exits {
+	to { southwest, 6 }
+  }
+}
+
+9
+{
+  name { Ambush in the Forest  }
+  desc {
+"   The forest opens up into another clearing.  It is painfully obvious that
+you are not the first person dragged into this place.  Blood and gore is
+splattered on the surrounding trees.  The bones and armor of previous
+explorers litter the ground.  It is probably not best to stay here too long.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { A Simple Wooden Hut  }
+  desc {
+"   The hut is set up very simply.  It is immediately apparent that the
+inhabitants are note able to, or choose not to, upgrade their lifestyles
+with modern conveniences.  A small fire blooms near the eastern wall,
+filling the small hut with a sense of warmth.  Several piles of pine
+needles and feathers give the appearance of bedding.  Food supplies and
+tattered clothing are stacked up against the walls and hang loosely from
+the ceiling.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 6 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+11
+{
+  name { A Simple Wooden Hut  }
+  desc {
+"   The hut is set up very simply.  It is immediately apparent that the
+inhabitants are not able to, or choose not to, upgrade their lifestyles
+with modern conveniences.  A small fire blooms near the eastern wall,
+filling the small hut with a sense of warmth.  Several piles of pine
+needles and feathers give the appearance of bedding.  Food supplies and
+tattered clothing are stacked up against the walls and hang loosely from
+the ceiling.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { w, 6 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+12
+{
+  name { Path Through the Forest  }
+  desc {
+"   The forest path comes to an abrupt end.  The dense trees of the forest
+completely surround eveything, except for a path leading to the east.
+Two flaming torches are affixed to some trees near the southeast section
+of the alcove.  The sounds of cheering and carnage is definitely coming
+from that direction.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 3 }
+	to { southwest, 13 }
+	  key { 62039 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { trees }
+  }
+}
+
+13
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Torches line the top of the arena
+a few feet above the top row, spaced out every few feet.  Several long
+wooden planks descend down the arena to a giant steel cage in the middle.
+The planks extend to the west and southeast.  The roar of the crowd is so
+loud that it is hard to think they cannot hear this all the way in Midgard.
+There is a viscous fight for life in the cage in the middle of the arena.
+It is hard to see who is winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { w, 14 }
+	to { northeast, 12 }
+	  key { 62039 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { trees }
+	to { southeast, 20 }
+  }
+}
+
+14
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Torches line the top of the arena
+a few feet above the top row, spaced out every few feet.  Several long
+wooden planks descend down the arena to a giant steel cage in the middle.
+The planks extend to the east and southwest.  The roar of the crowd is so
+loud that it is hard to think they cannot hear this all the way in Midgard.
+There is a viscous fight for life in the cage in the middle of the arena.
+It is hard to see who is winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { e, 13 }
+	to { southwest, 15 }
+  }
+}
+
+15
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Torches line the top of the arena
+a few feet above the top row, spaced out every few feet.  Several long
+wooden planks descend down the arena to a giant steel cage in the middle.
+The planks extend to the northeast and southeast.  The roar of the crowd
+is so loud that it is hard to think they cannot hear this all the way in
+Midgard.  There is a viscous fight for life in the cage in the middle of
+the arena.  It is hard to see who is winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { northeast, 14 }
+	to { southeast, 16 }
+  }
+}
+
+16
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Several long wooden planks descend
+down the arena to a giant steel cage in the middle.  The planks extend to
+the northwest and east.  There is a large gate to the cage at the bottom
+of the planks.  The road of the crowd is so loud that is it hard to think
+they cannot hear this all the way in Midgard.  There is a viscous fight
+for life in the cage in the middle of the arena.  It is hard to see who is
+winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { n, 17 }
+	  key { 62040 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { e, 19 }
+	to { northwest, 15 }
+  }
+}
+
+17
+{
+  name { In the Cage  }
+  desc {
+"   The cage is roughly the size of small shack.  The dirt covered floor
+is drenched in blood.  Bleach white bones of all shapes and races litter
+the floor of the giant cage.  It is obvious this is used for more than just
+warg fights.  The cage walls are dripping with gore.  There are sword
+slashes and claw marks in almost every section of the cage.  A low growl
+comes from the other side of the cage.  The fight must not have finished.
+  }
+  sector { Forest }
+  exits {
+	to { e, 18 }
+	to { s, 16 }
+	  key { 62040 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+  }
+}
+
+18
+{
+  name { In the Cage  }
+  desc {
+"   The cage is roughly the size of small shack.  The dirt covered floor
+is drenched in blood.  Bleach white bones of all shapes and races litter
+the floor of the giant cage.  It is obvious this is used for more than just
+warg fights.  The cage walls are dripping with gore.  There are sword
+slashes and claw marks in almost every section of the cage.  A low growl
+comes from the other side of the cage.  The fight must not have finished.
+  }
+  sector { Forest }
+  exits {
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Torches line the top of the arena
+a few feet above the top row, spaced out every few feet.  Several long
+wooden planks descend down the arena to a giant steel cage in the middle.
+The planks extend to the west and northeast.  The roar of the crowd
+is so loud that it is hard to think they cannot hear this all the way in
+Midgard.  There is a viscous fight for life in the cage in the middle of
+the arena.  It is hard to see who is winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { w, 16 }
+	to { northeast, 20 }
+  }
+}
+
+20
+{
+  name { Around the Arena  }
+  desc {
+"   The arena is busy with excitement.  Torches line the top of the arena
+a few feet above the top row, spaced out every few feet.  Several long
+wooden planks descend down the arena to a giant steel cage in the middle.
+The planks extend to the southeast and northwest.  The roar of the crowd
+is so loud that it is hard to think they cannot hear this all the way in
+Midgard.  There is a viscous fight for life in the cage in the middle of
+the arena.  It is hard to see who is winning from here.
+  }
+  sector { Forest }
+  exits {
+	to { southwest, 19 }
+	to { northwest, 13 }
+  }
+}
+
+21
+{
+  name { Path Through the Forest  }
+  desc {
+"   The sounds of drums beating and animals barking can be heard in every
+direction.  The light filtering in through the treetops reveals trails
+leading to the east and west.  A small light can be seen shimmering from
+what appears to be a structure at the end of the eastern trail.  Shadows
+pass through the falling moonlight as someone, or something, runs quickly
+through the forest.  A mad laughter begins to echo in from the east.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 22 }
+	to { w, 2 }
+  }
+}
+
+22
+{
+  name { Path Through the Forest  }
+  desc {
+"   The echoing laughter seems to be matching the beat of those incessant
+beating drums.  The sounds of animals barking is starting to wane.  How
+odd that there would be wargs in this part of the forest.  A shadow
+passes over the small window of the structure to the east.  The light
+filtering in through the treetops reveals trails leading to the west, east
+and south.  A thick and very tall pole can be seen in the clearing to the
+south.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { e, 23 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 24 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { The Warg Scientist's Laboratory  }
+  desc {
+"   The laboratory is covered in mess and clutter.  The walls are covered
+with bookshelves full of thick, colored tomes and large clear jars full of
+multi-colored hued liquids.  Some of the jars even contain what appear to
+be small animals suspended in a clear liquid.  There is a steel examination
+table set up next to the bookshelf against the eastern wall.  Where was all
+that laughter coming from?  A quick yelp comes out from behind the bookcase
+to the north.  Looking closely at the books, you notice a false book with a
+small keyhole.  All of the bookshelves have it!  Some loud stomping can be
+heard from above, maybe this place is not so vacant after all.
+  }
+  exits {
+	to { n, 27 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+	to { e, 29 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+	to { w, 22 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { u, 30 }
+	to { northwest, 28 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+  }
+}
+
+24
+{
+  name { A Totem in the Clearing  }
+  desc {
+"   The clearing is unusually quiet.  A low mist seems to rise from the
+ground and rolls across the clearing.  A gigantic totem pole reaches into
+the sky at the southern end of the clearing.  The totem pole is easily
+fifty feet wide and hundreds of feet high.  The likenesses of what appears
+to be previous leaders are carved into the totem pole.  The land begins to
+tremble.  The faces on the totem begin to contort and scream, "TRESPASSERS!".
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 22 }
+	to { u, 25 }
+  }
+}
+
+25
+{
+  name { Up the Totem Pole  }
+  desc {
+"   The entire forest can be seen from this vantage point.  The tremendous
+walls of Midgard can be seen at the forest's end, to the east.  It is
+difficult to hold onto the totem pole with all the faces screaming in 
+your ears.  "Why", a deep voice echos from the darkness.  "Why, are you
+disturbing this holy place!", bellows into your head.  The totem pole
+trembles, and your grip once again begins to slip.  A thick fog seems
+to roll in out of nowhere.  A ghostly shape materializes, staring with
+utter hatred.
+  }
+  sector { Air }
+  extra {
+	keywords { _teleport }
+	desc {  A force grabs your entire body and throws you further into the air. 	}
+  }
+  flags { fall }
+  tele { 20, 1, 26 }
+  exits {
+	to { u, 26 }
+	to { d, 24 }
+  }
+}
+
+26
+{
+  name { Up the Totem Pole  }
+  desc {
+"   The entire forest can be seen from this vantage point.  The tremendous
+walls of Midgard can be seen at the forest's end, to the east.  No longer
+having to hold onto the totem pole, you stare down, noticing the very long
+fall to the clearing below.  "You should have ran.  You should NEVER have
+come here!", echoes from the fog.  An ethereal hand reaches out from the 
+from the dense fog and right towards you.
+  }
+  sector { Air }
+  flags { fall }
+  exits {
+	to { d, 25 }
+  }
+}
+
+27
+{
+  name { A Large Cage  }
+  desc {
+"   The cage is very clean and tidy.  There is a large pile of blankets in
+the northern part of the cage.  Several large ceramic bowls rest on the
+floor against the thick steel bars of the west side of the cage.  The pile
+of blankets begin to stir, revealing some life in here after all.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 23 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+  }
+}
+
+28
+{
+  name { A Large Cage  }
+  desc {
+"   The cage is very clean and tidy.  There is a large pile of blankets in
+the western part of the cage.  Several large ceramic bowls rest on the
+floor against the thick steel bars of the north side of the cage.  The pile
+of blankets begin to stir, revealing some life in here after all.
+  }
+  flags { no_mob }
+  exits {
+	to { southeast, 23 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+  }
+}
+
+29
+{
+  name { A Large Cage  }
+  desc {
+"   The cage is very clean and tidy.  There is a large pile of blankets in
+the eastern side of the cage.  Several large ceramic bowls rest on the
+floor against the thick steel bars of the north side of the cage.  The pile
+of blankets begin to stir, revealing some life in here after all.
+  }
+  flags { no_mob }
+  exits {
+	to { w, 23 }
+	  key { 62041 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cage }
+  }
+}
+
+30
+{
+  name { A Comfortable Bedroom  }
+  desc {
+"   The bedroom is very clean in comparison to the laboratory downstairs.
+There are windows on every wall, looking out into the dense forest beyond.
+Some moonlight shines in pleasantly through some simple green curtains.
+A plush bed, draped in a fluffy looking green bedspread, rests with its head
+towards the eastern wall.  A sudden creak in the floor behind you reveals
+the you are not alone.
+  }
+  exits {
+	to { d, 23 }
+  }
+}

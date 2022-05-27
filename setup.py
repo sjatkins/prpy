@@ -8,5 +8,5 @@ setup(name='prpy',
       author_email='samantha@conceptwareinc.com',
       license='internal',
       packages=find_packages(exclude=['test']),
-      install_requires=['pyparsing', 'requests', 'pyyaml', 'pydantic'],
+      install_requires=['pyparsing', 'requests', 'pyyaml', 'pydantic', 'pytest'],
       zip_safe=False)

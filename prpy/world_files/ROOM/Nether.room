@@ -1,0 +1,237 @@
+#offset Nether
+
+0
+{
+  name { Entrace to hell  }
+  desc {
+"  It starts to get very hot.  Your feet start to burn, you scream.  You
+are hopping around and looking around when you notice evrything is
+either red or on fire.
+  }
+  sector { Fire }
+  exits {
+  to { northeast, 2 }
+  to { northwest, 1 }
+  }
+}
+
+1
+{
+  name { Prison room  }
+  desc {
+"  Your feet stop burning as you step into a concrete room. As you walk
+down the hall there are bars on either side of the room.  Behind the bars
+are people screaming and trying to escape the burning room.
+  }
+  exits {
+  to { northeast, 5 }
+  to { southeast, 0 }
+  to { southwest, 4 }
+  to { northwest, 9 }
+  }
+}
+
+2
+{
+  name { Prison room  }
+  desc {
+"  Your feet stop burning as you step into a concrete room. As you walk
+down the hall there are bars on either side of the room.  Behind the bars
+are people screaming and trying to escape the burning room.
+  }
+  exits {
+  to { northeast, 8 }
+  to { southeast, 3 }
+  to { southwest, 0 }
+  to { northwest, 5 }
+  }
+}
+
+3
+{
+  name { Atheno's chamber  }
+  desc {
+"  The first thing you notice is a giant glowing hammer leaned against the
+side of a fireplace.  The floor is a very soft carpet and there is a table
+above you.
+  }
+  exits {
+  to { northwest, 2 }
+  }
+}
+
+4
+{
+  name { Title's cell  }
+  desc {
+"  You walk between some huge bars.  In the middle of the room is a giant
+thing chained to the ground.  You start panicking and walking quietly hoping
+not to be noticed.
+  }
+  exits {
+  to { northeast, 1 }
+  }
+}
+
+5
+{
+  name { Over cooled bar  }
+  desc {
+"  This room has bar stools going left to right down the room and tables
+scattered all around.  The floor smells like booze and you are freezing
+to death.
+  }
+  sector { Cold }
+  exits {
+  to { u, 10 }
+  to { northeast, 7 }
+  to { southeast, 2 }
+  to { southwest, 1 }
+  to { northwest, 6 }
+  }
+}
+
+6
+{
+  name { Flaming barracks  }
+  desc {
+"  You walk into a flaming house and look around.  You see armor and
+weapons aligned across the room.  you think this is where the warriors
+and soldiers stay.
+  }
+  sector { Fire }
+  exits {
+  to { southeast, 5 }
+  to { southwest, 9 }
+  }
+}
+
+7
+{
+  name { Flaming barracks  }
+  desc {
+"  You walk into a flaming house and look around.  You see armor and
+weapons aligned across the room.  you think this is where the warriors
+and soldiers stay.
+  }
+  sector { Fire }
+  exits {
+  to { southeast, 8 }
+  to { southwest, 5 }
+  }
+}
+
+8
+{
+  name { Lava pit  }
+  desc {
+"  There is a pit of lava at your feet.  You know that here only a creature
+would be able to kill you.  Averting you step into the lava and scream,
+for the pain isn't bearable.
+  }
+  sector { Fire }
+  exits {
+  to { southwest, 2 }
+  to { northwest, 7 }
+  }
+}
+
+9
+{
+  name { Lava pit  }
+  desc {
+"  There is a pit of lava at your feet.  You know that here only a creature
+would be able to kill you.  Averting you step into the lava and scream,
+for the pain isn't bearable.
+  }
+  sector { Fire }
+  exits {
+  to { northeast, 6 }
+  to { southeast, 1 }
+  }
+}
+
+10
+{
+  name { Sixth room  }
+  desc {
+"  You are standing in a cave with six exits, you don't know which one
+to choose.  You start one way then stop and go the other way then stop,
+this is mind wrecking.
+  }
+  sector { Ice_Cavern }
+  exits {
+  to { n, 14 }
+  to { e, 12 }
+  to { s, 13 }
+  to { w, 11 }
+  to { u, 15 }
+  to { d, 5 }
+  }
+}
+
+11
+{
+  name { Slave room  }
+  desc {
+"  This room is flaming with what looks like slaves all around chained
+to each other mining for gold.  They don't notice you no matter what you do.
+  }
+  sector { Fire }
+  exits {
+  to { e, 10 }
+  }
+}
+
+12
+{
+  name { Slave room  }
+  desc {
+"  This room is flaming with what looks like slaves all around chained
+to each other mining for gold.  They don't notice you no matter what you do.
+  }
+  sector { Fire }
+  exits {
+  to { w, 10 }
+  }
+}
+
+13
+{
+  name { Slave room  }
+  desc {
+"  This room is flaming with what looks like slaves all around chained
+to each other mining for gold.  They don't notice you no matter what you do.
+  }
+  sector { Fire }
+  exits {
+  to { n, 10 }
+  }
+}
+
+14
+{
+  name { Slave room  }
+  desc {
+"  This room is flaming with what looks like slaves all around chained
+to each other mining for gold.  They don't notice you no matter what you do.
+  }
+  sector { Fire }
+  exits {
+  to { s, 10 }
+  }
+}
+
+15
+{
+  name { Devil's chamber  }
+  desc {
+"  There is a golden chair fit for a king, accept for the fact that it's
+on fire.  On top of the chair is a red being with large horns and flaming
+eyes.
+  }
+  sector { Fire }
+  exits {
+  to { d, 10 }
+  }
+}

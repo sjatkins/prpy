@@ -1,0 +1,143 @@
+#offset Underground
+
+0
+{
+  name { Entrance to The Underground  }
+  desc {
+"   You find yourself standing in the very centre of the Market Plaza.
+Although there used to be a fountain here, it was relocated when The
+Underground was built, thus smoothing the flow of traffic across town.
+A steep tunnel leads down into the earth; fortunately, there are steps
+and handrails to prevent you from slipping.
+There is a large marble block here with a map inscribed on it.
+  }
+  sector { City }
+  extra {
+	keywords { map marble block }
+	desc { 
+:..[]===================[].....+------+....... ..     Cath - The Cathedral    :
+:..||  N o r t h e r n  ||..+--        --+..... .            of Virtue        :
+:..||   M i d g a r d   ||..|    Cath    |.... .  Cle-Guil - The Cleric's     :
+:..[]===================[]...---+    +---.......             Guild            :
+:............N.............-----|    |-----.... . Pal-Guil - The Paladin's    :
+:..........W-+-E..........|Cle  +----+Pal  |......           Guild            :
+:............S............| Guil||  || Guid|... ..       a - Osfol's Shop of  :
+:..........................----- |  | ----- ... . .          Wondrous Things  :
+:............................--- |  | ---....... ...     b - The Provisions   :
+:........ Midgard...........| a ||  || b |.......   .        Shoppe.          :
+:.......... Zoo ............`- --+  +-- -'...... ..      c - The Small Arms   :
+:..........:  :....----..---|            |---....  ..        Shoppe           :
+:..........|  |...| c  || d     Market     e |....       d - Quick-Go - Alpha :
+:........--+  +---`- --'`---+            +----- - -  e   e - The Bakery       :
+:.......|     Main Street         * <-- You're here  a   f - The Museum of    :
+:.......|   ------.- --..---+            +- --- -    s       Midgard          :
+:.......|  |......| f  || g     Plaza      h |.... . t   g - Midgard Bank     :
+:.......:  :......`----'`---|            |---'.. ..      h - The Cow's Bounty :
+:.... North West ............- --+  +-- -..... ... .     i - Rings and Things :
+:..... Midgard .............| i ||  || j |... .. . ..    j - Midgard Info.    :
+:............... ...........`--- :  : ---'.. ... .  .        Centre           :
+:..........................Shrine of Neutrality..... .
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, Midgard:1 }
+	to { e, Midgard:3 }
+	to { s, Midgard:5 }
+	to { w, Midgard:7 }
+	to { d, 1 }
+	to { northeast, Midgard:2 }
+	to { southeast, Midgard:4 }
+	to { southwest, Midgard:6 }
+	to { northwest, Midgard:8 }
+  }
+}
+
+1
+{
+  name { The Underground Tavern  }
+  desc {
+"   Standing here in the tavern, your senses are overwhelmed.  Countless
+conversations, the din from the market above, and the snapping and popping
+from the fire all merge into a low roar that you find soothing in spite of
+its volume.  Large pine logs burn in the fire pit in the centre of the room,
+casting dancing shadows upon the walls.  Occasionally a conversation gets out
+of hand, but one look from the bouncer in the corner usually settles all
+disputes (and if a look doesn't suffice, throwing the troublemakers out does!).
+The bartender works silently, dispensing a variety of drinks.  Countless stains
+mark the rough-hewn oak tables, and the the ceiling above the fire is blackened
+from years and years of smoke.  A set of stairs leads up to the Market Plaza,
+and another leads down to the Bouncing Room.  The Donation Room lies to the
+south, and a large hallway to the north provides access to the inn.  There is
+an office to the east where the Insurance Man conducts his business, and a
+Mortuary lies to the west.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, no_magic, rent_room, mapable }
+  exits {
+	to { n, 3 }
+	to { e, 4 }
+	to { s, Midgard_trail:49 }
+	to { w, 2 }
+	to { u, 0 }
+	to { d, Midgard:0 }
+        to { southeast, Midgard:898 }
+        to { southwest, Midgard:899 }
+        to { northwest, Midgard:897 }
+        to { northeast, Midgard:896 }
+  }
+}
+
+2
+{
+  name { The Post Office (Mortuary)  }
+  desc {
+"   It looks like an undead mortician has hung a shingle here.  
+This post office now allows unfortunate adventurers an opportunity to
+have their corpse 'mailed' to them.  Perhaps someday, a real postmaster may
+come here who will hold everyone's mail until they come to read it (maybe). 
+In the meantime you'll have to make due with the current proprietor.  
+A sign on the back wall reads "Midgard Mortuary, they stab 'em, I'll slab 'em!"
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, no_magic, mapable, rent_room }
+  exits {
+	to { e, 1 }
+  }
+}
+
+3
+{
+  name { The Sleeping Chamber  }
+  desc {
+"   The room you are in stretches off into the distance farther than you can
+see.  Large, durable lockers line the entire east wall, and triply bunked
+beds run along the west wall, many of them occupied by people who have
+temporarily embarked on voyages in another land.  There is a desk right at
+the entrance where a receptionist waits to store people's valuables when
+they decide to sleep for a time.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, no_magic, rent_room, mapable }
+  exits {
+	to { s, 1 }
+  }
+}
+
+4
+{
+  name { The Insurance Office  }
+  desc {
+"   This underground office is the room from which The Insurance Man
+operates his larcenous trade.  Solid steel bars run from floor to
+ceiling between him and the entrance, protecting him from attacks
+both physical and magical in nature.  There appears to be a safe
+set into the wall behind him, and a large desk contains copies of
+all the policies he has sold.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, no_magic, mapable, rent_room }
+  exits {
+	to { w, 1 }
+  }
+}

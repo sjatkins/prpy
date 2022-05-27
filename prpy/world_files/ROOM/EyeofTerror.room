@@ -1,0 +1,1095 @@
+#offset EyeofTerror
+
+0
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   Phew! That was lucky! You fell quite a way from the ramshackle house
+above and broke your fall on soft, red mud.  Looking around you can't see
+any way back up to the derelict building above; the mud walls are too
+slippery to climb, and you end up leaving lines in the walls where your
+fingers attempt to find a grip.  The tunnel drips and is damp and the mud
+is sticky and difficult to walk on.  The tunnel leads off to the south-
+east and your explorer instincts kick-in.  Perhaps roaming around some
+underground caverns won't be so bad after all?
+  }
+  extra {
+	keywords { mud sticky muddy }
+	desc { 
+"
+The mud is red, sticky and everywhere.  It plasters your legs and
+feet and splatters your cloak.  You need a bath.
+
+"	}  
+  }
+  sector { muddy_tunnel }
+  flags { no_mob, peaceful, indoors }
+  exits {
+	to { southeast, 1 }
+  }
+}
+
+1
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and south-
+east.  It looks like an archeological team cleared a cave-in here.
+  }
+  extra {
+	keywords { mud sticky muddy }
+	desc { 
+"
+The mud is red, sticky and everywhere.  It plasters your legs and
+feet and splatters your cloak.  You need a bath.
+
+"	}  
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { northwest, 0 }
+	to { southeast, 2 }
+  }
+}
+
+2
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and
+southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southeast, 3 }
+	to { northwest, 1 }
+  }
+}
+
+3
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and
+southeast.
+  }
+  extra {
+	keywords { mud sticky muddy }
+	desc { 
+"
+The mud is red, sticky and everywhere.  It plasters your legs and
+feet and splatters your cloak.  You need a bath.
+
+"	}  
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southeast, 4 }
+	to { northwest, 2 }
+  }
+}
+
+4
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and
+southeast.
+  }
+  extra {
+	keywords { mud sticky muddy }
+	desc { 
+"
+The mud is red, sticky and everywhere.  It plasters your legs and
+feet and splatters your cloak.  You need a bath.
+
+"	}  
+  }  
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southeast, 5 }
+	to { northwest, 3 }
+  }
+}
+
+5
+{
+  name { Guardian Chamber  }
+  desc {
+"   Without even noticing, you slip and slide into a large circular
+chamber made of the same, sticky red mud that is everywhere.  There
+are five tunnels leading away into darkness to the northwest, north
+east, south and southwest.  In the centre of the chamber is a large
+circular stone platform.  Perhaps a place you can stand without the
+sinking feeling of standing in wet, sticky mud?
+  }
+  extra {
+	keywords { stone platform }
+	desc { 
+"
+The stone platform has been made of a single, solid piece of stone.
+It has been shaped to be circular.  The purpose it serves is no
+more sinister than being an aesthetic design choice by whatever it
+was that made this area.
+
+"	}
+	keywords { mud sticky muddy }
+	desc { 
+"
+The mud is red, sticky and everywhere.  It plasters your legs and
+feet and splatters your cloak.  You need a bath.
+
+"	}  
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 6 }
+	to { e, 16 }
+	to { s, 23 }
+	to { southwest, 17 }
+	to { northwest, 4 }
+  }
+}
+
+6
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues north and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 7 }
+	to { s, 5 }
+  }
+}
+
+7
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues north and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 8 }
+	to { s, 6 }
+  }
+}
+
+8
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { s, 7 }
+	to { northeast, 9 }
+  }
+}
+
+9
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues east and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 10 }
+	to { southwest, 8 }
+  }
+}
+
+10
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself at a junction
+in a tunnel made of wet and sticky red mud that clings to all of your
+clothing.  You are plastered in the stuff.  The tunnel continues west,
+northeast and southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 9 }
+	to { northeast, 11 }
+	to { southeast, 12 }
+  }
+}
+
+11
+{
+  name { Prison Chamber  }
+  desc {
+"   This small chamber has been lined with massive stones; too big for any
+man, or even ten, to lift.  Yet the mud still seeps through the cracks
+and the inhabitants of this sad little prison are covered in the stuff.
+It stinks too.  There are no privy facilities and the excrement of the
+prisoners past and present adds to the silty floor.  Eww!  Here, it
+appears, the beholders destroy any free-will left in their captives,
+ready for enslavement.  You exit southwest, back in to the muddy tunnels.
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southwest, 10 }
+  }
+}
+
+12
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southwest, 13 }
+	to { northwest, 10 }
+  }
+}
+
+13
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { northeast, 12 }
+	to { southeast, 14 }
+  }
+}
+
+14
+{
+  name { Nursery Chamber  }
+  desc {
+"   This large, oval chamber is covered in the same wet and sticky red mud,
+except that the ceiling is covered in odd organic sacks.  There are four
+exits leading in to dark tunnels to the northwest, east, south and west.
+As you watch the sacking bucks and twists and a small, football-sized
+beholder pops out covered in some really disgusting green goo.  This must
+be where the beholders birth their young!
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 33 }
+	to { s, 32 }
+	to { w, 15 }
+	to { northwest, 13 }
+  }
+}
+
+15
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues east and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 14 }
+	to { southwest, 16 }
+  }
+}
+
+16
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and west.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 5 }
+	to { northeast, 15 }
+  }
+}
+
+17
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { s, 18 }
+	to { northeast, 5 }
+  }
+}
+
+18
+{
+  name { Feeding Chamber  }
+  desc {
+"   Yuck!  The smell of death and decay hits your nose like a mallet 
+striking stone.  You reel backwards and cover your face, for all the help
+it does!   This large muddy chamber has 3 exits--two leading off in to
+dark tunnels to the north and east and one leading off into a well lit
+stone lined tunnel to the southwest.  In the centre of the tunnel lies a
+heap of rotting corpses and several naked slaves.  Surrounding them, and
+gorging themselves are several feeding beholders.  Gross!
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 17 }
+	to { e, 29 }
+	to { southwest, 19 }
+  }
+}
+
+19
+{
+  name { A Stone-lined Tunnel  }
+  desc {
+"   After the muck and grim of the rest of this place, it is kind of nice
+to stand on solid ground for a change and not feel like you're slipping
+and sliding around.  This tunnel is well lit by torches that sit in bronze
+sconces.  The tunnel curves off to the west here where you can see it
+carries on for quite some way.  The tunnel also leads back to the feeding
+chamber to the northeast.
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 20 }
+	to { northeast, 18 }
+  }
+}
+
+20
+{
+  name { A Stone-lined Tunnel  }
+  desc {
+"   You are standing in a well-lit, stone-lined tunnel.  The tunnel
+continues straight east and west at this point.  Looking back to the east
+you can see the curve that leads to the feeding chamber and looking
+forward you can see another curve.  You also notice two large beholders
+floating in the corridor to the west and someone, or something, sitting
+on a plush red-velvet bench.
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 19 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { A Stone-lined Tunnel  }
+  desc {
+"   You are standing in a well-lit, stone-lined tunnel. Here, two beholders
+float, guarding the exit to the northwest.  On the north wall of the
+corridor is a plush-red velvet bench where a lizardman, covered in
+expensive looking bronze, sits patiently.  You can exit back to the east
+or try northwest and see if the beholders will let you past.
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 20 }
+	to { northwest, 22 }
+  }
+}
+
+22
+{
+  name { Emperors Chamber  }
+  desc {
+"   You standing in an expansive stone chamber covered in expensive
+looking tapestries--each one depicting glorious battles won by beholders
+and even one of a strange grey beholder fighting five children and a baby
+unicorn.  Odd.  In the centre of the room is circular dias made of gold,
+above which floats the biggest beholder you have ever seen.  Surrounding
+it are more, beholders.  Uh oh!
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  extra {
+	keywords { tapestry odd gray children unicorn }
+	desc { 
+"
+This frayed and worn tapestry is clearly very old and depicts five
+children, their names stitched in gold beneath each; Hank, a blond-haired
+ranger with a bow of power. Sheila, a red-haired thief with a magic cloak.
+Diana, a beautiful dark skinned acrobat.  Bobby, a small child with blond
+hair and brother to Sheila, dressed as a barbarian with a massive club.
+And finally, Eric, a rich and cowardly cavalier with a shield more powerful
+than the Aegis of Fortrum. They battle a grey-skinned beholder with a
+massive yellow eye.  The stitching on the tapestry tells how they sought 
+out a way to go home, but never found it.
+
+"	}
+  }
+  exits {
+	to { southeast, 21 }
+  }
+}
+
+23
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues north and southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 5 }
+	to { southeast, 24 }
+  }
+}
+
+24
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and east.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 25 }
+	to { northwest, 23 }
+  }
+}
+
+25
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues west and southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 24 }
+	to { southeast, 26 }
+  }
+}
+
+26
+{
+  name { Resting Chamber  }
+  desc {
+"   You slip and slide your way in to another massive chamber covered in
+the same awful red mud.  Will you ever be clean again?  This chamber has
+four exits leading northwest, north, northeast and west into darkness. It
+is oddly quiet in here.  Looking around you see a giant beholder, its eye
+closed, dozing a few feet above the ground... If you're quiet, maybe you
+can get away without it noticing you!
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 30 }
+	to { w, 27 }
+	to { northeast, 38 }
+	to { northwest, 25 }
+  }
+}
+
+27
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues west and east.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 26 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northwest and east.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 27 }
+	to { northwest, 29 }
+  }
+}
+
+29
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues west and southeast.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 18 }
+	to { southeast, 28 }
+  }
+}
+
+30
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues north and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 31 }
+	to { s, 26 }
+  }
+}
+
+31
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  There is a sucking, slurping noise coming
+from somewhere beneath you... WTF is that?  The tunnel continues north
+and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+#{red}#{bold}Shit!  You've been in here too long and find you're in a sink hole!!
+
+You've been sucked under the mud!!#{o}
+
+"	}
+  }
+  tele { 300, 1, 39 }
+  exits {
+	to { n, 32 }
+	to { s, 30 }
+  }
+}
+
+32
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues north and south.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 14 }
+	to { s, 31 }
+  }
+}
+
+33
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues east and west.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 34 }
+	to { w, 14 }
+  }
+}
+
+34
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself at a junction
+in a tunnel made of wet and sticky red mud that clings to all of your
+clothing.  You are plastered in the stuff.  The tunnel continues west and 
+southeast.  To the northeast a massive dread portal blocks the way.  You
+can't see past it...
+  }
+  extra {
+  	keywords { dread portal }
+  	desc { 
+"   This massive door has been locked by some kind of strange device.  It
+isn't a lock that requires a key...  Runes, written in Drow, seem to convey
+that you would need an item of some kind to open the dread portal (that's a
+fancy way of saying a big door) that has a set of horns on it.  Ugh.  I
+dunno.  I smash stuff and infirm!  Rawr!
+  	}
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 33 }
+	to { northeast, 35 }
+	  key { 92028 }
+	  info { door, closed, autoclose, locked, autolock, pickproof }
+	  keywords { dread portal }
+	to { southeast, 36 }
+  }
+}
+
+35
+{
+  name { Summoning Chamber  }
+  desc {
+"   This chamber is starkly different from the rest of the tunnels and
+caves of the beholder lair.  Here the mud has all been washed away (well,
+except that which you have dragged in with you, you mucky pup) and the
+walls have been smoothed and then lined with the finest sandstone.  The
+floor here has been lined in deep red marble and archaic runes, clearly
+Drow in origin, have been carved expertly in to the surface.  A wide 
+double-circle of magical energy oscillates a few inches above the floor,
+it's diameter almost as big as the room itself.  If you didn't know any
+better, you might think that the circle was there to keep something in...
+  }
+  sector { sandstone_cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southwest, 34 }
+	  key { 92028 }
+	  info { door, closed, autoclose, locked, autolock }
+	  keywords { dread portal }
+  }
+}
+
+36
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southwest, 37 }
+	to { northwest, 34 }
+  }
+}
+
+37
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { northeast, 36 }
+	to { southwest, 38 }
+  }
+}
+
+38
+{
+  name { A Muddy Tunnel  }
+  desc {
+"   After much slipping and sliding along, you find yourself in a tunnel
+made of wet and sticky red mud that clings to all of your clothing.  You
+are plastered in the stuff.  The tunnel continues northeast and southwest.
+  }
+  sector { muddy_tunnel }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { northeast, 37 }
+	to { southwest, 26 }
+  }
+}
+
+39
+{
+  name { In The Sink Hole!  }
+  desc {
+"   You have been sucked down in to the soft mud!  Quick, you better get
+out before you actually drown in the mud!  Yes, DROWN!  The mud seems to
+be being sucked out somewhere.  If you were to go and wriggle maybe you
+could get out the same way as the mud?
+  }
+    extra {
+  	keywords { _ex10 }
+  	desc {  "
+	
+#{green}#{bold}You wriggle and squirm like a wiggly worm and... POP!
+
+You briefly fall and land in a splatter of mud!  Where are you...#{o}
+
+"   }
+  }
+  sector { Underwater }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { 10, 40 }
+	  info { secret, hidden, message }
+	  keywords { wriggle }
+  }
+}
+
+40
+{
+  name { Inside a Strange Lair  }
+  desc {
+"   You are standing in what can only be described as a mad-scientists
+dream lair.  The ceiling to this lair--which is more like a cavern--is
+approximately twenty feet above you and sports a muddy fissure that
+drips and leaks red, sticky mud all over the floor.  Tables have been
+piled haphazardly all around, stacked tall with strange glass tubes and
+instruments beyond imagination.  Chains with spikes hang and swing from
+the ceiling and end in cages.  All of the cages are empty--luckily!
+The lair seems to extend north, north-east and east, where tunnels lead
+off in to various directions.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { n, 41 }
+	to { e, 42 }
+	to { northeast, 43 }
+  }
+}
+
+41
+{
+  name { A Strange Lair  }
+  desc {
+"   You are standing in the northwest section of a strangely weird
+lair that only a mad-scientist would dream up.  There are all sorts
+of paraphernalia here including a device that makes lightning spark
+between two poles, a cylinder of glass that glows and fades in many
+different colours and, finally, lots and lots of cages hanging from
+chains in the ceiling.  A tunnel leads off to the west and the lair
+extends east, south and southeast.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { s, 40 }
+	to { southeast, 42 }
+	to { e, 43 }
+	to { w, 44 }
+  }
+}
+
+42
+{
+  name { A Strange Lair  }
+  desc {
+"   You are stood in the southeast part of a really bizarre lair.
+Strewn all around are the the broken remains of what looks like
+standard kitchen equipment; plates, cutlery, pots, pans and old
+spice racks that no one ever remembers buying.  Doubtless in this
+jumble will be a drawer that won't open because something inside
+has wedged it.  Hanging from the ceiling of several macabre chains
+and hooks that all end in empty cages.  The cages themselves are
+just the right size to restrain a human.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southeast, 48 }
+	to { n, 43 }
+	to { northwest, 41 }
+	to { w, 40 }
+  }
+}
+
+43
+{
+  name { A Strange Lair  }
+  desc {
+"   This part of the lair is probably the most bizarre of the
+whole area.  The tables here, and there are a lot of tables, are
+strewn with body parts; everything from fingers and toes to eyes
+and livers litter every surface.  But... You'd think there would
+also be more blood.  And some of the parts seem to twist and move
+as life still coursed through them.  Weird.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { w, 41 }
+	to { s, 42 }
+	to { southwest, 40}
+	to { northeast, 46 }
+  }
+}
+
+44
+{
+  name { The Drider Post  }
+  desc {
+"   This corridor is well cut and fashioned, the walls smooth
+and silky to the touch.  The floor however looks like it was
+subjected to some kind of hard, pointed rod that has dug some
+very deep holes in to the surface.  Long scratches mare every
+single inch, making it seem as if something with many legs,
+each ending in some kind of point, has been stood in here for
+a very long time.
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors, no_mob }
+  exits {
+	to { e, 41 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { The Shimmering Portal  }
+  desc {
+"   The corridor begins (or ends) here, depending upon your
+perspective of the area, in this wide and artfully decorated
+chamber.  The room itself is full of opulence and splendour,
+the rich furnishings, from high grade chairs to stately, black
+marble desk, all seem to suggest that the occupent of this room
+is richer than your wildest dreams.  In the northern corner of
+the room, a swirling maelstrom of magical energy flashes and
+pulsates as cleverly woven runes of power circle and dance
+around the edges.  It is clearly a portal, but the wavering
+depths beyond, tinted purple from the magic, cannot be
+deciphered so easily.
+  }
+  sector { Sandstone_Cave }
+  extra {
+    keywords { _ex11 }
+	desc {
+"
+#{magenta}#{bold}Your skin tingles as you step through the portal!#{o}
+"   }
+  }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { e, 44 }
+	to { 11, Drow:43 }
+	  info { message }
+	  keywords { maelstrom }
+  } 
+}
+
+46
+{
+  name { A Stinking Corridor  }
+  desc {
+"   This is a corridor.  And for the love of all the gods and
+goddesses in these realms does it stink!  Rotting meat, filth,
+decay.  The stenches permeate everywhere and, were you not such
+a stalwart individual, even your great constitution would give
+up and let tears roll down your cheeks as anything metal you
+might have starts to tarnish in the very air.  Gaaaah!
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { northeast, 47 }
+	to { southwest, 43 }
+  }
+}
+
+47
+{
+  name { The Trash Pit  }
+  desc {
+"   In retrospect, 'Trash Pit' does not do this place any
+justice at all.  You are standing in a room where everything
+from used body parts, humanoid fecal matter, ancient meals and
+other less savoury biomatter has been dumped.  Some of it, yes
+this means that you're actually inspecting it, looks to have
+been chewed on by something.  The stench in here is awful.  It's
+enough to make you gag!!  If there was a gas attack flag you can
+be sure that the creator of this area would have used it in this
+room!
+  }
+  sector { Sandstone_Cave }
+  flags { dark, no_sum, private, indoors }
+  exits {
+	to { southwest, 46 }
+  }
+}
+
+48
+{
+  name { Entrance to the Laboratories  }
+  desc {
+"   This bright and airy corridor has been meticulously cleaned
+and scrubbed by whatever denizens can be found here.  Brightly
+lit lanterns illuminate the walls, revealing a white-washing of
+such splendour that it even appears to be completely sterile.
+Why something would want to do that is completely unclear.  You
+can exit east and south in to what appear to be laboratories or
+northwest to the strange lair.
+  }
+  sector { Sandstone_Cave }
+  flags { no_sum, private, indoors }
+  exits {
+	to { e, 49 }
+	to { s, 50 }
+	to { northwest, 42}
+  }
+}
+
+49
+{
+  name { The Beholder Laboratory  }
+  desc {
+"   This room is dominated by a huge, oval contraption with spikes
+and hooks and tubes of rubber that end in large, odd suction caps
+and points.  And some of those points seem to be covered in some
+sort of strange blood-like goo.  Eww.  The walls are lined with 
+boards that have made to hold all sorts of instruments that look
+like pliers and rods and saws and needles.  Maybe it's a surgical
+bay for a kindly doctor?  Maybe not...  You can exit the room and
+head in to the corridor to the west.
+  }
+  sector { Sandstone_Cave }
+  flags { no_sum, private, indoors }
+  exits {
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { A Dark Laboratory  }
+  desc {
+"   There is not much in this laboratory.  You can at least tell
+that it used to be a laboratory, but it looks like all of the
+equipment that used to be in here has been moved.  In one corner
+a small desk and a mug on it is the only decoration.  It looks
+like someone comes in here sometimes to make notes and sit and 
+think.
+  }
+  sector { Sandstone_Cave }
+  flags { no_sum, private, indoors }
+  exits {
+	to { n, 48 }
+  }
+}
+
+51
+{
+  name { A Loading Program  }
+  desc {
+"   This is the Construct.  It's the loading program.  Here the 
+immortals can load anything, from clothing, to equipment, weapons,
+training simulations, anything they need.  Right now it's being
+used as a place for you to land safely whilst you play test a
+zone.
+
+#{bold}AREA UNDER TEST:#{o}#{cyan} EYE OF TERROR
+
+#{bold}PLOT:#{o}#{cyan} There is a Beholder population under the ruins of Thalos.
+There has always been a Beholder at the centre of the town--this
+was the first clue of the Beholder hive proximity.  In the hive
+are a small number of beholder-kin who believe themselves to be
+the pinnacle of existence.  They even have an Emperor. However,
+the Beholders are not in control.  Even as they seek to form
+alliances with the Drow and the evil powers of Dark Horn Hill, so
+the Drow, along with an ancient evil, are using them in turn...
+But why is a mystery!
+
+51 Rooms - 2 Disconnected (NW entry from Thalos).
+34 Distinct Mobs - 68 Total Mobs Loaded.
+30 Distinct Objects - 3 Loadable - WIP.
+
+Questions, comments, concerns?  Speak to Nitemare.
+
+"
+  }
+  sector { Sandstone_Cave }
+  flags { no_sum, private, indoors }
+  exits {
+	to { d, 2 }
+  }
+}
+52
+{
+  name { Zain's Safe Room  }
+  desc {
+"   This room enables Zain to be moved to safety.
+
+"
+  }
+  sector { Sandstone_Cave }
+  flags { no_sum, private, indoors }
+}
+
+

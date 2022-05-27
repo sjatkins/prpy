@@ -1,0 +1,298 @@
+#offset Void
+
+0
+{
+  name { The Void  }
+  desc { boring..   }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum }
+  exits {
+	to { u, Midgard:0 }
+  }
+}
+
+1
+{
+  name { Limbo  }
+  desc {
+"   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+  }
+  sector { City }
+  flags { no_mob, indoors, peaceful, no_sum }
+  exits {
+	to { u, Midgard:1 }
+	  desc {  Temple }
+  }
+}
+
+2
+{
+  name { Beyond Reality  }
+  desc { "   This place exists.... Beyond Reality.   }
+  flags { indoors, no_goto, rent_room }
+}
+
+3
+{
+  name { Storage  }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+4
+{
+  name { Storage  }
+  desc {
+"   This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+  }
+  sector { City }
+  flags { dark, death, no_sum, private, no_goto }
+}
+
+5
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the Temple of Midgaard.
+	Please exit to the east.
+	Next stop. The Wizard's shop.
+  }
+  flags { indoors }
+  tele { 30, 1, 6 }
+  exits {
+	to { e, Midgard:1 }
+  }
+}
+
+6
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the Wizard's shop.
+	Please exit to the east.
+	Next stop, The dark river.
+  }
+  flags { indoors }
+  tele { 30, 1, 7 }
+  exits {
+	to { e, Midgard:33 }
+  }
+}
+
+7
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the Dark river.
+	Please exit to your east.
+	Next stop, The city of Orshingal
+  }
+  flags { indoors }
+  tele { 30, 1, 8 }
+  exits {
+	to { e, HaondorDark:44 }
+  }
+}
+
+8
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the City of Orshingal.
+	Please exit to the east.
+	Next stop, the Shire.
+  }
+  flags { indoors }
+  tele { 30, 1, 9 }
+  exits {
+	to { e, Ershteep:1 }
+  }
+}
+
+9
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the Shire.
+	Please exit to the east.
+	Next stop, Arachnos.
+  }
+  flags { indoors }
+  tele { 30, 1, 10 }
+  exits {
+	to { e, Shire:0 }
+  }
+}
+
+10
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at Arachnos.
+	Please exit to the east.
+	Next stop, Castle Python.
+  }
+  flags { indoors }
+  tele { 30, 1, 12 }
+  exits {
+	to { e, Arachnos:1 }
+  }
+}
+
+11
+{
+  name { Buntas Smoking Room  }
+  desc {
+" .,;                                                    ,
+              ';,.'      ';.,'                          dM
+                      ;,.;'                             MMr
+                                                       4MMML                  .
+                  ;.,:   '.,;,                         MMMMM.                xf
+               ',.  .',;;.',;          .              "M6MMM               .MM-
+             ____________               Mh..          +MM5MMM            .MMMM
+             \oooooooooo/               .MMM.         .MMMMML.          MMMMMh
+              \________/                 )MMMh.        MM5MMM         MMMMMMM
+              {________}                  3MMMMx.     'MMM3MMf      xnMMMMMM"
+               \______/                   '*MMMMM      MMMMMM.     nMMMMMMP"
+                ',__,'                      *MMMMMx    "MMM5M\    .MMMMMMM=
+                 |oo|                        *MMMMMh   "MMMMM"   JMMMMMMP
+                 |oo|    _____                 MMMMMM   GMMMM.  dMMMMMM            .
+                 |==|   / ___()                 MMMMMM  "MMMM  .MMMMM(        .nnMP"
+                 |==|  / /           ..          *MMMMx  MMM"  dMMMM"    .nnMMMMM*
+                 |oo| / /             "MMn...     'MMMMr 'MM   MMM"   .nMMMMMMM*"
+                 |oo|/ /               "4MMMMnn..   *MMM  MM  MMP"  .dMMMMMMM""
+                 |==/ /                 ^MMMMMMMMx.  *ML "M .M*  .MMMMMM**"
+                 |='./                      *PMMMMMMhn. *x > M  .MMMM**""
+                 |oo|                          ""**MMMMhx/.h/ .=*"
+                 |==|                                    .3P"%....
+                 |__|                         [WEED]  nP"     "*MMnx 
+               ,'____',               
+             /"________"\             
+            /____________\            
+
+
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_magic, fast_mana, fast_hit_points, fast_moves, mapable, lord_only, no_goto }
+  exits {
+	to { u, Asgard:0 }
+	to { e, Midgard:0 }
+  }
+}
+
+12
+{
+  name { Midgaard Coach  }
+  desc {
+"   You are now at the mines of Moria.
+	Please exit to the east.
+	Next stop, the Temple of Midgaard
+  }
+  flags { indoors }
+  tele { 30, 1, 5 }
+  exits {
+	to { e, MoriaLevel1:0 }
+  }
+}
+
+15
+{
+  name { Work Room of the Lords  }
+  desc {
+"    This is where the lords are supposed to be working away hard at helping
+the imps get done what needs to be done asap. If your not a lord and your in
+here you had better hope your up for promotion or you can pass through walls.
+There is a board nailed up on the wall with a list of things to do.
+  }
+  flags { lord_only }
+  exits {
+	to { u, 16 }
+  }
+}
+
+16
+{
+  name { Gossip Room of the Lords  }
+  desc {
+"   This is where the Lords can catch up on all the latest
+scandal and rumor in the mortal world they administer. 
+In this room rests the MUDs only tabloid rag, the Adventurer's
+bulletin board.
+  }
+  flags { lord_only }
+  exits {
+	to { u, 17 }
+	to { d, 15 }
+  }
+}
+
+17
+{
+  name { World Room of the Lords  }
+  desc {
+"   This is the room where the Lord's can keep up to date
+with the latest building assignments and details for the
+MUD.  Fionn's infamous WorldPad usually resides in this room,
+with all the juicy details.
+  }
+  flags { lord_only }
+  exits {
+	to { u, 18 }
+	to { d, 16 }
+  }
+}
+
+18
+{
+  name { Questing Room  }
+  desc {
+"   This is the room where the Lord's can keep up to
+date with the latest questing details and plotlines.
+Ultra-top-secret business in this room...
+  }
+  flags { lord_only }
+  exits {
+	to { u, 19 }
+	to { d, 17 }
+  }
+}
+
+19
+{
+  name { The Kitchen  }
+  desc {
+"   Welcome to the kitchen of the gods.  A rather barren
+affair, yellow formica dominates this grimy galley.  A
+small collection of cooking utensils hanging from rusty
+hooks gathers dust and a rather ill-treated rabble of
+pots and pans hang beside them.  A hobby-book spice rack
+threatens to collapse, showering an intruder with flakes
+of unidentifiable plant-life.  The only sound eminates
+from a well-rounded fridge, covered in take-out menus.
+A microwave's green digital read-out glares at you from
+across the expanse of linoleum.
+  }
+  exits {
+	to { n, Asgard:0 }
+	to { d, 18 }
+  }
+}
+
+49
+{
+  name { Monster Storage  }
+  desc {
+"   This is where the errant monsters are stored.  I don't know why they
+are in here, but they seem to show up often enough.
+  }
+  flags { indoors }
+}

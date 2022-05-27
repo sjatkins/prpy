@@ -1,0 +1,264 @@
+#offset Countess
+
+0
+{
+  name { Outside the Guild Hall of the Silver Circle  }
+  desc { Empty   }
+  flags { arena, relocate_distort }
+  exits {
+	to { n, 1 }
+	  key { 900 }
+	  info { door }
+	  keywords { door mahagony }
+  }
+}
+
+1
+{
+  name { Main Entry Hall  }
+  desc {
+This is the entry hall to the guild.  Adorning the white marble walls are
+tapestries, and paintings of famous members of the guild.  You see a marble
+staircase leading up to a landing.  To the north you hear the sound of a
+fountain.
+  }
+  flags { rent_room }
+  exits {
+	to { n, 2 }
+	to { e, 5 }
+	to { s, 0 }
+	  key { 900 }
+	  info { door }
+	  keywords { door mahagony }
+	to { w, 8 }
+	to { u, 13 }
+	to { d, Underground:0 }
+  }
+}
+
+2
+{
+  name { Lovely Courtyard  }
+  desc {
+This spacious courtyard is paved with irregulaly shaped slate stones.
+Within the courtyard there are many trees and flowers all arranged neatly
+in planters. There are numerous benches to sit and enjoy the beauty of
+this place.  In the center of the courtyard is a fountain that is
+pouring forth bountiful amounts of water.
+  }
+  flags { rent_room, relocate_distort }
+  exits {
+	to { n, 3 }
+	to { e, 6 }
+	to { s, 1 }
+	to { w, 9 }
+  }
+}
+
+3
+{
+  name { Meeting Hall  }
+  desc { Empty   }
+  exits {
+	to { e, 7 }
+	to { s, 2 }
+	to { w, 10 }
+  }
+}
+
+4
+{
+  name { A Cozy Living Room  }
+  desc {
+You see a cozy living room with a hardwood floor.  A warm fire burns in a
+fireplace in the east wall, which will keep you warm as you relax in
+a fine couch made of fine white velvet.  Hanging over the fireplace is
+a painting of a girl with black hair sitting in her mother's lap holding
+a white kitten.
+  }
+  flags { relocate_distort }
+  tele { 0, 0, 15 }
+  exits {
+	to { n, 12 }
+	  key { 900 }
+	  info { door, pickproof }
+	  keywords { north door }
+	to { s, 15 }
+	  key { 900 }
+	  info { door, closed, locked, pickproof }
+	  keywords { north }
+	to { w, 13 }
+	  key { 900 }
+	  info { door, pickproof }
+	  keywords { west door mahogany }
+  }
+}
+
+5
+{
+  name { Guild Rest Area  }
+  desc {
+You find yourself in the Silver Circle rest area.  Relaxing couches are
+scattered about with members resting their tired bones in them.  They
+are arranged around a mystical portal through which you can watch the
+action in the latest arena, or catch the latest debates about how the 
+guild should be run.  To the east through a stone portal you can see
+wispy tendrils of steam billowing forth.  You hear the sounds of laughter
+and merriment coming from within.
+  }
+  exits {
+	to { n, 6 }
+	to { e, 14 }
+	to { w, 1 }
+  }
+}
+
+6
+{
+  name { Grudge Match Waiting Room  }
+  desc { Here you see people lined up to participate in grudge matches.   }
+  exits {
+	to { n, 7 }
+	to { e, 25 }
+	to { s, 5 }
+	to { w, 2 }
+  }
+}
+
+8
+{
+  name { Guild Reception  }
+  desc {
+You see the receptionist's office for the guild.  It as a small room
+paneled in darkly stained cherry, matching the cherry desk behind which
+sits the receptionist-- a very talented person.  She handles all the
+affairs of the guild and can even arrange for you to rent from here
+  }
+  flags { peaceful, no_magic, rent_room }
+  exits {
+	to { n, 9 }
+	to { e, 1 }
+	to { s, 11 }
+	to { w, 16 }
+  }
+}
+
+11
+{
+  name { Guildmaster's Office  }
+  desc {
+You have entered the office of Shadowind, guildmaster of the guild.
+As you walk in, you see a large, oval-shaped room gilded in gold, silver,
+and blue with a large window on the western side of the room.  Through the
+window you see a breathtaking view of the surrounding countryside.  A
+large, curved, mahogany desk sits in front of the window.  The room is
+carpeted in a light blue trimmed with gold and containing the Great Seal
+of the Silver Circle on the ground directly in front of the desk.  Hanging
+on the walls are tapestries and mounted in the center is a portrait of the
+guild's patron goddess, the Countess of the Silver Circle.
+  }
+  exits {
+	to { n, 8 }
+  }
+}
+
+12
+{
+  name { A Lavish Bedroom  }
+  desc {
+You see a magnificent bedroom with a large bed lined up in the middle
+of the north wall of the room.  The bed is covered with deep blue coverings
+which are trimmed with silver.  The comforter is embroidered with abstract--
+yet somehow beautiful images that seem to shift constantly before your
+eyes.  At the foot of the bed you see a lovely chest.
+  }
+  extra {
+	keywords { chest }
+	desc { 
+You see a finely crafted hope chest made of several types of wood,
+primarily walnut.  The other woods are inlaid into the pattern of 
+a rose.
+	}
+  }
+  flags { private, relocate_distort }
+  tele { 0, 0, 15 }
+  exits {
+	to { s, 4 }
+	  key { 900 }
+	  info { door }
+	  keywords { south door }
+  }
+}
+
+13
+{
+  name { Outside a Stately Apartment  }
+  desc {
+You stand on a landing at the top of the staircase.  To the east is a large
+mahagony door.
+  }
+  exits {
+	to { e, 4 }
+	  key { 900 }
+	  info { door, pickproof }
+	  keywords { west door mahogany }
+	to { d, 1 }
+  }
+}
+
+14
+{
+  name { Soothing Hottub  }
+  desc {
+You are in a room tiled from floor to ceiling.  Against a background of white
+tiles are lovely geometric patterns of alternating blue and purple tiles.  In
+the eastern half of the room is a basin of dark blue tiles filled with bubbling
+inviting waters. 
+  }
+  flags { fast_mana, fast_hit_points, fast_moves }
+  exits {
+	to { w, 5 }
+  }
+}
+
+15
+{
+  name { A Nicely Decorated Office  }
+  desc {
+You are in a spacious yet not oversized office.  The floor is oak parquet and
+a persian floor rug covers the area in the southern part of the room. On the
+rug is a black onyx desk, carved from a single chunk of the stone.  Inlayed
+into the center of the work surface is a large circle pattern-- the symbol of
+the guild.  Scattered on the desk are reimbursal requests, arena consent forms,
+zone design proposals and other various vestages of an overworked Goddess.
+Behind the desk filling almost the entire wall is a window, which looks out over
+a beautiful countryside.  In the far distance you can see snowcapped mountains
+and a large forest.  Closer by, a herd of unicorns can be seen frolicking in a
+grassy field.  
+  }
+  flags { peaceful, relocate_distort }
+  tele { 0, 0, 15 }
+  exits {
+	to { n, 4 }
+	  key { 900 }
+	  info { door, closed, locked, pickproof }
+	  keywords { north }
+  }
+}
+
+16
+{
+  name { Office of the Assistant Guildmaster  }
+  desc { Empty   }
+  flags { private }
+  exits {
+	to { e, 8 }
+  }
+}
+
+25
+{
+  name { Grudge Match Room  }
+  desc { This is a room for players to settle their differences.   }
+  flags { arena }
+}

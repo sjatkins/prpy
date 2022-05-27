@@ -1,0 +1,754 @@
+#offset HuntingVillage1
+
+0
+{
+  name { Intentionally Blank  }
+  desc { Empty   }
+}
+
+1
+{
+  name { Entrance to a Hunting Village  }
+  desc {
+"   You come upon the entrance to a hunting village. To the west you see vast
+fields of grass. You are standing on a dirt path which leads to various
+huts. Blood stains the ground at your feet and looks as though creatures
+have been dragged to the south. A cool breeze from the north brings
+the smell of sweet perfume.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 5 }
+	to { e, 2 }
+	to { s, 6 }
+	to { w, 36 }
+  }
+}
+
+2
+{
+  name { An intersection in the path  }
+  desc {
+"   You have come upon the intersection of four dirt paths. Small
+buildings can be seen in all directions. The sound of barking
+dogs echo from the south.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 4 }
+	to { e, 3 }
+	to { s, 8 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { Along a dirt path  }
+  desc {
+"   The path  continues north to the base of two enormous trees. To the west the path
+continues to an intersection.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 7 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { Entrance to a Hunting Village  }
+  desc {
+"   You come upon the entrance to a hunting village. A clear path has been
+swept to the west, leading to a small straw hut. The eastern path
+leads to the bottom of two enormous trees. In the distance to the south
+you can hear dogs barking.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 19 }
+	to { e, 7 }
+	to { s, 2 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { The Merchant's Hut  }
+  desc {
+"   This hut has been placed here temporarily. Straw was used to line the
+ceiling and walls, barely enough to keep out the rain. The room has
+a pleasant odour of expensive perfume, sprayed recently enough to
+tickle your senses.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 4 }
+	to { s, 1 }
+  }
+}
+
+6
+{
+  name { The Skinning Post  }
+  desc {
+"   Several animal carcuses dangle by ropes from the ceiling. Blood and
+entrails spill at your feet. This is where the caught animals are
+skinned and gutted by one lucky hunter. A large rock has been smoothed
+to act as a table. The smell of burnt food seeps in from the south.
+  }
+  sector { Field }
+  extra {
+	keywords { rock }
+	desc { 
+"   Someone has spend a great amount of time chiseling this large
+stone into the shape of a box. It acts as an adequate skinning table.
+The top and most of the sides are permanently stained with blood.
+	}
+	keywords { carcus }
+	desc { 
+"   Dripping blood onto the floor, this large slab of meat is rather
+disturbing. You are unable to tell what kind of animal it formerly
+was but expect that it was probably a deer or elk. Flies have taken
+the liberty to lay eggs in and feed on its remains.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 1 }
+	to { s, 12 }
+  }
+}
+
+7
+{
+  name { Bottom of a Tree House  }
+  desc {
+"   You find yourself under the shade of two huge trees. A log treehouse
+has been built several meters up, held by their enormous branches.
+Dispite the stong wind atop their canopy, the trees remain still.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { s, 3 }
+	to { w, 4 }
+	to { u, 16 }
+  }
+}
+
+8
+{
+  name { Along a dirt path  }
+  desc {
+"   The path continues south towards the barking of dogs. To the north
+you spot a four way intersection. A large sturdy hut lies to your
+east.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 2 }
+	to { e, 9 }
+	to { s, 11 }
+  }
+}
+
+9
+{
+  name { The Hunters Quarters  }
+  desc {
+"   This room is cold and dirty. It doesn't seem to have been cleaned
+in years. Bits of food and spilt liquids line the floor. Several
+rock piles have been flattened and covered with animal skins to
+act as beds.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { s, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { The Hunters Quarters  }
+  desc {
+This section of the quarters is being used as storage for hunting
+equipment. Several broken weapons have been thrown on the floor, 
+many of them covered with dried blood. A target for dagger practice
+hangs from the south wall. From the looks of the target, whoever is
+throwing, rarely misses.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 9 }
+  }
+}
+
+11
+{
+  name { Along a dirt path  }
+  desc {
+"   Smoke bellows softly from a chimney of the hut to your west. Often
+you catch the smell of burning food. A dirt path continues north
+and south.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 8 }
+	to { s, 13 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { The Camp Kitchen  }
+  desc {
+"   The stench of burnt flesh and dried blood is unbearable! Most
+of the meat here looks to have gone bad. A fat cook is intend on
+cooking it anyways. A large black pot boils in a fireplace to the
+rear of the room. You sure are glad that you packed your lunch
+today.
+  }
+  sector { Field }
+  extra {
+	keywords { large pot boiling }
+	desc { 
+This is a large black pot. The cook is intent on throwing
+pieces of rotten meat and any other thing he can fit in here
+Often the pot boils over, spilling some of the mixture into
+the fireplace.
+	}
+	keywords { fireplace }
+	desc { 
+This is a large stone fireplace with the chimney disappearing
+through the ceiling. The fire inside boils a large black pot.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { n, 6 }
+	to { e, 11 }
+  }
+}
+
+13
+{
+  name { Along a dirt path  }
+  desc {
+"   Upon entering this portion of the dirt path you come upon two small
+structures. West consists of an overhead shelter and a small fenced
+enclosure. You can hear loud barking from a dog cage to the east.
+Luckily, someone has closed the cage to prevent the dogs from escaping.
+  }
+  sector { Field }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 11 }
+	to { e, 14 }
+	  info { door, closed }
+	  keywords { cage door }
+	to { w, 15 }
+  }
+}
+
+14
+{
+  name { The Dog Cage  }
+  desc {
+"   The rusty dog cage is barely high enough for you to stand in. A
+large metal bowl lies empty in the far corner. Several holes
+have been dug in the dirt throughout the pen, luckily the wire
+fence has been buried deep enough to contain the animals. You
+can tell that these dogs haven't been fed in quite some time.
+  }
+  sector { Field }
+  extra {
+	keywords { metal bowl }
+	desc { 
+"   From the shine on the metal you can tell that this is probably a
+new bowl. It seems that some animal has taken the liberty to chew it
+out of shape and puncture it with tooth holes. Could something really
+be that hungry?
+	}
+  }
+  flags { mapable }
+  exits {
+	to { w, 13 }
+	  info { door, closed }
+	  keywords { cage door }
+  }
+}
+
+15
+{
+  name { The Horse Stables  }
+  desc {
+"   The horse stable consists of a small fenced area with a leaky
+roof to protect the animals during harsh weather. To the west
+the fence opens into a small grassy field. A small bail of hay
+and a water trough are placed near the eastern fencing.
+  }
+  sector { Field }
+  extra {
+	keywords { water trough }
+	desc { 
+"   This is a rather poorly constructed wooden rectangle. The brown
+mirky water is cool to the touch but has a rather unpleasant smell.
+You decide to leave the trough alone expecting it to break at any
+time.
+	}
+	keywords { bail hay }
+	desc { 
+The bail consists of various grasses compacted and inter-twined to
+make a large ball. Small bugs scurry in and out of the bail feeding
+on its contents.
+	}
+  }
+  flags { mapable }
+  exits {
+	to { e, 13 }
+	to { w, 18 }
+  }
+}
+
+16
+{
+  name { In A Treehouse  }
+  desc {
+"   This is a finely polished room with expensive furniture. A huge
+oak bed lies against the northern wall, it is covered with several
+fine furs. A solid ladder leads down to the base of the tree.
+Above, a large hatch in the ceiling is engraved with the word
+'Lookout'.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { d, 7 }
+	to { 10, 17 }
+	  keywords { hatch }
+  }
+}
+
+17
+{
+  name { In a Lookout  }
+  desc {
+"   Wow! From this place you can see for miles in every direction but south.
+This is probably where the Chief Hunter sits when deciding which
+area to hunt. Turning to your west you can see the east gates of
+Midgard. The eastern view allows you to look atop dark pine forests
+leading to the steep mountain slopes. To the north you see miles 
+of grass blowing in the wind. Your view to the south is impeded by
+tree branches.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { 10, 16 }
+	  keywords { hatch }
+  }
+}
+
+18
+{
+  name { A Grazing Field  }
+  desc {
+"   This field allows the horses some space for movement when they
+are not in use. A fence has been carefully constructed to ensure
+none escape.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 15 }
+  }
+}
+
+19
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky. An entrance to the
+village leads to the south.
+  }
+  sector { Field }
+  flags { mapable, no_mob }
+  exits {
+	to { n, Wilderness6:43 }
+	to { e, 21 }
+	to { s, 4 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, Wilderness6:42 }
+	to { e, 19 }
+	to { w, 34 }
+  }
+}
+
+21
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, Wilderness6:44 }
+	to { e, 22 }
+	to { w, 19 }
+  }
+}
+
+22
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, Wilderness6:45 }
+	to { e, Wilderness6:146 }
+	to { s, 23 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 22 }
+	to { e, Wilderness6:246 }
+	to { s, 24 }
+  }
+}
+
+24
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 23 }
+	to { e, Wilderness6:346 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 24 }
+	to { e, Wilderness6:446 }
+	to { s, 26 }
+  }
+}
+
+26
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 25 }
+	to { e, Wilderness6:546 }
+	to { s, 27 }
+  }
+}
+
+27
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 26 }
+	to { e, Wilderness6:646 }
+	to { s, 28 }
+  }
+}
+
+28
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 27 }
+	to { e, Wilderness6:746 }
+	to { s, Wilderness6:845 }
+	to { w, 29 }
+  }
+}
+
+29
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 28 }
+	to { s, Wilderness6:844 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 29 }
+	to { s, Wilderness6:843 }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { e, 30 }
+	to { s, Wilderness6:842 }
+	to { w, 40 }
+  }
+}
+
+32
+{
+  name { 213032  }
+  desc { Empty   }
+  sector { Field }
+}
+
+33
+{
+  name { 213033  }
+  desc { Empty   }
+  sector { Field }
+}
+
+34
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, Wilderness6:41 }
+	to { e, 20 }
+	to { s, 35 }
+	to { w, Wilderness6:140 }
+  }
+}
+
+35
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 34 }
+	to { s, 36 }
+  }
+}
+
+36
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky. An entrance to the
+village leads to the east.
+  }
+  sector { Field }
+  flags { mapable, no_mob }
+  exits {
+	to { n, 35 }
+	to { e, 1 }
+	to { s, 37 }
+  }
+}
+
+37
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 36 }
+	to { s, 38 }
+  }
+}
+
+38
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 37 }
+	to { s, 39 }
+  }
+}
+
+39
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 38 }
+	to { s, 40 }
+  }
+}
+
+40
+{
+  name { A Trail around A Hunting Village  }
+  desc {
+"   You are on a well beaten trail leading through the tall thick
+grass surrounding you. The trail circles a small collection of
+huts and cabins. The sound of barking dogs echoes in the distance.
+Smoke from one hut bellows far into the sky.
+  }
+  sector { Field }
+  flags { mapable }
+  exits {
+	to { n, 39 }
+	to { e, 31 }
+  }
+}

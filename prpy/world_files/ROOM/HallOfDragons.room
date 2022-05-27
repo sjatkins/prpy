@@ -1,0 +1,17 @@
+#offset HallOfDragons
+
+0
+{
+  name { Hall of Dragons  }
+  desc {
+"
+   The hall is long and vast, filled with every kind of dragon or drake you
+could imagine, conversing.  Overhead, wyverns play tag with winged hydras.  In
+the center of the room is a pillar of ivory, on which words are written.
+
+"  }
+  exits {
+	to { 10, Asgard:0 }
+	  keywords { asgard }
+  }
+}

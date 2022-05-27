@@ -1,0 +1,6071 @@
+#offset Fortrum
+
+0
+{
+  name { An elegantly Chiseled Hallway  }
+  desc {
+"   Where the rest of Fortrum is a marvel of carved passageways and rooms,
+this hall could not be more different.  And not in a bad way.  The very
+floors upon which you tread have been carved so finely that they tell the
+tale of Fortrus, the Founder, and his trials as he led his people to the
+mountain.  No wonder this hall was hidden so well, for it is clearly not
+for the eyes of any outsider.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 175 }
+          key { 104156 }
+          info { door, pickproof, autoclose, autolock, locked, closed }
+          keywords { heavily warden archway }
+        to { n, 1 }
+  }
+}
+
+1
+{
+  name { The Juncture in the Hall of Smiths }
+  desc {
+"   The tale of Fortrus continues you here.  It seems that the old grey beard
+had made a choice at this point.  The story tells that he fashioned himself a
+shield and then a hammer.  He took these mighty artefacts to the top of the
+mountain and thereupon he drew up the runes of power, infusing his devices
+in the name of protecting his people.  And here the juncture leads to an a
+working armoury, a working weaponsmith and to the very rune forge of Fortrus
+himself, where the Thunderhammer was said to have been made.  No Dwarf out-
+side of Fortrum would ever see this spectacle.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 0 }
+        to { n, 4 }
+        to { w, 3 }
+        to { e, 2 }
+		to { d, 5 }
+  }
+}
+
+2
+{
+  name { The Weapon Forge }
+  desc { 
+"   In the corner of this room a mighty forge bellows forth heat at a
+temperature far exceeding that of a volcano.  Dwarves work diligently
+under the watchful gaze of the forge master, crafting and creating
+works unrivalled in all the realms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { w, 1 }
+  }
+}
+
+3
+{
+  name { The Armour Forge  }
+  desc { 
+"   In the corner of this room a mighty forge bellows forth heat at a
+temperature far exceeding that of a volcano.  Dwarves work diligently
+under the watchful gaze of the forge master, crafting and creating
+works unrivalled in all the realms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 1 }
+  }
+}
+
+4
+{
+  name { The Rune Forge  }
+  desc { 
+"   In the corner of this room a mighty forge bellows forth heat at a
+temperature far exceeding that of a volcano.  Dwarves work diligently
+under the watchful gaze of the forge master, crafting and creating
+works unrivalled in all the realms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 1 }
+  }
+}
+
+5
+{
+  name { A Spiral Stairway }
+  desc { 
+"   Hewn from the rock, each stair in this wide, grand stairway has been
+expertly carved to tell a tale of the heroics of the Dwarves of Fortrum.
+Here the stairs and surrounding walls and ceiling recount the legend of
+Bahl, and how he grew to give birth to two sons.  One being the famed
+Odin and the other Surtur.  The tale continues that Surtur was thrown
+out of Fortrum, banished by Bahl for a crime that doesn't appear to be
+mentioned anywhere.  The stairs continue down or back up to the forges.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { u, 1 }
+		to { d, 6 }
+  }
+}
+
+6
+{
+  name { Further up (or down) the Spiral Stairway }
+  desc {
+"   The amazing carvings on the stairs, walls and ceiling continue here.
+And so do the stories that they depict!  In this part of the stairway the
+legends turn to Hela.  She was the daughter of Odin who grew to rival him
+in power.  She fell in love with Surtur and between them they gave birth
+to two sons, Loki and Fafnir.  When Bahl learned of this he banished Hela
+and Surtur and made to put a curse of their sons, but Hela hid Loki from
+Bahl's eyes and saved him.  Sadly, she was too slow to save Fafnir, and
+the curse took hold, forever removing Surtur and Hela from their second
+son.  The stairs continue up and down.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { u, 5 }
+		to { d, 7 }
+  }
+}
+
+7
+{
+  name { The base of the Spiral Stairway }
+  desc { 
+"   This is the bottom of the stairs.  The grand, elegant carvings are
+as vivid here as they are everywhere else in this section of Fortrum.
+There are massive, stone doors here leading west, north and south.
+Each door is protected by glowing, golden runes that seem to convey a
+sense of anti-magic.  Whatever is beyond these dread portals is most
+likely unfriendly and ready for battle.  Be wary of tricks!
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { u, 6 }
+		to { w, 8 }
+		to { e, 9 }
+		to { n, 10 }
+  }
+}
+
+8
+{
+  name { The Throne of Hela }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 7 }
+  }
+}
+
+9
+{
+  name { The Throne of Loki }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { w, 7 }
+  }
+}
+
+10
+{
+  name { The Throne of Surtur }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 11 }
+  exits {
+        to { s, 7 }
+  }
+}
+
+11
+{
+  name { Fafnir's Lair }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable, no_magic }
+  exits {
+        to { s, 240 }
+		  info { message }
+  }
+  extra { 
+    keywords { _ex0 }
+	desc { "
+#{bold}You step gingerly through the shimmering, swirling portal...!#{off}	
+	}	
+  }
+}
+
+12
+{
+  name { 256012  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+13
+{
+  name { 256013  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+14
+{
+  name { 256014  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+15
+{
+  name { 256015  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+16
+{
+  name { 256016  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+17
+{
+  name { 256017  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+18
+{
+  name { 256018  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+19
+{
+  name { 256019  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+20
+{
+  name { 256020  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+21
+{
+  name { 256021  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+22
+{
+  name { 256022  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+23
+{
+  name { 256023  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+24
+{
+  name { 256024  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+25
+{
+  name { 256025  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+26
+{
+  name { 256026  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+27
+{
+  name { 256027  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+28
+{
+  name { 256028  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+29
+{
+  name { 256029  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+30
+{
+  name { 256030  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+31
+{
+  name { 256031  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+32
+{
+  name { 256032  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+33
+{
+  name { 256033  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+34
+{
+  name { 256034  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+35
+{
+  name { 256035  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+36
+{
+  name { 256036  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+37
+{
+  name { 256037  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+38
+{
+  name { 256038  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+39
+{
+  name { 256039  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+40
+{
+  name { A Back Passageway  }
+  desc {
+"  This appears to be a connecting passageway. Cramped, dimly lit..
+not comfortable at all. The only exits are to the east and an opening
+which has been carved in the floor. The floor doesn't seem very stable.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  The floor caves in and you fall!
+        }
+  }
+  flags { indoors, no_sum, private, mapable }
+  tele { 2, 1, 268 }
+  exits {
+        to { e, 168 }
+        to { d, 268 }
+  }
+}
+
+41
+{
+  name { A Back Passageway  }
+  desc {
+"  This appears to be a connecting passageway. Cramped, dimly lit..
+not comfortable at all. The only exits are to the north and an opening
+which has been carved in the floor. The floor doesn't seem very stable.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  The floor caves in and you fall!
+        }
+  }
+  flags { indoors, no_sum, private, mapable }
+  tele { 2, 1, 226 }
+  exits {
+        to { n, 168 }
+        to { d, 226 }
+  }
+}
+
+42
+{
+  name { 256042  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+43
+{
+  name { 256043  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+44
+{
+  name { 256044  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+45
+{
+  name { 256045  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+46
+{
+  name { 256046  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+47
+{
+  name { 256047  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+48
+{
+  name { 256048  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+49
+{
+  name { 256049  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+50
+{
+  name { A Set of Stone Steps  }
+  desc {
+"  There is a passage with some steps here, carved out of the stone. They
+are fairly steep, but it looks like you can make it up the safely. Trying
+to go down them might prove challenging.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 225 }
+        to { u, 51 }
+  }
+}
+
+51
+{
+  name { On the Stone Steps  }
+  desc {
+"  As you climb the steps, you start to worry about how you will get down
+them. The passageway is getting a little tight. It was obviously not carved
+for someone of your stature.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 52 }
+        to { d, 50 }
+  }
+}
+
+52
+{
+  name { On the Stone Steps  }
+  desc {
+"  As you climb the steps, you start to worry about how you will get down
+them. The passageway is getting a little tight. It was obviously not carved
+for someone of your stature.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 51 }
+        to { u, 53 }
+  }
+}
+
+53
+{
+  name { Before a Finely Carved Home  }
+  desc {
+"  You stand before a lovely dwarven home. The occupant must be held in
+fairly high regard by the city of Fortrum. The area is very private. A
+warm glow radiates from the home, illuminating the passageway.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 227 }
+        to { d, 52 }
+  }
+}
+
+54
+{
+  name { Before a Finely Carved Home  }
+  desc {
+"  You stand before a lovely dwarven home. The occupant must be held in
+fairly high regard by the city of Fortrum. The area is very private. A
+warm glow radiates from the home, illuminating the passageway.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  You lose your footing and tumble down the steps!
+        }
+  }
+  flags { no_mob, indoors, no_sum, private, mapable }
+  tele { 2, 1, 55 }
+  exits {
+        to { n, 227 }
+        to { d, 55 }
+  }
+}
+
+55
+{
+  name { On the Stone Steps  }
+  desc {
+"  As you climb the steps, you start to worry about how you will get down
+them. The passageway is getting a little tight. It was obviously not carved
+for someone of your stature.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  You bang your head!
+        }
+  }
+  flags { no_mob, indoors, no_sum, private, mapable }
+  tele { 2, 1, 56 }
+  exits {
+        to { s, 56 }
+        to { u, 54 }
+  }
+}
+
+56
+{
+  name { On the Stone Steps  }
+  desc {
+"  As you climb the steps, you start to worry about how you will get down
+them. The passageway is getting a little tight. It was obviously not carved
+for someone of your stature.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, dispel_magic }
+  tele { 2, 1, 50 }
+  exits {
+        to { n, 55 }
+        to { d, 50 }
+  }
+}
+
+57
+{
+  name { A Cozy Bedroom  }
+  desc {
+"  It is a tight squeeze in here. If you were the size of a dwarf, this
+bedroom looks like it would be very comfortable and soothing. Family
+pictures adorn the walls, and a comfy reading chair sits in the corner
+of the room.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 227 }
+  }
+}
+
+58
+{
+  name { 256058  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+59
+{
+  name { 256059  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+60
+{
+  name { A Large Set of Steps  }
+  desc {
+"  Another large passageway has been carved out here. Some steps lead down.
+There is a bit of water dripping from the ceiling. The steps appear a little
+slippery, which could prove to be dangerous.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  Your feel slip out from beneath you!
+        }
+  }
+  flags { no_mob, indoors, no_sum, private, mapable }
+  tele { 2, 1, 61 }
+  exits {
+        to { n, 225 }
+        to { d, 61 }
+  }
+}
+
+61
+{
+  name { On the Large Steps  }
+  desc {
+"  These steps are large enough to accomodate your size. You begin to
+wonder how big the dwarf must be that requires such large steps.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  You bang your head!
+        }
+  }
+  flags { no_mob, indoors, no_sum, private, mapable }
+  tele { 2, 1, 62 }
+  exits {
+        to { e, 62 }
+        to { u, 60 }
+  }
+}
+
+62
+{
+  name { On the Large Steps  }
+  desc {
+"  These steps are large enough to accomodate your size. You begin to
+wonder how big the dwarf must be that requires such large steps.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, dispel_magic }
+  tele { 2, 1, 63 }
+  exits {
+        to { w, 61 }
+        to { d, 63 }
+  }
+}
+
+63
+{
+  name { Before a Large Dwarven Home  }
+  desc {
+"  A very large home has been carved out here. The dwarf that could afford
+such a home must have a very lucrative career. Upon further inspection,
+the house doesn't appear that inviting. Perhaps you should have announced
+your visit instead of showing up unannounced.
+  }
+  extra {
+        keywords { _teleport }
+        desc {
+Drong sees you milling around outside his home, grabs you by the collar and shouts,
+"Well, if you wanna come in so bad, come on in!"
+        }
+  }
+  flags { no_mob, indoors, no_sum, private, mapable }
+  tele { 100, 1, 226 }
+  exits {
+        to { e, 226 }
+        to { u, 62 }
+  }
+}
+
+64
+{
+  name { 256064  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+65
+{
+  name { 256065  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+66
+{
+  name { 256066  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+67
+{
+  name { 256067  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+68
+{
+  name { 256068  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+69
+{
+  name { 256069  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+70
+{
+  name { A Summoning Room  }
+  desc {
+"  You have obviously accidently entered one of Morina's many summoning
+rooms. As a cleric, Morina prides herself on this talent. Unfortunately
+for you, many dangerous things can sometimes be found in such rooms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort, dispel_magic }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 232 }
+  }
+}
+
+71
+{
+  name { A Summoning Room  }
+  desc {
+"  You have obviously accidently entered one of Morina's many summoning
+rooms. As a cleric, Morina prides herself on this talent. Unfortunately
+for you, many dangerous things can sometimes be found in such rooms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort, dispel_magic }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 232 }
+  }
+}
+
+72
+{
+  name { A Summoning Room  }
+  desc {
+"  You have obviously accidently entered one of Morina's many summoning
+rooms. As a cleric, Morina prides herself on this talent. Unfortunately
+for you, many dangerous things can sometimes be found in such rooms.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort, dispel_magic }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 232 }
+  }
+}
+
+73
+{
+  name { Morina's Prayer Room  }
+  desc {
+"  This room is designed to promote a sense of calmness. You are instantly
+struck by an overwhelming feeling of peace and tranquility. If you stay
+here for too long, you may fall sound asleep. The chairs are plush and
+comfortable. The paintings on the wall are subdued and soothing. The only
+exit is back down the stairs towards the main room of Morina's shop.
+  }
+  flags { indoors, no_sum, private, fast_mana, fast_hit_points, fast_moves, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { d, 232 }
+  }
+}
+
+74
+{
+  name { 256074  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+75
+{
+  name { A Portaling Room  }
+  desc {
+"  You have entered one of Auor's portalling rooms. As a mage, this is a
+talent she takes great pride in. The powerful magic used for this spell
+seems to have changed the rooms physical properties. There is no exit in
+the direction from which you entered. The only way out appears to be
+through one of Auor's magical portals.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { 10, Midgard:31 }
+          keywords { portal }
+  }
+}
+
+76
+{
+  name { A Portaling Room  }
+  desc {
+"  You have entered one of Auor's portalling rooms. As a mage, this is a
+talent she takes great pride in. The powerful magic used for this spell
+seems to have changed the rooms physical properties. There is no exit in
+the direction from which you entered. The only way out appears to be
+through one of Auor's magical portals.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { 10, SkexiePalace:14 }
+          keywords { portal }
+  }
+}
+
+77
+{
+  name { Auor's Secret Portaling Room  }
+  desc {
+"  You have entered Auor's private portalling room. From what you see,
+Auor must be some type of spy for Fortrum. There are several portals here,
+all slightly different in appearance. This must allow her to keep up with
+the happenings around the realms. Perhaps this is how the Fortrum Dwarves
+seem to be so prepared for any conflict. There is a chalkboard on the
+northern wall.  Some notes have been scribbled on it.
+  }
+  extra {
+        keywords { chalkboard }
+        desc {
+"
+swirling ----> Terberthia
+misty ----> Chaos
+cloudy ----> Nasis (taken down - something is going on with Nasis?)
+glowing ----> Greece
+shimmering ----> Abyss
+        }
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { 10, Terberthia:77 }
+          keywords { swirling }
+        to { 11, ChaosRealm:10 }
+          keywords { misty }
+        to { 13, Wasteland:58 }
+          keywords { glowing }
+        to { 14, Abyss:15 }
+          keywords { shimmering }
+        to { 15, 210 }
+          key { 104034 }
+          info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+          keywords { panel }
+  }
+}
+
+78
+{
+  name { 256078  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+79
+{
+  name { 256079  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+80
+{
+  name { The Bottom of a Rope Ladder  }
+  desc {
+"  You are at the top of a sturdy rope ladder. The ropes appear to be new.
+The rungs look strong. This ladder must undergo regular maintenance.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 267 }
+        to { d, 81 }
+  }
+}
+
+81
+{
+  name { On a Rope Ladder  }
+  desc {
+"   As you scale the ladder, you momentarily lose your footing. However,
+you are able to correct yourself and continue unscathed. The ladder
+continues both up and down, obviously.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 80 }
+        to { d, 82 }
+  }
+}
+
+82
+{
+  name { On a Rope Ladder  }
+  desc {
+As you continue on the ladder, you begin to wonder if this was such a
+wise idea. The ladder continues both up and down, obviously.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 81 }
+        to { d, 83 }
+  }
+}
+
+83
+{
+  name { Outside an Enourmous Dwarven Home  }
+  desc {
+"  Before you stands the largest private dwarven home you have seen in
+Fortrum. The owner of such a palace must be revered by the community.
+You start to wonder if a suprise visit by anyone, let alone an outsider,
+is going to be deemed appropriate.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 268 }
+        to { u, 82 }
+  }
+}
+
+84
+{
+  name { 256084  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+85
+{
+  name { The Bottom of a Rope Ladder  }
+  desc {
+"  You are at the bottom of a sturdy rope ladder. The ropes appear to be
+new. The rungs look strong. This ladder must undergo regular maintenance.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 267 }
+        to { u, 86 }
+  }
+}
+
+86
+{
+  name { On a Rope Ladder  }
+  desc {
+"   As you scale the ladder, you momentarily lose your footing. However,
+you are able to correct yourself and continue unscathed. The ladder
+continues both up and down, obviously.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 87 }
+        to { d, 85 }
+  }
+}
+
+87
+{
+  name { On a Rope Ladder  }
+  desc {
+As you continue on the ladder, you begin to wonder if this was such a
+wise idea. The ladder continues both up and down, obviously.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 88 }
+        to { d, 86 }
+  }
+}
+
+88
+{
+  name { Outside an Exquisitely Carved Home  }
+  desc {
+"  You can't even imagine the time and dedication it took to carve out such
+a home. The gifted crafstmanship is staggering. This is obviously the home
+of a dwarf that has set themself apart from the rest in some way. A small
+pet dragon is curled up here, standing guard. Perhaps you should have
+told the owner that you would be stopping by.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 269 }
+        to { d, 87 }
+  }
+}
+
+89
+{
+  name { 256089  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+90
+{
+  name { 256090  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+91
+{
+  name { 256091  }
+  desc { Empty
+  }
+  flags { mapable }
+}
+
+92
+{
+  name { A Grand and Imposing Gate  }
+  desc {
+"  As you pass through the gate, you notice the fantastic craftsmanship
+that went into its design. Functionally sound and able to serve its main
+purpose of protection with ease, the artisan who created this gate obviously
+cared a great deal about how it looked as well. The gate is adorned with the
+symbols of the various Fortish clans. The main symbol of the Fortrum Empire
+is showcased very imposingly in the gate's center.
+  }
+  sector { Mountains }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 93 }
+        to { s, PlainsPharsica:364 }
+  }
+}
+
+93
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 94 }
+        to { s, 92 }
+  }
+}
+
+94
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 95 }
+        to { s, 93 }
+  }
+}
+
+95
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 96 }
+        to { s, 94 }
+  }
+}
+
+96
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 97 }
+        to { s, 95 }
+  }
+}
+
+97
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 98 }
+        to { s, 96 }
+  }
+}
+
+98
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 99 }
+        to { s, 97 }
+  }
+}
+
+99
+{
+  name { Across a Magestic Marble Bridge  }
+  desc {
+"  This magestic marble bridge was obviously crafted by a very talented
+Fortish stone mason. Although many centuries old, it's beauty has survived
+the passage of time. Looking off the bridge and down into the valley below,
+it is apparent that a fall from here would be the end of your journey. The
+bridge ends to the north at a solid stone wall. The south end of the bridge
+connects to a large stone platform.
+  }
+  sector { Bridge }
+  extra {
+        keywords { _ex1 }
+        desc {
+"  Thank goodness.  A stone platform!  All that swaying was going to make you hurl.
+        }
+        keywords { _ex3 }
+        desc {  "  The sturdy rope bridge sways gently with each footstep.
+        }
+  }
+  exits {
+        to { n, 100 }
+        to { s, 98 }
+  }
+}
+
+100
+{
+  name { Before the Archway  }
+  desc {
+"  You are standing before a giant archway carved into the wall. The
+impenetrable fortress of Fortrum lies beyond. The fortress was designed
+to stop invaders from marching on the city beyond. Luckily for you, the
+giant metal gate is wide open. The dwarves must not currently be at war.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 101 }
+        to { s, 99 }
+  }
+}
+
+101
+{
+  name { Under the Archway  }
+  desc {
+"   You are standing under a giant archway carved into the wall. There
+was a time when outsiders would not have been able to get within a
+hundred miles of this dwarven fortress. You can go north, and enter the
+fortress. Or, you could go south and leave the dwarven stronghold.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 123 }
+        to { s, 100 }
+  }
+}
+
+102
+{
+  name { Alongside a Huge Wall  }
+  desc {
+"  There is a staircase to the east, which appears to lead to the top of
+the fortress wall.  The wall currently looks unguarded, like the rest
+of the fortress.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 123 }
+        to { u, 103 }
+  }
+}
+
+103
+{
+  name { Stairs Alongside a Huge wall  }
+  desc {
+"  As you climb the wall stairs, you admire the craftsmanship of this
+fortress. What a perfectly designed stronghold, easily defendable. This
+race has a talent for all things related to war that is quite remarkable.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 104 }
+        to { d, 102 }
+  }
+}
+
+104
+{
+  name { Stairs Alongside a Huge wall  }
+  desc {
+"  As you climb the wall stairs, you admire the craftsmanship of this
+fortress. What a perfectly designed stronghold, easily defendable. This
+race has a talent for all things related to war that is quite remarkable.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 105 }
+        to { d, 103 }
+  }
+}
+
+105
+{
+  name { On the Western Wall  }
+  desc {
+"   You are standing on the western side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south. A stairscase leads down.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 106 }
+        to { s, 109 }
+        to { d, 104 }
+  }
+}
+
+106
+{
+  name { On the Western Wall  }
+  desc {
+"   You are standing on the western side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 107 }
+        to { s, 105 }
+  }
+}
+
+107
+{
+  name { On the Western Wall  }
+  desc {
+"   You are standing on the western side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 108 }
+        to { s, 106 }
+  }
+}
+
+108
+{
+  name { The Mountain Face  }
+  desc {
+"   The wall comes to an abrubt end at the sheer face of the mountain.
+The solid rock of the mountain makes you admire what a feat carving
+this fortress must have been.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { s, 107 }
+  }
+}
+
+109
+{
+  name { Southwest Corner of the Wall  }
+  desc {
+"   You are standing on the southeast corner of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 105 }
+        to { e, 110 }
+  }
+}
+
+110
+{
+  name { On the Southern Wall  }
+  desc {
+"   You are standing on the southern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the east
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 111 }
+        to { w, 109 }
+  }
+}
+
+111
+{
+  name { On the Southern Wall  }
+  desc {
+"   You are standing on the southern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the east
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 112 }
+        to { w, 110 }
+  }
+}
+
+112
+{
+  name { Atop an Enormous Archway  }
+  desc {
+"   You are standing on top of the enourmous archway in the fortress wall.
+This wall has one sole purpose, to keep people out. The builders of this
+wall were very keen on protecting their city. From this vantage point,
+a sneak attack on the city would be impossible. The wall continues to the
+east and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 113 }
+        to { w, 111 }
+  }
+}
+
+113
+{
+  name { On the Southern Wall  }
+  desc {
+"   You are standing on the southern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the east
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 114 }
+        to { w, 112 }
+  }
+}
+
+114
+{
+  name { On the Southern Wall  }
+  desc {
+"   You are standing on the southern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the east
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { e, 115 }
+        to { w, 113 }
+  }
+}
+
+115
+{
+  name { Southeast Corner of the Wall  }
+  desc {
+"   You are standing on the southeast corner of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 116 }
+        to { w, 114 }
+  }
+}
+
+116
+{
+  name { On the Eastern Wall  }
+  desc {
+"   You are standing on the eastern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south. A stairscase leads down.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 117 }
+        to { s, 115 }
+        to { d, 120 }
+  }
+}
+
+117
+{
+  name { On the Eastern Wall  }
+  desc {
+"   You are standing on the eastern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 118 }
+        to { s, 116 }
+  }
+}
+
+118
+{
+  name { On the Eastern Wall  }
+  desc {
+"   You are standing on the eastern side of the fortress wall. This wall
+has one sole purpose, to keep people out. The builders of this wall were
+very keen on protecting their city. From this vantage point, a sneak
+attack on the city would be impossible. The wall continues to the north
+and south.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 119 }
+        to { s, 117 }
+  }
+}
+
+119
+{
+  name { The Mountain Face  }
+  desc {
+"   The wall comes to an abrubt end at the sheer face of the mountain.
+The solid rock of the mountain makes you admire what a feat carving
+this fortress must have been.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { s, 118 }
+  }
+}
+
+120
+{
+  name { Stairs Alongside a Huge wall  }
+  desc {
+"  As you climb the wall stairs, you admire the craftsmanship of this
+fortress. What a perfectly designed stronghold, easily defendable. This
+race has a talent for all things related to war that is quite remarkable.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 116 }
+        to { d, 121 }
+  }
+}
+
+121
+{
+  name { Stairs Alongside a Huge wall  }
+  desc {
+"  As you climb the wall stairs, you admire the craftsmanship of this
+fortress. What a perfectly designed stronghold, easily defendable. This
+race has a talent for all things related to war that is quite remarkable.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 120 }
+        to { d, 122 }
+  }
+}
+
+122
+{
+  name { Alongside a Huge Wall  }
+  desc {
+"  There is a staircase to the east, which appears to lead to the top of
+the fortress wall.  The wall currently looks unguarded, like the rest
+of the fortress.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { w, 123 }
+        to { u, 121 }
+  }
+}
+
+123
+{
+  name { Within the Fortress Wall  }
+  desc {
+"  The dwarven fortress of Fortrum is quite a sight to behold. Excellent
+craftsmanship partnered with a keen insight for defense. No wonder the
+city beyond has survived for centuries. The dwarves have perfected the
+art of war down to a science.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 125 }
+        to { e, 122 }
+        to { s, 101 }
+        to { w, 102 }
+  }
+}
+
+124
+{
+  name { 256124  }
+  desc { Empty
+  }
+  flags { no_sum, private, mapable }
+}
+
+125
+{
+  name { Path Towards the Mountain  }
+  desc {
+"  This narrow path snakes north, towards the towering mountain. You have
+heard that outsiders have become more common in the dwarven city. It was
+not always so. Perhaps you will be able to see some of the legendary
+battle gear up close.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 126 }
+        to { s, 123 }
+  }
+}
+
+126
+{
+  name { Path Towards the Mountain  }
+  desc {
+"  This narrow path snakes north, towards the towering mountain. You have
+heard that outsiders have become more common in the dwarven city. It was
+not always so.  You can follow the path north or south. Small carved out
+rooms also sit to the east and west.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 129 }
+        to { e, 127 }
+        to { s, 125 }
+        to { w, 128 }
+  }
+}
+
+127
+{
+  name { A Dwarven Training Facility  }
+  desc {
+"  A dwarven guildmaster has been stationed here to help those in training.
+Over the centuries, he has been involved in many epic battles. He decided
+to spend his golden years living in the relative peace found in Fortrum city.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { w, 126 }
+  }
+}
+
+128
+{
+  name { The Infirmary  }
+  desc {
+"  You don't see many dwarves in the infirmary at the moment. However,
+you are sure it has seen alot of action over the centuries. The Fortish
+battles are legendary.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { e, 126 }
+  }
+}
+
+129
+{
+  name { Before a Chiseled Staircase  }
+  desc {
+"  The snaking path ends at a steep staircase carved into the mountain
+itself. It is very steep, and very intimidating. You can traverse the
+staircase, or proceed south, down the snaking path.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { s, 126 }
+        to { u, 130 }
+  }
+}
+
+130
+{
+  name { Giant Steps Carved into the Mountain  }
+  desc {
+"   The steps are quite steep, making them somewhat difficult to climb.
+Further ahead, at the top of the staircase, you see a magnificent archway.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 131 }
+        to { d, 129 }
+  }
+}
+
+131
+{
+  name { Giant Steps Carved into the Mountain  }
+  desc {
+"   The steps are quite steep, making them somewhat difficult to climb.
+Further ahead, at the top of the staircase, you see a magnificent archway.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { u, 132 }
+        to { d, 130 }
+  }
+}
+
+132
+{
+  name { Before a Chiseled Archway  }
+  desc {
+"   You are standing before a giant archway carved into the mountain.
+You see the flicker of a torch illuminate the walls deeper within the
+passageway ahead.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 133 }
+        to { d, 131 }
+  }
+}
+
+133
+{
+  name { Under a Chiseled Archway  }
+  desc {
+"   You are starting to feel somewhat insignificant standing under such
+an enormous archway. The size appears to be a not so sublte form of
+intimidation. The dwarves are nothing if not a proud race.
+  }
+  flags { no_sum, private, mapable }
+  exits {
+        to { n, 134 }
+        to { s, 132 }
+  }
+}
+
+134
+{
+  name { Inside the Mountain  }
+  desc {
+"   As you step into the mountain, you notice a slight decrease in
+temperature. Further to the north, the torch light becomes more visible.
+Your eyes start to adjust to the new lighting conditions.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 135 }
+        to { s, 133 }
+  }
+}
+
+135
+{
+  name { Entrance to the Underground City  }
+  desc {
+"   The entrance to the dwarven city of Fortrum opens up here. Tunnels and
+passageways lead of in every direction. This area looks like is was carved
+out long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 136 }
+        to { e, 275 }
+        to { s, 134 }
+        to { w, 350 }
+        to { d, 273 }
+  }
+}
+
+136
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 137 }
+        to { s, 135 }
+  }
+}
+
+137
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 138 }
+        to { s, 136 }
+  }
+}
+
+138
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 139 }
+        to { s, 137 }
+  }
+}
+
+139
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 140 }
+        to { s, 138 }
+  }
+}
+
+140
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 141 }
+        to { s, 139 }
+  }
+}
+
+141
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 142 }
+        to { s, 140 }
+  }
+}
+
+142
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 143 }
+        to { s, 141 }
+  }
+}
+
+143
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 144 }
+        to { s, 142 }
+  }
+}
+
+144
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 145 }
+        to { s, 143 }
+  }
+}
+
+145
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { n, 146 }
+          key { 104031 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { mithril }
+        to { s, 144 }
+  }
+}
+
+146
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"  Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { s, 145 }
+          key { 104031 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { mithril }
+        to { d, 147 }
+  }
+}
+
+147
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 146 }
+        to { d, 148 }
+  }
+}
+
+148
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 147 }
+        to { d, 149 }
+  }
+}
+
+149
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 148 }
+        to { d, 150 }
+  }
+}
+
+150
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 149 }
+        to { d, 151 }
+  }
+}
+
+151
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 150 }
+        to { d, 152 }
+  }
+}
+
+152
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 240 }
+          key { 104031 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { mithril }
+        to { u, 151 }
+        to { d, 153 }
+  }
+}
+
+153
+{
+  name { A Majestic Sloping Passageway  }
+  desc {
+"   Nothing about this passageway is pedestrian. It looks as though it
+was designed to be awe inspiring. Battle scenes are carves on the walls
+all around you. The dwarves depicted in them are wearing magnificent
+armor adorned with the symbols you have seen lining the walls. Some very
+proud and important dwarves must be further along this path.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { u, 152 }
+        to { d, 175 }
+  }
+}
+
+154
+{
+  name { Council Chambers of the Clans' Elders  }
+  desc {
+"  You are standing in one of the largest chamber rooms you have ever seen.
+Symbols, banners, and weapons adorn all the walls of this great meeting place.
+A large table sits directly in the room's center. Although enormous, the table
+sits quite low to the ground.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 155 }
+        to { e, 160 }
+        to { s, 165 }
+        to { w, 170 }
+  }
+}
+
+155
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 156 }
+        to { s, 154 }
+  }
+}
+
+156
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 157 }
+        to { s, 155 }
+  }
+}
+
+157
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 158 }
+        to { s, 156 }
+  }
+}
+
+158
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 159 }
+        to { s, 157 }
+  }
+}
+
+159
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head.  A beautiful golden door blocks the way north.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 175 }
+          key { 104027 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { golden }
+        to { s, 158 }
+  }
+}
+
+160
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater detail. A carved blue door blocks the way east.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 161 }
+          key { 104029 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { blue }
+        to { w, 154 }
+  }
+}
+
+161
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater  detail. A carved blue door blocks the way west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 163 }
+        to { e, 164 }
+        to { s, 162 }
+        to { w, 160 }
+          key { 104029 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { blue }
+  }
+}
+
+162
+{
+  name { Gorak's War Room  }
+  desc {
+"   This is the war room of Gorak, the blue clan Warchief. In this room,
+many strategic military decisions are made. You will commonly find Gromm
+here several times throughout any given day. The tables and walls are
+covered with maps and battle plans for, what appears to be, an upcoming,
+large scale conflict.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 161 }
+  }
+}
+
+163
+{
+  name { Gammel's Chamber of Transcendental Meditation  }
+  desc {
+"   Gammel's chamber is where he meditates about the future of his clan,
+from a spiritual and theological standpoint. He is often found kneeling
+in front of the altar, silently asking the ancient dieties to help and
+guide his people through times of conflict, and deliver them to peace.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 161 }
+  }
+}
+
+164
+{
+  name { Bazel's Chambers  }
+  desc {
+"  Bazel's chambers are suprisingly humble and unassuming for one of the
+most powerful dwarves in all of Fortrum. In Fortrum, the elders are
+revered. Bazel is looked to for guidance in all manner of things. He is
+not feared, but rather sumpremely admired, honored, and respected. His
+words are not orders, but are followed as such. They are not followed
+because they have to be. They are followed because they should be.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { w, 161 }
+  }
+}
+
+165
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater  detail. A carved red door blocks the way south.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 154 }
+        to { s, 166 }
+          key { 104030 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { red }
+  }
+}
+
+166
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater  detail. A carved red door blocks the way north.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 165 }
+          key { 104030 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { red }
+        to { e, 167 }
+        to { s, 169 }
+        to { w, 168 }
+  }
+}
+
+167
+{
+  name { Morral's Chamber of Spiritual Comtemplation  }
+  desc {
+"   Morral's chamber is where she contemplates over the future of her clan,
+from a spiritual and theological perspective. She is often found kneeling
+in front of the altar, silently asking the ancient dieties to help and
+guide her people through times of conflict, and deliver them to peace.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { w, 166 }
+  }
+}
+
+168
+{
+  name { Groth's War Room  }
+  desc {
+"  This is the war room of Groth, the red clan Warchief. In this room, many
+strategic military decisions are made. You will commonly find both Drong
+and Grimlag here several times in the course of any given day. Although
+Drong is included in meetings, it is no secret that Groth favors Grimlag's
+commanding technique.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 166 }
+        to { s, 41 }
+        to { w, 40 }
+  }
+}
+
+169
+{
+  name { Odin's Chambers  }
+  desc {
+"  Odin's chambers are suprisingly humble and unassuming for one of the
+most powerful dwarves in all of Fortrum. In Fortrum, the elders are
+revered. Odin is looked to for guidance in all manner of things. He is
+not feared, but rather sumpremely admired, honored, and respected. His
+words are not orders, but are followed as such. They are not followed
+because they have to be. They are followed because they should be.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 166 }
+  }
+}
+
+170
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater  detail. A carved green door blocks the way west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 154 }
+        to { w, 171 }
+          key { 104028 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { green }
+  }
+}
+
+171
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather prodrude out. Unlike the other
+passageways, only one symbol seems to repeat here. It also appears much
+larger and in greater  detail. A carved green door blocks the way east.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 173 }
+        to { e, 170 }
+          key { 104028 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { green }
+        to { s, 172 }
+        to { w, 174 }
+  }
+}
+
+172
+{
+  name { Valek's Chamber of Theological Rumination  }
+  desc {
+"   Valek's chamber is where he ruminates as to the future of his clan,
+from a spiritual and theological viewpoint. He is often found kneeling
+in front of the altar, silently asking the ancient dieties to help and
+guide his people through times of conflict, and deliver them to peace.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { n, 171 }
+  }
+}
+
+173
+{
+  name { Boril's War Room  }
+  desc {
+"   This is the war room of Boril, the green clan Warchief. In this room,
+many strategic military decisions are made. You will commonly find Kragg
+here several times throughout any given day. The tables and walls are
+covered with maps and battle plans for, what appears to be, an upcoming,
+large scale conflict.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 171 }
+  }
+}
+
+174
+{
+  name { Gilin's Chambers  }
+  desc {
+"  Gilin's chambers are suprisingly humble and unassuming for one of the
+most powerful dwarves in all of Fortrum. In Fortrum, the elders are
+revered. Gilin is looked to for guidance in all manner of things. He is
+not feared, but rather sumpremely admired, honored, and respected. His
+words are not orders, but are followed as such. They are not followed
+because they have to be. They are followed because they should be.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { e, 171 }
+  }
+}
+
+175
+{
+  name { A Finely Chiseled Passageway  }
+  desc {
+"   Someone took a lot of pride in carving out this passageway. It is much
+less rough cut than the others in this mountain. Some symbols adorn the
+walls. They are not etched in, but rather protrude out. You make note of
+three which are very distinct and repeat often. One lines the wall to the
+east. Another can be seen on the western wall. And, the third repeats on
+the wall above your head. A beautiful golden door blocks the way south.
+To the north a depression in the stone of the passageway marks the outline
+of a heavily warded archway that seems to fade from view as you look at it.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 240 }
+  exits {
+        to { s, 159 }
+          key { 104027 }
+          info { door, pickproof, autoclose, autolock, locked, closed }
+          keywords { golden }
+        to { u, 153 }
+        to { n, 0 }
+          key { 104156 }
+          info { door, pickproof, autoclose, autolock, hidden, secret, locked, closed }
+          keywords { heavily warded archway }
+  }
+}
+
+176
+{
+  name { 256176  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+177
+{
+  name { 256177  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+178
+{
+  name { 256178  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+179
+{
+  name { 256179  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+180
+{
+  name { 256180  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+181
+{
+  name { 256181  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+182
+{
+  name { 256182  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+183
+{
+  name { 256183  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+184
+{
+  name { 256184  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+185
+{
+  name { 256185  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+186
+{
+  name { 256186  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+187
+{
+  name { 256187  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+188
+{
+  name { 256188  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+189
+{
+  name { 256189  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+190
+{
+  name { 256190  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+191
+{
+  name { 256191  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+192
+{
+  name { 256192  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+193
+{
+  name { 256193  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+194
+{
+  name { 256194  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+195
+{
+  name { 256195  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+196
+{
+  name { 256196  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+197
+{
+  name { 256197  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+198
+{
+  name { 256198  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+199
+{
+  name { 256199  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private }
+}
+
+200
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 270 }
+        to { d, 201 }
+  }
+}
+
+201
+{
+  name { Deep Within Fortrum  }
+  desc {
+"   You are now deep within the mountain city of Fortrum. Although these
+dwarves are known for their incredible appetites for drinking and
+fighting, you are certain no advancing army could penetrate this far into
+their city. The cavern opens up to the north. You hear the sounds of the
+city echoing throughout this area.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 202 }
+        to { u, 200 }
+  }
+}
+
+202
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 205 }
+        to { e, 203 }
+        to { s, 201 }
+        to { w, 204 }
+  }
+}
+
+203
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 202 }
+  }
+}
+
+204
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 202 }
+  }
+}
+
+205
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 208 }
+        to { e, 206 }
+        to { s, 202 }
+        to { w, 207 }
+  }
+}
+
+206
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 205 }
+  }
+}
+
+207
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 205 }
+  }
+}
+
+208
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 211 }
+        to { s, 205 }
+        to { w, 210 }
+  }
+}
+
+209
+{
+  name { An Inn  }
+  desc {
+"  The inn is quaintly decorated and unassuming. Your things would probably
+be very safe here, should you decide to take some well deserved rest.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 212 }
+  }
+}
+
+210
+{
+  name { Auor's Shop  }
+  desc {
+"  This is the shop of Auor, the dwarven mage. Everything you see in this
+shop is designed to either increase the fighting prowess of her dwarven
+patrons, or or to weaken their enemies. A freshly created portal shimmers
+in the back of the shop. It seems to almost blink in and out of existence.
+Auor equally divides her time between tending to her shop, and exploring
+the distant reaches of this world and others.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 75 }
+        to { e, 208 }
+        to { s, 76 }
+        to { 10, Abyss:15 }
+          info { secret, hidden }
+          keywords { shimmering }
+        to { 11, 77 }
+          key { 104034 }
+          info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+          keywords { panel }
+  }
+}
+
+211
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 214 }
+        to { e, 212 }
+        to { s, 208 }
+        to { w, 213 }
+  }
+}
+
+212
+{
+  name { Dwarven Tavern  }
+  desc {
+"  The taverns are obvioulsy the hubs of activity in Fortrum. The noise
+is a little overwhelming. Dwarves are constantly coming and going. Every
+dwarf in the place is either yelling, laughing, or passed out.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 215 }
+        to { e, 217 }
+          info { door }
+          keywords { door }
+        to { s, 209 }
+        to { w, 211 }
+  }
+}
+
+213
+{
+  name { Dwarven Weaponsmith  }
+  desc {
+"  The weaponsmith is here banging away at something. He seems very focused
+on whatever it is he is working on. The room is meticulously arranged.
+There are various projects here, all neatly organized and labeled for
+later comletion and delivery.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 255 }
+        to { e, 211 }
+        to { w, 259 }
+          info { door }
+          keywords { door }
+  }
+}
+
+214
+{
+  name { The Main Square in Fortrum  }
+  desc {
+"   You are standing in the middle of Fortrum's main square. You have
+never seen this many dwarves in your life. The city overwhelms your
+senses. All of the noise echoes around this great chamber. You hear the
+constant clanging of a blacksmith. Drunken dwarves stumble out of the
+tavern. Every so often you notice a fight break out, but often they end
+in drunken laughter. The smell of roasting meat floats through the air.
+This city definitely has a character all its own.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 228 }
+        to { e, 215 }
+        to { s, 211 }
+        to { w, 255 }
+  }
+}
+
+215
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 229 }
+        to { e, 216 }
+        to { s, 212 }
+        to { w, 214 }
+  }
+}
+
+216
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 219 }
+        to { w, 215 }
+  }
+}
+
+217
+{
+  name { Tavern Owner's House  }
+  desc {
+"  As you pass through the back door of the tavern, you realize that you
+have entered the owner's place of residence. There is a pleasant warmth
+radiating from a small fireplace in the back wall. A chimney must have
+been carved all the way up through the mountain.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 212 }
+          info { door }
+          keywords { door }
+  }
+}
+
+218
+{
+  name { Blacksmith's House  }
+  desc {
+"  As you pass through the back door of the blacksmith's shop, you realize
+that you have entered his place of residence. There is a pleasant warmth
+radiating from a small fireplace in the back wall. A chimney must have been
+carved all the way up through the mountain.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 229 }
+          info { door }
+          keywords { door }
+  }
+}
+
+219
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 221 }
+          info { door }
+          keywords { door }
+        to { e, 222 }
+        to { s, 220 }
+          info { door }
+          keywords { door }
+        to { w, 216 }
+  }
+}
+
+220
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 219 }
+          info { door }
+          keywords { door }
+  }
+}
+
+221
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 219 }
+          info { door }
+          keywords { door }
+  }
+}
+
+222
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 224 }
+          info { door }
+          keywords { door }
+        to { e, 225 }
+        to { s, 223 }
+          info { door }
+          keywords { door }
+        to { w, 219 }
+  }
+}
+
+223
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 222 }
+          info { door }
+          keywords { door }
+  }
+}
+
+224
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 222 }
+          info { door }
+          keywords { door }
+  }
+}
+
+225
+{
+  name { End of the Passageway  }
+  desc {
+"   You have come to the end of the passageway. The hustle and bustle of
+the city is more subdued in this area. A portion of the mountain wall is
+carved out in such a way to leave room for future expansion. There are
+steps to the north and south. Far back to the west is Fortrum's main
+square.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 50 }
+        to { s, 60 }
+        to { w, 222 }
+  }
+}
+
+226
+{
+  name { The Home of Drong  }
+  desc {
+"  A battle commander for the red clan, Drong prides himself on the fact
+that his planned battles have consistently resulted in very low dwarven
+causalties. This priority is somewhat in conflict with that of his direct
+superior, Grimlag.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, Terberthia:2307 }
+  exits {
+        to { w, 63 }
+  }
+}
+
+227
+{
+  name { The Home Of Bolim  }
+  desc {
+"  This is the home of Bolim, a scout for the red clan. Although a scout
+for more years than Hildr, he has not proven himself to be nearly as
+talented. This fact causes some resentment, and is somewhat of a strain
+on their professional relationship.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 57 }
+        to { s, 54 }
+  }
+}
+
+228
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 231 }
+        to { e, 229 }
+        to { s, 214 }
+        to { w, 230 }
+  }
+}
+
+229
+{
+  name { Dwarven Blacksmith  }
+  desc {
+"  The blacksmith is here banging away at something. He seems very focused
+on whatever he is working on. The room is littered with projects in various
+stages of completion. This dwarf appears to have a system, it is just very
+hard to figure out quite what it is.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 218 }
+          info { door }
+          keywords { door }
+        to { s, 215 }
+        to { w, 228 }
+  }
+}
+
+230
+{
+  name { Dwarven Tavern  }
+  desc {
+"  The taverns are obvioulsy the hubs of activity in Fortrum. The noise
+is a little overwhelming. Dwarves are constantly coming and going. Every
+dwarf in the place is either yelling, laughing, or passed out.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 233 }
+        to { e, 228 }
+        to { s, 255 }
+        to { w, 260 }
+          info { door }
+          keywords { door }
+  }
+}
+
+231
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 234 }
+        to { e, 232 }
+        to { s, 228 }
+  }
+}
+
+232
+{
+  name { Morina's Shop  }
+  desc {
+"  The shelves of this shop are lined with various healing salves and
+potions. Morina, the dwarven cleric, prides herself at keeping her patrons
+in good health. You can see her summoning rooms off in almost every
+direction. Some stairs lead up to a very peaceful looking room. Morina's
+customers use this room for meditation and prayer.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 70 }
+        to { e, 71 }
+        to { s, 72 }
+        to { w, 231 }
+        to { u, 73 }
+  }
+}
+
+233
+{
+  name { An Inn  }
+  desc {
+"  The inn is quaintly decorated and unassuming. Your things would probably
+be very safe here, should you decide to take some well deserved rest.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 230 }
+  }
+}
+
+234
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 237 }
+        to { e, 235 }
+        to { s, 231 }
+        to { w, 236 }
+  }
+}
+
+235
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 234 }
+  }
+}
+
+236
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 234 }
+  }
+}
+
+237
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 240 }
+        to { e, 238 }
+        to { s, 234 }
+        to { w, 239 }
+  }
+}
+
+238
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 237 }
+  }
+}
+
+239
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 237 }
+  }
+}
+
+240
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction. A solid looking door lies to the north.
+  }
+  flags { indoors, no_sum, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 152 }
+          key { 104031 }
+          info { door, pickproof, autoclose, autolock }
+          keywords { mithril }
+        to { e, 241 }
+        to { s, 237 }
+        to { w, 247 }
+  }
+}
+
+241
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 242 }
+        to { w, 240 }
+  }
+}
+
+242
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 243 }
+        to { w, 241 }
+  }
+}
+
+243
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 244 }
+        to { w, 242 }
+  }
+}
+
+244
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 380 }
+  exits {
+        to { e, 245 }
+        to { w, 243 }
+  }
+}
+
+245
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the passageway as it begins to slope up, or proceed west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { w, 244 }
+        to { u, 246 }
+  }
+}
+
+246
+{
+  name { A Narrow Sloping Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the sloping passageway either up or down.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 321 }
+        to { d, 245 }
+  }
+}
+
+247
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 240 }
+        to { w, 248 }
+  }
+}
+
+248
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 247 }
+        to { w, 249 }
+  }
+}
+
+249
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 248 }
+        to { w, 250 }
+  }
+}
+
+250
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. The
+passageway continues to the east and west.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 249 }
+        to { w, 251 }
+  }
+}
+
+251
+{
+  name { A Narrow Chiseled Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the passageway as it begins to slope up, or proceed east.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 250 }
+        to { u, 252 }
+  }
+}
+
+252
+{
+  name { A Narrow Sloping Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the sloping passageway either up or down.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { u, 253 }
+        to { d, 251 }
+  }
+}
+
+253
+{
+  name { A Narrow Sloping Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the sloping passageway either up or down.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 254 }
+        to { d, 252 }
+  }
+}
+
+254
+{
+  name { A Narrow Sloping Passageway  }
+  desc {
+"   The mountain closes in on you a bit in this passageway. Obviously
+tunneled out more for utility than grandeur, you suspect this is more
+of a pass-through, linking different levels of the dwarven city. You
+can follow the sloping passageway either up or down.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 392 }
+        to { d, 253 }
+  }
+}
+
+255
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 230 }
+        to { e, 214 }
+        to { s, 213 }
+        to { w, 258 }
+  }
+}
+
+256
+{
+  name { 256256  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+257
+{
+  name { 256257  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+258
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 255 }
+        to { w, 261 }
+  }
+}
+
+259
+{
+  name { Weaponsmith's House  }
+  desc {
+"  As you pass through the back door of the weaponsmith's shop, you realize
+that you have entered his place of residence. There is a pleasant warmth
+radiating from a small fireplace in the back wall. A chimney must have been
+carved all the way up through the mountain.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 213 }
+          info { door }
+          keywords { door }
+  }
+}
+
+260
+{
+  name { Tavern Owner's House  }
+  desc {
+"  As you pass through the back door of the tavern, you realize that you
+have entered the owner's place of residence. There is a pleasant warmth
+radiating from a small fireplace in the back wall. A chimney must have
+been carved all the way up through the mountain.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 230 }
+          info { door }
+          keywords { door }
+  }
+}
+
+261
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 263 }
+          info { door }
+          keywords { door }
+        to { e, 258 }
+        to { s, 262 }
+          info { door }
+          keywords { door }
+        to { w, 264 }
+  }
+}
+
+262
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 261 }
+          info { door }
+          keywords { door }
+  }
+}
+
+263
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 261 }
+          info { door }
+          keywords { door }
+  }
+}
+
+264
+{
+  name { A Grand Chiseled Passageway  }
+  desc {
+"   This area is huge. Calling it a passageway doesn't begin to do it
+justice. The underground city of Fortrum opens up before you. It must
+have taken centuries for the dwarves to carve this city out of the
+mountain's depths. The city is a little cold, but not unbearable. All
+around you dwarves are going about their business. They do not seem too
+conerned about your presence, although you do notice an occasional look
+shot in your general direction.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 266 }
+          info { door }
+          keywords { door }
+        to { e, 261 }
+        to { s, 265 }
+          info { door }
+          keywords { door }
+        to { w, 267 }
+  }
+}
+
+265
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 264 }
+          info { door }
+          keywords { door }
+  }
+}
+
+266
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 264 }
+          info { door }
+          keywords { door }
+  }
+}
+
+267
+{
+  name { End of the Passageway  }
+  desc {
+"   You have come to the end of the passageway. The hustle and bustle of
+the city is more subdued in this area. A portion of the mountain wall is
+carved out in such a way to leave room for future expansion. There are
+rooms to the north and south. Far back to the west is Fortrum's main
+square.
+  }
+  flags { indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { n, 85 }
+        to { e, 264 }
+        to { s, 80 }
+  }
+}
+
+268
+{
+  name { The Home of Grimlag  }
+  desc {
+"  This is the home of Grimlag, head battle commander for the red clan.
+Grimlag's top prioroty is victory, regardless of how many die under his
+command. Although this philosophy has served the dwarves well over the
+years, progressive thinkers such as Drong are viewed as the future of
+this dwarven city.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { e, 83 }
+  }
+}
+
+269
+{
+  name { The Home of Hildr  }
+  desc {
+"   Hildr, the head scout for the red clan, is a relatively young dwarf
+to hold such a lofty position. Highly motivated and extremely talented,
+she is held in contempt by some of those under her command. This is a fact
+that has never seemed to bother her.
+  }
+  flags { no_mob, indoors, no_sum, private, mapable, relocate_distort }
+  tele { 0, 1, 307 }
+  exits {
+        to { s, 88 }
+  }
+}
+
+270
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 271 }
+        to { d, 200 }
+  }
+}
+
+271
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 272 }
+        to { d, 270 }
+  }
+}
+
+272
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 273 }
+        to { d, 271 }
+  }
+}
+
+273
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, no_sum, private, mapable }
+  exits {
+        to { u, 135 }
+        to { d, 272 }
+  }
+}
+
+274
+{
+  name { 256274  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+275
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 276 }
+        to { w, 135 }
+  }
+}
+
+276
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 277 }
+        to { w, 275 }
+  }
+}
+
+277
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 278 }
+        to { w, 276 }
+  }
+}
+
+278
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 279 }
+        to { w, 277 }
+  }
+}
+
+279
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 278 }
+        to { d, 280 }
+  }
+}
+
+280
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { u, 279 }
+        to { d, 281 }
+  }
+}
+
+281
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { u, 280 }
+        to { d, 282 }
+  }
+}
+
+282
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { u, 281 }
+        to { d, 283 }
+  }
+}
+
+283
+{
+  name { In Fortrum City  }
+  desc {
+"   You are now within the mountain city of Fortrum. Although these
+dwarves are known for their incredible appetites for drinking and
+fighting, you are certain no advancing army could penetrate this far into
+their city. The cavern opens up to the north. You hear the sounds of the
+city echoing throughout this area.
+  }
+  flags { no_mob, indoors, peaceful, private, mapable }
+  exits {
+        to { n, 284 }
+        to { u, 282 }
+  }
+}
+
+284
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 287 }
+        to { e, 285 }
+        to { s, 283 }
+        to { w, 286 }
+  }
+}
+
+285
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 284 }
+  }
+}
+
+286
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 284 }
+  }
+}
+
+287
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 290 }
+        to { e, 288 }
+        to { s, 284 }
+        to { w, 289 }
+  }
+}
+
+288
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 287 }
+  }
+}
+
+289
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 287 }
+  }
+}
+
+290
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 293 }
+        to { e, 291 }
+        to { s, 287 }
+        to { w, 292 }
+  }
+}
+
+291
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 290 }
+  }
+}
+
+292
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 290 }
+  }
+}
+
+293
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 296 }
+        to { e, 294 }
+        to { s, 290 }
+        to { w, 295 }
+  }
+}
+
+294
+{
+  name { An Empty Shop  }
+  desc {
+"  This place looks like it is in transition between shopkeepers. The previous
+owner appears to have done a very quick breakdown and an even quicker attempt
+at a cleanup. It's a mess in here.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 293 }
+  }
+}
+
+295
+{
+  name { Dwarven Tavern  }
+  desc {
+"  The taverns are obvioulsy the hubs of activity in Fortrum. The noise
+is a little overwhelming. Dwarves are constantly coming and going. Every
+dwarf in the place is either yelling, laughing, or passed out.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 297 }
+        to { e, 293 }
+  }
+}
+
+296
+{
+  name { Fortrum Intersection  }
+  desc {
+"   The passageway intersects here, forming a modest town square. Most
+of the activity seems to revolve around the tavern. You wonder if these
+dwarves do anything besides drink and fight. There is also an armoury.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 309 }
+        to { s, 293 }
+        to { w, 297 }
+  }
+}
+
+297
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 311 }
+        to { e, 296 }
+        to { s, 295 }
+        to { w, 298 }
+  }
+}
+
+298
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private }
+  exits {
+        to { n, 300 }
+          info { door }
+          keywords { door }
+        to { e, 297 }
+        to { s, 299 }
+          info { door }
+          keywords { door }
+        to { w, 301 }
+  }
+}
+
+299
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 298 }
+          info { door }
+          keywords { door }
+  }
+}
+
+300
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 298 }
+          info { door }
+          keywords { door }
+  }
+}
+
+301
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 303 }
+          info { door }
+          keywords { door }
+        to { e, 298 }
+        to { s, 302 }
+          info { door }
+          keywords { door }
+        to { w, 304 }
+  }
+}
+
+302
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 301 }
+          info { door }
+          keywords { door }
+  }
+}
+
+303
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 301 }
+          info { door }
+          keywords { door }
+  }
+}
+
+304
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 306 }
+          info { door }
+          keywords { door }
+        to { e, 301 }
+        to { s, 305 }
+          info { door }
+          keywords { door }
+        to { w, 307 }
+  }
+}
+
+305
+{
+  name { The Home of Gromm  }
+  desc {
+"   This is the home of Gromm, head battle commander for the blue clan.
+Although the decor is pleasant, you get the feeling that this dwarf is
+quite certainly a bachelor. The heads of several large game animals are
+mounted on the walls.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 304 }
+          info { door }
+          keywords { door }
+  }
+}
+
+306
+{
+  name { The Home of Toogal  }
+  desc {
+"  Toogal's home is slightly more ornate than some of the other dwarven
+homes you have visited. Apparently Toogal fancies himself the sophisticated
+sort. The position of head scout may have gone to the head of this blue
+clan member.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 304 }
+          info { door }
+          keywords { door }
+  }
+}
+
+307
+{
+  name { Near an Underground Spring  }
+  desc {
+"   There is an underground spring here. Its icy water constantly rushes
+past you. The chiseled passageway goes off to the east.
+  }
+  flags { no_mob, indoors, mapable }
+  exits {
+        to { e, 304 }
+        to { u, 380 }
+  }
+}
+
+308
+{
+  name { 256308  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+309
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 312 }
+        to { e, 310 }
+        to { s, 296 }
+        to { w, 311 }
+  }
+}
+
+310
+{
+  name { An Empty Shop  }
+  desc {
+"  This place looks like it is in transition between shopkeepers. The previous
+owner appears to have done a very quick breakdown and an even quicker attempt
+at a cleanup. It's a mess in here.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 309 }
+  }
+}
+
+311
+{
+  name { Dwarven Armoury  }
+  desc {
+"  The armourer is here banging away at something. You have never seen such
+a small room packed with so many weapons. New weapons, used weapons, antique
+weapons..... this guy has it all.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { e, 309 }
+        to { s, 297 }
+  }
+}
+
+312
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 315 }
+        to { e, 313 }
+        to { s, 309 }
+        to { w, 314 }
+  }
+}
+
+313
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 312 }
+  }
+}
+
+314
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 312 }
+  }
+}
+
+315
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 318 }
+        to { e, 316 }
+        to { s, 312 }
+        to { w, 317 }
+  }
+}
+
+316
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 315 }
+  }
+}
+
+317
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 315 }
+  }
+}
+
+318
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 321 }
+        to { e, 319 }
+        to { s, 315 }
+        to { w, 320 }
+  }
+}
+
+319
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 318 }
+  }
+}
+
+320
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 318 }
+  }
+}
+
+321
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { no_mob, indoors, peaceful, private, mapable }
+  exits {
+        to { s, 318 }
+        to { d, 246 }
+  }
+}
+
+322
+{
+  name { 256322  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+323
+{
+  name { 256323  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+324
+{
+  name { 256324  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+325
+{
+  name { 256325  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+326
+{
+  name { 256326  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+327
+{
+  name { 256327  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+328
+{
+  name { 256328  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+329
+{
+  name { 256329  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+330
+{
+  name { 256330  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+331
+{
+  name { 256331  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+332
+{
+  name { 256332  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+333
+{
+  name { 256333  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+334
+{
+  name { 256334  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+335
+{
+  name { 256335  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+336
+{
+  name { 256336  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+337
+{
+  name { 256337  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+338
+{
+  name { 256338  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+339
+{
+  name { 256339  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+340
+{
+  name { 256340  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+341
+{
+  name { 256341  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+342
+{
+  name { 256342  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+343
+{
+  name { 256343  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+344
+{
+  name { 256344  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+345
+{
+  name { 256345  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+346
+{
+  name { 256346  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+347
+{
+  name { 256347  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+348
+{
+  name { 256348  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+349
+{
+  name { 256349  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+350
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 135 }
+        to { w, 351 }
+  }
+}
+
+351
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 350 }
+        to { w, 352 }
+  }
+}
+
+352
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 351 }
+        to { w, 353 }
+  }
+}
+
+353
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 352 }
+        to { w, 354 }
+  }
+}
+
+354
+{
+  name { Entering the City  }
+  desc {
+"   You continue into the mountain, towards the dwarven city of Fortrum.
+You wonder if all the tales of the city are true. The sloping passageway
+looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 353 }
+        to { d, 355 }
+  }
+}
+
+355
+{
+  name { Entering the City  }
+  desc {
+"   You descend deeper into the mountain, towards the dwarven city of
+Fortrum. You wonder if all the tales of the city are true. The sloping
+passageway looks like it was tunneled long ago.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { u, 354 }
+        to { d, 356 }
+  }
+}
+
+356
+{
+  name { Inside Fortrum City  }
+  desc {
+"   You are now within the mountain city of Fortrum. Although these
+dwarves are known for their incredible appetites for drinking and
+fighting, you are certain no advancing army could penetrate this far into
+their city. The cavern opens up to the north. You hear the sounds of the
+city echoing throughout this area.
+  }
+  flags { no_mob, indoors, peaceful, private, mapable }
+  exits {
+        to { n, 357 }
+        to { u, 355 }
+  }
+}
+
+357
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 360 }
+        to { e, 358 }
+        to { s, 356 }
+        to { w, 359 }
+  }
+}
+
+358
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 357 }
+  }
+}
+
+359
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 357 }
+  }
+}
+
+360
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 363 }
+        to { e, 361 }
+        to { s, 357 }
+        to { w, 362 }
+  }
+}
+
+361
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 360 }
+  }
+}
+
+362
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 360 }
+  }
+}
+
+363
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 366 }
+        to { e, 364 }
+        to { s, 360 }
+        to { w, 365 }
+  }
+}
+
+364
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 363 }
+  }
+}
+
+365
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 363 }
+  }
+}
+
+366
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 369 }
+        to { e, 367 }
+        to { s, 363 }
+        to { w, 368 }
+  }
+}
+
+367
+{
+  name { Dwarven Tavern  }
+  desc {
+"  The taverns are obvioulsy the hubs of activity in Fortrum. The noise
+is a little overwhelming. Dwarves are constantly coming and going. Every
+dwarf in the place is either yelling, laughing, or passed out.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 370 }
+        to { w, 366 }
+  }
+}
+
+368
+{
+  name { An Empty Shop  }
+  desc {
+"  This place looks like it is in transition between shopkeepers. The previous
+owner appears to have done a very quick breakdown and an even quicker attempt
+at a cleanup. It's a mess in here.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 366 }
+  }
+}
+
+369
+{
+  name { Fortrum Intersection  }
+  desc {
+"   The passageway intersects here, forming a modest town square. Most
+of the activity seems to revolve around the tavern. You wonder if these
+dwarves do anything besides drink and fight. There is also an interesting
+looking shop.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 381 }
+        to { e, 370 }
+        to { s, 366 }
+  }
+}
+
+370
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 382 }
+        to { e, 371 }
+        to { s, 367 }
+        to { w, 369 }
+  }
+}
+
+371
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 373 }
+          info { door }
+          keywords { door }
+        to { e, 374 }
+        to { s, 372 }
+          info { door }
+          keywords { door }
+        to { w, 370 }
+  }
+}
+
+372
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 371 }
+          info { door }
+          keywords { door }
+  }
+}
+
+373
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 371 }
+          info { door }
+          keywords { door }
+  }
+}
+
+374
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 375 }
+          info { door }
+          keywords { door }
+        to { e, 376 }
+        to { s, 394 }
+          info { door }
+          keywords { door }
+        to { w, 371 }
+  }
+}
+
+375
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 374 }
+          info { door }
+          keywords { door }
+  }
+}
+
+376
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 378 }
+          info { door }
+          keywords { door }
+        to { e, 379 }
+        to { s, 377 }
+          info { door }
+          keywords { door }
+        to { w, 374 }
+  }
+}
+
+377
+{
+  name { The Home of Kragg  }
+  desc {
+"  This is the home of Kragg, head battle commander for the green clan.
+Books, maps, and scrolls line the walls from floor to ceiling. This dwarf
+takes his position quite seriously.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 376 }
+          info { door }
+          keywords { door }
+  }
+}
+
+378
+{
+  name { The Home of Orek  }
+  desc {
+"  This is the home of Orek, head scout of the green clan. It is apparent
+that Orek is a humble dwarf. Furnishing are meager, but the home is
+kept in meticulous condition.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { s, 376 }
+          info { door }
+          keywords { door }
+  }
+}
+
+379
+{
+  name { Near an Underground Spring  }
+  desc {
+"   There is an underground spring here. Its icy water constantly rushes
+past you. The chiseled passageway goes off to the west.
+  }
+  extra {
+        keywords { _teleport }
+        desc {  You lose your footing and fall in the spring!
+        }
+  }
+  flags { no_mob, indoors, private, mapable }
+  tele { 2, 1, 380 }
+  exits {
+        to { w, 376 }
+        to { d, 380 }
+  }
+}
+
+380
+{
+  name { A Rushing Underground Spring  }
+  desc {
+"   The water is frigid! You can't stay in here for very long.
+You can barely make out a small hole in the cave wall.
+  }
+  extra {
+        keywords { _teleport -1 }
+        desc { ""       }
+  }
+  flags { indoors, private, mapable, dispel_magic }
+  tele { 2, 1, 307 }
+  exits {
+        to { s, 393 }
+          info { door, secret, hidden }
+          keywords { hole }
+        to { u, 379 }
+        to { d, 307 }
+  }
+}
+
+381
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 384 }
+        to { e, 382 }
+        to { s, 369 }
+        to { w, 383 }
+  }
+}
+
+382
+{
+  name { Dwarven Shop  }
+  desc {
+"  It appears that this is the one shop in all of Fortrum that will cater
+to outsiders. The shopkeeper greets you with a friendly smile. Maybe you
+should buy something while you have the chance.
+  }
+  flags { no_mob, indoors, peaceful, private, mapable }
+  exits {
+        to { s, 370 }
+        to { w, 381 }
+  }
+}
+
+383
+{
+  name { An Empty Shop  }
+  desc {
+"  This place looks like it is in transition between shopkeepers. The previous
+owner appears to have done a very quick breakdown and an even quicker attempt
+at a cleanup. It's a mess in here.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 381 }
+  }
+}
+
+384
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 387 }
+        to { e, 385 }
+        to { s, 381 }
+        to { w, 386 }
+  }
+}
+
+385
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 384 }
+  }
+}
+
+386
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 384 }
+  }
+}
+
+387
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 390 }
+        to { e, 388 }
+        to { s, 384 }
+        to { w, 389 }
+  }
+}
+
+388
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 387 }
+  }
+}
+
+389
+{
+  name { A Dwarven Shop  }
+  desc {
+"  Various dwarven essentials line the shelves of this small shop. The
+clerk appears to be very busy with all the customer traffic. The owner
+must be doing good business.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 387 }
+  }
+}
+
+390
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 392 }
+        to { e, 395 }
+        to { s, 387 }
+        to { w, 391 }
+  }
+}
+
+391
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { e, 390 }
+  }
+}
+
+392
+{
+  name { A Chiseled Passageway  }
+  desc {
+"   The granite has been carved away to create a very comfortably sized
+passageway. This multi-level city is like nothing you have ever seen.
+Noises of the city echo around the entire cavern. All around you dwarves
+are going about their daily business. They do not seem too concerned about
+your presence, although you do notice an occasional look shot in your
+general direction.
+  }
+  flags { no_mob, indoors, peaceful, private, mapable }
+  exits {
+        to { s, 390 }
+        to { d, 254 }
+  }
+}
+
+393
+{
+  name { A Hole  }
+  desc {
+"  You squeeze into the tiny hole in the cavern wall. The mist from the
+spring makes it hard to see anything. You sense something in the cave
+cave beyond. Your eyes begin to adjust...
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 380 }
+        to { s, 396 }
+  }
+}
+
+394
+{
+  name { A Dwarven Home  }
+  desc {
+"  Weapons and armor line the wall of this otherwise scantily decorated
+home. The city noise fades into the background as you move further into
+the room. This house either belongs to a warrior, or an avid collector
+of weapons.
+  }
+  flags { no_mob, indoors, private, mapable }
+  exits {
+        to { n, 374 }
+          info { door }
+          keywords { door }
+  }
+}
+
+395
+{
+  name { A Guard Post  }
+  desc {
+"  A shallow nook has been created in the wall here.  It is very small, and
+you have to crouch down to keep from knocking your head into the mountain.
+This appears to be another guard post. These dwarves are serious about
+the defense of their beloved city.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { w, 390 }
+  }
+}
+
+396
+{
+  name { A Small Cave  }
+  desc {
+"  This cave is not much bigger than the hole you squeezed through to get
+here. Your hair and clothes are damp from the mist. It smells pretty bad
+in here.
+  }
+  flags { indoors, private, mapable }
+  exits {
+        to { n, 393 }
+  }
+}
+
+397
+{
+  name { 256397  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+398
+{
+  name { 256398  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+399
+{
+  name { 256399  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}
+
+400
+{
+  name { 256400  }
+  desc { Empty
+  }
+  flags { indoors, no_sum, private, mapable }
+}

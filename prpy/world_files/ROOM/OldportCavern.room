@@ -1,0 +1,1768 @@
+#offset OldportCavern
+
+0
+{
+  name { Falling Down the Mud Slide  }
+  desc {
+"   The hole through the waterfall cave has led to a huge mud slide leading down
+into the earth below.  The cavern is huge and the mud slide is sweeping you
+quickly along.  The complete darkness makes it impossible to see what is waiting
+ahead.
+  }
+  sector { Deep Water }
+  river { d, 1 }
+  flags { dark, indoors }
+  tele { 5, 1, 1 }
+  exits {
+	to { d, 1 }
+  }
+}
+
+1
+{
+  name { Falling Down the Mud Slide  }
+  desc {
+"   Panic is starting to set in as the muddy current pulls your head under.
+Your mouth fills with muddy water as you quickly swim to the surface.  Breaking
+through the top of the mud slide, you spit out the mud and take a deep breath
+of the dull cavern air.  The mud slide continues down into the earth.
+  }
+  sector { Deep Water }
+  river { d, 1 }
+  flags { dark, indoors }
+  tele { 2, 1, 2 }
+  exits {
+	to { u, 0 }
+	to { d, 2 }
+  }
+}
+
+2
+{
+  name { Falling Down the Mud Slide  }
+  desc {
+"   The complete darkness is very disorienting.  This mud slide appears as if
+it could go on forever from this vantage point.  The current quickly moves you
+further along the mud slide and deeper into the earth.  Where is this muddy
+river taking you?
+  }
+  sector { Deep Water }
+  river { d, 1 }
+  flags { dark, indoors }
+  tele { 2, 1, 3 }
+  exits {
+	to { u, 1 }
+	to { d, 3 }
+  }
+}
+
+3
+{
+  name { Falling Down the Mud Slide  }
+  desc {
+"   The mud slide's current is strong and quickly moves you along, further down
+into the earth.  Light cannot be seen coming from any direction, the complete
+darkness is very disorienting.  It is impossible to tell if there is any end
+to the muddy river in sight.
+  }
+  sector { Deep Water }
+  river { d, 1 }
+  extra {
+	keywords { _ex5 }
+	desc { 
+"  The raging current shoots you out into the open air, as a pitch-black,
+bottomless pit sinks into the ground below you.
+	}
+  }
+  flags { dark, indoors }
+  tele { 2, 1, 4 }
+  exits {
+	to { u, 2 }
+	to { d, 4 }
+	  info { message }
+  }
+}
+
+4
+{
+  name { Bottom of the Mud Slide  }
+  desc {
+"   The mud slide has flung you across a small ravine and into another cavern.
+The muddy water cascades down from the mud slide and into the giant pit below.
+You better not fall down there!  A large cavern lies to the west, stretching
+into complete darkness.  Even with the darkness, you can see some movement to
+the west.  What could be in there?
+  }
+  sector { Deep Water }
+  extra {
+	keywords { _ex4 }
+	desc { 
+"  You can not fight the muddy current and are quickly thrown down stream.
+	}
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 5 }
+	to { u, 3 }
+	  info { message }
+  }
+}
+
+5
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky cavern continues to the east and west.  To the far west, you can
+see a huge column of water shooting up through the floor, yet amazingly, the
+cavern is not being flooded.  It sounds like magic is afoot!  You can see
+shadows passing back and forth before the water geyser, they look humanoid
+in shape and size.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 4 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire west wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, east and south.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	to { e, 5 }
+	to { s, 13 }
+  }
+}
+
+7
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the south and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 6 }
+	to { w, 8 }
+  }
+}
+
+8
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire south wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the west, north and east.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { e, 7 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southeast wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the south and east.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 8 }
+	to { s, 10 }
+  }
+}
+
+10
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire east wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, west and south.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	to { s, 11 }
+	to { w, 15 }
+  }
+}
+
+11
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northeast wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north and east.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 10 }
+	to { e, 12 }
+  }
+}
+
+12
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire north wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the west, south and east.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 13 }
+	to { s, 16 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 6 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern seems to have come to an end.  The creatures are working
+here, slowly breaking away parts of the wall.  The rock creatures are doing
+the breaking, while the muddy creatures are carrying the debris away.  They
+must be trying to expand the tunnel.  The muddy creatures seem to smile at you
+as they pass by.  Looking back towards the south, the huge column of water
+shoots straight into the sky.  How strange that the water does not flood the
+caverns.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 8 }
+  }
+}
+
+15
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern continues back to the east.  Some of the floor has collapsed 
+towards the back of the cave, so you can see all the way down to the next floor.
+There a holes and wedges in the rock wall the make it look like it would be easy
+to climb down.  The rock and mud creatures continue along with their business,
+seemingly oblivious to your intrusion.  To the far east and into the next cavern,
+you can see a huge column of water in the middle of the room.  How can all that
+water be flowing through the caverns and not be flooding everything?
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 10 }
+	to { d, 17 }
+  }
+}
+
+16
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern seems to have come to an end.  The creatures are working
+here, slowly breaking away parts of the wall.  The rock creatures are doing
+the breaking, while the muddy creatures are carrying the debris away.  They
+must be trying to expand the tunnel.  The muddy creatures seem to smile at you
+as they pass by.  Looking back towards the north, the huge column of water
+shoots straight into the sky.  How strange that the water does not flood the
+caverns.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 12 }
+  }
+}
+
+17
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The creatures walk along the rocky cavern hallways, going about their daily
+business.  Little rock and clay children run along the hallways, playing with
+their "pets".  It looks like green vines and brown roots have taken the shape
+of a small animal.  How strange.  The long hallway is gigantic and continues
+from east to west.  There is a cave-in through the ceiling, leading to the
+floor above.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 18 }
+	to { w, 26 }
+	to { u, 15 }
+  }
+}
+
+18
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire east wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, west and south.  The cavern is rather large.
+there is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 19 }
+	to { s, 25 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the south and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 20 }
+	to { s, 18 }
+  }
+}
+
+20
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire south wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the west, north and east.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 55 }
+	to { e, 21 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the south and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 22 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire west wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, east and south.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	to { e, 45 }
+	to { s, 23 }
+  }
+}
+
+23
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire north wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the west, south and east.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 23 }
+	to { s, 40 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northeast wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north and east.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 18 }
+	to { e, 24 }
+	to { 10, 43 }
+	  info { hidden }
+	  keywords { crawlspace }
+  }
+}
+
+26
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the east and west.  The caverns are huge and
+seem to go on forever.  The creatures walk silently along the long hallways,
+going about their business.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  The only sounds you can hear bouncing
+off the cavern walls are the sound of the rock creatures breaking stone.  A
+small clay creature appears to almost smile at you and runs to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 17 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky cavern hallways have come to an intersection.  There are corridors
+leading to the north, east, west and south.  The sounds of the rock creatures
+breaking down walls can be heard loudly to the north and west.  The rock and clay
+creatures continue walking along the hallways, not at all bothered that you are
+blocking their intersection.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  A rock creature finally bumps into you,
+better move along.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 29 }
+	to { e, 26 }
+	to { s, 30 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { A Stone Home in a Cave  }
+  desc {
+"   The creatures have set up a sort of home inside this cave.  There are rocky
+chairs, stone tables and even a few crushed flowers on top of a large rock near
+the north wall.  One of the rock creatures is gently rocking a clay baby, like
+it was its mother.  A rock creature sits on one of the rocky chairs, staring
+into the darkness.  Even with this domicile being here, more rock creatures come
+into the room and start breaking down parts of the west wall.  How rude!
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+  }
+}
+
+29
+{
+  name { A Stone Home in a Cave  }
+  desc {
+"   The creatures have set up a sort of home inside this cave.  There are rocky
+chairs, stone tables and even a few crushed flowers on top of a large rock near
+the east wall.  One of the clay creatures is gently rocking a rock baby, like
+it was its mother.  A rock creature sits on one of the rocky chairs, staring
+into the darkness.  Even with this domicile being here, more rock creatures come
+into the room and start breaking down parts of the wall.  What on earth are they
+doing?
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 27 }
+  }
+}
+
+30
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north and south.  The caverns are huge and
+seem to go on forever.  The creatures walk silently along the long hallways,
+going about their business.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  The only sounds you can hear bouncing
+off the cavern walls is the sound of the rock creatures breaking stone.  A
+small rock creature appears to look at you curiously, but then runs away to the
+south, vine animal nipping at its heels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { s, 31 }
+  }
+}
+
+31
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north and south.  The caverns are huge and
+seem to go on forever.  The creatures walk silently along the long hallways,
+going about their business.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  The only sounds you can hear bouncing
+off the cavern walls is the sound of the rock creatures breaking stone.  Two
+small vine creatures appear to be fighting over a loose twig on the cavern floor.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 30 }
+	to { s, 32 }
+  }
+}
+
+32
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north, west and east.  The cavern hallways
+are huge and seem to go on forever.  The rock and clay creatures walk silently
+through the caverns, going about their daily business.  They do not seem to talk,
+but seem to mimic human actions and emotions.  You notice that the creatures are
+all different shapes and sizes, one of the clay creatures is even carrying a baby
+clay creature in its arms.  It is just so creepy that they do not talk at all.
+The sounds of rocks breaking can be heard echoing in from the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 31 }
+	to { e, 36 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the west, south and east.  The cavern hallways
+are huge and seem to go on forever.  The sounds of rocks breaking can be heard
+echoing in from the west and south.  The rock and clay creature walk silently
+through the caverns, going about their daily business.  They do not seem to talk,
+but are mimicking human actions and emotions.  You see a clay and rock creature
+walking close, holding hands.  Some young clay creatures run in from the cavern
+to the west, chasing after their vine pets.  How strange that the creatures do
+not make a sound except for their feet hitting the cold cavern ground.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 32 }
+	to { s, 35 }
+	to { w, 34 }
+  }
+}
+
+34
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky caverns seem to have come to an end.  You can get back to the main
+caverns by going to the east.  The rock and clay creatures are here working on
+breaking down more cavern walls.  The rock creatures pound their huge fists into
+the walls, breaking off large pieces of the wall.  Not wasting any time, the clay
+creatures grab the debris and head back east, into the cavern hallways.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 33 }
+  }
+}
+
+35
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky caverns seem to have come to an end.  You can get back to the main
+caverns by going to the north.  The rock and clay creatures are here working on
+breaking down more cavern walls.  The rock creatures pound their huge fists into
+the walls, breaking off large pieces of the wall.  Not wasting any time, the clay
+creatures grab the debris and head back north, into the cavern hallways.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 33 }
+  }
+}
+
+36
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the west and east.  The cavern hallways are huge
+and seem to go on forever.  There appears to be a small tunnel in the rocks along
+the northeast wall.  Looking in the tunnel, you bet that you could probably fit
+through there.  Looking back down the cavern hallways to the east and west, you
+can see the creatures walk silently along the long hallways.  It is creepy that 
+they are not able to talk, but appear to be almost human in actions.  The sounds
+of rock breaking echoes in on the cavern walls from the east and west.  A short
+rock creature appears to look at you curiously, but then runs away to the east,
+its vine pet nipping at its heels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 37 }
+	to { w, 32 }
+	to { 10, 43 }
+	  info { hidden }
+	  keywords { tunnel }
+  }
+}
+
+37
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the west, south and east.  The cavern hallways
+are huge and seems to go on forever.  The creatures walk silently along the long
+hallways, going about their daily business.  It is creepy that they are not able
+to talk, yet appear to be almost human in actions.  The sounds of rocks breaking
+can be heard bouncing off the cavern walls to the west and east.  To the south,
+there is an odd silence.  It is almost as if the creatures are afraid to go into
+that part of the cavern.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 38 }
+	to { s, 44 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the east and west.  The caverns are huge and
+seem to go on forever.  The creatures walk silently along the long hallways,
+going about their business.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  The only sounds you can hear bouncing
+off the cavern walls is the sound of the rock creatures breaking stone.  A
+small clay creature appears to almost smile at you and runs to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 39 }
+	to { w, 37 }
+  }
+}
+
+39
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky cavern hallways have come to an intersection.  There are corridors
+leading to the north, east, west and south.  The sounds of the rock creatures
+breaking down walls can be heard loudly to the south and east.  The rock and clay
+creatures continue walking along the hallways, not at all bothered that you are
+blocking their intersection.  It is creepy that they are not able to talk, yet
+appear to be almost human in actions.  A rock creature finally bumps into you,
+better move along.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 41 }
+	to { s, 42 }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north and south.  To the far north, you can
+see a giant geyser of water shooting up through the floor and up into the ceiling.
+How can all that water be flowing through the caverns and not flooding out the
+tunnels?  The rock and clay creatures walk silently along the long hallways, going
+about their daily business.  The sounds of rocks breaking can be heard echoing
+in from the south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	to { s, 39 }
+  }
+}
+
+41
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern seems to have come to an end inside a huge rocky cave.  The
+creatures are working here, slowing breaking away parts of the wall.  The rock
+creatures are doing the breaking, while the clay creatures are carrying the
+debris away.  Why are all these creatures working so hard to expand the tunnels?
+They work without complaint or sign of fatigue.  They walk around you as you block
+they exit from the cave.  Move out of the way!
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 39 }
+  }
+}
+
+42
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern seems to have come to an end.  The creatures are working
+here, slowly breaking away parts of the wall.  The rock creatures are doing the
+breaking, while the clay creatures are carrying the debris away.  They seem to
+be trying to expand this tunnel system.  They work without complaint or any sign
+of emotion.  Suddenly, one of the clay creatures appears to look at you and seems
+to smile.  Maybe you are just imagining things, better get out of these tunnels.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 39 }
+  }
+}
+
+43
+{
+  name { A Narrow and Rocky Tunnel  }
+  desc {
+"   The tunnel is not very large and does not appear to have any immediate exits.
+You could probably fit back through the tunnel to the southwest to get back into
+the hallway.  There is also a small crawlspace to the northeast that you might
+be able to squeeze through.  The exits are small and look like they could collapse
+in at any time.  You can hear some rustling along the northwest wall of the
+tunnel.  Looking at the wall, you can see one of the creatures here, cowering in
+fear.  The creature looks like it has seen better days, but taking a closer look
+you can see this creature is much different than the others.  It appears to be
+an amalgam of rock, clay and vines.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { 10, 36 }
+	  info { hidden }
+	  keywords { hallway }
+	to { 11, 25 }
+	  info { hidden }
+	  keywords { crawlspace }
+  }
+}
+
+44
+{
+  name { A Cave Full of Vines  }
+  desc {
+"   It is hard to maneuver around the cave.  Vines and roots grow out of the walls
+and ground, filling the cavern with green, pulsating life.  There is a large and
+colorful flower growing from the vines towards the back of the cave, to the south.
+As you make your way through the plant life, vines and roots tug at your armor.
+Finally reaching the back of the cave, you can get a much better look at the
+beautiful red and yellow petalled flower bulb.  The bulb suddenly opens, blooming
+into a lovely flower.  Unfortunately, you notice a large set of teeth in the
+middle of the flower, opening and closing at the sound and smell of fresh meat.
+Looking back to the north, the vines and roots have closed off any exit from the
+cavern.  Your feet and ankles are now completely covered in vines and you can
+see the green tentacles slowly creep up your leg.  Better high tail it out of
+here!
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+  }
+}
+
+45
+{
+  name { A Rocky Cave  }
+  desc {
+"   The rocky cavern continues back to the west.  Some of the floor has collapsed 
+towards the back of the cave, so you can see all the way down to the next floor.
+There a holes and wedges in the rock wall the make it look like it would be easy
+to climb down.  The rock and mud creatures continue along with their business,
+seemingly oblivious to your intrusion.  To the far west and into the next cavern,
+you can see a huge column of water in the middle of the room.  How can all that
+water be flowing through the caverns and not be flooding everything?
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 22 }
+	to { d, 46 }
+  }
+}
+
+46
+{
+  name { A Rocky Cave-In  }
+  desc {
+"   The ceiling above the rocky cave has seem to have caved in.  You could easily
+climb up the rocky wall and go to the floor above.  The rocks do not look very
+steady, better watch your step.  Looking to the west and out of the rocky cave,
+you can see a huge geyser of water shooting out the of floor and into the ceiling
+above.  How strange that all this water can be flowing into the ceiling and yet
+the caverns remain bone dry.  The rock and clay creatures wander around the room,
+going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 47 }
+	to { u, 45 }
+  }
+}
+
+47
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky cavern continues to the north, east and south.  The entire west wall
+is a column of water shooting up through the floor and into the ceiling above.  
+This must be where the beautiful fountain above the lake comes from.  Looking into
+the geyser, you can see some fish swimming through the water, following the current
+upwards.  Reaching out to touch the water, your arm gets yanked into the current,
+pulling your body off the ground.  Ouch!  You yank your arm back, rotating the
+soreness from your shoulder.  You could probably swim your way up to the top of
+the fountain if you touched the water again.  Some powerful magic must be at work
+to have all this water flowing up through the floor and somehow the rocky caverns
+remain completely dry.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 46 }
+	to { s, 54 }
+  }
+}
+
+48
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the south and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 47 }
+	to { w, 49 }
+  }
+}
+
+49
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire north wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern continues to the west and east.  The cavern is rather large and
+there is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 48 }
+	to { w, 50 }
+  }
+}
+
+50
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire southeast wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the sourth, east and north.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 60 }
+	to { e, 49 }
+	to { s, 51 }
+  }
+}
+
+51
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire east wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, west and south.  The cavern is rather large.
+There is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	to { s, 52 }
+	to { w, 73 }
+  }
+}
+
+52
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northeast wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north, east and southwest.  The cavern is rather 
+large.  There is plenty of room to walk around.  There are some sort of creatures
+here.  They are made of rock and clay, and do not appear to care that you are
+here in the least.  The creatures continue to wander around, going about their
+daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+	to { e, 53 }
+	to { southwest, 67 }
+  }
+}
+
+53
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire north wall is a column of water shooting up through the floor and
+into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern continues to the west and east.  The cavern is rather large and
+there is plenty of room to walk around.  There are some sort of creatures here.
+They are made of rock and clay, and do not appear to care that you are here in
+the least.  The creatures continue to wander around, going about their daily
+business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 54 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The entire northwest wall is a column of water shooting up through the floor
+and into the ceiling above.  This must be where the beautiful fountain above the
+lake comes from.  Reaching out to touch the water, a white spark shocks you,
+preventing any access to the geyser.  There must be some kind of force field
+blocking the water from flooding the cavern.  Looking around, you can see the
+rocky cavern opens up to the north and west.  The cavern is rather large.  There
+is plenty of room to walk around.  There are some sort of creatures here.  They
+are made of rock and clay, and do not appear to care that you are here in the
+least.  The creatures continue to wander around, going about their daily business.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north and south.  The cavern hallways are
+huge.  There is plenty of room to move around.  Looking to the south, a geyser
+of water bursts through the floor and into the ceiling.  It is amazing that all
+that water is flowing into the ceiling and yet none of the caverns are getting
+flooded.  There must be magic at work!  The sounds of the creatures breaking
+through the walls cannot be heard in this hallway.  There are much less creatures
+roaming these caverns.  You can see some of the rock and clay creatures walking
+in and out of the caverns to the north.  What are they up to?
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { n, 56 }
+	to { s, 20 }
+  }
+}
+
+56
+{
+  name { An Intersection in a Rocky Cavern  }
+  desc {
+"   The rocky caverns have opened up into an intersection of hallways.  The
+cavern hallways lead to the north, east, west and south.  The rock and clay
+creatures are walking in and out of the caverns to the north, east and west.
+They are carrying what appear to be goods they obtain from the various caverns.
+You see a young clay creature bites into what looks like a mud pie and smile
+contently.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 57 }
+	to { e, 59 }
+	to { s, 55 }
+	to { w, 58 }
+  }
+}
+
+57
+{
+  name { A Clay Store  }
+  desc {
+"   A clay creature stands behind a large stone counter towards the back of the
+cavern.  The only way out seems to be back into the intersection to the south.
+There are several rock and clay creatures standing at the counter, ordering
+their goods.  They do not talk, but the clay creature behind the counter seems
+to know what they want and gives it to them.  Strangely, they do not exchange
+coins or trinkets for the goods, they seem to be free.  This is no way to run
+a business!
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 56 }
+  }
+}
+
+58
+{
+  name { A Rock Store  }
+  desc {
+"   A rock creature stands behind a large stone counter towards the back of the
+cavern.  The only way out seems to be back into the intersection to the east.
+There are several rock and clay creatures standing at the counter, ordering
+their goods.  They do not talk, but the rock creature behind the counter seems
+to know what they want and gives it to them.  Strangely, they do not exchange
+coins or trinkets for the goods, they seem to be free.  This is no way to run
+a business!
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 56 }
+  }
+}
+
+59
+{
+  name { A Vine Store  }
+  desc {
+"   A humanoid-like vine creature stands behind a large stone counter towards the
+back of the cavern.  The only way out seems to be back to the intersection to the
+west.  There are several rock and clay creatures standing at the counter, ordering
+they goods.  They do not talk, but the vine creature behind the counter seems to
+know what they want and gives it to them.  Strangely, they do not exchange coins
+or trinkets for the goods, they seem to be free.  This is no way to run a store!
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 56 }
+  }
+}
+
+60
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the north and south.  The cavern hallways are
+huge.  There is plenty of room to move around.  The rock and clay creatures walk
+through the caverns, going about their daily business.  There is a small vine
+creature sniffing at pile of stones near the east wall.  It lifts its little
+legs and lets out a stream of liquid.  Gross.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { s, 50 }
+  }
+}
+
+61
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the west and south.  The cavern hallways are
+huge.  There is plenty of room to move around.  The rock and clay creatures walk
+through the caverns, going about their daily routines.  To the far west, you can
+see some small clay creatures looking through a stone gate.  What could be in
+there?  A rock and clay creature walk hand in hand to the south, gazing at each
+other lovingly.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 60 }
+	to { w, 62 }
+  }
+}
+
+62
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   A large stone gate blocks the caverns to the west.  You could probably open the
+gate and go inside.  Looking through the gates, there seems to be a vine animal
+breeding ground.  There are several clay creatures tending to the vine animals.
+Some vine animals run around the pen, chasing each other with all their might!
+To the east, you can see some rock and clay creatures walking through the cavern
+hallways.  A small clay creature walks up to the gate and looks through.  He
+turns his head towards you, sticks out his tongue and runs into the caverns to
+the east.  How rude!
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 61 }
+	to { w, 63 }
+	  info { door, closed, autoclose }
+	  keywords { gate }
+  }
+}
+
+63
+{
+  name { Inside the Pen  }
+  desc {
+"   A large stone gate blocks the caverns to the east.  You could probably open
+up the gate and walk into the huge cavern hallway.  The dirt floor of the pen
+is very soft, it sinks under your feet like sand on a beach.  There are small
+vine creatures running and playing around the pen.  There is a growth of vines
+covering the southwest wall of the pen.  Some colorful flower bulbs grow all
+over vines.  There are some clay creatures tending around the pen, watching
+after and playing with the vine creatures.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 62 }
+	  info { door, closed, autoclose }
+	  keywords { gate }
+	to { s, 66 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { Inside the Pen  }
+  desc {
+"   The pens continue to the east and south.  There are small vine creatures
+running and playing around the pen.  A couple of vine creatures have fallen
+asleep on a mound of dirt in the northwest corner of the pen, how cute.  To
+the southwest of the pen, the entire wall of covered in a huge growth of vines
+There are colorful flower bulbs growing all over the vines, looking as though
+they are ready to bloom at any time.  The dirt floor of the pen is very soft,
+it sinks under your feet like sand on a beach.  There are some clay creatures
+tending around the pen, watching after and playing with the vine creatures.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 63 }
+	to { s, 65 }
+  }
+}
+
+65
+{
+  name { Inside the Pen  }
+  desc {
+"   The pens continue to the north and east.  This entire part of the pen has been
+overtaken by a tremendous growth of plant life.  There are vines and roots growing
+out of the walls and ground, spreading their long tentacles throughout.  There are
+colorful bulbs growing all over the green vines.  Amazingly, some of the flowers
+start to bloom, revealing small vine creatures sleeping and covered in goo.  The
+vine creatures slowly wake up, shake off the goo and jump to the soft dirt below.
+They immediately join their brothers and sisters in running around the pen.  What
+fantastic creatures!  The flower bloom instantly closes, starts to turn a brown
+color and falls to the floor.  Another colorful bulb grows right back in its
+place.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+	to { e, 66 }
+  }
+}
+
+66
+{
+  name { Inside the Pen  }
+  desc {
+"   The pens continue to the north and west.  The floor of the pens is covered
+in a soft dirt that sinks with each footstep, like walking on a sandy beach.
+There are small vine creatures running and playing around the pen.  A large 
+growth of vines covers the walls to the west of the pen.  One of the vine
+creatures comes up to you and seems to sniff your boots.  Better watch out before
+it lifts its leg!  There are some clay creatures tending around the pen, watching
+after and playing with the vine creatures.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 63 }
+	to { w, 65 }
+  }
+}
+
+67
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the northeast and southwest.  The cavern 
+hallways are huge, there is plenty of room to move around.  Looking to the
+northeast, you can see a huge column of water rising from the floor and into
+the ceiling.  How can all this water be flowing through the cavern and not be
+flooding the hallways?  The rock and clay creatures wander through the cavern
+hallways, going about their daily business.  There appears to be a gate at the
+end of the caverns to the southwest.
+  }
+  flags { dark, indoors }
+  exits {
+	to { northeast, 52 }
+	to { southwest, 68 }
+  }
+}
+
+68
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   A large stone gate blocks entrance to the caverns to the west.  You could
+probably open the gate and enter the caverns quite easily.  The cavern hallways
+are huge.  There is plenty of room to move around.  Looking through the gate to
+the west, you can see a few rock and clay creatures walking around.  There 
+appears to be several stone altars lining the walls of the room.  What could
+be in them?  The stone gate opens and a large rock creature walks out, carrying
+a baby clay creature.  The rock creature kisses the clay baby on the head and
+continues along the cavern hallway to the northeast.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { w, 69 }
+	  info { door, closed, autoclose }
+	  keywords { gate }
+	to { northeast, 67 }
+  }
+}
+
+69
+{
+  name { Inside the Nursery  }
+  desc {
+"   A large stone gate blocks entrance to the cavern hallways to the east.  You
+could probably open the gate and enter the caverns quite easily.  This cavern
+is large but seems to be very quaint.  The temperature in the nursery is warmer
+here than in the other caverns.  It's almost like the nursery is being incubated.
+Looking around the cavern, you see the rock and clay babies have gone wild.
+Their clay creature caretakers has lost any semblance of control.  You see some
+rocky creatures rolling around on the floor rough housing.  A mud ball hits
+you in the face from above.  Looking to the cavern roof, you can see the clay
+babies slithering all over, silently laughing at you.  Somebody needs to call
+the Super Nanny!
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 68 }
+	  info { door, closed, autoclose }
+	  keywords { gate }
+	to { s, 72 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { Inside the Nursery  }
+  desc {
+"   The temperature in here is warmer than the caverns outside the gate to the
+far east.  It's almost like the nursery is being incubated.  This cavern is
+rather large but seem to be very quaint and comfortable.  The nursery continues
+to the east and south.  Looking around the cavern, you can see that the rock and
+clay babies have gone wild.  Their clay caretakers have lost any semblance of
+control.  The rock and clay creatures are even climbing and hanging from their
+caretakers.  What a sucky job.  You can see a few of the babies still sleeping
+in their cribs, but for the most part it's total chaos.  Babies are crawling
+everywhere and climbing on everything.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+	to { s, 71 }
+  }
+}
+
+71
+{
+  name { Inside the Nursery  }
+  desc {
+"   The temperature in here is warmer than the caverns outside the gate to the
+far northeast.  It's almost like the nursery is being incubated.  This cavern is
+rather large but seem to be very quaint and comfortable.  The nursery continues
+to the north and east.  Looking around the cavern, you can see that the rock and
+clay babies have gone wild.  Their clay caretakers have lost any semblance of
+control.  The rock and clay creatures are even climbing and hanging from their
+caretakers.  What a sucky job.  You can see a few of the babies still sleeping
+in their cribs, but for the most part it's total chaos.  Babies are crawling
+everywhere and climbing on everything.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 70 }
+	to { e, 72 }
+  }
+}
+
+72
+{
+  name { Inside the Nursery  }
+  desc {
+"   The temperature in here is warmer than the caverns outside the gate to the
+far north.  It's almost like the nursery is being incubated.  This cavern is
+rather large but seem to be very quaint and comfortable.  The nursery continues
+to the north and west.  Looking around the cavern, you can see that the rock and
+clay babies have gone wild.  Their clay caretakers have lost any semblance of
+control.  The rock and clay creatures are even climbing and hanging from their
+caretakers.  What a sucky job.  You can see a few of the babies still sleeping
+in their cribs, but for the most part it's total chaos.  Babies are crawling
+everywhere and climbing on everything.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 69 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the east and west.  The cavern hallways are huge.
+There is plenty of room to move around.  Looking to the east,  a giant column
+shoots out of the cavern floor and straight into the ceiling.  How strange that
+all that water is flowing through but the caverns do not get flooded.  There must
+be magic at work.  The rock and clay creatures walk along the hallways, going 
+about their daily routines.  To the far west, you can see a flurry of movement.
+What could be happening?
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 51 }
+	to { w, 74 }
+  }
+}
+
+74
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the east and west.  The cavern hallways are huge.
+There is plenty of room to move around.  The rock and clay creatures walk along
+the hallways, going bout their daily routines.  The sound of music can be heard
+echoing in from the west.  Looking towards the music, you can see the a crowd
+of the creatures moving around the room.  It looks like they are dancing!  A
+small vine creature sniffs at your feet and then runs into the hallway to the
+west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 73 }
+	to { w, 75 }
+  }
+}
+
+75
+{
+  name { A Path Through a Rocky Cavern  }
+  desc {
+"   The rocky caverns continue to the east and west.  The cavern hallways are huge.
+There is plenty of room to move around.  However, looking to the west, you can see
+that the hallway opens up into a gigantic cavern.  It is amazing that the rock and
+clay creatures were able to build something this expansive without anyone noticing.
+There seems to be some kind of party going on.  The creatures are dancing all 
+around the cavern, what lovely dancers!  The music from the west sounds like an
+orchestra must be located somewhere in the cavern.  To the far west, you can see
+a huge stone throne, built up to the ceiling.  You can see that the throne is
+not vacant.  A large humanoid figure sits atop it, looking out over the crowd.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 74 }
+	to { w, 76 }
+  }
+}
+
+76
+{
+  name { In the Main Throne Room  }
+  desc {
+"   This cavern is gigantic.  The ceiling must be at least fifty feet above you.
+There are clay and rock creatures everywhere.  Some of the creatures are dancing,
+moving around the cavern in intricate patterns, following the beautiful music.
+Looking around the room, you do not see an orchestra, where is all that music
+coming from?  A large stone throne lies to the far west of the cavern.  There
+seems to be someone sitting atop the throne.  It is hard to get a good look, but
+it is definitely humanoid in shape.  It does not seem to move, even at your
+arrive to its throne room.  It continues to sit hunched on its throne, looking
+out over the crowd.  There are large rock creatures standing along the cavern
+walls to the east and west.  They suddenly start to move from their positions and
+center in on you.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 77 }
+	to { e, 75 }
+	to { s, 81 }
+	to { w, 79 }
+  }
+}
+
+77
+{
+  name { In the Main Throne Room  }
+  desc {
+"   This cavern is gigantic.  The ceiling must be at least fifty feet above you.
+Beautiful orchestral music fills the cavern.  There seems to be a party going on.
+There are rock and clay creatures dancing everywhere.  A large stone throne has
+been built into the cavern wall to the far southwest.  A stone staircase before
+the throne leads up to the rocky chair atop the stairs.  A shadowed figure sits
+atop its throne.  What could it be up to?  You better not stand here for long,
+the large stone creature appear to be moving in for the kill.  The throne room
+continues to the west and south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 76 }
+	to { w, 78 }
+  }
+}
+
+78
+{
+  name { In the Main Throne Room  }
+  desc {
+"   The clay and rock creatures continues to dance around the cavern.  They appear
+to be moving in perfect rhythm to the beautiful orchestral music playing around
+the cavern.  This cavern is gigantic!  The ceiling must be at least fifty feet
+above you.  Looking out over the crowd, you can see the large stone creatures
+are beginning to catch up to you.  Thank goodness they are so slow.  The throne
+room continues to the east and south.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { e, 77 }
+	to { s, 79 }
+  }
+}
+
+79
+{
+  name { Before a Giant Stone Throne  }
+  desc {
+"   A large stone throne has been built into the cavern wall to the west.  There
+is a flight of stairs leading up to a rocky seat above the throne.  A humanoid
+shaped figure sits above the throne, cloaked in darkness.  It calmly remains
+seated, looking out above the crowd.  What is it starting at, it appears to be
+in some kind of a daze.  Its mouth seems to be moving, like it is talking to
+someone.  Strangely, it appears to be all alone atop its stone throne.  The rock
+and stone creatures continue to dance around you.  They do not seem phased at all
+that you are blocking the dance floor.  The large rock creatures continue to get
+closer.  You better not stand here for too long.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 78 }
+	to { e, 76 }
+	to { s, 80 }
+	to { u, 82 }
+  }
+}
+
+80
+{
+  name { In the Main Throne Room  }
+  desc {
+"   This cavern is gigantic!  The ceiling must be at least fifty feet above you.
+Beautiful orchestral music fills the cavern.  There are rock and clay creatures
+dancing everywhere, they seem to be having a party.  The large rock creatures
+have not caught up to you yet.  They seem to be pretty slow.  Where is all that
+music coming from?  You can not seem instruments of any kind anywhere.  How
+strange.  The throne room continues to the east and north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 79 }
+	to { e, 81 }
+  }
+}
+
+81
+{
+  name { In the Main Throne Room  }
+  desc {
+"   This cavern is gigantic.  The ceiling must be at least fifty feet above you.
+Beautiful orchestral music fills the cavern.  There seems to be a party going on.
+There are rock and clay creatures dancing everywhere.  A large stone throne has
+been built into the cavern wall to the far northwest.  A stone staircase before
+the throne leads up to the rocky chair atop the stairs.  A shadowed figure sits
+atop its throne.  What could it be up to?  You better not stand here for long,
+the large stone creature appear to be moving in for the kill.  The throne room
+continues to the west and north.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 76 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { Atop the Stone Throne  }
+  desc {
+"   Whew!  Those stairs seemed to go on forever!  The top of the stone throne is
+only adorned with a large rock chair.  The shadowy figure can now be seen quite
+easily.  He appears to be human, but that is all you can ascertain.  He does
+not look at you, but continues to stare directly forward, staring out over the
+crowd of creatures.  He mutters, "I did.....I did just what you told me.".  He
+continues to mumble to himself, spouting out nonsensical sentences.  "Just leave
+me alone.", he quietly whispers, "Please.....".  What is going on here?  Looking
+out to the east, you can see around the entire cavern.  The crowd of creatures
+are dancing around the entire cavern, moving along to the beautiful music.  The
+large rock creatures have stopped at the bottom of the staircase.  They do not
+seem to be able to come up here or is there another reason.  Why would they
+leave their King unprotected.....or is he.
+  }
+  flags { dark, no_mob, indoors }
+  exits {
+	to { d, 79 }
+	to { 10, Damnation:693 }
+	  key { 14500 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { portal }
+  }
+}
+
+83
+{
+  name { Up the Geyser  }
+  desc {
+"   The current is strong.  The geyser forces you upwards very rapidly.  It almost
+feels like you are falling in reverse!  You stomach turns and wrenches in knots.
+  }
+  sector { Underwater }
+  flags { dark, indoors, blue_glow }
+  tele { 2, 1, 84 }
+}
+
+84
+{
+  name { Up the Geyser  }
+  desc {
+"   The current is strong.  The geyser forces you upwards very rapidly.  It almost
+feels like you are falling in reverse!  You stomach turns and wrenches in knots.
+  }
+  sector { Underwater }
+  flags { dark, indoors, blue_glow }
+  tele { 2, 1, 85 }
+}
+
+85
+{
+  name { Up the Geyser  }
+  desc {
+"   Some light starts to filter in from above as the current seems to increase.
+The sheer force of the geyser is overpowering, there is no way to swim back down.
+You start to adjust to the current and enjoy the ride, too bad it appears to be
+almost over.
+  }
+  sector { Underwater }
+  flags { dark, indoors, blue_glow }
+  tele { 2, 1, 86 }
+}
+
+86
+{
+  name { Above the Geyser  }
+  desc {
+"   The geyser shoots you high above the lake, but you land right back on top
+of the fountain.  The force of the water seems to keep you from falling down
+and into the lake below.  You can get of the geyser to the northeast, northwest,
+southeast and southwest.  An equal opportunity geyser!  You seem to be above the
+mountain in the forest near Oldport.  Looking out to the north, west and south,
+you can see the forest grow out for miles.  To the east, a large, blue ocean
+goes out to meet the horizon.
+  }
+  sector { Deep Water }
+  exits {
+	to { northeast, OldportForest:128 }
+	to { southeast, OldportForest:127 }
+	to { southwest, OldportForest:126 }
+	to { northwest, OldportForest:125 }
+  }
+}

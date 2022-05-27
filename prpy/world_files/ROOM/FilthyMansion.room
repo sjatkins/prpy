@@ -1,0 +1,1487 @@
+#offset FilthyMansion
+
+0
+{
+  name { A Path to the Mansion  }
+  desc {
+"   The path to the mansion is overrun with years of tall weeds and uncut grass.
+Westend Lane lies to the west, flourishing with the traffic of a busy city.  To
+the east you can see a gigantic mansion lying in the distance.  The mansion
+has obviously been neglected as every aspect of the structure looks disheveled
+and in disrepair.  It is going to be difficult to make your way to the mansion
+with all this thick underbrush.
+  }
+  sector { Field }
+  flags { no_mob, no_sum, private }
+  exits {
+	to { e, 1 }
+	to { w, Midgard:570 }
+  }
+}
+
+1
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   The tall weeds and uncut grass cover the wide and green yard like a long-
+haired blanket.  It is obvious that no one has attended to the maintenance of
+this place.  The echo of something barking begins to creep across the lawn.  Is
+the sound coming from the mansion or is there something creeping within the
+flora?  It appears the only way to know is further exploration across the
+unkempt lawn.  A path leading out to Westend Lane can be seen to the west.  The
+gigantic mansion lies in the distance to the east in all its broken-down glory.
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { n, 2 }
+	to { e, 4 }
+	to { s, 3 }
+	to { w, 0 }
+  }
+}
+
+2
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   The tall weeds and uncut grass cover the wide and green yard like a long-
+haired blanket.  A strong, steel fence blocks any further travel to the north
+and west.  Looking through the fence to the west, you can see the citizens
+of Midgard hustle and bustle along Westend Lane.  A gigantic mansion lies at
+the end of the lawn in the distance to the east.  The unkempt lawn continues
+to the east and south.  It is obvious that no one has attended to the
+maintenance of this place.  The echo of something barking floats eerily through
+the air across the lawn.  Is the sound coming from the mansion or is there 
+something creeping within the flora?
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { e, 5 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   The tall weeds and uncut grass cover the wide and green yard like a long-
+haired blanket.  A strong, steel fence blocks any further travel to the south
+and west.  Looking through the fence to the west, you can see the citizens
+of Midgard hustle and bustle along Westend Lane.  A gigantic mansion lies at
+the end of the lawnn in the distance to the east.  The unkempt lawn continues
+to the east and north.  It is obvious that no one has attended to the
+maintenance of this place.  The echo of something barking floats eerily through
+the air across the lawnn.  Is the sound coming from the mansion or is there 
+something creeping within the flora?
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { n, 1 }
+	to { e, 6 }
+  }
+}
+
+4
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   A gigantic mansion towers above you directly to the east.  There is an
+old wooden door in the side of the mansion that must grant access within.
+The run-down structure is in complete disrepair from years, even decades of
+neglect.  The windows all along the side of the mansion are cracked or
+broken.  The window shades on the sides of the windows are either hanging
+for their lives by a rusty nail or completely missing.  The tall weeds and
+uncut grass cover the wide and green yard like a long-haired blanket.
+The unkempt lawn continues to the north, west and south.  It is obvious
+that no one has attended to the maintenance of this place.  There is a
+doormat here that reads, "BEWARE OF DOGS".  The echo of something barking
+floats eerily through the air across the lawn.  Is the sound coming from
+the mansion or is there something creeping within the flora?  The hustle
+and bustle of citizens going about their business can be seen in the
+distance along Westend Lane to the west.
+  }
+  sector { Field }
+  extra {
+	keywords { doormat }
+	desc {  BEWARE OF DOGS! 	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, 5 }
+	to { e, 7 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 6 }
+	to { w, 1 }
+  }
+}
+
+5
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   A gigantic mansion towers above you directly to the east.  The run-down
+structure is in complete disrepair from years, even decades of neglect.  A
+strong, steel fence blocks any further travel to the north.  The tall weeds
+and uncut grass cover the wide and green yard like a long-haired blanket.
+The unkempt lawn continues to the south and west.  It is obvious that no one
+has attended to the maintenance of this place.  The echo of something barking
+floats eerily through the air across the lawn.  Is the sound coming from the
+mansion or is there something creeping within the flora?
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { s, 4 }
+	to { w, 2 }
+  }
+}
+
+6
+{
+  name { A Weed-Covered Yard  }
+  desc {
+"   A gigantic mansion towers above you directly to the east.  The run-down
+structure is in complete disrepair from years, even decades of neglect.  A
+strong, steel fence blocks any further travel to the south.  The tall weeds
+and uncut grass cover the wide and green yard like a long-haired blanket.
+The unkempt lawn continues to the north and west.  It is obvious that no one
+has attended to the maintenance of this place.  The echo of something barking
+floats eerily through the air across the lawn.  Is the sound coming from the
+mansion or is there something creeping within the flora?
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { n, 4 }
+	to { w, 3 }
+  }
+}
+
+7
+{
+  name { By the Front Door  }
+  desc {
+"   The barking and howling is coming even louder from the hallway directly
+to the east.  The wooden and rotting front door to the mansion is closed to
+the west.  The floor of the house is made of faded wooden planks and is
+covered in grime and dog hair.  There is an awful stench emanating from within 
+the gigantic structure that seems to be a mixture of body odor and urine 
+stains, more than likely human and canine.  It is probably best just to run
+back out the door to the west, but curiosity begs you deeper within the filthy
+mansion.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { e, 8 }
+	to { w, 4 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+8
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.
+There is a rotting wooden door at the end of the hallway to the west that
+must allow escape from this awful place.  Who or what could be living in
+such squalor?  There is a door to the east the more than like leads to one
+of the gigantic mansion's many rooms.  Dirt, filth and dog hair cover the
+wooden planks of the mansion's floor.  It is obvious no one has cleaned
+this place in years.  Loud and ear-splitting barking bounces off the walls
+of the hallway.  It is difficult to ascertain exactly which direction it is
+coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 10 }
+	to { e, 9 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 11 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 8 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+10
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 22 }
+	to { e, 20 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 8 }
+	to { w, 21 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+11
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+is a closed wooden door to the east of the hallway, more than likely leading
+to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a mixture of body odor and
+drying urine, most probably from both human and canine creatures.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 8 }
+	to { e, 12 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 13 }
+  }
+}
+
+12
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and
+clean up this mess?  There is a door along the west wall that leads back
+into the hallway of the mansion.  A large dog door to the east of the room
+leads to a back yard full of green grass.
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { e, 50 }
+	  info { door, closed, autoclose }
+	  keywords { dogdoor dog door }
+	to { w, 11 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+13
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway, more than
+likely leading to one of the gigantic structure's many rooms.  The sounds
+of someone singing can be heard through the door to the west.  There is
+an awful stench emanating through the hallway that seems to be a mixture
+of body odor and drying urine, most probably a concoction of human and
+canine.  Looking closer at the long wooden planks that line the floor, you
+can see scattered remnants of dirt, filth and dog hair lying all over the
+ground.  It is obvious no one has cleaned this place in years.  Loud and
+ear-splitting barking bounces off the walls of the hallway.  It is difficult
+to ascertain exactly which direction it is coming from.  The baking seems
+to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 11 }
+	to { e, 14 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 16 }
+	to { w, 15 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+14
+{
+  name { Blanket's Room  }
+  desc {
+"   This room has been torn to shreds.  The floors are covered in pillows of
+every size, shape and color.  However, a good amount of them have been ripped
+apart and are bleeding their precious stuffing.  A nest of some kind has 
+formed in the northeast most section of the room.  It is obvious that this
+is the resting and sleeping place of one of the mansion's dogs.  A plaque
+nailed to the eastern wall reads, "Blanket".  The only way out appears to be
+through the door along the western wall.
+  }
+  extra {
+	keywords { plaque }
+	desc {  Blanket 	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 13 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+15
+{
+  name { A Well-Stocked Kitchen  }
+  desc {
+"   This is probably the cleanest place in the entire mansion.  Which is sad
+to say because this place is still a pigsty.  Food in various stages of
+assembly lie across the kitchen counters.  Slabs of different kinds of meat
+and ropes of spices hang from the ceiling.  Someone must be trying to keep
+these items away from the dogs.  A wretched smell drifts in from the north.
+What could be going on in there?
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 17 }
+	to { e, 13 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+16
+{
+  name { A Staircare at the End of the Hallway  }
+  desc {
+"   The hallway through the mansion continues to the north.  A broken-down
+wooden staircase leads up to the second floor of the house.  There are
+closed wooden doors to the east and west of the hallway that more than likely
+lead to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a concoction of body odor
+and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+remnants of dirt, filth and dog hair lying all over the ground and staircase.
+It is obvious no one has cleaned this place in years.  Loud and ear-
+splitting barking bounces off the walls of the hallway.  It is difficult to
+ascertain exactly which direction it is coming from.  The barking seems to
+be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 13 }
+	to { e, 18 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { w, 19 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { u, 47 }
+  }
+}
+
+17
+{
+  name { The Master Kitchen  }
+  desc {
+"   The kitchen is cluttered with dishes, both dirty and relatively clean.
+There are flies and assorted insects crawling and flying all over the place.
+The smell coming from this place is nauseating.  It almost seems to stick 
+to your body.  A rumble starts to shake the dishes above the kitchen
+sink against the western wall.  It looks as though it is starting to move!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 15 }
+  }
+}
+
+18
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and clean
+up this mess?  The only way out appears to be a door to the west of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 16 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+19
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 16 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+20
+{
+  name { Wimpy's Room  }
+  desc {
+"   This room has been torn to shreds.  The floors are covered in pillows of
+every size, shape and color.  However, a good amount of them have been ripped
+apart and are bleeding their precious stuffing.  A nest of some kind has 
+formed in the northeast most section of the room.  It is obvious that this
+is the resting and sleeping place of one of the mansion's dogs.  A plaque
+nailed to the eastern wall reads, "Wimpy".  The only way out appears to be
+through the door along the western wall.
+  }
+  extra {
+	keywords { plaque }
+	desc {  Wimpy 	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 10 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+21
+{
+  name { A Cold and Empty Room  }
+  desc {
+"   This room is unlike the other rooms of the house.  It is actually clean!
+There is no furniture, no dog hair, no boxes or crates.  It is hard to believe
+the owners of the mansion have not ruined this room yet.  They probably
+just need more time.  The only way out appears to be a door along the east wall.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 10 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+22
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 23 }
+	to { e, 24 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 10 }
+	to { w, 25 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+23
+{
+  name { A Staircare at the End of the Hallway  }
+  desc {
+"   The hallway through the mansion continues to the south.  A broken-down
+wooden staircase leads up to the second floor of the house.  There are
+closed wooden doors to the east and west of the hallway that more than likely
+lead to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a concoction of body odor
+and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+remnants of dirt, filth and dog hair lying all over the ground and staircase.
+It is obvious no one has cleaned this place in years.  Loud and ear-
+splitting barking bounces off the walls of the hallway.  It is difficult to
+ascertain exactly which direction it is coming from.  The barking seems to
+be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 26 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 22 }
+	to { w, 27 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { u, 29 }
+  }
+}
+
+24
+{
+  name { A Dog Hair-Covered Room  }
+  desc {
+"   Yuck!  You can barely walk around the room without kicking up piles of
+excrement covered dog hair.  Hopefully it is just canine poop!  It is
+difficult to tell considering the general state of the rest of the mansion.
+This room is not as cluttered as the others, but the amount of dog hair
+covering everything makes it look like there is a blanket covering every
+object in the room.  The only way out appears to be back through the door
+to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 22 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+25
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and clean
+up this mess?  The only way out appears to be a door to the east of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 22 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+26
+{
+  name { A Cluttered Office  }
+  desc {
+"   The office is piled high with parchment and scrolls of every shape and
+color.  Giant red-colored stamps of "OVERDUE" can be read on nearly every
+piece of paper.  Someone needs to pay these bills, how irresponsible!
+Looking closely at the floor, you can make out the faint outline of a
+trapdoor beneath the dust and grime.  What could be down there?
+  }
+  flags { no_mob, indoors, no_sum, private }
+  exits {
+	to { w, 23 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { 10, 28 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { trapdoor }
+  }
+}
+
+27
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 23 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+28
+{
+  name { A Dark and Dank Dungeon  }
+  desc {
+"   The bottom of the mansion is completely dark except for a light emitting 
+from a box on top of a small desk.  A plush leather chair rests directly
+in back of the desk.  It swivels back and forth repeatedly as whoever is
+sitting in the chair stares blankly into the box.  What could that person
+be looking at?  Looking around the room you do not see any other furniture.
+What a sad existence to only have a desk, chair and box for the rest of
+whoever's pathetic life it is.  The handles attached to the bottom of the
+trapdoor lead back up to the office above.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { 10, 26 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { handles }
+  }
+}
+
+29
+{
+  name { A Staircare at the End of the Hallway  }
+  desc {
+"   The hallway through the mansion continues to the south.  A broken-down
+wooden staircase leads down to the first floor of the house.  There are
+closed wooden doors to the east and west of the hallway that more than likely
+lead to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a concoction of body odor
+and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+remnants of dirt, filth and dog hair lying all over the ground and staircase.
+It is obvious no one has cleaned this place in years.  Loud and ear-
+splitting barking bounces off the walls of the hallway.  It is difficult to
+ascertain exactly which direction it is coming from.  The barking seems to
+be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 30 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 32 }
+	to { w, 31 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { d, 23 }
+  }
+}
+
+30
+{
+  name { A Cold and Empty Room  }
+  desc {
+"   This room is unlike the other rooms of the house.  It is actually clean!
+There is no furniture, no dog hair, no boxes or crates.  It is hard to believe
+the owners of the mansion have not ruined this room yet.  They probably
+just need more time.  The only way out appears to be a door along the west wall.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 29 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+31
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and clean
+up this mess?  The only way out appears to be a door to the east of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 29 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+32
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 29 }
+	to { e, 33 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 35 }
+	to { w, 34 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+33
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 32 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+34
+{
+  name { A Psychodelic Room  }
+  desc {
+"   This room is fairly clean in comparison to the rest of the lived in rooms
+in the gigantic mansion.  There is a comfortable looking bed against the west
+wall and a couple of wooden dressers along the north and south walls.  Pretty
+paintings hang above the dressers adding some lovely color to the room.  The
+only way out appears to be a door along the west wall.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 32 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+35
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 32 }
+	to { e, 36 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 38 }
+	to { w, 37 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+36
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and clean
+up this mess?  The only way out appears to be a door to the west of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 35 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+37
+{
+  name { A Dog Hair-Covered Room  }
+  desc {
+"   Yuck!  You can barely walk around the room without kicking up piles of
+excrement covered dog hair.  Hopefully it is just canine poop!  It is
+difficult to tell considering the general state of the rest of the mansion.
+This room is not as cluttered as the others, but the amount of dog hair
+covering everything makes it look like there is a blanket covering every
+object in the room.  The only way out appears to be back through the door
+to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 35 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+38
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+is a closed wooden door to the west of the hallway, more than likely leading
+to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a mixture of body odor and
+drying urine, most probably from both human and canine creatures.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 35 }
+	to { s, 40 }
+	to { w, 39 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+39
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 38 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+40
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 38 }
+	to { e, 41 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 43 }
+	to { w, 42 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+41
+{
+  name { The Master Bedroom  }
+  desc {
+"   The master bedroom is in complete disarray.  This part of the master
+bedroom suite is full of boxes, crates and furniture, just like the rest
+of the mansion.  It is hard to believe that people can live in these
+conditions.  The floor is covered in dog hair and animal feces.  Well,
+hopefully it is animal feces anyway.  The only ways out are further north
+into the master bedroom suite or back through a door on the western wall.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 44 }
+	to { w, 40 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+42
+{
+  name { Pebbles' Room  }
+  desc {
+"   This room has been torn to shreds.  The floors are covered in pillows of
+every size, shape and color.  However, a good amount of them have been ripped
+apart and are bleeding their precious stuffing.  A nest of some kind has 
+formed in the northwest most section of the room.  It is obvious that this
+is the resting and sleeping place of one of the mansion's dogs.  A plaque
+nailed to the western wall reads, "Pebbles".  The only way out appears to be
+through the door along the eastern wall.
+  }
+  extra {
+	keywords { plaque }
+	desc {  Pebbles 	}
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 40 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+43
+{
+  name { A Hallway through the Mansion  }
+  desc {
+"   The hallway through the mansion continues to the north and south.  There
+are closed wooden doors to the east and west of the hallway that more than
+likely lead to one the gigantic structure's many rooms.  There is an awful
+stench emanating throughout the hallway that seems to be a mixture of body
+odor and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+dirt, filth and dog hair lying all over the ground.  It is obvious no one
+has cleaned this place in years.  Loud and ear-splitting barking bounces off
+the walls of the hallway.  It is difficult to ascertain exactly which direction
+it is coming from.  The barking seems to be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 40 }
+	to { e, 45 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { s, 47 }
+	to { w, 46 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+44
+{
+  name { The Master Bedroom  }
+  desc {
+"   The smell coming from this room makes you hurl immediately upon entering.
+The room consists entirely of one enormous mattress.  There are torn up pillows
+and stained blankets strewn all across the top of the mattress.  You better not
+get too close, you could catch sometime terrible.  Where are the vaccines?
+The only way out appears to be further south into the rest of the master bedroom
+suite.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { s, 41 }
+  }
+}
+
+45
+{
+  name { A Cold and Empty Room  }
+  desc {
+"   This room is unlike the other rooms of the house.  It is actually clean!
+There is no furniture, no dog hair, no boxes or crates.  It is hard to believe
+the owners of the mansion have not ruined this room yet.  They probably
+just need more time.  The only way out appears to be a door along the west wall.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 43 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+46
+{
+  name { A Dusty and Unkempt Room  }
+  desc {
+"   This room is a horrible mess.  No one has dusted or swept up in what
+appears to be years.  The room is full of boxes and crates piled on top of
+mass amounts of unused furniture.  Is it that hard to take a second and clean
+up this mess?  The only way out appears to be a door to the east of the room.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 43 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+47
+{
+  name { A Staircare at the End of the Hallway  }
+  desc {
+"   The hallway through the mansion continues to the north.  A broken-down
+wooden staircase leads down to the first floor of the house.  There are
+closed wooden doors to the east and west of the hallway that more than likely
+lead to one of the gigantic structure's many rooms.  There is an awful stench
+emanating throughout the hallway that seems to be a concoction of body odor
+and drying urine, most probably a mixture of human and canine.  Looking
+closer at the long wooden planks that line the floor, you can see scattered
+remnants of dirt, filth and dog hair lying all over the ground and staircase.
+It is obvious no one has cleaned this place in years.  Loud and ear-
+splitting barking bounces off the walls of the hallway.  It is difficult to
+ascertain exactly which direction it is coming from.  The barking seems to
+be coming from every direction!
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { n, 43 }
+	to { e, 48 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { w, 49 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { d, 16 }
+  }
+}
+
+48
+{
+  name { A Small and Filthy Room  }
+  desc {
+"   The room looks smaller than it actually is is due to the extreme clutter
+that litters the room.  Someone has shoved boxes and crates of various sizes
+all over the room.  There is barely a path to walk from the front of the room
+to retrieve any of the items within.  Dust and dog hair cover almost every
+item in the room.  The residents of the mansions have probably not been
+in this room in years.  The only way out seems to be back through the door
+to the west.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { w, 47 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+49
+{
+  name { A Dog Hair-Covered Room  }
+  desc {
+"   Yuck!  You can barely walk around the room without kicking up piles of
+excrement covered dog hair.  Hopefully it is just canine poop!  It is
+difficult to tell considering the general state of the rest of the mansion.
+This room is not as cluttered as the others, but the amount of dog hair
+covering everything makes it look like there is a blanket covering every
+object in the room.  The only way out appears to be back through the door
+to the east.
+  }
+  flags { indoors, no_sum, private }
+  exits {
+	to { e, 47 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+  }
+}
+
+50
+{
+  name { A Large Backyard  }
+  desc {
+"   The backyard is full of overgrown grass and tall weeds.  No one has tended
+to this lawn in quite a long time.  With every step a *squish* sounds from
+beneath your feet.  Without looking down you can already tell that the sound
+comes from a now flattened pile of animal excrement.  Yuck!  The backyard
+continues to the east and north.  There is a doggy door in the west side of
+the mansion that leads back inside.  Loud and ear-splitting barking can be
+heard from every direction.  It is difficult to ascertain if the sounds are
+coming from the backyard or from inside the gigantic mansion.
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { n, 52 }
+	to { e, 51 }
+	to { w, 12 }
+	  info { door, closed, autoclose }
+	  keywords { dogdoor dog door }
+  }
+}
+
+51
+{
+  name { A Large Backyard  }
+  desc {
+"   The backyeard is full of overgrown grass and tall weeds.  No one has
+tended to this lawn in quite a long time.  With every step a *squish* sounds
+from beneath your feet.  Without looking down you can already tell that the
+sound comes from a now flattened pile of animal excrement.  Yuck!  The
+backyard continues to the west and north.  The gigantic mansion towers
+high above you to the west.  There are cracked and broken windows all along
+the side of the mansion.  Loud and ear-splitting barking can be heard from
+every direction.  It is difficult to ascertain if the sounds are coming from
+the backyard or from within the old mansion.
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { n, 53 }
+	to { w, 50 }
+  }
+}
+
+52
+{
+  name { A Large Backyard  }
+  desc {
+"   The backyeard is full of overgrown grass and tall weeds.  No one has
+tended to this lawn in quite a long time.  With every step a *squish* sounds
+from beneath your feet.  Without looking down you can already tell that the
+sound comes from a now flattened pile of animal excrement.  Yuck!  The
+backyard continues to the east and south.  The gigantic mansion towers
+high above you to the west.  There are cracked and broken windows all along
+the side of the mansion.  Loud and ear-splitting barking can be heard from
+every direction.  It is difficult to ascertain if the sounds are coming from
+the backyard or from within the old mansion.
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { e, 53 }
+	to { s, 50 }
+  }
+}
+
+53
+{
+  name { A Large Backyard  }
+  desc {
+"   The backyeard is full of overgrown grass and tall weeds.  No one has
+tended to this lawn in quite a long time.  With every step a *squish* sounds
+from beneath your feet.  Without looking down you can already tell that the
+sound comes from a now flattened pile of animal excrement.  Yuck!  The
+backyard continues to the west and south.  The gigantic mansion towers
+high above you to the west.  There are cracked and broken windows all along
+the side of the mansion.  Loud and ear-splitting barking can be heard from
+every direction.  It is difficult to ascertain if the sounds are coming from
+the backyard or from within the old mansion.
+  }
+  sector { Field }
+  flags { no_sum, private }
+  exits {
+	to { s, 51 }
+	to { w, 52 }
+  }
+}
+
+54
+{
+  name { 252054  }
+  desc { Empty   }
+}
+
+55
+{
+  name { 252055  }
+  desc { Empty   }
+}
+
+56
+{
+  name { 252056  }
+  desc { Empty   }
+}
+
+57
+{
+  name { 252057  }
+  desc { Empty   }
+}
+
+58
+{
+  name { 252058  }
+  desc { Empty   }
+}
+
+59
+{
+  name { 252059  }
+  desc { Empty   }
+}
+
+60
+{
+  name { 252060  }
+  desc { Empty   }
+}
+
+61
+{
+  name { 252061  }
+  desc { Empty   }
+}
+
+62
+{
+  name { 252062  }
+  desc { Empty   }
+}
+
+63
+{
+  name { 252063  }
+  desc { Empty   }
+}
+
+64
+{
+  name { 252064  }
+  desc { Empty   }
+}
+
+65
+{
+  name { 252065  }
+  desc { Empty   }
+}
+
+66
+{
+  name { 252066  }
+  desc { Empty   }
+}
+
+67
+{
+  name { 252067  }
+  desc { Empty   }
+}
+
+68
+{
+  name { 252068  }
+  desc { Empty   }
+}
+
+69
+{
+  name { 252069  }
+  desc { Empty   }
+}
+
+70
+{
+  name { 252070  }
+  desc { Empty   }
+}
+
+71
+{
+  name { 252071  }
+  desc { Empty   }
+}
+
+72
+{
+  name { 252072  }
+  desc { Empty   }
+}
+
+73
+{
+  name { 252073  }
+  desc { Empty   }
+}
+
+74
+{
+  name { 252074  }
+  desc { Empty   }
+}
+
+75
+{
+  name { 252075  }
+  desc { Empty   }
+}
+
+76
+{
+  name { 252076  }
+  desc { Empty   }
+}
+
+77
+{
+  name { 252077  }
+  desc { Empty   }
+}
+
+78
+{
+  name { 252078  }
+  desc { Empty   }
+}
+
+79
+{
+  name { 252079  }
+  desc { Empty   }
+}
+
+80
+{
+  name { 252080  }
+  desc { Empty   }
+}
+
+81
+{
+  name { 252081  }
+  desc { Empty   }
+}
+
+82
+{
+  name { 252082  }
+  desc { Empty   }
+}
+
+83
+{
+  name { 252083  }
+  desc { Empty   }
+}
+
+84
+{
+  name { 252084  }
+  desc { Empty   }
+}
+
+85
+{
+  name { 252085  }
+  desc { Empty   }
+}
+
+86
+{
+  name { 252086  }
+  desc { Empty   }
+}
+
+87
+{
+  name { 252087  }
+  desc { Empty   }
+}
+
+88
+{
+  name { 252088  }
+  desc { Empty   }
+}
+
+89
+{
+  name { 252089  }
+  desc { Empty   }
+}
+
+90
+{
+  name { 252090  }
+  desc { Empty   }
+}
+
+91
+{
+  name { 252091  }
+  desc { Empty   }
+}
+
+92
+{
+  name { 252092  }
+  desc { Empty   }
+}
+
+93
+{
+  name { 252093  }
+  desc { Empty   }
+}
+
+94
+{
+  name { 252094  }
+  desc { Empty   }
+}
+
+95
+{
+  name { 252095  }
+  desc { Empty   }
+}
+
+96
+{
+  name { 252096  }
+  desc { Empty   }
+}
+
+97
+{
+  name { 252097  }
+  desc { Empty   }
+}
+
+98
+{
+  name { 252098  }
+  desc { Empty   }
+}
+
+99
+{
+  name { 252099  }
+  desc { Empty   }
+}

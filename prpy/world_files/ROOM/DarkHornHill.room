@@ -1,0 +1,4209 @@
+#offset DarkHornHill
+
+0
+{
+  name { The Entrance to a Crumbling Round Barrow  }
+  desc {
+"   You are standing in the entrance to what looks like an ancient and
+long forgotten round barrow.  Above the hole through which you entered is
+covered in soil and muck -- a testament to the age of this place.  The
+scanty amount of light that penetrates down from the hole reveals the
+damp, cracked flagstone floor of a chamber of wrack and ruin -- directly
+east part of the ceiling has caved in but, if you dare, you can make
+your way around the tumble to the southeast or northeast or you can exit
+up back to the bog.
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { u, 99 }
+	to { northeast, 1 }
+	to { southeast, 2 }
+  }
+}
+
+1
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   Debris is everywhere and you are now standing in an inch of fetid
+water -- the smell is nauseating.  You can clearly see the signs of the
+swamp reclaiming this place.  For a moment you wonder how long this
+structure must have been here.  A long time you decide.  The chamber is
+blocked by rubble to the south but continues east into darkness or
+southwest back to the entrance.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 5 }
+	to { southwest, 0 }
+  }
+}
+
+2
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   The stinking, stagnent water of the swamp laps around your ankles and
+leaves a dirt-line on your fineries.  This place is a mess.  All around
+you the wrack and ruin of the round barrow continues -- fallen stones,
+cracked and weathered walls.  You wouldn't be surprised if this place
+was to come crashing down you, such is the level of destruction.  You 
+can continue north or east into darkness or northwest back to the
+entrance.
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { n, 3 }
+	to { e, 6 }
+	to { northwest, 0 }
+  }
+}
+
+3
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   It is pitch black here and even with your light you stumble and almost
+fall on the debris that litters this place.  The swamp is slowly claiming
+this structure back -- already the water level covers the tops of your
+boots and roots lay hidden under the shallow muck ready to trip you and
+other diseased looking tendrils dangle everywhere.  The routes north and
+west are blocked by rubble and debris.  To the east you can see light
+slanting down from holes in the roof.  You can exit east towards the
+light or south into darkness.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 4 }
+	to { s, 2 }
+  }
+}
+
+4
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   The filthy water is up to your ankles now -- this barrow must be sink-
+ing into the bog.  All around you is the destruction of the barrow --
+fallen masonry, smashed flag stones and even tiny tiles that must once
+have formed a mosaic -- although you can't begin to guess where that
+mosaic would have been displayed nor what it could possibly have shown.
+Rubble and debris is blocking all routes except north and west. To the
+north you can see a faint glimmer of light.  To the west is impenetrable
+darkness.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 5 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   You carefully pick your way over mounds of stone.  The ceiling is
+peppered with holes here and the light beams through them in rays
+revealing once lush colours adorning the walls and flagstone floors.  You
+try to get a better look but the filthy water of the swamp obscures
+everything in the bad light, and already it is lapping at the soles of
+your boots -- let's hope it doesn't get any deeper!  You can exit west or
+south in to darkness.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 4 }
+	to { w, 1 }
+  }
+}
+
+6
+{
+  name { Inside a Crumbling Round Barrow  }
+  desc {
+"   Dirty swamp water licks your ankles.  You notice that the rubble has
+formed a tiny opening to the northeast here,  possibly leading to the end
+of the round barrow.  What treasures must lay in wait for you there?  To
+find out you'll need to brave the muck and mire and continue on in...
+You can exit west towards a faint glimmer of light or northeast into
+darkness.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 2 }
+	to { northeast, 7 }
+  }
+}
+
+7
+{
+  name { A Dead-end in a Crumbling Round Barrow  }
+  desc {
+"   You are knee deep in muck and gunk, but this part of the chamber is
+surprisingly free of debris.  Looking up you see a strong vaulted roof
+made of precision-cut granite that looks dry and free of mold.  The walls
+on the south, east and north of this chamber are also dry.  As your
+fingers touch the wall you feel raised markings beneath your fingers on
+the bone-dry surface of the south wall.   Testing with your feet you find
+the muck at the bottom of the water is an inch deep and covers a smooth
+stoney surface -- its exact composition is not something you want to find
+out as that would involve getting down on your knees and immersing
+yourself in the festering water.  The routes west and northwest are
+blocked by rubble and debris. There is a single exit to the southwest
+leading back the way you came.
+  }
+  sector { Cavern }
+  extra {
+	keywords { markings marking rune runes }
+	desc { 
+"
+/-----------------------------------------------------------------------\
+|                       From chaos comes form,                          |
+|                       From more comes less,                           |
+|                    From the earth--base to base,                      |
+|                       My body, foot and face,                         |
+|                 Yet as a hand that moulds and turns,                   |
+|               Hammer in hand strikes a smithy spouse,                 |
+|          Your hand presses against my shoulder and waist.             |
+|                You strike me hot from steely cold,                    |
+|                 I bear my horn and 'hardy hole'.                      |
+\-----------------------------------------------------------------------/
+	}
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { southwest, 6 }
+	to { 10, 8 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { anvil }
+  }
+}
+
+8
+{
+  name { The Central Burial Chamber  }
+  desc {
+"   You are standing up to your chest in muck and filthy swamp water in a 
+low roofed chamber.  There is a mere 3 feet of room between the water 
+level and the ceiling.  The atmosphere reeks of marsh gas and you feel
+slightly confined and claustrophobic in here.  Further chambers can be
+accessed to the north, west and south, but a mound of rubble and debris
+blocks the chamber to the east.  As your light reflects off the wall it
+picks out reflective runes that repeat in a pattern around all of the
+entrances--perhaps a warning of some kind?  Luckily the fallen rubble is
+providing a convenient means of climbing back up to the round barrow.
+You can exit north, south and east to other chambers or leave up to the
+round barrow.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex0 _ex2 _ex3 }
+	desc {  test
+	}
+  }
+  flags { dark, no_sum, no_mob, private }
+  exits {
+	to { n, 9 }
+	  info { message }
+	to { s, 11 }
+	to { w, 10 }
+	to { u, 7 }
+	  info { door, closed, autoclose }
+	  keywords { barrow }
+  }
+}
+
+9
+{
+  name { The North Burial Chamber  }
+  desc {
+"   You are standing in a dark and enclosed chamber.  Feeling around with
+your feet you find the room is strewn with debris, making it perilous to
+stand up in.  The water level is almost at your shoulders in here and you
+have only a few inches of space above your head.  The darkness and the
+smell of the vile swamp water makes this place claustrophobic.  Maybe it
+would be best to get out?  There is clearly nothing alive in here. You
+can exit south back to the central chamber.
+  }
+  sector { Shallow Water }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 8 }
+	  info { message }
+  }
+}
+
+10
+{
+  name { The West Burial Chamber  }
+  desc {
+"   You are standing in a dark and enclosed chamber.  Feeling around with
+your feet you find the room is strewn with debris, making it perilous to
+stand up in.  You can also feel what appears to be a ring in the stone of
+floor at your feet.  The water level is almost at your shoulders in here 
+and you have only a few inches of space above your head.  The darkness 
+and the smell of the vile swamp water makes this place claustrophobic.  
+Maybe it would be best to get out?  There is clearly nothing alive in 
+here. You exit east back to the central chamber.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { ring rings }
+	desc { 
+"
+You take a deep breath and plunge under the water...  
+
+The ring is made of iron and although it is rusting it is still strong.
+You try and pull it but it appears to stuck fast... Feeling around your
+fingers trace some runes on the flagstone attached to the ring.
+
+You surface and gasp for air! 
+	}
+	keywords { rune runes flag stone flagstone }
+	desc { 
+"
+You take a deep breath and plunge under the water...
+
+Using your light you manage to illuminate the runes enough to read 
+them...
+
+"What is the name of the crocodile goddess?"
+
+You surface and gasp for air!
+	}
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 8 }
+	to { 10, 13 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { krocoatl }
+  }
+}
+
+11
+{
+  name { The South Burial Chamber  }
+  desc {
+"   You are standing in a dark and enclosed chamber.  Feeling around with
+your feet you find the room is strewn with debris, making it perilous to
+stand up in.  The water level is almost at your shoulders in here and you
+have only a few inches of space above your head.  The darkness and the
+smell of the vile swamp water makes this place claustrophobic.  Maybe it
+would be best to get out?  There is clearly nothing alive in here. You
+can exit north back to the central chamber.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+The water churns in a great mass of bubbles and a barrow wight explodes 
+from beneath the swirling surface!
+	}
+  }
+  flags { dark, no_sum, private }
+  tele { 40, 0, 12 }
+  exits {
+	to { n, 8 }
+  }
+}
+
+12
+{
+  name { The South Burial Chamber  }
+  desc {
+"   You are standing in a dark and enclosed chamber.  Feeling around with
+your feet you find the room is strewn with debris, making it perilous to
+stand up in.  The water level is almost at your shoulders in here and you
+have only a few inches of space above your head.  The darkness and the
+smell of the vile swamp water makes this place claustrophobic.  Maybe it
+would be best to get out?  There is clearly nothing alive in here. You
+can exit north back to the central chamber.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 8 }
+  }
+}
+
+13
+{
+  name { In a small water filled chamber!  }
+  desc {
+"   You are in a very small water filled chamber.  It is so small you can
+touch each wall without moving.  You notice a strange rune has been
+carved in to each wall and the floor but you can't read what they say.
+There is nothing else in here. You can exit up back to the west burial
+chamber.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+The runes suddenly flare with a light so bright you are briefly blinded.
+
+"	}
+  }
+  sector { Shallow Water }
+  flags { dark, no_sum, private }
+  tele { 20, 1, 14 }
+  exits {
+	to { u, 10 }
+	  info { door, closed, autoclose }
+	  keywords { flagstone }
+  }
+}
+
+14
+{
+  name { An out of body experience?  }
+  desc { "   All around you is white insubstantial nothingness...
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+Your vision fades... You feel movement... You arrive somewhere.
+
+"	}
+  }
+  sector { Astral }
+  flags { no_sum, private }
+  tele { 30, 1, 15 }
+}
+
+15
+{
+  name { The east burial chamber  }
+  desc {
+"   You are standing in a dry underground chamber with a low roof.  The
+walls are plain and unadorned except for the west which is a pile of
+rubble and debris.  With a sudden flash of realisation you know that you
+are standing in the blocked off east burial chamber of the round barrow.
+The rubble has protected this chamber from the swamp -- there is not
+even the smallest sign of damp in here... Which means any artefacts that
+were placed in the barrow would have been preserved!  You wonder if any
+still exist.  There is a sturdy iron ring set into a flagstone in the 
+floor of the chamber. You can open the flagstone to exit down.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { d, 16 }
+	  info { door, closed, autoclose }
+	  keywords { flagstone }
+  }
+}
+
+16
+{
+  name { In a small chamber  }
+  desc {
+"   You are in a very small chamber.  It is so small you can touch each 
+wall without moving.  You notice a strange rune has been carved in to 
+each wall and the floor but you can't read what they say.  There is 
+nothing else in here. You can exit up back to the east burial chamber.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+The runes suddenly flare with a light so bright you are briefly blinded.
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  tele { 20, 1, 17 }
+  exits {
+	to { u, 15 }
+	  info { door, closed, autoclose }
+	  keywords { flagstone }
+  }
+}
+
+17
+{
+  name { An out of body experience?  }
+  desc { "   All around you is white insubstantial nothingness...
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+Your vision fades... You feel movement... You arrive somewhere.
+
+"	}
+  }
+  sector { Astral }
+  flags { no_sum, private }
+  tele { 30, 1, 10 }
+}
+
+18
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.  To the north the gate
+to the Swamps of Amnos looms with the fog curling thickly to the east and
+west of it, providing a barrier between the infected, evil air here and
+the relative cleanliness of the swampland to the north.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+    extra {
+      keywords { gate gates }
+      desc {
+  "
+  This gate has been constructed of an unknown material that is cold and harsh
+  to the touch, as if it somehow wants to stick to you, to infect you.  A nice
+  design of a frog, that we have come to recognise as the Slaadi overlords of
+  Dark Horn Hill, has been carved in to the gate and a strange halo of flames
+  floats an inch or so above it's amphibious head, moving and dancing as if a
+  breeze blows against the fiery tendrils.  No doubt impressive, maybe it is
+  also a clue?
+
+  " }  
+      keywords { fog tendril wall }
+      desc {
+  "
+  Now well known as the Dark Wind, this magically created fog is the will of
+  the Slaadi, invading and cursing the land, twisting the creatures therein
+  and possessing all with evil.  The fog is known to seep endlessly from the
+  Plane of Frogs and provides a crucial life-line for the Slaadi and their
+  Sahougin minions.  Take care not to breathe too much of it in, for you to
+  might well succumb to the deadly embrace of the Dark Wind.
+
+  " }
+    }
+  exits {
+	to { s, 19 }
+    to { n, SwampsAmnos:221 }
+      key { 114037 }
+      info { door, closed, locked, pickproof, autoclose, autolock }
+      keywords { gate gates }
+  }
+}
+
+19
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 18 }
+	to { e, 21 }
+	to { w, 20 }
+  }
+}
+
+20
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 19 }
+	to { southwest, 22 }
+  }
+}
+
+21
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 19 }
+	to { southeast, 23 }
+  }
+}
+
+22
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 51 }
+	to { northeast, 20 }
+  }
+}
+
+23
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 24 }
+	to { northwest, 21 }
+  }
+}
+
+24
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 23 }
+	to { e, 37 }
+	to { s, 25 }
+  }
+}
+
+25
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, 24 }
+	to { e, 45 }
+	to { southwest, 26 }
+	to { 10, 49 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+26
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 27 }
+	to { northeast, 25 }
+	to { southeast, 48 }
+  }
+}
+
+27
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   The muddy path rises at this point up the low hill.  The fog is ever-
+present and you can't see much around you.  Maybe the hill will let you
+get above the level of the fog and find get a look at your surroundings?
+You start climbing the hill to the north.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 28 }
+	to { e, 26 }
+  }
+}
+
+28
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   The mud on the path has dried now you have risen above the level of
+the bog and you find it easier to walk comfortably.  The fog is still
+very thick at this level.  You can climb further up the path to the east
+or return to the bog to the south.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 29 }
+	to { s, 27 }
+  }
+}
+
+29
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is still very thick at
+this level.  You can climb further up the path to the north or return
+towards the bog to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is still very thick at
+this level.  You can climb further up the path to the north or return
+towards the bog to the south.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 31 }
+	to { s, 29 }
+  }
+}
+
+31
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is still very thick at
+this level.  You can climb further up the path to the west or return
+towards the bog to the south.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { s, 30 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is still very thick at
+this level.  You can climb further up the path to the west or return
+towards the bog to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 31 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is has finally started to
+show signs of thinning.  Maybe you'll be able to spy out the surroundings
+soon!   You can climb further up the path to the south or return
+towards the bog to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 32 }
+	to { s, 34 }
+  }
+}
+
+34
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is thinning but you still
+can't make out any details of your surroundings.  You can climb further
+up the path to the south or return towards the bog to the north.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 33 }
+	to { s, 35 }
+  }
+}
+
+35
+{
+  name { A Path Leading Up a Low Hill  }
+  desc {
+"   You are standing on a dry mud path.  The fog is thinning but you still
+can't make out any details of your surroundings.  You can climb further
+up the path to the northeast or return towards the bog to the north.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 34 }
+	to { northeast, 36 }
+  }
+}
+
+36
+{
+  name { The Summit of a Low Hill  }
+  desc {
+"   As you make the final push to the summit, so at last you rise above
+the murky fog and out in to clear air.  You can see for miles!  But the
+main thing that catches your attention is the massive hill far to the
+south, that rises out of the fog like a lone iceberg in a fluffy grey
+sea.  You can just make out tiny paths lines snaking across it, leading
+to its summit.  Looking around all you see is unmoving fog.  Strange.  It
+doesn't appear to be evaporating or anything.  The top of the low hill
+you're standing on is dominated by a cairn of stones that stand as tall
+as you do, next to which is a large hole, leading down into darkness.
+  }
+  sector { Hills }
+  flags { no_sum, private, no_mob }
+  exits {
+	to { southwest, 35 }
+        to { d, 199 }
+  }
+}
+
+37
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 38 }
+	to { w, 24 }
+  }
+}
+
+38
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 37 }
+	to { southeast, 39 }
+  }
+}
+
+39
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 43 }
+	to { southeast, 40 }
+	to { northwest, 38 }
+  }
+}
+
+40
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 41 }
+	to { northwest, 39 }
+  }
+}
+
+41
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 40 }
+	to { northwest, 43 }
+	to { 10, 42 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+42
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a small stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 41 }
+	  info { message }
+	  keywords { land }
+  }
+}
+
+43
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 44 }
+	to { southeast, 41 }
+	to { southwest, 39 }
+  }
+}
+
+44
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 43 }
+  }
+}
+
+45
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 25 }
+	to { southeast, 46 }
+  }
+}
+
+46
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 47 }
+	to { northwest, 45 }
+  }
+}
+
+47
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 48 }
+	to { northeast, 46 }
+  }
+}
+
+48
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 47 }
+	to { northwest, 26 }
+  }
+}
+
+49
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a large stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in or wade to
+deeper water.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+	keywords { _ex11 }
+	desc { 
+"
+You wade further out in to the pond, the water is now at shoulder height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 25 }
+	  info { message }
+	  keywords { land }
+	to { 11, 50 }
+	  info { message }
+	  keywords { deeper }
+  }
+}
+
+50
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing neck deep in a large stagnant pond.  Your face is
+full of mosquitos and other nasty, flying, biting insects.  You can feel
+the pond life tickling and touching your body beneath the water and hope
+like crazy that some mad newt or eel doesn't decide to take a fancy to
+you and use your clothing as a bolt hole.  Your only options are to put
+up with the insects and pond life or wade back in to the shallows.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You wade back to the shallows--the water is now at waist height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 49 }
+	  info { message }
+	  keywords { shallows }
+  }
+}
+
+51
+{
+  name { Around the Base of a Low Hill  }
+  desc {
+"   You are standing on a muddy path next to a low hill.  The sides are 
+slick with dew and it is impossible to climb it at this point.  Maybe
+there is another way up further around?  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 22 }
+	to { s, 71 }
+	to { w, 52 }
+  }
+}
+
+52
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 51 }
+	to { w, 53 }
+  }
+}
+
+53
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 52 }
+	to { southwest, 54 }
+  }
+}
+
+54
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 55 }
+	to { w, 56 }
+	to { northeast, 53 }
+  }
+}
+
+55
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 54 }
+  }
+}
+
+56
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 54 }
+	to { southwest, 62 }
+	to { northwest, 57 }
+  }
+}
+
+57
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 59 }
+	to { northeast, 58 }
+	to { southeast, 56 }
+  }
+}
+
+58
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 57 }
+  }
+}
+
+59
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 57 }
+	to { southwest, 60 }
+  }
+}
+
+60
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 59 }
+	to { southeast, 61 }
+	to { southwest, 66 }
+  }
+}
+
+61
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 62 }
+	to { s, 65 }
+	to { northwest, 60 }
+	to { 10, 63 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+62
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 61 }
+	to { northeast, 56 }
+  }
+}
+
+63
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a large stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in or wade to
+deeper water.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+	keywords { _ex11 }
+	desc { 
+"
+You wade further out in to the pond, the water is now at shoulder height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 61 }
+	  info { message }
+	  keywords { land }
+	to { 11, 64 }
+	  info { message }
+	  keywords { deeper }
+  }
+}
+
+64
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing neck deep in a large stagnant pond.  Your face is
+full of mosquitos and other nasty, flying, biting insects.  You can feel
+the pond life tickling and touching your body beneath the water and hope
+like crazy that some mad newt or eel doesn't decide to take a fancy to
+you and use your clothing as a bolt hole.  Your only options are to put
+up with the insects and pond life or wade back in to the shallows.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You wade back to the shallows--the water is now at waist height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 63 }
+	  info { message }
+	  keywords { shallows }
+  }
+}
+
+65
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 61 }
+  }
+}
+
+66
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 67 }
+	to { w, 69 }
+	to { northeast, 60 }
+  }
+}
+
+67
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 66 }
+	to { e, 68 }
+  }
+}
+
+68
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 67 }
+  }
+}
+
+69
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 66 }
+	to { northwest, 70 }
+  }
+}
+
+70
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 69 }
+  }
+}
+
+71
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 51 }
+	to { southeast, 72 }
+	to { southwest, 75 }
+  }
+}
+
+72
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 74 }
+	to { northwest, 71 }
+	to { 10, 73 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+73
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a small stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 72 }
+	  info { message }
+	  keywords { land }
+  }
+}
+
+74
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 72 }
+	to { northwest, 75 }
+  }
+}
+
+75
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 76 }
+	to { northeast, 71 }
+	to { southeast, 74 }
+  }
+}
+
+76
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 75 }
+	to { s, 77 }
+  }
+}
+
+77
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 76 }
+	to { e, 78 }
+	to { southwest, 109 }
+  }
+}
+
+78
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 77 }
+	to { southeast, 79 }
+  }
+}
+
+79
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 80 }
+	to { northwest, 78 }
+  }
+}
+
+80
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 82 }
+	to { s, 83 }
+	to { w, 79 }
+	to { northeast, 81 }
+  }
+}
+
+81
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 80 }
+  }
+}
+
+82
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 80 }
+	to { southeast, 87 }
+	to { southwest, 83 }
+  }
+}
+
+83
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 80 }
+	to { s, 84 }
+	to { northeast, 82 }
+	to { southeast, 85 }
+  }
+}
+
+84
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 83 }
+	to { e, 85 }
+  }
+}
+
+85
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 84 }
+	to { northeast, 87 }
+	to { southeast, 96 }
+	to { northwest, 83 }
+	to { 10, 86 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+86
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a small stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 85 }
+	  info { message }
+	  keywords { land }
+  }
+}
+
+87
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 88 }
+	to { northeast, 89 }
+	to { southwest, 85 }
+	to { northwest, 82 }
+  }
+}
+
+88
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  The sides
+of the mound are slick with dew and it is impossible to climb it at this
+point.  Maybe there is another way up further around?  To the other side
+of the path is thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 90 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 90 }
+	to { southwest, 87 }
+  }
+}
+
+90
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  The sides
+of the mound are slick with dew and it is impossible to climb it at this
+point.  Maybe there is another way up further around?  To the other side
+of the path is thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 91 }
+	to { w, 88 }
+	to { northwest, 89 }
+  }
+}
+
+91
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 90 }
+	to { northeast, 105 }
+	to { southeast, 92 }
+  }
+}
+
+92
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 100 }
+	to { southwest, 93 }
+	to { northwest, 91 }
+  }
+}
+
+93
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  A dry mud
+path leads up, onto the mound here.  To the other side of the path is
+thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 94 }
+	to { northeast, 92 }
+	to { northwest, 97 }
+  }
+}
+
+94
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  The sides
+of the mound are slick with dew and it is impossible to climb it at this
+point.  Maybe there is another way up further around?  To the other side
+of the path is thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 93 }
+	to { w, 95 }
+  }
+}
+
+95
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  The sides
+of the mound are slick with dew and it is impossible to climb it at this
+point.  Maybe there is another way up further around?  To the other side
+of the path is thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 94 }
+	to { w, 96 }
+  }
+}
+
+96
+{
+  name { Around the Base of a Strange Mound  }
+  desc {
+"   You are standing on a muddy path next to a a strange mound.  The sides
+of the mound are slick with dew and it is impossible to climb it at this
+point.  Maybe there is another way up further around?  To the other side
+of the path is thick brackish water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 95 }
+	to { northwest, 85 }
+  }
+}
+
+97
+{
+  name { A Path Climbing the Strange Mound  }
+  desc {
+"   You are standing on some relatively dry ground above the level of the
+bog.  The fog still obscures your view of the surrounding area.  You can
+climb further up the barrow to the west or return to the level of the bog
+to the southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 98 }
+	to { southeast, 93 }
+  }
+}
+
+98
+{
+  name { A Path Climbing the Strange Mound  }
+  desc {
+"  You are standing on some dry ground high above the level of the bog.
+The fog is thinner here and you can make out some details of the area
+surrounding you; to the south-south-west looms a massive hill.  To the
+north-north-west looms another, much lower hill.  From here the details
+of both are reduced to dark shadows in a smudgy-grey blanket.  You can
+continue to climb up the barrow to the west or climb down to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 97 }
+	to { w, 99 }
+  }
+}
+
+99
+{
+  name { The Summit of the Strange Mound  }
+  desc {
+"   You are standing on top of a strange round barrow.  The bog below is
+obscured by the thick blanket of fog, which peaks just above your head.
+Jumping up and down you manage to raise yourself above the highest wisps
+and look around.  The surrounding land is hidden under a covering of fog
+so thick you could use it for Soup.  Far to the south-south-west a massive
+hill climbs out of the fog; you can make out a path snaking around its
+green sides and occasionally a glint of light reflecting here and there
+on its surface.  Closer to you, to the north-north-west you can make out
+the top of a low hill just peeking over the fog bank; there is a structure
+of some sorts on its crest.  Unfortunately you can't make out how far
+the fog extends due to not being able to rise high enough.  In the ground
+at your feet there is a hole cut in the turf of the barrow that leads 
+down in to darkness.  You can exit down to the barrow to the east.
+  }
+  sector { Hills }
+  extra {
+	keywords { light glint }
+	desc { 
+"
+You jump up and down madly for a while.  The glints of light from the big
+hill could be made from light reflecting off a metal or glass surface, but
+that's all you can make out.
+
+"	}
+	keywords { structure }
+	desc { 
+"
+You jump and down madly for a while.  The structure on the low hill could
+be made of stones piled one on top of the other, but you're just too far
+away to be sure.
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 98 }
+	to { d, 0 }
+  }
+}
+
+100
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 92 }
+	to { northeast, 101 }
+  }
+}
+
+101
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 108 }
+	to { southwest, 100 }
+	to { northwest, 104 }
+	to { 10, 102 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+102
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a large stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in or wade to
+deeper water.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex11 }
+	desc { 
+"
+You wade further out in to the pond, the water is now at shoulder height!
+
+"	}
+	keywords { _ex10 }
+	desc {  "
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 101 }
+	  info { message }
+	  keywords { land }
+	to { 11, 103 }
+	  info { message }
+	  keywords { deeper }
+  }
+}
+
+103
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing neck deep in a large stagnant pond.  Your face is
+full of mosquitos and other nasty, flying, biting insects.  You can feel
+the pond life tickling and touching your body beneath the water and hope
+like crazy that some mad newt or eel doesn't decide to take a fancy to
+you and use your clothing as a bolt hole.  Your only options are to put
+up with the insects and pond life or wade back in to the shallows.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You wade back to the shallows--the water is now at waist height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 102 }
+	  info { message }
+	  keywords { shallows }
+  }
+}
+
+104
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 105 }
+	to { northeast, 107 }
+	to { southeast, 101 }
+  }
+}
+
+105
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 104 }
+	to { southwest, 91 }
+	to { northwest, 106 }
+  }
+}
+
+106
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 105 }
+  }
+}
+
+107
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 104 }
+  }
+}
+
+108
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northwest, 101 }
+  }
+}
+
+109
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 110 }
+	to { northeast, 77 }
+  }
+}
+
+110
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 109 }
+	to { southwest, 112 }
+	to { northwest, 111 }
+  }
+}
+
+111
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 110 }
+  }
+}
+
+112
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 123 }
+	to { northeast, 110 }
+	to { northwest, 113 }
+  }
+}
+
+113
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 114 }
+	to { southeast, 112 }
+  }
+}
+
+114
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 113 }
+	to { southwest, 115 }
+  }
+}
+
+115
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 126 }
+	to { w, 124 }
+	to { northeast, 114 }
+	to { southwest, 116 }
+  }
+}
+
+116
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 129 }
+	to { northeast, 115 }
+	to { southwest, 117 }
+  }
+}
+
+117
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 116 }
+	to { southeast, 118 }
+  }
+}
+
+118
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"    You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You can wade in to the pond from here if you wish.
+  }
+  sector { Swamp_Road }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You step off the edge of the pond and drop to your waist in fetid water!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 131 }
+	to { southeast, 119 }
+	to { northwest, 117 }
+	to { 10, 132 }
+	  info { message }
+	  keywords { pond }
+  }
+}
+
+119
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 134 }
+	to { northeast, 120 }
+	to { northwest, 118 }
+  }
+}
+
+120
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 121 }
+	to { southwest, 119 }
+  }
+}
+
+121
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 122 }
+	to { northeast, 135 }
+	to { southwest, 120 }
+  }
+}
+
+122
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 123 }
+	to { s, 121 }
+  }
+}
+
+123
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 112 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 115 }
+	to { northwest, 125 }
+  }
+}
+
+125
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 124 }
+  }
+}
+
+126
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 128 }
+	to { s, 127 }
+	to { w, 115 }
+  }
+}
+
+127
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 126 }
+  }
+}
+
+128
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 126 }
+  }
+}
+
+129
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 116 }
+	to { southeast, 130 }
+  }
+}
+
+130
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 131 }
+	to { northwest, 129 }
+  }
+}
+
+131
+{
+  name { Around a Stagnant Pond  }
+  desc {
+"   You are standing on the egde of a stagnant pond.  Swarms of mosquitos
+and other bugs plague you.  A ripple emanates from somewhere out in the
+centre of the pond, hidden in the fog.  Maybe there is something of
+interest out there?  You think you can see a way to wade in further
+around the edge...
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 118 }
+	to { northeast, 130 }
+  }
+}
+
+132
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing waist deep in a large stagnant pond.  You can feel
+the pond life of frogs and toads and other, less savoury things tickling
+against your legs.  The water is thick and black the air is full of nasty
+biting mosquitos.  You can wade out the same way you waded in or wade to
+deeper water.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc { 
+"
+You struggle and kick your way back the dry(ish) land of the bog!
+
+"	}
+	keywords { _ex11 }
+	desc { 
+"
+You wade further out in to the pond, the water is now at shoulder height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 118 }
+	  info { message }
+	  keywords { land }
+	to { 11, 133 }
+	  info { message }
+	  keywords { deeper }
+  }
+}
+
+133
+{
+  name { Wading in a Stagnant Pond  }
+  desc {
+"    You are standing neck deep in a large stagnant pond.  Your face is
+full of mosquitos and other nasty, flying, biting insects.  You can feel
+the pond life tickling and touching your body beneath the water and hope
+like crazy that some mad newt or eel doesn't decide to take a fancy to
+you and use your clothing as a bolt hole.  Your only options are to put
+up with the insects and pond life or wade back in to the shallows.
+  }
+  sector { Shallow Water }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+You wade back to the shallows--the water is now at waist height!
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { 10, 132 }
+	  info { message }
+	  keywords { shallows }
+  }
+}
+
+134
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 119 }
+  }
+}
+
+135
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 136 }
+	to { southwest, 121 }
+  }
+}
+
+136
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 137 }
+	to { northwest, 135 }
+  }
+}
+
+137
+{
+  name { Lost in a Foggy Bog  }
+  desc {
+"   You are standing on a muddy path.  The air is still and damp.  A thick
+fog obscures everything more than twenty yards away.  To either side of
+the path is thick brackish water.  You daren't test it's depth.  All you
+can do is follow the path and hope for the best.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 136 }
+	to { southeast, 138 }
+  }
+}
+
+138
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 139 }
+	to { southwest, 157 }
+	to { northwest, 137 }
+  }
+}
+
+139
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 140 }
+	to { w, 138 }
+  }
+}
+
+140
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 139 }
+	to { southeast, 141 }
+  }
+}
+
+141
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 142 }
+	to { northwest, 140 }
+  }
+}
+
+142
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 141 }
+	to { southeast, 143 }
+  }
+}
+
+143
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 144 }
+	to { northwest, 142 }
+  }
+}
+
+144
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 143 }
+	to { s, 145 }
+  }
+}
+
+145
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 144 }
+	to { southwest, 146 }
+  }
+}
+
+146
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 147 }
+	to { northeast, 145 }
+  }
+}
+
+147
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 146 }
+	to { southwest, 148 }
+  }
+}
+
+148
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 149 }
+	to { northeast, 147 }
+  }
+}
+
+149
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  A gravel path made of light coloured stone
+has been cut in to the side of the hill to the north west here.  To the
+other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 148 }
+	to { w, 150 }
+	to { northwest, 158 }
+  }
+}
+
+150
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 149 }
+	to { northwest, 151 }
+  }
+}
+
+151
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 152 }
+	to { southeast, 150 }
+  }
+}
+
+152
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 151 }
+	to { northwest, 153 }
+  }
+}
+
+153
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 154 }
+	to { southeast, 152 }
+  }
+}
+
+154
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { n, 155 }
+	to { s, 153 }
+  }
+}
+
+155
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { s, 154 }
+	to { northeast, 156 }
+  }
+}
+
+156
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { e, 157 }
+	to { southwest, 155 }
+  }
+}
+
+157
+{
+  name { Around the Base of Dark Horn Hill  }
+  desc {
+"   You are standing on a muddy path next to a steep hill that disappears
+into the fog above your head.  The sides of the hill are slick with dew
+and it is impossible to climb it at this point.  Maybe there is another
+way up further around?  To the other side of the path is thick brackish
+water.  You daren't test it's depth.
+  }
+  sector { Swamp_Road }
+  flags { no_sum, private }
+  exits {
+	to { w, 156 }
+	to { northeast, 138 }
+  }
+}
+
+158
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  the fog is as
+thick here as it was below.  You can continue up to the northwest or down
+to the southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 149 }
+	to { northwest, 159 }
+  }
+}
+
+159
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  the fog is as
+thick here as it was below.  You can continue up to the west or down to
+the southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 160 }
+	to { southeast, 158 }
+  }
+}
+
+160
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  The fog has
+started to thin now, although looking down you can no longer make out the
+base of the hill or the bog.  Perhaps shortly you will rise above the 
+level of the mire and make out your surroundings.  You can continue up to
+the north or down to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 161 }
+	to { e, 159 }
+  }
+}
+
+161
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   Wow!  Even the crunching of the gravel path has been forgotten.  You
+had no idea that some sights could be so beautiful.  You have risen above
+the level of the fog and you're now standing waist deep in the billowing
+mists.  All around the fog stretches out as far as you can see. Far to
+the north you can make out a small hillock rising like a whale taking a
+breath.  To the east the sheer sides of Dark Horn Hill rise and, as you
+look up, you grasp that you are still very low down on the massive grass
+covered hill.  Much more climbing lays ahead of you if you are to reach
+the summit.  A glint of light from further up the slope and brief flurry
+of gravel landing ahead on the path gives you cause for concern.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 162 }
+	to { s, 160 }
+  }
+}
+
+162
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the east or down to the south.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 163 }
+	to { s, 161 }
+  }
+}
+
+163
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the northeast or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 162 }
+	to { northeast, 164 }
+  }
+}
+
+164
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the east or down to the southwest.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 165 }
+	to { southwest, 163 }
+  }
+}
+
+165
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the east or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 166 }
+	to { w, 164 }
+  }
+}
+
+166
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the southeast or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 165 }
+	to { southeast, 167 }
+  }
+}
+
+167
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the east or down to the northwest.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 168 }
+	to { northwest, 166 }
+  }
+}
+
+168
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you think you make out an edge to the strangely unmoving
+mire that has obscured your view for so long.  To the north you can just
+make out a small hillock, its peak just rising out of the thick mists.
+You can continue up to the south or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { s, 169 }
+	to { w, 167 }
+  }
+}
+
+169
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north you can just make out a small hillock, its peak just rising
+out of the thick mists.  You can continue up to the south or down to the 
+north.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 168 }
+	to { s, 170 }
+  }
+}
+
+170
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north the small hillock, its peak just rising out of the thick
+mists, is about to be obscured by Dark Horn Hill.  You can continue up to
+the west or down to the north.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { n, 169 }
+	to { w, 171 }
+  }
+}
+
+171
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+Dark Horn Hill now obscures the view to the north.  You can continue up
+to the southwest or down to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 170 }
+	to { southwest, 172 }
+  }
+}
+
+172
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+Dark Horn Hill now obscures the view to the north.  You can continue up
+to the west or down to the northeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 173 }
+	to { northeast, 171 }
+  }
+}
+
+173
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+Dark Horn Hill now obscures the view to the north.  You can continue up
+to the northwest or down to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 172 }
+	to { northwest, 174 }
+  }
+}
+
+174
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+Dark Horn Hill now obscures the view to the north.  You can continue up
+to the northwest or down to the southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 173 }
+	to { northwest, 175 }
+  }
+}
+
+175
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+The view to the north is back, and the low hillock can be seen again,
+although now you're much higher and it appears even smaller.  Looking
+down you can make out the paths below you quite clearly rising up out of
+the fog.  Uh oh!  If anyone has been watching your progress must surely
+have been noted!  You can continue up to the northeast or down to the
+southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { northeast, 176 }
+	to { southeast, 174 }
+  }
+}
+
+176
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north you can see the low hillock poking up the level of the fog.
+You can continue up to the east or down to the southwest.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 177 }
+	to { southwest, 175 }
+  }
+}
+
+177
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north you can see the low hillock poking up the level of the fog.
+You can continue up to the east or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 178 }
+	to { w, 176 }
+  }
+}
+
+178
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north you can see the low hillock poking up the level of the fog.
+You can continue up to the southeast or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 177 }
+	to { southeast, 179 }
+  }
+}
+
+179
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+To the north you can see the low hillock poking up the level of the fog.
+You can continue up to the southwest or down to the northwest.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 180 }
+	to { northwest, 178 }
+  }
+}
+
+180
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+The view to the north is obscured again. You can continue up to the west
+or down to the northeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { w, 181 }
+	to { northeast, 179 }
+  }
+}
+
+181
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  You would need to climb higher.
+The view to the north is obscured again. You can continue up to the north
+west or down to the east.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 180 }
+	to { northwest, 182 }
+  }
+}
+
+182
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  The summit is almost within reach
+now, a little more and you'll be able to survey everything. To the north
+and far below you the little hillock rises out the sea of fog like a fish
+in a lake. You can continue up to the east or down to the southeast.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 183 }
+	to { southeast, 181 }
+  }
+}
+
+183
+{
+  name { A Path Up Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you climb.  You would have
+to be nimble indeed not to make any noise on this surface!  Looking down
+you can see the fog lies like a blanket over the bog and looking out and
+across the land you can finally make out an edge to the strange unmoving
+mire that has obscured your view for so long.  But what you can tell is
+if its moving at all, or evaporating.  The summit is almost within reach
+now, a little more and you'll be able to survey everything. To the north
+and far below you the little hillock rises out the sea of fog like a fish
+in a lake. You can continue up to the east or down to the west.
+  }
+  sector { Hills }
+  flags { no_sum, private }
+  exits {
+	to { e, 184 }
+	to { w, 182 }
+  }
+}
+
+184
+{
+  name { The Summit of Dark Horn Hill  }
+  desc {
+"   The gravel path crunches under your feet as you finally make it to the
+summit of Dark Horn Hill.  Looking down and all around you can see that 
+the fog lies like a perfect circular blanket over the bog.  The edges,
+which are now crisp to your vision, are unmoving and nowhere can you make
+out signs of evaporation or billowing due to wind.  You finally come to
+the conclusion that this fog is unnatural. Below your feet is a stone
+block covered in carvings.  The gravel around the stone looks like it has
+been disturbed recently.  You can head back down the hill to the west.
+  }
+  sector { Hills }
+  extra {
+	keywords { block gravel stone }
+	desc { 
+"
+The gravel looks like it has been moved around the block.  Almost as if
+the block has been lifted and placed back down...  An opening perhaps?
+
+"	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 183 }
+	to { d, 185 }
+	  key { 106028 }
+	  info { door, closed, locked, secret, autoclose, autolock, pickproof }
+	  keywords { block stone }
+  }
+}
+
+185
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing in a stone-lined stairway.  Above, the way out has
+closed and everything is in total darkness; you're glad you brought your
+torch with you!  The stairs are steep but neatly cut, and a rut in the
+centre of them indicates much use over many, many years.  You can follow
+the stairs down into darkness.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, no_mob, private }
+  exits {
+	to { u, 184 }
+	  info { door, secret, hidden, autoclose }
+	  keywords { block stone }
+	to { d, 186 }
+  }
+}
+
+186
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing in a stone-lined stairway.  Everything is in total
+darkness; you're glad you brought your torch with you!  The stairs are
+steep but neatly cut, and a rut in the centre of them indicates much use
+over many, many years.  You can follow the stairs up or down.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { u, 185 }
+	to { d, 187 }
+  }
+}
+
+187
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing at the base of a stone-lined stairway.  Everything is
+in total darkness; you're glad you brought your torch with you!  The
+stairs end here and a stone-lined passage way leads north.  The stone wall
+to the south is covered in panels depicting strangely angular lizards that
+walk upright and all but one seems to have a theme of fog.  The odd one
+depicts a lizardman bypassing some strange monster than is eating all of
+the other lizards that try and pass it. Odd indeed.
+  }
+  extra {
+	keywords { _ex2 }
+	desc {  "
+You open the panel and squeeze and crawl your way in. 
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 188 }
+	to { s, 190 }
+	  key { 106001 }
+	  info { door, closed, secret, message, autoclose, locked, autolock, pickproof }
+	  keywords { secret panel }
+	to { u, 186 }
+  }
+}
+
+188
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing at in a stone-lined passageway.  Everything is in
+total darkness; you're glad you brought your torch with you!  The passage
+leads south and west.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 187 }
+	to { w, 189 }
+  }
+}
+
+189
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing at the top of a stone-lined stairway.  Everything is
+in total darkness; you're glad you brought your torch with you!  The
+stairs start here and a stone-lined passage way leads east.  There is an
+odd smell in the air here.  Something warm, yet rotten.  You get a bad
+feeling.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 188 }
+	to { d, 192 }
+  }
+}
+
+190
+{
+  name { A Secret Passage  }
+  desc {
+"   You are crawling in a narrow passage that is just big enough to admit
+you.  No one else could fit in here.  The passage is lined with squared
+off blocks of stone.  You can continue east or back through the secret
+panel to the north.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+	keywords { _ex0 }
+	desc {  "
+You open the panel and drop gracelessly to the ground. 
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 187 }
+	  key { 106001 }
+	  info { door, closed, secret, message, autoclose }
+	  keywords { secret panel }
+	to { e, 191 }
+	  info { message }
+  }
+}
+
+191
+{
+  name { A Secret Passage  }
+  desc {
+"   You are crawling in a narrow passage that is just big enough to admit
+you.  No one else could fit in here.  The passage is lined with squared
+off blocks of stone.  You can continue down or west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+	keywords { _ex5 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 190 }
+	  info { message }
+	to { d, 194 }
+	  info { message }
+  }
+}
+
+192
+{
+  name { Lair of the Blue Slaad  }
+  desc {
+"   You are standing in a large, circular chamber. A set of stairs lead up
+and down.  Torches line the walls here and cast light around the chamber.
+This is not good.  The floor is littered with old bones an ancient fish
+remains.  There is even signs of lizardman remains in the carnage.  There
+is a crunch of bone and a booming footfall...  Uh oh!
+  }
+  sector { Cavern }
+  flags { dark, no_sum, no_mob, private }
+  exits {
+	to { u, 189 }
+	to { d, 196 }
+  }
+}
+
+193
+{
+  name { 241294  }
+  desc { Empty
+  }
+  flags { dark, no_sum, private }
+}
+
+194
+{
+  name { A Secret Passage  }
+  desc {
+"   You are crawling in a narrow passage that is just big enough to admit
+you.  No one else could fit in here.  The passage is lined with squared
+off blocks of stone.  You can continue down or up.
+  }
+  extra {
+	keywords { _ex4 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+	keywords { _ex5 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { u, 191 }
+	  info { message }
+	to { d, 195 }
+	  info { message }
+  }
+}
+
+195
+{
+  name { A Secret Passage  }
+  desc {
+"   You are crawling in a narrow passage that is just big enough to admit
+you.  No one else could fit in here.  The passage is lined with squared
+off blocks of stone.  You can continue up or open the secret panel to the
+northwest.
+  }
+  extra {
+	keywords { _ex4 }
+	desc {  "
+You squeeze and crawl your way along. 
+
+"	}
+	keywords { _ex9 }
+	desc {  "
+You open the panel and drop gracelessly to the ground.
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { u, 194 }
+	  info { message }
+	to { northwest, 198 }
+	  key { 106001 }
+	  info { door, closed, secret, message, autoclose }
+	  keywords { secret panel }
+  }
+}
+
+196
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing in a stone-lined stairway.  Everything is in total
+darkness; you're glad you brought your torch with you!  The stairs are
+steep but neatly cut, and a rut in the centre of them indicates much use
+over many, many years.  There is a stone-lined passageway leading south-
+east. You can follow the stairs up or down.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { u, 192 }
+	to { d, 197 }
+	to { southeast, 198 }
+  }
+}
+
+197
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   The square-cut stairs end and another stone-lined passage leads of to
+the southeast.  There is a smell of damp in the air here, but it isn't
+cold.  If anything, it is quite warm down here.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { u, 196 }
+	to { southeast, InsideDarkHornHill:0 }
+  }
+}
+
+198
+{
+  name { A Passage Inside Dark Horn Hill  }
+  desc {
+"   You are standing at a dead end in a stone-lined passagewat.  Everything
+is in total darkness; you're glad you brought your torch with you!  The
+stone-lined passage way leads north.  The stone wall to the southeast is
+covered in panels depicting strangely angular lizards that walk upright
+and all but one seems to have a theme of fog.  The odd one depicts a
+lizardman bypassing some strange monster that is eating all of the other
+lizards that try and pass it. Odd indeed.
+  }
+  extra {
+	keywords { _ex7 }
+	desc {  "
+You open the panel and squeeze and crawl your way in.
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { southeast, 195 }
+	  key { 106001 }
+	  info { door, closed, secret, message, autoclose }
+	  keywords { secret panel }
+	to { northwest, 196 }
+  }
+}
+
+199
+{
+  name { Entrance to the Gnoll Den  }
+  desc {
+"   You are standing at the bottom of a crude stairway that has been cut
+into the hill.  The tunnel here is crude but stable.  There is a smell of
+wet dog in the air.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 200 }
+	to { u, 36 }
+  }
+}
+
+200
+{
+  name { In the Gnoll Den  }
+  desc {
+"   You are standing in a crude but stable tunnel.  There is a smell of wet
+dog in the air.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private, no_mob }
+  exits {
+	to { n, 199 }
+	to { southwest, 201 }
+        to { southeast, 203 }
+        to { e, 207 }
+  }
+}
+
+201
+{
+  name { In the Gnoll Den  }
+  desc {
+"   You are standing in a crude but stable tunnel.  There is a smell of wet
+dog in the air.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { northeast, 200 }
+	to { southwest, 202 }
+  }
+}
+
+202
+{
+  name { In the Gnoll Den  }
+  desc {
+"   A crude table dominates this chamber.  On the the table is a map of the
+bogs surrounding this hill.  Marked on the map are several large crosses
+in red and some indecipherable markings...  Maybe this marks out the
+battles the gnolls have had with the lizardmen and other invaders into
+their territory?
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { northeast, 201 }
+  }
+}
+
+203
+{
+  name { In the Gnoll Den  }
+  desc {
+"   You are standing in a crude but stable tunnel.  There is a smell of wet
+dog in the air.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { northwest, 200 }
+	to { e, 204 }
+  }
+}
+
+204
+{
+  name { In the Gnoll Den  }
+  desc {
+"   You are standing in a crude but stable tunnel.  There is a smell of wet
+dog in the air.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 203 }
+	to { northeast, 205 }
+        to { southeast, 206 }
+  }
+}
+
+205
+{
+  name { In the Gnoll Den  }
+  desc {
+"   The smell of wet dog and other unpleasant odours fills the air here.
+There is a sense of pack and family in this chamber.  Almost as if gnolls
+throughout the generations have raised their pups in here.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+        to { southwest, 204 }
+  }
+}
+
+206
+{
+  name { In the Gnoll Den  }
+  desc {
+"   The smell of wet dog and other unpleasant odours fills the air here.
+There is a sense of pack and family in this chamber.  Almost as if gnolls
+throughout the generations have raised their pups in here.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+        to { northwest, 204 }
+  }
+}
+
+207
+{
+  name { In the Gnoll Den }
+  desc {
+"   This is a guard post, cunningly positioned to allow the guard quick
+access to the tunnel beyond.  There is a crude straw and leaf mattress
+on the floor and some gnawed bones litter the floor.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+        to { w, 200 }
+  }
+}

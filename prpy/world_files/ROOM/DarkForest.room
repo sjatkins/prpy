@@ -1,0 +1,1720 @@
+#offset DarkForest
+
+0
+{
+  name { A Path Into The Forest  }
+  desc {
+"   The path is narrow and does not look to inviting, there is a small sign
+here, maybe you should read it.  The path leads into a ancient forest.  
+You can only see the first row of trees from here and they are huge.  Was 
+that a howl.....hrmm maybe you should turn back now while you still can.
+The only obvious exits are back to the graveyard and the south leads further
+into the forest.
+  }
+  sector { Forest }
+  extra {
+	keywords { Sign }
+	desc { 
+"   Beware this forest if for the stoutest of adventurers only,
+other may find themselves wishing the had not entered.
+	}
+  }
+  flags { dark, no_mob }
+  exits {
+	to { s, 1 }
+	to { 10, HalloweenLand:4 }
+	  keywords { graveyard }
+  }
+}
+
+1
+{
+  name { A Path Into The Forest  }
+  desc {
+"  The path is narrow and has roots from the trees standing out almost like
+they are grabing at you tring to trip you.  The forest just seems to get 
+darker as you go, you can barely make out the path to the south.  Was that
+something moving in the forest.  The obvious exits are back to the path to 
+the north and south leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 0 }
+	to { s, 2 }
+  }
+}
+
+2
+{
+  name { A Path Into The Forest  }
+  desc {
+"  The path is narrow and has roots from the trees standing out almost like
+they are grabing at you tring to trip you.  The forest just seems to get 
+darker as you go, you can barely make out the path to the south.  Was that
+something moving in the forest.  The obvious exits are back to the path to 
+the north and south leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { A Path Into The Forest  }
+  desc {
+"   The path is narrow and has roots from the trees standing out almost like
+they are grabing at you trying to trip you.  The forest just seems to get 
+darker as you go, you can barely make out the path to the south.  Was that
+something moving in the forest.  The obvious exits are back to the path to 
+the north and south leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 2 }
+	to { s, 4 }
+  }
+}
+
+4
+{
+  name { A Path Into The Forest  }
+  desc {
+"   The path leads right into the forest to east you can barely make out the
+path to the east.  The path has gotten even narrower here you are barely 
+able to avoid some of the branches that have grown at odd angles.  Almost as
+if the are growing to block the path.  The path leads back to the north and
+to the the east an overgrown track seems to lead towards an abandoned house.
+  }
+  flags { dark }
+  exits {
+	to { n, 3 }
+	to { e, HauntedMansion:0 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { In The Ancient forest  }
+  desc {
+"   The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The trail leads back to the east
+and west leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 4 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { In The Ancient Forest  }
+  desc {
+"   The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The trail leads back to the east
+and west leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 5 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { A Split In The Trail  }
+  desc {
+"   The trail splits here it goes north and south.  To the north you can see 
+some light a little bit away, maybe you should head that way cause to the 
+south is the forest and you can barely make anything out except the noises
+of something moving stealthly through the woods.  The trail leads back to 
+the east, north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 8 }
+	to { e, 6 }
+	to { s, 12 }
+  }
+}
+
+8
+{
+  name { In The Ancient Forest  }
+  desc {
+"   The trail has gotten a bit lighter and the tree roots have receded a bit 
+so now it actually looks like a path leading north.  To the north it looks 
+like there forest is thining out some.  The path leads to the north and back
+to the darker forest to the south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 9 }
+	to { s, 7 }
+  }
+}
+
+9
+{
+  name { In The Ancient Forest  }
+  desc {
+"   The trail has gotten a bit lighter and the tree roots have receded a bit 
+so now it actually looks like a path leading north.  To the north it looks 
+like there forest is thining out some.  The path leads to the north and back
+to the darker forest to the south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 10 }
+	to { s, 8 }
+  }
+}
+
+10
+{
+  name { In A Clearing  }
+  desc {
+"   Coming out of the forest the clearing is almost blinding even with the cloud
+cover.  You can hear the sounds of civilation coming from behind the huge gates
+to the west it would appear there is some kind of village in that direction.
+The obvious exits are back to the south which leads back to the forest and to 
+the east towards the gates.
+  }
+  sector { Field }
+  flags { dark }
+  exits {
+	to { s, 9 }
+	to { w, 57 }
+	  info { door, closed, autoclose }
+	  keywords { gates }
+  }
+}
+
+12
+{
+  name { In The Ancient Forest  }
+  desc {
+"   The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The trail leads back to the north
+and south leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 7 }
+	to { s, 13 }
+  }
+}
+
+13
+{
+  name { The River Bed  }
+  desc {
+"   The trail has lead you to a river bed, the river bed is dry and looks like
+it has been for awhile.  Off to both sides it looks like something has dug 
+out small little caves.  Off to the east and west are the caves and the trail
+leads back to the north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 12 }
+	to { e, 51 }
+	to { s, 14 }
+	to { w, 17 }
+	  keywords { hole }
+  }
+}
+
+14
+{
+  name { The River Bed  }
+  desc {
+"   The trail has lead you to a river bed, the river bed is dry and looks like
+it has been for awhile.  Off to both sides it looks like something has dug 
+out small little caves.  Off to the east and west are the caves and the trail
+leads back to the north and south.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 13 }
+	to { e, 52 }
+	to { s, 15 }
+	to { w, 18 }
+  }
+}
+
+15
+{
+  name { The River Bed  }
+  desc {
+"   The trail has lead you to a river bed, the river bed is dry and looks like
+it has been for awhile.  Off to both sides it looks like something has dug 
+out small little caves.  Off to the east and west are the caves and the trail
+leads back to the north and south.
+  }
+  sector { Forest }
+  flags { dark, no_sum }
+  exits {
+	to { n, 14 }
+	to { e, 53 }
+	to { s, 16 }
+	to { w, 19 }
+  }
+}
+
+16
+{
+  name { In The Ancient Forest  }
+  desc {
+"   The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The trail leads back to the river
+bed to the north and west, south leads further into the forest.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 15 }
+	to { s, 29 }
+	to { w, 20 }
+  }
+}
+
+17
+{
+  name { In A Small Earthen Cave  }
+  desc {
+"   The cave looked alot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back east to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { e, 13 }
+	  keywords { hole }
+  }
+}
+
+18
+{
+  name { In A Small Earthen Cave  }
+  desc {
+"   The cave looked a lot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back east to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { e, 14 }
+  }
+}
+
+19
+{
+  name { In A Earthen Cave  }
+  desc {
+"   The cave looked a lot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back east to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { e, 15 }
+  }
+}
+
+20
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 16 }
+	to { s, 30 }
+	to { w, 21 }
+  }
+}
+
+21
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 20 }
+	to { s, 31 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 21 }
+	to { s, 32 }
+	to { w, 23 }
+  }
+}
+
+23
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  flags { dark }
+  exits {
+	to { e, 22 }
+	to { s, 33 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 23 }
+	to { s, 34 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 24 }
+	to { s, 35 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 25 }
+	to { s, 36 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 26 }
+	to { s, 37 }
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { e, 27 }
+	to { s, 38 }
+  }
+}
+
+29
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 16 }
+	to { s, 39 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 20 }
+	to { e, 29 }
+	to { s, 40 }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 21 }
+	to { e, 30 }
+	to { s, 41 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 22 }
+	to { e, 31 }
+	to { s, 42 }
+	to { w, 33 }
+  }
+}
+
+33
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 23 }
+	to { e, 32 }
+	to { s, 43 }
+	to { w, 34 }
+  }
+}
+
+34
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 24 }
+	to { e, 33 }
+	to { s, 44 }
+	to { w, 35 }
+  }
+}
+
+35
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 25 }
+	to { e, 34 }
+	to { s, 45 }
+	to { w, 36 }
+  }
+}
+
+36
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 26 }
+	to { e, 35 }
+	to { s, 46 }
+	to { w, 37 }
+  }
+}
+
+37
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 27 }
+	to { e, 36 }
+	to { s, 47 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 28 }
+	to { e, 37 }
+	to { s, 48 }
+  }
+}
+
+39
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 29 }
+	to { w, 40 }
+	to { southwest, 49 }
+  }
+}
+
+40
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 30 }
+	to { e, 39 }
+	to { w, 41 }
+	to { southeast, 49 }
+  }
+}
+
+41
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 31 }
+	to { e, 40 }
+	to { w, 42 }
+	to { southwest, 54 }
+  }
+}
+
+42
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark  }
+  exits {
+	to { n, 32 }
+	to { e, 41 }
+	to { w, 43 }
+	to { southeast, 54 }
+  }
+}
+
+43
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 33 }
+	to { e, 42 }
+	to { w, 44 }
+  }
+}
+
+44
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 34 }
+	to { e, 43 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 35 }
+	to { e, 44 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 36 }
+	to { e, 45 }
+	to { w, 47 }
+  }
+}
+
+47
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 37 }
+	to { e, 46 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 38 }
+	to { e, 47 }
+  }
+}
+
+49
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 50 }
+	to { northeast, 39 }
+	to { northwest, 40 }
+  }
+}
+
+50
+{
+  name { A Small Clearing  }
+  desc {
+"  The path has lead you into a small clearing.  The clearing would be quite 
+nice if not for all the bones crunching under your feet.  Obviously someone
+or something very nasty calls this clearing home, judging by all the bones
+maybe you should head back to the forest.  The path back to the north is the
+only obvious exit.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 49 }
+  }
+}
+
+51
+{
+  name { A Earthen Cave  }
+  desc {
+"   The cave looked a lot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back west to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { w, 13 }
+  }
+}
+
+52
+{
+  name { A Earthen Cave  }
+  desc {
+"   The cave looked a lot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back west to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { w, 14 }
+  }
+}
+
+53
+{
+  name { A Earthen Cave  }
+  desc {
+"   The cave looked a lot smaller from the outside once getting past the small
+entrance it is actually quite spacious although the smell leaves a lot to be 
+desired.  Someone or something has definetly made this there home.  The only
+obvious exits is back east to the river bed.
+  }
+  flags { dark }
+  exits {
+	to { w, 15 }
+  }
+}
+
+54
+{
+  name { In The Ancient Forest  }
+  desc {
+"  The forest has none of the usual noises you found in a forest of this size
+no birds singing nothing of the sort.  Only the sounds of something large 
+moving around just out of sight.  This something sounds rather hungry if the 
+howls off in the distance can be any judge.  The path has thinned out here it
+looks like only animals has made it.  The path leads of in several directions.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { s, 55 }
+	to { northeast, 41 }
+	to { northwest, 42 }
+  }
+}
+
+55
+{
+  name { A Small Clearing  }
+  desc {
+"  The path has lead you into a small clearing.  The clearing would be quite 
+nice if not for all the bones crunching under your feet.  Obviously someone
+or something very nasty calls this clearing home, judging by all the bones
+maybe you should head back to the forest.  The path back to the north is the
+only obvious exit.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 54 }
+  }
+}
+
+57
+{
+  name { A Path Leading To A Small Village  }
+  desc {
+"   The path from the clearing appears to lead to a small village, The village
+appears to be occupied you can see smoke coming from the chimneys of some of 
+the larger buildings.  The path leads west which is into the village and back
+east to the clearing.
+  }
+  sector { City }
+  flags { private, summon_trap }
+  exits {
+	to { e, 10 }
+	  info { door, closed, autoclose }
+	  keywords { gates }
+	to { w, 58 }
+  }
+}
+
+58
+{
+  name { Entrance To The Village  }
+  desc {
+"    The dining hall has an ancient looking bar it would some only the bravest 
+of adventurers or the must desperate would order a drink from here.  The 
+room is rather large with tables and chairs that at one time were rather
+nice, now though they have seen years of neglect.  The door leads back 
+out to the road.
+  }
+  sector { City }
+  flags { no_mob }
+  exits {
+	to { e, 57 }
+	to { s, 65 }
+	to { w, 59 }
+  }
+}
+
+59
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it definetly looks like times have changed.
+  }
+  exits {
+	to { e, 58 }
+	to { s, 68 }
+	to { w, 60 }
+  }
+}
+
+60
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it defintly looks like times have changed.
+  }
+  exits {
+	to { n, 69 }
+	  info { door, closed }
+	  keywords { door }
+	to { e, 59 }
+	to { w, 61 }
+  }
+}
+
+61
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it definetly looks like times have changed.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 60 }
+	to { s, 70 }
+	to { w, 62 }
+  }
+}
+
+62
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it definetly looks like times have changed.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 61 }
+	to { w, 63 }
+  }
+}
+
+63
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it definetly looks like times have changed.
+  }
+  exits {
+	to { n, 72 }
+	to { e, 62 }
+	to { w, 64 }
+  }
+}
+
+64
+{
+  name { In A Small Village  }
+  desc {
+"   There are buildings on each side of the road the buildings appear to be two
+story houses.  The houses and the village for that matter seem to have been 
+here for quite awhile.  It would seem that the village at some point in time
+was very prosperous. Now it definetly looks like times have changed.
+  }
+  exits {
+	to { e, 63 }
+  }
+}
+
+65
+{
+  name { A large Dining Area  }
+  desc {
+"    The dining hall has an ancient looking bar it would some only the
+bravest of adventurers or the must desperate would order a drink from 
+here.  The room is rather large with tables and chairs that at one time 
+were rather nice, now though they have seen years of neglect.  The door
+leads back out to the road.
+  }
+  exits {
+	to { n, 58 }
+	to { s, 66 }
+  }
+}
+
+66
+{
+  name { A Large Kitchen  }
+  desc {
+"   The kitchen appears to be well used no of the neglect shows here as in the
+dining hall, it is well maintained and smells of breads and some kind of 
+delcious stew.  The is a door you would assume it leads down to the cellar you 
+also go back to the north to the dining hall.
+  }
+  exits {
+	to { n, 65 }
+	to { d, 67 }
+	  key { 103036 }
+	  info { door, locked, pickproof }
+	  keywords { cellar }
+  }
+}
+
+67
+{
+  name { The Cellar  }
+  desc {
+"   The cellar is lined with casks of ales along both walls, if nothing else 
+the villagers have a nice stock of ales.  Among the ales the are various 
+things of spices and what appear to at least at one time to have been 
+vegtables.  The only obvious exit is back up through the door.
+  }
+  flags { dark }
+  exits {
+	to { u, 66 }
+	  key { 103036 }
+	  info { door, locked, pickproof }
+	  keywords { cellar }
+  }
+}
+
+68
+{
+  name { The Inn Of The Silver Shield  }
+  desc {
+"   The inn has some worn couches and chairs in the reception area but has been
+meticuslously cleaned not a sight of dirt or grime anywhere.  This looks like
+it would be a halfway safe place to spend the night. The only obvious exit is
+back to the road.
+  }
+  flags { peaceful, no_sum, no_magic, rent_room }
+  exits {
+	to { n, 59 }
+  }
+}
+
+69
+{
+  name { A Small Cottage  }
+  desc {
+"   As you look around you notice that the cottage has been heavily fortified
+from intrusion from the road if the owner did not want you in it looks like
+even the most desperate adventurer would have a problem. The only obvious 
+exit is back to the road.
+  }
+  exits {
+	to { s, 60 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+70
+{
+  name { Mayor's Office  }
+  desc {
+"  The office appears to be a bit unorganized, papers seems to have
+overtaken The small desk here. It would appear that the mayor 
+could definitely use a secretary. Besides the mountains of paper 
+the only other thing of note is a large ornate mirror which seems
+to be out of place here. The only obvious exit is back to the road.
+  }
+  exits {
+	to { n, 61 }
+	to { northeast, 71 }
+	  key { 103035 }
+	  info { door, closed, locked, pickproof, hidden, autoclose, autolock }
+	  keywords { mirror }
+  }
+}
+
+71
+{
+  name { In The Mirror  }
+  desc {
+"   You seem to be standing in darkness itself all is calm nothing can be heard
+or seen you doubt if you could see your hand before your face in here.  There 
+are no obvious exits.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  BE WARNED....You travel to a place few return from.
+	}
+  }
+  flags { private }
+  tele { 20, 0, 73 }
+  exits {
+	to { southwest, 70 }
+	  key { 103035 }
+	  info { door, closed, locked, pickproof, hidden, autoclose, autolock }
+	  keywords { mirror }
+  }
+}
+
+72
+{
+  name { A Small Home  }
+  desc {
+"  The home looks little more then a work place for some kind of hunter.
+There are various animal pelts stack neatly on shelves all around the
+room. The only obvious exit is back to the road.
+  }
+  exits {
+	to { s, 63 }
+  }
+}
+
+73
+{
+  name { A Large Cave  }
+  desc {
+"  The Cave walls glow dimly with almost an unwordly light, vaguely human
+shape shadows seem to bloom from the glow. There seems to be stairs out 
+in the middle of the cave. The stairs seem to be the only way out.
+  }
+  flags { no_mob }
+  exits {
+	to { 10, 74 }
+	  keywords { stairs }
+  }
+}
+
+74
+{
+  name { A Spiral Staircase  }
+  desc {
+"  The stairs have been cut right into the rock that forms the cave above.
+The stairs have been expertly crafted whoever made them either put a lot 
+of work into them or paid someone handsomely for the job. The stairs 
+continue down and lead back up to the cave.
+  }
+  exits {
+	to { d, 75 }
+	to { 10, 73 }
+	  keywords { cave }
+  }
+}
+
+75
+{
+  name { Bottom Of The Staircase  }
+  desc {
+"  The stairs have lead you to a tunnel entrance. The tunnel entrance has 
+runes inscribed all around it and give off a slight blue glow.  On The
+wall by the entrance there seems to contain a small plaque.  The obvious
+exits are back up and the tunnel entrance.
+  }
+  extra {
+	keywords { plaque }
+	desc { 
+In Are arrogance we thought we could contain them..
+But it would appear we have failed...
+Venturing further is strongly discouraged for most
+is not all will meet there demise from what lays beyond.
+	}
+  }
+  exits {
+	to { e, 76 }
+	to { u, 74 }
+  }
+}
+
+76
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  The tunnel 
+has a sturdy oak door to the south and continues to the east.
+  }
+  exits {
+	to { e, 80 }
+	to { s, 78 }
+	  info { door, closed }
+	  keywords { oak door }
+	to { w, 75 }
+  }
+}
+
+78
+{
+  name { A Large Room  }
+  desc {
+"   The room is covered in floor to ceiling shelves, everywhere you look 
+is shelves and they all seem to be covered with some rather gruesome things
+in jars.  In the middle of the room is what appears to be a large work table.
+You can go back out to the tunnel or there is a small door to the south.
+  }
+  exits {
+	to { n, 76 }
+	  info { door, closed }
+	  keywords { oak door }
+	to { s, 79 }
+  }
+}
+
+79
+{
+  name { A Small Room  }
+  desc {
+"   The room is nothing more then a small entrance to the cave to the south
+which appears to be small cell.  The are torch set in the wall which give
+off a strange blue glow.  The only obvious exits are through the door, or
+the cell door to the south.
+  }
+  exits {
+	to { n, 78 }
+	to { s, 98 }
+	  key { 240250 }
+	  info { door, closed, locked }
+	  keywords { cell door }
+  }
+}
+
+80
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  The tunnel 
+continues to the east and goes back to the west.
+  }
+  exits {
+	to { e, 81 }
+	to { w, 76 }
+  }
+}
+
+81
+{
+  name { A Turn In The Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  The tunnel 
+continues to the south and goes back to the west.
+  }
+  exits {
+	to { s, 82 }
+	to { w, 80 }
+  }
+}
+
+82
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are placed every so often along the walls.  There is A 
+ornate door to the south.  The tunnel continues to the east and back to
+the north. 
+  }
+  exits {
+	to { n, 81 }
+	to { e, 83 }
+	to { s, 86 }
+	  info { door, closed }
+	  keywords { ornate door }
+  }
+}
+
+83
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  There is A 
+ornate door to the south.  The tunnel continues to the east and back to
+the west. 
+  }
+  exits {
+	to { e, 84 }
+	to { s, 87 }
+	  info { door, closed }
+	  keywords { ornate door }
+	to { w, 82 }
+  }
+}
+
+84
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  There is A 
+ornate door to the south.  The tunnel continues to the east and back to
+the west. 
+  }
+  exits {
+	to { e, 85 }
+	to { s, 88 }
+	  info { door, closed }
+	  keywords { ornate door }
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { A Long Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  There is A 
+ornate door to the south.  The tunnel continues to the east and back to
+the west. 
+  }
+  exits {
+	to { e, 91 }
+	to { s, 89 }
+	  info { door, closed }
+	  keywords { ornate door }
+	to { w, 84 }
+  }
+}
+
+86
+{
+  name { A Ornate Bedroom  }
+  desc {
+"  The bedroom walls have exquiste statues carved right into the rock of the
+walls.  All the furniture in the room appears to have taken years to carve it
+it is so ornate. Whom ever lives here must either have had a lot of time here 
+or is very rich.  The only obvious exit is back to the north.
+  }
+  exits {
+	to { n, 82 }
+	  info { door, closed }
+	  keywords { ornate door }
+  }
+}
+
+87
+{
+  name { A Ornate Bedroom  }
+  desc {
+"  The bedroom walls have exquiste statues carved right into the rock of the
+walls.  All the furniture in the room appears to have taken years to carve it
+it so ornate. Whom ever leaves here must either have had a lot of time here is
+very rich.  The only obvious exit is back to the north.
+  }
+  exits {
+	to { n, 83 }
+	  info { door, closed }
+	  keywords { ornate door }
+  }
+}
+
+88
+{
+  name { A Ornate Bedroom  }
+  desc {
+"  The bedroom walls have exquiste statues carved right into the rock of the
+walls.  All the furniture in the room appears to have taken years to carve it
+it so ornate. Whom ever leaves here must either have had a lot of time here is
+very rich.  The only obvious exit is back to the north.
+  }
+  exits {
+	to { n, 84 }
+	  info { door, closed }
+	  keywords { ornate door }
+  }
+}
+
+89
+{
+  name { A Dueling Room  }
+  desc {
+"   The walls are lined with weapons racks holding various lethal weapons.
+Whom ever uses this room they obviously come to draw blood or kill there 
+oppenent, because there are no padded weapons here. The only obvious exit is 
+back to the north.
+  }
+  exits {
+	to { n, 85 }
+	  info { door, closed }
+	  keywords { ornate door }
+	to { s, 90 }
+  }
+}
+
+90
+{
+  name { A Small Room  }
+  desc {
+"   The Room is small but you get a feeling of peacefulness as you enter.  
+As you look around you see small lamps upon the walls and a bed.  The small
+altar in the middle of the room is the only thing of note here.  The only 
+obvious exit is back to the north.
+  }
+  exits {
+	to { n, 89 }
+  }
+}
+
+91
+{
+  name { A Turn In The Tunnel  }
+  desc {
+"   The tunnel walls are smooth and polished which reflects the light from
+the lanterns that are place every so often along the walls.  The tunnel 
+continues to the south and north or you can go back to the west.
+  }
+  exits {
+	to { n, 96 }
+	to { s, 92 }
+	to { w, 85 }
+  }
+}
+
+92
+{
+  name { A Larger Tunnel  }
+  desc {
+"   The tunnel has become rather larger and it seems to continue to become 
+larger to the east. Just looking to the east the vastness or maybe just 
+something to the east gives you a feeling you should turn back now.  The
+tunnel continues to the east.
+  }
+  exits {
+	to { n, 91 }
+	to { e, 93 }
+  }
+}
+
+93
+{
+  name { A Large Cave  }
+  desc {
+"   The cave is huge even with all the lanterns in the walls you can not 
+make out the ceiling of it.  The cave has runes running all along the walls
+which give off a faint blue glow.  The only obvious exits is back the way 
+you came.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The whole cave glows blue for an instant.....
+	}
+  }
+  flags { no_mob, dispel_magic }
+  tele { 50, 0, 94 }
+  exits {
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { The Room Of The Dead  }
+  desc {
+"   The walls strange glow give off just enough light to make out the huge 
+chair in the center of the room.  The chair looks to be made entirely of 
+human skulls.  The only obvious exit is to the north.
+  }
+  extra {
+	keywords { _teleport }
+	desc { ""	}
+  }
+  exits {
+	to { n, 95 }
+  }
+}
+
+95
+{
+  name { A Small Cave  }
+  desc {
+"   Although smaller this cave also has runes all around the walls.  Although
+the runes in this room seem to be almost archaic compared to the ones in the
+last room. The only obvious exit is back to the south.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The cave flashes blue...
+	}
+  }
+  tele { 50, 0, 82 }
+  exits {
+	to { s, 94 }
+  }
+}
+
+96
+{
+  name { Before The Arch  }
+  desc {
+"   The Tunnel has come to a end here.  You stand before A large arch, the
+arch appears to be almost natural.  The arch has a large gate across it.
+Through the gate the cave beyond glows brightly.  The tunnel leads back 
+to the south and you can go through the arch to the north.
+  }
+  exits {
+	to { n, 97 }
+	  info { door, closed }
+	  keywords { gates }
+	to { s, 91 }
+  }
+}
+
+97
+{
+  name { A Large Cave  }
+  desc {
+"   The cave is huge, it has be set up as a large study.  There are various
+tomes and books lining the walls and stacked upon the various desks 
+that are sit up around the cave.  The only obvious exit is back to the
+south.
+  }
+  exits {
+	to { s, 96 }
+	  info { door, closed }
+	  keywords { gates }
+  }
+}
+
+98
+{
+  name { A Small Cell  }
+  desc {
+"   The room is small and consist of a lantern on the wall and a small bed
+next to the wall.  The only obvious exit is back to the north.
+  }
+  exits {
+	to { n, 79 }
+	  key { 240250 }
+	  info { door, closed, locked }
+	  keywords { cell door }
+  }
+}

@@ -1,0 +1,201 @@
+#offset Sundown
+
+0
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { n, 8 }
+          key { 654 }
+          info { door, closed, locked, pickproof, autoclose, autolock }
+          keywords { lodge }
+        to { e, Midgard:524 }
+        to { s, 9 }
+          key { 3473 }
+          info { door, closed, locked, pickproof, autoclose, autolock }
+          keywords { home }
+        to { w, 1 }
+  }
+}
+
+1
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { e, 0 }
+        to { w, 2 }
+  }
+}
+
+2
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { e, 1 }
+        to { w, 3 }
+  }
+}
+
+3
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { e, 2 }
+        to { w, 4 }
+  }
+}
+
+4
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { e, 3 }
+        to { w, 5 }
+  }
+}
+
+5
+{
+  name { Sundown Estates  }
+  desc {
+"  You are walking down the main street of Midgard's famous Sundown
+Estates.  Several modular houses are scattered throughout this district
+which provides affordable housing for the citizens of Midgard.  The
+road here is constructed of simple dwarven brick, and leads a twisted
+path further to the west, into the heart of the estate.  To the far east
+the land has been cleared for the eventual expansion of Sundown
+Estates.
+  }
+  sector { City }
+  exits {
+        to { e, 4 }
+  }
+}
+
+6
+{
+  name { 250106  }
+  desc { Empty
+  }
+}
+
+7
+{
+  name { 250107  }
+  desc { Empty
+  }
+}
+
+8
+{
+  name { The Iron Bark Lodge  }
+  desc {
+"  As you step into the cabin you are greeted by a beautiful crackling
+fireplace and the smell of smouldering cedar.  The gorgeous solid brick
+fireplace is adorned with small lanterns and wooden picture frames, all
+containing photos of couples of adventurers.  A small wooden table and
+chairs to one side of the room invite you to rest, as the smell of
+good food wafts from the small kitchen area.  A coffee pot sits brewing
+on the old style wood oven and hanging herbs frame the windowsill.  A
+small black cat is curled up on the window ledge staring out at the birds
+in the yard overlooking the lush green forest nearby.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, private, rent_room }
+  exits {
+        to { n, 10 }
+        to { s, 0 }
+          key { 654 }
+          info { door, closed, locked, pickproof, autoclose, autolock }
+          keywords { lodge }
+  }
+}
+
+9
+{
+  name { Dareth's House  }
+  desc {
+"  THe room is illuminated by the dim glow of torches bracketed on the
+walls.  Shadows play tricks on your eyes, as they flicker and dance upon
+granite.  The stone walls are adorned sparsely, with pieces of armor
+and weaponry, retrieved as spoils from successful adventuring.  A large
+round wooden table seems to glimmer in the torch light, glowing with
+several coats of varnish.  Chairs are placed intermittantly around the
+walls of the entire area.  As you take in your surroundings, you begin
+to notice several people participating in a variety of activities.  Some
+are part of the mercenary company returning from their adventures,
+while others are hired workers who are cleaning the area.  One of the
+workers sees you enter the room and brings you a goblet, a large
+portion of fresh bread, cheese, and a warm smile.  Despite the sparse
+furnishings and cold walls, this room is quite inviting.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, private, rent_room }
+  exits {
+        to { n, 0 }
+          key { 3473 }
+          info { door, closed, locked, pickproof, autoclose, autolock }
+          keywords { home }
+  }
+}
+
+10
+{
+  name { The Wood Shed  }
+  desc {
+"  You are standing in a small annex attached to the cabin.  The smell of
+cedar fills the air with the cut logs piled along the walls.  A small desk
+sits beside the window here covered with miscellaenous bits and pieces.
+  }
+  exits {
+        to { s, 8 }
+  }
+}
+

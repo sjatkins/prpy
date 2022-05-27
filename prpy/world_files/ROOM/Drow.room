@@ -1,0 +1,911 @@
+#offset Drow
+
+0
+{
+  name { City Entrance  }
+  desc {
+"     You are at the entrance to a small underground city. A great adamantine
+gate lies open to the west allowing entrance into the city.  There is a large
+fresco on the gates...
+  }
+  extra {
+	keywords { gate, fresco }
+	desc {  A large adamantine gate with a giant spider shaped fresco stands here:
+
+                               ;               ,           
+                             ,;                 '.         
+                            ;:                   :;        
+                           ::                     ::       
+                           ::                     ::       
+                           ':                     :        
+                            :.                    :        
+                         ;' ::                   ::  '     
+                        .'  ';                   ;'  '.    
+                       ::    :;                 ;:    ::   
+                       ;      :;.             ,;:     ::   
+                       :;      :;:           ,;"      ::   
+                       ::.      ':;  ..,.;  ;:'     ,.;:   
+                        "'"...   '::,::::: ;:   .;.;""'    
+                            '"""....;:::::;,;.;"""         
+                        .:::.....'"':::::::'",...;::::;.   
+                       ;:' '""'"";.,;:::::;.'""""""  ':;   
+                      ::'         ;::;:::;::..         :;  
+                     ::         ,;:::::::::::;:..       :: 
+                     ;'     ,;;:;::::::::::::::;";..    ':.
+                    ::     ;:"  ::::::#{RED}    #{o}::::::  ":     ::
+                     :.    ::   ::::::;#{RED}  #{o}:::::::   :     ; 
+                      ;    ::   :::::::#{RED}  #{o}:::::::   :    ;  
+                       '   ::   ::::::#{RED}    #{o}:::::'  ,:   '   
+                        '  ::    :::::::::::::"   ::       
+                           ::     ':::::::::"'    ::       
+                           ':       """""""'      ::       
+                            ::                   ;:        
+                            ':;                 ;:"        
+                              ';              ,;'          
+                                "'           '"            
+                                  '
+
+	}
+  }
+  sector { Underdark }
+  flags { mapable, indoors }
+  exits {
+	to { w, 1 }
+	  desc {  A huge gate opens to the west allowing entrance into the city. }
+	  keywords { gate }
+	to { u, EasternDesert:11 }
+	  desc {  A small hole leads upwards, to the Dracoliches cave. }
+	  keywords { gate }
+  }
+}
+
+1
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate street going north-south. A large gate
+lies to the east while a building lies to the west.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 23 }
+	to { e, 0 }
+	to { s, 2 }
+	to { w, 22 }
+  }
+}
+
+2
+{
+  name { City street  }
+  desc { "     You walk along a highly ornate city street going north and west.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street going east-west. A large house
+stands to the south.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { e, 2 }
+	to { s, 4 }
+	to { w, 6 }
+  }
+}
+
+4
+{
+  name { Inside House Udrinor }
+  desc {
+"   You are standing inside of the grounds of House Udrinor. This house is
+small, being the least significant of all the Drow houses in this city.  
+Mural's and artwork cover the walls, telling the story of the House and it's
+rise to power.  House Udrinor is an old house, one of the oldest around,
+surprisingly, given its lowly status. This house controls the great fields
+of fungi and salt water lakes that provide most of the food for the rest of
+the city.  Given that the Drow would rather die than farm, it is no wonder
+that this house has maintained a foothold for a long, long time. 
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	to { s, 5 }
+	  info { door }
+  }
+}
+
+5
+{
+  name { Throne Room of House Udrinor }
+  desc {
+"   You are standing in the Throne room of House Udrinor.  Here the Matron
+Mother, Haeltyna Udrinor, resides over the workings of her house and the
+politics that the position brings with it.  A large throne, carved from a
+giant mushroom, dominates the room.  A small blood-altar sits quietly in
+a corner, ready for the sacrificial work of the priestesses.  And every-
+where there are patterns of spiders crawling over fields of mushrooms.
+Very fitting for the House that feeds a city.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 4 }
+	  info { door }
+  }
+}
+
+6
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street going east-west. To the north
+is a large building.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 18 }
+	to { e, 3 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street leading north and east. To the
+south is an extremely large house.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 10 }
+	to { e, 6 }
+	to { s, 8 }
+  }
+}
+
+8
+{
+  name { Inside House Sardavac }
+  desc {
+"   You are standing inside the grounds of house Sardavac.  This house is
+small, but there seems to be lot of ornate artwork and decoration around,
+telling the story of the House and it's rise to power.  House Sardavac, it
+seems, is a young house, only a few centuries old, which is nothing in the
+life-span of the Drow.  It gained prominence from the trade of fine art
+and that it produced, supplying the city with fearsome works that celebrate
+their cruel and machiavellian deity, Lloth.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	to { w, 9 }
+	  info { door }
+  }
+}
+
+9
+{
+  name { Throne Room of House Sardavac }
+  desc {
+"   Never have you seen such a wondrous and frightful sight!  The throne
+room of House Sardavac almost gleams and drips with evil, every inch of
+the room celebrating the chaotically cruel nature of the Drow deity, Lloth.
+A vast throne, adorned with carvings, formed of perfectly white roots of
+living plants, occupies most of the room and provides a place for the
+Matron Mother of House Sardavac, Qitlara Sardavac, a place to administer to
+the workings of her House.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 8 }
+	  info { door }
+  }
+}
+
+10
+{
+  name { Outside House Parastric }
+  desc {
+"   You standing on a street outside of House Parastric.  This house, 
+carved in to a might stalactite, is the biggest in this part of the city.
+Yet it is rumoured that House Parastric is not the most powerful around.
+How odd.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 14 }
+	to { s, 7 }
+	to { w, 11 }
+	  desc {  A large gate lies to the west. }
+	  info { door, closed }
+	  keywords { gate }
+  }
+}
+
+11
+{
+  name { Inside House Parastric }
+  desc {
+"   You are standing inside the grounds of House Parastric.  The walls, the
+furniture, everything that you can see, seems to have been formed from the
+flesh of some poor creature.  Even the artwork that depicts the rise of the
+House is made of the same macabre material.  House Parastric is a relatively
+old house, well known for providing the city with some of its most powerful
+wizards.  So powerful in fact, that House Parastric is rumoured to have been
+the first in all the realms to create Polymorphing magic.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 10 }
+	  info { door, closed }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Throne Room of House Parastric }
+  desc {
+"   Even the floor in this throne room is spongy from all of the skins and
+hides and fleshes that house has warped and cured and hung in decoration
+over the millennia.  A gigantic altar takes pride of place in this room,
+dedicated to the cruel Lloth and still dripping thick, red blood from the
+last sacrifice.  The throne itself pales in comparison.  But what is more
+remarkable is that the ancient Matron Mother, Indica Violenta Parastric, is
+never in attendance here.  Instead she holds her audiences in her own plush
+chamber just to the north.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	  info { door }
+	to { e, 11 }
+  }
+}
+
+13
+{
+  name { The Chamber of Indica Violenta Parastric }
+  desc {
+"   The Matron Mother of House Parastric is rumoured to be over a thousand
+years old.  And that would explain why she holds her councils in her own
+chamber, and not on her throne flesh to the south.  The chamber is decorated
+in a surprisingly simple fashion, the walls are mostly bare, with only a
+single portrait of the wizened old Matron transforming into a beauteous,
+youthful Drow in a never ending, slow dance that transfixes the eye.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 12 }
+	  info { door }
+  }
+}
+
+14
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street leading north-south and east.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 15 }
+	to { e, 17 }
+	to { s, 10 }
+  }
+}
+
+15
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street leading south. A building is
+to the west.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { s, 14 }
+	to { w, 16 }
+	  info { door, closed }
+  }
+}
+
+16
+{
+  name { Cleric Academy  }
+  desc {
+"     This is the most lavish of the academies being that it is for the clerics.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { e, 15 }
+	  info { door, closed }
+  }
+}
+
+17
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street going east-west. To the north
+is a giant temple.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 19 }
+	  desc {  The entrance to the temple of Lloth. }
+	  info { door, closed }
+	to { e, 21 }
+	to { w, 14 }
+  }
+}
+
+18
+{
+  name { Warrior's Academy  }
+  desc { "     This looks more like a barracks than a school.   }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { s, 6 }
+  }
+}
+
+19
+{
+  name { Entrance to the Temple of Lloth  }
+  desc {
+"     The temple is the largest building in the city. Even it's doors are beyond
+imagination. Inside of the temple entrance, the walls are made of gold and
+adamantine.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { s, 17 }
+	  info { door, closed }
+	to { d, 26 }
+  }
+}
+
+20
+{
+  name { Mage's Academy  }
+  desc {
+"     The mages academy is fairly well decorated see that the drow prefer magic
+over physical power greatly.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { s, 21 }
+	  info { door, closed }
+  }
+}
+
+21
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street going eastward. To the north is
+a building.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 20 }
+	  info { door, closed }
+	to { e, 23 }
+	to { s, 22 }
+	to { w, 17 }
+  }
+}
+
+22
+{
+  name { Slave Chamber  }
+  desc {
+"     The room is in shambles. Straw is strewn all about the room as beds for the
+unfortunate creatures who have fallen prey to drow imperialism.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	to { e, 1 }
+  }
+}
+
+23
+{
+  name { City street  }
+  desc {
+"     You walk along a highly ornate city street leading west and south. To the
+north is a relatively small house.
+  }
+  sector { Underdark }
+  flags { mapable, dark, indoors }
+  exits {
+	to { n, 24 }
+	  info { door }
+	to { s, 1 }
+	to { w, 21 }
+  }
+}
+
+24
+{
+  name { Inside House Moivas }
+  desc {
+"   You are standing inside the grounds of House Moivas, rumoured to be the
+most power Drow house in this part of the city.  Yet looks can be deceiving,
+as the house is small compared to some around it, and the murals in this part
+of the house are dull, dark affairs.  The story of House Moivas is one of
+slavery.  This house is the one the others come to for their slave needs, and
+no-one, not even the great Houses, know where they source their fodder from.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+	to { s, 23 }
+	  info { door }
+  }
+}
+
+25
+{
+  name { Throne Room of House Moivas }
+  desc {
+"   The altar in the throne room of House Moivas has been formed from the
+bones of a giant Ettin.  Whatever it had done in life, the powerful creature
+now serves to collect the blood of sacrifices to the Queen of Spiders herself,
+Lloth, and to bring honour to the house Moivas.  In this room the Matron of
+House Moivas, Ruinia Moivas, sits on her Throne of Bones, formed from the
+knuckles of a thousand slaves, administering to the needs of her House.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { Entrance Way  }
+  desc {
+"     You stand in the entrance way to the temple which opens up to the north
+into a large hallway going east and west. Small statues of spiders line the
+entrance way's walls.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 27 }
+	to { u, 19 }
+  }
+}
+
+27
+{
+  name { Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a obsidian stairway.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 35 }
+	to { e, 28 }
+	to { s, 26 }
+	to { w, 31 }
+  }
+}
+
+28
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 29 }
+	to { w, 27 }
+  }
+}
+
+29
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the north is a door.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	  info { door, closed }
+	to { e, 30 }
+	to { w, 28 }
+  }
+}
+
+30
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 34 }
+	to { w, 29 }
+  }
+}
+
+31
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+	to { w, 32 }
+  }
+}
+
+32
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+To the south is a door.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 31 }
+	to { s, 33 }
+	  info { door }
+	to { w, 34 }
+  }
+}
+
+33
+{
+  name { Warrior's Barracks  }
+  desc {
+"     The room is a complete mess. None of the beds are made, clothes and other
+items have been left all about the room. Well drow warriors never were known
+for neatness.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 32 }
+	  info { door }
+  }
+}
+
+34
+{
+  name { Long Hallway  }
+  desc {
+"     You are in a long hallway lined with adamantite. The walls are engraved
+with pictures of elves and spiders. The hallway continues east and west. As you
+look down the hallway you can make out one or two figures moving away from you.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 32 }
+	to { w, 30 }
+  }
+}
+
+35
+{
+  name { Grand Stairway  }
+  desc {
+"     You are standing at the bottom of a giant obsidian and adamantite
+stairway. The edges are trimmed with gold.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 27 }
+	to { u, 36 }
+  }
+}
+
+36
+{
+  name { Grand Hallway  }
+  desc {
+"     You are standing in the middle of a grand hallway. The walls are
+of the purest adamantite with gold trim. Mosaics line the walls.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 38 }
+	to { e, 37 }
+	  info { door, closed }
+	to { d, 35 }
+  }
+}
+
+37
+{
+  name { Mage's Barracks  }
+  desc {
+"     The mage's living quarters is rather clean with the exception of a few
+used component containers. It is rather well decorated as well. Cots line the
+floor for the mages to sleep on. the only door is to the west.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { w, 36 }
+	  info { door, closed }
+  }
+}
+
+38
+{
+  name { Grand Hallway  }
+  desc {
+"     You are walking down a grand hallway, heavily decorated with adamantite
+and gold. To the north the hall goes down a flight of stairs while a door is
+too the west.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 36 }
+	to { w, 39 }
+	  info { door, closed }
+	to { d, 40 }
+  }
+}
+
+39
+{
+  name { Cleric's Barracks  }
+  desc {
+"     The bed chamber is brightly decorated with spider shaped statues, murals
+and the like. Large beds line the floor making this a comfortable room to live
+in.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 38 }
+	  info { door, closed }
+  }
+}
+
+40
+{
+  name { Grand Stairway  }
+  desc {
+"     You are climbing a set of obsidian stairs surrounded by adamantine walls.
+To the north are a set of large golden doors.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 41 }
+	  info { door, closed }
+	to { u, 38 }
+  }
+}
+
+41
+{
+  name { Main Chamber  }
+  desc {
+"     This is the south side of a large auditorium used for services by the
+drow priestesses. In the center is a large sacrificial pit and beyond that is
+an altar.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 40 }
+	  info { door, closed }
+	to { n, 44 }
+  }
+}
+
+42
+{
+  name { Easternside of Chamber  }
+  desc {
+"     You are on the easternside of the chamber overlooking the pit. To the east
+is a door while to the north is an altar.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { w, 45 }
+	to { e, 46 }
+	  info { door, closed }
+  }
+}
+
+43
+{
+  name { Sacrificial Pit  }
+  desc {
+"   This is the bottom of the sacrificial pit.  Long ago it would have been
+death to be in here.  Now it seems something is happening, some changes the
+evil elves are introducing in to their city.  But that's all that can be
+determined.
+  }
+  sector { Underdark }
+  flags { no_mob }
+  exits {
+	to { u, 45 }
+  }
+}
+
+44
+{
+  name { Westernside of Chamber  }
+  desc {
+"     You are on the westernside of the main chamber overlooking a sacrificial
+pit. To the north is an altar.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 45 }
+	to { s, 41 }
+  }
+}
+
+45
+{
+  name { The Altar  }
+  desc {
+"     You are standing infront of a highly and freshly bloodstained altar.
+Engraved on the top of the altar is a giant spider witha human head. Looking
+down from the altar you see a large sacrificial pit. Maybe you will get to
+be one!
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 48 }
+	to { e, 42 }
+	to { s, 44 }
+	to { d, 43 }
+  }
+}
+
+46
+{
+  name { Slave Cells  }
+  desc {
+"     This is the main room to the cell chambers for the slaves to be
+sacrificed. You notice there are no guards around.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { n, 47 }
+	  info { door, closed }
+	to { w, 42 }
+  }
+}
+
+47
+{
+  name { Slave Pen  }
+  desc {
+"     Rotten meat and breads lie about the floor while shackles hang from the
+walls. The room reeks of death. You almost become nauseated and decide to leave
+the room since you were obviously too late to save the slaves.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 46 }
+	  info { door, closed }
+  }
+}
+
+48
+{
+  name { Dais  }
+  desc {
+"     You stand upon a dais behind the altar. Above you is a enormous illusion
+of a female drow turning into a giant spider and back again. There is a door
+to the west.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 45 }
+	to { w, 49 }
+	  info { door }
+  }
+}
+
+49
+{
+  name { The Treasury  }
+  desc {
+"     This is obviously only a temporary storage place for the collected
+treasure being rather bare.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { e, 48 }
+	  info { door }
+  }
+}
+
+50
+{
+  name { Weaponsmaster's Chamber  }
+  desc {
+"     This one person bedchamber is very elegant. The owner must be held in high
+to get this kind of treatment.
+  }
+  sector { Underdark }
+  flags { dark, indoors }
+  exits {
+	to { s, 29 }
+	  info { door, closed }
+  }
+}

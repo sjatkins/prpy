@@ -1,0 +1,1648 @@
+#offset Grass_Barrows
+
+0
+{
+  name { A Grassy Knoll  }
+  sector { Field }
+  desc {
+"   Plains of grass dominate the landscape here. The 
+shifting colours of summer-green vegetation reach 
+out towards the horizon in all directions,
+resembling that of a thick green carpet. The warming 
+sun has begun to rise above the horizon line, the 
+rays of light making the plains shift slightly towards
+yellow in colour. The grass is layered where it has 
+been grazed by animals. Along with the arrival of the 
+morning, the sounds of life comes, insects hidden in 
+the tall grass giving of various noises, and birds 
+circling the morning sky. Several paw and foot prints
+lead to the south, strangely you can't find any leading
+away from that direction.
+  }
+  exits {
+	to { s, 2 }
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { A Grassy Knoll  }
+  sector { Field }
+  desc {
+"   Plains of grass dominate the landscape here. The 
+shifting colours of summer-green vegetation reach 
+out towards the horizon in all directions,
+resembling that of a thick green carpet. The warming 
+sun has begun to rise above the horizon line, the 
+rays of light making the plains shift slightly towards
+yellow in colour. The grass is layered where it has 
+been grazed by animals. Along with the arrival of the 
+morning, the sounds of life comes, insects hidden in 
+the tall grass giving of various noises, and birds 
+circling the morning sky. Several paw and foot prints
+lead to the east, strangely you can't find any leading
+away from that direction.
+  }
+  exits {
+	to { e, 0 }
+  }
+}
+
+2
+{
+  name { An Earthen Mound  }
+  sector { Hills }
+  desc {
+"   Death and great suffering have been incurred through 
+hundreds of battles on this very field. The moss on the 
+ground has been soaked with blood many times from battles
+both recent and long ago. The ground has drunk buckets of life 
+blood, leaking it into the graves below. Decayed bodies, deep 
+underground have tasted the blood of the soldiers of today. 
+Small stones set into the ground mark the location of several 
+mass graves. Bodies upon bodies strewn over the huge battle 
+field, have been buried in these holes that are covered with the remains 
+of both friend and enemy, leaving nothing to mark their valiant
+lives. Under one of the small headstones you notice a board 
+sticking out almost completely covered with dirt. Upon further
+investigation you notice a barrow leading underground.
+  }
+  flags { no_mob, blue_glow }
+  exits {
+	to { n, 0 }
+	to { d, 5 }
+	  keywords { burrow }
+  }
+}
+
+3
+{
+  name { A Split in the Tunnel  }
+  sector { Inside }
+  desc {
+"   You come upon a split in the tunnel. A cold draft can be felt coming
+from the eastern tunnel chilling you with its effects. To the north,
+you notice a small cavern lit by a single candle. Your view to the
+south is impeded by darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 14 }
+	to { e, 17 }
+	to { s, 4 }
+  }
+}
+
+4
+{
+  name { The Undergrowth  }
+  sector { Thicket }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 3 }
+	to { s, 39 }
+  }
+}
+
+5
+{
+  name { Entrance to The Barrows  }
+  sector { Inside }
+  desc {
+"   You are at the entrance to the barrows. The air acts like
+a blanket, damp and warm, suffocating you with its thickness.
+Your steps make loud crunching sounds as you quietly examine your 
+surroundings, careful not to wake what could be lurking in the
+shadows. The walls of the barrow have been marked with deep
+grooves and scratches as though something has been trying to 
+gouge its way out. A sudden gust of cold air passes your face,
+raising the hair on your neck and sending shivers up your spine.
+To the south, the tunnel leads into the darkness. Looking east,
+you notice that the ground takes on a steep slope. Light shines
+on you from the entrance above.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 6 }
+	to { s, 15 }
+	to { u, 2 }
+	  keywords { burrow }
+  }
+}
+
+6
+{
+  name { A Steep Slope  }
+  sector { Inside }
+  desc {
+"   This slope travels down to the east, your feet sticking with every step. 
+Upon further investigation you realize that the ground is covered
+with blood. A trail of crimson liquid seeps slowly at your feet from a dark cave
+to the north. Eerie howling can be heard in all directions. To the west,
+you catch a glimpse of daylight, reminding you that its not too late
+to turn back. Darkness covers your view to the east, leading off into the unknown.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 9 }
+	to { e, 7 }
+	to { w, 5 }
+  }
+}
+
+7
+{
+  name { A Dark Corner  }
+  sector { Inside }
+  desc {
+"   This is a turn in the tunnel leading west and south.
+It is very difficult to see anything in either direction.
+You notice that the ground begins to slope up to the
+west, and to the south you see darkness but hear screams
+of terror and a loud banging of metal on metal.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 8 }
+	to { w, 6 }
+  }
+}
+
+8
+{
+  name { A Dank Tunnel  }
+  sector { Inside }
+  desc {
+"   Oddly, this part of the tunnel is very warm. You can smell
+rotting flesh in the thick moist air. Various bones hang from
+the ceiling, some still have flesh hanging off of them. Several
+gnawed bones lay on the floor at your feet: something must
+have been quite hungry. Steam flows into the tunnel from
+the west along with loud metal on metal sounds. To the north
+and south, you can only see darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 7 }
+	to { s, 11 }
+	to { w, 10 }
+  }
+}
+
+9
+{
+  name { A Blood Bath  }
+  sector { Inside }
+  desc {
+"   As you enter, you are amazed by the amount of blood covering the
+walls in this small cavern. A stalactite on the ceiling drips blood
+into a stone well, where it overflows onto the cold floor. Large paw
+prints on and around the well indicate that creatures have been
+drinking from it. You fail to find where all the blood is coming
+from, but decide that it might not be a good idea to wait and find
+out. A slight slope in the cavern allows a stream of crimson liquid to seep
+slowly into the dark room to the south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 6 }
+  }
+}
+
+10
+{
+  name { A Hot Room  }
+  sector { Inside }
+  desc {
+"   This is a medium sized cavern with smooth walls and
+a rounded ceiling. On the far corner, a mysterious
+fire magically burns on the ground. A large stone
+table occupies the center of the cavern. To the east
+you see only darkness, but can smell the stench of
+rotten flesh. The heat from the flame burns so bright
+and hot, you can barely stand to stay in this room for
+fear that you may pass out.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 8 }
+  }
+}
+
+11
+{
+  name { A Boarded Entrance  }
+  sector { Inside }
+  desc {
+"   A boarded entrance blocks your way to the east. Someone
+has taken great care to ensure that it was solid and
+difficult to move. Unfortunately it seems that it has been
+kicked out from the other side. Wood splinters cover the
+ground at your feet. Whatever did this must have been
+quite strong and very angry. On the other side of the
+entrance, you can make out a large cave. You see only
+darkness from the north, but can smell rotten flesh.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 8 }
+	to { 10, 12 }
+	  keywords { cave }
+  }
+}
+
+12
+{
+  name { A Large Cave  }
+  sector { Inside }
+  desc {
+"   This is a large cave which looks much like a jail cell.
+The walls have been lined with large stone bricks and sealed
+with a mud packed mixture. Many of the bricks have been torn
+from the wall and lay broken on the floor,. A large hole has
+been dug in the floor, as though someone was trying to dig
+their way out. The entrance to the cave was at one time boarded
+shut, but now remains broken and open to anything to pass
+in and out of.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 13 }
+	to { 10, 11 }
+	  keywords { barrows }
+  }
+}
+
+13
+{
+  name { A Large Cave  }
+  sector { Inside }
+  desc {
+"   This is the north section of the large cave. You notice much of the
+same as at the entrance. Upon further investigation, you notice two
+iron shackles bolted to the wall. The thick iron cuffs have been cracked
+in half and removed without being unlocked. Many of the stones on the
+wall have been cracked and are permanently stained with dried blood. 
+You figure that whatever was shackled to this wall had spent a great
+amount of time trying to release itself from its entrapment.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 12 }
+  }
+}
+
+14
+{
+  name { A Candle Lit Cavern  }
+  sector { Inside }
+  desc {
+"   A bright candle floats ominously in the center of the room,, the flame
+burns brightly yet does not flicker. Hot wax drips to the floor below,
+leaving a coating of wax on the dirt. As you approach the candle, it
+burns brighter and brighter, hurting your eyes as you look at it. Just as
+you consider reaching for the candle, you are instantly of the dark
+corners of the room, which could provide adequate hiding space for any
+type of creature.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 3 }
+  }
+}
+
+15
+{
+  name { A Dark Tunnel  }
+  sector { Inside }
+  desc {
+"   This is a cold dark tunnel leading to north, south and west. A
+slight chill is sent streaming up your spine, as cold air travels
+in from the west. The ground here is covered with a thin layer of
+frost, sending a loud crunching noise through the tunnels as you
+walk. You catch a glimpse of day light to the north, helping to
+guide you to the entrance to these barrows. Various bones scattered
+across the dark exit to your south.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 5 }
+	to { s, 21 }
+	to { w, 17 }
+  }
+}
+
+16
+{
+  name { An Intersection  }
+  sector { Inside }
+  desc {
+This is an intersection in the tunnel. The sound of soft music
+can be heard from the west, quite odd for a place like this.
+The passages to the east and south are hidden in darkness,
+providing no hints to what may await beyond.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 21 }
+	to { e, 19 }
+	to { s, 20 }
+	to { w, 18 }
+  }
+}
+
+17
+{
+  name { A Freezing Cavern  }
+  sector { Inside }
+  desc {
+"   This room is extremely cold, chills run up your spine as your body
+temperature drops within the room. The ground at your feet has a
+thick layer of therma-frost and crunches as you walk. As you examine
+the walls of the room, thin layers of ice crumble and fall to the floor.
+You watch your breath steam out in front of you and rise several feet,
+disappearing into the ceiling. The tunnel leads east and west into the
+darkness beyond.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 15 }
+	to { w, 3 }
+  }
+}
+
+18
+{
+  name { A Well Furnished Cave  }
+  sector { Inside }
+  desc {
+"   Upon entering this cave, you are surprised to see that it has been
+very well furnished. A large oak table lies at the center of the room,
+surrounded by four exquisitely designed chairs. You hear sweet music
+echoing from the back of the room, ominously coming from nowhere.
+You approach the fine table to examine it closer. In that instant
+all contents of the room, disappear, leaving you standing in a cold
+wet cave.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 16 }
+  }
+}
+
+19
+{
+  name { A Looted Treasure Room  }
+  sector { Inside }
+  desc {
+"   Remnants of shattered treasure chests lay discarded about the room. 
+Everything in the room has been broken or overturned, it is obvious that 
+it has been searched thoroughly. The walls of this room have been dug 
+out slightly, as if being prodded for hidden items. From the number of 
+broken chests and empty coin satchels, you suspect that this room was once 
+very well stocked with treasure, unfortunately nothing of value remains.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 16 }
+  }
+}
+
+20
+{
+  name { A Dead End  }
+  sector { Inside }
+  desc {
+"   This room is stock piled with bones! The bones of most creatures 
+and races that you know lay in a heap towards the back of the room. 
+Upon inspection of the bones, you notice that not a single piece of 
+rotten flesh or clothing remains on them. Fangs and claws have been 
+driven deep into the marrow of many of the bones. In the middle of the 
+room, someone has taken great care to piece together a few full skeletons. 
+It has been done so well, that they almost look real!
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 16 }
+  }
+}
+
+21
+{
+  name { Buried Tombstones  }
+  sector { Inside }
+  desc {
+"   You have to crouch slightly, to pass through this part of the
+barrows. Several old tombstones protrude from the walls and
+ceiling of this section. Most of the writing on the old stones
+have faded with time or have been vandalized by unknown creatures.
+Small slabs of stone crunch at your feet, as you walk through,
+destroying many memories from ages past.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 15 }
+	to { s, 16 }
+  }
+}
+
+22
+{
+  name { The Entrance to The Royal Barrows  }
+  sector { Inside }
+  desc {
+"   This is the secret burial ground of Royalty and their closest
+guards and servants. It is rare to find a barrow of such magnitude
+and stature. Royals hide their burial grounds very well to prevent
+unwanted adventurers and thieves. You expect that the treasures
+hidden within this barrow will not be easy to obtain.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 64 }
+	to { s, 23 }
+	to { w, 30 }
+  }
+}
+
+23
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 22 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { indoors }
+  exits {
+	to { e, 23 }
+	to { s, 25 }
+	to { w, 31 }
+	  key { 1 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door west }
+  }
+}
+
+25
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 24 }
+	to { e, 26 }
+	to { s, 29 }
+	to { w, 38 }
+  }
+}
+
+26
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 27 }
+	to { s, 28 }
+	  key { 2 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door south }
+	to { w, 25 }
+  }
+}
+
+27
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 37 }
+	  info { door, closed, pickproof, knockable, autolock }
+	  keywords { tomb door north }
+	to { s, 32 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { The General's Tomb  }
+  sector { Inside }
+  desc {
+"   Battle honors hang from the ceiling of this large tomb. You notice
+about twenty different honors, representing each battle this General
+had led and won. Several medals adorn a large silver bed along the
+southern wall. You recognize many of them as the King's commendations and
+medals of bravery. The eastern wall shows many pictures of children
+and beautiful women. It was not uncommon for men of this General's
+stature to take on several wives. You find it odd to see thieves have
+left this room untouched, or at least didn't have the chance to steal
+any valuables.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 26 }
+	  key { 2 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door south }
+  }
+}
+
+29
+{
+  name { A Shadowy Tomb  }
+  sector { Inside }
+  desc {
+"   This large stone room holds a single candle, which flickers at your
+approach. As you walk further towards the light you become immediately
+aware of the dark corners and shadows in this room. You detect movement
+all around you, a shuffle here, a whistle there, then nothing. You feel
+your spine tingle and freeze, when you realize you aren't alone.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 25 }
+  }
+}
+
+30
+{
+  name { The Keykeepers Tomb  }
+  sector { Inside }
+  desc {
+"   This is a small tomb, the resting grounds of the Royal Key Guard.
+A stone bed lines the northern wall, engraved with many small markings,
+most of which resemble various locks and keys. The sound of dangling
+keys rings throughout the room. If you're looking for keys, you feel
+you came to the right spot!
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 22 }
+  }
+}
+
+31
+{
+  name { The First Knight's Tomb  }
+  sector { Inside }
+  desc {
+"   This is a very well kept and rich tomb. The walls are made of
+marble and various rare minerals. A stone bed lines the northern
+wall and is encrusted with platinum. Holes remain around the edges
+of the bed, where thieves have stolen the precious gems which once
+adorned the Knight's final resting place.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 24 }
+	  key { 1 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door west }
+  }
+}
+
+32
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { indoors }
+  exits {
+	to { n, 27 }
+	to { s, 33 }
+  }
+}
+
+33
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { indoors }
+  exits {
+	to { n, 32 }
+	to { e, 35 }
+  }
+}
+
+34
+{
+  name { The Royal Tomb  }
+  sector { Inside }
+  desc {
+"   This is a very large tomb, encased in gold and the finest metals.
+A large throne, encrusted in jewels, dominates the middle of the room.
+The sweet music of a minstrel strumming a harp, fills the air, bringing 
+memories from your past battles. A single candle lays beside the
+throne, shedding its light on this spectacular enclosure.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 36 }
+  }
+}
+
+35
+{
+  name { A Chiseled Tunnel  }
+  sector { Inside }
+  desc {
+"   A tunnel has been chiseled out and leads through the dark
+barrows. Ancient writing and symbols adorn the walls and ceiling,
+but are difficult to read, worn by time. The silence is interrupted
+only by the dripping of water and the pattering of your footsteps.
+The tunnel continues into the darkness.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 33 }
+	to { d, 36 }
+	  key { 4 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door down }
+  }
+}
+
+36
+{
+  name { The Royal Tomb  }
+  sector { Inside }
+  desc {
+"   This is a very large tomb, encased in gold and the finest metals.
+A large throne, encrusted in jewels, dominates the middle of the room.
+The sweet music of a minstrel strumming a harp, fills the air, bringing 
+memories from your past battles. A single candle lays beside the
+throne, shedding its light on this spectacular enclosure.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 34 }
+	to { u, 35 }
+	  key { 4 }
+	  info { door, closed, locked, pickproof, autolock }
+	  keywords { tomb door down }
+  }
+}
+
+37
+{
+  name { The Royal Priest's Tomb  }
+  sector { Inside }
+  desc {
+"   This room glows gently with a faint white aura. The walls shine
+with a silvery hue, giving them a mirror-like appearance. A small shrine glows
+brightly, surrounded by candles in the northwestern corner of the tomb.
+You can hear faint singing, which doesn't seem to be comming from anywhere
+in particular. As you proceed towards the shrine, the
+singing booms louder, and louder, until it is unbearable. As you turn
+towards the exit, the door slams and locks with a tremendous 'BANG, CLICK'.
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 27 }
+	  info { door, closed, pickproof, knockable, autolock }
+	  keywords { tomb door north }
+  }
+}
+
+38
+{
+  name { A Crumbled Tomb  }
+  sector { Inside }
+  desc {
+"   This tomb doesn't look to have been as well constructed as the
+others. The walls and ceilings are rough and unkept. The western
+wall seems to have caved in and covers much of the former contents of
+this tomb. Tiny carvings along the wall, show you that this tomb
+belongs to the King's servants. These souls have lost their resting
+place for eternity.
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, 25 }
+  }
+}
+
+39
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 4 }
+	to { e, 41 }
+	to { s, 40 }
+  }
+}
+
+40
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 39 }
+	to { e, 43 }
+	to { s, 46 }
+  }
+}
+
+41
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { e, 42 }
+	to { s, 43 }
+	to { w, 39 }
+  }
+}
+
+42
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { indoors }
+  exits {
+	to { s, 44 }
+	to { w, 41 }
+  }
+}
+
+43
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 41 }
+	to { e, 44 }
+	to { s, 45 }
+	to { w, 40 }
+  }
+}
+
+44
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 42 }
+	to { e, 51 }
+	to { s, 47 }
+	to { w, 43 }
+  }
+}
+
+45
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 43 }
+	to { e, 47 }
+	to { w, 46 }
+  }
+}
+
+46
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 40 }
+	to { e, 45 }
+  }
+}
+
+47
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { indoors }
+  exits {
+	to { n, 44 }
+	to { s, 48 }
+	to { w, 45 }
+  }
+}
+
+48
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { indoors }
+  exits {
+	to { n, 47 }
+	to { e, 49 }
+  }
+}
+
+49
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 50 }
+	to { e, 52 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+	to { s, 49 }
+  }
+}
+
+51
+{
+  name { The Undergrowth  }
+  desc {
+"   Large vines weave in through the ceiling and walls of this room.
+You find it difficult to stand, without one of the huge spiny plants
+wrapping itself around you. As you try to creep deeper into the room,
+the plants begin to tighten around your limbs and pull at your skin.
+You get the feeling that these may not be vines after all!
+  }
+  sector { Thicket }
+  flags { dark, indoors }
+  exits {
+	to { s, 50 }
+	to { w, 44 }
+  }
+}
+
+52
+{
+  name { A Black Pool  }
+  sector { Deep Water }
+  desc {
+"   A dark pool of mirky water glooms mysteriously in the center
+of this room. A closer look at the pool reveals nothing to you,
+leaving everything to your imagination. You kick a stone into
+the mirky unknown and watch as it disappears into the depths of
+the pool. A heavy thicket blocks your view to the west.
+  }
+  flags { dark, indoors }
+  exits {
+	to { w, 49 }
+	to { 10, 53 }
+	  keywords { pool }
+  }
+}
+
+53
+{
+  name { Underwater  }
+  desc {
+"   As you enter the first few meters of the water, you are chilled
+by the sub-zero temperatures. Particles of moss and soil surround you,
+disturbed by your intrusion, they cloud your vision in all directions.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { s, 54 }
+	to { 10, 52 }
+	  keywords { pool }
+  }
+}
+
+54
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 53 }
+	to { s, 65 }
+	to { w, 55 }
+  }
+}
+
+55
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 54 }
+	to { s, 57 }
+	to { w, 56 }
+  }
+}
+
+56
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { e, 55 }
+	to { u, 62 }
+  }
+}
+
+57
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 55 }
+	to { e, 65 }
+	to { s, 58 }
+  }
+}
+
+58
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 57 }
+	to { d, 59 }
+  }
+}
+
+59
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { u, 58 }
+	to { d, 60 }
+  }
+}
+
+60
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { u, 59 }
+	to { d, 61 }
+  }
+}
+
+61
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { s, 63 }
+	to { u, 60 }
+  }
+}
+
+62
+{
+  name { An Underwater Cavern  }
+  desc {
+"   You come upon a large circular underwater cavern. A bed of stones and roots
+dominates most of the space in this room. You notice several gnawed bones and
+rusty adventuring equipment scattered throughout.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { d, 56 }
+  }
+}
+
+63
+{
+  name { Underwater  }
+  desc {
+"   As you enter the first few meters of the water, you are chilled
+by the sub-zero temperatures. Particles of moss and soil surround you,
+disturbed by your intrusion, they cloud your vision in all directions.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 61 }
+	to { 10, 64 }
+	  keywords { pool }
+  }
+}
+
+64
+{
+  name { A Black Pool  }
+  sector { Inside }
+  desc {
+"   A dark pool of mirky water glooms mysteriously in the redit desc
+of this room. A closer look at the pool reveals nothing to you
+leaving everything to your imagination. You kick a stone into
+the mirky unknown and watch as it disappears into the depths of
+the pool. The entrance to The Royal Barrows can be seen to the south.
+  }
+  flags { dark, indoors, dispel_magic }
+  exits {
+	to { s, 22 }
+	to { 10, 63 }
+	  keywords { pool }
+  }
+}
+
+65
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { n, 54 }
+	to { e, 66 }
+	to { w, 57 }
+  }
+}
+
+66
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { indoors }
+  exits {
+	to { e, 67 }
+	to { w, 65 }
+	to { d, 68 }
+  }
+}
+
+67
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { w, 66 }
+	to { u, 71 }
+  }
+}
+
+68
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { s, 69 }
+	to { u, 66 }
+  }
+}
+
+69
+{
+  name { Deep Underwater  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { n, 68 }
+	to { w, 70 }
+  }
+}
+
+70
+{
+  name { Deep Underwater  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { e, 69 }
+  }
+}
+
+71
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { e, 73 }
+	to { u, 72 }
+	to { d, 67 }
+  }
+}
+
+72
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { d, 71 }
+  }
+}
+
+73
+{
+  name { Deep in an Underwater Cave  }
+  desc {
+"   The chill of the cold water creeps up your spine, as you fight to
+pass your way through these small underwater caves. Fine black silt
+which laid undisturbed for centuries, scatters throughout the water,
+blurring your vision. The bubbles from your breath, float to the cave
+ceiling, forming tiny air pockets, trapped in the watery depths for
+eternity. Does the same fate lie in your future? Only time will tell.
+  }
+  sector { Underwater }
+  flags { dark, indoors }
+  exits {
+	to { w, 71 }
+  }
+}
+
+74
+{
+  name { 213121  }
+  desc { Empty   }
+}
+
+83
+{
+  name { A Peaceful Path.  }
+  sector { Field }
+  desc {
+"   Birds chirp merrily, nesting in the low shrubbery. A slight breeze
+blows in from the east, waving several strands of grass back and forth in
+an almost hypnotizing manner. Green and red moss glisten on the
+ground, soaked with water like a huge sponge. The faint sound of
+splashing water can be heard to the north.
+  }
+  exits {
+	to { n, 84 }
+  }
+}
+
+84
+{
+  name { A Glimmering Pool.  }
+  sector { Deep Water }
+  desc {
+"   A shallow pool of glowing green water, laps quietly agains the stoney
+shore. Small water creatures dart in a random pattern across the pool,
+leaving slight ripples on the glassy surface. Peering into the shallow
+water, allows view of green phosphorescent algae attached to the rock
+bottom, feeding on various bacteria. In the distance to the north, you
+see a towering waterfall, falling with spendid grace to a large pool
+beneath.
+  }
+  exits {
+	to { n, 87 }
+	to { e, 86 }
+	to { s, 83 }
+	to { w, 85 }
+  }
+}
+
+85
+{
+  name { A Sparsely Forested Shore.  }
+  sector { Forest }
+  desc {
+"   Tall thin trees reach toweringly into the sky, blowing silently in
+a soft breeze. Thick brown roots rise from beneath the soil, edging
+slowly towards the pool to the east. Weaving in and out of each other,
+they are intertwined like snakes, creating a natural obstacle course.
+Water slaps invitingly against a shore to the east.
+  }
+  exits {
+	to { e, 84 }
+  }
+}
+
+86
+{
+  name { A Peaceful Shore.  }
+  sector { Shallow Water }
+  desc {
+"   Gentle waves lap playfully against the sandy shore, forming small
+piles of foam, which glisten in the light. A warm breeze blows softly
+across the beach, trailing fine streams of the soft sand into the clear
+green water. Large butterflies flutter their way from rock to rock, seemingly
+stopping to enjoy all nature has to offer in this wonderous place. The calm,
+silent pool to the west, remains still as glass, inviting all passers by to
+come bask in its splendour.
+  }
+  exits {
+	to { w, 84 }
+  }
+}
+
+87
+{
+  name { A Crystal Falls.  }
+  sector { Deep Water }
+  desc {
+"   A beautiful sight to behold, bellowing down from high above, is a long waterfall,
+with water falling like crystals in the sunlight, creating a perfect rainbow over
+the shimmering crystal water. A fine mist sprays from the falls, hovering over
+the pool like clouds from heaven. The constant 'Hssssh' of the waterfall provides
+a peaceful feeling of ease, as birds chirp their sweet melodic songs of happiness,
+such that one cannot help but to be in awe in this magical place. Beneath the soft 
+flowing falls is a dark cavern, almost hidden from an untrained eye.
+  }
+  exits {
+	to { e, 89 }
+	to { s, 84 }
+	to { w, 88 }
+	to { 10, 90 }
+	  info { hidden }
+	  keywords { cavern }
+  }
+}
+
+88
+{
+  name { A Stoney Shore.  }
+  sector { Shallow Water }
+  desc {
+"   Slippery grey stones line the shore of the pool to your east. A thin
+layer of slime has coated the fist sized rocks, creating a minor nuisance
+for any weary travellers. A loud rumbling noise of water hitting water
+can be heard echoing across the stoney shore.  A thick, fog-like haze 
+hangs omniously in the air, creating a blanket of moisture and impeding
+the view to the east.
+  }
+  exits {
+	to { e, 87 }
+  }
+}
+
+89
+{
+  name { A Muddy Shore.  }
+  sector { Shallow Water }
+  desc {
+"   Various tracks are imprinted in the mud on this gravel shore. Several
+small pools of murky water have filled the prints, leaving dozens of tiny
+puddles. Droplets spray from the waterfall to the west, causing several
+puddles to overflow, causing them to send water trickling back to the
+larger pool to the west.
+  }
+  exits {
+	to { w, 87 }
+  }
+}
+
+90
+{
+  name { A Hidden Cavern.  }
+  sector { Inside }
+  desc {
+"   This dark cavern has been hidden behind the waterfall for centuries,
+and looks to have been left untouched. Droplets splash inside the first
+few meters of the cave, creating small pools of mud. Deeper into the
+cavern, the ground is crunchy and dry, undisturbed by intruders. The
+booming sound of the waterfall is multiplied inside the enclosure, echoing
+to an extreme level, covering any other sounds that may be present.
+  }
+  flags { indoors }
+  exits {
+	to { 10, 87 }
+	  keywords { waterfall }
+  }
+}
+
+397
+{
+  name { The Great Eastern Desert  }
+  sector { Desert }
+  desc {
+"    A vast desert stretches for miles, the sands constantly shifting around
+you. A pyramid lies to the north-east and a snow-capped mountain range to
+the west.  You notice that a great road begins far to the south as the
+desert abruptly ends.
+  }
+  exits {
+	to { n, EasternDesert:29 }
+	to { s, 398 }
+  }
+}
+
+398
+{
+  name { The End of the Eastern Desert  }
+  sector { Desert }
+  desc {
+"  You are amazed at such an abrupt ending to the vast desert which lies
+to the north.  A great road starts up to the south of here and streches
+for miles.  The sand causes you to slip every once in awhile.  You should
+proceed with caution.
+  }
+  exits {
+	to { n, 397 }
+	to { s, 399 }
+  }
+}
+
+399
+{
+  name { An Ancient Path  }
+  sector { Forest }
+  desc {
+"  This path stems right out of the desert which lies to the north.  The
+path must of been made to handle great amounts of traffic as you can tell
+from its size.  It is frequented often by traveller from all the tracks
+in the loose sand.  It leads to the south where you can see some boulders
+strewn about.
+  }
+  exits {
+	to { n, 398 }
+	to { s, SkexiePalace:0 }
+  }
+}

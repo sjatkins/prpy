@@ -1,0 +1,221 @@
+// ------- !!! WARNING !!! ---------
+// DO NOT TOUCH THIS ROOMFILE EVER!!
+
+#offset ForBuntaProgram
+
+801
+{
+  name { chyTkHsvuugJYcpvhnUYYCjuh  }
+  desc {
+  nCesytAFnVFohdHJyaJXyYzokiLbtUdsmqMoKKypUpheWedaVqJoTdFXfqwUzpvFirfMLiTrpXrTXTqiuFjrYTzTWmpAydvvjqdYPexMeYgKrcqYuiRerxUbbhiNsemavgionNAxRkcoHEpXuRyitRLoJUPdgJWnoCtFUiAMrEratfvXpmoKgTTEFTPfXebpJRzxAAuyxwUMTJcajMKHUVmexjNUWkpXwPAcLCiwYmpuuMhFRFddwmL
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { aXbwCTewTxHUeWy }
+  to { 10, 138 }
+    keywords { VKAkufmAKjUboib }
+  to { 10, 138 }
+    keywords { KWedaCpvNyoHnXL }
+  to { 10, 138 }
+    keywords { YwnAeziFJjgVAih }
+  to { 10, 138 }
+    keywords { ziAXWqpNfYUckmV }
+  to { 10, 138 }
+    keywords { rETLqKUHjkpWEuV }
+  to { 10, 138 }
+    keywords { CbsVyXkEipWWaxq }
+  to { 10, 138 }
+    keywords { FkismRfAKKxqXKC }
+  }
+}
+
+138
+{
+  name { cRaAWgmcrtvVEsJrVXxtACKhz }
+  desc {
+  NbAggbbENdYgiemeNoufeiEKstpyRmHvrUewoXwMFYqPznRdKkxotzLpcnANdFbxPfknxetayWFuEhdznWFXAmtKFFEVrYHWwpbURwqaPNfcvKEwbdsgofyTzNuCxjgUcayURALpKEeqVozpPxvfXuacCsLtsjidihHtsWXVRsqXENJtdqAjhftmtnWkNKuzyvjtidnLUPyUybzexusLcyxXjLJurMgfVunrkNEXckHkCALqLatgxeE
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { XhqHwFcwHLaxUkM }
+  to { 10, 138 }
+    keywords { XaqFcfrTAwHwgdp }
+  to { 10, 138 }
+    keywords { zHXwjrEjFjCnHhq }
+  to { 10, 138 }
+    keywords { fhKcufoJvUPcVpo }
+  to { 10, 138 }
+    keywords { tTNbzaFARTjFCbs }
+  to { 10, 138 }
+    keywords { dgUTTjRwhbRNMcb }
+  to { 10, 138 }
+    keywords { KryutRWLvPLtzpc }
+  to { 10, 138 }
+    keywords { aWxhXUHpfNLktVh }
+  }
+}
+
+493
+{
+  name { ekCdyEtFePdLuoPpAjmwmodVY  }
+  desc {
+  oJjCgLxUopKaPiJrchsWYejaNEjeTTevmeWFHNywWyNPjKHbvEfqXKiovtpNyejXcXvtvAuKbNpysgecALWnsjYpjJmKpPpWCFsKNmUUegVAALtsanauagMknCFHuVhoecnTLYeepHTabTdLszufJRVRRypzvvNTKbsyinvtWoWdtkbLwThTkjKzaJbFUURvYTjUMeTVjfFxYbHYdtwTxLokhrinAjbXqWThbtWJnHaLgMKbynyHWfm
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { bCHHJXYAkoVajwu }
+  to { 10, 138 }
+    keywords { PhiAMLdKUAVHLcb }
+  to { 10, 138 }
+    keywords { EoJheHsctwxxrtY }
+  to { 10, 138 }
+    keywords { FRKyqjKAonTEgzs }
+  to { 10, 138 }
+    keywords { vMXWdgPkNJoCJoW }
+  to { 10, 138 }
+    keywords { hXmuMftjREAwTvF }
+  to { 10, 138 }
+    keywords { EJUVVYhoYdqnXsW }
+  to { 10, 138 }
+    keywords { shvLXCXqsXxTqnv }
+  }
+}
+
+32
+{
+  name { peRxFLjyybaRtUUjnEeHtwPCk  }
+  desc {
+  xpuzMdaFRTHnbjnyrxwbcLVsHFChHssveRMzEWUfKsYpucChfNpwWNYWjXyJgmLPwHvmdcRXxkmcUgdLtywtLJYCdpRjncbTJesjoeVCyxtvuwoeowiwbdCuNnmPhYfpwRfaYapCbkPorRYANwXNatcgUHjbAxttPajAHHJHqNybymVsAgWeMjyCqRHRxKwkHttVbNWbNsMfXYEmUmzgXEWoLgspiMNufPCXiXyhxNpYixdMHTvcJUX
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { REkqHdyYPguMRRd }
+  to { 10, 138 }
+    keywords { FEwqMeUKoKupxju }
+  to { 10, 138 }
+    keywords { vhXkUmpATYcyKht }
+  to { 10, 138 }
+    keywords { rbFtCMyWYcEUUdo }
+  to { 10, 138 }
+    keywords { qMYsorgoxrkfrKp }
+  to { 10, 138 }
+    keywords { LYUyEivUJvjHakk }
+  to { 10, 138 }
+    keywords { xoihmUwzzLbhdic }
+  to { 10, 138 }
+    keywords { natjHpqEUVKPqic }
+  }
+}
+
+902
+{
+  name { LrHhXPRkJzhPkyndkrbKychVN  }
+  desc {
+  KyFWXAqMXicHowzzFTeJxHUARRRezaEoUTxFLzMeqPbasNHNxoRdCYWsyWJRdukrrmxeLwyHJJuMaHCHiXHcLYaNzvaxpdauJbJjfnmLeswmvXgudsuyFigJEypeoYzJAbeusLvEsUvjogWvXerKUzbwLYXArfgrLFwEXbvKFYExofxJYwvynUUKgCssdPyXoHxcfRmauoMhtyypzjnnpiRXCveaAqFwnRsbURvJaEyJEhoLHckEqta
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { VRJWocYeUPUWMWP }
+  to { 10, 138 }
+    keywords { EXMPrcsanNemdWk }
+  to { 10, 138 }
+    keywords { LTwhJeAAVXgawNu }
+  to { 10, 138 }
+    keywords { JdtEzFHEbosXFjE }
+  to { 10, 138 }
+    keywords { dtgELcqNyMbfXJp }
+  to { 10, 138 }
+    keywords { dvEodReLEVmRtuC }
+  to { 10, 138 }
+    keywords { VijkbukYTfWTCYm }
+  to { 10, 138 }
+    keywords { tvrcdcyJWvpzdrn }
+  }
+}
+
+661
+{
+  name { MMrJkhTnPstNXvbUxtxaYXogW  }
+  desc {
+  JJrPjmwHdAHYMkPyWgdywdeJcNsFhfdsRNezwivHwacFztuwjnwnssgfVxiXcxjvsntEmttRUqcJoUrRrFJeRkAgAVcNveaKVgTmzmUUjtbymEibxFErAHEUTjLsmWxxFNJeJqisnLbqwpbjrsCbmxzwPtpqqRjKdrpsUiTJHAMibFvJgoCLWPhiMxfmxuVkkkRECEkCTmbpfMuYVfWVWKuELvnjNoCNAMcnCpPJotractwAwEwryxg
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { ApEcpLfsJmbEHvn }
+  to { 10, 138 }
+    keywords { AMUzYULqsNtAaJr }
+  to { 10, 138 }
+    keywords { gpXwzsAzXgWEkKf }
+  to { 10, 138 }
+    keywords { PPuzxfLyEqpRMgo }
+  to { 10, 138 }
+    keywords { hfcpwhtFvAXhfCL }
+  to { 10, 138 }
+    keywords { hfPoqteEbftczRP }
+  to { 10, 138 }
+    keywords { iLNKfsbFemHRoTF }
+  to { 10, 138 }
+    keywords { icmUwvbpCeAqLkn }
+  }
+}
+
+794
+{
+  name { yYWnxPEuWjTbjMHMsMnmYRmhi  }
+  desc {
+  HUUHaEVmfHshYjFUMqYWuqpzhVoyMbCbWXovmjiRdioRcquCoAXNWTmrwiukgqPWbPuJkAAYxvYPCgpeEcHEdJksfkxiUVYhFyHVhnmypeyvVhwfKEnRVqwNqchMaEcWcPbvziFUtzknhFAviLqeEXcJkfusAtMtPorYwXccsMtyULWUnFxgpxUvHovkcKJgJVXzqbFVAMTfcdbUwfRdvqFkWPKrwrJxpHcogzxFmsVsbzdnqawgzzF
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { EWqmayydhjjHXRT }
+  to { 10, 138 }
+    keywords { ijhnuuACRaCHvPh }
+  to { 10, 138 }
+    keywords { HyxfFFfHzprKWrM }
+  to { 10, 138 }
+    keywords { CAFrHAWXwgPznYN }
+  to { 10, 138 }
+    keywords { WiRYyiEiPrHWdCU }
+  to { 10, 138 }
+    keywords { jjucMYqYdUHwXcN }
+  to { 10, 138 }
+    keywords { NrgNuwRFgkMRYVy }
+  to { 10, 138 }
+    keywords { JLtNpzqhCjEgERK }
+  }
+}
+
+788
+{
+  name { KMuHerfdsdsJjhumsFVAdrmrj  }
+  desc {
+  vmYqaajHFuwPUKJojonRtfVERdTtfqKTCiXxPrcWFdiWbdPAaJooVCyaoitvdcPJJiFMKWqxNqExYggkTAevPyaKfusxdmRxJrmmsspVXmNqmpkuorthrNVUeriVpdnhzMXmgjCMwRiUEwELbHXcbEjPLbVKgafaKvWcfzmJWJHJKJJgPERxhTCcVJeNkgAxxhKinCKmVXKVJiXrRnyWyqokotbJPbmWaosFwgeAbKMXdFFhbYsHxKf
+  }
+  flags { no_goto }
+  exits {
+  to { 10, 138 }
+    keywords { YAWMNzYhmPHpUFw }
+  to { 10, 138 }
+    keywords { pcmHpiRPFytVWmm }
+  to { 10, 138 }
+    keywords { pFpwPFznoecHRHj }
+  to { 10, 138 }
+    keywords { UdapzrxPrwLYmwW }
+  to { 10, 138 }
+    keywords { vtfpjLnsNrncnRL }
+  to { 10, 138 }
+    keywords { PwcshYuqCVgcxXe }
+  to { 10, 138 }
+    keywords { EPtvHMNrzUewPdb }
+  to { 10, 138 }
+    keywords { NtAhsktEjEwEEzv }
+  }
+}
+

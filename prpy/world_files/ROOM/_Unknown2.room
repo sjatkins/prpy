@@ -1,0 +1,1405 @@
+#offset _Unknown2
+
+0
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   Plush and flourishing fields of green grass and colorful flowers grow out
+to the west from here.  Thick and long lived trees reach towards the sky
+all throughout the rolling fields of green.  The fields go out as far as the
+eyes can see.  A dusty path around Midgard can be seen directly to the east.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out to
+the east and west.  The grass is plush and flourishing, a beautiful sight
+to behold.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields for green grass.  The fields go out as far as the eyes
+can see.  The towering walls of Midgard can see seen the distance to the
+east.
+  }
+  sector { Field }
+  exits {
+	to { e, 0 }
+	to { w, 2 }
+  }
+}
+
+2
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out in
+every direction.  The grass is plush and flourishing, a beautiful sight
+to behold indeed.  Small hills rise out from the fields to the north and
+south.  It looks there are paths all along the grassy fields that should be
+easy to follow.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields of green grass.  The fields go out as far as the eyes can
+see.
+  }
+  sector { Field }
+  exits {
+	to { n, 22 }
+	to { e, 1 }
+	to { s, 23 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out in
+every direction.  The grass is plush and flourishing, a beautiful sight
+to behold indeed.  Small hills rise out from the fields to the north and
+south.  It looks there are paths all along the grassy fields that should be
+easy to follow.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields of green grass.  The fields go out as far as the eyes can
+see.
+  }
+  sector { Field }
+  exits {
+	to { n, 25 }
+	to { e, 2 }
+	to { s, 24 }
+	to { w, 4 }
+  }
+}
+
+4
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out to
+the east and west.  The grass is plush and flourishing, a beautiful sight
+to behold.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields for green grass.  The fields go out as far as the eyes
+can see.
+  }
+  sector { Field }
+  exits {
+	to { e, 3 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out to
+the east and west.  The grass is plush and flourishing, a beautiful sight
+to behold.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields for green grass.  The fields go out as far as the eyes
+can see.
+  }
+  sector { Field }
+  exits {
+	to { e, 4 }
+	to { w, 6 }
+  }
+}
+
+6
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out to
+the east and west.  The grass is plush and flourishing, a beautiful sight
+to behold.  A small hill rises from the plains a little further to the
+northeast.  Thick and mighty trees reach towards the sky all throughout
+the rolling fields of green grass.  The largest tree growing in the fields
+lies at the end of the path in the distance to the west.  The fields go
+out as far as the eyes can see.
+  }
+  sector { Field }
+  exits {
+	to { e, 5 }
+	to { w, 7 }
+  }
+}
+
+7
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out in
+every direction.  The grass is plush and flourishing, a beautiful sight
+to behold.  A small hill rises out from the fields to the northwest.  It
+looks like there is a path along the grassy hill that should be easy to
+follow.  Thick and mighty trees reach towards the sky all throughout the
+rolling fields of green grass.  The fields go out as far as the eyes can
+see.  The largest tree growing in the fields lies at the end of the path
+in the distance to the west.
+  }
+  sector { Field }
+  exits {
+	to { e, 6 }
+	to { w, 8 }
+	to { northwest, 63 }
+  }
+}
+
+8
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The fields of green grass and colorful flowers continues to grow out to
+the east and west.  The grass is plush and flourishing, a beautiful sight
+to behold.  A small hill rises from the plains a little further to the
+north.  There seems to be paths up the grassy hill to the northeast and
+to the northwest.  Thick and mighty trees each towards the sky all throughout
+the rolling fields of green grass.  The largest tree growing in the fields
+lies at the end of the path a short distance to the west.  The tree's shade
+is already covering you from the sunlight above.  That thing is huge!  The
+fields go out in every direction as far as the eyes can see.
+  }
+  sector { Field }
+  exits {
+	to { e, 7 }
+	to { w, 9 }
+  }
+}
+
+9
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   The biggest tree you have even seen grows out from the fields a short
+distance to the west.  The trunk appears to be at least the width of five
+normal people, arms stretched out, touching fingertip to fingertip.  What
+an enormous tree!  The fields of green grass and colorful flowers continues
+to grow out to the east and west.  The grass is plush and flourishing, a 
+beautiful sight to behold.  A small hill rises out from the fields to the
+northeast.  It looks like there is a path along the grassy hill that should
+be easy to follow.
+  }
+  sector { Field }
+  exits {
+	to { e, 8 }
+	to { w, 10 }
+	to { northeast, 62 }
+  }
+}
+
+10
+{
+  name { A Path Through the Rolling Fields  }
+  desc {
+"   Towering high above you, the tree growing from the fields to the west
+reaches up towards the sky and seems to touch the heavens themselves.
+The tree is gigantic in both length and width.  If you were to hug the
+tree, you would probably not cover even one tenth of its circumference.
+There appears to be a hole dug into the bottom of the tree at the end
+of the path.  It looks like it is big enough to crawl into.  The fields
+of green grass and colorful flowers continues to the east.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { e, 9 }
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing inside the gigantic
+tree.  You can not walk around without stepping on the top of a mushroom
+cap.  The caps vary in sizes from about the size of your hand to the size
+of a large platform.  It should be easy to leap from the large mushroom
+cap to another large mushroom cap and not crush the smaller mushrooms.
+The inside of the tree continues to the west, south and north.  The only
+way out appears to be back into the grassy green fields to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 14 }
+	to { e, 10 }
+	to { s, 20 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues in every direction.  A light can be seen shining in
+from outside the tree to the east.
+  }
+  flags { indoors }
+  exits {
+	to { n, 15 }
+	to { e, 11 }
+	to { s, 16 }
+	to { w, 13 }
+  }
+}
+
+13
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  Mushroom caps
+lead up like steps to an enormous mushroom cap to the southwest.  What
+could be up there?  The inside of the tree continues to the south and
+east.  A sparkle of light can be seen beaming in from outside the tree
+in the distance to the east.
+  }
+  flags { indoors }
+  exits {
+	to { e, 12 }
+	to { s, 17 }
+	to { southwest, 18 }
+  }
+}
+
+14
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues to the west and south.  A light can be seen shining in
+from outside the tree to the south.
+  }
+  flags { indoors }
+  exits {
+	to { s, 11 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues to the south and east.  A light can be seen shining in
+from outside the tree to the southeast.
+  }
+  flags { indoors }
+  exits {
+	to { e, 14 }
+	to { s, 12 }
+  }
+}
+
+16
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues in every direction.  A light can be seen shining in
+from outside the tree to the northeast.
+  }
+  flags { indoors }
+  exits {
+	to { n, 12 }
+	to { e, 20 }
+	to { s, 19 }
+	to { w, 17 }
+  }
+}
+
+17
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  Mushroom caps
+lead up like steps to an enormous mushroom cap to the northwest.  What
+could be up there?  The inside of the tree continues to the north and
+east.  A sparkle of light can be seen beaming in from outside the tree
+in the distance to the northeast.
+  }
+  flags { indoors }
+  exits {
+	to { n, 13 }
+	to { e, 16 }
+	to { northwest, 18 }
+  }
+}
+
+18
+{
+  name { Atop an Enormous Mushroom Cap  }
+  desc {
+"   The mushroom cap is easily the length and width of a small house.  You
+could probably fit at least fifty normal size people up here.  There is a 
+throne in the exact middle of the enormous mushroom cap.  The throne is 
+made of grass, stone and mud.  It was formed with excellent craftsmanship
+and almost glimmers with an emerald shine from the light drifting in from
+outside the tree.  The view from here looks out over the mushroom forest 
+that has grown inside the gigantic tree.  The only way down from here
+appears to be stepping along the many mushroom caps leading to the main
+chamber.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { northeast, 13 }
+	to { southeast, 17 }
+  }
+}
+
+19
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues to the north and east.  A light can be seen shining in
+from outside the tree in the distance to the northeast.
+  }
+  flags { indoors }
+  exits {
+	to { n, 16 }
+	to { e, 21 }
+  }
+}
+
+20
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues to the north, west and south.  A light can be seen 
+shining in from outside the tree to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 11 }
+	to { s, 21 }
+	to { w, 16 }
+  }
+}
+
+21
+{
+  name { Inside a Hollowed Out Tree  }
+  desc {
+"   Hundreds if not thousands of mushrooms are growing along the floor and
+walls of the cavernous insides of the gigantic tree.  You can not walk
+around without stepping on the top of a mushroom cap.  The caps vary in
+sizes from about the size of your hand to the size of a large platform.
+It should be easy to leap from a large mushroom cap to another large
+mushroom cap and not crush any of the smaller mushrooms.  The inside of
+the tree continues to the north and west.  A light can be seen shining in
+from outside the tree in the distance to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 20 }
+	to { w, 19 }
+  }
+}
+
+22
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the west and south.  There is a lightly worn path going up and down the
+hill.  The fields of green grass and colorful flowers continues to grow
+out in every direction.  The grass is plush and flourishing, a beautiful
+sight to behold.  Thick and healthy looking trees reach towards the sky
+all throughout the rolling fields of green grass.  The tree tops sway
+their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { s, 2 }
+	to { w, 25 }
+  }
+}
+
+23
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the north and west.  There is a lightly worn path going up and down the
+hill.  The fields of green grass and colorful flowers continues to grow
+out in every direction.  The grass is plush and flourishing, a beautiful
+sight to behold.  Thick and healthy looking trees reach towards the sky
+all throughout the rolling fields of green grass.  The tree tops sway
+their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { n, 2 }
+	to { w, 24 }
+  }
+}
+
+24
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the north, east and southwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { n, 3 }
+	to { e, 23 }
+	to { southwest, 41 }
+  }
+}
+
+25
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the north, east and south.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { n, 26 }
+	to { e, 22 }
+	to { s, 3 }
+  }
+}
+
+26
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the south and northwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { s, 25 }
+	to { northwest, 27 }
+  }
+}
+
+27
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the west and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the northwest, southwest and back up the small hillside
+to the southeast.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 26 }
+	to { southwest, 29 }
+	to { northwest, 28 }
+  }
+}
+
+28
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the west and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the north and southeast.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { n, 30 }
+	to { southeast, 27 }
+  }
+}
+
+29
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the northwest and reaches
+up towards the sky.  There are mushrooms growing in the bark of the tree and
+all throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the west and northeast.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { w, 34 }
+	to { northeast, 27 }
+  }
+}
+
+30
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the southwest and reaches
+up towards the sky.  There are mushrooms growing in the bark of the tree and
+all throughout the grass in the surrounding the area.  The mushrooms cover
+the grass in this area completely.  It is difficult to make a step without
+crushing one or two mushroom caps.  A lightly worn path goes around the tree
+to the west and south.
+  }
+  sector { Field }
+  exits {
+	to { n, 31 }
+	to { s, 28 }
+	to { w, 32 }
+  }
+}
+
+31
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the southwest.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { s, 30 }
+	to { w, 33 }
+  }
+}
+
+32
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the south and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding the area.  The mushrooms cover the
+grass in this area completely.  It is difficult to make a step without
+crushing one or two mushroom caps.  A lightly worn path goes around the tree
+to the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 33 }
+	to { e, 30 }
+  }
+}
+
+33
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the south.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { e, 31 }
+	to { s, 32 }
+  }
+}
+
+34
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the north and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and
+all throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the east and west.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { e, 29 }
+	to { w, 35 }
+  }
+}
+
+35
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the north and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the east and northwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { e, 34 }
+	to { northwest, 36 }
+  }
+}
+
+36
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the east and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A large patch of mushrooms
+lies directly to the west.  A lightly worn path goes around the tree to the
+southeast.  The fields of green grass and colorful flowers continues to
+grow around the mushrooms patch in every direction.  The grass is plush and
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { w, 37 }
+	to { southeast, 35 }
+  }
+}
+
+37
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree to the east.  The mushroom patch
+continues to the west and north.
+  }
+  sector { Field }
+  exits {
+	to { n, 39 }
+	to { e, 36 }
+	to { w, 38 }
+  }
+}
+
+38
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the northeast.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { n, 40 }
+	to { e, 37 }
+  }
+}
+
+39
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree to the southeast.  The mushroom
+patch continues to the west and south.
+  }
+  sector { Field }
+  exits {
+	to { s, 37 }
+	to { w, 40 }
+  }
+}
+
+40
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the east.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { e, 39 }
+	to { s, 38 }
+  }
+}
+
+41
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the northeast and southwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { northeast, 24 }
+	to { southwest, 42 }
+  }
+}
+
+42
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the south and northeast.  There is a lightly worn path going up and down
+the hill.  The fields of green grass and colorful flowers continues to
+grow out in every direction.  The grass is plush and flourishing, a beautiful
+sight to behold.  A thick and healthy looking tree grows out from the grassy
+fields in the distance to the southwest.  The tree's top sways its branches
+ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { s, 43 }
+	to { northeast, 41 }
+  }
+}
+
+43
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the south and northeast.  There is a lightly worn path going up and down
+the hill.  The fields of green grass and colorful flowers continues to
+grow out in every direction.  The grass is plush and flourishing, a beautiful
+sight to behold.  A thick and healthy looking tree grows out from the grassy
+fields a little ways to the southwest.  The tree's top sways its branches
+ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  flags { no_mob }
+  exits {
+	to { n, 42 }
+	to { southwest, 44 }
+  }
+}
+
+44
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the west and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the northwest, southwest and back up the small hillside
+to the northeast.
+  }
+  sector { Field }
+  exits {
+	to { northeast, 43 }
+	to { southwest, 46 }
+	to { northwest, 45 }
+  }
+}
+
+45
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the west and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the southeast and northwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 44 }
+	to { northwest, 47 }
+  }
+}
+
+46
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the west and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the northeast and southwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { northeast, 44 }
+	to { southwest, 55 }
+  }
+}
+
+47
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the southwest and
+reaches up towards the sky.  There are mushrooms growing in the bark of
+the tree and all across the field to the north.  A lightly worn path goes
+around the tree to the west and southeast.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { n, 48 }
+	to { w, 49 }
+	to { southeast, 45 }
+  }
+}
+
+48
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the southwest.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { s, 47 }
+	to { w, 50 }
+  }
+}
+
+49
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the southeast and
+reaches up towards the sky.  There are mushrooms growing in the bark of
+the tree and all across the field to the north.  A lightly worn path goes
+around the tree to the east and southwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { n, 50 }
+	to { e, 47 }
+	to { southwest, 51 }
+  }
+}
+
+50
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the south.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { e, 48 }
+	to { s, 49 }
+  }
+}
+
+51
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the east and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the northeast and southwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { northeast, 49 }
+	to { southwest, 52 }
+  }
+}
+
+52
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the east and reaches
+reaches up towards the sky.  There are mushrooms growing in the bark of
+the tree and all across the field to the west.  A lightly worn path goes
+around the tree to the northeast and southeast.  The fields of green grass
+and colorful flowers continues to grow out in every direction.  The grass
+is plush and flourishing, a beautiful sight to behold.  All you want to do
+is lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { w, 58 }
+	to { northeast, 51 }
+	to { southeast, 53 }
+  }
+}
+
+53
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the east and reaches up
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout the grass in the surrounding area.  A lightly worn path goes
+around the tree to the southeast and northwest.  The fields of green grass and
+colorful flowers continues to grow out in every direction.  The grass is
+plush and flourishing, a beautiful sight to behold.  All you want to do is
+lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 54 }
+	to { northwest, 52 }
+  }
+}
+
+54
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the north and reaches
+reaches up towards the sky.  There are mushrooms growing in the bark of
+the tree and all across the field to the south.  A lightly worn path goes
+around the tree to the east and northwest.  The fields of green grass
+and colorful flowers continues to grow out in every direction.  The grass
+is plush and flourishing, a beautiful sight to behold.  All you want to do
+is lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { e, 55 }
+	to { s, 56 }
+	to { northwest, 53 }
+  }
+}
+
+55
+{
+  name { Around a Gigantic Tree Trunk  }
+  desc {
+"   A large tree grows out from the grassy fields to the north and reaches
+reaches up towards the sky.  There are mushrooms growing in the bark of
+the tree and all across the field to the south.  A lightly worn path goes
+around the tree to the west and northeast.  The fields of green grass
+and colorful flowers continues to grow out in every direction.  The grass
+is plush and flourishing, a beautiful sight to behold.  All you want to do
+is lay down in the comfortable looking fields and take a nap.
+  }
+  sector { Field }
+  exits {
+	to { s, 57 }
+	to { w, 54 }
+	to { northeast, 46 }
+  }
+}
+
+56
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the north.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { n, 54 }
+	to { e, 57 }
+  }
+}
+
+57
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the north.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { n, 55 }
+	to { w, 56 }
+  }
+}
+
+58
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree to the east.  The mushroom patch
+continues to the west and south.
+  }
+  sector { Field }
+  exits {
+	to { e, 52 }
+	to { s, 60 }
+	to { w, 59 }
+  }
+}
+
+59
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the east.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { e, 58 }
+	to { s, 61 }
+  }
+}
+
+60
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree to the northeast.  The mushroom
+patch continues to the north and west.
+  }
+  sector { Field }
+  exits {
+	to { n, 58 }
+	to { w, 61 }
+  }
+}
+
+61
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the northeast.
+The fields of green grass and colorful flowers continues to grow out in
+every direction beyond the mushroom patch.  The grass is plush and 
+flourishing, a beautiful sight to behold.
+  }
+  sector { Field }
+  exits {
+	to { n, 59 }
+	to { e, 60 }
+  }
+}
+
+62
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the northeast and southwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { northeast, 64 }
+	to { southwest, 9 }
+  }
+}
+
+63
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the southeast and northwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 7 }
+	to { northwest, 64 }
+  }
+}
+
+64
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the southeast, southwest and northwest.  There are lightly worn paths going
+up and down the hill.  The fields of green grass and colorful flowers
+continues to grow out in every direction.  The grass is plush and flourishing,
+a beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 63 }
+	to { southwest, 62 }
+	to { northwest, 65 }
+  }
+}
+
+65
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the southeast and northwest.  There is a lightly worn path going up and
+down the hill.  The fields of green grass and colorful flowers continues
+to grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sight to behold.  Thick and healthy looking trees reach towards
+the sky all throughout the rolling fields of green grass.  The tree tops
+sway their branches ever so slightly as the wind blows across the field.
+  }
+  sector { Field }
+  exits {
+	to { southeast, 64 }
+	to { northwest, 66 }
+  }
+}
+
+66
+{
+  name { A Path Along a Small Hillside  }
+  desc {
+"   The small hillside rises out from the fields of grass and rolls towards
+the west and southeast.  There is a lightly worn path going up and down
+the hall.  The fields of green grass and colorful flowers continues to
+grow out in every direction.  The grass is plush and flourishing, a 
+beautiful sigh to behold.  A large patch of mushrooms lies directly to
+the west.  They seem to be growing out from the thick and healthy looking
+tree in the distance to the west.
+  }
+  sector { Field }
+  exits {
+	to { w, 67 }
+	to { southeast, 65 }
+  }
+}
+
+67
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the west.
+A small hillside rises out from the grassy plains a little further to
+the east.
+  }
+  sector { Field }
+  exits {
+	to { n, 68 }
+	to { e, 66 }
+	to { w, 69 }
+  }
+}
+
+68
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"   The patch of mushrooms completely covers the grass in this area of the
+grassy fields.  The mushrooms are so plentiful that it is difficult to
+make a step without crushing one or two mushroom caps.  The mushrooms
+seem to be growing out from a large tree in the distance to the west.
+A small hillside rises out from the grassy plains a little further to
+the southeast.
+  }
+  sector { Field }
+  exits {
+	to { s, 67 }
+	to { w, 70 }
+  }
+}
+
+69
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"    A large tree grows out from the grassy fields to the west and reaches up 
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout this patch of grass.  The mushrooms cover the grass in this area
+completely.  It is difficult to make a step without crushing one or two mushroom
+caps.  A small hillside rises out from the grassy plains in the distance to the
+east.
+  }
+  sector { Field }
+  exits {
+	to { n, 70 }
+	to { e, 67 }
+  }
+}
+
+70
+{
+  name { A Large Patch of Mushrooms  }
+  desc {
+"    A large tree grows out from the grassy fields to the west and reaches up 
+towards the sky.  There are mushrooms growing in the bark of the tree and all
+throughout this patch of grass.  The mushrooms cover the grass in this area
+completely.  It is difficult to make a step without crushing one or two mushroom
+caps.  A small hillside rises out from the grassy plains in the distance to the
+southeast.
+  }
+  sector { Field }
+  exits {
+	to { e, 68 }
+	to { s, 69 }
+  }
+}
+
+71
+{
+  name { 252171  }
+  desc { Empty   }
+}
+
+72
+{
+  name { 252172  }
+  desc { Empty   }
+}
+
+73
+{
+  name { 252173  }
+  desc { Empty   }
+}
+
+74
+{
+  name { 252174  }
+  desc { Empty   }
+}
+
+75
+{
+  name { 252175  }
+  desc { Empty   }
+}

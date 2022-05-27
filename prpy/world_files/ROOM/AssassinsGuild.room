@@ -1,0 +1,87 @@
+#offset AssassinsGuild
+
+0
+{
+  name { A dark crack in the wall  }
+  desc {
+All about you is darkness, you here only the sound water dripping from the 
+ceiling above. You have dark forboding, like your being watched from somewhere
+but regardless of where you look you can see anybody about. This chamber is
+small and disgustingly dirty, now sign of life can be seen anywhere.
+  }
+  exits {
+	to { 10, 1 }
+	  key { 5030 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { crack }
+  }
+}
+
+1
+{
+  name { The Assassins Abode  }
+  desc { If you're trapped here, contact Fionn.   }
+  sector { City }
+  flags { no_sum, no_magic, rent_room }
+  exits {
+	to { 11, 2 }
+	  keywords { wet }
+  }
+}
+
+2
+{
+  name { Guild Stoage chamber  }
+  desc {
+All about this room a various chests that the assassins use to store guild 
+equip and necessary supplies, to complete and accomplish thier dark and deadly
+work.
+  }
+  flags { no_sum, no_magic, private }
+  exits {
+	to { e, 1 }
+	to { 10, 1 }
+	  keywords { wet }
+  }
+}
+
+3
+{
+  name { Assassin training grounds  }
+  desc {
+This is where the deadly walkers on the night, train and learn the various
+and deadly skills that they require to accomplish thier dark work. All about
+you can se numerous assassins being trained in various skills by the guild
+instructor.
+  }
+  flags { no_sum, no_magic, private }
+  exits {
+	to { w, 1 }
+  }
+}
+
+4
+{
+  name { The Portal chamber  }
+  desc {
+All about your ar numerous glowing portals that were created by powerful mages
+at great cost, this chamber allows you entrance to many places at a mere step
+to allow easy access to your prey.
+  }
+  flags { no_sum, private }
+  exits {
+	to { s, 1 }
+	to { 10, SkexiePalace:1 }
+	  keywords { skexie }
+	to { 11, Wasteland:1 }
+	  keywords { greece }
+	to { 12, Arachnos:1 }
+	  keywords { arachnos }
+	to { 13, TowerSorcery:1 }
+	  keywords { tower }
+	to { 14, Bandits_Run:1 }
+	  keywords { bandit }
+	to { 15, Southern_Path:0 }
+	  keywords { crossroads }
+  }
+}

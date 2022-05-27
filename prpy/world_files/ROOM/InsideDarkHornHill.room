@@ -1,0 +1,1849 @@
+#offset InsideDarkHornHill
+
+0
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   The stone-lined passage merges into natural caves here.  Lichen clings
+to the cave walls in long strands and the air is humid.  The natural
+floor here is covered in large reptilian tracks that pass northwest and
+southwest.  A nook has been carved into the wall of the cave which is
+just big enough to hold a spear.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { southwest, 1 }
+	to { northwest, DarkHornHill:197 }
+  }
+}
+
+1
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+northeast and southeast.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { northeast, 0 }
+	to { southeast, 2 }
+  }
+}
+
+2
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+northwest and southeast.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { southeast, 3 }
+	to { northwest, 1 }
+  }
+}
+
+3
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+northwest and east.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 4 }
+	to { northwest, 2 }
+  }
+}
+
+4
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   The natural cave passage continues northeast here, but a new passage
+has been cut into the rock to the southeast.  The humid air is cooled at
+this juncture by a faint breeze coming from the southeast, almost as if
+there is a massive cavern down that way with running water.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 3 }
+	to { northeast, 5 }
+	to { southeast, 21 }
+  }
+}
+
+5
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+north, east and southwest.  
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 6 }
+	to { e, 14 }
+	to { southwest, 4 }
+  }
+}
+
+6
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+south and northwest. To the northeast is a smaller cave.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 5 }
+	to { northeast, 15 }
+	to { northwest, 7 }
+  }
+}
+
+7
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+southeast and northeast. To the east is a smaller cave.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 16 }
+	to { northeast, 8 }
+	to { southeast, 6 }
+  }
+}
+
+8
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+southwest and east. To the northwest is a large cave--you can see light
+from a fire casting shadows on the walls here and some loud hissing and
+chittering noises that could possibly be voices.
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { e, 9 }
+	to { southwest, 7 }
+	to { northwest, 17 }
+  }
+}
+
+9
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+east and west.  
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 10 }
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+west and southeast. To the south is a smaller cave.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 18 }
+	to { w, 9 }
+	to { southeast, 11 }
+  }
+}
+
+11
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+south and northwest.  
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 12 }
+	to { northwest, 10 }
+  }
+}
+
+12
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+north and southwest. To the west is a smaller cave.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 11 }
+	to { w, 19 }
+	to { southwest, 13 }
+  }
+}
+
+13
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+west and northeast.  
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 14 }
+	to { northeast, 12 }
+  }
+}
+
+14
+{
+  name { Lizardman Caves under Dark Horn Hill  }
+  desc {
+"   You are standing in a natural passage in a cave system under Dark Horn
+Hill.  Lichen clings to the walls in long strands and the air is humid.
+The natural floor here is covered in large reptilian tracks that pass
+east and west. To the north is a smaller cave.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 20 }
+	to { e, 13 }
+	to { w, 5 }
+  }
+}
+
+15
+{
+  name { A Lizardman Abode  }
+  desc {
+"   You are standing in a small, natural cave.  The floor is littered with
+leaf mould and a nest has been fashioned from sticks, twigs and branches.
+This is probably where some of the lizardmen live.
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { southwest, 6 }
+  }
+}
+
+16
+{
+  name { A Lizardman Abode  }
+  desc {
+"   You are standing in a small, natural cave.  The floor is littered with
+leaf mould and a nest has been fashioned from sticks, twigs and branches.
+This is probably where some of the lizardmen live.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 7 }
+  }
+}
+
+17
+{
+  name { The Lizardman Chieftan's Hall  }
+  desc {
+"   You are standing in a long natural cavern.  A fire burns in a pit in
+the centre of the cavern.  Beyond the fire a large chair, possibly a
+throne, has been fashioned from bronze and wood--although primitive, it
+is no less impressive.  The whole cavern looks like it could host quite
+a lot of lizardmen!
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { southeast, 8 }
+  }
+}
+
+18
+{
+  name { A Lizardman Abode  }
+  desc {
+"   You are standing in a small, natural cave.  The floor is littered with
+leaf mould and a nest has been fashioned from sticks, twigs and branches.
+This is probably where some of the lizardmen live.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 10 }
+  }
+}
+
+19
+{
+  name { A Lizardman Smithy  }
+  desc {
+"   You are standing in a primitive smithy.  A small fire-pit, lined with
+fire-blackened clay, is connected to two primitive air-pumps via oiled-
+leather tubes.  The heat is just as hot in here as it would be in a
+normal, civilised, smithy.  Tin and copper alloys line the walls and
+several items of bronze sit on a bench near the far wall.
+  }
+  sector { Cavern }
+  flags { no_sum, private }
+  exits {
+	to { e, 12 }
+  }
+}
+
+20
+{
+  name { A Lizardman Abode  }
+  desc {
+"   You are standing in a small, natural cave.  The floor is littered with
+leaf mould and a nest has been fashioned from sticks, twigs and branches.
+This is probably where some of the lizardmen live.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 14 }
+  }
+}
+
+21
+{
+  name { The Sahuagin Guard Post  }
+  desc {
+"   This crudely-cut cut corridor has been shaped for defence.  The floor
+pitches upwards slightly, giving advantage to the defenders and wicker
+panels have been positioned across the cave to act as barriers.  Behind
+the panels several sahuagin could defend this place long enough to raise
+the intruder alarm and bring in backup.
+  }
+  sector { Cavern }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 22 }
+	to { northwest, 4 }
+  }
+}
+
+22
+{
+  name { Entrance to the Temple of the Frog  }
+  desc {
+"   You are standing at the top of a set of crudely cut stone steps.  Some
+wisps of mist swirl and eddy at your feet.  The walls here are covered in
+graffiti; all of which seems to revolve around a theme of a cross-legged
+frog creature, shining with light.  Some crude runes have been scrawled
+under the figure.  You can descend the steps towards the light, or turn
+back to the lizardman caverns.
+  }
+  extra {
+	keywords { crude runes scrawled }
+	desc {  "
+K R O C O A T L
+
+"	}
+  }
+  sector { Cavern }
+  flags { dark, no_sum, no_mob, private }
+  exits {
+	to { n, 21 }
+	to { d, 23 }
+  }
+}
+
+23
+{
+  name { Before the Temple of the Frog  }
+  desc {
+"   You are standing at the back of a massive, naturally oval cavern.  The
+floor is a dark-black granite that has been highly polished.  The walls
+extend away from you in either direction and are equally as impressive.
+Far to the south you can see a figure kneeling, its arms outspread, and
+beyond a massive cloud of fog or steam that rises up from what could only
+be a cavity and up to the ceiling of the cavern.  Could this be the source
+of that strange fog outside in the bog?  Behind the cloud you can just 
+make a giant statue of a tall frog creature carved in to the opposite
+wall.  All around lizardman and sahaugin kneel in prayer.  This must be a
+massive temple!  Uh oh!
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 24 }
+	to { u, 22 }
+  }
+}
+
+24
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 23 }
+	to { e, 26 }
+	to { s, 28 }
+	to { w, 25 }
+	to { southeast, 29 }
+	to { southwest, 27 }
+  }
+}
+
+25
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 24 }
+	to { s, 27 }
+	to { southeast, 28 }
+	to { southwest, 30 }
+  }
+}
+
+26
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 29 }
+	to { w, 24 }
+	to { southeast, 31 }
+	to { southwest, 28 }
+  }
+}
+
+27
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 25 }
+	to { e, 28 }
+	to { s, 34 }
+	to { w, 30 }
+	to { northeast, 24 }
+	to { southeast, 35 }
+	to { southwest, 33 }
+  }
+}
+
+28
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 24 }
+	to { e, 29 }
+	to { s, 35 }
+	to { w, 27 }
+	to { northeast, 26 }
+	to { southeast, 36 }
+	to { southwest, 34 }
+	to { northwest, 25 }
+  }
+}
+
+29
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 26 }
+	to { e, 31 }
+	to { s, 36 }
+	to { w, 28 }
+	to { southeast, 37 }
+	to { southwest, 35 }
+	to { northwest, 24 }
+  }
+}
+
+30
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 27 }
+	to { s, 33 }
+	to { northeast, 25 }
+	to { southeast, 34 }
+	to { southwest, 32 }
+  }
+}
+
+31
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 37 }
+	to { w, 29 }
+	to { southeast, 38 }
+	to { southwest, 36 }
+	to { northwest, 26 }
+  }
+}
+
+32
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 33 }
+	to { s, 39 }
+	to { northeast, 30 }
+	to { southeast, 40 }
+  }
+}
+
+33
+{
+  name { In the Temple of the Frog  }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 30 }
+	to { e, 34 }
+	to { s, 40 }
+	to { w, 32 }
+	to { northeast, 27 }
+	to { southwest, 39 }
+  }
+}
+
+34
+{
+  name { In the Temple of the Frog Next to the Abyssal Fall  }
+  desc {
+"   You are standing on a polished black granite floor.  Just to the south
+of you the cavern opens up into an abyssal drop, from which slowly rises
+the never end of cloud of fog.  Looking down you can see anything.  Only
+the bravest of souls would brave such a drop.  Looking east you can see a
+stone gantry that hangs perilously from the edge of the temple.  It seems
+to reach almost to the middle.  On the end of the gantry the figure robed
+in grey continues to beckon forth the mists.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 27 }
+	to { e, 35 }
+	to { w, 33 }
+	to { northeast, 28 }
+	to { southwest, 40 }
+	to { northwest, 30 }
+  }
+}
+
+35
+{
+  name { In the Temple of the Frog before the Perilous Gantry  }
+  desc {
+"   You are standing on a polished black granite floor.  Just to the south
+of you the cavern opens up into an abyssal drop, from which slowly rises
+the never end of cloud of fog.  A gantry juts out from the temple and out
+over the abyss.  Dare you try it?  On the end of the gantry the figure
+robed in grey continues to beckon forth the mists.
+  }
+  extra {
+	keywords { _ex2 }
+	desc {  "
+The gantry creaks and groans under your weight!
+
+"	}
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 28 }
+	to { e, 36 }
+	to { s, 50 }
+	  info { message }
+	to { w, 34 }
+	to { northeast, 29 }
+	to { northwest, 27 }
+  }
+}
+
+36
+{
+  name { In the Temple of the Frog Next to the Abyssal Fall  }
+  desc {
+"   You are standing on a polished black granite floor.  Just to the south
+of you the cavern opens up into an abyssal drop, from which slowly rises
+the never end of cloud of fog.  Looking down you can see anything.  Only
+the bravest of souls would brave such a drop.  Looking west you can see a
+stone gantry that hangs perilously from the edge of the temple.  It seems
+to reach almost to the middle.  On the end of the gantry the figure robed
+in grey continues to beckon forth the mists.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 29 }
+	to { e, 37 }
+	to { w, 35 }
+	to { northeast, 31 }
+	to { southeast, 41 }
+	to { northwest, 28 }
+  }
+}
+
+37
+{
+  name { In the Temple of the Frog }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 31 }
+	to { e, 38 }
+	to { s, 41 }
+	to { w, 36 }
+	to { southeast, 42 }
+	to { northwest, 29 }
+  }
+}
+
+38
+{
+  name { In the Temple of the Frog }
+  desc {
+"   You are standing on a polished black granite floor inside a massive
+temple.  To the south a billowing cloud of fog rises out of a cavity and
+seeps into the roof of the cavern.  Beyond that a haunting statue of a
+frog has been carved in to the south wall, it's eyes always on you.
+Sahuagin and lizardman are everywhere, worshipping, and a figure robed in
+grey stands before the cavity beckoning the mist up.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 42 }
+	to { w, 37 }
+	to { southwest, 41 }
+	to { northwest, 31 }
+  }
+}
+
+39
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the east the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues south.  A small opening to the west leads into a room for
+one of the sahuagin priests.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 32 }
+	to { e, 40 }
+	to { s, 43 }
+	to { w, 52 }
+	to { northeast, 33 }
+  }
+}
+
+40
+{
+  name { In the Temple of the Frog Next to the Abyssal Fall  }
+  desc {
+"   You are standing on a polished black granite floor.  Just to the south
+of you the cavern opens up into an abyssal drop, from which slowly rises
+the never end of cloud of fog.  Looking down you can see anything.  Only
+the bravest of souls would brave such a drop.  Looking east you can see a
+stone gantry that hangs perilously from the edge of the temple.  It seems
+to reach almost to the middle.  On the end of the gantry the figure robed
+in grey continues to beckon forth the mists.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 33 }
+	to { w, 39 }
+	to { northeast, 34 }
+	to { northwest, 32 }
+  }
+}
+
+41
+{
+  name { In the Temple of the Frog Next to the Abyssal Fall  }
+  desc {
+"   You are standing on a polished black granite floor.  Just to the south
+of you the cavern opens up into an abyssal drop, from which slowly rises
+the never end of cloud of fog.  Looking down you can see anything.  Only
+the bravest of souls would brave such a drop.  Looking west you can see a
+stone gantry that hangs perilously from the edge of the temple.  It seems
+to reach almost to the middle.  On the end of the gantry the figure robed
+in grey continues to beckon forth the mists.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 37 }
+	to { e, 42 }
+	to { northeast, 38 }
+	to { northwest, 36 }
+  }
+}
+
+42
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the west the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues south.  A small opening to the east leads into a room for
+one of the sahuagin priests.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 38 }
+	to { e, 56 }
+	to { s, 49 }
+	to { w, 41 }
+	to { northwest, 37 }
+  }
+}
+
+43
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the east the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues southeast.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+  exits {
+	to { n, 39 }
+	to { southeast, 44 }
+  }
+}
+
+44
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the east the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues southeast.  A small opening to the southwest leads into a
+room for one of the sahuagin priests.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { southeast, 45 }
+	to { southwest, 53 }
+	to { northwest, 43 }
+  }
+}
+
+45
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the north the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues east.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 46 }
+	to { northwest, 44 }
+  }
+}
+
+46
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the north the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues east and west.  A small opening to the south leads into a
+plush-looking room for one of the sahuagin priests.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+  exits {
+	to { e, 47 }
+	to { s, 54 }
+	to { w, 45 }
+  }
+}
+
+47
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the north the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues west.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { w, 46 }
+	to { northeast, 48 }
+  }
+}
+
+48
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the west the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues southwest.  A small opening to the southeast leads into a
+room for one of the sahuagin priests.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { northeast, 49 }
+	to { southeast, 55 }
+	to { southwest, 47 }
+  }
+}
+
+49
+{
+  name { In the Temple of the Frog on a Narrow Ledge  }
+  desc {
+"   You are standing on a narrow ledge of polished black stone.  There is
+not a lot of room here.  To the west the mist rises and you can make out
+the figure robed in grey on the gantry in the centre of the mire.  The
+ledge continues southwest.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 42 }
+	to { southwest, 48 }
+  }
+}
+
+50
+{
+  name { On the Perilous Gantry Over The Abyssal Fall  }
+  desc {
+"   Woah!  You gantry rocks up and down perilously and for a brief second
+or two you heart stops as you think its about to break.  Then the stone
+beneath your feet stabilises and you let out an explosive breath.  All
+around you the fog rises.  Just to the south the strange figure robed in
+grey continues to beckon the mist forth from the Abyss.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+The gantry creaks and groans under your weight!
+
+"	}
+	keywords { _ex2 }
+	desc {  "
+The gantry creaks and groans under your weight!
+
+"	}
+  }
+  sector { Bridge }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+  exits {
+	to { n, 35 }
+	  info { message }
+	to { s, 51 }
+	  info { message }
+  }
+}
+
+51
+{
+  name { On the Perilous Gantry Over The Abyssal Fall  }
+  desc {
+"   Shit!  The gantry rocks and groans loudly.  You jump as you hear snaps
+and cracks!  Uh oh!  All around you are surrounded by fog and can no long
+-er make out the temple details.  The gantry is circular here and the 
+figure robed in grey has not noticed you...  Looking down you think you
+make out what could be light reflecting off water... You could jump from
+here you think.  Perhaps that is where the fog comes from?  Down there?
+  }
+  extra {
+	keywords { _ex10 }
+	desc {  "
+Arrrrrrgggggggghhhhhhhhhhh!
+
+"	}
+	keywords { _ex0 }
+	desc {  "
+The gantry creaks and groans under your weight!
+
+"	}
+  }
+  sector { Bridge }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 50 }
+	  info { message }
+	to { 10, 57 }
+	  info { message }
+	  keywords { jump }
+  }
+}
+
+52
+{
+  name { A Sahuagin Priest Room  }
+  desc {
+"   You are standing in dark, damp room.  The decor is spartan.  There is
+not even an idol of a frog for you to loot.  That's why you came in here
+wasn't it?
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 39 }
+  }
+}
+
+53
+{
+  name { A Sahuagin Priest Room  }
+  desc {
+"   You are standing in dark, damp room.  The decor is spartan.  There is
+not even an idol of a frog for you to loot.  That's why you came in here
+wasn't it?
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { northeast, 44 }
+  }
+}
+
+54
+{
+  name { The Sahuagin High Priest Room  }
+  desc {
+"   You are standing in light, damp room.  The decor is plush and opulent
+compared to the rest of the priestly rooms.  That said, a narrow chair
+and a gold idol of the frog god is all you can spy.
+  }
+  sector { Fire }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 46 }
+  }
+}
+
+55
+{
+  name { A Sahuagin Priest Room  }
+  desc {
+"   You are standing in dark, damp room.  The decor is spartan.  There is
+not even an idol of a frog for you to loot.  That's why you came in here
+wasn't it?
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { northwest, 48 }
+  }
+}
+
+56
+{
+  name { A Sahuagin Priest Room  }
+  desc {
+"   You are standing in dark, damp room.  The decor is spartan.  There is
+not even an idol of a frog for you to loot.  That's why you came in here
+wasn't it?
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { w, 42 }
+  }
+}
+
+57
+{
+  name { Falling Through the Air!  }
+  desc {
+"
+You make a running jump off the gantry!  Your legs cartwheel as you drop!
+
+"  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+Yeeeeeeeooooooooooooooooooaaaaaaaaaaaagggggggghhhhhhhhh!!!!
+
+"	}
+  }
+  sector { Air }
+  flags { no_sum, private, relocate_distort }
+  tele { 6, 1, 58 }
+}
+
+58
+{
+  name { Falling Through the Air!  }
+  desc { "
+You realise you're screaming as you fall!  This is a LONG drop!
+
+"  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+SPLASH! That was LUCKY!
+
+"	}
+  }
+  sector { Air }
+  flags { no_sum, private, relocate_distort }
+  tele { 6, 1, 59 }
+}
+
+59
+{
+  name { The Surface of the Underground Lake  }
+  desc {
+"   You are swimming at the surface of an underground lake.  Everything is
+in darkness.  All around you the water bubbles gently and fog rises from
+the water.  Maybe the source of the fog is below you?  The lake extends
+off to the north, south, east and west.
+  }
+  sector { Shallow Water }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 60 }
+	to { e, 62 }
+	to { s, 61 }
+	to { w, 63 }
+	to { d, 64 }
+  }
+}
+
+60
+{
+  name { The Surface of the Underground Lake  }
+  desc {
+"   You are swimming at the surface of an underground lake.  Everything is
+in darkness.  All around you the water bubbles gently and fog rises from
+the water.  Maybe the source of the fog is below you?  A dark wall rises
+up here, but it is completely smooth and offers no hand holds.  The wall
+curves off to the southwest and southeast.
+  }
+  sector { Shallow Water }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 59 }
+	to { d, 64 }
+	to { southeast, 62 }
+	to { southwest, 63 }
+  }
+}
+
+61
+{
+  name { The Surface of the Underground Lake  }
+  desc {
+"   You are swimming at the surface of an underground lake.  Everything is
+in darkness.  All around you the water bubbles gently and fog rises from
+the water.  Maybe the source of the fog is below you?  A dark wall rises
+up here, but it is completely smooth and offers no hand holds.  The wall
+curves off to the northeast and northwest.
+  }
+  sector { Shallow Water }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 59 }
+	to { d, 64 }
+	to { northeast, 62 }
+	to { northwest, 63 }
+  }
+}
+
+62
+{
+  name { The Surface of the Underground Lake  }
+  desc {
+"   You are swimming at the surface of an underground lake.  Everything is
+in darkness.  All around you the water bubbles gently and fog rises from
+the water.  Maybe the source of the fog is below you?  A dark wall rises
+up here, but it is completely smooth and offers no hand holds.  The wall
+curves off to the southwest and northwest.
+  }
+  sector { Shallow Water }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { w, 59 }
+	to { d, 64 }
+	to { southwest, 61 }
+	to { northwest, 60 }
+  }
+}
+
+63
+{
+  name { The Surface of the Underground Lake  }
+  desc {
+"   You are swimming at the surface of an underground lake.  Everything is
+in darkness.  All around you the water bubbles gently and fog rises from
+the water.  Maybe the source of the fog is below you?  A dark wall rises
+up here, but it is completely smooth and offers no hand holds.  The wall
+curves off to the northeast and southeast.
+  }
+  sector { Shallow Water }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 59 }
+	to { d, 64 }
+	to { northeast, 60 }
+	to { southeast, 61 }
+  }
+}
+
+64
+{
+  name { The Bottom of the Underground Lake  }
+  desc {
+"   You are swimming at the bottom of the lake.  Directly below you is a
+small opening from which bubbles pour in a steady stream.  The opening is
+very, very narrow but you think you can wiggle your way in...
+  }
+  sector { Underwater }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { u, 59 }
+	to { 10, 65 }
+	  keywords { opening }
+  }
+}
+
+65
+{
+  name { A Narrow Water Filled Tunnel  }
+  desc {
+"   You are in a very narrow, water-filled tunnel.  It is lined with grey
+granite and cloudy bubbles stream past you and up towards the under-
+ground lake.  You hope this tunnel ends soon...  Drowning in this tight,
+confined space would not be pleasant.
+  }
+  sector { Underwater }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 66 }
+	to { u, 64 }
+  }
+}
+
+66
+{
+  name { A Narrow Water Filled Tunnel  }
+  desc {
+"   You are in a very narrow, water-filled tunnel.  It is lined with grey
+granite and cloudy bubbles stream past you and back towards the under-
+ground lake.  You hope this tunnel ends soon...  Drowning in this tight,
+confined space would not be pleasant.
+  }
+  sector { Underwater }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 65 }
+	to { s, 67 }
+  }
+}
+
+67
+{
+  name { A Narrow Water Filled Tunnel  }
+  desc {
+"   You are in a very narrow, water-filled tunnel.  Above you is a rusting
+iron grate, through which cloudy bubbles stream.  Hopefully you can open
+the grate and you won't be trapped in this hellish tunnel!
+  }
+  sector { Underwater }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 66 }
+	to { u, 68 }
+	  key { 107001 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { grate iron }
+  }
+}
+
+68
+{
+  name { Inside the Sahuagin Outpost  }
+  desc {
+"   You are standing at the end of a very damp and very cold corridor.  To
+the south you can make out a light shining, but it isn't powerful enough
+to illuminate your surroundings.  The floor, walls and ceilings are all
+made of unremarkable grey granite.  Water seeps through the cracks in the
+roof and drips down on to the floor.  A fine mist flows along the centre
+of the floor and into the grate at your feet.  The corridor continues to
+the south or you can re-enter the underground lake via the iron grate.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { s, 69 }
+	to { d, 67 }
+	  key { 107001 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { grate iron }
+  }
+}
+
+69
+{
+  name { Inside the Sahuagin Outpost  }
+  desc {
+"   You are standing in a very damp and very cold corridor.  To the south
+you can make out a light shining, but it isn't powerful enough for you to
+pick out your surroundings without your own light source.  The floor,
+walls and ceiling are all made of unremarkable grey granite.  Water seeps
+through the cracks in the roof and drips down on to the floor.  A fine
+mist flows along the centre of floor from south to north.  The corridor
+continues to the south.  To the west is an open store room and to the
+east is an open tank full of fish and other creatures.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+  exits {
+	to { n, 68 }
+	to { s, 72 }
+	to { w, 70 }
+	to { 10, 71 }
+	  keywords { tank }
+  }
+}
+
+70
+{
+  name { A Sahuagin Store Room  }
+  desc {
+"   This room is very cold and very damp.  The walls, floor and ceiling
+are all made of the same grey granite.  Water is everywhere and the wood
+of the barrels filled with salted fish and the wooden racks holding fish
+spears are all sodden.  You can exit back to the corridor to the east.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 69 }
+  }
+}
+
+71
+{
+  name { A Sahuagin Larder Tank  }
+  desc {
+"   You step off the edge of the corridor and into a stone tank of ice-cold
+water.  Are you stupid?  Who knows what could be in here?  You feel some-
+thing brush your leg...  Uh oh!  You can climb out of the tank and back
+to the corridor.
+  }
+  sector { Underwater }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { 10, 69 }
+	  keywords { corridor }
+  }
+}
+
+72
+{
+  name { Inside the Sahuagin Outpost  }
+  desc {
+"   You are standing in a very damp and very cold corridor.  To the south
+you can make out a light shining, but it isn't powerful enough for you to
+pick out your surroundings without your own light source.  The floor,
+walls and ceiling are all made of unremarkable grey granite.  Water seeps
+through the cracks in the roof and drips down on to the floor.  A fine
+mist flows along the centre of floor from south to north.  The corridor
+continues to the south.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 69 }
+	to { s, 73 }
+  }
+}
+
+73
+{
+  name { Inside the Sahuagin Outpost  }
+  desc {
+"   You are standing in a very damp and very cold corridor.  To the south
+you can make out a light shining, but it isn't powerful enough for you to
+pick out your surroundings without your own light source.  The floor,
+walls and ceiling are all made of unremarkable grey granite.  Water seeps
+through the cracks in the roof and drips down on to the floor.  A fine
+mist flows along the centre of floor from south to north.  The corridor
+continues to the south.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 72 }
+	to { s, 74 }
+  }
+}
+
+74
+{
+  name { Inside the Sahuagin Outpost  }
+  desc {
+"   You are standing in a very damp and very cold corridor.  The floor,
+walls and ceiling are all made of unremarkable grey granite.  Water seeps
+through the cracks in the roof and drips down on to the floor.  There is
+a light shining here, illuminating three doors to the east, south and
+west.  The door to the east is made of rusting iron but looks like it
+could be very sturdy.  The door to the south is made of delicate deep-sea
+kelp and the fine mist broils from under the door and flows off to the
+north.  The door to the west is made of damp, rotting wood and is more
+than likely to fall apart in your hand.  The corridor continues to the
+north.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 73 }
+	to { e, 78 }
+	  info { door, closed, autoclose }
+	  keywords { rusting iron door }
+	to { s, 81 }
+	  info { door, closed, autoclose }
+	  keywords { delicate deep sea kelp door }
+	to { w, 75 }
+	  info { door, closed, autoclose }
+	  keywords { damp rotting wood door }
+  }
+}
+
+75
+{
+  name { A Sahuagin War Room  }
+  desc {
+"   You are standing in a wide room made of the same, dull, grey granite.
+Water cascades down the walls in rivlets that pool on the floor before
+seeping away.  In the centre of the room is a table surrounded by chairs
+and one wall hosts a weapon rack full of fish spears.  On the table is
+a map of the bog.  To the northwest and southwest plain wooden doors
+block your progress.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { e, 74 }
+	  info { door, closed, autoclose }
+	  keywords { damp rotting wood door }
+	to { southwest, 76 }
+	  info { door, autoclose }
+	  keywords { barrack plain wooden door }
+	to { northwest, 77 }
+	  info { door, autoclose }
+	  keywords { barrack plain wooden door }
+  }
+}
+
+76
+{
+  name { A Sahuagin Warriors Barracks  }
+  desc {
+"   You are standing a round chamber made of the same grey granite as the
+rest of this place.  Water drips down the walls and everything is wet and
+damp.  Several lillypads line the floor.  Is this what the sahuagin sleep
+on?
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { northeast, 75 }
+	  info { door, autoclose }
+	  keywords { barrack plain wooden door }
+  }
+}
+
+77
+{
+  name { A Sahuagin Warriors Barracks  }
+  desc {
+"   You are standing a round chamber made of the same grey granite as the
+rest of this place.  Water drips down the walls and everything is wet and
+damp.  Several lillypads line the floor.  Is this what the sahuagin sleep
+on?
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { southeast, 75 }
+	  info { door, autoclose }
+	  keywords { barrack plain wooden door }
+  }
+}
+
+78
+{
+  name { A Sahuagin Prison  }
+  desc {
+"   You are standing in a small room dominated by a square table.  A set
+of dice made from the knuckle of some poor sea-creature lay on the table.
+The walls, floor and ceiling are all made of the same grey granite as the
+rest of this place and even here water drips in a never ending cascade.
+To the northeast and southeast two low doors made of dirty, rusting iron
+bar your passage.
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { w, 74 }
+	  info { door, closed, autoclose }
+	  keywords { rusting iron door }
+	to { northeast, 79 }
+	  key { 107002 }
+	  info { door, autoclose, autolock }
+	  keywords { cell rusting iron door }
+	to { southeast, 80 }
+	  key { 107002 }
+	  info { door, autoclose, autolock }
+	  keywords { cell rusting iron door }
+  }
+}
+
+79
+{
+  name { A Sahuagin Prison Cell  }
+  desc {
+"   This is a very low room made of the same grey granite.  A bucket, full
+of some unidentified terror, dominates a corner.  Water drips from every-
+where. There isn't much else to see.  You hope that the cell didn't lock
+after it shut behind you!
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { southwest, 78 }
+	  key { 107002 }
+	  info { door, autoclose, autolock }
+	  keywords { cell rusting iron door }
+  }
+}
+
+80
+{
+  name { A Sahuagin Prison Cell  }
+  desc {
+"   This is a very low room made of the same grey granite.  A bucket, full
+of some unidentified terror, dominates a corner.  Water drips from every-
+where. There isn't much else to see.  You hope that the cell didn't lock
+after it shut behind you!
+  }
+  sector { Cavern }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { northwest, 78 }
+	  key { 107002 }
+	  info { door, autoclose, autolock }
+	  keywords { cell rusting iron door }
+  }
+}
+
+81
+{
+  name { Temple of the Death Slaad  }
+  desc {
+"   The ceiling here is much higher than the rest of the complex, and the
+walls and floor are free from damp.  Several pews line the sides of the
+walls.  To the south of the room is a pulpit where something obviously
+gives sermons, and beyond you can make out a large black altar.  A fine
+mist seeps from the south and passes under the door to the north.
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 74 }
+	  info { door, closed, autoclose }
+	  keywords { delicate deep sea kelp door }
+	to { s, 82 }
+  }
+}
+
+82
+{
+  name { Altar of the Death Slaad  }
+  desc {
+"   You are standing in domed chamber.  An altar dominates the middle of
+the room.  It is highly decorated with pictures of the frog creatures you
+have become so familiar with.  To the southern end of the chamber a fine
+mist pours out of a hole in the floor, passes around the altar and seeps
+its way north.  The hole is surrounded by runes in gold on black.  You
+reckon you could fit through it... If you tried!
+  }
+  sector { Temple }
+  flags { no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+
+
+  exits {
+	to { n, 81 }
+	to { d, 83 }
+  }
+}
+
+83
+{
+  name { The Source of The Dark Wind  }
+  desc {
+"   Phew!  That was a tight squeeze to fit through that hole.  Luckily the
+floor wasn't very deep, so you can still reach the hole if you jump and
+climb back out.  This whole room is cloudy with mist.  The walls glow a
+deep blue and everything appears eldritch and eerie.  The mist pours from
+a black gap in the floor here.  It is only the size of a fist and no way
+could you squeeze in it.  Peering in all you see is mist and fog.  You
+think you can hear screams and wails if you close your eyes and, with all
+your might, concentrate on the sounds...  Could be there is no way to
+stop the mist rising from the hole.  But at least you found the source!
+A job well done, you think, and give yourself a well deserved pat on the
+back.
+  }
+  sector { Astral }
+  flags { dark, no_sum, private, relocate_distort }
+  tele { 0, 1, 54 }
+  exits {
+	to { u, 82 }
+  }
+}

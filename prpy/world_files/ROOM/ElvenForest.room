@@ -1,0 +1,933 @@
+#offset ElvenForest
+
+0
+{
+  name { A Path in the Forest  }
+  desc {
+"   Off the main road, this small path is heading north in the direction 
+of trees, that seem to be even larger than the ones you seen until now.  
+The path seems to be a well used animal trail.  The underbrush is not all 
+that thick here due to the huge tree limbs blocking out most of the sun.  
+Although all you can hear is the occasional bird call, it feels like the 
+trees have eyes.  You are certain you are being watched by something 
+other than the birds and the few small animals you have seen so far.  The
+path continues to the north. The road is back to the south.
+  }
+  sector { Forest }
+  flags { dark, no_mob, no_sum, private }
+  exits {
+	to { n, 1 }
+	to { s, OldportForest:298 }
+  }
+}
+
+1
+{
+  name { A Path in the Forest  }
+  desc {
+"   As the path continues further into the trees, you feel as if very few 
+adventurers have made it this deep into the forest.  Maybe they have and 
+just not been able to return and tell of it.  The trees here are huge like
+nothing you have ever seen before.  Some of the tree limbs are so big, 
+they could pass for trees in other forests you have been in.  You now get
+the feeling that not only you are being watched, but maybe followed to.  
+The path continues on to the north and leads back south towards the road.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { A Path in the Forest  }
+  desc {
+"   The trees in this part of the forest are huge.  It is starting to feel 
+as if they are closing in on you. For some reason, the path is almost non 
+existent now, maybe due to the large roots of the trees.  The path seems
+to continue on to the north, for how much longer you are not certain.  
+Maybe it is time to turn back, because getting lost in a forest of this 
+size, you may never be able to find your way out again.
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { n, 3 }
+	to { s, 1 }
+  }
+}
+
+3
+{
+  name { The End of the Path  }
+  desc {
+"   Now you have managed to get yourself lost in the forest, since it 
+appears you can not even go back the way you came.  It is as if the trees
+closed up the path behind you and all you can see is leaves.  Looking 
+around and examining the trees, you wonder, "Could it be?".   Seems as if
+one of the ancient red oaks that surround you, like it could be some 
+kind of door....
+  }
+  sector { Forest }
+  flags { dark, no_mob }
+  exits {
+	to { n, 4 }
+	  key { 65001 }
+	  info { door, closed, locked, knockable, autoclose, autolock }
+	  keywords { oak door }
+  }
+}
+
+4
+{
+  name { In the Red Oak  }
+  desc {
+"  There are stairs leading up...this tree is huge.  There are glowing 
+spheres hanging from the wall that illuminate the way up.  It seems as 
+if the tree has been magically altered instead of carved out.  There are
+no rough edges anywhere...  It almost as if it has been grown to include 
+these stairs and doorways.  To the east is a runed covered door and up is
+more stairs.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { e, 6 }
+	  key { 65001 }
+	  info { door, autoclose, autolock }
+	  keywords { runed door }
+	to { u, 5 }
+  }
+}
+
+5
+{
+  name { In a Red Oak  }
+  desc {
+"   Climbing the stairs, you have reached the mid way point.  It would 
+seem there are some small windows here.  Looking out them, you see that 
+this is not the only tree that has inhabitants, as you see lights in the 
+other trees and rope bridges to connect them together.  There is a door 
+to the west.  It seems rather out of place here, as it looks almost new 
+compared to the other things around you.  The stairs continue up and go 
+back down.  There is also a runed door to the east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  The bridge sways with the gentle breeze. 	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 36 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, message, autoclose, autolock }
+	  keywords { runed door }
+	to { w, 10 }
+	  info { door, autoclose }
+	  keywords { simple door }
+	to { u, 11 }
+	to { d, 4 }
+  }
+}
+
+6
+{
+  name { On a Rope Bridge  }
+  desc {
+"   This is truly amazing.  Now that you have cleared some of the foliage, 
+you can see that there are several well placed rope bridges.  They are 
+well camouflaged and you are certain that they are invisible from below, 
+down on the forest floor.  They offer excellent cover fire for the
+occupants and would be deadly for any enemies down on the forest floor.
+The bridge continues on to the east and to the west is a runed door.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  The bridge sways with the gentle breeze. 	}
+	keywords { _ex1 }
+	desc {  The bridge sways with the gentle breeze. 	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 7 }
+	  info { message }
+	to { w, 4 }
+	  key { 240001 }
+	  info { door, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+7
+{
+  name { On a Rope Bridge  }
+  desc {
+"   It is truly amazing to be up so high, yet the bridge is so well 
+crafted, that it barely even sways in the wind.  The tree tops seem to be 
+teeming with life.  Now that you have a better view, there are several 
+dwellings in the trees and rope bridges link them all together.  There is 
+a runed door to the east and the bridge continues back to the west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  The bridge sways with the gentle breeze. 	}
+	keywords { _ex1 }
+	desc {  The bridge sways with the gentle breeze. 	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 8 }
+	  info { message }
+	to { w, 6 }
+	  info { message }
+  }
+}
+
+8
+{
+  name { Outside of a Runed Covered Door  }
+  desc {
+"   This door seems to be of a much sturdier make then the others, it is 
+so beautiful that it seems to hypnotize you.  You want to reach out and 
+touch it to make sure something so beautiful could exist.  It glows 
+slightly and you are certain it is magically enchanted.  The rope bridge 
+is back to the west and the runed door is to the east.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  The bridge sways with the gentle breeze. 	}
+  }
+  flags { no_mob }
+  exits {
+	to { e, 9 }
+	  key { 65001 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { runed door }
+	to { w, 7 }
+	  info { message }
+  }
+}
+
+9
+{
+  name { A Huge Chamber Inside the Red Oak  }
+  desc {
+"   This chamber houses someone of rank, that is obvious just by a quick 
+glance around the room.  From The artwork, to the simple, but elegant 
+woodwork, everything seems to have been perfectly placed to give you a 
+deep sense of the beauty of all the things in the room.  The tranquility 
+makes you feel so at home...  Now why would you ever want to leave?
+  }
+  exits {
+	to { w, 8 }
+	  key { 65001 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+10
+{
+  name { A Simple Chamber  }
+  desc {
+"   This room would look rather mundane if not for all the magnificent
+armor and weapons decorating the walls.  Some seem to be very ornate,
+while others have obviously been used in battle many times.  If the 
+armor and weapons are any indication of this rooms occupant, then they
+would be a difficult opponent for even the most skilled adventurer.
+The simple door leads back to the east.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 5 }
+	  info { door, autoclose }
+	  keywords { simple door }
+  }
+}
+
+11
+{
+  name { In a Red Oak  }
+  desc {
+"   You have reached the top of the stairs.  Looking around the room makes
+everything else you have seen so far seem dull in comparison.  The room 
+feels like it is alive with magic.  The room is full of various beautiful
+cabinets, filled with some rather arcane looking tomes, books and curios. 
+Being as some of them actually glow with power, maybe it would be best to 
+leave them untouched.  To the west there is a window large enough to 
+climb through.  To the east is a runed door.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 32 }
+	  key { 65001 }
+	  info { door, locked, pickproof, autoclose, autolock }
+	  keywords { runed door }
+	to { d, 5 }
+	to { 10, 12 }
+	  keywords { window }
+  }
+}
+
+12
+{
+  name { In the Tree Limbs of the Red Oak  }
+  desc {
+"   Standing out in this magnificent tree's limbs, you feel such peace.  
+From the view from up here, well, you can see the long spanse of forest 
+off to the west and to east is the mountains.  Maybe you should just sit 
+down and enjoy the view for a little while.
+  }
+  flags { no_mob, fast_moves }
+  exits {
+	to { d, 13 }
+	to { 10, 11 }
+	  keywords { window }
+  }
+}
+
+13
+{
+  name { In the Tree Limbs of the Red Oak  }
+  desc {
+"   The view is not quite so magnificent from here, but you still get a 
+very peaceful feeling from this place.   Looking around, you barely 
+notice a very odd tree branch...  It is as if one second it is there, 
+then the next it is gone.  When it does appear, it looks rather worn, 
+as if it has been touched many times over the years.
+  }
+  flags { no_mob }
+  exits {
+	to { u, 12 }
+  }
+}
+
+14
+{
+  name { A Small Clearing in the Forest  }
+  desc {
+"   After your vision clears, you can see that the trees have formed a 
+rather large circle.  They have grown so close together in one spot, that 
+you can see that it is impossible to get out any other way then one of 
+the three doors that stand around the circle.  It is obvious that this is 
+some kind of gathering point for the inhabitants of the forest, based on 
+the several benches that sit at the base of the trees.  There is also a 
+small platform in the center of the circle.
+  }
+  sector { Forest }
+  flags { dark }
+  exits {
+	to { n, 16 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { runed door }
+	to { s, 23 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { oak door }
+	to { w, 15 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { glowing door }
+  }
+}
+
+15
+{
+  name { The Guest Quarters  }
+  desc {
+"  The room is warm and well lit.  There are a couple of beds for those
+that have traveled in from the forest.  The room is reserved for those 
+whom are lucky enough to be considered friends of the elves.
+  }
+  flags { no_mob }
+  exits {
+	to { e, 14 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { glowing door }
+  }
+}
+
+16
+{
+  name { Hallway to the Burial Chambers  }
+  desc {
+"   There are many paintings on the hallway walls here, some of great 
+battles fought, a priest and priestess and what appear to be nobility.  
+The hallway has been taken care of, it almost sparkles under the glowing 
+spheres' light.  This is definitely considered to be sacred grounds.  
+Maybe you should leave before someone has to tell you to.  The hallway 
+continues north.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 17 }
+	to { s, 14 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+17
+{
+  name { Hallway to the Burial Chambers  }
+  desc {
+"   This part of the hallway has even more paintings of nobility.  This 
+part of the hallway, and the stairs leading down, seem to be even more 
+ancient then the tree that surrounds it, like it was moved from an even 
+more ancient place.  The stairs and the floor in this part of the hallway
+are stone, unlike everything else that you have seen so far, which has 
+been wood.  The hallway goes back to the south.  The stairs lead down, into
+the burial chamber itself.
+  }
+  flags { no_mob, dispel_magic }
+  exits {
+	to { s, 16 }
+	to { d, 18 }
+  }
+}
+
+18
+{
+  name { Stairway to the Burial Chamber  }
+  desc {
+"   The stairs seem to be made from marble, streaked with what appears to be
+gold and silver.  The walls here have ancient runes all around you.  They 
+look so ancient, that you doubt even the most studied scholar would be 
+able to decipher them.   Hopefully, it is just names of some of the dead 
+below and not some kind of protective spell for the chamber.  The stairs 
+lead downward with a steep curve to the walls.  Maybe you should turn back,
+since you can not see what is ahead or behind you now.
+  }
+  flags { private, dispel_magic }
+  exits {
+	to { u, 17 }
+	to { d, 19 }
+  }
+}
+
+19
+{
+  name { Entrance to the Burial Chamber  }
+  desc {
+"   The stairs have lead down into what appears to be a huge cave.  There 
+are a lot of statues here and some of them do not look like something you 
+would ever want to do battle with.  You can see that cave walls have been
+made into tombs for all the different families.  There are quite a few, but
+most are rather small.  There are, however, two that seem to be quite 
+impressive in their size and craftsmanship.  The stairs go back up to the 
+hallway.  To the south is the center of the cave.
+  }
+  flags { no_mob }
+  exits {
+	to { s, 20 }
+	to { u, 18 }
+  }
+}
+
+20
+{
+  name { Center of the Burial Chamber  }
+  desc {
+"   Standing in the center of this chamber, you realize that the two larger
+tombs have ancient gates to cover there entrances, while the other lesser
+tombs do not.  The larger tombs are at the center of the chamber where 
+you are standing now, one off to each side.  Standing this close, you see
+that no expense was spared during their creation.  It must have taken some
+very skilled artisans to have accomplished such lifelike carvings in the
+tomb.
+  }
+  extra {
+	keywords { statue }
+	desc {  The statue is made of marble and has a small inscription at the base.
+	}
+	keywords { inscription }
+	desc {  To protect my people in this life and the next.... 	}
+  }
+  exits {
+	to { n, 19 }
+	to { e, 22 }
+	  key { 65007 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { mithril gates }
+	to { w, 21 }
+	  key { 65007 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gates silver }
+  }
+}
+
+21
+{
+  name { An Ancient Tomb  }
+  desc {
+"   You can only believe by standing in it. If you thought it was huge from
+the outside, it appears to be even larger on the inside.  A large statue 
+stands in the center of the room.  This tomb obviously houses a once great
+king.  Looking back, right inside the doorway are two statues of what seem 
+to be warriors, or maybe they are here to protect the king in his final 
+resting place.  All the walls have been painted to depict the battles this 
+ancient king was in.  The focal point seems to be a small gateway at the 
+end of the tomb.
+  }
+  exits {
+	to { e, 20 }
+	  key { 65007 }
+	  info { door, locked, pickproof, autoclose, autolock }
+	  keywords { gates silver }
+	to { w, 34 }
+	  key { 65007 }
+	  info { door, closed, pickproof, autoclose }
+	  keywords { gateway }
+  }
+}
+
+22
+{
+  name { An Ancient Tomb  }
+  desc {
+"   This tomb is obviously the final resting place of a great magic user.
+The walls are covered with ancient runes, much like what was seen in the 
+stair way leading down to the burial chamber.  Knowing the power of those,
+you know that some very powerful magic has been infused in the walls of 
+this tomb.  In the center of the tomb there is an altar to some god, but 
+not one you have ever seen of, or heard tale of.
+  }
+  flags { dark }
+  exits {
+	to { n, 35 }
+	to { w, 20 }
+	  key { 65007 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { mithril gates }
+  }
+}
+
+23
+{
+  name { The Officer's Quarters  }
+  desc {
+"   This tree is obviously used for housing military personnel.  It is not 
+like the other chambers.  The room is sparse and not decorated at all, 
+everything seems to have an exact spot, as it should be.  The overall 
+result, perfect order in this room.  To the east is a large planning room. 
+To the west looks like it leads off to the personnel quarters of the 
+different officers.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 14 }
+	  key { 65002 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { oak door }
+	to { w, 26 }
+	to { 10, 24 }
+	  keywords { archway }
+  }
+}
+
+24
+{
+  name { A Large Planning Room  }
+  desc {
+"   The room is covered in maps of the different locations in the forest and 
+the mountains surrounding them.  There are different locations marked in red
+and green to symbolize the different outposts of the enemy and elven forces.
+There is a large table with several chairs around it.  The archway leads 
+back to the entrance.
+  }
+  exits {
+	to { 10, 23 }
+	  keywords { archway }
+  }
+}
+
+25
+{
+  name { The Officer's Quarters  }
+  desc {
+"   This room is unadorned except for the various foot lockers at the base 
+of each bed.  This room is obviously for some of the lower ranking officers,
+since there are several beds and very little else.
+  }
+  exits {
+	to { s, 26 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+26
+{
+  name { A Hallway Outside the Living Quarters  }
+  desc {
+"   The hallway has a few pictures and a couple of shields on the wall, 
+otherwise, it is pretty much like the rest of the rooms here so far.
+There are several different doorways leading to the various living quarters.
+  }
+  exits {
+	to { n, 25 }
+	  info { door, closed, autoclose }
+	  keywords { door }
+	to { e, 23 }
+	to { s, 27 }
+	  info { door, closed, autoclose }
+	  keywords { door south }
+	to { w, 28 }
+  }
+}
+
+27
+{
+  name { The General's Quarters  }
+  desc {
+"   Now here is a room of a powerful person, you can almost feel his 
+charisma in this room.  You can tell the person who stays here is used to
+giving orders and having them obeyed without question.  The room has 
+several bookcases, all them seem to be full of different books on military
+history.
+  }
+  exits {
+	to { n, 26 }
+	  info { door, closed }
+	  keywords { door south }
+  }
+}
+
+28
+{
+  name { The Officer's Quarters  }
+  desc {
+"   This room is unadorned except for the various foot lockers at the base 
+of each bed.  This room is obviously for some of the lower ranking officers,
+since there are several beds and very little else.
+  }
+  exits {
+	to { e, 26 }
+  }
+}
+
+29
+{
+  name { A Guard Tower  }
+  desc {
+"   As you enter the guard tower, you see that it has been well supplied, 
+incase there is a invasion of some sort.  The archers could hold out for
+days up here with all the arrows and various weapons.  With its position,
+the tower has been perfectly placed for a three hundred and sixty degree 
+cover fire, for any warriors that might venture out of the safety of the 
+trees, onto the forest floor.  There is a trapdoor in the middle of the 
+floor.
+  }
+  flags { dark }
+  exits {
+	to { w, 33 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, autoclose }
+	  keywords { runed door }
+	to { d, 30 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { trapdoor }
+  }
+}
+
+30
+{
+  name { On the Stairs  }
+  desc {
+"   The stairs lead down to the base of the tree.  At the bottom of the 
+tree there is some kind of portal.  The portal definitely looks magical, 
+from up here you can feel its power radiating up the stairs, it gives you
+the feeling that maybe you should turn back.
+  }
+  flags { no_mob, indoors }
+  exits {
+	to { u, 29 }
+	  key { 65001 }
+	  info { door, closed, locked, autoclose, autolock }
+	  keywords { trapdoor }
+	to { 10, 31 }
+	  keywords { portal }
+  }
+}
+
+31
+{
+  name { A Large Cave  }
+  desc {
+"   Ummmm.....  This appears to be a dragon's lair.  There is a large pile of 
+shiny objects in all corners of the cave.  From the rest of the room, you 
+see bones and other undefinable things, which makes you certain it is time
+to run.....  Too bad there are no visable exits.
+  }
+  flags { dark }
+}
+
+32
+{
+  name { On a Rope Bridge  }
+  desc {
+"   This is truly amazing.  Now that you have cleared some of the foliage, 
+you can see that there are several well placed rope bridges.  They are 
+well camouflaged and you are certain that they are invisible from below, 
+down on the forest floor.  They offer excellent cover fire for the
+occupants and would be deadly for any enemies down on the forest floor.
+The bridge continues on to the east and to the west is a runed door.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  The bridge sways in the gentle breeze 	}
+  }
+  exits {
+	to { e, 33 }
+	  info { message }
+	to { w, 11 }
+	  key { 65001 }
+	  info { door, locked, pickproof, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+33
+{
+  name { On a Rope Bridge  }
+  desc {
+"   It is truly amazing to be up so high, yet the bridge is so well 
+crafted, that it barely even sways in the wind.  The tree tops seem to be 
+teeming with life.  Now that you have a better view, there are several 
+dwellings in the trees and rope bridges link them all together.  There is 
+what appears to be a well-manned guard tower to the east and the bridge 
+continues back to the west.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  The bridge sways in the gentle breeze. 	}
+	keywords { _ex3 }
+	desc {  The bridge sways in the gentle breeze. 	}
+  }
+  exits {
+	to { e, 29 }
+	  key { 65001 }
+	  info { door, closed, locked }
+	  keywords { runed door }
+	to { w, 32 }
+	  info { message }
+  }
+}
+
+34
+{
+  name { The King's Final Resting Place  }
+  desc {
+"   The chamber is beautiful, now this is a final resting place fit for a
+king.  There are scenes of epic battles carved into the walls.  Although 
+you can not read the runes on them, you are sure the person who rests here
+was a great warrior, along with being a great king.  You start to get the 
+feeling that you might have disturbed his final resting though.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The whole tomb starts to shake, the torches have gone out. 	}
+  }
+  tele { 30, 0, 38 }
+  exits {
+	to { e, 21 }
+	  key { 65007 }
+	  info { door, closed, pickproof, autoclose }
+	  keywords { gateway }
+  }
+}
+
+35
+{
+  name { By the Altar  }
+  desc {
+"   The altar gives off a strange glow the closer you get to it.  Also, the
+closer you get, you see strange shapes start to form around it.  With the
+shapes getting more solid, you definitely get the feeling they are not 
+going to welcome you with open arms......
+  }
+  flags { dark }
+  exits {
+	to { s, 22 }
+  }
+}
+
+36
+{
+  name { On a Rope Bridge  }
+  desc {
+"   This is truly amazing, now that you have cleared some of the foliage, 
+you can see that there are several well placed rope bridges.  They are 
+well camouflaged and you are certain that they are invisible from below, 
+down on the forest floor.  They offer excellent cover fire for the
+occupants and would be deadly for any enemies down on the forest floor.
+The bridge continues on to the east and to the west is a runed door.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  The bridge sways in the gentle breeze. 	}
+  }
+  exits {
+	to { e, 37 }
+	  info { message }
+	to { w, 5 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, message, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+37
+{
+  name { On a Rope Bridge  }
+  desc {
+"   It is truly amazing to be up so high yet, the bridge is so well 
+crafted, that it barely even sways in the wind.  The tree tops seem to be 
+teeming with life.  Now that you have a better view, there are several 
+dwellings in the trees and rope bridges link them all together. There is 
+a runed door to the east and the bridge continues back to the west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  The bridge sways in the gentle breeze. 	}
+  }
+  exits {
+	to { e, 40 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { runed door }
+	to { w, 36 }
+	  info { message }
+  }
+}
+
+38
+{
+  name { The King's Final Resting Place  }
+  desc {
+"   The chamber is beautiful, now this is a final resting place fit for a
+king.  There are scenes of epic battles carved into the walls.  Although 
+you can not read the runes on them, you are sure the person who rests here
+was a great warrior, along with being a great king.  You start to get the 
+feeling that you might have disturbed his final resting though.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The king has risen from his final resting place and looks none too happy about it.
+	}
+  }
+  tele { 15, 0, 39 }
+  exits {
+	to { e, 21 }
+  }
+}
+
+39
+{
+  name { The King's Final Resting Place  }
+  desc {
+"   The chamber is beautiful, now this is a final resting place fit for a
+king.  There are scenes of epic battles carved into the walls.  Although 
+you can not read the runes on them, you are sure the person who rests here
+was a great warrior, along with being a great king.  You start to get the 
+feeling that you might have disturbed his final resting though.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The king has risen from his final resting place and looks none too happy about it
+	}
+  }
+  exits {
+	to { e, 21 }
+  }
+}
+
+40
+{
+  name { The Ranger's Outpost  }
+  desc {
+"   The ranger's outpost is sparsely decorated, as they only come here to 
+to rest and give the information on the tidings of the forest.  There 
+are a few beds and a couple lockers, that is about all.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  The bridge sways in the gentle breeze. 	}
+  }
+  exits {
+	to { w, 37 }
+	  key { 65001 }
+	  info { door, closed, locked, pickproof, message, autoclose, autolock }
+	  keywords { runed door }
+  }
+}
+
+44
+{
+  name { A Well Worn Path  }
+  desc {
+The path looks like it has been used for many years, and is well maintained
+  }
+}
+
+100
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path although it has been well maintained.  It is still obvious 
+that it is rather old, just by looking at the trees that trees on either 
+side of it.  The path is big enough here to allow for the small carts that
+some merchants use.
+  }
+  sector { Forest }
+  flags { no_mob }
+}
+
+101
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path seems to be gradually getting wider the further south you go.
+Off in the distance you can hear the faint sounds of civilazation.  The 
+path leads off to the south and back to the north.
+  }
+  sector { Forest }
+  flags { no_mob }
+}
+
+102
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path has gradually widened to allow for a lot of travellers or 
+merchants.  The path is showing recent signs of repair along both sides
+of the roads large stones have been to place to make travel very 
+difficult off the path into the forest.  The trees are starting to thin
+out off to the south.  The path continues off to the south and back to the
+north.
+  }
+  sector { Forest }
+  flags { no_mob }
+}
+
+103
+{
+  name { A Well Worn Path  }
+  desc {
+"   The path widens considerably here and the stones to either sides has 
+gradually form into rather formidable walls now.  Off to the south is what
+appears to be a rather large village.  The gates even from here look quite 
+impressive for a village out in the middle of nowhere like this one, it
+also appears the village has been surrounded by a very imposing wall.
+  }
+  sector { Forest }
+  flags { no_mob }
+}

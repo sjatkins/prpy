@@ -1,0 +1,679 @@
+#offset WildernessSpecial
+
+0
+{
+  name { A Busy Street  }
+  desc {
+"   You are standing on a busy street where scrawny, ragged stray 
+cats are following anyone with a possible meal. All around you people
+are meandering about trying to ready themselves for a day of fishing or
+a long voyage at sea. To the east, a sign in the shape of a fish 
+reads Aesiuppes Bait Shop hangs above a door. 
+  }
+  sector { City }
+  flags { no_sum }
+  exits {
+	to { n, Wilderness7:280 }
+	to { s, 2 }
+	to { 10, 1 }
+	  keywords { shop }
+  }
+}
+
+1
+{
+  name { Aesiuppe's Bait Shop  }
+  desc {
+"   You have entered the Aesiuppes Bait Shop. The building is small 
+but the shop has all the necessary equipment for off-shore fishing
+or to simply fish from the beach. In front of you is the help counter 
+where the shopkeeper provides you with assistantce on a purchase or
+just advice on what fishes are biting on today. On the wall behind
+the counter are rods, hooks, lines, and all sorts of fishing lures.
+  }
+  flags { indoors, peaceful, no_magic }
+  exits {
+	to { 10, 0 }
+	  keywords { pier }
+  }
+}
+
+2
+{
+  name { The Pier  }
+  desc {
+"   You are standing at the beginning of a pier, where the weathered
+planks lead you away from the shore. The sounds of waves crashing 
+on the beach fill the air as every wave releases a moisture that
+cools off the hot sunrays. There are sailors and fisherman all about
+this part of the peir, loading and unloading their vessels.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 0 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { The Pier  }
+  desc {
+"   You are standing on the edge of the pier. The crowds subside at 
+this end since most business is handled at the beginning of the pier.
+One can hear the bargaining of patrons attempting to purchase a
+ticket to leave the Wilderness region. The bantering of sailors
+about to set sail is vaguely heard over the waves crashing into the pier 
+  }
+  flags { no_sum }
+  exits {
+	to { n, 2 }
+  }
+}
+
+10
+{
+  name { A Steep Volcano Slope  }
+  desc {
+"   You can barely make out the trail as you slowly continue up 
+toward the crater. As you struggle up the steep slope the poisonus
+fumes begin to smother the air, making breathing a challenge. Further
+across the flank a lahar of mud burns its way down leaving
+a smokey trail.
+  }
+  sector { Mountains }
+  flags { no_sum }
+  exits {
+	to { u, 11 }
+	to { d, Wilderness1:587 }
+  }
+}
+
+11
+{
+  name { A Steep Volcano Slope  }
+  desc {
+"   The stench increases becoming unbearable as you near the mouth
+of the crater. This dangerous path is a gauntlet  of jagged
+edged rocks, any slip can cause you great harm. One must be mindful
+of the perils as this will be your last chance to turn back. The
+petrified pumice is more evident as a slight tremor rearranges the
+ground.
+  }
+  sector { Mountains }
+  flags { no_sum }
+  exits {
+	to { u, 12 }
+	to { d, 10 }
+  }
+}
+
+12
+{
+  name { The Edge of the Crater  }
+  desc {
+"   The pungent stench of sulphur singes the air as well as your lungs.
+You notice that someone has been here since at the mouth you vaguely
+see what seems to be a cairn. Giant gas fumacoles explode further 
+along the mount sending rocks flying in all directions that loosens 
+scree causing it to tumble down the mountain.
+  }
+  sector { Fire }
+  flags { no_sum }
+  exits {
+	to { n, 13 }
+	to { d, 11 }
+  }
+}
+
+13
+{
+  name { The Center of the Crater  }
+  desc {
+"   It's Hot!! Yellow deposits spew the putrid odor of sulphur.
+A lake of burning lava burns before you with geisers bursting all
+about you. Fiery tears rain from the sky, burning and dissolving
+your skin. The incinerating heat blurrs your vision and the exploding
+bubbles strike you blind, making it difficult to make you way.
+  }
+  sector { Fire }
+  flags { no_sum }
+  exits {
+	to { n, 14 }
+	to { s, 12 }
+	to { northeast, 15 }
+	to { northwest, 16 }
+  }
+}
+
+14
+{
+  name { The Center of the Crater  }
+  desc {
+"   You stand in the middle of a seething sea of molten lava. 
+Bubbling and grumbling with a tiny display of its pyrotechnics,
+the volcano reminds you of it's devastating fury. Geysers are
+bursting more rapidly, the droplets penetrate your
+armor burning your skin.
+  }
+  sector { Fire }
+  flags { no_sum }
+  exits {
+	to { e, 15 }
+	to { s, 13 }
+	to { w, 16 }
+  }
+}
+
+15
+{
+  name { The Center of the Crater  }
+  desc {
+"   It's Hot!! Yellow deposits spew the putrid odor of sulphur.
+A lake of burning lava burns before you with geisers bursting all
+about you. Fiery tears rain from the sky, burning and dissolving
+your skin. The incinerating heat blurrs your vision and the exploding
+bubbles strike you blind, making it difficult to make you way.
+  }
+  sector { Fire }
+  flags { no_sum }
+  exits {
+	to { w, 14 }
+	to { southwest, 13 }
+  }
+}
+
+16
+{
+  name { The Center of the Crater  }
+  desc {
+"   You stand in the middle of a seething sea of molten lava. 
+Bubbling and grumbling with a tiny display of its pyrotechnics,
+the volcano reminds you of it's devastating fury. Geysers are
+bursting more rapidly, the droplets penetrate your
+armor burning your skin.
+  }
+  sector { Fire }
+  flags { no_sum }
+  exits {
+	to { e, 14 }
+	to { southeast, 13 }
+  }
+}
+
+20
+{
+  name { A Peaceful Path.  }
+  desc {
+"   Birds chirp merrily, nesting in the low shrubbery. A 
+slight breeze blows in from the east, waving several 
+strands of grass back and forth in an almost hypnotizing
+manner. Green and red moss glisten on the ground, 
+soaked with water like a huge sponge. The faint sound of
+splashing water can be heard to the north.
+  }
+  sector { Field }
+  flags { no_sum }
+  exits {
+	to { n, 21 }
+	to { 10, Wilderness2:397 }
+	  keywords { trail }
+  }
+}
+
+21
+{
+  name { A Glimmering Pool.  }
+  desc {
+"   A shallow pool of glowing green water, laps quietly
+against the stoney shore. Small water creatures dart
+in a random pattern across the pool, leaving slight ripples
+on the glassy surface. Peering into the shallow water,
+allows a view of the green phosphorescent algae attached
+to the rock bottom.  In the distance to the north, you see 
+a towering waterfall, falling with spendid grace to a large 
+pool beneath.
+  }
+  sector { Shallow Water }
+  flags { no_sum }
+  exits {
+	to { n, 24 }
+	to { e, 23 }
+	to { s, 20 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { A Sparsely Forested Shore.  }
+  desc {
+"   Tall thin trees reach toweringly into the sky, blowing
+silently in a soft breeze. Thick brown roots rise from beneath
+the soil, edging slowly towards the pool to the east. Weaving
+in and out of each other, they are intertwined like snakes, 
+creating a natural obstacle course. Water slaps invitingly 
+against a shore to the east.
+  }
+  sector { Forest }
+  flags { no_sum }
+  exits {
+	to { e, 21 }
+  }
+}
+
+23
+{
+  name { A Peaceful Shore.  }
+  desc {
+"   Gentle waves lap playfully against the sandy shore, 
+forming small piles of foam, which glisten in the light. A
+warm breeze blows softly across the beach, trailing fine
+streams of the soft sand into the clear green water. Large
+butterflies flutter their way from rock to rock, seemingly 
+stopping to enjoy all nature has to offer in this wonderous 
+place. The calm, silent pool to the west, remains still as 
+glass, inviting all passers by to come bask in its splendour.
+  }
+  sector { Field }
+  flags { no_sum }
+  exits {
+	to { w, 21 }
+  }
+}
+
+24
+{
+  name { The Crystal Falls of Manath  }
+  desc {
+"  A beautiful sight to behold, bellowing down from high
+above, is a long waterfall, with water falling like crystals
+in the sunlight, creating a perfect rainbow over the shimmering
+crystal water. A fine mist sprays from the falls, hovering over
+the pool like clouds from heaven. The constant 'Hssssh' of the
+waterfall provides a peaceful feeling of ease, as birds chirp their
+sweet melodic songs of happiness, such that one cannot help
+but to be in awe in this magical place. Beneath the soft flowing
+falls is a dark cavern, almost hidden from an untrained eye.
+  }
+  sector { Shallow Water }
+  flags { no_sum }
+  exits {
+	to { e, 26 }
+	to { s, 21 }
+	to { w, 25 }
+	to { 10, 27 }
+	  info { hidden }
+	  keywords { cavern }
+  }
+}
+
+25
+{
+  name { A Stoney Shore.  }
+  desc {
+"   Slippery grey stones line the shore of the pool to your east.
+A thin layer of slime has coated the fist sized rocks, creating
+a minor nuisance for any weary travellers. A loud rumbling noise
+of water hitting water can be heard echoing across the stoney
+shore.  A thick, fog-like haze hangs omniously in the air, creating
+a blanket of moisture and impeding the view to the east.
+  }
+  sector { Field }
+  flags { no_sum }
+  exits {
+	to { e, 24 }
+  }
+}
+
+26
+{
+  name { A Muddy Shore.  }
+  desc {
+"   Various tracks are imprinted in the mud on this gravel shore.
+Several small pools of murky water have filled the prints, 
+leaving dozens of tiny puddles. Droplets spray from the waterfall
+to the west, causing several puddles to overflow, causing them
+to send water trickling back to the larger pool to the west.
+  }
+  sector { Field }
+  flags { no_sum }
+  exits {
+	to { w, 24 }
+  }
+}
+
+27
+{
+  name { A Hidden Cavern.  }
+  desc {
+"   This dark cavern has been hidden behind the waterfall for 
+centuries, and looks to have been left untouched. Droplets
+splash inside the first few meters of the cave, creating small 
+pools of mud. Deeper into the cavern, the ground is crunchy
+and dry, undisturbed by intruders. The booming sound of the
+waterfall is multiplied inside the enclosure, echoing to an 
+extreme level, covering any other sounds that may be present.
+  }
+  flags { indoors }
+  exits {
+	to { 10, 24 }
+	  keywords { waterfall }
+  }
+}
+
+29
+{
+  name { 213139  }
+  desc { Empty   }
+  flags { no_sum }
+}
+
+30
+{
+  name { Entrance to Tollerin.  }
+  desc {
+"   This is the entrance to a small forest village. Thick bamboo has
+been entwined with vines to form a sturdy fence, acting to keep 
+wild animals out. A large oak sign has been picketed into the ground
+and reads, 'Welcome to Tollerin!' It seems to be a pleasant little town,
+the children play merrily to the north, the locals eye you over with a 
+look of concern.
+  }
+  extra {
+	keywords { sign }
+	desc { 
+This is a large oak sign which has been hammered deep into the ground. It reads,
+'Welcome to Tollerin!'
+	}
+  }
+  flags { no_sum }
+  exits {
+	to { n, 31 }
+  }
+}
+
+31
+{
+  name { Central Square.  }
+  desc {
+"  This is a very dirty and unkept central square. Locals walk silently
+around the edges of the square, many careful not to approach the
+large statue which occupies the center. Mothers slap the wrists of 
+children attempting to approach the statue, cursing them out and 
+pulling them away quickly.
+  }
+  extra {
+	keywords { large statue }
+	desc { 
+This is a large statue of a slight man, dressed in leather clothing and carrying a sharp dagger.
+His face is hidden by a black hood, which has purposely been pulled over his face. Words are
+engraved at the base of the statue on a brass slab.
+	}
+	keywords { brass slab }
+	desc {  It reads, 'In memory of Twindle Slightfingers, founder of Tollerin.' 	}
+  }
+  flags { no_sum }
+  exits {
+	to { n, 36 }
+	to { e, 34 }
+	to { s, 30 }
+	to { w, 33 }
+	to { 10, 32 }
+	  keywords { weaponsmith }
+	to { 11, 35 }
+	  keywords { bakery }
+  }
+}
+
+32
+{
+  name { A Filthy Weaponsmith.  }
+  desc {
+"   This small weapons shoppe is quite dark, and it becomes difficult to
+make out the scattered metals on the floor.  Most of the items here
+appear to be useless.  A large metal table sits in the middle of the room,
+obviously for the forging of new weapons.
+  }
+  extra {
+	keywords { table }
+	desc {  The table is well worn, and is blackened from the hot metal. 	}
+  }
+  flags { indoors }
+  exits {
+	to { 10, 31 }
+	  keywords { square }
+  }
+}
+
+33
+{
+  name { A Strange Playground.  }
+  desc {
+"   This is a strange little playground. The children race back and forth
+in front of you, trying to catch your attention as others brush quickly 
+against your money pouch. There are several ropes tied onto a tree, 
+for the children to learn to climb. In the far corner of the playground, 
+a maze of chain link has been locked together, with some of the finest
+locks you have ever seen. Several children work vigorously with small
+tools, trying to pick the various locks.
+  }
+  extra {
+	keywords { rope }
+	desc { 
+This is a long rope measuring approximately twenty feet long. The children appear to have no
+problems mastering their climbing skills.
+	}
+	keywords { maze chain link }
+	desc { 
+Quite a strange contraption. There must be a hundred chains, and just as many locks. A few
+of the smaller locks have been opened and discarded in a pile. Many of the children work
+diligently, driving, poking, and picking at the locks with small silver utensils.
+	}
+  }
+  flags { no_sum }
+  exits {
+	to { e, 31 }
+  }
+}
+
+34
+{
+  name { Rows of Houses.  }
+  desc {
+"   On this small street is a row of approximately twenty small houses.
+The houses windows have been tightly barred with iron, each door
+held closed with elaborate locking systems. It is strange that each 
+each home is locked so securly, the town seems like a safe and 
+friendly place. The central square can be seen to the west.
+  }
+  flags { no_sum }
+  exits {
+	to { w, 31 }
+  }
+}
+
+35
+{
+  name { An Unkept Bakery.  }
+  desc {
+"   This place is filthy for a bakery! Stale and rotten bread dough
+litters the floor, emitting a rotten, yeasty odour. Several small mice
+scurry about, picking up crumbs and fleeing into a small hole in the
+wall. A single burnt loaf of bread has been left on the counter, a 
+black fly encircles, stopping periodically to feed on the crust.
+  }
+  extra {
+	keywords { loaf bread }
+	desc { 
+This bread seems to have been here for a very long time. The crust is black and has hardened
+over time. Its impossible to tell if it was white or whole wheat, but that doesn't matter,
+nobody in their right mind would eat this bread.
+	}
+	keywords { hole mouse }
+	desc { 
+This is a small hole in the wall where the mice apparently live. It doesn't seem to
+lead to anywhere important.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { 10, 31 }
+	  keywords { square }
+  }
+}
+
+36
+{
+  name { An Obscure Path.  }
+  desc {
+"  This is a dark, unkept forested path. Trees and twigs crack in the
+woods on both sides, as though someone is attempting to hide in the
+brush. Thorned vines enclose the sides of the path, tugging at 
+adventurers equipment like little hands. A small building with a tattered 
+ sign lies to the north. The view to the south is obstructed by low 
+hanging limbs.
+  }
+  extra {
+	keywords { sign }
+	desc {  The sign simply reads, 'INN' 	}
+  }
+  flags { no_sum }
+  exits {
+	to { s, 31 }
+	to { 10, 37 }
+	  keywords { inn }
+  }
+}
+
+37
+{
+  name { A Tiny Inn.  }
+  desc {
+"   This is a very small inn consisting of a tiny entrance, and a barred
+office window, where customers can talk to the receptionist. Some
+of the bars on the office window have been slightly filed, and scraped
+with a sharp tool. Looking in the window, reveals a receptionist, who
+looks at you with a hint of distrust. The exit from the inn leads onto an
+obscure path.
+  }
+  flags { indoors, peaceful, rent_room }
+  exits {
+	to { 10, 36 }
+	  keywords { path }
+  }
+}
+
+38
+{
+  name { A Secret Alchemy Study.  }
+  desc { Empty   }
+  flags { no_sum }
+  exits {
+	to { 10, 32 }
+	  info { secret, pickproof, hidden }
+	  keywords { trapdoor }
+  }
+}
+
+39
+{
+  name { 213149  }
+  desc { Empty   }
+  flags { no_sum }
+}
+
+50
+{
+  name { A dusty trail in the deep, dark forest  }
+  desc {
+You are on a dusty trail leading through the deep, dark forest.  Ancient,
+grey trees loom everywhere.  The trail continues south and west.  A broad
+irregular path leads eastwards away from the trail.
+  }
+  sector { Forest }
+  extra {
+	keywords { tree trees trunk trunks }
+	desc { 
+To the east the ancient grey giants have many marks as if something with huge
+claws has been tearing at them in rage.
+	}
+	keywords { trail }
+	desc { 
+The dark and dusty trail seems fragile compared to the massive trunks, and in
+some places, giant grey roots have broken up through its surface.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { e, Wilderness2:382 }
+	to { w, 51 }
+  }
+}
+
+51
+{
+  name { Outside two caves in the Deep Dark Forest  }
+  desc {
+"   You are at the end of a broad, irregular path.  To the north
+and south are two caves, ominous-looking.  The trees and the ground
+are heavily marked, great gouges have been ripped from the ground
+and claw marks on the trees.
+  }
+  sector { Forest }
+  extra {
+	keywords { tree trees }
+	desc { 
+The ancient grey giants have many marks as if something with huge claws has
+been tearing at them in rage.
+	}
+	keywords { cave opening }
+	desc { 
+The disgusting smell of a large reptile emanates from the cave opening.
+	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 52 }
+	to { e, 50 }
+	to { s, 53 }
+  }
+}
+
+52
+{
+  name { The cave of the Green Dragon  }
+  desc {
+You are in a big natural cave.  The floor is littered with bones of all sorts
+and the stench is so massive that you could cut it with a knife.  The only exit
+is to the south.
+  }
+  sector { Forest }
+  extra {
+	keywords { bone bones floor }
+	desc {  Most of the bones on the floor appear to be of human origin. 	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { s, 51 }
+  }
+}
+
+53
+{
+  name { The Cave of the Blue Dragon  }
+  desc {
+You are in a big natural cave.  The floor is littered with bones of all sorts
+and the stench is so massive that you could cut it with a knife.  The only exit
+is to the south.
+  }
+  sector { Forest }
+  extra {
+	keywords { bone bones floor }
+	desc {  Most of the bones on the floor appear to be of human origin. 	}
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 51 }
+  }
+}

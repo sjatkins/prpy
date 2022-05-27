@@ -1,0 +1,1023 @@
+#offset NewShire
+
+0
+{
+  name { Above a Gaping Hole  }
+  desc {
+"   A huge gaping hole has been dug through the middle of Took Hill.
+It looks almost like a void in space, as nothing but darkness can be
+seen below.  The sounds of many battles echo up from below, as does
+the smell of recent death.  A clear blue shield covers the hole.  What
+is happening here?  A loud clang lets off a spark from below the blue
+shield.  A voice from above finally speaks, "I can let you through, but
+only for a short time!".  "Go, all of you... GO!", he barks, as the
+blue glow flitters, signaling your entrance.
+  }
+  sector { Air }
+  extra {
+	keywords { _ex10 }
+	desc { 
+The blue shield flickers while you pass through and turns solid again once
+you get to the other side.
+	}
+  }
+  flags { no_mob, peaceful }
+  exits {
+	to { e, Shire:30 }
+	to { 10, 1 }
+	  info { message }
+	  keywords { hole }
+  }
+}
+
+1
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The hole continues into absolute darkness.  Thanks to several torches
+lining the walls, a small amount of the surroundings can be viewed.  
+There are hundreds of suppression supports holding the walls from
+collapsing in on themselves.  It is almost as if someone, or something,
+could climb up or down.  The blue shield has completely sealed up,
+blocking any chance of going up anyway.  The only option is to go further
+into the darkness.
+  }
+  flags { dark }
+  exits {
+	to { d, 2 }
+  }
+}
+
+2
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole continues up and down.  The surrounding 
+walls can be viewed thanks to several torches lining the walls.  There
+are hundreds of support structures holding the walls from collapsing
+in on the themselves.  You could definitely continue in either
+direction safely, but so could anyone else.  The glowing blue shield
+can barely be seen from here.  The sounds of battle are getting
+louder in the echoes rising up from below.
+  }
+  flags { dark }
+  exits {
+	to { u, 1 }
+	to { d, 3 }
+  }
+}
+
+3
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The dark hole continues up and down.  Some tunnels have been made
+into the east and west walls.  Thanks to several torches lining the
+walls, the surrounding area can be viewed.  There are hundreds of
+support structures holding the walls from collapsing in on themselves.
+You could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle are getting louder in the echoes
+from every direction.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { e, 6 }
+	to { w, 4 }
+	to { u, 2 }
+	to { d, 8 }
+  }
+}
+
+4
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the west and the bottomless hole descends
+to the east.  Torches, attached to the ladder like structures holding up
+the ceiling and the walls, provide a little bit of light.  Although, it
+is still difficult to see more than a few feet in either direction.  A
+shadow passes over a few of the torches on the northern wall, headed
+towards the west.  The sounds of battle can be heard towards the east.
+  }
+  flags { dark }
+  exits {
+	to { e, 3 }
+	to { w, 5 }
+  }
+}
+
+5
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back down the cavernous
+hole towards the east.  There are ladder like structures holding up the
+ceilings and walls, with torches every few feet to provide a bit of light.
+The echoes of battle bounce off the cavern walls to the east.  The
+smell of death is everywhere.  It appears that the orcs cut out these
+corridors and packed the dirt in tight, to avoid being spotted entering 
+the Shire.
+  }
+  flags { dark }
+  exits {
+	to { e, 4 }
+  }
+}
+
+6
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the east and the dark, bottomless hole
+descends to the west.  The sounds of battle can be heard echoing in
+from the west.  Torches, attached to the ladder like structures holding
+up the ceiling and the walls, provide some light to see the room.  It
+is still difficult to see more than a few feet, regardless.  What
+sounds like rocks falling can be heard coming from the east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  Some dirt and rocks fall from the ceiling and right onto your head! 	}
+  }
+  flags { dark }
+  exits {
+	to { e, 7 }
+	  info { message }
+	to { w, 3 }
+  }
+}
+
+7
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back towards the
+bottomless pit to the west.  The ladder like structures line this part
+of the cavern, holding up the ceiling and the walls.  Some dirt and 
+debris falls in small pieces from the ceiling.  It appears that the
+orcs cut out the tunnels and impacted the dirt, to avoid being spotted
+entering the Shire.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  Some dirt and rocks fall from the ceiling and right onto your head! 	}
+  }
+  flags { dark }
+  exits {
+	to { w, 6 }
+	  info { message }
+  }
+}
+
+8
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole continues up and down.  The surrounding
+walls can be viewed thanks to several torches lining the walls.  There
+are hundreds of support structures holding the walls from collapsing
+in on themselves.  You could definitely continue in either direction
+safely, but so could anyone else.  The sounds of battle can be heard
+echoing in from up and down the cavernous shaft.  Is this thing ever
+going to end?
+  }
+  flags { dark }
+  exits {
+	to { u, 3 }
+	to { d, 9 }
+  }
+}
+
+9
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole continues up and down.  The surrounding
+walls can be viewed thanks to several torches lining the walls.  There
+are hundreds of support structures holding the walls from collapsing
+in on themselves.  You could definitely continue in either direction
+safely, but so could anyone else.  The sounds of battle can be heard
+echoing in from up and down the cavernous shaft.  Is this thing ever
+going to end?
+  }
+  flags { dark }
+  exits {
+	to { u, 8 }
+	to { d, 10 }
+  }
+}
+
+10
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The dark hole continues up and down.  Some tunnels have been made
+into the north and south walls.  Thanks to several torches lining the
+walls, the surrounding area can be viewed.  There are hundreds of
+support structures holding the walls from collapsing in on themselves.
+You could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle are getting louder in the echoes
+from every direction.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { n, 11 }
+	to { s, 13 }
+	to { u, 9 }
+	to { d, 15 }
+  }
+}
+
+11
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the north and the dark, bottomless hole
+descends to the south.  The sounds of battle can be heard echoing in
+from the south.  Torches, attached to the ladder like structures
+holding up the ceiling and walls, provide a bit of light to see the
+room.  It is still difficult to see more than a few feet, regardless.
+Flashes of movement can be seen from the torch reflections on the
+hallway walls to the north.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  Dirt and debris falls down from the ceiling and onto your head. 	}
+  }
+  flags { dark }
+  exits {
+	to { n, 12 }
+	  info { message }
+	to { s, 10 }
+  }
+}
+
+12
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens back up towards the
+seemingly endless pit to the south.  Shadows of movement can be
+seen on the hallway walls in the corridor to the south.  The ladder
+like structures holding up the ceilings and walls cover this part
+of the cavern.  The orcs have hastily put these corridors together.
+Dust and debris rain down from the ceiling at the merest touch.
+  }
+  extra {
+	keywords { _ex2 }
+	desc {  Dirt and debris falls down from the ceiling and onto your head. 	}
+  }
+  flags { dark }
+  exits {
+	to { s, 11 }
+	  info { message }
+  }
+}
+
+13
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the south and the dark, bottomless hole
+descends to the north.  Torches, attached to ladder like structures
+holding up the ceiling and walls, provide some light to see the room.
+It is still difficult to see more than a few feet, regardless.  The
+sounds of battle can be heard echoing in from every direction.  Flashes
+of movement can be seen from the torch reflections on the hallways to
+the south.
+  }
+  flags { dark }
+  exits {
+	to { n, 10 }
+	to { s, 14 }
+  }
+}
+
+14
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back down the cavernous
+hole towards the north.  There are ladder like structures holding up the
+ceilings and walls, with torches every few feet to provide a bit of light.
+The echoes of battle bounce off the cavern walls to the east.  The smell
+of death if everywhere.  It appears that the orcs cut out these corridors
+and packed the dirt in tight, to avoid being spotted entering the Shire.
+  }
+  flags { dark }
+  exits {
+	to { n, 13 }
+  }
+}
+
+15
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole continues up and down.  The surrounding
+walls can be viewed thanks to several torches lining the walls.  There
+are hundreds of support structures holding the walls from collapsing
+in on themselves.  You could definitely continue in either direction
+safely, but so could anyone else.  The sounds of battle can be heard
+echoing in from up and down the cavernous shaft.  Is this thing ever
+going to end?
+  }
+  flags { dark }
+  exits {
+	to { u, 10 }
+	to { d, 16 }
+  }
+}
+
+16
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The dark hole continues up and down.  Some tunnels have been made
+into nearly every direction.  Pitch black tunnels lead to the north,
+south, east and west.  Thanks to several torches lining the walls,
+the surrounding area can be viewed.  There are hundreds of support
+structures holding the walls from collapsing in on themselves.  You
+could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle echo in from every direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 21 }
+	to { e, 25 }
+	to { s, 34 }
+	to { w, 17 }
+	to { u, 15 }
+	to { d, 18 }
+  }
+}
+
+17
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the west and the dark, seemingly
+bottomless hole descends to the east.  The sounds of battle can be
+heard echoing in from every direction.  Torches, attached to the
+ladder like stuctures holding up the ceiling and walls, prove some
+light to see the room.  It is difficult to see more than a few feet,
+regardless.  What sounds like rocks falling can be heard coming from
+the west.
+  }
+  flags { dark }
+  exits {
+	to { e, 16 }
+	to { w, 20 }
+  }
+}
+
+18
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole continues up and down.  The surrounding
+walls can be viewed thanks to several torches lining the walls.  There
+are hundreds of support structures holding the walls from collapsing
+in on themselves.  You could definitely continue in either direction
+safely, but so could anyone else.  The sounds of battle can be heard
+echoing in from up and down the cavernous shaft.  Is this thing ever
+going to end?
+  }
+  flags { dark }
+  exits {
+	to { u, 16 }
+	to { d, 19 }
+  }
+}
+
+19
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The dark hole continues up and down.  Some tunnels have been made
+into the northeast and southwest walls.  Thanks to several torches 
+lining the walls, the surrounding area can be viewed.  There are hundreds
+of support structures holding the walls from collapsing in on themselves.
+You could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle are getting louder in the echoes
+from every direction.
+  }
+  flags { dark }
+  exits {
+	to { u, 18 }
+	to { d, 40 }
+	to { northeast, 31 }
+	to { southwest, 32 }
+  }
+}
+
+20
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern opens up to the northeast, southeast and back towards
+the east.  Shadows of movement are reflected on the hallways in every
+direction.  This place is really busy.  The sounds of battle echo in and
+it sounds very close.  The ladder like structures holding up the ceilings
+and walls cover this part of the corridor.  The orcs have hastily put
+these corridors together.  Dust and debris rain down from the ceiling at
+the slighest touch.
+  }
+  flags { dark }
+  exits {
+	to { e, 17 }
+	to { northeast, 24 }
+	to { southeast, 37 }
+  }
+}
+
+21
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the north and the bottomless hole decends
+to the east.  Torches, attached to the ladder like structures holding up
+the ceiling and walls, provide some light to see.  Although, it is
+still difficult to see more than a few feet in either direction.  A
+shadow passes over a few of the torches on the western wall, headed
+towards the north.  The sounds of battle can be echoing in from every
+direction.
+  }
+  flags { dark }
+  exits {
+	to { n, 22 }
+	to { s, 16 }
+  }
+}
+
+22
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern opens up to the southwest, southeast and back towards
+the south.  Shadows of movement are reflected on the hallways in every
+direction.  This place is really busy.  The sounds of battle echo in from
+every direction, and it sounds very close.  The ladder like structures
+holding up the ceilings and walls cover this part of the corridor.  The
+orcs must have hastily put these corridors together, as dust and debris
+rain down from the ceiling with the lightest touch.
+  }
+  flags { dark }
+  exits {
+	to { s, 21 }
+	to { southeast, 28 }
+	to { southwest, 23 }
+  }
+}
+
+23
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor feels much more constraining than the rest of
+the tunnels.  The sides of the tunnel is littered with discarded equipment 
+and bodies.  It feels like the ceiling and walls are actually collapsing.
+Fortunately, the walls are still laced with that ladder like structure
+that keeps the other walls so secure.  The sounds of battle and death can
+be heard in every direction.  Dust and debris rain down from the ceiling
+with the merest touch.
+  }
+  extra {
+	keywords { _ex8 }
+	desc {  Some debris drops from the ceiling and hits you on the head. 	}
+  }
+  flags { dark }
+  exits {
+	to { northeast, 22 }
+	to { southwest, 24 }
+	  info { message }
+  }
+}
+
+24
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor is much smaller than the other tunnels, mostly
+due to supplies the orcs have left behind.  This invasion must have been
+very well planned indeed.  The orcs may have succeeded if not for the
+white wizard and his friends.  The sounds of battle and death can be heard
+in every direction.  The ladder like structures holding up the ceiling
+and walls cover these side tunnels.  Dust and debris rain down from the
+ceiling at the slightest touch.
+  }
+  extra {
+	keywords { _ex6 }
+	desc {  Some debris drops from the ceiling and hits you on the head. 	}
+  }
+  flags { dark }
+  exits {
+	to { northeast, 23 }
+	  info { message }
+	to { southwest, 20 }
+  }
+}
+
+25
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the east and the dark, bottomless hole
+descends to the west.  Torches, attached to ladder like structures
+holding up the ceiling and walls, provide a bit of light to see the
+room.  It is still difficult to see more than a few feet, regardless.
+The sounds of battle can be heard echoing in from every direction.
+Flashes of movement can be seen from the torch reflections on the
+hallway walls to the east.
+  }
+  flags { dark }
+  exits {
+	to { e, 26 }
+	to { w, 16 }
+  }
+}
+
+26
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern opens up to the northwest, southeast and back towards
+the west.  Shadows of movement are reflected on the hallway walls in 
+every direction.  This place is really busy.  The sounds of battle echo
+in and it sounds very close!  The ladder like structures holding up the
+ceilings and walls cover this part of the cavern.  The orcs must have
+hastily put these corridors together.  Dust and debris rain down from the
+ceiling at the lightest touch.
+  }
+  flags { dark }
+  exits {
+	to { w, 25 }
+	to { southwest, 39 }
+	to { northwest, 27 }
+  }
+}
+
+27
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor feels much more constraining than the rest of
+It feels like the ceiling and walls are actually collapsing.  Rocks and
+blankets of dust rain down from the ladder like structure in the ceiling.
+The ground below starts to give way and a large sink hole opens in the room.
+Everything in the room starts to fall though, including you.
+  }
+  extra {
+	keywords { _ex9 }
+	desc {  Some debris drops from the ceiling and hits you on the head. 	}
+	keywords { _teleport }
+	desc {  The rock floor gives way and buries you under a ton of dirt and rock.
+	}
+  }
+  flags { dark, no_mob, fall }
+  tele { 30, 1, 29 }
+  exits {
+	to { d, 29 }
+	  info { hidden }
+	to { southeast, 26 }
+	to { northwest, 28 }
+	  info { message }
+  }
+}
+
+28
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor seems to be the outpost for the invasion plan.
+There are plans on the wall, planning the takeover of the shire.  There is
+a table against the northern part of the cavern, littered with papers and
+scrolls.  Some weapons lean against the table, ready for the instant of
+battle.  The ladder like structures lace the walls of the cavern, holding
+the ceiling and walls in place.  Dust and debris falls through and onto
+the floor, as though it could collapse at any moment.
+  }
+  extra {
+	keywords { _ex7 }
+	desc {  Some debris drops from the ceiling and hits you on the head. 	}
+	keywords { plans }
+	desc { 
+"
+ X--Take out Thain!  Thain office:
+
+  x-x-x-x-x-x-x-x-x en building x-x  <---Thain!!!!
+
+From Took hill!
+
+  X--Take out Elf Warrior and friend!
+
+        x
+        |
+        x
+        |
+        x
+        |
+        x
+        |
+  x-x-x-x
+
+ From Took Hill! Take left at top x!!!
+
+Leader
+	}
+  }
+  flags { dark }
+  exits {
+	to { southeast, 27 }
+	  info { message }
+	to { northwest, 22 }
+  }
+}
+
+29
+{
+  name { Stuck in the Earth  }
+  desc {
+"   You start to panic!  The pain of all this rock and sheer weight of
+it all starts to take way your consciousness.  It starts to get very
+dark......you body......getting numb.......  Suddenly, the earth below
+gives out and starts to slide down.  Salvation!
+  }
+  sector { Underwater }
+  extra {
+	keywords { _teleport }
+	desc {  The rock and dirt give way, dropping you down to the next floor. 	}
+  }
+  flags { dark, fall }
+  tele { 30, 1, 30 }
+  exits {
+	to { d, 30 }
+	  info { hidden }
+  }
+}
+
+30
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back towards the huge
+hole down the corridor to the southwest.  There are ladder like
+structures holding up the ceilings and walls, with torches every few
+feet to provide a bit of light.  The echoes of battle bounce off the
+cavern walls to the southwest.  The smell of death is everywhere.  It
+appears that the orcs cut out these corridors and packed the dirt in 
+tight, to avoid being spotted entering the Shire.
+  }
+  flags { dark }
+  exits {
+	to { southwest, 31 }
+  }
+}
+
+31
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the northeast and the bottomless hole
+descends to the southwest.  Torches, attached to the ladder like 
+structure holding up the ceiling and walls, provide some light to see
+around the room.  Although, it is still difficult to see more than a
+few feet in either direction.  A shadow passes over a few of the torches
+on the western wall, headed towards the northeast.  The sounds of battle
+echo in from the cavern to the southwest.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 30 }
+	to { southwest, 19 }
+  }
+}
+
+32
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the southwest and the dark, bottomless
+hole descends to the northeast.  The sounds of battle can be heard
+echoing in from the northeast.  Torches, attached to the ladder like
+structures holding up the ceiling and walls, provide some light to see
+around the room.  It is still difficult to see more than a few feet,
+regardless.  What sounds like rocks falling can be heard coming from
+the southwest.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 19 }
+	to { southwest, 33 }
+  }
+}
+
+33
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back towards the
+bottomless pit to the northeast.  The ladder like structures line this
+part of the cavern, holding up the ceiling and walls.  Some dirt and
+debris falls in small pieces from the ceiling.  It appears that the
+orcs cut out the tunnels and impacted the dirt into the walls, to avoid
+being spotted entering the Shire.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  Some rocks fall from the ceiling and right onto your head! 	}
+  }
+  flags { dark }
+  tele { 20, 0, 33 }
+  exits {
+	to { northeast, 32 }
+  }
+}
+
+34
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the south and the dark, bottomless hole
+descends to the north.  The sounds of battle can be heard echoing in
+from the south.  Torches, attached to the ladder like structures
+holding up the ceiling and walls, provide a bit of light to see the
+room.  It is still difficult to see more than a few feet, regardless.
+Flashes of movement can be seen from the torch reflections on the
+hallway walls to the south.
+  }
+  flags { dark }
+  exits {
+	to { n, 16 }
+	to { s, 35 }
+  }
+}
+
+35
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern opens up to the northeast, northwest, and back
+towards the giant, black hole to the north.  Shadows of movement can
+be seen on the hallway walls in the corridors in every direction.  The
+ladder like structures holding up the ceilings and walls also cover
+this part of the cavern.  The orcs must have hastily put these corridors
+together, as dust and debris rain down from the ceiling with the 
+slightest touch.
+  }
+  flags { dark }
+  exits {
+	to { n, 34 }
+	to { northeast, 38 }
+	to { northwest, 36 }
+  }
+}
+
+36
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor feels much more constraining than the rest of
+the tunnels.  The sides of the tunnel is littered with discarded equipment 
+and bodies.  It feels like the ceiling and walls are actually collapsing.
+The only way out appears to be tunnels to the southeast and northwest.
+Fortunately, the walls are still laced with that ladder like structure
+that keeps the other walls so secure.  The sounds of battle and death can
+be heard in every direction.  Dust and debris rain down from the ceiling
+with the merest touch.
+  }
+  extra {
+	keywords { _ex9 }
+	desc {  Some dirt and debris fall down from the ceiling and onto your head. 	}
+  }
+  flags { dark }
+  exits {
+	to { southeast, 35 }
+	to { northwest, 37 }
+	  info { message }
+  }
+}
+
+37
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor is much smaller than the other tunnels, mostly
+due to supplies the orcs have left behind.  This invasion must have been
+very well planned indeed.  The orcs may have succeeded if not for the
+white wizard and his friends.  The sounds of battle and death can be heard
+in every direction.  The ladder like structures holding up the ceiling
+and walls cover these side tunnels.  Dust and debris rain down from the
+ceiling at the slightest touch.
+  }
+  extra {
+	keywords { _ex7 }
+	desc {  Some dirt and debris fall down from the ceiling and onto your head. 	}
+  }
+  flags { dark }
+  exits {
+	to { southeast, 36 }
+	  info { message }
+	to { northwest, 20 }
+  }
+}
+
+38
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor feels much smaller than the rest of the
+tunnels.  It is quite clear that the orcs were in a hurry when they were
+constructing these tunnels.  Dirt and rock falls freely from the ladder
+like support system that the orcs put in place to keep the ceiling and
+walls from collapsing.  Probably not best to stand here for too long.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  Some fist sized rocks wall down hard upon your head. 	}
+  }
+  flags { dark }
+  tele { 20, 0, 38 }
+  exits {
+	to { northeast, 39 }
+	to { southwest, 35 }
+  }
+}
+
+39
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   This part of the corridor feels much more constraining than the rest of
+the tunnels.  The sides of the tunnel is littered with discarded equipment 
+and bodies.  It feels like the ceiling and walls are actually collapsing.
+Fortunately, the walls are still laced with that ladder like structure
+that keeps the other walls so secure.  The sounds of battle and death can
+be heard in every direction.  Dust and debris rain down from the ceiling
+with the merest touch.  The only way out appears to be tunnels leading to
+the northeast and southwest.
+  }
+  flags { dark }
+  exits {
+	to { northeast, 26 }
+	to { southwest, 38 }
+  }
+}
+
+40
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole seems to be coming to an end.  There is a
+blue luster rising from deep within the hole.  The only exits appear
+to be up and down.  The surrounding walls can be viewed thanks to
+several torches lining the walls.  There are hundreds of support
+structures holding the walls from collapsing in on themselves.  You
+could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle can be heard echoing in from up 
+and down the cavernous shaft.
+  }
+  flags { dark, no_mob }
+  exits {
+	to { u, 19 }
+	to { d, 41 }
+  }
+}
+
+41
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The bottomless, dark hole seems to be coming to an end.  There is a
+blue luster rising from deep within the hole.  The only exits appear
+to be up and down.  The surrounding walls can be viewed thanks to
+several torches lining the walls.  There are hundreds of support
+structures holding the walls from collapsing in on themselves.  You
+could definitely continue in either direction safely, but so could
+anyone else.  The sounds of battle can be heard echoing in from up 
+and down the cavernous shaft.
+  }
+  flags { dark }
+  exits {
+	to { u, 40 }
+	to { d, 42 }
+  }
+}
+
+42
+{
+  name { Down a Dark Hole  }
+  desc {
+"   The dark hole continues up and down.  There is a blue luster rising
+through the darkness from below.  Maybe there is an end to this thing
+after all!  Some tunnels have been made into the east and west walls.
+Thanks to several torches lining the walls, the surrounding area can
+be viewed.  There are hundreds of support structures holding the walls
+from collapsing in on themselves.  You could definitely continue in
+either direction safely, but so could anyone else.  The sounds of battle
+echo down from above and the corridors to the east and west.
+  }
+  flags { dark }
+  exits {
+	to { e, 46 }
+	to { w, 44 }
+	to { u, 41 }
+	to { d, 43 }
+  }
+}
+
+43
+{
+  name { Before a Blue Barrier  }
+  desc {
+"   A gigantic blue barrier covers the entire cavern floor.  It can be
+walked across, but does not seem able to be pierced or slashed.  Looking
+through the barrier, you can see hundreds, no, thousands of orcs trying
+to break through.  The white wizard is very powerful indeed.
+  }
+  flags { dark }
+  exits {
+	to { u, 42 }
+  }
+}
+
+44
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the west and the bottomless hole descends
+to the east.  Torches, attached to the ladder like structures holding up
+the ceiling and walls, provide a little bit of light.  Although, it
+is still difficult to see more than a few feet in either direction.  A
+shadow passes over a few of the torches on the northern wall, headed
+towards the west.  The sounds of battle can be heard towards the east.
+  }
+  flags { dark }
+  exits {
+	to { e, 42 }
+	to { w, 45 }
+  }
+}
+
+45
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back down the cavernous
+hole towards the east.  There are ladder like structures holding up the
+ceilings and walls, with torches every few feet to provide a bit of light.
+The echoes of battle bounce off the cavern walls to the east.  The
+smell of death is everywhere.  It appears that the orcs cut out these
+corridors and packed the dirt in tight, to avoid being spotted entering 
+the Shire.
+  }
+  flags { dark }
+  exits {
+	to { e, 44 }
+  }
+}
+
+46
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   A small cavern opens up to the east and the dark, bottomless hole
+descends to the west.  The sounds of battle can be heard echoing in
+from the west.  Torches, attached to the ladder like structures holding
+up the ceiling and the walls, provide some light to see the room.  It
+is still difficult to see more than a few feet, regardless.  What
+sounds like rocks falling can be heard coming from the east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  Some dirt and rocks fall down from the ceiling and onto your head! 	}
+  }
+  flags { dark }
+  exits {
+	to { e, 47 }
+	  info { message }
+	to { w, 42 }
+  }
+}
+
+47
+{
+  name { A Corridor Through the Dirt  }
+  desc {
+"   The small cavern comes to an end and opens up back towards the
+bottomless pit to the west.  The ladder like structures line this part
+of the cavern, holding up the ceiling and the walls.  Some dirt and 
+debris falls in small pieces from the ceiling.  It appears that the
+orcs cut out the tunnels and impacted the dirt, to avoid being spotted
+entering the Shire.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  Some dirt and rocks fall down from the ceiling and onto your head! 	}
+  }
+  flags { dark }
+  exits {
+	to { w, 46 }
+	  info { message }
+  }
+}

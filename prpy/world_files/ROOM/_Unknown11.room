@@ -1,0 +1,3253 @@
+#offset _Unknown11
+
+0
+{
+  name { Floating in a twisted, multi-coloured vortex.  }
+  desc {
+"   You tumble and drift slowly in this weightless environment.  Everywhere
+you turn, coloured twisting light and magic swirls chaotically.  You have
+no sense of direction or location, and you can only hope you will
+eventually land somewhere.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+All of a sudden you feel your sense of reality returning, as the
+vortex deposits you in an unfamiliar environment.
+	}
+  }
+  flags { no_mob, indoors, summon_trap }
+  tele { 200, 0, 2 }
+}
+
+1
+{
+  name { Into the vortex  }
+  desc { "   }
+  extra {
+	keywords { _teleport }
+	desc { 
+As you enter the vortex, all your weight seems to disappear.
+You begin to accelerate at a seemingly impossible rate, right
+into swirling colour and magic.
+	}
+  }
+  flags { no_mob, noshowexit, dispel_magic }
+  tele { 1, 0, 0 }
+}
+
+2
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 4 }
+  }
+}
+
+3
+{
+  name { Falling.......  }
+  desc { Empty   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { e, 40 }
+	to { s, 55 }
+	to { d, 4 }
+	to { 10, 70 }
+	  keywords { a }
+	to { 11, 90 }
+	  keywords { aa }
+	to { 12, 100 }
+	  keywords { aaa }
+	to { 13, 60 }
+	  keywords { c }
+	to { 14, 15 }
+	  keywords { t }
+	to { 15, 25 }
+	  keywords { p }
+	to { 16, 35 }
+	  keywords { q }
+	to { 17, 45 }
+	  keywords { r }
+	to { 18, 85 }
+	  keywords { h }
+	to { 19, 115 }
+	  keywords { o }
+	to { 20, 105 }
+	  keywords { l }
+  }
+}
+
+4
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 5 }
+  }
+}
+
+5
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 6 }
+  }
+}
+
+6
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 7 }
+  }
+}
+
+7
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 8 }
+  }
+}
+
+8
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 9 }
+  }
+}
+
+9
+{
+  name { Falling.......  }
+  desc { "   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 123 }
+  }
+}
+
+10
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_mob, no_sum }
+  exits {
+	to { e, 11 }
+  }
+}
+
+11
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 21 }
+	to { w, 10 }
+  }
+}
+
+12
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 13 }
+	to { s, 22 }
+  }
+}
+
+13
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 14 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 15 }
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 25 }
+	to { w, 14 }
+  }
+}
+
+16
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 17 }
+	to { s, 26 }
+  }
+}
+
+17
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 18 }
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 28 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 29 }
+  }
+}
+
+20
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 21 }
+	to { s, 30 }
+  }
+}
+
+21
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 11 }
+	to { e, 22 }
+	to { s, 31 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 12 }
+	to { s, 32 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 24 }
+	to { s, 33 }
+  }
+}
+
+24
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 25 }
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 15 }
+	to { s, 35 }
+	to { w, 24 }
+  }
+}
+
+26
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 16 }
+	to { e, 27 }
+	to { s, 36 }
+  }
+}
+
+27
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 37 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 18 }
+  }
+}
+
+29
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 19 }
+	to { s, 39 }
+  }
+}
+
+30
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 20 }
+	to { s, 40 }
+  }
+}
+
+31
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 21 }
+  }
+}
+
+32
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 22 }
+  }
+}
+
+33
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 23 }
+	to { s, 43 }
+  }
+}
+
+34
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 44 }
+  }
+}
+
+35
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 25 }
+	to { e, 36 }
+  }
+}
+
+36
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 26 }
+	to { s, 46 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 27 }
+	to { e, 38 }
+  }
+}
+
+38
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 39 }
+	to { w, 37 }
+  }
+}
+
+39
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 29 }
+	to { s, 49 }
+	to { w, 38 }
+  }
+}
+
+40
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 30 }
+	to { e, 41 }
+	to { s, 50 }
+  }
+}
+
+41
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 42 }
+	to { s, 51 }
+	to { w, 40 }
+  }
+}
+
+42
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+A craze-filled laugh rings in your head as you feel yourself
+transported elsewhere!
+	}
+  }
+  flags { no_sum }
+  tele { 20, 0, 67 }
+  exits {
+	to { e, 43 }
+	to { s, 52 }
+	to { w, 41 }
+  }
+}
+
+43
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum, relocate_distort }
+  exits {
+	to { n, 33 }
+	to { s, 53 }
+	to { w, 42 }
+  }
+}
+
+44
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 34 }
+	to { e, 45 }
+  }
+}
+
+45
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 55 }
+	to { w, 44 }
+  }
+}
+
+46
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 36 }
+	to { e, 57 }
+	to { s, 56 }
+  }
+}
+
+47
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 48 }
+	to { s, 57 }
+  }
+}
+
+48
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 58 }
+	to { w, 47 }
+  }
+}
+
+49
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 39 }
+  }
+}
+
+50
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 40 }
+	to { s, 60 }
+  }
+}
+
+51
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 41 }
+  }
+}
+
+52
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 42 }
+  }
+}
+
+53
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 43 }
+	to { e, 54 }
+  }
+}
+
+54
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 64 }
+	to { w, 53 }
+  }
+}
+
+55
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 45 }
+	to { e, 56 }
+	to { s, 65 }
+  }
+}
+
+56
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 46 }
+	to { w, 55 }
+  }
+}
+
+57
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 47 }
+	to { s, 67 }
+	to { w, 46 }
+  }
+}
+
+58
+{
+  name { A Shimmering Maze ?  }
+  desc {
+" stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 48 }
+	to { s, 68 }
+  }
+}
+
+59
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 69 }
+  }
+}
+
+60
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 50 }
+	to { e, 61 }
+  }
+}
+
+61
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 71 }
+	to { w, 60 }
+  }
+}
+
+62
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 63 }
+	to { s, 72 }
+  }
+}
+
+63
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 64 }
+	to { w, 62 }
+  }
+}
+
+64
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 54 }
+	to { e, 65 }
+	to { s, 74 }
+	to { w, 63 }
+  }
+}
+
+65
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 55 }
+	to { w, 64 }
+  }
+}
+
+66
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 67 }
+  }
+}
+
+67
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 57 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 58 }
+	to { e, 69 }
+  }
+}
+
+69
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 59 }
+	to { w, 68 }
+  }
+}
+
+70
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 71 }
+	to { s, 80 }
+  }
+}
+
+71
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 61 }
+	to { e, 72 }
+	to { w, 70 }
+  }
+}
+
+72
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 62 }
+	to { e, 73 }
+	to { w, 71 }
+  }
+}
+
+73
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 83 }
+	to { w, 72 }
+  }
+}
+
+74
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 64 }
+	to { e, 75 }
+  }
+}
+
+75
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 85 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 77 }
+	to { s, 86 }
+  }
+}
+
+77
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 87 }
+	to { w, 76 }
+  }
+}
+
+78
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 79 }
+  }
+}
+
+79
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 89 }
+	to { w, 78 }
+  }
+}
+
+80
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 70 }
+	to { s, 90 }
+  }
+}
+
+81
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 82 }
+  }
+}
+
+82
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 92 }
+	to { w, 81 }
+  }
+}
+
+83
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 73 }
+	to { e, 84 }
+  }
+}
+
+84
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 75 }
+  }
+}
+
+86
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 76 }
+	to { s, 96 }
+  }
+}
+
+87
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 77 }
+	to { e, 88 }
+  }
+}
+
+88
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 89 }
+	to { w, 87 }
+  }
+}
+
+89
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 79 }
+	to { w, 88 }
+  }
+}
+
+90
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 80 }
+	to { e, 91 }
+  }
+}
+
+91
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 101 }
+	to { w, 90 }
+  }
+}
+
+92
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 82 }
+	to { e, 93 }
+	to { s, 102 }
+  }
+}
+
+93
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 103 }
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 95 }
+	to { s, 104 }
+  }
+}
+
+95
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 96 }
+	to { s, 105 }
+	to { w, 94 }
+  }
+}
+
+96
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 86 }
+	to { e, 97 }
+	to { w, 95 }
+  }
+}
+
+97
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 107 }
+	to { w, 96 }
+  }
+}
+
+98
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+   A large black tower stands to your east, a door providing 
+entry is, however closed. 
+  }
+  flags { no_mob, no_sum, private }
+  exits {
+	to { e, 99 }
+	  key { 71028 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { door }
+	to { s, 108 }
+  }
+}
+
+99
+{
+  name { Entrance to the tower  }
+  desc {
+"   You stand at the bottom of a large hollow tower, a spiral stair-
+case winds it's way up along the inside.  Towards the top you can
+see a door.  There is also a black-metal door to your immediate
+west.
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 98 }
+	  key { 71028 }
+	  info { door, pickproof, autoclose, autolock }
+	  keywords { door }
+	to { u, 120 }
+  }
+}
+
+100
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 101 }
+	to { s, 110 }
+  }
+}
+
+101
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 91 }
+	to { e, 102 }
+	to { w, 100 }
+  }
+}
+
+102
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 92 }
+	to { w, 101 }
+  }
+}
+
+103
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 93 }
+	to { e, 104 }
+	to { s, 113 }
+  }
+}
+
+104
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 94 }
+	to { w, 103 }
+  }
+}
+
+105
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 95 }
+	to { e, 106 }
+  }
+}
+
+106
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 116 }
+	to { w, 105 }
+  }
+}
+
+107
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 97 }
+	to { e, 108 }
+  }
+}
+
+108
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 98 }
+	to { e, 109 }
+	to { w, 107 }
+  }
+}
+
+109
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 119 }
+	to { w, 108 }
+  }
+}
+
+110
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 100 }
+	to { e, 111 }
+  }
+}
+
+111
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 112 }
+	to { w, 110 }
+  }
+}
+
+112
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { w, 111 }
+  }
+}
+
+113
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 103 }
+	to { e, 114 }
+  }
+}
+
+114
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+A craze-filled laugh rings in your head as you feel yourself
+transported elsewhere!
+	}
+  }
+  flags { no_sum }
+  tele { 30, 0, 15 }
+  exits {
+	to { e, 115 }
+	to { w, 113 }
+  }
+}
+
+115
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { w, 114 }
+  }
+}
+
+116
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 106 }
+  }
+}
+
+117
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 118 }
+  }
+}
+
+118
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 119 }
+	to { w, 117 }
+  }
+}
+
+119
+{
+  name { A Shimmering Maze ?  }
+  desc {
+"   You stand in a strange, magical maze.  Vertical shimmering walls
+and a black obsidian floor restrict your movement.  High above a
+strange green star shines eerily down upon you.  Strange howling
+noises and shrieks reverberate through this maze, origin unknown.
+  }
+  flags { no_sum }
+  exits {
+	to { n, 109 }
+	to { w, 118 }
+  }
+}
+
+120
+{
+  name { Top of the Tower  }
+  desc {
+"   You stand before a wooden door, at the very top of this
+mysterious tower.  A small window sits in the wall here, viewing
+the outside world.
+  }
+  extra {
+	keywords { window small }
+	desc { 
+"   Looking out the window, you can see the vast expanse of this
+maze.  It stretches for as far as you can see, bathed in an 
+bizarre green light.  A large variety of monsters can be seen
+prowling the maze, fighting amongst themselves.
+	}
+  }
+  flags { no_sum, private }
+  tele { 0, 1, 99 }
+  exits {
+	to { n, 121 }
+	  keywords { door }
+	to { d, 99 }
+  }
+}
+
+121
+{
+  name { The Mazemaster's Abode  }
+  desc {
+"   You stand in a large room at the top of the tower.  All around
+you are vast windows, through which you can see a large maze, 
+stretching for miles and miles in all directions.  Several
+telescopic devices sit on tripods, and a large desk with notebooks
+sits in the middle.
+  }
+  flags { no_sum }
+  exits {
+	to { s, 120 }
+	  keywords { door }
+  }
+}
+
+123
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 124 }
+  }
+}
+
+124
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 125 }
+  }
+}
+
+125
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 126 }
+  }
+}
+
+126
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 127 }
+  }
+}
+
+127
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 128 }
+  }
+}
+
+128
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 129 }
+  }
+}
+
+129
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 130 }
+  }
+}
+
+130
+{
+  name { Falling.......  }
+  desc { ... Falling ...   }
+  flags { no_sum, noshowexit, fall, dispel_magic }
+  exits {
+	to { d, 131 }
+  }
+}
+
+131
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 132 }
+  }
+}
+
+132
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 133 }
+  }
+}
+
+133
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 134 }
+  }
+}
+
+134
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 135 }
+  }
+}
+
+135
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 136 }
+  }
+}
+
+136
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 137 }
+  }
+}
+
+137
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 138 }
+  }
+}
+
+138
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 139 }
+  }
+}
+
+139
+{
+  name { Falling.......  }
+  desc { ... Falling ...    }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 140 }
+  }
+}
+
+140
+{
+  name { Falling.......  }
+  desc { ... Falling ...   }
+  flags { no_sum, noshowexit, fall }
+  exits {
+	to { d, 10 }
+  }
+}
+
+300
+{
+  name { A large meeting room  }
+  desc {
+"   You stand in a large, circular, marble-walled room.  Up above you a very 
+fashionable and delicate crystal sky-light floods the room with a bright sunny
+light.  Towards the North, over-hanging a small archway sits the head of a 
+creature, two magnificent horns protruding from each side of it's head.  Under-
+-neath this is a plaque with 'MaKaG' enscribed upon it.  A large oaken table
+sits to the western side of this hall.  Exits lead to the North, through a small
+archway; West into what appears to be a common room; East leads into a small
+reception area and South leads to the entrance of the guild.
+  }
+  exits {
+	to { n, 301 }
+	to { d, PerciClanRooms:306 }
+  }
+}
+
+301
+{
+  name { The Guildmaster's office  }
+  desc {
+"   A small room surrounds you here.  It's low-ceiling and plush carpet ensure
+a feeling of cosiness is instilled in all who come here.  A polished wooden
+desk sits at the northern end of the room, covered in stacks of scrolls and
+other official looking books.  A large picture behind the desk depicts a 
+ranting Moose, streaking through a storm.  Dusty bookcases line the walls to
+the East and West, packed with tomes.  Your only way out is through an archway
+to the South.
+  }
+  exits {
+	to { s, 300 }
+  }
+}
+
+350
+{
+  name { An Art Gallery  }
+  desc {
+"   You have stepped into an Art Gallery of some description.  A long corridor
+stretches out before you, its walls lined with strange glyphical artworks.
+  }
+  exits {
+	to { n, 351 }
+	to { 10, Midgard:225 }
+	  keywords { park }
+  }
+}
+
+351
+{
+  name { An Art Gallery  }
+  desc {
+"
+                    /^\/^\
+                  _|__|  O|
+         \/     /~     \_/ \
+          \____|__________/  \
+                 \_______      \
+                         `\     \                 \
+                           |     |                  \
+                          /      /                    \
+                         /     /                       \\
+                       /      /                         \ \
+                      /     /                            \  \
+                    /     /             _----_            \   \
+                   /     /           _-~      ~-_         |   |
+                  (      (        _-~    _--_    ~-_     _/   |
+                   \      ~-____-~    _-~    ~-_    ~-_-~    /
+                     ~-_           _-~          ~-_       _-~
+                        ~--______-~                ~-___-~
+
+"  }
+  exits {
+	to { n, 352 }
+	to { s, 350 }
+  }
+}
+
+352
+{
+  name { An Art Gallery  }
+  desc {
+"               __   __
+              __ \ / __
+             /  \ | /  \
+                 \|/
+            _,.---v---._
+   /\__/\  /            \
+   \_  _/ /              \ 
+     \ \_|           o __|
+      \                \_
+       \     ,__/       /
+     ~~~`~~~~~~~~~~~~~~/~~~~
+
+"  }
+  exits {
+	to { n, 353 }
+	to { s, 351 }
+  }
+}
+
+353
+{
+  name { An Art Gallery  }
+  desc {
+"        /^\    /^\
+        / O/   / O|
+        \ /    \ /
+        //     //       _------_
+       //     //     ./~        ~-_
+      / ~----~/     /              \
+    /         :   ./       _---_    ~-
+   |  \________) :       /~     ~\   |
+   |        /    |      |  :~~\  |   |
+   |       |     |      |  \___-~    |
+   |        \ __/`\______\.        ./
+    \                     ~-______-~\.
+    .|                                ~-_
+   /_____________________________________~~____
+
+
+"  }
+  exits {
+	to { n, 354 }
+	to { s, 352 }
+  }
+}
+
+354
+{
+  name { An Art Gallery  }
+  desc {
+"    ______
+   `""-.  `````-----.....__
+        `.  .      .       `-.
+          :     .     .       `.
+    ,     :   .    .          _ :
+   : `.   :                  (0) `._
+    `. `..'     .     =`-.       .__>
+      ;     .        =  ~  :     .-"
+    .' .'`.   .    .  =.-'  `._ .'
+   : .'   :               .   .'
+    '   .'  .    .     .   .-'
+      .'____....----''.'=.'
+      ""             .'.'
+                  ''"'`
+
+"  }
+  exits {
+	to { n, 355 }
+	to { s, 353 }
+  }
+}
+
+355
+{
+  name { An Art Gallery  }
+  desc {
+"                ,-._
+              _.-'  '--.
+            .'      _  -`\_
+           / .----.`_.'----'
+           ;/     `
+          /_;
+
+       ._      ._      ._      ._
+   _.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._
+
+"  }
+  exits {
+	to { n, 356 }
+	to { s, 354 }
+  }
+}
+
+356
+{
+  name { An Art Gallery  }
+  desc {
+"         __             _,-"~^"-.
+       _// )      _,-"~`         `.
+     ." ( /`"-,-"`                 ;
+    / 6                             ;
+   /           ,             ,-"     ;
+  (,__.--.      \           /        ;
+   //'   /`-.\   |          |        `._________
+     _.-'_/`  )  )--...,,,___\     \-----------,)
+   ((("~` _.-'.-'           __`-.   )         //
+         ((("`             (((---~"`         //
+                                            ((________________
+                                            `----""""~~~~^^^```
+
+"  }
+  exits {
+	to { n, 357 }
+	to { s, 355 }
+  }
+}
+
+357
+{
+  name { An Art Gallery  }
+  desc {
+"        _      _                        
+       : `.--.' ;              _....,_  
+       .'      `.      _..--'"'       `-._
+      :          :_.-'"                  .`.
+      :  6    6  :                     :  '.;
+      :          :                      `..';
+      `: .----. :'                          ;
+        `._Y _.'               '           ;
+          'U'      .'          `.         ; 
+             `:   ;`-..___       `.     .'`.
+             _:   :  :    ```"''"'``.    `.  `.
+           .'     ;..'            .'       `.'`
+          `.......'              `........-'`
+
+"  }
+  exits {
+	to { s, 356 }
+	to { w, 399 }
+  }
+}
+
+358
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+359
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+360
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+361
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+362
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+363
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+364
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+365
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+366
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+367
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+368
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+369
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+370
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+  flags { no_mob }
+}
+
+371
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+372
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+373
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+374
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+375
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+376
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+377
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+378
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+379
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+380
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+381
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+382
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+383
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+384
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+385
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+386
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+387
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+388
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+389
+{
+  name { An Art Gallery  }
+  desc { Empty   }
+}
+
+390
+{
+  name { The Bottom end of the Slippery Slide  }
+  desc { "   }
+  flags { no_mob, noshowexit, fall }
+  exits {
+	to { d, Underground:0 }
+  }
+}
+
+391
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 390 }
+  }
+}
+
+392
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 391 }
+  }
+}
+
+393
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 392 }
+  }
+}
+
+394
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 393 }
+  }
+}
+
+395
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 394 }
+  }
+}
+
+396
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 395 }
+  }
+}
+
+397
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 396 }
+  }
+}
+
+398
+{
+  name { The Slippery Slide  }
+  desc { "   }
+  flags { noshowexit, fall }
+  exits {
+	to { d, 397 }
+  }
+}
+
+399
+{
+  name { The Gift Shop  }
+  desc {
+"   You have entered a gift shop in the art gallery.  Prints of various artists'
+works are available here for reasonable prices.  A super-slippery-slide is
+located in the corner, for those wishing a speedy return to the market plaza.
+
+A warning sign posted at the slide reads:
+    This slide hurts!  Use at own risk!
+
+"  }
+  exits {
+	to { e, 357 }
+	to { 10, 398 }
+	  keywords { slide }
+  }
+}
+
+445
+{
+  name { Some kind of lust-filled domicile  }
+  desc {
+"   Here forbidden couples couple.  All around the room strange
+objects litter the floor, straps hang from the ceiling and
+manacles from the walls.  A large cabinet stands to one side
+while an emperor-sized bed is plonked right in centre of the
+room.  Silk sheets glisten in the soft moon-light that filters
+through the light curtains, which themselves seem to float on
+the warm breeze that flows from outside.  Plush cushions sit
+in every corner, and lie about the floor.  A very plush carpet
+can be felt underfoot, sinking an inch beneath you.  Truely
+this is a room for comfort and pleasure.
+  }
+  exits {
+	to { u, Midgard:12 }
+  }
+}
+
+499
+{
+  name { MAZE REPOP ROOM  }
+  desc { Empty   }
+}
+
+500
+{
+  name { Cooper's Bar  }
+  desc {
+"  You find yourself in a dark, smoke-filled bar.  Some kind of 
+weirdo stands behind the bar, tending drinks for various patrons.
+His name tag reads, in almost illegible writing, "Cooper".  
+ Around the bar are various bar-like items.  A pool table, where
+some Pizza delivery boys are having an argument.  A flashing, noisy
+pinball machine, depicting some famous movie.  Finally there are 
+several tables and chairs, empty for now.  
+ Cooper pokes you in the ribs and asks you if you want a drink or
+whether you would like to just fuck off someplace else instead.
+  }
+  flags { rent_room, arena, fast_mana, good_altar }
+  exits {
+	to { n, 950 }
+	to { w, 997 }
+  }
+}
+
+501
+{
+  name { Tsudo's Stupid Arena  }
+  desc {
+"   This strange conflaguration is designed to cause as much blood to
+spill as possible, in the shortest time possible.  So stand tall and
+gut each other senseless!
+  }
+  flags { arena, relocate_distort }
+  exits {
+	to { e, 504 }
+	to { w, 504 }
+	to { u, 502 }
+	to { d, 502 }
+  }
+}
+
+502
+{
+  name { Tsudo's Stupid Arena  }
+  desc {
+"   This strange conflaguration is designed to cause as much blood to
+spill as possible, in the shortest time possible.  So stand tall and
+gut each other senseless!
+  }
+  flags { arena, relocate_distort }
+  exits {
+	to { e, 505 }
+	to { w, 505 }
+	to { u, 501 }
+	to { d, 501 }
+  }
+}
+
+503
+{
+  name { Holding zone  }
+  desc { Empty   }
+  flags { peaceful, arena }
+  exits {
+	to { e, 505 }
+	to { w, 504 }
+	to { u, 502 }
+	to { d, 501 }
+  }
+}
+
+504
+{
+  name { Tsudo's Stupid Arena  }
+  desc {
+"   This strange conflaguration is designed to cause as much blood to
+spill as possible, in the shortest time possible.  So stand tall and
+gut each other senseless!
+  }
+  flags { arena, relocate_distort }
+  exits {
+	to { e, 501 }
+	to { w, 501 }
+	to { u, 505 }
+	to { d, 505 }
+  }
+}
+
+505
+{
+  name { Tsudo's Stupid Arena  }
+  desc {
+"   This strange conflaguration is designed to cause as much blood to
+spill as possible, in the shortest time possible.  So stand tall and
+gut each other senseless!
+  }
+  flags { arena, relocate_distort }
+  exits {
+	to { e, 502 }
+	to { w, 502 }
+	to { u, 504 }
+	to { d, 504 }
+  }
+}
+
+506
+{
+  name { Falling off the arena  }
+  desc {
+"   This strange conflaguration is designed to cause as much blood to
+spill as possible, in the shortest time possible.  So stand tall and
+gut each other senseless!
+  }
+  flags { arena, noshowexit, fall, relocate_distort }
+  exits {
+	to { d, 507 }
+  }
+}
+
+507
+{
+  name { Falling off the arena  }
+  desc { Empty   }
+  flags { arena, noshowexit, fall, relocate_distort }
+  exits {
+	to { d, 508 }
+  }
+}
+
+508
+{
+  name { Falling off the arena  }
+  desc { Empty   }
+  flags { arena, noshowexit, fall, relocate_distort }
+  exits {
+	to { d, 509 }
+  }
+}
+
+509
+{
+  name { Falling off the arena  }
+  desc { Empty   }
+  flags { arena, noshowexit, fall, relocate_distort }
+  exits {
+	to { d, 510 }
+  }
+}
+
+510
+{
+  name { Splat!  }
+  desc { Empty   }
+  flags { rent_room, arena, relocate_distort }
+  exits {
+	to { 10, 501 }
+	  keywords { vortex }
+	to { 11, 500 }
+	  info { secret, hidden }
+	  keywords { slorf }
+  }
+}
+
+900
+{
+  name { Distribution to maze room  }
+  desc { Empty   }
+  exits {
+	to { 10, 901 }
+	  keywords { one }
+	to { 11, 902 }
+	  keywords { two }
+	to { 12, 903 }
+	  keywords { three }
+	to { 13, 904 }
+	  keywords { four }
+  }
+}
+
+940
+{
+  name { Some Place.  }
+  desc { Empty   }
+  exits {
+	to { u, Southern_Path:0 }
+  }
+}
+
+948
+{
+  name { The Vault  }
+  desc {
+"   You now stand within the lich's treasure vault, a huge treasure
+lies in the center of the room. The room is decorated with many marble
+columns, in the far corner you can make out a shiimering portal........
+through which you can see a path along a vast mountain range.
+  }
+}
+
+949
+{
+  name { A Jar of Pickles  }
+  desc {
+"   Gigantic green gherkins float with you inside this glass chamber.  Rough,
+slimy skins brush up against you, nudging you this way and that through a hazy
+yellow fluid.  You feel quite pickled yourself, as you breathe this sour
+solution into your lungs.  Gulping as would a Goldfish.  You can only catch
+fleeting glimpses of the glass boundaries here - quick peeks at the real world
+running about outside.  Someday a kind stranger might take a fancy to you and
+rescue you from this suspended horror.
+  }
+  exits {
+	to { u, 950 }
+	to { d, 955 }
+  }
+}
+
+950
+{
+  name { A large yellow bus-stop  }
+  desc {
+"   An old-fashioned bus-stop stands here, in the eternal wait for a bus.
+Bits of green chewing gum adorn the crumbling wooden seat, and some
+strange glyphical writing in purple and green mar the metal framework.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_magic }
+  exits {
+	to { s, 500 }
+	to { u, Midgard:0 }
+	to { d, 949 }
+  }
+}
+
+951
+{
+  name { Cooper's Bar  }
+  desc { bugger   }
+  extra {
+	keywords { map }
+	desc { 
+[]    o         $$               o                                            []
+[]     \        |              /                                             []
+[]      C-C-C-C-C-C-C-C-W-W-W-W                                              []
+[]      |             |       |                                              []
+[]      C /---------\ C N-N   W                                              []
+[]      | |         | | | |   |                                              []
+[]      C | CASTLE  | C N N   W                                              []
+[]      | |         | | | |   |                                              []
+[]      C \---------/ C N-N   W                                              []
+[]      C \---------/ C N-N   W                                              []
+[]  W-A-C-C-C-C-C-C-C-C   N-# W-W                                            []
+[]  |           |         |     |                                            []
+[]  W   #   #-P-P-P #-S-S-N     W                                            []
+[]  |   |     | | |       |     |                                            []
+[]$$-M-M-M-M-M-P-P-P-M-M-M-M-M-M-M-$$                                          []
+[]  |         | | |       |     |                                            []
+[]  W   #-O #-P-P-P-#     A     W                                            []
+[]  |     |     |         |     |                                            []
+[]  W-W   O-O   M-A-A-G-G-G R-A-W                                            []
+[]    |     |   |     |   | |   |                                            []
+[]    W-T O-O-O-M     G # G R   W                                            []
+[]    | | |     |     | | | |   |                                            []
+[]    W T # S-S-M-S-S G-G-G R   W                                            []
+[]    | |   |   |   |   |   |   |                                            []
+[]    W T-# S   M-# S   #   R   W                                            []
+[]    |     |   |   |       |   |                                            []
+[]    W-L-L-L-L-M-L-L-L-L-L-L-L W                                            []
+[]    |   |     |       | |   | |                                            []
+[]    W #-S-S   M     S-S A   L-W                                            []
+[]    |     |   |     |   |     |                                            []
+[]    W-S-S-S-S-M   #-S   A-W-W-W                                            []
+[]    |   |     |     |   |                                                  []
+[]    W A-A     M-S-S-S   A                                                  []
+[]    | |       |         |                                                  []
+[]    W-W-W-W-W-M-W-W-W-W-W                                                  []
+[]   /          |          \                                                 []
+[]  o           $$           o                                                []
+
+"	}
+  }
+  flags { no_sum }
+  exits {
+	to { e, 11 }
+	to { s, 85 }
+	to { u, 86 }
+	to { 10, 43 }
+	  keywords { a }
+	to { 11, 17 }
+	  keywords { m }
+	to { 12, 66 }
+	  keywords { c }
+	to { 13, 70 }
+	  keywords { dd }
+	to { 14, 46 }
+	  keywords { f }
+	to { 15, 72 }
+	  keywords { g }
+	to { 16, 14 }
+	  keywords { z }
+	to { 17, 117 }
+	  keywords { y }
+	to { 18, 110 }
+	  keywords { x }
+	to { 19, 92 }
+	  keywords { qwe }
+	to { 20, 49 }
+	  keywords { h }
+	to { 21, 94 }
+	  keywords { j }
+	to { 22, 40 }
+	  keywords { k }
+	to { 23, 65 }
+	  keywords { l }
+	to { 24, 103 }
+	  keywords { qweqwe }
+	to { 25, 88 }
+	  keywords { uu }
+	to { 26, 58 }
+	  keywords { rrr }
+  }
+}
+
+953
+{
+  name { Falling into the Fiery Depths of Hell  }
+  desc { Empty   }
+  flags { fall }
+  exits {
+	to { d, 954 }
+  }
+}
+
+954
+{
+  name { Falling into the Fiery Depths of Hell  }
+  desc { Empty   }
+  flags { fall }
+  exits {
+	to { u, 953 }
+	to { d, HELL:0 }
+  }
+}
+
+955
+{
+  name { Tsudo's Hair Salon  }
+  desc {
+"   This is the salon that the upper echelons of society, with all their money
+and fancy baubles, avoid like the plague.  Grimy, dirty and generally not
+nice, this salon could easily be mistaken for a seedy downtown strip club.
+Naturally one might even propose that it is a strip club, given the naked
+women prancing about here and there, the bar and the jukebox.  Tsudo insists
+however, that these facilities are merely for those bored waiting for their
+hair to be attended to.  Whatever the case, it can be argued that it is
+indeed possible to have one's hair cut and styled here if one so desired.
+Thus it remains named so, Tsudo's Hair Salon.
+  }
+  exits {
+	to { u, 949 }
+	to { d, 999 }
+  }
+}
+
+980
+{
+  name { DEATH TRAP :)  }
+  desc { Room to purge my mobs coz I dont have purge :)   }
+  flags { death }
+  exits {
+	to { s, 810 }
+  }
+}
+
+981
+{
+  name { A fading trail  }
+  desc {
+"   Through this thick foliage you can spot a very faint trail of
+broken branches.  Here and there spots of dark red blood can be seen
+on the leaves and grasses.  The trail leads north.
+  }
+  exits {
+	to { n, 982 }
+  }
+}
+
+982
+{
+  name { A trail through the hills  }
+  desc {
+"   The trail here is quite clear, leading up through some low rolling
+hills.  You can see some strange footprints along here, very large and
+quite deep.  To the south is a dense forest of foliage, a faint trail
+is visible through it.
+  }
+  exits {
+	to { n, 983 }
+	to { s, 981 }
+  }
+}
+
+983
+{
+  name { A valley ahead  }
+  desc {
+"   You are surrounded by rolling hills, the trail here is quite
+well-used, and could almost be called a road.  To the north you
+can spot a very dark valley, the trail appears to lead straight
+into the mouth of this valley.  To the south you can see
+the trail running across some hills and down into a dense cover
+of bushlands.
+  }
+  exits {
+	to { n, 984 }
+	to { s, 982 }
+  }
+}
+
+984
+{
+  name { The hidden Gully  }
+  desc {
+"   You stand in a dark Gully, a small muddy brown stream runs
+past you to the East and steep earthen cliffs to the West.
+Ahead you can spot some sort of structure hidden in the darkness.
+  }
+  exits {
+	to { n, 985 }
+	to { s, 983 }
+  }
+}
+
+985
+{
+  name { Before a large steel prison  }
+  desc {
+"   You stand before a large cubic steel prison block.  A glow can be
+seen surrounding the dull grey walls.  The gully here is dark and
+dank, your only exit south towards the light.
+  }
+  exits {
+	to { s, 984 }
+	to { 10, 986 }
+	  key { 60005 }
+	  info { door, closed, locked, pickproof, autoclose }
+	  keywords { prison }
+  }
+}
+
+990
+{
+  name { A small potato crisp on an sea of vinegar.  }
+  desc { Empty   }
+}
+
+995
+{
+  name { A room of Portals  }
+  desc { "   }
+  exits {
+	to { 10, RhyodinOutpost:65 }
+	  keywords { valik }
+	to { 11, Abyss:50 }
+	  keywords { demi }
+  }
+}
+
+997
+{
+  name { The smoko room.  }
+  desc {
+"   You are assaulted with a combination of pornography and thick grey
+smoke, not exactly a go-able pair, but a strange enough sensation in any
+case.  A large centerfold of 1966 Playboy pet of the year sternly looks
+you over as you find a place to sit and smoke your lungs out.  Here and
+there you hear the hacking and spluttering of those smokers who simply
+can't handle the pressure of large fleshy objects watching them puff.
+As you reach into your pocket and pull out a cigarette you wonder how
+severe your toxic shock would be if you tried to smoke the nicotine
+infected posters.
+  }
+  flags { no_sum }
+  exits {
+	to { e, 500 }
+  }
+}
+
+998
+{
+  name { The Master Bedroom  }
+  desc {
+"   Tsudo has a really big bed, he must be rich.  A 4poster bed stands in
+the centre of the room, with silk sheets and a hot water bottle on top.
+ 
+   A picture of Opella sits on a bedside table, obviously Tsudo anticipates
+her arrival to the upper planes.
+  }
+  exits {
+	to { n, 999 }
+	to { s, Void:171999 }
+  }
+}
+
+999
+{
+  name { Tsudo's Joint.  }
+  desc {
+"   You have entered a study.  A large wooden desk stands in the centre,
+riddled with pen marks and scratches.  A big cushy chair with dust along
+the top and cigarette burns in the arms is behind the desk.  To the left is
+a large dark fire place, crackling away.  The wood veneer walls are covered
+with tattered posters of mythical beasts and adventurers.  An eerie smoke
+fills the room, smelling faintly of tobacco, but with something else mixed
+in.  A small sure-footed figure in black melts out of the shadows and asks,
+"Got a smoke guvna?".
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+Tsudo stuffs his hand into a secret pocket in his black life jacket and pulls
+out a pack of smokes.  He flips the lid, pushes a cigarette out and taps
+the end of it on the desk.  He puts the pack back into his life jacket and
+fumbles around for a lighter.  Finding one in his shirt pocket, he puts
+on a concentrated frown and covers the flame with one hand while puffing on
+the cigarette with the other.  Satisfied that the cigarette is lit he
+breaths back a large amount of smoke, before going cross-eyed and coughing
+and spluttering all over the place.  A few moments later he recovers and
+beams you a big evil grin.
+	}
+	keywords { figure tsudo man ninja }
+	desc { 
+"   The figure is none other than the remarkable ninja Tsudo!
+His evil gleam suggests that tsudo likes to be a pain in the bum..
+You might want to get out of the way, you think you see flows of power
+forming in his mind... 
+ 
+Your limbs are frozen in place!
+	}
+  }
+  flags { blue_glow }
+  tele { 0, 0, 997 }
+  exits {
+	to { s, Midgard:0 }
+	to { u, 955 }
+	to { 10, 1999 }
+	  keywords { cooper }
+  }
+}

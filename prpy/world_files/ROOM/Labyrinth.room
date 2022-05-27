@@ -1,0 +1,5526 @@
+#offset Labyrinth
+
+0
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  There are some hieroglyphs on the walls.  Maybe
+they are important?  Footprints lead east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back west! 
+
+Uh oh!
+
+"	}
+	keywords { hieroglyphs glyphs walls }
+	desc { 
+"
+You study the strange hieroglyphs intently...
+
+[X] --> [ ] <-- [ ] --> [ ]
+ 
+ ^       |       ^       |
+ |       v       |       v
+
+[ ] <-- [ ] --> [ ] <-- [ ]
+
+ ^       ^       ^       |
+ |       |       |       v
+
+[ ] --> [ ] <-- [ ] <-- [ ]
+
+ ^       |       ^       ^
+ |       v       |       |
+
+[ ] <-- [ ] --> [ ] --> [ ]
+
+You wonder what they could mean...
+
+"	}
+  }
+  exits {
+	to { e, 1 }
+	  info { message }
+	to { u, 217 }
+  }
+}
+
+1
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead south.
+  }
+  extra {
+	keywords { _ex2 }
+	desc {  "
+
+A stone slab drops and blocks the exit back north! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { s, 5 }
+	  info { message }
+  }
+}
+
+2
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead east and west.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { e, 3 }
+	  info { message }
+	to { w, 1 }
+	  info { message }
+  }
+}
+
+3
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead south.
+  }
+  extra {
+	keywords { _ex2 }
+	desc {  "
+
+A stone slab drops and blocks the exit back north! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { s, 7 }
+	  info { message }
+  }
+}
+
+4
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 0 }
+	  info { message }
+  }
+}
+
+5
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead east and west.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { e, 6 }
+	  info { message }
+	to { w, 4 }
+	  info { message }
+  }
+}
+
+6
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 2 }
+	  info { message }
+  }
+}
+
+7
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead south and west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+	keywords { _ex2 }
+	desc {  "
+
+A stone slab drops and blocks the exit back north! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { s, 11 }
+	  info { message }
+	to { w, 6 }
+	  info { message }
+  }
+}
+
+8
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north and east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back west! 
+
+Uh oh!
+
+"	}
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 4 }
+	  info { message }
+	to { e, 9 }
+	  info { message }
+  }
+}
+
+9
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north and south.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+	keywords { _ex2 }
+	desc {  "
+
+A stone slab drops and blocks the exit back north! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 5 }
+	  info { message }
+	to { s, 13 }
+	  info { message }
+  }
+}
+
+10
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north and west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 6 }
+	  info { message }
+	to { w, 9 }
+	  info { message }
+  }
+}
+
+11
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead west.
+  }
+  extra {
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { w, 10 }
+	  info { message }
+  }
+}
+
+12
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  On the floor is a large sandstone sarcophagus that
+looks very heavy.  You wonder what is inside it... Footprints lead north.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 8 }
+	  info { message }
+  }
+}
+
+13
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead east and west.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back west! 
+
+Uh oh!
+
+"	}
+	keywords { _ex3 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { e, 14 }
+	  info { message }
+	to { w, 12 }
+	  info { message }
+  }
+}
+
+14
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north and east.
+  }
+  extra {
+	keywords { _ex1 }
+	desc {  "
+
+A stone slab drops and blocks the exit back west! 
+
+Uh oh!
+
+"	}
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back east! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 10 }
+	  info { message }
+	to { e, 15 }
+	  info { message }
+  }
+}
+
+15
+{
+  name { The Pyramid Maze  }
+  desc {
+"   You are standing in a sandstone room.  The floor is covered in a very
+fine sand.  The walls are smooth and the ceiling looks like the same un-
+remarkable sandstone.  Footprints lead north.
+  }
+  extra {
+	keywords { _ex0 }
+	desc {  "
+
+A stone slab drops and blocks the exit back south! 
+
+Uh oh!
+
+"	}
+  }
+  exits {
+	to { n, 11 }
+	  info { message }
+  }
+}
+
+23
+{
+  name { 241323  }
+  desc { Empty
+  }
+}
+
+100
+{
+  name { Entrance to the Labyrinth  }
+  desc {
+"   You are standing in the entrance to the Labyrinth.  Above you the 
+steps upon which you descended look very inviting.  To the west a stone
+corridor stretches off in to darkness.  You strain your ears to listen
+but all around you is silent.  The corridor is 10 foot wide by 10 foot
+high.  At a guess you measure the walls, floor and ceiling to be made of
+massive  blocks of granite.  The blocks have been so well made that they
+fit seem-lessly together so that only the merest hairsbreadth of gap
+exists.  They are also smooth and cold to the touch.  The floor is clear
+of any dust or debris.  It would be impossible to tell if anything has
+passed through here recently.  You can exit up, back out of the Labyrinth
+or west and brave any perils the may lay ahead.
+  }
+  exits {
+	to { w, 101 }
+  }
+}
+
+101
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 100 }
+	to { s, 102 }
+  }
+}
+
+102
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 101 }
+	to { e, 103 }
+  }
+}
+
+103
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east, south and west.
+  }
+  exits {
+	to { e, 179 }
+	to { s, 104 }
+	to { w, 102 }
+  }
+}
+
+104
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 103 }
+	to { e, 105 }
+  }
+}
+
+105
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at the junction of two stone corridors.  You notice
+immediately that the walls here do not meet exactly with the floor and
+that there is a seam that runs directly down the centre of the solid
+stone floor upon which you stand...  There is a creak!  Dare you move?
+You can exit south or west.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+There is a clanking and whirring of machinery.
+
+The floor judders beneath your feet.
+
+"	}
+  }
+  tele { 20, 0, 291 }
+  exits {
+	to { s, 106 }
+	to { w, 104 }
+  }
+}
+
+106
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  A
+strong iron bound door blocks the exit south. You can exit north or west.
+  }
+  exits {
+	to { n, 105 }
+	to { s, 107 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 207 }
+  }
+}
+
+107
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 106 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { s, 108 }
+  }
+}
+
+108
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 107 }
+	to { s, 109 }
+  }
+}
+
+109
+{
+  name { Inside the Labyrinth  }
+  desc { Tra Room: DISPEL
+  }
+  exits {
+	to { n, 108 }
+	to { s, 110 }
+  }
+}
+
+110
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 109 }
+	to { e, 111 }
+  }
+}
+
+111
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 112 }
+	to { w, 110 }
+  }
+}
+
+112
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 113 }
+	to { s, 111 }
+  }
+}
+
+113
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 114 }
+	to { w, 112 }
+  }
+}
+
+114
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 113 }
+	to { e, 218 }
+	to { s, 115 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+115
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 114 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 116 }
+  }
+}
+
+116
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 115 }
+	to { w, 117 }
+  }
+}
+
+117
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 116 }
+	to { w, 118 }
+  }
+}
+
+118
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 117 }
+	to { w, 119 }
+  }
+}
+
+119
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 118 }
+	to { s, 120 }
+  }
+}
+
+120
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOOOOOM
+  }
+  exits {
+	to { n, 119 }
+	to { e, 121 }
+  }
+}
+
+121
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 122 }
+	to { w, 120 }
+  }
+}
+
+122
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 123 }
+	to { w, 121 }
+  }
+}
+
+123
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 124 }
+	to { w, 122 }
+  }
+}
+
+124
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 125 }
+	to { w, 123 }
+  }
+}
+
+125
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north, west and east.
+  }
+  exits {
+	to { n, 126 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 223 }
+	to { w, 124 }
+  }
+}
+
+126
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 127 }
+	to { s, 125 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+127
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 128 }
+	to { w, 126 }
+  }
+}
+
+128
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 129 }
+	to { w, 127 }
+  }
+}
+
+129
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 130 }
+	to { s, 128 }
+  }
+}
+
+130
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south, west and east.
+  }
+  exits {
+	to { e, 225 }
+	to { s, 129 }
+	to { w, 131 }
+  }
+}
+
+131
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 132 }
+	to { e, 130 }
+  }
+}
+
+132
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 133 }
+	to { s, 131 }
+  }
+}
+
+133
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 134 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { s, 132 }
+  }
+}
+
+134
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 135 }
+	to { s, 133 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+135
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 136 }
+	to { w, 134 }
+  }
+}
+
+136
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 135 }
+	to { s, 137 }
+  }
+}
+
+137
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 136 }
+	to { e, 138 }
+  }
+}
+
+138
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 139 }
+	to { w, 137 }
+  }
+}
+
+139
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 140 }
+	to { w, 138 }
+  }
+}
+
+140
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 139 }
+	to { e, 227 }
+	to { s, 141 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+141
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 140 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 142 }
+  }
+}
+
+142
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 143 }
+	to { w, 141 }
+  }
+}
+
+143
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 142 }
+	to { w, 144 }
+  }
+}
+
+144
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 143 }
+	to { w, 145 }
+  }
+}
+
+145
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 144 }
+	to { s, 146 }
+  }
+}
+
+146
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 145 }
+	to { e, 147 }
+  }
+}
+
+147
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 148 }
+	to { w, 146 }
+  }
+}
+
+148
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 149 }
+	to { w, 147 }
+  }
+}
+
+149
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 150 }
+	to { w, 148 }
+  }
+}
+
+150
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 230 }
+	to { e, 151 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { s, 149 }
+  }
+}
+
+151
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 152 }
+	to { w, 150 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+152
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.
+There is a wicker door in the wall to the north.  You wonder what
+marvels are behind it.  You can exit west and south or try the door to
+the north.
+  }
+  exits {
+	to { n, 234 }
+	  info { door, closed, autoclose }
+	  keywords { wicker door }
+	to { s, 153 }
+	to { w, 151 }
+  }
+}
+
+153
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  
+There is a large iron gate to the west.  You wonder what marvels are
+behind it.  You can exit east and north or try the gate to the west.
+  }
+  exits {
+	to { n, 152 }
+	to { e, 154 }
+	to { w, 235 }
+	  info { door, closed, autoclose }
+	  keywords { gate iron large }
+  }
+}
+
+154
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north, west and east.
+  }
+  exits {
+	to { n, 155 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 240 }
+	to { w, 153 }
+  }
+}
+
+155
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 156 }
+	to { s, 154 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+156
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 157 }
+	to { w, 155 }
+  }
+}
+
+157
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a long stone corridor.  You estimate it is 10 foot
+wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has passed through here recently.  There is a crypt door in
+the wall to the west.  What could be beyond it?  You can exit north or
+south or try the door to the west.
+  }
+  exits {
+	to { n, 158 }
+	to { s, 156 }
+	to { w, 236 }
+	  info { door, closed, autoclose }
+	  keywords { crypt door }
+  }
+}
+
+158
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 159 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 237 }
+	to { s, 157 }
+  }
+}
+
+159
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south, west and east.
+  }
+  exits {
+	to { e, 160 }
+	to { s, 158 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 248 }
+  }
+}
+
+160
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north west and east.
+  }
+  exits {
+	to { n, 161 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 251 }
+	to { w, 159 }
+  }
+}
+
+161
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 160 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 162 }
+  }
+}
+
+162
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 161 }
+	to { w, 163 }
+  }
+}
+
+163
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 259 }
+	to { e, 162 }
+	to { w, 164 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+164
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 163 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 165 }
+  }
+}
+
+165
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 166 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { e, 164 }
+	to { w, 279 }
+  }
+}
+
+166
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 167 }
+	to { s, 165 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+167
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north, south and west.
+  }
+  exits {
+	to { n, 283 }
+	to { s, 166 }
+	to { w, 168 }
+  }
+}
+
+168
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 167 }
+	to { s, 169 }
+  }
+}
+
+169
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 168 }
+	to { w, 170 }
+	  info { door, closed, autoclose }
+	  keywords { jade massive double doors }
+  }
+}
+
+170
+{
+  name { Before a Set of Jade Doors Inside the Labyrinth  }
+  desc { Empty
+  }
+  exits {
+	to { n, 171 }
+	to { e, 169 }
+	  info { door, closed, autoclose }
+	  keywords { jade massive double doors }
+  }
+}
+
+171
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 172 }
+	to { s, 170 }
+  }
+}
+
+172
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { s, 171 }
+	to { w, 173 }
+  }
+}
+
+173
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 172 }
+	to { s, 174 }
+  }
+}
+
+174
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 173 }
+	to { s, 175 }
+  }
+}
+
+175
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 174 }
+	to { w, 176 }
+  }
+}
+
+176
+{
+  name { Entrance hall to the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { e, 175 }
+	to { s, 177 }
+  }
+}
+
+177
+{
+  name { Before the Jade Palace  }
+  desc { Empty
+  }
+  exits {
+	to { n, 176 }
+	to { e, 178 }
+	  info { door, closed, autoclose }
+	  keywords { jade palace door }
+  }
+}
+
+178
+{
+  name { The Jade Palace at the Centre of the Labyrinth  }
+  desc { "
+THE CENTER!!
+  }
+  exits {
+	to { w, 177 }
+	  info { door, closed, autoclose }
+	  keywords { jade palace door }
+  }
+}
+
+179
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a long stone corridor.  You estimate it is 10 foot 
+wide by 10 foot high.  At a guess you measure the walls, floor and 
+ceiling to be made of massive blocks of granite.  The blocks have been so 
+well made that they fit seem-lessly together so that only the merest 
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has passed through here recently.  There is large iron door
+in the wall to the north.  What could be beyond it?  You can exit east or
+west or try the door to the north.
+  }
+  exits {
+	to { n, 180 }
+	  info { door, closed, autoclose }
+	  keywords { large iron door }
+	to { e, 181 }
+	to { w, 103 }
+  }
+}
+
+180
+{
+  name { The Throne of Skulls  }
+  desc {
+"   You are standing a massive chamber that has been painted in what looks
+like an off yellow colour...  But on closer inspection you see that the
+walls, floor and ceiling are actually made of thousands--no, millions!--
+of skulls.  In the centre of the floor stands a massive chair made of the
+same skulls as the rest of the room.
+  }
+  exits {
+	to { s, 179 }
+	  info { door, closed, autoclose }
+	  keywords { large iron door }
+  }
+}
+
+181
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  The
+exit north is blocked by a strong iron bound door. You can exit back to
+to the west.
+  }
+  exits {
+	to { n, 182 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { w, 179 }
+  }
+}
+
+182
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 183 }
+	to { s, 181 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+183
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  
+There is a sturdy stone door in the wall to the east.  You wonder what
+mysteries are behind it.  You can exit south and west or try the door to
+the east.
+  }
+  exits {
+	to { e, 184 }
+	  info { door, closed, autoclose }
+	  keywords { sturdy stone door }
+	to { s, 185 }
+	to { w, 182 }
+  }
+}
+
+184
+{
+  name { The Lair of the Basilisk  }
+  desc { Special Room 2
+  }
+  exits {
+	to { w, 183 }
+	  info { door, closed, autoclose }
+	  keywords { sturdy stone door }
+  }
+}
+
+185
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You immediately notice that the stone corridor is now covered in runes
+and glyphs.  There is an energy in the air here that speaks of a terrible
+danger.  The hairs on the back of your neck stand on end.  Maybe it would
+be a good idea to move?  You can exit north or south.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+Suddenly all the runes and glyphs flare to life! 
+
+You realise your mistake...
+
+"	}
+  }
+  tele { 35, 1, 290 }
+  exits {
+	to { n, 183 }
+	to { s, 186 }
+  }
+}
+
+186
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 185 }
+	to { w, 187 }
+  }
+}
+
+187
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 186 }
+	to { s, 188 }
+  }
+}
+
+188
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 187 }
+	to { e, 189 }
+  }
+}
+
+189
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  The
+exit east is block by a strong iron bound door.  You can exit south and 
+west.
+  }
+  exits {
+	to { e, 190 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { s, 203 }
+	to { w, 188 }
+  }
+}
+
+190
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 191 }
+	to { w, 189 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+191
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 192 }
+	to { s, 190 }
+  }
+}
+
+192
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 193 }
+	to { w, 191 }
+  }
+}
+
+193
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north, east and west.
+  }
+  exits {
+	to { n, 194 }
+	to { e, 202 }
+	to { w, 192 }
+  }
+}
+
+194
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between three stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east, south and west.
+  }
+  exits {
+	to { e, 201 }
+	to { s, 193 }
+	to { w, 195 }
+  }
+}
+
+195
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  
+There is a gothic dread portal in the wall to the west.  You wonder what
+mysteries are behind it.  You can exit north and east or try the door to
+the west.
+  }
+  exits {
+	to { n, 197 }
+	to { e, 194 }
+	to { w, 196 }
+	  info { door, closed, autoclose }
+	  keywords { gothic dread portal }
+  }
+}
+
+196
+{
+  name { The Tomb of the One-Eyed God  }
+  desc { Special Room 4
+  }
+  exits {
+	to { e, 195 }
+	  info { door, closed, autoclose }
+	  keywords { gothic dread portal }
+  }
+}
+
+197
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 198 }
+	to { s, 195 }
+  }
+}
+
+198
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 199 }
+	to { w, 197 }
+  }
+}
+
+199
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a swing door made of a
+glass in the east wall.  What treasures lurk beyond?  You can exit back 
+to the west or try the door to the east.
+  }
+  exits {
+	to { e, 200 }
+	  info { door, closed, autoclose }
+	  keywords { glass swing door }
+	to { w, 198 }
+  }
+}
+
+200
+{
+  name { The Tyrannosaur Nest  }
+  desc { Special Room 5
+  }
+  exits {
+	to { w, 199 }
+	  info { door, closed, autoclose }
+	  keywords { glass swing door }
+  }
+}
+
+201
+{
+  name { Inside the Labyrinth  }
+  desc { Trap Room: DART
+  }
+  exits {
+	to { s, 202 }
+	to { w, 194 }
+  }
+}
+
+202
+{
+  name { Inside the Labyrinth  }
+  desc { Trap Room: DART
+  }
+  exits {
+	to { n, 201 }
+	to { w, 193 }
+  }
+}
+
+203
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 189 }
+	to { w, 204 }
+  }
+}
+
+204
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and south.
+  }
+  exits {
+	to { e, 203 }
+	to { s, 205 }
+  }
+}
+
+205
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a strong door made of a
+greeny-grey substance in the east wall.  What treasures lurk beyond?  You
+can exit back to the north or try the door to the east.
+  }
+  exits {
+	to { n, 204 }
+	to { e, 206 }
+	  info { door, closed, autoclose }
+	  keywords { greeny-grey door }
+  }
+}
+
+206
+{
+  name { The Balor's Firey Cavern  }
+  desc { Special Room 3
+  }
+  exits {
+	to { w, 205 }
+	  info { door, closed, autoclose }
+	  keywords { greeny-grey door }
+  }
+}
+
+207
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  A strong iron bound door blocks the exit west. You can
+exit back to the east.
+  }
+  exits {
+	to { e, 106 }
+	to { w, 208 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+  }
+}
+
+208
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  
+There is a plain wooden door in the wall to the north.  You wonder what
+marvels are behind it.  You can exit east and south or try the door to
+the north.
+  }
+  exits {
+	to { n, 209 }
+	  info { door, closed, autoclose }
+	  keywords { plain wooden door }
+	to { e, 207 }
+	  info { door, closed, autoclose }
+	  keywords { strong iron bound door }
+	to { s, 210 }
+  }
+}
+
+209
+{
+  name { The Solar Room  }
+  desc {
+"   Bright light fills this large room.  Looking up you see you are stand-
+ing under the glass dome of a massive chapel.  In the dead centre of the
+room is a large altar that has a cross-hatch patten around the bottom.
+Looking closer you can see something inside the altar, through the cross-
+hatches of white marble.  You get an ill feeling.  Something evil lurks
+very close...  You can exit back through the plain wooden door to the
+south.
+  }
+  exits {
+	to { s, 208 }
+	  info { door, closed, autoclose }
+	  keywords { plain wooden door }
+  }
+}
+
+210
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 208 }
+	to { s, 211 }
+  }
+}
+
+211
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 210 }
+	to { s, 212 }
+  }
+}
+
+212
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high. 
+You immediately notice that the ceiling is a latice work of cracks and
+crumbling masonry.  You edge foward slowly.  Dust and small lumps of
+granite dislodge themselves...  You suddenly notice the floor has a seam
+running directly down the middle!  TRAP!  Get out!  Get out now!  You can
+exit north or south.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+Several boulder-sized lumps of ceiling fall! 
+
+They hit the floor with a thump that makes the room judder!
+
+Should you be here?
+
+
+"	}
+  }
+  tele { 20, 0, 295 }
+  exits {
+	to { n, 211 }
+	to { s, 213 }
+  }
+}
+
+213
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 212 }
+	to { e, 214 }
+  }
+}
+
+214
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 215 }
+	to { w, 213 }
+  }
+}
+
+215
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 216 }
+	to { s, 214 }
+  }
+}
+
+216
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a small hole in the wall
+to the north.  You wonder if there is something interesting to be found
+throught it?  You can exit back to the south or try the hole to the
+north.
+  }
+  exits {
+	to { s, 215 }
+	to { 10, 217 }
+	  keywords { hole }
+  }
+}
+
+217
+{
+  name { The Sandy Chamber  }
+  desc {
+"   You squeeze through the hole to find yourself inside a dark and sand-
+strewn room.  The walls and ceiling are made of tightly connected blocks
+of sandstone that offer no exit...  Wait a minute!  No exit?!  Uh oh!
+Looking around frantically you see that you have been left with no exits
+out of the room.  Where has the hole gone?!  What magic is playing with
+you?!  In the centre of the room a steeply slanted staircase leads down
+into the sandy ground.  As you near the base of the stairs a low pitched
+moan echoes around the chamber.  Your eyes dart back and forth, vaguely
+you see some scribbled writing on a single block, but your eyes are drawn
+back to the stairs...  Chances are, your way out is down there.  You can
+exit down, in to the sandy darkness.
+  }
+  extra {
+	keywords { scribbled writing block }
+	desc {  "
+
+"The Scarab is the Key" - M.
+
+"	}
+  }
+  exits {
+	to { d, 0 }
+  }
+}
+
+218
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.
+There is a bright cloudy portal in the wall to the east.  You wonder
+what marvels are behind it.  You can exit west and north or try the
+portal to the east.
+  }
+  exits {
+	to { n, 220 }
+	to { e, 219 }
+	  info { door, closed, autoclose }
+	  keywords { bright cloudy portal }
+	to { w, 114 }
+  }
+}
+
+219
+{
+  name { Last Stand of the Angels  }
+  desc { Empty
+  }
+  exits {
+	to { w, 218 }
+	  info { door, closed, autoclose }
+	  keywords { bright cloudy portal }
+  }
+}
+
+220
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 221 }
+	to { s, 218 }
+  }
+}
+
+221
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a hexagonal opening in
+the wall to the north.  You wonder if there is something interesting to
+be found through it?  You can exit back to the south or try the opening
+to the north.
+  }
+  exits {
+	to { s, 220 }
+	to { 10, 222 }
+	  keywords { hexagonal }
+  }
+}
+
+222
+{
+  name { The Rubicon  }
+  desc { Empty
+  }
+  exits {
+	to { 10, 221 }
+	  keywords { hexagonal }
+  }
+}
+
+223
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  There are some purple and green shutters blocking the
+exit east. You can exit west or try the shutters to the east.
+  }
+  exits {
+	to { e, 224 }
+	  info { door, closed, autoclose }
+	  keywords { purple green shutters }
+	to { w, 125 }
+  }
+}
+
+224
+{
+  name { Malachi's Creepy Corner  }
+  desc { Empty
+  }
+  exits {
+	to { w, 223 }
+	  info { door, closed, autoclose }
+	  keywords { purple green shutters }
+  }
+}
+
+225
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a gelatinous door in the
+wall to the south.  You wonder if there is something interesting to be
+found through it?  You can exit back to the west or try the door to the
+south.
+  }
+  exits {
+	to { s, 226 }
+	  info { door, closed, autoclose }
+	  keywords { gelatinous door }
+	to { w, 130 }
+  }
+}
+
+226
+{
+  name { The Base of the Jelly Pit  }
+  desc {
+"   You are standing at the base of a massive tiered bowl.  The floor is
+made of highly polished metal and is very slippery.  The bowl rises up
+all around you.  There is a another tier around ten feet up, but the bowl
+slope is such that a quick run up will get you to that next level without
+too much hassle.  You can see another tier beyond that.  The ceiling has
+the look of a liquid and you realise it is actually dripping on you... A 
+soft, gelatinous liquid.  It doesn't appear harmful.  But it does make
+you ponder the strangeness of this place.  Finally, all around, on every
+tier, are strange jelly-like creatures.  What is this place?  You can
+exit up to the next tier or north back in to the Labyrinth. 
+  }
+  exits {
+	to { n, 225 }
+	  info { door, closed, autoclose }
+	  keywords { gelatinous door }
+	to { u, 297 }
+	  info { message }
+  }
+}
+
+227
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 228 }
+	to { w, 140 }
+  }
+}
+
+228
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is an inviting door in the
+wall to the north.  You wonder if there is something interesting to be 
+found through it?  You can exit back to the south or try the door to the
+north.
+  }
+  exits {
+	to { n, 229 }
+	  info { door, closed, autoclose }
+	  keywords { inviting door }
+	to { s, 227 }
+  }
+}
+
+229
+{
+  name { The Halfway House  }
+  desc { Empty
+  }
+  exits {
+	to { s, 228 }
+	  info { door, closed, autoclose }
+	  keywords { inviting door }
+  }
+}
+
+230
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { e, 231 }
+	to { s, 150 }
+  }
+}
+
+231
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 232 }
+	to { w, 230 }
+  }
+}
+
+232
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a door made of solid ice
+in the wall to the west.  You wonder if there is something interesting to
+be found through it?  You can exit back to the south or try the door to
+the west.
+  }
+  exits {
+	to { s, 231 }
+	to { w, 233 }
+	  info { door, closed, autoclose }
+	  keywords { ice solid door }
+  }
+}
+
+233
+{
+  name { The Frigid Depths  }
+  desc {
+"   You are standing in a freezing cold chamber.  Your breath fogs in the
+air before you; a testament to the extreme temperature.  The walls are
+covered in frosted ice.  Icicles hang from the ceiling.  Below you a trap
+door leads down in to a bright crystal tunnel.  You had better wrap up
+warm if you're thinking of going down there!
+  }
+  exits {
+	to { e, 232 }
+	  info { door, closed, autoclose }
+	  keywords { ice solid door }
+	to { d, 338 }
+  }
+}
+
+234
+{
+  name { The Jungle  }
+  desc { Empty
+  }
+  exits {
+	to { s, 152 }
+	  info { door, closed, autoclose }
+	  keywords { wicker door }
+  }
+}
+
+235
+{
+  name { The Monster Factory  }
+  desc { Empty
+  }
+  exits {
+	to { e, 153 }
+	  info { door, closed, autoclose }
+	  keywords { gate iron large }
+  }
+}
+
+236
+{
+  name { The Den of Ghouls  }
+  desc { Empty
+  }
+  exits {
+	to { e, 157 }
+	  info { door, closed, autoclose }
+	  keywords { crypt door }
+  }
+}
+
+237
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 238 }
+	to { w, 158 }
+  }
+}
+
+238
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is an ornate door in the 
+wall to the south.  You wonder if there is something interesting to be
+found through it?  You can exit back to the north or try the door to the
+south.
+  }
+  exits {
+	to { n, 237 }
+	to { s, 239 }
+	  info { door, closed, autoclose }
+	  keywords { ornate door }
+  }
+}
+
+239
+{
+  name { Grave of the Legion  }
+  desc { Empty
+  }
+  exits {
+	to { n, 238 }
+	  info { door, closed, autoclose }
+	  keywords { ornate door }
+  }
+}
+
+240
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and west.
+  }
+  exits {
+	to { e, 241 }
+	to { w, 154 }
+  }
+}
+
+241
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit east and west.
+  }
+  exits {
+	to { e, 242 }
+	to { w, 240 }
+  }
+}
+
+242
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the
+walls, floor and ceiling to be made of massive blocks of granite.  The
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 243 }
+	to { w, 241 }
+  }
+}
+
+243
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 244 }
+	to { s, 242 }
+  }
+}
+
+244
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 245 }
+	to { s, 243 }
+  }
+}
+
+245
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 246 }
+	to { w, 244 }
+  }
+}
+
+246
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { n, 245 }
+	to { s, 247 }
+  }
+}
+
+247
+{
+  name { Heroes Final Fight  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  Here the walls are pock-marked and covered
+in scratches and blast marks.  It looks like someone built barricades
+here at some time in the long distant past and that a mighty battle was 
+waged in this very spot.  Sitting sadly in the corner is an skeletal
+figure dressed in shining battle armour that is so old it has fused to
+the sad little corpse inside.  On closer examination you see the armour
+is covered in scrapes and scratches and looks like it has withstood the
+might of an army.  It is a shame that it is impossible to remove from the
+corpse now.  The corpse itself is positioned in such a way that it looks
+like its finger is pointing to some oddly logical scratches on the wall
+next to it.  Whoever this was they were a hero.  You feel humbled to be
+in the presence of such a one that evidently took on an army and held out
+for a long time.
+  }
+  extra {
+	keywords { wall scratch scratches mark markings marks logical }
+	desc { 
+"
+BEWARE THE JADE PALACE
+
+*-* + +-+-+ +-+-+-+ +-+-+-+ +-+-+-+-+
+|   | | |   |         |   |     |   |
+*-*-+-+ + +-+-+-+ *-* +-+ + +-+-+ +-+
+  |     |     | | | |   |   |
++ *-* +-+ +-+-+-+ * * *-* +-+-+-+-+ +
+|   | |   |       | | | | |       | |
++-+-* +-+-+ *-* *-* *-* * +-+ +-+-+ +
+|   |   |   | | |       |   |       |
++ + * +-+ + * * *-* + +-*-*-*-*-* +-+
+| | | |   | | |     | |         |   |
++ + * +-+ + * *-*-* + +-+-+ +-*-*-+ +
+| | |     | |     | |       | |   | |
++ + * *-* + *-*-+ *-+ +-+ +-+ *-+ +-+
+| | | | | |   | | |     |     | |
++-+ *-* *-+-+ * + *-* +-+ + +-* + +-+
+        |     |     | |   |   | | | |
+*-*-*-*-* *-*-* *-*-* *-*-* *-* + + +
+|         |     |     |   | |     | |
+*-*-*-*-*-*-+-+ *-*-*-* +-*-*-+-+-+ +
+
+"	}
+  }
+  exits {
+	to { n, 246 }
+  }
+}
+
+248
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 159 }
+	to { s, 249 }
+  }
+}
+
+249
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 248 }
+	to { w, 250 }
+  }
+}
+
+250
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  You can exit back to the east.
+  }
+  exits {
+	to { e, 249 }
+  }
+}
+
+251
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 252 }
+	to { w, 160 }
+  }
+}
+
+252
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 251 }
+	to { e, 253 }
+  }
+}
+
+253
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 254 }
+	to { w, 252 }
+  }
+}
+
+254
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit north and south.
+  }
+  exits {
+	to { n, 255 }
+	to { s, 253 }
+  }
+}
+
+255
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a long stone corridor.  You estimate it is 10 foot 
+wide by 10 foot high.  At a guess you measure the walls, floor and 
+ceiling to be made of massive blocks of granite.  The blocks have been so 
+well made that they fit seem-lessly together so that only the merest 
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has passed through here recently.  There is a coffin-shaped
+door in the wall to the west.  What could be beyond it?  You can exit
+north or south or try the door to the west.
+  }
+  exits {
+	to { n, 257 }
+	to { s, 254 }
+	to { w, 256 }
+	  info { door, closed, autoclose }
+	  keywords { coffin shaped door }
+  }
+}
+
+256
+{
+  name { The Necromancer's Laboratory  }
+  desc { Empty
+  }
+  exits {
+	to { e, 255 }
+	  info { door, closed, autoclose }
+	  keywords { coffin shaped door }
+  }
+}
+
+257
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is an shining door in the 
+wall to the north.  You wonder if there is something interesting to be
+found through it?  You can exit back to the south or try the door to the
+north.
+  }
+  exits {
+	to { n, 258 }
+	  info { door, closed, autoclose }
+	  keywords { shining door }
+	to { s, 255 }
+  }
+}
+
+258
+{
+  name { The Solar Room Mirror  }
+  desc { Empty
+  }
+  exits {
+	to { s, 257 }
+	  info { door, closed, autoclose }
+	  keywords { shining door }
+  }
+}
+
+259
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 163 }
+	to { w, 260 }
+  }
+}
+
+260
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 261 }
+	to { e, 259 }
+  }
+}
+
+261
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 262 }
+	to { s, 260 }
+  }
+}
+
+262
+{
+  name { Inside the Labyrinth  }
+  desc { T RAP ROOM
+  }
+  exits {
+	to { n, 269 }
+	to { e, 263 }
+	to { w, 261 }
+  }
+}
+
+263
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 264 }
+	to { w, 262 }
+  }
+}
+
+264
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 265 }
+	to { w, 263 }
+  }
+}
+
+265
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 266 }
+	to { w, 264 }
+  }
+}
+
+266
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 265 }
+	to { w, 267 }
+  }
+}
+
+267
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is an colossal door in the 
+wall to the west.  You wonder if there is something interesting to be
+found through it?  You can exit back to the east or try the door to the
+west.
+  }
+  exits {
+	to { e, 266 }
+	to { w, 268 }
+	  info { door, closed, autoclose }
+	  keywords { colossal door }
+  }
+}
+
+268
+{
+  name { Prison of the Colossus  }
+  desc {
+"   You are standing in a circular chamber with a pit in the centre.  From
+here you can see the head and shoulders of a giant humanoid creature that
+appears to be stuck inside the pit.  A faint blue luminescence surrounds
+it.  It's massive eyes turn to look at you.  You don't feel any malice in
+the stare but you do feel a power beyond anything you have ever met or
+seen before.  There is a staircase carved in to the side of the pit, lead
+-ing, presumably, down to the creatures' feet.  Before the staircase is a 
+figure shrouded in black robes and carrying a scythe. You can exit down
+in to the pit or head back east in to the Labyrinth.
+  }
+  exits {
+	to { e, 267 }
+	  info { door, closed, autoclose }
+	  keywords { colossal door }
+	to { d, 317 }
+  }
+}
+
+269
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 270 }
+	to { s, 262 }
+  }
+}
+
+270
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 271 }
+	to { w, 269 }
+  }
+}
+
+271
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and west.
+  }
+  exits {
+	to { n, 272 }
+	to { w, 270 }
+  }
+}
+
+272
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { e, 275 }
+	to { s, 271 }
+	to { w, 273 }
+  }
+}
+
+273
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 272 }
+	to { w, 274 }
+  }
+}
+
+274
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  You can exit back to the east.
+  }
+  exits {
+	to { e, 273 }
+  }
+}
+
+275
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 276 }
+	to { w, 272 }
+  }
+}
+
+276
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 277 }
+	to { w, 275 }
+  }
+}
+
+277
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a dungeon door in the
+wall to the west.  You wonder if there is something interesting to be
+found through it?  You can exit back to the north or try the door to the
+west.
+  }
+  exits {
+	to { n, 276 }
+	to { w, 278 }
+	  info { door, closed, autoclose }
+	  keywords { dungeon door }
+  }
+}
+
+278
+{
+  name { The Dungeon  }
+  desc { Empty
+  }
+  exits {
+	to { e, 277 }
+	  info { door, closed, autoclose }
+	  keywords { dungeon door }
+  }
+}
+
+279
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and east.
+  }
+  exits {
+	to { e, 165 }
+	to { s, 280 }
+  }
+}
+
+280
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 279 }
+	to { e, 281 }
+  }
+}
+
+281
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is a giant green top hat in
+the wall to the east.  You wonder if there is something interesting to be
+found in it?  You can exit back to the west or enter the hat to the
+east.
+  }
+  exits {
+	to { w, 280 }
+	to { 10, 282 }
+	  keywords { tophat }
+  }
+}
+
+282
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the north 
+of you a wall of the same dark-green substance rises up in to the gloom 
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking south you 
+see that there is no return exit back to the labyrinth...  Instead there
+is just empty blackness where the strange, dark-green ground ends, a few
+feet from where you are stood.  The strange dark-green ground curves off
+north-west and east.
+  }
+  exits {
+	to { e, 362 }
+	to { northwest, 356 }
+  }
+}
+
+283
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit south and west.
+  }
+  exits {
+	to { s, 167 }
+	to { w, 284 }
+  }
+}
+
+284
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at a junction between two stone corridors.  Each 
+corridor is 10 foot wide by 10 foot high.  At a guess you measure the 
+walls, floor and ceiling to be made of massive blocks of granite.  The 
+blocks have been so well made that they fit seem-lessly together so that
+only the merest hairsbreadth of gap exists.  They are also smooth and
+cold to the touch.  The floor is clear of any dust or debris.  It would
+be impossible to tell if anything has passed through here recently.  You
+can exit north and east.
+  }
+  exits {
+	to { n, 285 }
+	to { e, 283 }
+  }
+}
+
+285
+{
+  name { Inside the Labyrinth  }
+  desc { TRAP ROOM
+  }
+  exits {
+	to { e, 287 }
+	to { s, 284 }
+	to { w, 286 }
+  }
+}
+
+286
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  You can exit back to the east.
+  }
+  exits {
+	to { e, 285 }
+  }
+}
+
+287
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high.  At
+a guess you measure the walls, floor and ceiling to be made of massive
+blocks of granite.  The blocks have been so well made that they fit seem-
+lessly together so that only the merest hairsbreadth of gap exists.  They
+are also smooth and cold to the touch.  The floor is clear of any dust or
+debris.  It would be impossible to tell if anything has passed through
+here recently.  You can exit east and west.
+  }
+  exits {
+	to { e, 288 }
+	to { w, 285 }
+  }
+}
+
+288
+{
+  name { Inside the Labyrith  }
+  desc {
+"   You have reached a dead-end in a stone corridor.  The corridor is 10 
+foot wide by 10 foot high.  At a guess you measure the walls, floor and
+ceiling to be made of massive blocks of granite.  The blocks have been so
+well made that they fit seem-lessly together so that only the merest
+hairsbreadth of gap exists.  They are also smooth and cold to the touch.
+The floor is clear of any dust or debris.  It would be impossible to tell
+if anything has stopped here recently.  There is an icy door in the wall
+to the south.  You wonder if there is something interesting to be found
+through it?  You can exit back to the west or enter the door to the
+south.
+  }
+  exits {
+	to { s, 289 }
+	  info { door, closed, autoclose }
+	  keywords { icy door }
+	to { w, 287 }
+  }
+}
+
+289
+{
+  name { The Giant's Tomb  }
+  desc { Empty
+  }
+  exits {
+	to { n, 288 }
+	  info { door, closed, autoclose }
+	  keywords { icy door }
+  }
+}
+
+290
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor.  You feel a proper dunce for not
+moving on when you had the chance.  The light from the runes fades as you
+look at them.  You can exit north or south.
+  }
+  flags { dispel_magic }
+  exits {
+	to { n, 183 }
+	to { s, 186 }
+  }
+}
+
+291
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing at the junction of two stone corridor.  You notice
+immediately that the walls here do meet exactly with the floor and that 
+there is a small seam that runs directly down the centre...  Dare you 
+move?  You can exit south or west.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+The floor opens beneath your feet and you plunge into darkness...
+
+"	}
+  }
+  tele { 12, 0, 292 }
+  exits {
+	to { s, 106 }
+	to { w, 104 }
+  }
+}
+
+292
+{
+  name { Plunging...  }
+  desc {
+"   You are plummeting in to darkness.  
+Should you not be trying to save yourself?
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+Above you the floor swings shut with a CLACK!
+
+You're still falling... This is going to be messy!
+
+"	}
+  }
+  tele { 4, 0, 293 }
+}
+
+293
+{
+  name { Plunging...  }
+  desc {
+"   You are plummeting in to darkness.  
+Should you not be trying to save yourself?
+  }
+  extra {
+	keywords { _teleport }
+	desc {  "
+Crack! Ouch!! You've landed! That really HURT!!
+
+
+"	}
+  }
+  tele { 4, 1, 294 }
+}
+
+294
+{
+  name { Inside the Scorpion Pit  }
+  desc {
+"   You land with a thud!  You manage a quick glance at your surroundings;
+You are in the bottom of a stone pit.  The walls look smooth and offer no
+handholds.  You hear a clicking.  A scuttle.  You turn.  Uh oh!
+  }
+}
+
+295
+{
+  name { Inside the Labyrinth  }
+  desc {
+"   You are standing in a stone corridor 10 foot wide by 10 foot high. 
+You immediately notice that the ceiling is a latice work of cracks and
+crumbling masonry.  You edge foward slowly.  Dust and small lumps of
+granite dislodge themselves...  You suddenly notice the floor has a seam
+running directly down the middle!  TRAP!  Get out!  Get out now!  You can
+exit north or south.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"
+The ceiling caves in!
+
+A thousand tons of granite crushes you!
+
+You are dead!
+
+
+"	}
+  }
+  tele { 20, 0, 296 }
+  exits {
+	to { n, 211 }
+	to { s, 213 }
+  }
+}
+
+296
+{
+  name { You are crushed!  }
+  desc {
+"   You are crushed by several hundred tons of granite.
+
+      You are dead!
+
+         Oh dear.
+  }
+}
+
+297
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can exit down,
+back to the base of the dish and the exit to the Labyrinth.  You can move
+east or west or up to the final tier.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { e, 298 }
+	to { w, 304 }
+	to { u, 305 }
+	  info { message }
+	to { d, 226 }
+	  info { message }
+  }
+}
+
+298
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can move west
+or south.
+  }
+  exits {
+	to { s, 299 }
+	to { w, 297 }
+  }
+}
+
+299
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can exit down,
+back to the base of the dish and the exit to the Labyrinth.  You can move
+north or south or up to the final tier.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { n, 298 }
+	to { s, 300 }
+	to { u, 308 }
+	  info { message }
+	to { d, 226 }
+	  info { message }
+  }
+}
+
+300
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can move west
+or north.
+  }
+  exits {
+	to { n, 299 }
+	to { w, 301 }
+  }
+}
+
+301
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can exit down,
+back to the base of the dish and the exit to the Labyrinth.  You can move
+east or west or up to the final tier.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { e, 300 }
+	to { w, 302 }
+	to { u, 311 }
+	  info { message }
+	to { d, 226 }
+	  info { message }
+  }
+}
+
+302
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can move east
+or north.
+  }
+  exits {
+	to { n, 303 }
+	to { e, 301 }
+  }
+}
+
+303
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can exit down,
+back to the base of the dish and the exit to the Labyrinth.  You can move
+north or south or up to the final tier.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { n, 304 }
+	to { s, 302 }
+	to { u, 314 }
+	  info { message }
+	to { d, 226 }
+	  info { message }
+  }
+}
+
+304
+{
+  name { Second Tier of the Jelly Pit  }
+  desc {
+"   You are standing on the second tier of a massive bowl.  Below you the
+base of the dish looks all shiny and reflects the odd, liquid ceiling in
+it's metallic surface.  All around on this level are jellies of various
+colours, all glooping and slurping loudly as they move.  Above you is the
+final tier.  The jellies look even bigger up there!  You can move east
+or south.
+  }
+  exits {
+	to { e, 297 }
+	to { s, 303 }
+  }
+}
+
+305
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit east or west or down, back towards the
+base of the bowl and the exit the Labyrinth.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { e, 306 }
+	to { w, 316 }
+	to { d, 297 }
+	  info { message }
+  }
+}
+
+306
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  There is a very big, very dark jelly standing right here! Argh!
+You can exit southeast or west.
+  }
+  exits {
+	to { w, 305 }
+	to { southeast, 307 }
+  }
+}
+
+307
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit northwest or south.
+  }
+  exits {
+	to { s, 308 }
+	to { northwest, 306 }
+  }
+}
+
+308
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit north or south or down, back towards 
+the base of the bowl and the exit the Labyrinth.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { n, 307 }
+	to { s, 309 }
+	to { d, 299 }
+	  info { message }
+  }
+}
+
+309
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit southwest or north.
+  }
+  exits {
+	to { n, 308 }
+	to { southwest, 310 }
+  }
+}
+
+310
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  There is a very big, very dark jelly standing right here! Argh!
+You can exit northeast or west.
+  }
+  exits {
+	to { w, 311 }
+	to { northeast, 309 }
+  }
+}
+
+311
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit east or west or down, back towards the
+base of the bowl and the exit the Labyrinth.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { e, 310 }
+	to { w, 312 }
+	to { d, 301 }
+	  info { message }
+  }
+}
+
+312
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  There is a very big, very dark jelly standing right here! Argh!
+You can exit northwest or east.
+  }
+  exits {
+	to { e, 311 }
+	to { northwest, 313 }
+  }
+}
+
+313
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit southeast or north.
+  }
+  exits {
+	to { n, 314 }
+	to { southeast, 312 }
+  }
+}
+
+314
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit north or south or down, back towards 
+the base of the bowl and the exit the Labyrinth.
+  }
+  extra {
+	keywords { _ex5 }
+	desc {  "
+You slip and slide down the metal slope...
+
+"	}
+  }
+  exits {
+	to { n, 315 }
+	to { s, 313 }
+	to { d, 303 }
+	  info { message }
+  }
+}
+
+315
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  Looking around this tier you can see some very big, very dark
+jellies standing stationary in the northwest, northeast, southwest and
+southeast corners.  You can exit northeast or south.
+  }
+  exits {
+	to { s, 314 }
+	to { northeast, 316 }
+  }
+}
+
+316
+{
+  name { Top tier of the Jelly Pit  }
+  desc {
+"   You are standing on the third tier of a massive bowl.  Below you, you
+can make out all the jellies on the base and second levels.  The shiny
+metallic surface glints and glistens and reflects the strangely liquid
+ceiling that is now mere inches above your head.  You tentively reach up
+and touch the liquid.  It is cold to the touch but doesn't appear to be
+harmful.  There is a very big, very dark jelly standing right here! Argh!
+You can exit southwest or east.
+  }
+  exits {
+	to { e, 305 }
+	to { southwest, 315 }
+  }
+}
+
+317
+{
+  name { Prison of the Colossus  }
+  desc {
+"   You are standing on a platform halfway down a massive pit.  From here
+you can make out the shoulders, body and waist of the giant humanoid.  It
+doesn't move, and the blue luminescense surrounding flickers and shimmers
+in the light of your torch.  There is a staircase at the far end of the
+platform, presumably leading down to the creatures' feet.  Before the
+staircase is a figure shrouded in black robes and carrying a heavy, two-
+handed mace.  You can exit down to the pit or head back up to the
+Labyrinth.
+  }
+  exits {
+	to { u, 268 }
+	to { d, 318 }
+  }
+}
+
+318
+{
+  name { Prison of the Colossus  }
+  desc {
+"   You are standing at the bottom of a massive pit.  Before you are the
+legs and feet of a giant humanoid.  They are shrouded in a fiery blue
+luminescense that flickers and shimmers.  On the wall is a panel of three
+holes that looks very strange indeed.  Before the giant stands a figure 
+shrouded in black robes and carrying a hefty, two handed sword covered in 
+swirls and cartouches. You can exit up, back towards the Labyrinth.
+  }
+  exits {
+	to { u, 317 }
+  }
+}
+
+319
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southeast, southwest, northwest or northeast.
+  }
+  exits {
+	to { northeast, 339 }
+	to { southeast, 329 }
+	to { southwest, 320 }
+	to { northwest, 337 }
+  }
+}
+
+320
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southeast, west, northwest or northeast.
+  }
+  exits {
+	to { w, 322 }
+	to { northeast, 319 }
+	to { southeast, 326 }
+	to { northwest, 321 }
+  }
+}
+
+321
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southeast.
+  }
+  exits {
+	to { southeast, 320 }
+  }
+}
+
+322
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east, west, northwest or southeast.
+  }
+  exits {
+	to { e, 320 }
+	to { w, 325 }
+	to { southeast, 327 }
+	to { northwest, 323 }
+  }
+}
+
+323
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west or southeast.
+  }
+  exits {
+	to { w, 324 }
+	to { southeast, 322 }
+  }
+}
+
+324
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east or southeast.
+  }
+  exits {
+	to { e, 323 }
+	to { southeast, 325 }
+  }
+}
+
+325
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east or northwest.
+  }
+  exits {
+	to { e, 322 }
+	to { northwest, 324 }
+  }
+}
+
+326
+{
+  name { The Centre of the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { e, 335 }
+	to { w, 327 }
+	to { northeast, 329 }
+	to { southeast, 345 }
+	to { southwest, 340 }
+	to { northwest, 320 }
+  }
+}
+
+327
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west, east or southwest or northwest.
+  }
+  exits {
+	to { e, 326 }
+	to { w, 328 }
+	to { southwest, 346 }
+	to { northwest, 322 }
+  }
+}
+
+328
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east.
+  }
+  exits {
+	to { e, 327 }
+  }
+}
+
+329
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east, northeast, southwest or northwest.
+  }
+  exits {
+	to { e, 331 }
+	to { northeast, 330 }
+	to { southwest, 326 }
+	to { northwest, 319 }
+  }
+}
+
+330
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southwest.
+  }
+  exits {
+	to { southwest, 329 }
+  }
+}
+
+331
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east, west, northeast or southwest.
+  }
+  exits {
+	to { e, 334 }
+	to { w, 329 }
+	to { northeast, 332 }
+	to { southwest, 335 }
+  }
+}
+
+332
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east or southwest.
+  }
+  exits {
+	to { e, 333 }
+	to { southwest, 331 }
+  }
+}
+
+333
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west or southwest.
+  }
+  exits {
+	to { w, 332 }
+	to { southwest, 334 }
+  }
+}
+
+334
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west or northeast.
+  }
+  exits {
+	to { w, 331 }
+	to { northeast, 333 }
+  }
+}
+
+335
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west, east or southeast or northeast.
+  }
+  exits {
+	to { e, 336 }
+	to { w, 326 }
+	to { northeast, 331 }
+	to { southeast, 351 }
+  }
+}
+
+336
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west.
+  }
+  exits {
+	to { w, 335 }
+  }
+}
+
+337
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southeast or northeast.
+  }
+  exits {
+	to { northeast, 338 }
+	to { southeast, 319 }
+  }
+}
+
+338
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { u, 233 }
+	to { southeast, 339 }
+	to { southwest, 337 }
+  }
+}
+
+339
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit southwest or northwest.
+  }
+  exits {
+	to { southwest, 319 }
+	to { northwest, 338 }
+  }
+}
+
+340
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west, northeast, southeast or southwest.
+  }
+  exits {
+	to { w, 346 }
+	to { northeast, 326 }
+	to { southeast, 341 }
+	to { southwest, 350 }
+  }
+}
+
+341
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { northeast, 345 }
+	to { southeast, 344 }
+	to { southwest, 342 }
+	to { northwest, 340 }
+  }
+}
+
+342
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { northeast, 341 }
+	to { southeast, 343 }
+  }
+}
+
+343
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { northeast, 344 }
+	to { northwest, 342 }
+  }
+}
+
+344
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { southwest, 343 }
+	to { northwest, 341 }
+  }
+}
+
+345
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west, southeast, northwest or southwest.
+  }
+  exits {
+	to { e, 351 }
+	to { southeast, 355 }
+	to { southwest, 341 }
+	to { northwest, 326 }
+  }
+}
+
+346
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east, west, northeast or southwest.
+  }
+  exits {
+	to { e, 340 }
+	to { w, 349 }
+	to { northeast, 327 }
+	to { southwest, 347 }
+  }
+}
+
+347
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { w, 348 }
+	to { northeast, 346 }
+  }
+}
+
+348
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { e, 347 }
+	to { northeast, 349 }
+  }
+}
+
+349
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east or southwest.
+  }
+  exits {
+	to { e, 346 }
+	to { southwest, 348 }
+  }
+}
+
+350
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { northeast, 340 }
+  }
+}
+
+351
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit east, west, southeast or northwest.
+  }
+  exits {
+	to { e, 354 }
+	to { w, 345 }
+	to { southeast, 352 }
+	to { northwest, 335 }
+  }
+}
+
+352
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { e, 353 }
+	to { northwest, 351 }
+  }
+}
+
+353
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { w, 352 }
+	to { northwest, 354 }
+  }
+}
+
+354
+{
+  name { Inside the Crystal Snowflake  }
+  desc {
+"   You are standing inside a giant crystalline snowflake.  It is so cold
+in here that you're freezing as you ponder this place!  There must be a
+place where you can escape this infernal cold!  You can see through the
+walls of the snowflake to several other crystal branches--possibly all of
+them are connected to the this one.  In the distance you can see other
+snowflakes, tumbling as they fall silently through the air...  Where are
+you?  You can exit west or southeast.
+  }
+  exits {
+	to { w, 351 }
+	to { southeast, 353 }
+  }
+}
+
+355
+{
+  name { Inside the Crystal Snowflake  }
+  desc { Empty
+  }
+  exits {
+	to { northwest, 345 }
+  }
+}
+
+356
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the east of
+you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking west you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off north and south-east.
+  }
+  exits {
+	to { n, 357 }
+	to { southeast, 282 }
+  }
+}
+
+357
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the east of
+you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking west you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off north-east and south.
+  }
+  exits {
+	to { s, 356 }
+	to { northeast, 358 }
+  }
+}
+
+358
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the south
+of you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking north you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off east and south-west.
+  }
+  exits {
+	to { e, 359 }
+	to { southwest, 357 }
+  }
+}
+
+359
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the south
+of you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking north you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off west and south-east.
+  }
+  exits {
+	to { w, 358 }
+	to { southeast, 360 }
+  }
+}
+
+360
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the west
+of you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band, but also a tear in
+the strange substance...  Maybe you could squeeze through it?  Looking
+east you see that there is just empty blackness where the strange, dark-
+green ground ends, a few feet from where you are stood.  The strange
+dark-green ground curves off south and north-west.
+  }
+  exits {
+	to { s, 361 }
+	to { northwest, 359 }
+	to { 10, 363 }
+	  info { secret, hidden }
+	  keywords { tear }
+  }
+}
+
+361
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the west
+of you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking east you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off north and south-west.
+  }
+  exits {
+	to { n, 360 }
+	to { southwest, 362 }
+  }
+}
+
+362
+{
+  name { Around the Rim of the Leprechaun's Hat  }
+  desc {
+"   You are standing on a soft, dark-green, spongy ground.  To the north
+of you a wall of the same dark-green substance rises up in to the gloom
+above you.  Around the base of what you think is a wall is a light-green 
+band of the same kind of material.  Looking closer you can see a pattern 
+of four-leaf clovers covering this light-green band.  Looking south you 
+see that there is just empty blackness where the strange, dark-green
+ground ends, a few feet from where you are stood.  The strange dark-green
+ground curves off west and north-east.
+  }
+  exits {
+	to { w, 282 }
+	to { northeast, 361 }
+  }
+}
+
+363
+{
+  name { Inside the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange shaggy carpet made of thick ginger
+strands that are quite soft to the touch.  Looking around you see you are
+inside a massive chamber of some kind whose walls are made of the same
+dark-green spongy material as the outside.  The chamber stretches off to
+the west, north-west and north.  A strange, high-pitched, cackle pierces
+the air...  Uh oh!  You can exit back through the tear or explore the
+chamber.
+  }
+  exits {
+	to { n, 366 }
+	to { w, 364 }
+	to { northwest, 365 }
+	to { 10, 360 }
+	  info { secret, hidden }
+	  keywords { tear }
+  }
+}
+
+364
+{
+  name { Inside the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange shaggy carpet made of thick ginger
+strands that are quite soft to the touch.  Looking around you see you are
+inside a massive chamber of some kind whose walls are made of the same
+dark-green spongy material as the outside.  The chamber stretches off to
+the north, north-east and east.
+  }
+  exits {
+	to { n, 365 }
+	to { e, 363 }
+	to { northeast, 366 }
+  }
+}
+
+365
+{
+  name { Inside the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange shaggy carpet made of thick ginger
+strands that are quite soft to the touch.  Looking around you see you are
+inside a massive chamber of some kind whose walls are made of the same
+dark-green spongy material as the outside.  The chamber stretches off to
+the south, south-east and east.  There are some rungs cut into the wall
+here that look sturdy enough to support your weight.
+  }
+  exits {
+	to { e, 366 }
+	to { s, 364 }
+	to { southeast, 363 }
+	to { 10, 367 }
+	  info { secret, hidden }
+	  keywords { rungs }
+  }
+}
+
+366
+{
+  name { Inside the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange shaggy carpet made of thick ginger
+strands that are quite soft to the touch.  Looking around you see you are
+inside a massive chamber of some kind whose walls are made of the same
+dark-green spongy material as the outside.  The chamber stretches off to
+the south, south-west and west.
+  }
+  exits {
+	to { s, 363 }
+	to { w, 365 }
+	to { southwest, 364 }
+  }
+}
+
+367
+{
+  name { At the Top of the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange cloudy material that looks like it
+should have no substance whatsoever.  Looking around you can see a large
+golden pot to the south-east.  The chamber stretches off east, south and
+south-east.  You can also exit back down the rungs.
+  }
+  exits {
+	to { e, 368 }
+	to { s, 370 }
+	to { southeast, 369 }
+	to { 10, 365 }
+	  info { secret, hidden }
+	  keywords { rungs }
+  }
+}
+
+368
+{
+  name { At the Top of the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange cloudy material that looks like it
+should have no substance whatsoever.  Looking around you can see a large
+golden pot to the south.  The chamber stretches off west, south and
+south-west.
+  }
+  exits {
+	to { s, 369 }
+	to { w, 367 }
+	to { southwest, 370 }
+  }
+}
+
+369
+{
+  name { At the Top of the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange cloudy material that looks like it
+should have no substance whatsoever.  You are right next to the large
+golden pot now.  Looking in you see it is full of golden coins!  More
+golden coins than you have ever seen in your life!  Wow!  The chamber 
+stretches off west, north and north-west.
+  }
+  exits {
+	to { n, 368 }
+	to { w, 370 }
+	to { northwest, 367 }
+  }
+}
+
+370
+{
+  name { At the Top of the Leprechaun's Hat  }
+  desc {
+"   You are standing on some strange cloudy material that looks like it
+should have no substance whatsoever.  Looking around you can see a large
+golden pot to the east.  The chamber stretches off east, north and
+north-east.
+  }
+  exits {
+	to { n, 367 }
+	to { e, 369 }
+	to { northeast, 368 }
+  }
+}
+
+371
+{
+  name { 241671  }
+  desc { Empty
+  }
+}

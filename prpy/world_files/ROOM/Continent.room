@@ -1,0 +1,816 @@
+#offset Continent
+
+0
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The fresh sea air blows gently through your hair. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 1 }
+}
+
+1
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The large, white sails flap violently in the wind. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 2 }
+}
+
+2
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The ship tosses side to side in the waves of the water. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 3 }
+}
+
+3
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  A short rain shower lets loose a bucket of water on your head. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 4 }
+}
+
+4
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The storm seems to have quieted down, as the sun pokes through the clouds.
+	}
+  }
+  flags { no_sum, private }
+  tele { 50, 0, 5 }
+}
+
+5
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The fresh, salty sea air blows gently through your hair. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 6 }
+}
+
+6
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  One of the shipmates peers off the ships bow and shouts, "LAND HO!". 	}
+  }
+  flags { no_sum, private }
+  tele { 50, 0, 7 }
+}
+
+7
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The crew members scurry around the ship, getting ready to dock. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 8 }
+}
+
+8
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The crew members continue to make preparations to dock. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 9 }
+}
+
+9
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+""Stand back! Stand back! and we will try to get the gangplank down!", one of the
+crew members shouts.
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 10 }
+}
+
+10
+{
+  name { Ferry to OldPort  }
+  desc {
+"   The ferry is full of travelers trying to cross the mighty ocean.
+Everyone seems to be above deck, talking and laughing in their little
+groups.  Several mighty sails stretch out from the masts reaching up
+from the middle of the ship.  A Captain stands with his first mate
+trying to decipher a giant map.  Not a good sign.  Fortunately, It is
+a beautiful day for sailing.
+  }
+  extra {
+	keywords { _teleport }
+	desc { ""	}
+	keywords { _teleport -1 }
+	desc { ""	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 11 }
+  }
+}
+
+11
+{
+  name { Down the Gangplank  }
+  desc {
+"   The metal gangplank extends all the way down to the dock.  A large,
+imposing man waits at the end of the plank.  Hopefully he is just waiting
+for your ticket and not something else!  The docks are busy with life
+and movement.  People of all shapes and sizes walk, talk and work up
+and down the docks.  The crewman of the ship you were just sailing on
+have blocked off the entrance back onto the ship.  Oh well, nowhere to
+go but west.
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { Down the Gangplank  }
+  desc {
+"   The metal gangplank extends all the way down to the dock.  A large,
+imposing man waits at the end of the plank.  Hopefully he is just waiting
+for your ticket and not something else!  The docks are busy with life
+and movement.  People of all shapes and sizes walk, talk and work up
+and down the docks.  The crewman of the ship you were just sailing on
+have blocked off the entrance back onto the ship.  Oh well, nowhere to
+go but west.
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 11 }
+	to { w, OldPort:155 }
+  }
+}
+
+13
+{
+  name { Up the Gangplank  }
+  desc {
+"   It seems like a long way up the giant metal gangplank.  There is a large
+metal gate blocking entrance onto the ship.  The ships crew is running around,
+preparing for their next journey.  A voice echoes out, "Hey, you need to buy
+a ticket to get onto the ferry.".  Looking at the ticket salesman, a shiver
+runs through your spine.  He appears to be just a skeleton beneath a thick
+black robe!  "This isn't a show kid.  Buy a ticket or move on.", a deep voice
+echoes from underneath his hood, "The ferry will be leaving soon!".
+  }
+  flags { peaceful, no_sum, private }
+  exits {
+	to { e, 14 }
+	to { w, Millers:176 }
+  }
+}
+
+14
+{
+  name { Up the Gangplank  }
+  desc {
+"   It seems like a long way up the giant metal gangplank.  The crew of the
+ferry seem to be completely absent.  There is a large metal gate blocking
+entrance onto the ship and it is securely locked.  The hooded ticket
+salesman stands to the far west of the gangplank, almost on the pier.
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 0 }
+	  key { 163050 }
+	  info { door, closed, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { w, 13 }
+  }
+}
+
+15
+{
+  name { Up the Gangplank  }
+  desc {
+"   It seems like a long way up the giant metal gangplank.  The crew of the
+ship to Millers Falls seems to have disappeared.  There is no one to greet
+you as you walk up the gangplank.  Probably not a good sign.  What could
+have happened to the crew?
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 16 }
+	to { w, OldPort:155 }
+  }
+}
+
+16
+{
+  name { Up the Gangplank  }
+  desc {
+"   The gangplank seems like it goes on forever.  The entrance onto the ferry
+to Millers Falls is blocked by a gate to the east.  The gate is securely
+locked, but could probably be opened very easily with the ticket that the
+salesman was selling!  Better go wait back in line.  Strangely, there are
+no crew members to be seen on the Millers Falls' ferry.  There are not
+many passengers getting on the boat at this stop either.  Oh well, more
+Millers Falls for you!
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 17 }
+	  key { 163050 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate }
+	to { w, 15 }
+  }
+}
+
+17
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  A cool and windy breeze crawls across the deck. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 18 }
+}
+
+18
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The gigantic white sails snap in the furious wind. 	}
+  }
+  flags { no_sum, private }
+  tele { 50, 0, 19 }
+}
+
+19
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  Some water sprays up from the ocean and onto your face. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 20 }
+}
+
+20
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  The boat rocks back and forth with the motion of the ocean. 	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 21 }
+}
+
+21
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+A small rain shower lets loose a quick deluge of water onto your head.
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 22 }
+}
+
+22
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The storm seems to have quieted down, as the sun pokes through the clouds.
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 23 }
+}
+
+23
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  One of the passengers peers off the ships bow and shouts, "LAND HO!".
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 24 }
+}
+
+24
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+The rope binding the gangplank starts to untie and the gangplank itself
+starts to shake!
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 25 }
+}
+
+25
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+"   The gangplank shoots out straight and links up with the Millers Falls
+docks.  The man taking tickets at the end of the docks seems none too
+surprised by these sudden actions.  The only way to go must be straight
+down the gangplank and into Millers Falls!
+	}
+  }
+  flags { no_sum, private }
+  tele { 40, 0, 26 }
+}
+
+26
+{
+  name { Ferry to Millers Falls  }
+  desc {
+"   The ferry to Millers Falls is ominously vacant, yet the ship takes off
+in a timely manner as the last passenger arrives.  There is no crew to
+man the ship, but it seems to be running just fine.  A low mist rolls
+across the deck of the ship, causing a slow shiver to climb up your spine.
+A quick snap of one of the sails lets you know at least the wind is still
+moving.  Some of the other passengers start to spread out and examine
+the ship.
+  }
+  extra {
+	keywords { _teleport }
+	desc {  One of the passengers peers off the ships bow and shouts, "LAND HO!".
+	}
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { Down the Gangplank  }
+  desc {
+"   The metal gangplank extends all the way down to the dock.  A large,
+imposing man waits at the end of the plank.  Hopefully he is just waiting
+for your ticket and not something else!  The docks are vacant and void
+of life, except for the ticket salesman.  The ship you sailed in on is
+getting ready to yank the gangplank out from under you and sail off.
+Better get off it fast!
+  }
+  flags { no_sum, private }
+  exits {
+	to { w, 28 }
+  }
+}
+
+28
+{
+  name { Down the Gangplank  }
+  desc {
+"   The metal gangplank extends all the way down to the dock.  A large,
+imposing man waits at the end of the plank.  Hopefully he is just waiting
+for your ticket and not something else!  The docks are vacant and void
+of life, except for the ticket salesman.  The ship you sailed in on is
+getting ready to yank the gangplank out from under you and sail off.
+Better get off it fast!
+  }
+  flags { no_sum, private }
+  exits {
+	to { e, 27 }
+	to { w, Millers:176 }
+  }
+}
+
+29
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading
+straight into the soil below.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  Moisture, or some sort of
+liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.
+  }
+  flags { dark, no_mob, no_sum, private }
+  exits {
+	to { u, Wilderness5:981 }
+	to { d, 30 }
+  }
+}
+
+30
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading
+into caverns to the north and up.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  Moisture, or some sort of
+liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.  The echoes of something trying to chew through rock
+can be heard coming from the north.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 31 }
+	to { u, 29 }
+  }
+}
+
+31
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading
+into caverns to the north, earth, south and west.  The cavern ceiling and
+floors are covered with stalagmites and stalactites.  Moisture, or some
+sort of liquid, drips down from the stalactites and into puddles forming
+on the cavern floor.  The echoes of something trying to chew through rock
+can be heard coming from the west.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 34 }
+	to { e, 32 }
+	to { s, 30 }
+	to { w, 33 }
+  }
+}
+
+32
+{
+  name { An Alcove in the Tunnel  }
+  desc {
+"   A gigantic hole has been dug into the ground here.  The only way out
+appears to be back to the west.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  The cavern walls here have
+scraping and teeth marks against the far east wall.  Whoever or
+whatever was digging here must have given up.  Moisture, or some sort
+of liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { w, 31 }
+  }
+}
+
+33
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading into
+caverns to the east and southwest.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  Moisture, or some sort of
+liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.  The echoes of something trying to chew through rock
+can be heard coming from the southwest.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { e, 31 }
+	to { southwest, 36 }
+  }
+}
+
+34
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading
+into caverns to the south and down.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  Moisture, or some sort of
+liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.  The echoes of something trying to chew through rock
+can be heard coming from the south.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { s, 31 }
+	to { d, 35 }
+  }
+}
+
+35
+{
+  name { A Tunnel Through the Ground  }
+  desc {
+"   A gigantic hole has been dug through the ground and is leading
+into caverns to the north and up.  The cavern ceiling and floors are
+covered with stalagmites and stalactites.  Moisture, or some sort of
+liquid, drips down from the stalactites and into puddles forming on
+the cavern floor.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { n, 37 }
+	to { u, 34 }
+  }
+}
+
+36
+{
+  name { Lair of the Slime Worm  }
+  desc {
+"   This cavern is completely dug out and smooth.  A pool of slimy liquid
+covers the cavern floor.  Long dead carcasses float on the edge of the
+pool, drained of every ounce of life.  The slimy liquid begins to stir
+as the Slime Worm rises up and rears to attack.  The cavern ceiling is
+covered in stalactites.  Moisture, or more likely the liquid from the 
+pool, drips down from the stalactites and back into the pool.
+  }
+  flags { dark, no_sum, private }
+  exits {
+	to { northeast, 33 }
+  }
+}
+
+37
+{
+  name { Entrance to the Caverns  }
+  desc {
+"   A large hole leads into some caverns, while a beautiful sandy beach
+runs to the north.  The beach sand is very soft and is littered with
+pieces of seashells.  The ocean water seems to go out forever and is
+strangely calm on such a lovely day.  The beach extends to the north
+for quite some ways.  The sounds of an animal roaring can be heard
+echoing out from the caverns to the south.
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, 38 }
+	to { s, 35 }
+  }
+}
+
+38
+{
+  name { On a Sandy Beach  }
+  desc {
+"   The sandy beach continues in the north and south directions.  The
+blue ocean water seems to follow the horizon to the east.  A strong
+breeze splashes some of the ocean water on your face.  The water is
+very warm and salty.  To the north, a stone pathway can be seen leaving
+the beach and heading towards some giant walls built into the mountains
+to the west.  What could be up there?
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { n, 39 }
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { On a Sandy Beach  }
+  desc {
+"   The sandy beach continues in the north and south directions.  The
+blue ocean water seems to follow the horizon to the east.  A strong
+breeze splashes some of the ocean water on your face.  The water is
+very warm and salty.  To the north, a stone pathway can be seen leaving
+the beach and heading towards some giant walls built into the mountains
+to the west.  What could be up there?
+  }
+  sector { Desert }
+  flags { no_sum, private }
+  exits {
+	to { s, 38 }
+	to { northwest, 40 }
+  }
+}
+
+40
+{
+  name { A Path up the Beach  }
+  desc {
+"   The path along the beach and up to Millers Falls is very peaceful today.
+The pathway is lined with intricately carved stones that were placed with
+loving care.  The walls surrounding Millers Falls can be seen from here.
+They are truly great indeed.  Those walls should have been able to hold out
+any attacker!  What could have happened to this poor town.
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, 41 }
+	to { southeast, 39 }
+  }
+}
+
+41
+{
+  name { A Path up the Beach  }
+  desc {
+"   The path along the beach and up to Millers Falls is very peaceful today.
+The pathway is lined with intricately carved stones that were placed with
+loving care.  To the north, the pathway seems to run along a river before
+the walls of Millers Falls.  A mountain range blocks any movement to the
+west.
+  }
+  flags { no_sum, private }
+  exits {
+	to { n, Millers:0 }
+	to { s, 40 }
+  }
+}

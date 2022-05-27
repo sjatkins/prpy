@@ -1,0 +1,1344 @@
+#offset GrudgeCastle
+
+0
+{
+  name { Inside the Castle of Contention  }
+  desc {
+"   You stand in a long hallway of the Castle of Contention.  Battle cries 
+and the sound of clashing metal echo through it's stone walls.  A stairwell
+leads upwards into a parapet.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { u, 11 }
+	to { southeast, 1 }
+  }
+}
+
+1
+{
+  name { The Castle of Contention  }
+  desc {
+"   You are situated in the long hallway of the Castle of Contention.  You can
+hear the blood-curdling screams of those falling before their opponents' 
+swords, and the enormous explosions accompanying the use of violent magic. 
+The hall stretches away from you to the Northwest and the East.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { e, 2 }
+	to { northwest, 0 }
+  }
+}
+
+2
+{
+  name { The Castle of Contention  }
+  desc {
+"   A large hallway cuts your northern path, providing travel opportunities to
+the East and West.  To the south, a large Bailey opens up.  The stone walls
+about you are stained with burnt and blackening blood, many battles have been
+fought within this keep.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { e, 3 }
+	to { s, 4 }
+	to { w, 1 }
+  }
+}
+
+3
+{
+  name { The Castle of Contention  }
+  desc {
+"   The hallway angles to the northeast from the west, from where you are 
+currently positioned.  It also narrows somewhat, creating quite a interesting
+situation for combat.  A number of appendages can be seen, all at varying levels
+of decay.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { w, 2 }
+	to { northeast, 12 }
+  }
+}
+
+4
+{
+  name { Before the Castle of Contention  }
+  desc {
+"   The Castle of Contention towers above you to the north, it's ancient stone 
+walls smeared with splattered blood and blackened by countless magical
+explosions.  The bailey lies to the south, and you can hear the faint
+chorus of battle from that direction.
+  }
+  sector { City }
+  flags { arena, relocate_distort }
+  exits {
+	to { n, 2 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Inside the Bailey  }
+  desc {
+"   You are standing in the northwestern corner of the Castle's Bailey.  The
+castle itself stands tall to the north.  You can hear the screams of those
+failing to win their duels floating across the blood-stained ground.
+  }
+  sector { City }
+  flags { arena, relocate_distort }
+  exits {
+	to { n, 4 }
+	to { e, 6 }
+	to { s, 7 }
+	to { southeast, 8 }
+  }
+}
+
+6
+{
+  name { Inside the Bailey  }
+  desc {
+"   You are standing in the northeastern corner of the Castle's Bailey.  The
+stone courtyard you stand upon is covered in the blood of hundreds of 
+unfortunate contenders.  You spy a pool to the south, and the large castle
+can fronts onto the bailey to the west. 
+  }
+  sector { City }
+  flags { arena, relocate_distort }
+  exits {
+	to { s, 8 }
+	to { w, 5 }
+	to { d, 55 }
+	to { southwest, 7 }
+  }
+}
+
+7
+{
+  name { Inside the Bailey  }
+  desc {
+"   The large bailey of the castle sweeps out before you, to the north and
+northeast.  To the north the castle itself looms, a crooked parapet at it's
+peak.  The cries of falling contenders echoes around the stone arena. 
+  }
+  sector { City }
+  flags { arena, relocate_distort }
+  exits {
+	to { n, 5 }
+	to { e, 8 }
+	to { s, 10 }
+	to { northeast, 6 }
+  }
+}
+
+8
+{
+  name { Inside the Bailey  }
+  desc {
+"   A large hole in the ground here is all that betrays the existance of a
+large pool of water, it's surface tinged with red.  The bailey extends
+to the north and west from where you stand, and the sounds of battle can
+be heard echoing along it's blue-stone walls.
+  }
+  sector { City }
+  flags { arena, relocate_distort }
+  exits {
+	to { n, 6 }
+	to { w, 7 }
+	to { northwest, 5 }
+	to { 10, 9 }
+	  keywords { pool }
+  }
+}
+
+9
+{
+  name { A deep pool  }
+  desc {
+"   Deep within the pool, a small disc of light above you the only hint of
+any escape route.  The water surrounding you fairly leeches your body warmth
+from you, chilling you to the bone.  You can taste salty blood on the water
+in which you float.
+  }
+  sector { Underwater }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { u, 8 }
+  }
+}
+
+10
+{
+  name { Entrance to the Castle of Contention  }
+  desc {
+"   You stand before the Castle of Contention.  A mock-up battlefield for you to
+test your wits against one another.  A large sign is affixed to the entranceway
+of this castle.  It reads:
+ 
+                  Rules/Guidelines/Use of this Castle
+ 
+1.  Anyone is fair game inside this area, there is no precedence for staging
+     individual duels, that is up to you to sort out.  
+2.  There are no rewards or penalties for winning or losing in this arena.
+3.  The loser will be transported to the Bounce room.  They will not lose any
+     equipment (other than what was consumed during battle).  They will not 
+     be healed. (Only enough so that they may be considered 'alive')
+4.  The winner will remain in the arena, free to walk out whenever they like. 
+     They also will not be healed.
+5.  Have fun :)
+
+- The imms
+  }
+  sector { City }
+  extra {
+	keywords { _teleport }
+	desc { 
+The chilling sounds of death and battle drift to your ears from the north.
+	}
+	keywords { builder }
+	desc {  Built by Tsudo 12may01 :) 	}
+  }
+  flags { no_mob, peaceful }
+  tele { 50, 0, 10 }
+  exits {
+	to { n, 7 }
+	to { 10, Midgard:72 }
+	  keywords { city }
+  }
+}
+
+11
+{
+  name { Inside the magical Parapet  }
+  desc {
+"   You stand inside the top half of the castle's parapet.  A strange humming
+can be heard from the blocks of stone that make up the walls.  You feel a
+strange sense of well-being flow through your body.  A stairwell would lead
+you down into the castle halls.
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+You notice your ills fading more quickly, and your body is recovering
+it's vigor.
+	}
+  }
+  flags { indoors, arena, fast_moves, relocate_distort, blue_glow }
+  tele { 50, 0, 11 }
+  exits {
+	to { d, 0 }
+  }
+}
+
+12
+{
+  name { The Castle of Contention  }
+  desc {
+"   The hallway stretches to the north from a bend to the southwest, an
+entrance-way can be seen further along to the west.  
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { n, 13 }
+	to { southwest, 3 }
+  }
+}
+
+13
+{
+  name { The Castle of Contention  }
+  desc {
+"   The occasional broken sword or arrow litter the floor along this hallway, 
+accompanied by fingers, toes and other body parts.  Vast sections of wall are
+scorched to blackness, magical fire obviously playing a pivotal part in some
+battle held here.  The hall stretches to the north, only broken by an
+entranceway to the east.  A sharp bend to the west lies in store to the south.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { n, 14 }
+	to { s, 12 }
+  }
+}
+
+14
+{
+  name { An entranceway  }
+  desc {
+"   An entranceway to the east leads into what appears to be some kind of magical
+maze.  The hallway you are standing in stretches to the south, where it bends
+and to the north, where it opens up into a large room of some kind.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { n, 15 }
+	to { e, 99 }
+	to { s, 13 }
+  }
+}
+
+15
+{
+  name { Before a large room  }
+  desc {
+"   You stand at the end of a long hallway, the sounds of battle ricochet off the
+stone walls that stretch to the south.  A large audience chamber opens up to the
+north.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { n, 97 }
+	to { s, 14 }
+  }
+}
+
+16
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 61 }
+  exits {
+	to { s, 25 }
+  }
+}
+
+17
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 17 }
+  exits {
+	to { e, 18 }
+	to { southwest, 25 }
+  }
+}
+
+18
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 93 }
+  exits {
+	to { s, 27 }
+	to { w, 17 }
+  }
+}
+
+19
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 70 }
+  exits {
+	to { s, 28 }
+  }
+}
+
+20
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 62 }
+  exits {
+	to { southeast, 30 }
+	to { southwest, 28 }
+  }
+}
+
+21
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 16 }
+  exits {
+	to { e, 22 }
+	to { southeast, 31 }
+	to { southwest, 29 }
+  }
+}
+
+22
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 23 }
+  exits {
+	to { e, 23 }
+	to { w, 21 }
+  }
+}
+
+23
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 28 }
+  exits {
+	to { e, 24 }
+	to { w, 22 }
+  }
+}
+
+24
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 49 }
+  exits {
+	to { w, 23 }
+  }
+}
+
+25
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 52 }
+  exits {
+	to { n, 16 }
+	to { s, 34 }
+	to { northeast, 17 }
+  }
+}
+
+26
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 48 }
+  exits {
+	to { e, 27 }
+	to { s, 35 }
+  }
+}
+
+27
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 16 }
+  exits {
+	to { n, 18 }
+	to { w, 26 }
+  }
+}
+
+28
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 21 }
+  exits {
+	to { n, 19 }
+	to { northeast, 20 }
+  }
+}
+
+29
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 68 }
+  exits {
+	to { northeast, 21 }
+	to { southwest, 37 }
+  }
+}
+
+30
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 43 }
+  exits {
+	to { southwest, 38 }
+	to { northwest, 20 }
+  }
+}
+
+31
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 72 }
+  exits {
+	to { southwest, 39 }
+	to { northwest, 21 }
+  }
+}
+
+32
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 81 }
+  exits {
+	to { e, 33 }
+	to { southwest, 40 }
+  }
+}
+
+33
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 41 }
+  exits {
+	to { w, 32 }
+	to { southwest, 41 }
+  }
+}
+
+34
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 61 }
+  exits {
+	to { n, 25 }
+	to { s, 43 }
+  }
+}
+
+35
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 62 }
+  exits {
+	to { n, 26 }
+	to { e, 36 }
+  }
+}
+
+36
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 22 }
+  exits {
+	to { s, 45 }
+	to { w, 35 }
+  }
+}
+
+37
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 91 }
+  exits {
+	to { northeast, 29 }
+  }
+}
+
+38
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 18 }
+  exits {
+	to { northeast, 30 }
+	to { southwest, 46 }
+  }
+}
+
+39
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 30 }
+  exits {
+	to { northeast, 31 }
+	to { southwest, 47 }
+  }
+}
+
+40
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 66 }
+  exits {
+	to { s, 49 }
+	to { northeast, 32 }
+  }
+}
+
+41
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 18 }
+  exits {
+	to { northeast, 33 }
+	to { southeast, 51 }
+  }
+}
+
+42
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 52 }
+  exits {
+	to { s, 51 }
+	to { southwest, 50 }
+  }
+}
+
+43
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 47 }
+  exits {
+	to { n, 34 }
+	to { e, 44 }
+  }
+}
+
+44
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 32 }
+  exits {
+	to { w, 43 }
+	to { southwest, 52 }
+  }
+}
+
+45
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 86 }
+  exits {
+	to { n, 36 }
+	to { s, 54 }
+	to { southeast, 55 }
+  }
+}
+
+46
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 92 }
+  exits {
+	to { northeast, 38 }
+	to { southeast, 56 }
+  }
+}
+
+47
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 93 }
+  exits {
+	to { northeast, 39 }
+	to { southwest, 55 }
+  }
+}
+
+48
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 87 }
+  exits {
+	to { e, 49 }
+	to { s, 57 }
+  }
+}
+
+49
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 24 }
+  exits {
+	to { n, 40 }
+	to { w, 48 }
+  }
+}
+
+50
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 66 }
+  exits {
+	to { s, 59 }
+	to { northeast, 42 }
+  }
+}
+
+51
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 68 }
+  exits {
+	to { n, 42 }
+	to { northwest, 41 }
+  }
+}
+
+52
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 40 }
+  exits {
+	to { s, 61 }
+	to { northeast, 44 }
+  }
+}
+
+53
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 73 }
+  exits {
+	to { s, 62 }
+	to { southwest, 61 }
+  }
+}
+
+54
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 81 }
+  exits {
+	to { n, 45 }
+	to { southeast, 64 }
+  }
+}
+
+55
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 73 }
+  exits {
+	to { u, 6 }
+	to { northeast, 47 }
+	to { southeast, 65 }
+	to { southwest, 63 }
+	to { northwest, 45 }
+  }
+}
+
+56
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 45 }
+  exits {
+	to { s, 65 }
+	to { northwest, 46 }
+  }
+}
+
+57
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 32 }
+  exits {
+	to { n, 48 }
+	to { e, 58 }
+  }
+}
+
+58
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 73 }
+  exits {
+	to { s, 67 }
+	to { w, 57 }
+  }
+}
+
+59
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 66 }
+  exits {
+	to { n, 50 }
+	to { s, 68 }
+  }
+}
+
+60
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 20 }
+  exits {
+	to { s, 69 }
+  }
+}
+
+61
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 35 }
+  exits {
+	to { n, 52 }
+	to { northeast, 53 }
+  }
+}
+
+62
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 42 }
+  exits {
+	to { n, 53 }
+	to { southeast, 72 }
+  }
+}
+
+63
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 85 }
+  exits {
+	to { northeast, 55 }
+	to { southwest, 71 }
+  }
+}
+
+64
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 60 }
+  exits {
+	to { s, 73 }
+	to { northwest, 54 }
+  }
+}
+
+65
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 87 }
+  exits {
+	to { n, 56 }
+	to { e, 66 }
+	to { s, 74 }
+	to { northwest, 55 }
+  }
+}
+
+66
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 50 }
+  exits {
+	to { e, 67 }
+	to { s, 75 }
+	to { w, 65 }
+  }
+}
+
+67
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 83 }
+  exits {
+	to { n, 58 }
+	to { w, 66 }
+  }
+}
+
+68
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 16 }
+  exits {
+	to { n, 59 }
+	to { southeast, 78 }
+  }
+}
+
+69
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 69 }
+  exits {
+	to { n, 60 }
+	to { southwest, 77 }
+  }
+}
+
+70
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 32 }
+  exits {
+	to { s, 79 }
+	to { w, 99 }
+  }
+}
+
+71
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 67 }
+  exits {
+	to { e, 72 }
+	to { s, 80 }
+	to { northeast, 63 }
+  }
+}
+
+72
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 71 }
+  exits {
+	to { w, 71 }
+	to { northwest, 62 }
+  }
+}
+
+73
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 84 }
+  exits {
+	to { n, 64 }
+	to { southeast, 83 }
+	to { southwest, 81 }
+  }
+}
+
+74
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 17 }
+  exits {
+	to { n, 65 }
+	to { e, 75 }
+  }
+}
+
+75
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 22 }
+  exits {
+	to { n, 66 }
+	to { w, 74 }
+  }
+}
+
+76
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 74 }
+  exits {
+	to { s, 85 }
+	to { southeast, 86 }
+  }
+}
+
+77
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 29 }
+  exits {
+	to { e, 78 }
+	to { northeast, 69 }
+	to { southwest, 85 }
+  }
+}
+
+78
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 18 }
+  exits {
+	to { w, 77 }
+	to { northwest, 68 }
+  }
+}
+
+79
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 80 }
+  exits {
+	to { n, 70 }
+	to { southeast, 89 }
+  }
+}
+
+80
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 53 }
+  exits {
+	to { n, 71 }
+	to { southwest, 88 }
+  }
+}
+
+81
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 84 }
+  exits {
+	to { s, 90 }
+	to { northeast, 73 }
+  }
+}
+
+82
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 52 }
+  exits {
+	to { southeast, 92 }
+	to { southwest, 90 }
+  }
+}
+
+83
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 77 }
+  exits {
+	to { e, 84 }
+	to { southwest, 91 }
+	to { northwest, 73 }
+  }
+}
+
+84
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 76 }
+  exits {
+	to { w, 83 }
+  }
+}
+
+85
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 52 }
+  exits {
+	to { n, 76 }
+	to { northeast, 77 }
+  }
+}
+
+86
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 69 }
+  exits {
+	to { southeast, 96 }
+	to { northwest, 76 }
+  }
+}
+
+87
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 24 }
+  exits {
+	to { southwest, 95 }
+  }
+}
+
+88
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 68 }
+  exits {
+	to { e, 89 }
+	to { northeast, 80 }
+  }
+}
+
+89
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 45 }
+  exits {
+	to { w, 88 }
+	to { northwest, 79 }
+  }
+}
+
+90
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 91 }
+  exits {
+	to { n, 81 }
+	to { northeast, 82 }
+  }
+}
+
+91
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 88 }
+  exits {
+	to { northeast, 83 }
+  }
+}
+
+92
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 81 }
+  exits {
+	to { e, 93 }
+	to { northwest, 82 }
+  }
+}
+
+93
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 36 }
+  exits {
+	to { e, 94 }
+	to { w, 92 }
+  }
+}
+
+94
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 77 }
+  exits {
+	to { e, 95 }
+	to { w, 93 }
+  }
+}
+
+95
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 60 }
+  exits {
+	to { e, 96 }
+	to { w, 94 }
+	to { northeast, 87 }
+  }
+}
+
+96
+{
+  name { The Grudge Arena  }
+  desc { You know you want to kill someone.   }
+  flags { arena, relocate_distort }
+  tele { 0, 1, 42 }
+  exits {
+	to { w, 95 }
+	to { northwest, 86 }
+  }
+}
+
+97
+{
+  name { An audience chamber  }
+  desc {
+"   A massive chamber surrounds you.  The ceilings here seem impossibly high, and
+huge stone columns staged in two rows support the roof of this monstrous 
+chamber.  A gently sloping stair-case at the northern end lead to a large throne
+which is currently vacant.  Along the side walls tapestries as tall as a two-
+-story house hang, depicting glorious battles between man and man, and man and
+beast.  A rather large archway to the south provides exit to a long hallway.
+  }
+  extra {
+	keywords { _ex10 }
+	desc { 
+You operate the mechanism that moves the throne.  As you crawl into
+the space behind the throne, it suddenly shuts behind you, sealing
+you inside.
+	}
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { s, 15 }
+	to { 10, 98 }
+	  desc { 
+This rather regal-looking seat is made of gold and stands ten feet tall.
+}
+	  info { secret, hidden }
+	  keywords { throne }
+  }
+}
+
+98
+{
+  name { A hidden room behind the throne  }
+  desc {
+"   You are crouching in a small room, hidden behind a golden throne.  You find
+it impossible to move the throne, and you are thus trapped inside this small 
+enclosure!   
+  }
+  extra {
+	keywords { _teleport }
+	desc { 
+Suddenly you feel yourself being magically transported elsewhere!
+A few moments later, you find yourself immersed in liquid!
+	}
+  }
+  flags { indoors, arena, relocate_distort }
+  tele { 300, 0, 9 }
+}
+
+99
+{
+  name { Entrance to the maze  }
+  desc {
+"   Just a little bit east marks the beginning of what appears
+to be a magical maze of some kind.  Shimmering blank walls can 
+be seen, and strange sounds, maybe screams, seem to originate
+from somewhere inside.
+   A large stone hallway runs north and south to the east, it
+looks comparatively normal.
+  }
+  flags { indoors, arena, relocate_distort }
+  exits {
+	to { e, 70 }
+	to { w, 14 }
+  }
+}

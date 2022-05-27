@@ -1,0 +1,2301 @@
+#offset ClanHousesTowns
+
+0
+{
+  name { Fuzzy Bear Lane  }
+  desc {
+A long road with very little developed on either side of the path.
+Empty shops and buildings are being erected on both sides of the
+road, hopefully someday they will be filled.
+  }
+  sector { City }
+  flags { indoors, nosteal, rent_room, arena, fast_mana, fast_hit_points, fast_moves, mapable, blue_glow }
+  exits {
+	to { n, 17 }
+	to { e, 139 }
+	to { s, 3 }
+	to { w, 1 }
+  }
+}
+
+1
+{
+  name { The End of Fuzzy Bear Lane  }
+  desc {
+The long road comes to an end at the city's wall to protect against the
+harsh and bitter wilderness. Undeveloped land lies to either side of the
+road, waiting to be built upon. The foundation for the town hall is being
+prepared here, soon to be erected.  To one side of the foundation for the
+hall is the barracks for the town guards and soldiers.
+  }
+  sector { City }
+  flags { indoors, no_sum, no_magic, private, noshowexit, blue_glow, dispel_magic }
+  exits {
+	to { n, 16 }
+	to { e, 0 }
+	to { s, 2 }
+	to { 10, 159 }
+	  info { door, closed, autoclose }
+	  keywords { barracks }
+  }
+}
+
+2
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 1 }
+	to { e, 3 }
+	to { s, 6 }
+  }
+}
+
+3
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 0 }
+	to { e, 4 }
+	to { s, 7 }
+	to { w, 2 }
+  }
+}
+
+4
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 139 }
+	to { e, 5 }
+	to { s, 8 }
+	to { w, 3 }
+  }
+}
+
+5
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 134 }
+	to { e, 132 }
+	to { s, 9 }
+	to { w, 4 }
+  }
+}
+
+6
+{
+  name { The Town Watchtower  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+The foundation for a watchtower to oversee the town is being constructed
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 2 }
+	to { e, 7 }
+  }
+}
+
+7
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 3 }
+	to { e, 8 }
+	to { w, 6 }
+  }
+}
+
+8
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 4 }
+	to { e, 9 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 5 }
+	to { w, 8 }
+	to { southeast, 22 }
+  }
+}
+
+10
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 155 }
+	to { s, 11 }
+	to { w, 13 }
+  }
+}
+
+11
+{
+  name { The Town Watchtower  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+The foundation for a watchtower to oversee the town is being constructed
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 10 }
+	to { w, 12 }
+  }
+}
+
+12
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 13 }
+	to { e, 11 }
+	to { w, 15 }
+  }
+}
+
+13
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 138 }
+	to { e, 10 }
+	to { s, 12 }
+	to { w, 14 }
+  }
+}
+
+14
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 133 }
+	to { e, 13 }
+	to { s, 15 }
+	to { w, 132 }
+  }
+}
+
+15
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 14 }
+	to { e, 12 }
+	to { southwest, 23 }
+  }
+}
+
+16
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 31 }
+	to { e, 17 }
+	to { s, 1 }
+  }
+}
+
+17
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 30 }
+	to { s, 0 }
+	to { w, 16 }
+  }
+}
+
+18
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 28 }
+	to { e, 131 }
+	to { s, 134 }
+  }
+}
+
+19
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 27 }
+	to { e, 20 }
+	to { s, 133 }
+	to { w, 131 }
+  }
+}
+
+20
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 26 }
+	to { e, 21 }
+	to { s, 138 }
+	to { w, 19 }
+  }
+}
+
+21
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 25 }
+	to { s, 155 }
+	to { w, 20 }
+  }
+}
+
+22
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 24 }
+	to { northwest, 9 }
+  }
+}
+
+23
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { w, 24 }
+	to { northeast, 15 }
+  }
+}
+
+24
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 136 }
+	to { e, 23 }
+	to { w, 22 }
+  }
+}
+
+25
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 41 }
+	to { s, 21 }
+	to { w, 26 }
+  }
+}
+
+26
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 40 }
+	to { e, 25 }
+	to { s, 20 }
+	to { w, 27 }
+  }
+}
+
+27
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 39 }
+	to { e, 26 }
+	to { s, 19 }
+	to { w, 137 }
+  }
+}
+
+28
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 35 }
+	to { e, 137 }
+	to { s, 18 }
+	to { w, 29 }
+  }
+}
+
+29
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 34 }
+	to { e, 28 }
+	to { w, 30 }
+  }
+}
+
+30
+{
+  name { Undeveloped Territories  }
+  desc { Under Construction.   }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 33 }
+	to { e, 29 }
+	to { s, 17 }
+	to { w, 31 }
+  }
+}
+
+31
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 32 }
+	to { e, 30 }
+	to { s, 16 }
+  }
+}
+
+32
+{
+  name { The Town Watchtower  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+The foundation for a watchtower to oversee the town is being constructed.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 33 }
+	to { s, 31 }
+  }
+}
+
+33
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 34 }
+	to { s, 30 }
+	to { w, 32 }
+  }
+}
+
+34
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 35 }
+	to { s, 29 }
+	to { w, 33 }
+  }
+}
+
+35
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { s, 28 }
+	to { w, 34 }
+	to { northeast, 36 }
+  }
+}
+
+36
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 37 }
+	to { southwest, 35 }
+  }
+}
+
+37
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 38 }
+	to { s, 137 }
+	to { w, 36 }
+  }
+}
+
+38
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { w, 37 }
+	to { southeast, 39 }
+  }
+}
+
+39
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 40 }
+	to { s, 27 }
+	to { northwest, 38 }
+  }
+}
+
+40
+{
+  name { The Town Border  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { e, 41 }
+	to { s, 26 }
+	to { w, 39 }
+  }
+}
+
+41
+{
+  name { The Town Watchtower  }
+  desc {
+A long city wall has been placed here to guard from the harsh wilderness.
+The foundation for a watchtower to oversee the town is being constructed
+  }
+  sector { City }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { s, 25 }
+	to { w, 40 }
+  }
+}
+
+100
+{
+  name { The Cellar  }
+  desc {
+"   The cellar is damp and smells of an unidentifiable stench.  A small
+amount of light seeps through the weathered trapdoor above you, allowing
+you to make out the space above.  The walls are solid cement and cold to
+the touch, while the floor is comprised of dirt and rocks.  It is obvious
+that this room was crafted many years ago, perhaps as a place to hide when
+the city was subject to dragonbourne invasions. It seems to be a place long
+forgotten, or inhabited.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private }
+  exits {
+	to { d, 101 }
+	  key { 3455 }
+	  info { door, closed, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { Nowhere }
+  }
+}
+
+101
+{
+  name { Entrance to the NOONE Guildhouse  }
+  desc {
+"   The entranceway is unlike anything you have ever seen.  The floor is
+made of brilliant marble, the walls are draped in the finest tapestries.
+Before you hangs a glowing silver shield with the initials "NO" emblazoned
+on the front.  There is a spring in the center of the room, which spews
+forth sparking water.  Your intrigue soon turns to hesitancy as you begin
+to realize that whoever resides here doesn't take well to strangers.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private }
+  exits {
+	to { n, OnikumasClanRooms:606 }
+	  key { 3455 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { vault }
+	to { e, 102 }
+	to { w, 103 }
+	to { u, 100 }
+	  key { 3455 }
+	  info { door, closed, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { Nowhere }
+	to { d, 104 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { passage }
+	to { northeast, OnikumasClanRooms:607 }
+	to { southeast, OnikumasClanRooms:609 }
+	to { southwest, OnikumasClanRooms:608 }
+	to { northwest, OnikumasClanRooms:605 }
+  }
+}
+
+102
+{
+  name { The Altar of Healing  }
+  desc {
+"   A bright white light permeates the air, nearly blinding you.  After a
+minute, your eyes adjust and you notice a golden altar at the far end of
+the room.  A vast library of holy books adorns the shelves next to the 
+altar, there for your spiritual guidance.  A sense of peace and oneness
+with your God overwhelms you.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private, anti_evil, dispel_magic }
+  exits {
+	to { w, 101 }
+  }
+}
+
+103
+{
+  name { The Chamber of Sin  }
+  desc {
+"   The heat is nearly unbearable as you stand before a wrought iron altar.
+The room is otherwise barren, with the exception of a slowly burning torch
+on either side of the steel kneeler.  There is a very definite evil presence
+here, and you can hear the faint cries of the damned.  This is the place that
+only the most disturbed souls would ever want to visit.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private, anti_good, dispel_magic }
+  exits {
+	to { e, 101 }
+  }
+}
+
+104
+{
+  name { Purgatory  }
+  desc {
+"   There is something very ominous about this room.  It is so quiet, that 
+you can hear your own heart beat, at least you hope it is, indeed, your 
+heart.  The walls are almost surreal, seeming to move father away as you
+near them.  They reflect your image, thought it seems somehow distorted.
+You have the distinct feeling that someone, or something, is watching and
+judging you.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private }
+  exits {
+	to { w, 106 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { haven }
+	to { u, 101 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { passage }
+	to { d, 105 }
+	  key { 3455 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { fate }
+  }
+}
+
+105
+{
+  name { Death  }
+  desc {
+"   Horror, fear, despair, and hopelessness devour your everything.  Before
+you can even gather your bearings, you are bashed to the ground. Your minutes
+in this world are limited and there is nothing you can do except pray for your
+eternal soul.
+  }
+  flags { dark }
+  exits {
+	to { u, 104 }
+	  key { 3455 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { fate }
+  }
+}
+
+106
+{
+  name { Sanctuary  }
+  desc {
+"   Peace and tranquility overcome your body as you marvel at the beauty
+of this sanctuary.  Velvet draperies hang all around you, and there is
+seating for you to ease your weary body.  A board covered in strange
+etchings stands before you.  It appears that this is a safe place to
+lay your head after a long day in battle.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, private, rent_room }
+  exits {
+	to { e, 104 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { haven }
+  }
+}
+
+110
+{
+  name { Mijah's House  }
+  desc {
+"   You find yourself in a fairly good sized room for a house. The only light
+is coming from the soft glow of a gentle roaring warm fire.  In front of you
+is a large archway that leads to another fair sized room and to your right is
+a small narrow hallway that looks as through it has no end.
+  }
+  flags { no_mob, indoors, nosteal, no_sum }
+  exits {
+	to { n, 111 }
+	to { e, 112 }
+	to { s, 113 }
+	  key { 3452 }
+	  info { door, closed, locked, pickproof, hidden, autoclose, autolock }
+	  keywords { woosher room }
+	to { northeast, 139 }
+	  key { 3452 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { mijahs mijah house }
+  }
+}
+
+111
+{
+  name { Mijah's Sleep Chamber  }
+  desc {
+"   You notice yourself yawning as you enter the room.  In the far corner
+are hundreds of soft pillows and many warm and cozy blankets. Once again,
+you yawn as you place your head on the pillows for a short nap.
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, no_magic, rent_room }
+  exits {
+	to { s, 110 }
+  }
+}
+
+112
+{
+  name { A Narrow Hallway  }
+  desc {
+"   As you walk down this hallway, you feel your powers draining from you.
+You feel vulnerable in this place, a disruption in magics that make you
+wonder. Though you feel weak, your curiousity gets the better of you and
+you continue walking. Although you have walked almost a hundred feet, when
+you turn around, the entrance from where you started is only twenty feet 
+away from you.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, dispel_magic }
+  exits {
+	to { w, 110 }
+  }
+}
+
+113
+{
+  name { Mijah's Wooshing Room  }
+  desc {
+"   You feel a gust of cool air run all along your body, akin to a gentle
+breeze from outdoors.  However, as you look around, you can not discern
+from where the breeze is coming from.
+  }
+  flags { indoors, nosteal }
+  exits {
+	to { n, 110 }
+	  key { 3452 }
+	  info { door, closed, locked, pickproof, hidden, autoclose, autolock }
+	  keywords { woosher room }
+  }
+}
+
+120
+{
+  name { The Entrance to Packrat Headquarters  }
+  desc {
+"   For some reason you are in a hole in the ground.. But there are a
+large number of tracks coming and going from the hole, and you hear a
+very low sounding noise coming from somewhere deep within the burrow.
+  }
+  flags { indoors }
+  exits {
+	to { n, 121 }
+	  key { 3454 }
+	  info { door, closed, locked, secret, pickproof, autoclose, autolock }
+	  keywords { packrat room waiting }
+	to { u, 137 }
+	  key { 3454 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { hillock hill town plaza }
+  }
+}
+
+121
+{
+  name { The Waiting Room for the Packrat Headquarters  }
+  desc {
+"   A tiny uncomfortable room that contains a beat up pine wooden bench,
+with a couple of large wooden chairs that will definitely give you some
+slivers in a sensitive spot.  Between the chairs, is a beat up old pine
+table with a couple of outdated journals and books on it.  Some strange
+type of music plays in the background, an odd cheesy style of music.
+  }
+  flags { indoors }
+  exits {
+	to { n, 122 }
+	  info { door, closed, autoclose }
+	  keywords { burrow doors }
+	to { s, 120 }
+	  key { 3454 }
+	  info { door, closed, locked, secret, pickproof, autoclose, autolock }
+	  keywords { packrat entrance room }
+  }
+}
+
+122
+{
+  name { The Packrat Depository  }
+  desc {
+"   The main storage room has everything sorted down by weapon type, armor
+type, rings, neckwears, and accessories.  The coinage is also sorted, so
+that whatever amount is needed, can be retrieved when needed. Unfortunately,
+this is only a small portion of the depository, as the main bulk of it is 
+used as an armoury for the vast packrat army.
+  }
+  flags { indoors }
+  exits {
+	to { n, 126 }
+	to { e, 124 }
+	to { s, 121 }
+	  info { door, closed, autoclose }
+	  keywords { burrow doors }
+	to { w, 123 }
+  }
+}
+
+123
+{
+  name { Packrat Central Command Center  }
+  desc {
+"   This is the heart and soul of the Packrat Burrow.  There are various
+species of packrats running around at an extremely fast pace. There are
+also various sorts of maps, books, and various types of contracts lying 
+around. A cacophony of chattering about how to take over the world, and
+also how to enslave everyone, without getting killed while trying world
+domination can be heard over the din of the shinys jingling around.
+  }
+  flags { indoors }
+  exits {
+	to { e, 122 }
+  }
+}
+
+124
+{
+  name { The Packrat Food Storage  }
+  desc {
+"   Food, more food, and even more food, for as far as the eye can see.
+There is enough food here to last the packrat army for a few years of
+heavy seige.  The packrats have very picky tastes, so that only the 
+best food from all over the world is used for the burrow.
+  }
+  flags { indoors }
+  exits {
+	to { n, 125 }
+	to { w, 122 }
+  }
+}
+
+125
+{
+  name { The Meerkat Torture Chamber  }
+  desc {
+"   This is a very dark and damp room in which some type of small strange
+furry beast is strapped to the wall, crying itself to sleep. The creature
+is less than a foot tall, thin, with beige fur and quite tasty when eaten.
+There are a lot of strange torture devices lying around the room, such as
+whips, knives, a rack, and other more unmentionable things. A small table
+has another poor meerkat strapped down with thick leather straps, and is
+currently pleading for his life.
+  }
+  flags { indoors }
+  exits {
+	to { s, 124 }
+  }
+}
+
+126
+{
+  name { The Packrat Sleeping Chamber  }
+  desc {
+"   All the packrats that are not out in the world plotting something evil,
+are here sleeping so that they can get a fresh start on their new plans of
+evil and chaos.  There is quite a bit of noise for a place that is used for
+just sleeping. You can hear what appears to be the counting of something and
+also also sharp voices that seem to be giving orders for some strange reason.
+  }
+  flags { no_mob, indoors, peaceful, no_sum, rent_room }
+  exits {
+	to { s, 122 }
+  }
+}
+
+130
+{
+  name { The New Haven Fountain  }
+  desc {
+"   A small fountain with fresh well water marks the center of the town,
+as the plaza branches off from here. Thick grey cobblestones with smooth
+edges surround the area around the town water source, then gradually fades
+to a carefully kept dirt road, free of debris and rubble.  A row of deep 
+crimson roses mixed with dark purple irses are planted along the borders 
+of the road, swaying gently in the passing breeze and throwing their heady,
+but delicate scent into the passing wind. Fallen petals give an impromptu
+dance, as the wind gives an unexpected life to them before fading away to 
+a quiet stillness.
+  }
+  sector { City }
+  extra {
+	keywords { roses irises flowers }
+	desc { 
+Rows of beautiful flowers line the borders of the road, throwing their
+wonderful scent into the air when a gentle breeze blows on by.  These
+vivid flowers contrast with the grey cobblestones, giving a bit of color
+and beauty to the town square.
+	}
+  }
+  flags { peaceful, nosteal, no_sum, mapable }
+  exits {
+	to { n, 131 }
+	to { e, 133 }
+	to { s, 132 }
+	to { w, 134 }
+  }
+}
+
+131
+{
+  name { The Northern Court  }
+  desc {
+"   The cobblestone courtyard that borders the area around the fountain
+comes to a gradual end. A smooth dirt trail free of debris, begins from
+the smooth and beveled edges of stone from the plaza. In the distance, a
+gentle rolling hillock of verdant green can be seen. Atop the hillock, a
+horde of wildflowers grows and thrives, coming down to the side of the 
+road and stopping at its edge. A large oak tree grows to one side of the
+court, its lush leaves forming a great canopy to protect its citizens 
+from the weathering elements and to give shade in a time of need.
+  }
+  sector { City }
+  extra {
+	keywords { oak tree }
+	desc { 
+An ancient large oak tree spreads its branches wide, a lush canopy of 
+thick leaves helping to protect it from the blistering sun above and 
+the harsh elements of the wilderness. The oak has survived many years
+without a mark, although upon closer inspection are small little cute
+hearts and designs in its trunk from lovers, friends, and family.  In
+the midst of the branches is a faint outline that is hard to discern.
+	}
+	keywords { treehouse }
+	desc { 
+The faint outline is in actuality a small treehouse for the children of
+the town to play in, and perhaps for introspective people to sit and watch
+the town as life passes them by, pondering on the necessity or futility of
+it all.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 137 }
+	to { e, 19 }
+	to { s, 130 }
+	to { w, 18 }
+	to { u, 158 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { treehouse }
+	to { southeast, 133 }
+	to { southwest, 134 }
+  }
+}
+
+132
+{
+  name { The Southern Court  }
+  desc {
+"   A large cobblestone courtyard surrounds the town fountain, and branches
+off in different directions. In the distance is a lush field of grass, with
+faint pink petals blooming from slender and graceful trees. The faint acrid
+scent of incense wafts in on the air, carried by a passing breeze and mixes
+together with the sweet smell of the pale blossoms, before fading away to a
+passing memory. There are large iron wrought posts with enchanted globes of
+crystal, used to illuminate the town and keep its citizens safe. Comfortable
+wooden benches are placed along the courtyard, usually near a bed of crimson
+blood roses with wickedly sharp thorns.
+  }
+  sector { City }
+  extra {
+	keywords { iron posts globes }
+	desc { 
+Spaced in strategic locations are large iron wrought posts with enchanted
+globes of crystal, with spells of magical light cast on them, to help keep 
+the town properly lit.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 130 }
+	to { e, 14 }
+	to { s, 136 }
+	to { w, 5 }
+	to { northeast, 133 }
+	to { northwest, 134 }
+  }
+}
+
+133
+{
+  name { The Eastern Court  }
+  desc {
+"   Faint echoes can be heard, as they reverberate off the thick cobblestones
+of the courtyard, before they slowly fade away into silence.  The faint smell
+of flowers in bloom lingers in the air, stirred up by a gentle current of air.
+Tiny bursts of motion are also stirred by the breeze, as fallen flower petals
+and leaves chase each other in a futile game across the hard cold stone. There
+is a thick layer of dust on the grey stones, from the dirt trail that leads up
+to the chapel in the distance.  Along the border of the courtyard is a bed of
+small purple and white pansies and forget-me-nots, swaying gently in the wind.
+  }
+  sector { City }
+  extra {
+	keywords { petals leaves }
+	desc { 
+Fallen oak leaves and numerous types of flower petals give chase to each
+other across the courtyard, stirred by the passing breeze.
+	}
+	keywords { pansies forget me nots }
+	desc { 
+A bed of small purple and white flowers is planted along the edge of
+the courtyard, to give a splash of color and beauty to the otherwise
+drab grey stone.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 19 }
+	to { e, 138 }
+	to { s, 14 }
+	to { w, 130 }
+	to { southwest, 132 }
+	to { northwest, 131 }
+  }
+}
+
+134
+{
+  name { The Western Court  }
+  desc {
+"   There is a low wall in the courtyard, covered in a thick growth of ivy,
+where tiny songbirds come to rest upon. Their faint songs blend together in
+a harmonious melody that carries on the wind, as a mixture of scents ranging
+from the sweet subtle smell of flowers to a more acrid and bitter smoke seems
+to remain in the air.  A low hanging tree is planted across from the wall,
+nest to many different types of birds who watch the stones for dropped bits
+of food, as well as any danger to their young.  Fallen petals and leaves seem
+to have a life of their own, as they dance slowly in the wind, finally coming
+to an end of their long journey to lie in stillness.
+  }
+  sector { City }
+  extra {
+	keywords { songbirds }
+	desc { 
+A host of tiny songbirds of varying hues and colors rests on the ivy covered
+wall. They each sing a different melody, yet they blend together into a more
+harmonious song that stirs the soul.
+	}
+	keywords { birds nest }
+	desc { 
+In the low hanging branches of the tree, are nests to many different types of
+birds. Flashes of crimson, azure, sable, and even ivory can be seen among the
+emerald leaves, as tiny eyes stare back at you, waiting for you to feed them.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 18 }
+	to { e, 130 }
+	to { s, 5 }
+	to { w, 139 }
+	to { northeast, 131 }
+	to { southeast, 132 }
+  }
+}
+
+135
+{
+  name { A Small Chapel  }
+  desc {
+"   This small unadorned chapel is bare of the fine trappings of wealth
+and corruption that has plagued many of the more prominent temples of
+the world.  Gone are the ostentatious displays of greed and money, with
+a return to a more simple and innocent time, in a world ravaged by evil.
+There are two rows of pews that line the chapel, made of a rough hewn
+hardwood that has been sanded down by gentle caring hands. A long azure
+hand woven carpet traverses the aisle between the pews and leads to a 
+raised stage. Upon the stage is a polished pulpit from where the chaplain
+speaks his litany. The only other furnishing to the chapel is the blessed
+artifact of the beneficial god for whom this tiny temple is sanctified
+and dedicated to in this new town.
+  }
+  extra {
+	keywords { artifact }
+	desc { 
+A holy object dedicated to the god who protects this town hangs from the
+wall above the stage. It is made of solid gold and resembles the sun in its 
+full glory, and glows with a warm and loving light.
+	}
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, mapable, blue_glow }
+  exits {
+	to { southwest, 138 }
+	  info { door, closed, autoclose }
+	  keywords { door oaken town trail }
+  }
+}
+
+136
+{
+  name { Sakura Blossoms Overlooking a Pond of Coi  }
+  desc {
+"  Thick heavy grey cobblestone paves the way from the fountain to end in a
+lush and vibrant field of emerald grass. To one side of the field is a line
+of willow trees, that sways ever so gently in the wind. In the center of the
+field is a circle of sakura trees, their delicate pink blossoms falling from
+their lithe and supple branches, coming to rest on the edge of a small pond 
+of coi. Subtle thrashings can be heard from the pond, as a tiny bit of chaos
+from the brightly hued fish is imparted in this place of quiet serenity.  A
+faint shimmering of ancient concealing magicks can be seen, while the acrid 
+scent of incense wafts in on the passing wind.  To the other side of the field 
+is an exotic and tranquil looking house, having a lone sakura tree planted near
+its door, a single pale petal floating ever so lightly, to the ground.
+  }
+  sector { Field }
+  extra {
+	keywords { sakura blossom blossoms }
+	desc { 
+Lithe and supple branches containing light pink petals, tinged with white
+edges, sway back and forth in the passing breeze. As you watch, a delicate
+pale blossom falls from the tree, descending in an ever tightening circle
+to come to rest on the edge of a pond of coi.
+	}
+	keywords { house meiji }
+	desc { 
+A simple meiji era house can be seen to one side of the field, with a single
+cherry blossom tree growing outside it. Gentle sakura petals litter the ground
+around the entrance of the house, a gentle pale pink constrasting with the rich
+emerald green of the field.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 132 }
+	to { e, 181 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { haven home bear maze }
+	to { s, 24 }
+	to { w, 140 }
+	  key { 3456 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { meiji home }
+  }
+}
+
+137
+{
+  name { A Gentle Rolling Hillock  }
+  desc {
+"   The clean dirt trail progresses beyond the center court, traveling up
+and around the gentle hillock of verdant green grass.  Along its surface,
+a rainbow of wildflowers grows at a mad pace, spreading its beauty along
+every possible surface and finally coming to an end at the road. A gentle
+breeze blows across the hillock, sending the flowers and grass in a wave, 
+and bringing a lovely sweet scent to bear. A faint clinking sound can be
+heard nearby, mixed with a mad scurrying, but fades away to silence. Atop
+the hillock is a huge oak tree, a testament of strength against nature, as
+it seems proof against the wind. Its branches spread out wide, a canopy of
+thick lush leaves that spread shade to the entire hillock, while its lone,
+solitary bulk is a stark contrast to the verdant fields. However, there is
+something a bit odd about the oak, there is a small simple beige door set
+at the base of its massive trunk.
+  }
+  sector { Field }
+  extra {
+	keywords { wildflowers }
+	desc { 
+The hills are alive with the multi-hued beauty of wildflowers. The green
+background sprouts into bursts of color and magic, as the flowers spread 
+all along the hill, sending a sweet scent into the air.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 37 }
+	to { e, 27 }
+	to { s, 131 }
+	to { w, 28 }
+	to { d, 120 }
+	  key { 3454 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { compound packrat burrow }
+	to { northeast, 170 }
+	  key { 3458 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { grey }
+	to { northwest, 160 }
+	  key { 3457 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { oak tree door meerkat appetizer }
+  }
+}
+
+138
+{
+  name { A Quiet Dirt Trail  }
+  desc {
+"   An unassuming simple dirt pathway that has been kept clean and meticulously
+free of debris. The faint aroma of sweet flowers is carried on the passing wind,
+while the faint echoes of the town plaza mingle together with the litanies of
+the lovely chapel.  Tiny little dustclouds seem to have been stirred up by the
+breeze, to give chase and then slowly dying away to be nothing but a passing
+thought, soon to be forgotten in time.  The trail comes to an end in front of
+a small quaint chapel, with a large painted oaken door that begs welcome to
+the world beyond.
+  }
+  sector { Road }
+  extra {
+	keywords { dustclouds }
+	desc { 
+Tiny little clouds of dirt and dust are stirred up by the wind, turning into
+little burst of motion before fading away into nothingness.
+	}
+	keywords { chapel door oaken }
+	desc { 
+The trail leads to a small and beautiful chapel, that shimmers faintly in the
+light.  A large oaken door with various holy runes of protection guards the
+chapel from menace, while "welcome" is inscribed on its smooth azure surface
+in the common tongue of the world.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 20 }
+	to { e, 155 }
+	to { s, 13 }
+	to { w, 133 }
+	to { northeast, 135 }
+	  info { door, closed, autoclose }
+	  keywords { door oaken chapel }
+  }
+}
+
+139
+{
+  name { The Busy Marketplace  }
+  desc {
+"   The distinct clang of metal upon metal rings clearly in the air from the
+guild, interspersed with orders of battle, before fading away to faint echoes.
+The scent of barley and mead wafts in from the pub, as a large hanging wooden
+sign that says "The Crosseyed Dragon Pub" rocks gently back and forth in the 
+wind, creaking ever so slightly.  Across from the pub is a small plain house,
+with gentle rolling runes inscribed along its side. The chantings and dull
+dronings of magic filter through the air, as a faint electrical crackle 
+escapes from the house.
+  }
+  extra {
+	keywords { sign pub dragon }
+	desc { 
+A artfully crafted wooden sign in the shape of a dragon, with the words
+"The Crosseyed Dragon Pub" imprinted in bold red paint.  The sign is a 
+bit weathered, and creaks slightly in the passing wind.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 150 }
+	to { e, 134 }
+	to { s, 4 }
+	to { w, 0 }
+	to { southwest, 110 }
+	  key { 3452 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { mijahs mijah house }
+	to { 10, 151 }
+	  info { door, closed, autoclose }
+	  keywords { pub }
+  }
+}
+
+140
+{
+  name { The Main Room of a Meiji Era Home  }
+  desc {
+"   Large bay windows allow the sunlight to stream into this expansive room.
+The floor is comprised of golden yellow tatami mats that glitter in the light.
+In the centre of this room lies an ornate oriental rug, decorated with swirling
+patterns and designs. A large table rests on top of this rug, sitting low to the
+ground and having four small pillows at each end of it.  The walls are made of
+thick white panels of parchment paper, sectioned off by thin unpainted slats of
+sandalwood.  Samples of calligraphy adorn the walls, as a shrine rests against
+the western wall of this room, across from the entrance.
+  }
+  extra {
+	keywords { window }
+	desc { 
+A small well kept garden can be seen from the window.  A small coi pond
+that is populated with a variety of different fish, rests outside the
+window. An old weeping willow tree sways back and forth in the wind, its
+tiny leaves can be heard rustling as they slowly fall to the ground.
+	}
+	keywords { painting picture }
+	desc { 
+"   Hanging from the wall, is a painting of a young handsome man in full
+armor.  He has dark hair and deep blue eyes.. pictured here smiling and
+full of life.  On the back of the painting is written, "In memory of my
+dearest Dhragyn, to whom I loved so much and shall continue to do so, 
+until my last days on this good earth. May you always be safe and happy
+wherever you are.
+	}
+  }
+  flags { no_mob, indoors, nosteal, no_sum }
+  exits {
+	to { n, 141 }
+	to { e, 136 }
+	  key { 3456 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { field sakura town }
+	to { u, 144 }
+  }
+}
+
+141
+{
+  name { The Dining Hall  }
+  desc {
+"   Cool breezes waft in through an open window, bringing with them the scent
+of cherry blossoms and fresh lavendar.  A large table sits in the middle of
+of this otherwise ordinary room, upon it rests a large bouquet of wildflowers.
+Works of calligraphy line the walls, as well as oil paintings of heroes of the
+past. The walls are comprised of many slats of unpainted sandalwood and thick 
+bleached parchment.
+  }
+  extra {
+	keywords { picture }
+	desc { 
+A sample of Shinobu's work... This is a fine likeness of the Hero Citrate in 
+full battle gear. His dark armor glistens in the sunlight as he holds a shield 
+in one hand- a black rose is etched into its side. In his other hand he grasps 
+a flaming broadsword... A small caption can be seen in the frame... it reads... 
+"Citrate at the Battle of Midgaard
+	}
+	keywords { painting }
+	desc { 
+A strange post modern art deco likeness of a large fluffy teddy bear rests on 
+the eastern wall of this room.  He is depicted in an inflatable room full of
+toys, weapons, armors, and shiny pieces of gold. His large button eyes are ever
+so delicately attached with multicolored thread. He has a tiny frown on his face,
+and a pot of hunny in his paws. A caption reads under the picture, "Gundithius T.
+Bear- Grumpy bear, witty confidant, and good friend in his natural surroundings.
+	}
+  }
+  flags { no_mob, indoors, nosteal, no_sum }
+  exits {
+	to { e, 142 }
+	to { s, 140 }
+  }
+}
+
+142
+{
+  name { The Study Hall  }
+  desc {
+"   Many well dusted books with fresh bindings sit on pine shelving that lines
+the walls as far as the eye can see in this quiet space of solitude. The ceiling
+is vaulted and comprised of stained glass so that sunlight can pour into this
+place during the day. A small stage rests against the western wall of this place
+with a small podium that is strategically placed center stage. Comfy chairs rest
+in neat rows in front of this stage, along with pillows and small tables to put
+books and other reading materials on. Small trees are placed at each of the four
+corners of the room. Their expansive, well trimmed branches touch the ceiling.
+  }
+  flags { no_mob, indoors, nosteal, no_sum }
+  exits {
+	to { w, 141 }
+  }
+}
+
+144
+{
+  name { A Quiet Bedroom  }
+  desc {
+"   Fresh linens have been recently placed upon a large black iron canopy bed
+that rests against the northern wall of this room.  A small night stand rests
+on the left side of this bed; on it sits a small brass and glass lantern that
+glows brightly.  Windows rest on all sides of this room, allowing sunlight to
+permeate throughout this space of solitude and quiet.  A small glass fish bowl
+is placed on a stand on the southern end of this room.  Inside is a microchasm
+of a lake that can be seen as fishes swim from side to side, gently nipping at
+the plants within.
+  }
+  flags { no_mob, indoors, nosteal, no_sum, rent_room }
+  exits {
+	to { d, 140 }
+  }
+}
+
+150
+{
+  name { The Guild Training Hall  }
+  desc {
+"   An enclosed field surrounded by thick heavy walls of stone, is filled
+with battle scarred wooden dummies and a wide range of weaponry scattered
+about the hall.  To one side of the field are heavy wood racks of weapons,
+ranging from the wooden padded weapons of the neophytes up to the naked,
+glittering steel for the masters. Thick bales of hay are tied together and
+stacked upon each other, with targets plastered on their side.  Shafts of
+arrows, darts, and throwing daggers are peppered all throughout the target,
+and the surrounding region. The din of constant training and battle echoes
+throughout the field, as people train to better advance themselves as hardy
+and foolish adventurers.
+  }
+  sector { Field }
+  extra {
+	keywords { weapons weaponry padded steel }
+	desc { 
+The guild hall is filled with weapons of all sorts.  Padded wooden weapons 
+are used for those with little experience in the arts of warfare, to ensure
+that they do not hurt themselves.  Naked and sharpened steel, glimmers in 
+ambient light, for they are there to teach those the true weight and style
+of fighting for the weapon, and also the dangers and consequences of them.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { s, 139 }
+  }
+}
+
+151
+{
+  name { The Waiting Room of The Crosseyed Dragon  }
+  desc {
+"   The smell of thick rich mead and mouth watering food is nearly overpowering,
+as the door to the pub is opened. The sounds of merriment and laughter fill the
+air, as stories are bantered back and forth over the din of the patrons.  Heavy
+pewter mugs clank on hard wood tables, as crystal glasses tinkle together.  The 
+pub is warm and inviting, a friendly place in this hostile land. A roaring fire
+with a spitted boar is enclosed in a circle of stone, the flames rising high off
+of thick cut logs.  There is a large azure rug on the ground before the oaken 
+tables, a hand woven affair with intricate details and many many spill stains.
+  }
+  extra {
+	keywords { rug }
+	desc { 
+A thick dark blue rug lies on the ground right before the door to the pub.
+It has been hand woven with many little scenes of adventures of those long
+dead and forgotten. Unfortunately, it is also marred by many wine and mead
+stains, from drunken patrons who got a bit careless.
+	}
+  }
+  flags { indoors, peaceful, nosteal, no_sum, mapable }
+  exits {
+	to { n, 152 }
+	to { 10, 139 }
+	  info { door, closed, autoclose }
+	  keywords { town }
+  }
+}
+
+152
+{
+  name { The Crosseyed Dragon Pub  }
+  desc {
+"   The reason for the odd name to the pub becomes crystal clear upon entering
+the main room of The Crosseyed Dragon Pub. Mounted in a place of honor, on the
+mantle in the center of the room is the pub mascot, a huge stuffed and ratty 
+dragon. The wyrmkin is about twenty feet long and overstuffed badly, with huge 
+polka dotted patches all along its body.  A one horned helmet is placed at a 
+jaunty angle on his head, while a thick striped scarf is wrapped around his 
+deep crimson scaley neck.  The dragon is also extremely crosseyed, with a pair
+of black wire rimmed glasses hooked on its cranial horns. Placed in one uplifted
+claw is a silver platter with emptied mugs and glasses.  The noise from the 
+patrons is loud, boisterous, and catchy as laughter and stories are yelled from
+across the room.  Food and drink are shared enthusiastically, as are the warm
+and caring friendships that spring from this joint adventure.
+  }
+  extra {
+	keywords { dragon stuffed }
+	desc { 
+A long time ago, this small red dragon was killed and handed to a neophyte
+taxidermist.  Unfortunately he did an extremely lousy job, overstuffing it
+so that it continually burst at the seams, and making the glass reptilian
+eyes noticeably crosseyed.  As the seams burst, they were repaired with a
+nice bright pink polka dotted patch, the closest thing to match the crimson
+scales of the dragon. Really. A passing bard left these spectacles on the
+dragon's head, and then the fun truly began. The well loved mascot was soon
+showered with gifts: a one horned spiked helmet placed at an angle on his 
+head to look more ferocious, a green and white striped scarf to keep his
+neck warm, and more. Lastly a silver platter was placed on one upraised 
+claw, to hold the empty mugs and glasses of the patrons as they finish them,
+so that the stories and fun could continue unabated.
+	}
+  }
+  flags { indoors, peaceful, nosteal, no_sum, mapable }
+  exits {
+	to { e, 154 }
+	to { s, 151 }
+	to { w, 153 }
+  }
+}
+
+153
+{
+  name { The Stage of The Crosseyed Dragon  }
+  desc {
+"   A large wooden raised stage is placed in this corner of the pub.  Thick
+velvet curtains of the deepest purple hang from brass poles to cordon off 
+part of the stage.  Bards and minstrels, jesters and jugglers, and even an
+illusionist and archwizard have all performed on this stage to the delight
+of the audience. Blazing torches crackle in iron sconces, placed on each end
+of the stage, to give the room a more cozy appearance.  A thick center stump
+from a lightning blasted tree is used as a community table before the stage,
+with many pewter mugs and crystal glasses all along its surface. Many fond 
+memories and good times have been had here, with many more to come.
+  }
+  extra {
+	keywords { stump table }
+	desc { 
+Long ago, this tree was struck by a bolt of lightning from the sky. Carried
+by dwarves, it was sanded smooth and polished to a lusterous shine, and used
+for a large community table for the pub. Many are the fond memories of magic
+and illusionist tricks, wonderful singing, humorous stories, and other tales
+that have been told before this table.
+	}
+  }
+  flags { indoors, peaceful, nosteal, no_sum, mapable }
+  exits {
+	to { e, 152 }
+  }
+}
+
+154
+{
+  name { The Bar of The Crosseyed Dragon  }
+  desc {
+"   This long oaken bar spans halfway across the pub, its well polished
+surface gleaming faintly in the reflected light from the torches placed
+in heavy iron sconces all across the room.  The surface of the bar has 
+been worn smooth from years of tender caring and meticulous cleaning, 
+wiping away every spill with the well worn dishrag that continues to
+lie on its lusterous surface. Heavy wooden shelves line the wall behind
+the bar, filled with multicolored bottles of every size, shape, and
+description. Pewter mugs and crystal cut glasses lie in orderly rows
+behind the bar, as well as small kegs of mead that have been tapped by
+a brass spigot.  The jovial sound of a hearty laughter fills this end
+of the pub, joining with the constant din of merrymaking that seems
+to infectiously spread through to the rest of the patrons.
+  }
+  extra {
+	keywords { dishrag rag stains }
+	desc { 
+This old dishrag has been around since the beginning of the pub. It has
+been used for years to clean every stain and mess of the patrons, from the
+bar, and the years of constant care has worn the oak down to a smooth well
+polished surface that fairly shines in the light.
+	}
+	keywords { bottle bottles shelves }
+	desc { 
+Resting on the heavy shelves behind the bar, are numerous crystal cut bottles
+of every size, shape, and color. Within these bottles are specialty drinks and
+liquors from all across the realms. They are there for decoration, and once in
+a long while for special occasions and celebrations.
+	}
+  }
+  flags { indoors, peaceful, nosteal, no_sum, mapable }
+  exits {
+	to { w, 152 }
+  }
+}
+
+155
+{
+  name { A Small Courtyard  }
+  desc {
+"  A small courtyard stands before the towering enchanted iron wrought 
+gates of the town of New Haven.  Stone cut stairs leads up to the city
+walls that encircle the town, providing some protection from the harsh
+wilderness. Distant sounds of battle can occassionally be heard over 
+the wall, carried on the winds of opportunity as adventurers hunt for
+fabled riches that always seem to elude their clutching grasp. A large
+oak tree is planted in the center of the courtyard, its thick canopy
+of verdant leaves a home to a family of squirrels.  Around the base of
+the tree are a host of discarded acorns, half eaten and left to the
+ravages of time and the elements.
+  }
+  sector { City }
+  extra {
+	keywords { oak tree acorn acorns }
+	desc { 
+An ancient oak tree has been planted in a courtyard just outside the
+town gates. It is full of life, lush leaves on extending branches, and
+filled with a family of chittering squirrels.  Around the base of the 
+tree are the remnants of many half eaten acorns, discarded by the too
+full squirrels.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { n, 21 }
+	to { e, 156 }
+	  key { 3465 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate gates town iron haven }
+	to { s, 10 }
+	to { w, 138 }
+  }
+}
+
+156
+{
+  name { The Eastern Gate to New Haven  }
+  desc {
+"   Huge enchanted iron wrought gates with silver filigree tower over the
+tall stone walls that protect the citizens of New Haven from the harsh and
+bitter wilderness. Beyond the simple silver decoration are tiny azure runes,
+inscribed on the gate with a careful hand, and glowing with a gentle inner
+light.  The walls are magically hardened granite, with gorgon blood and lead
+mixed into the mortar, to prevent unwanted magicks of spacial and dimension
+warping travel. The citizens of this town can be assured that they will be 
+quite reasonably safe here, in a world of such bitter despair and intrique.
+  }
+  sector { City }
+  extra {
+	keywords { rune runes }
+	desc { 
+Small glowing azure runes have been carefully inscribed on the iron wrought
+gates of the town. Their calligraphic style are a beauty to behold, yet they
+contain a quiet power of ancient magicks.  These dweomers help to strengthen
+and protect the gate from intrusion, as well as secure them from spells that
+would bypass their function.
+	}
+  }
+  flags { no_mob, nosteal, no_sum, mapable, blue_glow }
+  exits {
+	to { e, 157 }
+	to { w, 155 }
+	  desc { 
+The gates of the town are huge, towering over the walls of the town. They
+are wrought of cold iron and enchanted with different runes of protection
+that glow with their own ambient light. The gates have open worked designs
+within their structures, fanciful designs that are a beauty to look upon,
+yet it still remains unpassable and secure. The top of the gates tapers to
+sharply wicked points, as small flakes of some dark color come loose in the
+wind, to fly off into the horizon.
+}
+	  key { 3465 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { gate gates town iron haven }
+	to { 10, CarriageService:40 }
+	  keywords { carriages }
+  }
+}
+
+157
+{
+  name { Outside the Town of New Haven  }
+  desc {
+"   In the distance are the iron gates of the town of New Haven, a place
+of solace and refuge to some, in this world of bitter and harsh strife.
+This is the staging point for one end of the carriage journey, a service
+to and from the civilized lands.  Long wooden posts are set off to one
+side of the plaza, to tie the horses to. A long carved stone trough is
+filled with tepid water, as well as a wide bucket of feed. A large pine
+stepping block is used to enter and exit the carriage, worn smooth from
+years of use.  A gentle wind brings the faint echoes of nearby battles 
+from the wilderness, but fades away into a still silence.
+  }
+  sector { Road }
+  extra {
+	keywords { post }
+	desc { 
+A long wooden post is set firmly into the cobbled stones. The wood is
+worn smooth in many places, from years of leather reins being tied to
+their surface to keep the horses in place.
+	}
+	keywords { trough bucket feed water }
+	desc { 
+A large stone carved trough has been filled with tepid water, with a light 
+film of green algae growing on its surface. To the right of it is a decent
+sized bucket, filled with oats and barley drizzled in honey.  This is for
+the horses, nourishment for their rough ride through the unsafe wilderness.
+	}
+  }
+  flags { no_mob, nosteal, no_sum, mapable }
+  exits {
+	to { e, Wilderness6:349 }
+	to { w, 156 }
+  }
+}
+
+158
+{
+  name { The Treehouse  }
+  desc {
+"   A small sturdy wooden house is built into the large twisting branches of
+the large oak tree.  It has stood here for years, overlooking the courtyard
+below, allowing those that sit within its enclosed space to be free of any
+distraction as they watch and ponder life as it unfolds beneath them. Yet it
+is also a refuge from the harsh world around them, for children and adults to
+come and hide, to think, to escape, and even once in a while to play and have
+fun. The floors and walls have been sanded smooth and stained a rich dark
+brown to match the surrounding branches. The roof and overhang of the house
+has been cunningly carved and painted to resemble the leaves of the tree. The
+house is relatively unadorned, except for a couple of chairs and a plain wood
+table to hold cups of tea or toys as life passes on by.
+  }
+  extra {
+	keywords { table }
+	desc { 
+A simple unadorned table is flanked by a pair of nondescript, but comfortable
+chairs, in the middle of the house. It is made of oak, similar to the tree that 
+the house hides in, worn smooth by years of love and care.  Within its surface,
+are small carvings of love and cherished thoughts, as well as little images and
+doodles. Permament circles of dark tea, from hundreds of cups that rested upon 
+its surface, stain the oak, giving it character and a history.
+	}
+	keywords { chairs }
+	desc { 
+A pair of these plain oak chairs surround the oaken table.  Their wood is 
+free of markings, sanded smooth by caring hands and free of any blemishes, 
+knots, or whorls of any kind.  A small cotton pillow, of deep ocean green,
+rests on the lap of each of the chairs, small indentations from years of
+someone sitting on it can clearly be seen.
+	}
+  }
+  flags { nosteal, no_sum, mapable }
+  exits {
+	to { d, 131 }
+	  info { door, closed, secret, hidden, autoclose }
+	  keywords { treehouse }
+  }
+}
+
+159
+{
+  name { Town Guard's Barracks  }
+  desc {
+"   A sparsely furnished militia and town guard barracks lies at the end of the
+lane.  Against the far wall of the barracks is a table surrounded by functional,
+yet comfortable chairs.  Empty pewter mugs and plates decorate the table top, as
+a deck of playing cards lies scattered along the surface.  Rows of sturdy spartan
+beds line the edges of each wall, complete with a home spun blanket of wool.  At
+the edge of each bed is a footlocker, for the personal possessions of each of the
+town's soldiers.  Near the entrace of the room are long wooden racks of weapons
+and armor, within easy access in times of emergency.
+  }
+  extra {
+	keywords { cards deck }
+	desc { 
+A quick card game seems to have been interrupted, as the playing cards are 
+scattered all over the table top.  Solid clay chips of various colors seem
+to have been stacked in front of each chair, as well as in a small pile in
+the center of the table.
+	}
+	keywords { racks weapons armor }
+	desc { 
+Heavy solid oaken racks line the wall closest to the entrance of the barracks.
+Placed in careful order, are polished weapons ranging from swords to maces to
+halberds and armors that range from light leather armor to protective chainmail
+to heavy plate mail armors to be worn by the soldiers.
+	}
+  }
+  flags { indoors, nosteal, no_sum, mapable }
+  exits {
+	to { 10, 1 }
+	  info { door, closed, autoclose }
+	  keywords { town }
+  }
+}
+
+160
+{
+  name { The Foyer  }
+  desc {
+"   The walls of this small room are carved straight out of the tree, lending
+a soft grainy look to the room.  Hooks are screwed into the wall, for guests
+to hang their hats and coats on.  A set of stairs lead to the upstairs and a
+small archway leads into the dining room.
+  }
+  flags { no_mob, no_magic }
+  exits {
+	to { n, 161 }
+	to { u, 163 }
+	to { southeast, 137 }
+	  key { 3457 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { oak tree door meerkat appetizer }
+  }
+}
+
+161
+{
+  name { The Dining Room  }
+  desc {
+"   A small crystal chandolier lends light to this small room.  An oak
+table with four chairs adorns the center of the room.  Shelves full of
+curiosities are carved right into the wall.  A small stone fireplace is
+carved into the west wall.  A small glass case rests upon the mantlepiece
+holding a small black piece of glass.
+  }
+  flags { no_magic }
+  exits {
+	to { e, 162 }
+	to { s, 160 }
+  }
+}
+
+162
+{
+  name { The Kitchen  }
+  desc {
+"   A large stone oven sits on the eastern wall next to a bin of firewood.
+A large black kettle hangs in the fireplace, set in the north wall.  A
+large cupboard rests next to the door on the west wall.  A rack hangs 
+above a small table in the center of the room.
+  }
+  flags { no_magic }
+  exits {
+	to { w, 161 }
+  }
+}
+
+163
+{
+  name { The Second Floor Hallway  }
+  desc {
+"   A set of beutifully polished oaken stairs leads up to this short hallway.
+A tapestry bearing the Von Drago coat of arms hangs on the west wall. Candle
+sconces are set in the walls, shedding a soft glow on a thick cherrywood door
+that is set into the east wall, and an archway to the north that leads to the
+bedroom.
+  }
+  flags { no_magic }
+  exits {
+	to { n, 164 }
+	to { e, 166 }
+	  key { 3457 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cherry door }
+	to { d, 160 }
+  }
+}
+
+164
+{
+  name { The Master Bedroom  }
+  desc {
+"   A large oak dresser is carved into the west wall of this room.  A four
+poster queen size bed dominates the north wall of the room.  A small night
+stand sits under the window besides the bed. A small brass chandolier hangs
+from the ceiling to light the room.  A small cozy stone fireplace is set 
+into the west wall next to the dresser.  An archway carved into the east
+wall leads to the library.
+  }
+  flags { no_magic, private, rent_room }
+  exits {
+	to { e, 165 }
+	to { s, 163 }
+  }
+}
+
+165
+{
+  name { The Library  }
+  desc {
+"   Shelves upon shelves of books fill this room.  A small couch is built
+into the east wall beneath a small window.  An easy chair sits in the 
+middle of the room, next to a small table adorned with a small candleabra.
+A large door set in the south wall leads to the laboratory.
+  }
+  flags { no_mob, no_magic, dispel_magic }
+  exits {
+	to { s, 166 }
+	  key { 3457 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { steel door }
+	to { w, 164 }
+  }
+}
+
+166
+{
+  name { The Laboratory  }
+  desc {
+"   A small pentagram is etched into the floor here.  A large wooden table
+sits in the center of the room with various bubbling beakers and lit candles
+spread across it.  A set of shelves with many labeled bottles of all sizes,
+is carved into the eastern wall.  A large cherrywood cabinet is set into the
+south wall.  A large door is set in both the north and west walls.
+  }
+  flags { noshowexit }
+  exits {
+	to { n, 165 }
+	  key { 3457 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { steel door }
+	to { w, 163 }
+	  key { 3457 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { cherry door }
+  }
+}
+
+170
+{
+  name { The Main Chamber of [BLACK CO]  }
+  desc {
+"   As you enter this large chamber, you find yourself surrounded by
+beautiful walls made of pure platinum, the light entering from the
+outside reflects off of every crevice on the shiny metal's surface,
+creating a sun-splash effect.  You are in the main chambers of the
+clan known to a select few as, Black Company.  A highly elite group
+of players, aged and wise from many days walking the lands. If you 
+find yourself in this hallway, you had better have an invitation.
+  }
+  flags { indoors, no_sum, rent_room }
+  exits {
+	to { n, 171 }
+	to { d, 174 }
+	to { southwest, 137 }
+	  key { 3458 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { grey }
+  }
+}
+
+171
+{
+  name { The Hallway  }
+  desc {
+"   You are in a large hallway in the furthermost north part of
+the great hall of Black Company.  To the west is the room of
+Aspire, the great warlock.  To the east is the room of the
+wise cleric Emerald.  These two senior members of the guild
+have taken over in absence of the original founders, and hope
+to restore the clan name to its previous prestige.
+  }
+  flags { indoors, no_sum }
+  exits {
+	to { e, 173 }
+	to { s, 170 }
+	to { w, 172 }
+  }
+}
+
+172
+{
+  name { Aspire's Room  }
+  desc {
+"   You stand in a large room, the floors are made of the finest
+rugs in the land, and the walls are made entirely of glass.  In
+the far corner of the room is a large oak desk, with several
+scrolls, maps, and spell components littering the top of it. You
+are in the room of the great warlock known across the lands as
+Aspire.  Ruthless with his weapons, as well as his tongue, not 
+very many dare insult or challenge this man.
+  }
+  flags { indoors, no_sum }
+  exits {
+	to { e, 171 }
+  }
+}
+
+173
+{
+  name { Emerald's Room  }
+  desc {
+"   You are in a large room, which appears to be entirely of 
+marble.  In the far corner is a large mat on the floor, the
+only piece of furniture apparant to you.  The walls are lined
+with several scrolls, robes, and other assorted fabrics.  In
+the corner there are several pieces of parchment, books, and
+quills piled on the floor.  This is Emerald's room, who is 
+the fabled cleric of Black Company.
+  }
+  flags { indoors, no_sum }
+  exits {
+	to { w, 171 }
+  }
+}
+
+174
+{
+  name { The Preparation Room  }
+  desc {
+"   You stand in the great preparation chamber of Black Company.
+This is where members of the clan prepare themselves for battle.
+In the corner there is a large rack, holding several dangerous
+weapons.  To the east is the alcove, a place that will cleanse
+any warrior of magi-spells. To the west is Emerald's summoning
+chamber.
+  }
+  flags { indoors, no_sum }
+  exits {
+	to { e, 175 }
+	to { w, 176 }
+	  key { 3458 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { iron }
+	to { u, 170 }
+  }
+}
+
+175
+{
+  name { The Alcove  }
+  desc {
+"   As you enter the room a bright light blinds you.  You immediately
+feel restored to your original purity.  The gods have shined upon
+you and cleansed your soul.
+  }
+  flags { indoors, no_sum, dispel_magic }
+  exits {
+	to { w, 174 }
+  }
+}
+
+176
+{
+  name { Emerald's Summoning Chamber  }
+  desc {
+"   This is Emerald's summoning chamber.  Emerald is an experienced
+cleric and she has the ability to summon the monsters of the land
+to this very room, without the danger of other monster attacks.
+This room is also where Emerald is able to heal her friends, and
+clan-mates.
+  }
+  flags { indoors }
+  exits {
+	to { e, 174 }
+	  key { 3458 }
+	  info { door, closed, locked, pickproof, autoclose, autolock }
+	  keywords { iron }
+  }
+}
+
+180
+{
+  name { 210980  }
+  desc { Empty   }
+}
+
+181
+{
+  name { A Maze of Wooden Screens  }
+  desc {
+"   This is a small undulating maze of black lacquered wood and paper screens,
+mixed together with hidden nooks and passageways.  There are pairs of torches,
+flickering gently in the breeze, set in heavy worked iron sconces that resemble
+dragons and spaced apart every other screen.  The floor is covered by a thick
+tatami mat, helping to maintain the silence for thoughtful meditation. A gentle
+breeze circulates through the hall, sending a gentle rustle of paper and bamboo
+to the winds.
+  }
+  flags { no_mob, indoors, nosteal, no_sum }
+  exits {
+	to { n, 182 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { haven home bear }
+	to { w, 136 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { sakura field town }
+  }
+}
+
+182
+{
+  name { A Tranquil Edo Period Home  }
+  desc {
+"   A low black lacquered table with mother of pearl inlays of sakura 
+blossoms and swans in flight rests in the center of the room on thick
+tatami mats. A carved bronze urn cast in the shape of a coiling dragon
+is filled with sand, with a bundle of incense burning within. The acrid
+scent of the smoke from the incense carries on the gentle breeze, as it
+blows throughout the room on gentle coiling eddies of grey, fading into
+nothingness.  Set in each corner of the room are iron sconces, blazing
+torches within its depths.  Along the far side of the wall is a suit of
+laminated armor with a beautiful, yet elegant sword, set on a stand of
+jet black lacquer.
+  }
+  extra {
+	keywords { yoroi }
+	desc { 
+A suit of laminated iron and bamboo armor, covered in dyed silks and
+heavy thread. The armor is light, yet efficient in its protection, and
+has been worn by generations of warriors.  It is elegant and functional,
+as the iron laminate are jointed together, and decorated with colored
+dyes and heavy silk workings.
+	}
+	keywords { shinsakuto }
+	desc { 
+A blade made by modern master ranked swordsmiths, in the tradition of
+old, from secrets passed down from generation to generation. The pure
+ore is taken, heated and folded, repeated until it is ready, and then
+forged into a blade. Covered in a mixture of straw and mud, the blade
+is returned to the forge to be worked one last time. From there it is
+given an art polish and give fittings, befitting of such an honorable
+blade and work of art.
+	}
+  }
+  flags { no_mob, indoors, nosteal, no_sum, rent_room }
+  exits {
+	to { n, 184 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { void justice }
+	to { e, 185 }
+	  info { door, closed, secret, autoclose }
+	  keywords { contemplation room chamber study }
+	to { s, 181 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { maze screens screen }
+	to { w, 183 }
+	  info { door, closed, secret, autoclose }
+	  keywords { garden zen }
+  }
+}
+
+183
+{
+  name { A Meditative Zen Garden  }
+  desc {
+"   Light pink sakura petals fall gently from their willowy branches, turning
+in ever tightening circles, riding on tiny eddies of wind, finally coming to
+an end to their long harrowing journey and rewarded with peace and rest.  In 
+this garden of tranquility, there is a prominent pond filled with multi-hued
+coi, that swim through the water with grace and beauty unmatched.   A smooth
+stream traverses throughout the garden, as a simple wooden bridge, of a deep
+red lacquer, spans its watery depths. To one side is another type of garden,
+filled with simple patterns of sand and rock.  The shifting simplicity helps 
+to symbolize that everything is in a state of flux and change, yet eternally
+beautiful in its aesthetics.
+  }
+  extra {
+	keywords { pond coi }
+	desc { 
+"   The coi pond is smooth and tranquil along its surface, nothing marring
+the smooth exterior except for the gentle thrashing of the coi or the soft
+landing of the sakura petals.
+	}
+	keywords { sand rock zen }
+	desc { 
+"   A zen garden of simple patterns of sand and rock, in a constant flux
+of change and chaos, finally settling to order, tranquility, and beauty.
+	}
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum }
+  exits {
+	to { e, 182 }
+	  info { door, closed, secret, autoclose }
+	  keywords { haven home bear }
+  }
+}
+
+184
+{
+  name { The Void  }
+  desc {
+"   A pure and utter darkness that borders the ethereal weave of shadows.
+It reaches out its velvet sable cloak of silence, to envelope and engulf
+all that it touches in its cold grasp, swallowing it and bringing an end
+to the battle of chaos and order, good and evil, life and death. This is
+the void, the end of everything, an inky blackness full of nothing.
+  }
+  flags { dark, no_mob, indoors, summon_trap, dispel_magic }
+  exits {
+	to { s, 182 }
+	  key { 3453 }
+	  info { door, closed, locked, secret, pickproof, hidden, autoclose, autolock }
+	  keywords { mortality haven home bear }
+  }
+}
+
+185
+{
+  name { The Chamber of Contemplation  }
+  desc {
+"   A gentle cool breeze blows through the room, causing small spirals of 
+grey smoke to shift to and from in the wind.  A small silver bowl filled
+with clean white sand lies to one side of a small black lacquered table,
+with a tiny bundle of incense sticks placed within the sand. Next to the
+bowl is a scroll filled with calligraphy, with a brush and ink placed on
+top. There is a single tatami mat in the center of the room, placed upon
+the cold grey stone floor, with a gentle impression on the mat. Near the
+far wall is a sturdy bookcase with a series of tomes on nihonto and also
+koduga.  Resting on top of this bookcase is a single lacquered and inlay
+stand with a sword in full koshirae.
+  }
+  extra {
+	keywords { impression impressions }
+	desc { 
+On the tatami mat is the gentle impression of a bear's toosh, probably
+from long hours of sitting and studying, thinking, and reading.
+	}
+	keywords { sword koshirae stand }
+	desc { 
+On top of the bookcase is a black lacquered wood stand with mother of pearl
+inlays of a spring scene on a lake. Resting on the stand is an ancient blade
+in full fittings, a work of art that is befitting a generational heirloom, 
+and yet a masterful and deadly weapon fitting for a warrior.
+	}
+  }
+  flags { no_mob, indoors, peaceful, nosteal, no_sum, rent_room }
+  exits {
+	to { w, 182 }
+	  info { door, closed, secret, autoclose }
+	  keywords { haven home bear }
+  }
+}

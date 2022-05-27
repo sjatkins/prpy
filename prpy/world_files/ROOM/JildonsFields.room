@@ -1,0 +1,756 @@
+#offset JildonsFields
+
+0
+{
+  name { Upon an Farmland Road  }
+  desc {
+"  The grassland surrounding you glimmer by activity, farmers keep their 
+fields under constant observation. These lands have proved to be excellent 
+farmland during the past centuries, as they provide Midguard with different 
+products. The road itself lies dusty beneath your feet, trailing off 
+towards both north and south. Several farmsteads have been scattered upon 
+the grassy landscape; some of them located to the north. A wooden sign 
+announces that the farmsteads located north of here are private grounds, 
+visitors should keep their hands to themselves. The dusty road continuos 
+further north and south from here.
+  }
+  flags { no_mob }
+  exits {
+	to { n, 1 }
+	to { s, Wilderness5:761 }
+  }
+}
+
+1
+{
+  name { Upon an Farmland Road  }
+  desc {
+"  The grassland surrounding you glimmer by activity, farmers keep their 
+present fields under constant observation. These lands have been proved to 
+be excellent farmland during the past centuries, as they provide Midguard 
+with different products. Two farmsteads can been seen further north, they  
+vary in size and shape. A low stone wall block further passage west and 
+east, protecting the surrounding fields. An opening in the wall to the 
+north provides a primitive but yet functional gate, large enough to let 
+horses with carriages through, loaded with goods. The road continuos 
+further north and south.
+  }
+  exits {
+	to { n, 2 }
+	to { s, 0 }
+  }
+}
+
+2
+{
+  name { Outside an Farmstead  }
+  desc {
+" The road forks here, with a productive farmstead located to the west. A 
+stone well stands where the road forks, providing close access to water for 
+the farmers. A wooden slide allows children to play during the daytime and  
+a swing hang down from a sturdy looking oak tree, centered by the road 
+fork, which provides some extra excitement. The house located to the west 
+seems very prosperous, since it has several fields surrounding it, with 
+different crops upon each field. A small dirt road leads off towards the 
+building, while the dusty farmland road runs further north and south from 
+here.
+  }
+  extra {
+	keywords { well }
+	desc { 
+A bucket attached to a turn pole above the well, allows the well to 
+function properly. A small path runs from the well itself, towards the 
+farmstead, grass trampled down by human feet.
+	}
+	keywords { Swing }
+	desc { 
+Two sturdy ropes, attached with several nails below the smooth 
+wooden swing allows even the largest man or woman to play here. The only 
+real problem seem to be the current state of the branch the swing is 
+attached to.
+	}
+  }
+  exits {
+	to { n, 13 }
+	to { s, 1 }
+	to { w, 3 }
+  }
+}
+
+3
+{
+  name { An Prosperous Farmstead  }
+  desc {
+"  The farmstead itself stands firm here upon flat landscape. It has been 
+constructed in one floor only, which seem more than enough for its current 
+keepers. A wooden porch decorated by flower arrangements provides entry to 
+the farmstead, through a wooden door. The rooftop has been repaired during 
+the years, making the wood shift in color as light bounces of its surface. 
+Windows positioned low above the floor level allows the farmers to keep 
+their land under constant observation. A barn is located to the south, 
+along with a large wheat field. A small path trails around the house to the 
+north, where another field is located.
+  }
+  extra {
+	keywords { Wooden porch flower arrangement arrangements }
+	desc { 
+Roses, both white and red positioned in a delicate manner along the edge of 
+the porch. Also a few flower pots hang down from the outstretched roof, 
+filled to the rim with flowers.
+	}
+	keywords { Roof rooftop }
+	desc { 
+Oak and pine wood, this roof has been repaired several times during the 
+last year. Some newly attached planks still stick out a few inches from the 
+structure.
+	}
+  }
+  exits {
+	to { n, 10 }
+	to { e, 2 }
+	to { s, 4 }
+	to { 10, 7 }
+	  keywords { farmstead }
+  }
+}
+
+4
+{
+  name { Upon an Wheat Field  }
+  desc {
+"  The excellent terrain surrounding Midguard allows perfect conditions for 
+farming wheat; this field is kept under constant observation by the 
+farmers. The wheat field has been positioned between the farmstead to the 
+north, and the barn further south. Birds circle the skies, their scream 
+echoes during both day and nighttime. A small road has been positioned in 
+the middle of the field, allowing one to walk towards the barn, without 
+damaging the corps. Scarecrows stand scattered upon the fields, a fair 
+attempt of keeping ravens away from the corps. The barn is located to the 
+south, while the farmstead lies to the north.
+  }
+  extra {
+	keywords { Scarecrow scarecrows }
+	desc { 
+Two thick sticks, one mounted deep into the field, and another one 
+functioning as arms, dressed in torn cloth. The head has been constructed 
+from hay, and topped off by an torn wide-brimmed hat.
+	}
+  }
+  exits {
+	to { n, 3 }
+	to { s, 5 }
+  }
+}
+
+5
+{
+  name { Outside an Barn  }
+  desc {
+"  The small path ends and starts here, with the barn located to the south; 
+a wooden gate blocks off the entry. A rusty plough stands against the 
+southern wall, layers of metal falling off as time passes by. A picture has 
+been drawn upon the western wall, showing a man with a typical farmer's 
+hat, carrying a wooden axe. A line is been drawn in the dirt twenty feet 
+back, the drawing seem to be used for target practice with knife or axe. 
+The small path runs north from here, dividing the wheat field in two parts, 
+allowing access to the farmstead located to the north.
+  }
+  extra {
+	keywords { Picture drawing }
+	desc { 
+A old farmer, dressed in luxurious cloths, with a brown hat 
+crowning his head. The picture has been carefully drawn, one eye seem 
+slightly larger then the other, also one leg seem replaced by a wooden peg. 
+Several marks made from knifes and axes have been made into the thin wooden 
+walls of the barn, making the picture fade as practice gives results.
+	}
+  }
+  exits {
+	to { n, 4 }
+	to { s, 6 }
+	  info { door, closed }
+	  keywords { gate wooden }
+  }
+}
+
+6
+{
+  name { Inside an Hay-filled Barn  }
+  desc {
+"  The smell of hay dominates here; haystacks are lined up against the 
+farther northern wall. A dirt floor lies visible beneath all the layers of 
+hay covering the floor. The western part of the barn is filled up with 
+ploughs, kept in top condition, reflecting light when sunrays emerges from 
+the decrepit ceiling during daytime. A bird nest lies visible beneath one 
+of the ceiling girders, a perfect protecting from unwanted hands and 
+predators. A wooden ladder allows access to the upper levels, while the 
+exit is located to the north, from where light also emerges.
+  }
+  extra {
+	keywords { Bird nest birdnest }
+	desc { 
+Made from small wooden sticks, and layers of hay, this nest lies well 
+protected just below a large wooden beam.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 5 }
+	  info { door, closed }
+	  keywords { gate wooden }
+  }
+}
+
+7
+{
+  name { Inside a Farmstead Kitchen  }
+  desc {
+"  You find yourself standing inside a medium-sized kitchen. A stone stove 
+by the northeastern corner allows the mistress of the house to cook for her 
+beloved family. A chimney allows the smoke to exit the room, raising up 
+towards the sky in columns. A round table, positioned in the center of the 
+room, seem to used for dinner and breakfast serving, food stains covers its 
+surface. An wooden bench provides space for cutting meat, fruit or 
+vegetables at the southern wall, just above it, and window allowing light 
+to enter the building. Another room is located to the east, while the exit 
+lies to the south; a sturdy pine door provides security.
+  }
+  extra {
+	keywords { Stove }
+	desc { 
+The stove seem unused, since a few pots of flowers stand in its open mouth.
+	}
+	keywords { Wooden bench }
+	desc { 
+Some sharp knives lie scattered upon the bench, used for cutting pieces of 
+meat. The surface is kept clean, keeping bacteria away.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 8 }
+	to { 10, 3 }
+	  keywords { porch }
+  }
+}
+
+8
+{
+  name { Inside the Children's Room  }
+  desc {
+"  The room itself is small, since two wooden beds have been placed along 
+the surrounding walls. Scattered upon the floor, lies children toys, 
+hazardous for the reckless when crossing the room in haste. The children 
+made paintings during the years, nailed upon the walls, making the room 
+feel a bit more comfortable. A large wooden chest sits positioned by the 
+end of each bed, storage for more toys perhaps. An oil lamp hangs a few 
+inches below the ceiling, a welcoming source of light during the dark 
+winter nights. Two windows located to the north, a few feet above the 
+floor, allow one to keep the northern field under observation. Another room 
+lies to the east, with a pine door blocking off entry when closed. The 
+kitchen lies to the west.
+  }
+  extra {
+	keywords { Wooden bed beds }
+	desc { 
+They all vary in size and shape, each one repaired and remodeled several 
+times.
+	}
+	keywords { Painting paintings }
+	desc { 
+Happy paintings, with a glowing yellow sun, and a family holding hands. 
+Some pictures of horses and cows, standing in tall green grass.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { e, 9 }
+	to { w, 7 }
+  }
+}
+
+9
+{
+  name { The Parents Bedroom  }
+  desc {
+"  Two beds stand along the northern and eastern wall, with a square shaped 
+table standing in the corner between them. A few candlesticks stand 
+randomly placed upon the floor, most of the candles burnt down far, but 
+still capable of producing light during night-time. A small wooden wardrobe 
+stands by the southern wall, along with set of old wooden chairs. A rug 
+covers most of the wooden floor, its edges been repaired during the years. 
+Another room is located to the west, while thick wooden walls block passage 
+in all other directions.
+  }
+  flags { indoors }
+  exits {
+	to { w, 8 }
+  }
+}
+
+10
+{
+  name { Path Around the Farmstead  }
+  desc {
+"  You stand on a tiny but well-used path that circles the farmstead. Wines 
+climb the walls of the structure, rooted just below the windows of the 
+building itself. The windows have been crafted into four squares of glass, 
+kept neatly cleaned by the family that owns the house. The chimney seems 
+unused since a bird nest crowns its top opening; it consists of several 
+sticks of wood and layers of hay. The walls have been painted with 
+classical red paint, with the frames surrounding the windows in bright 
+white. A barrel filled with rainwater stands by the farmstead's 
+northeastern corner, along with a plough. The path forks off towards the 
+north, while several crops fields lie to the west.
+  }
+  extra {
+	keywords { Barrel rainwater }
+	desc { 
+The water lies crystal clear in the barrel, collected during rainy days. 
+It smell fresh, and most certainly looks fresh.
+	}
+  }
+  exits {
+	to { n, 11 }
+	to { s, 3 }
+  }
+}
+
+11
+{
+  name { A Fork in the Path  }
+  desc {
+"  The path splits into two directions here, the northern one leads towards 
+a wheat field, fenced off by a high and very dense hedge, while the eastern 
+path continuos towards the dusty farmland road. The hedge is kept trimmed 
+during the summer season, the farmstead lies to the south blocking access 
+in that direction. Birds fill the sky, their echoing song spreads out into 
+the air, and floats around with the wind across the farmland landscape. A 
+very typical farmland smell, the aroma of hay rushes fourth with the wind. 
+A wheat field is located to the north, while the path runs further south 
+and east from here.
+  }
+  extra {
+	keywords { Dense hedge }
+	desc { 
+At this point, the hedge seem impossible to pass through. The wines grow 
+tightly together, clasping on to each other.
+	}
+	keywords { Wheat field north }
+	desc {  The field seems unattended. 	}
+  }
+  exits {
+	to { e, 12 }
+	to { s, 10 }
+  }
+}
+
+12
+{
+  name { Path Around a Farmstead  }
+  desc {
+"  You stand on a tiny but well-used path that circles the farmstead. Wines 
+climb the walls of the farmstead, rooted just below the windows of the 
+building itself. The windows themselves are cut into four squares, kept 
+neatly cleaned by the family that owns the house. The walls have been 
+painted with classical red paint, with the frames surrounding the windows 
+in bright white.  A sign has been mounted here; sticking deeply into the 
+dirt covered path, announcing that this is private property. A small picket 
+fence block passage north, while the dusty farmland road lies to the east.
+  }
+  exits {
+	to { e, 13 }
+	to { w, 11 }
+  }
+}
+
+13
+{
+  name { Dusty Farmland Road  }
+  desc {
+"  The low stone wall follows the dusty farmland road; here the road splits 
+into three different directions. A red-painted farmstead lies to the west, 
+an inland lake lies further north, along with more farmstead buildings, 
+while the farmland road continuos north and south. Smoke emerges from the 
+chimneys northern farmsteads; the smell of hay fills the air. Tracks in the 
+ground, made from heavily loaded carriages stain the country road, leading 
+off towards the farmsteads, or towards Midguard. A forest landscape lies 
+far west, miles of grassland located between, access blocked off by the low 
+stone wall.
+  }
+  exits {
+	to { n, 14 }
+	to { s, 2 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { Farmland Road - Lake Jildon  }
+  desc {
+"  As the farmland road continuos its chosen path, lake Jildon lies visible 
+at its eastern side. The water reflects the sun during day, while Jildon 
+lies ghostly black during night hours. The low stone wall has been replaced 
+with a picket fence here painted in pale white, some planks missing here 
+and there. The road trails off west, towards the waterline through a 
+constructed gate in the picket fence. Tracks in the ground, made from 
+heavily loaded carriages stain the country road, leading off towards the 
+farmsteads north, or towards Midguard located south. A forest landscape 
+lies far east, miles of grassland located between, birds circle the sky in 
+search of food.
+  }
+  exits {
+	to { n, 16 }
+	to { s, 13 }
+	to { w, 15 }
+  }
+}
+
+15
+{
+  name { Upon the Jildon Dock  }
+  desc {
+"  A wooden dock reaches out towards the clear surface of lake Jildon; 
+several smaller fishing boats attached to its poles. Birds circle above the 
+lake, screaming and searching for fishes they might be able to catch, when 
+diving into the crystal clear water below. Smoke arises from the farmstead 
+chimneys at the northern horizon; life floats by slow, according to country 
+manners. A small path runs upwards the steep slope, towards the dusty 
+farmland road above. Lake Jildon blocks further passage in all other 
+directions, except for flying birds and slow breezing wind.
+  }
+  extra {
+	keywords { Fishing boats boat }
+	desc { 
+They seem to be capable of handling the calm waters of Jildon, but they 
+would not last long anywhere else. They rock slowly back and forth, as 
+smaller waves comes in towards the dock.
+	}
+  }
+  exits {
+	to { e, 14 }
+  }
+}
+
+16
+{
+  name { Upon the Farmland Road  }
+  desc {
+"  A rectangular-shaped farmstead lie visible to the east, a one storage 
+high building, painted in bright white with deep-red side boarders. The 
+road itself forks here, leading off towards the farmstead to the east, but 
+also continuing north, across the grassy landscape. Another well-used barn 
+lies to the west, close by the waterline of lake Jildon. A white picket 
+fence protects the fields and barns one pass when travelling upon the road. 
+Far off in the horizon line, a forest line can be seen, as the farmland 
+landscape changes from grass to dense forest. A fresh smell of hay floats 
+around with the wind.
+  }
+  exits {
+	to { n, 25 }
+	to { e, 18 }
+	to { s, 14 }
+	to { w, 17 }
+	  info { door, closed }
+	  keywords { barn door }
+  }
+}
+
+17
+{
+  name { Inside a Well-used Barn  }
+  desc {
+"  The smell of hay dominates here; haystacks are lined up against the 
+farther southern wall. The dirt floor lies visible beneath all the layers 
+of hay covering the floor. The western part of the barn is filled up with 
+harvest tools, ploughs and sacks filled with grain. The upper level of the 
+barn seems impossible to access since a broken wooden ladder lie scattered 
+upon the hay-covered floor. The walls seem thin, and in need of repair, 
+some planks have serious moisture problems. The exit is located to the 
+east, where light falls in during daytime.
+  }
+  flags { indoors }
+  exits {
+	to { e, 16 }
+	  info { door, closed }
+	  keywords { barn door }
+  }
+}
+
+18
+{
+  name { The Farmstead Yard  }
+  desc {
+"  You stand at an open yard, which seems to be used for trade with wagons 
+and carriages, when loading and receiving goods. Several deep wagon tracks 
+stain the ground; little of the grass still remains. A well is positioned a 
+few yards away from the entry to the farmstead; the path from the door to 
+the well has been lined with smooth white stone. A dense hedge has been 
+planted surrounding the farmstead; nothing is visible through it, even at 
+close range. A pine door blocks off the entry to the farmstead. A large 
+cattle barn is located to the south, while the high hedge and house block 
+all other directions.
+  }
+  sector { Field }
+  extra {
+	keywords { Dense hedge }
+	desc { 
+Upon closer examination, there is a small hole, which one might be able to 
+push through with some effort.
+	}
+  }
+  exits {
+	to { s, 19 }
+	to { w, 16 }
+	to { 10, 21 }
+	  keywords { farmstead }
+	to { 11, 24 }
+	  info { hidden }
+	  keywords { hedge }
+  }
+}
+
+19
+{
+  name { Outside a Cattle Barn  }
+  desc {
+"  Sounds of cattle emerge from the big wooden barn located south from here. 
+A low white fence has been built at the barn's western end, where cattle 
+are allowed to walk freely during the days, and graze in the meadow. The 
+grass is kept short by the livestock during the spring and summer, while 
+its left alone during the autumn and winter to regain strength for next 
+season. A sign has been mounted above the huge barn door, stating that this 
+is private property, and intruders will not be tolerated. The white fence, 
+and the dense hedge block entry in all directions but east, where the 
+farmstead is located, south lies the barn entry.
+  }
+  exits {
+	to { n, 18 }
+	to { s, 20 }
+	  info { door, closed }
+	  keywords { barn cattle huge door }
+  }
+}
+
+20
+{
+  name { The Cattle Barn  }
+  desc {
+"  This place seems much larger on the inside than it appears from the 
+outside. Several types of livestock are breaded here, cows and pigs mostly, 
+but also some horses at the northern end of the barn. The cows stand in 
+separate cage-like structures, with a trench running along its walls, where 
+food and water is placed during feeding hours. The floor has been covered 
+with hay; a mixed smell of cattle and grass dominates the air. There is 
+much motion, sound and activity here, cows constantly chewing, pigs mocking 
+around in the dirt floor, and horses giving of pleased sounds. Several 
+buckets, some filled to the rim with water, others empty, line the eastern 
+wall, used to clean the barn when needed. The exit is located to the north.
+  }
+  flags { indoors }
+  exits {
+	to { n, 19 }
+	  info { door, closed }
+	  keywords { barn cattle huge door }
+  }
+}
+
+21
+{
+  name { Inside the Farmstead  }
+  desc {
+"  A comfortable and welcoming light emerges from the large lamp positioned 
+high above. Several benches line the walls, where goods are placed before 
+they are delivered to Midguard by wagon and carriage. A round carpet lies 
+in the center of the room, thick in quality. The room has two windows, one 
+at the southern wall, and the other facing the yard outside. The has been 
+room divided in two sections by an wooden counter, chairs standing at both 
+sides, used when discussion business. The remaining rooms of the farmstead 
+are accessible by passing the door to the east, while the yard lies to the 
+west.
+  }
+  flags { indoors }
+  exits {
+	to { e, 22 }
+	  info { door, closed }
+	  keywords { door }
+	to { 10, 18 }
+	  keywords { yard }
+  }
+}
+
+22
+{
+  name { Inside a Private Room  }
+  desc {
+"  A grand-sized bed stands in the eastern corner of the room, while three 
+children-sized beds line the southern wall. A wardrobe stands by the 
+northern window, large enough to hold all the cloths belonging to the 
+family. Beside all the smaller beds stands a round table with an oil lamp, 
+providing light during the night. Pictures painted by children decorates 
+the walls, most of them placed above the larger bed. An opening in the 
+southwestern corner of the room allows entry to the kitchen, where dinner 
+is severed every evening. The goods room is located to the west.
+  }
+  flags { indoors }
+  exits {
+	to { s, 23 }
+	to { w, 21 }
+	  info { door, closed }
+	  keywords { door }
+  }
+}
+
+23
+{
+  name { The Farmstead Kitchen  }
+  desc {
+"  A fireplace by the northern corner of the room provides light during the 
+darker hours of the day, and also warmth during the winter. A table, placed 
+in the center of the room, is used for serving food, but also for preparing 
+it. Six chairs stands along its ends, two of them a bit more sturdy and 
+luxurious, used by the parents. A pile of wood lies by the stove, fuel for 
+cocking dinners. Smoke passes out from the room, through the chimney above. 
+The table surface has been scratched during the years, names inscribed in 
+the hard wood. A huge circle-shaped carpet covers the floor of the room, 
+rich in both fabric and quality. An opening in the northern wall allows 
+access to another part of the farmstead, while the wooden walls block all 
+other directions.
+  }
+  extra {
+	keywords { Huge circle shaped carpet rug }
+	desc { 
+Very rich in both color and quality, this rug covers the floor nicely. 
+There is something sticking up below the rug at four places, nails perhaps.
+	}
+	keywords { Nails nail }
+	desc { 
+Below the rug, someone nailed several wooden planks over a small 
+trapdoor...one might be able to simple open the trapdoor.
+	}
+  }
+  flags { indoors }
+  exits {
+	to { n, 22 }
+	to { d, 26 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { trapdoor }
+  }
+}
+
+24
+{
+  name { The Children's Hideout  }
+  desc {
+"  A small circle has been made here, as grass have been removed from the 
+ground. Several toys lies scattered upon the ground, nothing of this 
+visible from the other side of the dense hedge. A primitive cottage, built 
+by creative children's hands lies smashed into the hedge, small pieces of 
+green cloth placed among the wines, now used as walls. Ants crawl across 
+the grass, sometimes crossing the spot where the grass has been removed, 
+when walking back towards their home, by a newly sprung oak tree north from 
+here. A small hole has been produced in the ground, small enough to let the 
+agile climb through. Pieces of a broken scarecrow lie scattered upon the 
+ground, forgotten by time. Crawling through the hedge, takes you back to 
+the trade yard, the hedge blocks all other directions.
+  }
+  exits {
+	to { s, 18 }
+	  info { hidden }
+	to { d, 28 }
+	to { 10, 18 }
+	  info { hidden }
+	  keywords { hedge }
+  }
+}
+
+25
+{
+  name { Upon the Farmland Road  }
+  desc {
+"  Fields of wheat and the low stone wall follows you when proceeding along 
+the farmland road. Scarecrows stand ghostly still among the fields, keeping 
+most birds away from the crops, with skinny arms reaching out from their 
+sides. Wagons tracks stain the ground, since merchants travel back and 
+forth between Midguard with their goods, buying and selling where prices 
+are good. Further north, the road reaches out through the grass landscape, 
+making its way towards the forest line far north. The road also continuos 
+south, towards lake Jildon and the farmstead districts, smoke columns 
+raising to the skies from numerous chimneys. The air feels fresh to inhale, 
+as always here at the countryside. The farmland road makes its way further 
+north and south from here, the low stone wall blocks entry to the fields 
+and barns on both sides.
+  }
+  extra {
+	keywords { Scarecrow scarecrows }
+	desc { 
+Two thick sticks, one mounted deep into the field, and another one 
+functioning as arms, dressed in torn cloth. The head has been constructed 
+from hay, and topped off by an torn wide-brimmed hat.
+	}
+  }
+  flags { no_mob }
+  exits {
+	to { n, Wilderness4:961 }
+	to { s, 16 }
+  }
+}
+
+26
+{
+  name { A Forgotten Cellar  }
+  desc {
+"  Moisture and dampness dominates the air here, the walls consist of bare 
+earth only. Nothing seems to be stored down here, besides from insects, 
+worms and rotten food. Some tracks have been made in the dirt floor here, 
+an animal of some sort, trailing back and forth upon the ground, searching 
+for something perhaps. There is little to be seen down here, part for the 
+hole, which someone or something dug into the northern wall, large enough 
+to crawl through. The smell of rotten food floats around, as waves of wind 
+emerges from the hole located to the north, the trapdoor above leads up to 
+the kitchen of the farmhouse.
+  }
+  flags { dark, indoors }
+  exits {
+	to { u, 23 }
+	  info { door, closed, hidden, autoclose }
+	  keywords { trapdoor }
+	to { 10, 27 }
+	  keywords { hole }
+  }
+}
+
+27
+{
+  name { Crawling Through the Earth  }
+  desc {
+"  Darkness surrounds you, when laying here, face close to the moisture 
+earth itself. Worms stick out from the walls, trying to dig their way to 
+safety through the walls of dirt. A fresh smell emerges from the hole 
+further north, where freedom can be granted. Crawling south takes you 
+deeper into the earth, into a more open area.
+  }
+  flags { dark, indoors }
+  exits {
+	to { n, 28 }
+	to { 10, 26 }
+	  keywords { cellar }
+  }
+}
+
+28
+{
+  name { Below the Surface  }
+  desc {
+"  Standing up straight, you find yourself inside a dugout hole, above you, 
+fresh air floats around with the winds. The hole continues towards the 
+south, reaching in towards the damp and cold earth itself. Freedom lies 
+upwards, through the hole.
+  }
+  flags { indoors }
+  exits {
+	to { s, 27 }
+	to { u, 24 }
+  }
+}

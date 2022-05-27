@@ -1,0 +1,922 @@
+#offset ChaosRealm
+
+0
+{
+  name { Waters Edge  }
+  desc {
+" You stand upon a small beach with the gentle motion of the calm sea lapping
+water up upon the sandy shore and about your feet. To your north you can see 
+the beach lead off in land. Something in the water catches your  attention to
+ the south. Fancy a swim?
+  }
+  sector { Hills }
+  exits {
+	to { n, Marsh:17 }
+	to { s, 2 }
+  }
+}
+
+1
+{
+  name { 101101  }
+  desc { Empty   }
+}
+
+2
+{
+  name { The Shallows  }
+  desc {
+You swim into the shallow salty water. To your amazement these waters are 
+crystal clear and pleasantly warm. All around you is a vision colour and life.
+You truely feel as if you have entered into a new world as your senses are
+baffled by the lack of sound and dazzled by the colour displayed by the fish
+that swim by you looking curiously and the magnificant corals that line the
+small reef to your south.
+  }
+  sector { Underwater }
+  exits {
+	to { n, 0 }
+	to { s, 3 }
+  }
+}
+
+3
+{
+  name { Edge of the coral reef  }
+  desc {
+You swim amoungst the corals, thrilled at the sheer splender of the aquatic
+realm and at your luck at sharing it's beauty. As you look down you notice a
+small opening in the coral reef leading under the reef bed.
+  }
+  sector { Underwater }
+  exits {
+	to { n, 2 }
+	to { d, 4 }
+  }
+}
+
+4
+{
+  name { A Coral Tunnel  }
+  desc {
+You swim along a wide coral tunnel, formed by the consant surge of current that
+gently pulls you along it's course. The tunnel is lit by the sparkle of many
+rays of light that filter down through the coral reef above.
+  }
+  sector { Underwater }
+  river { s, 2 }
+  exits {
+	to { s, 5 }
+	to { u, 3 }
+  }
+}
+
+5
+{
+  name { A Coral Tunnel  }
+  desc {
+You swim along a wide coral tunnel lit by the sparkle of many beams of light
+that filter down from the reef above. The current gently pulls you south and
+the tunnel heads north.
+  }
+  sector { Underwater }
+  river { s, 2 }
+  exits {
+	to { n, 4 }
+	to { s, 6 }
+  }
+}
+
+6
+{
+  name { A Coral Tunnel  }
+  desc {
+You swim along a wide coral tunnel lit by the sparkle of many beams of light
+that filter down from the reef above. The current gently pulls you south and
+the tunnel heads north.
+  }
+  sector { Underwater }
+  river { s, 2 }
+  exits {
+	to { n, 5 }
+	to { s, 7 }
+  }
+}
+
+7
+{
+  name { A Coral Tunnel  }
+  desc {
+You swim along a wide coral tunnel lit by beams of light filtering threw the
+coral above. A shaft leads down and the current pulls you swiftly onwards.
+  }
+  sector { Underwater }
+  river { d, 2 }
+  exits {
+	to { n, 6 }
+	to { d, 8 }
+  }
+}
+
+8
+{
+  name { A Coral Tunnel  }
+  desc {
+You swim threw a coral tunnel lit by a bean of light filtering down from a
+shaft above you. The current pulls you quickly south.
+  }
+  sector { Underwater }
+  river { s, 2 }
+  exits {
+	to { s, 9 }
+	to { u, 7 }
+  }
+}
+
+9
+{
+  name { A Shimmering Pool  }
+  desc {
+You swim around a shimmering pool of water, being buffeted by the current that
+dragged you here. As you are buffeted again a wall you see a number of arcane
+runes etched on that wall. Obviously this is some kind of magical chamber, but
+the questions is for what purpose.
+  }
+  sector { Underwater }
+  flags { no_magic, dispel_magic }
+  tele { 200, 0, 10 }
+  exits {
+	to { n, 8 }
+  }
+}
+
+10
+{
+  name { A Circular Chamber  }
+  desc {
+You are stood in a large circular chamber with torches burning brightly high
+upon it's walls, casting a flickering dancing light that sends shadows darting
+all about the chamber. Opposite to where you appeared an inky black portal
+stands. A humming in the air is almost audiable as if the room itself is
+trying to say something:
+
+"Beware foolish mortal for eternal torment awaits all who dare venture forth
+ into the Realms of Chaos."
+
+You shake your head to clear it and begin to think things are not what they
+seem. Within the portal you think you can make out a shape, as if something
+is trying to come through.
+  }
+  exits {
+	to { 10, 11 }
+	  keywords { portal }
+  }
+}
+
+11
+{
+  name { The Plains of Chaos  }
+  desc {
+All around the sky and floor explodes with strange coloured fire, and huge
+roars of thunder can be heard all around.
+  }
+  sector { Fire }
+  exits {
+	to { n, 12 }
+	to { e, 11 }
+	to { s, 11 }
+	to { w, 11 }
+  }
+}
+
+12
+{
+  name { The Plains of chaos  }
+  desc {
+All around you the sky and floor explodes with strange coloured fire, and huge
+roars of thunder can be heard all around.
+  }
+  sector { Cold }
+  exits {
+	to { n, 12 }
+	to { e, 13 }
+	to { s, 11 }
+	to { w, 12 }
+  }
+}
+
+13
+{
+  name { The Plains of Chaos  }
+  desc {
+All around the sky and floor explodes with strange coloured fire, with huge
+roars of thunder can be heard all around.
+  }
+  sector { Fire }
+  exits {
+	to { n, 12 }
+	to { e, 11 }
+	to { s, 14 }
+	to { w, 12 }
+  }
+}
+
+14
+{
+  name { The Plains of Chaos  }
+  desc {
+All around the sky and floor explodes with strange coloured fire, and huge
+roars of fire can be heard all around.
+  }
+  sector { Cold }
+  exits {
+	to { n, 13 }
+	to { e, 15 }
+	to { s, 11 }
+	to { w, 12 }
+  }
+}
+
+15
+{
+  name { The Steps of Eternity  }
+  desc {
+You stand that the base of a huge set of stone steps that leads up into the 
+churning chaos that is the sky above.
+  }
+  sector { Road }
+  flags { no_mob }
+  exits {
+	to { w, 14 }
+	to { u, 16 }
+  }
+}
+
+16
+{
+  name { The Gates of Castle Daxris  }
+  desc {
+Before you stands a massive pair of adamantite gatesguarding the entrance to
+a massive castle that spans off to the horizon in all directions. It's ebony
+black walls seem as if they try to absorb all light and keep it trapped within
+for eternity.
+  }
+  sector { City }
+  exits {
+	to { d, 15 }
+	to { 10, 17 }
+	  keywords { gates }
+  }
+}
+
+17
+{
+  name { Entrance Hall  }
+  desc {
+You stand within a massive entrance hall, it's size beyond believe. Upon the
+walls hang huge tapestries depicting hero's in battle with deadly and alien
+foes. The for north wall has an archway the leads to some stairs, to your
+east and west entrances lead of further into the castle.
+  }
+  exits {
+	to { n, 39 }
+	to { e, 34 }
+	to { w, 18 }
+  }
+}
+
+18
+{
+  name { Spiral Staircase  }
+  desc {
+You stand upon a spiral staircase that leads up and down. To the east leads
+a passageway to a grand hall. From below you can feel waves of heat rising up
+the stairs.
+  }
+  exits {
+	to { e, 17 }
+	to { u, 27 }
+	to { d, 19 }
+  }
+}
+
+19
+{
+  name { Passage of fire  }
+  desc {
+You stand within a hallway it's immense heat is almost overbaring. A set of
+spiral stairs lead up away from the heat, whereas to the north a glow can be 
+seen, maybe the source of this unsocialable temperature.
+  }
+  sector { Fire }
+  exits {
+	to { n, 20 }
+	to { u, 18 }
+  }
+}
+
+20
+{
+  name { Passage of fire  }
+  desc {
+You stand within a hallway it's walls seating in the immense heat. To your
+south you spy a set of spiral stairs and to north a red glow can been seen.
+  }
+  sector { Fire }
+  exits {
+	to { n, 21 }
+	to { s, 19 }
+  }
+}
+
+21
+{
+  name { Passage of fire  }
+  desc {
+You stand within a hallway it's walls sweating in the immense heat. To your 
+east and west a bright red glow can be seen obviously the source of this vast
+temperature. To the north and south the hallway continues.
+  }
+  sector { Fire }
+  exits {
+	to { n, 24 }
+	to { e, 23 }
+	to { s, 20 }
+	to { w, 22 }
+  }
+}
+
+22
+{
+  name { Circle of Fire  }
+  desc {
+This room is obviously used to summon strange an alien creature, by the runes
+and markings that line it's walls and floor. In each corner of the room large
+pillars of flame give off a staggering amount of heat, which is almost beyond
+your ability to withstand. The only exit from this room is to the east.
+  }
+  sector { Fire }
+  exits {
+	to { e, 21 }
+  }
+}
+
+23
+{
+  name { Circle of Fire  }
+  desc {
+You stand in room designed to summon some kind of Fire Demon, by the markings
+on the walls and floor and the large circle of fire that dominates the centre
+of the room. In each corner large pillars of flame give of staggering waves of
+heat. The only exit to this room is to the west.
+  }
+  sector { Fire }
+  exits {
+	to { w, 21 }
+  }
+}
+
+24
+{
+  name { Passage of Fire  }
+  desc {
+You stand within a hallway it's walls sweating in the immense heat. To your
+south the hallway continues. To the west and north where doors should stand
+a shimmering field of energy can be faintly seen, beyond the field to the west
+you can see a room full of maps and to the north a room with some strange marks
+on the floor.
+  }
+  sector { Fire }
+  exits {
+	to { n, 26 }
+	to { s, 21 }
+	to { w, 25 }
+  }
+}
+
+25
+{
+  name { The War Room  }
+  desc {
+About you are maps and chart of all discriptions with symbols and markings all
+over them. On the east wall a large map of a city well known to you is hung,
+with what would appear to be the positions of troop movements marked on it.
+Above the city at the top of the map in large letters is the name "Midgaard".
+This is definately a council chamber for War.
+  }
+  exits {
+	to { e, 24 }
+  }
+}
+
+26
+{
+  name { Pattern Room  }
+  desc {
+You stand with a room completely no discripted apart from the symbol on the
+floor of a ravaged sky shooting forth mighty bolts of lightning.
+  }
+  flags { no_mob }
+  tele { 40, 0, 11 }
+  exits {
+	to { s, 24 }
+  }
+}
+
+27
+{
+  name { Spiral Staircase  }
+  desc {
+You stand upon a spiral staircase that leads up and down. Form below a faint 
+glow can be seen, and heat rise up the starway. From above a bright light 
+illuminates your way.
+  }
+  exits {
+	to { u, 28 }
+	to { d, 18 }
+  }
+}
+
+28
+{
+  name { Top of the Staircase  }
+  desc {
+You stand at the top of a spiral staircase that decends deeper into the castle
+it is from this staircase a warm and pleasing breeze can be felt. This room is
+lit by a brilliant bright light that is enimating from the hallway to the north
+  }
+  exits {
+	to { n, 29 }
+	to { d, 27 }
+  }
+}
+
+29
+{
+  name { Mirrored Hallway  }
+  desc {
+You stand within a hallway its walls and cieling covered in brightly polished
+mirrors, that reflect your image where ever you look. A small glowing sphere
+high in the cieling cast a brilliant white light about the hallway which is
+enhanced by the polished mirrors to a near blinding brilliance.
+  }
+  exits {
+	to { n, 30 }
+	to { s, 28 }
+  }
+}
+
+30
+{
+  name { Mirrored Hallway  }
+  desc {
+You stand within a a hallway lined on all sides with mirrors throwing a meriad
+of sparkling light and reflects from your light. As you look into these mirrors
+you see verying images of yourself as child, as a mighty hero, as a withered
+old man or woman and as a corpse. I one of these mirrors alongside you stands
+a migthy warrior wearing armor. The hallway leads off to your south.
+  }
+  exits {
+	to { s, 29 }
+	to { 10, 31 }
+	  info { door, closed, secret, hidden }
+	  keywords { mirror }
+  }
+}
+
+31
+{
+  name { A Shimmering Light  }
+  desc {
+All about you the rainbow swirls, everything is spinning you have a feeling of
+doom as the world folds in upon itself and suddenly it is dark.
+  }
+  flags { noshowexit, dispel_magic }
+  tele { 1, 0, 32 }
+  exits {
+	to { 10, 30 }
+	  info { door, closed, secret, hidden }
+	  keywords { mirror }
+  }
+}
+
+32
+{
+  name { Chamber of the Damned  }
+  desc {
+You stand within a huge chamber lit by a pulsating sphere of energy high above
+you. You can feel all your energy drain from you as the constant humming of the
+sphere drones on and on. This is obviously a mystic prison used to house those
+the lords of Castle Draxas could not destroy. All around the room are littered
+corpses and rocks, skeletons of long dead hero's and adventurers lie amoungst
+the rubble.
+  }
+  flags { dark, relocate_distort, summon_trap }
+  exits {
+	to { 10, 33 }
+	  info { door, closed, secret, hidden }
+	  keywords { rocks }
+  }
+}
+
+33
+{
+  name { Escape Route  }
+  desc { From here you can escape to safety.   }
+  exits {
+	to { 10, 32 }
+	  info { door, closed, secret, hidden }
+	  keywords { rocks }
+  }
+}
+
+34
+{
+  name { Hallway of Souls  }
+  desc {
+You stand within a hallway it's walls shimmering with what would appear to be
+the images and faces of tortured souls crying out in agony and torment. To your
+west you can see a large hall and the hallway continues east.
+  }
+  exits {
+	to { e, 35 }
+	to { w, 17 }
+  }
+}
+
+35
+{
+  name { Hallway of Souls  }
+  desc {
+You stand within a hallway its walls made from the tortured and tormented souls
+of those that opposed Lord Draxas's will. All around you see the faces of the
+once proud and mighty, captured eternal in these walls awaiting release from
+thier eternal suffering. To you west the hallway continues and a set of stairs
+leads down from which a moaning sound can be heard.
+  }
+  exits {
+	to { w, 34 }
+	to { d, 36 }
+  }
+}
+
+36
+{
+  name { Hallway of Despair  }
+  desc {
+This hallway is vibrating with the sound of suffering and pain, all around you
+can hear the death rattles and screams of agony cast out by those that have
+suffered at the hands of this halls masters. A set of stairs leads up and the
+hallways continues to the north.
+  }
+  exits {
+	to { n, 37 }
+	to { u, 35 }
+  }
+}
+
+37
+{
+  name { Hallway of Despair  }
+  desc {
+This hallway is vibrating with the sounds of suffering and pain, all around
+you can hear the death rattles and screams of agony cast out by those who have
+suffered at its masters hands. To the north you can see a room with a strange
+pattern on the floor, and the hallway continues south to a set of stairs.
+  }
+  exits {
+	to { n, 38 }
+	to { s, 36 }
+  }
+}
+
+38
+{
+  name { Pattern Room  }
+  desc {
+Upon the walls of this room are runes of power, and upon its floor is a picture
+of a swirl and chaotic multi-coloured landscape, the clouds overhead erupting
+in fire.
+  }
+  flags { no_mob }
+  tele { 3, 0, 11 }
+  exits {
+	to { s, 37 }
+  }
+}
+
+39
+{
+  name { The Stairs of Doom  }
+  desc {
+You stand at the base of a mighty stairsace that leads up beyond the range of
+you vision. Each step is covered in a dark stain and the stench of blood hangs
+heavy in the air. To the south a large hall can be seen.
+  }
+  exits {
+	to { s, 17 }
+	to { 10, 40 }
+	  keywords { stairs }
+  }
+}
+
+40
+{
+  name { The Halls of Time  }
+  desc {
+You stand in a hallway with tapestries lining it's walls, and a large flight of
+stairs that decend beyond vision. Upon closer inspection of these tapestries
+you can tell they are more than they first appear for they tell the tale of
+the universe from its birth to the present day. To the north the hall and
+tapestry continues.
+  }
+  exits {
+	to { n, 41 }
+	to { 10, 39 }
+	  keywords { stairs }
+  }
+}
+
+41
+{
+  name { The Halls of Time  }
+  desc {
+You stand in a hallway with tapestries lining it's walls, and a large flight of
+stairs can be seen to the north. Upon clser inspection the tapestries appear
+to be tell the story of time, of many worlds and universes. To the east lies
+a dark corridor and the hallway continues north and south.
+  }
+  exits {
+	to { n, 42 }
+	to { e, 50 }
+	to { s, 40 }
+  }
+}
+
+42
+{
+  name { The Halls of Time  }
+  desc {
+You stand in a hallway with tapestries lining it's walls, and a large flight of
+stairs can be seen to the north. Upon clser inspection the tapestries appear
+to be tell the story of time, of many worlds and universes. To the north a
+grey mist swirls and forms a large chamber.
+  }
+  exits {
+	to { s, 41 }
+	to { 10, 43 }
+	  keywords { mists }
+  }
+}
+
+43
+{
+  name { The Halls of Mist  }
+  desc {
+A grey mist, almost solid in makes the substance from which this chamber
+is made from, as you walk about its interior you feel the floor give slightly
+with each step.  In the east wall a set of stairs leads up out of sight.
+  }
+  exits {
+	to { u, 44 }
+  }
+}
+
+44
+{
+  name { Misty Stairway  }
+  desc {
+You stand upon a set of stairs made out of an almost solid grey mist. As you
+step upon each step, it feels as if it will give way any minute, you had best
+hurry, for this is surely not a safe place to rest. The stairs lead down to
+a large chamber and up to a barren wasteland.
+  }
+  exits {
+	to { u, 45 }
+	to { d, 43 }
+  }
+}
+
+45
+{
+  name { Misty Stairway  }
+  desc {
+You stand upon a set of stairs made out of an almost solid grey mist. As you
+step upon each step, it feel as if it will give way any minute, you had best
+hurry, for this is surely not a save place to rest. The stairs lead down to
+a large chamber and up to a dark barren wasteland.
+  }
+  exits {
+	to { u, 46 }
+	to { d, 44 }
+  }
+}
+
+46
+{
+  name { Grey Wastes  }
+  desc {
+You stand upon a barren and bleak waste, to the north a massive building can be
+seen, whilst just to your south a misty stairway leads mysteriously down. Off
+to the east you spy a small hill from which a faint sound can be heard, maybe
+it's coming closer. A feeling of dread, and ill omen sweeps over you.
+  }
+  exits {
+	to { n, 47 }
+	to { d, 45 }
+  }
+}
+
+47
+{
+  name { The Halls of Dread  }
+  desc {
+You stand in a hallway, a feeling of dread and dispair sweep over you. To the
+west a huge archway leads off, and a large onyx statue of a dragon in flight
+guards eitherside of the entrance. To the south a similar entrance leads to a
+bleack and barren wasteland.
+  }
+  exits {
+	to { s, 46 }
+	to { w, 48 }
+  }
+}
+
+48
+{
+  name { The Halls of Dread  }
+  desc {
+A large silver archway dominates the west side of the hallway, it's silver
+stands filled with a shimmering, pullsating red light. Along the frame of the
+archway, intricately carved, is a reliaf of a sleeping red dragon upon a mound
+of treasure. Above the archway made of purest ruby, is a huge relief of a 
+roaring dragon.
+  }
+  exits {
+	to { e, 47 }
+	to { w, 49 }
+  }
+}
+
+49
+{
+  name { The Dragon Halls  }
+  desc {
+The chamber is strewn with numerous mounds of golest, used by it's once proud
+and might owners to rest upon and birth thier young. In the center of this
+chamber is a huge mound, upon which legend has it the might Pyros, mother of
+all red dragons gave birth to the first of here young, after the gods created
+the olest of all mortal races.
+  }
+}
+
+50
+{
+  name { Darkling Well  }
+  desc {
+You stand within a small corridor that has a small well in its center. The lip
+of the well is raised about three feet from the floor, and a faint moaning
+sound can be heard from within. To the west an archway leads to a bright 
+hallway.
+  }
+  exits {
+	to { w, 41 }
+	to { d, 51 }
+  }
+}
+
+51
+{
+  name { Bottom of the Well  }
+  desc {
+You stand at the bottom of a well shaft, to the north lies a faint light and
+the sounds of someone or something in pain can be heard drifting down the
+tunnel from the north.
+  }
+  exits {
+	to { n, 52 }
+	to { u, 50 }
+  }
+}
+
+52
+{
+  name { Runed Tunnel  }
+  desc {
+You stand in a hallway, it's walls covered in strange alien runes. You can't
+make nor tail of them, thier arrangements so chaotic and random they appear
+without purpose.
+  }
+  exits {
+	to { n, 53 }
+	to { s, 51 }
+  }
+}
+
+53
+{
+  name { Runed Tunnel  }
+  desc {
+You stand in a hallway, it's walls covered in strange alien runes. You can't
+make head nor tail of them, thier arrangements so chaotic and random they
+appear without purpose. To the eat and west large oak doors, covered in similar
+runes stand shut with a small barred pep-hole in them.
+  }
+  exits {
+	to { n, 56 }
+	to { e, 55 }
+	  info { door, closed }
+	to { s, 52 }
+	to { w, 54 }
+	  info { door, closed }
+  }
+}
+
+54
+{
+  name { Prison Cell  }
+  desc {
+This chamber is obvious well used, and frequently used prison cell. By the
+extremely good condition of the shackles that line each wall, this room must
+be used to hold people for short periods. You wonder where they go?
+  }
+  exits {
+	to { e, 53 }
+	  info { door, closed }
+  }
+}
+
+55
+{
+  name { Prison Cell  }
+  desc {
+This chamber is obviously a well used, and frequently used prison cell, by
+the extremely good condidtion the shackles that line each wall. You wonder
+why people do not appear to be held here for long time.
+  }
+  exits {
+	to { w, 53 }
+	  info { door, closed }
+  }
+}
+
+56
+{
+  name { Pattern Room  }
+  desc {
+You stand within a small chamber, with runes of power, and a pattern of a huge
+storn cloud, upon which rests a huge throne dominating the center of the floor
+You can feel a fey energy begining to build in the air the long you stand here.
+Death, dispair and flight are the only things you can think of, surely you have
+made a grave error, in staying this long.
+  }
+  tele { 30, 0, 57 }
+  exits {
+	to { s, 53 }
+  }
+}
+
+57
+{
+  name { Grand Archway  }
+  desc {
+A massive rune covered archway stands here, a shimmering silver light covers
+its gap, whilst pulsating runes of power, give the air an audible throb. From
+within the portal, you think you can see a massive figure sat up a large 
+throne.
+  }
+  exits {
+	to { n, 58 }
+  }
+}
+
+58
+{
+  name { The Throne of Doom  }
+  desc {
+A huge throne made of what appears to be black fire, dominates the northern
+wall of this chamber, upon a raised dias. In the west wall a large pair of
+silver doors, lies shut, whilst tapestries flutter in the chilling breeze that
+is blowing around the chamber. These tapestries are alien in design, and feel
+you with dread, for you have invaded the inner sanctum of Draxas, Lord of the
+Realms of Chaos, and he's not going to be pleased to see you.
+  }
+  exits {
+	to { w, 59 }
+	  info { door, closed }
+  }
+}
+
+59
+{
+  name { Council Chambers  }
+  desc {
+This is council chamber of Lord Draxas, Master of the Realms of Chaos, all
+around are scrolls, and maps. Whilst a large conference table in the center of 
+the room, is laiden with alien foods, foul by smell, most likely taste.
+  }
+  exits {
+	to { e, 58 }
+	  info { door, closed }
+  }
+}

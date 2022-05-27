@@ -1,0 +1,113 @@
+#offset AncientGreece
+
+0
+{
+  name { A Grassy Meadow }
+  desc { "   You are standing in the middle of a grassy meadow.  The grass is 
+thick beneath your feet and dotted with purple irises and red poppies.  The 
+meadow is surrounded on three sides by copses of trees to the north, south and 
+east.  The western edge of the meadow is bordered by three Doric columns topped 
+by a narrow walkway.  }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { n, 1 }
+	to { s, 3 }
+	to { e, 4 }
+	to { w, 6 }
+  }
+}
+
+1
+{
+  name { A Copse of Trees }
+  desc { "   You are in a copse of trees filled with with oaks, bay laurels, 
+and pine.  One majestic oak stands out in the center as if holding court for 
+the others. }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { s, 0 }
+	to { 10, 2 }
+	  keywords {oak}
+  }
+}
+
+2
+{
+  name { Before the Majestic Oak }
+  desc { "   A hallowed oak with age-old scars rises before you.  Upon closer inspection,
+you see a multitude of gouges in its trunk at about shoulder height.  Some look recent and 
+others look like they have been there a long time.  The grass in front of the tree shows
+signs of recent animal activity. }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { s, 1 }
+	to { 10, 1 }
+	  keywords {copse}
+  }
+}
+
+3
+{
+  name { Statue of Artemis }
+  desc { "   Before you stands a life-sized statue of the goddess Artemis.  Her marble
+figure is accented in paints of rich tones of blue, red and gold.  Her face is white, 
+pristine and unscathed by the ravages of time.  Her lapis set eyes gaze upon you.  
+The smirk in her lips is flush and almost lifelike.  As you enter they shift to a 
+come-hither grin. }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { n, 0 }
+  }
+}
+
+4
+{
+  name { A Copse of Trees }
+  desc { "   You are in a copse of trees filled with with oaks, bay laurels, 
+and pine. The path continues east towards a river.  }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { w, 0 }
+	to { e, 5 }
+  }
+}
+
+5
+{
+  name { By the Eridanos River }
+  desc { "   You are in a forest of trees filled with with oaks, bay laurels, 
+and pine.  A sense of calm pervades you as you take in the Eridanos River that flows 
+before you.  Its dark blue waters sooth your soul offering relief from the tension that
+permeates the air.  Rows of cattails line both banks.  A small footbridge offers crossing.  }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { w, 4 }
+	to { e, 100 }
+  }
+}
+
+6
+{
+  name { Marble Portico }
+  desc { "   A marble portico with Doric columns stands before you.  It serves as a 
+gateway to the Avenue of the Dead.  Dazed and half-starved refugees file under the 
+arch joining others marching towards a distant temple off to the west.  Freshly healed
+conscripts march the other way towards the steams of smoke that rise above the forest to the east. }
+  sector { Forest }
+  flags { private }
+  exits {
+	to { n, 7 }
+	to { s, 8 }
+	to { e, 0 }
+	to { w, 10 }
+  }
+}
+
+
+
