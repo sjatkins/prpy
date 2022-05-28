@@ -1,23 +1,5 @@
-from typing import List, Optional, Any
-from pydantic import BaseModel
-from prpy.dumb_parse.utils import named_value, Block
-
-class RoomExit(BaseModel):
-    direction: str
-    room_label: str
-
-class Room(BaseModel):
-    index: int
-    offset: str
-    sector: str
-    desc: str
-    flags: Optional[List[str]]
-    exits: List[RoomExit]
-
-class RoomOffset(BaseModel):
-    name: str
-    rooms: List[Room]
-
+import json, os
+from prpy.dumb_parse.utils import Block
 
 class RoomsFileParser:
     def __init__(self, path):
@@ -28,6 +10,24 @@ class RoomsFileParser:
         self._lines = [l for l in lines[1:] if l]
         self._special = dict(exits= self.parse_room_exits)
         self._rooms = self.rooms_from_blocks()
+
+    def as_dict(self):
+        return dict(
+            zone = self._zone,
+            rooms = self._rooms
+        )
+
+    def write_json(self, json_dir='', as_dict=True, dict_key='index'):
+        base = os.path.basename(self._path)
+        fname = f'{base.split(".")[0]}.json'
+        out_path = os.path.join(json_dir, fname)
+        basics = self.as_dict()
+        if as_dict:
+            room_dict = {r[dict_key]: r for r in basics['rooms']}
+            basics['rooms'] = room_dict
+
+        with open(out_path, 'w') as f:
+            json.dump(basics, f)
 
     def expanded_room(self, room_spec):
         return f'{self._zone}:{room_spec}' if room_spec.isnumeric() else room_spec
