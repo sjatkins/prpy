@@ -1,6 +1,6 @@
 from typing import List, Optional, Any
 from pydantic import BaseModel
-from prpy.dumb_parse.utils import named_value
+from prpy.dumb_parse.utils import named_value, Block
 
 class RoomExit(BaseModel):
     direction: str
@@ -27,12 +27,12 @@ class RoomsFileParser:
         self._zone = self.parse_offset(lines[0])
         self._lines = [l for l in lines[1:] if l]
         self._special = dict(exits= self.parse_room_exits)
-        self._rooms = self.parse_rooms()
+        self._rooms = self.rooms_from_blocks()
 
     def expanded_room(self, room_spec):
         return f'{self._zone}:{room_spec}' if room_spec.isnumeric() else room_spec
 
-    def parse_room_exits(self, exit_lines):
+    def parse_room_exits(self, exits):
         """
         For each exit return dictionary of direction, room_specifier, and optional keywords dict.
         Room specifier will always be of form <zone>:<room_number>.
@@ -41,26 +41,26 @@ class RoomsFileParser:
         :return: list of exit dicts as specified above
         """
         res = []
-        loc = 0
+        current = None
+        by_to = []
+        if isinstance(exits, dict):
+            exits = [exits]
+        for exit in exits:
+            if isinstance(exit, str):
+                print ('something is very wrong')
+            to = exit.get('to')
+            if to:
+                by_to.append([exit])
+            else:
+                by_to[-1].append(exit)
 
-        def process_to(loc, lines, room_spec):
-            direction, room = [v.strip() for v in room_spec.split(',')]
-            expanded = dict(direction=direction, room=self.expanded_room(room))
-            loc += 1
-            while loc < len(lines):
-                mv, loc = named_value(loc, exit_lines)
-                if 'to' in mv:
-                    loc -= 1
-                    break
-                expanded.update(mv)
-                #loc += 1
-            return expanded, loc
-
-        while loc < len(exit_lines):
-            kv,_ = named_value(loc, exit_lines)
-            _, room_spec = list(kv.items())[0]
-            expanded, loc = process_to(loc, exit_lines,room_spec)
-            res.append(expanded)
+        for exit_def in by_to:
+            to = exit_def[0].get('to')
+            direction, room_spec = [x.strip() for x in to.split(',')]
+            exit = {'direction': direction, 'room': self.expanded_room(room_spec)}
+            for exit_extra in exit_def[1:]:
+                exit.update(exit_extra)
+            res.append(exit)
 
         return res
 
@@ -71,42 +71,17 @@ class RoomsFileParser:
                 room_dict[key] = fn(val)
 
 
-
-    def parse_room(self, lines):
-        index = int(lines[0])
-        if index == 600:
-            print('trouble')
-        print(f'processing room {index}')
-        g_lines = [l for l in lines[2:-1]]  # skip open-close brace lines
-        loc = 0
-        room = {'index': index, 'zone': self._zone, 'room_key': self.expanded_room(str(index))}
-        while loc < len(g_lines):
-            kv, loc = named_value(loc, g_lines)
-            room.update(kv)
+    def room_from_block(self, block):
+        room = block.as_dict()
+        room['zone'] = self._zone
+        room['room_key'] = self.expanded_room(str(block._index))
         self.parse_special(room)
         return room
 
-    def parse_rooms(self):
-        res = []
-        room_data = self.room_lines()
-        for room in room_data:
-            res.append(self.parse_room(room))
-        return res
 
-    def room_lines(self):
-        res = []
-        curr_room = []
-        for l in self._lines:
-            if l.isnumeric():
-                if curr_room:
-                    res.append(curr_room)
-                curr_room = [l]
-            else:
-                curr_room.append(l)
-        if curr_room:
-            res.append(curr_room)
-
-        return res
+    def rooms_from_blocks(self):
+        blocks = Block.blocks_from_lines(self._lines)
+        return [self.room_from_block(b) for b in blocks]
 
 
     def parse_offset(self, line):

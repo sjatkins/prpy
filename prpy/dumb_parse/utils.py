@@ -10,6 +10,37 @@ class Block:
         self._inner_blocks = []
         self._contents = []
 
+    def contents(self):
+        return self._contents[0] if (len(self._contents) == 1) else self._contents
+
+    def as_dict(self):
+        res = {}
+        def process_sub_blocks():
+            all_labels = [b._label for b in self._inner_blocks]
+            if len(set(all_labels)) < len(all_labels):
+                return [b.as_dict() for b in self._inner_blocks]
+            else:
+                subs = {}
+                for block in self._inner_blocks:
+                    subs.update(block.as_dict())
+                return subs
+
+        if self._index:
+            res['index'] = self._index
+            res.update(process_sub_blocks())
+        elif self._label:
+            contents = self.contents()
+            if contents:
+                res[self._label] = contents
+            else:
+                res[self._label] = process_sub_blocks()
+
+        return res
+
+
+
+
+
     def collect_from(self, loc, lines):
         complete = False
         found = lambda f: f != -1
@@ -42,7 +73,6 @@ class Block:
             # just gather
             self._contents.append(line)
             loc += 1
-            return loc
 
     @classmethod
     def blocks_from_lines(cls, lines):
@@ -57,8 +87,10 @@ class Block:
                 if lines[loc] != '{':
                     raise Exception(f'numbered section at line {loc} does not start with open brace')
                 loc = block.collect_from(loc+1, lines)
+                if loc < len(lines):
+                    line = lines[loc]
                 blocks.append(block)
-            return blocks
+        return blocks
 
 
 def gather_blocks(lines):
