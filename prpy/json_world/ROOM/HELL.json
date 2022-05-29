@@ -1,0 +1,1 @@
+{"zone": "HELL", "rooms": {"0": {"index": "0", "name": "Hell", "desc": ["\"   You can feel a very warm heat radiating from all directions in this", "most awful of places."], "flags": "dark, no_mob, indoors, peaceful, nosteal, no_sum, no_magic, private, no_goto, rent_room", "zone": "HELL", "room_key": "HELL:0", "exits": [{"direction": "n", "room": "HELL:0"}]}}}
