@@ -1,6 +1,6 @@
 import os
 from prpy import world_files
-from prpy.dumb_parse.utils import Block
+from prpy.parsing.utils import Block
 
 world_path = world_files.__path__._path[0]
 rooms_path = os.path.join(world_path, 'ROOM')

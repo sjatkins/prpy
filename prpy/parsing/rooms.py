@@ -1,13 +1,19 @@
 import json, os
-from prpy.dumb_parse.utils import Block
+from prpy.parsing.utils import Block
+from prpy import json_world
+from prpy import world_files
+import logging
+
+logger = logging.getLogger('rooms')
 
 class RoomsFileParser:
     def __init__(self, path):
         self._path = path
         with open(path) as f:
             lines = [l.strip() for l in f.readlines()]
-        self._zone = self.parse_offset(lines[0])
-        self._lines = [l for l in lines[1:] if l]
+        self._lines = [l for l in lines if l and (not l.startswith('//'))]
+        self._zone, loc = self.parse_offset()
+        self._lines = self._lines[loc:]
         self._special = dict(exits= self.parse_room_exits)
         self._rooms = self.rooms_from_blocks()
 
@@ -56,6 +62,8 @@ class RoomsFileParser:
 
         for exit_def in by_to:
             to = exit_def[0].get('to')
+            if isinstance(to, list):
+                print('what the hell?')
             direction, room_spec = [x.strip() for x in to.split(',')]
             exit = {'direction': direction, 'room': self.expanded_room(room_spec)}
             for exit_extra in exit_def[1:]:
@@ -72,20 +80,50 @@ class RoomsFileParser:
 
 
     def room_from_block(self, block):
-        room = block.as_dict()
-        room['zone'] = self._zone
-        room['room_key'] = self.expanded_room(str(block._index))
-        self.parse_special(room)
-        return room
-
+        try:
+            room = block.as_dict()
+            room['zone'] = self._zone
+            room['room_key'] = self.expanded_room(str(block._index))
+            self.parse_special(room)
+            return room
+        except Exception as e:
+            print(f'block {block._index} exception {e}')
+            logger.exception(e)
 
     def rooms_from_blocks(self):
         blocks = Block.blocks_from_lines(self._lines)
         return [self.room_from_block(b) for b in blocks]
 
 
-    def parse_offset(self, line):
+    def parse_offset(self):
+        loc = 0
         key = "#offset "
+        while not self._lines[loc].startswith(key):
+            loc += 1
+        line = self._lines[loc]
         if line.startswith(key):
-            return line[len(key):]
+            return line[len(key):], loc+1
 
+
+def convert_all_to_json(source_path=None, json_path=None):
+    def room_path(module):
+        path = module.__path__._path[0]
+        return os.path.join(path, 'ROOM')
+
+    if not source_path:
+        source_path = room_path(world_files)
+    if not json_path:
+        json_path = room_path(json_world)
+
+    source_files = [f for f in os.listdir(source_path) if f.endswith('.room')]
+    for fn in sorted(source_files):
+        print('converting', fn)
+        src_path = os.path.join(source_path, fn)
+        base = fn.split('.')[0]
+        json_fn = f'{base}.json'
+        target_path = os.path.join(json_path, fn)
+        try:
+            rp = RoomsFileParser(src_path)
+            rp.write_json(json_dir=json_path)
+        except Exception as e:
+            print(f'exception in {fn}: {e}')

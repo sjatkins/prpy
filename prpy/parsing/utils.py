@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 
 class Block:
     def __init__(self, index=None, open_loc=None, close_loc=None, label=''):
@@ -14,8 +16,10 @@ class Block:
     def as_dict(self):
         res = {}
         def process_sub_blocks():
+
             all_labels = [b._label for b in self._inner_blocks]
-            if len(set(all_labels)) < len(all_labels):
+            unique_labels = set(all_labels)
+            if len(unique_labels) < len(all_labels):
                 return [b.as_dict() for b in self._inner_blocks]
             else:
                 subs = {}
@@ -25,8 +29,26 @@ class Block:
 
         if self._index:
             res['index'] = self._index
-            res.update(process_sub_blocks())
-        elif self._label:
+            subs = process_sub_blocks()
+            if isinstance(subs, list):
+                # special case block top level duplicate fields handling
+                fixed = defaultdict(list)
+                for item in subs:
+                    k,v = list(item.items())[0]
+                    fixed[k].append(v)
+                subs = {}
+                for k,v in fixed.items():
+                    if len(v) == 1:
+                        subs[k] = v[0]
+                    else:
+                        parts = []
+                        for subdict in v:
+                            for key, value in subdict.items():
+                                parts.append({key:value})
+                        subs[k] = parts
+
+            res.update(subs)
+        elif self._label is not None:
             contents = self.contents()
             if contents:
                 res[self._label] = contents
@@ -74,6 +96,9 @@ class Block:
         loc = 0
         while loc < len(lines):
             line = lines[loc]
+            if line.startswith('//'):
+                loc += 1
+                continue
             if line.isnumeric():
 
                 block = cls(index=line, open_loc=(loc+1, 0))
