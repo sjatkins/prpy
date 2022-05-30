@@ -42,10 +42,20 @@ class Block:
                         subs[k] = v[0]
                     else:
                         parts = []
-                        for subdict in v:
-                            for key, value in subdict.items():
-                                parts.append({key:value})
-                        subs[k] = parts
+                        if isinstance(v, dict):
+                            for subdict in v:
+                                for key, value in subdict.items():
+                                    parts.append({key:value})
+                            subs[k] = parts
+                        elif isinstance(v, str):
+                            unique = {x for x in v}
+                            if len(unique) == 1:
+                                subs[k] = [unique]
+                            else:
+                                comma_lists = all((',' in x for x in unique))
+                                join_char = ',' if comma_lists else ''
+                                subs[k] = join_char.join(unique)
+
 
             res.update(subs)
         elif self._label is not None:

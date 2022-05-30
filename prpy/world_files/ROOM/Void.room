@@ -162,7 +162,7 @@ the mortals out.
              ____________               Mh..          +MM5MMM            .MMMM
              \oooooooooo/               .MMM.         .MMMMML.          MMMMMh
               \________/                 )MMMh.        MM5MMM         MMMMMMM
-              {________}                  3MMMMx.     'MMM3MMf      xnMMMMMM"
+              (________)                  3MMMMx.     'MMM3MMf      xnMMMMMM"
                \______/                   '*MMMMM      MMMMMM.     nMMMMMMP"
                 ',__,'                      *MMMMMx    "MMM5M\    .MMMMMMM=
                  |oo|                        *MMMMMh   "MMMMM"   JMMMMMMP
@@ -187,7 +187,7 @@ the mortals out.
 	to { u, Asgard:0 }
 	to { e, Midgard:0 }
   }
-}
+  }
 
 12
 {

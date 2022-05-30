@@ -343,7 +343,8 @@ desc {
   to { d, 7 }
 desc { 
 " The stairwell continues downward into another section of the stairwell.
-}  }
+}
+}
 }
 
 7
