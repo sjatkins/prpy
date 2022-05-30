@@ -61,10 +61,16 @@ class Block:
         complete = False
         found = lambda f: f != -1
         while not complete:
+            if loc >= len(lines):
+                print('walked off edge')
             line = lines[loc]
             open = line.find('{')
             close = line.find('}')
             if found(open):
+                if (open > 0) and line[open-1] == '#':
+                    self._contents.append(line)
+                    loc += 1
+                    continue
                 o_loc = (loc, open)
                 label = line[:open].strip()
                 after_open = line[open+1:]
@@ -79,7 +85,7 @@ class Block:
                     loc = block.collect_from(loc+1, lines)
                 self._inner_blocks.append(block)
                 continue
-            if found(close):
+            if found(close) and line[-1] == '}':
                 self._close = (loc, close)
                 if close != 0:
                     self._contents.append(line[:close])
