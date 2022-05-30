@@ -52,8 +52,6 @@ class RoomsFileParser:
         if isinstance(exits, dict):
             exits = [exits]
         for exit in exits:
-            if isinstance(exit, str):
-                print ('something is very wrong')
             to = exit.get('to')
             if to:
                 by_to.append([exit])
@@ -62,8 +60,6 @@ class RoomsFileParser:
 
         for exit_def in by_to:
             to = exit_def[0].get('to')
-            if isinstance(to, list):
-                print('what the hell?')
             direction, room_spec = [x.strip() for x in to.split(',')]
             exit = {'direction': direction, 'room': self.expanded_room(room_spec)}
             for exit_extra in exit_def[1:]:
@@ -88,7 +84,6 @@ class RoomsFileParser:
             return room
         except Exception as e:
             print(f'block {block._index} exception {e}')
-            logger.exception(e)
 
     def rooms_from_blocks(self):
         blocks = Block.blocks_from_lines(self._lines)

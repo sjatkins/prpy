@@ -71,8 +71,6 @@ class Block:
         complete = False
         found = lambda f: f != -1
         while not complete:
-            if loc >= len(lines):
-                print('walked off edge')
             line = lines[loc]
             open = line.find('{')
             close = line.find('}')
