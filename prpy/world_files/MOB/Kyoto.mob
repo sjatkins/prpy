@@ -1,0 +1,1038 @@
+50550
+{
+  name { a rat }
+  namelist { rat }
+  shortdesc { A rat wanders about here. }
+  longdesc {
+The rat bares its teeth in resistance...Looks like a tough
+little bastard.
+  }
+  race { none }
+  height { 20 }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 20 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 5, 30  }
+  move { 200 }
+  experience { 483 }
+  damage { 2, 4, 6  }
+  immune { poison }
+  affected { infravision }
+  act { aggressive, stay-zone }
+}
+
+50551
+{
+  name { a youngster }
+  namelist { youngster child kid brat }
+  shortdesc { A youngster runs aimlessly around in circles here. }
+  longdesc {
+Looks like a troublesome little brat.
+  }
+  race { human }
+  height { 100 }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 1, 5, 20  }
+  move { 200 }
+  experience { 319 }
+  damage { 1, 6, 2  }
+  act { sentinel, nice-thief, stay-zone }
+}
+
+50553
+{
+  name { an addict }
+  namelist { addict }
+  shortdesc { An opium addict lies here in a stupor. }
+  longdesc {
+The opium addict lies here in stoned conentment.  Doesn't
+look like much of a challenge.
+  }
+  race { human }
+  height { 125 }
+  level { 30 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 1 }
+  body { 100, 1 }
+  arms { 100, 1 }
+  legs { 100, 1 }
+  feet { 100, 1 }
+  hp { 1, 100, 100  }
+  move { 50 }
+  experience { 2550 }
+  damage { 1, 8, 1  }
+  resistant { poison }
+  act { sentinel, nice-thief }
+}
+
+50554
+{
+  name { the peacock }
+  namelist { peacock bird }
+  shortdesc { A peacock stands here showing off its plumage. }
+  longdesc {
+The peacock is beautiful and fiercely proud, its beak looks
+pretty sharp.
+  }
+  race { none }
+  height { 80 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 10, 10, 10  }
+  move { 200 }
+  experience { 790 }
+  damage { 2, 5, 1  }
+  act { stay-zone }
+}
+
+50555
+{
+  name { the crane }
+  namelist { crane bird }
+  shortdesc { A crane stands here. }
+  longdesc {
+This beautiful bird seems to epitomize grace, its long legs move
+smoothly as it wanders about.
+  }
+  race { none }
+  height { 125 }
+  level { 24 }
+  alignment { 1000 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 20, 10, 10  }
+  move { 200 }
+  experience { 1950 }
+  damage { 2, 6, 2  }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+50556
+{
+  name { the monkey }
+  namelist { monkey }
+  shortdesc { A monkey scampers about, chattering incessantly. }
+  longdesc {
+The monkey bares its teeth at you and scampers about, screaming.
+It's quite an annoying little creature.
+  }
+  race { none }
+  height { 125 }
+  level { 24 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 20, 10, 10  }
+  move { 200 }
+  experience { 1978 }
+  damage { 2, 8, 4  }
+  immune { poison }
+  act { stay-zone }
+}
+
+50557
+{
+  name { the geisha }
+  namelist { geisha whore slut prostitute girl hooker }
+  shortdesc { A geisha lies here invitingly. }
+  longdesc {
+At first glance, she appears very beautiful.  But then you begin
+to notice the subtle things; the tacky way that her face is painted,
+the cheap quality of her garments, you begin to feel sorry for her.
+  }
+  race { human }
+  height { 125 }
+  level { 26 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  hp { 10, 15, 50  }
+  move { 20 }
+  experience { 2276 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+50558
+{
+  name { the farmer }
+  namelist { farmer man }
+  shortdesc { A farmer stands here. }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 125 }
+  level { 45 }
+  alignment { 1000 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 10, 20, 200  }
+  move { 200 }
+  experience { 5303 }
+  damage { 2, 7, 7  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+50559
+{
+  name { Miller }
+  namelist { miller man }
+  shortdesc { A miller works here grinding rice. }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 125 }
+  level { 45 }
+  alignment { 1000 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 10, 20, 200  }
+  move { 200 }
+  experience { 5303 }
+  damage { 2, 7, 6  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+50560
+{
+  name { the yakuza }
+  namelist { yakuza thief mobster }
+  shortdesc { A yakuza lurks here, watching your every move. }
+  longdesc {
+The yakuza is dressed poorly and is missing several fingers.  He
+looks tough and ruthless.
+  }
+  race { human }
+  height { 125 }
+  level { 47 }
+  alignment { -1000 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 5, 100, 100  }
+  move { 200 }
+  experience { 6452 }
+  damage { 2, 7, 1  }
+  affected { infravision }
+  act { stay-zone }
+}
+
+50561
+{
+  name { the white belt }
+  namelist { white belt karate-ka student }
+  shortdesc { A white belt practices here, looking slightly unsure of
+  himself. }
+  longdesc {
+The white belt's gi is a very clean, bright shade of white, like
+fallen snow.  His belt is tied wrong, and he looks rather unsure of
+himself.
+  }
+  race { human }
+  height { 125 }
+  level { 97 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 20, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  hp { 20, 75, 10  }
+  move { 200 }
+  experience { 17858 }
+  damage { 4, 5, 10  }
+  resistant { pierce, charm }
+  act { sentinel }
+}
+
+50562
+{
+  name { the whore matron }
+  namelist { whore matron geisha }
+  shortdesc { The whore matron lies here invitingly. }
+  longdesc {
+She is fat and ugly, obviously quite past her prime.  She knows her
+business however, and looks ready to defend it.
+  }
+  race { human }
+  height { 125 }
+  level { 188 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 70, 7 }
+  body { 70, 7 }
+  arms { 70, 7 }
+  legs { 70, 7 }
+  feet { 70, 7 }
+  hp { 20, 75, 500  }
+  move { 200 }
+  experience { 50850 }
+  damage { 2, 7, 12  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+50563
+{
+  name { the shinto priest }
+  namelist { priest monk shinto }
+  shortdesc { A priest meditates here, counting his beads. }
+  longdesc {
+The priest sits here in silent meditation, counting his necklace of
+beads to prepare for some unknown ritual.
+  }
+  race { human }
+  height { 125 }
+  level { 275 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { 60, 11 }
+  body { 60, 11 }
+  arms { 60, 11 }
+  legs { 60, 11 }
+  feet { 60, 11 }
+  hp { 10, 200, 2000  }
+  move { 200 }
+  experience { 92766 }
+  damage { 2, 9, 9  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, nice-thief }
+}
+
+50564
+{
+  name { the samurai }
+  namelist { samurai warrior }
+  shortdesc { A samurai warrior stands here, ready for battle. }
+  longdesc {
+The samurai is young and hot-blooded, always ready for a fight.  He
+is wearing the box-shaped armor of the samurai, only vulnerable on
+the right side where it is laced in place.  He is carrying a katana.
+  }
+  race { human }
+  height { 125 }
+  level { 200 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { 0, 3 }
+  body { 0, 5 }
+  arms { 0, 3 }
+  legs { 0, 3 }
+  feet { 0, 3 }
+  hp { 5, 400, 500 }
+  move { 200 }
+  experience { 74589 }
+  damage { 4, 4, 9 }
+  immune { charm }
+  resistant { slash }
+  act { sentinel }
+}
+
+50565
+{
+  name { the samurai ghost }
+  namelist { samurai warrior ghost }
+  shortdesc { The ghost of a fallen samurai stands here. }
+  longdesc {
+The shade of a fallen warrior, this samurai seems more prepared for
+combat...with nothing to lose.
+  }
+  race { undead }
+  height { 125 }
+  level { 255 }
+  alignment { -1000 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 5, 1000, 100  }
+  move { 200 }
+  experience { 66962 }
+  damage { 4, 4, 9  }
+  immune { poison }
+  affected { detect-invisible, infravision }
+  act { stay-zone }
+}
+
+50566
+{
+  name { the burly yakuza }
+  namelist { burly yakuza thief mobster }
+  shortdesc { A burly yakuza stands here, attending to his post. }
+  longdesc {
+The burly yakuza stands here with his arms crossed over his chest,
+attending to his duty with no hesitance.  He is missing several fin-
+gers.
+  }
+  race { human }
+  height { 125 }
+  level { 68 }
+  alignment { -1000 }
+  gold { 400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 3 }
+  head { 90, 2 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  hp { 10, 10, 500  }
+  move { 200 }
+  experience { 11059 }
+  damage { 4, 6, 10  }
+  act { sentinel }
+}
+
+50567
+{
+  name { the ninja }
+  namelist { genin ninja }
+  shortdesc { A ninja is here, cloaked in secrecy. }
+  longdesc {
+Dressed in black, the ninja is almost invisible within the shadows.
+He promises to be a formidable opponent.
+  }
+  race { human }
+  height { 125 }
+  level { 64 }
+  alignment { -1000 }
+  gold { 400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 10, 5, 500  }
+  move { 200 }
+  experience { 11090 }
+  damage { 3, 8, 12  }
+  immune { poison, charm }
+  affected { infravision, sneak }
+  act { aggressive, stay-zone }
+}
+
+50568
+{
+  name { the undead warrior }
+  namelist { warrior undead samurai }
+  shortdesc { An undead warrior stands here, vengeance burning in his eyes. }
+  longdesc {
+Perhaps the shadow of some unfortunate former adventurer like your-
+self, he is forever trapped in the tombs.
+  }
+  race { undead }
+  height { 125 }
+  level { 55 }
+  alignment { -1000 }
+  gold { 900 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 8, 100, 50  }
+  move { 200 }
+  experience { 10069 }
+  damage { 2, 8, 1  }
+  immune { poison, charm }
+  resistant { pierce }
+  affected { detect-invisible, infravision }
+  act { special, wimpy }
+}
+
+50569
+{
+  name { the Kunoichi }
+  namelist { kunoichi ninja female }
+  shortdesc { A kunoichi stands here. }
+  longdesc {
+Dressed in black, the ninja is almost invisible within the shadows.
+She promises to be a formidable opponent.
+  }
+  race { human }
+  height { 125 }
+  level { 42 }
+  alignment { -1000 }
+  gold { 50  }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 10, 30, 100  }
+  move { 200 }
+  experience { 5413 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  resistant { poison }
+  affected { infravision, sneak }
+  act { sentinel, wimpy }
+}
+
+50570
+{
+  name { the Shadow Swordsman }
+  namelist { swordsman shadow warrior samurai ghost undead }
+  shortdesc { A Shadow Swordsman stands here. }
+  longdesc {
+The Shadow Swordsman wields his blade with a vengeance, ready
+to sever your head from your body.
+  }
+  race { undead }
+  height { 125 }
+  level { 203 }
+  alignment { -1000 }
+  gold { 2600 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 5 }
+  head { -20, 2 }
+  body { -20, 2 }
+  arms { -20, 2 }
+  legs { -20, 2 }
+  feet { -20, 2 }
+  hp { 20, 60, 950  }
+  move { 200 }
+  experience { 71590 }
+  damage { 3, 8, 12  }
+  immune { poison, charm }
+  resistant { slash }
+  affected { detect-invisible, infravision }
+  act { stay-zone }
+}
+
+50571
+{
+  name { the tiger }
+  namelist { tiger }
+  shortdesc { A tiger crouches here, ready to pounce. }
+  longdesc {
+The tiger is fierce and beautiful, a perfect expression of vitality and
+puissance.  He bares his fangs, like forgotten daggers, which he
+occasionally exposes in an evil grin before the kill.
+  }
+  race { none }
+  height { 100 }
+  level { 102 }
+  alignment { 0 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 60, 4 }
+  body { 100, 4 }
+  arms { 100, 4 }
+  legs { 100, 4 }
+  feet { 100, 4 }
+  hp { 10, 60, 500  }
+  move { 400 }
+  experience { 19448 }
+  damage { 5, 6, 10  }
+  resistant { slash }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+50572
+{
+  name { the chunin ninja }
+  namelist { ninja chunin }
+  shortdesc { A chunin blends into the darkness. }
+  longdesc {
+Dressed in black, the ninja is almost invisible within the shadows.
+He promises to be a formidable opponent.
+  }
+  race { human }
+  height { 125 }
+  level { 67 }
+  alignment { -1000 }
+  gold { 400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  head { -10, 2 }
+  body { -10, 1 }
+  arms { -10, 2 }
+  legs { -10, 1 }
+  feet { -10, 1 }
+  hp { 2, 500, 50  }
+  move { 200 }
+  experience { 12174 }
+  damage { 3, 8, 12  }
+  immune { poison }
+  affected { detect-invisible, infravision }
+  act { sentinel }
+}
+
+50573
+{
+  name { the black belt }
+  namelist { black belt teacher sensei instructor karate-ka }
+  shortdesc { A black belt stands here, instructing his students. }
+  longdesc {
+The black belt is clean and well-kempt, and appears to be very
+sure of himself.  He moves like he is constantly concious of the
+parameters of his body.
+  }
+  race { human }
+  height { 125 }
+  level { 187 }
+  gold { 900 }
+  alignment { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { 100, 7 }
+  body { 100, 7 }
+  arms { 100, 7 }
+  legs { 100, 7 }
+  feet { 100, 7 }
+  hp { 3, 500, 500  }
+  move { 200 }
+  experience { 26139 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  resistant { pierce }
+  act { sentinel, nice-thief }
+}
+
+50574
+{
+  name { the Yakuza Master }
+  namelist { yakuza master thief mobster }
+  shortdesc { The Yakuza Master sits here, counting his wealth. }
+  longdesc {
+The Yakuza Master has grown rather fat in his laziness and opulence,
+but he is very experienced, and looks ready to defend his wealth with
+his life.
+  }
+  race { human }
+  height { 125 }
+  level { 175 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 5 }
+  head { -20, 3 }
+  body { -20, 3 }
+  arms { -20, 3 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  hp { 2, 500, 500  }
+  move { 200 }
+  experience { 35093 }
+  damage { 2, 7, 10  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+50575
+{
+  name { the Shihan }
+  namelist { shihan teacher karate-ka }
+  shortdesc { A Shihan stands here, instructing his black belt students. }
+  longdesc {
+He looks polite and friendly, but VERY tough...he wears the red-and-
+white-striped belt marking him of a rank above sixth dan black belt.
+  }
+  race { human }
+  height { 125 }
+  level { 337 }
+  gold { 2000 }
+  alignment { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -100, 13 }
+  body { -100, 13 }
+  arms { -100, 13 }
+  legs { -100, 13 }
+  feet { -100, 13 }
+  hp { 5, 1000, 3000  }
+  move { 200 }
+  experience { 265733 }
+  damage { 3, 7, 20  }
+  immune { charm }
+  act { sentinel }
+}
+
+50576
+{
+  name { Yamaguchi Sensei }
+  namelist { yamaguchi sensei teacher master }
+  shortdesc { Yamaguchi Sensei stands here in neko-ashi-dachi. }
+  longdesc {
+Yamaguchi Sensei looks very comfortable in his favorite
+kumite-dachi...the cat stance.  His gi looks old and worn, and he wears
+the solid red belt that marks him as a judan...tenth dan black belt.
+  }
+  race { human }
+  height { 150 }
+  level { 500 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 10, 1500, 5000  }
+  move { 200 }
+  experience { 340170 }
+  damage { 4, 8, 1  }
+  immune { charm }
+  act { sentinel }
+}
+
+50577
+{
+  name { the Shinobi }
+  namelist { shinobi ninja jonin master }
+  shortdesc { The ninja master stands here. }
+  longdesc {
+The Shinobi smiles his black-toothed grin, a veritable master of
+invisibilty.
+  }
+  race { human }
+  height { 125 }
+  level { 213 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 5 }
+  head { -50, 15 }
+  body { -50, 15 }
+  arms { -50, 15 }
+  legs { -20, 10 }
+  feet { -20, 10 }
+  hp { 25, 100, 500  }
+  move { 200 }
+  experience { 140397 }
+  damage { 5, 8, 1  }
+  immune { poison, charm }
+  affected { detect-invisible, infravision }
+  act { wimpy }
+}
+
+50578
+{
+  name { the Shogun }
+  namelist { shogun }
+  shortdesc { The Shogun sits here amidst glory and power. }
+  longdesc {
+The Shogun commands respect and a heavy rice tax.  He is wearing
+full samurai battle dress and wields his kyosi blade like an
+extension of his own body.
+  }
+  race { human }
+  height { 125 }
+  level { 350 }
+  alignment { 0 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 10, 1000, 1000  }
+  move { 200 }
+  experience { 455140 }
+  damage { 5, 9, 15  }
+  immune { fire, charm, sleep }
+  affected { sanctuary }
+  act { sentinel }
+}
+
+50579
+{
+  name { Yukio }
+  namelist { yukio }
+  shortdesc { Yukio wanders about, playing beautiful music on his flute. }
+  longdesc {
+Yukio is lithe and slender, and he looks very young.  Mischievious
+laughter twinkles in his eyes, and he plays beautiful music on his
+flute, Little Branch.  He is armed with a warfan.
+  }
+  race { human }
+  height { 125 }
+  level { 575 }
+  alignment { 1000 }
+  gold { 88000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  hp { 5000, 3, 5000  }
+  move { 200 }
+  experience { 515050 }
+  damage { 4, 10, 15  }
+  immune { fire, charm, sleep }
+  affected { detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+50580
+{
+  name { the Mad Shogun }
+  namelist { mad shogun }
+  shortdesc { The Mad Shogun has emerged from the darkness }
+  longdesc {
+The Mad Shogun has come forth, he's the master of the shogun who
+trained lesser shoguns for many years to be successful tax collectors.
+  }
+  race { giant }
+  height { 125 }
+  level { 550 }
+  alignment { 0 }
+  gold { 975000 }
+  hit_bonus { 26 }
+  dam_bonus { 17 }
+  attacks_per_round { 5 }
+  head { -190, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  resist_magic { 180 }
+  resist_fire { 120 }
+  resist_cold { 120 }
+  hp { 40, 100, 21500  }
+  move { 200 }
+  experience { 1455140 }
+  skills { bash }
+  damage { 6, 10, 17  }
+  caster { 40 }
+  spells { fear }
+  immune { fire, charm, sleep }
+  affected { sanctuary }
+  act { special, sentinel }
+}
+
+50581
+{
+  name { Huiquon, The Whisper }
+  namelist { Huiqwon whisper ninja }
+  shortdesc { Huiqwon moves about the room in complete silence. }
+  longdesc {
+Huiquon is known simply as The Whisper.  He is the master of stealth.
+It is rumored he was born without the ability to speak.  He is a
+physically impressive man.
+  }
+  race { human }
+  height { 125 }
+  level { 650 }
+  alignment { 0 }
+  gold { 1975000 }
+  hit_bonus { 35 }
+  dam_bonus { 25 }
+  attacks_per_round { 6 }
+  head { -190, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  resist_magic { 180 }
+  resist_fire { 120 }
+  resist_cold { 120 }
+  hp { 40, 100, 45500  }
+  move { 200 }
+  experience { 1455140 }
+  damage { 5, 10, 125 }
+  caster { 20 }
+  spells { fear, weakness, poison }
+  immune { fire, charm, sleep }
+  affected { sanctuary, invisible, hide, true-sight }
+  act { special, sentinel }
+}
+
+50582
+{
+  name { Wai, The Blade }
+  namelist { Wai blade ninja }
+  shortdesc { Wai stands here sharpening his famed blades. }
+  longdesc {
+Wai is the master of blades for the ninja clan.  Any sharp
+object in his hands becomes an instrument of death.
+  }
+  race { human }
+  height { 125 }
+  level { 675 }
+  alignment { 0 }
+  gold { 1975000 }
+  hit_bonus { 18 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -190, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  resist_magic { 180 }
+  resist_fire { 120 }
+  resist_cold { 120 }
+  hp { 40, 100, 15500  }
+  move { 200 }
+  experience { 1455140 }
+  damage { 1, 11, 13  }
+  caster { 20 }
+  spells { fear, weakness, poison }
+  immune { fire, charm, sleep }
+  affected { sanctuary, true-sight }
+  act { special, sentinel }
+}
+
+50583
+{
+  name { Kotaru, The Unknown }
+  namelist { Kotaru unknown ninja}
+  shortdesc { Kotaru glares at you. }
+  longdesc {
+Kotaru is the leader of the ninja clan.  There are no
+known physical descriptions of the man.  It is rumored
+he kills anyone who has seen him.  Run!
+  }
+  race { human }
+  height { 125 }
+  level { 700 }
+  alignment { 0 }
+  gold { 3975000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -190, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  resist_magic { 180 }
+  resist_fire { 120 }
+  resist_cold { 120 }
+  hp { 40, 100, 55500  }
+  move { 200 }
+  experience { 1455140 }
+  damage { 1, 11, 30  }
+  caster { 20 }
+  spells { fear, weakness, poison }
+  immune { fire, charm, sleep }
+  affected { sanctuary, true-sight }
+  act { special, sentinel }
+}

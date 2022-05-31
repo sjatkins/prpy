@@ -1,0 +1,1834 @@
+1200
+{
+  name { a pink pig }
+  namelist { pink pig }
+  shortdesc { A large pink pig wallows happily in the mud puddle. }
+  longdesc {
+The pig happily wallows and rolls around in the shallow mud puddle.
+Most of its pink skin has been covered in wet and drying mud.  It stands
+up and walks over to another part of the puddle, repeating the process.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 9 }
+  experience { 510 }
+  hp { 5, 7, 60 }
+  alignment { 0 }
+  gold { 75 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, blunt }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1201
+{
+  name { a white and brown cow }
+  namelist { white brown cow }
+  shortdesc { A white and brown patched cow grazes lazily in the meadow. }
+  longdesc {
+The cow peacefully grazes on the bright green grass of the meadow.  It
+looks up at you and begins to chew on its meal.  *MOOoooo*  The cow 
+wags its tail and begins to walk away.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 34 }
+  experience { 3560 }
+  hp { 6, 8, 218 }
+  alignment { 0 }
+  gold { 250 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, blunt }
+  act { npc, scavenger, stay-zone }
+}
+
+1202
+{
+  name { a white and brown cow }
+  namelist { white brown cow spinning }
+  shortdesc { A white and brown patched cow floats in the air, spinning in a circle. }
+  longdesc {
+The cow looks like it is caught in the middle of a small hurricane.  It
+has been levitated about a foot off the ground and is spinning very
+slowly to the right in a circle.  Normally you would think the animal
+would be distressed, but cow looks very serene, almost as though it
+is enjoying the ride.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 34 }
+  experience { 3560 }
+  hp { 6, 8, 218 }
+  alignment { 0 }
+  gold { 250 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight, flying }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, blunt, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1203
+{
+  name { a white and brown cow }
+  namelist { white brown cow milking }
+  shortdesc { A white and brown patched cow eats some hay from the ground. }
+  longdesc {
+*MOOooOOoo*  The cow bellows at you as you walk into the milking station.
+Mostly white with brown patches all over, the cow resumes munching on
+some hey from the bottom of the barn.  The animal does not seem bothered
+by the farmer milking it.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 34 }
+  experience { 3560 }
+  hp { 6, 8, 218 }
+  alignment { 0 }
+  gold { 250 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, blunt }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1204
+{
+  name { a brown horse }
+  namelist { brown horse }
+  shortdesc { A magnificent brown horse walks across the meadow. }
+  longdesc {
+Proud and majestic, the brown horse walks across the meadow before the
+farm.  It stops to take a quick look at you, but continues along its
+way not thinking you are a threat.  The beast is strong and is obviously
+used to help with the field work in the crop field.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 58 }
+  experience { 7420 }
+  hp { 6, 8, 560 }
+  alignment { 0 }
+  gold { 400 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 40, 8 }
+  body { 50, 7 }
+  arms { 50, 7 }
+  legs { 50, 7 }
+  feet { 50, 7 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, blunt }
+  act { npc, scavenger, stay-zone }
+}
+
+1205
+{
+  name { a white and black dog }
+  namelist { white black dog }
+  shortdesc { A white and black colored dog chases a butterfly across the meadow. }
+  longdesc {
+Tongue and tail wagging, the playful dog runs across the meadow.  The
+dog jumps into the air trying to grab a butterfly in its mouth. *CHOMP*
+Landing on all fours, the dog looks sadly into the air and watches its
+prey flutter away.  Another blutterfly soon attracts its attention a
+little ways across the meadow and it darts off towards its next victim.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 9 }
+  experience { 1010 }
+  hp { 5, 7, 115 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce }
+  susceptible { blunt }
+  act { npc, scavenger, stay-zone }
+}
+
+1206
+{
+  name { a yellow duck }
+  namelist { yellow duck }
+  shortdesc { A yellow duck swims peacefully across the lake. }
+  longdesc {
+*QuackQuack* The duck yells as you wander into its part of the pond.
+It quickly flaps its wings aggressively at you and swims off to the
+other side of the pond.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 9 }
+  experience { 450 }
+  hp { 5, 7, 52 }
+  alignment { 0 }
+  gold { 70 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { true-sight, fly }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1207
+{
+  name { a small gnome }
+  namelist { small gnome yard }
+  shortdesc { A small gnome stares at you with a careful look. }
+  longdesc {
+The gnome stands about six inches tall.  He is carefully eyeing you
+from behind a thick patch of grass in the meadow.  He has a white pointy 
+hat on his head and is wearing some green pants and a white shirt.  The
+gnome is so small that you probably would pass right by if you were not
+looking for him.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 180 }
+  experience { 130000 }
+  hp { 9, 10, 1950 }
+  alignment { 1000 }
+  gold { 3200 }
+  caster { 50 }
+  mana { 500 }
+  power { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible }
+  spells { chilly, poison }
+  immune { charm }
+  resistant { slash, blunt }
+  susceptible { pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+1208
+{
+  name { a small gnome }
+  namelist { small gnome barn }
+  shortdesc { A small gnome flys through the air causing all sorts of havoc. }
+  longdesc {
+The gnome has a green pointy hat on his head.  He is wearing a white
+shirt and has some red pants on his legs.  He zooms around the air like
+a bird.  Suddenly stopping in mid-air, he begins to stare are you and
+speaks in a tongue you have never heard.  His eyes seem to be getting
+larger, it is almost as if he is getting bigger.  The world starts to
+shift and move out of focus.  A drip of blood runs out of your nose
+and down your face.  This would probably be a good time to run.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 180 }
+  experience { 152000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 70 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1209
+{
+  name { a small gnome }
+  namelist { small gnome tinkerer }
+  shortdesc { A small gnome flys and dances through the air with a joyful laughter. }
+  longdesc {
+The gnome is moving around the room at an amazing rate of speed.  She
+flys so fast that she can really can only be seen when standing still.
+She has a red pointy hat on her head and is wearing a white shirt with
+green  pants.  Carefully and methodically, she dissasembles the farmer's 
+large garden hoe and immediately starts to reassemble it.  It is almost
+as though she is doing this with her mind.  The gnome never seems to 
+touch any of the objects with her hands.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 180 }
+  experience { 154000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1210
+{
+  name { a small gnome }
+  namelist { small gnome basement }
+  shortdesc { A small gnome flys through the air causing all sorts of havoc. }
+  longdesc {
+The gnome is hiding behind a bottle of fruit preserves on the shelf.
+He has a pointy red hat on his head and is wearing a white shirt with
+blue pants.  Flying out from behind his hiding spot, he zooms around
+the room like lightning bug.  He seems to be leaving a small trail of
+colors behind him.  The gnome laughs as a steel can of vegetables
+smashes into your head.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 180 }
+  experience { 155000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { corrosive spray, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1211
+{
+  name { a sleeping grandma }
+  namelist { sleeping grandma old lady }
+  shortdesc { A lovely old lady is taking a cat nap in the rocking chair. }
+  longdesc {
+Rocking back and forth in a wooden rocking chair, the old grandma has
+fallen into a deep sleep.  She is dressed in her prettiest blue dress,
+ready for this evening's dinner.  This poor lady is older than dirt.
+It looks as though she will turn into dust and blow away at any second.
+Better let her get her rest.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 52 }
+  experience { 4900 }
+  hp { 6, 8, 310 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1212
+{
+  name { an old farmer }
+  shortdesc { An old farmer is trying his best to milk the huge cow beside him. }
+  namelist { old farmer man }
+  longdesc { An old farmer sits on a stool besides the cow, milking its utters. 
+The farmer is doing his best to milk the large cow before him.  His
+blue overalls and checkered white and red shirt are covered in the milk
+he tries to hard to gather.  There are some broken milk bottles lying 
+on the floor next to the farmers feet.  A trickle of blood drips from 
+the farmer's forehead where one of the bottles must have hit him.  He 
+must be used to this kind of chaos to be remaining to calm.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1213
+{
+  name { a young grandma }
+  namelist { young grandma }
+  shortdesc { A beaufitul, young looking grandma cleans some vegetables in the sink. }
+  longdesc {
+The gray haired woman appears to be quite youthful.  She could easily
+pass for someone in her thirties.  The woman leans over the sink and
+methodically cleans some potatos.  She throws the peeled spuds into
+a boiling pot on the stove when she's done.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 53 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1214
+{
+  name { a small gnome }
+  namelist { small gnome kitchen }
+  shortdesc { A small gnome hides behind a loaf of bread on the kitchen table. }
+  longdesc {
+Staring at you from the table, the small gnome tries to hide behind a
+loaf of white bread.  He raises his hands into the air and starts making
+quick movements with his hands and fingers.  A bowl of steaming turkey
+gravy starts to ice over, soon freezing solid.  Could this gnome have
+something to do with that?  The gnome is wearing a pointy blue hat with
+a white shirt and some brown pants.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 180 }
+  experience { 160000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { freeze, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1215
+{
+  name { a small gnome }
+  namelist { small gnome fireplace }
+  shortdesc { A flaming hand reaches from the fireplace, directly towards you! }
+  longdesc {
+Englufed in flames, the gnome laughs at you from inside the fireplace.
+The gnome has a pointy white hat on his head and is wearing a white
+shirt with red pants.  He molds the fire into the shapes of the farm 
+animals.  Flaming likenesses of horses, pigs and ducks walk around the 
+room in a parade.  Unfortunately for the farmers, this is also setting
+all their belongings ablaze.  He finally notices you and his eyes begin
+to glow with a bright white light.  The flames surrounding the gnome 
+start to form into a giant hand and charge straight towards you.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 180 }
+  experience { 180000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 30 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, fireshield, hide, sneak, invisible, flying }
+  spells { fire bolt, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1216
+{
+  name { a tall man }
+  namelist { tall man }
+  shortdesc { A very tall man sits uncomfortably in his chair. }
+  longdesc {
+The man sits on a wooden chair against the south wall,  He shifts
+uncomfortably to the left, trying to avoid the flames shooting from
+the fireplace.  A trickle of sweat runs down his face as he adjusts
+the collar of his blue shirt and settles back into his chair.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 23 }
+  experience { 14400 }
+  hp { 6, 8, 935 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 6 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1217
+{
+  name { a young man }
+  namelist { young man }
+  shortdesc { A young man rests on the couch, talking to the rest of his family. }
+  longdesc {
+The young man is dressed in his sunday best.  His black shoes glow with 
+a gleem only shown from a newly polished shine.  He is talking to the 
+two other men in the room about his adventures on the farm.  He does not 
+seem to notice the woman running around the room has caught on fire.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9900 }
+  hp { 6, 8, 660 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1218
+{
+  name { a strong man }
+  namelist { strong man }
+  shortdesc { A strong looking man is starting to fall asleep on the couch. }
+  longdesc {
+The brown haired man is trying to listen intently to the young man's
+story.  He leans his left arm on the arm of the couch, resting his head
+on his hand.  His eyes slowly being to shut, but spring back open as he
+realizes the young man is getting upset.  Noticing the young woman in 
+the middle of the room has caught fire, he grabs a blanket from the back
+of the couch and tries to put her out.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 86 }
+  experience { 17500 }
+  hp { 6, 8, 1010 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1219
+{
+  name { a young woman }
+  namelist { young woman flaming }
+  shortdesc { A panicked young lady tries to put out the flames on her blouse. }
+  longdesc {
+The young lady is passing out some hour-derves to the farm men.  Some
+wonderful smelling tidbits lie on a small try she is carrying.  She is
+wearing a lovely red blouse and black skirt.  A flare erupts from the 
+fireplace and starts a small fire on her blouse sleeve.  Screaming and
+crying, she begins to run around the room pleading for help.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 53 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1220
+{
+  name { a playing child }
+  namelist { playing child girl }
+  shortdesc { A young girl is playing with some toys on the bed. }
+  longdesc {
+A young girl lays on the bed playing with a doll.  Her brother jumps
+on the bed, kicks the doll from her hands and the rest of the toys onto
+the floor.  She stands up crying but soon joins him and jumping up and
+down on the plush looking bed.  They seem to be having the time of their
+lives.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 52 }
+  experience { 4900 }
+  hp { 6, 8, 310 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1221
+{
+  name { a playing child }
+  namelist { playing child boy }
+  shortdesc { A young boy is jumpin on the bed with all his might. }
+  longdesc {
+The young man creeps around the side of the bed, watching his sister
+play with some toys.  He quickly jumps up on the bed, kicks the doll 
+from her hands and kicks all the other toys to the floor too.  Sticking
+his tongue at his sister, he jumps up and down on the bed with all his 
+might.  Is he trying to break the bed?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 52 }
+  experience { 5200 }
+  hp { 6, 8, 340 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1222
+{
+  name { a young woman }
+  namelist { young woman scared }
+  shortdesc { A young woman crouches in the corner of the room. }
+  longdesc {
+The young woman has her forearms covering her head, but you can still
+tell that she is crying.  The front of her blue dress is wet with fallen
+tears.  She looks up at her boy friend with a sullen frown, begging for
+help with her bright green eyes.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 53 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1223
+{
+  name { a heroic man }
+  namelist { heroic man }
+  shortdesc { A heroic man tries to shield his girl friend from flying debris. }
+  longdesc {
+The man is being pelted with random flying objects.  Picture frames,
+lamps, chairs, even the room's bedpan flies at full force into this
+poor man's back.  He looks back in the center of the room, into the
+center of the small hurricane.  You can see his lips screaming
+something but the crashing sound sof the room's furniture drowns out
+the words.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 23 }
+  experience { 15100 }
+  hp { 6, 8, 975 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 6 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1224
+{
+  name { a small gnome }
+  namelist { small gnome hurricane }
+  shortdesc { A small hurricane twirls in the middle of the room. }
+  longdesc {
+The gnome has a pointy green hat on his head.  He is wearing a white
+shirt with some blue pants.  He twists and turns in the air, creating
+a small hurricane.  The gnome laughs and giggles as the room's furniture
+crashes on the distressed humans.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 180 }
+  experience { 190000 }
+  hp { 9, 11, 2350 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1225
+{
+  name { a black cat }
+  namelist { black cat }
+  shortdesc { A small black cat walks through the house. }
+  longdesc {
+*Meow*  You know what they say about that black cat crossing your path?
+Better kill it. *Meow*
+  }
+  race { None }
+  world_limit { 1 }
+  level { 11 }
+  experience { 770 }
+  hp { 5, 7, 72 }
+  alignment { 0 }
+  gold { 70 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+1226
+{
+  name { a yellow chicken }
+  namelist { yellow chicken }
+  shortdesc { A yellow chicken clucks and pecks his way around the coop. }
+  longdesc {
+The chicken is mostly yellow but has some white spots in its feathers.
+It clucks and pecks at the ground, trying to gobble up some feed. It
+looks at you and quickly scampers to another side of the coop.
+  }
+  race { None }
+  world_limit { 10 }
+  level { 9 }
+  experience { 450 }
+  hp { 5, 7, 52 }
+  alignment { 0 }
+  gold { 70 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { true-sight, fly }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+1227
+{
+  name { a small gnome }
+  namelist { small gnome mushrooms }
+  shortdesc { A small gnome collects some water from the pails. }
+  longdesc {
+The gnome has a pointy brown hat on his head.  He is wearing a white
+shirt with some white pants.  He grabs one of the many pails of water
+hanging from the railings.  Dumping the water into a siphon tube, he
+immediately replaces the bucket onto the railing.  He moves onto the
+next bucket and repeats the process.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 280 }
+  experience { 280000 }
+  hp { 9, 11, 3150 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { poison, corrosive spray }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1228
+{
+  name { a lady bug }
+  namelist { lady bug }
+  shortdesc { A pretty lady bug looks at you like it's hungry. }
+  longdesc {
+At this size the lady bug is huge!  Its giant mandibles click and move
+very quickly as the insect charges towards you.
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 140 }
+  experience { 18200 }
+  hp { 6, 8, 850 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1229
+{
+  name { a praying mantis }
+  namelist { praying mantis }
+  shortdesc { A green praying mantis slices at you with its arms. }
+  longdesc {
+Long and elegant, the mantis looks about the size of a horse when you
+are this small.  The mantis slowly turns around on the mushroom top and
+begins to crawl towards you.  It raises one giant arm in the air and
+slashes for your face.
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 140 }
+  experience { 22300 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1230
+{
+  name { a small gnome }
+  namelist { small gnome scientist }
+  shortdesc { A small gnome carefully studies a monsum on the table. }
+  longdesc {
+The gnome carefully studies the monsum on the table.  Looking over his
+clip board, he makes some notes and continues to stare at the creature.
+He is wearing a long, white lab coat and has a pointy green hat on his
+head.  
+  }
+  race { None }
+  sex { Male }
+  world_limit { 4 }
+  level { 180 }
+  experience { 110000 }
+  hp { 9, 11, 2130 }
+  alignment { 1000 }
+  gold { 3100 }
+  caster { 70 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1231
+{
+  name { a small gnome }
+  namelist { small gnome charmer }
+  shortdesc { A small gnome makes some magical gestures at the shadows. }
+  longdesc {
+The gnome's long, white lab coat is flowing behind him from the intense
+energy of the spell he is casting.  He has a pointy silver hat sitting
+on his head.  Twirling his fingers in the air, the gnome whispers some
+gnomish chant and stares intently at the shadows.  The shadows soon
+begin to disappear and navy blue flowers begin to glow with a pink light.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 140 }
+  experience { 122000 }
+  hp { 9, 11, 2230 }
+  alignment { 1000 }
+  gold { 4500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { poison, acid cloud }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1232
+{
+  name { a small gnome }
+  namelist { small gnome feeder }
+  shortdesc { A small gnome is feeding the gnolls and troglodytes. }
+  longdesc {
+The gnome looks almost happy feeding some food to the monsums in the
+cage.  His long, white lab coat piles on the floor behind him as he
+leans down and places a bowl before the creatures.  He is wearing a
+white shirt and has some red pants on his legs.  Strangely, there is
+no hat on this gnome's head.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 110 }
+  experience { 79000 }
+  hp { 9, 11, 1330 }
+  alignment { 1000 }
+  gold { 2100 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { chilly, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1233
+{
+  name { a small gnome }
+  namelist { small gnome scared }
+  shortdesc { A small gnome crouches in the corner with his arms over his head. }
+  longdesc {
+The gnome looks scared for his life.  He sits huddled in the corner,
+crouched with his arms over his head.  He looks up at the dragon and
+then to the doorway.  He must be planning to make his escape.  The
+dragon breaths another plume of fire, quickly changing his mind.  The
+gnome has a pointy brown hat on his head and is wearing a long, white
+lab coat.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 110 }
+  experience { 81000 }
+  hp { 9, 11, 1370 }
+  alignment { 1000 }
+  gold { 2300 }
+  caster { 30 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { fire bolt, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1234
+{
+  name { a small gnome }
+  namelist { small gnome dragon feeder }
+  shortdesc { A small gnome is trying to feed the white dragon some pieces of meat. }
+  longdesc {
+The gnome has a pointy blue hat on his head and is wearing a long, white
+lab coat.  He grabs some pieces of meat off a silver plate on the table
+and slowly tries to feed the white dragon.  The gnome looks a little
+reluctant as the dragon just stares at him.  He just back just as the
+dragon opens its mouth and shoots a streak of lightning at him.  What
+a dangerous job!
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 140 }
+  experience { 122000 }
+  hp { 9, 11, 2230 }
+  alignment { 1000 }
+  gold { 3700 }
+  caster { 70 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { lightning bolt, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1235
+{
+  name { a small gnome }
+  namelist { small gnome chaser }
+  shortdesc { A small gnome chases a carrion crawler around the room. }
+  longdesc {
+The gnome is wearing a long, white lab coat and has a pointy white hat
+on his head.  He is running around the wooden table in the middle of
+the room, trying to corral a carrion crawler back into its cage.  He
+stops, trying to catch his breath and then continues his pursuit of the
+animal.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 110 }
+  experience { 79000 }
+  hp { 9, 11, 1330 }
+  alignment { 1000 }
+  gold { 2200 }
+  caster { 30 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 6 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1236
+{
+  name { a small gnome }
+  namelist { small gnome engineer }
+  shortdesc { A small gnome carefully studies the dials and measures of the machine. }
+  longdesc {
+The gnome has a pointy gold hat on his head and is wearing a long,
+white lab coat.  He is standing in front of the huge hydroponic machine,
+studying the dials and measures.  He makes some notes on his clip board
+and begins to review his paperwork.  He looks quit busy, better not
+mess with him.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 180 }
+  experience { 110000 }
+  hp { 9, 11, 2130 }
+  alignment { 1000 }
+  gold { 3500 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { repulsor, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1237
+{
+  name { a small gnome }
+  namelist { small gnome gardener }
+  shortdesc { A small gnome walks along the vine trails examining flowers. }
+  longdesc {
+The gnome is wearing some standard issue gnome wear.  He walks along
+the wooden walkways making notes on a clip board.  He stops to examine
+some flowers and jots down a few more notes.  Clipping off a bloom,
+he taps it on his hand and a monsum appears.  Making another note, he
+continues along the walkway.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 325 }
+  experience { 350000 }
+  hp { 9, 11, 3925 }
+  alignment { 1000 }
+  gold { 6000 }
+  caster {90 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 7 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { sunray, mind thrust, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, stay-zone }
+}
+
+1238
+{
+  name { a dirty earthworm }
+  namelist { dirty earthworm }
+  shortdesc { A dirty earthworm wiggles its way up the steel wire. }
+  longdesc {
+The earthworm is about 8 inches long, so it is just a little bigger than
+you are.  It appears to be enjoying the mist from the sprinkling system.  
+Some of the dirt is even being washed off!
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 140 }
+  experience { 18200 }
+  hp { 6, 8, 850 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+1239
+{
+  name { a garden beetle }
+  namelist { garden beetle }
+  shortdesc { A large garden beetle crawls along the wooden pathway. }
+  longdesc {
+The sparkling green beetle makes its way along the wooden pathway.  It
+stops to smell some flowers and flutters its wings with excitement.
+The beetle looks roughly the size of a giant bear from this angle.
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 130 }
+  experience { 22300 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+1240
+{
+  name { a small gnome }
+  namelist { small gnome gardener secret }
+  shortdesc { A small gnome walks along the vine trails examining flowers. }
+  longdesc {
+The gnome is wearing some standard issue gnome wear.  He walks along
+the wooden walkways making notes on a clip board.  He stops to examine
+some flowers and jots down a few more notes.  Clipping off a bloom,
+he taps it on his hand and a monsum appears.  Making another note, he
+continues along the walkway.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 325 }
+  experience { 350000 }
+  hp { 9, 11, 3925 }
+  alignment { 1000 }
+  gold { 6000 }
+  caster { 70 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 8 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { mind thrust, repulsor, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, stay-zone }
+}
+
+1241
+{
+  name { a pretty hummingbird }
+  namelist { pretty hummingbird }
+  shortdesc { A pretty hummingbird buzzes around the flower blooms. }
+  longdesc {
+The wings of the hummingbird almost blow you off the wooden walkway
+as you approach it.  The hummingbird is sipping some nectar from inside
+some of the blooms.  It quickly zips around eats all it can.
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 150 }
+  experience { 18200 }
+  hp { 6, 8, 950 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+1242
+{
+  name { a large centipede }
+  namelist { large centipede }
+  shortdesc { A large centipede inches and squirms along the thin wires. }
+  longdesc {
+The hundred feet of this creature move its wiggling and gyrating body
+along the thin wires of the vine wall.  It appears to be about ten
+inches long, about twice your height.  The insect appears to be enjoying
+the water sprayed from the sprinkling system.
+  }
+  race { undead }
+  world_limit { 3 }
+  level { 150 }
+  experience { 22300 }
+  hp { 6, 8, 950 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+1243
+{
+  name { a small gnome }
+  namelist { small gnome crystal worker }
+  shortdesc { A small gnome is chipping away at the rocks and crystals. }
+  longdesc {
+Sparks fly around the gnomes head as he chips away at the rocks.  He
+grabs some crystals that he has placed on the table and continues to
+chip and work them into shape.  The tools he uses look like little
+hammers and chisels.  He is very busy.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 6 }
+  level { 140 }
+  experience { 118000 }
+  hp { 9, 11, 2210 }
+  alignment { 1000 }
+  gold { 3700 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 7 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { repulsor, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1244
+{
+  name { a small gnome }
+  namelist { small gnome sorter }
+  shortdesc { A small gnome is sorting some crystals on the tables. }
+  longdesc {
+The gnome grabs some crystals from the table and gathers them into the
+whicker baskets.  He is sorting the crystals according to color and
+size.  The light reflected through the crystals is quite brilliant and
+lovely.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 6 }
+  level { 140 }
+  experience { 95000 }
+  hp { 9, 11, 1840 }
+  alignment { 1000 }
+  gold { 3700 }
+  caster { 50 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mage fire, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1245
+{
+  name { a small gnome }
+  namelist { small gnome sleeping }
+  shortdesc { A small gnome is sleeping inside the glowing green gel. }
+  longdesc {
+The gnome looks totally serene and peaceful.  He is curled into the
+fetal position and floats freely through the gel.  He does not even
+wake up with your intrusion to the regeneration chamber.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 8 }
+  level { 140 }
+  experience { 87000 }
+  hp { 9, 11, 1880 }
+  alignment { 1000 }
+  gold { 3700 }
+  caster { 50 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells { mage fire, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1246
+{
+  name { a shrunken hill giant }
+  namelist { shrunken hill giant }
+  shortdesc { A shruken hill giant is strapped to an examination table. }
+  longdesc {
+The shurken hill giant is in a deep sleep atop the examination table.
+The gnomes have strapped it down just in case it wakes up.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 86 }
+  experience { 1097 }
+  hp { 6, 8, 180 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 10, 7 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1247
+{
+  name { the gnome princess }
+  namelist { gnome princess }
+  shortdesc { The young gnome princess sits upon the large pink bloom. }
+  longdesc {
+The princess slouches in her throne and appears to be falling asleep.
+She does not seem the least bit interested in the family duties.  She
+has a pointy silver hat on her head and is wearing a white shirt with
+silver pants.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 325 }
+  experience { 350000 }
+  hp { 9, 11, 3925 }
+  alignment { 1000 }
+  gold { 7000 }
+  caster { 30 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 8 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { mind thrust, repulsor, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1248
+{
+  name { the gnome queen }
+  namelist { gnome queen }
+  shortdesc { The gnome queen sits upon the large orange bloom. }
+  longdesc {
+The queen looks very regal and sits straight up in her lovely looking
+throne.  The queen has a pointy gold hat on her head.  She is dressed
+in a white shirt with silver pants.  She looks at her husband with
+concern as you enter the throne room.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 325 }
+  experience { 425000 }
+  hp { 9, 11, 4780 }
+  alignment { 1000 }
+  gold { 8000 }
+  caster { 50 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 9 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { disruptor, repulsor, poison }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+1249
+{
+  name { the king gnome }
+  namelist { king gnome }
+  shortdesc { The king gnome sits upon the large pitch-black bloom. }
+  longdesc {
+The king is dressed in a white shirt with gold pants.  He has a pointy
+gold hat upon his head.  Looking at you with a kind smile, he does not
+appear at all worried that a stranger is in the throne room.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 325 }
+  experience { 525000 }
+  hp { 10, 11, 6025 }
+  alignment { 1000 }
+  gold { 6000 }
+  caster { 75 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 4, 9 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { disruptor }
+  immune { charm }
+  resistant { slash, blunt, energy }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, scavenger, stay-zone }
+}

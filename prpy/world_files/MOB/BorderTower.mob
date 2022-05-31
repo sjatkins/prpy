@@ -1,0 +1,324 @@
+1650
+{
+  name { A Stern Sentinel }
+  namelist { stern sentinel }
+  shortdesc { A sentinel stands here, indifferent to your presence. }
+  longdesc {
+The sentinel stands here without reacting to your presence.  He is
+situated to prevent anyone from approaching from behind.  Looking closer,
+you see that he doesn't even have a scabbard on him to sheath his rather
+wicked looking sword.
+  }
+  race { Human }
+  world_limit { 4 }
+  level { 150 }
+  experience { 102000 }
+  hp { 8, 9, 1990 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 450 }
+  damage { 3, 4, 3 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { true-sight }
+  immune { charm, pierce }
+  act { npc, sentinel } 
+}
+
+1651
+{
+  name { A Showering Soldier }
+  namelist { soldier shower showering }
+  shortdesc { A wet soldier stands here, singing a song as he lathers up. }
+  longdesc {
+This man in the shower is obviously an off duty soldier.  He is wearing
+swim trunks and shower togs as he rinses off.  He is singing some song,
+something about a legate and draining a marsh?  Very strange.
+  }
+  race { Human }
+  world_limit { 3 }
+  level { 90 }
+  experience { 61200 }
+  hp { 5, 7, 1194 }
+  alignment { 0 }
+  gold { 1460 }
+  hit_bonus { 13 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 270 }
+  damage { 3, 3, 5 }
+  head { 40, 7 }
+  body { 50, 6 }
+  arms { 50, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  immune { charm }
+  act { npc, sentinel } 
+}
+
+1652
+{
+  name { A Drunk Soldier }
+  namelist { soldier drunk }
+  shortdesc { A drunk soldier staggers around, yelling for another drink. }
+  longdesc {
+This soldier is wearing a sodden tunic, stained with wine, bits of food,
+and some other unidentifiable things.  The smell alone is enough to choke
+a small horse.  Then he belches and some flies that were buzzing around
+him fall to the ground.  He notices you looking at him, and he says in
+a slurred, surly tone, "Whutchu want?"
+  }
+  race { Human }
+  world_limit { 6 }
+  level { 80 }
+  experience { 54400 }
+  hp { 3, 5, 928 }
+  alignment { 0 }
+  gold { 1020 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 240 }
+  damage { 3, 3, 5 }
+  head { 25, 7 }
+  body { 35, 6 }
+  arms { 35, 6 }
+  legs { 35, 6 }
+  feet { 35, 6 }
+  immune { charm }
+  act { npc, stay-zone } 
+}
+
+1653
+{
+  name { An Illiterate Chef }
+  namelist { cook chef illiterate }
+  shortdesc { An illiterate chef stares at the recipe, clenched in his fist. }
+  longdesc {
+This chef is dressed in an immaculate, white outfit.  He clenches a ladle in
+one hand, and uses it to get the pages to taste the food that he cooks.  There
+are several corpses that look like they might have been pages have been laid
+by the door.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 100 }
+  experience { 68000 }
+  hp { 3, 5, 1260 }
+  alignment { 0 }
+  gold { 1520 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 300 }
+  damage { 3, 4, 4 }
+  head { 15, 8 }
+  body { 25, 7 }
+  arms { 25, 7 }
+  legs { 25, 7 }
+  feet { 25, 7 }
+  immune { charm }
+  act { npc, sentinel } 
+}
+
+1654
+{
+  name { A Terrified Page }
+  namelist { page boy grubby }
+  shortdesc { A grubby boy, in an oversized tunic, stands here. }
+  longdesc {
+This boy is like many around here like him.  Very young and small,
+he looks very undernourished.  It would be easy to dismiss him as
+harmless, but for the feral look in his eyes that give the lie to
+his meek demeanor.  Looking closer, you see that he moves with a
+purpose and silence that most would envy.
+  }
+  race { Human }
+  world_limit { 3 }
+  level { 50 }
+  experience { 34000 }
+  hp { 4, 6, 780 }
+  alignment { 0 }
+  gold { 900 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 150 }
+  damage { 2, 4, 3 }
+  head { 35, 5 }
+  body { 45, 4 }
+  arms { 45, 4 }
+  legs { 45, 4 }
+  feet { 45, 4 }
+  immune { charm }
+  act { npc, wimpy, stay-zone } 
+}
+
+1655
+{
+  name { A Grizzled Sergeant }
+  namelist { grizzled sergeant }
+  shortdesc { A grizzled sergeant unsheaths his sword as you approach. }
+  longdesc {
+This is one tough customer.  This obvious veteran has scars on every
+exposed bit of skin you see, which is not much.  It can't be comfortable,
+but he wears his armor with unconscious ease.  
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 200 }
+  experience { 136000 }
+  hp { 10, 10, 2520 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 19 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  move  { 600 }
+  damage { 3, 4, 5 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive } 
+}
+
+1656
+{
+  name { A Diminutive Surgeon }
+  namelist { surgeon diminutive }
+  shortdesc { With a mad gleam in his eye, the surgeon assesses your wounds. }
+  longdesc {
+This is one creepy surgeon.  One wonders if he follows the Hippocratic
+Oath, "First do no harm."  A scalpel flashes in his hands as he makes
+imaginary cuts in the air.  He mumbles to himself, "...I could use an
+extra liver or two to make a draught..."
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 160 }
+  experience { 108800 }
+  hp { 10, 10, 2056 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 14 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 480 }
+  damage { 3, 5, 5 }
+  head { 20, 8 }
+  body { 30, 7 }
+  arms { 30, 7 }
+  legs { 30, 7 }
+  feet { 30, 7 }
+  immune { charm }
+  act { npc, sentinel } 
+}
+
+1657
+{
+  name { A Male Nurse }
+  namelist { male nurse }
+  shortdesc { An ugly nurse stands here, picking his nose. }
+  longdesc {
+This is one ugly nurse.  Between the lack of personal grooming, the
+smell, and grease dripping off of his hair, this man is as ugly as
+they come.  There is no way anyone would willingly submit themselves
+to this triumph in human detritus.
+  }
+  race { Human }
+  world_limit { 3 }
+  level { 75 }  
+  experience { 51000 }
+  hp { 10, 10, 1025 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 225 }
+  damage { 2, 5, 3 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { charm }
+  act { npc, sentinel } 
+}
+
+1658
+{
+  name { A Calico Cat }
+  namelist { calico cat }
+  shortdesc { The calico cat stares at you with bulging eyes, hissing its dislike. }
+  longdesc {
+The Calico Cat starts towards you as soon as it sees that you have spotted it.
+How can something so small project so much menace?  It has no hair, and large,
+bulging eyes that would look at home in a demon's face.  Suddenly, it yowls at
+you and attacks!
+  }
+  race { none }
+  world_limit { 8 }
+  level { 40 }  
+  experience { 27200 }
+  hp { 5, 5, 875 }
+  alignment { -1000 }
+  gold { 800 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 120 }
+  damage { 2, 2, 3 }
+  head { 20, 5 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  affected { true-sight, sneak, hide }
+  immune { charm }
+  act { npc, sentinel, aggressive } 
+}
+
+1659
+{
+  name { Crazy Commander }
+  namelist { crazy commander man }
+  shortdesc { A crazy looking commander stares at the wall with a smile. }
+  longdesc {
+Taking in all of the decorations and awards that are arranged on his 
+tunic, you deduce that this is the commander of the garrison.  Strangely, 
+he keeps on shaking his head and muttering to himself.  He reaches out 
+and pets a cat as it twines itself through his legs.  Suddenly, he 
+whirls to face you and attacks!
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 250 }  
+  experience { 170000 }
+  hp { 20, 20, 2550 }
+  alignment { 0 }
+  gold { 4300 }
+  hit_bonus { 19 }
+  dam_bonus { 6 }
+  attacks_per_round { 4 }
+  move  { 750 }
+  damage { 3, 5, 5 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  immune { charm }
+  act { npc, sentinel, aggressive } 
+}
+  

@@ -1,0 +1,1475 @@
+112000
+{
+  name { The Dark Knight }
+  namelist { dark knight }
+  shortdesc { The powerful Dark Knight blocks your passage east. }
+  longdesc {
+This is the Dark Knight, a powerful warrior of titanic strength.  His skin
+is as dark as the darkest night and shines with the light of a million
+stars.  He glowers at you and sniggers.  He knows you are about to lose
+this contest.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 490 }
+  experience { 430482 }
+  hp { 6, 8, 11000 }
+  alignment { -450 }
+  gold { 100000 }
+  hit_bonus { 24 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  move { 600 }
+  damage { 4, 7, 24 }
+  head { -100, 6 }
+  body { -100, 6 }
+  arms { -100, 7 }
+  legs { -100, 7 }
+  feet { -100, 7 }
+  immune { charm, sleep }
+  susceptible { fire }
+  affected { fly, sanctuary, fireshield }
+  act { npc, stay-zone, scavenger, sentinel }
+}
+112001
+{
+  name { The Pulmonata }
+  namelist { pulmonata }
+  shortdesc { The digusting Pulmonata oozes and bloats here. }
+  longdesc {
+Once a man of beauty, wealth and power, his greed knew no bounds.  He
+dared to turn his jealous gaze towards the gods and was blessed with
+eternal life...  But life as a disgusting, bloated worm-like creature.
+His small arms flail useless at his massive sides, but his forms blocks
+the way.  Will his eternal life prevent you passing?
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 517161 }
+  hp { 6, 8, 12000 }
+  alignment { -450 }
+  gold { 200000 }
+  hit_bonus { 100 }
+  dam_bonus { 100 }
+  attacks_per_round { 0.1 }
+  move { 600 }
+  damage { 5, 10, 20 }
+  head { -100, 113 }
+  body { -100, 115 }
+  arms { -100, 95 }
+  legs { -100, 105 }
+  feet { -100, 15 }
+  immune { charm, sleep, fire }
+  affected { fly }
+  act { npc, stay-zone, scavenger, sentinel }
+}
+112002
+{
+  name { The Blackbriar }
+  namelist { blackbriar black briar }
+  shortdesc { A black-as-night creature covered in briars stands here. }
+  longdesc {
+The Blackbriar is a supernatural being of darkness.  It is covered in long
+thorns and briars, making it very spikey indeed.  There is no telling where
+its head is, or even which of the many protusions are its arms... What you
+can tell is that it has a menacing aura. Uh oh!
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 742605 }
+  hp { 6, 8, 19000 }
+  alignment { -450 }
+  gold { 300000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move { 600 }
+  damage { 6, 6, 19 }
+  head { -100, 53 }
+  body { -100, 51 }
+  arms { -100, 45 }
+  legs { -100, 47 }
+  feet { -100, 36 }
+  immune { charm, sleep }
+  affected { fly, sanctuary, fireshield }
+  act { npc, stay-zone, scavenger, sentinel }
+}
+112003
+{
+  name { The Cyclops }
+  namelist { cyclops }
+  shortdesc { The Cyclops stands here, ready to meet you in combat. }
+  longdesc {
+The Cyclops stands over seven feet tall. It turns its single eye
+upon you and you realise it now knows the deepest secrets of your
+heart. It grins, ready for the challenge.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 420 }
+  experience { 297100 }
+  hp { 6, 8, 7600 }
+  alignment { -450 }
+  gold { 400000 }
+  hit_bonus { 23 }
+  dam_bonus { 16 }
+  attacks_per_round { 12 }
+  move { 600 }
+  damage { 3, 9, 9 }
+  head { -100, 13 }
+  body { -100, 11 }
+  arms { -100, 15 }
+  legs { -100, 17 }
+  feet { -100, 16 }
+  immune { charm, sleep }
+  affected { fly, sanctuary }
+  act { npc, stay-zone, scavenger, sentinel }
+}
+112004
+{
+  name { The Tormentor }
+  namelist { tormentor }
+  shortdesc { The shadowy form of the Tormentor swirls around here. }
+  longdesc {
+Cloaked in a mantle of pure shadow, the Tormentor is a creature that
+even necromancers fear... It coalesces and fades from view. It moves
+faster than anything you have ever seen. Yet. Wait. You think you can
+make spectral shackles weighing it down... Maybe you stand a chance
+after all!
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 515 }
+  experience { 988114 }
+  hp { 6, 8, 25600 }
+  alignment { -450 }
+  gold { 500000 }
+  hit_bonus { 35 }
+  dam_bonus { 19 }
+  attacks_per_round { 2.5 }
+  move { 600 }
+  damage { 6, 12, 18 }
+  head { -100, 79 }
+  body { -100, 77 }
+  arms { -100, 71 }
+  legs { -100, 75 }
+  feet { -100, 77 }
+  immune { charm, sleep }
+  affected { fly, sanctuary }
+  act { npc, stay-zone, scavenger, sentinel }
+}
+112005 // Throat rip move - huge damage
+{
+  name {  A bloody werewolf }
+  namelist { bloody werewolf }
+  shortdesc { A werewolf is here, covered in blood and gore. }
+  longdesc {
+This werewolf looks like it has just finished a feeding frenzy... And
+not all of the food went in its mouth.  It turns glowing yellow eyes on
+you... Has it seen you? Keep still! It can't see you if you don't move!
+  }
+  race { Lycanthrope }
+  sex { male }
+  level { 480 }
+  experience { 467030 }
+  hp { 30, 30, 8500 }
+  move { 300 }
+  gold { 200000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 20, 15 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -150, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+112006
+{
+  name {  A werewolf pup }
+  namelist { werewolf pup }
+  shortdesc { A very small werewolf lollops around here. }
+  longdesc {
+Well. This is either the smallest werewolf you have seen or its
+a pup. It looks very aggressive all the same. Maybe you should go
+and find something you're less scared of?
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 485 }
+  experience { 72999 }
+  hp { 2, 30, 1210 }
+  move { 300 }
+  gold { 7000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 3, 4, 5 }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.3 }
+  head { -150, 4 }
+  body { -90, 3 }
+  arms { -90, 3 }
+  legs { -90, 3 }
+  feet { -90, 3 }
+  immune { fire, sleep }
+  act { stay-zone }
+  affected { flying, sanctuary, true-sight }
+}
+112007
+{
+  name { An injured werewolf }
+  namelist { injured werewolf }
+  shortdesc { An injured werewolf limps around here. }
+  longdesc {
+Although fully grown, and as nasty looking as any werewolf you have
+ever seen, it has been hurt. Possibly in a fight with another were-
+wolf. This could be your big chance to put one of these fell beasts
+down! Quick, fetch an axe! Or a woodsman!
+  }
+  race { Lycanthrope }
+  sex { male }
+  level { 480 }
+  experience { 267030 }
+  hp { 30, 30, 3500 }
+  move { 300 }
+  gold { 20000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 6, 55, 55 }
+  hit_bonus { 20 }
+  dam_bonus { 25 }
+  attacks_per_round { 0.3 }
+  head { -150, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+112008 // annoying ability to fly away from a fight - other than flee.
+{
+  name { a crazed dusk-bat }
+  namelist { crazed dusk bat }
+  shortdesc { A crazed dusk-bat flaps around skreeching loudly here. }
+  longdesc {
+This is the dusk bat, a giant relative of the vampire bat. It's eyes are
+glowing red orbs of pure evil that spin and focus on you in utter crazy
+madness. You better run! NOW!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 45 }
+  alignment { 0 }
+  gold { 2283  }
+  hit_bonus { 21 }
+  dam_bonus { 1 }
+  attacks_per_round { 6 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 249  }
+  move { 300 }
+  experience { 1226 }
+  damage { 1, 1, 1  }
+  act { aggressive, stay-zone }
+}
+112009
+{
+  name { a blood crazed badger }
+  namelist { blood crazed badger }
+  shortdesc { A badger, crazed by blood, foams at the mouth here. }
+  longdesc {
+This is badger. It looks to be completely insane...
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 6950  }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 144, 900  }
+  move { 300 }
+  experience { 38080 }
+  damage { 2, 6, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+112010 // throat rip ability and fast regen (random resist each spawn, blunt,pierce,slash etc)
+{
+  name { the Shadow of Lune }
+  namelist { shadow lune }
+  shortdesc { The Shadow of Lune, the great werewolf, wanders here. }
+  longdesc {
+This is the Shadow of Lune, a werewolf of titan proportions. He hunts and
+stalks all manner of prey in these dread woods.  Your only chance is to
+flee, now, and hope that you can outrun the mighty beast.
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 500 }
+  experience { 500000 }
+  hp { 30, 30, 32078 }
+  move { 300 }
+  gold { 1400000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 2, 45, 35 }
+  hit_bonus { 40 }
+  dam_bonus { 23 }
+  attacks_per_round { 4 }
+  head { -150, 40 }
+  body { -90, 40 }
+  arms { -90, 40 }
+  legs { -90, 40 }
+  feet { -90, 40 }
+  immune { charm, fire, sleep, energy }
+  act { stay-zone }
+  affected { flying, sanctuary, true-sight }
+}
+112011
+{
+  name { A bloody slave }
+  namelist { bloody slave }
+  shortdesc { A slave, covered in blood, stands here waiting for his next order. }
+  longdesc {
+This slave is rather short. He is covered in blood. His eyes convey no
+emotion whatsoever. He is beyond saving.
+  }
+  race { dwarf }
+  height { 160 }
+  world_limit { 8 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 3350 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 664  }
+  move { 300 }
+  experience { 12988 }
+  damage { 2, 5, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+112012
+{
+  name { Sally a camping kid }
+  namelist { sally kid camping }
+  shortdesc { Sally, a kid from the local village, is looking lost here. }
+  longdesc {
+This is Sally. She came into the woods for a dare and is not deeply regretting
+her decision. She is accompanied by her friends Wayne and Geoffrey, who are
+probably more scared than she is but are putting on a brave front for the girl.
+  }
+  race { human }
+  world_limit { 2 }
+  level { 110 }
+  experience { 59300 }
+  hp { 1260, 1260, 20 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { flying }
+  act { sentinel, npc, stay-zone }
+}
+112013
+{
+  name { Wayne a camping kid }
+  namelist { wayne kid camping }
+  shortdesc { Wayne is standing here, wide-eyed with fear. }
+  longdesc {
+Wayne only went camping because Sally was going. He wishes he'd stayed at
+home and played with his abacus. He is really, really hoping that Geoffrey
+knows where he is going.
+  }
+  race { human }
+  world_limit { 2 }
+  level { 110 }
+  experience { 51300 }
+  hp { 1060, 1060, 20 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 6, 4 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { flying }
+  act { sentinel, npc, stay-zone }
+}
+112014
+{
+  name { Geoffrey a camping kid }
+  namelist { geoffrey kid camping }
+  shortdesc { DESC }
+  longdesc {
+This is Geoffrey. He is tall, handsome, blond-haired, but not overly clever.
+He followed Sally out here for the obvious reasons. But is now wondering if
+he'll ever get to go home or visit the beach at OldPort ever again.
+  }
+  race { human }
+  world_limit { 2 }
+  level { 110 }
+  experience { 79300 }
+  hp { 1560, 1560, 20 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 11 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 7 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { flying }
+  act { sentinel, npc, stay-zone }
+}
+112015 // force blood out of its victim. poison effect but alot stronger.
+{
+  name { A blood elemental }
+  namelist { blood elemental }
+  shortdesc { A writing mass of blood is here, forming into the shape of a man. }
+  longdesc {
+Blood elementals are powered by the blood of the victims they kill. As they
+become more powerful so their shape becomes more and more man-like until,
+ultimately, only their colour varies from the creature they seek to emulate.
+  }
+  race { None }
+  level { 384 }
+  alignment { 0 }
+  gold { 44750  }
+  hit_bonus { 21 }
+  dam_bonus { 16 }
+  attacks_per_round { 2.5 }
+  head { -80, 22 }
+  body { -80, 22 }
+  arms { -80, 22 }
+  legs { -80, 22 }
+  feet { -80, 22 }
+  hp { 4, 9, 4931  }
+  move { 300 }
+  experience { 637344 }
+  damage { 5, 5, 6  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { special, sentinel }
+  skills { bash, kick }
+}
+112016
+{
+  name { A hemo-maphradite }
+  namelist { hemo-maphradite hemo maphradite }
+  shortdesc { A bloody demon-esque creature stands here... }
+  longdesc {
+This creature is the hemo-maphradite. A demon of blood and gore, which
+is sought after by the blood mages for the power it can give them. This
+creature is very capable of defending itself. Maybe you should find some-
+thing else to challenge?
+  }
+  race { undead }
+  height { 170 }
+  level { 260 }
+  alignment { -1000 }
+  gold { 7700  }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { -55, 6 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 6, 48, 2560  }
+  move { 300 }
+  experience { 218709 }
+  damage { 3, 7, 5  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+112017
+{
+  name { A bloody horror }
+  namelist { bloody  horror }
+  shortdesc { A bloody horror drips blood here. }
+  longdesc {
+The bloody horror looks like a skeleton covered in weeds and other
+vegetation and, most noticeably, soaked from head-to-toe in blood!
+  }
+  race { vegman }
+  height { 200 }
+  level { 330 }
+  alignment { -1000 }
+  gold { 18000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -40, 8 }
+  body { -40, 8 }
+  arms { -60, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  hp { 950, 8, 950  }
+  move { 300 }
+  experience { 372912 }
+  damage { 3, 8, 7  }
+  immune { charm }
+  affected { sanctuary }
+  act { stay-zone }
+}
+112018 // say 'braaaiinnss'
+{
+  name { A bloody zombie }
+  namelist { bloody zombie }
+  shortdesc { A blood soaked zombie shuffles around here, mindlessly. }
+  longdesc {
+This zombie is the animated remains of a recently deceased human. It
+is covered in blood and gore and looks exceptionally strong.
+  }
+  race { undead }
+  height { 300 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 0.4 }
+  head { -70, 9 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -50, 6 }
+  feet { -50, 6 }
+  hp { 935, 8, 935  }
+  move { 300 }
+  experience { 376755 }
+  damage { 8, 9, 20  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel }
+}
+112019 // stick someone to the ground a short period of time 'bloody oozy glue' -prevent flee/tag/recall etc.
+{
+  name { a Scabby Mound }
+  namelist { scabby mound }
+  shortdesc { A mound of drying blood and scabs shambles here. }
+  longdesc {
+The Scabby Mound is a huge pile of horrible, rotting, stinking inner
+body parts and blood and puss. It looks disgusting! Eewwww! Ack!
+  }
+  race { vegman }
+  height { 160 }
+  weight { 10000 }
+  level { 360 }
+  alignment { 0 }
+  gold { 2750  }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 1.5 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 360, 5680  }
+  move { 300 }
+  experience { 436282 }
+  damage { 2, 15, 7  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+112020
+{
+  name { The Blood Giant }
+  namelist { blood giant }
+  shortdesc { A blood-red muscled giant is looming here. }
+  longdesc {
+His blood red skin contrasts with his bright yellow eyes. But his
+skin looks almost liquid, like it is a boiling mass of blood and
+not a real giant at all!
+  }
+  race { giant }
+  height { 200 }
+  level { 550 }
+  alignment { 1000 }
+  gold { 1150000 }
+  hit_bonus { 35 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  mana { 5000 }
+  power { 5000 }
+  head { -100, 70 }
+  body { -100, 80 }
+  arms { -100, 50 }
+  legs { -100, 50 }
+  feet { -100, 50 }
+  dexterity { 25 }
+  hp { 50, 18, 28150  }
+  move { 300 }
+  experience { 1237290 }
+  damage { 5, 25, 8  }
+  immune { charm }
+  affected { true-sight, sanctuary }
+  act { sentinel, healer }
+}
+112021
+{
+  name { Hengus, The Evil Blood Giant Overlord }
+  namelist { hengus evil blood giant overlord }
+  shortdesc { Hengus, the evil blood giant overload, is here muching on a lackless human. }
+  longdesc {
+Taller than mountains, mightier than mammoths, Hengus is a terrible
+form to behold. His skin is a liquid dark red and covered in swirling
+black tattoos.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 709 }
+  alignment { 1000 }
+  gold { 2150000 }
+  hit_bonus { 30 }
+  dam_bonus { 25 }
+  attacks_per_round { 7 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 709, 47065  }
+  move { 300 }
+  experience { 1837459 }
+  damage { 5, 20, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+112022
+{
+  name { a Sanguine brute }
+  namelist { sanguine brute }
+  shortdesc { A brutish member of the Sanguine order stands here, sniggering. }
+  longdesc {
+A junior member of the Sanguine Knight order, this brute has a
+single blood-red hand print adorning his face.
+  }
+  race { dwarf }
+  sex { male }
+  level { 315 }
+  experience { 522100 }
+  hp { 14, 10, 6500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 26000 }
+  hit_bonus { 20 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  damage { 3, 5, 4 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  resist_fire { 170 }
+  resist_cold { 170 }
+  resist_magic { 130 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+112023
+{
+  name { A Sanguine apprentice }
+  namelist { apprentice sanguine }
+  shortdesc { An apprentice of the Sanguine order is here learning sword technique. }
+   longdesc {
+This is lowliest member of the Sanguine Knightly order. His left arm, from
+elbow to finger tips has been covered in dark red blood.
+  }
+  race { human }
+  sex { male }
+  level { 240 }
+  experience { 239778 }
+  gold { 4000  }
+  hp { 3, 40, 2200 }
+  move { 388 }
+  height { 95 }
+  weight { 150 }
+  damage { 4, 4, 6 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -60, 5 }
+  body { -60, 5 }
+  arms { -60, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  act { stay-zone, sentinel, aggressive }
+  affected { detect-invisible, hide, true-sight }
+}
+112024
+{
+  name { A Sanguine Commander }
+  namelist { sanguine commander }
+  shortdesc { A commander of the Sanguine Order stands here looking smug. }
+  longdesc {
+This is a commander of the Sanguine Knightly order. He is well trained
+in arms and armour. He looks like he has tipped a bucket of blood and
+guts over his head as thick red liquid seeps from his hair line and drips
+in front of his eyes and off the end of his nose.
+  }
+  race { human }
+  sex { male }
+  world_limit { 4 }
+  level { 650 }
+  experience { 1472000 }
+  hp { 300, 2, 24500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -190, 105 }
+  body { -190, 105 }
+  arms { -190, 105 }
+  legs { -190, 105 }
+  feet { -190, 105 }
+  immune { fire, cold, charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, stay-zone, nosummon }
+}
+112025
+{
+  name { Omelmy, the Sanguine Knight Captain }
+  namelist { omelmy sanguine knight captain }
+  shortdesc { Omelmy, the Sanguine Knight Captain, stands here, ready to command his legion. }
+  longdesc {
+This is Omelmy, a tall and imposing figure. He has an angry looking
+scar that stretches all the way around his neck and weeps small drop-
+lets of blood. His voice is thin and raspy. He see's you looking,
+smiles, and says, 'There can be only one!' (for some reason...).
+  }
+  race { human }
+  sex { male }
+  world_limit { 1 }
+  level { 700 }
+  experience { 3203000 }
+  hp { 4, 400, 45700 }
+  alignment { 0 }
+  gold { 1000000 }
+  hit_bonus { 40 }
+  dam_bonus { 32 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 31, 35 }
+  head { -160, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  resist_acid   { 160 }
+  resist_magic  { 200 }
+  resist_force  { 25 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 160 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+112026
+{
+  name { A blood mage }
+  namelist { blood mage }
+  shortdesc { A blood mage is here searching for the secret of the meteor. }
+  longdesc {
+Blood mages are evil spell casters that seek only to bring foul blood
+creatures under their control for domination and power.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 450 }
+  alignment { 0 }
+  gold { 89750  }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 2.6 }
+  caster { 90 }
+  mana { 9000 }
+  spells { meteor swarm, sleep }
+  head { -60, 25 }
+  body { -60, 25 }
+  arms { -60, 25 }
+  legs { -60, 25 }
+  feet { -60, 25 }
+  hp { 4, 360, 8500 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 796291 }
+  damage { 2, 6, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+112027
+{
+  name { Mortis, the Master Bloodmage }
+  namelist { mortis master blood mage }
+  shortdesc { Mortis, the Master Bloodmage, is here conjuring blood magic. }
+  longdesc {
+With a name more suited to a necromancer, Mortis is still a
+master of his craft and is always ready to explore new ways
+to increase his power and influence.
+  }
+  race { undead }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 2105000 }
+  hp { 4, 400, 32800 }
+  alignment { 0 }
+  gold { 210000 }
+  hit_bonus { 38 }
+  dam_bonus { 30 }
+  attacks_per_round { 3 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 5, 25, 20 }
+  head { -150, 16 }
+  body { -140, 16 }
+  arms { -140, 16 }
+  legs { -140, 16 }
+  feet { -140, 16 }
+  resist_acid   { 100 }
+  resist_magic  { 175 }
+  resist_force  { 12 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 100 }
+  caster { 40 }
+  spells { mage fire, fireball, dispel magic }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive }
+}
+112028
+{
+  name { Vekka, Lady of the Blood }
+  namelist { vekka lady blood }
+  shortdesc { Vekka, Lady of the Blood, stands here basking in an aura of power. }
+  longdesc {
+This is Vekka, Lady of Blood, the most powerful blood mage to have
+ever lived... Or unlived. She is hundreds of years old and her power
+is vast, stretching from the underworld to the heavens. She has led
+armies to their doom and destroyed cities. She seeks power as a hungry
+boy seeks porridge.
+  }
+  race { undead }
+  sex { none }
+  world_limit { 1 }
+  level { 890 }
+  experience { 6203000 }
+  hp { 45, 400, 80700 }
+  alignment { -1000 }
+  gold { 5000000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 5 }
+  dexterity { 25 }
+  move  { 800 }
+  damage { 5, 6, 40 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  immune { fire, cold, charm, backstab, electricity, acid, energy, poison }
+  affected { sanctuary, true-sight }
+  caster { 90 }
+  spells { petrify, ice lance, disruptor, sleep, dispel magic }
+  act { sentinel, stay-zone, nosummon, special }
+}
+112029
+{
+  name { A Sanguine Guard }
+  namelist { sanguine guard }
+  shortdesc { A guard of the Sanguine Order stands guard here. }
+  longdesc {
+Making up most of the Sanguine Knightly order, the Sanguine Guard
+are stalwart warriors with nerves of steel and an unwavering loyalty
+to their order. This one has soaked his bread in blood, giving him
+a grizzly visage.
+  }
+  race { dwarf }
+  sex { male }
+  level { 300 }
+  experience { 397900 }
+  hp { 14, 10, 5500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 22 }
+  dam_bonus { 12 }
+  attacks_per_round { 3.2 }
+  damage { 3, 7, 8 }
+  head { -90, 23 }
+  body { -80, 22 }
+  arms { -80, 22 }
+  legs { -80, 22 }
+  feet { -80, 22 }
+  resist_fire { 160 }
+  resist_cold { 160 }
+  resist_magic { 120 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+112030
+{
+  name { The Cook }
+  namelist { cook }
+  shortdesc { A cook is here looking for a pig to hold his apple. }
+  longdesc {
+This cook looks like he is more suited to a bustling kitchen,
+rather than this ancient dusty place. He holds an apple in his
+hand and is searching for a handy pig to roast.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 308 }
+  alignment { -500 }
+  gold { 8000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 208, 3544  }
+  move { 300 }
+  experience { 259756 }
+  damage { 4, 6, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+
+112031
+{
+  name { The cook's assistant }
+  namelist { assistant cook }
+  shortdesc { A bored-looking cooks assistant is here, picking his nose. }
+  longdesc {
+This is the cook's assistant. Although 'cooks hindrance'would be
+more apt description. He lazily, and slowly, follows his orders,
+moaning and groaning as he goes.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { -200 }
+  gold { 1900 }
+  hit_bonus { 30 }
+  dam_bonus { 7 }
+  attacks_per_round { 1 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  hp { 4, 56, 1248  }
+  move { 300 }
+  experience { 59476 }
+  damage { 3, 4, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+112032
+{
+  name { Annoying Spider }
+  namelist { spider }
+  shortdesc { A spider is here, gesturing annoyingly. }
+  longdesc {
+This spider see's you looking and starts to follow you around,
+copying your movements. How annoying is that?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  gold { 4000 }
+  alignment { -1000 }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 10, 7 }
+  body { 10, 7 }
+  arms { 10, 7 }
+  legs { 10, 7 }
+  feet { 10, 7 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 64243 }
+  damage { 3, 8, 2  }
+  immune { charm }
+  resistant { fire, electricity }
+  susceptible { poison }
+  affected { detect-invisible, infravision }
+  act { special, stay-zone }
+}
+112033
+{
+  name { A Giant Spider }
+  namelist { giant spider }
+  short { A giant spider is here, waiting for its next meal. }
+  long {
+This spider is massive. It comes up to your waist and moves
+very, very quickly. It is covered in green stripes and is
+probably quite poisonous. I'd be careful if I were you...
+  }
+  experience { 365000 }
+  gold { 17000 }
+  level { 375 }
+  hp { 9, 100, 6200 }
+  attacks_per_round { 2 }
+  alignment { -1000 }
+  damage { 20, 7, 40 }
+  act { aggressive, deadly, sentinel, stay-zone }
+  affected { infravision, true-sight }
+  immune { blunt, charm, poison, cold, hold, sleep, drain }
+  resistant { non-magical, plus 1, plus 2, pierce }
+  race { Parasite }
+  height { 3000 }
+  weight { 420000 }
+  head { -65, 9 }
+  body { -55, 9 }
+  arms { -55, 9 }
+  legs { -55, 9 }
+  feet { -65, 9 }
+  strength { 23 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+}
+
+112034
+{
+  name { Corridor mob 1 }
+  namelist { corridor mob one }
+  shortdesc { A corridor mob stands here. }
+  longdesc {
+SOME DESCRIPTION
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 63000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 125 }
+  damage { 5, 10, 25 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { sentinel, stay-zone, scavenger, special }
+}
+112035
+{
+  name { Corridor mob 2 }
+  namelist { corridor mob one }
+  shortdesc { A corridor mob stands here. }
+  longdesc {
+SOME DESCRIPTION
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 63000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 125 }
+  damage { 5, 10, 25 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { sentinel, stay-zone, scavenger, special }
+}
+112036
+{
+  name { Corridor mob 3 }
+  namelist { corridor mob one }
+  shortdesc { A corridor mob stands here. }
+  longdesc {
+SOME DESCRIPTION
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 63000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 125 }
+  damage { 5, 10, 25 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { sentinel, stay-zone, scavenger, special }
+}
+112037
+{
+  name { Corridor mob 4 }
+  namelist { corridor mob one }
+  shortdesc { A corridor mob stands here. }
+  longdesc {
+SOME DESCRIPTION
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 63000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 125 }
+  damage { 5, 10, 25 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { sentinel, stay-zone, scavenger, special }
+}
+112038
+{
+  name { Corridor mob 5 }
+  namelist { corridor mob one }
+  shortdesc { A corridor mob stands here. }
+  longdesc {
+SOME DESCRIPTION
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 63000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 125 }
+  damage { 5, 10, 25 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { sentinel, stay-zone, scavenger, special }
+}
+112039
+{
+  name { a regular trash mob }
+  namelist { regular trash mob }
+  shortdesc { a regular trash mob stands here }
+  longdesc {
+SOME DESC
+  }
+  race { none }
+  sex { male }
+  world_limit { 10 }
+  level { 490 }
+  experience { 630482 }
+  hp { 300, 8, 15000 }
+  alignment { -450 }
+  gold { 15000 }
+  hit_bonus { 24 }
+  dam_bonus { 9 }
+  attacks_per_round { 3 }
+  move { 600 }
+  damage { 4, 7, 17 }
+  head { -100, 6 }
+  body { -100, 6 }
+  arms { -100, 7 }
+  legs { -100, 7 }
+  feet { -100, 7 }
+  immune { charm, sleep }
+  resist_acid {50}
+  resist_magic {50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, scavenger, aggressive, hunting }
+}
+112040
+{
+  name { medium trash mob }
+  namelist { medium hard trash }
+  shortdesc { a medium trash mob stands here }
+  longdesc {
+SOME DESC
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 15 }
+  level { 550 }
+  experience { 1500000 }
+  hp { 40, 100, 44000 }
+  alignment { 0 }
+  gold { 1000000 }
+  hit_bonus { 24 }
+  dam_bonus { 28 }
+  attacks_per_round { 5 }
+  move { 600 }
+  damage { 12, 8, 28 }
+  head { -145, 25 }
+  body { -145, 25 }
+  arms { -145, 25 }
+  legs { -145, 25 }
+  feet { -145, 25 }
+  immune { charm }
+  resist_acid { 25 }
+  resist_cold { 25 }
+  resist_electricity { 25 }
+  resist_energy { 25 }
+  resist_fire { 25 }
+  resist_force { 25 }
+  resist_magic { 25 }
+  resist_poison { 25 }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone, aggressive, hunting, nosummon, scavenger }
+}
+112041
+{
+  name { hard trash mob }
+  namelist { hard trash }
+  shortdesc { a hard trash mob stands here }
+  longdesc {
+SOME DESC
+  }
+  race { Undead }
+  sex { Male }
+  world_limit { 2 }
+  level { 605 }
+  experience { 2400000 }
+  hp { 32, 32, 95000 }
+  alignment { 0 }
+  gold { 2200000 }
+  hit_bonus { 40 }
+  dam_bonus { 28 }
+  attacks_per_round { 6 }
+  move { 800 }
+  damage { 4, 40, 44 }
+  head { -160, 80 }
+  body { -160, 80 }
+  arms { -160, 80 }
+  legs { -160, 80 }
+  feet { -160, 80 }
+  immune { charm }
+  resist_acid { 150 }
+  resist_fire { 150 }
+  resist_magic { 150 }
+  caster { 60 }
+  spells { acid blast, chill touch, dispel magic, mage fire, sleep }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone, aggressive, deadly, hunting, nosummon, scavenger, sentinel }
+}
+112042
+{
+  name { a trash mob general }
+  namelist { trash general }
+  shortdesc { a trash mob general stands here }
+  longdesc {
+SOME DESC
+  }
+  race { none }
+  sex { female }
+  world_limit { 2 }
+  level { 650 }
+  experience { 872000 }
+  hp { 300, 8, 49500 }
+  alignment { -350 }
+  gold { 124000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 6 }
+  move { 600 }
+  damage { 12, 8, 28 }
+  head { -160, 36 }
+  body { -160, 36 }
+  arms { -160, 36 }
+  legs { -160, 36 }
+  feet { -160, 36 }
+  immune { charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 90 }
+  caster { 20 }
+  spells { poison, chill touch }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+112043
+{
+  name { Berberis  }
+  namelist { berberis }
+  shortdesc { Berberis stands here }
+  longdesc {
+SOME DESC
+  }
+  race { none }
+  sex { female }
+  world_limit { 3 }
+  level { 650 }
+  experience { 2824000 }
+  hp { 39, 42, 90000 }
+  alignment { -1000 }
+  gold { 5000000 }
+  caster { 70 }
+  power { 5000 }
+  mana { 5000 }
+  hit_bonus { 50 }
+  dam_bonus { 35 }
+  attacks_per_round { 4.7 }
+  move { 600 }
+  strength { 30 }
+  dexterity { 25 }
+  damage { 4, 39, 43 }
+  head { -190, 90 }
+  body { -170, 90 }
+  arms { -170, 90 }
+  legs { -170, 90 }
+  feet { -170, 90 }
+  spells { poison, dispel magic, weakness, clinging vines, acid blast, lightning bolt, chill touch }
+  immune { charm, sleep, backstab }
+  resist_acid {150}
+  resist_magic {100}
+  resist_force {45}
+  susceptible { fire }
+  affected { sanctuary, true-sight, fly }
+  act { npc, stay-zone, aggressive, sentinel, deadly, hunting, healer, special }
+}

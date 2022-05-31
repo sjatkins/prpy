@@ -1,0 +1,415 @@
+120
+{
+  name { an elder shadow dragon }
+  namelist { shadow dragon elder }
+  shortdesc { A humongous elder black dragon fades in and out of the shadows. }
+  longdesc {
+The dragon is almost difficult to see, even in full sight.  Its black
+scaly skin seems to allow the sunlight beaming down through the trees 
+to pass right through it.  The shadow dragon is easily as tall as four
+men and wide as three.  Even with its massive size, it seems to sneak
+easily around the forest without disturbing even the slightest branch.
+It has not seemed to notice you yet as you follow it deeper into the
+forest.  Suddenly, it disappears without notice, fading into the
+shadows of some nearby trees.  An intense gust of hot air breathing
+on your neck is an immediate sign of where the creature went.  RUN!
+  }
+  race { Dragon }
+  world_limit { 1 }
+  level { 550 }
+  sex { Female }
+  experience { 752523 }
+  hp { 20, 20, 15866 }
+  alignment { -1000 }
+  gold { 45000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 5, 6, 7 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  spells { gust of wind }
+  affected { sanctuary, true-sight, hide, sneak, flying }
+  immune { charm }
+  susceptible { cold, electricity }
+  act { npc, aggressive, special, stay-zone }
+}
+
+121
+{
+  name { a male camper }
+  namelist { adult male camper }
+  shortdesc { A male camper huddles around his family towards the back of the tent. }
+  longdesc {
+The camper has a frightened look on his face as you enter the tent.  It
+is almost like he was expecting something to attack.  "Did you see it?",
+he whispers to you, "It was right outside our tent!".  The man moves
+closers to his family and starts to hug them.  "We were just out looking
+for our lost son.  He left out camp grounds in the Swamps of Amnos and
+we have not been able to find him!".  He moves closer to you and 
+pleads, "If you see him, please bring him back to us!"  He turns to
+go to the back to the tent and huddles around his family.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 88 }
+  experience { 14660 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 4250 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+122
+{
+  name { a female camper }
+  namelist { adult female camper }
+  shortdesc { A female camper holds her children tightly in her arms. }
+  longdesc {
+The woman is hugging her children tightly and crying.  She looks up to
+her husband with tear filled eyes and begins to whimper quietly.
+Grasping her children closer to her chest she whimpers, "I just want
+my boy back.  Please..... find my boy.".
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9700 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 2800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+123
+{
+  name { a young female camper }
+  namelist { young female camper }
+  shortdesc { A girl cries and shakes uncontrollably in her mother's arms. }
+  longdesc {
+She cannot stop shaking as you walk through the tent flaps.  She hugs
+her mother even harder and begins to let out a quiet whimper.  The
+poor girl.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 56 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 2475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+124
+{
+  name { a crying baby }
+  namelist { crying }
+  shortdesc { A crying baby screams from its mother's arms. }
+  longdesc {
+*waaaaaah*waaaaah*waaaaah*poot*  The baby lets out a quiet smile and
+falls asleep in his mother's arms.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 16 }
+  experience { 2500 }
+  hp { 6, 8, 85 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 8, 3 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+125
+{
+  name { a mountain beast }
+  namelist { mountain beast }
+  shortdesc { A hairy and spiked mountain beast stares at you with a hungry look. }
+  longdesc {
+The beast hunkers down in the back of the cave, staring at you quietly
+as you enter its cave.  It slowly stands to greet you and opens its
+blood-shot red ruby eyes.  The beast is extremely furry and its entire
+back is covered in bony spikes.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 380 }
+  sex { Male }
+  experience { 350225 }
+  hp { 10, 15, 4562 }
+  alignment { -1000 }
+  gold { 28000 }
+  hit_bonus { 17 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 4, 5, 6 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, cold }
+  susceptible { fire, energy }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+126
+{
+  name { a young captured camper }
+  namelist { young captured camper }
+  shortdesc { A young man is bloodied and tied up towards the back of the cave. }
+  longdesc {
+The young man has been torn to pieces.  You can tell he is still alive
+by the slow rise and fall of his chest.  His hands and legs are tied
+together so that he cannot escape.  He looks up at you with a solemn
+gaze and begins to cry.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 56 }
+  experience { 7500 }
+  hp { 6, 8, 550 }
+  alignment { 0 }
+  gold { 2475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+127
+{
+  name { a lost female camper }
+  namelist { lost female camper }
+  shortdesc { A bloody girl walks along the mountain side with a glazed look in her eyes. }
+  longdesc {
+Covered in gore and blood the girl stares blankly as she wanders along
+the mountain trail.  Her eyes are glazed over, she does not even 
+notice you as she walks right past you.  There is a small glimmer
+shining from the pocket of her bloody dress.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 56 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 2475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, stay-zone }
+}
+
+128
+{
+  name { a mountain goat }
+  namelist { mountain goat }
+  shortdesc { A furry mountain goat climbs along the mountain side. }
+  longdesc {
+*baaaaah*  The covered in a coat of white and grey fur.  It has two
+long horns jutting from its head.  The goat walks over to you and
+begins to chew on your clothing.  The poor thing is hungry.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 5 }
+  level { 96 }
+  experience { 12600 }
+  hp { 6, 8, 910 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 16 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 7 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  act { npc, stay-zone }
+}
+
+129
+{
+  name { a young shadow dragon }
+  namelist { shadow wormkin dragon young }
+  shortdesc { A young shadow dragon slithers around its nest and glares at you hungrily. }  
+  longdesc {
+The young dragon resembles a long snake.  It is completely black and
+its scaly skin seems to shine with a luster even in this dark cavern.
+It begins to twist and wreath as you enter its home.  The shadow 
+wormkin opens its eyes and quickly slithers across the floor towards
+you with a hungry look in its eyes.
+  }
+  race { Dragon }
+  world_limit { 3 }
+  level { 180 }
+  sex { Male }
+  experience { 95223 }
+  hp { 10, 10, 1866 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 6, 4 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  affected { hide }
+  immune { charm }
+  resistant { pierce, slash, blunt, fire }
+  susceptible { cold }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+130
+{
+  name { a mountain sage }
+  namelist { mountain sage }
+  shortdesc { An old mountain sage hovers inches above the stone door frame. }
+  longdesc {
+The mage stands in mid-air, staring down at you from above the pulsing
+stone door.  He has a flowing grey beard and wears a long white robe.
+The old sage has some beautiful blue silk boots on his feet.  His
+gaze tightens as he notices you starting at his precious treasures.
+He levitates down from his perch to towards you.  Hopefully just to 
+get a better look.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 560 }
+  sex { Male }
+  experience { 650222 }
+  hp { 20, 20, 6525 }
+  alignment { -1000 }
+  gold { 30000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { -80, 12 }
+  body { -70, 11 }
+  arms { -70, 11 }
+  legs { -70, 11 }
+  feet { -70, 11 }
+  spells { freeze, disruptor, ice lance }
+  affected { sanctuary, true-sight, flying }
+  immune { charm, cold }
+  resistant { slash, energy }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+131
+{
+  name { a rock salamander }
+  namelist { rock salamander }
+  shortdesc { A giant salamander slithers around the fallen rocks. }
+  longdesc {
+This is one of the largest lizards you have ever seen.  The salamander 
+is tan in color and has red stripes running up and down its back.  It
+quickly whips its tail and runs under a nearby rock.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 42 }
+  experience { 3800 }
+  hp { 6, 8, 250 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 7 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, cold }
+  act { npc, stay-zone }
+}

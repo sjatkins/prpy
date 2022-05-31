@@ -1,0 +1,410 @@
+4100
+{
+  name { the Mage }
+  namelist { mage }
+  shortdesc { A small intelligent looking mage is standing here. It looks like he
+  knows his way with the magic. }
+  longdesc {
+His IQ makes almost any dikumud player look stupid..
+  }
+  race { human }
+  sex { Male }
+  level { 90 }
+  experience { 82184 }
+  hp { 19, 19, 300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.1 }
+  damage { 2, 4, 3 }
+  head { -40, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+4101
+{
+  name { the troll }
+  namelist { troll }
+  shortdesc { A large mean-looking troll is here. }
+  longdesc {
+Well, he looks dangerous.!
+  }
+  race { troll }
+  level { 70 }
+  experience { 49174 }
+  hp { 18, 15, 510 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.3 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { -30, 2 }
+  body { -25, 2 }
+  arms { -25, 2 }
+  legs { -25, 2 }
+  feet { -25, 2 }
+  affected { detect-invis, infravision }
+  immune { charm, hold }
+  act { npc, sentinel, stay-zone }
+}
+
+4102
+{
+  name { the snake }
+  namelist { snake }
+  shortdesc { A large green snake, looks like a guardian for an evil force. }
+  longdesc {
+You see a evil creature.
+  }
+  race { fish }
+  level { 25 }
+  experience { 4933 }
+  hp { 8, 9, 150 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 3 }
+  head { 10, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  affected { infravision }
+  act { npc, stay-zone }
+}
+
+4103
+{
+  name { the Thief }
+  namelist { thief }
+  shortdesc { A thief, all dressed in black. }
+  longdesc {
+Well, COUNT your money..!
+  }
+  race { human }
+  level { 60 }
+  experience { 75125 }
+  hp { 8, 8, 150 }
+  alignment { 0 }
+  gold { 1532 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.6 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { -30, 1 }
+  body { -25, 1 }
+  arms { -25, 1 }
+  legs { -25, 1 }
+  feet { -25, 1 }
+  affected { infravision }
+  immune { charm, hold }
+  act { wimpy }
+}
+
+4104
+{
+  name { the orc }
+  namelist { orc }
+  shortdesc { A ugly orc is standing here. }
+  longdesc {
+Yrkk..
+  }
+  race { orc }
+  level { 65 }
+  experience { 43664 }
+  hp { 11, 12, 560 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 3 }
+  head { -30, 2 }
+  body { -25, 2 }
+  arms { -25, 2 }
+  legs { -25, 2 }
+  feet { -25, 2 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+4105
+{
+  name { a centipede }
+  namelist { centipede }
+  shortdesc { A small harmless centipede is here. }
+  longdesc {
+It doesn't seem to pay any attention to you.
+  }
+   race { insect }
+  level { 45 }
+  experience { 31431 }
+  hp { 8, 9, 170 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { sentinel }
+}
+
+4106
+{
+  name { the Warrior }
+  namelist { warrior }
+  shortdesc { A human warrior is here. He has a evil grin in his face. }
+  longdesc {
+He doesn't look friendly at all...
+  }
+  race { human }
+  sex { Male }
+  level { 80 }
+  experience { 150557 }
+  hp { 18, 15, 710 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 7, 3 }
+  head { -30, 1 }
+  body { -25, 1 }
+  arms { -25, 1 }
+  legs { -25, 1 }
+  feet { -25, 1 }
+  affected { infravision, detect-invis }
+  immune { charm, hold }
+  act { stay-zone }
+}
+
+4107
+{
+  name { the kobold }
+  namelist { kobold }
+  shortdesc { A green kobold is here. }
+  longdesc {
+It looks slimy..
+  }
+  race { goblin }
+  level { 45 }
+  experience { 49031 }
+  hp { 11, 12, 380 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -10, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  act { npc, stay-zone }
+}
+
+4110
+{
+  name { the bugbear }
+  namelist { bugbear }
+  shortdesc { A hairy bugbear stands here. }
+  longdesc {
+It looks like a walking carpet.
+  }
+  race { goblin }
+  level { 45 }
+  experience { 39581 }
+  hp { 11, 12, 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 10, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+4111
+{
+  name { the ogre }
+  namelist { ogre }
+  shortdesc { An ogre stands here, grinning broadly. }
+  longdesc {
+It looks rather pleased with itself.
+  }
+  race { ogre }
+  level { 90 }
+  experience { 59997 }
+  hp { 11, 12, 730 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.1 }
+  move  { 200 }
+  damage { 2, 7, 5 }
+  head { -30, 2 }
+  body { -25, 2 }
+  arms { -25, 2 }
+  legs { -25, 2 }
+  feet { -25, 2 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+4112
+{
+  name { the bugbear }
+  namelist { bugbear }
+  shortdesc { A hairy bugbear stands here. }
+  longdesc {
+It looks like a walking carpet.
+  }
+  race { goblin }
+  level { 45 }
+  experience { 42116 }
+  hp { 11, 12, 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+
+4113
+{
+  name { the ogre }
+  namelist { ogre }
+  shortdesc { An ogre stands here, grinning broadly. }
+  longdesc {
+It looks rather pleased with itself.
+  }
+  race { ogre }
+  level { 75 }
+  experience { 47520 }
+  hp { 11, 12, 640 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.1 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -30, 2 }
+  body { -25, 2 }
+  arms { -25, 2 }
+  legs { -25, 2 }
+  feet { -25, 2 }
+  affected { infravision, detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+
+4114
+{
+  name { the Cavern Crawler }
+  namelist { cavern crawler }
+  shortdesc { The cavern crawler lurks here, ready to ensnare its prey! }
+  longdesc {
+The cavern crawler looks like a giant spider but with ten legs and more
+eyes than a witches soup.  It has fangs.  And very probably a venom sack.
+It would be wise to turn back now!
+  }
+  race { arachnid }
+  height { 49 }
+  weight { 7600 }
+  level { 290 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.7 }
+  head { -80, 3 }
+  body { -50, 3 }
+  arms { -50, 3 }
+  legs { -50, 3 }
+  feet { -50, 3 }
+  hp { 3, 33, 3600  }
+  move { 300 }
+  experience { 351375 }
+  damage { 3, 5, 5  }
+  immune { sleep, charm }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+4200
+{
+  name { The Giant Warrior }
+  namelist { warrior giant }
+  shortdesc { A gigantic warrior with a plethora of scars.  He looks dangerous. }
+  longdesc {
+He appears to be a very strong and extremely capable fighter.
+  }
+  race { giant }
+  sex { Male }
+  level { 300 }
+  experience { 280550 }
+  hp { 18, 18, 3900 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.9 }
+  damage { 3, 6, 5 }
+  head { -80, 3 }
+  body { -70, 3 }
+  arms { -70, 3 }
+  legs { -70, 3 }
+  feet { -70, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+

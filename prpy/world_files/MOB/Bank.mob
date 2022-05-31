@@ -1,0 +1,90 @@
+2000
+{
+  name { Bandits Monk 3rd Class }
+  namelist { monk cleric }
+  shortdesc { A Bandits Monk stands here praying. }
+  longdesc {
+He looks like he is at peace with the world.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 972 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+2001
+{
+  name { Bandits Monk 2nd Class }
+  namelist { monk cleric }
+  shortdesc { A Bandits Monk stands here praying. }
+  longdesc {
+He looks like he is at peace with the world.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1576 }
+  damage { 2, 5, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+2003
+{
+  name { Bandits Monk 1st Class }
+  namelist { monk cleric }
+  shortdesc { A Bandits Monk stands here praying. }
+  longdesc {
+He looks like he is at peace with the world.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2279 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+

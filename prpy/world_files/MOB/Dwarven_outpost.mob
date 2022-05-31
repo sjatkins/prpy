@@ -1,0 +1,381 @@
+52500
+{
+  name { Smaug }
+  namelist { Smaug brass dragon }
+  shortdesc { The ancient dragon Smaug lies here. }
+  longdesc {
+Smaug is an ancient, evil, and most of all powerful brass dragon.  He has
+thick, metallic scales in highly polished brass the merge from lustrous
+brown-green to soot-black at his shoulders and down his spine.  Two horns
+bend backwards away from his brow and give his head an elegant, stream-
+lined, snake-like beauty.  He is rumoured to breathe fire and gas.  He is
+as big a dragon as you are ever likely to meet. 
+  }
+  race { Dragon }
+  height { 720 }
+  weight { 300000 }
+  level { 617 }
+  alignment { -1000 }
+  gold { 1200000 }
+  hit_bonus { 23 }
+  dam_bonus { 48 }
+  attacks_per_round { 6.6 }
+  head { -110, 35 }
+  body { -90, 10 }
+  arms { -110, 25 }
+  legs { -110, 25 }
+  feet { -110, 30 }
+  hp { 4, 1000, 45000  }
+  move { 3000 }
+  experience { 1750374 }
+  damage { 5, 10, 45  }
+  caster { 600 }
+  spells { fireball, fire breath, gas breath, gust of wind, inferno, poison cloud, poison }
+  immune { energy, charm, backstab }
+  affected { infravision, detect-invisible }
+  resistant { pierce, slash, non-magical, fire, poison }
+  act { aggressive, hateful, healer, stay-zone, nosummon, special }
+}
+
+52501
+{
+  name { Fafnir the spectral Dwarven High Priest }
+  namelist { dwarf priest spectre fafnir }
+  shortdesc { You see Fafnir the Dwarven High Priest standing here in prayer. }
+  longdesc {
+Fafnir, the Dwarven High Priest stands before you.  His hands are held in 
+prayer and the aura emanating from him makes you very certain that you do
+not want to piss off any gods that favor him.  Fafnir died defending the
+outpost and now he haunts the temple halls, a haunted, dark and fearful
+shadow of his former self.  He still grips the 
+  }
+  race { undead }
+  mana { 800  }
+  height { 140 }
+  weight { 30000 }
+  level { 525 }
+  alignment { 0 }
+  gold { 45500 }
+  hit_bonus { 20 }
+  dam_bonus { 33 }
+  attacks_per_round { 4 }
+  head { -90, 40 }
+  body { -90, 60 }
+  arms { -90, 40 }
+  legs { -90, 40 }
+  feet { -70, 20 }
+  hp { 1, 10, 15000  }
+  move { 3000 }
+  experience { 710192 }
+  damage { 100, 2, 20  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { pierce, slash }
+  susceptible { blunt }
+  affected { sanctuary, fireshield, nosummon }
+  act { aggressive }
+}
+
+52502
+{
+  name { a spectral Dwarven priest }
+  namelist { dwarf priest spectre }
+  shortdesc { You see a spectral Dwarven priest standing here in prayer. }
+  longdesc {
+A Dwarven priest stands before you.  He stood with Fafnir when the
+dragon came and gave his life to protect the outpost.  Now he is but
+a shadow of his former self, the ghostly lines of his well toned body
+telling you that his god was one who appreciated exercise (and maybe
+a love for combat).
+  }
+  race { undead }
+  mana { 100  }
+  height { 120 }
+  weight { 30000 }
+  level { 300 }
+  alignment { 0 }
+  gold { 30500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -50, 20 }
+  body { -50, 30 }
+  arms { -50, 20 }
+  legs { -50, 20 }
+  feet { -20, 10 }
+  hp { 1, 10, 4000  }
+  move { 3000 }
+  experience { 327248 }
+  damage { 20, 2, 20  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { pierce, slash }
+  susceptible { blunt }
+  affected { detect-invisible, sanctuary, infravision }
+  act { aggressive }
+}
+
+52503
+{
+  name { a Dwarven defender }
+  namelist { dwarf defender }
+  shortdesc { A dwarf in battered armour stands before you.. }
+  longdesc {
+This is one of the one's that survived the original conquest of this outpost.
+His armour is battered and he looks tired but as you approach he stands and
+raises his axe.
+  }
+  race { dwarf }
+  height { 112 }
+  weight { 30000 }
+  level { 250 }
+  alignment { 400 }
+  gold { 20000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 5 }
+  head { -30, 10 }
+  body { -30, 10 }
+  arms { -30, 10 }
+  legs { -30, 10 }
+  feet { 0, 10 }
+  hp { 30, 100, 1000  }
+  move { 500 }
+  experience { 231260 }
+  damage { 50, 3, 25  }
+  immune { charm }
+  act { aggressive, wimpy }
+}
+
+52504
+{
+  name { Halfnit the crazed Dwarven cook }
+  namelist { dwarf cook halfnit crazed }
+  shortdesc { A dwarf in a bloodied smock stands before you.. }
+  longdesc {
+Halfnit is obviously the cook.  His bloodied smock gives you the willies...
+but then again he must of been butchering something.  You fervently hope
+he doesn't decide to butcher you!  He survived the dragon attack, but was
+wounded enough that he went mad from pain.  He now spends his days crazily
+cooking, butchering and taunting Smaug. 
+  }
+  race { dwarf }
+  height { 135 }
+  weight { 30000 }
+  level { 300 }
+  alignment { 400 }
+  gold { 99500 }
+  hit_bonus { 22 }
+  dam_bonus { 30 }
+  attacks_per_round { 6 }
+  head { 0, 10 }
+  body { 0, 10 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 30, 100, 3500  }
+  move { 500 }
+  experience { 514530 }
+  damage { 50, 3, 50  }
+  immune { charm }
+  act { aggressive, nosummon }
+}
+
+52505
+{
+  name { Danlia the Dragonmistress }
+  namelist { Danlia dragonmistress }
+  shortdesc { Danlia the Dragonmistress is kneeling here, cradling her friend, Agni. }
+  longdesc {
+This is Danlia Surefoot, Dragonmistress of Fortrum.  She has lead 
+the brave Fortish dragonriders in to the Outpost, the first of the
+Fortish reinforcements sent by Odin.  But even she was ill-prepared
+to face the beast.  Her fine armour is scorched back from fire and
+cursed from lethal poison, the skin on her face is red and welted
+from intense heat.  But she feels none of it.  She cradles her friend
+Agni in her arms, tears wetting her cheeks, another victim of Smaug
+the Mighty.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 420 }
+  sex { female }
+  alignment { 0 }
+  gold { 300000  }
+  hit_bonus { 25 }
+  dam_bonus { 23 }
+  attacks_per_round { 3 }
+  head { -70, 37 }
+  body { -70, 37 }
+  arms { -70, 37 }
+  legs { -70, 37 }
+  feet { -70, 37 }
+  resist_fire { 200 }
+  resist_acid { 160 }
+  resist_cold { 200 }
+  resist_magic { 160 }
+  hp { 4, 429, 11358  }
+  move { 300 }
+  experience { 994795 }
+  damage { 6, 6, 16  }
+  caster { 75 }
+  spells { mage fire, fear }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { npc, sentinel }
+}
+
+52506
+{
+  name { Agni the Dragonrider }
+  namelist { Agni dragonrider }
+  shortdesc { Agni is here, dying from his wounds. }
+  longdesc {
+Agni is a member of the Black Dragonriders of Fortrum.  These elite soldiers
+are ready to jump in to battle at a moments notice upon their black dragon
+steeds.  Agni entered the Outpost with Danlia and flung himself in front of
+her to save her from the beasts breath.  Danlia managed to drag him inside
+but he will succumb to his wounds soon, and there is nothing, no healing,
+no magic and no God that can help him now.  He shudders in Danlia's arms even
+as tears roll down his soot-blackened cheeks.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 201 }
+  sex { male }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 0.1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 1, 1, 1  }
+  move { 300 }
+  experience { 25 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { cold }
+  act { npc, stay-zone, sentinel }
+}
+
+52507
+{
+  name { Scorch the dragon }
+  namelist { Scorch dragon }
+  shortdesc { Scorch, the dragon, is curled up near her mistress Danlia }
+  longdesc {
+Every Fortish Dragonrider has a dragon to rider.  This is Danlia's.  Her name
+is Scorch, she is a mature black dragon.  It wouldn't be wise to pet her, she
+will tear off your arm as quick as look at you, and with that acidic vitriol
+dripping from her lips, it would be a painful bite.  She has a damaged wing,
+but otherwise she seems to be in fine shape considering.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 510 }
+  alignment { 0 }
+  experience { 1500000 }
+  gold { 250000 }
+  head { -110, 20 }
+  body { -100, 20 }
+  legs { -100, 20 }
+  arms { -100, 20 }
+  feet { -100, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 200 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  hit_bonus { 45 }
+  dam_bonus { 45 }
+  hp { 1, 1, 55000 }
+  mana { 1500 }
+  damage { 5, 15, 15 }
+  resistant { slash, blunt, pierce, energy }
+  immune { fire, charm, backstab, drain, cold }
+  affected { true-sight, detect-invisible }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+52508
+{
+  name { A Fortish Dragonrider }
+  namelist { fortish dragonrider }
+  shortdesc { A Fortish Dragonrider guards the entrance here. }
+  longdesc {
+A Dragonrider from Fortrum stands guard here.  He seems to looking in to
+outpost fearfully, as if his orders were to stop something getting out,
+rather than getting in.  He is part of a contingent sent by Odin to help
+the outpost.  His commander, Danlia, has already gone inside with the rest
+of the squad...
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 8200 }
+  sex { male }
+  level { 302 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -70, 26 }
+  body { -70, 26 }
+  arms { -70, 26 }
+  legs { -70, 26 }
+  feet { -70, 26 }
+  hp { 4, 352, 10000  }
+  move { 300 }
+  experience { 491566 }
+  damage { 3, 11, 9  }
+  caster { 55 }
+  spells { mage fire }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { npc, sentinel, stay-zone }
+}
+52509
+{
+  name { a Drow Looter }
+  namelist { Drow looter thief }
+  shortdesc { A Drow Looter is here, sneaking around and stealing what he can! }
+  longdesc {
+The Drow are nothing if not opportunistic when the need arrives, and the
+great houses are known to send out scouts to forage and steal when another
+race is experiencing war or troubles.  This Drow is one of those scouts.
+He is a nasty little thief who is picking over the dragon hoard whilst the
+Dwarves die horrible fiery deaths around him.  He seems to be smiling...
+This looter wears the sigil of House Parastric.
+  }
+  race { elven }
+  sex { male }
+  level { 180 }
+  world_limit { 3 }
+  experience { 62020 }
+  hp { 20, 8, 1200 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 900 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.3 }
+  damage { 3, 6, 3 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  skills { backstab }
+  immune { charm, energy }
+  affected { infravision, detect-invisible, sneak, hide }
+  act { npc, stay-zone, special, nice-thief }
+}

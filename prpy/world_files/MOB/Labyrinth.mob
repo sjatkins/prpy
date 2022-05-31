@@ -1,0 +1,453 @@
+111000
+{
+  name { A Crypt Ghoul }
+  namelist { crypt, ghoul }
+  shortdesc { The Crypt Ghoul is frothing from his mouth, he groans loudly and often. }
+  longdesc { The Crypt Ghoul is a demented being. He has no hair anywhere on his body. His skin is tinted green. And his flesh is slowly decaying.  }
+  race { undead }
+  height { 200 }
+  level { 525 }
+  alignment { -1000 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 40 }
+  attacks_per_round { 5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 50, 18, 32150  }
+  move { 300 }
+  experience { 1922508 }
+  damage { 4, 40, 7  }
+  immune { charm }
+  resistant { fire }
+  resist_fire { 200 }
+  affected { true-sight, sanctuary }
+  act { aggressive, sentinel }
+}
+
+111001
+{
+name { A young Tyrannosaur }
+namelist { young, tyrannosaur  }
+shortdesc { A young tyrannosaur is here staying close to its nest. }
+longdesc { A Smaller version of it's parents. Short arms, long tail, pointy teeth. He hungers for more food. }
+  race { dinosaur }
+  height { 200 }
+  level { 425 }
+  alignment { -1000 }
+  gold { 160000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 50, 18, 15150  }
+  move { 300 }
+  experience { 922508 }
+  damage { 4, 40, 9  }
+  immune { charm }
+  resist_fire { 200 }
+  affected { true-sight }
+  act { aggressive, sentinel }
+}
+
+111005
+{
+  name { The Raging Basilisk }
+  namelist { giant Basilisk }
+  shortdesc { Brissk, a fleshcraving basilisk thrashes wildly in its   hunt. }
+  longdesc { The largest of it's species, scarred and worn Brissk has   never known defeat. He has a wild look in his eyes and is covered in
+  harden scales. His reptilan body stands on two legs centered on his   powerful torso. his tail is about 10 feet long and spiked on the end,     his   head has a powerful beak with a forked tongue. }
+  race { reptile }
+  sex { male }
+  world_limit { 1 }
+  level { 560 }
+  experience { 3203000 }
+  hp { 4, 400, 65700 }
+  alignment { 0 }
+  gold { 1300000 }
+  hit_bonus { 40 }
+  dam_bonus { 32 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 31, 160 }
+  head { -160, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  resist_fire   { 700 }
+  resist_poison { 160 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111006
+{
+  name { King Arneduk }
+  namelist { King arneduk }
+  shortdesc { King Arneduk stands next to his throne, admiring his collection. }
+  longdesc { King Arneduk one of the most powerful kings of these realms. He is wearing his battle armor, always ready. He exposes only his face, showing piercing blue eyes a permanent scowl. His lips are pursed, and he seems to be thinking of something which vexes him greatly. }
+  race { human }
+  sex { male }
+  world_limit { 1 }
+  level { 580 }
+  experience { 2503000 }
+  hp { 4, 400, 55700 }
+  alignment { 0 }
+  gold { 1000000 }
+  hit_bonus { 40 }
+  dam_bonus { 32 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 31, 140 }
+  head { -160, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  resist_fire   { 200 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111007
+{
+name { Balor }
+namelist { Balor }
+shortdesc { Balor a red winged demon, with a powerful build is standing here. }
+longdesc { A Winged demon with a thick red immensely sinewed body. He stands 5 foot tall with his wings stretching from his ankles up into the air two feet above his head. He has black horns horizontally shooting out either side of his large red head. His teeth are large and constantly in view. }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 570 }
+  experience { 3503000 }
+  hp { 4, 400, 77700 }
+  alignment { 0 }
+  gold { 1900000 }
+  hit_bonus { 50 }
+  dam_bonus { 63 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 5, 5, 180 }
+  head { -210, 40 }
+  body { -200, 40 }
+  arms { -200, 40 }
+  legs { -200, 40 }
+  feet { -200, 40 }
+  resist_fire   { 900 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111008
+{
+name { Savik }
+namelist { Savik }
+shortdesc { Savik, The one eyed god drifts here. He has an unquenchable hunger and wonders why he has been awoken. }
+longdesc { Savik, the one eyed god drifts lazily around the room. he is a portly from years of feast, yet his hunger is never sated. }
+  race { undead }
+  sex { male }
+  world_limit { 1 }
+  level { 570 }
+  experience { 3903000 }
+  hp { 4, 400, 84700 }
+  alignment { 0 }
+  gold { 2600000 }
+  hit_bonus { 50 }
+  dam_bonus { 163 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 5, 5, 200 }
+  head { -210, 50 }
+  body { -200, 40 }
+  arms { -200, 40 }
+  legs { -200, 40 }
+  feet { -200, 40 }
+  resist_fire   { 600 }
+  resist_poison { 180 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111009
+{
+name { The Mother Tyrannosaur }
+namelist { Tyrannosaur, mother }
+shortdesc { The Mother Tyrannosaur Nurses her young. }
+longdesc { The giant reptilian creature stands her body nearly horizontal. Two powerful legs are spaced evenly between her head and tail. Her body muscular and lean. Her head long with eyes set more towards the side than just offcenter, with a hard plate between them for armor. Her jaws are immensely powerful with long pointy teeth for ripping flesh. She looks eager to feed her young.  }
+  race { dinosaur }
+  sex { female }
+  world_limit { 1 }
+  level { 595 }
+  experience { 4505900 }
+  hp { 4, 400, 97500 }
+  alignment { 0 }
+  gold { 2505900 }
+  hit_bonus { 60 }
+  dam_bonus { 225 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 4, 229 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 35 }
+  feet { -180, 35 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111010
+{
+name { A mighty sixteen eyed spike covered beholder  }
+namelist { mighty beholder }
+shortdesc { A huge eye covered in tentacles floats here sunning himself. }
+longdesc { The beholder floats several feet above the ground. It is mostly circular with a large central eye. It has no nose only a huge mouth full of razor sharp teeth. It has 16 tentacles rising off the top half of its mass, with each tentacle having an eye at the end. The remainder of its mass is covered with razor sharp spikes coming from under its armored skin. It is glowing red. }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 650 }
+  experience { 5505900 }
+  hp { 4, 400, 137500 }
+  alignment { 0 }
+  gold { 2505900 }
+  hit_bonus { 60 }
+  dam_bonus { 265 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 4, 229 }
+  head { -190, 40 }
+  body { -180, 235 }
+  arms { -180, 235 }
+  legs { -180, 235 }
+  feet { -180, 235 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111011
+{
+name { The Uber-Hulk  }
+namelist { uber, hulk, Uber-hulk }
+shortdesc { A hulking humanoid-Insect with green eyes and tusks lumbers about. }
+longdesc { With a white torso and brown arms and legs, green eyes, white tusks and a hunched appearance, this creature presents quite an appearance. It has huge hands and arms compared to its rather short legs. It walks upright and  }
+  race { insect }
+  sex { male }
+  world_limit { 1 }
+  level { 670 }
+  experience { 6505900 }
+  hp { 4, 400, 137500 }
+  alignment { 0 }
+  gold { 2505900 }
+  hit_bonus { 60 }
+  dam_bonus { 365 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 4, 229 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 135 }
+  feet { -180, 35 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111017
+{
+name { Sphera the necromancer }
+namelist { sphera necromancer }
+shortdesc { Sphera a beautiful necromancer is mumbling some strange incantations. }
+longdesc { Sphera a raven haired beauty walks amongst the books, and bottles. She is of average height for a human and is petite and toned. Her skin is milky in appearance and is adorned in varied armors. }
+  race { human }
+  sex { female }
+  world_limit { 1 }
+  level { 535 }
+  experience { 4203000 }
+  hp { 4, 400, 45700 }
+  alignment { 0 }
+  gold { 1600000 }
+  hit_bonus { 40 }
+  dam_bonus { 75 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 31, 160 }
+  head { -160, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  resist_fire   { 700 }
+  resist_poison { 160 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111012
+{
+name { Ralthosar the giant king  }
+namelist { Ralthosar king }
+shortdesc { Ralthosar a long dead giant king is here, risen from the dead by dark magic.}
+longdesc { Ralthosar is an immense being. He is muscular, broad, and undoubtedly powerful. A once gentle giant, he has gone mad. He longs for the battle that can once again fill him with peace. }
+  race { giant }
+  sex { male }
+  world_limit { 1 }
+  level { 655 }
+  experience { 6505900 }
+  hp { 4, 400, 137500 }
+  alignment { 0 }
+  gold { 2505900 }
+  hit_bonus { 60 }
+  dam_bonus { 365 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 4, 229 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 35 }
+  feet { -180, 35 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111013
+{
+name { A crystalline entity.}
+namelist { crystalline entity }
+shortdesc { A Crystalline Entity rises out of the tundra. }
+longdesc { The Crystalline Entity is formed of solid crystals, there are no round pieces everything is jagged and sharp. Its structure forms a humanoid shape to a certain degree. }
+race { none }
+height { 100 }
+level { 438 }
+alignment { 999 }
+gold { 55300  }
+hit_bonus { 20 }
+dam_bonus { 50 }
+attacks_per_round { 6 }
+head { -150, 30 }
+body { -90, 30 }
+arms { -90, 30 }
+legs { -90, 30 }
+feet { -90, 30 }
+hp { 5000, 2, 8000  }
+move { 200 }
+experience { 1490342 }
+damage { 4, 6, 4  }
+immune {  charm, cold }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+111014
+{
+name { Crystallos  }
+namelist { Crystalos }
+shortdesc { Crystallos, caretaker of the crystal kingdom.}
+longdesc { Crystallos is a translucent being, formed entirely of crystals. She is the most dense of her kind, and the most intricate. She is beautiful in her own way. The light dancing around the room as it reflects from her body. }
+  race { none }
+  sex { female }
+  world_limit { 1 }
+  level { 660 }
+  experience { 6204500 }
+  hp { 4, 400, 137500 }
+  alignment { 0 }
+  gold { 2505900 }
+  hit_bonus { 60 }
+  dam_bonus { 260 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 20, 14, 40 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 35 }
+  feet { -180, 35 }
+  immune { cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+111015
+{
+name { A mass of vile jelly.}
+namelist { mass jelly }
+shortdesc { A blob of green jelly rises from a puddle to meet you. }
+longdesc { A blob of green jelly, morphing in shape and seemingly size as it tumbles around. Though gelatinous in nature it is surprisingly quick. }
+race { none }
+height { 100 }
+level { 478 }
+alignment { -999 }
+gold { 65400  }
+hit_bonus { 20 }
+dam_bonus { 60 }
+attacks_per_round { 6 }
+head { -150, 30 }
+body { -90, 30 }
+arms { -90, 30 }
+legs { -90, 30 }
+feet { -90, 30 }
+hp { 5000, 2, 8000  }
+move { 200 }
+experience { 1490342 }
+damage { 15, 15, 40  }
+immune {  charm, cold }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+111016
+{
+name { A Tainted OrbWeaver  }
+namelist { Orbweaver }
+shortdesc { A Tainted Orbweaver is here spinning its web. }
+longdesc { The Tainted Orbweaver is busy expanding its web. It is of a mutated variety you suppose because its the largest of its kind. The main body is purple with black spots and has eight slender black legs. }
+  race { arachnid }
+  sex { female }
+  world_limit { 1 }
+  level { 650 }
+  experience { 6404500 }
+  hp { 4, 400, 137500 }
+  alignment { 0 }
+  gold { 2605900 }
+  hit_bonus { 60 }
+  dam_bonus { 265 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 15, 14, 59 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 35 }
+  feet { -180, 35 }
+  immune { fire, charm, backstab }
+  affected { sanctuary, true-sight, infravision }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}

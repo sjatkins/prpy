@@ -1,0 +1,174 @@
+4901 
+{
+name { A black rat }
+namelist { Black rat }
+shortdesc { A black rat scurrys around }
+longdesc { 
+An irregularly large rat is here squinting its nose.
+}
+race { None }
+sex { neuter }
+level { 150 }
+experience { 70000 }
+hp { 8,200, 1 }
+gold { 1500 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 160 }
+weight { 200 }
+hit_bonus { 4 }
+dam_bonus { 3 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 1,8, 1 }
+head { 50,1 }
+body { 50,1 }
+arms { 50,1 }
+legs { 50,1 }
+feet { 50,1 }
+act { annoying, scavenger, wimpy,  stay-zone }
+affected { detect-invisible }
+}
+
+
+4902 
+{
+name { The ghost of Armicus }
+namelist { ghost of Armicus }
+shortdesc { The ghost of Armicus floats here. }
+longdesc { 
+The ghost of Armicus flots here phasing in and out of view with
+a look of disgust on his barly visable face.
+}
+race { Undead }
+sex { neuter }
+level { 150 }
+experience { 95000 }
+hp { 60,40, 100 }
+gold { 5000 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 160 }
+weight { 400 }
+hit_bonus { 6 }
+dam_bonus { 5 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 3,8, 1 }
+head { 30,1 }
+body { 30,1 }
+arms { 30,1 }
+legs { 30,1 }
+feet { 30,1 }
+act { aggressive, scavenger, stay-zone }
+affected { flying }
+}
+
+
+4903 
+{
+name { A Hairy Spider }
+namelist { Hairy spider }
+shortdesc { A hairy spider is here spinning its web. }
+longdesc { 
+A large hairy spider stands before you spinnings it web paying
+no attention to you.
+}
+race { Arachnid }
+sex { neuter }
+level { 150 }
+experience { 80000 }
+hp { 10,200, 1 }
+gold { 2000 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 160 }
+weight { 200 }
+hit_bonus { 4 }
+dam_bonus { 3 }
+alignment { -250 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 2,8,1 }
+head { 50,0 }
+body { 50,0 }
+arms { 50,0 }
+legs { 50,0 }
+feet { 50,0 }
+immune { poison }
+act { annoying, scavenger, stay-zone }
+}
+
+
+4904 
+{
+name { Shipmates Ghost }
+namelist { Shipmates Ghost }
+shortdesc { The ghost of a shipmates stands here. }
+longdesc { 
+The Ghost of a shipmates stands here guarding the remnants
+of his once great ship.
+}
+race { Undead }
+sex { neuter }
+level { 150 }
+experience { 50000 }
+hp { 40,4, 400 }
+gold { 2500 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 160 }
+weight { 400 }
+hit_bonus { 3 }
+dam_bonus { 2 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 2,4, 1 }
+head { 50,1 }
+body { 50,1 }
+arms { 50,1 }
+legs { 50,1 }
+feet { 50,1 }
+act { scavenger, sentinel, stay-zone }
+}
+4900
+{
+name { A Large Purple Octopus }
+namelist { Purple Octopus }
+shortdesc { A large purple octopus swims before you }
+longdesc { 
+A large purple octpous swims before you with its eight tentacles
+waving wildly through the water.
+}
+race { fish }
+sex { neuter }
+level { 150 }
+experience { 85000 }
+hp { 50,40, 1 }
+gold { 3500 }
+move { 500 }
+height { 160 }
+weight { 300 }
+hit_bonus { 5 }
+dam_bonus { 4 }
+alignment { -500 }
+attacks_per_round { 2 }
+damage { 2,8,1 }
+head { 45,1 }
+body { 45,1 }
+arms { 45,1 }
+legs { 45,1 }
+feet { 45,1 }
+immune { fire }
+act { scavenger, sentinel, stay-zone }
+affected { detect-invisible, sense-life }
+}
+
+

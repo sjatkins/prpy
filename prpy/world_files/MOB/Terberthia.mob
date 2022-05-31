@@ -1,0 +1,2022 @@
+102000
+{
+  name { A black wasp king }
+  namelist { black wasp king }
+  shortdesc { The black wasp king is disgusted and angry. }
+  longdesc {
+A black wasp king is here working to keep his Queen happy.
+He commands the soliders and the workers and makes sure
+that the larvae are fed the next meal.
+  }
+  race { none }
+  sex { male }
+  world_limit { 3 }
+  level { 610 }
+  experience { 1548200 }
+  hp { 26, 26, 61500 }
+  alignment { -450 }
+  gold { 1224900 }
+  hit_bonus { 32 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  strength { 21 }
+  dexterity { 25 }
+  move { 300 }
+  damage { 7, 24, 16 }
+  head { -140, 45 }
+  body { -130, 45 }
+  arms { -130, 45 }
+  legs { -130, 45 }
+  feet { -130, 45 }
+  immune { charm, sleep, backstab }
+  susceptible { fire }
+  resist_force {40}
+  resist_acid {60}
+  resist_magic {60}
+  caster { 70 }
+  spells { poison, chill touch }
+  affected { sanctuary, true-sight, fly }
+  act { npc, stay-zone, aggressive, nosummon, healer, special }
+}
+
+102001
+{
+  name { The Black Wasp Queen  }
+  namelist { black queen wasp }
+  shortdesc { The Queen is looking fierce as she lays her eggs and eats her young }
+  longdesc {
+Straight out of the nightmare this Queen wasp is not happy, with a fierce stinger
+ready to stab any thing that gets in her way. Her eyes filled with blackness with her
+bulging mid-section that appears armored and battle worn.
+  }
+  race { none }
+  sex { female }
+  world_limit { 3 }
+  level { 650 }
+  experience { 2824000 }
+  hp { 32, 34, 64000 }
+  alignment { -1000 }
+  gold { 1673000 }
+  caster { 70 }
+  power { 5000 }
+  mana { 5000 }
+  hit_bonus { 32 }
+  dam_bonus { 20 }
+  attacks_per_round { 4.7 }
+  move { 600 }
+  strength { 30 }
+  dexterity { 25 }
+  damage { 8, 24, 18 }
+  head { -190, 50 }
+  body { -170, 50 }
+  arms { -170, 50 }
+  legs { -170, 50 }
+  feet { -170, 50 }
+  spells { poison, dispel magic, weakness, clinging vines, acid blast, lightning bolt, chill touch }
+  immune { charm, sleep, backstab, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, plus 1, plus 2, plus 3, plus 4, hold }
+  resist_acid {150}
+  resist_magic {100}
+  resist_force {45}
+  susceptible { fire }
+  affected { sanctuary, true-sight, fly, nofear, nosleep }
+  act { npc, stay-zone, aggressive, sentinel, deadly, hunting, healer }
+}
+
+102002
+{
+  name { a wasp soldier }
+  namelist { wasp soldier }
+  shortdesc { A wasp soldier isn't happy working for the queen. }
+  longdesc {
+This wasp soldier must be a commander because it is bigger than the others.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 475 }
+  experience { 192487 }
+  hp { 56, 6, 6400 }
+  alignment { 0 }
+  gold { 14374 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 4, 7, 13 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102003
+{
+  name { a wasp soldier }
+  namelist { wasp soldier }
+  shortdesc { A wasp soldier isn't happy working for the queen. }
+  longdesc {
+This wasp soldier is smaller and more fragile than the larger soldiers.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 475 }
+  experience { 192487 }
+  hp { 56, 6, 6400 }
+  alignment { 0 }
+  gold { 14576 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 4, 7, 13 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102004
+{
+  name { a wasp soldier }
+  namelist { wasp soldier }
+  shortdesc { A wasp soldier isn't happy working for the queen. }
+  longdesc {
+This wasp soldier looks like it hasn't got much on the other larger soldiers in the
+colony.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 475 }
+  experience { 192487 }
+  hp { 56, 6, 6400 }
+  alignment { 0 }
+  gold { 14242 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 4, 7, 13 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102005
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen. }
+  longdesc {
+This worker is thicker in the midsection than the soldier wasp, but does not have
+the overall size. It is most likely that this worker wasp has no other role than
+to serve the queen, and possibly as her next meal.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 10, 6, 2800 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 4, 7, 9 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102006
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen }
+  longdesc {
+This worker is callous and energetic. He lacks the size of the larger soldier to serve
+the queen in any other role.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 10, 6, 2800 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 4, 7, 9 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102007
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen. }
+  longdesc {
+This worker could use a few more pounds. It doesn't seem very interested in doing
+anything else but serving the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 10, 6, 2800 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 4, 7, 9 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102008
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen. }
+  longdesc {
+Every wasp worker has its mission and role. Some are larger and some are just small. This worker appears to want to do nothing more than work for the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 10, 6, 2800 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 4, 7, 9 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102009
+{
+  name { a wasp larvae }
+  namelist { wasp larvae }
+  shortdesc { The larvae is just here growing, and waiting to be trained. }
+  longdesc {
+The larvae is the next generation for the queen. They don't do anything and
+have no other purpose than to grow and wait to be selected by the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 200 }
+  experience { 24340 }
+  hp { 10, 6, 640}
+  alignment { 0 }
+  gold { 4010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 3, 7, 9 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  immune { sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102010
+{
+  name { a wasp larvae }
+  namelist { wasp larvae }
+  shortdesc { The larvae is just here growing, and waiting to be trained }
+  longdesc {
+This larva looks like a fresh hatchling.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 200 }
+  experience { 24340 }
+  hp { 10, 6, 640}
+  alignment { 0 }
+  gold { 4010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 3, 7, 9 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  immune { sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102011
+{
+  name { a small ugly rodent }
+  namelist { ugly rodent }
+  shortdesc { The large ugly rodent is sniffing from bush to bush and foraging for food }
+  longdesc {
+The ugly little rodent is a creature of the dense forest and has a family of other
+small rodent critters.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 25 }
+  experience { 2344 }
+  hp { 2, 33, 10 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move { 300 }
+  damage { 2, 2, 2 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  immune { charm, backstab }
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102012
+{
+  name { a pack of small rodents }
+  namelist { pack rodents }
+  shortdesc { The pack of smaller rodents are foraging for food and looking for shelter. }
+  longdesc {
+There are many rodents - at least 8 or more. They are looking for food and a place
+to shelter. They don't seem to be too bothered at the moment.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 25 }
+  experience { 2455 }
+  hp { 2, 30, 250 }
+  alignment { 0 }
+  gold { 450 }
+  hit_bonus { 12 }
+  dam_bonus { 1 }
+  attacks_per_round { 8 }
+  move { 300 }
+  damage { 1, 1, 1 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  susceptible { charm, backstab }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102013
+{
+  name { a bushy tailed squirrel }
+  namelist { squirrel }
+  shortdesc { A small bushy tailed squirrel is here runng through the forest }
+  longdesc {
+A small furry creature of the forest is here looking for nuts, plants, or any type of
+vegetation that is edible.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 20 }
+  level { 25 }
+  experience { 2465 }
+  hp { 2, 33, 300 }
+  alignment { 0 }
+  gold { 387 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move { 300 }
+  damage { 1, 1, 1 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  immune { charm, backstab }
+  act { npc, stay-zone }
+}
+
+102014
+{
+  name { a brown speckled spider }
+  namelist { brown spider }
+  shortdesc { The brown speckled spider is crawling around looking for a place to hide }
+  longdesc {
+The brown speckled spider is a friendly spider that helps keep the bug population
+from getting too large. He seems a bit bulky and has multiple legs, but may be a
+good ally.
+  }
+  race { none }
+  sex { male }
+  world_limit { 10 }
+  level { 100 }
+  experience { 8750 }
+  hp { 3, 30, 1600 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 3, 4, 20 }
+  head { -90, 12 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  susceptible { charm, backstab }
+  affected { invisible }
+  act { npc, stay-zone, scavenger }
+}
+
+102015
+{
+  name { a giant wasp guard }
+  namelist { giant guard wasp }
+  shortdesc { The Giant Guard wasp is pulling a human prisoner around by his neck collar and chain. }
+  longdesc {
+I am not sure where the human is going - but it is clear that he is a prisoner and
+does not look happy.
+  }
+  race { none }
+  sex { male }
+  world_limit { 10 }
+  level { 490 }
+  experience { 630482 }
+  hp { 240, 8, 12000 }
+  alignment { -450 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 7 }
+  attacks_per_round { 3 }
+  move { 600 }
+  damage { 4, 7, 14 }
+  head { -100, 6 }
+  body { -100, 6 }
+  arms { -100, 7 }
+  legs { -100, 7 }
+  feet { -100, 7 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, scavenger, aggressive, hunting }
+}
+
+102016
+{
+  name { a human prisoner }
+  namelist { human prisoner }
+  shortdesc { A sad looking human prisoner is here wearing a chain and collar around his neck. }
+  longdesc {
+Perhaps this human is imprisoned for just being...well human. He doesn't look
+happy, and he is closely guarded.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 10 }
+  level { 5 }
+  experience { 25 }
+  hp { 1, 1, 300 }
+  alignment { 500 }
+  gold { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move { 50 }
+  damage { 1, 1, 1 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  susceptible { charm }
+  resist_magic { -100 }
+  affected { poison }
+  act { npc, stay-zone }
+}
+
+102017
+{
+  name { a giant prison gatekeeper }
+  namelist { giant wasp gatekeeper }
+  shortdesc { A Giant wasp gatekeeper is here guarding the entrance to the prison. }
+  longdesc {
+The Giant gatekeeper wasp is ugly and has a bad disposition. Do not anger
+him or you could be his next prisoner.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 450 }
+  experience { 218000 }
+  hp { 240, 2, 8200 }
+  alignment { -350 }
+  gold { 12000 }
+  hit_bonus { 20 }
+  dam_bonus { 7 }
+  attacks_per_round { 5 }
+  move { 600 }
+  damage { 4, 8, 8 }
+  head { -75, 2 }
+  body { -75, 2 }
+  arms { -75, 2 }
+  legs { -75, 2 }
+  feet { -75, 2 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  affected { sanctuary, true-sight, infravision }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102018
+{
+  name { Daane the Weaponsmith }
+  namelist { Daane Weaponsmith }
+  shortdesc { Daane the Terberthian smithy is imprisoned in servitude for the queen. }
+  longdesc {
+The smithy is small and rotund, but not weak, after all he works with metals and
+fire on a regulary basis. He is upset that he is trapped in the servitude of the
+Queen wasp and is frequently visited by the Kings elite guard. He often thinks of
+his sister Jaana and would love to be reunited with her someday. He has no idea where
+she is.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 450 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 8 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, slee, backstab }
+  act { npc, stay-zone, sentinel, special }
+}
+
+102019
+{
+  name { Fabian the Financier }
+  namelist { Fabian Banker Financier }
+  shortdesc { Fabian the financier of Terberthia has been working for the queen and is enslaved for life. }
+  longdesc {
+Fabian does not look happy to be here. He has been enslaved by the Queen wasp
+and doesn't expect to live much longer, as he has already been warned to garner
+wages from unsuspecting humans - or else!
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 1000000 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 8 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, sleep, backstab }
+  act { npc, stay-zone, sentinel }
+}
+
+102020
+{
+  name { Henry the Healer }
+  namelist { Henry Healer }
+  shortdesc { Henry the healer does not look very satisfied in his current line of work enslaved by the Queen. }
+  longdesc {
+Henry has been told to heal the wasps using a formula give to him by the King
+Wasp. However he certainly wants to be a better healer to the Humans but has
+to be careful not to let the elite guard of the Queen's army catch him!
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 83000 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 8 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, sleep, backstab }
+  act { npc, stay-zone, sentinel }
+}
+
+102021
+{
+  name { Reagen the InnKeeper }
+  namelist { Reagen InnKeeper }
+  shortdesc { Reagen the local InnKeeper is enslaved by the queen but carefully serves weakened enemies of the colony. }
+  longdesc {
+Reagen doesn't appear to have much life left in her. She has been enslaved by
+the Queen's army, but would like to help as much as possible rid Terberthia of
+the wasp colony.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 83000 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 8 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -59, 4 }
+  feet { -50, 4 }
+  immune { charm, sleep, backstab }
+  act { npc, stay-zone, sentinel }
+}
+
+102022
+{
+  name { A Queen's Valkyrie Guard }
+  namelist { valkyrie guard }
+  shortdesc { The Elite Valkyrie Guard protects the queen with her life }
+  longdesc {
+The Valkyrie wasp guard is the Elite Guard that protects the queen at any
+cost. He is, next to the King, the most massive wasp that lives within the
+colony.
+  }
+  race { none }
+  sex { female }
+  world_limit { 2 }
+  level { 650 }
+  experience { 872000 }
+  hp { 300, 8, 49500 }
+  alignment { -350 }
+  gold { 124000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 6 }
+  move { 600 }
+  damage { 12, 8, 28 }
+  head { -160, 36 }
+  body { -160, 36 }
+  arms { -160, 36 }
+  legs { -160, 36 }
+  feet { -160, 36 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic { 90 }
+  caster { 20 }
+  spells { poison, chill touch }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102023
+{
+  name { a wasp scout }
+  namelist { wasp scout }
+  shortdesc { The wasp scout is making sure the human slaves are attending to the colony. }
+  longdesc {
+The king has hand selected these wasps to scout around the town and make sure
+the human slaves are working for the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 15 }
+  level { 450 }
+  experience { 479000 }
+  hp { 250, 6, 12500 }
+  alignment { 0 }
+  gold { 10121 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 600 }
+  damage { 4, 7, 14 }
+  head { -80, 10 }
+  body { -80, 4 }
+  arms { -80, 4 }
+  legs { -80, 4 }
+  feet { -80, 4 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic {50}
+  susceptible { electricity }
+  affected { true-sight, fly, sneak }
+  act { npc, stay-zone, aggressive, scavenger, hunting }
+}
+
+102024
+{
+  name { Travestin the Kept }
+  namelist { Travestin }
+  shortdesc { Travestin stands alone unguarded - betrayer of the Terberthian mages }
+  longdesc {
+Travestin long ago betrayed Cragmeer and the Terberthian mages.  He
+supported the queen wasp and was a traitor to his people. Now he lives among
+the wasps as a mage traitor.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 58776 }
+  hp { 40, 50, 68000 }
+  alignment { -1000 }
+  gold { 610000 }
+  hit_bonus { 32 }
+  dam_bonus { 13 }
+  attacks_per_round { 3 }
+  move { 500 }
+  damage { 6, 16, 22 }
+  head { -160, 26 }
+  body { -160, 26 }
+  arms { -160, 26 }
+  legs { -160, 26 }
+  feet { -160, 26 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  mana { 10000 }
+  susceptible { fire }
+  affected { true-sight, detect-invisible, fireshield, infravision, fly }
+  act { npc, stay-zone, sentinel, healer }
+}
+
+102025
+{
+  name { Doldomus the Traitor }
+  namelist { Doldomus }
+  shortdesc { Doldumus the mage stands here kept and unguarded, a traitor to Terberthia }
+  longdesc {
+Doldumus fooled Cragmeer and betrayed the mages of Terberthia.  He supported
+the queen wasp for rewards of countless riches and power.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1318776 }
+  hp { 400, 8, 78000 }
+  alignment { -1000 }
+  gold { 650000 }
+  hit_bonus { 32 }
+  dam_bonus { 20 }
+  attacks_per_round { 2.5 }
+  move { 500 }
+  damage { 6, 18, 24 }
+  head { -160, 26 }
+  body { -160, 26 }
+  arms { -160, 26 }
+  legs { -160, 26 }
+  feet { -160, 26 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  mana { 10000 }
+  susceptible { fire }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel }
+}
+
+102026
+{
+  name { A King's Guardian }
+  namelist { King Guardian}
+  shortdesc { The Giant guardian for the King is here protecting the loot. }
+  longdesc {
+The King's guard is securing the treasures of the colony with his life.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 650 }
+  experience { 1472000 }
+  hp { 300, 2, 67500 }
+  alignment { -350 }
+  gold { 100000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 3.5 }
+  move { 600 }
+  damage { 6, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic { 150 }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102027
+{
+  name { Borald Guardian Auctioneer }
+  namelist { Borald Guardian Auctioneer }
+  shortdesc { Borald stands tall and looks mean as he auctions and shouts to the crowd. }
+  longdesc {
+Borald is the wasp auctioneer and is quite inhumane about the way he does
+his business.  His strength and demeanor let you know that there is nothing
+to do but leave him alone.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 510 }
+  experience { 2492000 }
+  hp { 300, 2, 48500 }
+  alignment { -250 }
+  gold { 750000 }
+  hit_bonus { 22 }
+  dam_bonus { 22 }
+  attacks_per_round { 3.3 }
+  move { 500 }
+  damage { 12, 8, 28 }
+  head { -160, 36 }
+  body { -160, 36 }
+  arms { -160, 36 }
+  legs { -160, 36 }
+  feet { -160, 36 }
+  immune { charm, sleep }
+  resist_acid { 150 }
+  resist_magic { 150 }
+  affected { sanctuary, detect-invisible }
+  act { npc, stay-zone, sentinel }
+}
+
+102028
+{
+  name { a wasp slave driver }
+  namelist { wasp slave driver }
+  shortdesc { The wasp slave driver is here pushing around the enslaved. }
+  longdesc {
+The wasp slave driver is the one who reports directly to the king and finds new
+recruits to join the slave community. Wanna Join?
+  }
+  race { none }
+  sex { male }
+  world_limit { 3 }
+  level { 450 }
+  experience { 449000 }
+  hp { 300, 12, 16000 }
+  alignment { -250 }
+  gold { 12245 }
+  hit_bonus { 18 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 3, 7, 15 }
+  head { -85, 10 }
+  body { -80, 4 }
+  arms { -80, 5 }
+  legs { -80, 6 }
+  feet { -80, 7 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic {50}
+  susceptible { electricity }
+  affected { true-sight, fly, sneak }
+  act { npc, stay-zone, scavenger, aggressive }
+}
+
+102029
+{
+  name { Palmeiro the Shopkeeper }
+  namelist { Palmeiro Shopkeeper }
+  shortdesc { Palmeiro the Terberthian shopkeeper is imprisoned in servitude for the queen. }
+  longdesc {
+The shopkeep is thin and tall and is upset that he is trapped in the servitude of the
+Queen wasp.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 450 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 8 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, sleep, backstab }
+  act { npc, stay-zone, sentinel }
+}
+
+102030
+{
+  name { Redbourn the False Prophet }
+  namelist { Redbourn Prophet }
+  shortdesc { Redbourn stands alone, a traitor to his people. }
+  longdesc {
+Redbourn is a traitor and a complete fool. He designed many of the
+weapons and armor of the mages - only to be tricked into using those
+inventions against his own race.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1318776 }
+  hp { 400, 8, 55000 }
+  alignment { -1000 }
+  gold { 590000 }
+  hit_bonus { 32 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  move { 500 }
+  damage { 5, 18, 22 }
+  head { -160, 21 }
+  body { -160, 21 }
+  arms { -160, 21 }
+  legs { -160, 21 }
+  feet { -160, 21 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  mana { 10000 }
+  susceptible { fire }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel }
+}
+
+102031
+{
+  name { Tufanda the mage warrior }
+  namelist { Tufanda }
+  shortdesc { Tufanda stands with weakness and for nothing, a traitor to Terberthia }
+  longdesc {
+Tufanda fooled his elders and betrayed the mages of Terberthia.  He supported
+the queen wasp for power but only ended up being a prisoner of his own making.
+He betrayed Cragmeer and joined forces with the colony, and with the help of
+other traitors, he has almost completely destroyed his own kind.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1318776 }
+  hp { 400, 8, 55000 }
+  alignment { -1000 }
+  gold { 740000 }
+  hit_bonus { 32 }
+  dam_bonus { 18 }
+  attacks_per_round { 3 }
+  move { 500 }
+  damage { 6, 22, 21 }
+  head { -160, 16 }
+  body { -160, 16 }
+  arms { -160, 16 }
+  legs { -160, 16 }
+  feet { -160, 16 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  mana { 10000 }
+  susceptible { fire }
+  affected { true-sight, detect-invisible, fireshield, infravision, fly }
+  act { npc, stay-zone, sentinel, healer }
+}
+
+102032
+{
+  name { Baby Demi-Lich }
+  namelist { Baby Demi-Lich }
+  shortdesc { A Baby Demi-Lich stands here aggravated that it has been enslaved by the queen. }
+  longdesc {
+The Baby Demi-Lich is really upset that it is not with its undead parent and has
+been put in this cell by the queen wasp and her cronies.
+  }
+  race { undead }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 510 }
+  experience { 630000 }
+  hp { 300, 12, 26000 }
+  alignment { 0 }
+  gold { 129876 }
+  hit_bonus { 18 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 12, 2, 16 }
+  head { -150, 12 }
+  body { -150, 12 }
+  arms { -150, 12 }
+  legs { -150, 12 }
+  feet { -150, 12 }
+  immune { charm, sleep, backstab }
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  affected { true-sight, sanctuary, detect-invisible, fly }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102033
+{
+  name { Draxas Junior prince }
+  namelist { Draxas Junior prince }
+  shortdesc { The Junior Prince of Lord Draxas is here and has been enslaved by the queen. }
+  longdesc {
+Lord Draxas is mighty upset that his young Junior Prince has disappeared and has not been seen
+in years after a raid by the wasp colony.
+  }
+  race { demon }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 510 }
+  experience { 626000 }
+  hp { 300, 12, 26000 }
+  alignment { 0 }
+  gold { 134789 }
+  hit_bonus { 18 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 12, 2, 16 }
+  head { -150, 12 }
+  body { -150, 12 }
+  arms { -150, 12 }
+  legs { -150, 12 }
+  feet { -150, 12 }
+  immune { charm, sleep, backstab }
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  affected { true-sight, sanctuary, detect-invisible, fly }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102034
+{
+  name { Baby Pyros }
+  namelist { Baby dragonling Dragon Daughter Pyros}
+  shortdesc { The baby dragonling, Daughter of Pyros is here, with the queen's chain around her neck. }
+  longdesc {
+Pyros has long sensed that her dragonbourne offspring is still alive, after a
+malicious raid by the colony of wasps led by the queen.
+  }
+  race { dragon }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 510 }
+  experience { 726000 }
+  hp { 300, 12, 22000 }
+  alignment { 0 }
+  gold { 126275 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 12, 2, 19 }
+  head { -150, 12 }
+  body { -150, 12 }
+  arms { -150, 12 }
+  legs { -150, 12 }
+  feet { -150, 12 }
+  immune { charm, sleep, backstab }
+  caster { 40 }
+  spells { fireball, mage fire, sleep }
+  affected { true-sight, fireshield, detect-invisible, fly }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102035
+{
+  name { Brackenred's Daughter }
+  namelist { Brackenred Daughter}
+  shortdesc { The daughter of the Brackenred is here chained, but still alive. }
+  longdesc {
+Brackenred's daughter has been enslaved by the queen and the colony for many years
+and it is said that he communicates to her through telekenesis.
+  }
+  race { undead }
+  sex { female }
+  world_limit { 1 }
+  level { 550 }
+  experience { 826000 }
+  hp { 300, 12, 25000 }
+  alignment { 0 }
+  gold { 172275 }
+  hit_bonus { 22 }
+  dam_bonus { 22 }
+  attacks_per_round { 2.5 }
+  move { 500 }
+  damage { 12, 2, 18 }
+  head { -150, 12 }
+  body { -150, 12 }
+  arms { -150, 12 }
+  legs { -150, 12 }
+  feet { -150, 12 }
+  immune { charm, sleep, backstab }
+  caster { 60 }
+  spells { fireball, mage fire, sleep }
+  affected { true-sight, fireshield, detect-invisible, fly }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102036
+{
+  name { Wizard Son of Grand Master of Magic }
+  namelist { Wizard Son }
+  shortdesc { The Wizard Son of the Grand Master of Magic has been enslaved here by the queen. }
+  longdesc {
+During the raid of the high-tower, the wizard son was taken from the Grand Master as ransom for
+powerful items and objects to be transfered to the wasp colony to defeat the mages of terberthia.
+It looks as if the wizard son was never returned.
+  }
+  race { human }
+  sex { male }
+  world_limit { 1 }
+  level { 510 }
+  experience { 230200 }
+  hp { 300, 12, 24000 }
+  alignment { 0 }
+  gold { 199769 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 1.5 }
+  move { 500 }
+  damage { 12, 2, 16 }
+  head { -150, 24 }
+  body { -150, 24 }
+  arms { -150, 24 }
+  legs { -150, 24 }
+  feet { -150, 24 }
+  immune { charm, sleep, backstab }
+  caster { 80 }
+  spells { fireball, mage fire, sleep, ice storm, chill touch }
+  affected { true-sight, sanctuary, detect-invisible, fly }
+  act { npc, stay-zone, sentinel }
+}
+
+102037
+{
+  name { Morris the Undertaker }
+  namelist { Morris undertaker }
+  shortdesc { Morris the undertaker of Terberthia is here and will assist those in need. }
+  longdesc {
+Morris does not look happy to be here. He has been enslaved by the Queen wasp
+and doesn't expect to live much longer - fitting role he has!!
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 501 }
+  experience { 90000 }
+  hp { 50, 50, 500 }
+  alignment { 1000 }
+  gold { 100000 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  attacks_per_round { 3.5 }
+  move { 600 }
+  damage { 2, 50, 18 }
+  head { -50, 4 }
+  body { -50, 4 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, sleep, backstab }
+  act { npc, stay-zone, sentinel, special }
+}
+
+102038
+{
+  name { A Queen's Valkyrie Guard }
+  namelist { valkyrie guard }
+  shortdesc { The Elite Valkyrie Guard protects the queen with her life }
+  longdesc {
+The Valkyrie wasp guard is the Elite Guard that protects the queen at any
+cost. He is, next to the King, the most massive wasp that lives within the
+colony.
+  }
+  race { none }
+  sex { female }
+  world_limit { 2 }
+  level { 650 }
+  experience { 872000 }
+  hp { 300, 8, 19500 }
+  alignment { -350 }
+  gold { 124000 }
+  hit_bonus { 18 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move { 600 }
+  damage { 4, 17, 20 }
+  head { -80, 24 }
+  body { -80, 22 }
+  arms { -80, 22 }
+  legs { -80, 22 }
+  feet { -80, 23 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic { 90 }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, aggressive, sentinel, scavenger }
+}
+
+102039
+{
+  name { Gosellel the Powerful }
+  namelist { Gosellel Powerful }
+  shortdesc { Gosellel the Powerful is here working for the queen - and is a traitor. }
+  longdesc {
+Gosellel cannot be trusted as he aligned with the colony to destroy the mages
+for power and greed.  A once brilliant and trusted powermage - he has created a
+most unique technology. His amazing size seems irregular, irrational, and bewildering.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 4318776 }
+  hp { 400, 8, 45000 }
+  alignment { -1000 }
+  gold { 590000 }
+  hit_bonus { 44 }
+  dam_bonus { 17 }
+  attacks_per_round { 3 }
+  move { 5000 }
+  mana { 10000 }
+  power { 10000 }
+  damage { 5, 18, 17 }
+  head { -180, 14 }
+  body { -180, 14 }
+  arms { -180, 14 }
+  legs { -180, 14 }
+  feet { -180, 14 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 95 }
+  spells { fireball, mage fire, sleep }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel }
+}
+
+
+102040
+{
+  name { Yyles the Ambassador }
+  namelist { Yyles the Ambassador }
+  shortdesc { Yyles the Ambassador for the Queen wasp has hate in his eyes. }
+  longdesc {
+Another traitor to Terberthia stands before you. A double cross, a cheat, and a
+staunch killer, Yyles looks for a reason to make you uncomfortable and fearful
+of his new mistress, the Queen wasp.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1318776 }
+  hp { 400, 8, 43000 }
+  alignment { -1000 }
+  gold { 610000 }
+  hit_bonus { 24 }
+  dam_bonus { 18 }
+  attacks_per_round { 2.5 }
+  move { 5000 }
+  mana { 10000 }
+  power { 10000 }
+  damage { 5, 18,  19 }
+  head { -120, 14 }
+  body { -120, 14 }
+  arms { -120, 14 }
+  legs { -120, 14 }
+  feet { -120, 14 }
+  immune { charm, sleep }
+  resist_acid {150}
+  resist_magic {150}
+  caster { 60 }
+  spells { fireball, mage fire, sleep, blind, weak }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel }
+}
+
+102041
+{
+  name { a giant shark }
+  namelist { giant shark }
+  shortdesc { A giant shark is hungry and swims around looking for a meal. }
+  longdesc {
+A giant white shark with large teeth is here looking for a BITE to eat.
+  }
+  race { fish }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 475 }
+  experience { 492789 }
+  hp { 70, 6, 24000 }
+  alignment { 0 }
+  gold { 134242 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 5, 7, 16 }
+  head { -90, 6 }
+  body { -90, 6 }
+  arms { -90, 6 }
+  legs { -90, 6 }
+  feet { -90, 6 }
+  immune { charm, sleep, backstab }
+  susceptible { electricity }
+  affected { true-sight, detect-invisible, infravision }
+  act { npc, stay-zone, aggressive, sentinel }
+}
+
+102042
+{
+  name { a large pirahna }
+  namelist { a large pirahna }
+  shortdesc { A large pirahna with with sharp teeth passes through. }
+  longdesc {
+A large pirahna aggressively swims toward you with super sharp teeth.
+  }
+  race { fish }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 475 }
+  experience { 492487 }
+  hp { 70, 6, 20000 }
+  alignment { 0 }
+  gold { 126242 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 5, 7, 16 }
+  head { -90, 6 }
+  body { -90, 6 }
+  arms { -90, 6 }
+  legs { -90, 6 }
+  feet { -90, 6 }
+  immune { charm, sleep, backstab }
+  susceptible { electricity }
+  affected { true-sight, detect-invisible, infravision }
+  act { npc, stay-zone, aggressive, sentinel }
+}
+
+102043
+{
+  name { a jumbo electric jellyfish }
+  namelist { a jumbo electric jellyfish }
+  shortdesc { A jumbo electric jellyfish with lots of tentacles heads your way. }
+  longdesc {
+A jumbo jellyfish is loaded with stingers and giant tentacles seems to be in a hurry
+to meet you.
+  }
+  race { fish }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 475 }
+  experience { 492636 }
+  hp { 70, 6, 22000 }
+  alignment { 0 }
+  gold { 148242 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 8 }
+  move { 300 }
+  damage { 3, 5, 8 }
+  head { -90, 6 }
+  body { -90, 6 }
+  arms { -90, 6 }
+  legs { -90, 6 }
+  feet { -90, 6 }
+  immune { charm, sleep, electricity, backstab }
+  caster { 20 }
+  spells { shocking grasp, poison }
+  affected { true-sight, detect-invisible, infravision }
+  act { npc, stay-zone, aggressive, sentinel }
+}
+
+102044
+{
+  name { The Prison Warden }
+  namelist { Prison Warden }
+  shortdesc { A wasp prison warden is here protecting the prison. }
+  longdesc {
+The wasp prison warden is mean and has a fierce temper.
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 450 }
+  experience { 218000 }
+  hp { 240, 2, 8000 }
+  alignment { -350 }
+  gold { 12000 }
+  hit_bonus { 19 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  move { 600 }
+  damage { 4, 6, 8 }
+  head { -75, 2 }
+  body { -75, 2 }
+  arms { -75, 2 }
+  legs { -75, 2 }
+  feet { -75, 2 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  affected { sanctuary, true-sight, infravision }
+  act { npc, stay-zone, sentinel, aggressive }
+}
+
+102045
+{
+  name { a wasp soldier }
+  namelist { wasp soldier }
+  shortdesc { A wasp soldier isn't happy working for the queen. }
+  longdesc {
+This wasp soldier looks like it hasn't got much on the other larger soldiers in the
+colony.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 475 }
+  experience { 192487 }
+  hp { 70, 6, 6400 }
+  alignment { 0 }
+  gold { 14242 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 4, 7, 13 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102046
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen. }
+  longdesc {
+This worker is thicker in the midsection than the soldier wasp, but does not have
+the overall size. It is most likely that this worker wasp has no other role than
+to serve the queen, and possibly as her next meal.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 10, 5, 2800 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 3, 7, 8 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, aggressive, scavenger }
+}
+
+102047
+{
+  name { a giant wasp guard }
+  namelist { giant guard wasp }
+  shortdesc { The Giant Guard wasp is pulling a human prisoner around by his neck collar and chain. }
+  longdesc {
+I am not sure where the human is going - but it is clear that he is a prisoner and
+does not look happy.
+  }
+  race { none }
+  sex { male }
+  world_limit { 10 }
+  level { 490 }
+  experience { 630482 }
+  hp { 240, 8, 12000 }
+  alignment { -450 }
+  gold { 15000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  move { 600 }
+  damage { 3, 7, 14 }
+  head { -100, 6 }
+  body { -100, 6 }
+  arms { -100, 7 }
+  legs { -100, 7 }
+  feet { -100, 7 }
+  immune { charm, sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone, scavenger, aggressive, hunting }
+}
+
+102048
+{
+  name { a wasp scout }
+  namelist { wasp scout }
+  shortdesc { The wasp scout is making sure the human slaves are attending to the colony. }
+  longdesc {
+The king has hand selected these wasps to scout around the town and make sure
+the human slaves are working for the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 15 }
+  level { 450 }
+  experience { 479000 }
+  hp { 200, 6, 10000 }
+  alignment { 0 }
+  gold { 10121 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 600 }
+  damage { 4, 6, 12 }
+  head { -80, 10 }
+  body { -80, 4 }
+  arms { -80, 4 }
+  legs { -80, 4 }
+  feet { -80, 4 }
+  immune { charm, sleep, backstab }
+  resist_acid { 50 }
+  resist_magic {50}
+  susceptible { electricity }
+  affected { true-sight, fly, sneak }
+  act { npc, stay-zone, aggressive, scavenger, hunting }
+}
+
+102049
+{
+  name { a riddle monster }
+  namelist { riddle monster }
+  shortdesc { The riddle monster is just super happy to be here. }
+  longdesc {
+The riddle monster has no real purpose other than to be here
+  }
+  race { none }
+  sex { male }
+  world_limit { 1 }
+  level { 450 }
+  experience { 124340 }
+  hp { 12, 6, 1000}
+  alignment { 0 }
+  gold { 24010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 3, 7, 9 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  immune { sleep, backstab }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, stay-zone }
+}
+
+102050
+{
+  name { Newbie Mob }
+  namelist { Newbie Mob }
+  shortdesc { This is a newbie class mob }
+  longdesc {
+This is a newbie class mob
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 3000 }
+  hp { 4, 4, 190 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 1, 3, 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+102051
+{
+  name { Super Easy Mob }
+  namelist { Super Easy Mob }
+  shortdesc { This is a Super Easy Mob }
+  longdesc {
+This is a Super Easy Mob
+  }
+  race { Elven }
+  sex { Female }
+  world_limit { 2 }
+  level { 50 }
+  experience { 7700 }
+  hp { 12, 24, 600 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move { 450 }
+  damage { 2, 3, 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+102052
+{
+  name { Easy to Level 150 Mob }
+  namelist { Easy to Level 150 Mob }
+  shortdesc { This is an Easy to Level 150 Mob }
+  longdesc {
+This is an Easy to Level 150 Mob
+  }
+  race { Dwarf }
+  sex { neuter }
+  world_limit { 15 }
+  level { 190 }
+  experience { 130000 }
+  hp { 40, 40, 1200 }
+  alignment { 0 }
+  gold { 9500 }
+  hit_bonus { 18 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 2, 5, 8 }
+  head { 25, 4 }
+  body { 25, 4 }
+  arms { 25, 4 }
+  legs { 25, 4 }
+  feet { 25, 4 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+102053
+{
+  name { Medium to Level 250 Mob }
+  namelist { Medium to Level 250 Mob }
+  shortdesc { This is a Medium to Level 250 Mob }
+  longdesc {
+This is a Medium to Level 250 Mob
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 15 }
+  level { 275 }
+  experience { 325000 }
+  hp { 50, 25, 5700 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 18 }
+  dam_bonus { 13 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 4, 7, 13 }
+  head { -30, 6 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  immune { charm }
+  resist_cold { 20 }
+  resist_fire { 20 }
+  resist_magic { 20 }
+  act { npc, stay-zone }
+}
+
+102054
+{
+  name { Mid-Hard to Level 350 Mob }
+  namelist { Mid-Hard to Level 350 Mob }
+  shortdesc { This is a Mid-Hard to Level 350 Mob }
+  longdesc {
+This is a Mid-Hard to Level 350 Mob
+  }
+  race { Human }
+  sex { neuter }
+  world_limit { 2 }
+  level { 375 }
+  experience { 420000 }
+  hp { 50, 30, 9000 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 19 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 5, 8, 17 }
+  head { -70, 10 }
+  body { -70, 10 }
+  arms { -70, 10 }
+  legs { -70, 10 }
+  feet { -70, 10 }
+  immune { charm }
+  resist_acid { 25 }
+  resist_fire { 25 }
+  resist_magic { 25 }
+  act { npc, stay-zone, aggressive }
+}
+
+102055
+{
+  name { Hard to Level 450 Mob }
+  namelist { Hard to Level 450 Mob }
+  shortdesc { This is a Hard to Level 450 Mob }
+  longdesc {
+This is a Hard to Level 450 Mob
+  }
+  race { Dragon }
+  sex { neuter }
+  world_limit { 15 }
+  level { 490 }
+  experience { 845000 }
+  hp { 60, 40, 16600 }
+  alignment { 0 }
+  gold { 145000 }
+  hit_bonus { 22 }
+  dam_bonus { 19 }
+  attacks_per_round { 4 }
+  move { 600 }
+  damage { 12, 4, 19 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  immune { charm }
+  resist_acid { 25 }
+  resist_cold { 15 }
+  resist_electricity { 10 }
+  resist_energy { 10 }
+  resist_fire { 20 }
+  resist_force { 10 }
+  resist_magic { 5 }
+  resist_poison { 20 }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone, aggressive, hunting, nosummon, scavenger }
+}
+
+102056
+{
+  name { Difficult to Level 500 Mob }
+  namelist { Difficult to Level 500 Mob }
+  shortdesc { This is a Difficult to Level 500 Mob }
+  longdesc {
+This is a Difficult to Level 500 Mob
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 15 }
+  level { 550 }
+  experience { 1500000 }
+  hp { 40, 100, 44000 }
+  alignment { 0 }
+  gold { 1000000 }
+  hit_bonus { 24 }
+  dam_bonus { 28 }
+  attacks_per_round { 5 }
+  move { 600 }
+  damage { 12, 8, 28 }
+  head { -145, 25 }
+  body { -145, 25 }
+  arms { -145, 25 }
+  legs { -145, 25 }
+  feet { -145, 25 }
+  immune { charm }
+  resist_acid { 25 }
+  resist_cold { 25 }
+  resist_electricity { 25 }
+  resist_energy { 25 }
+  resist_fire { 25 }
+  resist_force { 25 }
+  resist_magic { 25 }
+  resist_poison { 25 }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone, aggressive, hunting, nosummon, scavenger }
+}
+
+102057
+{
+  name { Uber Class Mob }
+  namelist { Uber Class Mob }
+  shortdesc { This is an Uber Class Mob. }
+  longdesc {
+This is an Uber Class Mob.
+  }
+  race { Undead }
+  sex { Male }
+  world_limit { 2 }
+  level { 605 }
+  experience { 2400000 }
+  hp { 32, 32, 95000 }
+  alignment { 0 }
+  gold { 2200000 }
+  hit_bonus { 40 }
+  dam_bonus { 28 }
+  attacks_per_round { 6 }
+  move { 800 }
+  damage { 4, 40, 44 }
+  head { -160, 80 }
+  body { -160, 80 }
+  arms { -160, 80 }
+  legs { -160, 80 }
+  feet { -160, 80 }
+  immune { charm }
+  resist_acid { 150 }
+  resist_fire { 150 }
+  resist_magic { 150 }
+  caster { 60 }
+  spells { acid blast, chill touch, dispel magic, mage fire, sleep }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone, aggressive, deadly, hunting, nosummon, scavenger, sentinel }
+}

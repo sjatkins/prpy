@@ -1,0 +1,209 @@
+1301
+{
+  name { The Rook }
+  namelist { rook }
+  shortdesc { A Rook is standing here. }
+  longdesc {
+A tall knight of Canticle.  The Rook, a veteran of many holy wars is
+dressed in golden armor.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 19 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 1, 1, 98  }
+  move { 300 }
+  experience { 1763 }
+  damage { 2, 5, 1  }
+  act { sentinel, scavenger, stay-zone }
+}
+
+1302
+{
+  name { The Old Frump }
+  namelist { frump }
+  shortdesc { An Old Frump sweeps past you. }
+  longdesc {
+An old Frump stands here cleaning up.  The ugly hag appears to be at least
+100 years old.  She looks at you with a scowl.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 25 }
+  alignment { -750 }
+  gold { 175 }
+  hit_bonus { 9 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 1, 1, 125  }
+  move { 300 }
+  experience { 2454 }
+  damage { 2, 6, 1  }
+  act { scavenger, aggressive, stay-zone }
+}
+
+1303
+{
+  name { The Gargon }
+  namelist { gargon }
+  shortdesc { The Gargon stands here mixing the brew. }
+  longdesc {
+The kitchen witch is a horrible sight.  She is filthy and covered with
+warts.  The witch looks ready to cast a spell.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -800 }
+  gold { 300 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 1, 1, 161  }
+  move { 300 }
+  experience { 3342 }
+  damage { 2, 7, 1  }
+  act { sentinel, stay-zone }
+}
+
+1304
+{
+  name { The Blue Rook }
+  namelist { blue rook }
+  shortdesc { The Blue Rook is sitting here at this desk. }
+  longdesc {
+A grand knight.  He looks extremely strong, and glows with a blue haze.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 42 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 18 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 1, 1, 240  }
+  move { 300 }
+  experience { 5390 }
+  damage { 3, 6, 3  }
+  act { sentinel, stay-zone }
+}
+
+1305
+{
+  name { The Sentinel }
+  namelist { sentinel }
+  shortdesc { The Sentinel stands at his post. }
+  longdesc {
+A stolid, stoic soldier.  He glares icily at the surrounding area.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 23 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 1, 1, 115  }
+  move { 300 }
+  experience { 2138 }
+  damage { 2, 5, 1  }
+  act { sentinel, stay-zone }
+}
+
+1306
+{
+  name { The Demiwolf }
+  namelist { demiwolf }
+  shortdesc { A Demiwolf skulks here, guarding the entrance. }
+  longdesc {
+A viscious wolf grinds its teeth and growls at you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 50 }
+  alignment { -400 }
+  gold { 900 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 1, 1, 400  }
+  move { 300 }
+  experience { 7792 }
+  damage { 2, 7, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1307
+{
+  name { The Overlord }
+  namelist { overlord }
+  shortdesc { The Overlord stands here. }
+  longdesc {
+A great Demi-God, the Overlord.  His eyes flicker gold and his face is pure
+bronze.  He tells you it would be wise to leave now.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 187 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 1, 1, 1245  }
+  move { 300 }
+  experience { 71290 }
+  damage { 7, 6, 4  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+

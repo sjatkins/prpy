@@ -1,0 +1,922 @@
+9101
+{
+  name { The screaming, filthy harpy }
+  namelist { harpy }
+  shortdesc { The screaming, filthy harpy claws madly at your face! }
+  longdesc {
+The harpy looks at you with blood in her eyes.  Her entire body is
+caked in filth and grime and she stinks to high heaven.  Her razor-
+sharp talons flex as she considers you for her dinner.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1800  }
+  move { 200 }
+  experience { 275342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9102
+{
+  name { The screaming harpy leader }
+  namelist { harpy leader }
+  shortdesc { The screaming harpy leader tries to scratch your eyes out! }
+  longdesc {
+The harpy leader looks at you and grins menacingly.  She stretches
+her wings and you see insects crawling around them.  Her hair is
+matted and greasy and you are sickened by the stench that pervades
+her presence.
+  }
+  race { none }
+  height { 200 }
+  level { 338 }
+  alignment { -999 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 11 }
+  attacks_per_round { 3.3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1950  }
+  move { 200 }
+  experience { 225342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9103
+{
+  name { The ghostly air elemental }
+  namelist { air elemental }
+  shortdesc { The ghostly air elemental. }
+  longdesc {
+The air elemental is hard to see.  You know that it is there
+because objects behind it seem to waver and are slightly blurred.
+  }
+  race { none }
+  height { 200 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 290342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9104
+{
+  name { The mysterious effreeti }
+  namelist { mysterious effreeti }
+  shortdesc { The mysterious effreeti grins in delight at its new prey. }
+  longdesc {
+The effreeti towers menacingly over you.  It is dressed in the
+finest ghostly silks and a headdress with an elaborate brooch.
+  }
+  race { none }
+  height { 200 }
+  level { 238 }
+  alignment { -999 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 11 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 350342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9105
+{
+  name { The gigantic roc }
+  namelist { roc }
+  shortdesc { The gigantic roc. }
+  longdesc {
+This bird has a wingspan that stretches several spearlengths.  It
+moves surprisingly fast for something of its size.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 290342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9106
+{
+  name { The gigantic roc }
+  namelist { roc }
+  shortdesc { The gigantic roc stares menacingly at you. }
+  longdesc {
+This bird has a wingspan that stretches several spear-lengths.  It
+moves surprisingly fast for something of its size.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 290342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9107
+{
+  name { the ugly, wicked witch }
+  namelist { wicked witch }
+  shortdesc { The ugly, wicked witch cackles maniacally. }
+  longdesc {
+The witch has jet black hair and sickly green skin.  She is covered
+with warts and boils.  Her nails are long and sharp and look like
+they would be quite painful.  Her eyes pierce your very soul.
+  }
+  race { human }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 10000 }
+  caster { 15 }
+  hit_bonus { 21 }
+  dam_bonus { 11 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 2000  }
+  move { 200 }
+  experience { 419342 }
+  damage { 3, 8, 12  }
+  spells { shriek, dispel magic }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9191
+{
+  name { the orc }
+  namelist { orc }
+  shortdesc { A ugly orc is standing here. }
+  longdesc {
+Yrkk..
+  }
+  race { orc }
+  level { 1 }
+  alignment { -200 }
+  gold { 500 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 176 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  affected { infravision }
+  act { aggressive, stay-zone, wimpy }
+}
+
+9200
+{
+  name { the Elite Hill Giant }
+  namelist { Elite Hill Giant }
+  shortdesc { There is a very large Hill Giant standing here. }
+  longdesc {
+A 10 and 1/2 foot tall humanoid stands before you. He has reddish brown skin,
+black hair and red rimmed eyes. He is wearing the hides of some large creature.
+He strangely appears a bit more alert than your average hill giant.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -380 }
+  gold { 1000 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 32395 }
+  damage { 2, 8, 9  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9201
+{
+  name { the Hill Giant Chieftain }
+  namelist { Hill Giant Chieftain }
+  shortdesc { The Chieftain of the Hill Giants is standing here. }
+  longdesc {
+The largest and meanest looking Hill Giant you have ever seen stands before
+you. He has the scars from many bodies across his body. He is wearing some
+hides of a very large dragon. He returns you look with a look of pure and utter
+hatred.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { -500 }
+  gold { 2000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 160360 }
+  damage { 2, 8, 9  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+9202
+{
+  name { The Hill Giant Chieftess }
+  namelist { Hill Giant Chieftess }
+  shortdesc { The Chieftess of the Hill Giants is standing here. }
+  longdesc {
+The largest female you have ever seen stands before you. She has a moose skin
+wrapped around her shoulders. You smell the scent of "Eau de Giant" originating
+from her. She appears to be heading off to go shopping. A huge stone VISA card
+is clenched between her fingers.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { -351 }
+  gold { 900 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 8734 }
+  damage { 2, 6, 6  }
+  resistant { fire, electricity }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9203
+{
+  name { The Cloud Giant Ambassador }
+  namelist { Cloud Giant Ambassador }
+  shortdesc { The Ambassador of the Cloud Giants is standing here. }
+  longdesc {
+A strange looking giant stands before you. He has a light blue skin, silver
+hair, and is about 18 feet tall. He is wearing a badge of the Cloud Giant Clan
+from the east. He looks at you with an interested look in his eyes.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 10 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 20, 6 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  hp { 4, 152, 604  }
+  move { 300 }
+  experience { 26814 }
+  damage { 6, 6, 9  }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+9204
+{
+  name { The Stone Giant }
+  namelist { Stone Giant Visitor }
+  shortdesc { A large Stone Giant is standing here. }
+  longdesc {
+A 12 foot tall, gray skinned, silver eyed giant with blue-gray hair stands
+before you. He has a stoney appearance to his skin. His rock colored garments
+make him tough to pick out from the shadows of the light.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 11788 }
+  damage { 3, 10, 8  }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9205
+{
+  name { The Cave Bear }
+  namelist { Cave Bear }
+  shortdesc { A large Cave Bear is standing here. }
+  longdesc {
+A incredibly large bear stands on his hind legs before you. He has got to be a
+full 12 foot tall! The bear has a dark brown fur coloring and its growl is very
+loud and powerful sounding.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2.5 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3315 }
+  damage { 1, 10, 2  }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+9206
+{
+  name { The Dwarf }
+  namelist { Insane Dwarf }
+  shortdesc { A Dwarf with a crazed look in his eyes paces around the room frantically. }
+  longdesc {
+He appears to have been a great warrior at one time, now driven insane through
+some inhuman torture. Scars cover his body and he has a strange, confused look
+in his eyes. He is frothing from the mouth and muttering something to himself.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { -380 }
+  gold { 2200 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18457 }
+  damage { 1, 3, 4  }
+  resistant { electricity }
+  act { aggressive }
+}
+
+9207
+{
+  name { The Keeper of the Hill Giants }
+  namelist { Hill Giant Keeper }
+  shortdesc { A large, hunchbacked Hill Giant is standing here. }
+  longdesc {
+This hill giant has a large hump over one shoulder. He is missing one eye and
+walks with a limp. His scars show him to be a warrior of great age and his arms
+show that he still has great strength.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 10, 7 }
+  body { 10, 7 }
+  arms { 10, 7 }
+  legs { 10, 7 }
+  feet { 10, 7 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 60851 }
+  damage { 2, 8, 8  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+9208
+{
+  name { The Undead Priestess }
+  namelist { Undead Priestess }
+  shortdesc { A priestess is standing here, it's flesh falling off its bones. }
+  longdesc {
+A humanoid that once appears to have been a cleric is standing here. Its flesh
+is rotted away in many places. Empty eyesockets turn stare at you, a strange
+internal light glowing inside them.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 13168 }
+  damage { 1, 10, 3  }
+  resistant { fire, electricity }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive }
+}
+
+9209
+{
+  name { The Undead Hill Giant }
+  namelist { Undead Hill Giant }
+  shortdesc { A skeletal hill giant stands before you }
+  longdesc {
+The body of once might have been a Giant has been animated into what you now
+see. The flesh of the creature is rotted and missing in many places. It turns
+in your direction and points at you!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 184 }
+  alignment { -750 }
+  gold { 5000 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 184, 812  }
+  move { 300 }
+  experience { 46565 }
+  damage { 3, 5, 8  }
+  immune { charm }
+  resistant { fire, electricity }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+9210
+{
+  name { A troglodyte }
+  namelist { troglodyte trog }
+  shortdesc { A small troglodyte stands here }
+  longdesc {
+She smells repulsive.
+  }
+  race { troll }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 2.5 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 972 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { wimpy }
+}
+
+9211
+{
+  name { a gnoll }
+  namelist { gnoll }
+  shortdesc { A gnoll stands here, he looks mean. }
+  longdesc {
+He is dressed in yellow rags, and has a dog-like face.  He is not very much
+fun to stare at like this.  People are looking at you
+  }
+  race { goblin }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -450 }
+  gold { 130 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { aggressive, wimpy }
+}
+
+9212
+{
+  name { An ogre }
+  namelist { ogre }
+  shortdesc { An ogre stands here, grinning at you }
+  longdesc {
+He is rather large, and nasty looking.  You are well aware of his huge
+muscles.  Pissing him off is not a good idea.
+  }
+  race { ogre }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -400 }
+  gold { 130 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 1, 10, 6  }
+  immune { charm }
+  affected { infravision }
+  act { aggressive, wimpy }
+}
+
+9213
+{
+  name { A carrion crawler }
+  namelist { carrion crawler }
+  shortdesc { A carrion crawler searches for food here. }
+  longdesc {
+It is a grotesque beast, with numerous legs, and strange tentacles
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 8 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 1088 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  act { special, aggressive, wimpy }
+}
+
+9214
+{
+  name { a manticore }
+  namelist { manticore }
+  shortdesc { A manticore stands here, tail thrashing. }
+  longdesc {
+It is like a lion, but with a spiked tail.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -500 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 2.5 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2376 }
+  damage { 1, 5, 1  }
+  immune { charm }
+  act { aggressive, wimpy }
+}
+
+9215
+{
+  name { the orc }
+  namelist { orc }
+  shortdesc { The orc walks around, looking for someone to kill. }
+  longdesc {
+You notice an evil look in his eyes
+  }
+  race { orc }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -400 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 879 }
+  damage { 1, 6, 1  }
+  act { aggressive, stay-zone }
+}
+
+9216
+{
+  name { the bugbear }
+  namelist { bugbear }
+  shortdesc { A hairy bugbear stands here. }
+  longdesc {
+It looks like a walking carpet.
+  }
+  race { goblin }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -100 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 929 }
+  damage { 2, 4, 1  }
+  act { aggressive }
+}
+
+9217
+{
+  name { An adult blue dragon }
+  namelist { blue Dragon adult }
+  shortdesc { An incredibly huge blue dragon sits here. }
+  longdesc {
+You see a very large blue dragon before you. It appears to be quite old.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 105 }
+  alignment { -1000 }
+  gold { 2500 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 2.5 }
+  head { 20, 4 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  hp { 4, 104, 600  }
+  move { 300 }
+  experience { 21576 }
+  damage { 1, 12, 3  }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, sentinel }
+}
+9218
+{
+  name { The screaming, angry harpy }
+  namelist { harpy }
+  shortdesc { The screaming, angry harpy claws madly at your face! }
+  longdesc {
+The harpy looks at you with blood in her eyes.  Her entire body is
+caked in filth and grime and she stinks to high heaven.  Her razor-
+sharp talons flex as she considers you for her dinner.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1800  }
+  move { 200 }
+  experience { 275342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+9219
+{
+  name { The screaming, ugly harpy }
+  namelist { harpy }
+  shortdesc { The screaming, ugly harpy claws madly at your face! }
+  longdesc {
+The harpy looks at you with blood in her eyes.  Her entire body is
+caked in filth and grime and she stinks to high heaven.  Her razor-
+sharp talons flex as she considers you for her dinner.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1800  }
+  move { 200 }
+  experience { 275342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+9220
+{
+  name { The screaming, dirty harpy }
+  namelist { harpy }
+  shortdesc { The screaming, dirty harpy claws madly at your face! }
+  longdesc {
+The harpy looks at you with blood in her eyes.  Her entire body is
+caked in filth and grime and she stinks to high heaven.  Her razor-
+sharp talons flex as she considers you for her dinner.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1800  }
+  move { 200 }
+  experience { 275342 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+

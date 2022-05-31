@@ -1,0 +1,435 @@
+57500
+{
+  name { Guard }
+  namelist { Guard giant }
+  shortdesc { A Guard stands here ignoring you. }
+  longdesc {
+This Giant of a guard seems prepared to defend his castle
+  }
+  race { giant }
+  height { 320 }
+  level { 281 }
+  alignment { 250 }
+  gold { 20000 }
+  hit_bonus { 16 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  head { -100, 5 }
+  body { -90, 6 }
+  arms { -70, 5 }
+  legs { -70, 5 }
+  feet { -60, 5 }
+  hp { 10, 50, 3000  }
+  move { 500 }
+  experience { 304686 }
+  damage { 4, 6, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+57501
+{
+  name { Royal Guard }
+  namelist { Royal Guard Giant }
+  shortdesc { A Royal Guard stands here smiling proudly. }
+  longdesc {
+The Royal guard Stands here wearing his gleaming armor, Hiseyes peer into yours
+as he searchs for any dent in your armor
+  }
+  race { human }
+  height { 330 }
+  level { 368 }
+  alignment { 300 }
+  gold { 27500 }
+  hit_bonus { 18 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -100, 5 }
+  body { -100, 7 }
+  arms { -90, 5 }
+  legs { -90, 5 }
+  feet { -80, 6 }
+  hp { 10, 100, 6250  }
+  move { 600 }
+  experience { 447571 }
+  damage { 4, 8, 25  }
+  resist_magic {100}
+  immune { charm }
+  group_with { 57503 }
+  affected { detect-invisible, infravision }
+  act { sentinel }
+}
+
+57502
+{
+  name { The captain of the guard }
+  namelist { Captain giant }
+  shortdesc { The Captain of the guards stands here watching his Royal Guards }
+  longdesc {
+The Captain holds alot of power in this realm.
+  }
+  race { human }
+  height { 350 }
+  level { 368 }
+  alignment { 300 }
+  gold { 27500 }
+  hit_bonus { 19 }
+  dam_bonus { 16 }
+  attacks_per_round { 4.4 }
+  head { -100, 8 }
+  body { -100, 10 }
+  arms { -100, 8 }
+  legs { -100, 8 }
+  feet { -100, 8 }
+  hp { 10, 50, 16500  }
+  move { 1000 }
+  experience { 503348 }
+  damage { 5, 10, 15  }
+  immune { charm }
+  resist_magic {100}
+  affected { detect-invisible, sanctuary }
+  act { sentinel }
+  group_with { 57503 }
+}
+
+57503
+{
+  name { King Nodonn }
+  namelist { King Giant Nodonn }
+  shortdesc { King Nodonn stands here looking Regal }
+  longdesc {
+King Nodonn seems mighty busy, and mighty strong.
+  }
+  race { human }
+  height { 380 }
+  level { 509 }
+  alignment { -100 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -100, 17 }
+  body { -100, 18 }
+  arms { -100, 16 }
+  legs { -100, 16 }
+  feet { -100, 16 }
+  hp { 20, 80, 24000  }
+  move { 1000 }
+  experience { 3606796 }
+  damage { 9, 9, 40  }
+  caster { 75 }
+  spells { meteor swarm, mage fire }
+  mana { 10000 }
+  resist_magic {100}
+  immune { energy, poison, sleep, charm, fire }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel, nosummon }
+}
+
+57504
+{
+  name { Queen Merce }
+  namelist { queen giant merce }
+  shortdesc { Queen Merce looks down upon you sadly. }
+  longdesc {
+from long ago, she looks capable of defending herself.
+  }
+  race { human }
+  height { 350 }
+  level { 457 }
+  alignment { 300 }
+  gold { 35000 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  head { -100, 6 }
+  body { -100, 7 }
+  arms { -100, 5 }
+  legs { -100, 5 }
+  feet { -100, 5 }
+  hp { 10, 50, 9500  }
+  move { 800 }
+  experience { 543312 }
+  damage { 4, 8, 20  }
+  immune { charm }
+  resist_magic {100}
+  affected { detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+57505
+{
+  name { Aluteyn }
+  namelist { aluteyn giant }
+  shortdesc { Aluteyn walks around staring at the walls. }
+  longdesc {
+Aluteyn, royal cousin to Nodonn, looks like he is here for more then just a visit.
+  }
+  race { human }
+  height { 320 }
+  level { 225 }
+  alignment { 200 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -95, 1 }
+  body { -90, 2 }
+  arms { -90, 1 }
+  legs { -90, 1 }
+  feet { -90, 2 }
+  hp { 5, 20, 1950  }
+  move { 400 }
+  experience { 193430 }
+  damage { 3, 8, 8  }
+  immune { charm }
+  resistant { energy, slash }
+  affected { detect-invisible }
+  act { npc, nosummon }
+}
+
+57506
+{
+  name { Servent }
+  namelist { Servent }
+  shortdesc { A Servent stands here doing some house work }
+  longdesc {
+This dusty old  servent doesnt seem quite content wish his job.
+  }
+  race { human }
+  level { 50 }
+  alignment { 100 }
+  gold { 900 }
+  hit_bonus { 5 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 10, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 0, 0 }
+  hp { 10, 20, 300  }
+  move { 300 }
+  experience { 8094 }
+  damage { 2, 8, 4  }
+  immune { charm }
+  act { wimpy }
+}
+
+57507
+{
+  name { Prisoner }
+  namelist { prisoner }
+  shortdesc { A prisoner stands here, seeking blindly for the exit. }
+  longdesc {
+this dude looks pathatic, he has been here for quite some time.
+  }
+  race { human }
+  level { 47 }
+  alignment { -1000 }
+  gold { 700 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 90, 1 }
+  hp { 10, 15, 260  }
+  move { 300 }
+  experience { 6786 }
+  damage { 6, 4, 8  }
+  act { aggressive }
+}
+
+57508
+{
+  name { Death Knight }
+  namelist { death knight }
+  shortdesc { Someone reachs for your soul. }
+  longdesc {
+This ghastly remains  of a once great warrior reachs hungrily for your soul.
+  }
+  race { undead }
+  height { 200 }
+  level { 299 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 17 }
+  dam_bonus { 24 }
+  attacks_per_round { 6 }
+  head { -100, 1 }
+  body { -100, 2 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 20, 100, 2975  }
+  move { 1000 }
+  experience { 396058 }
+  damage { 8, 5, 50  }
+  immune { energy, pierce, sleep, charm }
+  affected { detect-invisible, sanctuary }
+  act { aggressive, nosummon }
+}
+
+57509
+{
+  name { Alastrasza the Red Dragon }
+  namelist { Alastrasza red dragon }
+  shortdesc { Alastrasza the Red Dragon sees you and strikes! }
+  longdesc {
+Alastrasza is an ancient red dragon.  She is so old, and grown so big
+that she can not escape the gigantic cavern that imprisons her.  There
+are rumours that Tiamat herself is this dragons sire.  Although, most
+likely, those are just rumours.  She will not be an easy foe to defeat.
+  }
+  race { Dragon }
+  sex { female }
+  height { 800 }
+  level { 610 }
+  alignment { -1000 }
+  gold { 925000 }
+  hit_bonus { 40 }
+  dam_bonus { 31 }
+  attacks_per_round { 4.5 }
+  head { -120, 25 }
+  body { -120, 30 }
+  arms { -110, 28 }
+  legs { -100, 26 }
+  feet { -100, 28 }
+  hp { 200, 50, 41000  }
+  move { 800 }
+  experience { 2800000 }
+  damage { 2, 20, 25  }
+  immune { backstab, charm, fire, hold, sleep }
+  affected { detect-invisible, sanctuary, infravision, nosleep, nofear }
+  spells { sanctuary, fireshield, fireball, fire breath, gust of wind, firestorm, fire bolt, inferno }
+  act { sentinel, aggressive, healer, stay-zone, nosummon }
+}
+
+57510
+{
+  name { Hill Giant }
+  namelist { Hill giant }
+  shortdesc { A Hill giant stands here looking all gloomy. }
+  longdesc {
+ This hill giant seems to be inprisoned, and doesnt seem to happy about it.
+  }
+  race { giant }
+  height { 290 }
+  level { 207 }
+  alignment { 100 }
+  gold { 7000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { 20, 8 }
+  body { 30, 8 }
+  arms { 25, 8 }
+  legs { 35, 8 }
+  feet { 40, 8 }
+  hp { 15, 20, 1500  }
+  move { 500 }
+  experience { 103730 }
+  damage { 6, 4, 2  }
+  immune { charm }
+}
+
+57511
+{
+  name { Magus }
+  namelist { Magus }
+  shortdesc { Magus is here standing over an experiment in progress. }
+  longdesc {
+This wizard has to be the biggest wizard you have ever seen.
+He seems quite drained from the experiments he has been doing.  Yet you are sure he
+will be a worthy  challange
+  }
+  race { human }
+  height { 295 }
+  level { 306 }
+  alignment { -800 }
+  gold { 22500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -100, 3 }
+  body { -100, 4 }
+  arms { -100, 4 }
+  legs { -90, 3 }
+  feet { 100, 12 }
+  hp { 5, 15, 4200  }
+  move { 400 }
+  experience { 398861 }
+  damage { 3, 7, 6  }
+  immune { charm }
+  affected { detect-invisible, sanctuary, fireshield }
+  act { sentinel, aggressive, wimpy }
+}
+
+57512
+{
+  name { Vie-Tiamen }
+  namelist { vie tiamen via-tiamen king }
+  shortdesc { Vie-Tiamen is floating here reaching for you!!! }
+  longdesc {
+Two pulsasting red orbs float in an formless cloud of misty death.  This
+King-lich is radiating truely awsome power.  You tremble in fear as he reachs
+ for you.
+  }
+  mana { 10000 }
+  race { undead }
+  height { 500 }
+  level { 595 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 13 }
+  body { -100, 15 }
+  arms { -100, 14 }
+  legs { -100, 15 }
+  feet { -100, 18 }
+  hp { 10, 500, 20000  }
+  move { 1000 }
+  experience { 652695 }
+  damage { 5, 60, 40  }
+  caster { 99 }
+  spells { fireball, mage fire }
+  immune { energy, pierce, poison, sleep, charm }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel, aggressive }
+}
+
+57513
+{
+  name { Birdy }
+  namelist { birdy bird }
+  shortdesc { Birdy is flying merrily about. }
+  longdesc {
+This cute bird looks happy flying about and around.  The bird seems harmless enough
+  }
+  race { none }
+  height { 5 }
+  level { 3 }
+  alignment { 1000 }
+  gold { 100 }
+  hit_bonus { 15 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 60, 0 }
+  body { 50, 0 }
+  arms { 65, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 5, 20  }
+  move { 400 }
+  experience { 432 }
+  damage { 1, 2, 1  }
+  immune { charm }
+  act { wimpy }
+}
+

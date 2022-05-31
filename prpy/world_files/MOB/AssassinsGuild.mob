@@ -1,0 +1,412 @@
+70001
+{
+  name { Tigershark }
+  namelist { tigershark shark }
+  shortdesc { A large striped shark swims by. }
+  longdesc {
+   This large predatory fish has to be one of mother natures most perfect
+killers.  Rows of razor sharp teeth grin your way in a way saying 'lunch'.
+}
+  class { warrior }
+  race { fish }
+  height { 244 }
+  level { 120 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15  }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { 40,1 }
+  body { 40,1 }
+  arms { 40,1 }
+  legs { 40,1 }
+  feet { 40,1 }
+  hp { 15, 50, 1400}
+  move { 550 }
+  experience { 175000 }
+  damage { 3, 4, 10 }
+  immune { cold  }
+  affected { sense-life }
+  act { scavenger, stay-zone }
+  spell_power { 100 }
+  armor_penetration { 100 }
+  fire_penetration { 100 }
+  cold_penetration { 100 }
+  electricity_penetration { 100 }
+  water_penetration { 100 }
+  acid_penetration { 100 }
+  poison_penetration { 100 }
+  force_penetration { 100 }
+  magic_penetration { 100 }
+  light_penetration { 100 }
+  dark_penetration { 100 }
+
+}
+70002
+{
+  name { jellyfish }
+  namelist { jellyfish }
+  shortdesc { A small jellyfish floats by in the currents. }
+  longdesc {
+   This strange creature uses the currents as it's main way of locomotion.  Several
+tentacles run from it's gelatenous body.
+}
+  class { warrior }
+  race { fish }
+  height { 92 }
+  level { 15 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 95,0 }
+  body { 95,0 }
+  arms { 95,0 }
+  legs { 95,0 }
+  feet { 95,0 }
+  hp { 5, 15, 535 }
+  move { 500 }
+  experience { 11000 }
+  damage { 3 , 5 , 5 }
+  immune { blunt }
+  susceptible { charm }
+  act { stay-zone }
+  affected { water-breath }
+}
+70003
+{
+  name { snapper }
+  namelist { snapper fish }
+  shortdesc { A medium sized red fish swims bye. }
+  longdesc {
+   This reef predator is covered with tiny red and silver scales, which help camoflauge
+the fish on it's daily life.
+}
+  race { fish }
+  height { 61 }
+  level { 50 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 8 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 80,2 }
+  body { 80,2 }
+  arms { 80,2 }
+  legs { 80,2 }
+  feet { 80,2 }
+  hp { 60 , 3 , 700 }
+  move { 560 }
+  experience { 50000 }
+  damage { 4, 5, 5 }
+  immune { cold, charm }
+  act { stay-zone, scavenger }
+  affected { water-breath}
+}
+70004
+{
+  name { hermitcrab }
+  namelist { crab hermit hermitcrab }
+  shortdesc { A small crab moves around the beach. }
+  longdesc {
+   This small crab scurries along the beach with it's home on it's back.  When the crab
+gets too big for the house it carries now it will seek out a new one.
+}
+  height { 25 }
+  race { lizard }
+  level { 25 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 6 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 70,1 }
+  body { 70,5 }
+  arms { 70,0 }
+  legs { 100,0 }
+  feet { 100,0 }
+  hp { 12, 6, 1000 }
+  move { 500 }
+  experience { 32000 }
+  damage { 2, 3, 2 }
+  immune { pierce, blunt }
+  susceptible  { charm }
+  resistant { fire }
+  act { wimpy }
+}
+70005
+{
+  name { bluering }
+  namelist { ocyopus bluering }
+  shortdesc { A tiny octopus with small blue rings all over it's body hides here.  }
+  longdesc {
+   This tiny octopus is one of those most beautiful octopod in the sea.  It's body is
+covered in tiny bright blue rings.  These rings aren't just for decoration, but also
+to serve a poison warning to all who see it.
+}
+  race { fish }
+  height { 13 }
+  level { 75 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  head { 70,0 }
+  body { 70,0 }
+  arms { 70,0 }
+  legs { 70,0 }
+  feet { 70,0 }
+  hp { 50, 2, 1500 }
+  move { 600 }
+  experience { 100000 }
+  damage { 2, 2, 3 }
+  immune { blunt }
+  act { scavenger, stay-zone, deadly }
+  affected { water-breath, hide }
+}
+70006
+{
+  name { hammerhead }
+  namelist { hamerhead shark }
+  shortdesc { A large shark with a hammer-like head swims by. }
+  longdesc {
+   This large meateater searches the ocean waters for it's next meal.  The wide "hammer"
+head serves as a radar of sorts.  Sending out electrical signals that pick up on it's
+next meal.
+}
+  race { fish }
+  class { warrior }
+  height { 335 }
+  level { 150 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 18 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { -60,1 }
+  body { -60,1 }
+  arms { -60,1 }
+  legs { -60,1 }
+  feet { -60,1}
+  hp { 35, 42, 3200 }
+  move { 650 }
+  experience { 160000 }
+  damage { 5, 6, 4 }
+  immune { electricity }
+  susceptible { pierce }
+  act { aggressive, stay-zone, scavenger }
+  affected { water-breath, true-sight }
+}
+70007
+{
+  name { Seagull }
+  namelist { seadull bird }
+  shortdesc { A sqaucking white sea bird spirals in the air currents from the sea. }
+  longdesc {
+   This bird doesn't seem to do anything important for the grand plan of the ocean.
+It's  loud squacking can be heard for houndreds of feet away as it abd many like it
+dart in and out of the waters for food.
+}
+  race { bird }
+  height { 61 }
+  level { 25 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 3 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 100,0 }
+  body { 100,0 }
+  arms { 100,0 }
+  legs { 100,0 }
+  feet { 100,0 }
+  hp { 15, 5, 800 }
+  move { 500 }
+  experience { 2630 }
+  damage { 2, 2, 3 }
+  immune { cold }
+  affected { fly }
+  act { wimpy, stay-zone }
+}
+70008
+{
+  name { eel }
+  namelist { eel }
+  shortdesc { A large green eels peers at you from the shadows. }
+  longdesc {
+   This snake like eel watches you from is't hole with a wide open mouth showing
+you rows of needle sharp teeth.  The majority of it's green body is hidden in the
+depths of the reef.
+}
+  race { fish }
+  height { 365 }
+  level { 60 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 80,0 }
+  body { 80,0 }
+  arms { 80,0 }
+  legs { 80,0 }
+  feet { 80,0 }
+  hp { 15, 16, 1300 }
+  move { 600 }
+  experience { 75000 }
+  damage { 4, 3, 5 }
+  act { sentinel, stay-zone, scavenger }
+  affected { water-breath }
+}
+
+70009
+{
+  name { A stonecrab }
+  namelist { stonecrab crab }
+  shortdesc { A large crab with even larger pinchers stands here tring to get some food. }
+  longdesc {
+   This large orange and white crab is large enough to be able to walk around without much fear from any of the many predators that would try and eat it.  It's large pinchers serve for both attackindg and defending.
+}
+  race { fish }
+  height { 25 }
+  level { 155 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 50,3 }
+  body { 50,3 }
+  arms { 50,3 }
+  legs { 50,3 }
+  feet { 100,3 }
+  hp { 32, 15, 1250 }
+  move { 500 }
+  experience { 75000 }
+  damage { 2, 10, 5 }
+  resistant { pierce }
+  susceptible  { blunt }
+  immune { cold, charm }
+  act { scavenger, stay-zone }
+  affected { water-breath }
+}
+
+70010
+{
+  name { A Horseshoe crab }
+  namelist { horseshoe crab }
+  shortdesc { The wierdest looking crab skids across the sand. }
+  longdesc {
+  There is no other way to describe this thing then wierd.  It kind of looks like something out of the prehistoric age.  It's head looks more like a bowl that has been turned over then a horseshoe.  Out the back of this bowl extends a rather lond spike that looks like it could do some real damage.
+}
+  race { fish }
+  height { 192 }
+  level { 50 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 20,3 }
+  body { 50,1 }
+  arms { 75,1 }
+  legs { 75,1 }
+  feet { 100,0 }
+  hp { 50, 15, 1100 }
+  move { 200 }
+  experience { 50000 }
+  damage { 1, 5, 4 }
+  immune { fire, charm }
+  resistant { pierce }
+  act { wimpy, scavenger, stay-zone  }
+  affected { water-breath }
+}
+70011
+{
+  name { A grouper }
+  namelist { grouper fish }
+  shortdesc { A big fat spotted fish swims around looking for something to eat. }
+  longdesc {
+   This large fish swims along darting here and there tring either to get something to eat or no be something elses food for the day.
+}
+  race { fish }
+  height { 95 }
+  level { 60 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 70,1 }
+  body { 70,0 }
+  arms { 50,1 }
+  legs { 50,0 }
+  feet { 50,0 }
+  hp { 24, 10, 900 }
+  move { 300 }
+  experience { 40000 }
+  damage { 2, 6, 3 }
+  immune { cold, charm }
+  act { stay-zone }
+  affected { water-breath }
+}
+70012
+{
+  name { A clownfish }
+  namelist { clownfish fish }
+  shortdesc { A colorful fish hides in the shadows. }
+  longdesc {
+  This tiny orange and white striped  fish is too small to be much of a predator so instead of attacking things it run around eating the scraps of what the bigger guys leave around.
+}
+  race { fish }
+  height { 125 }
+  level { 10 }
+  alignment { 1000 }
+  gold { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  head { 70,0 }
+  body { 70,0 }
+  arms { 70,0 }
+  legs { 70,0 }
+  feet { 70,0 }
+  hp { 10, 20, 300 }
+  move { 200 }
+  experience { 20000 }
+  damage { 2, 2, 2 }
+  immune { cold, charm }
+  act { wimpy, stay-zone, scavenger }
+  affected { water-breath }
+}
+70013
+{
+  name { The eel }
+  namelist { eel }
+  shortdesc { A slimy eel stares at you with it's mouth gaping open. }
+  longdesc {
+   This long greyish green eel has to be about 10 feet in length.  It's rows and rows of needle sharp teeth look like they could and will do some serious damage to anyone who might be stupid enough to get too close.
+}
+  race { fish }
+  height { 420 }
+  level { 100 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  head { 30,2 }
+  body { 30,2 }
+  arms { 30,2 }
+  legs { 30,2 }
+  feet { 30,2 }
+  hp { 32, 32, 2300 }
+  move { 600 }
+  experience { 150000 }
+  damage { 2, 5, 3 }
+  immune { charm, blunt }
+  act { scavenger, stay-zone, sentinel }
+  affected { water-breath, sanctuary }
+}

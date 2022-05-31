@@ -1,0 +1,2338 @@
+1500
+{
+  name { A shadow guardian }
+  namelist { shadow shade guardian }
+  shortdesc { A shadow guardian screams a challenge and attacks }
+  longdesc {
+It seems to made of nothing more than darkness...
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 64 }
+  alignment { -350 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.3 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  hp { 4, 64, 1298  }
+  move { 300 }
+  experience { 40516 }
+  damage { 2, 5, 5  }
+  affected { invisible, detect-invisible, sneak }
+  act { special, aggressive, stay-zone }
+}
+
+1501
+{
+  name { A lost adventurer }
+  namelist { adventurer }
+  shortdesc { An emaciated adventurer is here looking lost and hopeless }
+  longdesc {
+He looks haggard and sickly, no doubt he's been lost here for quite some time.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 400 }
+  gold { 1300 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 2904 }
+  damage { 2, 4, 4  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+1502
+{
+  name { Edgar }
+  namelist { edgar }
+  shortdesc { Edgar the Human Swordpupil }
+  longdesc {
+Edgar says 'pardon me, can you tell me where to buy cups?'
+
+You see before you, one of Midgaard's finest fighting elite, the mighty
+bunny slayer himself, Edgar the horrible!
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 1000 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { nice-thief, wimpy }
+}
+
+1503
+{
+  name { The golem }
+  namelist { diamond golem }
+  shortdesc { A huge diamond golem is standing guard here }
+  longdesc {
+It looks quite strong
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 528 }
+  alignment { 500 }
+  gold { 28000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 2.3 }
+  skills { bash }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 528, 12377  }
+  move { 300 }
+  experience { 524994 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+1504
+{
+  name { A mage }
+  namelist { mage young }
+  shortdesc { A young mage wanders about, oblivious to all }
+  longdesc {
+He seems to be contemplating life, love and the mysteries of the universe,
+then again, he may just have a headache.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 450 }
+  gold { 9000 }
+  hit_bonus { 10 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 176, 2068  }
+  move { 300 }
+  experience { 41395 }
+  damage { 1, 8, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, stay-zone, wimpy }
+}
+
+1505
+{
+  name { Strick the bartender }
+  namelist { strick bartender }
+  shortdesc { Strick is here levetating drinks to his customers }
+  longdesc {
+He looks rather harmless, but then again so does a sleeping dragon.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 305 }
+  alignment { 750 }
+  gold { 18000 }
+  hit_bonus { 19 }
+  dam_bonus { 15 }
+  attacks_per_round { 1.3 }
+  head { -60, 1 }
+  body { -60, 1 }
+  arms { -60, 1 }
+  legs { -60, 1 }
+  feet { -60, 1 }
+  hp { 4, 336, 4768  }
+  move { 300 }
+  experience { 471704 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+1506
+{
+  name { Tatorious }
+  namelist { tatorious wizard }
+  shortdesc { Tatorious the wizard is here counting his earnings }
+  longdesc {
+Tatorious winks at you mischeviously.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 305 }
+  alignment { 900 }
+  gold { 18000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -80, 1 }
+  body { -80, 1 }
+  arms { -80, 1 }
+  legs { -80, 1 }
+  feet { -80, 1 }
+  hp { 4, 336, 3768  }
+  move { 300 }
+  experience { 425400 }
+  damage { 3, 5, 12  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, stay-zone }
+}
+
+1507
+{
+  name { Ezmerelda }
+  namelist { ezmerelda cook witch }
+  shortdesc { Ezmerelda the cook is here stiring a larg pot of something }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -500 }
+  gold { 8000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.5 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 208, 2544  }
+  move { 300 }
+  experience { 159756 }
+  damage { 3, 4, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+
+1508
+{
+  name { The cook's assistant }
+  namelist { assistant mage }
+  shortdesc { The cook's assistant is here assisting the cook }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { -200 }
+  gold { 1900 }
+  hit_bonus { 10 }
+  dam_bonus { 7 }
+  attacks_per_round { 1 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  hp { 4, 56, 1248  }
+  move { 300 }
+  experience { 59476 }
+  damage { 3, 4, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1509
+{
+  name { The prisoner }
+  namelist { prisoner mage }
+  shortdesc { A prisoner is chained to the wall here }
+  longdesc {
+Though his clothes are all in rags, you can see that at one time they must
+have been fine garments. A metal muzzle has been fitted over the poor
+wretch's mouth, wether to keep him from screaming, or to silence his spell
+casting you cannot tell.
+He looks quite mad, no doubt he's been mistreated horribly.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 137 }
+  alignment { 100 }
+  gold { 5500 }
+  hit_bonus { 4 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 136, 600  }
+  move { 300 }
+  experience { 24459 }
+  damage { 2, 4, 9  }
+  immune { charm }
+  act { sentinel, aggressive, stay-zone, wimpy }
+}
+
+1510
+{
+  name { The Jailor }
+  namelist { jailor mage }
+  shortdesc { The Jailor is here enjoying a comfortable nap }
+  longdesc {
+He looks rather dirty.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 100 }
+  gold { 3200 }
+  hit_bonus { 10 }
+  dam_bonus { 6 }
+  attacks_per_round { 1.4 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 152, 1204  }
+  move { 300 }
+  experience { 69766 }
+  damage { 3, 5, 10  }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+
+1511
+{
+  name { A broom }
+  namelist { broom }
+  shortdesc { A straw broom is here leaning against the wall }
+  longdesc {
+The broom screams 'Take that you lout!'
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 50 }
+  gold { 1175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 24, 1202  }
+  move { 300 }
+  experience { 42376 }
+  damage { 2, 4, 4  }
+  susceptible { slash, blunt }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1512
+{
+  name { A pair of disembodied hands }
+  namelist { lesser guardian hands }
+  shortdesc { A pair of disembodied hands floats in the air here }
+  longdesc {
+The hands twitch witch anticipation of strangling someone.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { -400 }
+  gold { 1700 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 48, 764  }
+  move { 300 }
+  experience { 28985 }
+  damage { 2, 4, 5  }
+  act { aggressive, stay-zone }
+}
+
+1513
+{
+  name { A pair of disembodied eyes }
+  namelist { guardian greater eyes }
+  shortdesc { A pair of disembodied eyes floats here glaring at you }
+  longdesc {
+The eyes smolder with hatred.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -600 }
+  gold { 4500 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -90, 0 }
+  body { -90, 0 }
+  arms { -90, 0 }
+  legs { -90, 0 }
+  feet { -90, 0 }
+  hp { 4, 176, 1368  }
+  move { 300 }
+  experience { 61129 }
+  damage { 3, 4, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+1514
+{
+  name { The mage }
+  namelist { mage visitor }
+  shortdesc { A visiting mage is here snoring away in peaceful slumber }
+  longdesc {
+He looks quite sleepy
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 88 }
+  alignment { 250 }
+  gold { 5800 }
+  hit_bonus { 12 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 88, 710  }
+  move { 300 }
+  experience { 45958 }
+  damage { 2, 4, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1515
+{
+  name { A young apprentice magic user }
+  namelist { apprentice young }
+  shortdesc { A young apprentice magic user is here doing magical studies }
+  longdesc {
+She looks quite intent on her studies
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { 400 }
+  gold { 4500 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 4, 40, 820  }
+  move { 300 }
+  experience { 44236 }
+  damage { 2, 4, 5  }
+  immune { charm }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1516
+{
+  name { A young apprentice }
+  namelist { apprentice young }
+  shortdesc { A young apprentice is here mumbling words of magic to himself }
+  longdesc {
+He looks to be oblivious to all but the spell he is memorizing.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { 380 }
+  gold { 4500 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 40, 720  }
+  move { 300 }
+  experience { 33953 }
+  damage { 2, 4, 5  }
+  immune { charm }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1517
+{
+  name { A young apprentice }
+  namelist { apprentice young }
+  shortdesc { A young apprentice is sleeping here }
+  longdesc {
+He seems to be dreaming
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 350 }
+  gold { 2500 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  caster { 5 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 40, 720  }
+  move { 300 }
+  experience { 33918 }
+  damage { 2, 4, 4  }
+  immune { charm }
+  spells { magic missile }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1518
+{
+  name { A young apprentice }
+  namelist { apprentice young }
+  shortdesc { A young apprentice is here teasing a cornered kitten }
+  longdesc {
+He looks like a mischevious youth
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { -200 }
+  gold { 4500 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  caster { 5 }
+  attacks_per_round { 1 }
+  head { 100, 1 }
+  body { 100, 1 }
+  arms { 100, 1 }
+  legs { 100, 1 }
+  feet { 100, 1 }
+  hp { 4, 40, 720  }
+  move { 300 }
+  experience { 33918 }
+  damage { 2, 4, 5  }
+  immune { charm }
+  spells { magic missile }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1519
+{
+  name { A small kitten }
+  namelist { kitten }
+  shortdesc { A small kitten is here meowing in terror }
+  longdesc {
+The little ball of fur looks very unhappy, singed fur and a few minor burns
+mark its mottled coat.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 500 }
+  gold { 2130 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 649  }
+  move { 300 }
+  experience { 18822 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  act { sentinel, stay-zone, wimpy }
+}
+
+1520
+{
+  name { A student }
+  namelist { student }
+  shortdesc { A sudent of spells is here looking quite bored }
+  longdesc {
+The student yawns.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { 350 }
+  gold { 6500 }
+  caster { 5 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 100, 1 }
+  body { 100, 1 }
+  arms { 100, 1 }
+  legs { 100, 1 }
+  feet { 100, 1 }
+  hp { 4, 40, 720  }
+  move { 300 }
+  experience { 33847 }
+  damage { 2, 4, 6  }
+  immune { charm }
+  spells { magic missile }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1521
+{
+  name { An instructor of magic }
+  namelist { instructor teacher mage }
+  shortdesc { The instructor screams at your interruption and attacks you }
+  longdesc {
+He looks quite angry at your interruption
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 300 }
+  caster { 10 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.3 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 128, 1800  }
+  move { 300 }
+  experience { 104702 }
+  damage { 3, 4, 8  }
+  spells { magic missile }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1522
+{
+  name { A student of spells }
+  namelist { student }
+  shortdesc { A student of spells is here trying to master invisibility }
+  longdesc {
+He blinks in and out of existance, trying to master the spell.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { 400 }
+  caster { 5 }
+  gold { 5500 }
+  hit_bonus { 14 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 40, 720  }
+  move { 300 }
+  experience { 44624 }
+  damage { 2, 4, 6  }
+  immune { charm }
+  spells { shocking grasp }
+  affected { invisible, detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1523
+{
+  name { A spell teacher }
+  namelist { teacher mage }
+  shortdesc { A spell teacher screams at your interuption and attacks }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 300 }
+  gold { 7500 }
+  caster { 15 }
+  hit_bonus { 12 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.3 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 128, 1800  }
+  move { 300 }
+  experience { 96205 }
+  damage { 3, 4, 9  }
+  spells { magic missile }
+  affected { invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1524
+{
+  name { A student of spells }
+  namelist { student }
+  shortdesc { A student of spells has fallen asleep at her desk here }
+  longdesc {
+She looks to have collapsed from sheer boredom.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 400 }
+  gold { 2700 }
+  caster { 5 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 48, 664  }
+  move { 300 }
+  experience { 38112 }
+  damage { 2, 4, 7  }
+  immune { charm }
+  spells { magic missile }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1525
+{
+  name { A wizard }
+  namelist { wizard speaker mage }
+  shortdesc { An old wizard is here making a speach }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 400 }
+  gold { 8500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  caster { 10 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 128, 1500  }
+  move { 300 }
+  experience { 77064 }
+  damage { 3, 4, 8  }
+  immune { charm }
+  spells { shocking grasp }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1526
+{
+  name { A young mage }
+  namelist { mage young }
+  shortdesc { A young mage is here learning hand to hand combat }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 300 }
+  gold { 2300 }
+  caster { 5 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 32, 696  }
+  move { 300 }
+  experience { 33151 }
+  damage { 2, 4, 8  }
+  immune { charm }
+  spells { magic missile }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1527
+{
+  name { The battle mistress }
+  namelist { mistress battle }
+  shortdesc { The battle mistress is here teaching the fine uses of a dagger }
+  longdesc {
+She looks quite rugged. In fact, she more resembles a warrior than a magic
+user.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 200 }
+  gold { 12200 }
+  hit_bonus { 20 }
+  dam_bonus { 6 }
+  attacks_per_round { 1.5 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 152, 2604  }
+  move { 300 }
+  experience { 199766 }
+  damage { 3, 5, 8  }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1528
+{
+  name { A spell teacher }
+  namelist { mage teacher }
+  shortdesc { A spell teacher is here relaxing }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 200 }
+  gold { 7200 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 10, 3 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  hp { 4, 96, 668  }
+  move { 300 }
+  experience { 38292 }
+  damage { 3, 4, 4  }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+
+1529
+{
+  name { An aged wizard }
+  namelist { wizard }
+  shortdesc { An aged wizard is sleeping here }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  caster { 10 }
+  level { 176 }
+  alignment { 350 }
+  gold { 5000 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 176, 968  }
+  move { 300 }
+  experience { 57318 }
+  damage { 3, 4, 9  }
+  immune { charm }
+  spells { weakness, shocking grasp }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1530
+{
+  name { A scribe }
+  namelist { scribe mage }
+  shortdesc { A scribe is here working on some manuscripts }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 80 }
+  alignment { 400 }
+  gold { 3800 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 4, 80, 773  }
+  move { 300 }
+  experience { 43000 }
+  damage { 3, 4, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1531
+{
+  name { A scribe }
+  namelist { scribe mage }
+  shortdesc { A scribe is here working diligently on some translations }
+  longdesc {
+She looks quite cute, too bad her only interest seems to be the words of
+lore she is translating.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 500 }
+  gold { 6200 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 4, 96, 768  }
+  move { 300 }
+  experience { 38128 }
+  damage { 2, 4, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1532
+{
+  name { The master scribe }
+  namelist { master scribe }
+  shortdesc { The master scribe is here looking a little upset }
+  longdesc {
+He seems to be so old, his skin has become nothing but a giant wrinkle.
+The master scribe screams 'How dare you interrupt my important work???'
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { 100 }
+  gold { 10500 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 192, 1956  }
+  move { 300 }
+  experience { 167971 }
+  damage { 3, 5, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1533
+{
+  name { The scribe's assistant }
+  namelist { assistant scribe }
+  shortdesc { The scribe's assistant is here folding parchments }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 105 }
+  alignment { 100 }
+  gold { 6500 }
+  hit_bonus { 10 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 104, 1200  }
+  move { 300 }
+  experience { 91390 }
+  damage { 3, 4, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1534
+{
+  name { The Enchanter }
+  namelist { master enchanter mage }
+  shortdesc { The Enchanter is here placing a dweomer upon well made sword }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -200 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 192, 1656  }
+  move { 300 }
+  experience { 127971 }
+  damage { 3, 5, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1535
+{
+  name { A dancing sword }
+  namelist { sword dancing }
+  shortdesc { An well crafted sword lies on the work table here }
+  longdesc {
+It looks quite sharp.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -500 }
+  gold { 300 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 32, 396  }
+  move { 300 }
+  experience { 24521 }
+  damage { 3, 5, 5  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1536
+{
+  name { The Mad Alchemist }
+  namelist { alchemist }
+  shortdesc { The Mad Alchemist babbles something un-comprehensible and attacks }
+  longdesc {
+He looks like he's been quaffing too many potions. His eyes dart around
+wildly, and he starts to drool.
+
+The Mad Alchemist throws back his head and cackles with insane glee!
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 150 }
+  gold { 7000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 200, 1500  }
+  move { 300 }
+  experience { 138758 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone, wimpy }
+}
+
+1537
+{
+  name { The master summoner }
+  namelist { master summoner }
+  shortdesc { The master summoner is here holding gateways open to other planes }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { -200 }
+  gold { 6700 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 152, 1404  }
+  move { 300 }
+  experience { 127552 }
+  damage { 3, 5, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1538
+{
+  name { The master charmer }
+  namelist { master charmer }
+  shortdesc { The master charmer utters the words, 'uuuzzldctz' }
+  longdesc {
+The master charmer sizes you up, always looking for a new pet.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -400 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 192, 1356  }
+  move { 300 }
+  experience { 106250 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive }
+}
+
+1539
+{
+  name { A wooden golem }
+  namelist { golem wooden }
+  shortdesc { A wooden golem stands a silent vigil here, guarding the stairs }
+  longdesc {
+He looks flamable
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 100 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 30, 7 }
+  body { 30, 7 }
+  arms { 30, 7 }
+  legs { 30, 7 }
+  feet { 30, 7 }
+  hp { 4, 176, 1068  }
+  move { 300 }
+  experience { 53348 }
+  damage { 1, 10, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1540
+{
+  name { The master spell binder }
+  namelist { master binder }
+  shortdesc { The master spell binder is here re-charging a blackened wand }
+  longdesc {
+The master spell binder snarls at you and attacks.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 176, 1468  }
+  move { 300 }
+  experience { 96365 }
+  damage { 3, 5, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1541
+{
+  name { The golem maker }
+  namelist { master maker }
+  shortdesc { The golem maker is here chiseling some stone }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 137 }
+  alignment { 300 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.5 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 136, 2000  }
+  move { 300 }
+  experience { 175806 }
+  damage { 3, 5, 5  }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1542
+{
+  name { A granite golem }
+  namelist { golem granite }
+  shortdesc { A granite golem stands here waiting to do its master's bidding }
+  longdesc {
+It looks like a statue, until you see it shamble towards you.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { 300 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.6 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 208, 1544  }
+  move { 300 }
+  experience { 137430 }
+  damage { 4, 5, 10  }
+  immune { charm }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1543
+{
+  name { A bronze golem }
+  namelist { golem bronze }
+  shortdesc { A bronze golem stands here shining in the light }
+  longdesc {
+He looks rather dim witted.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { 350 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.3 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 192, 1496  }
+  move { 300 }
+  experience { 130654 }
+  damage { 4, 5, 5  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1544
+{
+  name { A flesh golem }
+  namelist { golem flesh }
+  shortdesc { A flesh golem stands guard here }
+  longdesc {
+It looks to be made of a mix match of different body parts, some don't even
+resemble anything human.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 200 }
+  gold { 4200 }
+  hit_bonus { 10 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 20, 6 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  hp { 4, 152, 904  }
+  move { 300 }
+  experience { 45830 }
+  damage { 4, 4, 4  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1545
+{
+  name { A cloth golem }
+  namelist { golem cloth }
+  shortdesc { A cloth golem wanders around here }
+  longdesc {
+It looks like a bunch of old rags, quite supprising it can actually walk.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 350 }
+  gold { 2400 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 70, 2 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  hp { 4, 72, 735  }
+  move { 300 }
+  experience { 31363 }
+  damage { 3, 4, 1  }
+  act { sentinel, stay-zone }
+}
+
+1546
+{
+  name { An adamantite golem }
+  namelist { golem adamantite }
+  shortdesc { An adamantite golem stands here looking very dangerous }
+  longdesc {
+It seems to be forged of dark metal. It looks both incredibly strong, and
+durrable, but somewhat un-intelligent.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 440 }
+  alignment { 350 }
+  gold { 18000 }
+  hit_bonus { 20 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 440, 8732  }
+  move { 300 }
+  experience { 566900 }
+  damage { 3, 7, 3  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1547
+{
+  name { A clay golem }
+  namelist { golem clay }
+  shortdesc { A clay golem stands guard here }
+  longdesc {
+You see nothing special.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 200 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 40, 7 }
+  body { 40, 7 }
+  arms { 40, 7 }
+  legs { 40, 7 }
+  feet { 40, 7 }
+  hp { 4, 176, 968  }
+  move { 300 }
+  experience { 53983 }
+  damage { 4, 5, 3  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1548
+{
+  name { The master of illusions }
+  namelist { master illusionist mage }
+  shortdesc { An enormous multi-colored three-headed dragon growls at you }
+  longdesc {
+The image of an ugly dragon flickers slightly, and where the dragon was
+now stands a small harmless looking old man.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 160 }
+  alignment { 150 }
+  gold { 5200 }
+  caster { 10 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1.2 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 160, 2062  }
+  move { 300 }
+  experience { 231028 }
+  damage { 3, 5, 5  }
+  immune { charm }
+  spells { fear }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+1549
+{
+  name { The Necromancer }
+  namelist { necromancer master }
+  shortdesc { The Necromancer is here raising undead servants }
+  longdesc {
+Attired all in black, the Necromancer is tall and gangly, but still quite
+an imposing figure. A dark cowl shrouds most of his face, but two blazing
+embers which must serve as eyes can be seen through the shadow.
+The Necromancer shrieks some obsenities and orders his minions to attack.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { -950 }
+  gold { 14500 }
+  hit_bonus { 30 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -80, 1 }
+  body { -80, 1 }
+  arms { -80, 1 }
+  legs { -80, 1 }
+  feet { -80, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 340575 }
+  damage { 3, 7, 7  }
+  immune { charm }
+  resistant { pierce, slash }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1550
+{
+  name { An animated skeleton }
+  namelist { skeleton undead }
+  shortdesc { An animated skeleton screams silently and attacks }
+  longdesc {
+It seems to feel no pain, and hacks at you ruthlessly
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 30 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 176, 1068  }
+  move { 300 }
+  experience { 74459 }
+  damage { 2, 5, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1551
+{
+  name { An undead giant }
+  namelist { undead giant }
+  shortdesc { An undead giant lumbers towards you }
+  longdesc {
+You see nothing special.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 272 }
+  alignment { -500 }
+  gold { 11000 }
+  hit_bonus { 35 }
+  dam_bonus { 13 }
+  attacks_per_round { 1.7 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 272, 2696  }
+  move { 300 }
+  experience { 240660 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+
+1552
+{
+  name { An ugly witch }
+  namelist { witch hag }
+  shortdesc { An ugly witch is here scrying out secrets }
+  longdesc {
+She has no face at all, just blank skin, rather disturbing. From about where
+her mouth should be, comes a disgusting giggling sound that makes your skin
+crawl with revulsion.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -450 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 100716 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1553
+{
+  name { The Librarian }
+  namelist { librarian mage }
+  shortdesc { The Librarian has fallen asleep at his desk here }
+  longdesc {
+He looks like a rather peaceful old man.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 450 }
+  gold { 7000 }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 161832 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+1554
+{
+  name { The master's apprentice }
+  namelist { apprentice }
+  shortdesc { The master's apprentice leaps to halt your passage }
+  longdesc {
+A powerful wizard in his own right, the apprentice of the master of balance
+has given up his station in the mageguild hierarchy in order to serve the
+great master in hopes of gleaning secrets one could never hope to uncover
+alone.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 232 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 17 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 232, 1676  }
+  move { 300 }
+  experience { 181531 }
+  damage { 3, 6, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1555
+{
+  name { A grey cat }
+  namelist { cat grey familiar }
+  shortdesc { A grey cat is lounging lazily here }
+  longdesc {
+The grey cat cocks an ear towards you, sensing your scrutiny, then purrs
+contentedly.
+It looks rather harmless, untill you notice its very large claws.
+  }
+  race { none }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 14761 }
+  damage { 5, 5, 5  }
+  affected { invisible, sneak }
+  act { sentinel, stay-zone }
+}
+
+1556
+{
+  name { The master of Neutrality }
+  namelist { master guildmaster grey }
+  shortdesc { The master of Neutrality stands here contemplating the balance of the universe }
+  longdesc {
+He looks quite peaceful.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 560 }
+  alignment { 0 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 560, 15379  }
+  move { 300 }
+  spells { dispel magic, mage fire, sleep, blindness, weakness }
+  caster { 10 }
+  experience { 968473 }
+  damage { 2, 5, 20  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, stay-zone }
+}
+
+1557
+{
+  name { A black robed apprentice }
+  namelist { apprentice black }
+  shortdesc { A black robed apprentice jumps from the shadows and attacks }
+  longdesc {
+She bears a wicked looking scar down the side of her face, though once she
+must have been beautiful, now the scar combined with what seems to be a
+permenent scowl make her looks quite fearsome.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -750 }
+  gold { 9000 }
+  hit_bonus { 18 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -60, 0 }
+  body { -60, 0 }
+  arms { -60, 0 }
+  legs { -60, 0 }
+  feet { -60, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 115104 }
+  damage { 3, 6, 6  }
+  immune { charm }
+  affected { detect-invisible, sneak }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1558
+{
+  name { A black cat }
+  namelist { cat black familiar }
+  shortdesc { A black cat with its fur up hisses at you }
+  longdesc {
+It looks both mean and dangerous, petting seems to be completely out of
+the question.
+  }
+  race { none }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { -800 }
+  gold { 1400 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 14443 }
+  damage { 3, 7, 3  }
+  affected { sneak }
+  act { sentinel, stay-zone }
+}
+
+1559
+{
+  name { The master of the black robes }
+  namelist { master guildmaster black }
+  shortdesc { The master of the black robes is here plotting vile deeds }
+  longdesc {
+The master glares at you.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 560 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 560, 17799 }
+  move { 300 }
+  caster { 20 }
+  spells { dispel magic, energy drain, blindness, weakness, mage fire }
+  experience { 1268473 }
+  damage { 2, 5, 20  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, stay-zone }
+}
+
+1560
+{
+  name { A white robed apprentice }
+  namelist { apprentice white }
+  shortdesc { A white robed apprentice screams at your desecration of goodness }
+  longdesc {
+He looks like a fanatic.
+The apprentice screams 'Thou art unworthy of this honor!'
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { 750 }
+  gold { 9000 }
+  hit_bonus { 18 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -60, 0 }
+  body { -60, 0 }
+  arms { -60, 0 }
+  legs { -60, 0 }
+  feet { -60, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 115104 }
+  damage { 3, 6, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+1561
+{
+  name { A white cat }
+  namelist { cat white familiar }
+  shortdesc { A white cat is here preening its fur }
+  longdesc {
+It seems to be nothing more than a large ball of fluf with claws.
+  }
+  race { none }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 800 }
+  gold { 1400 }
+  hit_bonus { 16 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 14549 }
+  damage { 3, 7, 3  }
+  affected { sneak }
+  act { sentinel, stay-zone }
+}
+
+1562
+{
+  name { The master of goodness }
+  namelist { master guildmaster white }
+  shortdesc { The master of goodness is here frowning at your intrusion }
+  longdesc {
+He looks like a self rightious bastard.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 501 }
+  alignment { 1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  spells { dispel magic, blindness, weakness, sleep, mage fire }
+  caster { 20 }
+  hp { 4, 560, 17379  }
+  move { 300 }
+  experience { 968473 }
+  damage { 2, 5, 20  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, stay-zone, healer }
+}
+
+1563
+{
+  name { A chalico cat }
+  namelist { cat chalico familiar }
+shortdesc { A large chalico cat is here }
+longdesc {
+It looks incredibly large for a cat, no doubt a giant of its species.
+A beautiful jewel encrusted colar about its neck is its only adornments.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 240 }
+  alignment { 800 }
+  gold { 10000 }
+  hit_bonus { 19 }
+  dam_bonus { 11 }
+  attacks_per_round { 1.4 }
+  head { -90, 1 }
+  body { -90, 1 }
+  arms { -90, 1 }
+  legs { -90, 1 }
+  feet { -90, 1 }
+  hp { 4, 240, 1820  }
+  move { 300 }
+  experience { 228471 }
+  damage { 5, 5, 7  }
+  affected { detect-invisible, sneak }
+  act { sentinel, stay-zone }
+}
+
+1564
+{
+  name { The Grand Master }
+  namelist { guildmaster grand master }
+  shortdesc { The Grand Master of Magic is sitting here }
+  longdesc {
+She looks quite comfortable on her emerald throne. Amazingly young and
+pretty for one of such stature in the mageguild, no doubt she has kept her
+youthful appearance through the use of strong magics.
+The Grand Master pets her familiar and smiles at you in confidence.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 520 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 25 }
+  attacks_per_round { 3.5 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 727, 27329  }
+  move { 300 }
+  experience { 679376 }
+  damage { 3, 4, 20 }
+  mana { 5000 }
+  spells { dispel magic, energy drain, sleep }
+  caster { 20 }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, stay-zone }
+}
+
+1565
+{
+  name { A wizard }
+  namelist { wizard }
+  shortdesc { A wandering wizard is here mumbling to himself }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  world_limit { 6 }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { 350 }
+  gold { 3200 }
+  hit_bonus { 30 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 168, 1436  }
+  move { 300 }
+  experience { 82706 }
+  damage { 3, 5, 5  }
+  affected { detect-invisible, sneak }
+  act { special, stay-zone }
+}
+
+
+1566
+{
+  name { Marduk }
+  namelist { Marduk }
+  shortdesc { Marduk relaxes comfortably in the throne, seemingly content. }
+  longdesc {
+  Marduk new lord of the tower of sorcery, once a student here. He
+  was once a potention successor to be the new Grand Master of Magic
+  being the most powerful student ever to have undergone training
+  here. However patience was never his strong suite and Marduk
+  murdered his old teacher, with him gone there are none powerful
+  enough among these walls to stop him. His skin is a deep blue and
+  his ears pointed. His hair is a silvery gray and tied with a cord
+  in the back.  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 575 }
+  alignment { -1000 }
+  gold { 1205000  }
+  hit_bonus { 27 }
+  dam_bonus { 46 }
+  attacks_per_round { 4 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 87775  }
+  move { 300 }
+  experience { 2900000 }
+  damage { 4, 10, 35  }
+  immune { charm, sleep }
+  mana { 50000 }
+  spells { energy drain, sleep, inferno }
+  caster { 90 }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision, water-breath, fireshield, true-sight}
+  act { sentinel }
+}
+
+1567
+{
+  name { Millena }
+  namelist { Millena }
+  shortdesc { Millena the instructor of dark magics, studies the sigils. }
+  longdesc {
+  Millena, right hand to Marduk is a powerful enchantress, master
+  of fire and knowledgeable in all the dark arts. She is an amazon
+  of a woman, powerfully built. she is wrapped in leathers from feet
+  to head all black.   }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 555 }
+  alignment { -1000 }
+  gold { 1005000  }
+  hit_bonus { 27 }
+  dam_bonus { 35 }
+  attacks_per_round { 3 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 77775  }
+  move { 300 }
+  experience { 2500000 }
+  damage { 4, 10, 30  }
+  immune { charm, sleep }
+  spells { energy drain, sleep, inferno }
+  caster { 90 }
+  affected { invisible, detect-invisible, true-sight, fireshield, flying, infravision, water-breath }
+  act { sentinel }
+}
+
+1568
+{
+  name { Brogh }
+  namelist { Brogh, diplomat }
+  shortdesc { Brogh Themis, diplomat of Marduk is here keeping the peace. }
+  longdesc {
+  Brogh Themis, a wise mage longs for peace. His body marked from battles
+  of his youth. He has learned much over the years in the arts of war,
+  but even more the benefits of peace. He lectures his students on the
+  benefits of diplomacy, and negotiation.  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 565 }
+  alignment { 0 }
+  gold { 905000  }
+  hit_bonus { 27 }
+  dam_bonus { 46 }
+  attacks_per_round { 4 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 37775  }
+  move { 300 }
+  experience { 2400000 }
+  damage { 4, 10, 20  }
+  immune { charm, sleep }
+  mana { 50000 }
+  spells { energy drain, sleep, dispel magic, disruptor }
+  caster { 90 }
+  affected { invisible, detect-invisible, true-sight, sanctuary, flying, infravision, water-breath }
+  act { sentinel }
+}
+
+1569
+{
+  name { Stella }
+  namelist { Stella }
+  shortdesc { Stella the white wizard, misses the old ways she seems to be plotting something. }
+  longdesc {
+  Stella was the greatest student of the previous master of goodness.
+  Her powers eclipsing even his. She is wrapped in flowing robes, her
+  hair auburn and her eyes a deep green. Her skin seems pale. Her look
+  is distraught, and she plots on how to restore the tower to
+  its former balance.  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 565 }
+  alignment { 1000 }
+  gold { 825000  }
+  hit_bonus { 27 }
+  dam_bonus { 46 }
+  attacks_per_round { 4 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 67775  }
+  move { 300 }
+  experience { 2400000 }
+  damage { 4, 10, 30  }
+  immune { charm, sleep }
+  mana { 50000 }
+  spells { shriek, dispel magic, earthquake }
+  caster { 99 }
+  affected { invisible, detect-invisible, true-sight, flying, infravision, water-breath, sanctuary }
+  act { sentinel }
+}
+
+1570
+{
+  name { Zriophent the Doomwhisper }
+  namelist { Zriophent doomwhisper }
+  shortdesc { The decaying corpse that is Zriophent the Doomwhisper is here, summoning his undead minions. }
+  longdesc {
+In life, Zriophent was a powerful necromancer.  He earned his nickname,
+the Doomwhisper, when he was insulted by a township and sent a powerful
+spell their way that whispered to all the dead in the local graveyard so
+that at night they rose up and destroyed the living and when the last of
+the townfolk was killed the undead destroyed the town brick by brick,
+sending it back in to the dirt as if it had never existed before.  Now,
+long dead but still full of vital energy, the Doomwhisper continues his
+work in the Tower of Sorcery, creating undead and advising the Grand
+Master of Magick in any way he can.
+}
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 565 }
+  alignment { -1000 }
+  gold { 205000  }
+  hit_bonus { 27 }
+  dam_bonus { 46 }
+  attacks_per_round { 4 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 37775  }
+  move { 300 }
+  experience { 2400000 }
+  damage { 4, 10, 20  }
+  immune { charm, sleep, backstab, cold, blunt }
+  mana { 50000 }
+  spells { mind thrust, dispel magic, disruptor, fireshield, animate dead }
+  caster { 565 }
+  affected { detect-invisible, true-sight, flying, infravision, water-breath }
+  act { sentinel }
+}
+1571
+{
+  name { An animated zombie }
+  namelist { zombie undead }
+  shortdesc { An animated zombie shuffles towards you mumbling something about 'Braaaiiins!' }
+  longdesc {
+It is a life-less corpse given... Umm... Life.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 5 }
+  dam_bonus { 45 }
+  attacks_per_round { 0.3 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 176, 1068  }
+  move { 300 }
+  experience { 74459 }
+  damage { 3, 10, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+1572
+{
+  name { An animated ghoul }
+  namelist { ghoul undead }
+  shortdesc { A disgusting animated ghoul shrieks as it rushes towards you! }
+  longdesc {
+This animated cadaver is looks like it will leave you with a nasty disease if it touches you!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 16 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 176, 1068  }
+  move { 300 }
+  experience { 74459 }
+  damage { 2, 5, 2  }
+  immune { charm }
+  affected { detect-invisible }
+  spells { poison }
+  act { sentinel, aggressive, stay-zone }
+}

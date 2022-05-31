@@ -1,0 +1,29 @@
+6999
+{
+  name { Death }
+  namelist { death reaper }
+  shortdesc { Death the Grim Reaper is observing you silently from empty eye sockets. }
+  longdesc {
+The dark-robed skeletal figure radiates an unendurable coldness.
+  }
+  race { undead }
+  level { 366 }
+  alignment { -1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 6650  }
+  move { 300 }
+  experience { 405674 }
+  damage { 1, 100, 1  }
+  immune { charm }
+  affected { detect-invisible, sneak }
+  act { sentinel }
+}
+

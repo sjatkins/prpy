@@ -1,0 +1,801 @@
+15401
+{
+name { A Hellhound }
+namelist { hound, hell, dog }
+shortdesc { A large hellhound growls at you menacingly. }
+longdesc {
+This hellish creature looks to be a huge wolf with greasy black fur. Its body has been hideously misshapen, burnt in the hottest fires of hell. Small wisps of smoke trail from its mouth bringing your attention to its large fangs. The creature's large red eyes glow brighter as your fear deepens in your soul.
+}
+race { Undead }
+sex { neuter }
+level { 325 }
+experience { 265000 }
+hp { 1,100,7000 }
+gold { 200 }
+move { 500 }
+mana { 200 }
+power { 200 }
+height { 100 }
+weight { 200 }
+hit_bonus { 20 }
+dam_bonus { 5 }
+alignment { -1000 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 3,8,10 }
+head { -10,2 }
+body { -10,2 }
+arms { -10,2 }
+legs { 10,0 }
+feet { 20,2 }
+immune { charm, sleep }
+resistant { fire }
+act { aggressive, sentinel, stay-zone, special }
+affected { sense-life }
+}
+
+15402
+{
+name { Bagga Bones }
+namelist { bagga, bones, warrior, skeleton, skeletal }
+shortdesc { Bagga Bones, Skeletal Warrior awaits your attack. }
+longdesc {
+A dull green glow emanates from the eye sockets of this long since dead warrior. Its battle experience can be seen by the several deep battle scars which have gouged the bone. A hole appears in the warriors spine, evidence that his death was not timely.
+}
+race { Undead }
+sex { neuter }
+level { 248 }
+experience { 410699 }
+hp { 9000,1,200 }
+gold { 6400 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 190 }
+weight { 70 }
+hit_bonus { 20 }
+dam_bonus { 15 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 6,4,1 }
+head { -20,9 }
+body { -20,9 }
+arms { -20,9 }
+legs { -20,9 }
+feet { -20,9 }
+immune { charm, slash, backstab }
+act { sentinel, scavenger }
+affected { detect-invisible, true-sight }
+}
+
+15403
+{
+name { Horned Demon }
+namelist { dark, figure, horned, demon }
+shortdesc { A yellow horned demon stands toweringly before you. }
+longdesc {
+This towering demon has brilliant yellow skin and two sharpened horns that protrude from the sides of its head. Its powerful arms have long, hooked claws, excellent weapons for tearing soft flesh. Its glaring black eyes express no hint of mercy.
+}
+race { Demon }
+sex { neuter }
+level { 375 }
+experience { 422566 }
+hp { 6973,1,200 }
+gold { 0 }
+move { 500 }
+mana { 200 }
+power { 200 }
+height { 20 }
+weight { 10 }
+hit_bonus { 25 }
+dam_bonus { 10 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 3,10,1 }
+head { -50,0 }
+body { -50,0 }
+arms { -50,0 }
+legs { -50,0 }
+feet { -50,0 }
+immune { charm, fire }
+act { aggressive, stay-zone }
+affected { true-sight, flying, fireshield }
+spells { blindness }
+}
+
+15404
+{
+name { A Minotaur }
+namelist { minotaur, monster }
+shortdesc { The minotaur leers at you cruelly as it brandishes his weapon. }
+longdesc {
+This hideous, ten foot tall beast has the head and legs of a massive black bull, and the body of an incredibly muscled man. It's body is adorned with several tattoos many which have been scarred from previous battles.  It leers at you evilly as his squinting red eyes fill with hate.
+}
+race { Predator }
+sex { neuter }
+level { 400 }
+experience { 525000 }
+hp { 21000,1,200 }
+gold { 12500 }
+move { 1000 }
+mana { 0 }
+power { 0 }
+height { 400 }
+weight { 350 }
+hit_bonus { 20 }
+dam_bonus { 15 }
+alignment { -750 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 4,8,5 }
+head { -10,4 }
+body { -10,4 }
+arms { -10,4 }
+legs { -10,4 }
+feet { -10,4 }
+immune { sleep, charm }
+act { aggressive, hateful, sentinel }
+}
+
+15405
+{
+name { King Blythe }
+namelist { king, blythe, man, }
+shortdesc { King Blythe sits in his chair enjoying the music of his minstrel. }
+longdesc {
+A haze of shimmering light surrounds this ghostly apparition. The King's features are drawn with an incredible sadness, his once-proud and powerful form now sunken with grief. Powerful emanations of goodness ripple out from him in waves. The King sits silently in his throne, enjoying the sweet music of his minstrel, remembering the days of old.
+}
+race { Undead }
+sex { neuter }
+level { 510 }
+experience { 700000 }
+hp { 20000,1,20 }
+gold { 10000 }
+move { 500 }
+mana { 100 }
+power { 100 }
+height { 160 }
+weight { 200 }
+hit_bonus { 20 }
+dam_bonus { 10 }
+alignment { 500 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 10, 10, 50 }
+head { -100,4 }
+body { -90,2 }
+arms { -90,2 }
+legs { -50,5 }
+feet { -50,5 }
+immune { charm }
+resistant { sleep }
+act { sentinel }
+affected { sense-life, sanctuary, detect-invisible }
+}
+
+15406
+{
+name { General Yakima }
+namelist { general, yakima }
+shortdesc { General Yakima stands with the practiced grace of a compentent warrior. }
+longdesc {
+This tall, imposing figure is entirely clad in glittering blue chainmail. He wields a heavy fish spine sword and a white shield emblazoned with his Royal crest. He stands with the practiced grace of a competent warrior, and is likely to be a tough opponent.
+}
+race { Undead }
+sex { neuter }
+level { 510 }
+experience { 725000 }
+hp { 20000,1,2000 }
+gold { 13500 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 300 }
+weight { 280 }
+hit_bonus { 25 }
+dam_bonus { 10 }
+alignment { 500 }
+caster { 0 }
+attacks_per_round { 4 }
+damage { 8,2,2 }
+head { -40,4 }
+body { -40,4 }
+arms { -40,4 }
+legs { -40,4 }
+feet { -40,4 }
+immune { charm }
+act { sentinel, stay-zone }
+affected { detect-magic, detect-evil, true-sight }
+}
+
+15407
+{
+name { Queen Denora }
+namelist { queen, denora, woman }
+shortdesc { Queen Denora feaverishly searches for her formal wear. }
+longdesc {
+This delicate-looking woman has large, almond-shaped brown eyes and long black hair down to her waist. She is quite a bit younger than her husband and is more beautiful than Aphrodite herself. She bows slightly at your gaze, and turns away, blushing.
+}
+race { Undead }
+sex { neuter }
+level { 410 }
+experience { 250843 }
+hp { 13000,1,250 }
+gold { 0 }
+move { 500 }
+mana { 500 }
+power { 500 }
+height { 160 }
+weight { 130 }
+hit_bonus { 25 }
+dam_bonus { 7 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 3,5,10 }
+head { -15,1 }
+body { -15,1 }
+arms { -15,1 }
+legs { -15,1 }
+feet { -15,1 }
+immune { charm }
+act { stay-zone, wimpy }
+affected { sense-life, sanctuary }
+}
+
+15408
+{
+name { Drax the Undead Priest }
+namelist { drax undead priest }
+shortdesc { Drax, the Undead Priest meditates quietly at an altar. }
+longdesc {
+Before you stands the image of a tall, white-robed man, his hair grey with age, flows gently down over his shoulders. His bright green eyes seem to pierce through the insubstantial haze surrounding him, and his commanding facial features gives him an almost regal demeanor. This warm spirit irradiates the feeling of
+safety, yet you feel you are in the presence of great power.
+}
+race { Human }
+sex { neuter }
+level { 510 }
+experience { 426000 }
+hp { 9200,1,200 }
+gold { 7500 }
+move { 500 }
+mana { 1000 }
+power { 1000 }
+height { 200 }
+weight { 140 }
+hit_bonus { 25 }
+dam_bonus { 5 }
+alignment { 500 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 2,3,1 }
+head { -60,2 }
+body { -60,2 }
+arms { -60,2 }
+legs { -60,2 }
+feet { -60,2 }
+immune { sleep, hold, charm, backstab }
+act { sentinel }
+affected { detect-invisible, sanctuary }
+spells { blindness, shriek, sleep, dispel magic }
+}
+
+15409
+{
+name { Flavius, First Knight }
+namelist { flavius first knight }
+shortdesc { Flavius, the First Knight stands on guard. }
+longdesc {
+Before you stands the shadowed image of a tall, muscular warrior. His bright blue eyes peer from the depths of his hood, and as he looks you up and down, he seems to nod to himself in satisfaction.
+}
+race { Undead }
+sex { neuter }
+level { 500 }
+experience { 599500 }
+hp { 14000,1,100 }
+gold { 35000 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 160 }
+weight { 10 }
+hit_bonus { 30 }
+dam_bonus { 5 }
+alignment { 1000 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 4,10,2 }
+head { -50,1 }
+body { -50,1 }
+arms { -50,1 }
+legs { -50,1 }
+feet { -50,1 }
+immune { charm }
+act { sentinel, stay-zone, special }
+affected { true-sight, sanctuary }
+}
+
+15410
+{
+name { A Dark Assassin }
+namelist { dark, assassin, thief, ninja }
+shortdesc { A Dark Assassin is here hiding in the shadows waiting for a kill. }
+longdesc {
+This tiny being moves about with superb grace, making no sound whatsoever. Wielding a bronze tiger claw and wearing black, form-fitting leather, he has the look of a predator in his eyes.
+}
+race { Undead }
+sex { neuter }
+level { 400 }
+experience { 430000 }
+hp { 11000,1,10 }
+gold { 5000 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 120 }
+weight { 115 }
+hit_bonus { 23 }
+dam_bonus { 23 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 4 }
+damage { 3,10,5 }
+head { -50,0 }
+body { -50,0 }
+arms { -50,0 }
+legs { -50,0 }
+feet { -50,0 }
+immune { charm, backstab }
+act { aggressive, special }
+affected { hide, sense-life }
+}
+
+15411
+{
+name { A Pesky Thief }
+namelist { pesky, thief, man }
+shortdesc { A pesky thief scavenges for treasure to steal. }
+longdesc {
+This shifty-eyed human is garbed in light leathers, and constantly looks around as if watching for guards. Wielding a short blade, he appears fairly capable and cold-hearted.
+}
+race { Human }
+sex { neuter }
+level { 50 }
+experience { 10455 }
+hp { 400,1,10 }
+gold { 600 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 190 }
+weight { 120 }
+hit_bonus { 5 }
+dam_bonus { 1 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 2,2,2 }
+head { 30,2 }
+body { 30,2 }
+arms { 30,2 }
+legs { 30,2 }
+feet { 30,2 }
+immune { charm }
+act { scavenger, stay-zone, nice-thief }
+affected { sneak }
+}
+
+15412
+{
+name { A Ghost }
+namelist { A Ghost }
+shortdesc { A transparent ghost hovers toward you . }
+longdesc {
+Hopelessly wandering the earth for eternity, this creature is the life force of a restless dead being. It hovers lifelessly in the air without effort, its body is translucent, giving you a view completely through the creature.
+}
+race { Undead }
+sex { neuter }
+level { 338 }
+experience { 238994 }
+hp { 2326,1,20 }
+gold { 1500 }
+move { 500 }
+mana { 500 }
+power { 500 }
+height { 200 }
+weight { 20000 }
+hit_bonus { 25 }
+dam_bonus { 1 }
+alignment { -250 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 5,4,5 }
+head { -50,8 }
+body { -60,5 }
+arms { -20,4 }
+legs { -20,4 }
+feet { -20,4 }
+immune { charm, backstab }
+act { aggressive, stay-zone }
+affected { flying, invisible }
+}
+
+15413
+{
+name { A Mummy }
+namelist { Mummy }
+shortdesc { A large mummy wrapped in bloody bandages reaches for your throat. }
+longdesc {
+This creature is the corpse of a poor human, wrapped in bandages, and filled with preserving fluids, it has been cursed to roam these lands for eternity. It seems quite mindless, but looks willing to destroy anyone or anything that gets in its way.
+
+}
+race { Undead }
+sex { neuter }
+level { 338 }
+experience { 249021 }
+hp { 3326,1,20 }
+gold { 1400 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 2000 }
+weight { 1000 }
+hit_bonus { 25 }
+dam_bonus { 1 }
+alignment { -500 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 6,8,0 }
+head { -20,5 }
+body { -20,5 }
+arms { -20,4 }
+legs { -20,4 }
+feet { -20,4 }
+immune { charm, hold }
+act { stay-zone, aggressive }
+affected { true-sight }
+}
+
+15414
+{
+name { A Nightshade }
+namelist { Nightshade }
+shortdesc { A Nightshade flies quickly toward you preparing his attack. }
+longdesc {
+This is a shadowy spirit in the vague shape of a human, with glowing red points of light where its eyes should be. It is hard to see, and seems to fade in and out of existance.
+}
+race { Undead }
+sex { neuter }
+level { 400 }
+experience { 310432 }
+hp { 4200,1,150 }
+gold { 1750 }
+move { 500 }
+mana { 500 }
+power { 500 }
+height { 150 }
+weight { 9000 }
+hit_bonus { 10 }
+dam_bonus { 4 }
+alignment { -250 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 3,2,5 }
+head { -40,5 }
+body { -50,3 }
+arms { -40,3 }
+legs { -30,2 }
+feet { -30,1 }
+immune { charm, poison, drain, backstab }
+act { stay-zone, aggressive }
+affected { detect-invisible, flying }
+}
+
+15415
+{
+name { A Banshee }
+namelist { Banshee }
+shortdesc { The banshee utters a heart-stopping wail, and reaches for you! }
+longdesc {
+The banshee appears to be an undead elven female, whose hatred of life is so great, it sustains her even after death. Her translucent form seems to radiate power, and a chill of fear runs up your spine. The banshee cries out her hatred in a voice so terrible it rattles your insides. The rotting robes she wears appear to be once of fine fashioning.
+}
+race { Undead }
+sex { neuter }
+level { 340 }
+experience { 337500 }
+hp { 3200,1,150 }
+gold { 1300 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 120 }
+weight { 10000 }
+hit_bonus { 15 }
+dam_bonus { 5 }
+alignment { -250 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 4,10,2 }
+head { -30,4 }
+body { -30,4 }
+arms { -30,3 }
+legs { -20,2 }
+feet { -20,2 }
+immune { charm, drain, backstab }
+act { aggressive, stay-zone, special }
+affected { flying, detect-invisible }
+spells { fear, shriek }
+}
+
+15416
+{
+name { A Poltergeist }
+namelist { Poltergeist }
+shortdesc { A Poltergeist is here feeding on a pool of fresh blood. }
+longdesc {
+This Poltergeist is the spirit of violent creature, whose lust for blood could not be quenched in the after life. It is evil in one of its purest forms, and should be avoided whenever possible.
+}
+race { Human }
+sex { neuter }
+level { 330 }
+experience { 295001 }
+hp { 2978,1,100 }
+gold { 1700 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 200 }
+weight { 10 }
+hit_bonus { 35 }
+dam_bonus { 10 }
+alignment { -850 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 6,10,5 }
+head { -20,9 }
+body { -20,9 }
+arms { -20,9 }
+legs { -20,9 }
+feet { -20,9 }
+immune { hold, charm, backstab }
+act { aggressive, stay-zone }
+affected { flying, true-sight }
+}
+
+15417
+{
+name { A Dread Knight }
+namelist { Dread Knight }
+shortdesc { A large Dread Knight turnes toward you with an evil grin. }
+longdesc {
+This is the spirit of a knight who committed animmensely evil act, and thus was executed, only to be brought back to walk the earth
+forever, despairing of its weakness. It appears to have been of noble ancestry, by its build, and clothing, but all that can now be seen is its ghostlike skeleton, wearing ornate armour, and with deep glowing red eyes staring from beneath its helm.
+}
+race { Undead }
+sex { neuter }
+level { 338 }
+experience { 255013 }
+hp { 2500,1,50 }
+gold { 1400 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 200 }
+weight { 1000 }
+hit_bonus { 30 }
+dam_bonus { 5 }
+alignment { -750 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 4,7,1 }
+head { -20,5 }
+body { -20,5 }
+arms { -20,5 }
+legs { -20,5 }
+feet { -20,5 }
+immune { charm, backstab, slash }
+act { aggressive, stay-zone }
+}
+
+15418
+{
+name { An Undead Servant }
+namelist { An Undead Servant }
+shortdesc { An Undead Servant is here searching for its tomb. }
+longdesc {
+This small translucent being is garbed in cloth rags with a straw hat which has been pulled down over its face. It walks quickly in and out of tombs searching for its resting place. It keeps its head down at all times, trying not to catch any unwanted attention.
+}
+race { Undead }
+sex { neuter }
+level { 50 }
+experience { 12430 }
+hp { 640,1,10 }
+gold { 500 }
+move { 500 }
+mana { 100 }
+power { 100 }
+height { 200 }
+weight { 150 }
+hit_bonus { 13 }
+dam_bonus { 1 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 2,5,1 }
+head { 40,2 }
+body { 40,2 }
+arms { 40,2 }
+legs { 40,2 }
+feet { 40,2 }
+act { stay-zone, scavenger }
+}
+
+15419
+{
+name { The Keykeeper }
+namelist { The Keykeeper }
+shortdesc { The Keykeeper quickly hides his keys as you approach. }
+longdesc {
+The Keykeeper is a short dwarflike ghost surrounded by a glowing shroud. He swaggers slowly throughout the tombs day after day ensuring all keys are protected. He dangles a single iron key from his belt and seems to be trying to hide it from view as you approach.
+}
+race { Undead }
+sex { neuter }
+level { 290 }
+experience { 321000 }
+hp { 7400,1,1000 }
+gold { 14000 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 130 }
+weight { 20000 }
+hit_bonus { 18 }
+dam_bonus { 10 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 4,9,0 }
+head { -10,1 }
+body { -10,1 }
+arms { -10,1 }
+legs { -10,1 }
+feet { -10,1 }
+immune { charm }
+act { stay-zone, scavenger }
+affected { true-sight, sanctuary }
+}
+
+15420
+{
+name { Giant Water Snake }
+namelist { Giant Water Snake }
+shortdesc { A Giant Water Snake bolts through the water displaying its huge fangs. }
+longdesc {
+Easily surpassing forty feet in length this snake is at least as wide around as a dwarf. Rather than slithering, as most snakes do, it moves with little effort and amazing speed, cutting through the water like a thin blade. It's jaws fly open as it approaches you, displaying large yellow fangs.
+}
+race { Predator }
+sex { neuter }
+level { 208 }
+experience { 131999 }
+hp { 2400,1,10 }
+gold { 200 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 2000 }
+weight { 10000 }
+hit_bonus { 3 }
+dam_bonus { 1 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 3,5,3 }
+head { -20,0 }
+body { -20,0 }
+arms { -20,0 }
+legs { -20,0 }
+feet { -20,0 }
+immune { charm }
+act { aggressive, deadly, nosummon, stay-zone }
+}
+
+15421
+{
+name { A quivering mouse }
+namelist { A quivering mouse }
+shortdesc { A quivering mouse is here nipping at your heels. }
+longdesc {
+This is a small grey mouse. It seems to be very well fed, strange to you due to the lack of food in the area. Nipping at your heels, it stands on two hind legs begging for any food you may give.
+}
+race { Undead }
+sex { neuter }
+level { 8 }
+experience { 931 }
+hp { 75,1,10 }
+gold { 0 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 20 }
+weight { 10 }
+hit_bonus { 20 }
+dam_bonus { 1 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 2,4,1 }
+head { 100,0 }
+body { 100,0 }
+arms { 100,0 }
+legs { 100,0 }
+feet { 100,0 }
+act { scavenger, stay-zone }
+}
+
+15422
+{
+name { A giant white grub }
+namelist { giant white grub }
+shortdesc { A white grub is here feeding on the delicious tree roots. }
+longdesc {
+This giant grub is C-shaped, dirty white in color, with brownish head and legs and a darker grey area at the tip of the abdomen. It has three pairs of short legs immediately behind its head. The creatures internal gut can readily be seen through the thin skin of its abdomen.
+}
+race { Parasite }
+sex { neuter }
+level { 43 }
+experience { 5430 }
+hp { 269,1,20 }
+gold { 0 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 2000 }
+weight { 70000 }
+hit_bonus { 2 }
+dam_bonus { 3 }
+alignment { 0 }
+caster { 0 }
+attacks_per_round { 2 }
+damage { 2,4,1 }
+head { 30,1 }
+body { 30,1 }
+arms { 30,0 }
+legs { 30,0 }
+feet { 30,0 }
+act { scavenger, stay-zone, wimpy }
+}
+
+15423
+{
+name { A blood leech }
+namelist { A blood leech }
+shortdesc { A blood leech floats slowly towards you smelling your blood. }
+longdesc {
+A blood leech is a midnight black creature only about the size of your fist. Its skin glimmers in the water as it floats toward you.
+}
+race { Parasite }
+sex { neuter }
+level { 16 }
+experience { 1499 }
+hp { 90,1,10 }
+gold { 0 }
+move { 500 }
+mana { 0 }
+power { 0 }
+height { 20 }
+weight { 10 }
+hit_bonus { 10 }
+dam_bonus { 1 }
+alignment { -100 }
+caster { 0 }
+attacks_per_round { 1 }
+damage { 1,5,1 }
+head { 50,0 }
+body { 50,0 }
+arms { 50,0 }
+legs { 50,0 }
+feet { 50,0 }
+act { stay-zone }
+}

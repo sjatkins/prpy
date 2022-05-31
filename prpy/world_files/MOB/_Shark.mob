@@ -1,0 +1,342 @@
+250
+{
+  name { A giant spider }
+  namelist { spider giant }
+  shortdesc { A giant spider scurries about. }
+  longdesc {
+It is about 8' across, including legs.
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 352 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+251
+{
+  name { A carrion crawler }
+  namelist { carrion crawler }
+  shortdesc { A carrion crawler searches for food here. }
+  longdesc {
+It is a grotesque beast, with numerous legs, and strange tentacles
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 8 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 202  }
+  move { 300 }
+  experience { 157 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+252
+{
+  name { An erinyes }
+  namelist { erinyes }
+  shortdesc { An erinyes is here, folding her bat wings. }
+  longdesc {
+She looks like a human female...with bat wings...a tail...and horns...
+  }
+  race { none }
+  level { 3 }
+  alignment { -700 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 490 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+253
+{
+  name { The hydra }
+  namelist { hydra }
+  shortdesc { An eight-headed hydra snaps at you.. Eight times! }
+  longdesc {
+It is a large, eight headed dragon-like creature.
+  }
+  race { none }
+  level { 3 }
+  alignment { -200 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 8 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 8, 8, 1  }
+  move { 300 }
+  experience { 588 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+254
+{
+  name { The jackalwere }
+  namelist { jackalwere }
+  shortdesc { A jackalwere looks at you.. You feel sleepy }
+  longdesc {
+It is a jackal-like creature, that has partially taken the shape of a man.
+  }
+  race { none }
+  level { 2 }
+  alignment { -400 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 1  }
+  move { 300 }
+  experience { 306 }
+  damage { 2, 4, 1  }
+  immune { charm, non-magical }
+  act { scavenger, aggressive, wimpy }
+}
+
+255
+{
+  name { A weretiger }
+  namelist { weretiger }
+  shortdesc { A weretiger snarls at you. }
+  longdesc {
+A very large tiger/man combination...
+  }
+  race { none }
+  level { 1 }
+  alignment { -500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 236 }
+  damage { 1, 7, 1  }
+  immune { charm, non-magical }
+  act { scavenger, aggressive, wimpy }
+}
+
+256
+{
+  name { a manticore }
+  namelist { manticore }
+  shortdesc { A manticore stands here, tail thrashing. }
+  longdesc {
+It is like a lion, but with a spiked tail.
+  }
+  race { none }
+  level { 1 }
+  alignment { -500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 3, 8, 3  }
+  move { 300 }
+  experience { 310 }
+  damage { 1, 5, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+257
+{
+  name { An ogre magi }
+  namelist { ogre magi }
+  shortdesc { An ogre magi stands here, feasting on human flesh. }
+  longdesc {
+He is large, and vaguely oriental.
+  }
+  race { ogre }
+  level { 1 }
+  alignment { -500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 183 }
+  damage { 1, 12, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+258
+{
+  name { An otyugh }
+  namelist { otyugh }
+  shortdesc { An otyugh squats here, tentacles flailing. }
+  longdesc {
+It looks like the word sounds... UGLY.
+  }
+  race { none }
+  level { 3 }
+  alignment { -100 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 6, 8, 1  }
+  move { 300 }
+  experience { 482 }
+  damage { 1, 7, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+261
+{
+  name { a hill giant }
+  namelist { hill giant }
+  shortdesc { A rather large humanoid stands here, picking his teeth }
+  longdesc {
+He is about 10 feet tall, maybe 12.  He carries a spear that is substantially
+taller than you are.
+  }
+  race { giant }
+  level { 10 }
+  alignment { -500 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 14, 8, 180  }
+  move { 300 }
+  experience { 1097 }
+  damage { 1, 10, 7  }
+  immune { charm }
+  act { sentinel, scavenger, nice-thief, wimpy }
+}
+
+262
+{
+  name { a troll }
+  namelist { troll }
+  shortdesc { A green-skinned troll is here.  He smells disgusting. }
+  longdesc {
+He is about 7 feet tall.  He carries no weapons, but his breath is strong
+enough to kill trees.
+  }
+  race { troll }
+  level { 3 }
+  alignment { -500 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 518 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { special, sentinel, scavenger, nice-thief, wimpy }
+}
+
+271
+{
+  name { a werewolf }
+  namelist { werewolf wolfman }
+  shortdesc { A furry wolfman is here.  He snarls at you. }
+  longdesc {
+He is 5' tall, because he has horrible posture.  He is a swift, and merciless
+fighter.
+  }
+  race { none }
+  level { 10 }
+  alignment { -600 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 14, 8, 14  }
+  move { 300 }
+  experience { 1296 }
+  damage { 1, 8, 3  }
+  immune { charm }
+  resistant { blunt, pierce, slash }
+  affected { infravision }
+  act { special, sentinel, scavenger, nice-thief, wimpy }
+}
+

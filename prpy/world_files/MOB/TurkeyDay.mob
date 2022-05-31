@@ -1,0 +1,190 @@
+601
+{
+  name { The Turkey Farmer }
+  namelist { farmer turkey }
+  shortdesc { The large farmer is too busy chasing turkeys to notice you. }
+  longdesc {
+A well built turkey farmer is here swatting and swearing at turkeys as they
+run around his feet and throughout the barn.  He's far too busy to notice
+someone of your stature.  He holds a large pitchfork, normally used for hay
+and takes a big swing at a fat turkey.
+}
+  race { Human }
+  sex { Male }
+  level { 230 }
+  experience { 320000 }
+  hp { 50, 10, 4800 }
+  alignment { 750 }
+  move { 600 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 19 }
+  damage { 4, 5, 12 }
+  attacks_per_round { 4 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -50, 6 }
+  feet { -50, 6 }
+  affected { detect-invisible }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+602
+{
+  name { A Rampant Turkey }
+  namelist { rampant turkey bird }
+  shortdesc { A turkey runs wild through the farm. }
+  longdesc {
+Unlike most of the other turkeys throughout the farm, this
+particular one has somehow gotten loose.  Maybe a gate
+was left open.  The huge bird starts making gobbling noises.
+}
+  race { bird }
+  sex { Male }
+  level { 175 }
+  experience { 125000 }
+  hp { 22, 9, 2500 }
+  alignment { 0 }
+  move { 600 }
+  gold { 1700 }
+  hit_bonus { 16 }
+  dam_bonus { 15 }
+  damage { 3, 8, 10 }
+  attacks_per_round { 2 }
+  head { -40, 5 }
+  body { -40, 5 }
+  arms { -40, 5 }
+  legs { -40, 5 }
+  feet { -40, 5 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+603
+{
+  name { A Frightened Turkey }
+  namelist { frightened turkey bird }
+  shortdesc { A large turkey flees in terror. }
+  longdesc {
+A rather large turkey flees at the sight of the gate opening.
+The bird makes gobbling noises and tries to hide in the corner
+of its pen.
+}
+  race { bird }
+  sex { Male }
+  level { 155 }
+  experience { 110000 }
+  hp { 20, 30, 2000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 1200 }
+  hit_bonus { 16 }
+  dam_bonus { 12 }
+  damage { 3, 6, 8 }
+  attacks_per_round { 2 }
+  head { -25, 4 }
+  body { -25, 4 }
+  arms { -25, 4 }
+  legs { -25, 4 }
+  feet { -25, 4 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+604
+{
+  name { A Large Turkey }
+  namelist { large turkey bird }
+  shortdesc { A large turkey roams about its pen. }
+  longdesc {
+This enourmous bird runs around its pen eating whats
+left of the feed and drinking from the small water trough
+every now and then.  It flaps its wings uselessly and then
+makes gobbling noises.
+}
+  race { bird }
+  sex { Male }
+  level { 160 }
+  experience { 117500 }
+  hp { 30, 3, 2000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 1700 }
+  hit_bonus { 15 }
+  dam_bonus { 13 }
+  damage { 3, 6, 9 }
+  attacks_per_round { 2 }
+  head { -30, 4 }
+  body { -30, 4 }
+  arms { -30, 4 }
+  legs { -30, 4 }
+  feet { -30, 4 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+605
+{
+  name { A Fat Turkey }
+  namelist { fat turkey bird }
+  shortdesc { A fat turkey wobbles around looking for food. }
+  longdesc {
+This fat turkey looks perfect for a nice Thanksgiving dinner.  It
+wobbles about looking for more food and barely notices your
+presence.
+}
+  race { bird }
+  sex { Male }
+  level { 160 }
+  experience { 117500 }
+  hp { 20, 15, 2000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 1300 }
+  hit_bonus { 9 }
+  dam_bonus { 13 }
+  damage { 3, 5, 7 }
+  attacks_per_round { 2 }
+  head { -20, 2 }
+  body { -20, 2 }
+  arms { -20, 2 }
+  legs { -20, 2 }
+  feet { -20, 2 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+606
+{
+  name { A Fleeing Turkey }
+  namelist { fleeing turkey bird }
+  shortdesc { A scared turkey runs about gobbling madly. }
+  longdesc {
+A rather large turkey gobbles madly as it flees from a crazy old
+farmer.  The bird runs about the barn, trying to find a way out.
+}
+  race { bird }
+  sex { Male }
+  level { 160 }
+  experience { 120000 }
+  hp { 30, 30, 2000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 17 }
+  damage { 4, 5, 10 }
+  attacks_per_round { 2 }
+  head { -40, 5 }
+  body { -40, 5 }
+  arms { -40, 5 }
+  legs { -40, 5 }
+  feet { -40, 5 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+
+

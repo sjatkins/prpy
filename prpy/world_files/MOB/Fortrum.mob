@@ -1,0 +1,4341 @@
+104001
+{
+  name { a level guard }
+  namelist { green dwarf level guard }
+  shortdesc { A dwarven level guard glares up at you. }
+  longdesc {
+A stout guard in green armor looks at you inquisitively. He is 
+obviously sizing you up and deciding whether or not to let you pass.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 350 }
+  experience { 135700}
+  hp { 4, 95, 3600 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  attacks_per_round { 2.5 }
+  move  { 300 }
+  damage { 3, 5, 5 }
+  head { -20, 10 }
+  body { -10, 9 }
+  arms { -10, 9 }
+  legs { -10, 9 }
+  feet { -10, 9 }
+  resist_magic { 125 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104002
+{
+  name { a level guard }
+  namelist { blue dwarf level guard }
+  shortdesc { A dwarven level guard glares up at you. }
+  longdesc {
+A stout guard in blue armor looks at you inquisitively. He is 
+obviously sizing you up and deciding whether or not to let you pass.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 3 }
+  level { 390 }
+  experience { 355320 }
+  hp { 4, 95, 9600 }
+  alignment { 0 }
+  gold { 11000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.5 }
+  move  { 300 }
+  damage { 3, 8, 6 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic { 135 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104003
+{
+  name { a giant cave spider }
+  namelist { giant cave spider }
+  shortdesc { The biggest cave spider you have ever seen is here. }
+  longdesc {
+A spider drops down from its web as you enter its home. It is every 
+bit as big as you are, if not larger. You have heard stories of giant
+caves spiders before, but never seen one up close. You kind of wish 
+they had remained just stories!
+  }
+  race { none }
+  sex { neuter }
+  world_limit { 1 }
+  level { 299 }
+  experience { 627600 }
+  hp { 7, 100, 11500 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 17 }
+  dam_bonus { 13 }
+  attacks_per_round { 2.5 }
+  move  { 300}
+  damage { 3, 8, 8 }
+  head { -70, 7 }
+  body { -60, 6 }
+  arms { -60, 6 }
+  legs { -60, 6 }
+  feet { -60, 6 }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+104004
+{
+  name { a barking dog }
+  namelist { barking dog }
+  shortdesc { A ferocious looking dog barks at you. }
+  longdesc {
+A dog barks as you near it. You are not sure what breed it is, but
+it is certainly smaller than any dog you have seen before. The 
+dwarves must have bred them that way.
+  }
+  race { none }
+  sex { neuter }
+  world_limit { 15 }
+  level { 15 }
+  experience { 1450 }
+  hp { 4, 10, 60 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 15}
+  damage { 1, 5, 1 }
+  head { 50, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  act { npc, stay-zone }
+}
+
+104005
+{
+  name { a dwarven child }
+  namelist { dwarf child }
+  shortdesc { A tiny dwarven child is here, wearing his father's armor. }
+  longdesc {
+A tiny dwarven child proudly struts around in a full suit of battle 
+armor. He is obviously very proud of his warrior father. He quite
+obvioulsy wants to follow in his footsteps and make the clan proud.
+  }
+ race { dwarf }
+  sex { male }
+  world_limit { 15 }
+  level { 30 }
+  experience { 5200 }
+  hp { 4, 30, 200 }
+  alignment { 0 }
+  gold { 575 }
+  hit_bonus { 11 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 30 }
+  damage { 2, 4, 1 }
+  head { 50, 2 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  act { npc, stay-zone } 
+}
+
+104006
+{
+  name { a teenage dwarf }
+  namelist { teenage dwarf }
+  shortdesc { A teenage dwarf wanders around looking for trouble. }
+  longdesc {
+A teenage dwarf walks the streets acting tough. He looks to be about
+sixteen or seventeen years old. But, with dwarves, it is hard to tell.
+  }
+  race { dwarf }
+  height { 90 }
+  sex { male }
+  weight { 10000 }
+  level { 168 }
+  alignment { 0 }
+  gold { 3620  }
+  hit_bonus { 8 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 4, 168, 1000 }
+  move { 300 }
+  experience { 32706 }
+  damage { 2, 5, 2  }
+  act { npc, stay-zone }
+}
+
+104007
+{
+  name { a dwarven guard }
+  namelist { green dwarf guard }
+  shortdesc { A guard patrols the city, clad in green armor. }
+  longdesc {
+The dwarven guard looks like he means business. His colorful armor
+bears all the markings of his clan, and is polished to a high luster.
+He patrols the street looking for any troublemakers.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 4 }
+  level { 120 }
+  experience { 65500 }
+  hp { 4, 60, 2550 }
+  alignment { 0 }
+  gold { 7600 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 40, 4 }
+  body { -50, 13 }
+  arms { -50, 13 }
+  legs { -50, 13 }
+  feet { -50, 13 }
+  act { npc, stay-zone }
+}
+
+104008
+{
+  name { a dwarven guard }
+  namelist { blue dwarf guard }
+  shortdesc { A guard patrols the city, clad in blue armor. }
+  longdesc {
+The dwarven guard looks like he means business. His colorful armor
+bears all the markings of his clan, and is polished to a high luster.
+He patrols the street looking for any troublemakers.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 4 }
+  level { 195 }
+  experience { 113300 }
+  hp { 4, 50, 3800 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  resist_magic { 135 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104009
+{
+  name { a dwarven guard }
+  namelist { red dwarf guard }
+  shortdesc { A guard patrols the city, clad in red armor. }
+  longdesc {
+The dwarven guard looks like he means business. His colorful armor
+bears all the markings of his clan, and is polished to a high luster.
+He patrols the street looking for any troublemakers.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 5 }
+  level { 395 }
+  experience { 254900 }
+  hp { 4, 500, 5100 }
+  alignment { 0 }
+  gold { 14000 }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2.5 }
+  move  { 400}
+  damage { 2, 9, 8 }
+  head { 40, 6 }
+  body { 50, 6 }
+  arms { 50, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  resist_magic { 145 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104010
+{
+  name { a sleepy guardsman }
+  namelist { sleepy dwarf guardsman }
+  shortdesc { A dwarven guardsman has fallen asleep at his post. }
+  longdesc {
+The sleeping guardsman looks like he would be very good at his duties, 
+if he were awake that is. He must have been drinking until late last 
+night. These dwarves love their alcohol. He should be more careful, 
+anything could happen to him in his current condition.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 4 }
+  level { 85 }
+  experience { 35630 }
+  hp { 4, 70, 950 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 100 }
+  damage { 2, 5, 1 }
+  head { -20, 9 }
+  body { -20, 9 }
+  arms { -20, 9 }
+  legs { -20, 9 }
+  feet { -20, 9 }
+  act { npc, sentinel, stay-zone }
+}
+
+104011
+{
+  name { a half drunk guardsman }
+  namelist { drunk dwarf guardsman }
+  shortdesc { A half drunk dwarven guardsman leans against the wall. }
+  longdesc {
+The half drunk guardsman looks like he would be very good at his duties, 
+if he were sober that is. He must have been drinking until early this 
+morning. These dwarves love their alcohol. He should be more careful, 
+anything could happen to him in his current condition.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 7 }
+  level { 165 }
+  experience { 47900 }
+  hp { 4, 45, 1550 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 100 }
+  damage { 2, 9, 1 }
+  head { -55, 15 }
+  body { -55, 15 }
+  arms { -55, 15 }
+  legs { -55, 15 }
+  feet { -55, 15 }
+  act { npc, sentinel, stay-zone }
+}
+
+104012
+{
+  name { a dozing guardsman }
+  namelist { dozing dwarf guardsman }
+  shortdesc { A guardsman is dozing off in the corner of the room. }
+  longdesc {
+The dozing guardsman looks like he would be very good at his duties, 
+if he were awake that is. He must have been drinking all through the
+night. These dwarves love their alcohol. He should be more careful, 
+anything could happen to him in his current condition.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 6 }
+  level { 285 }
+  experience { 119400 }
+  hp { 4, 65, 2700 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 100 }
+  damage { 3, 6, 6 }
+  head { -80, 22 }
+  body { -80, 22 }
+  arms { -80, 22 }
+  legs { -80, 22 }
+  feet { -80, 22 }
+  act { npc, sentinel,stay-zone }
+}
+
+104013
+{
+  name { a green dwarven warrior }
+  namelist { green dwarf warrior }
+  shortdesc { A dwarven warrior in green battle armor stands here. }
+  longdesc {
+The dwarven warrior looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster. 
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 195 }
+  experience { 163200 }
+  hp { 4, 70, 3400 }
+  alignment { 0 }
+  gold { 8500 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 20, 4 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  resist_magic { 115 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104014
+{
+  name { a blue dwarven warrior }
+  namelist { blue dwarf warrior }
+  shortdesc { A dwarven warrior in blue battle armor stands here. }
+  longdesc {
+The dwarven warrior looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 320 }
+  alignment { 0 }
+  gold { 12250  }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  head { 0, 5 }
+  body { 10, 5 }
+  arms { 10, 5 }
+  legs { 10, 5 }
+  feet { 10, 5 }
+  resist_magic { 135 }
+  hp { 4, 32, 6000 }
+  move { 300 }
+  experience { 451397 }
+  damage { 3, 7, 7 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104015
+{
+  name { a red dwarven warlord }
+  namelist { red dwarf warlord }
+  shortdesc { A dwarven warlord in red battle armor stands here. }
+  longdesc {
+The dwarven warlord looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster. His studies of his clan's magic have advanced him well beyond
+that of a simple warrior.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 420 }
+  experience { 826500 }
+  hp { 4, 40, 8700 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2.5 }
+  move  { 300 }
+  damage { 3, 8, 8 }
+  head { -20, 11 }
+  body { -10, 11 }
+  arms { -10, 11 }
+  legs { -10, 11 }
+  feet { -10, 11 }
+  resist_magic { 165 }
+  caster { 80 }
+  spells { mage fire }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104016
+{
+  name { the green dwarven barkeep }
+  namelist { green dwarf barkeep }
+  shortdesc { The barkeep is here, wiping down the bar. }
+  longdesc {
+The barkeep looks like he is new to the job. Although he may be 
+inexperienced, you are quite certain he would be able to handle 
+himself if the need ever arose.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 220 }
+  experience { 193415 }
+  hp { 4, 65, 3850 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 6, 8 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  resist_magic { 125 }
+  immune { fire, cold, charm }
+  act { sentinel, stay-zone, nosummon, special }
+}
+
+104017
+{
+  name { the blue dwarven barkeep }
+  namelist { blue dwarf barkeep }
+  shortdesc { The barkeep is here, making sure everyone stays drunk. }
+  longdesc {
+The barkeep looks like he has been at this job for a long time. With 
+all the action this guy has seen over the years, he has probably 
+picked up a trick or two when it comes to fighting.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 315 }
+  experience { 417900 }
+  hp { 4, 250, 5700 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 2.5 }
+  move  { 300 }
+  damage { 3, 7, 7 }
+  head { -10, 8 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  resist_magic { 145 }
+  immune { fire, cold, charm }
+  act { sentinel, stay-zone, nosummon, special }
+}
+
+104018
+{
+  name { the red dwarven barkeep }
+  namelist { red dwarf barkeep }
+  shortdesc { The barkeep is here, looking like he knows something you don't. }
+  longdesc {
+This barkeep looks very old and very mean. You would not want to ever
+get on his bad side. He has been around for so long, you are sure he
+knows everything there is to know about this dwarven city.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 410 }
+  experience { 625600 }
+  hp { 4, 250, 9100 }
+  alignment { 0 }
+  gold { 17000 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move  { 500 }
+  damage { 3, 8, 9 }
+  head { -20, 6 }
+  body { -10, 6 }
+  arms { -10, 6 }
+  legs { -10, 6 }
+  feet { -10, 6 }
+  resist_magic { 165 }
+  immune { fire, cold, charm }
+  act { sentinel, stay-zone, nosummon, special }
+}
+
+104019
+{
+  name { a drunken dwarf }
+  namelist { blue drunk dwarf }
+  shortdesc { A drunk dwarf is here, telling tall tales. }
+  longdesc {
+A drunk dwarf sits at the bar telling a loud story about his days as
+a warrior. Listening for a minute, you are quite sure he is being
+very cavalier with the details of his battle epic.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 4 }
+  level { 205 }
+  experience { 265400 }
+  hp { 4, 75, 5800 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 8, 7 }
+  head { -40, 8 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104020
+{
+  name { a drunken dwarf }
+  namelist { red drunk dwarf }
+  shortdesc { A drunk dwarf is here, itching for a fight. }
+  longdesc {
+A drunk dwarf sits at the bar staring around the room for something
+to get upset about. He is obviously not a happy drunk. You turn away
+quickly, but you think he noticed you looking at him.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 315 }
+  experience { 465400 }
+  hp { 4, 250, 7000 }
+  alignment { 0 }
+  gold { 9000 }
+  hit_bonus { 15 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 250 }
+  damage { 4, 6, 7 }
+  head { -60, 4 }
+  body { -50, 3 }
+  arms { -50, 3 }
+  legs { -50, 3 }
+  feet { -50, 3 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104021
+{
+  name { a tiny dwarven store clerk }
+  namelist { tiny dwarf clerk }
+  shortdesc { A tiny store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic { 125 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104022
+{
+  name { a stocky dwarven store clerk }
+  namelist { stocky dwarf clerk }
+  shortdesc { A stocky store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you arrived, she has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 10750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic { 145 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104023
+{
+  name { a bulky dwarven store clerk }
+  namelist { bulky dwarf clerk }
+  shortdesc { A bulky store clerk stares at you with contempt. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you entered, she has been glaring at you.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 410 }
+  experience { 535100 }
+  hp { 4, 100, 8000 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 12 }
+  head { -50, 7 }
+  body { -40, 7 }
+  arms { -40, 7 }
+  legs { -40, 7 }
+  feet { -40, 7 }
+  resist_magic { 175 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104024
+{
+  name { The dwarven armorer }
+  namelist { dwarf armorer }
+  shortdesc { The armorer raises an eyebrow as you enter his store. }
+  longdesc {
+The armorer notices you enter, but then goes back to work. His shop
+obviously gets a lot of business.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 309 }
+  experience { 517800 }
+  hp { 4, 95, 7000 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 4, 7, 9 }
+  head { -90, 12 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  resist_magic { 135 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104025
+{
+  name { The dwarven weaponsmith }
+  namelist { dwarf weaponsmith }
+  shortdesc { The weaponsmith is here, sweating from the heat. }
+  longdesc {
+The burly dwarven weaponsmith is here, pounding away at a weapon
+for a customer. 
+  }
+  act { npc, sentinel, stay-zone, nosummon }    
+}
+
+104026
+{
+  name { The smithy's wife }
+  namelist { dwarf wife }
+  shortdesc { The smithy's wife is here, preparing him a meal. }
+  longdesc {
+The smithy's wife moves quickly back and forth in the kitchen. She
+is making a meal for her husband and has no time for small talk.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 300 }
+  experience { 272600 }
+  hp { 4, 400, 5100 }
+  alignment { 0 }
+  gold { 10200 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 6 }
+  head { -50, 6 }
+  body { -40, 5 }
+  arms { -40, 5 }
+  legs { -40, 5 }
+  feet { -40, 5 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104027
+{
+  name { The barkeep's wife }
+  namelist { dwarf wife }
+  shortdesc { The barkeep's wife is here, cleaing up the room. }
+  longdesc {
+The barkeep's wife moves quickly around the room, picking up all
+the mess. She gets a look of confusion on her face when she notices
+you in her house.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 2 }
+  level { 300 }
+  experience { 236600 }
+  hp { 4, 400, 3900 }
+  alignment { 0 }
+  gold { 14200 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 5 }
+  head { -20, 6 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104028
+{
+  name { The dwarven blacksmith }
+  namelist { dwarf blacksmith }
+  shortdesc { The blacksmith is here, banging on something. }
+  longdesc {
+The dwarven blacksmith is her, banging out some dents in a
+magnificent looking breast plate. 
+  }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104029
+{
+  name { The blacksmith's wife }
+  namelist { dwarf wife }
+  shortdesc { The blacksmith's wife is here, reading a book. }
+  longdesc {
+The blacksmith's wife sits in a comfortable looking chair, reading
+a very thick book.  It must be a good read, because she doesn't notice
+you at all.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 300 }
+  experience { 181500 }
+  hp { 4, 400, 4300 }
+  alignment { 0 }
+  gold { 13200 }
+  hit_bonus { 19 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 6, 6 }
+  head { -20, 6 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104030
+{
+  name { Bolim the clan scout }
+  namelist { bolim dwarf scout }
+  shortdesc { Bolim the scout sits in his chair. }
+  longdesc {
+Bolim, a scout for the red clan, sits patiently in his chair. His
+dragonscale armor looks like it has seen a lot of use. He awaits his
+orders from the battle commander.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 2105000 }
+  hp { 4, 400, 32800 }
+  alignment { 0 }
+  gold { 99000 }
+  hit_bonus { 38 }
+  dam_bonus { 30 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 25, 10 }
+  head { -150, 16 }
+  body { -140, 16 }
+  arms { -140, 16 }
+  legs { -140, 16 }
+  feet { -140, 16 }
+  resist_acid   { 100 }
+  resist_magic  { 175 }
+  resist_force  { 12  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 100 }
+  caster { 40 }
+  spells { mage fire, fireball, dispel magic }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive }
+}
+
+104031
+{
+  name { Hildr the clan scout }
+  namelist { hildr dwarf scout }
+  shortdesc { Hildr, the scout, sits in her chair. }
+  longdesc {
+Hildr, the head scout for the red clan, sits patiently in her chair.
+Her dragonscale armor looks like it has seen a lot of use. She awaits
+her orders from the battle commander.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 525 }
+  experience { 2203000 }
+  hp { 4, 400, 35700 }
+  alignment { 0 }
+  gold { 110000 }
+  hit_bonus { 40 }
+  dam_bonus { 35 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 25, 15 }
+  head { -160, 16 }
+  body { -150, 16 }
+  arms { -150, 16 }
+  legs { -150, 16 }
+  feet { -150, 16 }
+  resist_acid   { 110 }
+  resist_magic  { 175 }
+  resist_force  { 12  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 110 }
+  caster { 40 }
+  spells { mage fire, fireball, dispel magic }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive }
+}
+
+104032
+{
+  name { Grimlag the dwarven battle commander }
+  namelist { grimlag dwarf commander }
+  shortdesc { Grimlag, the battle commander, stares at you. }
+  longdesc {
+Grimlag, head battle commander for the red clan, is here making
+battle plans. He looks very busy. His beautifully crafted mithril
+armor is polished to a high sheen.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 560 }
+  experience { 3205900 }
+  hp { 4, 400, 42500 }
+  alignment { 0 }
+  gold { 125000 }
+  hit_bonus { 45 }
+  dam_bonus { 35 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 25, 25 }
+  head { -190, 25 }
+  body { -180, 25 }
+  arms { -180, 25 }
+  legs { -180, 25 }
+  feet { -180, 25 }
+  resist_acid   { 130 }
+  resist_magic  { 175 }
+  resist_force  { 14  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 130 }
+  caster { 60 }
+  spells { mage fire, fireball, dispel magic }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104033
+{
+  name { Drong the dwarven battle commander }
+  namelist { drong dwarf commander }
+  shortdesc { Drong, the battle commander, stares at you. }
+  longdesc {
+Drong, a battle commander for the red clan, is here making
+battle plans. He looks very busy. His beautifully crafted mithril
+armor is polished to a high sheen.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 545 }
+  experience { 2806300 }
+  hp { 4, 400, 36500 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 43 }
+  dam_bonus { 30 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 25, 20 }
+  head { -180, 23 }
+  body { -170, 23 }
+  arms { -170, 23 }
+  legs { -170, 23 }
+  feet { -170, 23 }
+  resist_acid   { 120 }
+  resist_magic  { 175 }
+  resist_force  { 13  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 120 }
+  caster { 60 }
+  spells { mage fire, fireball, dispel magic }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104034
+{
+  name { Morina the dwarven cleric }
+  namelist { morina dwarf cleric }
+  shortdesc { Morina, the dwarven cleric, softly speaks a prayer. }
+  longdesc {
+Morina, the blue cleric, is making gestures around her own head, and 
+softly speaking a prayer. She is quite beautiful, for a dwarf. Her 
+beautiful ring gives off a stunning blue glow.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 570 }
+  experience { 1999999 }
+  hp { 4, 400, 40700 }
+  alignment { 0 }
+  gold { 400000 }
+  hit_bonus { 55 }
+  dam_bonus { 38 }
+  attacks_per_round { 3 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 40, 41 }
+  head { -100, 75 }
+  body { -90, 55 }
+  arms { -90, 55 }
+  legs { -90, 55 }
+  feet { -90, 55 }
+  resist_acid   { 120 }
+  resist_magic  { 175 }
+  resist_force  { 10  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 120 }
+  immune { fire, cold, charm }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, special }
+}
+
+104035
+{
+  name { Auor the dwarven mage }
+  namelist { auor dwarf mage }
+  shortdesc { Auor, the dwarven mage, looks through her spell book. }
+  longdesc {
+Auor, the red mage, is looking through a thick book. She must be 
+trying to recall a particular spell. She is lovely to look at, 
+although Morina is more your taste. Her lovely ring gives off a
+radiant red glow.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 560 }
+  experience { 2099999 }
+  hp { 4, 400, 42700 }
+  alignment { 0 }
+  gold { 300000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 38, 35 }
+  head { -100, 17 }
+  body { -90, 16 }
+  arms { -90, 16 }
+  legs { -90, 16 }
+  feet { -90, 16 }
+  resist_acid   { 130 }
+  resist_magic  { 200 }
+  resist_force  { 5  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 130 }
+  immune { fire, cold, charm }
+  affected { fireshield, true-sight }
+  act { special, sentinel, stay-zone, nosummon }
+}
+
+104036
+{
+  name { The elite dwarven guard }
+  namelist { elite green dwarf guard }
+  shortdesc { A dwarf stands guard, clad in green armor. }
+  longdesc {
+A dwarf is guarding the door here. He is much bigger and stronger
+than any of the guards you have seen on the upper levels. His 
+green armor shines brightly, even in the dim torch light.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 515 }
+  experience { 1472000 }
+  hp { 300, 2, 39500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 3.5 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { fire, cold, charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104037
+{
+  name { The elite dwarven guard }
+  namelist { elite blue dwarf guard }
+  shortdesc { A dwarf stands guard, clad in blue armor. }
+  longdesc {
+A dwarf is guarding the door here. He is much bigger and stronger
+than any of the guards you have seen on the upper levels. His 
+blue armor shines brightly, even in the dim torch light.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 525 }
+  experience { 1472000 }
+  hp { 300, 2, 46500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 3.5 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { fire, cold, charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104038
+{
+  name { The elite dwarven guard }
+  namelist { elite red dwarf guard }
+  shortdesc { A dwarf stands guard, clad in red armor. }
+  longdesc {
+A dwarf is guarding the door here. He is much bigger and stronger
+than any of the guards you have seen on the upper levels. His 
+red armor shines brightly, even in the dim torch light.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 535 }
+  experience { 1472000 }
+  hp { 300, 2, 54500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 3.5 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { fire, cold, charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104039
+{
+  name { The elite dwarven guard }
+  namelist { elite golden dwarf guard }
+  shortdesc { A dwarf stands guard, clad in golden armor. }
+  longdesc {
+A dwarf is guarding the door here. He is much bigger and stronger
+than any of the guards you have seen on the upper levels. His 
+golden armor shines brightly, even in the dim torch light.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 545 }
+  experience { 1472000 }
+  hp { 300, 2, 50500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 3.5 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { fire, cold, charm, sleep }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104040
+{
+  name { Valek the clan priest }
+  namelist { valek dwarf priest }
+  shortdesc { Valek, the clan priest, meditates in front of a green altar. }
+  longdesc {
+Valek is here, meditating. His dragonscale clothing is adorned with the
+markings of his clan. Although quite small in stature, he is obviously
+very old.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 560 }
+  experience { 3023000 }
+  hp { 4, 400, 25800 }
+  alignment { 0 }
+  gold { 550000 }
+  hit_bonus { 50 }
+  dam_bonus { 40 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 30, 40 }
+  head { -150, 36 }
+  body { -140, 26 }
+  arms { -140, 26 }
+  legs { -140, 26 }
+  feet { -140, 26 }
+  resist_acid   { 140 }
+  resist_magic  { 200 }
+  resist_force  { 13  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 140 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104041
+{
+  name { Gammel the clan priest }
+  namelist { gammel dwarf priest }
+  shortdesc { Gammel, the clan priest, prays next to a blue altar. }
+  longdesc {
+Gammel is here, meditating. His dragonscale clothing is adorned with the
+markings of his clan. Although quite small in stature, he is obviously
+very old.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 580 }
+  experience { 3023000 }
+  hp { 4, 400, 35800 }
+  alignment { 0 }
+  gold { 600000 }
+  hit_bonus { 55 }
+  dam_bonus { 45 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 32, 45 }
+  head { -150, 40 }
+  body { -140, 30 }
+  arms { -140, 30 }
+  legs { -140, 30 }
+  feet { -140, 30 }
+  resist_acid   { 150 }
+  resist_magic  { 200 }
+  resist_force  { 18  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 150 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104042
+{
+  name { Morral the clan priest }
+  namelist { morral dwarf priest }
+  shortdesc { Morral, the clan priest, kneels before a red altar. }
+  longdesc {
+Morral is here, meditating. Her dragonscale clothing is adorned with the
+markings of her clan. Although quite small in stature, she is obviously
+very old.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 600 }
+  experience { 3203000 }
+  hp { 4, 400, 45700 }
+  alignment { 0 }
+  gold { 650000 }
+  hit_bonus { 65 }
+  dam_bonus { 55 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 35, 50 }
+  head { -160, 45 }
+  body { -150, 35 }
+  arms { -150, 35 }
+  legs { -150, 35 }
+  feet { -150, 35 }
+  resist_acid   { 160 }
+  resist_magic  { 200 }
+  resist_force  { 25 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 160 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104043
+{
+  name { Boril the clan warchief }
+  namelist { boril dwarf warchief }
+  shortdesc { Boril, the clan warchief, is studying a map on the wall. }
+  longdesc {
+One of the largest dwarves you have ever seen, Boril easily towers
+several hands over the average dwarf. His muscled arms and legs
+peek out from beneath his steel armor. They are covered in battle 
+scars and tattooed with the markings of his clan.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 590 }
+  experience { 3203000 }
+  hp { 4, 400, 25700 }
+  alignment { 0 }
+  gold { 725000 }
+  hit_bonus { 40 }
+  dam_bonus { 32 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 3, 28, 31 }
+  head { -160, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  resist_acid   { 160 }
+  resist_magic  { 200 }
+  resist_force  { 110 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 160 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104044
+{
+  name { Gorak the clan warchief }
+  namelist { gorak dwarf warchief }
+  shortdesc { Gorak, the clan warchief, is here making battle plans. }
+  longdesc {
+One of the largest dwarves you have ever seen, Gorak easily towers
+several hands over the average dwarf. His muscled arms and legs
+peek out from beneath his steel armor. They are covered in battle 
+scars and tattooed with the markings of his clan.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 605 }
+  experience { 3203000 }
+  hp { 4, 400, 33700 }
+  alignment { 0 }
+  gold { 750000 }
+  hit_bonus { 45 }
+  dam_bonus { 36 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 30, 37 }
+  head { -180, 50 }
+  body { -170, 40 }
+  arms { -170, 40 }
+  legs { -170, 40 }
+  feet { -170, 40 }
+  resist_acid   { 170 }
+  resist_magic  { 200 }
+  resist_force  { 120 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 170 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104045
+{
+  name { Groth the clan warchief }
+  namelist { groth dwarf warchief }
+  shortdesc { Groth, the clan warchief, glares at you. }
+  longdesc {
+One of the largest dwarves you have ever seen, Groth easily towers
+several hands over the average dwarf. His muscled arms and legs
+peek out from beneath his steel armor. They are covered in battle 
+scars and tattooed with the markings of his clan. 
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 620 }
+  experience { 3503000 }
+  hp { 4, 400, 47700 }
+  alignment { 0 }
+  gold { 775000 }
+  hit_bonus { 50 }
+  dam_bonus { 163 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 5, 110 }
+  head { -210, 70 }
+  body { -200, 60 }
+  arms { -200, 60 }
+  legs { -200, 60 }
+  feet { -200, 60 }
+  resist_acid   { 180 }
+  resist_magic  { 200 }
+  resist_force  { 130 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 180 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104046
+{
+  name { Gilin the green clan elder }
+  namelist { gilin dwarf elder }
+  shortdesc { Gilin, the clan elder, bows to you as you enter. }
+  longdesc {
+Gilin must have celebrated his hundredth birthday a few centuries
+ago. His long white beard drags slightly on the floor. His dress 
+is humble, and is decorated with the markins of his clan. His few
+flamboyances include a handsome wristband and a deep red cloak.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 600 }
+  experience { 4090800 }
+  hp { 4, 400, 36500 }
+  alignment { 0 }
+  gold { 800000 }
+  hit_bonus { 50 }
+  dam_bonus { 32 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 45, 35 }
+  head { -180, 27 }
+  body { -170, 23 }
+  arms { -170, 23 }
+  legs { -170, 23 }
+  feet { -170, 23 }
+  resist_acid   { 180 }
+  resist_magic  { 200 }
+  resist_force  { 15 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 180 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104047
+{
+  name { Bazel the blue clan elder }
+  namelist { bazel dwarf elder }
+  shortdesc { Bazel, the clan elder, welcomes you into his home. }
+  longdesc {
+Bazel must have celebrated his hundredth birthday a few centuries
+ago. His long white beard drags slightly on the floor. His dress
+is humble, and is decorated with the markins of his clan. His few
+flamboyances include a deep red cloak and a handsome wristband.
+  }
+ race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 615 }
+  experience { 4090800 }
+  hp { 4, 400, 46500 }
+  alignment { 0 }
+  gold { 875000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 50, 40 }
+  head { -180, 34 }
+  body { -170, 28 }
+  arms { -170, 28 }
+  legs { -170, 28 }
+  feet { -170, 28 }
+  resist_acid   { 190 }
+  resist_magic  { 200 }
+  resist_force  { 25 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 190 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+
+104048
+{
+  name { Odin the red clan elder }
+  namelist { odin dwarf elder }
+  shortdesc { Odin, the eldest of the dwarven council, sits here. }
+  longdesc {
+Odin must have celebrated his hundredth birthday several centuries
+ago. His long white beard drags slightly on the floor. His dress
+is humble, and is decorated with the markins of his clan. His few
+flamboyances include a handsome wristband and a deep red cloak. He
+wields a fierce looking weapon.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 530 }
+  experience { 4505900 }
+  hp { 4, 400, 57500 }
+  alignment { 0 }
+  gold { 950000 }
+  hit_bonus { 50 }
+  dam_bonus { 35 }
+  attacks_per_round { 2 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 2, 40, 90 }
+  head { -190, 40 }
+  body { -180, 35 }
+  arms { -180, 35 }
+  legs { -180, 35 }
+  feet { -180, 35 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 35 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+  
+104049
+{
+  name { Orek the clan scout }
+  namelist { orek dwarf scout }
+  shortdesc { Orek, the scout, sits in his chair. }
+  longdesc {
+Orek, the head scout for the green clan, sits patiently in his chair. He
+awaits his orders from the battle commander.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 220 }
+  experience { 205700 }
+  hp { 4, 400, 4000 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 3, 7, 6 }
+  head { -10, 6 }
+  body { 0, 6 }
+  arms { 0, 6 }
+  legs { 0, 6 }
+  feet { 0, 6 }
+  resist_acid   { 30 }
+  resist_magic  { 80 }
+  resist_force  { 5 }
+  resist_cold   { 100 }
+  resist_fire   { 100 }
+  resist_poison { 30 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104050
+{
+  name { Kragg the dwarven battle commander }
+  namelist { kragg dwarf commander }
+  shortdesc { Kragg, the battle commander, stares at you. }
+  longdesc {
+Kragg, head battle commander for the green clan, is here making
+battle plans. He looks very busy.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 220 }
+  experience { 215980 }
+  hp { 4, 400, 4200 }
+  alignment { 0 }
+  gold { 18000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 3, 7, 7 }
+  head { -10, 6 }
+  body { 0, 6 }
+  arms { 0, 6 }
+  legs { 0, 6 }
+  feet { 0, 6 }
+  resist_acid   { 50 }
+  resist_magic  { 100 }
+  resist_force  { 8 }
+  resist_cold   { 100 }
+  resist_fire   { 100 }
+  resist_poison { 50 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104051
+{
+  name { Toogal the clan scout }
+  namelist { toogal dwarf scout }
+  shortdesc { Toogal, the scout, sits in his chair. }
+  longdesc {
+Toogal, the head scout for the blue clan, sits patiently in his chair. He
+awaits his orders from the battle commander.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 352 }
+  alignment { 0 }
+  gold { 25750  }
+  skills { bash }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.5 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_acid   { 60 }
+  resist_magic  { 120 }
+  resist_force  { 12 }
+  resist_cold   { 150 }
+  resist_fire   { 150 }
+  resist_poison { 60 }
+  hp { 4, 352, 6300  }
+  move { 300 }
+  experience { 487566 }
+  damage { 3, 8, 10  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104052
+{
+  name { Gromm the dwarven battle commander }
+  namelist { gromm dwarf commander }
+  shortdesc { Gromm, the battle commander, stares at you. }
+  longdesc {
+Gromm, head battle commander for the blue clan, is here making
+battle plans. He looks very busy.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 352 }
+  alignment { 0 }
+  gold { 27500 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -20, 6 }
+  body { -10, 6 }
+  arms { -10, 6 }
+  legs { -10, 6 }
+  feet { -10, 6 }
+  resist_acid   { 80 }
+  resist_magic  { 120 }
+  resist_force  { 13 }
+  resist_cold   { 150 }
+  resist_fire   { 150 }
+  resist_poison { 80 }
+  hp { 4, 352, 6500  }
+  move { 200 }
+  experience { 585140 }
+  damage { 3, 6, 6 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104053
+{
+  name { a petite dwarven store clerk }
+  namelist { petite dwarf clerk }
+  shortdesc { A petite store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104054
+{
+  name { a charming dwarven store clerk }
+  namelist { charming dwarf clerk }
+  shortdesc { A charming store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104055
+{
+  name { a scrawny dwarven store clerk }
+  namelist { scrawny dwarf clerk }
+  shortdesc { A scrawny store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you walked in, he has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104056
+{
+  name { a gaunt dwarven store clerk }
+  namelist { gaunt dwarf clerk }
+  shortdesc { A gaunt store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you walked in, he has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104057
+{
+  name { an ugly dwarven store clerk }
+  namelist { ugly dwarf clerk }
+  shortdesc { An ugly store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104058
+{
+  name { a pretty dwarven store clerk }
+  namelist { pretty dwarf clerk }
+  shortdesc { A pretty store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104059
+{
+  name { a haggard dwarven store clerk }
+  namelist { haggard dwarf clerk }
+  shortdesc { A haggard store clerk looks up at you curiously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you walked in, she has been staring at you curiously.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104060
+{
+  name { a muscular dwarven store clerk }
+  namelist { muscular dwarf clerk }
+  shortdesc { A muscular store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you arrived, he has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { fale }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 155 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104061
+{
+  name { a strong dwarven store clerk }
+  namelist { strong dwarf clerk }
+  shortdesc { A strong store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you arrived, he has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 155 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104062
+{
+  name { a lanky dwarven store clerk }
+  namelist { lanky dwarf clerk }
+  shortdesc { A lanky store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you arrived, he has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 125 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104063
+{
+  name { a skinny dwarven store clerk }
+  namelist { skinny dwarf clerk }
+  shortdesc { A skinny store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you arrived, she has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { memale }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 125 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104064
+{
+  name { a husky dwarven store clerk }
+  namelist { husky dwarf clerk }
+  shortdesc { A husky store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you arrived, he has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 135 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104065
+{
+  name { a chunky dwarven store clerk }
+  namelist { chunky dwarf clerk }
+  shortdesc { A chunky store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you arrived, she has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { memale }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 125 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104066
+{
+  name { a burly dwarven store clerk }
+  namelist { burly dwarf clerk }
+  shortdesc { A burly store clerk eyeballs you suspiciously. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you arrived, he has been staring at you suspiciously.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 272 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  resist_magic  { 125 }
+  hp { 4, 35, 4200  }
+  move { 300 }
+  experience { 221369 }
+  damage { 3, 8, 11  }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104067
+{
+  name { a stout dwarven store clerk }
+  namelist { stout dwarf clerk }
+  shortdesc { A stout store clerk stares at you with contempt. }
+  longdesc {
+The clerk is here minding the store. She looks like she is very good
+at her job. Ever since you entered, she has been glaring at you.
+  }
+  race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 410 }
+  experience { 535100 }
+  hp { 4, 100, 8000 }
+  alignment { 0 }
+  gold { 23500 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 12 }
+  head { -50, 7 }
+  body { -40, 7 }
+  arms { -40, 7 }
+  legs { -40, 7 }
+  feet { -40, 7 }
+  resist_magic  { 125 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104068
+{
+  name { a hulking dwarven store clerk }
+  namelist { hulking dwarf clerk }
+  shortdesc { A hulking store clerk stares at you with contempt. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you entered, he has been glaring at you.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 410 }
+  experience { 535100 }
+  hp { 4, 100, 8000 }
+  alignment { 0 }
+  gold { 23500 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 12 }
+  head { -50, 7 }
+  body { -40, 7 }
+  arms { -40, 7 }
+  legs { -40, 7 }
+  feet { -40, 7 }
+  resist_magic  { 125 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104069
+{
+  name { a heavyset dwarven store clerk }
+  namelist { heavyset dwarf clerk }
+  shortdesc { A heavyset store clerk stares at you with contempt. }
+  longdesc {
+The clerk is here minding the store. He looks like she is very good
+at his job. Ever since you entered, he has been glaring at you.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 410 }
+  experience { 535100 }
+  hp { 4, 100, 8000 }
+  alignment { 0 }
+  gold { 23500 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 12 }
+  head { -50, 7 }
+  body { -40, 7 }
+  arms { -40, 7 }
+  legs { -40, 7 }
+  feet { -40, 7 }
+  resist_magic  { 115 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104070
+{
+  name { a green dwarven berserker }
+  namelist { green dwarf berserker }
+  shortdesc { A dwarven berserker in green battle armor stands here. }
+  longdesc {
+The dwarven berserker looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster. His extensive studies in combat have advanced him well beyond
+that of a simple warrior.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 195 }
+  experience { 183200 }
+  hp { 4, 70, 3400 }
+  alignment { 0 }
+  gold { 8500 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 20, 4 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  resist_magic  { 145 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104071
+{
+  name { a blue dwarven berserker }
+  namelist { blue dwarf berserker }
+  shortdesc { A dwarven berserker in blue battle armor stands here. }
+  longdesc {
+The dwarven berserker looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster. His extensive studies in combat have advanced him well beyond
+that of a simple warrior.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 320 }
+  alignment { 0 }
+  gold { 12250  }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  head { 0, 5 }
+  body { 10, 5 }
+  arms { 10, 5 }
+  legs { 10, 5 }
+  feet { 10, 5 }
+  resist_magic  { 165 }
+  hp { 4, 32, 6000 }
+  move { 300 }
+  experience { 469397 }
+  damage { 3, 7, 7 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104072
+{
+  name { a red dwarven warlock }
+  namelist { red dwarf warlock }
+  shortdesc { A dwarven warlock in red battle armor stands here. }
+  longdesc {
+The dwarven warlock looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster. His studies of his clan's magic have advanced him well beyond
+that of a simple warrior.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 420 }
+  experience { 826500 }
+  hp { 4, 40, 8700 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 3, 8, 8 }
+  head { -20, 11 }
+  body { -10, 11 }
+  arms { -10, 11 }
+  legs { -10, 11 }
+  feet { -10, 11 }
+  resist_magic  { 195 }
+  caster { 80 }
+  spells { mage fire }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104073
+{
+  name { a red dwarven warrior }
+  namelist { red dwarf warrior }
+  shortdesc { A dwarven warrior in red battle armor stands here. }
+  longdesc {
+The dwarven warrior looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 400 }
+  experience { 536500 }
+  hp { 4, 95, 8500 }
+  alignment { 0 }
+  gold { 25000 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 4, 7, 9 }
+  head { -90, 12 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  resist_magic  { 175 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104074
+{
+  name { a red dwarven berserker }
+  namelist { red dwarf berserker }
+  shortdesc { A dwarven berserker in red battle armor stands here. }
+  longdesc {
+The dwarven warrior looks like one tough customer. His muscled arms 
+are like tree trunks in relation to his short stature. His colorful 
+armor bears all the markings of his clan, and is polished to a high 
+luster.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 2 }
+  level { 400 }
+  experience { 636500 }
+  hp { 4, 95, 9000 }
+  alignment { 0 }
+  gold { 25000 }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  move  { 300 }
+  damage { 4, 7, 9 }
+  head { -90, 12 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  resist_magic  { 200 }
+  immune { fire, cold, charm }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104075
+{
+  name { a pleasant dwarven shopkeeper }
+  namelist { pleasant dwarf shopkeeper }
+  shortdesc { A dwarven shopkeeper stands here, ready to help you. }
+  longdesc {
+The dwarven shopkeeper stares at you, patiently waiting to be of service.
+His shop is the only one in town that is willing to cater to outsiders.
+  }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+
+104076
+{
+  name { Dorf the dwarf }
+  namelist { dorf dwarf }
+  shortdesc { Dorf is stumbling about, the ground shakes.... }
+  longdesc {
+A massive dwarf stands before you. Locked away from the world for centuries,
+he was recently let loose. He walks about these corridors, stumbling on his
+beard, which is well longer than he is by now. Rumor has it that he is the
+strongest dwarf ever to have lived, and possible the most inept.
+  }
+  race { dwarf }
+  sex { male }
+  level { 700 }
+  experience { 10203000 }
+  hp { 45, 400, 121700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 60 }
+  resist_cold   { 200 }
+  resist_fire   { 300 }
+  resist_poison { 200 }
+  immune { cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { stay-zone, nosummon, special }
+}
+
+104077
+{
+  name { Scalie the dragon }
+  namelist { scalie dragon }
+  shortdesc { Scalie, the dragon, is curled up on the front steps. }
+  longdesc {
+Scalie, the dragon, has been expertly trained by Hildr. She is used for
+everything from protection to transportation. She is also a wonderful companion.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 510 }
+  alignment { 0 }
+  experience { 1500000 }
+  gold { 250000 }
+  head { -110, 20 }
+  body { -100, 20 }
+  legs { -100, 20 }
+  arms { -100, 20 }
+  feet { -100, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 200 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  hit_bonus { 45 }
+  dam_bonus { 45 }
+  hp { 1, 1, 55000 }
+  mana { 1500 }
+  damage { 5, 15, 15 }
+  resistant { slash, blunt, pierce, energy }
+  immune { fire, charm, backstab, drain, cold }
+  affected { true-sight, detect-invisible }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+104078
+{
+  name { a dwarven guard }
+  namelist { blue dwarf guard }
+  shortdesc { A guard patrols the city, clad in blue armor, drinking from a tankard. }
+  longdesc {
+The dwarven guard looks like he means business. His colorful armor
+bears all the markings of his clan, and is polished to a high luster.
+He patrols the street looking for any troublemakers.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 195 }
+  experience { 113300 }
+  hp { 4, 50, 3800 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 16 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { stay-zone, special }
+}
+
+104079
+{
+  name { a dwarven guard }
+  namelist { green dwarf guard }
+  shortdesc { A guard patrols the city, clad in green armor, drinking from a tankard. }
+  longdesc {
+The dwarven guard looks like he means business. His colorful armor
+bears all the markings of his clan, and is polished to a high luster.
+He patrols the street looking for any troublemakers.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 175 }
+  experience { 65500 }
+  hp { 4, 60, 2950 }
+  alignment { 0 }
+  gold { 11000 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 40, 4 }
+  body { 50, 3 }
+  arms { 50, 3 }
+  legs { 50, 3 }
+  feet { 50, 3 }
+  resist_magic  { 115 }
+  immune { charm }
+  act { stay-zone, special }
+}
+
+104080
+{
+  name { A torn Fortish traveller }
+  namelist { torn fortish traveller }
+  shortdesc { A torn Fortish traveller admires the views. }
+  longdesc {
+This rather bedraggled dwarf is covered in ripped and torn clothing.
+  }
+  race { dwarf }
+  level { 40 }
+  sex { male }
+  experience { 17410 }
+  hp { 8, 9, 895 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 400 }
+  damage { 2, 3, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104081
+{
+  name { A dirty Fortish traveller }
+  namelist { dirty fortish traveller }
+  shortdesc { A dirty Fortish traveller moves about. }
+  longdesc {
+This has got to be the dirtiest dwarf you have ever seen. Sure, they work
+in mines and some other unclean places but surely this one could have made
+an effort to at least rub some of the dirt off! Be careful! Argh! He's
+coming towards you as if he intends to wipe his hands on your nice clean
+clothes!
+  }
+  race { dwarf }
+  level { 40 }
+  sex { female }
+  experience { 18340 }
+  hp { 8, 9, 895 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 400 }
+  damage { 2, 3, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104082
+{
+  name { A Fortish merchant }
+  namelist { fortish merchant }
+  shortdesc { A Fortish merchant walks swiftly to deliver his latest trades. }
+  longdesc {
+The merchant is wearing some lavish, if impractical, clothing. He has a straight
+cut beard, in the latest fashion. His hair has been slicked back with some
+mysterious lacquer. Doing business with this man will cost you more than you can 
+afford.
+  }
+  race { dwarf }
+  level { 35 }
+  sex { male }
+  experience { 14340 }
+  hp { 8, 9, 795 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 400 }
+  damage { 3, 3, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104083
+{
+  name { A Fortish patrol guard  }
+  namelist { fortish patrol guard }
+  shortdesc { A fierce looking guard patrols the area. }
+  longdesc {
+Ever alert. Ever watchful. The Fortish patrol guard is a keen reminder
+to all. Unlawfulness is not tolerated in Fortrum!
+  }
+  race { dwarf }
+  level { 115 }
+  sex { female }
+  experience { 61200 }
+  hp { 8, 9, 1085 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { -20, 13 }
+  body { -20, 13 }
+  arms { -20, 13 }
+  legs { -20, 13 }
+  feet { -20, 13 }
+  affected { detect-invis }
+  act { npc, stay-zone }
+}
+
+104084
+{
+  name { A large brown eagle  }
+  namelist { large brown eagle }
+  shortdesc { A large brown eagle sits on the mountainside. }
+  longdesc {
+Mad eagle eyes focus on. You can almost hear the tiny bird-brain whirrling
+as it splits you in to one of two categories; food or rock. It decides you
+are rock and turns it's attention elsewhere.
+  }
+  race { none }
+  level { 65 }
+  experience { 53520 }
+  hp { 8, 9, 970 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { -10, 9 }
+  body { -10, 9 }
+  arms { -10, 9 }
+  legs { -10, 9 }
+  feet { -10, 9 }
+  act { npc, sentinel, stay-zone }
+}
+
+104085
+{
+  name { A black Fortish dragon rider }
+  namelist { black fortish dragon rider }
+  shortdesc { A black Fortish dragon rider stands in salute. }
+  longdesc {
+The black dragon riders are a fearsome bunch. Considered elite in Fortish
+society, they ride their mounts with pride and wield their tridents with the
+skill of the finest weapons masters. To cross one is to dice with death himself.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 201 }
+  sex { female }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 22 }
+  dam_bonus { 13 }
+  attacks_per_round { 4 }
+  head { -30, 18 }
+  body { -30, 18 }
+  arms { -30, 18 }
+  legs { -30, 18 }
+  feet { -30, 18 }
+  hp { 4, 224, 1932  }
+  move { 300 }
+  experience { 239188 }
+  damage { 3, 9, 6  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { cold }
+  act { npc, stay-zone, sentinel }
+}
+
+104086
+{
+  name { A Fortish dragon rider lieutenant }
+  namelist { fortish dragon rider lieutenant }
+  shortdesc { A Fortish dragon rider lieutenant watches carefully. }
+  longdesc {
+Long in the saddle. Short in stature. Tall in command. Years of service
+and action have seen this prideful dwarf ascend to the rank of lieutenant.
+His hair and bear are neatly cropped and his demeanor is calm. Only his
+eyes betray the fire and passion in his soul for his task. His lifes 
+work. His duty.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 8200 }
+  sex { male }
+  level { 302 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -70, 26 }
+  body { -70, 26 }
+  arms { -70, 26 }
+  legs { -70, 26 }
+  feet { -70, 26 }
+  hp { 4, 352, 10000  }
+  move { 300 }
+  experience { 491566 }
+  damage { 3, 11, 9  }
+  caster { 55 }
+  spells { mage fire }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { npc, sentinel, stay-zone }
+}
+
+104087
+{
+  name { A Fortish Horseman }
+  namelist { fortish horseman }
+  shortdesc { A Fortish Horseman carrying goods rides along swiftly. }
+  longdesc {
+A skilled rider in every way, the Fortish horseman knows his role and knows
+his job. More skilled in the saddle than on foot, he is still a capable fighter
+and a dangerous foe.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  sex { male }
+  level { 160 }
+  alignment { 0 }
+  gold { 6900  }
+  hit_bonus { 19 }
+  dam_bonus { 11 }
+  attacks_per_round { 4 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 200, 1800  }
+  move { 300 }
+  experience { 163461 }
+  damage { 2, 8, 5  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { npc, sentinel }
+}
+
+104088
+{
+  name { a Fortish soldier }
+  namelist { fortish soldier }
+  shortdesc { A Fortish soldier walks here to assist Fortrum. }
+  longdesc {
+This dwarf is quite tall, for a dwarf. His bearing is that of authority.
+But, his manner is that of a helpful guardian, rather than an enforcer.
+He is well groomed with a neatly brushed beard, precision-pressed clothes
+and well polished adornments.
+  }
+  race { dwarf }
+  height { 170 }
+  weight { 12100 }
+  level { 135 }
+  sex { male }
+  alignment { 0 }
+  gold { 7000  }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.5 }
+  head { -40, 19 }
+  body { -40, 19 }
+  arms { -40, 19 }
+  legs { -40, 19 }
+  feet { -40, 19 }
+  hp { 4, 208, 1444 }
+  move { 300 }
+  experience { 134267 }
+  damage { 3, 5, 4  }
+  act { npc, stay-zone }
+}
+
+104089
+{
+  name { A drunken stumbling dwarf }
+  namelist { drunken stumbling dwarf }
+  shortdesc { A drunken dwarf stumbles all over the place. }
+  longdesc {
+  Boy is he hammered!
+  }
+  race { dwarf }
+  height { 160 }
+  sex { male }
+  weight { 11490 }
+  level { 40 }
+  alignment { 0 }
+  gold { 1150  }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 280  }
+  move { 300 }
+  experience { 3094 }
+  damage { 1, 8, 2  }
+  immune { fire, cold }
+  affected { detect-invisible }
+  resistant { charm }
+  act { npc, stay-zone }
+}
+
+104090
+{
+  name { A Fortish villager }
+  namelist { fortish villager }
+  shortdesc { A Fortish villager walks here, enjoying the sights. }
+  longdesc {
+Hmm... He doesn't look too clever. You decide that asking him for
+directions would likely be a mistake...  As would asking him for the 
+answer to 2 + 2.
+  }
+  race { dwarf }
+  level { 60 }
+  sex { male }
+  experience { 23900 }
+  hp { 8, 9, 980 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104091
+{
+  name { A Fortish spy }
+  namelist { fortish spy }
+  shortdesc { A Fortish spy sneaks right past you. }
+  longdesc {
+Cloak pulled tight. Hood pulled up. Shifty, nervous eyes. This spy is 
+leaving nothing to chance that you might not guess her line of work...
+Quick! Say something controversial!
+  }
+  race { dwarf }
+  sex { female }
+  level { 80 }
+  experience { 37350 }
+  hp { 8, 9, 1160 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { sneak }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104092
+{
+  name { A Fortish tradesman  }
+  namelist { fortish tradesman }
+  shortdesc { A Fortish tradesman walks here, stumbling on all his goods. }
+  longdesc {
+This dwarf is busy plying his wares. From his dishevelled look, you
+guess that he hasn't been very successful.
+  }
+  race { dwarf }
+  level { 30 }
+  sex { female }
+  experience { 7850 }
+  hp { 8, 9, 575 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  act { npc, stay-zone }
+}
+
+104093
+{
+  name { A tipsy gambling dwarf  }
+  namelist { tipsy gambling dwarf }
+  shortdesc { A tipsy gambling dwarf wanders around looking for a dime. }
+  longdesc {
+The smell of stale wine assaults your nose so strongly, you almost think you'll
+need to put it in a hospital to recover from it's injuries. Aside from the
+alcohol abuse, this dwarf is too busy looking in the gutter for lost coins
+to pay much attention to you.
+  }
+  race { dwarf }
+  level { 30 }
+  sex { female }
+  experience { 4400 }
+  hp { 8, 9, 475 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  act { npc, stay-zone }
+}
+
+104094
+{
+  name { An elven merchant }
+  namelist { elven merchant }
+  shortdesc { An elven merchant carries his goods carefully. }
+  longdesc {
+Why do elves always look so smug? I don't know, I was hoping you knew
+the answer...  This one is selling something.  Bah! It can't be very
+interesting, whatever it is. Move along, move along.
+  }
+  race { elven }
+  sex { male }
+  level { 30 }
+  experience { 10180 }
+  hp { 8, 9, 645 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  act { npc, stay-zone }
+}
+
+104095
+{
+  name { A human arms trader }
+  namelist { human arms trader }
+  shortdesc { A human arms trader carrying a huge bag is trying to get through. }
+  longdesc {
+Short cut blond hair sits atop a scarred and evil looking face. This man knows
+his trade, and has dealt in it for a long time.
+  }
+  race { human }
+  sex { male }
+  level { 50 }
+  experience { 19100 }
+  hp { 8, 9, 825 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { 30, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  act { npc, stay-zone }
+}
+
+104096
+{
+  name { A lizardman tourist }
+  namelist { lizardman tourist }
+  shortdesc { A lizardman tourist is searching Fortish artifacts. }
+  longdesc {
+Greeny-blue scales cover this lizardman's face. His tongue tastes the air
+as he see's you looking at him. He looks you up and down with surprisingly
+intelligent eyes and then turns to carry on his journey.
+  }
+  race { lizardman }
+  sex { male }
+  level { 30 }
+  experience { 29795 }
+  hp { 8, 9, 652 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+104097
+{
+  name { A human adventurer }
+  namelist { human adventurer }
+  shortdesc { A human adventurer coming to see wonders or make a buck wanders here. }
+  longdesc {
+He's quite young. Maybe 27 at the most. But that just makes him cocky. Look at him..
+whistling as he walks.. so sure of himself. You hope he trips.
+  }
+  race { human }
+  sex { male }
+  level { 30 }
+  experience { 9590 }
+  hp { 8, 9, 610 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+104098
+{
+  name { A Fortish rampart guard }
+  namelist { fortish rampart guard }
+  shortdesc { A Fortish rampart guard watches the busy trail closely. }
+  longdesc {
+Used to standing for hours on end staring in to the middle-distance,
+this dwarf is stalwart in his duty to guard.
+  }
+  race { dwarf }
+  sex { male }
+  level { 190 }
+  experience { 161200 }
+  hp { 18, 15, 1625 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 24 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 3 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { detect-invis }
+  immune { charm, hold }
+  act { npc, sentinel, stay-zone }
+}
+
+104099
+{
+  name { An elven tourist }
+  namelist { elven tourist }
+  shortdesc { An elven tourist journeys to explore the magnificent Fortrum. }
+  longdesc {
+Obviously not content to stay in his tree, this elf has decided to see
+what the Forts are up to.
+  }
+  race { elven }
+  sex { male }
+  level { 30 }
+  experience { 6400 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+
+104100
+{
+  name { a human mercenary }
+  namelist { human mercenary }
+  shortdesc { A human mercenary is here looking for work in the Fortish empire. }
+  longdesc {
+A capable looking fighter, this human is not too picky about the company he keeps.
+  }
+  race { human }
+  sex { female }
+  level { 170 }
+  experience { 186910 }
+  hp { 18, 19, 3300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 18 }
+  dam_bonus { 19 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -20, 9 }
+  body { -10, 8 }
+  arms { -10, 8 }
+  legs { -10, 8 }
+  feet { -10, 8 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104101
+{
+  name { an elven scout }
+  namelist { elven scout }
+  shortdesc { An elven scout sneaks about gathering information. }
+  longdesc {
+Sneaking, sneaking, sneaking. All these elves ever do is sneak
+about, poking their noses in other peoples business. This one looks
+like she's been poking her beak in to everything she can find.
+  }
+  race { elven }
+  sex { female }
+  level { 155 }
+  experience { 136200 }
+  hp { 17, 18, 2700 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 19 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  affected { sneak }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+104102
+{
+  name { A Fortish Guardian }
+  namelist { fortish guardian }
+  shortdesc { A Fortish Guardian has been posted here. }
+  longdesc {
+A champion amongst dwarfs, he stands tall (ish) and prideful.  His
+place as guardian is well earned. He is not to be trifled with.
+  }
+  race { dwarf }
+  sex { male }
+  level { 300 }
+  experience { 417900 }
+  hp { 14, 10, 6500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 22 }
+  dam_bonus { 12 }
+  attacks_per_round { 4 }
+  damage { 3, 7, 8 }
+  head { -90, 23 }
+  body { -80, 22 }
+  arms { -80, 22 }
+  legs { -80, 22 }
+  feet { -80, 22 }
+  resist_fire { 160 }
+  resist_cold { 160 }
+  resist_magic { 120 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+104103
+{
+  name { A Mage Lookout }
+  namelist { fortish mage lookout }
+  shortdesc { A Fortish Mage stands here conjuring a clear ball of light. }
+  longdesc {
+His bright red beard is parted down the middle into twin peaks, like a fiery
+comet rising from his belly. He has earned his place amongst the elite by
+battle and by spell.
+  }
+  race { dwarf }
+  sex { male }
+  height { 160 }
+  weight { 10000 }
+  level { 310 }
+  alignment { 0 }
+  gold { 45000  }
+  hit_bonus { 25 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.5 }
+  caster { 90 }
+  mana { 9000 }
+  spells { dispel magic, mage fire, fireball }
+  head { -60, 22 }
+  body { -60, 22 }
+  arms { -60, 22 }
+  legs { -60, 22 }
+  feet { -60, 22 }
+  resist_fire { 170 }
+  resist_cold { 170 }
+  resist_magic { 140 }
+  hp { 4, 360, 5700 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 441291 }
+  damage { 3, 8, 10  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { npc, sentinel }
+}
+
+104104
+{
+  name { a Fortish Battlemaster }
+  namelist { fortish dwarven battlemaster }
+  shortdesc { A Fortish Battlemaster stands here looking for some action. }
+  longdesc {
+His beard is iron-gray and his eyes speak of untold trials. He carries himself
+easily, like he is comfortable in his body and has honed it to perfection.
+  }
+  race { dwarf }
+  sex { male }
+  level { 315 }
+  experience { 522100 }
+  hp { 14, 10, 6500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 26000 }
+  hit_bonus { 20 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  damage { 3, 5, 4 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  resist_fire { 170 }
+  resist_cold { 170 }
+  resist_magic { 130 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+104105
+{
+  name { An exploring dwarven child }
+  namelist { exploring dwarven child }
+  shortdesc { An exploring dwarven child plays nearby. }
+  longdesc {
+A little girl...  With a beard...  Okaaaaay.
+  }
+  race { dwarf }
+  sex { female }
+  level { 15 }
+  experience { 2500 }
+  hp { 8, 9, 205 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+104106
+{
+  name { A wild dog }
+  namelist { wild dog }
+  shortdesc { A wild dog is running lose on the trail. }
+  longdesc {
+Rwwwoooof!  Rwwwoooof!  She doesn't look to friendly.
+Better not try and pet her.
+  }
+  race { none }
+  sex { female }
+  level { 10 }
+  experience { 1500 }
+  hp { 8, 9, 135 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 2, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+104107
+{
+  name { a wasp larvae }
+  namelist { wasp larvae }
+  shortdesc { The larvae is just here growing, stolen from his hive. }
+  longdesc {
+This larva looks like a fresh hatchling.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 200 }
+  experience { 24340 }
+  hp { 12, 6, 800}
+  alignment { 0 }
+  gold { 4010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 3, 7, 9 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  immune { sleep }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, sentinel, stay-zone, aggressive }
+}
+
+104108
+{
+  name { a wasp soldier }
+  namelist { wasp soldier }
+  shortdesc { A wasp soldier seems happy to be away from the queen. }
+  longdesc {
+This wasp soldier looks like it hasn't got much on the other larger soldiers in the
+colony.
+  }
+  race { none }
+  sex { male }
+  world_limit { 20 }
+  level { 475 }
+  experience { 192487 }
+  hp { 70, 6, 8000 }
+  alignment { 0 }
+  gold { 14242 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 300 }
+  damage { 4, 7, 13 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, sentinel, stay-zone, aggressive }
+}
+
+104109
+{
+  name { a wasp worker }
+  namelist { wasp worker }
+  shortdesc { The wasp worker paces the room, alarmed about what happened. }
+  longdesc {
+This worker is thicker in the midsection than the soldier wasp, but does not have
+the overall size. It is most likely that this worker wasp has no other role than
+to serve the queen, and possibly as her next meal.
+  }
+  race { none }
+  sex { male }
+  world_limit { 25 }
+  level { 450 }
+  experience { 79200 }
+  hp { 12, 6, 3400 }
+  alignment { 0 }
+  gold { 6010 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 400 }
+  damage { 4, 7, 9 }
+  head { -70, 6 }
+  body { -70, 6 }
+  arms { -70, 6 }
+  legs { -70, 6 }
+  feet { -70, 6 }
+  immune { charm, sleep }
+  resist_acid {50}
+  resist_magic {50}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, sentinel, stay-zone, aggressive }
+}
+
+104110
+{
+  name { a giant wasp guard }
+  namelist { giant guard wasp }
+  shortdesc { The Giant Guard wasp is wondering how he got here. }
+  longdesc {
+I am not sure where the human is going - but it is clear that he is a prisoner and
+does not look happy.
+  }
+  race { none }
+  sex { male }
+  world_limit { 10 }
+  level { 490 }
+  experience { 630482 }
+  hp { 300, 8, 15000 }
+  alignment { -450 }
+  gold { 15000 }
+  hit_bonus { 24 }
+  dam_bonus { 9 }
+  attacks_per_round { 2.5 }
+  move { 600 }
+  damage { 4, 7, 17 }
+  head { -100, 6 }
+  body { -100, 6 }
+  arms { -100, 7 }
+  legs { -100, 7 }
+  feet { -100, 7 }
+  immune { charm, sleep }
+  resist_acid {50}
+  resist_magic {50}
+  susceptible { fire }
+  affected { fly }
+  act { npc, sentinel, stay-zone, aggressive, hunting }
+}
+
+104111
+{
+  name { a wasp scout }
+  namelist { wasp scout }
+  shortdesc { The wasp scout looks confused and angry. }
+  longdesc {
+The king has hand selected these wasps to scout around the town and make sure
+the human slaves are working for the queen.
+  }
+  race { none }
+  sex { male }
+  world_limit { 15 }
+  level { 450 }
+  experience { 479000 }
+  hp { 250, 6, 12500 }
+  alignment { 0 }
+  gold { 10121 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 600 }
+  damage { 4, 7, 14 }
+  head { -80, 10 }
+  body { -80, 4 }
+  arms { -80, 4 }
+  legs { -80, 4 }
+  feet { -80, 4 }
+  immune { charm, sleep }
+  resist_acid { 50 }
+  resist_magic {50}
+  susceptible { electricity }
+  affected { true-sight, fly, sneak }
+  act { npc, sentinel, stay-zone, aggressive, hunting }
+}
+
+104112
+{
+  name { Nasis' henchman }
+  namelist { nasis henchman }
+  shortdesc { Nasis' henchman stares at you in anger. }
+  longdesc {
+These are simple minded people who have sacrificed themselves to
+serve the almighty Nasis.  They are prepared to do all it takes (even
+dying) to protect their leader.
+  }
+  race { human }
+  sex { male }
+  level { 350 }
+  experience { 385298 }
+  gold { 2250  }
+  hp { 3, 31, 5500 }
+  move { 3d20+334 }
+  height { 130 }
+  weight { 190 }
+  damage { 5, 6, 5 }
+  attacks_per_round { 4 }
+  hit_bonus { 25 }
+  dam_bonus { 10 }
+  head { -72, 6 }
+  body { -72, 6 }
+  arms { -72, 6 }
+  legs { -72, 6 }
+  feet { -72, 6 }
+  resist_magic {50}
+  act { stay-zone, sentinel, aggressive }
+  affected { detect-invisible, sanctuary }
+}
+
+104113
+{
+  name { A hidden thief }
+  namelist { hidden thief }
+  shortdesc { A sneaky thief searches your pockets for gold and valuables. }
+  longdesc {
+Suprisingly you notice this sneaky little trouble-maker.  He is lightning
+quick and stealthy.  You had better check your pockets!
+  }
+  race { human }
+  sex { male }
+  level { 235 }
+  experience { 227018 }
+  hp { 3, 23, 2594 }
+  hit_bonus { 19 }
+  move { 365 }
+  height { 95 }
+  weight { 150 }
+  damage { 3, 5, 5 }
+  attacks_per_round { 4 }
+  head { -40, 4 }
+  body { -40, 4 }
+  arms { -40, 4 }
+  legs { -40, 4 }
+  feet { -40, 4 }
+  act { stay-zone, sentinel, aggressive }
+  affected { sneak, hide }
+}
+
+104114
+{
+  name { A hidden assassin }
+  namelist { hidden assassin }
+  shortdesc { A mysterious assassin hides in the shadows here. }
+   longdesc {
+An undistinguishable man tries to hide in the shadows from you.  He is
+alerted to your presence and doesn't appreciate you being here.
+  }
+  race { human }
+  sex { male }
+  level { 240 }
+  experience { 239778 }
+  gold { 4000  }
+  hp { 3, 40, 3500 }
+  move { 388 }
+  height { 95 }
+  weight { 150 }
+  damage { 4, 6, 6 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -60, 5 }
+  body { -60, 5 }
+  arms { -60, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  act { stay-zone, sentinel, aggressive }
+  affected { detect-invisible, hide, true-sight }
+}
+
+104115
+{
+  name { A hairy man }
+  namelist { hairy man }
+  shortdesc { A hairy man leans against the wall. }
+  longdesc {
+This man is disgusting.  Hair flows out of almost every pore in his entire
+body.  You don't even want to touch him let alone fight him.
+  }
+  race { human }
+  sex { male }
+  level { 250 }
+  experience { 345298 }
+  gold { 3200  }
+  hp { 3, 31, 5532 }
+  move { 334 }
+  height { 120 }
+  weight { 210 }
+  damage { 10, 2, 5 }
+  hit_bonus { 7 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { 22, 2 }
+  body { 22, 2 }
+  arms { 22, 2 }
+  legs { 22, 2 }
+  feet { 22, 2 }
+  immune { charm }
+  act { stay-zone, sentinel, aggressive }
+}
+
+104116
+{
+  name { a Lost Soul }
+  namelist { lost soul }
+  shortdesc { A ghostly apparition floats here, staring at you in utter hatred. }
+  longdesc {
+The lost soul is a ghostly apparition, seeking revenge on the living.
+  }
+  race { undead }
+  height { 170 }
+  level { 41 }
+  alignment { -1000 }
+  hit_bonus { 3 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { -30, 9 }
+  body { -30, 9 }
+  arms { -30, 9 }
+  legs { -20, 8 }
+  feet { -20, 7 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 4944 }
+  gold { 1000 }
+  damage { 2, 7, 4  }
+  affected { detect-invisible, infravision }
+  act { stay-zone, sentinel, aggressive }
+}
+
+104117
+{
+  name { a Githyanki }
+  namelist { githyanki }
+  shortdesc { A disgusting creature of etheral nature stands here. }
+  longdesc {
+This man sized creature has bandages wrapped all about its body. Its eyes
+glow with a brilliant red fire, in its right hand he grasps a an extremely
+sharp blade of magical nature.
+  }
+  race { undead }
+  height { 170 }
+  level { 260 }
+  alignment { -1000 }
+  gold { 7700  }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { -55, 6 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 6, 48, 2560  }
+  move { 300 }
+  experience { 218709 }
+  damage { 3, 7, 5  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+104118
+{
+  name { the Neo-Otyugh }
+  namelist { Neo Otyugh }
+  shortdesc { A large, disgusting, vile creature stands here, smelling putrid. }
+  longdesc {
+This creature is covered with slime like substance, many tentacles protrude
+from its disgusting body.
+  }
+  race { vegman }
+  height { 200 }
+  level { 330 }
+  alignment { -1000 }
+  gold { 18000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -40, 8 }
+  body { -40, 8 }
+  arms { -60, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  hp { 950, 8, 950  }
+  move { 300 }
+  experience { 372912 }
+  damage { 3, 8, 7  }
+  immune { charm }
+  affected { sanctuary }
+  act { stay-zone, sentinel, aggressive }
+}
+
+104119
+{
+  name { a Shadow Daemon }
+  namelist { shadow daemon }
+  shortdesc { A shadowy figure stands here, looking you over with greed. }
+  longdesc {
+This creature has almost no form, it looks like some sort of shadow with
+wings.
+  }
+  race { undead }
+  height { 140 }
+  level { 40 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { -20, 4 }
+  body { -20, 4 }
+  arms { -20, 4 }
+  legs { -20, 4 }
+  feet { -20, 4 }
+  hp { 15, 8, 150  }
+  move { 300 }
+  experience { 4818 }
+  damage { 2, 6, 7  }
+  affected { detect-invisible }
+  act { stay-zone, sentinel, aggressive }
+}
+104120
+{
+  name { Bornta the Cliffkeeper }
+  namelist { bornta cliffkeeper }
+  shortdesc { Bornta the Cliffkeeper has arrived from the inner corridors. }
+  longdesc {
+This is Bornta, the Cliffkeeper.  He is strong, wise and has a reputation
+for being hard and cold.  His fierce eyes almost glow with an inner power
+and confidence.  Tackling this one would be a mistake!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 350 }
+  sex { male }
+  alignment { 0 }
+  gold { 150000  }
+  hit_bonus { 25 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -50, 25 }
+  body { -50, 25 }
+  arms { -50, 25 }
+  legs { -50, 25 }
+  feet { -50, 25 }
+  resist_fire { 150 }
+  resist_acid { 100 }
+  resist_cold { 150 }
+  resist_magic { 100 }
+  hp { 4, 43, 8358  }
+  move { 300 }
+  experience { 764795 }
+  damage { 4, 5, 5  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { npc, sentinel }
+}
+104121
+{
+  name { Shala the Farseer }
+  namelist { shala farseer }
+  shortdesc { Shala the Farseer has been called out to assist the Fortish Mages. }
+  longdesc {
+Shala.  The Farseer.  It is she who is first to see signs of danger and
+malice towards Fortrum.  Her hair hangs in five thick braids over her
+left shoulder, each one dyed a different colour; black, red, yellow, blue
+and green.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 375 }
+  sex { female }
+  alignment { 0 }
+  gold { 175000  }
+  hit_bonus { 25 }
+  dam_bonus { 20 }
+  attacks_per_round { 2.5 }
+  head { -50, 22 }
+  body { -50, 22 }
+  arms { -50, 22 }
+  legs { -50, 22 }
+  feet { -50, 22 }
+  resist_fire { 150 }
+  resist_acid { 120 }
+  resist_cold { 150 }
+  resist_magic { 120 }
+  hp { 4, 23, 7358  }
+  move { 300 }
+  experience { 759105 }
+  damage { 6, 4, 5  }
+  caster { 55 }
+  spells { ice lance, blindness }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { npc, sentinel }
+}
+104122
+{
+  name { Dra'kar the Dragonmaster }
+  namelist { dra'kar dragonmaster }
+  shortdesc { Dra'kar the Dragonmaster has landed to coordinate with his fellow riders. }
+  longdesc {
+The Dragonmaster, Dra'kar.  He is a fearsome warrior.  His very presence
+here is enough to reassure the citizens of Fortrum that they are well
+protected and cared for under his steely gaze.  His beard is black and
+shot with gray flecks, yet he holds himself lightly, like a young dwarf
+on a carefree afternoon.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 420 }
+  sex { male }
+  alignment { 0 }
+  gold { 300000  }
+  hit_bonus { 25 }
+  dam_bonus { 23 }
+  attacks_per_round { 3 }
+  head { -70, 37 }
+  body { -70, 37 }
+  arms { -70, 37 }
+  legs { -70, 37 }
+  feet { -70, 37 }
+  resist_fire { 200 }
+  resist_acid { 160 }
+  resist_cold { 200 }
+  resist_magic { 160 }
+  hp { 4, 429, 11358  }
+  move { 300 }
+  experience { 994795 }
+  damage { 6, 6, 6  }
+  caster { 75 }
+  spells { mage fire, fear }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { npc, sentinel }
+}
+104123
+{
+  name { Colonel Kratz }
+  namelist { colonel kratz }
+  shortdesc { The Colonel stands here instructing his Guardians. }
+  longdesc {
+Known for his pomposity and arrogance, Colonel Kratz is however a great
+strategist and leader of dwarfs.  His beard has been oddly dyed in greens
+and browns and you imagine that if he was in a forest full of elves he
+would be quite difficult to pick out.
+  }
+  race { dwarf }
+  sex { male }
+  height { 160 }
+  weight { 10000 }
+  level { 400 }
+  alignment { 0 }
+  gold { 210000  }
+  hit_bonus { 23 }
+  dam_bonus { 12 }
+  attacks_per_round { 3 }
+  head { -70, 32 }
+  body { -70, 32 }
+  arms { -70, 32 }
+  legs { -70, 32 }
+  feet { -70, 32 }
+  resist_fire { 200 }
+  resist_acid { 150 }
+  resist_cold { 200 }
+  resist_magic { 150 }
+  hp { 4, 421, 10541  }
+  move { 300 }
+  experience { 882284 }
+  damage { 5, 5, 5  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { npc, sentinel }
+}
+104124
+{
+  name { Lana the High Sentinel }
+  namelist { lana high sentinel }
+  shortdesc { Lana the High Sentinel shimmers with a bright light. }
+  longdesc {
+The High Sentinel, Lana.  She is a sea of calm in a raging storm.  Her
+bright blue eyes sparkle with intelligence and wisdom.  Her hair is thick
+and white, and hangs in a single braid down her back.
+  }
+  race { dwarf }
+  sex { female }
+  height { 160 }
+  weight { 10000 }
+  level { 420 }
+  alignment { 0 }
+  gold { 250000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2.5 }
+  caster { 80 }
+  mana { 9000 }
+  spells { shriek, true word }
+  head { -60, 25 }
+  body { -60, 25 }
+  arms { -60, 25 }
+  legs { -60, 25 }
+  feet { -60, 25 }
+  resist_fire { 200 }
+  resist_acid { 150 }
+  resist_cold { 200 }
+  resist_magic { 150 }
+  hp { 4, 360, 9500 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 926291 }
+  damage { 6, 8, 9  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+104125
+{
+  name { Ragnorak }
+  namelist { dwarf fate hidden Ragnorak }
+  shortdesc { Ragnorak, the Hidden Fate, rises here, ready to be your undoing. }
+  longdesc {
+Even the mighty Odin bow's down to Ragnorak whenever this fearsome
+dwarf takes to the Halls.  The very ground trembles beneath his
+steel-clad feet as he brings ruin to all foes of Fortrum.   
+ }
+ race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 800 }
+  experience { 5090800 }
+  hp { 4, 400, 66500 }
+  alignment { 0 }
+  gold { 10000000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 8 }
+  dexterity { 30 }
+  move  { 300 }
+  damage { 6, 60, 60 }
+  head { -180, 58 }
+  body { -170, 60 }
+  arms { -170, 58 }
+  legs { -170, 56 }
+  feet { -170, 20 }
+  resist_acid   { 500 }
+  resist_magic  { 500 }
+  resist_force  { 500 }
+  resist_cold   { 500 }
+  resist_fire   { 500 }
+  resist_poison { 500 }
+  caster { 800 }
+  spells { fear, shriek, fireball }
+  immune { fire, cold, charm, backstab, slash, pierce, acid }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special, deadly }
+}
+104126
+{
+  name { Hela }
+  namelist { dwarf death Hela }
+  shortdesc { Hela, Goddess of Death, stands here, all in black, ready to deal her doom to the world.
+Hela, Goddess of Death, burns with a deep, shadowy flame! }
+  longdesc {
+Hela is the daughter Odin.  For a long time she was his pride and
+his joy.  She took after him in power and often rode with him on
+her dragon into battle.  But as she grew so did her power, and so
+did her ego.  When she surpassed Odin she defied his wishes and
+married Surtur the Demonic, becoming His Queen and plotting with
+him to unite the clans rule as King and Queen in Fortrum.
+ }
+ race { dwarf }
+  sex { female }
+  world_limit { 1 }
+  level { 690 }
+  experience { 4090800 }
+  hp { 4, 400, 86500 }
+  alignment { 0 }
+  gold { 2000000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 1 }
+  dexterity { 30 }
+  move  { 800 }
+  damage { 6, 50, 40 }
+  head { -200, 40 }
+  body { -220, 50 }
+  arms { -210, 45 }
+  legs { -210, 45 }
+  feet { -210, 45 }
+  resist_acid   { 190 }
+  resist_magic  { 200 }
+  resist_force  { 25 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 190 }
+  caster { 690 }
+  spells { poison, vampiric touch, sunray, ice lance }
+  immune { fire, cold, charm, backstab, pierce }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special, deadly }
+}
+104127
+{
+  name { Surtur the Demonic }
+  namelist { dwarf Surtur, devil, demon }
+  shortdesc { Surtur, the demonic King of Fortrum, burns brightly here.
+Surtur, the demonic King of Fortrum, glows like a raging inferno! }
+  longdesc {
+Surtur is part dwarf, part demonic spawn from the deepest, darkest,
+pits of Hell.  Long ago he was the older brother of Odin, and then
+he was lost fighting deep in the Abyss.  For aeons he was thought
+dead, destroyed in the fiery depths, but then one day he rose up in
+Fortrum and sought to unite the clans under a single, powerful King.
+That King was himself, Surtur the Demonic.  His failure to unite the
+clans was offset by his prize at winning his brother's daughter for
+his wife.  Now they and their son Loki strive to assert their claim
+upon Fortrum.  Surtur, Loki and Hela are the doom of Fortrum, and
+they will bring around the Ragnorak, the prophesied destruction of
+the Dwarven kingdom.
+ }
+ race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 700 }
+  experience { 3905500 }
+  hp { 7, 200, 70500 }
+  alignment { 0 }
+  gold { 1604000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 6 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 6, 50, 40 }
+  head { -180, 34 }
+  body { -170, 28 }
+  arms { -170, 28 }
+  legs { -170, 28 }
+  feet { -170, 28 }
+  resist_acid   { 190 }
+  resist_magic  { 200 }
+  resist_force  { 25 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 190 }
+  immune { fire, cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+104128
+{
+  name { Loki }
+  namelist { dwarf mischief loki }
+  shortdesc { Loki, Lord of Mischief, stands here with a wide grin upon his face.
+Loki, Lord of Mischief, glows with a golden light! }
+  longdesc {
+Born from the union of Surtur the Demonic, brother of Odin, and
+Hela, daughter of Odin, Loki is quite the mad individual.  And
+although he is still young, his power rivals that of his parents
+already and he looks set to outstrip them both.  He is a master
+wizard and a powerful priest.  His skill at arms with blade and 
+hammer are unmatched by all except Odin himself.  Only Dorf thinks
+nothing of Loki.  But then, Dorf thinks nothing of anyone unless
+there is a tankard of beer to be had!
+ }
+ race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 680 }
+  experience { 3800005 }
+  hp { 3, 200, 59500 }
+  alignment { 0 }
+  gold { 1410000 }
+  hit_bonus { 55 }
+  dam_bonus { 35 }
+  attacks_per_round { 3 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 3, 40, 66 }
+  head { -200, 30 }
+  body { -200, 30 }
+  arms { -200, 30 }
+  legs { -200, 30 }
+  feet { -200, 30 }
+  resist_acid   { 400 }
+  resist_magic  { 1000 }
+  resist_force  { 250 }
+  resist_poison { 400 }
+  caster { 680 }
+  spells { dispel, fireball, firestorm, mind thrust, lightning bolt, chain lightning, fear, teleport }
+  immune { fire, cold, charm, backstab, blunt }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive, special, healer }
+}

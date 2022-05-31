@@ -1,0 +1,272 @@
+29000
+{
+  name { a cow }
+  namelist { cow }
+  shortdesc { A cow is here, chewing her cud. }
+  longdesc {
+Unlike the domensticated variety, the feral cows are quite
+capable of taking care of themselves and are totally unused
+to the idea of people.
+  }
+  race { none }
+  level { 86 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  hp { 24, 8, 324  }
+  move { 300 }
+  experience {  5222 }
+  damage { 1, 40, 1  }
+  world_limit { 200 } 
+}
+
+29001
+{
+  name { a boar }
+  namelist { boar }
+  shortdesc { A boar wallows in the mud and oinks in contentment. }
+  longdesc {
+The boar appears quite happy to be a boar.  He is oblivious to your presence
+but there is a glint in its eyes that suggest that it wouldn't back down
+from a fight.
+  }
+  race { none }
+  level { 90 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 9, 18, 199  }
+  move { 300 }
+  experience { 2001 }
+  damage { 2, 8, 1  }
+  world_limit { 100 }
+}
+
+
+29002
+{
+  name { a bull }
+  namelist { bull }
+  shortdesc { A bull scratches at the ground and lowers his head. }
+  longdesc {
+The bull is in top condition.  He looks like quite a fighter, nothing to be
+reckoned with.  With his horns and his hooves he can attack just about
+anything that threatens his herd.
+  }
+  race { none }
+  level { 226 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 21 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 24, 8, 124  }
+  move { 300 }
+  experience { 6350 }
+  damage { 1, 80, 1  }
+  act { aggressive }
+  world_limit { 30 }
+}
+
+29003
+{
+  name { a horse }
+  namelist { horse }
+  shortdesc { A horse becomes frightened by your presence. }
+  longdesc {
+The horse looks at you and turns away.  You can tell that it is afraid of you.
+  }
+  race { none }
+  level { 46 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 24, 8, 194  }
+  move { 300 }
+  experience { 2222 }
+  damage { 1, 8, 2  }
+  world_limit { 200 }
+}
+
+29004
+{
+  name { a proud stallion }
+  namelist { stallion }
+  shortdesc { A proud stallion watches you warily. }
+  longdesc {
+The beautiful stallion looks warily at you as you near his herd.
+He is clearly willing to defend his herd against any and all dangers.
+  }
+  world_limit { 30 }
+  race { none }
+  level { 66 }
+  alignment { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 24, 8, 824  }
+  move { 300 }
+  experience { 8222 }
+  damage { 1, 18, 1  }
+}
+
+
+29005
+{
+  name { an elder silver dragon }
+  namelist { silver dragon elter }
+  shortdesc { An elder silver dragon lazes on the ground.. }
+  longdesc {
+A beautiful silver dragon fills your gaze, all you can see is the
+silver scales, the large fangs, the larger eyes... The dragon snorts
+and suddenly you are free of the dragon's spell.
+  }
+  world_limit { 5 }
+  race { dragon }
+  level { 667 }
+  alignment { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -120, 10 }
+  body { -120, 10 }
+  arms { -120, 10 }
+  legs { -120, 10 }
+  feet { -120, 10 }
+  hp { 4, 500, 19224  }
+  move { 3000 }
+  experience { 3008222 }
+  damage { 2, 18, 25  }
+  caster { 80 }
+  spells { flamestrike, firestorm, dispel magic }
+  affected { detect-invisible, true-sight }
+  act { nosummon, scavenger, aggressive, healer }
+  immune { charm, sleep, poison, blunt, cold, slash }
+}
+
+
+
+
+
+
+29100
+{
+  name { a seasoned adventurer }
+  namelist { seasoned adventurer }
+  shortdesc { A seasoned adventurer stands here eyeing you carefully  }
+longdesc {
+The seasoned adventurer has seen his share of glory days.  Although he is
+past his prime, he still looks like he could put up more than his share of
+a good fight.
+  }
+  world_limit { 200 }
+  race { human }
+  level { 135 }
+  alignment { 00 }
+  gold { 100 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 32, 8, 732  }
+  move { 300 }
+  experience { 15341 }
+  damage { 2, 6, 1  }
+  act { scavenger, nosummon }
+}
+
+
+29101
+{
+  name { an wilderness bandit }
+  namelist { wilderness bandit }
+  shortdesc { A rough looking fellow sizes you up. }
+longdesc {
+A rough looking fellow he is.  Seeing you give him a look over
+he grins, sharpens his weapons and gives you a toothy grin.
+  }
+  world_limit { 100 }
+  race { human }
+  level { 135 }
+  alignment { 00 }
+  gold { 100 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 32, 8, 732  }
+  move { 300 }
+  experience { 15341 }
+  damage { 1, 14, 0  }
+  act { aggressive, scavenger, nosummon }
+}
+
+29102
+{
+  name { an wilderness bandit leader }
+  namelist { wilderness bandit leader }
+  shortdesc { A rough looking fellow sizes you up. }
+longdesc {
+A rough looking fellow he is.  Seeing you give him a look over
+he grins, sharpens his weapons and gives you a toothy grin.  
+He's not much better than the other ruffians you see around
+but they seem to respect his scruff-bag more.
+  }
+  world_limit { 20 }
+  race { human }
+  level { 435 }
+  alignment { 00 }
+  gold { 400 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 32, 8, 1732  }
+  move { 300 }
+  experience { 90341 }
+  damage { 1, 24, 0  }
+  act { aggressive, scavenger, nosummon }
+}
+
+
+

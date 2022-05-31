@@ -1,0 +1,3900 @@
+93001
+{
+  name { a strong and sturdy guard }
+  namelist { strong guard }
+  shortdesc { A strong and sturdy guard patrols the streets with a stern face. }
+  longdesc {
+Boy does he look serious!  Heavily armored and looking to fight at a moments
+notice, the strong and study guard of OldPort sweepingly patrols the streets
+for trouble.  His heavy plated boots clank loudly on the road as he stomps
+his feet, signaling you to walk on.
+  }
+  race { Human }
+  world_limit { 10 }
+  sex { Male }
+  level { 501 }
+  experience { 1165000 }
+  hp { 15, 40, 18451 }
+  alignment { 0 }
+  gold { 75000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 5, 5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93002
+{
+  name { a strong and sturdy wandering guard }
+  namelist { wandering strong guard }
+  shortdesc { A strong and sturdy guard patrols the streets with a stern face. }
+  longdesc {
+Boy does he look serious!  Heavily armored and looking to fight at a moments
+notice, the strong and study guard of OldPort sweepingly patrols the streets
+for trouble.  His heavy plated boots clank loudly on the road as he walks
+right by you.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 465 }
+  experience { 845662 }
+  hp { 15, 40, 16535 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 5, 5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, stay-zone }
+}
+
+93003
+{
+  name { a midlevel guard }
+  namelist { mid guard }
+  shortdesc { A proud looking guard stands at attention on top of the blockade. 
+}
+  longdesc {
+Dressed in standard OldPort military wear, this guard stands above the
+blockade in the road.  He never meets your gaze, but slowly moves his eyes
+from side to side, monitoring his surroundings.  His right hand secure
+against the hilt of his sabre, he is ready for trouble at any time.
+  }
+  race { Human }
+  world_limit { 6 }
+  level { 350 }
+  sex { Male }
+  experience { 452633 }
+  hp { 15, 40, 3488 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -70, 8 }
+  body { -70, 8 }
+  arms { -70, 8 }
+  legs { -70, 8 }
+  feet { -70, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93004
+{
+  name { a wandering guard }
+  namelist { wandering guard }
+  shortdesc { A guard of OldPort patrols the streets for any sign of trouble. }
+  longdesc {
+A proud guard of OldPort walks chest puffed through the street.  Dressed in
+green and black OldPort military wear, the guard looks very smashing.  A
+solid looking shield with the crest of OldPort is slung across his back.  His
+scabbard clangs loosely against his leg armor.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 200 }
+  experience { 85324 }
+  hp { 15, 40, 1875 }
+  alignment { 0 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 8, 5 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93005
+{
+  name { a lazy guard }
+  namelist { lazy guard }
+  shortdesc { A lazy guard lifts his head to look at you and then goes back to sleep. }
+  longdesc {
+One term can describe this lazy OldPort guard, asleep.  Lazily lounging
+while the rest of the guards do all his work, this guard sits propped
+against the blockade.  What a world.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 35655 }
+  hp { 15, 40, 1075 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93006
+{
+  name { a black dog }
+  namelist { black dog }
+  shortdesc { A black dog rifles through some garbage in the street. }
+  longdesc {
+A black colored dog is picking through some garbage on the street.
+Someone seems to have kept this dog very well fed.  How odd for a city
+without any townspeople.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 15 }
+  experience { 8500 }
+  hp { 5, 6, 440 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93007
+{
+  name { a pitch black raven }
+  namelist { black raven }
+  shortdesc { A black raven squaks at you from the architecture. }
+  longdesc {
+A pitch black raven squaks at you from the building's buttresses and
+swoops down at your head.  Missing only by inches, the beautiful bird
+lands on the ground and picks through some trash.
+  }
+  race { Bird }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10750 }
+  hp { 5, 6, 600 }
+  alignment { -1000 }
+  gold { 7000 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93008
+{
+  name { a master thief bandit }
+  namelist { master thief bandit }
+  shortdesc { A large man sizes you up from the back of the room. }
+  longdesc {
+Standing towards the back of the room, the bandit leader slowly sizes you
+up.  For a group of bandits, this guy sure dresses nice.  His clothes are 
+in perfect condition, as though he has never weathered a tough day in his
+life.  The nervous look on his men's faces cause the master thief jump to
+the front of the group shouting, "This is our territory, understand?".
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Male }
+  level { 99 }
+  experience { 21442 }
+  hp { 15, 40, 853 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { -30, 6 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, nice-thief, wimpy, stay-zone }
+}
+
+93009
+{
+  name { a frightened bandit }
+  namelist { frightened bandit }
+  shortdesc { A frightened thief seems to have worked his way to the back of the pack. }
+  longdesc {
+The smallest of the group, this short man immediately ran behind his friends
+upon your entrance to the room.  A small black cap sits atop his head.  He
+has on black pants and a nice white shirt.
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Male }
+  level { 80 }
+  experience { 13455 }
+  hp { 15, 40, 683 }
+  alignment { -1000 }
+  gold { 4050 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 10, 3 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  affected { true-sight }
+  act { npc, sentinel, nice-thief, stay-zone }
+}
+
+93010
+{
+  name { a scrappy bandit }
+  namelist { scrappy bandit }
+  shortdesc { A scrappy looking bandit stands here, punching his hand into his fist. }
+  longdesc {
+A flat, brown hat sits sideways on this scrappy fellows head.  His sleeves
+are rolled up to his elbows and he won't stop beating his hand into his
+fist as he stares straight in your eyes.  A small, red light flickers from
+the end of his cigar as he takes a puff and blows the smoke in your face.
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Male }
+  level { 105 }
+  experience { 25655 }
+  hp { 15, 40, 1064 }
+  alignment { -1000 }
+  gold { 1100 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -45, 7 }
+  body { -45, 7 }
+  arms { -45, 7 }
+  legs { -45, 7 }
+  feet { -45, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, aggressive, sentinel, nice-thief, stay-zone }
+}
+
+93011
+{
+  name { a wandering bandit }
+  namelist { wandering bandit }
+  shortdesc { A man dressed in black robes quickly darts around the corner. }
+  longdesc {
+A shifty looking man, dressed in a long black robe, quickly walks across
+the street.  He tries to avert all eye contact with you, but stares 
+quickly at your wallet.  He darts around the next corner, fading away
+from sight.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 95 }
+  experience { 24750 }
+  hp { 15, 40, 783 }
+  alignment { -1000 }
+  gold { 8050 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -5, 5 }
+  body { -5, 5 }
+  arms { -5, 5 }
+  legs { -5, 5 }
+  feet { -5, 5 }
+  affected { true-sight }
+  act { npc, nice-thief, stay-zone }
+}
+
+93012
+{
+  name { a pretty lady }
+  namelist { pretty lady }
+  shortdesc { A pretty lady stands in line, hoping to get into the party. }
+  longdesc {
+Glowing and demure, a pretty, young lady waits in line for one of the
+the Earl's famous parties.  A quaint yellow parasol blocks her delicate
+porcelain skin from the sun.  Her form fitting yellow dress reveals a
+sexy hourglass figure.  She shyly notices you gazing and her cheeks
+pink up.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Female }
+  level { 75 }
+  experience { 10892 }
+  hp { 15, 40, 355 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 11 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93013
+{
+  name { a proper gentleman }
+  namelist { proper gentleman }
+  shortdesc { A tuxedo glad gentleman waits patiently in line. }
+  longdesc {
+A proper looking gentlemen is waiting in line.  He is dressed in a sleek,
+black tuxedo with a black top hat.  A frilly white shirt pokes through
+the lapels of his tuxedo's jacket. He appears to be very collected even
+in the direct sunshine.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 85 }
+  experience { 12685 }
+  hp { 15, 40, 634 }
+  alignment { +750 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93014
+{
+  name { a sweaty man }
+  namelist { sweaty man }
+  shortdesc { A robust man stands in line, dripping in sweat. }
+  longdesc {
+Wow! Somebody give this guy a towel.  His odd, purple and lavender suit
+is seeping through in sweat marks.  The sweat mark on his shirt seems
+to have formed the shape of a bat. Weird.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 80 }
+  experience { 9932 }
+  hp { 15, 40, 525 }
+  alignment { -100 }
+  gold { 4000 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 15, 5 }
+  body { 15, 5 }
+  arms { 15, 5 }
+  legs { 15, 5 }
+  feet { 15, 5 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93015
+{
+  name { a shady creep }
+  namelist { shady man creep }
+  shortdesc { A shady looking man waits in line, his eyes are on your wallet. }
+  longdesc {
+He must be hot under all that clothing.  Why would someone be completely
+covered in cloaks and cowls while waiting in line? He must be up to
+something.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 89 }
+  experience { 18450 }
+  hp { 15, 40, 785 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 14 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -10, 6 }
+  body { -10, 6 }
+  arms { -10, 6 }
+  legs { -10, 6 }
+  feet { -10, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, nice-thief, wimpy, stay-zone }
+}
+
+93016
+{
+  name { a wandering waiter }
+  namelist { wandering waiter }
+  shortdesc { A smiling waiter offers you something cool to drink. }
+  longdesc {
+Dancing effortlessly around the party guests, this member of the Earl's
+party staff flows from guest to guest.  He holds a tray of different
+colored drinks.  He invites you to have one, with a warm smile.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 85 }
+  experience { 15645 }
+  hp { 15, 40, 689 }
+  alignment { +888 }
+  gold { 4050 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -10, 6 }
+  body { -10, 6 }
+  arms { -10, 6 }
+  legs { -10, 6 }
+  feet { -10, 6 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93017
+{
+  name { a scared waiter }
+  namelist { scared waiter }
+  shortdesc { An uneasy looking waiter offers you a snack. }
+  longdesc {
+His whole face seems to start to sweat as the waiter notices you looking
+at him.  The tray of scrumptious snacks starts to teeter and shake as
+you come even closer.  Seemingly attempting to compose himself, the waiter
+straightens his back and squeaks, "Would you know some finger food sir?".
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 85 }
+  experience { 14750 }
+  hp { 15, 40, 623 }
+  alignment { +888 }
+  gold { 4050 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  affected { true-sight }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93018
+{
+  name { a hummingbird }
+  namelist { hummingbird }
+  shortdesc { A pretty, little hummingbird buzzes amungst the tulips. }
+  longdesc {
+A delicate hummingbird flies from tulip to tulip, quickly tasting some
+nectar and flys away.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 15 }
+  experience { 2150 }
+  hp { 5, 6, 150 }
+  alignment { +500 }
+  gold { 1200 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 95, 0 }
+  body { 95, 0 }
+  arms { 95, 0 }
+  legs { 95, 0 }
+  feet { 95, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93019
+{
+  name { a dancing woman }
+  namelist { dancing woman }
+  shortdesc { A woman is dancing around the room, having a good time. }
+  longdesc {
+Glowing and laughing, a pretty, young lady dances around with a smile
+in one of the Earl's famous parties.  She may have had too much to 
+drink, as she stumbles some of her steps.  Her form fitting yellow 
+dress reveals a sexy hourglass figure.  She shyly notices you gazing 
+and her cheeks pink up.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Female }
+  level { 75 }
+  experience { 10892 }
+  hp { 15, 40, 355 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 11 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93020
+{
+  name { a dancing gentleman }
+  namelist { dancing gentleman }
+  shortdesc { A tuxedo glad gentleman dances happily around the room. }
+  longdesc {
+A proper looking gentlemen dances gleefully around the room.  He is 
+dressed in a sleek, black tuxedo with a black top hat.  A frilly white 
+shirt pokes through the lapels of his tuxedo's jacket. He appears to 
+have drank too much and is getting a little too friendly with the
+ladies.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 85 }
+  experience { 19685 }
+  hp { 15, 40, 634 }
+  alignment { +750 }
+  gold { 5000 }
+  hit_bonus { 13 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93021
+{
+  name { a gossiping socialite }
+  namelist { gossip socialite man }
+  shortdesc { A well dressed man stands whispering into a woman's ear. }
+  longdesc {
+Staring at you immediately as you entered the room, the well groomed
+socialite does not stop whispering into his friend's ear.  His eyes
+follow you around the room and measure you up, top to bottom.  What a
+freak.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 110 }
+  experience { 27435 }
+  hp { 15, 40, 965 }
+  alignment { -1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93022
+{
+  name { a bored woman }
+  namelist { bored woman }
+  shortdesc { A bored woman stares at the ceiling while someone gabs in her ear. }
+  longdesc {
+This poor woman.  There is a party going on, people dancing around, a
+nice stiff drink in her hand and all she can do is listen to the local
+gossip gabbing in her ear.  With a loud and public yawn, she sips her
+drink and resumes studying the ceiling.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 75 }
+  experience { 11892 }
+  hp { 15, 40, 455 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93023
+{
+  name { a lovely old receptionist }
+  namelist { old receptionist }
+  shortdesc { An old and lovely looking receptionist tends to her knitting. }
+  longdesc {
+A gentle and lovely looking old woman sits in her chair and tends to
+her knitting.  "Are you ready for a good nights rest my dears?", she
+seems to sing to you from her resting place.  "Just type "camp" dears
+and I'll watch after your belongings.  Have a good rest!".  Strangely,
+you can feel an odd power coming from the old lady, I wouldn't mess
+with her.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 551 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, pierce, slash, energy, blunt, hold, backstab }
+  act { npc, sentinel, stay-zone }
+}
+
+93024
+{
+  name { a nice bartender }
+  namelist { nice bartender }
+  shortdesc { The good bartender smiles at you, offering a seat and a drink. }
+  longdesc {
+A scrawny bartender stands smiling from behind his bar.  He smiles at you,
+offering a seat.  Strands of hair have been combed over his balding
+head in an attempt to hide his years.  He tends to his other customers,
+since you are having trouble making a decision on a drink.  Oddly enough,
+he looks rather dangerous.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 535 }
+  experience { 1246321 }
+  hp { 15, 40, 42554 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, sanctuary }
+  immune { charm, pierce, slash, energy, blunt, hold, backstab }
+  act { npc, sentinel, stay-zone }
+}
+
+93025
+{
+  name { a local drunk }
+  namelist { local drunk man }
+  shortdesc { A very happy man raises his glass and cheers for you! }
+  longdesc {
+Ewww....  This man has puked all over himself.  Chunks of...something..
+are resting at his feet.  He cheerfully raises his glass and makes a 
+toast for you as you enter the room.  He quickly orders a drink for you
+too so that he will have someone to talk with.  Better run.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 72 }
+  experience { 11215 }
+  hp { 15, 40, 400 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 50, 2 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93026
+{
+  name { a drunk fisherman }
+  namelist { drunk fisherman sailor }
+  shortdesc { A drunk sailor listens intently to the conversation. }
+  longdesc {
+He seems to have wandered pretty far from the docks.  The mad clammering
+of the scary old man next to him has completely engrossed his attention.
+He can only raise his glass to his lips and take a sip.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 72 }
+  experience { 55221 }
+  hp { 15, 40, 1625 }
+  alignment { +750 }
+  gold { 4500 }
+  hit_bonus { 14 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 6 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93027
+{
+  name { a crazy man }
+  namelist { crazy man }
+  shortdesc { A scrawny, crazy little old man is spouting something about the Earl. }
+  longdesc {
+"What are you looking at?!", screams the angry, crazy little old man.
+"I was here before you, before all you people.  That damn Earl ruined
+everything.", he quietly weeps to himself.  He suddenly turns away and
+shouts, "Strawberries!!!!!!".  Very confused, he sits down and lays
+his head on the table.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 30 }
+  experience { 2122 }
+  hp { 5, 15, 80 }
+  alignment { +750 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 50, 2 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93028
+{
+  name { a wayward gentleman }
+  namelist { wayward gentleman }
+  shortdesc { A well dressed man is engaged in a conversation. }
+  longdesc {
+He seems to have wandered pretty far from the docks.  The mad clammering
+of the scary old man next to him has completely engrossed his attention.
+He can only raise his glass to his lips and take a sip.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 85 }
+  experience { 21685 }
+  hp { 15, 40, 634 }
+  alignment { +750 }
+  gold { 5000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 1, 2 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93029
+{
+  name { an angry fisherman }
+  namelist { angry fisherman }
+  shortdesc { An angry fisherman is distrubed by your walking on his boat. }
+  longdesc {
+"Hey, can't you see people are working here?", shouts the fisherman
+from the back of the boat.  He is trying to sort and clean their catch of
+the day so that he can finally head home.  He has clearly been out to
+sea for a long time.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 72 }
+  experience { 94566 }
+  hp { 15, 40, 1842 }
+  alignment { +750 }
+  gold { 4750 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93030
+{
+  name { a tired fisherman }
+  namelist { tired fisherman }
+  shortdesc { A tired looking fisherman is trying to mend a net. }
+  longdesc {
+Beaten by the sea and the sun, this fisherman is hastily attempting to
+mend his net and go home.  His rosey red cheeks look up from his work
+for a second to check you out and he immediately goes back to work.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 72 }
+  experience { 89323 }
+  hp { 15, 40, 1642 }
+  alignment { +750 }
+  gold { 4750 }
+  hit_bonus { 13 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93031
+{
+  name { a happy fisherman }
+  namelist { happy fisherman }
+  shortdesc { A fisherman whistles a happy tune while cleaning some fish. }
+  longdesc {
+Strong and healthy, the fisherman continues to clean his fish as you
+walk onto his ship.  He gives you a quick, "Hoi!", and continues on his
+duties.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 180 }
+  experience { 101566 }
+  hp { 15, 40, 1842 }
+  alignment { +750 }
+  gold { 4750 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93032
+{
+  name { a cheery fisherman }
+  namelist { cheery fisherman }
+  shortdesc { A man waves and smiles at you from across the boat. }
+  longdesc {
+A hard working fisherman is cleaning up around the boat.  He looks up
+and asks, "Would you like to come with us on our next run?  You look
+really strong!".  Not waiting for a response, he continues preparing for
+their next voyage.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 87050 }
+  hp { 15, 40, 1642 }
+  alignment { +750 }
+  gold { 4450 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93033
+{
+  name { a strong fisherman }
+  namelist { strong fisherman }
+  shortdesc { A well built fisherman carries large barrels on each shoulder. }
+  longdesc {
+A strong, well built fisherman carries some barrels onto the ship.  The
+barrels are easily as large as you.  No regular human could lift that
+weight.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 240 }
+  experience { 176220 }
+  hp { 15, 40, 2316 }
+  alignment { +750 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -45, 8 }
+  body { -45, 8 }
+  arms { -45, 8 }
+  legs { -45, 8 }
+  feet { -45, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93034
+{
+  name { a injured fisherman }
+  namelist { injured fisherman }
+  shortdesc { An injured fisherman is struggling to get a wheelbarrel onto the 
+boat. }
+  longdesc {
+One of his arms is wrapped up in a bandage.  The seas must be very 
+rough.  He is still working his hardest, regardless of the setbacks.
+He is trying to push a huge barrel across the deck of the ship in a
+giant wheelbarrel.  He is too proud to ask you for any help.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 170 }
+  experience { 86633 }
+  hp { 15, 40, 1442 }
+  alignment { +750 }
+  gold { 4450 }
+  hit_bonus { 14 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93035
+{
+  name { a strange and ugly bird }
+  namelist { strange ugly bird }
+  shortdesc { A strange and ugly bird circles above your head. }
+  longdesc {
+This is the ugliest bird you have even seen.  The strange and ugly bird
+does circles above your head, eyeing you intently.  It must be hoping
+for a meal.
+  }
+  race { Bird }
+  world_limit { 2 }
+  level { 30 }
+  experience { 11445 }
+  hp { 5, 6, 750 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93036
+{
+  name { ticket salesman ferry }
+  namelist { ticket salesman man }
+  shortdesc { A large man grins, blocking your entrance to the ship. }
+  longdesc {
+  A large man blocks your entrance to the ferry.  "Millers Falls mate?", 
+  he laughs at you, "Sure you wanting to go there?".  He continues to
+  collect tickets from other passengers and send them on their ways.
+  He is dressed in handsome formal wear, so strange for such a large 
+  man.  "Listen", he says to you, smile fading from his face, "It's
+  your life, so just buy a ticket and unlock the ferry." The glowing
+  smile pops back into his face, and he continues to sell his tickets.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 545 }
+  experience { 865652 }
+  hp { 15, 40, 42554 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  affected { true-sight, sanctuary }
+  immune { charm, pierce, slash, energy, blunt, hold, backstab }
+  act { npc, sentinel, stay-zone }
+}
+
+93037
+{
+  name { a pretty ship lady }
+  namelist { pretty lady }
+  shortdesc { A pretty lady stands in line, hoping to get on the ship. }
+  longdesc {
+Glowing and demure, a pretty, young lady waits in line for one of the
+Chessport tickets.  A quaint yellow parasol blocks her delicate
+porcelain skin from the sun.  Her form fitting yellow dress reveals a
+sexy hourglass figure.  She shyly notices you gazing and her cheeks
+pink up.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Female }
+  level { 75 }
+  experience { 10892 }
+  hp { 15, 40, 355 }
+  alignment { +750 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93038
+{
+  name { a dock worker }
+  namelist { dock worker }
+  shortdesc { A dock worker walks busily past you. }
+  longdesc {
+Carrying a heavy load, the docker worker walks busily past you.  His 
+hugely muscled body does not seem to slack under all that weight.
+He gives you no attention.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 170 }
+  experience { 92200 }
+  hp { 15, 40, 1550 }
+  alignment { +750 }
+  gold { 4450 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93039
+{
+  name { a naughty child }
+  namelist { naughty child }
+  shortdesc { A very naughty child runs up and down the docks. }
+  longdesc {
+Where is this child's mother?  All he seems to be able to do is run up
+and down the docks, screaming and pushing people.  He better stop or he
+is going to hurt himself.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 30 }
+  experience { 4500 }
+  hp { 5, 6, 300 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 11 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93040
+{
+  name { an intertube child }
+  namelist { intertube child }
+  shortdesc { A happy child runs along the dock in a yellow ducky intertube. }
+  longdesc {
+Where is this child's mother?  All she seems to be able to do is run up
+and down the docks, screaming and pushing people.  She better stop or she
+is going to hurt herself.  You see the child trying to jump off the dock
+and are too late to stop her as she splashes into the cool water.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Female }
+  level { 30 }
+  experience { 4500 }
+  hp { 5, 6, 300 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93041
+{
+  name { a pretty dockwalker lady }
+  namelist { pretty lady }
+  shortdesc { A pretty lady walks down the docks, gazing into the water. }
+  longdesc {
+Glowing and demure, a pretty, young lady enjoys a long walk down the
+wooden OldPort docks.  A quaint yellow parasol blocks her delicate
+porcelain skin from the sun.  Her form fitting yellow dress reveals a
+sexy hourglass figure.  She shyly notices you gazing and her cheeks
+pink up.
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Female }
+  level { 75 }
+  experience { 11192 }
+  hp { 15, 40, 355 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93042
+{
+  name { a wayward dock traveller }
+  namelist { wayward dock traveler }
+  shortdesc { A tired looking traveller walks slowly along the docks. }
+  longdesc {
+He seems very tired from his long trip.  He is very well dressed and
+carries a single bag of luggage.  He does not appear to have anywhere to
+go or no place to be.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 110 }
+  experience { 67435 }
+  hp { 15, 40, 965 }
+  alignment { -1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 10, 6 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93043
+{
+  name { a giant octopus }
+  namelist { giant octopus }
+  shortdesc { A giant octopus stares up at you from the bottom of the pool. }
+  longdesc {
+A giant red octopus stares at you hungrily from the bottom of the cave.
+Its tentacles slowly creep and crawl around anything it can tounch.  It
+contracts all the tentacles at once and propels itself off the floor,
+directly at you.
+  }
+  race { Predator }
+  world_limit { 1 }
+  level { 275 }
+  experience { 456553 }
+  hp { 15, 40, 3366 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 18 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 4, 2 }
+  head { -40, 8 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93044
+{
+  name { the lighthouse keeper }
+  namelist { lighthouse keeper }
+  shortdesc { An old lighthouse keeper slowly wanders through the lighthouse. }
+  longdesc {
+Slowly walking through the lighthouse, you wonder if he is actually going
+anywhere.  A dull yellow fisherman's cap covers his graying hair.  A long
+yellow raincoat, with the same dull color, completely covers his frail
+body.  "Damn that Earl, how can I do this upkeep without helpers?", he
+mutters and continues to wander around.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 110 }
+  experience { 69630 }
+  hp { 15, 40, 844 }
+  alignment { +1000 }
+  gold { 6000 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93045
+{
+  name { a rice mill worker }
+  namelist { rice mill worker }
+  shortdesc { An unhappy worker stands here sorting through good and bad rice. }
+  longdesc {
+You can tell she has been doing this for years.  Sorting good rice from
+the bad rice.  She is quick and methodical, not missing a single grain.
+Clad only in a burlap bag, it is clear they do not pay her well.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 150 }
+  experience { 112232 }
+  hp { 15, 40, 1766 }
+  alignment { +1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -10, 7 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93046
+{
+  name { a sad rice mill worker }
+  namelist { sad rice mill worker man }
+  shortdesc { A man weeps while carrying around big sack of rice. }
+  longdesc {
+You can tell he has been doing this for years.  He drops his baggage,
+falls to his knees and starts to cry into his hands.  Getting a swift
+kick from the other worker, he picks himself up and continues with his
+work.  Clad only in a burlap bag, it is clear they do not pay him well.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 97525 }
+  hp { 15, 40, 1422 }
+  alignment { +1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -10, 7 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93047
+{
+  name { a rice picker }
+  namelist { rice picker }
+  shortdesc { A cute little rice worker makes her way through the rice fields. }
+  longdesc {
+She tilts her head towards you with shy smile as you pass the rice
+fields.  Dressed in a simple white shirt and gray capri pants, she 
+quickly walks up and down the isles of the field, pulling rice sprouts.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 130 }
+  experience { 87565 }
+  hp { 15, 40, 1145 }
+  alignment { +1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -10, 7 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93048
+{
+  name { The head farmer }
+  namelist { head farmer man }
+  shortdesc { The head farmer walks about, making sure everyone is doing their job. }
+  longdesc {
+A white sash wrapped around his head, you can tell the head farmer does
+not mind getting his hands dirty.  He proudly walks around the farm,
+making sure things are running right and everyone is doing their job.
+He looks at you uneasily, wondering why you are walking through his
+farm.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 225 }
+  experience { 225665 }
+  hp { 15, 40, 2336 }
+  alignment { +1000 }
+  gold { 10500 }
+  hit_bonus { 17 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -15, 9 }
+  body { -15, 9 }
+  arms { -15, 9 }
+  legs { -15, 9 }
+  feet { -15, 9 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93049
+{
+  name { an wild child }
+  namelist { wild child }
+  shortdesc { A wild looking child runs free throughout the rice field. }
+  longdesc {
+Where is this child's mother?  Splashing and playing around in the fields,
+he looks like he is having the time of his life.  His parents must run
+the farm.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 30 }
+  experience { 4575 }
+  hp { 5, 6, 300 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93050
+{
+  name { the matron mistress }
+  namelist { matron mistress }
+  shortdesc { The beautiful matron sits invitingly on her soft looking bed. }
+  longdesc {
+The lovely matron mother stares at you longingly from her bed.  Covered
+only in a silky, cloud patterend neglige, she playfully rolls over her
+gigantic mattress and turns out the light.  What does she have in 
+mind?
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 250 }
+  experience { 222365 }
+  hp { 10, 45, 2330 }
+  alignment { -1000 }
+  gold { 10750 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -80, 8 }
+  body { -80, 8 }
+  arms { -80, 8 }
+  legs { -80, 8 }
+  feet { -80, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93051
+{
+  name { a lovely geisha }
+  namelist { lovely geisha }
+  shortdesc { A petite geisha innocently giggles from across the room. }
+  longdesc {
+Back turned to you, she smilingly looks at you from the mirror of her
+make-up stand.  She slowly stands, picking up a fan from a nearby table
+and opening it, fans her hair back cutely.  Dressed in a silky red 
+button down dress with a golden dragon running up the left hip, she walks
+across the room to greet you.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Female }
+  level { 85 }
+  experience { 36523 }
+  hp { 15, 40, 698 }
+  alignment { -750 }
+  gold { 5000 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93052
+{
+  name { a yakuza henchman }
+  namelist { yakuza henchman }
+  shortdesc { A underling of the Shogun is not treating a geisha nicely. }
+  longdesc {
+One of the Shogun's henchman is slapping around a local geisha.  Apparently,
+the girl did not satisfy his needs.  His armor is almost completely
+taken off, he must be in the middle of something.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 190232 }
+  hp { 15, 40, 1766 }
+  alignment { -333 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -20, 8 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93053
+{
+  name { a koto player }
+  namelist { koto player lady }
+  shortdesc { A beautiful young lady sits in the corner playing a koto. }
+  longdesc {
+She gentley plucks the strings of her koto, almost sending a song directly
+to you.  Her melodies rise and fall like the quickening pase of a river.
+She pauses and smiles to the passerbys, noticing you have been slightly
+hypnotized by her playing.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 75 }
+  experience { 11422 }
+  hp { 15, 40, 380 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 4 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  immune { charm }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93054
+{
+  name { a busy bartender }
+  namelist { busy bartender man }
+  shortdesc { A busy man stands behind the bar taking drink orders. }
+  longdesc {
+A short, jovial looking fellow stands behind the bar taking orders from
+all the local farmers.  He is dressed in a white kimono strapped with
+a handsome gray sash.  Bowing to you he asks, "A drink for you sir?".
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 211331 }
+  hp { 15, 40, 2150 }
+  alignment { +500 }
+  gold { 12000 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93055
+{
+  name { a drunk farmer }
+  namelist { drunk crying farmer }
+  shortdesc { A farmer rocks in his chair singing along with the koto. }
+  longdesc {
+He sure must have had a hard day.  Rocking in his chair, he loudly sings
+along the the koto player.  He lifts his drink into the air, giving some
+kind of imaginary acknowledgement and goes back to singing.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 150 }
+  experience { 92525 }
+  hp { 15, 40, 1422 }
+  alignment { +1000 }
+  gold { 3400 }
+  hit_bonus { 13 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -15, 7 }
+  body { -15, 7 }
+  arms { -15, 7 }
+  legs { -15, 7 }
+  feet { -15, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93056
+{
+  name { a drunk crying farmer }
+  namelist { drunk farmer }
+  shortdesc { A farmer whimpers softly and does another shot of saki. }
+  longdesc {
+Whimpering loudly and sometimes singing with his friend, this drunk fool
+looks quite the sight.  "It's not fair, it's all the Earl's fault!",
+he cries as he pours himself another shot of saki. Banzai!
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 140 }
+  experience { 82665 }
+  hp { 15, 40, 1225 }
+  alignment { +1000 }
+  gold { 4300 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -10, 7 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+
+93057
+{
+  name { an arm wrestler }
+  namelist { arm wrestler }
+  shortdesc { A burly arm wrestler struggles for his life to win! }
+  longdesc {
+A muscular arm wrestler fights for his life on a table against the north
+wall.  Sweat pours down his face as he tries to slowly work his way
+to victory.  Clinching his teeth and eyeing his opponent with hate, 
+he lets out a yell and makes his move.  He doesn't even notice you 
+enter the room.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 140 }
+  experience { 286021 }
+  hp { 15, 40, 3165 }
+  alignment { -750 }
+  gold { 6300 }
+  hit_bonus { 18 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -45, 8 }
+  body { -45, 8 }
+  arms { -45, 8 }
+  legs { -45, 8 }
+  feet { -45, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93058
+{
+  name { a resting yakuza }
+  namelist { resting yakuza }
+  shortdesc { One of the yakuza lounges lazily on a comfortable couch. }
+  longdesc {
+A strong looking bodyguard watches the entertainment from the couch.  
+His sword at his side and a drink in his hand, he was obviously not
+expecting any company today.  He quickly realizes they are not alone.
+Quickly alerting his friends, he grabs his scabbard from the side of
+the couch and starts to attack.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 140 }
+  experience { 295000 }
+  hp { 15, 40, 2560 }
+  alignment { -750 }
+  gold { 7300 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -40, 8 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93059
+{
+  name { a sexy dancing woman }
+  namelist { sexy dancing woman }
+  shortdesc { A seductive looking woman is performing on stage. }
+  longdesc {
+Dancing on a stage to the south of the room, she seductively entices 
+the staring onlookers.  You can tell she has their complete attention,
+their very whims at her command.  A slight touch of her hip, a gentle
+rub of her stomach and the men are drooling at the mouth.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Female }
+  level { 75 }
+  experience { 10892 }
+  hp { 15, 40, 355 }
+  alignment { -250 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93060
+{
+  name { an excited yakuza }
+  namelist { excited yakuza man }
+  shortdesc { A man is cheering at all the action going on. }
+  longdesc {
+An excited yakuza cheers on all the activity in the room.  He can barely
+contain his excitement with so much entertainment.  Is that a new game
+starting?
+  }
+  race { Human }
+  world_limit { 5 }
+  sex { Male }
+  level { 180 }
+  experience { 170223 }
+  hp { 15, 40, 1800 }
+  alignment { -750 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -35, 8 }
+  body { -35, 8 }
+  arms { -35, 8 }
+  legs { -35, 8 }
+  feet { -35, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93061
+{
+  name { a card player }
+  namelist { card player man }
+  shortdesc { A man is holding a few cards, trying to figure out his next move. }
+  longdesc {
+A few drops of sweat have appeared on his forehead.  His eyes dart back
+and forth between his opponents.  You can tell he is very hesitant to
+make his next move.  He has not even noticed you have entered the room.
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 340 }
+  experience { 296156 }
+  hp { 15, 40, 3165 }
+  alignment { -750 }
+  gold { 12000 }
+  hit_bonus { 18 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -45, 8 }
+  body { -45, 8 }
+  arms { -45, 8 }
+  legs { -45, 8 }
+  feet { -45, 8 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93062
+{
+  name { The master shogun }
+  namelist { master shogun }
+  shortdesc { The master shogun surveys the room from his posh seat. }
+  longdesc {
+The master shogun sits in a comfortable looking chair against the east
+wall.  You can tell he is the leader of this group by the energy that
+seems to pulse around him.  He quickly notices that you have somehow
+snuck into his backroom and he is not pleased.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 673525 }
+  hp { 15, 40, 4856 }
+  alignment { -750 }
+  gold { 20000 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 8, 7 }
+  head { -70, 10 }
+  body { -70, 10 }
+  arms { -70, 10 }
+  legs { -70, 10 }
+  feet { -70,10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93063
+{
+  name { a giant mastiff }
+  namelist { giant mastiff dog }
+  shortdesc { A huge dog barks loudly, flinging slobber all over. }
+  longdesc {
+A giant black mastiff circles around the top of the tower, barking at
+you insesantly.  Its loud, room shaking coughs almost make you fall off
+the ladder.  He stops, letting out a low, gutteral snarl and leaps to 
+attack.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 75 }
+  experience { 11433 }
+  hp { 5, 6, 675 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93064
+{
+  name { the head cook }
+  namelist { head master cook }
+  shortdesc { The head cook folds his arms and barks orders around the room. }
+  longdesc {
+The head cook stares at you with disdain as you violate his kitchen.
+His crisp white smock glistens with perfection.  A tall white hat sits
+squarely on his head.  The hat is so tall it tilts at the end, making
+it look like a question mark.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 125 }
+  experience { 46655 }
+  hp { 15, 40, 950 }
+  alignment { +1000 }
+  gold { 4300 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 10, 3 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93065
+{
+  name { a busy cook }
+  namelist { busy cook }
+  shortdesc { A cook of the Earl is busy making a delightful meal. }
+  longdesc {
+He is dressed in a sleek white uniform.  He does not even look up to
+greet you as you enter the kitchen.  Mixing a variety of ingredients
+he quickly molds and shapes food into a delicious looking treat.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 80 }
+  experience { 22650 }
+  hp { 15, 40, 600 }
+  alignment { +1000 }
+  gold { 4000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 25, 2 }
+  body { 25, 2 }
+  arms { 25, 2 }
+  legs { 25, 2 }
+  feet { 25, 2 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93066
+{
+  name { a cook's apprentice }
+  namelist { apprentice man }
+  shortdesc { A man runs around the room obeying the head cook's every order. }
+  longdesc {
+Boy does he look tired.  Sweat pouring down his forehead, this pour guy
+jumps from station to station, carefully trying to follow the head cook's
+demands.  Startled by the barking commands, he quickly stops what he was 
+doing and heads to the next station.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 60 }
+  experience { 20665 }
+  hp { 15, 40, 500 }
+  alignment { +1000 }
+  gold { 2050 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93067
+{
+  name { a crying dishwasher }
+  namelist { crying dishwasher man }
+  shortdesc { A man cries by the sink, trying to keep up with the dishes. }
+  longdesc {
+Frantically scraping, scrubbing and rinsing the piles and piles of dishes
+and pans, the poor man works as fast as he can.  He tries not to listen
+to the cruel shouts from the head cook and just buries his head into
+his work, weeping quietly. 
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 60 }
+  experience { 8662 }
+  hp { 15, 40, 250 }
+  alignment { +1000 }
+  gold { 1250 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93068
+{
+  name { Earl Trakad }
+  namelist { Earl Trakad }
+  shortdesc { A man creeps carefully along the hallway, sweating and shaking. }
+  longdesc {
+He hasn't seemed to notice you yet.  The Earl slowly creeps along the
+hallway, shaking and sweating profusely.  It looks like he is overcome
+with some kind of flu.  He stops and stares at certain paintings, 
+letting out a loud cackle. 
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 30 }
+  experience { 6222 }
+  hp { 15, 40, 75 }
+  alignment { -1000 }
+  gold { 1250 }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93069
+{
+  name { Frust the mad scientist }
+  namelist { Frust mad scientist man }
+  shortdesc { A man works at a table, mixing herbs and chemicals into a giant cauldron. }
+  longdesc {
+Loud and crazy laughter fills your head as you try to look at this
+strange little man.  He is dressed in mutiple colors, having no sense
+of direction.  A long gray beard flows down his face and continues to
+the floor.  He has obviously not left this room in many years. 
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 260 }
+  experience { 325112 }
+  hp { 45, 100, 2500 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -30, 8 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93070
+{
+  name { a wargxie }
+  namelist { wargxie }
+  shortdesc { Half warg, half skexie, the wargxie growls at you from its cage. }
+  longdesc {
+The body of warg with the face and feathers of skexie, this poor creature
+growls at you from the bars of its cage.  His toothy beak tries to bite
+and snap at you as you attempt to get a closer look.  Poor thing. 
+  }
+  race { None }
+  world_limit { 1 }
+  level { 75 }
+  experience { 1733 }
+  hp { 5, 6, 100 }
+  alignment { -1000 }
+  gold { 750 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93071
+{
+  name { a manbearpig }
+  namelist { manbearpig man bear pig }
+  shortdesc { A manbearpig hides in the back of his cage, shivering with fear. }
+  longdesc {
+Alone and desperate, the manbearpig soils himself in the back of his
+cage. Half man, half bear, half pig and all freak.  You can notice a
+small "I <3 AG" pin attached to some of his fur. I wonder what that 
+means?
+  }
+  race { None }
+  world_limit { 1 }
+  level { 75 }
+  experience { 1811 }
+  hp { 5, 6, 99 }
+  alignment { -1000 }
+  gold { 750 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  immune { charm }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93072
+{
+  name { a purple speckled lamianoid }
+  namelist { purple lamianoid lamia myconoid }
+  shortdesc { A mushroom stump with a funny looking lamia head stares at you. }
+  longdesc {
+Why on earth would someone combine a lamia and a myconoid?  Purple and
+speckled, it looks like a stumpy easter egg.  How could this do any 
+good to anyone?  What is that wretched smell?  Why can you only ask 
+yourself questions?
+  }
+  race { None }
+  world_limit { 1 }
+  level { 75 }
+  experience { 3063 }
+  hp { 5, 6, 125 }
+  alignment { -1000 }
+  gold { 750 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93073
+{
+  name { the Knight Marshal }
+  namelist { Knight Marshal }
+  shortdesc { The Knight Marshal is working very hard at his desk. }
+  longdesc {
+He smiles at you from behind his desk.  Strong and charsimatic, he
+looks very formidable as the head of security.  He is dressed in a 
+classy blue outfit with a frilly white fringe.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 300 }
+  experience { 340226 }
+  hp { 45, 100, 3100 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 17 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93074
+{
+  name { Seers the royal handyman }
+  namelist { Seers royal handyman }
+  shortdesc { The royal handyman is here messing with some equipment. }
+  longdesc {
+Seers is problably the dirtiest man you have ever seen.  The only clean
+part appears to be the areas around his eyes.   He is tweaking and
+fidgeting with many of the objects that are lying around.  He doesn't
+seem to notice that you are even in the room.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 260 }
+  experience { 319412 }
+  hp { 45, 100, 2500 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { -30, 8 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93075
+{
+  name { Zintar the royal mage }
+  namelist { Zintar royal mage }
+  shortdesc { The royal mage sizzles with energy and burns with a bright light. }
+  longdesc {
+Zintar, the royal mage, does not even open his eyes as you enter the
+room.  He begins to mutter some strange words and his clothes ignite
+into a burning yellow flame.  His eyes burst open, glowing and pulsing
+with power, and trying to burn right through you. 
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 260 }
+  experience { 410511 }
+  hp { 45, 100, 2500 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { -30, 8 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { true-sight, fireshield }
+  immune { charm, energy }
+  spells { dispel magic, fireball, heal, energy drain }
+  act { npc, sentinel, stay-zone }
+}
+
+93076
+{
+  name { a garden beetle }
+  namelist { garden beetle }
+  shortdesc { A green and blue beetle crawls across some grass and flies away. }
+  longdesc {
+A green and blue garden beetle slowly crawls across the plush green
+lawn.  He quickly beats his wings and flies away when he notices you
+reaching out to touch him.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 75 }
+  experience { 4750 }
+  hp { 10, 20, 275 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93077
+{
+  name { a butterfly }
+  namelist { butterfly }
+  shortdesc { A pretty butterfly flies lazily from flowerbed to flowerbed. }
+  longdesc {
+A pretty, multi-colored butterfly floats through the air.  It lands on
+a few flower blossoms, taking little drinks.  It quickly flies away
+when it notices you are getting too close.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 75 }
+  experience { 8560 }
+  hp { 10, 20, 450 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93078
+{
+  name { a sleepy warg }
+  namelist { sleepy warg }
+  shortdesc { A sleepy warg rests peacefully underneath a tree. }
+  longdesc {
+Resting peacfully, the cute little warg does not seem to pay you any
+attention.  With a big yawn, he rolls over and falls asleep.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 75 }
+  experience { 9950 }
+  hp { 10, 20, 400 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+
+93079
+{
+  name { a gardener }
+  namelist { gardener man }
+  shortdesc { A gardener carefully snips off dead leaves and collects fallen blooms. }
+  longdesc {
+A gardener walks through the garden looking for any imperfection in the
+landscape.  Noticing a broken limb, he jumps the fence and runs to the
+fauna to fix its beautiful face.  Satisfied, he returns to his work.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 85 }
+  experience { 23450 }
+  hp { 15, 40, 700 }
+  alignment { +1000 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 2 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  affected { true-sight }
+  act { npc, stay-zone }
+}
+
+93080
+{
+  name { the ghost of King Trakad }
+  namelist { ghost King Trakad }
+  shortdesc { The ghost of King Trakad moans silently from his tomb. }
+  longdesc {
+Reaching out to touch you from his tomb, the ghost of the once mighty
+King Trakad opens his moutch wide to let out a silent scream.  Fountains
+of etherial blood sprays from his gaping mouth and all over you.  "My
+children!", he gasps, falling to his ghostly knees.  "Have you seen
+my children?", he asks as his wide eyes well up and weep ghostly tears
+onto the soil.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  sex { Male }
+  level { 105 }
+  experience { 456552 }
+  hp { 45, 80, 4623 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 19 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93081
+{
+  name { a swarm of bees }
+  namelist { swarm bees }
+  shortdesc { A swarm of bees have made their hive inside a rosebush. }
+  longdesc {
+It looks like a little city.  The bees have intricately laced their
+hive inside a huge rosebush.  It is hard to tell where the bees end
+and the rosebush begins.  *slap* Uh oh, by killing one of the bees you
+have angered the bees.  The swell into a giant cloud in the air,
+preparing to attack
+  }
+  race { None }
+  world_limit { 1 }
+  level { 50 }
+  experience { 8100 }
+  hp { 10, 20, 300 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 1, 4, 2 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93082
+{
+  name { a worker bee }
+  namelist { worker bee }
+  shortdesc { A lone bee flys lazily through the air. }
+  longdesc {
+A worker bee flys from blossom to blossom collecting pollen.  Dancing
+around and making sure to get loaded up, he flys off to the next
+location.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 15 }
+  experience { 1150 }
+  hp { 10, 20, 30 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 1 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93083
+{
+  name { the Captain of the guards }
+  namelist { captain guard }
+  shortdesc { The Captain of the guards looks around diligently for trouble. }
+  longdesc {
+He is clearly one of the toughest of OldPort's military force.  He has
+scars all over his face and arms.  "You should NOT be in this part of 
+the castle!", echoes the Captain as he notices you walking through the
+hall.  "May god have mercy on your soul.", he slowly whispers, drawing
+his sword and advancing.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 475 }
+  sex { Male }
+  experience { 683123 }
+  hp { 45, 100, 5566 }
+  alignment { 0 }
+  gold { 25000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 7 }
+  head { -90, 9 }
+  body { -90, 9 }
+  arms { -90, 9 }
+  legs { -90, 9 }
+  feet { -90, 9 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+93084
+{
+  name { an engineer }
+  namelist { engineer man }
+  shortdesc { A man stands against a giant control panel, turning and pushing buttons. }
+  longdesc {
+Dressed in a long, white lab coat, the engineer focuses his attention
+on the control board before him.  He carefully turns some dials and
+pushes a few buttons, turning several lights on and off.  He makes a
+couple of notes on his clipboard and continues working.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 95 }
+  experience { 65333 }
+  hp { 15, 40, 1050 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -35, 5 }
+  body { -35, 5 }
+  arms { -35, 5 }
+  legs { -35, 5 }
+  feet { -35, 5 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93085
+{
+  name { a wandering engineer }
+  namelist { wandering engineer man }
+  shortdesc { An engineer walks along the hallway looking for things to fix. }
+  longdesc {
+This engineer is carefully checking every inch of the tower for signs
+of damage or fatigue.  He is smiling and whistling as he works, he must
+really enjoy his job.  He is dressed in a long, white lab coat and has
+an open backpack strapped to his shoulder that must contain his tools.
+"Ah ha!", he laughs as he disconnects a section of the light shaft,
+tinkers with it and puts it back into place.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 90 }
+  experience { 62450 }
+  hp { 15, 40, 950 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -15, 4 }
+  body { -15, 4 }
+  arms { -15, 4 }
+  legs { -15, 4 }
+  feet { -15, 4 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93086
+{
+  name { a wandering scientist }
+  namelist { wandering scientist woman }
+  shortdesc { A young woman is making notes on this area of the tower. }
+  longdesc {
+Wow is she pretty.  She does not seem to notice that you have entered
+the room.  She is dressed in a long, white lab coat with a pair of
+black high heels.  Her blonde hair is pulled back into a bun, held 
+together with a pencil.  She stares at a section of the light
+shaft, studying it intently.  She goes to make a note, but can't seem
+to find her pencil.  I wonder where it is?
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 100 }
+  experience { 63833 }
+  hp { 15, 40, 1050 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -15, 4 }
+  body { -15, 4 }
+  arms { -15, 4 }
+  legs { -15, 4 }
+  feet { -15, 4 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+93087
+{
+  name { the platform operator }
+  namelist { platform operator man }
+  shortdesc { A man ushers you onto the platform, with a nice smile. }
+  longdesc {
+Dressed in a nice brown suit, he smiles as you enter the room.  "Please
+enter platform, sir.  I will take care of the rest.", he assures,
+ushering you onto the platform.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 95 }
+  experience { 16800 }
+  hp { 15, 40, 460 }
+  alignment { -1000 }
+  gold { 3500 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 20, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  affected { true-sight }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93088
+{
+  name { Babette the Baker }
+  namelist { babette baker woman }
+  shortdesc { Babette smiles at you, offering her latest treats. }
+  longdesc {
+Babette stands behind a table, kneading a lump of dough into shape.
+She leans over the table, revealing a beautiful set of...rolling pins.
+She grabs some flour and spreads it all over the table.  Pounding the
+lump of dough into the table, she grabs a rolling pin and continues 
+with her work.  Wiping some sweat from her forehead, she drops some
+flour on her boxom assets and asks, "Can I get anything for you,
+cutie?".
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 510 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93089
+{
+  name { Mr. Pickle the Grocer }
+  namelist { pickle grocer man }
+  shortdesc { Mr. Pickle rests on some cushions behind the counter. }
+  longdesc {
+A plump man, Mr. Pickle rests on a plush pile of cushions behind the
+counter.  Though he has some extra pounds, you can tell he is capable
+of handling anything around the store.  Comforted to know Gail is doing
+her job, he continues to enjoy his comfortable seat.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93090
+{
+  name { Gail the attendant }
+  namelist { gail attendant girl }
+  shortdesc { A pretty, young girl greets you with a kind smile. }
+  longdesc {
+"How may I help you?", she confidently asks, as you look around the
+store.  She is dressed in a cute brown skirt with a simple red shirt.
+A weathered leather girdle slims her waste while revealing a hint
+of a blossoming womanhood.  She pinks up as she notices you staring at
+her.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 515 }
+  experience { 866321 }
+  hp { 15, 40, 36652 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, pierce, slash, energy, blunt, hold, backstab }
+  act { npc, sentinel, stay-zone }
+}
+
+93091
+{
+  name { Margaret the seamstress }
+  namelist { margaret seamstress woman }
+  shortdesc { Margaret rocks in her chair, tending to her knitting. }
+  longdesc {
+Margaret appears to be about one hundred years old.  She sits in a 
+rocking chair between two wooden tables.  One of the tables is piled 
+with all sorts of armor that needs mending.  She finishes her project
+and lays it on the table to her right.  Looking to the table of work 
+yet to be finished, she gives out a sigh and grabs the next garment.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 525 }
+  experience { 966321 }
+  hp { 15, 40, 41652 }
+  alignment { 0 }
+  gold { 125000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93092
+{
+  name { Henrietta the head seamstress }
+  namelist { henrietta seamstress woman }
+  shortdesc { Henrietta rocks in her chair, gently cutting some fabric. }
+  longdesc {
+"Did you need some repairs, dears?", asks Henrietta, not stopping what
+she is doing to greet you.  "Just give the garment to me, love.  I'll
+have it fixed in a snap.", she says, offering out her arm.  She looks
+even older than Margaret!
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93093
+{
+  name { Mortimor the salesman }
+  namelist { Mortimor salesman man }
+  shortdesc { A well dressed man stands behind the counter, greeting you with a 
+smile. }
+  longdesc {
+"Anything!", he shouts at you as you enter the door.  Noticing your
+jump, he interjects, "Anything for your boating needs!".  "I have
+low, low prices, just for you today, sir!", he smiles slyly.  He
+quickly comes from behind the counter and tries to show you all of his
+goods.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93094
+{
+  name { Kabor the blacksmith }
+  namelist { kabor blacksmith man }
+  shortdesc { A large and muscular man is pounding metal on an anvil. }
+  longdesc {
+Kabor smashes a huge hammer into a long piece of metal on top of a
+large black anvil.  Sparks fly across the room as he masterfully works
+on the metal and throws it back into the fire.  Wiping his forehead
+with a little towel, he looks at you and asks, "What can I get for you?
+Or do you just need that repaired?".  "Just give the weapon to me and
+I will bang it back into shape.", he reassures, offering out his hand.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93095
+{
+  name { Captain James }
+  namelist { captain james }
+  shortdesc { Good old Captain James rests on a stool by the counter. }
+  longdesc {
+Good old Captain James.  You still remember back to when you were a 
+little child.  It was you, Scarface, Billy and Good old Capitan James
+behind the docks. Wait a minute, Good old Captain James wasn't there.
+"Hey kid!", he shouts in your face.  "Wake up!", he barks.  "This
+isn't some open market!", he states and asks, "Did you want a boat or
+what?".  Wow is he impatient.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93096
+{
+  name { a happy fisherman }
+  namelist { happy fisherman }
+  shortdesc { An enthusistic fisherman casts his line off the pier, into the 
+water. }
+  longdesc {
+He sure does look happy.  The fisherman is talking up a storm with his
+friend.  He does a long cast and reels his line back in real quick.  He
+continues this process until he has a bite on the line.  Fish dinner
+tonite!
+  }
+  race { Human }
+  world_limit { 2 }
+  sex { Male }
+  level { 90 }
+  experience { 17530 }
+  hp { 15, 40, 425 }
+  alignment { -1000 }
+  gold { 3375 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93097
+{
+  name { the ghosts of the Prince and Princess }
+  namelist { ghosts prince princess }
+  shortdesc { The ghosts of the Prince and Princess hold hands in the middle of 
+the room. }
+  longdesc {
+The ghosts of the Prince and Princess Trakad stand in the middle of the
+room, holding hands.  In unison they speak, "Where is our father?  We
+have been alone for so long.".  They have multiple stab wounds up and
+down their torsos.  They suddenly float towards you, reaching their free
+arms for your face.  "So warm, you are SO WARM!", they scream, distorting
+their faces into an elongated wraith like quality.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 550 }
+  experience { 625530 }
+  hp { 45, 100, 5565 }
+  alignment { -1000 }
+  gold { 17000 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -70, 10 }
+  body { -70, 10 }
+  arms { -70, 10 }
+  legs { -70, 10 }
+  feet { -70, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93098
+{
+  name { a sewer rat }
+  namelist { sewer rat }
+  shortdesc { A black rat crawls along the sewer floor. }
+  longdesc {
+A small black rat crawls around on the ground.  He is plump and does
+not even run away as you walk by.  He twitches his nose cutely and
+continues to look around.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 10 }
+  experience { 1150 }
+  hp { 5, 6, 54 }
+  alignment { -1000 }
+  gold { 250 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93099
+{
+  name { the west judge }
+  namelist { west judge }
+  shortdesc { The judge of the west is prisiding over a court hearing. }
+  longdesc {
+The judge of the west sits behind his desk, listening to the case before
+him.  He has a white, powdered wig on and is wearing a robe in the
+green and black OldPort design.  He is rather massive for a man who
+sits behind a desk all day.  You better not mess with him.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 530253 }
+  hp { 45, 100, 4650 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 19 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93100
+{
+  name { a sad prisoner }
+  namelist { sad prisoner man }
+  shortdesc { A man stands here with his head held low, hands shackled. }
+  longdesc {
+This poor man has lost all hope.  His head is hanging low.  He cannot
+seem to look the judge straight in the eyes.  He is dressed in sloppy
+looking vagrant wear.  His attorney is valiantly pleading his case, but
+there is no hope in the prisoner's eyes.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 65 }
+  experience { 19222 }
+  hp { 15, 40, 550 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+93101
+{
+  name { a smart lawyer }
+  namelist { lawyer man }
+  shortdesc { An intelligent looking man is arguing the prisoner's case. }
+  longdesc {
+The lawyer seems to be very passionate about the case he is arguing.  
+Dressed in a brown business robe, he discusses each point and counter
+point that the judge reviews.  He does not notice that his client does
+not seem to have the same faith.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 95 }
+  experience { 59620 }
+  hp { 15, 40, 1050 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -40, 5 }
+  body { -40, 5 }
+  arms { -40, 5 }
+  legs { -40, 5 }
+  feet { -40, 5 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93102
+{
+  name { the east judge }
+  namelist { east judge }
+  shortdesc { The judge of the east is working at her desk. }
+  longdesc {
+The judge of the east sits behind her desk, going over some files before
+her.  She has a white, powdered wig on and is wearing a robe in the
+green and black OldPort design.  Cute wire-rimmed glasses rest on her
+delicate nose.  She looks very strong for someone who sits behind a 
+desk all day.  You better not mess with her.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 550 }
+  experience { 540253 }
+  hp { 45, 100, 4850 }
+  alignment { +1000 }
+  gold { 20000 }
+  hit_bonus { 19 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93103
+{
+  name { the warrior guildmaster }
+  namelist { warrior guildmaster man }
+  shortdesc { The warrior guildmaster stands on top of the platform. }
+  longdesc {
+The warrior guildmaster stands proud before his disciples.  Raising his
+staff with a yell, he performs an intricate series of movements.  His
+thrusts and kicks are so fast you are having trouble keeping up.  He
+jumps into the air, thrusting his staff into the ground.  The entire
+room seems to shake a little.  "Now, begin!", he shouts, staring with
+a burning intensity at this students.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 500 }
+  experience { 660000 }
+  hp { 45, 100, 11000 }
+  alignment { +1000 }
+  gold { 20000 }
+  hit_bonus { 14 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 5, 6, 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93104
+{
+  name { a warrior disciple }
+  namelist { warrior disciple }
+  shortdesc { A warrior disciple practices a kata before the platform. }
+  longdesc {
+Frantically trying to keep up with his guildmaster, the warrior kicks
+and slashes his staff in every direction.  Almost dropping his weapon,
+he notices the piercing gaze of his master and gets right back on track.
+  }
+  race { Human }
+  world_limit { 4 }
+  sex { Male }
+  level { 150 }
+  experience { 66420 }
+  hp { 15, 40, 1125 }
+  alignment { +1000 }
+  gold { 5375 }
+  hit_bonus { 13 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93105
+{
+  name { the paladin guildmaster }
+  namelist { paladin guildmaster man }
+  shortdesc { The paladin guildmaster practices some moves with his sword. }
+  longdesc {
+Practicing his moves, the paladin guildmaster shuffles up and down the
+length of the room.  His sword thrusts and slashes are very precise and
+powerful.  There is no doubt he is indeed a master paladin.  He smiles
+at you, offering to do some sparring.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 500 }
+  experience { 660000 }
+  hp { 45, 100, 11000 }
+  alignment { +1000 }
+  gold { 20000 }
+  hit_bonus { 14 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 5, 6, 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93106
+{
+  name { the mage guildmaster }
+  namelist { mage guildmaster man }
+  shortdesc { The mage guildmaster is instructing his disciples in the ways of magic. }
+  longdesc {
+The mage guildmaster stands before a boiling and smoking cauldron in
+the middle of the pentagram circle.  He lets out some low chants and
+makes a few different hand signs, causing the cauldron to bubble over.
+"This is the mage guild.", he says to you, not taking his attention off
+his work.  He must be concentrating.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 500 }
+  experience { 660000 }
+  hp { 45, 100, 11000 }
+  alignment { +1000 }
+  gold { 20000 }
+  mana { 1000 }
+  power { 1000 }
+  caster { 10 }
+  hit_bonus { 14 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 5, 6, 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, sanctuary }
+  spells { mage fire, dispel magic }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93107
+{
+  name { a mage disciple }
+  namelist { mage disciple }
+  shortdesc { a mage disciple sits indian style, in a circle around the guildmaster. }
+  longdesc {
+The mage is sitting at the tip of a point in the pentagram circle.  His
+legs are crossed into an indian style position and his hands rest on
+his knees, palm up.  He is staring at the guildmaster and chanting along
+with him.  He cannot take his eyes off his master.
+  }
+  race { Human }
+  world_limit { 5 }
+  sex { Male }
+  level { 150 }
+  experience { 66520 }
+  hp { 15, 40, 1125 }
+  alignment { -1000 }
+  gold { 5375 }
+  mana { 500 }
+  power { 500 }
+  caster { 10 }
+  hit_bonus { 13 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  affected { true-sight }
+  immune { charm }
+  spells { shriek }
+  act { npc, sentinel, stay-zone }
+}
+
+93108
+{
+  name { the cleric guildmaster }
+  namelist { cleric guildmaster man }
+  shortdesc { The cleric guildmaster welcomes you to his guild house. }
+  longdesc {
+A holy light seems to shine from within the cleric guildmaster.  His
+incandescance lights the entire rooms with a warm glow.  He smiles at
+you saying, "The way of the cleric is a tough road, but you look like
+you could follow its disciplined path."
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 500 }
+  experience { 660000 }
+  hp { 45, 100, 11000 }
+  alignment { +1000 }
+  gold { 20000 }
+  mana { 1000 }
+  power { 1000 }
+  caster { 10 }
+  hit_bonus { 14 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 5, 6, 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, sanctuary }
+  spells { dispel magic, heal, harm, shriek }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+93109
+{
+  name { a gentle cow }
+  namelist { gentle cow }
+  shortdesc { A clueless cow stares at you with big innocent eyes. }
+  longdesc {
+Brown with white circle shapes on its fur, this cow looks very healthy.
+You could feed your family for weeks on the legs alone!  Its eyes grow
+big noticing the drool streaming from your mouth.
+  }
+  race { None }
+  level { 15 }
+  experience { 4232 }
+  hp { 5, 6, 300 }
+  alignment { +1000 }
+  gold { 750 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93110
+{
+  name { a fluffy sheep }
+  namelist { fluffy sheep }
+  shortdesc { A large fluff of wool, with four little legs, walks around the 
+room. }
+  longdesc {
+Two black eyes stare out at you from within the giant fluff ball.  Its
+pelt is very clean and healthy.  Someone took very good care of this
+animal.
+  }
+  race { None }
+  level { 15 }
+  experience { 3895 }
+  hp { 5, 6, 280 }
+  alignment { +1000 }
+  gold { 750 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93111
+{
+  name { Queen Trakad }
+  namelist { queen trakad }
+  shortdesc { Unwashed and disheveled, A tired woman looks up at you from the 
+corner. }
+  longdesc {
+You have finally found her, the Queen Trakad.  She has barely any weight
+to her as you pick her up into your arms.  She tries to lift her arms
+to protest, but cannot seem to find the energy.  Someone has visciously
+assaulted the Queen.  Her clothes are torn to shreds and a dry trickle
+of blood cracks ominiously from the corner of her dry lips.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 99 }
+  experience { 59235 }
+  hp { 15, 40, 865 }
+  alignment { +1000 }
+  gold { 6000 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93112
+{
+  name { a Lotus Blossom employee }
+  namelist { old woman employee }
+  shortdesc { An old woman is suprised at your entrance to the room. }
+  longdesc {
+An old woman is looking carefully at the bottles and barrels lined up
+along the walls.  She jumps back, startled at your entrance to the room.
+There must not be many visitors back here.
+  }
+  race { Human }
+  world_limit { 1 }
+  sex { Female }
+  level { 75 }
+  experience { 16922 }
+  hp { 15, 40, 423 }
+  alignment { +750 }
+  gold { 4000 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { true-sight }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+93113
+{
+  name { a card player }
+  namelist { card player man }
+  shortdesc { A man is holding a few cards, trying to figure out his next move. }
+  longdesc {
+A few drops of sweat have appeared on his forehead.  His eyes dart back
+and forth between his opponents.  You can tell he is very hesitant
+to make his next move, as he hasnt even noticed you've entered the
+room.
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Male }
+  level { 340 }
+  experience { 346115 }
+  hp { 15, 40, 3750 }
+  alignment { -750 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.2 }
+  move { 200 }
+  damage { 2, 5, 2 }
+  head { -45, 8 }
+  body { -45, 8 }
+  arms { -45, 8 }
+  legs { -45, 8 }
+  feet { -45, 8 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93114
+{
+  name { an aged magician }
+  namelist { aged magician }
+  shortdesc { A wise looking aged magician eyes you carefully from behind the wooden table. }
+  longdesc {
+Powerful and majestic, the blue robed magician looks down at you from 
+atop his wire-rimmed bifocal glasses.  The air around him is crackling 
+and popping with magical energy.  He toughtfully strokes his long gray 
+and black beard as he anazlyes your person.  Reaching into his robe, he
+pulls out an item in his clenched fist and opens up his hand towards 
+you.  "This is what you needed, right?", he smiles politely.  Placing 
+the item on the long wooden table before you and immediately getting 
+back to work he speaks, "Just leave the money on the table, I'm very 
+busy.".  }
+  race { Human }
+  world_limit { 1 }
+  sex { Male }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, pierce, slash, energy, blunt, hold, backstab }
+  act { npc, sentinel, stay-zone }
+}
+
+
+93115
+{
+  name { Jaana the blacksmith }
+  namelist { Jaana blacksmith smith woman }
+  shortdesc { A large and muscular woman is pounding metal on an anvil. }
+  longdesc {
+Jaana smashes a huge hammer into a long piece of metal on top of a
+large black anvil.  Sparks fly across the room as she masterfully works
+on the metal and throws it back into the fire.  Wiping her forehead
+with a little towel, she looks at you and says, "I'm new in town but you
+probably know my brother Kabor in Oldport.  What can I get for you?
+Or do you just need that repaired?".  "Just give the weapon to me and
+I will bang it back into shape.", she reassures, offering out her hand.
+  }
+  race { Human }
+  world_limit { 3 }
+  sex { Female }
+  level { 550 }
+  experience { 1266321 }
+  hp { 15, 40, 46652 }
+  alignment { 0 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 6, 6, 6 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  affected { true-sight, sanctuary }
+  immune { charm, energy, hold, backstab }
+  resistant { pierce, slash, blunt }
+  act { npc, sentinel, stay-zone }
+}

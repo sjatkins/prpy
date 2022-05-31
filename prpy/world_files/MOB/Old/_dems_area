@@ -1,0 +1,1156 @@
+17000
+{
+  name { The black pudding }
+  namelist { black pudding }
+  shortdesc { The black pudding is scavenging trash here. }
+  longdesc {
+This 8' diameter mass has billions of microscopic mouths dripping
+corrosive saliva.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 60, 5 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 22339 }
+  damage { 3, 8, 1  }
+  affected { infravision }
+  act { scavenger, aggressive, stay-zone }
+}
+
+17001
+{
+  name { The invisible stalker }
+  namelist { invisible stalker }
+  shortdesc { The invisible stalker stalks you. }
+  longdesc {
+You can't see it!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1563 }
+  damage { 4, 4, 1  }
+  affected { sneak, hide }
+  act { aggressive, stay-zone }
+}
+
+17002
+{
+  name { The wight }
+  namelist { wight }
+  shortdesc { The wight winces at your light. }
+  longdesc {
+This undead hates all life.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -1000 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 1, 4, 1  }
+  affected { infravision }
+  act { special, aggressive, stay-zone }
+}
+
+17003
+{
+  name { The bugbear }
+  namelist { bugbear }
+  shortdesc { A bugbear is pissing on the wall here. }
+  longdesc {
+It's 8' tall and covered with light brown fur.
+  }
+  race { goblin }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -200 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 2, 4, 1  }
+  act { aggressive, stay-zone }
+}
+
+17004
+{
+  name { The gynosphinx }
+  namelist { gyno gynosphinx sphinx }
+  shortdesc { The gynosphinx sits here proudly. }
+  longdesc {
+It has the upper torso and head of a woman.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2492 }
+  damage { 4, 4, 1  }
+  affected { detect-evil, flying }
+  act { special, sentinel }
+}
+
+17005
+{
+  name { The shadow }
+  namelist { shadow }
+  shortdesc { A shadow is projected on the wall. }
+  longdesc {
+You can't really see it very well.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -1000 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 4, 1  }
+  affected { infravision }
+  act { special, aggressive, stay-zone }
+}
+
+17006
+{
+  name { The air elemental }
+  namelist { air elemental }
+  shortdesc { The air funnels viciously! }
+  longdesc {
+It looks like a vortex.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2434 }
+  damage { 2, 10, 1  }
+  affected { flying }
+  act { aggressive, stay-zone }
+}
+
+17007
+{
+  name { The flesh golem }
+  namelist { flesh golem }
+  shortdesc { A flesh golem stares expressionlessly. }
+  longdesc {
+It shows no emotion, as if controlled by an outside force.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2134 }
+  damage { 2, 8, 1  }
+  resistant { electricity }
+  act { sentinel }
+}
+
+17008
+{
+  name { The flesh golem }
+  namelist { flesh golem }
+  shortdesc { A flesh golem stares expressionlessly. }
+  longdesc {
+It shows no emotion, as if controlled by an outside force.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2134 }
+  damage { 2, 8, 1  }
+  resistant { electricity }
+  act { sentinel, aggressive }
+}
+
+17009
+{
+  name { A geyser spouts below you }
+  namelist { geyser }
+  shortdesc { A geyser bubbles here, It could mean instant death. }
+  longdesc {
+it looks like it could blow any second!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 791 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 791, 18267  }
+  move { 300 }
+  experience { 614980 }
+  damage { 1, 10, 10  }
+  immune { charm }
+  affected { detect-invisible, flying, infravision, water-breath, hide }
+  act { special, sentinel }
+}
+
+17010
+{
+  name { The green slime }
+  namelist { green slime algae }
+  shortdesc { A green slime is lurking. }
+  longdesc {
+It's violet....duh!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 10, 1  }
+  affected { detect-invisible, infravision, water-breath, hide }
+  act { special, sentinel, aggressive }
+}
+
+17011
+{
+  name { The Vampire Amelia }
+  namelist { vampire amelia }
+  shortdesc { A vampire is sleeping here. }
+  longdesc {
+Very cute, but Lethal!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2395 }
+  damage { 2, 5, 1  }
+  affected { detect-invisible, flying, infravision, hide }
+  act { special, aggressive }
+}
+
+17012
+{
+  name { The giant crab }
+  namelist { giant crab }
+  shortdesc { The hugest crab you've ever seen guards this portal! }
+  longdesc {
+It must be 8' in diameter!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 23413 }
+  damage { 3, 6, 1  }
+  act { sentinel }
+}
+
+17013
+{
+  name { The mimic }
+  namelist { mimic wave trident }
+  shortdesc { Wave awaits you here. }
+  longdesc {
+It doesn't look like a trident anymore.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 184 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 9 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 184, 812  }
+  move { 300 }
+  experience { 45005 }
+  damage { 4, 3, 1  }
+  immune { charm }
+  act { sentinel, aggressive }
+}
+
+17014
+{
+  name { The ghoul }
+  namelist { ghoul }
+  shortdesc { A ghoul is stinking here. }
+  longdesc {
+Looks like it's back from the grave!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1416 }
+  damage { 1, 3, 1  }
+  affected { infravision, hide }
+  act { special, sentinel, aggressive }
+}
+
+17015
+{
+  name { The giant crayfish }
+  namelist { giant crayfish }
+  shortdesc { A giant crayfish is floating and snapping its pincers. }
+  longdesc {
+It's about 10' long!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 926 }
+  damage { 2, 12, 1  }
+  act { sentinel, aggressive }
+}
+
+17016
+{
+  name { The sea lion }
+  namelist { sea lion shark }
+  shortdesc { A sea lion swims here. }
+  longdesc {
+It has a lion's upper-half and a shark's lower-half.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1536 }
+  damage { 3, 6, 1  }
+  act { sentinel, aggressive }
+}
+
+17017
+{
+  name { A chubby hobbit }
+  namelist { qesnef hobbit ogre mage }
+  shortdesc { A chubby hobbit reclines in an armchair here.
+  Qesnef raises his hand in greeting, "I've been waiting for you." }
+  longdesc {
+You see an ugly ogre through the illusion.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -1000 }
+  gold { 130 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 995 }
+  damage { 1, 12, 1  }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, aggressive }
+}
+
+17300
+{
+  name { The robo-sentry }
+  namelist { robot robo-sentry sentry }
+  shortdesc { A robo-sentry stands here, its red optic laser scanning in all directions. }
+  longdesc {
+It looks like a 3 foot barrel on two treads with arms.  You notice one
+arm has a nasty edge to it.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1615 }
+  damage { 1, 8, 1  }
+  affected { infravision }
+  act { sentinel }
+}
+
+17800
+{
+  name { A camp guard }
+  namelist { nomad camp guard }
+  shortdesc { A nomad dressed in armor under desert robes watches you. }
+  longdesc {
+     The nomad camp guard looks relaxed and seems to take no concern
+over your presence.  However, despite his casual attitude you can feel
+his eyes on you, and you see a glint of steel beneath his robes when the
+wind picks up.  You know that the wrong move could cause him to eagerly
+fight you to the death.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 10, 2 }
+  body { 10, 2 }
+  arms { 10, 2 }
+  legs { 10, 2 }
+  feet { 10, 2 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 12000 }
+  damage { 2, 4, 3  }
+  act { sentinel, stay-zone }
+}
+
+17801
+{
+  name { The merchant }
+  namelist { merchant nomad }
+  shortdesc { The merchant shows you his goods, eyeing your coin pouch in anticipation. }
+  longdesc {
+     The merchant is dressed in somewhat richer robes than the common
+passerby outside.  He happily points to one item, then the next, all the
+while babbling a stream of compliments and encouragement. Judging from
+the gleam in his eye he is eager to make another sale.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 22500 }
+  hit_bonus { 16 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 311466 }
+  damage { 2, 8, 6  }
+  immune { charm }
+  act { sentinel, scavenger, stay-zone }
+}
+
+17802
+{
+  name { A camel }
+  namelist { camel }
+  shortdesc { A camel stands here, eyeing you with disdain. }
+  longdesc {
+     The camel is of the double-humped variety, more suitable for
+carrying cargo across the hot desert sands.  It looks you over, then
+scornfully spits at your feet.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4059 }
+  damage { 2, 4, 1  }
+  act { sentinel, stay-zone }
+}
+
+17803
+{
+  name { A horse }
+  namelist { desert horse }
+  shortdesc { A horse stands here, stomping his hoof as you approach. }
+  longdesc {
+     The horse is lean and looks tough.  I is one of the hardy desert-
+breed, built to go long miles across the desert with only small amounts
+of scrubby plants and water.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3151 }
+  damage { 2, 5, 1  }
+  act { sentinel, stay-zone }
+}
+
+17804
+{
+  name { An angry nomad }
+  namelist { angry nomad }
+  shortdesc { A nomad stands here, arguing in a loud voice and yelling curses. }
+  longdesc {
+    The nomad's face is beginning to go purple with rage as he argues
+with his companions.  You try to see what caused the gleam that
+attracted your eye, but his long robes cover all.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 137 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 10, 5 }
+  body { 10, 5 }
+  arms { 10, 5 }
+  legs { 10, 5 }
+  feet { 10, 5 }
+  hp { 4, 136, 600  }
+  move { 300 }
+  experience { 24235 }
+  damage { 2, 4, 4  }
+  act { sentinel, scavenger, stay-zone }
+}
+
+17805
+{
+  name { The thug }
+  namelist { thug dervish }
+  shortdesc { A man stands here in the shade of the tent. }
+  longdesc {
+     The man is dressed head to toe in a dirty desert robe wrapped
+tightly about his body.  He has an evil gleam in his eye, and as he
+approaches you he pulls a shining object from a pocket inside his
+robe.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { -500 }
+  gold { 7000 }
+  hit_bonus { 14 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 153004 }
+  damage { 2, 6, 6  }
+  immune { charm }
+  affected { sneak, hide }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+17806
+{
+  name { The Slave Master }
+  namelist { slave master }
+  shortdesc { The Slave Master yells "Get away from my slaves!  Kill the intruders!" }
+  longdesc {
+    The slave master is a large, dirty, pot-bellied man, his lips curled
+in a perpetual sneer.  He obviously enjoys his work, and from his
+expression, it seems he wants to make you his next pet project.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 328 }
+  alignment { -500 }
+  gold { 25000 }
+  hit_bonus { 19 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 328, 4464  }
+  move { 300 }
+  experience { 333355 }
+  damage { 2, 8, 6  }
+  immune { charm }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+17807
+{
+  name { The Caravan Master }
+  namelist { caravan master }
+  shortdesc { The Caravan Master is here, looking over various trade documents and maps. }
+  longdesc {
+     The caravan master is clothed in a white robe trimmed with gold and
+he wears on his head a turban holding a sparkling red gem.  Despite his
+rich clothing, he appears quite fit and strong, and the large two-handed
+scimitar at his feet shows the signs of hard use.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 376 }
+  alignment { 0 }
+  gold { 30000 }
+  hit_bonus { 22 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 376, 6288  }
+  move { 300 }
+  experience { 387105 }
+  damage { 2, 8, 9  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+17808
+{
+  name { A large nomad guard }
+  namelist { large nomad guard }
+  shortdesc { A rather large nomad watches you, his two-handed scimitar close at hand. }
+  longdesc {
+     This nomad is larger than most of the other nomads you've seen.  He
+looks very strong, and appears to know how to use that two-handed
+scimitar he holds ready.  He follows you with his his gaze, waiting for
+any possible hostile action.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 101675 }
+  damage { 2, 7, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+17809
+{
+  name { A palace gate guard }
+  namelist { palace gate guard }
+  shortdesc { A Palace Guard stands here watching travellers pass through the gate. }
+  longdesc {
+     This man is outfitted in metal armor barely concealed by his
+sun-blocking white robe.  He stands casually at his post, but he looks
+alert and you have heard that the Pasha's Palace Guard are trained to
+fight fiercely to the death.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 101675 }
+  damage { 2, 7, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+17810
+{
+  name { The snake charmer }
+  namelist { snake charmer }
+  shortdesc { The snake charmer sits here blowing his flute. }
+  longdesc {
+     The snake charmer is a small brown-skinned man.  He is wearing only
+a loincloth and head wrap.  His body is covered in sparkling beads of
+sweat, but you can't tell whether that's from the fierce rays of the sun
+or from his concentration on his playing.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  hp { 4, 200, 1100  }
+  move { 300 }
+  experience { 78055 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  resistant { cold, electricity, blunt }
+  act { sentinel, stay-zone }
+}
+
+17811
+{
+  name { The charmed snake }
+  namelist { charmed snake }
+  shortdesc { A snake arises from the basket, swaying in time to the music. }
+  longdesc {
+     This large sandy-brown snake is swinging back and forth, bobbing
+its head as the snake charmer plays his flute.  You notice the snake's
+pointed fangs and understand why the snake charmer has such a look of
+concentration on his face.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 36365 }
+  damage { 2, 5, 4  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+17812
+{
+  name { A desert traveller }
+  namelist { desert traveller }
+  shortdesc { A desert traveller, burdened with small bags and packages, walks by. }
+  longdesc {
+     The desert traveller is outfitted with loose-fitting robes and a
+hood to shade himself from the harsh sun.  He is carrying quite a few
+packages, probably everything he owns, as he journeys across the desert.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6676 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  act { scavenger, aggressive, stay-zone, wimpy }
+}
+
+17813
+{
+  name { A nomad trader }
+  namelist { trader }
+  shortdesc { A nomad trader is here exhibiting his goods and haggling with passerby. }
+  longdesc {
+     The trader carries his small selection of merchandise with him.
+You see him step in the way of passerby and show them his goods,
+hoping to interest them enough to get a sale.  More often than not he
+is ignored.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3096 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  act { scavenger, stay-zone, wimpy }
+}
+
+17814
+{
+  name { A wandering dervish }
+  namelist { wandering dervish }
+  shortdesc { A wandering dervish stands here, dirty from his long desert journeys. }
+  longdesc {
+     The dervish is unkempt and dirty, and looks ill-at-ease among
+crowds of this size.  He maintains an aloof posture, which is fine with
+the rest of the crowd because of his state of (more than normal)
+uncleanliness.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 23413 }
+  damage { 2, 4, 3  }
+  act { scavenger, stay-zone }
+}
+
+17815
+{
+  name { A hopeless slave }
+  namelist { caravan slave }
+  shortdesc { A hopeless and dispirited slave is here, waiting to be sold. }
+  longdesc {
+     The slave is dressed in only a few rags, and is red and burnt all over
+from the scorching rays of the sun.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1458 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { sentinel, stay-zone, wimpy }
+}
+
+17816
+{
+  name { The slave trader }
+  namelist { slave trader }
+  shortdesc { The slave trader is here exhibiting his slaves. }
+  longdesc {
+     The slave trader is dressed in desert robes and carries a baton
+which he uses to poke and beat the slaves.  He has a greedy glint in his
+eye, and shows no compassion for the cares of the slaves.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 34300 }
+  damage { 2, 6, 3  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+17817
+{
+  name { A veiled woman }
+  namelist { veiled woman }
+  shortdesc { A woman wrapped head to toe in a loose robe hurries by. }
+  longdesc {
+     This woman is totally concealed by the folds of her robe, with only
+her eyes showing.  She glances at you as she comes near you, then
+quickly averts her eyes and hurries on.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { sentinel, stay-zone, wimpy }
+}
+

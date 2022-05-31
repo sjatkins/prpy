@@ -1,0 +1,232 @@
+620
+{
+  name { haylok dwarf }
+  namelist { haylok dwarf }
+  shortdesc { Haylok the mystical dwarven salesman is here ready to sell you his wares. }
+  longdesc {
+Haylok is an old grey-bearded dwarf, obviously weathered from many years of
+travel.  He is particularily well dressed for a dwarf, clothed in the
+finest linens of the realms. He offers you a peek inside his cloak
+and all you see is a variety of magical goods, each with a tiny
+printed label on them.
+}
+  race { dwarf }
+  world_limit { 1 }
+  level { 501 }
+  experience { 500000 }
+  hp {5, 10, 10000 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  move { 100 }
+  damage { 10, 10, 10 }
+  head { 20, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  affected { true-sight, sanctuary }
+  act { npc, sentinel, citizen }
+}
+
+621 
+{ 
+  name { the shopcat }
+  namelist  { cat shopcat }
+  shortdesc { A large tubby black cat watches you warily as you browse. }
+  longdesc {
+The large tubby black cat stares back at you with eyes that pierce through 
+the boundaries of space and time.  She yawns constantly as if in a state 
+of feline catatonic boredom, yet her eyes never leave you.  Around her neck
+is a blue collar, from which hangs a small silver tag that simply says 
+"shopcat".
+}
+race { none }
+world_limit { 2 }
+level { 800 }
+experience { 50000 }
+hp { 5, 10, 4000 }
+alignment { 0 }
+gold { 250 }
+hit_bonus { 20 }
+dam_bonus { 20 }
+attacks_per_round { 6 }
+move { 200 }
+damage { 5, 10, 10 }
+head { 20, 3 }
+body { 20, 3 }
+arms { 20, 3 }
+legs { 20, 3 }
+feet { 30, 2 }
+affected { true-sight, sanctuary, fireshield }
+immune { hold, backstab, charm }
+act { npc, sentinel }
+}
+
+622
+{
+  name { the travelling baker }
+  namelist { baker }
+  shortdesc { A short stocky baker is here, selling breads and pastries. }
+  longdesc {
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+  }
+  race { human }  
+  level { 900 }   
+  alignment { 900 }
+  gold { 50000 } 
+  hit_bonus { 37 }
+  dam_bonus { 37 }   
+  attacks_per_round { 2 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 857602 }
+  damage { 5, 5, 6  }
+  immune { charm }  
+  act { stay-zone, citizen }
+}
+
+623
+{
+  name { the crazy man }
+  namelist { crazy man }
+  shortdesc { A very dirty looking man is here, staring around the room. }
+  longdesc {
+This man is obviously off his rocker!  He is making a kicking motion with one
+leg and twirling his other in a circle over and over.  Occasionally he makes a 
+"Whoop Whoop" noise and looks at you as if you're the crazy one.
+}
+  race { human }
+  level { 900 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  hp { 2, 2, 40000 }
+  move { 500 }
+  experience { 500000 } 
+  damage { 10, 10, 2 }
+  immune { charm, backstab }
+  act { citizen, sentinel, special }
+}
+
+624
+{
+  name { Byrons personal blacksmith }
+  namelist { blacksmith byron }
+  shortdesc { Byrons personal blacksmith stands here lookin slick }
+  longdesc {
+This man is obviously off his rocker!  He is making a kicking motion with one
+leg and twirling his other in a circle over and over.  Occasionally he makes a 
+"Whoop Whoop" noise and looks at you as if you're the crazy one.
+}
+  race { human }
+  level { 900 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  hp { 2, 2, 40000 }
+  move { 500 }
+  experience { 500000 } 
+  damage { 10, 10, 2 }
+  immune { charm, backstab }
+  act { citizen, sentinel, special }
+}
+
+625
+{
+  name { the fat toby ghost }
+  namelist { ghost toby fat }
+  shortdesc { The ghost of Toby the Fat is here chewing loudly on a hamster treat. }
+  longdesc {
+It seems very good at its job.
+  }
+  race { human }
+  level { 900 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 37 }
+  dam_bonus { 37 }
+  attacks_per_round { 4 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 896002 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  affected { true-sight }
+  act { sentinel }
+}
+
+626
+{
+  name { ghost of patches the burned }
+  namelist { ghost patches burned }
+  shortdesc { The ghost of Patches the Burned is here obsessively trying to unlock the secrets held within the trinket he is holding. }
+  longdesc {
+It seems very good at its job.
+  }
+  race { human }
+  level { 900 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 37 }
+  dam_bonus { 37 }
+  attacks_per_round { 4 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 896002 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  affected { true-sight }
+  act { sentinel }
+}
+
+627
+{
+  name { ghost of teddy the aggressive }
+  namelist { ghost teddy }
+  shortdesc { The ghost of Teddy the Aggressive grumbles angrily in the corner, his back facing you. }
+  longdesc {
+It seems very good at its job.
+  }
+  race { human }
+  level { 900 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 37 }
+  dam_bonus { 37 }
+  attacks_per_round { 4 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 896002 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  affected { true-sight }
+  act { sentinel }
+}

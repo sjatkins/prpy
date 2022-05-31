@@ -1,0 +1,529 @@
+10000
+{
+  name { a tanglethorn CLAN }
+  namelist { tangle thorn }
+  short { A thick, spikey plant with long thorny tendrils waves in the wind. }
+  long {
+This is one of the many evil, semi-intelligent plants that thrives in this
+cursed wood. It subsists on the flesh of creatures it incapacitates and kills
+with its potent acidic venom all those not from -=<S*O*F*K>=-.
+  }
+  sex { neuter }
+  alignment { -400 }
+  gold { 50 }
+  level { 558 }
+  experience { 6120 }
+  hit_bonus { 20 }
+  attacks_per_round { 3 }
+  hp { 20, 10, 2356 }
+  damage { 3,3,10 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { sentinel, aggressive }
+  affected { true-sight, invisible, detect-evil }
+  immune { charm }
+}
+
+10001
+{
+  name { the Clan Guard }
+  namelist { clan guard guardian }
+  shortdesc { A clan guardian stands here, watching all passing by. }
+  longdesc {
+A big, strong, helpful, trustworthy guard of clan Dark Hand.
+  }
+  race { human }
+  level { 146 }
+  alignment { 00 }
+  gold { 700 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 560  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm }
+}
+
+
+10002
+{
+  name { the Clan Guard }
+  namelist { clan guard guardian }
+  shortdesc { A clan guardian stands here, watching all passing by. }
+  longdesc {
+A big, strong, helpful, trustworthy guard of clan HLE - Honorable, Loyal, Elite.
+  }
+  race { human }
+  level { 146 }
+  alignment { 00 }
+  gold { 700 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 560  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm }
+}
+
+10003
+{
+  name { the Clan Guard }
+  namelist { clan guard guardian }
+  shortdesc { A clan guardian stands here, watching all passing by. }
+  longdesc {
+A big, strong, helpful, trustworthy guard of clan Punkers.
+  }
+  race { human }
+  level { 146 }
+  alignment { 00 }
+  gold { 700 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 560  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm }
+}
+
+10004
+{
+  name { the Clan Guard }
+  namelist { clan guard guardian }
+  shortdesc { A clan guardian stands here, watching all passing by. }
+  longdesc {
+A big, strong, helpful, trustworthy guard of clan MaKaG - Mooses are Kewl Appreciation Group.
+  }
+  race { human }
+  level { 146 }
+  alignment { 00 }
+  gold { 700 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 560  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm }
+}
+
+
+10005
+{
+  name { the Clan Guard }
+  namelist { clan guard guardian }
+  shortdesc { A clan guardian stands here, watching all passing by. }
+  longdesc {
+A big, strong, helpful, trustworthy guard of clan Five Lions.
+  }
+  race { human }
+  level { 146 }
+  alignment { 00 }
+  gold { 700 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 560  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm }
+}
+
+10200
+{
+  name { Darlok BountyHunter Master }
+  namelist { darlok master bountyhunter }
+  shortdesc { Darlok, master of the bountyhunter guild, watches you carefully. }
+  longdesc {
+A big man, the master of the guild has many scars to show his experience
+in his craft..
+  }
+  race { human }
+  level { 846 }
+  alignment { 00 }
+  gold { 99900 }
+  hit_bonus { 25 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 56000  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 1000  }
+  immune { charm }
+  act {sentinel}
+}
+
+
+10201
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { A young bountyhunter twitches restlessly. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 50 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 90, 5 }
+  body { 90, 5 }
+  arms { 90, 5 }
+  legs { 90, 5 }
+  feet { 90, 5 }
+  hp { 60, 8, 760  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 8, 10  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { magic missile }
+  mana { 5000 }
+  act { healer, sentinel }
+  affected { infravision, detect-invisible, true-sight }
+}
+
+
+10202
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { A proficient bountyhunter paces about. }
+  longdesc { anonymous anonymous }
+  race { human }
+  level { 100 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8, 1460  }
+  move { 500 }
+  experience { 25650 }
+  damage { 4, 10, 10  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { magic missile }
+  act { healer, sentinel}
+  affected { infravision, detect-invisible, true-sight }
+  mana { 5000 }
+}
+
+
+10203
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { An experienced bountyhunter watches all carefully. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 150 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 6 }
+  dam_bonus { 6 }
+  attacks_per_round { 3 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8, 2160  }
+  move { 500 }
+  experience { 25650 }
+  damage { 8, 10, 10  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { acid blast }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight }
+}
+
+
+10204
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { A veteran bountyhunter stands out in the crowd. }
+  longdesc { 
+anonymous anonymous
+  }
+  race { human }
+  level { 200 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8, 2660  }
+  move { 500 }
+  experience { 25650 }
+  damage { 8, 15, 10  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { colour spray }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight, fly }
+}
+
+10205
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { A master of his arts, the bountyhunter is near invisible. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 250 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8, 3060  }
+  move { 500 }
+  experience { 25650 }
+  damage { 10, 15, 20  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { colour spray }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight, fly }
+}
+
+
+
+10206
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { An immortal-authorised bountyhunter paces about. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 750 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8,5060  }
+  move { 500 }
+  experience { 25650 }
+  damage { 10, 45, 20  }
+  immune { charm, hold }
+  caster { 25 }
+  spells { colour spray }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight, fly }
+}
+
+
+
+10207
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { An immortal-authorised bountyhunter paces about. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 800 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -80, 5 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 60, 8, 8060  }
+  move { 500 }
+  experience { 25650 }
+  damage { 10, 15, 10  }
+  immune { charm, hold }
+  caster { 75 }
+  spells { colour spray }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight, fly }
+}
+
+
+
+10208
+{
+  name { bountyhunter }
+  namelist { bountyhunter }
+  shortdesc { A deadly immortal-authorised bountyhunter paces about. }
+  longdesc {
+anonymous anonymous
+  }
+  race { human }
+  level { 850 }
+  alignment { 00 }
+  gold { 00 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -80, 15 }
+  body { -80, 15 }
+  arms { -80, 15 }
+  legs { -80, 15 }
+  feet { -80, 15 }
+  hp { 60, 8, 19060  }
+  move { 500 }
+  experience { 25650 }
+  damage { 1, 25, 20  }
+  immune { charm, hold }
+  caster { 55 }
+  spells { cause serious }
+  act { healer, sentinel }
+  mana { 5000 }
+  affected { infravision, detect-invisible, true-sight, fireshield, fly  }
+}
+
+10209
+{
+  name { the embodiment of good }
+  namelist { good embodiment }
+  shortdesc { The embodiment of good shines like a beacon here. }
+  longdesc {
+You feel the warmth of that shining goodness flow through
+you.  Yuck.
+}
+  race { planar }
+  world_limit { 1 }
+  level { 500 }
+  experience { 0 }
+  hp { 100, 10, 7025 }
+  alignment { 1000 }
+  gold { 0 }
+  caster { 500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { disruptor }
+  immune { charm, backstab }
+  resistant { slash, blunt, pierce }
+  act { npc, scavenger, stay-zone }
+}
+10210
+{
+  name { the embodiment of evil }
+  namelist { evil embodiment }
+  shortdesc { The embodiment of evil wilts like a rotten egg here. }
+  longdesc {
+You feel the cold of that sucking evilness flow through
+you.  Yuck.
+}
+  race { planar }
+  world_limit { 1 }
+  level { 500 }
+  experience { 0 }
+  hp { 100, 10, 7025 }
+  alignment { -1000 }
+  gold { 0 }
+  caster { 500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 4, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sanctuary, hide, sneak, invisible, flying }
+  spells { disruptor }
+  immune { charm, backstab }
+  resistant { slash, blunt, pierce }
+  act { npc, scavenger, stay-zone }
+}

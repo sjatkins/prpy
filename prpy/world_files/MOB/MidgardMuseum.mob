@@ -1,0 +1,3568 @@
+41001
+{
+  name { A giant fireant }
+  namelist { giant fire ant }
+  shortdesc { A giant fireant feels around with its antenna. }
+  longdesc {
+This ant is massive. It stands at least shoulder-height to a human and has massive mandibles.  It could definitely crush a beer keg in those!
+  }
+  race { insect }
+  world_limit { 1 }
+  level { 90 }
+  experience { 40000 }
+  hp { 8, 9, 380 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  act { sentinel, stay-zone }
+}
+41002
+{
+  name { A Soldier Fireant }
+  namelist { Soldier Fireant fire ant }
+  shortdesc { A large soldier fireant with big pinchers. }
+  longdesc {
+A bright red, fireant angrily defending its nest races towards you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 80 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 12, 350  }
+  move { 300 }
+  experience { 34300 }
+  damage { 2, 4, 4  }
+  act { sentinel, stay-zone }
+}
+41003
+{
+  name { The Queen Fireant }
+  namelist { Queen Fireant fire ant }
+  shortdesc { A huge, fat queen fireant. }
+  longdesc {
+Surrounded by white, oval eggs, the queen glares at you with vast hunger.
+  }
+  race { none }
+  height { 105 }
+  weight { 10000 }
+  level { 1000 }
+  alignment { 0 }
+  gold { 4250 }
+  hit_bonus { 11 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 100, 1, 450  }
+  move { 300 }
+  experience { 53760 }
+  damage { 2, 5, 5  }
+  act { sentinel, stay-zone }
+}
+41004
+{
+  name { A large, ferocious warg }
+  namelist { large warg ferocious }
+  shortdesc { A large warg stands here growling, menacingly. }
+  longdesc {
+The warg spies you looking and, its red eyes gleaming with menace, it growls so low you feel your stomach knot in fear.
+  }
+  race { none }
+  world_limit { 1 }
+  level { 80 }
+  experience { 35000 }
+  hp { 8, 9, 300 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  act { sentinel, stay-zone }
+}
+41005
+{
+  name { Half-grown warg like pup }
+  namelist { Warg fido pup }
+  shortdesc { Mean, half-grown pup. }
+  longdesc {
+Larger and meaner looking than your normal fido. It looks very hungry.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 70 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 10, 260  }
+  move { 300 }
+  experience { 30150 }
+  damage { 2, 3, 3  }
+  act { sentinel, stay-zone }
+}
+41006
+{
+  name { Nearly grown warg like dog }
+  namelist { Warg fido mix }
+  shortdesc { Large, shaggy warg like fido. }
+  longdesc {
+Three times the size of your normal fido. It looks very hungry.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 75 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 10, 235  }
+  move { 300 }
+  experience { 33595 }
+  damage { 2, 3, 2  }
+  act { sentinel, stay-zone }
+}
+41007
+{
+  name { Large warg }
+  namelist { Warg stud }
+  shortdesc { A massive and very aggressive warg. }
+  longdesc {
+The largest warg you have ever seen or heard about. It has a sleek, well-fed
+look. Though from the way it is looking at you, perhaps it thinks you are
+more food. Is it time to panic?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 77 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 380  }
+  move { 300 }
+  experience { 37000 }
+  damage { 2, 4, 4  }
+  act { sentinel, stay-zone }
+}
+41008
+{
+  name { Angry warg trainer }
+  namelist { Warg trainer }
+  shortdesc { Well equiped and evil looking trainer of the wargs. }
+  longdesc {
+Before you stands the a tall, strong limbed warrior. Equiped with beautifully
+worked studded leather armor, he draws his sword and attacks.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 86 }
+  alignment { -1000 }
+  gold { 2650 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 2, 6, 390  }
+  move { 300 }
+  experience { 49930 }
+  damage { 2, 4, 3  }
+  act { sentinel, stay-zone }
+}
+41009
+{
+  name { Beautiful mistress }
+  namelist { Warg Mistress }
+  shortdesc { The beautiful mistress of the house. }
+  longdesc {
+Well of course, she is beautiful. After all, aren't all the women in these
+fantasy worlds, both beautiful & scantilly clad? Well, this one meets half of
+that wish. This wonder is the owner of the house, the warg puppies, and the
+warrior you beat to get here. Prepare to die, for you have met the mistress
+of wargs.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { -1000 }
+  gold { 7775 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 2, 7, 310  }
+  move { 300 }
+  experience { 47050 }
+  damage { 3, 3, 3  }
+  act { sentinel, stay-zone }
+}
+41010
+{
+  name { A giant tarantula }
+  namelist { giant tarantula spider }
+  shortdesc { A giant black tarantula with orange bands rests here. }
+  longdesc {
+This is the classic looking black tarantula with orange bands. Except this one is 100 times bigger than its relatives. And those mandibles look like they could skewer a horse! Uh oh!
+  }
+  race { arachnid }
+  world_limit { 1 }
+  level { 115 }
+  experience { 50000 }
+  hp { 8, 9, 265 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41011
+{
+  name { the Wolf Spider }
+  namelist { spider wolf }
+  shortdesc { The Wolf Spider is here, licking its bloody fangs. }
+  longdesc {
+The Wolf Spider is hairy, very hairy.
+  }
+  race { none }
+  level { 75 }
+  alignment { -300 }
+  gold { 3050 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 200  }
+  move { 300 }
+  experience { 30052 }
+  damage { 2, 2, 3  }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone }
+}
+41012
+{
+  name { A wraith spider }
+  namelist { wraith spider }
+  shortdesc { A wraith spider preys here, waiting for the unwary. }
+  longdesc {
+This spider is massive. Much larger than the tarantula which used to reside here... In fact, there appears to be a husk of some unindentifable spider in the corner.  Possibly the tarantula.  Eaten by this one?  Uh oh.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 150 }
+  experience { 230000 }
+  hp { 4, 6, 400 }
+  caster { 25 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  move  { 500 }
+  damage { 2, 4, 2 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { poison }
+  affected { detect-invisible }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41013
+{
+  name { a sickly wasp worker  }
+  namelist { wasp worker }
+  shortdesc { The wasp worker goes back and forth for the queen. }
+  longdesc {
+This worker is thicker in the midsection than the soldier wasp, but does not have the overall size, he looks ill. It is most likely that this worker wasp has no other role than to serve the queen, and possibly as her next meal.
+  }
+  race { insect }
+  sex { male }
+  world_limit { 1 }
+  level { 150 }
+  experience { 33100 }
+  hp { 4, 90, 400 }
+  alignment { 0 }
+  gold { 14010 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move { 400 }
+  damage { 2, 4, 4 }
+  head { 100, 3 }
+  body { 100, 3 }
+  arms { 100, 3 }
+  legs { 100, 3 }
+  feet { 100, 3 }
+  immune { charm, sleep }
+  resist_acid {5}
+  resist_magic {5}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { sentinel, stay-zone }
+}
+41014
+{
+  name { a wasp laborer }
+  namelist { wasp laborer }
+  shortdesc { A wasp laborer isn't happy working for the queen. }
+  longdesc {
+The wasp laborer follows orders, and knows his place in the hive.
+  }
+  race { insect }
+  sex { male }
+  world_limit { 1 }
+  level { 105 }
+  experience { 35500 }
+  hp { 2, 50, 120 }
+  alignment { 0 }
+  gold { 14374 }
+  hit_bonus { 12 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move { 300 }
+  damage { 2, 2, 4 }
+  head { 90, 4 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  immune { charm, sleep }
+  resist_acid {3}
+  resist_magic {3}
+  resist_fire {-50}
+  susceptible { fire }
+  affected { fly }
+  act { sentinel, stay-zone }
+}
+41015
+{
+  name { a wasp vanguard }
+  namelist { wasp vanguard }
+  shortdesc { The wasp vanguard keeps scanning the area, insuring the hive is free of invaders }
+  longdesc {
+The king has hand selected these wasps to ensure the queens protection by being on alert, quickly spotting any intruder.
+  }
+  race { none }
+  sex { male }
+  world_limit { 15 }
+  level { 130 }
+  experience { 79500 }
+  hp { 4, 184, 270 }
+  alignment { 0 }
+  gold { 13500 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move { 600 }
+  damage { 2, 5, 3 }
+  head { 12, 5 }
+  body { 12, 5 }
+  arms { 12, 5 }
+  legs { 12, 5 }
+  feet { 12, 5 }
+  immune { charm, sleep }
+  resist_acid { 5 }
+  resist_magic {5}
+  susceptible { fire }
+  affected { true-sight, fly }
+  act { sentinel, stay-zone }
+}
+41016
+{
+  name { a wasp slave driver's apprentice }
+  namelist { wasp slave apprentice }
+  shortdesc { The wasp slave driver's apprentice is here taking instruction on slavedriving techniques. }
+  longdesc {
+The wasp slave driver's apprentice lears his trade from a master, he is a large wasp, and will probably one day grow into a fine Lead slave driver.
+  }
+  race { none }
+  sex { male }
+  world_limit { 3 }
+  level { 130 }
+  experience { 120 }
+  hp { 4, 75, 350 }
+  alignment { 0 }
+  gold { 15245 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move { 500 }
+  damage { 1, 7, 3 }
+  head { 100, 4 }
+  body { 100, 4 }
+  arms { 100, 5 }
+  legs { 100, 4 }
+  feet { 100, 4 }
+  immune { charm, sleep }
+  resist_acid { 5 }
+  resist_magic {5}
+  susceptible { electricity, fire }
+  affected { fly, sneak }
+  act { sentinel, stay-zone }
+}
+41017
+{
+  name { a diminutive fire-breathing hydra }
+  namelist { diminutive fire hydra }
+  shortdesc { A relatively small eight headed hydra is sleeping here }
+  longdesc {
+The creature is obviously not full grown yet, but the scaled creature  has eight heads... each capable of breathing a dangerous stream of fire.
+  }
+  race { demon }
+  height { 400 }
+  level { 112 }
+  alignment { -1000 }
+  gold { 17500 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 40, 4 }
+  body { 50, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  hp {  4, 14, 330  }
+  move { 300 }
+  experience { 147000 }
+  damage { 2, 2, 2 }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+41018
+{
+  name { a cunning lamia }
+  namelist { lamia }
+  shortdesc { A cunning looking lamia stands here. }
+  longdesc {
+A half snake half woman creature looks around cunningly at her surroundings, trying to figure something out...
+  }
+  race { None }
+  world_limit { 1 }
+  level { 80 }
+  experience { 35000 }
+  hp { 8, 9, 295 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 2 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41019
+{
+  name { The lamia }
+  namelist { lamia beast }
+  shortdesc { A strange lamia stands here waiting for her next meal. }
+  longdesc {
+This is a creature with the upper torso of a beautiful woman, but the lower body of a four-legged beast. She licks her lips as she looks at you greedily.
+  }
+  race { none }
+  level { 73 }
+  alignment { -300 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 50, 8, 1100  }
+  move { 300 }
+  experience { 32230 }
+  damage { 1, 6, 6  }
+  act { sentinel, stay-zone }
+}
+41020
+{
+  name { A big red beholder }
+  namelist { beholder }
+  shortdesc { A big red beholder floats here. }
+  longdesc {
+It has a large central eye that projects an anti-magic ray and ten
+eyestalks atop the round body which can do anything from charm you
+to disintegrate you.  Beholders are not known for their personality.
+  }
+  race { none }
+  world_limit { 1 }
+  level { 35 }
+  experience { 55000 }
+  hp { 4, 6, 870 }
+  caster { 40 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 1, 6, 2 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { weakness, chill touch, magic missile }
+  affected { detect-invisible }
+  immune { charm }
+  act { sentinel, stay-zone}
+}
+41021
+{
+  name {  A weakling silver werewolf }
+  namelist { silver werewolf weakling }
+  shortdesc { A silver werewolf gleams with an inner light. }
+  longdesc {
+This werewolf has the most beautiful silvery pelt you have ever seen. But it looks like something has reduced its strength... Quick! Kill it before it recovers!
+  }
+  race { lycanthrope }
+  world_limit { 1 }
+  level { 50 }
+  experience { 45000 }
+  hp { 6, 8, 900 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 2 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41022
+{
+  name {  A frail ancient werewolf  }
+  namelist { ancient werewolf }
+  shortdesc { A frail ancient werewolf is napping here.}
+  longdesc {
+The Ancient werewolf has is almost all scar tissue
+from his numerous battles, and looks past his prime.
+  }
+  race { lycanthrope }
+  world_limit { 1 }
+  level { 150 }
+  experience { 290000 }
+  hp { 6, 8, 5500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { 10, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+41023
+{
+  name { a Bachelor Skexie }
+  namelist { bachelor skexie }
+  shortdesc { A Skexie Bachelor relaxes on a nearby nest. }
+  longdesc {
+   This Skexie has black and red feathers. He is otherwise a
+normal looking bird-man.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 138 }
+  alignment { 0 }
+  gold { 3620  }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  head { 30, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 4, 168, 1000 }
+  move { 300 }
+  experience { 42706 }
+  damage { 2, 5, 2  }
+  immune { fire, cold, electricity }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+41024
+{
+  name { a Gentleman Skexie }
+  namelist { gentleman skexie }
+  shortdesc { A Skexie Gentleman sits in his chair. }
+  longdesc {
+   This Skexie has black and orange feathers. He is otherwise a
+normal looking bird-man.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 0 }
+  gold { 6900  }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 200, 1800  }
+  move { 300 }
+  experience { 99461 }
+  damage { 2, 8, 3  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+41025
+{
+  name { the Skexie Maiden }
+  namelist { maiden skexie }
+  shortdesc { An ugly Skexie Maiden winks at you suggestively. }
+  longdesc {
+   Wow! Is she ugly!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 90 }
+  alignment { 0 }
+  gold { 3280 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 920  }
+  move { 300 }
+  experience { 37130 }
+  damage { 2, 4, 2  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel, wimpy, stay-zone }
+}
+41026
+{
+  name { A skexie clown }
+  namelist { skexie clown }
+  shortdesc { The skexie clown capers about here with bladder on a stick and highly amusing anecdotes. }
+  longdesc {
+Dressed in bright colours or blue and orange, the skexie clown capers around like... Well... A clown.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  level { 130 }
+  experience { 80000 }
+  hp { 3, 6, 1800 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 4 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41027
+{
+  name { A sly drow assassin }
+  namelist { sly drow assassin }
+  shortdesc { A sly drow assassin lurks in the shadows! }
+  longdesc {
+His dark, almost navy-blue skin is barely visible under his assassin garb of hood and cloak. But you catch the glint of a murderous look in his crimson eyes... Better keep an eye on that one!
+  }
+  race { elven }
+  world_limit { 1 }
+  level { 110 }
+  experience { 45000 }
+  hp { 8, 9, 1045 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  skills { vital attack }
+  act { npc, sentinel, stay-zone, special }
+}
+41028
+{
+  name { The drow warrior }
+  namelist { drow warrior }
+  shortdesc { The drow warrior stands here guarding his home. }
+  longdesc {
+He looks kind of p.o.ed!
+  }
+  race { elven }
+  level { 78 }
+  alignment { -1000 }
+  gold { 3900 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 3 }
+  head { -20, 3 }
+  body { -20, 4 }
+  arms { -20, 4 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  hp { 6, 8, 860  }
+  move { 300 }
+  experience { 40887 }
+  damage { 1, 8, 2  }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone }
+}
+41029
+{
+  name { The drow mage noble }
+  namelist { drow noble mage }
+  shortdesc { The drow mage noble is here protecting his home. }
+  longdesc {
+The mage prepares to cast a spell...at you!!
+  }
+  race { elven }
+  level { 97 }
+  alignment { -1000 }
+  gold { 6800 }
+  hit_bonus { 17 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 15, 8, 1050  }
+  move { 300 }
+  experience { 55286 }
+  damage { 1, 6, 2  }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone }
+}
+41030
+{
+  name { The drow priestess }
+  namelist { drow priestess }
+  shortdesc { The drow priestess is here shouting orders. }
+  longdesc {
+I wouldn't want go get on her bad side!
+  }
+  race { elven }
+  level { 99 }
+  alignment { -1000 }
+  gold { 6900 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 20, 8, 1050  }
+  move { 300 }
+  experience { 65723 }
+  damage { 2, 4, 6  }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone }
+}
+41031
+{
+  name { Calimar the Drider }
+  namelist { calimar drider }
+  shortdesc { calimar the Drider is here staring at you with milky-white eyes. }
+  longdesc {
+This is Calimar. He was once the scout for a powerful Drow family but he double crossed his kin when he tried to sell his own matron mother out to a rival family. His fate was sealed when the family he tried to turn to for asylum, the very family he had tried to sell his matron mother to, turned him over to his own family for retribution. The result was his hideous mutation in to a drider. The drider you now see before you!
+  }
+  race { none }
+  level { 200 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -40, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 10, 15, 1000 }
+  move { 300 }
+  experience { 241000 }
+  damage { 2, 4, 10 }
+  immune { charm }
+  affected { detect-invisible, infravision, sanctuary }
+  act { sentinel, stay-zone }
+}
+41032
+{
+name { a shuffling zombie }
+namelist { zombie shuffling }
+shortdesc { A long dead corpse shuffles stiffly around in circles. }
+longdesc {
+Slow moving, and stinking of rotten flesh, the zombie is a sight to frighten even the most stalwart of children.
+}
+   race { undead }
+   level { 70 }
+   alignment { -750 }
+   gold { 3050 }
+   mana { 10000 }
+   hit_bonus { 17 }
+   dam_bonus { 6 }
+   attacks_per_round { 1 }
+   head { 100, 8 }
+   body { 100, 9 }
+   arms { 100, 7 }
+   legs { 100, 7 }
+   feet { 100, 7 }
+   hp { 100, 10, 1000  }
+   move { 500 }
+   experience { 75500 }
+   damage { 2, 7, 5  }
+   act { sentinel, stay-zone }
+   affected { detect-invisible, infravision }
+   resistant { pierce }
+   immune { backstab }
+}
+41033
+{
+name { A spectre }
+namelist { spectre }
+shortdesc { A spectre shimmers in the air, its eyes glowing red with malice. }
+longdesc {
+This is the spirit of a long-dead king. Why it has chosen this place to haunt you'll never know. Red orbs glow where its eyes should be.  }
+   race { undead }
+   level { 150 }
+   alignment { -500 }
+   gold { 12400 }
+   hit_bonus { 17 }
+   dam_bonus { 8 }
+   attacks_per_round { 2 }
+   head { -30, 100 }
+   body { -50, 100 }
+   arms { -20, 100 }
+   legs { -20, 100 }
+   feet { -10, 100 }
+   hp { 100, 5, 1750  }
+   move { 550 }
+   experience { 382000 }
+   damage { 3, 6, 2  }
+   act { sentinel, stay-zone, npc }
+   affected { true-sight, infravision }
+   resistant { slash, blunt, pierce }
+   immune { charm }
+   spells { multiple magic missile, lightning bolt, cure light, weakness }
+   mana { 1000 }
+   caster { 50 }
+}
+41034
+{
+name { an animated skeleton }
+namelist { skeleton animated }
+shortdesc { A magically animated skeleton clicks as it walks around. }
+longdesc {
+This is the skeleton of some long-dead warrior. It is covered in rusted armour and weaponry. It is very fast, but with no muscle to bolster its attacks with you doubt it is very strong.
+   }
+   race { undead }
+   level { 80 }
+   alignment { -400 }
+   gold { 3150 }
+   hit_bonus { 35 }
+   dam_bonus { 3 }
+   attacks_per_round { 2 }
+   head { 100, 6 }
+   body { 100, 7 }
+   arms { 100, 6 }
+   legs { 100, 6 }
+   feet { 100, 6 }
+   hp { 10, 10, 800  }
+   move { 350 }
+   experience { 42500 }
+   damage { 2, 2, 3 }
+   act { sentinel }
+   affected { detect-invisible, infravision }
+   resistant { pierce }
+   immune { backstab }
+}
+41035
+{
+  name { The dervish }
+  namelist { dervish raggity }
+  shortdesc { The raggity dervish walks on aimlessly. }
+  longdesc {
+Dressed in loose fitting rags, this man looks like he could use
+some rest.
+  }
+  race { orc }
+  level { 75 }
+  alignment { -1 }
+  gold { 3175 }
+  hit_bonus { 17 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 9, 8, 850  }
+  move { 300 }
+  experience { 28140 }
+  damage { 1, 1, 6  }
+  immune { charm }
+  affected { sneak }
+  act { sentinel }
+}
+41036
+{
+  name { The dervish }
+  namelist { dervish large }
+  shortdesc { The large dervish watches for signs of trouble. }
+  longdesc {
+Dressed in loose fitting rags, this man looks like he could use
+LOTS of rest.
+  }
+  race { orc }
+  level { 76 }
+  alignment { 100 }
+  gold { 3275 }
+  hit_bonus { 17 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 24, 8, 850  }
+  move { 300 }
+  experience { 24140 }
+  damage { 2, 1, 6  }
+  affected { sneak }
+  act { sentinel }
+}
+41037
+{
+  name { The small scorpion }
+  namelist { scorpion small }
+  shortdesc { A small, red scorpion scuttles away at your approach. }
+  longdesc {
+The little tail is mighty dangerous for such a small creature.
+  }
+  race { none }
+  level { 75 }
+  alignment { 0 }
+  gold { 3050 }
+  hit_bonus { 17 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 3, 8, 800  }
+  move { 300 }
+  experience { 30293 }
+  damage { 1, 1, 6  }
+  act { sentinel }
+}
+41038
+{
+  name { A purple and black sandworm }
+  namelist { purple black sandworm worm }
+  shortdesc { A large purple and black sandworm swims through the sand. }
+  longdesc {
+The sandworm is purple but banded with black. It looks like a large sock belonging to a child into vampires and pale make-up.
+  }
+  race { none }
+  level { 90 }
+  alignment { -100 }
+  gold { 10500 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 200, 6, 1200  }
+  move { 300 }
+  experience { 60000 }
+  damage { 2, 3, 5  }
+  immune { poison, charm }
+  resistant { fire, cold }
+  act { sentinel, stay-zone }
+}
+41039
+{
+  name { a grinning gnome }
+  namelist { grinning gnome }
+  shortdesc { A gnome is here grinning mischievously. }
+  longdesc {
+This gnome has the biggest grin on its face you have EVER seen.  What is it up to?
+}
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, sanctuary }
+  act { npc, stay-zone }
+}
+41040
+{
+  name { a laughing gnome }
+  namelist { laughing gnome }
+  shortdesc { A gnome is here laughing like a king at his fool.
+  }
+ longdesc {
+This gnome is rolling on the floor, holding his belly, as she guffaws loudly at some mischief performed.
+}
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, sanctuary }
+  act { npc, stay-zone }
+}
+41041
+{
+  name { a capering gnome }
+  namelist { capering gnome }
+  shortdesc { A gnome is here capering madly around. }
+  longdesc {
+This gnome is capering around for some bizarre reason... What could it be up to?
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, sanctuary }
+  act { npc, stay-zone }
+}
+41042
+{
+  name { a hidden gnome }
+  namelist { hidden gnome }
+  shortdesc { A gnome is here, hiding from someone... Or something. }
+  longdesc {
+This gnome is hiding exceedingly well. So well, in fact, that you had to use a true sight spell to see it!
+}
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying, hide }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, sanctuary }
+  act { npc, stay-zone }
+}
+41043
+{
+  name { an immolated gnome }
+  namelist { immolated gnome }
+  shortdesc { A tiny gnome is chipping away at the rocks and crystals. }
+  longdesc {
+Sparks fly around the gnomes head as he chips away at the rocks and geodes he has a nice pile built up next on his right side.
+  }
+race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, fireshield }
+  act { sentinel, npc, stay-zone }
+}
+41044
+{
+  name { Cornelius, Prince of Gnomes }
+  namelist { cornelius prince gnomes }
+  shortdesc { A very regal gnome is here, planning havoc! }
+  longdesc {
+This is Cornelius, the fabled Prince of Gnomes. His mischief knows no bounds and he is heralded as the greatest trickster and prankster even known in the Gnome Kingdoms. You had better be careful when tackling him!
+  }
+  race { None }
+  sex { male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 149000 }
+  hp { 10, 10, 1000 }
+  alignment { 1000 }
+  gold { 19500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 90 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt, dispel magic, sanctuary, heal, cause critical, chill touch }
+  act { sentinel, npc, stay-zone }
+}
+41045
+{
+  name { a tired gnome }
+  namelist { tired gnome sleeping }
+  shortdesc { A small gnome is sleeping inside the glowing green gel. }
+  longdesc {
+The gnome looks totally serene and peaceful.  He is curled into the
+fetal position and floats freely through the gel.  He does not even
+wake up with your intrusion to the regeneration chamber.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  caster { 20 }
+  spells { multiple magic missile, shocking grasp, burning hands, lightning bolt }
+  act { npc, stay-zone }
+}
+41046
+{
+  name { an injured harpy }
+  namelist { injured harpy }
+  shortdesc { A harpy is here with a broken wing. }
+  longdesc {
+The harpy looks at you with blood in her eyes, but she flaps her wings painfully. You have the advantage here it seems! Take it!
+  }
+  race { none }
+  height { 100 }
+  level { 70 }
+  alignment { -999 }
+  gold { 4000 }
+  hit_bonus { 6 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 100, 6 }
+  body { 100, 6 }
+  arms { 100, 6 }
+  legs { 100, 6 }
+  feet { 100, 6 }
+  hp { 10, 20, 700  }
+  move { 200 }
+  experience { 40500 }
+  damage { 2, 3, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41047
+{
+  name { The screaming harpy general }
+  namelist { harpy general }
+  shortdesc { The screaming harpy general tries to scratch your eyes out! }
+  longdesc {
+The harpy general looks at you and grins menacingly.  She stretches
+her wings and you see insects crawling around them.  Her hair is
+matted and greasy and you are sickened by the stench that pervades
+her presence.
+  }
+  race { none }
+  height { 200 }
+  level { 168 }
+  alignment { -999 }
+  gold { 9000 }
+  hit_bonus { 14 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 60, 1900  }
+  move { 200 }
+  experience { 150342 }
+  damage { 6, 7, 9  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41048
+{
+  name { The mini air elemental }
+  namelist { mini whirlwind clouds air elemental }
+  shortdesc { A mini whirlwind tears out the clouds here. }
+  longdesc {
+This elemental is a whirl or air and vapour. But it is small. You don't think it has the power to lift you...
+  }
+  race { none }
+  height { 200 }
+  level { 30 }
+  alignment { -999 }
+  gold { 150 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 10, 10, 500  }
+  move { 200 }
+  experience { 30050 }
+  damage { 2, 5, 5  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41049
+{
+  name { The curious effreeti }
+  namelist { curious effreeti }
+  shortdesc { The curious effreeti grins in delight at its new prey. }
+  longdesc {
+The effreeti towers menacingly over you.  It is dressed in the
+ feathery armor.
+  }
+  race { none }
+  height { 200 }
+  level { 138 }
+  alignment { -999 }
+  gold { 9000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 130342 }
+  damage { 5, 8, 9  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41050
+{
+  name { The large roc }
+  namelist { roc }
+  shortdesc { The large roc. }
+  longdesc {
+This bird has a wingspan that stretches several spearlengths.  It
+moves surprisingly fast for something of its size.
+  }
+  race { none }
+  height { 100 }
+  level { 138 }
+  alignment { -999 }
+  gold { 9000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 1900  }
+  move { 200 }
+  experience { 130342 }
+  damage { 5, 8, 9  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41051
+{
+  name { an archer }
+  namelist { archer }
+  shortdesc { An archer stands here looking out into the forest. }
+  longdesc {
+A archer stands here watching the forest, he give you a glance as you
+walk by.  The archer is very lightly armored but his bow is huge and
+looks like it could send an arrow through most armor.
+  }
+  race { none }
+  sex { Male }
+  level { 150 }
+  world_limit { 8 }
+  experience { 150000 }
+  hp { 17, 18, 2900 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41052
+{
+  name { a centaur fighter }
+  namelist { centaur fighter }
+  shortdesc { A centaur fighter glares at you menacingly. }
+  longdesc {
+The fighter is clothed in simple furs of what appears to be varying
+coloured wolf pelts.  The fighter has had a lot of fighting experience
+if the scars he sports are an indication of past battles.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 85 }
+  experience { 35000 }
+  hp { 8, 9, 850 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 18 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+41053
+{
+  name { The centaur lord }
+  namelist { centaur lord }
+  shortdesc { The lord sits around waiting for a opportunity to seize the throne and the queen for himself. }
+  longdesc {
+The lord sits quietly contemplating his next action.
+  }
+  race { none }
+  sex { Male }
+  level { 165 }
+  world_limit { 1 }
+  experience { 225000 }
+  hp { 18, 15, 3600 }
+  move { 200 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 18 }
+  dam_bonus { 17 }
+  attacks_per_round { 3 }
+  damage { 3, 6, 3 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41054
+{
+  name { An elven warrior }
+  namelist { elven warrior }
+  shortdesc { The elven warrior is here going through his training techniques. }
+  longdesc {
+This warrior is both deft and sure. His muscles are primed for fighting bare handed and with weapons. Surely he would be a challenge for any fighter. You think his beautiful golden sleeves may have something to do with his fighting prowess.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 50 }
+  experience { 45000 }
+  hp { 6, 8, 900 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 2 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+41055
+{
+  name { The elven priestess's assistant }
+  namelist { elven priestess's assistant }
+  shortdesc { The priestess's assistantant stands here by the altar. }
+  longdesc {
+The priestess's assistant is eager to serve master and her god.
+  }
+  race { Elven }
+  sex { Female }
+  world_limit { 1 }
+  level { 174 }
+  gold { 16000 }
+  alignment { 1000 }
+  experience { 250000 }
+  hp { 50, 50, 3000 }
+  hit_bonus { 26 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  move { 500 }
+  damage { 6, 7, 8 }
+  head { -120, 12 }
+  body { -100, 10 }
+  arms { -90, 10 }
+  legs { -100, 10 }
+  feet { -100, 12 }
+  immune { charm, energy }
+  act { sentinel, stay-zone }
+  affected { sanctuary, detect-invisible }
+}
+41056
+{
+  name { the young golden dragon }
+  namelist { gold dragon }
+  shortdesc { a small gold dragon raises up its head and turns toward you. }
+  longdesc {
+The gold dragon although beautiful, looks very dangerous and is rearing
+back to breathe at you.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 180 }
+  gold { 17500 }
+  alignment { 1000 }
+  Experience { 300000 }
+  hp { 55, 90, 4000 }
+  hit_bonus { 12 }
+  dam_bonus { 9 }
+  mana { 1000 }
+  caster { 20 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 6, 10, 15 }
+  head { -120, 12 }
+  body { -100, 10 }
+  arms { -90, 10 }
+  legs { -100, 10 }
+  feet { -100, 12 }
+  susceptible { cold }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+  affected { infravision, detect-invisible }
+  spells { acid blast }
+}
+41057
+{
+  name { goblin guardian}
+  namelist { goblin guardian }
+  shortdesc { The goblin guardian stands here guarding the entrance to the temple. }
+  longdesc {
+The goblin guardian stands here scanning the courtyard.  He has been placed
+here to protect the temple against would be thieves.  For a goblin he is
+extremely large.  He holds both a shield and sword, poised to attack should a
+situation present itself.
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 130 }
+  experience { 80000 }
+  hp { 3, 6, 1800 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 4 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41058
+{
+  name { goblin priestess }
+  namelist { goblin priestess }
+  shortdesc { The goblin priestess is performing a sacrifice to Apep. }
+  longdesc {
+The goblin priestess is adorned with a long flowing white robe.  There
+is a quite calm about her has she mutters to herself, ... sacrifice ...
+Apep ... darkness ...  You hear but a few words but realize great evil is
+drawing near.
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 90 }
+  experience { 65000 }
+  hp { 4, 6, 1500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41059
+{
+  name { goblin priest }
+  namelist { goblin priest }
+  shortdesc { The goblin priest is preparing a sacrifice for Apep. }
+  longdesc {
+The goblin priest holds a sacrificial dagger high above his head.  Blood
+drips from the blade down onto the altar.  You stand there horrified as he
+prepares to sacrifice to Apep, the evil serpent god.
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 90 }
+  experience { 65000 }
+  hp { 4, 6, 1500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41060
+{
+  name { an evil-looking goblin }
+  namelist { evil goblin }
+  shortdesc { An evil-looking goblin stands here rubbing his hands together in a dasterdly manner. }
+  longdesc {
+This goblin is short, even for a goblin, but there is an evil glint in his eyes that foretells of horrors you cannot imagine. And he looks like he is cooking up some new evil right now!
+}
+  race { Goblin }
+  world_limit { 1 }
+  level { 35 }
+  experience { 15000 }
+  hp { 3, 8, 550 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 3 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  immune { charm }
+  act { stay-zone, sentinel }
+}
+41061
+{
+  name { goblin archer }
+  namelist { goblin archer }
+  shortdesc { The goblin archer trains his bow upon you. }
+  longdesc {
+The goblin archer works with Mbenr to protect the path towards the
+temple.  He feels right at home in the roots and the muck.  His skin is
+brown with dark yellow eyes.  He wears soft leather armor to protect him
+in battle.
+  }
+  race { Goblin }
+  world_limit { 2 }
+  level { 50 }
+  experience { 30000 }
+  hp { 4, 6, 750 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 500 }
+  damage { 1, 6, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone}
+}
+41062
+{
+  name { a giant green troll }
+  namelist { giant green troll }
+  shortdesc { A giant green troll is here looking for some humans to eat! }
+  longdesc {
+This troll is a giant amongst trolls! And it is very green. It long clawed hands look ready to snatch you up and devour alive!
+}
+  race { None }
+  world_limit { 1 }
+  level { 150 }
+  experience { 360000 }
+  hp { 6, 8, 5500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { 10, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone}
+}
+41063
+{
+  name { A mushroom warrior  }
+  namelist { mushroom warrior }
+  shortdesc { A large mushroom warrior stands guard over the village. }
+  longdesc {
+The mushroom guard stands silently before a large patch of its fellow
+villagers.  It is quite a bit larger than the rest of the mushrooms
+that you have seen so far.  The guard glares at you with an intense
+stare as you pass.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 115 }
+  experience { 50000 }
+  hp { 8, 9, 1195 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+
+
+41064
+{
+  name { A confused-looking mushroom man }
+  namelist { confused mushroom man }
+  shortdesc { A mushroom man stands here looking confused by his surroundings. }
+  longdesc {
+This mushroom man has awoken to a strange world indeed. Once bright sunlight did beat down up his cap, but now only the artificial magical light that illuminates the museum beats down on him... And it isn't quite the same thing.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 80 }
+  experience { 25000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41065
+{
+  name { The mushroom queen  }
+  namelist { mushroom queen }
+  shortdesc { A frantic looking mushroom looks all around the room. }
+  longdesc {
+The mushroom queen looks quite frazzled!  She looks around the inside
+of the gigantic tree in a frantic manner.  The queen searches under
+each mushroom with care in an attempt to find something.  "My children!",
+she shouts out to you.  "Have you seen the prince and princess?"  She
+immediately returns to her hurried search.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 145 }
+  experience { 100000 }
+  hp { 11, 12, 1722 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41066
+{
+  name { A child tourist }
+  namelist { child tourist }
+  shortdesc { A greasy looking child is here fogging up the displays.
+  }
+  longdesc {
+This child looks like it needs a good wash. Preferably with a de-greaser!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 4 }
+  level { 30 }
+  experience { 32000 }
+  hp { 8, 9, 652 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+41067
+{
+  name { An adult tourist }
+  namelist { adult tourist }
+  shortdesc { An adult walks around here looking at the displays. }
+  longdesc {
+Just another tourist taking in the wonders of the museum!
+  }
+  race { None }
+  world_limit { 6 }
+  level { 80 }
+  experience { 45000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+41068
+{
+  name { A Fortrum tourist }
+  namelist { fortrum tourist }
+  shortdesc { A dwarf has come all the way from Fortrum to look around the museum is here. }
+  longdesc {
+This dwarf is looking at all the displays with the air of one who has seen all these things manytimes before and is not impressed.
+  }
+  race { dwarf }
+  height { 90 }
+  sex { male }
+  weight { 10000 }
+  level { 168 }
+  alignment { 0 }
+  gold { 3620  }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 3 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 4, 168, 1000 }
+  move { 300 }
+  experience { 32706 }
+  damage { 2, 5, 5  }
+  act { npc, stay-zone }
+}
+41069
+{
+  name { A lizardman tourist }
+  namelist { lizardman tourist }
+  shortdesc { A lizardman wanders around here gawking at the exhibits. }
+  longdesc {
+This lizardman has travelled from an exotic, yet unknown, location just to view the exhibits on display at the Midgard Museum and Conservatory!
+  }
+  race { lizardman }
+  sex { male }
+  level { 30 }
+  experience { 29795 }
+  hp { 8, 9, 652 }
+  alignment { 0 }
+  gold { 250 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+41070
+{
+  name { An elven tourist }
+  namelist { elven tourist }
+  shortdesc { An elven tourist is here drinking in the magnifence of the museum! }
+  longdesc {
+This elven gentleman has travelled far, and he looks pleased with what he has found!
+  }
+  race { elven }
+  sex { male }
+  level { 30 }
+  experience { 6400 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+41071
+{
+  name { A Screaming child }
+  namelist { screaming child }
+  shortdesc { A child is screaming louder than a dragon's roar here.
+  }
+  longdesc {
+This child has been spooked by one of the exhibits.  Which one?  And why?  Either way, it's best to move along -- that scream is *loud*!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+41072
+{
+  name { A Clapping child }
+  namelist { clapping child }
+  shortdesc { A child is here making seal impressions. }
+  longdesc {
+This child is so impressed it is clapping.  For what reason?  No, no reason that you can fathom.  Maybe you should just join in and start clapping too?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+
+41073
+{
+  name { A wandering child }
+  namelist { wandering child }
+  shortdesc { A small child looks around in wonderment. }
+  longdesc {
+A child that is obviously lost from the carnival and wondered down the street is wandering around aimlessly... Oh well. Someone will claim it soon.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 250 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+
+41074
+{
+  name { A Lost child }
+  namelist { lost child }
+  shortdesc { A child is here looking very lost. }
+  longdesc {
+This child looks very lost.  Dare you help it?  It might claim you as its parent...  You sure you wanna?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+
+41075
+{
+  name { A Playing child }
+  namelist { playing child }
+  shortdesc { A child is here playing with a toy horse. }
+  longdesc {
+The wonders of the museum hold no value for this child.  It's chipped and rather sad looking toy horse is, in it's eyes, the stuff of battles and heroics that no museum exhibit is going to top.  Wonderful.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+
+41076
+{
+  name { A Dwarf child }
+  namelist { dwarf child }
+  shortdesc { A child is running around in a fake beard here. }
+  longdesc {
+Wait a second!  Woah!  That is no fake beard!  Those whiskery tendrils are a real beard... And that child is barely a foot tall!  Who gave it an axe?  Who in the name of realms gave that child an axe?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 7000 }
+  hp { 8, 9, 245 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 5 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  resist_fire { 100 }
+  resist_cold { 100 }
+  act { npc, stay-zone }
+}
+41077
+{
+  name { A gelfling man }
+  namelist { gelfling man }
+  shortdesc { A gelfling man stands here in the freezing exhibit. }
+  longdesc {
+Ice hangs from him in icicles...Do you think he might be cold?
+  }
+  race { None }
+  world_limit { 3 }
+  level { 75 }
+  experience { 25000 }
+  hp { 8, 9, 795 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+41078
+{
+  name { A Dirty tourist  }
+  namelist { dirty tourist }
+  shortdesc { A dirty tourist is here. }
+  longdesc {
+This tourist looks like his last bed was in some bushes and the last time he washed the dragon in the lobby probably had skin.  Eww!
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 30000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+
+41079
+{
+  name { A Fleeing tourist  }
+  namelist { fleeing tourist }
+  shortdesc { A tourist is fleeing something from something here. }
+  longdesc {
+Something has spooked this guy.  But what?  You can't see anything to be scared of...  Or can you?
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 30000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+
+41080
+{
+  name { A Scared tourist  }
+  namelist { scared tourist }
+  shortdesc { A tourist is quaking in fear here. }
+  longdesc {
+Some people are just easily spooked.  And this tourist is no exception.  Something has given him the willies (oooeerr).
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 30000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+
+41081
+{
+  name { A Gawking tourist  }
+  namelist { gawking tourist }
+  shortdesc { A tourist is here gawking at the exhibits. }
+  longdesc {
+Is that drool?  Ewww!  Yes!  He's drooling over the exhibits.  Maybe he's been looking to closely at the drow priestess?  *Shiver*!
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 30000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+
+41082
+{
+  name { A Clapping tourist  }
+  namelist { clapping tourist }
+  shortdesc { A tourist does a demented monkey impression here. }
+  longdesc {
+This tourist is so obviously overwhelmed by what he's seeing.  Aww.  Maybe you should tell someone?  It can't be natural to be clapping madly like that? }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 30000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+
+41083
+{
+  name { A Dwarf tourist  }
+  namelist { dwarf tourist }
+  shortdesc { A young lady in a fake beard is here. }
+  longdesc {
+Hang on a moment!  That's no lady!  The iron shoes have given it away.  Yeah.  It's a dwarf tourist.  Now say sorry to her- I mean him!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  resist_fire { 100 }
+  resist_cold { 100 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+
+41084
+{
+  name { A Elf tourist  }
+  namelist { elf tourist }
+  shortdesc { A silvan looking gentleman is here looking around. }
+  longdesc {
+Smug.  So smug.  Why not hit him and make that smugness go away?
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 20000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  caster { 60 }
+  spells { multiple magic missile, dispel magic }
+  act { npc, stay-zone }
+}
+
+
+41085
+{
+  name { A skeleton dragon }
+  namelist { skeleton dragon }
+  shortdesc { The ancient bones of a dragon are on display here. }
+  longdesc {
+Buried for thousands of years and dug up only last week.  These bones have been painstakingly re-assembled using wire and horse glue for your viewing pleasure.  It is an impressive sight,  reaching as high as the dome at the top of the lobby and easily spanning the width of the room.  In life, this beast must have been magnificent. }
+  race { undead }
+  sex { female }
+  level { 240 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 18, 19, 5000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -50, 11 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41086
+{
+  name { Eyebright }
+  namelist { eyebright }
+  shortdesc { Some eyebright is here, looking sentient! }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 750 }
+  move { 300 }
+  experience { 34500 }
+  damage { 1, 2, 4  }
+  act { npc, sentinel, stay-zone }
+}
+
+41087
+{
+  name { Ginseng }
+  namelist { ginseng }
+  shortdesc { Some ginseng is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41088
+{
+  name { Snakeroot }
+  namelist { snakeroot }
+  shortdesc { Some snakeroot is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41089
+{
+  name { Lily of the Valley }
+  namelist { Lily of the Valley }
+  shortdesc { Some Lily of the Valley is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41090
+{
+  name { Lungwort }
+  namelist { lungwort }
+  shortdesc { Some Lungwort is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41091
+{
+  name { Hawthorn }
+  namelist { hawthorn }
+  shortdesc { Some Hawthorn is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41092
+{
+  name { Morning Glory }
+  namelist { morning glory }
+  shortdesc { Some Morning Glory is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41093
+{
+  name { Mandrake }
+  namelist { mandrake }
+  shortdesc { Some mandrake is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 10, 20, 950 }
+  move { 300 }
+  experience { 74500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41094
+{
+  name { Yarrow }
+  namelist { yarrow }
+  shortdesc { Some yarrow is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41095
+{
+  name { Sunflower }
+  namelist { sunflower }
+  shortdesc { A sunflower is here, looking sentient! }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41096
+{
+  name { A brainy woman }
+  namelist { brainy woman }
+  shortdesc { A clever looking woman is here. }
+  longdesc {
+This woman looks very clever.  Shame her hat doesn't fit her rather large head...
+  }
+  race { human }
+  height { 125 }
+  level { 150 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 3 }
+  head { -19, 5 }
+  body { -20, 5 }
+  arms { -15, 40 }
+  legs { -15, 4 }
+  feet { -15, 0 }
+  hp { 4, 100, 4500  }
+  move { 200 }
+  experience { 155140 }
+  damage { 1, 6, 5  }
+  immune { fire, charm, sleep }
+  act { sentinel }
+}
+
+
+41097
+{
+  name { A brainy kid }
+  namelist { brainy kid }
+  shortdesc { A child is here looking smugger than an elf. }
+  longdesc {
+This must be the child of family clever.  Whatever they have been eating is sure making them intelligent.  Look!  They have worked out the answer to the ultimate question of life, the universe and everything!  42?  What is 42?
+  }
+  race { human }
+  height { 125 }
+  level { 100 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 3 }
+  head { -19, 5 }
+  body { -20, 5 }
+  arms { -15, 4 }
+  legs { -15, 4 }
+  feet { -15, 4 }
+  hp { 4, 100, 2500  }
+  move { 200 }
+  experience { 65140 }
+  damage { 3, 6, 7  }
+  immune { fire, charm, sleep }
+  act { sentinel }
+}
+
+
+41098
+{
+  name { Maidenhair Fern }
+  namelist { maidenhair fern }
+  shortdesc { Some Maidenhair Fern is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41099
+{
+  name { A dirty bold gnome }
+  namelist { dirty bold gnome }
+  shortdesc { a grubby looking gnome with no hair is here. }
+  longdesc {
+This gnome not only has no hair (though no fault of its own no doubt) but it is also covered in dirt and grime.  Almost as if its been digging in the roots of the maidenhair fern...  Now why would it do that?
+  }
+  race { None }
+  world_limit { 6 }
+  level { 130 }
+  experience { 290000 }
+  hp { 9, 11, 3350 }
+  alignment { -1000 }
+  gold { 4900 }
+  caster { 60 }
+  power { 900 }
+  mana { 900 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 4, 4, 5 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, hide, sneak, invisible, flying }
+  spells {  holy word, animate dead }
+  immune { charm }
+  resistant { energy }
+  susceptible { pierce, electricity }
+  act { npc, stay-zone, sentinel }
+}
+41100
+{
+  name { Wormwood }
+  namelist { wormwood }
+  shortdesc { Some Wormwood is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41101
+{
+  name { Bloodroot }
+  namelist { bloodroot }
+  shortdesc { Some bloodroot is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41102
+{
+  name { Quaking Aspen }
+  namelist { quaking aspen }
+  shortdesc { Some Quaking Aspen is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41103
+{
+  name { A shaking man }
+  namelist { shaking man }
+  shortdesc { A man is here shaking with violent tremors. }
+  longdesc {
+This man has one hand on the Quaking Aspen and is violently shaking... Uh oh!
+  }
+  race { human }
+  height { 100 }
+  level { 200 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 20, 80, 800  }
+  move { 200 }
+  experience { 54291 }
+  damage { 3, 7, 7  }
+  caster { 50 }
+  spells { earthquake }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+
+41104
+{
+  name { A quaking man }
+  namelist { quaking man }
+  shortdesc { A man is here quaking in his boots. }
+  longdesc {
+This man has one hand on the Quaking Aspen and is violently shaking... Uh oh!
+  }
+  race { human }
+  height { 100 }
+  level { 200 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 20, 80, 800  }
+  move { 200 }
+  experience { 54291 }
+  damage { 3, 7, 7  }
+  caster { 50 }
+  spells { earthquake }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+
+41105
+{
+  name { The screaming maiden }
+  namelist { screaming maiden }
+  shortdesc { A young maiden is here, screaming at the top of her lungs! }
+  longdesc {
+Her beauty is past compare.  You stand in awe of her.  Men would crawl through fire and ash for her. Women plot her downfall.  Yet she stands here and screams so loudly that your eardrums whistle painfully.  Maybe you should end her suffering?
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 0 }
+  gold { 15750  }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 4, 352, 10000  }
+  move { 300 }
+  experience { 410000 }
+  damage { 3, 8, 6  }
+  immune { fire, cold, electricity, charm }
+  caster { 30 }
+  spells { shriek }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+41106
+{
+  name { Goldenrod }
+  namelist { goldenrod }
+  shortdesc { Some Goldenrod is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41107
+{
+  name { Iris }
+  namelist { iris }
+  shortdesc { Some Iris is here, looking sentient. }
+  longdesc {
+It is a plant, and it looks alive!
+  }
+  race { none }
+  level { 20 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 550 }
+  move { 300 }
+  experience { 34500 }
+  damage { 2, 4, 6  }
+  act { npc, sentinel, stay-zone }
+}
+41108
+{
+  name { Malice, cousin of Kalas }
+  namelist { malice cousin kalas }
+  shortdesc { Malice, the cousin of Kalas, is here ready to steal your soul! }
+  longdesc {
+Unlike his evil cousin, Malice was born stunted and grotesquely deformed. When he leers drool dribbles down his chin and splashes his doublet. But don't think him any less evil than his cousin, for he will steal your soul and leave your empty husk out for the ravens to feast upon if you underestimate him!
+  }
+  race { human }
+  height { 200 }
+  level { 300 }
+  alignment { -1000 }
+  gold { 30000  }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 6 }
+  caster { 40 }
+  power { 800 }
+  mana { 800 }
+  head { -50, 10 }
+  body { -50, 10 }
+  arms { -50, 10 }
+  legs { -50, 10 }
+  feet { -50, 10 }
+  hp { 5, 70, 10000  }
+  move { 300 }
+  experience { 469113 }
+  damage { 2, 20, 10  }
+  spells { mage fire, dispel magic, sanctuary }
+  immune { fire, cold, pierce, sleep, charm }
+  resistant { electricity, energy, blunt }
+  affected { detect-invisible, infravision }
+  act { sentinel, npc }
+}
+41109
+{
+  name { a stationary museum guard }
+  namelist { stationary museum guard }
+  shortdesc { A large and imposing museum guard stands here guarding the exhibits. }
+  longdesc {
+The museum guards looks well trained. He twirls his long black truncheon with the surety of a master. You do NOT want to mess with this man.
+  }
+  race { human }
+  world_limit { 3 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41110
+{
+  name { a wandering museum guard }
+  namelist { wandering museum guard }
+  shortdesc { A large and imposing museum guard wanders around, looking for trouble makers. }
+  longdesc {
+The museum guards looks well trained. He twirls his long black truncheon with the surety of a master. You do NOT want to mess with this man.
+  }
+  race { human }
+  world_limit { 4 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+41111
+{
+  name { Clive the Head Night Watchman }
+  namelist { clive night watchman }
+  shortdesc { Clive wanders around here, checking on his men. }
+  longdesc {
+Clive is an old man now. Many years ago his was a warrior adventurer who claimed many victories and treasures. Now he proudly leads the museum night watch in their sworn duty to protect the museum at all costs. He carries a powerful lamp which he uses to spy out even the sneakiest of sneak thieves who may be prowling the museum looking for something valuable to steal.
+  }
+  race { human }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 125000 }
+  hp { 18, 15, 1825 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 18 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { detect-invis }
+  immune { charm, hold }
+  act { npc, stay-zone }
+}
+41112
+{
+  name { Stanley the Head Day Watchman }
+  namelist { stanley day watchman }
+  shortdesc { Stanley wanders around here, checking on his men. }
+  longdesc {
+This is Stanley, Head of the Day Watch. Rumours have it that he was once of the Shadow Guards, that elite corps who stand ready to protect Midgard at the drop of a hat, but he was forced to retire due to age slowing him down. This did not stop August Arcana from recognising talent when he saw it, and thus Stanley became the Head of the Day Watch in the museum. He is said to be just as deadly as he was during his years with the Shadow Guards.
+  }
+  race { none }
+  height { 49 }
+  weight { 7600 }
+  level { 220 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 23 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { -40, 9 }
+  body { -40, 6 }
+  arms { -20, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 17, 10, 900  }
+  move { 300 }
+  experience { 351375 }
+  damage { 3, 6, 6  }
+  immune { sleep, charm }
+  affected { sanctuary, true-sight }
+  act { npc, stay-zone }
+}
+
+41113
+{
+  name { Midgard Historian }
+  namelist { midgard historian }
+  shortdesc { A historian from the Midgard culture society is here trading for special items. }
+  longdesc {
+Before you stands a middle aged bald headed man wrapped in a clean but worn brown robe.  The man
+looks of slender build, but by the size of his neck and the cut of his jaw, no doubt this man was
+a fierce some adventurer.  In his garb he looks more like a monk that a historian, but the way the
+economy has been, his uniform may be the only thing the society provides!
+  }
+  race { human }
+  height { 49 }
+  weight { 7600 }
+  level { 750 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 23 }
+  dam_bonus { 150 }
+  attacks_per_round { 10 }
+  head { -400, 200 }
+  body { -400, 200 }
+  arms { -400, 200 }
+  legs { -400, 200 }
+  feet { -400, 200 }
+  hp { 17, 10, 900000  }
+  move { 300 }
+  experience { 351375 }
+  damage { 30, 60, 60  }
+  immune { non-magical, sleep, charm, backstab }
+  affected { true-sight }
+  act { npc, stay-zone, sentinel }
+}
+41114
+{
+  name { A sword spider }
+  namelist { sword spider }
+  shortdesc { A sword spider bounces here, ready to kill the unwary. }
+  longdesc {
+The sword spider is unique amongst it's giant-spider kind.  It's leg's are sharper
+than the finest steel, and it wields all eight of them in battle to deadly efficiency!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 250 }
+  experience { 330000 }
+  hp { 10, 8, 900 }
+  caster { 500 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 22 }
+  dam_bonus { 3 }
+  attacks_per_round { 8 }
+  move  { 500 }
+  damage { 4, 5, 3 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { poison }
+  affected { detect-invisible }
+  immune { charm, backstab }
+  act { npc, sentinel, stay-zone }
+}
+41115
+{
+  name { A blood raptor  }
+  namelist { raptor blood }
+  shortdesc { A bipedal raptor with blood red scales stalks here. }
+  longdesc {
+This raptor reminds you of a dinosaur, with its large, bird-
+like body, powerful legs and beady yellow eyes.  It has a maw
+full of razor-sharp teeth.  I wouldn't attack it if I was you!
+  }
+  race { fish }
+  world_limit { 4 }
+  level { 115 }
+  experience { 50000 }
+  hp { 8, 9, 1195 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+41116
+{
+  name { A Yuan-Ti Broodguard Leader }
+  namelist { broodguard leader yuan-ti }
+  shortdesc { A powerful looking Yuan-Ti Broodguard looms here. }
+  longdesc {
+With the body of a snake and the torso of a human, this Yuan-Ti
+represents the most common of these creatures found in the realms.
+She wields a sharp looking scimitar, the traditional weapon of the
+Yuan-Ti, as she protects her brood.
+  }
+  race { lizardman }
+  sex { female }
+  world_limit { 1 }
+  level { 110 }
+  experience { 45000 }
+  hp { 8, 9, 1045 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  skills { strike }
+  act { npc, sentinel, stay-zone, special }
+}
+41117
+{
+  name { A cottonmouth snake }
+  namelist { snake cottonmouth }
+  shortdesc { A nasty looking cottonmouth snake slithers around here. }
+  longdesc {
+This dull yellow and grey snake is a lot more dangerous than is looks.
+  }
+  race { snake }
+  level { 75 }
+  alignment { 0 }
+  gold { 3050 }
+  hit_bonus { 17 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 3, 8, 800  }
+  move { 300 }
+  experience { 30293 }
+  damage { 1, 1, 6  }
+  act { sentinel }
+}
+41118
+{
+  name { The Yuan-Ti Warrior Captain }
+  namelist { warrior captain yuan-ti }
+  shortdesc { The Yuan-Ti Warrior Captain eyes you with distaste. }
+  longdesc {
+This Yuan-Ti is the Warrior Captain.  He commands a legion of well
+armed and ferocious Yuan-Ti Warriors.  You'd be wise not to piss
+him off.
+  }
+  race { lizardman }
+  height { 200 }
+  level { 168 }
+  alignment { -999 }
+  gold { 9000 }
+  hit_bonus { 14 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 60, 1900  }
+  move { 200 }
+  experience { 150342 }
+  damage { 6, 7, 9  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+41119
+{
+  name { The Yuan-Ti Wizard }
+  namelist { wizard Yuan-Ti }
+  shortdesc { The Yuan-Ti Wizard conjures a fireball and prepares to throw it at you! }
+  longdesc {
+The Yuan-Ti is a wizard that rivals the well trained Drow wizards.
+She has a vast knowledge of the arcane is not to be messed with!
+  }
+  race { lizardman }
+  sex { Female }
+  world_limit { 1 }
+  level { 90 }
+  experience { 49000 }
+  hp { 10, 5, 500 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { true-sight, sneak, invisible, flying }
+  immune { charm }
+  caster { 20 }
+  spells { magic missile, shocking grasp, lightning bolt }
+  act { npc, stay-zone, sentinel }
+}

@@ -1,0 +1,209 @@
+257000
+{
+  name {a Dragonborne noble Leader }
+  namelist { dragon rider leader noble dragonborne }
+  shortdesc { A huge multi-hued dragon stands here with a well-armored man astride it. }
+  longdesc {
+A man of clearly noble birth sits upon the back of this huge, 45-foot long
+polychromatic dragon.  He surveys the area with open contempt.
+}
+  race { dragon }
+  sex { male }
+  level { 680 }
+  experience { 10203000 }
+  hp { 45, 400, 221700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 40 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  immune { fire, cold, charm, backstab }
+  resistant { pierce, blunt, slash, electricity, cold, acid }
+  affected { sanctuary, true-sight, fireshield }
+  act { stay-zone, nosummon }
+}
+
+257001
+{
+  name { the Prophet }
+  namelist { prophet }
+  shortdesc { The Prophet stands here with a fanatic gleam in his eye. }
+  longdesc {
+The Prophet of the Dragon is a small but imposing figure.  There is
+a sense of both the charismatic and the mad about him.
+  }
+  race { dragon }
+  sex { male }
+  level { 610 }
+  experience { 10203000 }
+  hp { 45, 400, 101700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 20 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  immune { fire, cold, charm, backstab }
+  resistant { pierce, blunt, slash, electricity, cold, acid }
+  affected { sanctuary, true-sight }
+  caster { 20 }
+  spells { mage fire, fireball, energy drain, cone of cold, meteor swarm, dispel magic, curse }
+  act { stay-zone, nosummon }
+}
+
+257002
+{
+  name { a white Dragonborne soldier }
+  namelist { white dragon soldier dragonborne }
+  shortdesc { A well-armored man and his large white dragon mount stand here. }
+  longdesc {
+The rider of this 30 foot long dragon looks about with a cold, inscrutable
+gaze while his mount eyes you hungrily.
+  }
+  race { dragon }
+  sex { male }
+  level { 670 }
+  experience { 10203000 }
+  hp { 45, 400, 151700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 30 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  immune { fire, cold, charm, backstab }
+  resistant { pierce, blunt, slash, electricity, cold, acid }
+  affected { sanctuary, true-sight }
+  act { stay-zone, nosummon }
+}
+257003
+{
+  name { A reading kid }
+  namelist { kid reading }
+  shortdesc { A kid wanders through the library reading. }
+  longdesc {
+A kid is wandering through the library and reading at the same
+time paying no attention to where he is going.
+  }
+  race { None }
+  world_limit { 8 }
+  level { 20 }
+  experience { 25000 }
+  hp { 8, 9, 595 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+257004
+{
+name { The Librarian }
+  namelist { librarian }
+  shortdesc { The Librarian is here replacing various books }
+  longdesc {
+He looks like a rather peaceful old man.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 25 }
+  alignment { 450 }
+  gold { 4000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 8, 9, 795 }
+  move { 300 }
+  experience { 19183 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+257005
+{
+name { The Scholar }
+  namelist { scholar }
+  shortdesc { The Scholar rest here reading a book }
+  longdesc {
+He is very intent on his book, looks like he would not 
+notice anything in the world around him.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 25 }
+  alignment { 450 }
+  gold { 4000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 8, 9, 795 }
+  move { 300 }
+  experience { 19183 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}

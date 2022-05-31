@@ -1,0 +1,70 @@
+163050
+{
+  name { ticket salesman ferry }
+  namelist { ticket salesman ghost }
+  shortdesc { A cloaked man blocks the entrance to the gangplank. }
+  longdesc {
+A scary looking, cloaked man is blocking the way into the ferry.  You 
+can't quite get a good look at his face, as it is shaded under his hood. 
+If you want to take a risk and go to OldPort, just buy a ticket.  But 
+I dont recommend it, I hear theres lots of danger over there!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 450 }
+  experience { 475000 }
+  hp { 25, 75, 8500 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 8, 10 }
+  head { -30, 10 }
+  body { -20, 9 }
+  arms { -20, 9 }
+  legs { -20, 9 }
+  feet { -20, 9 }
+  immune { charm }
+  resistant { pierce, slash }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+163051
+{
+  name { a slime worm }
+  namelist { slime worm }
+  shortdesc { A giant, slimy worm splashes around in the mud and slime. }
+  longdesc {
+The Slime Worm slowly rises from the pool of slime and mud.  Its mouth is
+full of several rows of strong mandibles, all of them crunching and pulsing
+in a very scary manner.  Its body is long, thin and sectioned into
+segmented parts.  The worm hisses, spitting slime around the room and
+rears to attack.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 250 }
+  experience { 250000 }
+  hp { 25, 40, 3850 }
+  alignment { -1000 }
+  gold { 2200 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 7, 10 }
+  head { -10, 8 }
+  body { 10, 7 }
+  arms { 10, 7 }
+  legs { 10, 7 }
+  feet { 10, 7 }
+  affected { true-sight }
+  immune { charm, hold, backstab }
+  resistant { pierce, slash, cold }
+  susceptible { fire }
+  act { npc, sentinel, aggressive, scavenger, stay-zone }
+}

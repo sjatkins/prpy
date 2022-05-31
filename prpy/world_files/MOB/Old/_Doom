@@ -1,0 +1,395 @@
+35000
+{
+  name { The storekeeper }
+  namelist { storekeeper dwarf }
+  shortdesc { A drawven storekeeper stands here waiting to assist you. }
+  longdesc {
+A drawven storekeeper that looks to be a seasoned adventurer.  Maybe
+you should see what he has for sale.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 42 }
+  alignment { 200 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 5, 1 }
+  body { -10, 5 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 40, 1 }
+  hp { 10, 10, 200  }
+  move { 200 }
+  experience { 5088 }
+  damage { 5, 5, 5  }
+  resistant { poison }
+  affected { infravision }
+  act { sentinel }
+}
+
+35001
+{
+  name { The innkeeper }
+  namelist { innkeeper dwarf }
+  shortdesc { A drawven innkeeper stands here waiting to assist you. }
+  longdesc {
+A dwarven innkeeper that looks to be a seasoned adventurer.  Maybe you
+should see what he has to offer.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 42 }
+  alignment { 200 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 5, 1 }
+  body { -10, 5 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 40, 1 }
+  hp { 10, 10, 200  }
+  move { 200 }
+  experience { 5088 }
+  damage { 5, 5, 5  }
+  resistant { poison }
+  affected { infravision }
+  act { sentinel }
+}
+
+35002
+{
+  name { The baker }
+  namelist { baker dwarf }
+  shortdesc { A drawven baker stands here waiting to assist you. }
+  longdesc {
+A fat little dwarven baker that has ate to much of his own cooking but
+still looks to be able to take care of himself in battle.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 42 }
+  alignment { 200 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 5, 1 }
+  body { -10, 5 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 40, 1 }
+  hp { 10, 10, 200  }
+  move { 200 }
+  experience { 5088 }
+  damage { 5, 5, 5  }
+  resistant { poison }
+  affected { infravision }
+  act { sentinel }
+}
+
+35003
+{
+  name { The bartender }
+  namelist { bartender dwarf }
+  shortdesc { A drawven bartender stands behind the bar mixing drinks. }
+  longdesc {
+A dwarven bartender that looks like he can mix a pretty good drink.
+Maybe you should see what he has to drink.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 42 }
+  alignment { 200 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 5, 1 }
+  body { -10, 5 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 40, 1 }
+  hp { 10, 10, 200  }
+  move { 200 }
+  experience { 5088 }
+  damage { 5, 5, 5  }
+  resistant { poison }
+  affected { infravision }
+  act { sentinel }
+}
+
+35004
+{
+  name { The guard }
+  namelist { arena guard dwarf }
+  shortdesc { A dwarven guard stands here guarding the entrance. }
+  longdesc {
+This guard is assigned to keep watch over the arena and prevent
+unauthorized entry into the complex.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 68 }
+  alignment { 350 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -15, 5 }
+  body { -20, 5 }
+  arms { 0, 5 }
+  legs { 5, 2 }
+  feet { 25, 2 }
+  hp { 10, 10, 500  }
+  move { 300 }
+  experience { 11392 }
+  damage { 5, 5, 10  }
+  resistant { poison }
+  affected { detect-invisible, infravision }
+  act { sentinel }
+}
+
+35005
+{
+  name { A gnome }
+  namelist { gnome adventurer }
+  shortdesc { An adventurer }
+  longdesc {
+A short, tough little gnome that looks to be just beginning his life
+as an adventurer.
+  }
+  race { gnome }
+  height { 40 }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 75, 0 }
+  legs { 75, 0 }
+  feet { 75, 0 }
+  hp { 5, 8, 10  }
+  move { 100 }
+  experience { 432 }
+  damage { 2, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, stay-zone, wimpy }
+}
+
+35006
+{
+  name { The guard }
+  namelist { city guard dwarf }
+  shortdesc { A dwarven guard stands here guarding the entrance. }
+  longdesc {
+This guard is assigned to keep watch over the city and prevent
+unauthorized entry into the city.
+  }
+  race { dwarf }
+  height { 50 }
+  level { 68 }
+  alignment { 350 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -15, 5 }
+  body { -20, 5 }
+  arms { 0, 5 }
+  legs { 5, 2 }
+  feet { 25, 2 }
+  hp { 10, 10, 500  }
+  move { 300 }
+  experience { 11392 }
+  damage { 5, 5, 10  }
+  resistant { poison }
+  affected { detect-invisible, infravision }
+  act { sentinel }
+}
+
+35007
+{
+  name { A villager }
+  namelist { dwarf villager }
+  shortdesc { A villager }
+  longdesc {
+A dwarven villager that is out to see what is happening around the world
+  }
+  race { gnome }
+  height { 40 }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 75, 0 }
+  legs { 75, 0 }
+  feet { 75, 0 }
+  hp { 5, 8, 10  }
+  move { 100 }
+  experience { 432 }
+  damage { 2, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, stay-zone, wimpy }
+}
+
+35100
+{
+  name { A mountain goat }
+  namelist { mountain goat }
+  shortdesc { A mountain goat is standing here grazing. }
+  longdesc {
+     This is apparently a female mountain goat.  You decide not to get
+too close to her rear just in case she kicks.
+  }
+  race { none }
+  level { 4 }
+  alignment { 100 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 70, 0 }
+  hp { 10, 5, 10  }
+  move { 300 }
+  experience { 480 }
+  damage { 1, 5, 5  }
+  immune { charm }
+  act { stay-zone, wimpy }
+}
+
+35101
+{
+  name { A mountain ram }
+  namelist { mountain ram }
+  shortdesc { A mountain ram stands here watching over his herd. }
+  longdesc {
+     You are looking at a BIG mountain ram.  You had better stay away
+from the female goats because you might offend him.
+  }
+  race { none }
+  level { 18 }
+  alignment { -100 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 75, 0 }
+  legs { 75, 0 }
+  feet { 75, 0 }
+  hp { 15, 8, 30  }
+  move { 300 }
+  experience { 1606 }
+  damage { 1, 5, 10  }
+  act { aggressive, stay-zone }
+}
+
+35105
+{ name { A statue }
+  namelist { minotaur statue }
+  short { A statue of a minotaur }
+  long {
+This is a very life-like looking statue of a minotaur.  It looks like
+it could almost reach out a strangle you.
+  }
+  experience { 900 }
+  level { 25 }
+  hp { 1, 10, 125 }
+  attacks_per_round { 1 }
+  alignment { -250 }
+  damage { 1, 10, 10}
+  act { sentinel }
+  resistant { slash, pierce, sleep, charm }
+  race { Giant }
+  head { 60, 5 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+}
+
+35106
+{ name { A statue }
+  namelist { griffith statue }
+  short { A statue of a griffith }
+  long {
+This is a very life-like looking statue of a griffith.  It looks like
+it could almost reach out a strangle you.
+  }
+  experience { 900 }
+  level { 25 }
+  hp { 1, 10, 125 }
+  attacks_per_round { 1 }
+  alignment { -250 }
+  damage { 1, 10, 10}
+  act { sentinel }
+  resistant { slash, pierce, sleep, charm }
+  race { Giant }
+  head { 60, 5 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+}
+
+35107
+{ name { A statue }
+  namelist { small dragon small_dragon statue }
+  short { A statue of a small dragon }
+  long {
+This is a very life-like looking statue of a small dragon.  It looks like
+it could almost reach out a strangle you.
+  }
+  experience { 900 }
+  level { 30 }
+  hp { 1, 10, 150 }
+  attacks_per_round { 1 }
+  alignment { -250 }
+  damage { 1, 15, 15}
+  act { sentinel }
+  resistant { slash, pierce, sleep, charm }
+  susceptible { blunt, acid }
+  race { Dragon }
+  head { 60, 5 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+}
+
+35108
+{ name { A lion }
+  namelist { mountain lion }
+  short { A mountain lion lays here in the middle of the path. }
+  long {
+     This is a mountain lion that is sunning itself in the middle of the
+path.  Luckily he has eaten well so he just looks at you and yawns.
+  }
+  experience { 1100 }
+  level { 30 }
+  hp { 1, 10, 150 }
+  attacks_per_round { 1 }
+  alignment { -250 }
+  damage { 1, 15, 15}
+  act { sentinel }
+  head { 55, 5 }
+  body { 55, 5 }
+  arms { 55, 5 }
+  legs { 55, 5 }
+}
+

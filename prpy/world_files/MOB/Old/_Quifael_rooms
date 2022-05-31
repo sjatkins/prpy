@@ -1,0 +1,62 @@
+6900
+{
+  name { the computer bug }
+  namelist { bug }
+  shortdesc { A little, hairy computer bug is here, trying to mess things up. }
+  longdesc {
+It is one of those irritating little creatures that like to infect innocent
+and defenseless programs, trying to make them act weird.  Programmers spend
+countless hours trying to eliminate them, but they are indeed very hardy.
+DikuMUD is known to be one of their favourite habitats.
+  }
+  race { none }
+  level { 1 }
+  alignment { -50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 1, 4, 1  }
+  move { 300 }
+  experience { 89 }
+  damage { 1, 2, 1  }
+  act { stay-zone }
+}
+
+6910
+{
+  name { Isha the Dark Elf }
+  namelist { isha elf }
+  shortdesc { Isha the Dark Elf is here, observing you silently. }
+  longdesc {
+She is no less than beautiful, skin as dark as the night and hair shining like
+silver in the moonlight.  Her slender body is adorned with a sleeveless shirt
+and a short skirt made from black scales joined with silver threads.  Her back
+is covered by a large, hooded cloak as black as her skin and in her broad
+silver belt hangs a long, slender sword in a silver scabbard.
+  }
+  race { elven }
+  level { 54 }
+  alignment { -1000 }
+  gold { 900 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 60, 2 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  hp { 80, 8, 80  }
+  move { 300 }
+  experience { 7850 }
+  damage { 3, 3, 4  }
+  immune { sleep, charm, hold }
+  affected { detect-invisible, infravision, sneak }
+  act { special }
+}
+

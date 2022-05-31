@@ -1,0 +1,150 @@
+7200
+{
+  name { The master mindflayer }
+  namelist { master mind mindflayer }
+  shortdesc { The master mindflayer is here, looking at you with an evil look. }
+  longdesc {
+It's a seven foot tall humanoid dressed in a purple cloak, and swinging a
+black and purple rod above its head as if it was going to attack you any
+moment now. In the middle of its head are four tentacles with sharp points.
+  }
+  race { mindflayer }
+  level { 41 }
+  alignment { -800 }
+  gold { 500 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 42, 8, 4200  }
+  move { 300 }
+  experience { 156609 }
+  damage { 5, 6, 7  }
+  affected { detect-invisible, infravision }
+  act { special, scavenger, aggressive, nosummon }
+  immune { charm, energy }
+}
+
+7201
+{
+  name { The senior mindflayer }
+  namelist { senior mind mindflayer }
+  shortdesc { The senior mindflayer walks around here, looking for something useful. }
+  longdesc {
+This is a horrifying monster indeed, 6'6" high. Dressed in purple and black,
+and carrying a large mace in its hand. In the center of its head are four large
+tentacles with very sharp points.
+  }
+  race { mindflayer }
+  level { 35 }
+  alignment { -600 }
+  gold { 300 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 10, 3 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  hp { 32, 88, 3200  }
+  move { 300 }
+  experience { 105432 }
+  damage { 5, 5, 5  }
+  affected { detect-invisible, infravision }
+  act { special, scavenger, aggressive, nosummon }
+  immune { charm, energy }
+}
+
+7202
+{
+  name { The junior mindflayer }
+  namelist { junior mind mindflayer }
+  shortdesc { The junior mindflayer is here, watching you carefully from the corner. }
+  longdesc {
+This mindflayer is six foot high. It has a small mace in its belt, and is
+dressed in purple and black cloth. It has four small tentacles in the
+center of its head.
+  }
+  race { mindflayer }
+  level { 26 }
+  alignment { -350 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 24, 48, 640  }
+  move { 300 }
+  experience { 54350 }
+  damage { 4, 4, 2  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { special, scavenger, wimpy, aggressive }
+}
+
+7203
+{
+  name { The ugly wererat }
+  namelist { wererat rat were }
+  shortdesc { An ugly wererat is here, looking at you with a strange flick in his eyes. }
+  longdesc {
+The wererat is about four foot tall. It looks very much like rat, exept
+that it is standing.
+  }
+  race { none }
+  level { 26 }
+  alignment { -700 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 24, 8, 740  }
+  move { 300 }
+  experience { 22607 }
+  damage { 3, 5, 2  }
+  affected { infravision }
+  act { scavenger, aggressive, stay-zone }
+}
+
+7204
+{
+  name { The gigantic rat }
+  namelist { rat gigantic }
+  shortdesc { There is a gigantic rat here, looking at you with a hungry look. }
+  longdesc {
+The gigantic rat is about ten foot long from head to tail and has claws
+the size of your head looking very nasty.
+  }
+  race { none }
+  level { 43 }
+  alignment { -800 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 48, 8, 48  }
+  move { 300 }
+  experience { 5179 }
+  damage { 3, 6, 20  }
+  act { sentinel, aggressive }
+}
+

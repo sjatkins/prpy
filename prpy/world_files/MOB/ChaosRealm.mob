@@ -1,0 +1,2673 @@
+66000
+{
+  name { Lord Draxas }
+  namelist { Lord Draxas Demon }
+  shortdesc { Lord Draxas sits upon his throne eagerly waiting his next victim. }
+  longdesc { Before you is the mighty Lord Draxas, a demon of unimaginable strength. }
+  race { Demon }
+  mana { 10000 }
+  height { 200 }
+  level { 540 }
+  alignment { -1000 }
+  gold { 145000 }
+  hit_bonus { 40 }
+  dam_bonus { 25 }
+  attacks_per_round { 6 }
+  head { -100, 8 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 25999 }
+  caster { 90 }
+  spells { dispel magic, fireball, meteor swarm, acid blast }
+  skills { bash }
+  immune { fire, energy, pierce, charm, poison, sleep }
+  resistant { acid, drain }
+  susceptible { cold }
+  move { 750 }
+  experience { 3200000 }
+  damage { 7, 9, 24}
+  affected { sanctuary, detect-invisible, true-sight, infravision, flying }
+  act { sentinel, aggressive, stay-zone }
+}
+
+66001
+{
+  name { Chaos Warrior }
+  namelist { Chaos Warrior }
+  Shortdesc { A muscular warrior stands here, hies bare chest covered in strange runes. }
+  longdesc { A powerful warrior, his skills enhanced by dark packs this chaos warrior is truely one to be feared. }
+  race { human }
+  level { 400 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 25 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.6 }
+  skills { bash, kick }
+  strength { 25 }
+  dexterity { 18 }
+  head { -75, 10 }
+  body { -100, 10 }
+  arms { -75, 10 }
+  legs { -75, 10 }
+  feet { -75, 10 }
+  immune { fire, cold, charm, poison }
+  resistant { blunt, pierce, slash }
+  hp { 30, 5, 8000 }
+  move { 600 }
+  experience { 342512 }
+  damage { 10, 6, 8 }
+  affected { sanctuary, detect-invisible }
+  act { aggressive, stay-zone, deadly }
+}
+
+66002
+{
+  name { Fire Hepath }
+  namelist { Fire Hepath Elemental }
+  shortdesc { A huge figure of pure fire stands here, roughtly humanoid in shape. }
+  longdesc { Roughly humanoid in shape this massive elemental creature stands 8 feet high and
+ radiates power. Its massive frame sends out searing waves of heat as it moves
+ with suprising speed for a creature its size. }
+  race { element }
+  level { 450 }
+  gold { 1000000 }
+  hit_bonus { 35 }
+  dam_bonus { 40 }
+  attacks_per_round { 2 }
+  caster { 50 }
+  spells { fireball, dispel magic }
+  strength { 25 }
+  head { -60, 7 }
+  body { -60, 3 }
+  arms { -60, 3 }
+  legs { -60, 3 }
+  feet { -60, 3 }
+  immune { fire, charm, sleep, hold, backstab }
+  susceptible { cold }
+  resistant { blunt, pierce, slash }
+  hp { 50, 4, 20000 }
+  move { 600 }
+  experience { 1250000 }
+  damage { 15, 6, 5 }
+  affected { fireshield, detect-invisible, sense-life, nosummon }
+  act { sentinel, stay-zone, aggressive }
+}
+
+66003
+{
+  name { Demon Witch }
+  namelist { demon witch }
+  shortdesc { A withered old hag sits here muttering in the corner, her eyes glow red with 
+demon fire. }
+  longdesc { This withered old lady sits muttering to herself, cackling and crying with
+pleasure. Her eyes glow a bright burning red, and the scars on her cheeks show 
+she has indeed made a pack with with some form of demonspawn. }
+  race { human }
+  mana { 5000 }
+  level { 510 }
+  alignment { -1000 }
+  gold { 95000 }
+  hit_bonus { 25 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  strength { 30 }
+  dexterity { 25 }
+  head { -120, 20 }
+  body { -120, 20 }
+  arms { -120, 20 }
+  legs { -120, 20 }
+  feet { -120, 20 }
+  caster { 90 }
+  spells { dispel magic, sleep, meteor swarm, blindness, weakness }
+  immune { charm, sleep, poison, pierce, fire }
+  resistant { energy, cold, acid, electricity }
+  hp { 20, 20, 25000 }
+  move { 600 }
+  experience { 850000 }
+  damage { 5, 4, 5 }
+  affected { sanctuary, true-sight, detect-evil, flying, infravision }
+  act { aggressive, stay-zone, sentinel, deadly }
+}
+
+66004
+{
+  name { Darkling Slave }
+  namelist { Slave Darkling }
+  shortdesc { A small almost elven type being sits here looking totally miserable. }
+  longdesc { A small dejected looking figure stands before you in dirty old rags. He looks
+almost elven in nature, upswept lobeless ears, long dark hair, all about this
+person would make you think elf. Apart from his eyes deep and dark, they show
+that this slave was once a being of power and darkness. }
+  level { 300 }
+  attacks_per_round { 3 }
+  alignment { -1000 }
+  gold { 300000 }
+  strength { 20 }
+  dexterity { 20 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  immune { hold, charm, sleep }
+  hp { 20, 100, 8000 }
+  damage { 5, 4, 5 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  experience { 325000 }
+  affected { nosummon, detect-invisible }
+  act { aggressive, stay-zone, wimpy }
+}
+66005
+{
+  name { Darkling Warlock }
+  namelist { darkling warlock mage warrior }
+  shortdesc { A short put powerful looking man of some sort of elven birth stands here. }
+  longdesc { This Darkling is brimming with confidence and power, he is truely sure of
+his capabilities. He stands slightly short than an elf and appears at first
+glance to be one. However, when you look into his deep black eyes you see
+nothing but hatred and evil. }
+  alignment { -1000 }
+  gold { 300000 }
+  level { 499 }
+  head { -50, 10 }
+  body { -50, 10 }
+  arms { -50, 10 }
+  legs { -50, 10 }
+  feet { -50, 10 }
+  immune { backstab, hold, sleep, charm }
+  resistant { pierce, energy }
+  skills { bash, kick }
+  spells { dispel magic, fear, sleep, fireball, word of recall }
+  caster { 90 }
+  hp { 10, 100, 10500 }
+  attacks_per_round { 2 }
+  damage { 4, 8, 5 }
+  hit_bonus { 27 }
+  dam_bonus { 15 }
+  experience { 400000 }
+  affected { fireshield, nosummon, fly, detect-invisible, detect-magic }
+  act { nosummon, aggressive, stay-zone }
+}
+66006
+{
+  name { Black Reaver }
+  namelist { reaver undead }
+  shortdesc { A large powerful figure in jet black armour stands here. }
+  longdesc { A pair of glowing red eyes peer at from behind a jet black visor. They seem
+to regard you for a moment before burning deeply. This powerful undead warrior
+is less than pleased to see you. }
+  race { undead }
+  alignment { -1000 }
+  level { 505 }
+  attacks_per_round { 3.2 }
+  gold { 107000 }
+  head { -90, 15 }
+  body { -90, 20 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  resist_force { 35 }
+  immune { cold, hold, electricity, fire, energy, charm, sleep, poison, acid, drain }
+  skills { bash }
+  attacks_per_round { 2 }
+  damage { 10, 10, 10 }
+  hit_bonus { 42 }
+  dam_bonus { 40 }
+  hp { 1, 1, 24999 }
+  experience { 1275000 }
+  affected { sanctuary, true-sight, detect-invisible, sense-life }
+  act { aggressive, sentinel, stay-zone }
+}
+66107
+{
+  name { Warduke }
+  namelist { general warduke }
+  shortdesc { A tall powerfully built man stands here enimating dark evil power. }
+  longdesc { A tall powerful man with dark black eyes stairs down at you from his towering 6ft
+ frame. From this man oozing a dark and evil presence, forboding and dispair grip
+your heart. Here is true master of the dark ways, for before you stands Warduke
+the champion of Lord Draxas. }
+  race { human }
+  alignment { -1000 }
+  level { 525 }
+  experience { 1974639 }
+  gold { 200000 }
+  head { -100, 20 }
+  body { -100, 25 }
+  legs { -100, 20 }
+  arms { -100, 20 }
+  feet { -100, 15 }
+  skills { kick, bash, rescue }
+  spells { mage fire, meteor swarm, energy drain, dispel magic, weakness, blindness }
+  caster { 100 }
+  dam_bonus { 40 }
+  attacks_per_round { 2.7 }
+  hit_bonus { 45 }
+  hp { 1, 1, 29999 }
+  damage { 12, 5, 15 }
+  immune { fire, cold, acid, drain, sleep, charm }
+  affected { sanctuary, true-sight, infravision, detect-invisible }
+  resistant { pierce }
+  act { aggressive, stay-zone, deadly, sentinel }
+}
+66008
+{
+  name { Pyros }
+  namelist { pyros dragon red }
+  shortdesc { Before you rests a massive red dragon breathing deeply, and awaiting her next
+meal. }
+  longdesc { Resting her is an ancient red dragon her scales faded slightly with age.
+despite her age she is still a formidable foe and a powerful creature of legend. }
+  race { dragon }
+  level { 515 }
+  alignment { -800 }
+  experience { 800000 }
+  gold { 102000 }
+  head { -100, 15 }
+  body { -100, 15 }
+  legs { -100, 15 }
+  arms { -100, 15 }
+  feet { -100, 15 }
+  attacks_per_round { 2.8 }
+  hit_bonus { 45 }
+  hp { 1, 1, 29999 }
+  mana { 1500 }
+  dam_bonus { 70 }
+  damage { 4, 5, 15 }
+  resistant { slash, blunt, energy }
+  immune { fire, charm, backstab, drain, cold }
+  affected { true-sight, detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+60000
+{
+  name { Coringor the Ancient Elven King }
+  namelist { Coringor Elf Elven King }
+  shortdesc { Coringor the Ancient Elven King is here lamenting his existance. }
+  longdesc {
+The elven king is very miserable.  He looks at you sadly, knowing that he must
+kill you to save the rest of the world. Keftab, the Ancient, one along with Kalas
+has tried to prevent him coming into this world, but this time they failed.
+
+'You fear your final time has come as you stare into the icy glare of the Elven King.'
+  }
+  race { elven }
+  mana { 800  }
+  height { 154 }
+  weight { 12000 }
+  level { 745 }
+  alignment { -1000 }
+  gold { 2000000 }
+  hit_bonus { 75 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  head { -200, 50 }
+  body { -200, 50 }
+  arms { -200, 50 }
+  legs { -200, 50 }
+  feet { -200, 50 }
+  resist_fire { 120 }
+  resist_acid { 120 }
+  resist_cold { 120 }
+  resist_magic { 120 }
+  hp { 15, 400, 43000  }
+  move { 300 }
+  experience { 1850825 }
+  damage { 9, 10, 50  }
+  caster { 80 }
+  spells { dispel magic, disruptor, sleep, blindness }
+  immune { poison, drain, sleep, charm, hold }
+  resistant { pierce }
+  affected { infravision, sanctuary, nofear }
+  act { sentinel, scavenger }
+}
+
+60001
+{
+  name { Prince Vlad the Destroyer }
+  namelist { Prince, Vlad }
+  shortdesc { Prince Vlad the Destroyer is here, looking for someone to kill. }
+  longdesc {
+A tall, dark man, Prince Vlad looks very frightening.  His long black hair is
+matted with blood, as his entire body.  He eminates a aura of fear, making you
+afraid to even touch him.  He screams loudly when he sees you, a scream so
+utterly animalistic it makes you shudder. Forever longing after his lover,
+Mina the Queen.
+  }
+  race { Demon }
+  height { 201 }
+  sex { male }
+  weight { 24000 }
+  level { 570 }
+  alignment { -1000 }
+  gold { 3000000 }
+  hit_bonus { 24 }
+  dam_bonus { 32 }
+  attacks_per_round { 4 }
+  head { -170, 22 }
+  body { -170, 22 }
+  arms { -170, 22 }
+  legs { -170, 22 }
+  feet { -170, 22 }
+  resist_fire { 200 }
+  resist_acid { 200 }
+  resist_cold { 200 }
+  resist_magic { 200 }
+  hp { 10, 300, 36358  }
+  skills { bash }
+  move { 300 }
+  experience { 7974449 }
+  damage { 6, 19, 45 }
+  caster { 80 }
+  spells { weakness, blindness, sleep, dispel magic, fear, disruptor }
+  immune { poison, charm, sleep, fire, backstab }
+  affected { sanctuary, true-sight, detect-invisible, sense-life, infravision }
+  act { sentinel, healer, deadly, hunting }
+}
+
+60002
+{
+  name { A defiler }
+  namelist { defiler }
+  shortdesc { A defiler stands here, holding bloody body parts. }
+  longdesc {
+A short, squat demon, the defiler looks at you hungrily.  Bubbling,
+oozing sores cover it's entire body.  Short, powerful arms end in long, wicked
+claws, dripping blood and peices of flesh.
+  }
+  race { devil }
+  height { 82 }
+  weight { 30000 }
+  level { 482 }
+  alignment { -1000 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  hp { 10, 50, 15000  }
+  move { 300 }
+  experience { 606170 }
+  damage { 4, 8, 30  }
+  immune { cold, charm }
+  resistant { blunt, pierce, slash }
+  susceptible { electricity }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, scavenger, aggressive, wimpy }
+}
+
+60003
+{
+  name { A Greater Tarrasgue }
+  namelist { Tarrasque reptile lizard }
+  shortdesc { The legendary Tarrasque is here, waiting for you. }
+  longdesc {
+The legendary tarrasque, for there is fortunately only two know to exist,
+is the most dreaded creature on the prime material plane.  The creature is
+a scaly biped with two huge horns on its head, a lashing, barbed tail, and a
+reflective carpace.
+  }
+  race { none }
+  height { 700 }
+  weight { 125000 }
+  level { 560 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 15 }
+  head { -150, 22 }
+  body { -150, 22 }
+  arms { -150, 22 }
+  legs { -150, 22 }
+  feet { -150, 22 }
+  hp { 1, 1, 31999  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 20, 100  }
+  immune { fire, cold, electricity, poison, sleep, charm }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive }
+}
+
+60004
+{
+  name { Crunch, the jailer }
+  namelist { Crunch, jailer }
+  shortdesc { Crunch the jailer stands here, looking at you strangely. }
+  longdesc {
+A tall, dirty ogre, Crunch stands far above you.  His teeth are covered with
+rotting flesh, and he doesnt smell to nice.  He doesnt look very nice, either.
+  }
+  race { enfan }
+  height { 400 }
+  weight { 60000 }
+  level { 493 }
+  alignment { -450 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -80, 5 }
+  body { -100, 5 }
+  arms { -90, 5 }
+  legs { -90, 5 }
+  feet { -90, 5 }
+  hp { 10, 10, 19000  }
+  move { 300 }
+  experience { 772913 }
+  damage { 8, 8, 32  }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { fire }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive }
+}
+
+60005
+{
+  name { A Lich }
+  namelist { Lich }
+  shortdesc { A lich is here, sobbing quietly. }
+  longdesc {
+The lich, a truly pittiful being, seems to be trapped in it's own
+fortress.  It is covered in rotting flesh, and some of the bones is exposed
+in raw relief.  You cant help but feel sorry for it, but as its glittering
+eyes fix upon you, you begin to feel sorry for yourself.
+  }
+  race { undead }
+  level { 435 }
+  alignment { -1000 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -80, 9 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  hp { 5, 10, 17000  }
+  move { 300 }
+  experience { 686535 }
+  damage { 5, 10, 30  }
+  immune { fire, cold, charm, backstab }
+  resistant { slash }
+  affected { invisible, detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60006
+{
+  name { A Slave }
+  namelist { slave }
+  shortdesc { A overworked slave stands here. }
+  longdesc {
+This poor slave seems to be on it's last legs.  It just looks at you sadly,
+shaking his head slightly, muttering under his breath.  You cant help but
+feel sorry for it.
+  }
+  race { human }
+  height { 201 }
+  weight { 13000 }
+  level { 323 }
+  alignment { 500 }
+  gold { 22500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 5 }
+  head { -10, 5 }
+  body { 0, 5 }
+  arms { -10, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  hp { 5, 10, 4900  }
+  move { 300 }
+  experience { 341272 }
+  damage { 5, 5, 10  }
+  immune { sleep, charm }
+  affected { infravision }
+  act { scavenger, nice-thief, stay-zone, wimpy }
+}
+
+60007
+{
+  name { A blood-thirsty slave }
+  namelist { blood slave }
+  shortdesc { A blood-thirsty slave stands here, drooling over you. }
+  longdesc {
+This slave, driven to madness long ago, craves human flesh.
+  }
+  race { human }
+  height { 201 }
+  weight { 13000 }
+  level { 373 }
+  alignment { -1000 }
+  gold { 27500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { 0, 5 }
+  body { 0, 5 }
+  arms { 0, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  hp { 10, 10, 6900  }
+  move { 300 }
+  experience { 440448 }
+  damage { 5, 8, 20  }
+  immune { sleep, charm }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+60008
+{
+  name { The Head Mortician }
+  namelist { Head Mortician }
+  shortdesc { The Head Mortician stands here, embalming unfortunate souls. }
+  longdesc {
+The head morticain, in his office, is a sight to behold.  He just reaches
+into a unfortunate person's body, and rips the soul clean out.  Not a pretty
+site, either.  He is covered head to toe in blood and entrails. Yech.
+  }
+  race { Ghost }
+  height { 203 }
+  weight { 19800 }
+  level { 801 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 7 }
+  head { -75, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 10 }
+  feet { -80, 10 }
+  hp { 20, 20, 20000  }
+  move { 300 }
+  experience { 756579 }
+  damage { 5, 10, 30  }
+  immune { poison, charm, hold }
+  affected { sense-life, sanctuary, infravision, true-sight}
+  act { sentinel, special, stay-zone }
+}
+
+60009
+{
+  name { A huge stone golem }
+  namelist { stone golem huge }
+  shortdesc { A huge stone golem stands here, blocking the doorway. }
+  longdesc {
+Dark, cold, unrelenting, the stone golem utters a low groan as you
+approch.  It's huge feet thud loudly, shaking the drawbridge as you approach.
+A faint glimmer of intelligence sparks briefly in it's eyes as you come
+nearer.
+  }
+  race { giant }
+  height { 330 }
+  weight { 102000 }
+  level { 755 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 10, 50, 19000  }
+  move { 300 }
+  experience { 719723 }
+  damage { 8, 10, 20  }
+  immune { charm }
+  resistant { pierce }
+  act { sentinel, scavenger, stay-zone }
+}
+
+60010
+{
+  name { Corrosion, the Black Dragon }
+  namelist { Corrosion, Dragon Black }
+  shortdesc { Corrosion, the ancient black dragon, lies here waiting to eat. }
+  longdesc {
+An immpossibly huge dragon, Corrosion certainly lives up to it's name.
+Gaping holes lie in the floor, where he has drooled over some unfortunate
+victim.  Glittering teeth, shining in the light, snap together as it awakes.
+  }
+  race { dragon }
+  height { 670 }
+  weight { 232000 }
+  level { 556 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  head { -190, 18 }
+  body { -190, 10 }
+  arms { -190, 10 }
+  legs { -190, 10 }
+  feet { -190, 10 }
+  hp { 50, 50, 18000  }
+  move { 300 }
+  experience { 1355345 }
+  damage { 7, 10, 40  }
+  immune { acid, poison, sleep, charm }
+  resistant { pierce }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60011
+{
+  name { Spider }
+  namelist { Spider, shimmering, blur, halfling }
+  shortdesc { Spider stands here, a shimmering blur in front of you. }
+  longdesc {
+Spider is a short halfling, about two and a half feet tall.  He dances in
+front of your eyes, shimmering, glowing.  He is neither here, nor there.
+  }
+  race { hobbit }
+  height { 49 }
+  weight { 7600 }
+  level { 493 }
+  alignment { 1000 }
+  gold { 40000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -80, 9 }
+  body { -80, 9 }
+  arms { -80, 9 }
+  legs { -80, 9 }
+  feet { -80, 9 }
+  hp { 10, 10, 12000  }
+  move { 300 }
+  experience { 551375 }
+  damage { 4, 5, 20  }
+  immune { poison, sleep, charm }
+  resistant { cold, electricity, drain }
+  act { sentinel, stay-zone }
+}
+
+60012
+{
+  name { A zombie of a giant }
+  namelist { zombie giant }
+  shortdesc { A zombie of a giant stands here, moaning softly. }
+  longdesc {
+Long dead, this zombie reeks of mildew and decay.  It doesnt look very
+happy, either.
+  }
+  race { undead }
+  height { 376 }
+  weight { 20000 }
+  level { 327 }
+  alignment { 0 }
+  gold { 25000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -30, 5 }
+  body { -30, 5 }
+  arms { -30, 5 }
+  legs { -30, 5 }
+  feet { -30, 5 }
+  hp { 10, 20, 5000  }
+  move { 300 }
+  experience { 354121 }
+  damage { 5, 8, 10  }
+  immune { poison, drain, sleep, charm, backstab }
+  affected { detect-invisible, sense-life, infravision }
+  act { scavenger, aggressive, stay-zone }
+}
+
+60013
+{
+  name { A Large Black Man }
+  namelist { large, black, man }
+  shortdesc { A large, black man stands here, polishing a sword. }
+  longdesc {
+Tall and very dark, this man looks like a fierce opponent.  He looks angry,
+also.
+  }
+  race { human }
+  height { 170 }
+  weight { 15000 }
+  level { 519 }
+  alignment { -600 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 40, 40, 23000  }
+  move { 300 }
+  experience { 826440 }
+  damage { 9, 10, 10  }
+  immune { poison, drain, sleep, charm }
+  affected { sense-life, sanctuary, infravision, hide }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60014
+{
+  name { A sabre-toothed tiger }
+  namelist { tiger }
+  shortdesc { A sabre-toothed tiger is here, on the prowl }
+  longdesc {
+Armed with long claws and huge teeth, this tiger is not to be messed with.
+  }
+  race { none }
+  height { 50 }
+  weight { 120000 }
+  level { 351 }
+  alignment { 0 }
+  gold { 27500 }
+  hit_bonus { 17 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { 0, 10 }
+  body { 0, 10 }
+  arms { 0, 10 }
+  legs { 0, 10 }
+  feet { 0, 10 }
+  hp { 10, 10, 6000  }
+  move { 300 }
+  experience { 407625 }
+  damage { 4, 10, 20  }
+  immune { sleep, charm }
+  affected { detect-invisible, sense-life }
+  act { aggressive, stay-zone }
+}
+
+60015
+{
+  name { A Gladiator }
+  namelist { gladiator }
+  shortdesc { A Gladiator stands here, waiting for someone to fight. }
+  longdesc {
+With long, corded, musculed arms, the Gladiator looks like and promises to
+be a formidable opponenet.
+  }
+  race { human }
+  height { 220 }
+  weight { 23000 }
+  level { 805 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -99, 10 }
+  body { -90, 9 }
+  arms { -90, 9 }
+  legs { -90, 9 }
+  feet { -90, 9 }
+  hp { 10, 20, 21000  }
+  move { 300 }
+  experience { 724508 }
+  damage { 6, 10, 30  }
+  immune { poison, drain, sleep, charm }
+  resistant { pierce }
+  affected { invisible, detect-invisible }
+  act { sentinel, scavenger, nice-thief, stay-zone }
+}
+
+60016
+{
+  name { A zombie }
+  namelist { zombie }
+  shortdesc { A zombie stands here, moaning softly. }
+  longdesc {
+Dead for a long time, this zombie doesnt care about anything anymore.
+  }
+  race { undead }
+  height { 231 }
+  weight { 10000 }
+  level { 283 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { 0, 5 }
+  body { 0, 5 }
+  arms { 0, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  hp { 10, 10, 3300  }
+  move { 300 }
+  experience { 329256 }
+  damage { 3, 10, 10  }
+  immune { poison, drain, sleep, charm, hold, backstab }
+  affected { detect-invisible, sanctuary }
+  act { scavenger, stay-zone }
+}
+
+60017
+{
+  name { A Skeleton }
+  namelist { skeleton }
+  shortdesc { A Skeleton stands here, looking off into space. }
+  longdesc {
+It looks confused.
+  }
+  race { undead }
+  height { 190 }
+  weight { 3000 }
+  level { 283 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 10, 10, 3300  }
+  move { 300 }
+  experience { 336519 }
+  damage { 3, 10, 10  }
+  immune { poison, drain, sleep, charm, hold, backstab }
+  resistant { slash }
+  affected { detect-invisible, sanctuary }
+  act { scavenger, stay-zone }
+}
+
+60018
+{
+  name { The Nameless }
+  namelist { nameless }
+  shortdesc { The Nameless is floating here, existing. }
+  longdesc {
+A amorphous blob of undefined flesh and mist, the nameless is very disgusting.
+Flesh oozes and squirms, only to turn to vapor and float away.
+  }
+  race { none }
+  height { 200 }
+  weight { 36000 }
+  level { 517 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 10 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  hp { 20, 40, 21000  }
+  move { 300 }
+  experience { 880167 }
+  damage { 3, 10, 10  }
+  immune { blunt, acid, poison, drain, sleep, charm }
+  resistant { pierce }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, scavenger, stay-zone }
+}
+
+60019
+{
+  name { A Guardian }
+  namelist { guardian }
+  shortdesc { A Guardian stands here, fiercely protecting the door. }
+  longdesc {
+A tall, whispery being without form, the guardian materializes around you to
+attack.  Long limbs reach for you, eyes of red pry into your soul.  They wail,
+a long, drawn out cry, lamenting to kill you.
+  }
+  race { undead }
+  height { 201 }
+  weight { 100 }
+  level { 438 }
+  alignment { 0 }
+  gold { 35000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -90, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  hp { 30, 10, 9000  }
+  move { 300 }
+  experience { 523204 }
+  damage { 5, 10, 10  }
+  immune { fire, cold, poison, sleep, charm }
+  affected { detect-invisible, sense-life, sanctuary, infravision, hide }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60020
+{
+  name { A amorphous blob }
+  namelist { blob thing amorphous }
+  shortdesc { A Amorphous blob is here, secreting digestive juices. }
+  longdesc {
+A quivering blob of flesh-like substances, this blob seems to have no head or
+tail.  Digestive juices flow like water from pores about it's body, covering
+the ground as it oozes towards you.
+  }
+  race { none }
+  height { 150 }
+  weight { 32000 }
+  level { 525 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 15 }
+  body { -100, 16 }
+  arms { -100, 10 }
+  legs { -100, 18 }
+  feet { -100, 20 }
+  hp { 80, 8, 13000  }
+  move { 300 }
+  experience { 635442 }
+  damage { 10, 10, 60  }
+  immune { electricity, blunt, poison, drain, sleep, charm }
+  resistant { pierce, slash }
+  susceptible { fire, cold }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60021
+{
+  name { Alvyn Gallax, a madman }
+  namelist { alvyn, gallax, madman }
+  shortdesc { Alvyn Gallax, a madman, is standing here screaming. }
+  longdesc {
+Driven mad long ago by the sight of his shadow attacking him, Alvyn Gallax
+does nothing but scream now.  Blood runs freely from open wounds across his
+body, and his shrill scream pierces the air.
+  }
+  race { human }
+  height { 178 }
+  weight { 20100 }
+  level { 478 }
+  alignment { -600 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -50, 9 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  hp { 20, 10, 15000  }
+  move { 300 }
+  experience { 652910 }
+  damage { 5, 10, 20  }
+  immune { drain, sleep, charm }
+  affected { detect-invisible, sanctuary }
+  act { scavenger, stay-zone }
+}
+
+60022
+{
+  name { A Shadow Dragon }
+  namelist { shadow dragon }
+  shortdesc { A Shadow Dragon is here, flickering in the light. }
+  longdesc {
+Formed of in-substantial shadow stuff, the shadow dragon exists on the prime
+material and the plane of shadows at the same time.  Dwarfing even the largest
+dragons on the prime material plane, the shadow dragon is impossobly huge.
+  }
+  race { dragon }
+  height { 376 }
+  weight { 220000 }
+  level { 511 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -160, 0 }
+  body { -160, 10 }
+  arms { -160, 10 }
+  legs { -160, 10 }
+  feet { -160, 10 }
+  hp { 50, 10, 22000  }
+  move { 300 }
+  experience { 1779919 }
+  damage { 7, 10, 30  }
+  immune { cold, poison, drain, sleep, charm }
+  affected { detect-invisible, sense-life, infravision, hide }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60023
+{
+  name { Sir Xavier }
+  namelist { Sir Xavier }
+  shortdesc { Sir Xavier stands here, sharpening his scimitar. }
+  longdesc {
+A paladin of the highest degree, Sir Xavier has been here for a long time.
+He stands tall and proud, filled with pride of being a paladin.  He looks like
+he is truly protected by god.
+  }
+  race { human }
+  height { 276 }
+  weight { 29000 }
+  level { 519 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3.5 }
+  strength { 25 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 10, 10, 30000  }
+  move { 300 }
+  experience { 799991 }
+  damage { 7, 10, 30  }
+  immune { poison, charm }
+  act { sentinel, stay-zone }
+}
+
+60024
+{
+  name { Mathew the Wizard }
+  namelist { mathew, wizard }
+  shortdesc { Mathew the Wizards stands here, practicing spells. }
+  longdesc {
+A Very powerful wizard, mathew is the right-hand man to Sir Xavier.
+  }
+  race { human }
+  height { 200 }
+  weight { 15000 }
+  level { 513 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -90, 9 }
+  body { -80, 5 }
+  arms { -80, 5 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 10, 20, 22500  }
+  move { 300 }
+  experience { 768666 }
+  damage { 4, 10, 20  }
+  immune { poison, sleep, charm, hold }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, scavenger, stay-zone }
+}
+
+60025
+{
+  name { A Mist }
+  namelist { mist }
+  shortdesc { A Mist is here, surrounding you. }
+  longdesc {
+Formed of nothing but air, the mist surrounds you completely.
+  }
+  race { none }
+  height { 130 }
+  weight { 23000 }
+  level { 496 }
+  alignment { -1000 }
+  gold { 40000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -120, 5 }
+  body { -100, 5 }
+  arms { -100, 5 }
+  legs { -100, 5 }
+  feet { -100, 5 }
+  hp { 50, 10, 12000  }
+  move { 300 }
+  experience { 588951 }
+  damage { 7, 7, 20  }
+  immune { poison, sleep, charm }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60026
+{
+  name { A Bone Guardian }
+  namelist { bone guardian skeleton }
+  shortdesc { A Bone Guardian is here, waiting to kill you. }
+  longdesc {
+Formed entirely of bones, this immense skeleton leaps form the surrounding
+bones to attack!
+  }
+  race { undead }
+  height { 320 }
+  weight { 70000 }
+  level { 479 }
+  alignment { -1000 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -90, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  hp { 30, 10, 15000  }
+  move { 300 }
+  experience { 588911 }
+  damage { 4, 10, 10  }
+  immune { poison, drain, sleep, charm, hold, backstab }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60027
+{
+  name { A Shadow }
+  namelist { shadow }
+  shortdesc { A shadow flickers here, withdrawing from the light. }
+  longdesc {
+Barely able to see it, you cringe at the sight of your own shadows attacking
+you.
+  }
+  race { none }
+  height { 160 }
+  weight { 3000 }
+  level { 315 }
+  alignment { -1000 }
+  gold { 22500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -20, 9 }
+  body { -20, 9 }
+  arms { -20, 9 }
+  legs { -20, 9 }
+  feet { -20, 9 }
+  hp { 10, 20, 4500  }
+  move { 300 }
+  experience { 349959 }
+  damage { 3, 10, 15  }
+  immune { poison, drain, sleep, charm, hold }
+  affected { detect-invisible, sense-life, infravision, sneak }
+  act { scavenger, aggressive, stay-zone }
+}
+
+60028
+{
+  name { A Soul Beckoner }
+  namelist { soul beckoner }
+  shortdesc { A Soul Beckoner stands here, wailing eeriely. }
+  longdesc {
+a humanoid shape with large wings, the soul beckoner is a pitiful
+creature, feeding off of the souls of living beings.
+  }
+  race { undead }
+  height { 187 }
+  weight { 3000 }
+  level { 506 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -90, 10 }
+  arms { -50, 10 }
+  legs { -50, 25 }
+  feet { -50, 20 }
+  hp { 50, 10, 19000  }
+  move { 300 }
+  experience { 714360 }
+  damage { 3, 10, 10  }
+  immune { poison, drain, sleep, charm, hold }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60029
+{
+  name { A Greater Flame }
+  namelist { flame greater }
+  shortdesc { A Greater Flame is here, flickering, burning brightly. }
+  longdesc {
+A mass of flame, the Greater Flame burns brightly.
+  }
+  race { planar }
+  height { 167 }
+  weight { 100 }
+  level { 501 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -99, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  hp { 50, 50, 18000  }
+  move { 300 }
+  experience { 751246 }
+  damage { 2, 10, 10  }
+  immune { fire, sleep, charm, hold }
+  resistant { electricity, energy }
+  susceptible { cold }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, stay-zone }
+}
+
+60030
+{
+  name { A Minor Flame }
+  namelist { flame minor }
+  shortdesc { A Minor Flame is here, burning playfully. }
+  longdesc {
+Burning brightly, the minor flame like to play tricks.  He circles
+around you, reaching to touch you....
+
+
+OUCH! That really did HURT!
+  }
+  race { planar }
+  height { 150 }
+  weight { 100 }
+  level { 481 }
+  alignment { 300 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 10 }
+  feet { -80, 10 }
+  hp { 10, 10, 13000  }
+  move { 300 }
+  experience { 562592 }
+  damage { 2, 10, 5  }
+  immune { fire, drain, sleep, charm, hold }
+  resistant { electricity, energy }
+  susceptible { cold }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, stay-zone, wimpy }
+}
+
+60031
+{
+  name { A Flaming Griffin }
+  namelist { flaming griffin }
+  shortdesc { A Flaming Griffin stands here silently. }
+  longdesc {
+A Mass of flame, towering far above you, the flaming griffin stands
+silently.  A majestic head scans the entire countryside, then it spots you.
+It regards you with curiosity for a moment, then looks away.
+  }
+  race { planar }
+  height { 376 }
+  weight { 3000 }
+  level { 506 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 15 }
+  body { -100, 20 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 20, 20, 19501  }
+  move { 300 }
+  experience { 730940 }
+  damage { 6, 10, 20  }
+  immune { fire, poison, drain, sleep, charm, hold }
+  resistant { electricity, energy }
+  susceptible { cold }
+  affected { detect-invisible, infravision }
+  act { sentinel, scavenger, stay-zone }
+}
+
+60032
+{
+  name { The Protector of the Flames }
+  namelist { protector flame }
+  shortdesc { The Protector of the Flames stands here, silently observing you. }
+  longdesc {
+'Have you harmed my children?' a tall flaming figure asks.  'Of course
+not,' he replies, 'you wouldn't.'  He grins evilly.  'Cause then you would have
+to deal with me.'
+  }
+  race { planar }
+  height { 201 }
+  weight { 3000 }
+  level { 525 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 7 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  hp { 10, 10, 29000  }
+  move { 300 }
+  experience { 828317 }
+  damage { 2, 10, 1  }
+  immune { fire, acid, poison, drain, sleep, charm, hold }
+  resistant{ electricity, energy }
+  susceptible { cold }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, scavenger, stay-zone, wimpy }
+}
+
+60033
+{
+  name { A Burning Shadow }
+  namelist { burning flame shadow }
+  shortdesc { A Shadow stands here, burning birghtly. }
+  longdesc {
+Utterly miserable, this burning shadow hates it here.  It seems to have
+wandered in here and caught fire.  It looks pissed off.
+  }
+  race { planar }
+  height { 120 }
+  weight { 1000 }
+  level { 515 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -50, 5 }
+  body { -100, 10 }
+  arms { -50, 5 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  hp { 40, 50, 12000  }
+  move { 300 }
+  experience { 538718 }
+  damage { 3, 10, 20  }
+  immune { fire, poison, drain, sleep, charm, hold }
+  resistant { electricity, energy }
+  susceptible { cold }
+  affected { detect-invisible, sense-life, infravision, sneak }
+  act { scavenger, aggressive, stay-zone, wimpy }
+}
+
+60034
+{
+  name { A shadow mastiff }
+  namelist { shadow mastiff dog }
+  shortdesc { A Shadow Mastiff is here, baying loudly. }
+  longdesc {
+This shadow resembles a dog.  It sends a shiver down your spine as it howls
+loudly.
+  }
+  race { none }
+  height { 60 }
+  weight { 4000 }
+  level { 277 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { -50, 5 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  hp { 10, 20, 3000  }
+  move { 300 }
+  experience { 309415 }
+  damage { 3, 10, 10  }
+  immune { poison, drain, sleep, charm, hold }
+  affected { detect-invisible, sense-life, sanctuary, infravision, sneak }
+  act { aggressive, stay-zone }
+}
+
+60035
+{
+  name { A summoned shadow }
+  namelist { shadow summoned }
+  shortdesc { A Summoned shadow stands here, looking very angry. }
+  longdesc {
+Haveing been ripped from its home with magic, this shadow looks
+very angry.
+  }
+  race { none }
+  height { 250 }
+  weight { 100 }
+  level { 509 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 9 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 70, 10, 21590  }
+  move { 300 }
+  experience { 875777 }
+  damage { 10, 10, 30  }
+  immune { poison, drain, sleep, charm, hold }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+60036
+{
+  name { Loliadac the Rakashaka }
+  namelist { loliadac rakashaka }
+  shortdesc { Loliadac the Rakashaka stands here, grinning evilly. }
+  longdesc {
+With all five head turned on you, Loliadac is a truly gruesome creature.
+A mantis, a crocodile, a gorilla, a human and a tiger mashed into one,
+Loliadac is your worst nightmare.
+  }
+  race { none }
+  height { 290 }
+  weight { 40000 }
+  level { 555 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 9 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  hp { 100, 20, 30000  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 10, 60  }
+  immune { poison, drain, sleep, charm, hold }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+60037
+{
+  name { An Animated Suit of Armor }
+  namelist { suit armor animated }
+  shortdesc { An animated suit of armor is standing here, blocking your way. }
+  longdesc {
+Enchanted by some powerful magic, these suits of armor look tough.
+  }
+  race { none }
+  height { 176 }
+  weight { 30000 }
+  level { 499 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -50, 10 }
+  body { -50, 10 }
+  arms { -50, 10 }
+  legs { -50, 10 }
+  feet { -50, 10 }
+  hp { 80, 10, 12000  }
+  move { 300 }
+  experience { 534072 }
+  damage { 4, 10, 40  }
+  immune { poison, drain, sleep, charm }
+  resistant { blunt, pierce, slash }
+  act { sentinel, stay-zone }
+}
+
+60038
+{
+  name { A Large Skeleton }
+  namelist { skeleton }
+  shortdesc { A Large skeleton is here, beckoning you closer. }
+  longdesc {
+Seeminly unable to let go of life, this skeleton is rather nice.  It has
+good manners, speaks well, but smells rather bad.  About it's neck you can
+see a small silver cross, and it is wielding a rusty dagger.
+  }
+  race { undead }
+  height { 199 }
+  weight { 4500 }
+  level { 513 }
+  alignment { 1000 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 50, 50, 16000  }
+  move { 300 }
+  experience { 774660 }
+  damage { 5, 10, 30  }
+  immune { fire, poison, drain, sleep, charm, hold, backstab }
+  resistant { slash }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, stay-zone }
+}
+
+60039
+{
+  name { The Judgement Maker }
+  namelist { maker judgement judge }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 20, 20, 300  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+60040
+{
+  name { A Small Dragon }
+  namelist { small dragon }
+  shortdesc { A Small Dragon stands here, whistling to itself. }
+  longdesc {
+It appears to be a tiny dragon, with big nasty sharp teeth.
+  }
+  race { dragon }
+  height { 80 }
+  weight { 18000 }
+  level { 504 }
+  alignment { 300 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -90, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  hp { 10, 20, 19000  }
+  move { 300 }
+  experience { 716033 }
+  damage { 4, 10, 30  }
+  immune { fire, drain, sleep, charm }
+  resistant { pierce, slash }
+  affected { detect-invisible, infravision }
+  act { scavenger, stay-zone, deadly }
+}
+
+60041
+{
+  name { The First Champion }
+  namelist { first champion }
+  shortdesc { The First Champion stands here, waiting for you. }
+  longdesc {
+He looks tuff.  Very tuff.  I wouldnt mess with him if I were you.
+
+The First Champion grins evilly.
+  }
+  race { human }
+  height { 201 }
+  weight { 30000 }
+  level { 515 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 10 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 1, 1, 29999  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 10, 50  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, stay-zone }
+}
+
+60042
+{
+  name { The Second Champion }
+  namelist { second champion }
+  shortdesc { The Second Champion stands here, practicing her spells. }
+  longdesc {
+Look just about as tough as the first champion.
+  }
+  race { human }
+  height { 140 }
+  weight { 10000 }
+  level { 525 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 10 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 1, 1, 24999  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 10, 50  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, stay-zone }
+}
+
+60043
+{
+  name { The Third Champion }
+  namelist { third champion }
+  shortdesc { The Third Champion is here, emerging from the shadows. }
+  longdesc {
+Whoah!  It just came out of no-where.....
+  }
+  race { human }
+  height { 200 }
+  weight { 20000 }
+  level { 535 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 10 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 1, 1, 29999  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 10, 50  }
+  immune { charm }
+  affected { sanctuary, sneak }
+  act { sentinel, aggressive, stay-zone }
+}
+
+60044
+{
+  name { The Fourth Champion }
+  namelist { Fourth champion }
+  shortdesc { The Fourth Champion stands here, waiting to begin. }
+  longdesc {
+He looks impossible to kill.  Or at least, very nearly so.
+  }
+  race { human }
+  height { 201 }
+  weight { 40000 }
+  level { 545 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 10 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 1, 1, 29999  }
+  move { 300 }
+  experience { 900000 }
+  damage { 10, 10, 50  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, stay-zone }
+}
+
+60045
+{
+  name { Santa Claws }
+  namelist { santa claws }
+  shortdesc { Santa Claws stands here throwing around nicely wrapped gifts }
+  longdesc {
+A very old man, with an evil grin on is face is here. His beard is long
+and dirty, it looks like he's fell of the sled a few too many times on 
+his terrifying journeys. You feel almost charmed to tag along on a ride!
+  }
+  race { human }
+  height { 201 }
+  weight { 24000 }
+  level { 501 }
+  alignment { 0 }
+  gold { 5000000 }
+  hit_bonus { 50 }
+  dam_bonus { 30 }
+  attacks_per_round { 8 }
+  head { -170, 30 }
+  body { -150, 30 }
+  arms { -120, 30 }
+  legs { -120, 30 }
+  feet { -100, 30 }
+  hp { 10, 625, 79358  }
+  move { 300 }
+  experience { 2774449 }
+  damage { 5, 25, 20  }
+  caster { 50 }
+  spells { charm person, weakness, ice lance }
+  immune { charm }
+  affected { sanctuary }
+  act { stay-zone }
+}
+60046
+{
+  name { Mina, Queen of the Fatal }
+  namelist { queen mina angel fatal }
+  shortdesc { A tall angelic woman stands here with a menacing look in her eyes.
+Mina, Queen of the Fatal glows with a black aura! }
+  longdesc {
+A tall angelic woman stands here with a menacing look in her eyes
+Mina was a human offspring of an angel.  She was bitten by the Vampire Phardrad to 
+become his queen.  Once transformed, her angelic nature merged with vampire blood to
+create a monster of extraordinary power.  She found Phardard beneath her, so she 
+cast him aside and took over the dark realm for her own.  She coupled with the 
+Dark God, Velsha Kalan to sire Setra and Prince Vlad, whom she later deamed worthy
+to be her lover.
+}
+  race { vampire }
+  height { 201 }
+  weight { 24000 }
+  sex { female }
+  level { 565 }
+  alignment { -1000 }
+  gold { 4000000 }
+  hit_bonus { 47 }
+  dam_bonus { 55 }
+  attacks_per_round { 4 }
+  head { -200, 32 }
+  body { -200, 32 }
+  arms { -180, 26 }
+  legs { -180, 26 }
+  feet { -180, 26 }
+  resist_fire { 200 }
+  resist_acid { 200 }
+  resist_cold { 200 }
+  resist_magic { 200 }
+  hp { 10, 35, 41358  }
+  move { 300 }
+  experience { 8974449 }
+  damage { 5, 7, 53 }
+  caster { 95 }
+  spells { repulsor, charm person, disruptor, dispel magic, sleep }
+  immune { poison, charm, sleep, fire }
+  affected { sanctuary, true-sight, detect-invisible, sense-life, infravision }
+  act { aggressive, sentinel, hunting, healer }
+}
+
+63501
+{       name { The Schizomidae }
+        namelist { spider scorpion schizomidae }
+        short { A Schizomidae is lying here legs spread, blending into
+  the rock. }
+        long {
+Commonly called whip scorpions, they appear as a cross between a spider
+and
+a scorpion. This type is equiped with fearsome-looking mandibles. Strong
+  and quick as hell, they are very dangerous. }
+        experience { 255000 }
+        gold { 5000 }
+        level { 230 }
+        hp { 5, 150, 3000 }
+        attacks_per_round { 3 }
+        alignment { -100 }
+        damage { 3, 9, 5 }
+        act { aggressive, wimpy, stay-zone }
+        affected { infravision, sneak }
+        resistant { cold, pierce, charm }
+        race { Arachnid }
+        height { 190 }
+        weight { 12500 }
+        head { -50, 5 }
+        body { -50, 5 }
+        arms { -50, 5 }
+        legs { -50, 5 }
+        feet { -50, 5 }
+        strength { 16 }
+        hit_bonus { 10 }
+        dam_bonus { 5 }
+}
+
+63502
+{       name { The Amblypygi }
+        namelist { spider scorpion amblypygi }
+        short { A Amblypygi is waiting here for something to hunt. }
+        long {
+Commonly called whip scorpions, they appear as a cross between a spider
+and
+a scorpion. This type is equiped with two fearsome-looking spine pincers
+and two whip-like appendages. Strong and quick, they are very dangerous.
+  }
+        experience { 260000 }
+        gold { 9000 }
+        level { 340 }
+        hp { 5, 200, 3500 }
+        attacks_per_round { 5 }
+        alignment { -100 }
+        damage { 3, 9, 7 }
+        act { aggressive, stay-zone }
+        affected { infravision, detect-invisible }
+        resistant { cold, pierce, charm }
+        susceptible { fire, blunt }
+        race { Arachnid }
+        height { 200 }
+        weight { 13500 }
+        head { -60, 6 }
+        body { -60, 6 }
+        arms { -60, 6 }
+        legs { -60, 6 }
+        feet { -60, 6 }
+        strength { 17 }
+        hit_bonus { 10 }
+        dam_bonus { 5 }
+}
+
+63503
+{       name { The Uropygi }
+        namelist { spider scorpion uropygi }
+        short { A Uropygi stands here motionless, waiting for food to
+  come. }
+        long {
+Commonly called whip scorpions, they appear as a cross between a spider
+and
+a scorpion. This type is equiped with two fearsome-looking spine pincers
+and two whip-like appendages and a whip tail. Strong and fast, they are
+  very dangerous. }
+        experience { 275000 }
+        gold { 11000 }
+        level { 300 }
+        hp { 3, 200, 3500 }
+        attacks_per_round { 5 }
+        alignment { -100 }
+        damage { 3, 9, 9 }
+        act { aggressive, stay-zone }
+        affected { infravision, detect-invisible, sense-life }
+        resistant { cold, pierce, charm }
+        susceptible { fire, blunt }
+        race { Arachnid }
+        height { 210 }
+        weight { 14500 }
+        head { -40, 4 }
+        body { -40, 4 }
+        arms { -40, 4 }
+        legs { -40, 4 }
+        feet { -40, 4 }
+        strength { 19 }
+        hit_bonus { 12 }
+        dam_bonus { 5 }
+}
+
+63504
+{       name { The young Nightcrawler }
+        namelist { young nightcrawler }
+        short { A young Nightcrawler moves here, searching for food. }
+        long {
+Usually found in the deep depths of the earth, it is a baby Nightshade
+40' long and shiny black, the great mouth large and looks like it
+inflicts
+  horrible wounds, while the sting on the tail holds vile poison. }
+        experience { 245000 }
+        gold { 10000 }
+        level { 280 }
+        hp { 6, 100, 2500 }
+        attacks_per_round { 2 }
+        alignment { -600 }
+        damage { 15, 5, 25 }
+        act { aggressive, stay-zone, deadly }
+        affected { infravision, sense-life }
+        immune { blunt, charm, poison, cold }
+        resistant { non-magical, plus 1, pierce }
+        race { Parasite }
+        height { 1200 }
+        weight { 200000 }
+        head { -45, 5 }
+        body { -35, 5 }
+        arms { -35, 5 }
+        legs { -35, 5 }
+        feet { -45, 5 }
+        strength { 19 }
+        hit_bonus { 10 }
+        dam_bonus { 5 }
+}
+
+63505
+{       name { An adult Nightcrawler }
+        namelist { adult nightcrawler }
+        short { An adult Nightcrawler moves here, searching for food. }
+        long {
+Usually found in the deep depths of the earth, it is a young adult
+Nightshade
+60' long and shiny black, the great mouth large and looks like it
+inflicts
+  horrible wounds, while the sting on the tail holds vile poison. }
+        experience { 275000 }
+        gold { 12000 }
+        level { 300 }
+        hp { 7, 100, 3500 }
+        attacks_per_round { 2 }
+        alignment { -800 }
+        damage { 15, 7, 30 }
+        act { aggressive, stay-zone, deadly }
+        affected { infravision, sense-life, detect-invisible }
+        immune { blunt, charm, poison, cold, hold }
+        resistant { non-magical, plus 1, pierce, sleep }
+        race { Parasite }
+        height { 1799 }
+        weight { 300000 }
+        head { -50, 6 }
+        body { -40, 6 }
+        arms { -40, 6 }
+        legs { -40, 6 }
+        feet { -50, 6 }
+        strength { 20 }
+        hit_bonus { 13 }
+        dam_bonus { 7 }
+}
+
+63506
+{       name { A Great Nightcrawler }
+        namelist { great nightcrawler }
+        short { A Great Nightcrawler rises 30ft above you, as you enter!
+  }
+        long {
+Usually found in the deep depths of the earth, it is a Nightshade 60'
+long
+and shiny black, the great mouth large and looks like it inflicts
+horrible
+wounds, while the sting on the tail holds vile poison. This is full blown
+  one, a lord of the deep earth. }
+        experience { 365000 }
+        gold { 17000 }
+        level { 375 }
+        hp { 9, 100, 6200 }
+        attacks_per_round { 2 }
+        alignment { -1000 }
+        damage { 20, 7, 40 }
+        act { aggressive, deadly, sentinel, stay-zone }
+        affected { infravision, true-sight }
+        immune { blunt, charm, poison, cold, hold, sleep, drain }
+        resistant { non-magical, plus 1, plus 2, pierce }
+        race { Parasite }
+        height { 3000 }
+        weight { 420000 }
+        head { -65, 9 }
+        body { -55, 9 }
+        arms { -55, 9 }
+        legs { -55, 9 }
+        feet { -65, 9 }
+        strength { 23 }
+        hit_bonus { 15 }
+        dam_bonus { 10 }
+}
+
+63507
+{       name { The Grey Margot }
+        namelist { grey margot }
+        short { A grey Margot stands here, gnashing it's great mouth. }
+        long {
+Margots are hideous giant maws set upon three thick legs that end in
+  thick three-toed pads. Three eyes are set on long muscled stalks. }
+        experience { 275000 }
+        gold { 5000 }
+        level { 300 }
+        hp { 5, 100, 3700 }
+        mana { 750 }
+        attacks_per_round { 4 }
+        alignment { -600 }
+        damage { 3, 10, 10 }
+        act { scavenger, aggressive, stay-zone, healer }
+        affected { invisible, infravision, detect-invisible }
+        immune { fire }
+        resistant { blunt, charm }
+        race { Dinosaur }
+        height { 300 }
+        weight { 90000 }
+        head { -55, 9 }
+        body { -50, 8 }
+        arms { -45, 7 }
+        legs { -45, 8 }
+        feet { -45, 6 }
+        strength { 20 }
+        hit_bonus { 15 }
+        dam_bonus { 9 }
+}
+
+63508
+{       name { The Dusky Margot }
+        namelist { dusky margot }
+        short { A dusky Margot is stomping about, gnashing it's teeth. }
+        long {
+Margots are hideous giant maws set upon three thick legs that end in
+  thick three-toed pads. Three eyes are set on long muscled stalks. }
+        experience { 325000 }
+        gold { 5000 }
+        level { 340 }
+        hp { 10, 100, 4700 }
+        mana { 900 }
+        attacks_per_round { 4 }
+        alignment { -600 }
+        damage { 4, 10, 15 }
+        act { scavenger, aggressive, stay-zone, healer }
+        affected { invisible, infravision, detect-invisible, sense-life }
+        immune { fire }
+        resistant { blunt, charm, hold }
+        race { Dinosaur }
+        height { 360 }
+        weight { 110000 }
+        head { -60, 11 }
+        body { -55, 9 }
+        arms { -50, 8 }
+        legs { -50, 9 }
+        feet { -50, 6 }
+        strength { 22 }
+        hit_bonus { 18 }
+        dam_bonus { 11 }
+}
+
+63509
+{       name { The black Margot }
+        namelist { black margot }
+        short { A black Margot stomps it's great pads, bringing dust
+  down. }
+        long {
+Margots are hideous giant maws set upon three thick legs that end in
+  thick three-toed pads. Three eyes are set on long muscled stalks. }
+        experience { 355000 }
+        gold { 6000 }
+        level { 370 }
+        hp { 11, 100, 5700 }
+        mana { 1200 }
+        attacks_per_round { 4 }
+        alignment { -600 }
+        damage { 4, 10, 15 }
+        act { scavenger, sentinel, aggressive, healer, stay-zone }
+        affected { invisible, infravision, true-sight }
+        immune { fire }
+        resistant { blunt, charm, hold }
+        race { Dinosaur }
+        height { 420 }
+        weight { 150000 }
+        head { -65, 14 }
+        body { -60, 12 }
+        arms { -55, 11 }
+        legs { -55, 12 }
+        feet { -55, 9 }
+        strength { 24 }
+        hit_bonus { 22 }
+        dam_bonus { 16 }
+}
+
+63510
+{       name { The Being }
+        namelist { mist being}
+        short { A mist is swirling and flowing here. }
+        long {
+Facing the mist, waves of deathly chill wash over you. Already your face
+begins to frostbite. The mist undulates and pulses slowly. Tendres of
+  glittering white float out to touch you. }
+        experience { 410000 }
+        gold { 0 }
+        level { 425 }
+        hp { 10, 100, 8200 }
+        mana { 1600 }
+        attacks_per_round { 9 }
+        alignment { -1000 }
+        damage { 2, 10, 20 }
+        act { scavenger, sentinel, aggressive, stay-zone }
+        affected { sense-life, flying }
+        immune { charm, plus 1, plus 2, acid, poison, cold, electricity }
+        resistant { pierce, energy }
+        susceptible { fire }
+        race { Ghost }
+        height { 210 }
+        weight { 100 }
+        head { -65, 15 }
+        body { -65, 15 }
+        arms { -65, 15 }
+        legs { -65, 15 }
+        feet { -65, 15 }
+        hit_bonus { 20 }
+        dam_bonus { 5 }
+}
+
+63511
+{       name { Shades }
+        namelist { shade shades }
+        short { Shades is here exploring. }
+        long {
+Looking closer, you can see right through Shades. He is in fact a Shade!
+>From what you recall, a Shade is a powerful mortal that has found a way
+  to become part shadow. Living forever yet weak in pure light or dark. }
+        experience { 340000 }
+        gold { 10000 }
+        level { 350 }
+        hp { 12, 100, 5000 }
+        mana { 1400 }
+        attacks_per_round { 7 }
+        alignment { 0 }
+        damage { 2, 8, 3 }
+        act { scavenger, wimpy }
+        affected { detect-magic, flying, infravision, sneak }
+        immune { drain, plus 1, plus 2, poison }
+        resistant { charm, hold, fire, cold, acid, electricity }
+        susceptible { energy }
+        race { ghost }
+        height { 186 }
+        weight { 9500 }
+        head { -50, 12 }
+        body { -40, 12 }
+        arms { -50, 12 }
+        legs { -50, 12 }
+        feet { -50, 12 }
+        strength { 19 }
+        hit_bonus { 10 }
+        dam_bonus { 5 }
+}
+
+63512
+{       name { The Drow scout }
+        namelist { drow scout }
+        short { A Drow dressed in scout fashon, stands in the shadows
+  here. }
+        long {
+Ebon skinned and dressed in black armor that denotes him as a powerful
+  scout. }
+        experience { 185000 }
+        gold { 6000 }
+        level { 250 }
+        hp { 7, 100, 2000 }
+        mana { 1000 }
+        attacks_per_round { 6 }
+        alignment { -1000 }
+        damage { 2, 6, 4 }
+        act { scavenger, wimpy, sentinel, aggressive }
+        affected { hide, sneak, infravision, detect-invisible }
+        immune { charm }
+        race { Elven }
+        height { 160 }
+        weight { 14000 }
+        head { 0, 1 }
+        body { 0, 1 }
+        arms { 0, 1 }
+        legs { 0, 1 }
+        feet { 0, 1 }
+        strength { 15 }
+        hit_bonus { 10 }
+        dam_bonus { 5 }
+}
+
+63513
+{       name { An Aquatic }
+        namelist { demon aquatic }
+        short { An Aquatic swims out of the dark at you. }
+        long {
+Thought to be kin to demons, the Aquatic's octopus-like head sports a
+fanged
+maw that snaps as it's glassy black eyes fasten on you. Four tentacles
+grow
+  from the body that tapers into a fish-like tail. }
+        experience { 30000 }
+        gold { 1000 }
+        level { 120 }
+        hp { 2, 50, 850 }
+        attacks_per_round { 5 }
+        alignment { -800 }
+        damage { 2, 9, 5 }
+        act { aggressive, stay-zone }
+        affected { infravision, water-breath }
+        immune { non-magical }
+        resistant { charm, cold, slash }
+        susceptible { electricity }
+        race { Demon }
+        height { 300 }
+        weight { 50000 }
+        head { -10, 5 }
+        body { -30, 6 }
+        arms { -20, 5 }
+        legs { -20, 5 }
+        feet { -20, 5 }
+        strength { 16 }
+        hit_bonus { 7 }
+        dam_bonus { 4 }
+}
+
+63514
+{       name { The small Galeb Duhr }
+        namelist { small galeb duhr }
+        short { A smallish boulder lies here. }
+        long {
+A curious boulder-like creature. The Galeb Duhr moves upon two large
+apendages that can serve as both hands and feet. Small mushrooms and
+  lichen grows upon it's surface. }
+        experience { 195000 }
+        gold { 5000 }
+        level { 250 }
+        hp { 6, 100, 2000 }
+        attacks_per_round { 2 }
+        alignment { 0 }
+        damage { 2, 10, 10 }
+        act { scavenger, wimpy }
+        affected { protect-evil, infravision, detect-evil }
+        immune { charm, cold, electricity, energy, poison }
+        susceptible { acid }
+        race { Element }
+        height { 240 }
+        weight { 180000 }
+        head { -50, 11 }
+        body { -50, 11 }
+        arms { -50, 11 }
+        legs { -50, 11 }
+        feet { -50, 11 }
+        strength { 20 }
+        hit_bonus { 14 }
+        dam_bonus { 9 }
+}
+
+63515
+{       name { The large Galeb Duhr }
+        namelist { large galeb duhr }
+        short { A large boulder lies here. }
+        long {
+A curious boulder-like creature. The Galeb Duhr moves upon two large
+apendages that can serve as both hands and feet. Small mushrooms and
+  lichen grows upon it's surface. }
+        experience { 250000 }
+        gold { 7000 }
+        level { 280 }
+        hp { 5, 100, 3000 }
+        attacks_per_round { 2 }
+        alignment { 0 }
+        damage { 2, 15, 15 }
+        act { scavenger }
+        affected { protect-evil, infravision, detect-evil }
+        immune { charm, cold, electricity, energy, poison }
+        susceptible { acid }
+        race { Element }
+        height { 300 }
+        weight { 240000 }
+        head { -60, 13 }
+        body { -60, 13 }
+        arms { -60, 13 }
+        legs { -60, 13 }
+        feet { -60, 13 }
+        strength { 22 }
+        hit_bonus { 17 }
+        dam_bonus { 10 }
+}
+
+63516
+{       name { The King Galeb Duhr }
+        namelist { king galeb duhr }
+        short { A large boulder with veins of gold and silver, stands
+  here. }
+        long {
+A curious noble boulder-like creature. There is a vaguely humanoid
+visage,
+  turned in your direction. The eyes hold wisdom and look kindly. }
+        experience { 330000 }
+        gold { 10000 }
+        level { 325 }
+        hp { 7, 100, 5100 }
+        attacks_per_round { 2 }
+        alignment { 50 }
+        damage { 2, 20, 20 }
+        act { scavenger }
+        affected { protect-evil, true-sight, detect-evil }
+        immune { charm, cold, electricity, energy, poison }
+        resistant { fire, slash, pierce, hold }
+        susceptible { acid }
+        race { Element }
+        height { 360 }
+        weight { 280000 }
+        head { -75, 17 }
+        body { -75, 17 }
+        arms { -75, 17 }
+        legs { -75, 17 }
+        feet { -75, 17 }
+        strength { 24 }
+        hit_bonus { 21 }
+        dam_bonus { 15 }
+}
+
+63517
+{       name { The Nightwing }
+        namelist { nightwing }
+        short { A Nightwing glides silently out of the darkness toward
+  you! }
+        long {
+A Nightshade, similar to a gigantic bat. Solid black, with a 50'
+wingspread!
+  It moves on silent wings as it homes in on you. }
+        experience { 350000 }
+        gold { 0 }
+        level { 375 }
+        hp { 7, 100, 6300 }
+        attacks_per_round { 1 }
+        alignment { -1000 }
+        damage { 22, 7, 40 }
+        act { aggressive, deadly, stay-zone }
+  affected { true-sight, sneak }
+        immune { charm, poison, cold, hold, sleep }
+        resistant { non-magical, plus 1, plus 2, pierce }
+        race { Parasite }
+        height { 360 }
+        weight { 70000 }
+        head { -60, 6 }
+        body { -60, 9 }
+        arms { -50, 3 }
+        legs { -55, 5 }
+        feet { -55, 5 }
+        strength { 20 }
+        hit_bonus { 15 }
+        dam_bonus { 10 }
+}
+
+63518
+{       name { The White Kraken }
+        namelist { white kraken albino }
+        short { A huge White Kraken has arrived from the depths. }
+        long {
+A gigantic squid-like creature. Ten of the twelve tentacles, surrounding
+a huge beaked mouth, whip out to attack. Looking into the eyes, you see
+intelligence laced with evil. This perticular Kraken is albino white and
+  has grown even larger than it's surface brothers. }
+        experience { 450000 }
+        gold { 20000 }
+        level { 450 }
+        hp { 10, 150, 8000 }
+        mana { 1600 }
+        attacks_per_round { 10 }
+        alignment { -1000 }
+        damage { 5, 8, 10 }
+        act { scavenger, sentinel, aggressive, healer, stay-zone }
+        affected { true-sight, water-breath, sanctuary, infravision }
+        immune { cold, non-magical, plus 1, plus 2, sleep }
+        resistant { charm, fire, blunt }
+        susceptible { electricity }
+        race { predator }
+        height { 750 }
+        weight { 200000 }
+        head { -70, 5 }
+        body { -75, 10 }
+        arms { -80, 7 }
+        legs { -70, 6 }
+        feet { -70, 6 }
+        strength { 23 }
+        hit_bonus { 15 }
+        dam_bonus { 10 }
+}
+
+63519
+{       name { The Aboleth }
+        namelist { common aboleth }
+        short { The huge bulk of an Aboleth looms out of the dark waters.
+  }
+        long {
+Resembles a large, blue-green fish which lacks all fins but the caudal.
+The
+body is 20' long and has a head with three large, slitlike eyes and four
+  10' long tentacles. }
+        experience { 320000 }
+        gold { 10000 }
+        level { 325 }
+        hp { 10, 100, 4200 }
+        mana { 800 }
+        attacks_per_round { 4 }
+        alignment { -1000 }
+        damage { 2, 10, 10 }
+        act { scavenger, aggressive, stay-zone }
+        affected { detect-invisible, water-breath, infravision }
+        immune { charm, sleep, hold }
+        resistant { cold, fire, blunt, non-magical, acid }
+        susceptible { electricity }
+        race { predator }
+        height { 600 }
+        weight { 350000 }
+        head { -45, 9 }
+        body { -45, 10 }
+        arms { -50, 3 }
+        legs { -45, 7 }
+        feet { -50, 7 }
+        strength { 19 }
+        hit_bonus { 24 }
+        dam_bonus { 10 }
+}
+
+63520
+{       name { Utmodoch }
+        namelist { utmodoch shator demodand }
+        short {
+  Utmodoch, Sovereign Shator Demodand, is sitting upon the throne. }
+        long {
+The huge bulk of a Shator Demodand sits upon the throne. Utmodoch is here
+trying to get a foothold on the realms. He hopes to soon add it to the
+  planes that he already rules. }
+        experience { 380000 }
+        gold { 30000 }
+        level { 410 }
+        hp { 7, 100, 7500 }
+        mana { 2200 }
+        attacks_per_round { 4 }
+        alignment { -1000 }
+        damage { 5, 6, 10 }
+        act { scavenger, aggressive, sentinel, stay-zone }
+        affected { detect-invisible, sense-life, infravision, flying }
+        immune { sleep, hold, acid, poison }
+        resistant { charm, slash, cold, fire, non-magical, plus 1, plus 2
+  }
+        race { Planar }
+        height { 190 }
+        weight { 60000 }
+        head { -65, 8 }
+        body { -65, 10 }
+        arms { -65, 7 }
+        legs { -65, 7 }
+        feet { -65, 6 }
+        strength { 22 }
+        hit_bonus { 24 }
+        dam_bonus { 10 }
+}
+
+63521
+{       name { Ur-Vile }
+        namelist { count ur-vile vampire demon }
+        short {
+  Count Ur-Vile the Lord Entropic, stands here studying a wall. }
+        long {
+Count Ur-Vile smiles wickedly at you, revealing the teeth of a vampire.
+Once a Mage-Assassin, then a Vampire Lord, and now some kind of demon-
+vampire of great power. Ur-Vile is dressed in resplendent clothing and
+  armor of black. }
+        experience { 370000 }
+        gold { 10000 }
+        level { 380 }
+        hp { 7, 100, 7000 }
+        mana { 1800 }
+        attacks_per_round { 8 }
+        alignment { -1000 }
+        damage { 2, 10, 10 }
+        act { scavenger, aggressive, sentinel, stay-zone }
+        affected {
+  detect-invisible, sense-life, infravision, flying, sneak, water-breath }
+        immune { charm, pierce, sleep, poison, drain }
+        resistant { cold, non-magical, plus 1, plus 2 }
+        race { Undead }
+        height { 190 }
+        weight { 20000 }
+        head { -55, 4 }
+        body { -55, 4}
+        arms { -55, 4 }
+        legs { -55, 4 }
+        feet { -55, 4 }
+        strength { 20 }
+        hit_bonus { 19 }
+        dam_bonus { 16 }
+}
+
+63522
+{       name { Veron }
+        namelist { prince veron vampire demon }
+        short {
+  Prince Veron walks out of the darkness toward you, and grins. }
+        long {
+Prince Veron, Thain Evil looks back at you with evil contempt. When he
+grins you see that he is a vampire. Once a powerful Cleric, then a Prince
+of the Undead, he now is second in command to Utmodoch. The demon-vampire
+half-breed is devilishly handsome and is garbed in fine black cloths and
+  armor. }
+        experience { 360000 }
+        gold { 9000 }
+        level { 360 }
+        hp { 6, 100, 6500 }
+        mana { 1600 }
+        attacks_per_round { 8 }
+        alignment { -1000 }
+        damage { 2, 10, 10 }
+        act { scavenger, aggressive, stay-zone, healer }
+        affected {
+  detect-invisible, sense-life, infravision, flying, sneak, water-breath }
+        immune { charm, pierce, sleep, poison, drain }
+        resistant { cold, non-magical, plus 1, plus 2 }
+        race { Undead }
+        height { 190 }
+        weight { 20000 }
+        head { -50, 3 }
+        body { -50, 3 }
+        arms { -50, 3 }
+        legs { -50, 3 }
+        feet { -50, 3 }
+        strength { 19 }
+        hit_bonus { 18 }
+        dam_bonus { 6 }
+}
+
+63523
+{       name { The Great Thessalhydra }
+        namelist { thessalhydra hydra }
+        short { A gigantic creature, much like a hydra, notes your
+  arrival. }
+        long {
+Your gaze slides up a gigantic body of black shiny scales, to a mass of
+huge shiny black serpent heads with glowing red eyes, that twist in the
+darkness above you. As you watch, the serpent heads part to reviel the
+huge central mouth they fringe. A black pincer on the end of a serpentine
+  tail whips out of the darkness, aiming to sever your body in half. }
+        experience { 350000 }
+        gold { 20000 }
+        level { 350 }
+        hp { 7, 100, 5000 }
+        mana { 200 }
+        attacks_per_round { 10 }
+        alignment { -100 }
+        damage { 5, 6, 10 }
+        act {  sentinel, aggressive, stay-zone }
+        affected { infravision, sense-life }
+        immune { poison, hold }
+        resistant { charm }
+        race { Dinosaur }
+        height { 700 }
+        weight { 500000 }
+        head { -50, 6 }
+        body { -55, 8 }
+        arms { -50, 6 }
+        legs { -50, 6 }
+        feet { -50, 5 }
+        strength { 21 }
+        hit_bonus { 22 }
+        dam_bonus { 1 }
+}
+63524
+{
+  name { a mini-bunny }
+  namelist { mini bunny }
+  shortdesc { The mini-bunny stands here, Brrrrrrrrr.. }
+  longdesc {
+The image of Bunta, in a fucked up small form
+  }
+  race { pixie }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 30 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 30, 30, 450  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil, fireshield }
+  act { sentinel, deadly }
+}

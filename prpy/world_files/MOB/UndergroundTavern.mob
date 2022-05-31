@@ -1,0 +1,143 @@
+64496
+{
+  name { Grenob }
+  namelist { orc leader grenob }
+  shortdesc { The orcish leader Grenob stands here radiating evil. }
+  longdesc {
+   This particular orc seems to have been more affected by the radiation
+than his underlings.  His muscles are knotted up in bizarre contortions
+far beyond the usual deformity of orcs, and patches of wispy hair have
+sprouted up all over his body.
+  }
+  race { orc }
+  strength { 30 }
+  dexterity { 19 }
+  height { 160 }
+  weight { 10000 }
+  level { 500 }
+  alignment { -900 }
+  gold { 20000 }
+  hit_bonus { 20 }
+  dam_bonus { 30 }
+  attacks_per_round { 3 }
+  head { -75, 6 }
+  body { -75, 6 }
+  arms { -75, 6 }
+  legs { -75, 6 }
+  feet { -75, 6 }
+  hp { 5, 384, 14000  }
+  move { 300 }
+  experience { 617344 }
+  damage { 5, 4, 1  }
+  immune { charm, hold }
+  resistant { fire, cold, electricity }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+  caster { 60 }
+  spells { lightning bolt, lightning bolt, dispel magic }
+}
+
+64497
+{
+  name { an elite orc guard }
+  namelist { elite orc guard }
+  shortdesc { An elite orc guard stands here watching for intruders like you. }
+  longdesc {
+   The guard shows definite signs of severe mutation.  Unfortunately, the
+mutations all seem to have made it stronger!  Huge, bulging muscles stick
+out all over its body, and it surveys the room with a particularly keen
+gaze.
+  }
+  race { orc }
+  height { 160 }
+  weight { 10000 }
+  level { 300 }
+  alignment { -600 }
+  gold { 15000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -50, 6 }
+  feet { -50, 6 }
+  hp { 5, 384, 4500  }
+  move { 300 }
+  experience { 355000 }
+  damage { 5, 7, 5  }
+  immune { charm }
+  resistant { fire, cold, electricity, hold }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+64498
+{
+  name { an elite orc mage }
+  namelist { elite orc mage }
+  shortdesc { An elite orc mage weaves spells of protection here. }
+  longdesc {
+   Although not physically impressive, the mage is possessed of a
+disturbing air of self-assurance.  It seems to be in deep concentration,
+but you wonder if that is simply a ruse.
+  }
+  race { orc }
+  height { 160 }
+  weight { 10000 }
+  level { 400 }
+  alignment { -500 }
+  gold { 7000 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -35, 1 }
+  body { -35, 1 }
+  arms { -35, 1 }
+  legs { -35, 1 }
+  feet { -35, 1 }
+  hp { 4, 180, 1000  }
+  move { 300 }
+  experience { 105999 }
+  damage { 3, 5, 4  }
+  immune { charm }
+  resistant { fire, cold, electricity, hold }
+  affected { detect-invisible }
+  act { aggressive }
+  caster { 85 }
+  spells { lightning bolt, lightning bolt, dispel magic }
+}
+
+64499
+{
+  name { an orc fanatic }
+  namelist { orc fanatic }
+  shortdesc { An orc fanatic stands here looking rather crazed. }
+  longdesc {
+   The orc's eyes betray a complete and total lack of conscious thought...
+even more so than orcs in general, which is saying a lot.  It stands here
+fidgeting uncontrollably, waiting for something you can only wonder about.
+  }
+  race { orc }
+  height { 160 }
+  weight { 10000 }
+  level { 100 }
+  alignment { -350 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus {10 }
+  attacks_per_round { 3 }
+  head { -35, 2 }
+  body { -35, 2 }
+  arms { -35, 2 }
+  legs { -35, 2 }
+  feet { -35, 2 }
+  hp { 4, 50, 350  }
+  move { 300 }
+  experience { 16127 }
+  damage { 3, 6, 4  }
+  immune { charm }
+  resistant { fire, cold, electricity }
+  act { aggressive }
+}
+

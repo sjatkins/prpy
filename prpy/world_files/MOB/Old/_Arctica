@@ -1,0 +1,724 @@
+6800
+{
+  name { the Killer Penguin }
+  namelist { killer penguin }
+  shortdesc { The Killer Attack Penguin is standing here. }
+  longdesc {
+Penguin is a small arctic bird with a sharp beak and an evil look in its eye.
+It also has blood stains around its beak.
+  }
+  race { none }
+  level { 2 }
+  alignment { -200 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 321 }
+  damage { 1, 6, 2  }
+  act { sentinel, aggressive }
+}
+
+6801
+{
+  name { a huge white dragon }
+  namelist { dragon white }
+  shortdesc { A huge white dragon is here, its narrow red eyes glowing with rage. }
+  longdesc {
+This enormous winged serpent has snow white scales covering most of its
+colossal body.  Numerous holes in its huge wings tell of many fights as does
+the nicks in the horns on its head.  It smells as disgusting as only dragons
+do.
+  }
+  race { none }
+  height { 300 }
+  level { 426 }
+  alignment { -1000 }
+  gold { 32500 }
+  hit_bonus { 17 }
+  dam_bonus { 17 }
+  attacks_per_round { 5 }
+  head { -10, 6 }
+  body { -10, 6 }
+  arms { -10, 6 }
+  legs { -10, 6 }
+  feet { -10, 6 }
+  hp { 180, 8, 8000  }
+  move { 300 }
+  experience { 432680 }
+  damage { 2,16, 10  }
+  immune { charm, cold }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive }
+}
+
+6802
+{
+  name { an adolescent silver dragon }
+  namelist { dragon silver adolescent }
+  shortdesc { The adolescent Silver dragon stares at you curiously. }
+  longdesc {
+The silver dragon stares at you, in dismay, as it wakes when you
+arrives.  It says 'Oh, adventures welcome to my lair....', while
+it moves closer she tells you,'Beware there is a White dragon in this
+area...'
+  }
+  race { none }
+  height { 400 }
+  level { 229 }
+  alignment { 1000 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 5 }
+  head { -10, 9 }
+  body { -10, 9 }
+  arms { -30, 12 }
+  legs { -30, 12 }
+  feet { -10, 9 }
+  hp { 20, 8, 2000  }
+  move { 300 }
+  experience { 179795 }
+  damage { 2, 18, 10  }
+  immune { charm, energy }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+6803
+{
+  name { the Killer Emperor Penguin }
+  namelist { emperor penguin }
+  shortdesc { The Killer Emperor Attack Penguin is here cooling its heels. }
+  longdesc {
+The Emperor Penguin is a largest of the penguins with a sharp beak and an evil
+look in it's eye. It has a bright yellow feathers on the top of it's head
+blood stains around it's beak.
+  }
+  race { none }
+  level { 4 }
+  alignment { -200 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 619 }
+  damage { 1, 8, 1  }
+  act { sentinel, aggressive }
+}
+
+6804
+{
+  name { the Polar Bear }
+  namelist { polar bear }
+  shortdesc { A Polar bear is here, sniffing the air for food. }
+  longdesc {
+A BIG Polar bear is here looking at you as thou you would make a nice midnight
+snack. *YUMM*
+  }
+  race { none }
+  level { 26 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 24, 8, 24  }
+  move { 300 }
+  experience { 2414 }
+  damage { 1, 9, 3  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+6805
+{
+  name { the owlbear }
+  namelist { owlbear }
+  shortdesc { A Large Owlbear is here. }
+  longdesc {
+The Owlbear has brownish-black to yellow fur and feather. The beaks of these
+creatures are yellow to ivory. The eyes are red-rimmed and exceedingly
+terrible to behold.
+  }
+  race { none }
+  level { 10 }
+  alignment { -100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 14, 8, 14  }
+  move { 300 }
+  experience { 1125 }
+  damage { 2, 6, 2  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+6806
+{
+  name { the snow owl }
+  namelist { snow owl }
+  shortdesc { A white snow owl is perched here. }
+  longdesc {
+He looks pretty mean.
+  }
+  race { none }
+  level { 3 }
+  alignment { -200 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 457 }
+  damage { 1, 8, 1  }
+  act { sentinel, aggressive }
+}
+
+6807
+{
+  name { the arctic fox }
+  namelist { arctic fox }
+  shortdesc { the large arctic fox is here. }
+  longdesc {
+The Fox looks like a large, mean look creature.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 542 }
+  damage { 1, 8, 1  }
+  act { sentinel, aggressive }
+}
+
+6808
+{
+  name { the seal }
+  namelist { seal }
+  shortdesc { A Seal is sitting here, flashing it's big blue eyes at you. }
+  longdesc {
+The Seal looks so cute that you wish you could just hug it.
+  }
+  race { none }
+  level { 8 }
+  alignment { 800 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 840 }
+  damage { 1, 7, 1  }
+  act { sentinel }
+}
+
+6809
+{
+  name { the Walrus }
+  namelist { walrus }
+  shortdesc { The Walrus is here, wondering what in blizzard's name you are doing here. }
+  longdesc {
+He is six feet long and looks quite strong, muscles bulging under his heavy,
+coat of blubber.  His features are worn with hard work and one of his tusks is
+broken half off.
+  }
+  race { none }
+  level { 6 }
+  alignment { 350 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 706 }
+  damage { 1, 8, 2  }
+  act { sentinel }
+}
+
+6810
+{
+  name { the cute mink }
+  namelist { mink }
+  shortdesc { A cute mink is here. }
+  longdesc {
+It is a small, furry creature with a very thick fur coat.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 113 }
+  damage { 1, 8, 2  }
+  act { sentinel }
+}
+
+6811
+{
+  name { the yeti }
+  namelist { yeti }
+  shortdesc { A big, white, angry-looking yeti is here. }
+  longdesc {
+The yeti is a big, white, furry animal with very large claws and very sharp
+teeth.  It doesn't resemble those cute little thingies from toy shops at all.
+  }
+  race { none }
+  level { 19 }
+  alignment { -50 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 18, 8, 18  }
+  move { 300 }
+  experience { 1813 }
+  damage { 2, 6, 2  }
+  act { sentinel, aggressive }
+}
+
+6812
+{
+  name { the ferocious snow crow }
+  namelist { snow crow }
+  shortdesc { A ferocious snow crow is here, glaring hungerly at you. }
+  longdesc {
+This small, feathered bird with long sharp peak and feet has been attacked by
+the dreaded rabies, a horrible disease that turns helpless and innocent
+creatures into ferocious and bloodthirsty monsters.
+  }
+  race { none }
+  level { 3 }
+  alignment { -150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 496 }
+  damage { 1, 8, 1  }
+  act { sentinel, aggressive }
+}
+
+6813
+{
+  name { the moose }
+  namelist { moose }
+  shortdesc { A moose is grazing peacefully here. }
+  longdesc {
+She is a huge creature standing on long, slender legs, and with brown eyes,
+and a large set of horns looking back at you with an air of watchful interest.
+  }
+  race { none }
+  level { 10 }
+  alignment { 350 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 14, 8, 14  }
+  move { 300 }
+  experience { 1154 }
+  damage { 1, 6, 1  }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+6814
+{
+  name { the brown yak }
+  namelist { yak }
+  shortdesc { A brown yak is here, looking for some plants to chew up. }
+  longdesc {
+It is a large yak with beautiful, red-brown fur and a long, thick brush.
+  }
+  race { none }
+  level { 19 }
+  alignment { -50 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 18, 8, 18  }
+  move { 300 }
+  experience { 1592 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+6815
+{
+  name { Jack Frost }
+  namelist { jack frost }
+  shortdesc { Jack Frost is here, staring angrily at you. }
+  longdesc {
+He is an exceptionally large, Snow white man with ice cycles for hair. The only
+color you see are the red stains on his teeth and hands.
+  }
+  race { giant }
+  level { 6 }
+  alignment { -350 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 740 }
+  damage { 2, 4, 1  }
+  act { sentinel, aggressive }
+}
+
+6816
+{
+  name { the reindeer }
+  namelist { reindeer }
+  shortdesc { The Reindeer is here, looking for some grass to eat. }
+  longdesc {
+The Reindeer has a small red harness around his neck as if it once he had
+pulled a sled.
+  }
+  race { none }
+  level { 1 }
+  alignment { -200 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 100 }
+  damage { 1, 4, 1  }
+}
+
+6817
+{
+  name { the Siberian Husky }
+  namelist { siberian husky }
+  shortdesc { A Siberian Huskie is standing here looking strong an proud. }
+  longdesc {
+A big, strong, helpful, trustworthy Siberian Husky
+  }
+  race { none }
+  level { 6 }
+  alignment { 1000 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 793 }
+  damage { 1, 8, 3  }
+  act { sentinel }
+}
+
+6818
+{
+  name { the Otter }
+  namelist { otter }
+  shortdesc { A small Otter is here. }
+  longdesc {
+The Otter looks like a cute, little, fierce fighter.
+  }
+  race { none }
+  level { 1 }
+  alignment { 400 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 107 }
+  damage { 1, 4, 1  }
+  act { sentinel }
+}
+
+6819
+{
+  name { the Ice Lemur }
+  namelist { ice lemur }
+  shortdesc { A large, Ice lemur is staring at you hungerly. }
+  longdesc {
+The Ice Lemur looks like he would eat even you in a few days.
+  }
+  race { none }
+  level { 3 }
+  alignment { 400 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 435 }
+  damage { 1, 7, 1  }
+  act { sentinel, aggressive }
+}
+
+6820
+{
+  name { the woolly mammoth }
+  namelist { woolly mammoth }
+  shortdesc { A large mammoth is here, slowly clumbering along. }
+  longdesc {
+The Mammoth looks like it would take a lot to bring him down.
+  }
+  race { none }
+  level { 48 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 68, 8, 68  }
+  move { 300 }
+  experience { 7502 }
+  damage { 1, 4, 6  }
+  act { sentinel }
+}
+
+6821
+{
+  name { the Snow Snake }
+  namelist { snow snake }
+  shortdesc { The huge, bulky Snow Snake is here. }
+  longdesc {
+The Large Snow Snake lies here staring at you with beady red eyes. The scales
+that armor its body are such a bright white that he is almost
+impossible to see against the snow in which he sleeps.  As you enter he
+stirs from his sleep and coils...prepared to ATTACK!!!!!!!
+  }
+  race { none }
+  level { 40 }
+  alignment { -1000 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 38, 8, 38  }
+  move { 300 }
+  experience { 4775 }
+  damage { 2, 12, 1  }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive }
+}
+
+6822
+{
+  name { the Snow Lizard }
+  namelist { snow lizard }
+  shortdesc { The Snow Lizard stares at you. }
+  longdesc {
+The Snow Lizard is very thin. His scales are almost as white as snow.
+  }
+  race { none }
+  level { 22 }
+  alignment { -1000 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 20, 8, 20  }
+  move { 300 }
+  experience { 1979 }
+  damage { 2, 6, 3  }
+  act { sentinel }
+}
+
+6823
+{
+  name { the Frost Giant }
+  namelist { frost giant }
+  shortdesc { The Frost Giant is here playing in the snow. }
+  longdesc {
+The Frost Giant has long woolly looking fur all about his body. His eyes are
+dark and hollow as if no one or thing is behind them. He stands about 15 feet
+tall and 400 pounds. It is quite obvious that such a large creature requires a
+lot of food. He smiles hungrily at you!!
+  }
+  race { giant }
+  level { 10 }
+  alignment { -800 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 14, 8, 14  }
+  move { 300 }
+  experience { 1125 }
+  damage { 2, 6, 6  }
+  immune { cold }
+  act { aggressive }
+}
+
+6824
+{
+  name { the purple dragon }
+  namelist { purple dragon }
+  shortdesc { The Dreaded Purple dragon stares at you curiously. }
+  longdesc {
+Here stands the Dreaded Purple dragon.. He looks at you for a second
+considering eating you but, changes his mind because you don't look tasty...
+Yawning deeply he looks like he might fall asleep at any moment.
+  }
+  race { none }
+  height { 400 }
+  level { 229 }
+  alignment { 0 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 5 }
+  head { -20, 9 }
+  body { -20, 9 }
+  arms { -50, 12 }
+  legs { -50, 12 }
+  feet { -20, 9 }
+  hp { 20, 8, 2000  }
+  move { 300 }
+  experience { 183077 }
+  damage { 3, 7, 2  }
+  immune { charm, fire, poison }
+  affected { detect-invisible, true-sight }
+  act { special, sentinel, aggressive }
+}
+
+6825
+{
+  name { the Winter Thief }
+  namelist { winter thief }
+  shortdesc { A thief, all dressed in a snow white suit. }
+  longdesc {
+You saw what?? or Who??
+  }
+  race { human }
+  level { 22 }
+  alignment { -100 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 20, 8, 20  }
+  move { 300 }
+  experience { 1979 }
+  damage { 2, 5, 1  }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+

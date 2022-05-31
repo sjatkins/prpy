@@ -1,0 +1,736 @@
+103000
+{
+  name { Phardred }
+  namelist { phardred }
+  shortdesc { Phardred glares at you intently. }
+  longdesc {
+Before you stands an ancient being. His eyes seem to have an evil
+gleam to them.  He is dressed in ancient armor that appears to
+have seen many battles.  The sword he holds seem to draw all
+the light around into it.
+  }
+  race { vampire }
+  world_limit { 1 }
+  sex { male }
+  level { 530 }
+  experience { 4100000 }
+  hp { 30, 30, 25108 }
+  move { 666 }
+  gold { 850000 }
+  mana { 2500 }
+  alignment { -1000 }
+  caster { 60 }
+  damage { 6, 20, 23 }
+  hit_bonus { 39 }
+  dam_bonus { 23 }
+  attacks_per_round { 3.5 }
+  head { -200, 20 }
+  body { -200, 10 }
+  arms { -200, 10 }
+  legs { -200, 10 }
+  feet { -200, 10 }
+  immune { charm, fire }
+  act { sentinel, stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+  spells { nova, dispel magic, repulsor, sleep, disruptor, fear }
+}
+103001
+{
+  name { setra }
+  namelist { setra }
+  shortdesc { The beautiful vampiress, Setra. }
+  longdesc {
+The vampiress stands here radiating beauty and mystique.  She is 
+wearing some rings that seem to shimmer. and her evening dress is
+a blood red which match her boots and pants.
+  }
+  race { vampire }
+  sex { female }
+  level { 540 }
+  experience { 412010 }
+  hp { 30, 30, 29619 }
+  move { 300 }
+  gold { 1000000 }
+  mana { 2500 }
+  alignment { -1000 }
+  caster { 70 }
+  damage { 6, 17, 25 }
+  hit_bonus { 40 }
+  dam_bonus { 28 }
+  attacks_per_round { 3.5 }
+  head { -200, 20 }
+  body { -190, 12 }
+  arms { -190, 12 }
+  legs { -190, 12 }
+  feet { -190, 12 }
+  immune { fire, }
+  act { sentinel, stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight, true-sight }
+  spells { dispel magic, repulsor, charm person }
+}
+103002
+{
+  name { Julius The blade master. }
+  namelist { Julius master }
+  shortdesc { Julius grins as you walk in. }
+  longdesc {
+This is a warrior straight out of legend he radiates confidence.
+He is dressed in simple black silks and holds an ornate axe.
+  }
+  race { vampire }
+  sex { male }
+  world_limit { 1 }
+  level { 510 }
+  experience { 1500000 }
+  hp { 30, 30, 28961 }
+  move { 300 }
+  gold { 1500000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 25, 10 }
+  hit_bonus { 40 }
+  dam_bonus { 25 }
+  attacks_per_round { 4 }
+  head { -150, 20 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  immune { charm, fire, sleep }
+  act { sentinel, stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103003
+{
+  name { A Priest }
+  namelist { Priest }
+  shortdesc { A priest is here pacing back and forth. }
+  longdesc {
+You finally catch the priest's eye, and he says no no you must
+leave at once.. The priest is wearing a simple wool robe and is
+holding a large silver cross.
+  }
+  race { human }
+  world_limit { 1 }
+  sex { male }
+  level { 506 }
+  experience { 1000000 }
+  hp { 30, 30, 15000 }
+  move { 666 }
+  gold { 700000 }
+  mana { 3000 }
+  alignment { 1000 }
+  caster { 70 }
+  damage { 4, 40, 5 }
+  hit_bonus { 22 }
+  dam_bonus { 19 }
+  attacks_per_round { 2.3 }
+  head { -110, 20 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  immune { charm, sleep, fire }
+  act { sentinel, stay-zone, }
+  affected { flying, sanctuary, true-sight }
+  spells { dispel magic, holy word, true word, blindness }
+}
+103004
+{
+  name { Igor }
+  namelist { Igor }
+  shortdesc { 
+A person or what appears to be parts of several people stands 
+here.
+ }
+  longdesc {
+igor stands here he seems to be several diffrent people stiched together
+and he does not look to happy you are here.  He is holding a scapel and
+wearing some heavily plated boots.
+  }
+  race { human }
+  world_limit { 1 }
+  sex { male }
+  level { 465 }
+  experience { 600000 }
+  hp { 30, 30, 12000 }
+  move { 666 }
+  gold { 100000 }
+  mana { 3000 }
+  alignment { 1000 }
+  caster { 60 }
+  damage { 2, 35, 14 }
+  hit_bonus { 30 }
+  dam_bonus { 18 }
+  attacks_per_round { 2.1 }
+  head { -110, 20 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  immune { charm, sleep, fire }
+  act { sentinel, stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+  spells { dispel magic, weakness, mind thrust }
+}
+103005
+{
+  name { A beautiful woman }
+  namelist { beautiful woman }
+  shortdesc { A beautiful woman is here resting. }
+  longdesc {
+The beautiful woman is here resting. upon first glance she seems
+to be young but upon closer ispection she seems more then young she seems 
+almost ageless.  She is dressed in simple black atire.
+  }
+  race { vampire }
+  world_limit { 1 }
+  sex { female }
+  level { 501 }
+  experience { 700000 }
+  hp { 30, 30, 12006 }
+  move { 666 }
+  gold { 90000 }
+  mana { 3000 } 
+  alignment { -1000 }
+  caster { 60 }
+  damage { 5, 10, 20 }
+  hit_bonus { 18 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  head { -130, 20 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  immune { charm, sleep, fire, slash }
+  act { sentinel, stay-zone, aggressive, hateful }
+  affected { flying, sanctuary, true-sight }
+  spells { dispel magic, weakness, chilly, ice lance }
+}
+103006
+{
+  name { A handsome man }
+  namelist { handsome man }
+  shortdesc { A handsome man rests here. }
+  longdesc {
+A handsome man relaxes here. As he notices you he gives
+you a grin that is all sharp pointy teeth. he is dressed
+in a runed leather jacket and pants
+  }
+  race { vampire }
+  world_limit { 1 }
+  sex { male }
+  level { 501 }
+  experience { 700000 }
+  hp { 30, 30, 12007 }
+  move { 666 }
+  gold { 100000 }
+  mana { 3000 } 
+  alignment { -1000 }
+  caster { 50 }
+  damage { 5, 15, 10 }
+  hit_bonus { 18 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.2 }
+  head { -130, 20 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  immune { charm, sleep, fire, slash }
+  act { sentinel, aggressive, stay-zone, hateful }
+  affected { flying, sanctuary, true-sight }
+  spells { dispel magic, ice lance, weakness, chilly }
+}
+103007
+{
+  name { A scrawny man }
+  namelist { scrawny man }
+  shortdesc { A pathetic excuse of a man sits here. }
+  longdesc {
+The man is grimy and defiently looks like he has seen better days.
+he is holding something between his hands which is giving of a faint
+glow.
+  }
+  race { human }
+  world_limit { 1 }
+  sex { male }
+  level { 400 }
+  experience { 400000 }
+  hp { 30, 30, 7000 }
+  move { 666 }
+  gold { 50000 }
+  mana { 3000 } 
+  alignment { 1000 }
+  caster { 0 }
+  damage { 2, 20, 10 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -130, 15 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  immune { charm, sleep, fire }
+  act { sentinel, stay-zone, }
+  affected { flying, sanctuary, true-sight }
+}
+103008
+{
+  name {  Lune Fenris-coloratus }
+  namelist { Lune fenris }
+  shortdesc { Lune eyes grow brighter as you enter his clearing }
+  longdesc {
+This is the biggest werewolf by far. By his stance and many scars 
+covering his body it would appear you have found the pack leader.
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 505 }
+  experience { 500000 }
+  hp { 30, 30, 16078 }
+  move { 300 }
+  gold { 900000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 2, 40, 30 }
+  hit_bonus { 40 }
+  dam_bonus { 19 }
+  attacks_per_round { 2.8 }
+  head { -150, 20 }
+  body { -90, 20 }
+  arms { -90, 20 }
+  legs { -90, 20 }
+  feet { -90, 20 }
+  immune { charm, fire, sleep, energy }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103009
+{
+  name {  A pure white werewolf }
+  namelist { white werewolf }
+  shortdesc { The werewolf starts to flex as you enter. }
+  longdesc {
+The werewolf pelt is so beatiful and pure white my what a
+nice cloak it would make. His large fangs and long claws
+will make it hard to get though.
+  }
+  race { Lycanthrope }
+  sex { male }
+  level { 500 }
+  experience { 789000 }
+  hp { 30, 30, 9000 }
+  move { 300 }
+  gold { 300000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 2, 20, 17 }
+  hit_bonus { 40 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -150, 16 }
+  body { -90, 14 }
+  arms { -90, 14 }
+  legs { -90, 14 }
+  feet { -90, 14 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103010
+{
+  name {  A silver werewolf }
+  namelist { silver werewolf }
+  shortdesc { The werewolf jumps up as you enter. }
+  longdesc {
+The werewolves pelt shimmers brightly. He looks very excited to see
+you...maybe he thinks it is feeding time.
+  }
+  race { Lycanthrope }
+  sex { male }
+  level { 480 }
+  experience { 67030 }
+  hp { 30, 30, 8500 }
+  move { 300 }
+  gold { 200000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 20, 15 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -150, 10 }
+  body { -90, 10 }
+  arms { -90, 10 }
+  legs { -90, 10 }
+  feet { -90, 10 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103011
+{
+  name {  A crazed werewolf }
+  namelist { crazed werewolf }
+  shortdesc { The crazed werewolf is standing hear howling. }
+  longdesc {
+The Werewolves pelt is covered it what appears to be dried blood.
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 485 }
+  experience { 613999 }
+  hp { 30, 30, 8010 }
+  move { 300 }
+  gold { 300000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 20, 15 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -150, 12 }
+  body { -90, 9 }
+  arms { -90, 9 }
+  legs { -90, 9 }
+  feet { -90, 9 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103012
+{
+  name {  A large werewolf }
+  namelist { large werewolf }
+  shortdesc { The large werewolf is here ready to pounce }
+  longdesc {
+The Werewolf is very big and well muscled. He well be a good
+fercious fighter.
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 490 }
+  experience { 613888 }
+  hp { 30, 30, 9000 }
+  move { 300 }
+  gold { 300000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 20, 16 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -150, 20 }
+  body { -90, 9 }
+  arms { -90, 9 }
+  legs { -90, 9 }
+  feet { -90, 9 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103013
+{
+  name {  An ancient werewolf }
+  namelist { ancient werewolf }
+  shortdesc { An ancient werewolf is relaxing here.}
+  longdesc {
+The Ancient werewolf has is almost all scar tissue 
+from his numerous battles.
+  }
+  race { Lycanthrope }
+  sex { male }
+  world_limit { 1 }
+  level { 490 }
+  experience { 610000 }
+  hp { 30, 30, 10000 }
+  move { 300 }
+  gold { 500000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 0 }
+  damage { 4, 20, 17 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -150, 20 }
+  body { -90, 9 }
+  arms { -90, 9 }
+  legs { -90, 9 }
+  feet { -90, 9 }
+  immune { charm, fire, sleep }
+  act { stay-zone, hateful, aggressive }
+  affected { flying, sanctuary, true-sight }
+}
+103014
+{
+  name { a large hell hound }
+  namelist { hound }
+  shortdesc { A large hound stands here. }
+  longdesc {
+The hound lets out a low growl as he sees you. The hounds start to
+brighter as you come closer...maybe you should leave it alone.
+  }
+  race { Ghost }
+  world_limit { 5 }
+  level { 300 }
+  experience { 464000 }
+  hp { 25, 50, 6900 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 22 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 15, 6, 15 }
+  head { -140, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { true-sight, invisible, flying }
+  immune { charm, fire }
+  act { npc, aggressive, stay-zone, hateful }
+}
+103015
+{
+  name { a large silver wolf }
+  namelist { silver wolf }
+  shortdesc { A large silver wolf prowls here. }
+  longdesc {
+The wolf lets out a ear piercing howl as he sees you. The
+wolf stays just close enough to track you....perhaps waiting
+on the rest of his pack.
+  }
+  race { Predator }
+  world_limit { 5 }
+  level { 300 }
+  experience { 464000 }
+  hp { 25, 50, 6900 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 22 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 15, 6, 15 }
+  head { -140, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { true-sight, invisible, flying }
+  immune { charm, fire }
+  act { npc, aggressive, stay-zone, hateful }
+}
+103016
+{
+  name { a ghoul }
+  namelist { ghoul }
+  shortdesc { A Ghoul launches toward you as you enter the cellar }
+  longdesc {
+The ghoul lunges toward you. if it had not moved you would have never 
+even noticed sitting against the moldy cellar wall. The ghoul hisses
+at you know that its surprise attack did not work.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 280 }
+  experience { 300000 }
+  hp { 25, 50, 6000 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 19 }
+  dam_bonus { 9 }
+  caster { 30 }
+  power { 500 }
+  attacks_per_round { 1.8 }
+  move  { 200 }
+  damage { 5, 8, 10 }
+  head { -140, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { true-sight, invisible, flying }
+  spells { chilly }
+  immune { charm }
+  act { npc, aggressive, stay-zone, hateful }
+}
+103017
+{
+  name { a large cook }
+  namelist { cook }
+  shortdesc { a very large man hovers over the stove. }
+  longdesc {
+The cook is huge almost as big around as he is tall.
+  }
+  race { human }
+  world_limit { 1 }
+  level { 280 }
+  experience { 464000 }
+  hp { 25, 50, 4000 }
+  alignment { 1000 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 4, 8, 12 }
+  head { -140, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { true-sight, flying }
+  immune { charm }
+  act { sentinel, npc, stay-zone }
+}
+103018
+{
+  name { a pale villager }
+  namelist { villager }
+  shortdesc { a villager stands here. }
+  longdesc {
+The villager has a deep death palor about him.
+if you were not close enough to see him breathing
+this man had passed over to the other side.
+  }
+  race { human }
+  world_limit { 2 }
+  level { 110 }
+  experience { 64000 }
+  hp { 1760, 1760, 20 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { flying }
+  act { sentinel, npc, stay-zone }
+}
+103019
+{
+  name { The Innkeeper }
+  namelist { inkeeper }
+  shortdesc { The Innkeeper sobs quietly to himself. }
+  longdesc {
+The Innkeeper is so dirty even beggars would would
+give him a wide berth.
+  }
+  race { human }
+  world_limit { 1 }
+  level { 110 }
+  experience { 9000 }
+  hp { 2200, 2200, 20 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 9 }
+  caster { 0 }
+  power { 500 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { -100, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { flying }
+  act { sentinel, npc, stay-zone }
+}
+103020
+{
+  name { A scarred hunter }
+  namelist { scarred }
+  shortdesc { The Hunter sits here skinning his latest kill. }
+  longdesc {
+By the looks of this man he is not the kind of hunter who has
+ever set a trap. Judgeing by his scars it would appear he likes
+to get his kills up close and personel. 
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 501 }
+  experience { 701111 }
+  hp { 30, 40, 12000 }
+  alignment { 750 }
+  gold { 67000 }
+  caster { 50 }
+  power { 1500 }
+  hit_bonus { 35 }
+  dam_bonus { 24 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 6, 6, 7 }
+  head { -150, 19 }
+  body { -95, 9 }
+  arms { -95, 9 }
+  legs { -95, 9 }
+  feet { -95, 9 }
+  affected { true-sight, sanctuary, infravision }
+  spells { gust of wind, colour spray, poison }
+  immune { charm, fire, sleep }
+  act { npc, sentinel, stay-zone }
+}
+103021
+{
+  name { The Mayor }
+  namelist { mayor }
+  shortdesc { The Mayor sits at his desk reading a book. }
+  longdesc {
+The mayor seems to look so tranquil....How could a man be 
+so tranquil in this place. 
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 400 }
+  experience { 440000 }
+  hp { 30, 40, 5000 }
+  alignment { 750 }
+  gold { 67000 }
+  caster { 0 }
+  power { 1500 }
+  hit_bonus { 22 }
+  dam_bonus { 12 }
+  attacks_per_round { 2.6 }
+  move  { 200 }
+  damage { 3, 6, 8 }
+  head { -150, 19 }
+  body { -95, 9 }
+  arms { -95, 9 }
+  legs { -95, 9 }
+  feet { -95, 9 }
+  affected { true-sight, sanctuary, infravision }
+  immune { charm, fire, sleep }
+  act { npc, sentinel, stay-zone }
+}
+

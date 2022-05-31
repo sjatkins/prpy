@@ -1,0 +1,614 @@
+@GenericGuildMaster
+{
+  @GuildMaster
+  longdesc {
+This is your master. Big and strong with bulging muscles. Several scars
+across his body proves that he was using arms before you were born. He
+has a calm look on his face.
+  }
+  alignment { 1000 }
+}
+
+@GuildMaster
+{
+  name { the Guildmaster }
+  namelist { the guildmaster master }
+  shortdesc { Your guildmaster is standing here. }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  level { 510 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 10 }
+  dam_bonus { 0 }
+  attacks_per_round { 10 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 96, 8, 9600  }
+  move { 300 }
+  experience { 100000 }
+  damage { 5, 5, 9  }
+  immune { blunt, pierce, slash, charm }
+  resistant { fire, cold, electricity, energy }
+  act { special, sentinel, citizen }
+}
+
+1
+{
+  name { Puff }
+  world_limit { 1 }
+  namelist { Puff fractal dragon }
+  shortdesc { Puff the Fractal Dragon is here, contemplating a higher reality. }
+  longdesc {
+You see nothing special
+  }
+  race { none }
+  height { 180 }
+  level { 71 }
+  sex { female }
+  alignment { 1000 }
+  gold { 1400 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 66.6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -80, 20 }
+  legs { -60, 20 }
+  feet { -50, 10 }
+  hp { 5, 10, 30000  }
+  move { 110 }
+  experience { 12676 }
+  damage { 10, 100, 3000 }
+  immune { charm, poison, fire, energy, cold }
+  act { special, nosummon, immortal }
+  caster { 85 }
+  spells { word of recall, mage fire, shriek }
+  mana { 10000 }
+}
+
+2
+{
+  name { The Ringwraith }
+  namelist { wraith ringwraith nazgul }
+  shortdesc { A Ringwraith stands here. }
+  longdesc {
+Dressed in black, it is almost invisible within the shadows. It promises
+to be a formidable opponent
+  }
+  race { undead }
+  world_limit { 1 }
+  height { 125 }
+  level { 515 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -50, 15 }
+  body { -50, 15 }
+  arms { -50, 15 }
+  legs { -20, 10 }
+  feet { -20, 10 }
+  hp { 10, 800, 9000  }
+  move { 200 }
+  experience { 552170 }
+  damage { 3, 8, 12  }
+  immune { poison, drain, charm, plus 1 }
+  resistant { slash }
+  affected { detect-invisible, infravision, sneak }
+  act { special, wimpy }
+}
+
+3
+{
+  name { The tormentor }
+  namelist { tormentor }
+  shortdesc { The tormentor stands here. }
+  longdesc {
+He sneers at you.
+  }
+  race { human }
+  level { 180 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 200, 8, 200  }
+  move { 300 }
+  experience { 40900 }
+  damage { 2, 6, 8  }
+  immune { poison, drain, charm, plus 1 }
+  affected { detect-invisible, infravision, sneak }
+  act { special, wimpy }
+}
+
+4
+{
+  name { James Hetfield }
+  namelist { james hetfield }
+  shortdesc { James Hetfield stands here. }
+  longdesc {
+He sneers at you.
+  }
+  race { human }
+  level { 180 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 200, 8, 200  }
+  move { 300 }
+  experience { 45460 }
+  damage { 5, 5, 6  }
+  immune { poison, drain, charm, plus 1 }
+  affected { detect-invisible, infravision, sneak }
+  act { special, wimpy }
+}
+
+5
+{
+  name { The Inquisitor }
+  namelist { inquisitor }
+  shortdesc { The Inquisitor stands here. }
+  longdesc {
+He sneers at you.
+  }
+  race { human }
+  level { 180 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 200, 8, 200  }
+  move { 300 }
+  experience { 45460 }
+  damage { 5, 5, 6  }
+  immune { poison, drain, charm, plus 1 }
+  affected { detect-invisible, infravision, sneak }
+  act { special, wimpy }
+}
+
+6
+{
+  name { Fupp }
+  world_limit { 1 }
+  namelist { fupp }
+  shortdesc { Fupp the evil Fractal Dragon is here, contemplating a lower reality. }
+  longdesc {
+You see nothing special
+  }
+  race { none }
+  height { 180 }
+  level { 71 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 99 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -80, 20 }
+  legs { -60, 20 }
+  feet { -50, 10 }
+  hp { 5, 10, 30000  }
+  move { 110 }
+  experience { 12676 }
+  damage { 10, 100, 3000 }
+  immune { charm, poison, fire, energy, cold }
+  act { special, nosummon, immortal }
+  caster { 85 }
+  spells { word of recall, mage fire, shriek }
+  mana { 10000 }
+}
+
+7
+{
+  @GuildMaster
+  name { Malcor }
+  namelist { malcor guildmaster master }
+  shortdesc { Malcor the apprentice guildmaster is standing here. }
+  longdesc {
+Wrapped in a long wooly brown toga, Malcor is only an apprentice
+guildmaster.  Recently promoted, he can only assist the most junior
+of guildmembers.  He looks friendly enough.
+  }
+  race { human }
+  level { 20 }
+  alignment { 0 }
+  attacks_per_round { 10 }
+  hp { 96, 8, 9600  }
+  experience { 100000 }
+  damage { 5, 5, 9  }
+  act { sentinel }
+}
+
+8
+{
+  name { Khull }
+  namelist { Khull }
+  shortdesc { Khull the veteran is here to help (just say HELP) }
+  longdesc {
+You see a friendly old man. He looks at you, and says if you need
+help, just say HELP.
+  }
+  race { human }
+  story_teller { mob_8.txt }
+  race { none }
+  height { 180 }
+  level { 71 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 99 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -80, 20 }
+  legs { -60, 20 }
+  feet { -50, 10 }
+  hp { 5, 10, 30000  }
+  move { 110 }
+  experience { 12676 }
+  damage { 10, 100, 3000 }
+  immune { charm, poison, fire, energy, cold }
+  act { special, nosummon, immortal }
+  caster { 85 }
+  spells { word of recall, mage fire, shriek }
+  mana { 10000 }
+} 
+
+10
+{
+  name { A fire elemental }
+  namelist { fire elemental }
+  shortdesc { A huge fire burns here }
+  longdesc {
+It looks vaguely man-shaped
+  }
+  race { none }
+  level { 35 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 32, 8, 750 }
+  move { 300 }
+  experience { 3613 }
+  damage { 1, 8, 3  }
+  immune { fire }
+  susceptible { cold }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+11
+{
+  name { A water elemental }
+  namelist { water elemental }
+  shortdesc { A large water elemental stands here }
+  longdesc {
+   It looks vaguely man-shaped.
+  }
+  race { none }
+  level { 35 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 32, 8, 750 }
+  move { 300 }
+  experience { 3613 }
+  damage { 1, 8, 3  }
+  immune { fire }
+  susceptible { cold }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+12
+{
+  name { An earth elemental }
+  namelist { earth elemental }
+  shortdesc { A large earth elemental stands here }
+  longdesc {
+   It looks vaguely man-shaped.
+  }
+  race { none }
+  level { 35 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 32, 8, 1000 }
+  move { 300 }
+  experience { 3613 }
+  damage { 1, 8, 3  }
+  immune { fire }
+  resistant { pierce }
+  susceptible { energy }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+13
+{
+  name { An air elemental }
+  namelist { air elemental }
+  shortdesc { A small tornado spins here }
+  longdesc {
+   It looks vaguely man-shaped.
+  }
+  race { none }
+  level { 35 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 32, 8, 750 }
+  move { 300 }
+  experience { 3613 }
+  damage { 1, 8, 3  }
+  susceptible { fire }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+20
+{
+  name { A vrock }
+  namelist { demon vrock }
+  shortdesc { A Vrock stands here }
+  longdesc {
+It is a vulture/human creature. Extremely ugly, and nasty
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 10, -30 }
+  body { 10, -30 }
+  arms { 10, -30 }
+  legs { 10, -30 }
+  feet { 10, -30 }
+  hp { 14, 8, 1000 }
+  move { 300 }
+  experience { 0 }
+  damage { 1, 6, 30 }
+  resistant { fire, energy }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger, aggressive }
+}
+
+21
+{
+  name { A hezrou }
+  namelist { demon hezrou }
+  shortdesc { A demon Hezrou stands here. }
+  longdesc {
+Not unlike A large toad/man
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 15, 8, 2300 }
+  move { 300 }
+  experience { 0 }
+  damage { 1, 6, 2200 }
+  resistant { fire, energy }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger, aggressive }
+}
+
+22
+{
+  name { A glabrezu }
+  namelist { demon glabrezu }
+  shortdesc { A demon Glabrezu stands here }
+  longdesc {
+I forget what this one looks like.
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 5 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 16, 8, 5050 }
+  move { 300 }
+  experience { 0 }
+  damage { 1, 8, 12 }
+  resistant { cold, energy }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger, aggressive }
+}
+
+23
+{
+  name { Nalfeshnee }
+  namelist { demon nalfeshnee }
+  shortdesc { Nalfeshnee stands here }
+  longdesc {
+This one is big and mean looking.
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { -10, 20 }
+  body { -10, 20 }
+  arms { -10, 20 }
+  legs { -10, 20 }
+  feet { -10, 20 }
+  hp { 17, 8, 11000 }
+  move { 300 }
+  experience { 0 }
+  damage { 1, 6, 12 }
+  immune {  energy }
+  resistant { cold, electricity }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger, aggressive }
+}
+
+24
+{
+  name { Marilith }
+  namelist { demon marilith }
+  shortdesc { Marilith slithers here }
+  longdesc {
+A woman with 6 arms and a snake's tail
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 7 }
+  head { -50, 40 }
+  body { -50, 40 }
+  arms { -50, 40 }
+  legs { -50, 40 }
+  feet { -50, 40 }
+  hp { 13, 8, 16000 }
+  move { 300 }
+  experience { 0 }
+  damage { 2, 4, 18 }
+  resistant { cold, electricity, fire, blunt }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger, aggressive }
+}
+
+25
+{
+  name { Balor }
+  namelist { demon balor }
+  shortdesc { Balor stands here, surrounded by electrical fire }
+  longdesc {
+He is very large, and looks rather deadly
+  }
+  race { devil }
+  level { 500 }
+  alignment { -666 }
+  gold { 150 }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  head { -120, 85 }
+  body { -120, 85 }
+  arms { -120, 85 }
+  legs { -120, 85 }
+  feet { -120, 85 }
+  hp { 14, 8, 25000 }
+  move { 300 }
+  experience { 0 }
+  damage { 3, 18, 40 }
+  immune { fire }
+  resistant { cold, electricity }
+  affected { detect-invisible, sense-life }
+  act { special, sentinel, scavenger, aggressive }
+}
+
+35
+{
+  name { Vespa }
+  namelist { vespa }
+  shortdesc { Vespa the auctioneer is standing here glancing around the room. }
+  longdesc {
+    she stares back at you waiting for your bid.
+  }
+  sex { female }
+  race { human }
+  world_limit { 1 }
+  height { 190 }
+  level { 1860 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 100 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 2, 8, 32000  }
+  move { 900 }
+  experience { 900000 }
+  damage { 1, 99, 30  }
+  immune { backstab, slash, sleep, charm }
+  affected { true-sight, detect-invisible }
+  act { special, sentinel, citizen }
+  caster { 85 }
+  spells { word of recall, mage fire, shriek }
+  mana { 10000 }
+}
+

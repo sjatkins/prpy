@@ -1,0 +1,82 @@
+10900
+{
+  name { a Labyrinth Liar }
+  namelist { liar labyrinth }
+  shortdesc { A Labyrinth Liar stands here speaking almost unceasingly. }
+  longdesc {
+It speaks the truth a quarter of the time. I think!
+  }
+  race { human }
+  level { 22 }
+  alignment { -400 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 20, 8, 20  }
+  move { 300 }
+  experience { 1826 }
+  damage { 1, 8, 1  }
+  act { special, sentinel, scavenger }
+}
+
+10901
+{
+  name { a Labyrinth Liar }
+  namelist { liar labyrinth }
+  shortdesc { A Labyrinth Liar stands here speaking almost constantly. }
+  longdesc {
+It speaks the truth a quarter of the time. I think!
+  }
+  race { human }
+  level { 33 }
+  alignment { -400 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 30, 8, 30  }
+  move { 300 }
+  experience { 3018 }
+  damage { 2, 4, 1  }
+  act { special, sentinel, scavenger }
+}
+
+10902
+{
+  name { the Labyrinth Sentry }
+  namelist { sentry labyrinth }
+  shortdesc { The Labyrinth Sentry stands here in total silence. Unflinching to the end. }
+  longdesc {
+An large impassive fellow who seems to ignore the little people out there.
+  }
+  race { human }
+  level { 41 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 4420 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  act { special, sentinel, scavenger }
+}
+

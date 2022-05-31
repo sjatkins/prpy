@@ -1,0 +1,951 @@
+9000
+{
+  name { the Asp }
+  namelist { asp }
+  shortdesc { A hissing asp slithers nearby. }
+  longdesc {
+The asp looks quick and mean
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 211 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+9001
+{
+  name { The creepy spider }
+  namelist { spider creepy }
+  shortdesc { A creepy spider crawls around. }
+  longdesc {
+It is about 10 inches long, with small fangs.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 153 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+9002
+{
+  name { The Norwegian Blue }
+  namelist { blue norwegian parrot }
+  shortdesc { the Norwegian Blue parrot is here, it's just stunned. }
+  longdesc {
+It has remarkable plumage.
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 313 }
+  damage { 1, 4, 1  }
+  act { nice-thief }
+}
+
+9003
+{
+  name { The baby pigmy brontosaurus }
+  namelist { baby dinosaur pigmy bronte brontosaurus }
+  shortdesc { The baby pigmy brontosaurus is here, looking for her momma. }
+  longdesc {
+There are supposed to be LOTS of dinosaurs out there somewhere!  This one
+is just 6' tall, and looks very confused.
+  }
+  race { none }
+  level { 33 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 80, 1 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  hp { 30, 8, 30  }
+  move { 300 }
+  experience { 2850 }
+  damage { 1, 4, 2  }
+  act { sentinel }
+}
+
+9004
+{
+  name { The baby crocodile }
+  namelist { crocodile baby croc }
+  shortdesc { The baby crocodile is here, looking for ducks to eat. }
+  longdesc {
+It looks like a 2' replica of a a bigger crocodile.
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 457 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+9005
+{
+  name { The baby llama }
+  namelist { baby llama }
+  shortdesc { The baby llama is here, looking cute and pettable. }
+  longdesc {
+She just looks so darn CUTE!
+  }
+  race { none }
+  level { 3 }
+  alignment { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 435 }
+  damage { 1, 5, 1  }
+  act { nice-thief }
+}
+
+9006
+{
+  name { The scruffy mutt }
+  namelist { mutt scruffy }
+  shortdesc { The scruffy mutt is here, digging for bones. }
+  longdesc {
+He looks small and weak.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 3, 8, 3  }
+  move { 300 }
+  experience { 228 }
+  damage { 1, 5, 1  }
+  act { sentinel }
+}
+
+9007
+{
+  name { The frothing dog }
+  namelist { froth dog frothing rabid }
+  shortdesc { A frothing dog is here, acting rabid. }
+  longdesc {
+He is large, and madness fills his eyes.
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 424 }
+  damage { 1, 6, 2  }
+  act { sentinel }
+}
+
+9008
+{
+  name { The starving coyote }
+  namelist { starv coyote }
+  shortdesc { A starving coyote is here, gnawing on a root. }
+  longdesc {
+He is large and very hungry
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 542 }
+  damage { 1, 6, 2  }
+  act { sentinel }
+}
+
+9009
+{
+  name { The laughing hyena }
+  namelist { laugh hyena }
+  shortdesc { a laughing hyena is here, grinning and resting. }
+  longdesc {
+He is very large and has powerful jaws
+  }
+  race { none }
+  level { 8 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 862 }
+  damage { 1, 8, 2  }
+  act { sentinel }
+}
+
+9010
+{
+  name { The Norwegian black }
+  namelist { black norwegian parrot }
+  shortdesc { a norwegian black parrot is here, cawing angrily. }
+  longdesc {
+He is large, and looks much more active than the norwegian blue.
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 321 }
+  damage { 1, 4, 2  }
+  act { sentinel }
+}
+
+9011
+{
+  name { The Norwegian red }
+  namelist { red norwegian parrot }
+  shortdesc { A norwegian red parrot is here. }
+  longdesc {
+He used to be black, but it is covered in bright red blood
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 485 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+9013
+{
+  name { The fire beetle }
+  namelist { black large fire beetle }
+  shortdesc { A large black fire beetle is here }
+  longdesc {
+It has a glowing red abdomen
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 424 }
+  damage { 1, 7, 1  }
+  act { sentinel }
+}
+
+9014
+{
+  name { The large spider }
+  namelist { large spider }
+  shortdesc { A large spider is here, looking for food }
+  longdesc {
+It is about 2' long, with 3' legs.  It is covered in black hair.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 579 }
+  damage { 1, 5, 1  }
+  act { sentinel }
+}
+
+9015
+{
+  name { The nasty scorpion }
+  namelist { nasty scorpion }
+  shortdesc { A nasty looking scorpion is here, looking for food }
+  longdesc {
+It is about 3' long, and has a long sting
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 5, 8, 5  }
+  move { 300 }
+  experience { 444 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+9016
+{
+  name { The spider Monkey }
+  namelist { monkey spider }
+  shortdesc { The spider monkey is here, acting silly. }
+  longdesc {
+He is quick and nimble
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 171 }
+  damage { 1, 4, 1  }
+  act { sentinel, scavenger }
+}
+
+9017
+{
+  name { The nasty chimp }
+  namelist { chimp nasty }
+  shortdesc { A chimp is here, it snarls at you nastily. }
+  longdesc {
+He is filthy and viscious.
+  }
+  race { none }
+  level { 2 }
+  alignment { -100 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 394 }
+  damage { 1, 6, 2  }
+  act { sentinel, scavenger }
+}
+
+9018
+{
+  name { The big gorilla }
+  namelist { big gorilla }
+  shortdesc { A big gorilla is here looking for food. }
+  longdesc {
+She is gentle unless provoked
+  }
+  race { none }
+  level { 33 }
+  alignment { 900 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 30, 8, 30  }
+  move { 300 }
+  experience { 3102 }
+  damage { 2, 5, 10  }
+  act { sentinel, scavenger }
+}
+
+9019
+{
+  name { The horned lizard }
+  namelist { horned lizard }
+  shortdesc { A Horned lizard is here, searching for food. }
+  longdesc {
+It is about 3 feet long.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 9, 8, 9  }
+  move { 300 }
+  experience { 571 }
+  damage { 1, 7, 1  }
+  act { sentinel, scavenger }
+}
+
+9020
+{
+  name { The Monty Python }
+  namelist { python monty }
+  shortdesc { A Monty Python is here.  It is dressed up as an old lady. }
+  longdesc {
+It appears to think that it is a housewife from Bristol.
+  }
+  race { none }
+  level { 6 }
+  alignment { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 690 }
+  damage { 2, 4, 4  }
+  act { sentinel, scavenger }
+}
+
+9021
+{
+  name { The Huge gila monster }
+  namelist { gila huge monster }
+  shortdesc { A huge gila monster is here. Beware its poison! }
+  longdesc {
+It is very pretty for a nasty thing.
+  }
+  race { none }
+  level { 8 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 908 }
+  damage { 2, 4, 6  }
+  immune { poison }
+  act { special, sentinel, scavenger }
+}
+
+9022
+{
+  name { The Brown bear }
+  namelist { bear brown }
+  shortdesc { A Brown bear is here. }
+  longdesc {
+She is large, but cute.
+  }
+  race { none }
+  level { 33 }
+  alignment { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  hp { 30, 8, 30  }
+  move { 300 }
+  experience { 2850 }
+  damage { 1, 5, 4  }
+  act { sentinel, scavenger }
+}
+
+9023
+{
+  name { The Black bear }
+  namelist { bear black }
+  shortdesc { A black bear is here. }
+  longdesc {
+He is fairly large and impressive looking.
+  }
+  race { none }
+  level { 41 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 42, 8, 42  }
+  move { 300 }
+  experience { 4371 }
+  damage { 2, 4, 2  }
+  act { sentinel, scavenger }
+}
+
+9024
+{
+  name { The Grizzly bear }
+  namelist { bear grizzly }
+  shortdesc { A Grizzly bear is here, he looks mean. }
+  longdesc {
+He is very large, and looks very dangerous if provoked.
+  }
+  race { none }
+  level { 48 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 66, 8, 66  }
+  move { 300 }
+  experience { 7436 }
+  damage { 2, 6, 3  }
+  act { sentinel, scavenger }
+}
+
+9025
+{
+  name { The tawny cougar }
+  namelist { tawny cougar }
+  shortdesc { A tawny cougar is here. }
+  longdesc {
+He is small and looks almost tame.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 542 }
+  damage { 1, 7, 4  }
+  act { sentinel, scavenger }
+}
+
+9026
+{
+  name { The young lion }
+  namelist { young lion }
+  shortdesc { A young lion is here. }
+  longdesc {
+He hasn't made much of a mane for himself.
+  }
+  race { none }
+  level { 8 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 935 }
+  damage { 2, 4, 5  }
+  act { sentinel, scavenger }
+}
+
+9027
+{
+  name { The Bengal tiger }
+  namelist { tiger white bengal }
+  shortdesc { A white bengal tiger is here. }
+  longdesc {
+Large and very ferocious looking.
+  }
+  race { none }
+  level { 39 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 36, 8, 36  }
+  move { 300 }
+  experience { 4132 }
+  damage { 2, 8, 6  }
+  act { sentinel, scavenger }
+}
+
+9050
+{
+  name { The Giant Norwegian Green }
+  namelist { green norwegian parrot giant }
+  shortdesc { A Giant norwegian green parrot is here. }
+  longdesc {
+He is Very large for a parrot!
+  }
+  race { none }
+  level { 6 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 740 }
+  damage { 2, 4, 5  }
+  act { sentinel, scavenger }
+}
+
+9051
+{
+  name { The Hel Hound }
+  namelist { hel hound }
+  shortdesc { A vicious hel hound is here, prowling for prey }
+  longdesc {
+His eyes are sulfurous glowing red!
+  }
+  race { none }
+  level { 8 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 976 }
+  damage { 1, 8, 6  }
+  immune { fire }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9052
+{
+  name { The slasher monkey }
+  namelist { slasher monkey }
+  shortdesc { A gruesome slasher monkey is here, waving its sharp claws menacingly }
+  longdesc {
+His fangs and claws are razor sharp!
+  }
+  race { none }
+  level { 23 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 21, 8, 21  }
+  move { 300 }
+  experience { 2147 }
+  damage { 1, 6, 7  }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9053
+{
+  name { The cocorada }
+  namelist { cocorada bug }
+  shortdesc { A disgustingly large cocorada bug is here }
+  longdesc {
+She looks like a giant praying mantis.
+  }
+  race { none }
+  level { 15 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 16, 8, 16  }
+  move { 300 }
+  experience { 1607 }
+  damage { 1, 7, 6  }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9054
+{
+  name { The alligator }
+  namelist { huge alligator }
+  shortdesc { A huge hungry alligator is here. }
+  longdesc {
+Mean, green and lean.  'Nuff said.
+  }
+  race { none }
+  level { 39 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 36, 8, 36  }
+  move { 300 }
+  experience { 4029 }
+  damage { 2, 6, 6  }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9055
+{
+  name { The Saber-Tooth Tiger }
+  namelist { saber tiger }
+  shortdesc { A huge Saber-Tooth tiger is here, growling angrily }
+  longdesc {
+His fangs are enormous and he is nearly 6' at the shoulder!
+  }
+  race { none }
+  level { 39 }
+  alignment { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 36, 8, 36  }
+  move { 300 }
+  experience { 4132 }
+  damage { 2, 7, 10  }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9056
+{
+  name { A Polar Bear }
+  namelist { bear polar }
+  shortdesc { A giant white polar bear is here. }
+  longdesc {
+He looks VERY mean.
+  }
+  race { none }
+  level { 84 }
+  alignment { 0 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 120, 8, 120  }
+  move { 300 }
+  experience { 13618 }
+  damage { 2, 10, 10  }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone }
+}
+
+9060
+{
+  name { the Vampire bat }
+  namelist { bat vampire }
+  shortdesc { A Vampire bat is here. }
+  longdesc {
+He hovers around your head, waiting for his moment to strike....
+
+OUCH!
+That REALLY hurt!
+  }
+  race { none }
+  level { 4 }
+  alignment { -200 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 502 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { aggressive, wimpy }
+}
+
+9061
+{
+  name { The Vampiress }
+  namelist { vampire vampiress }
+  shortdesc { A vampiress stands here }
+  longdesc {
+Lovely in every detail, but Lethal!
+  }
+  race { undead }
+  level { 4 }
+  alignment { -1000 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 1137 }
+  damage { 8, 8, 1  }
+  affected { detect-invisible, flying, infravision, hide }
+  act { special, aggressive }
+}
+

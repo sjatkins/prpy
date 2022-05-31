@@ -1,0 +1,38 @@
+4500
+{
+  name { a bloody white stag }
+  namelist { wounded white stag }
+  shortdesc { A handsome white stag stained red with blood stands before you. }
+  longdesc {
+This stag is a noble beast with a pure white hide.  His coat is marred by fresh wounds
+of those who would steal his horns or would have him for a desperate meal.
+His antlers tower above you, their tips dripping with the blood of failed attackers.  
+  }
+  race { Daevish }
+  height { 150 }
+  level { 579 }
+  alignment { 1000 }
+  gold { 120750  }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  strength { 30 }
+  dexterity { 25 }
+  hp { 9, 8, 20099  }
+  move { 300 }
+  experience { 747630 }
+  damage { 2, 40, 45  }
+  caster { 40 }
+  spells { meteor swarm, ice storm, pword blind, dispel magic }
+  mana { 10000 }
+  immune { charm }
+  resist_fire {200}
+  resist_magic {200}
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, stay-zone, hunting, deadly, nosummon }
+}

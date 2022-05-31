@@ -1,0 +1,849 @@
+
+19001 
+{
+    name { Arathon }
+    namelist { Smithy blacksmith burly arathon }
+    shortdesc { Arathon, the smithy, is here forging weapons. }
+    longdesc { 
+A burly man stands here pounding upon some metal.  His muscular frame 
+protrudes from beneath his dirty smock.  Any exposed flesh has been stained 
+a charcoal colour.  He hardly notices you, as he has no time for such trivial 
+matters.
+		}
+	race { human }
+	sex { male }
+	world_limit { 1 }
+	level { 500 }
+	experience { 3503000 }
+	hp { 4, 400, 32700 }
+	alignment { 0 }
+	gold { 550000 }
+	hit_bonus { 50 }
+	dam_bonus { 29 }
+	attacks_per_round { 4 }
+	dexterity { 17 }
+	move  { 300 }
+	damage { 2, 5, 35 }
+	head { -100, 25 }
+	body { -100, 25 }
+	arms { -100, 25 }
+	legs { -100, 25 }
+	feet { -100, 25 }
+	resist_acid   { 180 }
+	resist_magic  { 200 }
+	resist_force  { 130 }
+	resist_cold   { 20 }
+	resist_fire   { 200 }
+	resist_poison { 180 }
+	immune { fire, charm, backstab }
+	affected { sanctuary, true-sight }
+	act { sentinel, stay-zone, nosummon }
+    spells { blindness, fear, meteor swarm, chilly }
+}
+
+19002 
+{
+    name { Captain Sevren }
+    namelist { captain soldier sevren }
+    shortdesc { Sevren, the captain of the guard stands here. }
+    longdesc { 
+A dark haired man with a large scar on his right arm.  He stands with a 
+confidence few men can boast of.  It is apparent the people of the encampment 
+fear and respect this man from the looks that he gets as he passes 
+by them.
+    }
+    race { Human }
+    sex { Male }
+    level { 400 }
+    experience { 500000 }
+    hp { 50, 10, 9600 }
+    gold { 12000 }
+    move { 900 }
+    mana { 2000 }
+    power { 2000 }
+    height { 190 }
+    weight { 18000 }
+    hit_bonus { 25 }
+    dam_bonus { 15 }
+    alignment { 1000 }
+    caster { 0 }
+    attacks_per_round { 2 }
+    damage { 5, 5, 7 }
+    head { -20, 5 }
+    body { -20, 5 }
+    arms { -20, 5 }
+    legs { -20, 5 }
+    feet { -20, 5 }
+    immune { drain, charm, hold, poison }
+    resistant { cold }
+    act { stay-zone, sentinel, nosummon }
+    affected { sneak, true-sight, detect-invisible }
+}
+
+19003 
+{
+    name { First Lieutenant Khazoi }
+    namelist { soldier lieutenant soldier khazoi }
+    shortdesc { Khazoi, the First Lieutenant is here performing his duties. }
+    longdesc { 
+A strong man stands about checking this and that.  His skin tone betrays 
+the fact that he has spent many days under the hot sun.  His arms are 
+marked here and there with various size scratches and wounds.  
+This man obviously demands respect.
+    }
+    race { Human }
+    sex { Male }
+    level { 350 }
+    experience { 410000 }
+    hp { 500, 2, 6000 }
+    gold { 9000 }
+    move { 900 }
+    mana { 1000 }
+    power { 1000 }
+    height { 190 }
+    weight { 16000 }
+    hit_bonus { 22 }
+    dam_bonus { 6 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2.7 }
+    damage { 5, 8, 7 }
+    head { -50, 0 }
+    body { -50, 0 }
+    arms { -50, 0 }
+    legs { -50, 0 }
+    feet { -50, 0 }
+    immune { drain, charm }
+    resistant { cold }
+    act { nosummon, stay-zone }
+    affected { detect-invisible, true-sight }
+}
+
+19004 
+{
+    name { Common Soldier }
+    namelist { soldier man stout }
+    shortdesc { A stout soldier stands his post here. }
+    longdesc { 
+The man looks straight ahead.  The only sign of him being alive is 
+the up and down motion of his armor as he breathes in and out.  He 
+is silent as he stares forward with an intent glare.
+    }
+    race { Human }
+    sex { Male }
+    level { 380 }
+    experience { 278000 }
+    hp { 50, 10, 6000 }
+    gold { 13000 }
+    move { 900 }
+    mana { 0 }
+    power { 0 }
+    height { 180 }
+    weight { 15000 }
+    hit_bonus { 20 }
+    dam_bonus { 15 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2.3 }
+    damage { 2, 7, 8 }
+    head { -40, 3 }
+    body { -40, 3 }
+    arms { -40, 3 }
+    legs { -40, 3 }
+    feet { -40, 3 }
+    immune { charm }
+    resistant { cold }
+    act { stay-zone }
+    affected { true-sight, detect-invisible }
+}
+
+19005 
+{
+    name { A deadly archer }
+    namelist { archer soldier woman }
+    shortdesc { A deadly archer is standing here. }
+    longdesc { 
+An attractive woman adorned in light leather armor is here scanning 
+the hillside for a target.  Her blonde hair can be seen beneath her leather cap.  
+Her finger bounces upon the string of her bow in rhythm with the soft tune 
+she is humming.
+            }
+    race { Human }
+    sex { Female }
+    level { 400 }
+    experience { 478000 }
+    hp { 50, 10, 7800 }
+    gold { 15000 }
+    move { 500 }
+    mana { 0 }
+    power { 0 }
+    height { 170 }
+    weight { 13500 }
+    hit_bonus { 25 }
+    dam_bonus { 15 }
+    alignment { 1000 }
+    caster { 0 }
+    attacks_per_round { 2.5 }
+    damage { 5, 5, 5 }
+    head { -50, 3 }
+    body { -50, 3 }
+    arms { -50, 3 }
+    legs { -50, 3 }
+    feet { -50, 3 }
+    immune { charm }
+    resistant { cold, drain }
+    act { stay-zone, nosummon }
+    affected { sneak, detect-invisible, true-sight, detect-evil }
+}
+
+19006 
+{
+    name { Dracathzt }
+    namelist { Dracathzt dragon demon evil black winged }
+    shortdesc { Dracathzt, the Black Dragon stares at you with an evil glare. }
+    longdesc { 
+The winged creature is old even for a dragon.  His scales cling to his bones, 
+and a black aura fills its eye sockets.  He has long since lost his dragon soul.  
+From the faint aura that surrounds the cursed creature, one can assume a 
+foul magic is associated with this demon-like dragon.
+    }
+    race { Dragon }
+    sex { Male }
+    level { 530 }
+    experience { 1400000 }
+    hp { 5000, 2, 33000 }
+    gold { 700000 }
+    move { 2000 }
+    mana { 5000 }
+    power { 5000 }
+    height { 400 }
+    weight { 96000 }
+    hit_bonus { 23 }
+    dam_bonus { 22 }
+    alignment { -1000 }
+    caster { 530 }
+    attacks_per_round { 4 }
+    damage { 5, 5, 10 }
+    head { -100, 15 }
+    body { -100, 15 }
+    arms { -80, 15 }
+    legs { -80, 15 }
+    feet { -80, 15 }
+    immune { charm, sleep, hold, backstab, acid }
+    resistant { pierce }
+	susceptible { fire, cold, electricity, poison }
+    act { aggressive, hateful, healer, sentinel, stay-zone, nosummon, special }
+    affected { sanctuary, true-sight, flying, detect-invisible }
+    spells { acid cloud, gust of wind, sanctuary, corrosive spray, acid blast, acid breath }
+}
+
+19007 
+{
+    name { BreezeWalker }
+    namelist { Horse breeze walker }
+    shortdesc { A large, magnificently winged horse prances about. }
+    longdesc { 
+The horse glides about as if its movements were effortless.  As the 
+creature breathes, a faint grey mist spills forth from its nostrils.
+    }
+    race { Element }
+    sex { Female }
+    level { 300 }
+    experience { 415000 }
+    hp { 10, 15, 4000 }
+    gold { 0 }
+    move { 500 }
+    mana { 0 }
+    power { 0 }
+    height { 180 }
+    weight { 4000 }
+    hit_bonus { 15 }
+    dam_bonus { 17 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2.8 }
+    damage { 5, 4, 8 }
+    head { -30, 10 }
+    body { -30, 10 }
+    arms { -30, 10 }
+    legs { -30, 10 }
+    feet { -30, 10 }
+    immune { hold, poison }
+    act { nosummon, sentinel, stay-zone, wimpy }
+    spells { gust of wind }
+}
+
+19008 
+{
+    name { Wyndhelt }
+    namelist { mage wyndhelt ancient }
+    shortdesc { Wyndhelt the Ancient floats here in deep meditation. }
+    longdesc { 
+The man is obviously from a time long before this one.  His wrinkled face is 
+motionless as he concentrates his powers on the task he has been charged with.  
+A faint red glow emanates from his feeble body.
+    }
+    race { Human }
+    sex { Male }
+    level { 400 }
+    experience { 410000 }
+    hp { 10, 15, 1800 }
+    gold { 35000 }
+    move { 2000 }
+    mana { 4000 }
+    power { 4000 }
+    height { 175 }
+    weight { 13000 }
+    hit_bonus { 29 }
+    dam_bonus { 9 }
+    alignment { 1000 }
+    caster { 400 }
+    attacks_per_round { 1.8 }
+    damage { 5, 2, 4 }
+    head { -10, 10 }
+    body { -10, 10 }
+    arms { -10, 6 }
+    legs { -10, 5 }
+    feet { -10, 5 }
+    immune { charm, hold, poison, backstab }
+    resistant { drain, energy }
+    act { sentinel, stay-zone, nosummon, nice-thief }
+    affected { fireshield, true-sight, flying }
+    spells { dispel magic, disruptor, repulsor, fireshield }
+}
+
+19009 
+{
+    name { Lahyrem }
+    namelist { Lahyrem cleric ancient }
+    shortdesc { Lahyrem of  is here in deep meditation. }
+    longdesc { 
+This man appears to be completely oblivious of his surroundings.  His legs are crossed, 
+as he hovers about.  While it looks as though physically he has seen better days, the soft 
+glow about his body is a reminder that he can more then make up for it with his ancient 
+knowledge of the magics.
+            }
+    race { Human }
+    sex { Male }
+    level { 400 }
+    experience { 410000 }
+    hp { 10, 15, 1800 }
+    gold { 35000 }
+    move { 2000 }
+    mana { 4000 }
+    power { 4000 }
+    height { 175 }
+    weight { 13000 }
+    hit_bonus { 29 }
+    dam_bonus { 9 }
+    alignment { 1000 }
+    caster { 400 }
+    attacks_per_round { 1.8 }
+    damage { 5, 2, 4 }
+    head { -10, 10 }
+    body { -10, 10 }
+    arms { -10, 6 }
+    legs { -10, 5 }
+    feet { -10, 5 }
+    immune { charm, hold, sleep, poison }
+    resistant { drain }
+    act { healer, nosummon, scavenger, sentinel }
+    affected { flying, sanctuary, true-sight }
+    spells { dispel magic, shriek }
+}
+
+19010 
+{
+    name { Johram }
+    namelist { Johram ancient }
+    shortdesc { Johram the Magi floats about, deep in meditation. }
+    longdesc { 
+This elf looks to be quite young.  His small frame and pointed ears are a sure 
+sign that this man is an elf.  He is dressed in fine white silk from head to toe.
+    }
+    race { Human }
+    sex { Male }
+    level { 400 }
+    experience { 410000 }
+    hp { 10, 15, 1800 }
+    gold { 35000 }
+    move { 2000 }
+    mana { 4000 }
+    power { 4000 }
+    height { 175 }
+    weight { 13000 }
+    hit_bonus { 29 }
+    dam_bonus { 9 }
+    alignment { 1000 }
+    caster { 400 }
+    attacks_per_round { 1.8 }
+    damage { 5, 2, 4 }
+    head { -10, 10 }
+    body { -10, 10 }
+    arms { -10, 6 }
+    legs { -10, 5 }
+    feet { -10, 5 }
+    immune { charm, hold, sleep, poison }
+    resistant { drain }
+    act { stay-zone, sentinel, scavenger, nosummon }
+    affected { flying, true-sight, sanctuary }
+    spells { blindness, weakness }
+}
+
+19011 
+{
+    name { The northwest archer }
+    namelist { accurate archer northwest }
+    shortdesc { An archer stands ready with her bow at the ready.}
+    longdesc { 
+The woman has a twinkle in her eye as she surveys the horizon.
+    }
+    race { Human }
+    sex { female }
+    level { 300 }
+    experience { 410000 }
+    hp { 500, 5, 4000 }
+    gold { 5000 }
+    move { 900 }
+    mana { 1000 }
+    power { 1000 }
+    height { 190 }
+    weight { 16000 }
+    hit_bonus { 22 }
+    dam_bonus { 9 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2.6 }
+    damage { 3, 5, 5 }
+    head { -22, 2 }
+    body { -22, 2 }
+    arms { -20, 2 }
+    legs { -20, 2 }
+    feet { -20, 2 }
+    immune { charm }
+    resistant { cold }
+    act { nosummon, stay-zone, sentinel }
+    affected { detect-invisible, true-sight }
+}
+
+19012 
+{
+    name { The southwest archer }
+    namelist { accurate archer southwest }
+    shortdesc { An archer stands ready with her bow at the ready.}
+    longdesc { 
+The woman has a twinkle in her eye as she surveys the horizon.
+}
+  race { Human }
+  sex { female }
+  level { 300 }
+  experience { 410000 }
+  hp { 500, 5, 4000 }
+  gold { 5000 }
+	    move { 900 }
+	    mana { 1000 }
+	    power { 1000 }
+	    height { 190 }
+	    weight { 16000 }
+	    hit_bonus { 22 }
+	    dam_bonus { 9 }
+	    alignment { 0 }
+	    caster { 0 }
+	    attacks_per_round { 2.6 }
+	    damage { 3, 5, 5 }
+	    head { -22, 2 }
+	    body { -22, 2 }
+	    arms { -20, 2 }
+	    legs { -20, 2 }
+	    feet { -20, 2 }
+	    immune { charm }
+	    resistant { cold }
+	    act { nosummon, stay-zone, sentinel }
+	    affected { detect-invisible, true-sight }
+	}
+
+19013 
+{
+    name { The northeast archer }
+    namelist { accurate archer northeast }
+    shortdesc { An archer stands ready with her bow at the ready.}
+    longdesc { 
+The woman has a twinkle in her eye as she surveys the horizon.
+}
+  race { Human }
+  sex { female }
+  level { 300 }
+  experience { 410000 }
+  hp { 500, 5, 4000 }
+  gold { 5000 }
+	    move { 900 }
+	    mana { 1000 }
+	    power { 1000 }
+	    height { 190 }
+	    weight { 16000 }
+	    hit_bonus { 22 }
+	    dam_bonus { 9 }
+	    alignment { 0 }
+	    caster { 0 }
+	    attacks_per_round { 2.6 }
+	    damage { 3, 5, 5 }
+	    head { -22, 2 }
+	    body { -22, 2 }
+	    arms { -20, 2 }
+	    legs { -20, 2 }
+	    feet { -20, 2 }
+	    immune { charm }
+	    resistant { cold }
+	    act { nosummon, stay-zone, sentinel }
+	    affected { detect-invisible, true-sight }
+	}
+
+19014 
+{
+    name { The southeast archer }
+    namelist { accurate archer southeast }
+    shortdesc { An archer stands ready with her bow at the ready.}
+    longdesc { 
+The woman has a twinkle in her eye as she surveys the horizon.
+}
+  race { Human }
+  sex { female }
+  level { 300 }
+  experience { 410000 }
+  hp { 500, 5, 4000 }
+  gold { 5000 }
+	    move { 900 }
+	    mana { 1000 }
+	    power { 1000 }
+	    height { 190 }
+	    weight { 16000 }
+	    hit_bonus { 22 }
+	    dam_bonus { 9 }
+	    alignment { 0 }
+	    caster { 0 }
+	    attacks_per_round { 2.6 }
+	    damage { 3, 5, 5 }
+	    head { -22, 2 }
+	    body { -22, 2 }
+	    arms { -20, 2 }
+	    legs { -20, 2 }
+	    feet { -20, 2 }
+	    immune { charm }
+	    resistant { cold }
+	    act { nosummon, stay-zone, sentinel }
+	    affected { detect-invisible, true-sight }
+	}
+
+19015 
+{
+    name { Lanson the Quartermaster }
+    namelist { Lanson quartermaster }
+    shortdesc { Lanson the Quartermaster is scanning over his inventory }
+    longdesc { 
+An aged man of moderate build has a stern look of concentration.
+    }
+    race { Human }
+    sex { Male }
+    level { 478 }
+    experience { 650000 }
+    hp { 5, 100, 8678 }
+    gold { 30000 }
+    move { 800 }
+    mana { 8000 }
+    power { 8000 }
+    height { 200 }
+    weight { 20000 }
+    hit_bonus { 30 }
+    dam_bonus { 17 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2.3 }
+    damage { 1, 20, 8 }
+    head { -60, 11 }
+    body { -60, 11 }
+    arms { -60, 11 }
+    legs { -60, 11 }
+    feet { -60, 11 }
+    immune { poison, hold, drain, charm }
+    resistant { cold, acid }
+    act { nosummon, sentinel, stay-zone }
+    affected { sanctuary, true-sight, detect-invisible }
+}
+
+19016 
+{
+    name { Silas the Templar }
+    namelist { silas young templar }
+    shortdesc { Silas, a young templar, wanders about checking on everyone's current ability to fight. }
+    longdesc { 
+With a bag of potions and scrolls thrown over one shoulder, and his
+dagger sheathed on his left hip he walks about checking on his friends.
+    }
+    race { Human }
+    sex { Male }
+    level { 378 }
+    experience { 414000 }
+    hp { 200, 4, 5000 }
+    gold { 11000 }
+    move { 0 }
+    mana { 0 }
+    power { 0 }
+    height { 180 }
+    weight { 13000 }
+    hit_bonus { 25 }
+    dam_bonus { 18 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 2 }
+    damage { 5, 5, 8 }
+    head { -80, 3 }
+    body { -80, 3 }
+    arms { -80, 3 }
+    legs { -80, 3 }
+    feet { -80, 3 }
+	spells { shriek, sanctuary, curse }
+    immune { poison, hold, drain, charm }
+    resistant { cold }
+    act { nosummon, stay-zone, healer }
+    affected { true-sight, detect-invisible }
+}
+
+19017 
+{
+    name { Gauthis the Supply Runner }
+    namelist { gauthis supply runner}
+    shortdesc { Gauthis, the supply runner, is running errands for the Quartermaster. }
+    longdesc { 
+This young man is red of face, with sweat beading at his brow and
+getting in his eyes as he runs about hither and tither on never-ending
+errands.
+    }
+    race { Human }
+    sex { Male }
+    level { 278 }
+    experience { 290000 }
+    hp { 200, 4, 3000 }
+    gold { 10000 }
+    move { 0 }
+    mana { 0 }
+    power { 0 }
+    height { 180 }
+    weight { 13000 }
+    hit_bonus { 15 }
+    dam_bonus { 10 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 3 }
+    damage { 3, 5, 5 }
+    head { -30, 1 }
+    body { -30, 1 }
+    arms { -30, 1 }
+    legs { -30, 1 }
+    feet { -30, 1 }
+    immune { poison, hold, drain, charm }
+    resistant { cold }
+    act { nosummon, stay-zone }
+    affected { true-sight, detect-invisible }
+}
+
+19018 
+{
+    name { Ainsley the Camp Cook }
+    namelist { ainsley camp cook }
+    shortdesc { Ainsley, the camp cook is baking bread and preparing meals. }
+    longdesc { 
+This fat man is eating more than his fair share of the rations.
+He smiles as he pokes more food in his round face and reaches
+for his cask.
+    }
+    race { Human }
+    sex { Male }
+    level { 278 }
+    experience { 290000 }
+    hp { 200, 4, 3000 }
+    gold { 10000 }
+    move { 0 }
+    mana { 0 }
+    power { 0 }
+    height { 180 }
+    weight { 13000 }
+    hit_bonus { 15 }
+    dam_bonus { 10 }
+    alignment { 0 }
+    caster { 0 }
+    attacks_per_round { 3 }
+    damage { 3, 5, 5 }
+    head { -30, 1 }
+    body { -30, 1 }
+    arms { -30, 1 }
+    legs { -30, 1 }
+    feet { -30, 1 }
+    immune { poison, hold, drain, charm }
+    resistant { cold }
+    act { nosummon, stay-zone }
+    affected { true-sight, detect-invisible }
+}
+19019 
+{
+    name { Skarthax }
+    namelist { Skarthax dragon demon evil red winged }
+    shortdesc { Skarthax, the Red Dragon stares at you with boiling red eyes. }
+    longdesc { 
+Muscles move under this dragons scales, hinting at its strength and power.
+An aura of ageless evil escapes from it in waves of malice and doom.  This
+creature has long since lost his dragon soul.  From the faint aura that 
+surrounds the cursed creature, one can assume a foul magic is associated 
+with this demon-like dragon.
+    }
+    race { Dragon }
+    sex { Male }
+    level { 530 }
+    experience { 1400000 }
+    hp { 5000, 2, 33000 }
+    gold { 700000 }
+    move { 2000 }
+    mana { 5000 }
+    power { 5000 }
+    height { 400 }
+    weight { 96000 }
+    hit_bonus { 23 }
+    dam_bonus { 22 }
+    alignment { -1000 }
+    caster { 530 }
+    attacks_per_round { 4 }
+    damage { 5, 5, 10 }
+    head { -100, 15 }
+    body { -100, 15 }
+    arms { -80, 15 }
+    legs { -80, 15 }
+    feet { -80, 15 }
+    immune { charm, sleep, hold, backstab, fire }
+    resistant { pierce }
+	susceptible { acid, cold, poison, electricity }
+    act { aggressive, hateful, healer, sentinel, stay-zone, nosummon, special }
+    affected { sanctuary, true-sight, flying, detect-invisible }
+    spells { fireball, fire breath, sanctuary, gust of wind, firestorm, fire bolt, inferno }
+}
+19020 
+{
+    name { Xalanock }
+    namelist { Xalanock dragon demon evil white winged }
+    shortdesc { Xalanock, the White Dragon stares at you with a frosty gaze. }
+    longdesc { 
+Icy tendrils of creepy mist ooze slowly from her body, as if she freezes the
+very air around her.  Her scales sparkle white and blue when she moves, revealing
+a thickness that even the mightiest of hammers would find hard to crack!  SHe has
+long since lost her dragon soul.  From the faint aura that surrounds the cursed 
+creature, one can assume a foul magic is associated with this demon-like dragon.
+    }
+    race { Dragon }
+    sex { female }
+    level { 530 }
+    experience { 1400000 }
+    hp { 5000, 2, 33000 }
+    gold { 700000 }
+    move { 2000 }
+    mana { 5000 }
+    power { 5000 }
+    height { 400 }
+    weight { 96000 }
+    hit_bonus { 23 }
+    dam_bonus { 22 }
+    alignment { -1000 }
+    caster { 530 }
+    attacks_per_round { 4 }
+    damage { 5, 5, 10 }
+    head { -100, 15 }
+    body { -100, 15 }
+    arms { -80, 15 }
+    legs { -80, 15 }
+    feet { -80, 15 }
+    immune { charm, sleep, hold, backstab, cold }
+    resistant { pierce }
+	susceptible { fire, acid, poison, electricity }
+    act { aggressive, hateful, healer, sentinel, stay-zone, nosummon, special }
+    affected { sanctuary, true-sight, flying, detect-invisible }
+    spells { chill touch, gust of wind, sanctuary, cone of cold, ice storm, chilly, ice lance, freeze, frost breath }
+}
+19021 
+{
+    name { Vragothz }
+    namelist { Vragothz dragon demon evil green winged }
+    shortdesc { Vragothz, the Green Dragon stares at you with poisonous intent. }
+    longdesc { 
+Pungent green clouds roll off this gigantic dragon.  Glossy black eyes steam
+with malice and hate.  The very air that Vragothz belches forward is enough to
+curdle the blood of even the strongest barbarian.  He has long since lost his 
+dragon soul.  From the faint aura that surrounds the cursed creature, one can 
+assume a foul magic is associated with this demon-like dragon.
+    }
+    race { Dragon }
+    sex { Male }
+    level { 530 }
+    experience { 1400000 }
+    hp { 5000, 2, 33000 }
+    gold { 700000 }
+    move { 2000 }
+    mana { 5000 }
+    power { 5000 }
+    height { 400 }
+    weight { 96000 }
+    hit_bonus { 23 }
+    dam_bonus { 22 }
+    alignment { -1000 }
+    caster { 530 }
+    attacks_per_round { 4 }
+    damage { 5, 5, 10 }
+    head { -100, 15 }
+    body { -100, 15 }
+    arms { -80, 15 }
+    legs { -80, 15 }
+    feet { -80, 15 }
+    immune { charm, sleep, hold, backstab, poison }
+    resistant { pierce }
+	susceptible { fire, cold, electricity, acid }
+    act { aggressive, hateful, healer, sentinel, stay-zone, nosummon, special }
+    affected { sanctuary, true-sight, flying, detect-invisible }
+    spells { gust of wind, sanctuary, poison, vampiric touch, gas breath, armour as air, poison cloud }
+}
+19022 
+{
+    name { Zxarbolt }
+    namelist { Zxarbolt dragon demon evil blue winged }
+    shortdesc { Zxarbolt, the Blue Dragon stares at you with a crackling, lightning-filled eyes. }
+    longdesc { 
+Cobalt blue scales give way to bright, shiny cream on the under belly of this
+beast.  Static fills the air, making your hair stand on end in his presence.
+He has long since lost his dragon soul.  From the faint aura that surrounds the 
+cursed creature, one can assume a foul magic is associated with this demon-like
+dragon.
+    }
+    race { Dragon }
+    sex { Male }
+    level { 530 }
+    experience { 1400000 }
+    hp { 5000, 2, 33000 }
+    gold { 700000 }
+    move { 2000 }
+    mana { 5000 }
+    power { 5000 }
+    height { 400 }
+    weight { 96000 }
+    hit_bonus { 23 }
+    dam_bonus { 22 }
+    alignment { -1000 }
+    caster { 530 }
+    attacks_per_round { 4 }
+    damage { 5, 5, 10 }
+    head { -100, 15 }
+    body { -100, 15 }
+    arms { -80, 15 }
+    legs { -80, 15 }
+    feet { -80, 15 }
+    immune { charm, sleep, hold, backstab, electricity }
+    resistant { pierce }
+	susceptible { fire, cold, poison, acid }
+    act { aggressive, hateful, healer, sentinel, stay-zone, nosummon, special }
+    affected { sanctuary, true-sight, flying, detect-invisible }
+    spells { gust of wind, sanctuary, lightning bolt, lightning breath, shocking grasp, chain lightning }
+}

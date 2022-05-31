@@ -1,0 +1,824 @@
+4201 
+{
+name { a Knight Errant of Thaumlore }
+namelist { knight errant thaumlore }
+shortdesc { A Knight Errant of Thaumlore stands here, guarding the Fortress. }
+longdesc {
+The Knights of Thaumlore Fortress are no mere soldier of fortune.  These
+highly trained individuals are all volunteers who have given their lives
+to the cause of fighting Chaos.  Each Knight has faced fiends from the
+deepest planes.  Each Knight has been trained to fight his hardest and
+to never give ground in the face of evil.  It would not be wise to engage
+one in combat.
+}
+race { human }
+sex { male }
+level { 99 }
+alignment { 1000 }
+gold { 120 }
+hit_bonus { 9 }
+dam_bonus { 8 }
+attacks_per_round { 2 }
+head { -30, 4 }
+body { -33, 5 }
+arms { -30, 4 }
+legs { -30, 4 }
+feet { -30, 4 }
+hp { 4, 6, 800  }
+move { 300 }
+experience { 51650 }
+damage { 1, 10, 2  }
+immune { charm }
+act { stay-zone }
+}
+
+4202 
+{
+name { a Knight Guardian of Thaumlore }
+namelist { Knight Guardian warrior thaumlore }
+shortdesc { A Knight Guardian of Thaumlore walks around, guarding the sacred Fortress. }
+longdesc {
+Uniquely, the Knight Guardians are all females who excelled in the tests.  
+They were the best of the best, and in reward each was granted the honour
+protecting a part of the Fortress; albeit the impress gate or the Knight
+Commander herself.  Trained in the art of combat to rival any warrior, these
+elite Knights can also wield deadly magical powers that have the ability
+to turn even the strongest of fiends in to a smoking ruin.  Care should
+be taken when engaging them.
+}
+class { warlord }
+race { human }
+sex { female }
+level { 120 }
+alignment { 1000 }
+gold { 125 }
+hit_bonus { 11 }
+dam_bonus { 9 }
+attacks_per_round { 2.5 }
+head { -35, 5 }
+body { -40, 6 }
+arms { -35, 5 }
+legs { -35, 5 }
+feet { -35, 5 }
+hp { 10, 10, 900  }
+move { 300 }
+mana { 3000 }
+caster { 120 } 
+spells { blindness, lightning bolt, colour spray }
+experience { 60650 }
+damage { 2, 6, 4  }
+immune { charm }
+act { stay-zone, sentinel }
+}
+
+
+4203 
+{
+name { Emilee Starsoul the Knight Commander of Thaumlore }
+namelist { emilee starsoul knight commander warrior thaumlore }
+shortdesc { Emilee Starsoul, the Knight Commander of Thaumlore stands here, resplendent in her armour. }
+longdesc {
+Once in every lifetime there comes a soul to the Fortress of Thaumlore
+who is so pure in their task, so powerful in their training, that they
+ascend to the top, to lead and carry the flame of goodness against the
+vile armies of chaos and evil.  They are named the Knight Commander, and 
+they demand the respect and loyalty of all in the Fortress.  
+
+The current Knight Commander is named Emilee Starsoul.  She was born a waif
+and stray in Midgard, a homeless orphan.  Her destiny in that dark clime
+was to become a thief.  A vagabond.  And to face eventual punishment like
+so many others before her.  She choose instead to leave Midgard, to make
+herself better than anything the Gods had in store for her.  She passed
+the tests of Thaumlore at the young age of 12.  At 16, she is now the Knight
+Commander.  Don't let her age fool you, she wields more power than you
+could ever imagine.
+}
+race { human }
+level { 450 }
+sex { female }
+alignment { 1000 }
+gold { 87000 }
+hit_bonus { 29 }
+dam_bonus { 20 }
+strength { 30 }
+dexterity { 25 }
+constitution { 20 }
+intelligence { 22 }
+wisdom { 15 }
+luck { 25 }
+charisma { 25 } 
+attacks_per_round { 6 }
+head { -80, 8 }
+body { -80, 10 }
+arms { -80, 8 }
+legs { -80, 8 }
+feet { -80, 8 }
+hp { 10, 80, 15100  }
+move { 300 }
+experience { 657221 }
+damage { 4, 8, 8  }
+caster { 400 } 
+spells { blindness, colour spray, stone skin, heal, sanctuary, gust of wind, protection from evil }
+immune { charm, backstab }
+act { stay-zone, npc, special, healer }
+}
+
+4204 
+{
+  name { Hilux Stormhammer the shopkeeper }
+  namelist { Hilux Stormhammer shopkeeper }
+  shortdesc { Hilux Stormhammer, the shopkeeper is busy working here. }
+  longdesc {
+Hilux Stormhammer is a dwarf.  And like many of his kin, he is a very
+grumpy little dwarf.  At least, that seems to be the case to those who
+don't know him.  Born in Fortrum, he gravitated to the Fortress of
+Thaumlore when he was a but a young lad.  He was one of the very few non-
+humans to the hold the rank of Knight Commander, a title that he wore for
+almost a century.  It was only when he saw a young waif best the trials
+beneath the Fortress that he knew his time was near.  He trained the
+young warrioress himself, as she was nearer to his height than any of her
+fellow humans.  And it was he who bestowed upon her the name of Starsoul
+when he announced her as his successor.  Emilee Starsoul is like a the
+daughter this dour dwarf never had, and only he in the whole of the
+Fortress rivals her in power.
+  }
+  race { dwarf }
+  level { 530 }
+  sex { male }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 37 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 10, 20, 30000 }
+  experience { 819099 }
+  damage { 4, 8, 4 }
+  immune { backstab, charm }
+  caster { 300 }
+  spells { blindness, colour spray, lightning bolt, dispel magic, fireball }
+  act { npc, sentinel, stay-zone, special }
+}
+
+4205  
+{
+  name { Faustas, the guildmaster's familiar }
+  namelist { faustas familiar cat }
+  shortdesc { Faustas, the guildmaster's familiar, a rat, is scurrying around here. }
+  longdesc {
+Faustas is a small rat, with a beautiful gleaming coat and bright green 
+eyes.  By looking at her you receive a telepathic thought... 
+
+#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{o}
+
+                     To take the test of wizardry,
+                       You must defeat the Spar,
+                     These rhymes can be so fiddly,
+                       So just think "#{bold}#{green}GO AVATAR#{o}!" 
+					   
+#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{bold yel}*#{bold blue}~#{o}
+  }
+  race { rat }
+  sex { female }
+  height { 60 }
+  weight { 3000 }
+  level { 1 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 1 }
+  body { 100, 1 }
+  arms { 100, 1 }
+  legs { 100, 1 }
+  feet { 100, 1 }
+  hp { 2, 4, 1 }
+  move { 300 }
+  experience { 164 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+4206 
+{
+  @GuildMaster
+  name { Horar Frogroarer, the Guildmaster of Thaumlore }
+  namelist { horar frogroarer guildmaster }
+  short { Horar Frogroarer, the Guildmaster of Thaumlore, notes your presence. }
+  longdesc {
+Horar the Frog, as he is more commonly known, is the teacher of Thaumlore
+Fortress.  His knowledge is vast, yet he had never taken the tests of the
+castle himself, for whatever reason.  It is also apparent that his presence
+is barely tolerated by the arch-warrior, who deems him unfit to train the
+souls that will march in to battle against the fiends of the deepest Hells.
+  }
+  level { 500 }
+  race { human }
+  sex { male }
+  alignment { 400 }
+  gold { 80000 }
+  hit_bonus { 19 }
+  dam_bonus { 12 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 10, 20, 30000 }
+  experience { 819099 }
+  damage { 4, 8, 4 }
+  immune { backstab, charm }
+  caster { 300 }
+  spells { sleep, blindness, lightning bolt, colour spray, fireball, inferno }
+  act { npc, sentinel, stay-zone, special }
+  experience { 976971 }
+}
+
+
+4207   
+{
+name { an agathion }
+namelist { agathion }
+shortdesc { An agathion is here, engaged in testing the souls of those engaged in the trials. }
+longdesc {
+Agathion's are the spirits of dead warriors who choose the side of law and
+goodness in life.  These warriors fell in battle against evil fiends in
+the never ending war against chaos that is raged in the outer planes.  In
+their afterlife they have chosen to train the next generation of warriors
+in defence of all that is good by giving their eternal souls to the tests
+and trials in the labyrinth of Thaumlore.  
+}
+race { planar }
+level { 120 }
+alignment { 1000 }
+gold { 0 }
+hit_bonus { 12 }
+dam_bonus { 8 }
+attacks_per_round { 2 }
+head { -50, 6 }
+body { -50, 6 }
+arms { -50, 6 }
+legs { -20, 6 }
+feet { -20, 6 }
+hp { 30, 9, 800 }
+move { 200 }
+experience { 360342 }
+damage { 2, 8, 2  }
+immune { backstab, charm }
+affected { detect-invisible, infravision }
+act { aggressive, stay-zone }
+}
+
+
+4208  
+{
+name { an aasimar }
+namelist { aasimar }
+shortdesc { An aasimar creeps along here, preparing to test those who deem themselves ready. }
+longdesc {
+Aasimar are the mortal descendants of angelic beings.  They possess the
+qualities of both their plane-touched and mortal ancestors.  Most of these
+beings try to hide their ancestry, but these ones, under the Fortress of
+Thaumlore, wear it proudly.  They have made the choice to dedicate their
+very lives to training of the next generation of guardians.  And in doing
+so, they know they will die by the sword of a soon-to-be hero of the
+planes. 
+}
+race { planar }
+level { 198 }
+alignment { 1000 }
+hit_bonus { 15 }
+dam_bonus { 9 }
+attacks_per_round { 3 }
+head { -80, 6 }
+body { -80, 6 }
+arms { -80, 6 }
+legs { -40, 6 }
+feet { -40, 6 }
+hp { 30, 9, 1800 }
+move { 200 }
+experience { 290342 }
+damage { 3, 7, 4  }
+immune { backstab, charm }
+affected { detect-invisible, infravision, invisible, sneak }
+act { aggressive, stay-zone }
+}
+
+4209
+{
+  name { A hopeful candidate }
+  namelist { trainee human thaumlore candidate }
+  shortdesc { A trainee stalks the corridor, nervous and hopeful all at once. }
+  longdesc {
+This lad is taking the trials.  It is the candidate who decides when he or
+she is ready for the ordeal.  And sadly, many do not make it back to see
+the sunlight of the world above.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 116 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.5 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 32395 }
+  damage { 1, 8, 8 }
+  caster { 40 }
+  spells { magic missile }
+  affected { detect-invisible }
+  act { wimpy }
+}
+
+4210
+{
+  name { a deva }
+  namelist { deva }
+  shortdesc { A deva stands here, hunting the hopefuls who take the trials. }
+  longdesc {
+The deva are powerful angelic souls locked inside mortals shells.  They
+yearn for freedom from the flesh, to take flight and soar amongst the soft
+clouds of their home planes.  But they are here, punished for a slight
+wrong, forced to hunt down and kill the hopefuls who wander these halls,
+or be be slain in turn and earn their release.  The deva are dangerous
+and powerful and are most alike to the fiends that the hopefuls have been
+trained to fight.
+  }
+  race { planar }
+  height { 160 }
+  weight { 10000 }
+  level { 272 }
+  alignment { 800 }
+  gold { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  hp { 4, 72, 5435  }
+  move { 3000 }
+  experience { 194549 }
+  damage { 3, 7, 6 }
+  immune { charm }
+  susceptible { electricity, energy }
+  resistant { fire }
+  affected { detect-invisible, infravision }
+  caster { 100 }
+  spells { mage fire, fireball, inferno, burning hands }
+  act { aggressive, stay-zone }
+}
+
+
+
+
+4211
+{
+  name { a deva }
+  namelist { deva }
+  shortdesc { A deva tears madly at its own flesh, seeking freedom from this place. }
+  longdesc {
+The deva are powerful angelic souls locked inside mortals shells.  They
+yearn for freedom from the flesh, to take flight and soar amongst the soft
+clouds of their home planes.  But they are here, punished for a slight
+wrong, forced to hunt down and kill the hopefuls who wander these halls,
+or be be slain in turn and earn their release.  The deva are dangerous
+and powerful and are most alike to the fiends that the hopefuls have been
+trained to fight.
+  }
+  race { planar }
+  height { 160 }
+  weight { 10000 }
+  level { 513 }
+  alignment { 800 }
+  gold { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  head { -80, 15 }
+  body { -80, 15 }
+  arms { -80, 15 }
+  legs { -80, 15 }
+  feet { -80, 15 }
+  hp { 4, 72, 25435  }
+  move { 3000 }
+  caster { 200 }
+  spells { dispel magic, inferno, flamestrike }
+  experience { 794549 }
+  damage { 3, 7, 12  }
+  affected { detect-invisible, true-sight }
+  act { aggressive }
+  susceptible { electricity, energy }
+  resistant { fire }
+  immune { charm, hold, backstab, poison, backstab }
+}
+
+4212
+{
+  name { the angel of fire }
+  namelist { angel fire }
+  shortdesc { A tall angelic being stands here, wreathed in blue and gold flames. }
+  longdesc {
+The angel is a being of pure energy that has been given form by the ruling
+deity of its home plane.  In this case, the angel appears is a beautiful
+woman with wings of fiery feathers arching up from her back.  Her clothing
+burns a deep blue and gold, flickering brightly and licking out at anything
+foolhardy enough to come close.  She is the most perfect thing you have
+ever seen.  And yet, she is here for a reason.  She carries the only way
+out of these halls, and she guards it with a fiery passion.  To defeat her
+is pass the test.
+  }
+  race { planar }
+  height { 160 }
+  weight { 10000 }
+  level { 535 }
+  alignment { 800 }
+  gold { 00 }
+  hit_bonus { 45 }
+  dam_bonus { 45 }
+  attacks_per_round { 4.5 }
+  head { -150, 35 }
+  body { -150, 35 }
+  arms { -150, 35 }
+  legs { -150, 35 }
+  feet { -150, 35 }
+  hp { 1, 1, 31990  }
+  move { 3000 }
+  caster { 25 }
+  mana {3000 }
+  spells { dispel magic, fireball, flamestrike, burning hands, mage fire, firestorm, inferno }
+  experience { 7594549 }
+  damage { 1, 50, 5  }
+  affected { detect-invisible, true-sight }
+  act { aggressive }
+  immune { charm, hold, backstab, poison, backstab, blunt, slash, hold, sleep, fire }
+  resistant { pierce, fire, non-magical }
+  susceptible { electricity, energy, cold }
+}
+
+4213
+{
+  name { a tiny angelic imp }
+  namelist { imp angelic tiny }
+  shortdesc { A tiny angelic imp scampers about picking up discarded body remains and bits. }
+  longdesc {
+It looks almost cat-like, with small pointed ears and a cute, lovable
+face.  It is covered in a soft, downy light blue fur that is almost pure
+white in patches.  As you watch it leans down and collects a small bloody
+object that looks remarkably like a finger.  It sniffs it and then opens
+it's mouth, revealing row-upon-row of razor sharp teeth.  Snap!  Crunch!
+The finger is gone! 
+  }
+  race { planar }
+  level { 3 }
+  alignment { 1000 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }                                                              
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 153 }
+  damage { 1, 7, 1  }
+  affected { detect-invisible, infravision, fly }
+  act { scavenger, wimpy }
+}
+
+4214
+{
+  name { a small angelic wisp }
+  namelist { wisp angelic }
+  shortdesc { A small angelic wisp floats here, searching for souls to test. }
+  longdesc {
+These spirits are almost insubstantial.  They are the weakest form of
+angelic being and yet even they do their job and fullfil the needs of the
+Fortress.  They too hunt down and attack the hopefuls who take the test.
+  }
+  race { planar }
+  level { 1 }
+  alignment { 1000 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 4 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 1, 1  }
+  move { 300 }
+  experience { 159 }
+  damage { 1, 6, 1  }
+  immune { charm, blunt, pierce }
+  act { aggressive, wimpy }
+}
+
+4215
+{
+  name { a well trained candidate }
+  namelist { candidate trainee human }
+  shortdesc { A well equipped trainee sneaks along here carefully. }
+  longdesc {
+This hopeful appears to have been well trained.  He carries his sword low
+and ready as he sneaks along, checking each of the angels he encounters,
+looking for something.
+  }
+  race { human }
+  level { 301 }
+  alignment { 1000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.8 }
+  head { -70, 3 }
+  body { -70, 6 }
+  arms { -70, 4 }
+  legs { -70, 4 }
+  feet { -70, 2 }
+  hp { 10, 10, 2900  }
+  move { 300 }
+  experience { 395159 }
+  damage { 5, 4, 2  }
+  act { stay-zone }
+}
+
+4216
+{
+  name { a lantern archon }
+  namelist { archon lantern }
+  shortdesc { A lantern archon floats here, illuminating a safe place to rest. }
+  longdesc {
+A lantern archon is a floating ball of light, usually blue, that protects
+and helps those would stand against evil and chaos.  This one is here to
+help the souls of Thaumlore who brave the challenge.  In it's presence
+there can be no violence.  In it's presence, anyone can sleep peacefully
+and heal at increased speed. 
+  }
+  mana { 10000 }
+  height { 500 }
+  level { 50 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 0.1 }
+  head { 100,  0 }
+  body { 100,  0 }
+  arms { 100,  0 }
+  legs { 100, 0 }
+  feet { 100,  1 }
+  hp { 1, 500,  3000  }
+  move { 1000 }
+  experience { 752695 }
+  damage { 1, 1, 0  }
+  caster { 1000 }
+  spells { calm, sleep }
+  immune { sleep, charm, hold, backstab, poison, fire }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+4217
+{
+  name { a hound archon }
+  namelist { archon hound }
+  shortdesc { A hound archon stands here, baying loudly. }
+  longdesc {
+Hound archons are the well-disciplined soldiers and sentinels of their
+heavenly realm. They are well-trained in the fight against evil and show
+no mercy to fiends. Against mortals, however, they are loath to use lethal
+force, even against those dedicated to evil. They believe that mortals
+should be the judges of their own kind while on the mortal world.  This
+one holds a circle of protection inside the Proving Grounds, allowing
+spell casters to recharge their mana at an increased rate.
+  }
+  mana { 10000 }
+  height { 300 }
+  level { 430 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 23 }
+  attacks_per_round { 2 }
+  head { -75,  1 }
+  body { -100,  1 }
+  arms { -75,  1 }
+  legs { -75,  1 }
+  feet { -75,  1 }
+  hp { 1, 500,  3000  }
+  move { 1000 }
+  experience { 752695 }
+  damage { 5, 7, 9  }
+  caster { 399 }
+  spells { cone of cold, dispel magic, ice storm }
+  immune { sleep, charm, hold, backstab, poison, cold }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+4218
+{
+  name { a trumpet archon }
+  namelist { archon trumpet }
+  shortdesc { A beautiful trumpet archon is here, creating a calming aura of peace. }
+  longdesc {
+The trumpet archon is beautiful to behold.  She has pale, almost white,
+skin, white hair and soft, feathered wings.  She wears a cloth-of-gold
+dress and corset that accentuates her gleaming, pearly-white eyes.  She
+carries a long, golden trumpet that she plays to create a zone of peace,
+allowing the most devout to pray to their deity and attain a close bond
+usually only found in a dedicated cathedral.
+  }
+  mana { 10000 }
+  height { 200 }
+  level { 499 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { 10,  12 }
+  body { 10,  16 }
+  arms { 10,  14 }
+  legs { 10,  14 }
+  feet { 10,  10 }
+  hp { 1 , 500,  2500  }
+  move { 1000 }
+  experience { 752695 }
+  damage { 5, 4, 10  }
+  caster { 510 }
+  spells { disruptor, colour spray, magic missile, dispel magic, charm person }
+  immune { sleep, charm, hold, backstab, poison, energy }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+4219
+{
+  name { a sword archon }
+  namelist { archon sword }
+  shortdesc { A sword archon stands here, defending the area with his flaming swords. }
+  longdesc {
+The sword archon appears as a tall humanoid warrior.  His swords are
+extensions of his arms, literally attached to his fists and never able to
+be put down.  Legend has it that anyone defeating a sword archon and
+cutting off it's hand will find themselves possessing a weapon far greater
+than any a mortal could own.
+  }
+  mana { 10000 }
+  height { 500 }
+  level { 430 }
+  alignment { 1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4.5 }
+  head { -110,  1 }
+  body { -110,  1 }
+  arms { -110,  1 }
+  legs { -110,  1 }
+  feet { -110,  1 }
+  hp { 1 , 500,  3000  }
+  move { 1000 }
+  experience { 752695 }
+  damage { 5, 10, 10  }
+  caster { 49 }
+  spells { dispel magic }
+  immune { sleep, charm, hold, backstab, poison }
+  resistant { non-magical, blunt, slash, pierce }
+  affected { true-sight, detect-invisible, sanctuary}
+  act { sentinel }
+}
+
+4220
+{
+  name { The Planetar }
+  namelist { avatar }
+  shortdesc { A replica of your very image stands before you.}
+  longdesc {
+Planetars are mighty angels that lead the armies of law against the fiends
+in the Dawn War.  They stand as tall as a giant and have elegant wings of
+white feathers that shine brightly.  It is rumoured that a single feather
+from the wing of a planetar has magical properties akin to the mightiest
+of relics.  Planetars are known to help mortals who are on missions to
+further the cause of goodness and law against the fiends.  And that is why
+this one is here, to help the warriors of Thaumlore in their struggle by
+providing a final test to the skilled men and women of the Fortress.
+  }
+  mana { 10000 }
+  height { 500 }
+  level { 515 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100,  5 }
+  body { -100,  5 }
+  arms { -100,  5 }
+  legs { -100,  5 }
+  feet { -100,  5 }
+  hp { 1 , 1  , 29000  }
+  move { 1000 }
+  experience { 500000 }
+  damage { 5, 10, 10  }
+  caster { 450 }
+  spells { fireball, mage fire, dispel magic, colour spray, ice storm, inferno }
+  immune { sleep, charm, hold, backstab, poison, fire}
+  resistant { blunt, pierce, slash, non-magical }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { sentinel }
+}
+4221 
+{
+  name { Mannix Flamebow }
+  namelist { Mannix Flamebow shopkeeper }
+  shortdesc { Mannix Flamebow is here preparing a scroll for sale. }
+  longdesc {
+Mannix Flamebow is an elderly elf.  He has strangely dark skin that is
+almost blue in hue and hair that is a stark white.  Rumour has it that
+Mannix was the arch-warrior long ago, but his size and frailty do little
+to enhance that particular tail.  He stands here now selling his potions
+and scrolls that he mixes and writes himself.  There is sure to be a
+bargain amongst his many wares.
+  }
+  race { human }
+  sex { male }
+  level { 530 }
+  alignment { 1000 }
+  gold { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 22 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 10, 100, 28075 }
+  experience { 1 }
+  damage { 8, 8, 2  }
+  immune { backstab, charm }
+  act { sentinel }
+}
+
+4223 
+{
+name { a Knight Guardian of Thaumlore }
+namelist { Knight Guardian warrior thaumlore }
+shortdesc { A Knight Guardian of Thaumlore is here, protecting the Knight Commander. }
+longdesc {
+Uniquely, the Knight Guardians are all females who excelled in the tests.  
+They were the best of the best, and in reward each was granted the honour
+protecting a part of the Fortress; albeit the impress gate or the Knight
+Commander herself.  Trained in the art of combat to rival any warrior, these
+elite Knights can also wield deadly magical powers that have the ability
+to turn even the strongest of fiends in to a smoking ruin.  Care should
+be taken when engaging them.
+}
+class { warlord }
+race { human }
+sex { female }
+level { 140 }
+alignment { 1000 }
+gold { 155 }
+hit_bonus { 13 }
+dam_bonus { 10 }
+attacks_per_round { 3 }
+head { -40, 6 }
+body { -45, 7 }
+arms { -40, 6 }
+legs { -40, 6 }
+feet { -40, 6 }
+hp { 10, 10, 900  }
+move { 300 }
+mana { 3000 }
+caster { 140 } 
+spells { blindness, lightning bolt, colour spray, repulsor }
+experience { 68650 }
+damage { 2, 6, 5  }
+immune { charm }
+act { stay-zone }
+}

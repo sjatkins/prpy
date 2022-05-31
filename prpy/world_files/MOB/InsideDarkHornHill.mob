@@ -1,0 +1,995 @@
+107000
+{
+  name { Zxan Vipertooth the Lizardman Chief }
+  namelist { Zxan Vipertooth Lizardman Chief }
+  shortdesc { Zxan Vipertooth, the Lizardman Chief, commands respect here. }
+  longdesc {
+Zxan Vipertooth is a master of arms and poisons. He is a reknowned warrior and
+assassin.  He stands over 7 foot tall and sports red scales that range from a
+deep red on his back and tail to a creamy red on his belly and inner arms. Zzan
+is covered in scars and old wounds. He didn't become chief of this mighty clan
+by accident. He is a feared and terrible foe.
+}
+  race { lizardman }
+  sex { male }
+  level { 650 }
+  height { 180 }
+  weight { 3000 }
+  experience { 985411 }
+  hp { 10, 100, 26000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 325000 }
+  hit_bonus { 99 }
+  dam_bonus { 89 }
+  damage { 10, 7, 90 }
+  attacks_per_round { 6 }
+  head { -160, 50 }
+  body { -200, 75 }
+  arms { -168, 55 }
+  legs { -168, 55 }
+  feet { -168, 55 }
+  skills { bash }
+  affected { infravision, sanctuary }
+  immune { charm, poison }
+  act { special, sentinel, stay-zone, deadly }
+}
+107001
+{
+  name { A Skum Slave }
+  namelist { skum slave }
+  shortdesc { A Skum is here, gathering food. }
+  longdesc {
+The Skum is a grotesque cross between a human and a fish. It has cold,
+clammy green skin covered in pale, translucent scales. It's eyes are
+bulbous, dark orbs and a leathery, wet-looking fin starts at its brow,
+passes through its lank, dark hair and down its back. It's wide mouth
+is full of blunt, tombstone-like teeth.
+}
+  race { lizardman }
+  sex { male }
+  level { 350 }
+  height { 165 }
+  weight { 2600 }
+  experience { 310000 }
+  hp { 10, 12, 7890 }
+  alignment { 0 }
+  move { 600 }
+  gold { 500 }
+  hit_bonus { 18 }
+  dam_bonus { 31 }
+  damage { 6, 9, 10 }
+  attacks_per_round { 2 }
+  group_with { 107002 }
+  head { -30, 4 }
+  body { -55, 6 }
+  arms { -39, 5 }
+  legs { -39, 5 }
+  feet { -39, 5 }
+  immune { charm, poison }
+  act { stay-zone }
+}
+107002
+{
+  name { A Skum Warrior Slave }
+  namelist { skum warrior slave }
+  shortdesc { A Skum warrior is here, guarding the pathways }
+  longdesc {
+The Skum is a grotesque cross between a human and a fish. It has cold,
+clammy green skin covered in pale, translucent scales. It's eyes are
+bulbous, dark orbs and a leathery, wet-looking fin starts at its brow,
+passes through its lank, dark hair and down its back. It's wide mouth
+is full of blunt, tombstone-like teeth.
+}
+  race { lizardman }
+  sex { male }
+  level { 490 }
+  height { 185 }
+  weight { 3200 }
+  experience { 650890 }
+  hp { 10, 12, 22890 }
+  alignment { 0 }
+  move { 600 }
+  gold { 2515 }
+  hit_bonus { 45 }
+  dam_bonus { 50 }
+  damage { 2, 20, 61 }
+  attacks_per_round { 4 }
+  group_with { 107008 }
+  head { -50, 29 }
+  body { -78, 36 }
+  arms { -62, 33 }
+  legs { -62, 33 }
+  feet { -62, 33 }
+  immune { charm, poison }
+  act { stay-zone, sentinel }
+}
+107003
+{
+  name { Dratz Longclaw the Lizardman Shaman }
+  namelist { Dratz longclaw Lizardman Shaman }
+  shortdesc { Dratz Longclaw is skulking in the background here. }
+  longdesc {
+Dratz Longclaw is a skilled wizard and clever priest. Ever since the
+Sahuagin cut their way into the lizardman caves and bought off Chief
+Zxan with petty material gifts has he sought for a way to overthrow
+the rule of his chief and provide his people with a worthy leader who
+lead them against the Sahuagin, and to victory. He appears to be
+placing all his faith in the young Zzeep Blacktongue.
+}
+  race { lizardman }
+  sex { male }
+  level { 650 }
+  height { 180 }
+  weight { 3000 }
+  experience { 985411 }
+  hp { 10, 100, 26000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 325000 }
+  hit_bonus { 99 }
+  dam_bonus { 89 }
+  damage { 10, 7, 90 }
+  attacks_per_round { 6 }
+  head { -160, 50 }
+  body { -200, 75 }
+  arms { -168, 55 }
+  legs { -168, 55 }
+  feet { -168, 55 }
+  skills { bash }
+  affected { infravision, sanctuary }
+  immune { charm, poison }
+  act { special, sentinel, stay-zone, deadly }
+}
+107004
+{
+  name { The Death Slaad }
+  namelist { death slaad }
+  shortdesc { The Death Slaad stands, confident in the knowledge it can destroy you. }
+  longdesc {
+The Death Slaad is a human sized demonic frog like creature from another plane.  It
+oozes power and confidence, safe in the knowledge that on its own plane it is the
+most powerful being of all.  It is dressed like a very wealthy mage and carries a
+staff that almost screams with power.  You should be careful of this one...
+  }
+  race { demon }
+  height { 200 }
+  level { 1001 }
+  alignment { -1000 }
+  gold { 1000000 }
+  hit_bonus { 99 }
+  dam_bonus { 201 }
+  attacks_per_round { 8 }
+  head { -150, 45 }
+  body { -190, 65 }
+  arms { -170, 55 }
+  legs { -170, 55 }
+  feet { -170, 55 }
+  strength { 30 }
+  dexterity { 25 }
+  intelligence { 25 }
+  wisdom { 25 }
+  constitution { 25 }
+  luck { 25 }
+  hp { 1000, 10, 60000 }
+  move { 300 }
+  experience { 48000650 }
+  damage { 10, 6, 66  }
+  caster { 99 }
+  spells { dispel magic, fireball, cone of cold, energy drain, blindness, chill touch }
+  mana { 10000 }
+  immune { charm, fire, sleep, backstab }
+  resist_cold {200}
+  resist_magic {200}
+  affected { true-sight, detect-invisible, sanctuary, fireshield, infravision }
+  act { special, sentinel, npc }
+}
+107005
+{
+  name { The Grey Slaad }
+  namelist { grey slaad }
+  shortdesc { The Grey Slaad is here, beckoning forth the mists from the pit below. }
+  longdesc { 
+Grey Slaad are demonic, humanoid frogs that closely resemble master wizards.  They
+have advanced from the lesser Green Slaad in knowledge and power and are known to
+hold many highly magical artefacts, making them a deadly foe, but also a temptation
+to any adventurer with a taste for treasures.
+  }
+  race { demon }
+  sex { none }
+  world_limit { 1 }
+  level { 760 }
+  experience { 2102425 }
+  hp { 800, 10, 52000 }
+  alignment { -1000 }
+  gold { 535000 }
+  hit_bonus { 36 }
+  dam_bonus { 75 }
+  attacks_per_round { 4 }
+  move { 5000 }
+  mana { 10000 }
+  power { 10000 }
+  damage { 13, 15, 40 }
+  head { -140, 60 }
+  body { -160, 50 }
+  arms { -150, 50 }
+  legs { -150, 50 }
+  feet { -150, 50 }
+  immune { fire, charm, sleep, backstab }
+  resist_cold {150}
+  resist_magic {150}
+  caster { 60 }
+  spells { fireball, mage fire, sleep, blindness, weakness, energy drain }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fly }
+  act { npc, stay-zone, sentinel }
+}
+107006
+{
+  name { A Sahuagin Warrior }
+  namelist { sahuagin warrior }
+  shortdesc { An intimidating Sahuagin warrior is here, ready to skewer you with his fish-spear! }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one is a trained and viscious warrior, ready to kill at a moments notice,
+with no thought for personal safety.
+  }
+  sex { Male }
+  level { 350 }
+  race { lizardman }
+  experience { 510000 }
+  hp { 200, 20, 7000 }
+  move { 200 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 5000 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -100, 14 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { aggressive, npc, stay-zone }
+}
+107007
+{
+  name { A Sahuagin Sentry }
+  namelist { sahuagin sentry }
+  shortdesc { A Sahuagin sentry stands guard here. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one stands on guard duty. It appears to be a little relaxed and isn't really
+paying attention to very much...
+  }
+  sex { Male }
+  level { 350 }
+  race { lizardman }
+  experience { 510000 }
+  hp { 200, 20, 7000 }
+  move { 200 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 5000 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -100, 14 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { aggressive, npc, sentinel, stay-zone }
+}
+107008
+{
+  name { A Sahuagin Priest }
+  namelist { sahuagin priest }
+  shortdesc { A Sahuagin Priest is here, crying for all to worship the frog-god! }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one is of a priestly persuation and appears to crackle with power. It's gods
+must be strong indeed to grant such ferocious power to their worshippers!  Maybe
+you got it all wrong, and you too want to join these fishy guys in froggy worship?
+  }
+  sex { Male }
+  level { 527 }
+  race { lizardman }
+  experience { 1500000 }
+  hp { 100, 100, 30000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { -1000 }
+  gold { 10000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  dam_bonus { 35 }
+  hit_bonus { 45 }
+  attacks_per_round { 4 }
+  damage { 4, 3, 2 }
+  head { -160, 25 }
+  body { -150, 25 }
+  arms { -120, 20 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  spells { disruptor, dispel magic, gust of wind, harm }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { aggressive, npc, stay-zone }
+}
+107009
+{
+  name { A Sahuagin Temple Priest }
+  namelist { sahuagin temple priest }
+  shortdesc { A Sahuagin Temple Priest is here, watching over his priests. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one is a powerful temple priest. He watches his underlings with interest, seeing
+which are the most feverous in their worship and which need to be flogged for a
+lack of passion.
+  }
+  sex { Male }
+  level { 650 }
+  race { lizardman }
+  experience { 1903500 }
+  hp { 100, 100, 50000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { -1000 }
+  gold { 15000 }
+  caster { 60 }
+  mana { 1500 }
+  power { 1500 }
+  dam_bonus { 35 }
+  hit_bonus { 55 }
+  attacks_per_round { 6 }
+  damage { 6, 3, 4 }
+  head { -180, 45 }
+  body { -170, 45 }
+  arms { -150, 40 }
+  legs { -120, 30 }
+  feet { -120, 30 }
+  spells { disruptor, mage fire, dispel magic, gust of wind, harm, blindness, chill touch, poison }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm, fire }
+  resistant { poison }
+  susceptible { cold, electricity }
+  act { aggressive, npc, sentinel, stay-zone }
+}
+107010
+{
+  name { Deprapp, The Sahuagin High Priest }
+  namelist { deprapp sahuagin high priest }
+  shortdesc { Deprapp, the Sahuagin High Priest stands here, buzzing with power. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+Deprapp is the leader of the priests and the one who summoned and bound the Slaad
+to this plane. He plots for far more than just a temple to worship his disgusting
+demons within, but even his priests cannot fathom the depths of his plans.
+  }
+  sex { Male }
+  level { 800 }
+  race { lizardman }
+  experience { 3103500 }
+  hp { 100, 100, 70000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { -1000 }
+  gold { 1000000 }
+  caster { 80 }
+  mana { 2500 }
+  power { 2500 }
+  dam_bonus { 55 }
+  hit_bonus { 75 }
+  attacks_per_round { 8 }
+  damage { 10, 5, 12 }
+  head { -200, 55 }
+  body { -190, 55 }
+  arms { -170, 50 }
+  legs { -170, 40 }
+  feet { -170, 40 }
+  spells { disruptor, mage fire, shocking grasp, dispel magic, gust of wind, harm, blindness, chill touch, poison, energy drain, invulnerability }
+  affected { sanctuary, fireshield, infravision, true-sight }
+  immune { charm, fire, sleep, backstab }
+  resistant { poison }
+  susceptible { cold, electricity }
+  act { aggressive, special, npc, sentinel, stay-zone }
+}
+107011
+{
+  name { Frishfin, Captain of the Sahuagin Outpost }
+  namelist { frishfin captain sahuagin }
+  shortdesc { Captain Frishfin stands here, marking out the outpost defences. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+Frishfin is a powerful and cunning warrior. He has won many battles against many
+foes and he fights solely for the Sahuagin Prince who resides deep in the ocean,
+away from surface dwellers eyes.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 615 }
+  alignment { -300 }
+  gold { 1825000  }
+  hit_bonus { 77 }
+  dam_bonus { 86 }
+  attacks_per_round { 4 }
+  head { -130, 80 }
+  body { -130, 70 }
+  arms { -130, 70 }
+  legs { -130, 70 }
+  feet { -130, 70 }
+  hp { 9, 754, 117775 }
+  resist_force { 40 }
+  move { 300 }
+  experience { 2400000 }
+  damage { 4, 10, 190  }
+  immune { charm, sleep, fire, backstab }
+  skills { vital attack, bash, kick, strike }
+  affected { sanctuary }
+  act { npc, sentinel, stay-zone }
+}
+107012
+{
+  name { Zzeep Blacktongue, the Lizardman blacksmith }
+  namelist { zzeep blacktongue lizardman blacksmith }
+  shortdesc { Zzeep Blacktongue is here, working some metal. }
+  longdesc {
+Zzeep Blacktongue is the blacksmith to the lizardman tribe living in
+Dark Horn Hill. He is strong and clever and quick of wit, but he is
+also trying to get his people out of the cave system and free from the
+thralldom imposed by the Sahuagin masters and the chief, Zxan.
+}
+  race { lizardman }
+  sex { male }
+  level { 650 }
+  height { 180 }
+  weight { 3000 }
+  experience { 985411 }
+  hp { 10, 100, 26000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 325000 }
+  hit_bonus { 99 }
+  dam_bonus { 89 }
+  damage { 10, 7, 90 }
+  attacks_per_round { 6 }
+  head { -160, 50 }
+  body { -200, 75 }
+  arms { -168, 55 }
+  legs { -168, 55 }
+  feet { -168, 55 }
+  skills { bash }
+  affected { infravision, sanctuary }
+  immune { charm, poison }
+  act { special, sentinel, stay-zone, deadly }
+}
+107013
+{
+  name { A Lizardman }
+  namelist { lizardman }
+  shortdesc { A lizardman is here, going about its business. }
+  longdesc {
+The lizardman is a monstrous humanoid lizard.  They are most commonly covered
+in green scales but colours can vary from violet blue to deep, ochre-red.  It
+stands around 6 feet tall and is roughly equal in weight to an adult, human
+male.
+}
+  race { lizardman }
+  sex { male }
+  level { 325 }
+  height { 150 }
+  weight { 2250 }
+  experience { 350410 }
+  hp { 10, 30, 14286 }
+  alignment { 0 }
+  move { 600 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  damage { 5, 5, 20 }
+  attacks_per_round { 4 }
+  head { -30, 10 }
+  body { -55, 15 }
+  arms { -39, 12 }
+  legs { -39, 12 }
+  feet { -39, 12 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone }
+}
+107014
+{
+  name { A Lizardman Warrior }
+  namelist { lizardman warrior }
+  shortdesc { A lizardman warrior is here, looking for intruders. }
+  longdesc {
+The lizardman is a monstrous humanoid lizard.  They are most commonly covered
+in green scales but colours can vary from violet blue to deep, ochre-red.  It
+stands around 6 feet tall and is roughly equal in weight to an adult, human
+male. This one is well armed with bronze xiphos and wicker and bronze shield.
+}
+  race { lizardman }
+  sex { male }
+  level { 425 }
+  height { 165 }
+  weight { 2500 }
+  experience { 450000 }
+  hp { 10, 30, 20286 }
+  alignment { -350 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  damage { 5, 10, 35 }
+  attacks_per_round { 5 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone }
+}
+107015
+{
+  name { Lizardman Guard }
+  namelist { Lizardman Guard }
+  shortdesc { A lizardman is standing guard here. }
+  longdesc {
+This lizardman has deep green scales and yellow eyes. It's blue forked
+tongue continually tastes the air for danger. It carries a long spear
+tipped with a sharp bronze point, ready to repel any intruders.
+}
+  race { lizardman }
+  sex { male }
+  level { 485 }
+  height { 175 }
+  weight { 2800 }
+  experience { 570200 }
+  hp { 10, 30, 20286 }
+  alignment { -500 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  damage { 5, 10, 35 }
+  attacks_per_round { 5 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  affected { infravision }
+  immune { charm, poison }
+  act { sentinel, stay-zone }
+}
+107016
+{
+  name { A Cave Dirth }
+  namelist { cave dirth }
+  shortdesc { A slimey cave dirth is here, snuffling around for roots and fungi. }
+  longdesc {
+The cave dirth looks like a cross between a rat and a pig. It also looks quite
+blind. The lizardmen keep them for food... Would you like to try the Dirth Steak?
+  }
+  race { None }
+  world_limit { 10 }
+  level { 85 }
+  experience { 35000 }
+  hp { 8, 9, 850 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+107017
+{
+  name { A Sahuagin Lieutenant }
+  namelist { sahuagin lieutenant }
+  shortdesc { A Sahuagin Lieutenant is here obeying his captain! }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+Sahuagin Lieutentants are deadly bodyguards and fearless leaders. They will defend
+their captains to the death.
+  }
+  sex { Male }
+  level { 500 }
+  race { lizardman }
+  experience { 720300 }
+  hp { 10, 200, 17000 }
+  move { 450 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 9000 }
+  dam_bonus { 16 }
+  hit_bonus { 30 }
+  attacks_per_round { 5 }
+  damage { 6, 6, 6 }
+  head { -140, 10 }
+  body { -140, 20 }
+  arms { -140, 15 }
+  legs { -140, 15 }
+  feet { -140, 15 }
+  group_with { 107011 }
+  affected { infravision, true-sight }
+  immune { charm }
+  skills { rescue, bash, strike }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { aggressive, npc, stay-zone }
+}
+107018
+{
+  name { A Sahuagin Gaoler }
+  namelist { sahuagin gaoler }
+  shortdesc { A Sahuagin Gaoler is lounging around here. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one is a goaler. He has a bundle of keys. Maybe they're important?
+  }
+  sex { Male }
+  level { 300 }
+  race { lizardman }
+  experience { 320300 }
+  hp { 10, 200, 5000 }
+  move { 450 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 1000 }
+  dam_bonus { 10 }
+  hit_bonus { 15 }
+  attacks_per_round { 3 }
+  damage { 2, 2, 4 }
+  head { -70, 1 }
+  body { -90, 2 }
+  arms { -90, 1 }
+  legs { -90, 1 }
+  feet { -90, 1 }
+  affected { infravision, true-sight }
+  immune { charm }
+  skills { kick }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { sentinel, npc, stay-zone }
+}
+107019
+{
+  name { A Sahuagin Lieutenant }
+  namelist { sahuagin lieutenant }
+  shortdesc { A Sahuagin Lieutenant is here patrolling the halls! }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+Sahuagin Lieutentants are deadly bodyguards and fearless leaders. They will defend
+their captains to the death.
+  }
+  sex { Male }
+  level { 500 }
+  race { lizardman }
+  experience { 720300 }
+  hp { 10, 200, 17000 }
+  move { 450 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 9000 }
+  dam_bonus { 16 }
+  hit_bonus { 30 }
+  attacks_per_round { 5 }
+  damage { 6, 6, 6 }
+  head { -140, 10 }
+  body { -140, 20 }
+  arms { -140, 15 }
+  legs { -140, 15 }
+  feet { -140, 15 }
+  group_with { 107011 }
+  affected { infravision, true-sight }
+  immune { charm }
+  skills { rescue, bash, strike }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { sentinel, aggressive, npc, stay-zone }
+}
+107020
+{
+  name { A Giant Sea Snake }
+  namelist { giant sea snake }
+  shortdesc { A giant sea snake is swimming around here. }
+  longdesc {
+This sea snake is massive! It has been dumped into this underground lake to act
+as a guardian by the Sahuagin.
+  }
+  race { snake }
+  sex { none }
+  world_limit { 1 }
+  level { 550 }
+  alignment { 0 }
+  experience { 1500000 }
+  gold { 0 }
+  head { -110, 20 }
+  body { -100, 20 }
+  legs { -100, 20 }
+  arms { -100, 20 }
+  feet { -100, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 200 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 6 }
+  dexterity { 17 }
+  hit_bonus { 45 }
+  dam_bonus { 45 }
+  hp { 1, 1, 55000 }
+  mana { 1500 }
+  damage { 5, 15, 15 }
+  resistant { slash, blunt, pierce, energy }
+  immune { charm, backstab, drain, cold }
+  susceptible { fire }
+  affected { true-sight, detect-invisible }
+  act { aggressive, stay-zone }
+}
+107021
+{
+  name { A spiny lobster }
+  namelist { spiny lobster }
+  shortdesc { A spiny lobster crawls around the tank. }
+  longdesc {
+The lobster is red and has large spiked claws.  It crawls along the
+bottom of the tank hoping to find some coral to cling to... Or eat.
+Who knows what Lobsters seek coral out for?
+  }
+  race { Fish }
+  world_limit { 20 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 501 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 6, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  affected { water-breath }
+  act { npc, stay-zone, sentinel }
+}
+107022
+{
+  name { a small crab }
+  namelist { small crab }
+  shortdesc { A small crab scrambles along the edge of the tank. }
+  longdesc {
+The small crab has almost an orange color to it.  The little creatures
+scrambles around the tank with surprising agility. Shame it is likely
+to end up as a Sahuagin's supper. Oh well.
+  }
+  race { Fish }
+  world_limit { 20 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { water-breath }
+  act { npc, stay-zone, sentinel }
+}
+107023
+{
+  name { A Sahuagin Attendant }
+  namelist { sahuagin attendant }
+  shortdesc { A Sahuagin is here attending the needs of Death Slaad. }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one is a powerful attendant that tends to the mortal-world needs of the
+Death Slaad.
+  }
+  sex { Male }
+  level { 650 }
+  race { lizardman }
+  experience { 1903500 }
+  hp { 100, 100, 50000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { -1000 }
+  gold { 15000 }
+  caster { 60 }
+  mana { 1500 }
+  power { 1500 }
+  dam_bonus { 35 }
+  hit_bonus { 55 }
+  attacks_per_round { 6 }
+  damage { 6, 3, 4 }
+  head { -180, 45 }
+  body { -170, 45 }
+  arms { -150, 40 }
+  legs { -120, 30 }
+  feet { -120, 30 }
+  spells { disruptor, mage fire, dispel magic, gust of wind, harm, blindness, chill touch, poison }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm, fire }
+  resistant { poison }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone, special }
+}
+107024
+{
+  name { a human prisoner }
+  namelist { human prisoner }
+  shortdesc { A human prisoner cowers in the dampness here. }
+  longdesc {
+This prisoner is filthy! She is dressed in rags and looks like she
+has suffered many beatings at the hands of the Sahuagin.
+  }
+  race { human }
+  sex { female }
+  world_limit { 15 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+107025
+{
+  name { A Sahuagin Temple Guard }
+  namelist { sahuagin temple guard }
+  shortdesc { A Sahuagin Temple Guard is here, ready to skewer you! }
+  longdesc { 
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one guards the temple and protects the priests from intruders like you!
+  }
+  sex { Male }
+  level { 350 }
+  race { lizardman }
+  experience { 510000 }
+  hp { 200, 20, 7000 }
+  move { 200 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 5000 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -100, 14 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { aggressive, npc, stay-zone }
+}
+107026
+{
+  name { A Sahuagin Temple Runner }
+  namelist { sahuagin temple runner }
+  shortdesc { A short Sahuagin is here, running erands for the priests. }
+  longdesc {
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This short and scrawny one is running errands for the priests and alerting the
+guards to any intruders...
+}
+  race { lizardman }
+  sex { male }
+  level { 250 }
+  height { 75 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 8266 }
+  alignment { -50 }
+  move { 600 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  damage { 5, 5, 20 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision }
+  immune { charm, poison }
+  act { aggressive, stay-zone }
+}
+107027
+{
+  name { A Sahuagin Temple Worker }
+  namelist { sahuagin temple worker }
+  shortdesc { A Sahuagin is here, fixing some part of the temple. }
+  longdesc {
+The Sahuagin are an evil race of fish-men, normally found in the deepest oceans.
+This one looks like it's fixing some minor faults in the temple structure that
+only he can see... Be careful though, he'd probably raise the alarm if he saw
+you!
+}
+  race { lizardman }
+  sex { male }
+  level { 250 }
+  height { 75 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 8266 }
+  alignment { -50 }
+  move { 600 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  damage { 5, 5, 20 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision }
+  immune { charm, poison }
+  act { aggressive, stay-zone }
+}

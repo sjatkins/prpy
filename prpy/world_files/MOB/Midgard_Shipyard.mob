@@ -1,0 +1,205 @@
+2520 
+{
+  name { A Carpenter }
+  namelist { carpenter }
+  shortdesc { A carpenter is standing here. }
+  longdesc {
+The carpenter is busy choosing wood for the ship, his mouth is full of
+nails, as he holds them there, before he needs to use them.
+  }
+  race { Human }
+  sex { male }
+  level { 30 }
+  experience { 3000 }
+  hp { 10,10, 450 }
+  move { 300 }
+  height { 166 }
+  weight { 1000 }
+  gold { 40 }
+
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  damage { 1, 12, 5 }
+  head { 77, 3 }
+  body { 77, 3 }
+  arms { 77, 3 }
+  legs { 77, 3 }
+  feet { 77, 3 }
+ }
+
+2521
+{
+  name { A Shipwright }
+  namelist { shipwright }
+  shortdesc { The shipwright is standing here, frowning. }
+  longdesc {
+The shipwright is elven naturally, and is an expert is designing new 
+ships.  It is on his skills and a few others that have made the ship-
+yards of Endar world renowned for quality and durability.  He notices
+your gaze, and turns away, shy of the attention.
+  }
+  race { Human}
+  sex { male }
+  level { 47 }
+  experience { 4000 }
+  hp { 10,10,450 }
+  move { 300 }
+  height { 166 }
+  weight { 2000 }
+  gold { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  damage { 1, 19, 5 }
+  head { 77, 3 }
+  body { 77, 3 }
+  arms { 77, 3 }
+  legs { 77, 3 }
+  feet { 77, 3 }
+  immune { charm }
+}
+
+2522
+{
+  name { A Construction Worker }
+  namelist { construction worker }
+  shortdesc { A construction worker is standing here. }
+  longdesc {
+Construction workers are all alike, arms the size of tree trunks, and
+the braincells to match.  They all work very hard, and like to retire
+to the pubs at night, for some ale and hard play.
+  }
+  race { Human }
+  level { 20 }
+  experience { 2000 }
+  hp { 10,10, 307 }
+  move { 300 }
+  gold { 10 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  damage { 1, 6, 5 }
+  head { 77, 3 }
+  body { 77, 3 }
+  arms { 77, 3 }
+  legs { 77, 3 }
+  feet { 77, 3 }
+}
+
+2523
+{
+  name { The foreman }
+  namelist { foreman }
+  shortdesc { The foreman is standing here. }
+  longdesc {
+He is shouting very loudly, looks at you, and then decides to shout
+even louder, something about the workers being related to slime rats
+and something about schedules.. you shrug and turn away.
+  }
+  race { Human }
+  level { 70 }
+  experience { 15000 }
+  hp { 10,20, 450 }
+  move { 300 }
+  gold { 300 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  damage { 1, 6, 5 }
+ head { 77, 3 }
+  body { 77, 3 }
+  arms { 77, 3 }
+  legs { 77, 3 }
+  feet { 77, 3 }
+}
+
+2524
+{
+  name { A wood snarget }
+  namelist { wood snarget }
+  shortdesc { A small wood snarget is hissing at you. }
+  longdesc {
+The small lizard-like wood snarget is dark brown in colour.
+If it were not for its constant hissing you would easily 
+miss it in the piles of wood.
+  }
+  race { Snake }
+  level { 13 }
+  experience { 1000 }
+  hp { 10,10, 107 }
+  move { 300 }
+  gold {  0 }
+  hit_bonus { 2 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  damage { 1, 2, 2 }
+  head { 77, 0 }
+  body { 77, 0 }
+  arms { 77, 0 }
+  legs { 77, 0 }
+  feet { 77, 0 }
+  act { sentinel, aggressive }
+}
+
+2525
+{
+  name { A wood snake }
+  namelist { wood snake }
+  shortdesc { A small wood snake is looking at you. }
+  longdesc {
+The small snake is quietly looking at you, watching your movements.
+It's head is slightly raised and when it opens it's mouth you can see
+some vicious fangs inside.
+  }
+  race { Snake }
+  level { 23 }
+  experience { 2000 }
+  hp { 10,10, 207 }
+  move { 300 }
+  gold { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  damage { 1, 3, 2 }
+  head { 77, 0 }
+  body { 77, 0 }
+  arms { 77, 0 }
+  legs { 77, 0 }
+  feet { 77, 0 }
+    act { sentinel, aggressive }
+}
+
+2526
+{
+  name { moss }
+  namelist { moss }
+  shortdesc { A large moss patch covers the floor. }
+  longdesc {
+The slimy moss is strange, it moves around your feet whenever you move,
+but yet not likely ordinary sediment.  It is strange, it is everywhere,
+but yet some bits give an impression of malevolence.
+  }
+  race { slime }
+  sex { neuter }
+  level { 40 }
+  level { 20 }
+  experience { 6000 }
+  hp { 20,10, 457 }
+  move { 300 }
+  gold { 00 }
+  hit_bonus { 4 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  damage { 1, 20, 0 }
+  head { 77, 0 }
+  body { 77, 0 }
+  arms { 77, 0 }
+  legs { 77, 0 }
+  feet { 77, 0 }
+    immune { charm, fire }
+    act { aggressive, stay-zone, sentinel }
+    affected { water-breath }
+}
+
+

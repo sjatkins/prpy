@@ -1,0 +1,571 @@
+6100
+{
+  name { the vicious warg }
+  namelist { warg vicious }
+  shortdesc { A vicious warg is here, snarling angrily at you. }
+  longdesc {
+It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
+quickly from its long, white fangs.  It looks quite dangerous and very angry.
+  }
+  race { none }
+  level { 3 }
+  alignment { -350 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 5, 8, 5  }
+  move { 300 }
+  experience { 453 }
+  damage { 1, 6, 1  }
+  act { aggressive, stay-zone }
+}
+
+6101
+{
+  name { the ferocious warg }
+  namelist { warg ferocious }
+  shortdesc { A ferocious warg is here, snarling angrily at you. }
+  longdesc {
+It is an exceptionally large wolf with thick, black fur.  Saliva is dripping
+quickly from its long, white fangs.  It looks quite dangerous and very angry.
+  }
+  race { none }
+  level { 3 }
+  alignment { -350 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 5, 8, 5  }
+  move { 300 }
+  experience { 453 }
+  damage { 1, 6, 1  }
+  act { aggressive, stay-zone }
+}
+
+6102
+{
+  name { the large, grey wolf }
+  namelist { wolf grey }
+  shortdesc { A large, grey wolf is here, glaring hungrily at you. }
+  longdesc {
+The large, grey wolf eyes you with interest while licking its lips.
+  }
+  race { none }
+  level { 4 }
+  alignment { -150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 9, 8, 9  }
+  move { 300 }
+  experience { 571 }
+  damage { 1, 7, 1  }
+  act { aggressive, stay-zone }
+}
+
+6103
+{
+  name { the large, black wolf }
+  namelist { wolf black }
+  shortdesc { A large, black wolf is here, glaring hungrily at you. }
+  longdesc {
+The large, black wolf eyes you with interest while licking its lips.
+  }
+  race { none }
+  level { 4 }
+  alignment { -150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 9, 8, 9  }
+  move { 300 }
+  experience { 571 }
+  damage { 1, 7, 1  }
+  act { aggressive, stay-zone }
+}
+
+6110
+{
+  name { a huge ancient tree }
+  namelist { tree ancient tree }
+  shortdesc { A huge, ancient tree towers above you. }
+  longdesc {
+Its roots are extremely big and large parts of them are above ground.
+
+The enormous grey trunk shivers slightly, as if sighing deeply.
+  }
+  race { none }
+  level { 207 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 6 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 300, 8, 300  }
+  move { 300 }
+  experience { 119430 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { detect-invisible, sneak }
+  act { nice-thief, stay-zone }
+}
+
+6111
+{
+  name { a huge ancient tree }
+  namelist { tree ancient tree }
+  shortdesc { A huge, ancient tree towers above you. }
+  longdesc {
+Its roots are extremely big and large parts of them are above ground.
+>
+The enormous grey trunk emits a deep, moaning sound.
+  }
+  race { none }
+  level { 207 }
+  alignment { -500 }
+  gold { 4500 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 6 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 300, 8, 300  }
+  move { 300 }
+  experience { 131373 }
+  damage { 3, 6, 1  }
+  immune { charm }
+  affected { detect-invisible, sneak }
+  act { special, nice-thief, stay-zone }
+}
+
+6112
+{
+  name { a huge, green dragon }
+  namelist { dragon green }
+  shortdesc { A huge green dragon is here, its narrow yellow eyes glowing with rage. }
+  longdesc {
+This enormous winged serpent has dark green scales covering most of its
+colossal body.  Numerous holes in its heavy wings tell of many fights as does
+the nicks in the horns on its head.  It smells as disgusting as only dragons
+do.
+  }
+  race { none }
+  height { 300 }
+  level { 304 }
+  alignment { 000 }
+  gold { 32500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 5 }
+  head { -100, 10 }
+  body { -150, 15 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 40, 8, 40000 }
+  move { 300 }
+  experience { 702615 }
+  damage { 5, 5, 20  }
+  immune { poison, charm, electricity, energy }
+  affected { detect-invisible, infravision, nosummon }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+6113
+{
+  name { the huge, poisonous spider }
+  namelist { spider huge poisonous }
+  shortdesc { A huge, poisonous spider is here. }
+  longdesc {
+This disgusting creature is at the size of a human crawling on all four.  It
+has eight hairy legs that gives it a tremendous speed on almost any surface and
+sharp poisonous fangs to paralyze or kill its prey.
+  }
+  race { none }
+  level { 26 }
+  alignment { -350 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 24, 8, 24  }
+  move { 300 }
+  experience { 2607 }
+  damage { 1, 5, 1  }
+  immune { poison }
+  act { special, sentinel, nice-thief, stay-zone }
+}
+
+6114
+{
+  name { the Queen Spider }
+  namelist { queen spider }
+  shortdesc { The huge, bulky Queen Spider is here. }
+  longdesc {
+This disgusting creature is at the size of a small elephant.  It has eight
+huge, hairy legs that would give it a tremendous speed on almost any surface
+if it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
+  }
+  race { none }
+  level { 46 }
+  alignment { -1000 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 10, 1 }
+  body { 10, 1 }
+  arms { 10, 1 }
+  legs { 10, 1 }
+  feet { 10, 1 }
+  hp { 60, 8, 60  }
+  move { 300 }
+  experience { 6490 }
+  damage { 2, 8, 2  }
+  immune { poison }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, nice-thief, stay-zone }
+}
+
+6115
+{
+  name { Shargugh }
+  namelist { shargugh brownie }
+  shortdesc { Shargugh the Forest Brownie is here, grinning broadly at you. }
+  longdesc {
+This little fellow is only three foot tall with wild matted brown hair and long
+tangled brown beard.  He wears ragged brown and green clothing and looks as if
+he is having great fun.
+  }
+  race { none }
+  level { 15 }
+  alignment { 1000 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 16, 8, 16  }
+  move { 300 }
+  experience { 1898 }
+  damage { 1, 8, 1  }
+  immune { sleep, charm }
+  affected { invisible, detect-invisible, sneak }
+  act { nice-thief, wimpy, stay-zone }
+}
+
+6116
+{
+  name { the huge blue dragon }
+  namelist { dragon blue }
+  shortdesc { A huge blue dragon is here, its narrow yellow eyes glowing with rage. }
+  longdesc {
+This enormous winged serpent has dark blue scales covering most of its
+colossal body.  Numerous holes in its heavy wings tell of many fights as does
+the nicks in the horns on its head.  It smells as disgusting as only dragons
+do.
+  }
+  race { none }
+  height { 300 }
+  level { 304 }
+  alignment { 000 }
+  gold { 22500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 5 }
+  head { -100, 10 }
+  body { -150, 15 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 40, 8, 30000 }
+  move { 300 }
+  experience { 702615 }
+  damage { 5, 5, 20  }
+  immune { poison, charm, electricity, energy }
+  affected { detect-invisible, infravision, nosummon }
+  act { special, sentinel, aggressive, stay-zone }
+}
+
+6201
+{
+  name { A quickling commoner }
+  namelist { Quickling Commoner }
+  shortdesc { A quickling commoner is here, running circles around you. }
+  longdesc {
+    The quickling commoner is extremely fast, you almost break you neck trying
+to turn your head as fast as he moves.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -350 }
+  gold { 150 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1809 }
+  damage { 1, 4, 1  }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+6202
+{
+  name { A quickling raider }
+  namelist { Quickling Raider }
+  shortdesc { A quickling raider standing here blurs into a att0k position. }
+  longdesc {
+    The quickling raider att0ks you with a frenzied blood-lust.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -700 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1837 }
+  damage { 1, 6, 1  }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+6203
+{
+  name { A baby quickling }
+  namelist { Quickling Baby }
+  shortdesc { A baby quickling is  here, running around looking for someone to "play" with. }
+  longdesc {
+    The baby quicklings look kind of cute, but you are not decieved their
+obviously malicious intent.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -300 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 1068 }
+  damage { 1, 2, 1  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+6204
+{
+  name { The Queen of the Quicklings }
+  namelist { Queen Quickling }
+  shortdesc { The Queen of the Quicklings here ignores you as she orders commoners around. }
+  longdesc {
+    The Queen of the Quicklings does not appear to 0knowledge your existence
+as she orders quickling commoners to do their menial tasks.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -800 }
+  gold { 300 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3753 }
+  damage { 1, 8, 1  }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+
+6205
+{
+  name { The Raider Captain of the Quicklings }
+  namelist { Captain Raider Quickling }
+  shortdesc { The Raider Captain is a large, extremely fast quickling. }
+  longdesc {
+    The Raider Captain of the Quicklings frowns at your entrance into the
+barracks, and orders his troops to att0k you!
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -1000 }
+  gold { 300 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  head { 90, 1 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3315 }
+  damage { 2, 6, 1  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+6206
+{
+  name { A quickling raider guard }
+  namelist { Quickling Raider Guard }
+  shortdesc { A quickling raider guard here blurs into a att0k position. }
+  longdesc {
+    The quickling raider guard att0ks you, determined to hold his position.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -700 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2667 }
+  damage { 1, 6, 1  }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+6207
+{
+  name { Tephanis, King of the Quicklings }
+  namelist { Tephanis King Quickling }
+  shortdesc { Tephanis glares at you with unconcealed hatred blazing in his eyes. }
+  longdesc {
+    Tephanis is the biggest, fastest, most dangerous quickling you've ever
+seen.  He gets off his throne angrily and rushes to att0k you!
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -1000 }
+  gold { 300 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3836 }
+  damage { 2, 8, 2  }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+6208
+{
+  name { The quickling look-out guard }
+  namelist { Guard Quickling }
+  shortdesc { The Quickling Guard here assigned to spy on Midgaard ignores you completely. }
+  longdesc {
+    He is hunched over some sort of spy glass which is looks through.  It
+appears to be pointed in the direction of Midgaard.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -500 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2667 }
+  damage { 1, 6, 1  }
+  affected { detect-invisible }
+  act { sentinel }
+}
+

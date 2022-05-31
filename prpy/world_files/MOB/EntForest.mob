@@ -1,0 +1,688 @@
+31000
+{
+  name { A Troll Warrior }
+  namelist { Troll Warrior }
+  shortdesc { An ugly, mean-looking troll warrior is standing here. }
+  longdesc {
+You see nothing special.
+  }
+  race { troll }
+  mana { 0  }
+  height { 170 }
+  level { 97 }
+  alignment { -500 }
+  gold { 1200 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 3 }
+  head { 0, 10 }
+  body { -10, 8 }
+  arms { -5, 10 }
+  legs { -20, 8 }
+  feet { -20, 10 }
+  hp { 50, 10, 500  }
+  move { 200 }
+  experience { 19141 }
+  damage { 4, 6, 3  }
+  resistant { pierce, slash, poison }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive }
+}
+
+31001
+{
+  name { A young troll }
+  namelist { troll child young }
+  shortdesc { A young troll stands here. }
+  longdesc {
+You see nothing special
+  }
+  race { troll }
+  height { 130 }
+  level { 41 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { -10, 6 }
+  body { 10, 1 }
+  arms { 10, 1 }
+  legs { 10, 1 }
+  feet { 20, 1 }
+  hp { 15, 10, 150  }
+  move { 150 }
+  experience { 4531 }
+  damage { 3, 5, 4  }
+  immune { charm }
+  resistant { pierce, slash }
+  affected { infravision, sneak }
+  act { aggressive, wimpy }
+}
+
+31002
+{
+  name { The troll shamen }
+  namelist { troll shamen }
+  shortdesc { The troll shamen stands here, guarding what lies beyond. }
+  longdesc {
+His eyes glow with power, and as he looks at you, sizing you up, he grins
+and readies himself for an attack. His attitude is foreboding of a long and
+difficult fight, should you choose to attack him.
+  }
+  race { troll }
+  mana { 500  }
+  height { 160 }
+  level { 233 }
+  alignment { -1000 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 50, 50, 900  }
+  move { 200 }
+  experience { 239368 }
+  damage { 1, 10, 15  }
+  immune { poison, charm }
+  resistant { pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, stay-zone }
+}
+
+31003
+{
+  name { A Troll Guard }
+  namelist { Troll Warrior Guard }
+  shortdesc { An ugly, mean-looking troll guard is standing here. }
+  longdesc {
+It is heavily armored, and promises to be a difficult opponent.
+  }
+  race { troll }
+  mana { 0  }
+  height { 170 }
+  level { 82 }
+  alignment { -1000 }
+  gold { 1800 }
+  hit_bonus { 5 }
+  dam_bonus { 4 }
+  attacks_per_round { 7 }
+  head { -50, 10 }
+  body { -50, 8 }
+  arms { -50, 10 }
+  legs { -50, 8 }
+  feet { -50, 10 }
+  hp { 5, 20, 600  }
+  move { 200 }
+  experience { 17584 }
+  damage { 4, 10, 3  }
+  resistant { pierce, slash }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+31005
+{
+  name { A tree }
+  namelist { tree ent }
+  shortdesc { A tree is sleeping soundly here. }
+  longdesc {
+The trees mourned long for the loss of the Entwives, now they are in a resigned
+slumber.
+  }
+  race { none }
+  mana { 100  }
+  height { 400 }
+  level { 405 }
+  alignment { 00 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { 0, 20 }
+  body { 0, 20 }
+  arms { 0, 20 }
+  legs { 0, 20 }
+  feet { 0, 20 }
+  hp { 15, 80, 1000  }
+  move { 300 }
+  experience { 208078 }
+  damage { 2, 20, 65  }
+  immune { cold, electricity, poison, drain, sleep, charm }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, stay-zone }
+}
+
+31006
+{
+  name { An ent }
+  namelist { ent tree }
+  shortdesc { A guardian ent is standing here. }
+  longdesc {
+   It has long guarded this forest, forsaken of all pleasures
+by the departure of the EntWives, all that remains is duty.  
+}
+  race { none }
+  mana { 200  }
+  height { 400 }
+  level { 325 }
+  alignment { 000 }
+  hit_bonus { 41 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  head { -10, 20 }
+  body { -10, 20 }
+  arms { -10, 20 }
+  legs { -10, 20 }
+  feet { -10, 20 }
+  hp { 25, 80, 1500  }
+  move { 300 }
+  experience { 188600 }
+  damage { 2, 10, 115  }
+  immune {  cold, electricity, poison, drain, sleep, charm }
+  affected { detect-invisible, sense-life,  infravision }
+  act {  aggressive, stay-zone }
+}
+
+31007
+{
+  name { Treebeard }
+  namelist { tree ent treebeard }
+  shortdesc { Treebeard the Ent is slowly walking about. }
+  longdesc {
+He has a beard of moss, and seems a  being.
+  }
+  race { none }
+  mana { 500  }
+  height { 400 }
+  level { 280 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 25, 18, 3000  }
+  move { 300 }
+  experience { 360808 }
+  damage { 1, 5, 65  }
+  immune { fire, cold, electricity, poison, drain, sleep, charm }
+  affected { detect-invisible, sense-life, sanctuary, infravision }
+  act { sentinel, stay-zone }
+}
+
+31008
+{
+  name { The labyrinth guardian }
+  namelist { dwarf labyrinth guardian }
+  shortdesc { The labyrinth guardian stands before you.. }
+  longdesc {
+You see him standing before you, laughing insanely.. Wait, no he's over there..
+No, he's right here.. No, he's over there too! You're so confused..
+  }
+  race { human }
+  height { 100 }
+  weight { 18000 }
+  level { 113 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 5 }
+  head { 0, 3 }
+  body { 0, 3 }
+  arms { 0, 3 }
+  legs { 0, 3 }
+  feet { 0, 3 }
+  hp { 5, 10, 800  }
+  move { 300 }
+  experience { 22613 }
+  damage { 5, 3, 15  }
+  immune { poison }
+  affected { detect-invisible, sense-life, infravision }
+  act { scavenger, stay-zone }
+}
+
+31009
+{
+  name { TreeWard }
+  namelist { tree ent treeward}
+  shortdesc { TreeWard the Ent is slowly walking about. }
+  longdesc {
+He has a beard of moss, and seems a restless, wondering at
+who is intruding on this domain.
+  }
+  race { none }
+  mana { 500  }
+  height { 400 }
+  level { 580 }
+  alignment { 000 }
+  hit_bonus { 45 }
+  dam_bonus { 24 }
+  attacks_per_round { 2 }
+  head { -100, 30 }
+  body { -100, 30 }
+  arms { -100, 30 }
+  legs { -100, 30 }
+  feet { -100, 30 }
+  hp { 25, 18, 3000  }
+  move { 300 }
+  experience { 560808 }
+  damage { 1, 5, 265  }
+  immune { fire, cold, electricity, poison, drain, sleep, charm }
+  affected { detect-invisible, sense-life, infravision }
+  act { aggressive, stay-zone, scavenger }
+}
+
+31010
+{
+  name { Spirit of the Lake}
+  namelist { Spirit of the Lake }
+  shortdesc { The Spirit of the Lake flickers in an out of view. }
+  longdesc {
+She's beautiful, shimmering golden light.  She smiles at you and 
+you feel that she's praising you for having come and visited her.
+}
+  race { none }
+  mana { 500  }
+  height { 400 }
+  level { 580 }
+  alignment { 000 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 2 }
+  head { -100, 30 }
+  body { -100, 30 }
+  arms { -100, 30 }
+  legs { -100, 30 }
+  feet { -100, 30 }
+  hp { 2, 8, 3  }
+  move { 300 }
+  experience { 1 }
+  damage { 1, 5, 1  }
+  immune { drain, sleep, charm }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, nosummon, stay-zone }
+}
+
+
+
+31011
+{
+  name { Kilfen, the bartender }
+  namelist { shopkeeper kilfen bartender }
+  shortdesc { The bartender, Kilfen, is here ready to serve you. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31012
+{
+  name { The treasure broker }
+  namelist { shopkeeper broker treasure }
+  shortdesc { The treasure broker is standing here, ready to rip you off. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31013
+{
+  name { The shopkeeper }
+  namelist { shopkeeper man old }
+  shortdesc { An old man is sitting here, rocking in his old chair. }
+  longdesc {
+He looks very, very old..
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31014
+{
+  name { The innkeeper }
+  namelist { shopkeeper innkeeper inn keeper }
+  shortdesc { The innkeeper is standing here, eager to serve you. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31015
+{
+  name { The baker }
+  namelist { shopkeeper baker }
+  shortdesc { The baker stands here, wiping flour from her face. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31016
+{
+  name { The armourer }
+  namelist { shopkeeper armorer armourer }
+  shortdesc { The amourer stands here, ready to sell you everything you need. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31017
+{
+  name { The jeweler }
+  namelist { shopkeeper jeweler jewel smith }
+  shortdesc { The jeweler is standing here, working on a bracelet. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31018
+{
+  name { The swordsmith }
+  namelist { shopkeeper swordsmith }
+  shortdesc { The swordsmith stands here, ready to sell you all the best blades. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31019
+{
+  name { Kilnab, the wizard }
+  namelist { shopkeeper Kilnab wizard }
+  shortdesc { Kilnab, Zifnab's brother is here, ready to serve you. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31020
+{
+  name { The chandler }
+  namelist { shopkeeper chandler }
+  shortdesc { The chandler is here, ready to serve you. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31021
+{
+  name { The scribe }
+  namelist { shopkeeper scribe }
+  shortdesc { The scribe is here, eager to write you a scroll. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 120 }
+  weight { 13000 }
+  level { 356 }
+  alignment { 1000 }
+  gold { 27500 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -20, 5 }
+  body { -20, 5 }
+  arms { -20, 5 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 3, 500, 5500  }
+  move { 300 }
+  experience { 405974 }
+  damage { 4, 6, 20  }
+  immune { poison, charm }
+  affected { detect-invisible, sense-life }
+  act { sentinel, scavenger }
+}
+
+31022
+{
+  name { A citizen }
+  namelist { citizen person Quinmoor }
+  shortdesc { A citizen of Quinmoor is walking by. }
+  longdesc {
+You see nothing special
+  }
+  race { human }
+  height { 140 }
+  weight { 13000 }
+  level { 5 }
+  alignment { 100 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 50, 0 }
+  hp { 5, 20, 1  }
+  move { 300 }
+  experience { 718 }
+  damage { 5, 5, 3  }
+  act { scavenger, stay-zone }
+}
+

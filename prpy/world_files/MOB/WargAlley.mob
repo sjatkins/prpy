@@ -1,0 +1,572 @@
+3900
+{
+  name { The Queen's Soldier Guard }
+  namelist { Soldier Fireant fire ant guard }
+  shortdesc { A very big soldier fireant with big pinchers defends the queen. }
+  longdesc {
+A bright red, fireant angrily defending the queen races towards you.
+  }
+  race { insect }
+  height { 160 }
+  weight { 10000 }
+  level { 3 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 4 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.7 }
+  head { 65, 0 }
+  body { 65, 0 }
+  arms { 65, 0 }
+  legs { 65, 0 }
+  feet { 65, 0 }
+  hp { 1, 12, 70  }
+  move { 300 }
+  experience { 6493 }
+  damage { 4, 3, 4  }
+  act { scavenger, aggressive, stay-zone, sentinel }
+}
+3901
+{
+  name { A Fireant }
+  namelist { Fireant fire ant }
+  shortdesc { A worker fireant, busily going about its business of finding food for the
+  nest. }
+  longdesc {
+A bright red, fireant looking to feed its hungry nest with any and all
+possible food sources, scuttles towards you.
+  }
+  race { insect }
+  height { 160 }
+  weight { 10000 }
+  level { 15 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 2, 200  }
+  move { 300 }
+  experience { 3201 }
+  damage { 2, 2, 2  }
+  act { scavenger, aggressive, stay-zone }
+}
+
+3902
+{
+  name { A Soldier Fireant }
+  namelist { Soldier Fireant fire ant }
+  shortdesc { A large soldier fireant with big pinchers. }
+  longdesc {
+A bright red, fireant angrily defending its nest races towards you.
+  }
+  race { insect }
+  height { 160 }
+  weight { 10000 }
+  level { 3 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 4 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.5 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 12, 60  }
+  move { 300 }
+  experience { 6493 }
+  damage { 4, 3, 3  }
+  act { scavenger, aggressive, stay-zone }
+}
+
+3903
+{
+  name { The Queen Fireant }
+  namelist { Queen Fireant fire ant }
+  shortdesc { A huge, fat queen fireant. }
+  longdesc {
+Surrounded by white, oval eggs, the queen glares at you with vast hunger.
+  }
+  race { insect }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.8 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 10, 9, 150  }
+  move { 300 }
+  experience { 13760 }
+  damage { 3, 4, 10  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3904
+{
+  name { A cute, warg-fido puppy }
+  namelist { Warg fido puppy }
+  shortdesc { A cute, but mean looking puppy. }
+  longdesc {
+Cute like most baby animals, with too long ears and huge paws. And very
+large jaws, filled with huge teeth. Compared to most fidos you have seen,
+the teeth are huge.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 1, 10, 1  }
+  move { 300 }
+  experience { 210 }
+  damage { 1, 4, 1  }
+  act { sentinel }
+}
+
+3905
+{
+  name { Half-grown warg like pup }
+  namelist { Warg fido pup }
+  shortdesc { Mean, half-grown pup. }
+  longdesc {
+Larger and meaner looking than your normal fido. It looks very hungry.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 10, 10  }
+  move { 300 }
+  experience { 319 }
+  damage { 1, 5, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3906
+{
+  name { Nearly grown warg like dog }
+  namelist { Warg fido mix }
+  shortdesc { Large, shaggy warg like fido. }
+  longdesc {
+Three times the size of your normal fido. It looks very hungry.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 4 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 10, 35  }
+  move { 300 }
+  experience { 595 }
+  damage { 1, 5, 2  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3907
+{
+  name { Large warg }
+  namelist { Warg stud }
+  shortdesc { A massive and very aggressive warg. }
+  longdesc {
+The largest warg you have ever seen or heard about. It has a sleek, well-fed
+look. Though from the way it is looking at you, perhaps it thinks you are
+more food. Is it time to panic?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 7 }
+  alignment { -1000 }
+  gold { 130 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 5, 10, 35  }
+  move { 300 }
+  experience { 835 }
+  damage { 1, 8, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3908
+{
+  name { Angry warg trainer }
+  namelist { Warg trainer }
+  shortdesc { Well equiped and evil looking trainer of the wargs. }
+  longdesc {
+Before you stands the a tall, strong limbed warrior. Equiped with beautifully
+worked studded leather armor, he draws his sword and attacks.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 2, 6, 83  }
+  move { 300 }
+  experience { 1930 }
+  damage { 2, 4, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3909
+{
+  name { Beautiful mistress }
+  namelist { Warg Mistress }
+  shortdesc { The beautiful mistress of the house. }
+  longdesc {
+Well of course, she is beautiful. After all, aren't all the women in these
+fantasy worlds, both beautiful & scantilly clad? Well, this one meets half of
+that wish. This wonder is the owner of the house, the warg puppies, and the
+warrior you beat to get here. Prepare to die, for you have met the mistress
+of wargs.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 20 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 2, 7, 96  }
+  move { 300 }
+  experience { 2935 }
+  damage { 2, 5, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+3910
+{
+  name { Andy the brewer }
+  namelist { Andy Wilcox brewer barkeep owner }
+  shortdesc { Andy Wilcox, owner, brewer and barkeep is waiting here to serve you. }
+  longdesc {
+  Andy is a slim, happy guy with glasses and a light beard.  He
+graduated from college with a love of computers and beer, and he's
+indulging one of those right here.
+  He is also a martial arts master so don't even THINK of starting a
+fight in here.
+  }
+  race { human }
+  level { 426 }
+  alignment { 1000 }
+  gold { 32500 }
+  hit_bonus { 17 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1600, 8, 1600  }
+  move { 300 }
+  experience { 485090 }
+  damage { 8, 8, 8  }
+  immune { charm }
+  act { special, sentinel }
+}
+
+3911
+{
+  name { Big Guy the cat }
+  namelist { BigGuy cat }
+  shortdesc { Big Guy the cat is resting here.  What a lazy cat. }
+  longdesc {
+  Big Guy is a rather large house cat.  He has complete freedom to
+roam the DanjerHaus because his owner holds the lease.  He is usually
+lying about catching rays or lumbering towards food.  On the rare
+occasions he breaks into a run, it sounds like thunder on the wood
+floors.
+  }
+  race { none }
+  level { 1 }
+  alignment { 100 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 4, 8  }
+  move { 300 }
+  experience { 156 }
+  damage { 2, 3, 1  }
+  immune { sleep, charm }
+  affected { infravision }
+  act { stay-zone, wimpy }
+}
+
+3912
+{
+  name { Little Guy the kitten }
+  namelist { LittleGuy little guy cat kitten }
+  shortdesc { Little Guy the kitten is sitting at attention. }
+  longdesc {
+  This little kitten looks like a miniature of Big Guy and has many
+of the same mannerisms.
+  }
+  race { none }
+  level { 1 }
+  alignment { 100 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 3, 4  }
+  move { 300 }
+  experience { 113 }
+  damage { 1, 4, 1  }
+  immune { sleep, charm }
+  affected { infravision }
+  act { stay-zone, wimpy }
+}
+
+3913
+{
+  name { Runt the kitten }
+  namelist { Runt cat kitten }
+  shortdesc { Runt the kitten is staring at you intently. }
+  longdesc {
+  This little kitten is the brother of Little Guy and looks like a
+lighter colored version of him.
+  }
+  race { none }
+  level { 1 }
+  alignment { 100 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 3, 4  }
+  move { 300 }
+  experience { 113 }
+  damage { 1, 4, 1  }
+  immune { sleep, charm }
+  affected { infravision }
+  act { stay-zone, wimpy }
+}
+
+3950
+{
+  name { the Zombie Master }
+  namelist { ZombieMaster master }
+  shortdesc { The Zombie Master is standing here looking very frightening. }
+  longdesc {
+  The Zombie Master is tall (7'2") and skinny.  He's wearing a tie-dye
+T-shirt and blue jeans.  He's fairly handsome if you don't consider
+the hordes of walking dead following him around...
+  }
+  race { undead }
+  level { 67 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 100, 8, 100  }
+  move { 300 }
+  experience { 10050 }
+  damage { 2, 4, 1  }
+  act { special }
+}
+
+3951
+{
+  name { the Demon Turtle }
+  namelist { DemonTurtle demon turtle }
+  shortdesc { The Demon Turtle is standing here totally ignoring you. }
+  longdesc {
+  The Demon Turtle is about 20 feet long and 12 feet high.  He has a shiny
+metallic carapace that looks pretty much impervious.  You probably don't
+want to mess with him
+  }
+  race { none }
+  level { 479 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 19 }
+  dam_bonus { 19 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 2000, 8, 2000  }
+  move { 300 }
+  experience { 457850 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  act { sentinel }
+}
+
+3952
+{
+  name { a titanium dragon }
+  namelist { dragon titanium ancient }
+  shortdesc { An ancient titanium dragon stands here bravely. }
+  longdesc {
+This dragon has many scratches on its armor but it looks like nothing ever
+got underneath the scales.
+  }
+  race { dragon }
+  height { 400 }
+  level { 570 }
+  alignment { 999 }
+  gold { 57000 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 3 }
+  head { -80, 9 }
+  body { -80, 9 }
+  arms { -100, 14 }
+  legs { -60, 14 }
+  feet { -60, 9 }
+  hp { 200, 8, 22000  }
+  move { 300 }
+  experience { 1276350 }
+  damage { 3, 6, 2  }
+  immune { sleep, charm, plus 1 }
+  resistant { fire, cold, electricity, energy, acid }
+  act { special, scavenger, wimpy }
+}
+
+3953
+{
+  name { The demon Vrock }
+  namelist { Vrock demon }
+  shortdesc { The demon Vrock does not enjoy being purged by DeathDealer. }
+  longdesc {
+Vrock is a scary looking birdlike demon about 8' tall.  He has a hatred of
+lamias.  You don't want to mess with him because he's Deth's pet.
+  }
+  race { devil }
+  level { 330 }
+  alignment { -400 }
+  gold { 25000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 10 }
+  head { 200, 13 }
+  body { 200, 13 }
+  arms { 200, 13 }
+  legs { 200, 13 }
+  feet { 200, 13 }
+  hp { 50, 8, 5000  }
+  move { 300 }
+  experience { 397362 }
+  damage { 2, 6, 19  }
+  immune { charm }
+  act { sentinel }
+}
+
+3954
+{
+  name { the Replacer }
+  namelist { replacer }
+  shortdesc { The Replacer stands here. }
+  longdesc {
+A young guy who lookes bored with his life stands here.
+  }
+  race { human }
+  level { 900 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 37 }
+  dam_bonus { 37 }
+  attacks_per_round { 3 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 876802 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  act { sentinel, citizen }
+}
+

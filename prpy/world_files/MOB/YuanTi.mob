@@ -1,0 +1,1746 @@
+114000
+{
+  name { a bloated water spider }
+  namelist { spider water bloated }
+  shortdesc { a fat, white, bloated water spider scuttles around here. }
+  longdesc {
+The water spider is about the size of your head, not including the legs.
+It hunts near the ceiling of the Yuan-Ti cavern, looking for any tasty
+morsels that may be washed down. 
+  }
+  race { insect }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -100 }
+  gold { 1300 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3014 }
+  damage { 1, 7, 4  }
+  affected { detect-invisible }
+  act { aggressive, stay-zone, sentinel }
+}
+114001
+{
+  name { a kingsnake }
+  namelist { snake kingsnake }
+  shortdesc { A colourful kingsnake slithers about here. }
+  longdesc {
+It has colourful bands going down it's entire body. #{bold}#{yellow}Yellow#{o}, #{bold}#{red}Red#{o},
+#{bold}#{yellow}Yellow#{o}, #{bold}#{black}Black#{o}, #{bold}#{yellow}Yellow#{o}, #{bold}#{red}Red#{o}. Uh-oh!
+  }
+  race { snake }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 21 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 1926 }
+  damage { 2, 4, 1  }
+  act { aggressive, stay-zone, deadly }
+}
+114002
+{
+  name { a slow worm }
+  namelist { slow worm }
+  shortdesc { A slow worm slithers about slowly, devouring the trash. }
+  longdesc {
+This little grey snake is actually a lizard with no legs. It is perfectly
+harmless as it goes about scavenging in the corridors.
+  }
+  race { snake }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 1500  }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 3812 }
+  damage { 2, 4, 2  }
+  act { scavenger, stay-zone }
+}
+114003
+{
+  name { a tiny cave salamander }
+  namelist { salamander cave }
+  shortdesc { A tiny, bright-red salamander scuttles about here. }
+  longdesc {
+The salamander is a lizard.  It is coloured bright red.  Salamander's
+have been associated with fire.  Should you be careful?  Maybe not.
+  }
+  race { reptile }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 1550  }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 27378 }
+  damage { 2, 6, 3  }
+  immune { fire, charm }
+  spells { fire breath }
+  caster { 50 }
+  act { sentinel, wimpy }
+}
+114004
+{
+  name { a cavern raptor }
+  namelist { raptor cavern }
+  shortdesc { A cavern raptor is here, rooting around for junk. }
+  longdesc {
+The cavern raptor is a bipedal lizard standing around a meter in height.
+It has a big bloated belly, full of complex stomachs that can break down
+even the grossest of trash.
+  }
+  race { reptile }
+  height { 100 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2182 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  affected { sneak }
+  act { sentinel, scavenger, wimpy }
+}
+
+114005
+{
+  name { a Yuan-Ti Broodguard }
+  namelist { yuan-ti broodguard }
+  shortdesc { A Yuan-Ti broodguard is here eyeing you suspiciously. }
+  longdesc {
+The Yuan-Ti broodguard is well trained, and well armed!  Even with the body
+of a snake, he's probably going to cause you a problem or two!
+  }
+  race { lizardman }
+  height { 200 }
+  weight { 10000 }
+  sex { female }
+  level { 145 }
+  alignment { 0 }
+  gold { 22000  }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 28080 }
+  damage { 2, 6, 2  }
+  resistant { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+114006
+{
+  name { a Yuan-Ti commoner }
+  namelist { yuan-ti commoner }
+  shortdesc { An angry-looking Yuan-Ti commoner wanders about here. }
+  longdesc {
+Half snake, half human, the Yuan-Ti are monstrous to behold.  And even
+though this race is associated with evil, doesn't mean they all are. 
+The commoner wanders around on it's business, ignoring you.
+  }
+  race { lizardman }
+  height { 190 }
+  sex { male }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 15080 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4130 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+114007
+{
+  name { the Yuan-Ti Matron }
+  namelist { yuan-ti matron }
+  shortdesc { A large, obviously feminine Yuan-Ti is here, protecting the hatchlings. }
+  longdesc {
+The Yuan-Ti matron is large and imposing.  She looks like she would
+pull your arms off and hit you with the wet end!
+  }
+  race { lizardman }
+  sex { female }
+  height { 220 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 0 }
+  gold { 22420  }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 20, 6 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  hp { 4, 152, 604  }
+  move { 300 }
+  experience { 28044 }
+  damage { 2, 6, 2  }
+  resistant { charm }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+114008
+{
+  name { a Yuan-Ti female }
+  namelist { yuan-ti female }
+  shortdesc { A Yuan-Ti female stands here, looking for a male. }
+  longdesc {
+This female seems really intent of finding a mate.  Perhaps you should
+move on?
+  }
+  race { lizardman }
+  sex { female }
+  height { 190 }
+  world_limit { 8 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 12350 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6988 }
+  damage { 2, 5, 2  }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114009
+{
+  name { a Yuan-Ti hatchling }
+  namelist { yuan-ti hatchling }
+  shortdesc { A young Yuan-Ti hatching is here, hissing loudly at you! }
+  longdesc {
+Although small in stature, even the Yuan-Ti young are not to
+be meddled with.  This one shows the famous snake body of her 
+race!
+  }
+  race { lizardman }
+  sex { female }
+  height { 70 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 1275 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2066 }
+  damage { 2, 5, 2  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, scavenger, nice-thief, wimpy }
+}
+114010
+{
+  name { The Yuan-Ti Battlemaster }
+  namelist { yuan-ti battlemanster }
+  shortdesc { The Yuan-Ti Battlemaster is here training some troops. }
+  longdesc {
+The Yuan-Ti Battlemaster is in charge of training the broodguards that
+wander the platforms of the palace complex.  He is an expert in all
+forms of martial arts!
+  }
+  race { lizardman }
+  sex { male }
+  height { 230 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -350 }
+  gold { 21700  }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 111267 }
+  damage { 3, 5, 1  }
+  immune { charm }
+  act { sentinel }
+}
+
+114011
+{
+  name { a Yuan-Ti broodguard-in-training }
+  world_limit { 4 }
+  namelist { yuan-ti broodguard-in-training }
+  shortdesc { A Yuan-Ti is here learning how to be a broodguard. }
+  longdesc {
+This Yuan-Ti is strong, muscular and capable.  He is being
+trained to be an effective guard for the Yuan-Ti palace!
+  }
+  race { lizardman }
+  height { 210 }
+  weight { 10000 }
+  level { 113 }
+  alignment { -350 }
+  gold { 11950  }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 25, 4 }
+  body { 25, 4 }
+  arms { 25, 4 }
+  legs { 25, 4 }
+  feet { 25, 4 }
+  hp { 4, 112, 600  }
+  move { 300 }
+  experience { 22494 }
+  damage { 2, 8, 1  }
+  act { sentinel }
+}
+114012
+{
+  name { Captain Extaminos }
+  namelist { extaminos yuan-ti broodguard captain }
+  shortdesc { Extaminos the Broodguard Captain is here reading a report. }
+  longdesc {
+Extaminos is an old Yuan-Ti, the scales on his tail have dulled
+by the passage of time.  But don't let that fool you.  Older Yuan-
+Ti are known to be as powerful as gods!
+  }
+  race { lizardman }
+  sex { male }
+  height { 250 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 0 }
+  gold { 35750  }
+  skills { bash }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 4, 352, 10000  }
+  move { 300 }
+  experience { 411566 }
+  damage { 3, 8, 6  }
+  immune { charm, backstab }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+114013
+{
+  name { Arch Priestess Sarrish }
+  namelist { sarrish yuan-ti arch priestess }
+  shortdesc { Sarrish, the Yuan-Ti Arch Priestess is here, praying. }
+  longdesc {
+Sarrish is an emaciated Yuan-Ti, her scales pulled tight about her
+face and body, yet each one gleams and glimmers as if with the very
+youth of the youngest and fittest cleric. 
+  }
+  race { lizardman }
+  height { 190 }
+  sex { female }
+  weight { 10000 }
+  level { 436 }
+  alignment { 0 }
+  gold { 49500 }
+  hit_bonus { 26 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  spells { dispel magic, shriek, fear }
+  caster { 90 }
+  mana { 4000 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 336, 8500  }
+  move { 300 }
+  experience { 695033 }
+  damage { 2, 8, 4  }
+  immune { charm, backstab }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+114014
+{
+  name { Sorcerer Hss'thiss }
+  namelist { hss'thiss yuan-ti sorcerer }
+  shortdesc { Hss'thiss, the Yuan-Ti Sorcerer is here weaving the winds of fate. }
+  longdesc {
+Hss'thiss oozes power and confidence.  His power is known to exceed
+that of even the mighty liches of old!
+  }
+  race { lizardman }
+  height { 205 }
+  sex { male }
+  weight { 10000 }
+  level { 460 }
+  alignment { 0 }
+  gold { 89750  }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  caster { 299 }
+  mana { 9000 }
+  spells { dispel magic, sleep, colour spray, meteor swarm, firestorm }
+  head { -60, 2 }
+  body { -60, 2 }
+  arms { -60, 2 }
+  legs { -60, 2 }
+  feet { -60, 2 }
+  hp { 4, 360, 8500 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 796291 }
+  damage { 2, 3, 4 }
+  immune { charm, hold, backstab }
+  affected { detect-invisible, fireshield }
+  act { special, sentinel }
+}
+
+114015
+{
+  name { King Surrekh }
+  namelist { surrekh yuan-ti king }
+  shortdesc { Surrekh is coiled here, commanding an audience and your respect. }
+  longdesc {
+Surrekh has been King of the Yuan-Ti for a long, long time. Even
+aged as he is, he is still a commanding figure!
+  }
+  race { lizardman }
+  sex { male }
+  height { 290 }
+  weight { 10000 }
+  level { 484 }
+  alignment { 0 }
+  gold { 44750  }
+  hit_bonus { 28 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -80, 2 }
+  body { -80, 2 }
+  arms { -80, 2 }
+  legs { -80, 2 }
+  feet { -80, 2 }
+  hp { 4, 584, 14131  }
+  move { 300 }
+  experience { 717344 }
+  damage { 5, 8, 7 }
+  immune { fire, cold, charm }
+  affected { detect-invisible, sanctuary, fireshield }
+  act { special, sentinel }
+  skills { bash, kick, strike }
+}
+
+114016
+{
+  name { Ambassador Krishna }
+  namelist { krishna yuan-ti ambassador }
+  shortdesc { Krishna, the Yuan-Ti Ambassador is lounging here lazily. }
+  longdesc {
+Even compared to other Yuan-Ti, Krishna looks rich.  He is bedecked
+by jewels and trinkets of every kind!
+  }
+  race { lizardman }
+  height { 210 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 0 }
+  gold { 69750  }
+  hit_bonus { 24 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 352, 5376  }
+  move { 300 }
+  experience { 372369 }
+  damage { 3, 8, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114017
+{
+  name { An adolescent Yuan-Ti }
+  namelist { yuan-ti adolescent }
+  shortdesc { A sullen-looking Yuan-Ti adolescent is here. }
+  longdesc {
+He looks disgruntled.  Well, aren't all adolescents?
+  }
+  race { lizardman }
+  sex { male }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 4345 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+114018
+{
+  name { An adolescent Yuan-Ti }
+  namelist { yuan-ti adolescent }
+  shortdesc { A angry-looking Yuan-Ti adolescent is here. }
+  longdesc {
+He looks disgruntled.  Well, aren't all adolescents?
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  sex { male }
+  level { 32 }
+  alignment { 0 }
+  gold { 5345 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+114019
+{
+  name { An adolescent Yuan-Ti }
+  namelist { yuan-ti adolescent }
+  shortdesc { A bored-looking Yuan-Ti adolescent is here. }
+  longdesc {
+He looks disgruntled.  Well, aren't all adolescents?
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  sex { male }
+  level { 32 }
+  alignment { 0 }
+  gold { 1345 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+114020
+{
+  name { An adolescent Yuan-Ti }
+  namelist { yuan-ti adolescent }
+  shortdesc { A sullen-looking Yuan-Ti adolescent is here. }
+  longdesc {
+He looks disgruntled.  Well, aren't all adolescents?
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  sex { male }
+  level { 32 }
+  alignment { 0 }
+  gold { 3145 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+
+
+114021
+{
+  name { Princess Sasssha }
+  namelist { yuan-ti princess sasssha }
+  shortdesc { The Yuan-Ti Princess is here being overly dramatic about something. }
+  longdesc {
+This young Yuan-Ti is a Princess.  You can tell because she's really demanding
+and an expert at throwing a bigger sulk than your average PR player after a
+nerf!
+  }
+  race { lizardman }
+  height { 180 }
+  sex { female }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 29250  }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -40, 2 }
+  body { -40, 2 }
+  arms { -40, 2 }
+  legs { -40, 2 }
+  feet { -40, 2 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 431842 }
+  damage { 4, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114022
+{
+  name { Poisoner Saark }
+  namelist { yuan-ti poisoner saark }
+  shortdesc { The Yuan-Ti Poisoner is here, dousing a knife with venom!  Watch out! }
+  longdesc {
+Being a race of part snake creatures, the Yuan-Ti find poisons to be a
+very valuable resource.  So much so that there is even a job for one in
+the palace!
+  }
+  race { lizardman }
+  height { 205 }
+  sex { male }
+  weight { 10000 }
+  level { 420 }
+  alignment { 0 }
+  gold { 22250  }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 746397 }
+  damage { 4, 8, 5  }
+  spells { poison }
+  caster { 420 }
+  immune { poison, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114023
+{
+  name { Prince Ajakan }
+  namelist { yuan-ti prince ajakan }
+  shortdesc { The prince of the Yuan-Ti is here, admiring himself in a mirror. }
+  longdesc {
+Cold, cruel and vain.  Those are the nice things that you can
+say about this self-serving, backstabbing, sociopathic prince.
+Everything else would be the bad stuff, so you can imagine
+just how bad it is.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 29250  }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114024
+{
+  name { War Dancer Zzaln }
+  namelist { yuan-ti war dancer zzaln }
+  shortdesc { The Yuan-Ti War Dancer is here moving hypnotically. }
+  longdesc {
+Fighting a War Dancer is a dangerous business, it is rumoured that
+the dance is so hypnotic that many a foe has changed sides mid-fight
+and attacked their friends!
+  }
+  race { lizardman }
+  height { 203 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 32250  }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 6 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 3160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114025
+{
+  name { Champion Karnax }
+  namelist { yuan-ti arena champion karnax }
+  shortdesc { The Yuan-Ti Arena Champion is here flexing his impressive muscles. }
+  longdesc {
+His skin and scales glitter and gleam from the application of many
+oils.  He is as big and strong as you'd expect of an Arena winner!
+  }
+  race { lizardman }
+  height { 267 }
+  weight { 10000 }
+  level { 360 }
+  alignment { 0 }
+  gold { 29750  }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 360, 5680  }
+  move { 300 }
+  experience { 692987 }
+  damage { 3, 8, 7  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114026
+{
+  name { Demonologist Fauush }
+  namelist { yuan-ti demonologist fauush }
+  shortdesc { The Yuan-Ti Demonologist is here, evoking his spells! }
+  longdesc {
+The Yuan-Ti entreat with demons on a daily basis, and the presence of
+a powerful wizard just dedicated to this should come as no surprise!
+  }
+  race { lizardman }
+  height { 210 }
+  caster { 410 }
+  weight { 10000 }
+  level { 368 }
+  alignment { 0 }
+  gold { 22750  }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 368, 5984  }
+  move { 300 }
+  experience { 410722 }
+  damage { 4, 6, 5  }
+  spells { dispel magic, fireball }
+  immune { charm }
+  affected { hide }
+  act { sentinel }
+}
+
+114027
+{
+  name { High Commandant Quee'Quee }
+  namelist { quee'quee yuan-ti high commandant }
+  shortdesc { Quee'Quee the Yuan-Ti High Commandant stands here, looking serious! }
+  longdesc {
+Rumour has it that Quee'Quee was magically enhanced and is able to rip
+your head off and do things to your corpse that would make your mother
+weep.
+  }
+  race { lizardman }
+  height { 310 }
+  weight { 10000 }
+  level { 491 }
+  alignment { -1000 }
+  gold { 35000  }
+  hit_bonus { 25 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -70, 2 }
+  body { -70, 2 }
+  arms { -70, 2 }
+  legs { -70, 2 }
+  feet { -70, 2 }
+  hp { 4, 721, 17241  }
+  move { 300 }
+  experience { 407284 }
+  damage { 8, 5, 8  }
+  immune { fire, cold, electricity, energy, poison, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+114028
+{
+  name { Queen Agamagdon }
+  namelist { agamagdon queen }
+  shortdesc { Queen Agamagdon is here, looking dangerously calm. }
+  longdesc {
+Queen Agamagdon is the true ruler of the Yuan-Ti, no matter
+what the King may say.  She exudes power, confidence and for
+a half-snake half-human creature, she is also quite beautiful.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 499 }
+  alignment { 0 }
+  gold { 45000  }
+  hit_bonus { 25 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -50, 2 }
+  body { -50, 2 }
+  arms { -50, 2 }
+  legs { -50, 2 }
+  feet { -50, 2 }
+  hp { 4, 729, 17358  }
+  move { 300 }
+  experience { 430795 }
+  damage { 8, 5, 10  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+114029
+{
+  name { a Yuan-Ti wizard }
+  namelist { Yuan-Ti wizard }
+  shortdesc { A Yuan-Ti wizard is here teaching her students the subtle magical arts. }
+  longdesc {
+This wizard is teaching younger Yuan-Ti wizard wannabes how
+to perform the most intricate of magic... So watch out for
+those magic missiles!  Right now it looks like the wizards
+are learning how to summon various creatures.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { 0 }
+  gold { 11620  }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  head { 30, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 4, 168, 1000 }
+  move { 300 }
+  experience { 38706 }
+  damage { 2, 5, 2  }
+  immune { charm }
+  caster { 168 }
+  spells { colour spray, magic missile, acid blast }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114030
+{
+  name { Cleric Raaska }
+  namelist { yuan-ti cleric raaska }
+  shortdesc { The Yuan-Ti Cleric Raaska sits here, praying to the demonic Yuan-Ti Goddess. }
+  longdesc {
+Raaska is as pious as the Yuan-Ti can be.  And the Yuan-Ti
+are very pious indeed.  He is adorned in fine blue robes
+and symbols of the six-armed snake Goddess.  Even his skin
+and scales have been tattooed in her image.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 0 }
+  gold { 11900  }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 200, 1800  }
+  move { 300 }
+  experience { 81461 }
+  damage { 2, 8, 3  }
+  immune { charm }
+  spells { curse, poison }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114031
+{
+  name { a young Yuan-Ti wizard }
+  namelist { yuan-ti wizard young }
+  shortdesc { A young Yuan-Ti wizard is here summoning a terrible creature! }
+  longdesc {
+This young Yuan-Ti wizard looks like he has succeeded in one
+of his spells!
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 2150  }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4094 }
+  damage { 1, 8, 2  }
+  immune { charm }
+  caster { 40 }
+  spells { magic missile }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+114032
+{
+  name { an experienced Yuan-Ti student wizard }
+  namelist { yuan-ti student wizard }
+  shortdesc { An experienced Yuan-Ti student wizard is here, dreaming of napping. }
+  longdesc {
+This Yuan-Ti wizard is still learning his art, yet he looks
+smugly arrogant about his abilities.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 4201 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6988 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  caster { 48 }
+  spells { magic missile }
+  affected { detect-invisible }
+  act { stay-zone, sentinel }
+}
+
+
+114033
+{
+  name { the Eater of Souls }
+  namelist { souls eater }
+  shortdesc { The robed and hooded Eater of Souls is here, ready to devour you! }
+  longdesc {
+Dressed in a black robe that cover its face, the Eater of
+Souls is a demon from some dark and dingy plane upon which
+no mortal should tread.  But you know, some people just
+cannot help themselves and go anyway, as the Yuan-Ti wizards
+demonstrate by summoning one here.
+  }
+  race { demon }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -200 }
+  hit_bonus { 9 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 192, 1956 }
+  move { 300 }
+  experience { 167971 }
+  damage { 3, 5, 6  }
+  immune { charm, backstab }
+  caster { 492 }
+  spells { energy drain }
+  affected { detect-invisible, invisible }
+  act { special, sentinel, scavenger }
+}
+
+
+114034
+{
+  name { a rock elemental }
+  namelist { rock elemental }
+  shortdesc { A rock elemental moves towards you in a whirl of dust and pebbles! }
+  longdesc {
+Rock elementals look like animated rocks that roll and tumble
+together in the vague shape of a humanoid.  This one has lovely
+glowing red eyes.  How nice!  It appears to have been summoned
+by some of the Yuan-Ti wizards.
+  }
+  race { planar }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -400 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 66250 }
+  damage { 3, 5, 10  }
+  immune { charm, backstab, pierce }
+  resistant { slash }
+  affected { detect-invisible }
+  act { special, sentinel, scavenger }
+}
+
+114035
+{
+  name { The cavern crawler }
+  namelist { cavern crawler }
+  shortdesc { A yucky cavern crawler stretches its tentacles towards you! }
+  longdesc {
+This marvellous creature looks like it is all mouth.  In fact, so much of it
+is mouth that there doesn't appear to be anywhere for it to digest its food.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 169188 }
+  damage { 2, 5, 2  }
+  immune { charm, backstab }
+  resistant { fire }
+  susceptible { cold }
+  act { special, sentinel, aggressive }
+}
+
+114036
+{
+  name { A massive grizzly bear }
+  namelist { grizzly bear }
+  shortdesc { A massive grizzly bear is here, roaring in rage! }
+  longdesc {
+This is a grizzly bear.  You know?  The ones you find on mountains that
+eat salmon and look really cute?  Yeah, those ones.  It is NOT happy.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 264 }
+  alignment { 0 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { 30, 10 }
+  body { 30, 10 }
+  arms { 30, 10 }
+  legs { 30, 10 }
+  feet { 30, 10 }
+  hp { 4, 264, 2252  }
+  move { 300 }
+  experience { 226042 }
+  damage { 2, 10, 10  }
+  immune { charm, backstab }
+  affected { detect-invisible }
+  act { sentinel, scavenger, aggressive }
+}
+
+114037
+{
+  name { Malligan the Giant }
+  namelist { giant malligan }
+  shortdesc { Malligan the Giant stands here, swinging his club menacingly! }
+  longdesc {
+This is Malligan.  He's a giant.  He stands just over 9 feet tall.  He has
+shaggy brown hair that mats his body and acts like natural armour.  He has
+rotting yellow teeth and small eyes that roam and roll madly.  He has
+breath so bad it could melt tin.  Other than that he's a very pleasant
+chap who likes walks in the rain and crushing rabbit skulls in his fist.
+  }
+  race { giant }
+  height { 300 }
+  weight { 10000 }
+  level { 328 }
+  alignment { -1000 }
+  hit_bonus { 25 }
+  dam_bonus { 55 }
+  attacks_per_round { 1.2 }
+  head { -120, 0 }
+  body { -120, 0 }
+  arms { -120, 0 }
+  legs { -120, 0 }
+  feet { -120, 0 }
+  hp { 4, 328, 15464  }
+  move { 300 }
+  experience { 348202 }
+  damage { 7, 6, 17  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, aggressive, stay-zone, npc, sentinel, nosummon }
+}
+114038
+{
+  name { the cat of nine lives }
+  namelist { cat nine lives }
+  shortdesc { The Cat of Nine Lives is here, yowling madly. }
+  longdesc {
+Covered in white fur that ripples as if in an invisible wind, it's
+hackles raised it's stance ready to attack, the Cat of Nine Lives is
+no pretty kitty for you to pet and love upon.
+  }
+  race { predator }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 13320 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm, backstab }
+  affected { infravision }
+  act { sentinel, stay-zone, special, aggressive }
+}
+114039
+{
+  name { Yowler the Gnoll }
+  namelist { yowler gnoll }
+  shortdesc { The rabid gnoll berserker Yowler is here! }
+  longdesc {
+Yowler is a Gnoll.  A big gnoll, with a dog-like snout and the pointy
+ears of a hunter.  Rumour has it when he howls at you, it hurts!
+AWOOOOOOOOOOooooooooo!
+  }
+  race { predator }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -80, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm, backstab }
+  affected { infravision }
+  caster { 320 }
+  spells { shriek }
+  act { sentinel, stay-zone, special, aggressive, nosummon }
+}
+114040
+{
+  name { The Marilith }
+  namelist { marilith demon god }
+  shortdesc { The Marilith is here, whirling her weapons in her six arms! }
+  longdesc {
+The Marilith is the demonic goddess of the Yuan-Ti!  Why have there been all
+those cheers as you fought your way in to the arena?  Because you are a
+sacrifice to the great Marilith.  She rises up to 8 feet above the ground, a
+different weapon held in each of her six arms!  And she moves fast, quickly,
+slithering across the open ground to get at you.  Defend yourself or run!
+  }
+  race { demon }
+  sex { female }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1605000 }
+  hp { 4, 400, 7800 }
+  alignment { -1000 }
+  gold { 123000 }
+  hit_bonus { 38 }
+  dam_bonus { 30 }
+  attacks_per_round { 6 }
+  dexterity { 30 }
+  move  { 900 }
+  damage { 2, 16, 5 }
+  head { -150, 16 }
+  body { -100, 16 }
+  arms { -120, 16 }
+  resist_acid   { 100 }
+  resist_magic  { 175 }
+  resist_force  { 12  }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 100 }
+  caster { 40 }
+  spells { poison, dispel magic }
+  immune { cold, charm, backstab }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone, nosummon, aggressive }
+}
+114041
+{
+  name { Howler }
+  namelist { howler gnoll }
+  shortdesc { The insane gnoll warrior Howler is here, roaring a war cry! }
+  longdesc {
+Howler is a Gnoll.  A big gnoll, with a dog-like snout and the pointy
+ears of a hunter.  Rumour has it when he hits you, it hurts!
+AWOOOOOOOOOOooooooooo!
+  }
+  race { predator }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -80, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm, backstab }
+  affected { infravision }
+  caster { 320 }
+  spells { shriek }
+  act { sentinel, stay-zone, special, aggressive, nosummon }
+}
+114042
+{
+  name { Scourge }
+  namelist { scourge orc warlock }
+  shortdesc { The crazed orc warlock Scourge is here, preparing to MASH you! }
+  longdesc {
+Scourge is a warlock of incredible power.  He has bright red
+eyes, powerful muscles and a mind full of spells!
+  }
+  race { predator }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 22 }
+  dam_bonus { 33 }
+  attacks_per_round { 4.2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 3160  }
+  move { 300 }
+  experience { 446397 }
+  caster { 320 }
+  spells { fireball, weakness, fireshield, meteor swarm }
+  damage { 4, 4, 4 }
+  immune { charm }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, special, aggressive, nosummon }
+}
+114043
+{
+  name { Growler }
+  namelist { growler gnoll }
+  shortdesc { The crazed gnoll fighter Growler is here, snarling viciously! }
+  longdesc {
+Growler is a Gnoll.  A big gnoll, with a dog-like snout and the pointy
+ears of a hunter.  Rumour has it when he hits you, it hurts!
+AWOOOOOOOOOOooooooooo!
+  }
+  race { predator }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -80, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm, backstab }
+  affected { infravision }
+  caster { 320 }
+  spells { shriek }
+  act { sentinel, stay-zone, special, aggressive, nosummon }
+}
+114044
+{
+  name { Buntagonamadon }
+  namelist { buntagonamadon }
+  shortdesc { The Buntagonamadon swirls here in a frenzy of teeth and tentacles! }
+  longdesc {
+What can be said about the Buntagonamadon.  Ancient God of the Yuani-Ti?
+Most powerful being ever to inhabit the realms?  It has a smell akin to
+rotting garbage and low tide even underwater?  There are many things that
+can be said but perhaps the most important is that this multi-tentacled,
+grey, green and purple slimy monster is your doom.  There is no escape
+for you now, you will be the devoured.
+  }
+  race { fish }
+  height { 490 }
+  weight { 40000 }
+  level { 590 }
+  alignment { -1000 }
+  gold { 225000 }
+  hit_bonus { 27 }
+  dam_bonus { 22 }
+  attacks_per_round { 8 }
+  head { -180, 15 }
+  body { -140, 15 }
+  arms { -140, 15 }
+  legs { -140, 15 }
+  feet { -140, 15 }
+  hp { 4, 320, 14160  }
+  move { 300 }
+  experience { 846397 }
+  damage { 4, 8, 15 }
+  immune { charm, backstab, cold, electricity }
+  affected { infravision, true-sight, water-breath }
+  caster { 590 }
+  spells { ice lance }
+  act { scavenger, stay-zone, special, aggressive, nosummon }
+}
+114045
+{
+  name { a cavern pterosaur }
+  namelist { pterosaur }
+  shortdesc { A ferocious pigeon-sized pterosaur swoops down at you! }
+  longdesc {
+A remnant of a bygone era, this pterosaur has remained biologically
+unchanged for millions of years.  It feeds quite happily off the
+spiders and lurkers that haunt dark, damp caverns.  It has big eyes
+that are capable of seeing in the dark and a mouth full of vicious
+little teeth.
+  }
+  race { reptile }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 2550  }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 2.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 144, 600 }
+  move { 300 }
+  experience { 27378 }
+  damage { 2, 6, 2  }
+  immune { cold, charm }
+  spells { gust of wind }
+  caster { 140 }
+  affected { infravision, fly }
+  act { wimpy, stay-zone }
+}
+114046
+{
+  name { a cavern lurker }
+  namelist { lurker }
+  shortdesc { A disgusting lurker is here, looking for food. }
+  longdesc {
+Lurkers could be described as a slug with teeth,  so we shall
+describe them as such.  They stretch out to just over a metre
+in length with slimy black skin that glistens wetly.  Yuck.
+I wouldn't touch it if I were you.
+  }
+  race { insect }
+  sex { female }
+  level { 25 }
+  experience { 8250 }
+  hp { 8, 9, 275 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { sentinel, stay-zone, hateful }
+}
+114047
+{
+  name { Advisor Memnon }
+  namelist { yuan-ti advisor memnon }
+  shortdesc { Memnon, the Yuan-Ti Ceremonial Advisor is here, reading his books. }
+  longdesc {
+Memnon is a curiosity amongst the Yuan-Ti.  He studies the
+cultures and traditions of other races in order to advise
+his King and Queen on how best to relate to other races.
+He was the first Yuan-Ti that August Arcana spoke to.
+  }
+  race { lizardman }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 19250  }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+114048
+{
+  name { a Yuan-Ti male }
+  namelist { yuan-ti male }
+  shortdesc { A Yuan-Ti male stands here, looking for a female. }
+  longdesc {
+This male seems really intent of finding a mate.  Perhaps you should
+move on?
+  }
+  race { lizardman }
+  sex { male }
+  height { 190 }
+  world_limit { 8 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 1350 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6988 }
+  damage { 2, 5, 2  }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+114049
+{
+  name { Arch Priestess Xanasha }
+  namelist { Xanasha yuan-ti arch priestess }
+  shortdesc { Xanasha, the Yuan-Ti Arch Priestess is here, praying. }
+  longdesc {
+Xanasha is a Yuan-Ti of middling years.  She is powerfully built, 
+standing well over seven feet in height, her scales a dark, burnt
+umber.  Her eyes gleam with malcontent.
+  }
+  race { lizardman }
+  height { 190 }
+  sex { female }
+  weight { 10000 }
+  level { 436 }
+  alignment { -1000 }
+  gold { 49500 }
+  hit_bonus { 26 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  spells { dispel magic, shriek, fear }
+  caster { 90 }
+  mana { 4000 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 336, 8500  }
+  move { 300 }
+  experience { 695033 }
+  damage { 2, 8, 4  }
+  immune { charm, backstab }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+114050
+{
+  name { Arch Priestess Alliss }
+  namelist { alliss yuan-ti arch priestess }
+  shortdesc { Alliss, the Yuan-Ti Arch Priestess is here, praying. }
+  longdesc {
+Allis is a young and beautiful Yuan-Ti, her scales gleam and glimmer
+with youth and energy.  Yet, she seems to have a power far beyond her
+years.
+  }
+  race { lizardman }
+  height { 190 }
+  sex { female }
+  weight { 10000 }
+  level { 436 }
+  alignment { 1000 }
+  gold { 49500 }
+  hit_bonus { 26 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  spells { dispel magic, shriek, fear }
+  caster { 90 }
+  mana { 4000 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 336, 8500  }
+  move { 300 }
+  experience { 695033 }
+  damage { 2, 8, 4  }
+  immune { charm, backstab }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+114051
+{
+  name { The Zombie of King Surrekh }
+  namelist { surrekh yuan-ti king zombie }
+  shortdesc { The Zombie of King Surrekh is here, seeking vengeance on all non-Yuan-Ti! }
+  longdesc {
+Surrekh was the King of the Yuan-Ti for a long, long time. Then some
+adventurers came and killed him!  Now he has risen again to seek
+vengeance upon his murderers!
+  }
+  race { undead }
+  sex { male }
+  height { 290 }
+  weight { 10000 }
+  level { 500 }
+  alignment { 0 }
+  gold { 50750  }
+  hit_bonus { 33 }
+  dam_bonus { 22 }
+  attacks_per_round { 4.5 }
+  head { -90, 2 }
+  body { -90, 2 }
+  arms { -90, 2 }
+  legs { -90, 2 }
+  feet { -90, 2 }
+  hp { 4, 454, 17131  }
+  move { 300 }
+  experience { 812344 }
+  damage { 5, 8, 7 }
+  immune { fire, cold, charm }
+  affected { detect-invisible, sanctuary, fireshield }
+  act { special, sentinel }
+  caster { 300 }
+  spells { energy drain }
+}

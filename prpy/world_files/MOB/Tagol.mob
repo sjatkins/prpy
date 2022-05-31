@@ -1,0 +1,876 @@
+44500
+{
+  name { Hathor }
+  namelist { hathor }
+  shortdesc { Hathor stands here, ready to take your order. }
+  longdesc {
+Hathor is round, jolly, and unusually tall for a dwarf.  Despite his jovial
+disposition, you have little doubt on his value in a fight.
+  }
+  race { dwarf }
+  height { 170 }
+  level { 297 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -75, 15 }
+  body { -75, 15 }
+  arms { -75, 15 }
+  legs { -75, 10 }
+  feet { -75, 10 }
+  hp { 1, 7000, 400  }
+  move { 200 }
+  experience { 402270 }
+  damage { 5, 8, 2  }
+  immune { poison, charm }
+  resistant { blunt }
+  affected { fireshield }
+  act { sentinel }
+}
+
+44501
+{
+  name { Spave }
+  namelist { spave }
+  shortdesc { Spave stalks the shadows here, hunting his next bounty. }
+  longdesc {
+You wonder what kind of atrocities Spave must have committed to exile himself
+deep into these caves.  He looks like a dangerous customer.
+  }
+  race { human }
+  sex { male }
+  world_limit { 1 }
+  height { 140 }
+  level { 622 }
+  alignment { -1000 }
+  gold { 22500 }
+  hit_bonus { 34 }
+  dam_bonus { 28 }
+  attacks_per_round { 6.5 }
+  head { -95, 15 }
+  body { -95, 15 }
+  arms { -95, 15 }
+  legs { -95, 10 }
+  feet { -95, 10 }
+  hp { 1, 9000, 400  }
+  move { 200 }
+  experience { 462457 }
+  damage { 6, 10, 12  }
+  immune { poison, charm }
+  resistant { blunt }
+  affected { fireshield, true-sight, hide, sneak, invisible }
+  act { scavenger, aggressive, wimpy, special }
+}
+
+44502
+{
+  name { Kinsil }
+  namelist { Kinsil }
+  shortdesc { Kinsil paces about the room, admiring his collection. }
+  longdesc {
+Kinsil is rather thin for a dwarf.  His appearance belies his true power though;
+you can see the glinting from the many magical gadgets and weapons that Kinsil
+wears.
+  }
+  race { dwarf }
+  height { 140 }
+  level { 270 }
+  alignment { 800 }
+  gold { 17000 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 5 }
+  head { -75, 15 }
+  body { -75, 15 }
+  arms { -75, 15 }
+  legs { -75, 10 }
+  feet { -75, 10 }
+  hp { 1, 5000, 400  }
+  move { 200 }
+  experience { 345425 }
+  damage { 5, 6, 2  }
+  immune { poison, charm }
+  resistant { fire, cold, electricity, blunt }
+  affected { sanctuary, fireshield }
+  act { sentinel }
+}
+
+44503
+{
+  name { Jah }
+  namelist { jah }
+  shortdesc { Jah beams a smile at you, inviting you in. }
+  longdesc {
+Jah is a beautiful dwarven maiden, renouned as the finest gold-smith under the
+mountain.  She takes great pride is satisfying her customers.
+  }
+  race { dwarf }
+  height { 170 }
+  level { 297 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 5 }
+  head { -75, 15 }
+  body { -75, 15 }
+  arms { -75, 15 }
+  legs { -75, 10 }
+  feet { -75, 10 }
+  hp { 1, 7000, 400  }
+  move { 200 }
+  experience { 397260 }
+  damage { 5, 8, 2  }
+  immune { poison, charm }
+  resistant { blunt }
+  affected { sanctuary, fireshield }
+  act { sentinel }
+}
+
+44504
+{
+  name { Dwarven Cityguard }
+  namelist { dwarven cityguard guard }
+  shortdesc { a stocky dwarven cityguard is posted here, looking for wrongdoers. }
+  longdesc {
+The cityguard looks strong and determined.  He is obviously proud of his post
+  }
+  race { dwarf }
+  height { 150 }
+  level { 49 }
+  alignment { 1000 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 5 }
+  body { 0, 5 }
+  arms { 0, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  hp { 1, 700, 40  }
+  move { 200 }
+  experience { 8074 }
+  damage { 1, 8, 2  }
+  immune { charm }
+  resistant { blunt }
+  act { stay-zone, wimpy }
+}
+
+44505
+{
+  name { Peacekeeper }
+  namelist { peace keeper peacekeeper }
+  shortdesc { a city Peacekeeper stands here, looking after the town's innocent. }
+  longdesc {
+The Peacekeepers are the city's elite law-enforcement suad, and it shows.  The
+guard is rippling with muscle and power.
+  }
+  race { dwarf }
+  height { 160 }
+  level { 181 }
+  alignment { 1000 }
+  gold { 1800 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -10, 20 }
+  body { -10, 30 }
+  arms { -10, 20 }
+  legs { -10, 20 }
+  feet { -10, 20 }
+  hp { 1, 5000, 40  }
+  move { 200 }
+  experience { 16348 }
+  damage { 2, 18, 2  }
+  immune { pierce, charm }
+  resistant { blunt }
+  act { stay-zone, wimpy }
+}
+
+44506
+{
+  name { Guard warg }
+  namelist { guard warg }
+  shortdesc { a guard warg is here, sniffing out danger. }
+  longdesc {
+The warg is small, but powerfully built.  It wears the city seal around it's neck.
+  }
+  race { none }
+  height { 200 }
+  level { 5 }
+  alignment { 500 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 0, 5 }
+  body { 0, 8 }
+  arms { 0, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  hp { 1, 100, 4  }
+  move { 300 }
+  experience { 807 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  resistant { blunt }
+  act { stay-zone, wimpy }
+}
+
+44507
+{
+  name { Master Guardian }
+  namelist { master guardian }
+  shortdesc { The Master Guardian is here, looking after the innocent. }
+  longdesc {
+The Master Guardian has given his life to the upholding of the law.  He would
+willingly give his life to keep the city free of sealing and murderous scum.
+  }
+  race { dwarf }
+  height { 160 }
+  level { 160 }
+  alignment { 1000 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 5 }
+  head { -10, 35 }
+  body { -25, 35 }
+  arms { -10, 35 }
+  legs { -10, 35 }
+  feet { -10, 35 }
+  hp { 1, 6000, 40  }
+  move { 200 }
+  experience { 32973 }
+  damage { 2, 18, 2  }
+  immune { charm }
+  resistant { blunt }
+  act { stay-zone }
+}
+
+44508
+{
+  name { Dwarven citizen }
+  namelist { dwarven citizen }
+  shortdesc { a dwavern citizen is here, going about his daily business. }
+  longdesc {
+The dwarf doesn't look very imposing or interested at all that you,
+another tourist is staring them down.
+  }
+  sex { male }
+  race { dwarf }
+  height { 160 }
+  level { 28 }
+  alignment { 100 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 1, 200, 40  }
+  move { 200 }
+  experience { 2453 }
+  damage { 1, 8, 2  }
+  immune { charm }
+  resistant { blunt }
+  act { stay-zone, wimpy }
+}
+
+44509
+{
+  name { Filthy Rogue }
+  namelist { filthy rogue }
+  shortdesc { a filthy rogue lurks in the shadows, waiting for an innocent victim. }
+  longdesc {
+You see the flash of steel as the roght slips a dagger into his sleeve, I wouln't
+turn my back to him.
+  }
+  race { dwarf }
+  height { 160 }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 40, 4  }
+  move { 200 }
+  experience { 374 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  resistant { blunt }
+  act { aggressive, stay-zone, wimpy }
+}
+
+44510
+{
+  name { Shadowy cloaked figure }
+  namelist { shadowy cloaked figure }
+  shortdesc { a shadowy cloaked figure is here, fingering his dagger. }
+  longdesc {
+The cloaked man is pretty tall, and looks dangerous.  You might want to move on.
+  }
+  race { human }
+  height { 200 }
+  level { 42 }
+  alignment { -20 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { -10, 5 }
+  body { -10, 10 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  hp { 1, 400, 40  }
+  move { 200 }
+  experience { 5134 }
+  damage { 2, 8, 2  }
+  resistant { blunt }
+  immune { charm }
+  act { aggressive, stay-zone }
+}
+
+44511
+{
+  name { A tourist }
+  namelist { tourist midgard }
+  shortdesc { A tourist from Midgard is walking around admiring the ancient stone city. }
+  longdesc {
+Tall slender man, dressed in comfortable cloths styled for a
+different climate, by his build you would guess that he is a 
+laborer by trade back home. He  looks very peaceful and content
+as he walks around with a tourist guide.  The expression on his 
+face is so enthusiastic, it almost seems as if this is his first 
+time away from Midgard.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 4 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44512
+{
+  name { A tourist }
+  namelist { tourist }
+  shortdesc { A young woman  }
+  longdesc {
+The woman is dressed simly in a one-piece purple bathing suit.  She
+smiles happily as she stares into the sun with her sunglass covered
+face.  Her tan is quite exceptional.  She must be out here every day.
+Does anybody go to work around here?
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44513
+{
+  name { A dwavern courier }
+  namelist { dwavern courier }
+  shortdesc { A dwavern courier is here, looking to make a delivery. }
+  longdesc {
+Before you is an unusual sight in terms of dwarfs, a slender one!
+This courier has been in the business for some time, as his body has
+adapted to the constant running needed to be a successful courier.
+Also unlike most dwarfs his beard his well groomed and kept short, no
+doubt to meld into whatever environment he would find himself in, especially
+in this diverse ancient city.
+  }
+  race { Dwarf }
+  sex { Male }
+  world_limit { 5 }
+  level { 120 }
+  experience { 48000 }
+  hp { 8, 9, 1085 }
+  alignment { 0 }
+  gold { 3800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44514
+{
+  name { An elven merchant }
+  namelist { elven merchant }
+  shortdesc { An elven merchant is here trying to make a sale with some of the locals. }
+  longdesc {
+This elven woman is quite lovely, long blonde hair and green eyes
+compliment all of her facial features.  She is in her finest wardrobe
+as she attempts to use her looks to sell some trinkets of no real value 
+to the locals of Tagol.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 100 }
+  experience { 38000 }
+  hp { 8, 9, 920 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44515
+{
+  name { Dwarven citizen }
+  namelist { dwarven citizen }
+  shortdesc { a dwavern citizen is here, going about her daily business. }
+  longdesc {
+The dwarf doesn't look very imposing or interested at the fact your
+staring at her.
+  }
+  sex { female }
+  race { dwarf }
+  height { 160 }
+  level { 28 }
+  alignment { 100 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 1, 200, 40  }
+  move { 200 }
+  experience { 2453 }
+  damage { 1, 8, 2  }
+  immune { charm }
+  resistant { blunt }
+  act { stay-zone, wimpy }
+}
+
+44516
+{
+  name { A reading woman }
+  namelist { reading woman }
+  shortdesc { A young woman takes out a book and sinks back in her chair. }
+  longdesc {
+The young woman seems to be having an extremely relaxing day.  A glass
+of iced tea in one hand and a small paperback in the other, she sinks
+back into her chair with a happy sigh.  "What.", she states plainly,
+looking up at you above the rim of her sunglasses.  "Can't you see I'm 
+trying to read.".  Oh my, better not mess with her.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 36000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44517
+{
+  name { A walking man }
+  namelist { walking man }
+  shortdesc { A smiling man takes a peaceful walk along the sandy beach. }
+  longdesc {
+The man walks peacefully along the beach, enjoying the sights, sounds
+and smells of his surroundings.  He is dressed simply in some colored
+swim trunks.  His bare upper body is taking a nice licking from the 
+sun high above, as his skin is turning a love shade of brown.  Smiling
+at you as he notices you checking him out, he non-chalantly continues
+along the beach.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 120 }
+  experience { 44000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 3600 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44518
+{
+  name { A walking woman }
+  namelist { walking woman }
+  shortdesc { A beautiful woman tosses her hair as she strides across the sand. }
+  longdesc {
+Wow!  What a beautiful woman!  She almost floats across the sand as she
+walks along the beach.  Everyone on the beach stops what they are doing
+and simply stare at her, tongues wagging.  Tossing her hair at the 
+onlookers, she smiles and continues along the beach.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 100 }
+  experience { 34000 }
+  hp { 8, 9, 805}
+  alignment { 0 }
+  gold { 2800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44519
+{
+  name { A young dwarf }
+  namelist { young dwarf }
+  shortdesc { A smiling young dwarf is wandering around looking for some mischief. }
+  longdesc {
+Dressed in a green tunic and green trousers, this young one is looking
+for a good time and some good ale.  As you make eye contact with this
+young dwarf a smirk develops on his face and he begins to eye your coin
+purse.  He better not try anything!
+  }
+  race { Dwarf }
+  sex { Male }
+  world_limit { 10 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone, nice-thief }
+}
+
+44520
+{
+  name { A sand castle man }
+  namelist { sand castle man }
+  shortdesc { A smiling man builds a sand castle with his family. }
+  longdesc {
+The man carefully plans his next move.  He takes a step back to look
+at his work and begins to shake his head.  Getting on his knees, he
+looks at the sand castle and begins to smile.  "We need somemore
+water boy.", he shouts to his son.  "Run to the water and grab some
+for me, won't you?"
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+44521
+{
+  name { A sand castle child }
+  namelist { sand castle child boy }
+  shortdesc { A young child helps his father build a huge sand castle. }
+  longdesc {
+The young man packs some sand into different size buckets next to the
+sand castle.  He awaits the newest order from his father with baited
+breath.  Quickly realizing that his father is too busy, he continues
+to pack more buckets with sand.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 552 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+44522
+{
+  name { A sand castle child }
+  namelist { sand castle child female }
+  shortdesc { A little girl cries next to a large sand castle. }
+  longdesc {
+The little girl is a complete mess.  Her long blond pig tails are
+drooped across her face.  Strands of snot flow from her nose and
+drip into the sand as she cries for attention.  She must be jealous
+of her brother.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+44523
+{
+  name { A ball playing child }
+  namelist { ball playing child }
+  shortdesc { A small child tosses a beach ball to an older boy. }
+  longdesc {
+This young man seems to be having a ball, quite literally.  "Throw it
+to me!", he shouts, jumping up and down.  "Stop hogging it all to
+yourself!".  He stands about three feet tall and has a full head of
+brown hair.  The child is dressed only in some red swimming shorts.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 14000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+
+44524
+{
+  name { A ball playing kid }
+  namelist { ball playing kid }
+  shortdesc { A young man plays ball with a small child. }
+  longdesc {
+Taunting his playmate, the young man keeps making motions that he is
+going to throw his friend the ball, but keeps it all to himself.  The
+boy seems to be about thirteen years old and is acting every bit of
+it!  How rude.  He sticks his tongue out at the other boy and continues
+to tease him.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+
+44525
+{
+  name { A mean kid }
+  namelist { mean kid bully }
+  shortdesc { A mean-looking young man walks up and kicks sand at you. }
+  longdesc {
+What a jerk!  This boy looks mean as spit!  He walks along the beach
+kicking sand at beach goers and making rude remarks.  The bully notices
+you looking at him and starts to move in your direction.  Stopping just
+a few feet in front of you, he kicks a nice amount of sand on your
+feet and moves about his merry way.  Jerk!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 22000 }
+  hp { 8, 9, 932 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+
+44526
+{
+  name { A walking couple }
+  namelist { walking couple }
+  shortdesc { A happy couple walk hand in hand along the beach. }
+  longdesc {
+The couple does not even notice you as they walk along the beach  Their
+hands break contact briefly as they move seperately around you, only
+to reconnect quickly behind your back.  It is amazing they did not knock
+you over!  Turning around to get another look at the love birds, you
+notice them gazing lovingly in eachothers eyes.  L'amour!
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 120 }
+  experience { 60000 }
+  hp { 8, 9, 1350 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}

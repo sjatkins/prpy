@@ -1,0 +1,567 @@
+19200
+{
+  name { A goblin }
+  namelist { goblin humanoid }
+  shortdesc { A goblin is here, arguing over a few coins on the floor. }
+  longdesc {
+She looks scrawny, hungry perhaps?
+  }
+  race { goblin }
+  sex { male }
+  level { 25 }
+  alignment { -500 }
+  gold { 25 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 8, 9, 375  }
+  move { 300 }
+  experience { 8106 }
+  damage { 2, 5, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+19201
+{
+  name { A trader }
+  namelist { trader man }
+  shortdesc { You see a man lying on a bed peacefully. }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  sex { male }
+  level { 25 }
+  alignment { -100 }
+  gold { 50 }
+  hit_bonus { 4 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 8, 8, 450  }
+  move { 300 }
+  experience { 6254 }
+  damage { 2, 5, 1  }
+  immune { charm }
+  act { sentinel, scavenger, stay-zone, wimpy }
+}
+
+19202
+{
+  name { A stirge }
+  namelist { stirge }
+  shortdesc { A stirge flies towards you at great speed and attacks! }
+  longdesc {
+It does NOT look happy about you being here.
+  }
+  race { none }
+  level { 2 }
+  alignment { -700 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 8, 20  }
+  move { 300 }
+  experience { 803 }
+  damage { 1, 3, 4  }
+  act { sentinel, aggressive }
+}
+
+19203
+{
+  name { A large kobold }
+  namelist { kobold }
+  shortdesc { A large, rust-brown kobold stands here, eyeing you suspiciously. }
+  longdesc {
+He doesn't know whether to trust you or not.
+  }
+  race { goblin }
+  sex { male }
+  level { 1 }
+  alignment { -200 }
+  gold { 25 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 8, 8, 260  }
+  move { 300 }
+  experience { 7904 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  act { sentinel, scavenger, stay-zone, wimpy }
+}
+19204
+{
+  name { A giant shrew }
+  namelist { shrew giant }
+  shortdesc { A giant shrew scuttles around the room.. }
+  longdesc {
+The shrew has no eyes, and "sees" with its ears..
+  }
+  race { none }
+  level { 1 }
+  alignment { -200 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 2, 8, 90  }
+  move { 300 }
+  experience { 879 }
+  damage { 2, 6, 2  }
+  act { sentinel, aggressive }
+}
+19205
+{
+  name { A huge white wolf }
+  namelist { wolf white }
+  shortdesc { A huge white wolf jumps up and pounces on you! }
+  longdesc {
+Its drooling at you.. better not let it get what it wants, would ruin your whole day.
+  }
+  race { none }
+  level { 15 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 14, 8, 74  }
+  move { 300 }
+  experience { 4394 }
+  damage { 2, 3, 2  }
+  act { aggressive }
+}
+
+19206
+{
+  name { The evil priestess }
+  namelist { cleric evil priestess }
+  shortdesc { A priestess of Set kneels at the altar here. }
+  longdesc {
+She looks at you through blackened eyes... you can tell she has been through
+a lot in her life.
+  }
+  race { human }
+  sex { female }
+  level { 35 }
+  alignment { -1000 }
+  gold { 30 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 4 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  hp { 9, 8, 730  }
+  caster { 25 }
+  spells { cause light, cause critical, faerie fire, curse }
+  mana { 300 }
+  power { 300 }
+  move { 300 }
+  experience { 17645 }
+  damage { 2, 8, 3  }
+  act { sentinel }
+}
+
+
+19207
+{
+  name { The fire beetle }
+  namelist { beetle fire }
+  shortdesc { A huge beetle sits on a dusty carpet here. }
+  longdesc {
+Funny, he seems to be glowing..
+  }
+  race { none }
+  level { 1 }
+  alignment { -200 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 1, 8, 35 }
+  move { 300 }
+  experience { 509 }
+  damage { 2, 6, 2  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+19208
+{
+  name { A crab spider }
+  namelist { crab spider }
+  shortdesc { A crab spider drops from the ceiling and attacks! }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 10 }
+  alignment { -100 }
+  gold { 150 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 14, 8, 74  }
+  move { 300 }
+  experience { 2097 }
+  damage { 1, 9, 1  }
+  affected { hide }
+  act { sentinel, aggressive }
+}
+
+19209
+{
+  name { The bandit }
+  namelist { bandit man }
+  shortdesc { A bandit is here, eyeing you suspiciously. }
+  longdesc {
+He has obviously made this room a hideout, and doesnt like you intruding.
+  }
+  race { human }
+  sex { male }
+  level { 30 }
+  alignment { -750 }
+  gold { 28 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.5 }
+  head { 40, 2 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  hp { 10, 8, 510  }
+  move { 300 }
+  experience { 9708 }
+  damage { 2, 4, 1  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+19210
+{
+  name { The bandit leader }
+  namelist { bandit leader man }
+  shortdesc { The bandit leader is here, giving you an icy glare. }
+  longdesc {
+She has the bandits under her control and will do anything to get you out
+of here.
+  }
+  race { human }
+  sex { female }
+  level { 40 }
+  alignment { -750 }
+  gold { 65 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 14, 8, 1110  }
+  move { 300 }
+  experience { 42090 }
+  damage { 3, 5, 3  }
+  act { sentinel, aggressive, stay-zone }
+}
+
+19211
+{
+  name { A wandering goblin }
+  namelist { goblin }
+  shortdesc { A goblin is here, wandering through the hallways.. }
+  longdesc {
+This is a goblin. He is quite happy wandering around,
+picking things up.
+  }
+  race { goblin }
+  level { 13 }
+  alignment { -500 }
+  gold { 5 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 8, 8, 160  }
+  move { 300 }
+  experience { 5100 }
+  damage { 2, 6, 1  }
+  act { scavenger, stay-zone }
+}
+
+19212
+{
+  name { Edgar }
+  namelist { edgar sword pupil }
+  shortdesc { Edgar the Sword pupil is here, looking quite lost.. }
+  longdesc {
+He looks confused.. and he is trying to figure out how to light his lantern
+  }
+  race { human }
+  level { 1 }
+  alignment { 0 }
+  gold { 1 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 1, 8, 200  }
+  move { 300 }
+  experience { 100 }
+  damage { 2, 8, 1  }
+  immune { charm }
+  act { stay-zone, wimpy }
+}
+19213
+{
+  name { Berk }
+  namelist { berk }
+  shortdesc { Berk, overworked servant of 'the thing upstairs', runs around here. }
+  longdesc {
+An oviform blue creature who speaks with a West Country accent, Berk is
+the steward or caretaker of the Castle Mistamere.  As such, Berk often
+goes about his duties with simple-minded glee, and enjoys cooking with
+ingredients such as mud, eyeballs, snakes, and worms.  Berk is often
+warned not to open the trap door by his friends, or forbidden by his
+master, but often does so nonetheless.
+  }
+  race { human }
+  sex { male }
+  level { 40 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 80, 3 }
+  arms { 50, 2 }
+  legs { 10, 5 }
+  feet { 10, 3 }
+  hp { 9, 8, 300  }
+  move { 300 }
+  experience { 44500 }
+  damage { 1, 5, 2  }
+  immune { charm }
+  act { stay-zone, sentinel }
+}
+19214
+{
+  name { Boni }
+  namelist { boni }
+  shortdesc { Boni, a disembodied human skull, sits on the floor chattering away. }
+  longdesc {
+Boni is a disembodied human skull, and Berk's closest friend.  Speaking
+with a stuffy upper-class accent, he is something of an intellectual,
+but has a tendency to complain or bore others. Boni dislikes to be moved
+from his favourite spot, an alcove in the wall near the trapdoor, and
+often fails to warn Berk about the various monsters that come from it.
+Although serious most of the time, he is given to childish excitements
+on par with those of Berk.
+  }
+  race { fish }
+  sex { male }
+  level { 40 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { -20, 5 }
+  hp { 9, 8, 260  }
+  move { 300 }
+  experience { 32500 }
+  damage { 1, 7, 3  }
+  immune { charm }
+  act { stay-zone, sentinel }
+}
+19215
+{
+  name { Drutt }
+  namelist { drutt }
+  shortdesc { Drutt, a spider-like creature, scuttles around here! }
+  longdesc {
+Berk's pet, resembling an oversized spider, who often causes trouble
+when chasing after worms and other invaders.
+  }
+  race { arachnid }
+  sex { female }
+  level { 40 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 40, 2 }
+  legs { 80, 1 }
+  hp { 9, 8, 300  }
+  move { 300 }
+  experience { 39500 }
+  damage { 2, 6, 3  }
+  immune { charm }
+  act { stay-zone, sentinel, aggressive }
+}
+19216
+{
+  name { Big Angry Red Thing }
+  namelist { big angry red thing }
+  shortdesc { A Big, Angry Red Thing roars at the world in general! }
+  longdesc {
+The Big, Angry Red Thing is a big, angry red thing...
+Nothing describes it better. Be careful!
+  }
+  race { slime }
+  sex { male }
+  level { 55 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.8 }
+  head { 0, 0 }
+  body { 0, 0 }
+  legs { 0, 0 }
+  hp { 9, 8, 1450  }
+  move { 300 }
+  experience { 61500 }
+  damage { 2, 7, 3  }
+  immune { charm }
+  act { stay-zone, sentinel, aggressive }
+}
+19217
+{
+  name { Rogg }
+  namelist { rogg }
+  shortdesc { Rogg, a purple slime monster slithers about here. }
+  longdesc {
+Rogg is a large creature with purple skin and tentacles.
+He looks very slimy. Yuck!
+  }
+  race { slime }
+  sex { male }
+  level { 50 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  legs { 0, 0 }
+  hp { 9, 8, 1000  }
+  move { 300 }
+  experience { 51500 }
+  damage { 2, 6, 3  }
+  immune { charm }
+  act { stay-zone, sentinel, aggressive }
+}
+19218
+{
+  name { Bubo }
+  namelist { bubo }
+  shortdesc { Bubo, the invisible destroyer slug is here! }
+  longdesc {
+Bubo is an invisible slug. You can't see him!
+  }
+  race { slime }
+  sex { male }
+  level { 45 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  legs { 0, 0 }
+  hp { 9, 8, 500  }
+  move { 300 }
+  experience { 41500 }
+  damage { 1, 11, 2  }
+  immune { charm }
+  affected { invisible }
+  act { stay-zone, sentinel, aggressive }
+}
+19219
+{
+  name { The Splund }
+  namelist { splund }
+  shortdesc { The Splund is here, ready to send you to sleep. }
+  longdesc {
+The Splund is a large, round, yellow monster that has the power
+to send it's enemies to sleep!
+  }
+  race { slime }
+  sex { male }
+  level { 40 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  legs { 0, 0 }
+  hp { 9, 8, 650  }
+  move { 300 }
+  experience { 31500 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  caster { 40 }
+  spells { sleep }
+  act { stay-zone, sentinel, aggressive }
+}
+

@@ -1,0 +1,1925 @@
+3702
+{
+  name { the giant snail }
+  namelist { giant snail }
+  shortdesc { There is a large snail here inching its way across the floor. }
+  longdesc {
+A large and ugly snail is slowly moving across the floor.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+  act { scavenger, nice-thief }
+}
+
+3703
+{
+  name { the giant lizard }
+  namelist { giant lizard }
+  shortdesc { There is a large lizard lying in the sun. }
+  longdesc {
+A large lizard is relaxing in the sun.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 6, 2  }
+  act { scavenger, nice-thief }
+}
+
+3704
+{
+  name { the radioactive rat }
+  namelist { radioactive rat }
+  shortdesc { You see a rat with glowing eyes moving in the shadows. }
+  longdesc {
+You can see a glowing rat moving around in the shadows.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -500 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 8, 1  }
+  act { scavenger, aggressive }
+}
+
+3705
+{
+  name { the green turtle }
+  namelist { green turtle }
+  shortdesc { There is a small turtle slowly moving across the floor. }
+  longdesc {
+A small green turtle is slowly crawling across the fllor.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 1000 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+  act { scavenger, nice-thief }
+}
+
+3706
+{
+  name { the baby eagle }
+  namelist { baby eagle }
+  shortdesc { There is a small baby eagle trying to fly here. }
+  longdesc {
+A baby eagle is trying to learn how to fly, without success.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 1000 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 8, 1  }
+  act { scavenger, nice-thief }
+}
+
+3707
+{
+  name { the antelope }
+  namelist { antelope }
+  shortdesc { There is a antelope grazing on the grass. }
+  longdesc {
+The antelope looks fast and peaceful. It's brown and looks cute.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 500 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 8, 1  }
+  act { scavenger, nice-thief }
+}
+
+3708
+{
+  name { the young mule }
+  namelist { young mule }
+  shortdesc { There is a mule wandering around the area. }
+  longdesc {
+The mule looks like it has a powerful hind kick. It's grey in color.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 300 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 10, 2  }
+  act { scavenger, nice-thief }
+}
+
+3709
+{
+  name { the baby otter }
+  namelist { baby otter }
+  shortdesc { A otter searches for her mother here. }
+  longdesc {
+The baby otter looks harmless and very cute.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 1000 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 4, 1  }
+  act { scavenger, nice-thief }
+}
+
+3710
+{
+  name { the flying ray }
+  namelist { flying ray }
+  shortdesc { There is a flying Mantra Ray looking for something to eat. }
+  longdesc {
+The ray flys though the air very quietly. You can see a nasty stinger.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -1000 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 1, 12, 3  }
+  act { scavenger, aggressive }
+}
+
+3711
+{
+  name { the stirge }
+  namelist { stirge }
+  shortdesc { A ugly looking bird is flying right at you! }
+  longdesc {
+The feathers of the stirge are rusty red, its eyes and feet are yellow.
+The dangling proboscis is pink at the tip, fading to gray at the base.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -750 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 10, 2  }
+  act { scavenger, aggressive }
+}
+
+3712
+{
+  name { the small wasp }
+  namelist { small wasp }
+  shortdesc { A wasp is buzzing around your head annoyingly. }
+  longdesc {
+The wasp looks like a normal wasp. Harmless.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 3, 1  }
+  act { scavenger, nice-thief }
+}
+
+3713
+{
+  name { the weasel }
+  namelist { weasel }
+  shortdesc { A weasel is running all over looking for bugs to eat. }
+  longdesc {
+A woodland creature that just wants dinner.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 6, 1  }
+  act { scavenger, nice-thief }
+}
+
+3714
+{
+  name { the atomic }
+  namelist { atomic }
+  shortdesc { A small sprite like creature is hiding in the shade. }
+  longdesc {
+It is a very thin and has long arms, legs, and fingers.
+The atomic's head and ears are long and narrow.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 6, 2  }
+  immune { charm }
+  act { scavenger, nice-thief, wimpy }
+}
+
+3715
+{
+  name { the magman }
+  namelist { magman }
+  shortdesc { A creature of intense heat is coming right for YOU! }
+  longdesc {
+The creature stands 3 feet tall. It is human shaped and glowing.
+Small puffs of flame can be seen bursting from its' body. It's
+hot near this thing!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 1949 }
+  damage { 2, 8, 4  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { sanctuary }
+  act { sentinel, scavenger, wimpy }
+}
+
+3716
+{
+  name { the mongolman }
+  namelist { mongolman }
+  shortdesc { A ugly man/animal creature can be seen lurking in the shadows. }
+  longdesc {
+A creature looks like a half man and half monster mix. It's ugly!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -360 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+3717
+{
+  name { the mudman }
+  namelist { mudman }
+  shortdesc { A creature that is made of mud is standing here. }
+  longdesc {
+The creature looks human but is made of mud.
+  }
+  race { troll }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 2, 8, 2  }
+  act { scavenger, nice-thief }
+}
+
+3718
+{
+  name { the monodrone }
+  namelist { monodrone }
+  shortdesc { A sphere like creature is standing here. }
+  longdesc {
+The creature has one eye, two spider like hands, and a pair of wings.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  act { scavenger, nice-thief, wimpy }
+}
+
+3719
+{
+  name { the duodrone }
+  namelist { duodrone }
+  shortdesc { A blocky, rectangular creature is standing here. }
+  longdesc {
+The creature is rectangular, with one eye, 2 legs, 2 arm, and a pair of wings.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { scavenger, nice-thief, wimpy }
+}
+
+3720
+{
+  name { the tridrone }
+  namelist { tridrone }
+  shortdesc { A pyramid type of creature is standing here waiting for something. }
+  longdesc {
+The creature is pyramid in shape. It has 3 eyes, 3 arms, and 3 legs.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 879 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  act { scavenger, nice-thief, wimpy }
+}
+
+3721
+{
+  name { the quadrone }
+  namelist { quadrone }
+  shortdesc { A box like creature with wings is quietly flying around here. }
+  longdesc {
+The creature is cube shaped with 2 arms, 2 legs, and a big set of wings.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 903 }
+  damage { 3, 8, 3  }
+  immune { charm }
+  act { scavenger, nice-thief, wimpy }
+}
+
+3722
+{
+  name { the radioactive mutant }
+  namelist { radioactive mutant }
+  shortdesc { A creature that's glowing bright green is standing here. }
+  longdesc {
+A zombie like creature that is glowing. It looks vaguely human, it's ugly
+and looks like it's in pain.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { -1000 }
+  gold { 500 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 5377 }
+  damage { 3, 10, 5  }
+  affected { detect-invisible, sanctuary }
+  act { scavenger, aggressive }
+}
+
+3723
+{
+  name { the great quasit }
+  namelist { great quasit }
+  shortdesc { A huge quasit stands before you, eyeing your flesh hungrily }
+  longdesc {
+It looks like the Rancor beast from Return of the Jedi, only meaner
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1523 }
+  damage { 2, 6, 5  }
+  affected { invisible, detect-invisible }
+  act { scavenger, aggressive }
+}
+
+3724
+{
+  name { the roc }
+  namelist { roc }
+  shortdesc { A very large flying bird. It seems to be hunting for it's dinner. }
+  longdesc {
+The bird kinda looks like a eagle but much larger!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -300 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1432 }
+  damage { 3, 6, 3  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+3725
+{
+  name { the rust monster }
+  namelist { rust monster }
+  shortdesc { A ugly creature that is moving slowly, sniffing the air around it. }
+  longdesc {
+The creature looks like a big ugly bug with 2 large antenne.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2201 }
+  damage { 3, 6, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+3726
+{
+  name { the roper }
+  namelist { roper }
+  shortdesc { A blob of flesh with many tentacles. }
+  longdesc {
+The thing is made of flesh colored material. It smells awful.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -500 }
+  gold { 175 }
+  hit_bonus { 9 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2357 }
+  damage { 2, 6, 1  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+3727
+{
+  name { the baby salamandar }
+  namelist { baby salamandar }
+  shortdesc { A small creature thats surrounded by flames. }
+  longdesc {
+The small creature looks like a giant lizard with flames coming from its skin.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -750 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1523 }
+  damage { 2, 6, 3  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { scavenger, aggressive, wimpy }
+}
+
+3728
+{
+  name { the pentradrone }
+  namelist { pentradrone }
+  shortdesc { A creature with five eyes, arms, and sides. }
+  longdesc {
+The creature looks like a 5 sided dice, if there was a thing. It looks
+big and nasty.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1432 }
+  damage { 2, 4, 3  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+3729
+{
+  name { the decaton }
+  namelist { decaton }
+  shortdesc { A creature with 10 sets of eyes, arms, legs, and sides. }
+  longdesc {
+This creature looks like a 10 sided dice. No duh!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2279 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+3730
+{
+  name { the weird water elemental }
+  namelist { weird water elemental }
+  shortdesc { A weird creature thats shaped like a cloud with a chicken legs is floating here. }
+  longdesc {
+The creature looks like a cloud with water squirting out of it. It is
+standing on 2 legs that look like chicken legs.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3452 }
+  damage { 4, 5, 5  }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+3731
+{
+  name { the strange fire elemental }
+  namelist { strange fire elemental }
+  shortdesc { A half fire/half fire creature is standing here leering at you. }
+  longdesc {
+The creature's eyes are glowing black, and the body is scarlet and orange,
+crimson and purple-blue, yellow and orange. These colors are everchanging.
+You see small flames burst from its' body from time to time.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4341 }
+  damage { 5, 5, 4  }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+3732
+{
+  name { the bizarre air elemental }
+  namelist { bizarre air elemental }
+  shortdesc { A cloud with tentacles and dripping water is floating around the water. }
+  longdesc {
+This creature looks like a fog like cloud with 3 red glowing eyes.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4341 }
+  damage { 3, 4, 2  }
+  resistant { fire, cold }
+  affected { invisible, detect-invisible }
+  act { sentinel, aggressive }
+}
+
+3733
+{
+  name { the soil beast }
+  namelist { soil beast }
+  shortdesc { A hedgehog like creature is standing here. }
+  longdesc {
+This thing looks like a yellowish hedgehog but bigger. It's head is Skull
+like.. eek!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3534 }
+  damage { 5, 5, 2  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+3734
+{
+  name { the ice monster }
+  namelist { ice monster }
+  shortdesc { A man-like creature made of ice is standing here. }
+  longdesc {
+This humanoid is vaguely human at best. It's cold alright :)
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4094 }
+  damage { 3, 6, 10  }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, scavenger }
+}
+
+3735
+{
+  name { the smoke monster }
+  namelist { smoke monster }
+  shortdesc { A cloud of smoke is floating around the room. }
+  longdesc {
+You can just make out a creature in the smoke! There are two eyes
+and a vague mouth.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 7051 }
+  damage { 3, 6, 5  }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, scavenger, aggressive }
+}
+
+3736
+{
+  name { the magma monster }
+  namelist { magma monster }
+  shortdesc { A half humaniod/ half magma creature is standing here. }
+  longdesc {
+The creature is half humanoid from the waist up. The bottom half
+is pure magma. It's hot around this creature.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4094 }
+  damage { 3, 6, 1  }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, scavenger, aggressive }
+}
+
+3737
+{
+  name { the ooze monster }
+  namelist { ooze monster }
+  shortdesc { A vaguely looking mud creature is standing here. }
+  longdesc {
+This creature is a liquid mass of dark writhing tendrils. It's looks
+like a mudman.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { 0 }
+  gold { 900 }
+  hit_bonus { 14 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 9146 }
+  damage { 4, 6, 5  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, scavenger, wimpy }
+}
+
+3738
+{
+  name { the opinicus }
+  namelist { opinicus }
+  shortdesc { A creature that's part monkey, camel, lion, and eagle is standing here. }
+  longdesc {
+This creature is the best of monkeys, camels, lions, and eagles. Weird
+to say the least.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 1000 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2570 }
+  damage { 3, 6, 1  }
+  immune { charm }
+  affected { invisible, flying }
+  act { sentinel, scavenger, wimpy }
+}
+
+3739
+{
+  name { the shade mage }
+  namelist { shade mage }
+  shortdesc { A mage cloaked in shadows is standing here. }
+  longdesc {
+The mage looks gloomy and is brooding. He's wearing dark clothes, his
+skin and eyes are dusky and grey.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { -600 }
+  gold { 500 }
+  hit_bonus { 13 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4447 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  resistant { electricity }
+  affected { invisible, detect-invisible, sneak }
+  act { scavenger, wimpy }
+}
+
+3740
+{
+  name { the shade thief }
+  namelist { shade thief }
+  shortdesc { A thief cloaked in shadows is standing here. }
+  longdesc {
+The thief looks very unhappy. But sneaky! He's wearing pitch black
+clothes. His eyes and skin are dusky and grey.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { -1000 }
+  gold { 2200 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 20764 }
+  damage { 2, 6, 5  }
+  immune { charm }
+  resistant { electricity }
+  affected { sneak, hide }
+  act { scavenger, wimpy }
+}
+
+3741
+{
+  name { the shade warrior }
+  namelist { shade warrior }
+  shortdesc { A fighter in platemail is cloaked in shadows is relaxing here. }
+  longdesc {
+The fighter looks grim and unhuman. He's wearing black platemail.
+He's carrying a large two-handed sword. His eyes and skin are dusky
+and grey.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { -500 }
+  gold { 1400 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 13062 }
+  damage { 2, 10, 1  }
+  immune { charm }
+  resistant { electricity }
+  act { scavenger, wimpy }
+}
+
+3742
+{
+  name { the shade cleric }
+  namelist { shade cleric }
+  shortdesc { A cleric in platemail is cloaked in shadows is standing here. }
+  longdesc {
+The cleric looks very sad. He's wearing dark blue platemail.
+She's carrying a large morningstar. Her eyes and skin are
+dusky and grey.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { -400 }
+  gold { 900 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 11052 }
+  damage { 3, 6, 6  }
+  immune { charm }
+  resistant { fire, electricity }
+  affected { sanctuary }
+  act { scavenger, wimpy }
+}
+
+3743
+{
+  name { the red guardian }
+  namelist { red guardian }
+  shortdesc { A man-like creature is standing guard in front of the door. }
+  longdesc {
+The guardian is wearing platemail and wielding a BIG AX! You
+can just see his eyes. They look dull and lifeless.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 37159 }
+  damage { 5, 6, 5  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, scavenger }
+}
+
+3744
+{
+  name { the thri-kreen }
+  namelist { thri-kreen }
+  shortdesc { A insect warrior is standing here, looking for humans to kill. }
+  longdesc {
+A insect but bigger! It's carrying weird weapons.. It looks mean!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1484 }
+  damage { 4, 4, 4  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+3745
+{
+  name { the Orge lord }
+  namelist { Orge lord }
+  shortdesc { The Lord of Orges is sitting on his throne. He looks quick and mean. }
+  longdesc {
+The Orge Lord has platemail armor, and is using weird weapons. They are
+large glowing weapons made from bone!
+  }
+  race { enfan }
+  height { 160 }
+  weight { 10000 }
+  level { 416 }
+  alignment { -1000 }
+  gold { 32500 }
+  hit_bonus { 20 }
+  dam_bonus { 17 }
+  attacks_per_round { 1 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 416, 7652  }
+  move { 300 }
+  experience { 436269 }
+  damage { 3, 10, 10  }
+  immune { charm }
+  resistant { fire, electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, wimpy }
+}
+
+3746
+{
+  name { the alu-demon }
+  namelist { alu-demon }
+  shortdesc { A beautiful demon is standing here. She wants to be your friend. }
+  longdesc {
+This is a woman with horns on her head. She has small wings on her
+back.
+  }
+  race { devil }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1510 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  affected { invisible }
+  act { scavenger, wimpy }
+}
+
+3747
+{
+  name { the babau }
+  namelist { babau }
+  shortdesc { A tall skeleton in form-fitting black leather is standing here. }
+  longdesc {
+This is a skeleton like demon. Its' arms, legs, and head are hill
+giant sized.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2628 }
+  damage { 3, 5, 7  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+3748
+{
+  name { the bar-lgura }
+  namelist { bar-lgura }
+  shortdesc { A huge orangutan with gruesome visage and tushes is standing here. }
+  longdesc {
+It's a demon not an animal eek..
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2609 }
+  damage { 3, 6, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+3749
+{
+  name { the chasme }
+  namelist { chasme }
+  shortdesc { A cross between a fly and a human is standing here. }
+  longdesc {
+This ugly creature was 4 fly-like hind legs and grasps with its
+forelimbs, which are equipped with strong, chitinous, pincer
+fingers.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 2720 }
+  damage { 3, 4, 3  }
+  immune { charm }
+  affected { sanctuary }
+  act { scavenger, wimpy }
+}
+
+3750
+{
+  name { the su-monster }
+  namelist { su-monster }
+  shortdesc { A wierd monkey like creature is wandering around aimlessly. }
+  longdesc {
+The creature has fur that's dirty grey. The creature's tail and face
+are black. It's paws are bloodly red.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -500 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1432 }
+  damage { 4, 4, 8  }
+  affected { detect-invisible }
+  act { scavenger, aggressive }
+}
+
+3751
+{
+  name { the wind creature }
+  namelist { wind creature }
+  shortdesc { The wind has picked up!  The wind is getting stronger! }
+  longdesc {
+The wind creature can not be seen only felt! There is something here!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1406 }
+  damage { 3, 6, 1  }
+  immune { charm }
+  affected { invisible, flying }
+  act { wimpy }
+}
+
+3752
+{
+  name { the wyvern }
+  namelist { wyvern }
+  shortdesc { A small flying dragon with a stinger is dive bombing you! }
+  longdesc {
+The creature is dark brown. It's eyes are orange. It has a big nasty
+stinger that its trys to impale you with!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -400 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2279 }
+  damage { 2, 8, 6  }
+  affected { flying }
+  act { aggressive }
+}
+
+3753
+{
+  name { the giant yeti }
+  namelist { giant yeti }
+  shortdesc { A large furry creature is reaching for you!!! }
+  longdesc {
+This creature is huge over 300 pounds at least. It's covered in white fur.
+Its' eyes are pale blue. Its' claws and teeth are ivory white.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -750 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1432 }
+  damage { 2, 6, 1  }
+  affected { detect-invisible }
+  act { scavenger, aggressive }
+}
+
+3754
+{
+  name { the cat people guardsman }
+  namelist { cat people guardsman }
+  shortdesc { A large cat humanoid is standing here guarding its post. }
+  longdesc {
+The guard has chainmail armor on. It is holding a longsword. It looks
+mean and very nasty!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { -1000 }
+  gold { 900 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 10064 }
+  damage { 2, 8, 1  }
+  resistant { electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { scavenger, aggressive }
+}
+
+3755
+{
+  name { the cat people guardsman elite }
+  namelist { cat people guardsman elite }
+  shortdesc { A large cat humanoid is standing here ready for battle! }
+  longdesc {
+The elite guard has platemail armor on. It's holding a greatsword!
+It looks very fast and nasty!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 216 }
+  alignment { -1000 }
+  gold { 7000 }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 216, 1388  }
+  move { 300 }
+  experience { 171343 }
+  damage { 3, 8, 5  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, aggressive }
+}
+
+3756
+{
+  name { the cat person }
+  namelist { cat person }
+  shortdesc { A cat humanoid is busy working here. }
+  longdesc {
+A plain cat humanoid, nothing special about it at all.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -500 }
+  gold { 150 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1523 }
+  damage { 2, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { sentinel, scavenger, wimpy }
+}
+
+3757
+{
+  name { the cat cook }
+  namelist { cat cook }
+  shortdesc { A cat humanoid is busy cooking over a stove. }
+  longdesc {
+The cat has an apron on. It has a big meat cleaver in one paw.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -500 }
+  gold { 175 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2221 }
+  damage { 2, 8, 1  }
+  affected { infravision }
+  act { sentinel, scavenger }
+}
+
+3758
+{
+  name { the king of the cat people }
+  namelist { king of the cat people }
+  shortdesc { The king of the cat people sits on his huge throne. He sees you and laughs! }
+  longdesc {
+The king of the cats is wearing all platemail. He is holding a large weapon!
+This cat looks very fast in his armor and very very tough!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 552 }
+  alignment { -1000 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 552, 13129  }
+  move { 300 }
+  experience { 557455 }
+  damage { 6, 8, 1  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, wimpy }
+}
+
+3759
+{
+  name { the female cat person }
+  namelist { female cat person }
+  shortdesc { This cat humanoid is wearing silks and pretty clothing. She lying on the bed. }
+  longdesc {
+This creature is very beautiful for a cat. No weapons no nothing!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1510 }
+  damage { 2, 8, 1  }
+  affected { infravision }
+  act { sentinel }
+}
+
+3760
+{
+  name { the large ogre }
+  namelist { large orge }
+  shortdesc { A dirty and very ugly oversized Ogre is standing here making a mess! }
+  longdesc {
+Dirty is not the work for this creature! Just wearing some animal skins
+and faking work is all its going! This orge looks bigger than what you are used
+to seeing!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2201 }
+  damage { 1, 10, 1  }
+  immune { charm }
+  affected { infravision }
+  act { sentinel, wimpy }
+}
+
+3761
+{
+  name { the orge guard }
+  namelist { orge guard }
+  shortdesc { A large orge wearing chainmail is standing here guarding the Ogre Lair. }
+  longdesc {
+This Orge looks smarter and larger than others you have seen!
+Its wearing all chainmail armor and using a large 2-handed magical bone weapon!
+  }
+  race { ogre }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { -1000 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 168, 636  }
+  move { 300 }
+  experience { 33843 }
+  damage { 2, 10, 1  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+3762
+{
+  name { the orge cook }
+  namelist { orge cook }
+  shortdesc { A large orge is standing here cooking who-knows-what! }
+  longdesc {
+The cook is not clean and is a mess! She has a large spoon in her hand!
+  }
+  race { ogre }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { -1000 }
+  gold { 500 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 3883 }
+  damage { 1, 10, 1  }
+  immune { charm }
+  affected { infravision }
+  act { sentinel, wimpy }
+}
+
+3763
+{
+  name { the orge queen }
+  namelist { orge queen }
+  shortdesc { A Orge wearing fairly clean clothes is sitting here on a throne. }
+  longdesc {
+The queen looks as regal as a orge can :-) She has a large sceptre in one hand!
+  }
+  race { ogre }
+  height { 160 }
+  weight { 10000 }
+  level { 336 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 336, 4768  }
+  move { 300 }
+  experience { 357707 }
+  damage { 2, 8, 5  }
+  immune { charm }
+  resistant { fire, electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel, wimpy }
+}
+

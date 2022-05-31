@@ -1,0 +1,2029 @@
+25000
+{
+  name { The Demi-Lich }
+  namelist { demi lich }
+  shortdesc { The Demi-Lich leaps from his throne as you enter the room, his evil
+  eyes fixed dead upon you! }
+
+  longdesc {
+The Demi-Lich is, perhaps, the single most powerful undead creature known
+to exist.  Greatly resembling a wight or mummy, and being gaunt and skeletal
+in form. It is, nevertheless a being of forboding might. Its eye sockets
+are black and empty, save for the fierce pinpoints of light which serve as
+eyes. An aura of cold and darkness radiates from it, which makes it an
+ominous and fearsome sight. Despite the wasted, rotten flesh it is garbed
+in the rich clothes of nobility.
+  }
+  race { undead }
+  height { 200 }
+  level { 532 }
+  alignment { -1000 }
+  gold { 120750  }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  strength { 30 }
+  dexterity { 25 }
+  hp { 9, 8, 41100  }
+  move { 300 }
+  experience { 2747630 }
+  damage { 2, 40, 45  }
+  caster { 40 }
+  spells { disruptor, mage fire, dispel magic }
+  mana { 10000 }
+  immune { charm }
+  resist_fire {200}
+  resist_magic {200}
+  affected { true-sight, detect-invisible, sanctuary, infravision, nofear }
+  act { special, sentinel, aggressive }
+}
+
+25001
+{
+  name { Keftab, the Ancient One }
+  namelist { keftab }
+  shortdesc { Keftab, the Ancient One stands here, calmly searching ceaslessly. }
+  longdesc {
+A writhing, quivering mass of horrific, unspeakable flesh-like material, this
+ancient one stares coldly about through its many multifacted eyes.
+viscious, vile smelling liquid seeps through its flesh in many places,
+originating from the ghastly, crater like pores which pepper his body.
+Disgustingly, large portions of its flesh seem to bubble with an alien
+life of their own. The surface of its body, where not oozing, is covered
+with mottled, grey, mossy protrusions, like some strange malignant
+blemishes. It emits low, gutteral mewlings from its fanged, quivering
+oriface.  You quickly decide that this is a battle you should probably
+not partake in.
+  }
+  race { undead }
+  height { 200 }
+  level { 520 }
+  alignment { -1000 }
+  gold { 90000  }
+  hit_bonus { 35 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  caster { 40 }
+  power { 3000 }
+  mana { 3000 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 5, 8, 30000  }
+  move { 300 }
+  experience { 899113 }
+  damage { 2, 35, 25  }
+  spells { disruptor, mage fire, dispel magic }
+  immune { fire, cold, pierce, sleep, charm }
+  resistant { electricity, energy, blunt }
+  affected { detect-invisible, sanctuary, infravision, nofear }
+  act { sentinel, npc, aggressive }
+}
+
+25002
+{
+  name { A Crimson Death }
+  namelist { death crimson }
+  shortdesc { A crimson death materializes from a dense patch of red mist. }
+  longdesc {
+Its skeletal form is garbed in a robe of crimson, the blood of its many
+victims stain the robe. Its skeletal figure resembles that of the angel of
+death. Its eyes glow with a furious fire to kill.
+  }
+  race { undead }
+  height { 200 }
+  level { 326 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -90, 14 }
+  body { -90, 14 }
+  arms { -100, 14 }
+  legs { -90, 11 }
+  feet { -90, 11 }
+  hp { 6, 8, 5049  }
+  move { 300 }
+  experience { 407916 }
+  damage { 3, 12, 12  }
+  immune { charm }
+  affected { detect-invisible, sanctuary, sneak }
+  act { special, sentinel, aggressive }
+}
+
+25003
+{
+  name { A Mist Daemon }
+  world_limit { 2 }
+  namelist { mist daemon }
+  shortdesc { A mist daemon stands here, in a cloud of grey mist. }
+  longdesc {
+A large demon like creature hovers abover you, in a cloud of grey mist.
+Its winged form stares down at you in utter hatred.
+  }
+  race { undead }
+  level { 67 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { -80, 0 }
+  body { -80, 0 }
+  arms { -80, 0 }
+  legs { -80, 0 }
+  feet { -80, 0 }
+  hp { 8, 12, 849  }
+  move { 300 }
+  experience { 14050 }
+  damage { 2, 12, 10  }
+  affected { sanctuary}
+  act { special, sentinel, aggressive, nosummon  }
+}
+
+25004
+{
+  name { a Black Slayer }
+  namelist { black slayer }
+  shortdesc { A huge, shadowy figure materializes from the shadows around you. }
+  longdesc {
+The black slayer is a shadowy figure, about 7 feet in height. Garbed in
+a heavey, black cloak, in his right hand, he wields a wicked dagger.
+  }
+  race { undead }
+  height { 200 }
+  level { 301 }
+  alignment { -1000 }
+  gold { 22500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 1.2 }
+  head { -50, 9 }
+  body { -50, 9 }
+  arms { -50, 9 }
+  legs { -50, 9 }
+  feet { -50, 9 }
+  hp { 5, 8, 4020  }
+  move { 300 }
+  experience { 280060 }
+  damage { 2, 8, 8  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, aggressive }
+}
+
+25005
+{
+  name { a Lost Soul }
+  namelist { lost soul }
+  shortdesc { A ghostly apparition floats here, staring at you in utter hatred. }
+  longdesc {
+The lost soul is a ghostly apparition, seeking revenge on the living.
+  }
+  race { undead }
+  height { 170 }
+  level { 41 }
+  alignment { -1000 }
+  hit_bonus { 3 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { -30, 9 }
+  body { -30, 9 }
+  arms { -30, 9 }
+  legs { -20, 8 }
+  feet { -20, 7 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 4944 }
+  gold { 1000 }
+  damage { 2, 7, 4  }
+  affected { detect-invisible, infravision }
+  act { sentinel, aggressive }
+}
+
+25006
+{
+  name { a Storm Giant }
+  namelist { storm giant }
+  shortdesc { A storm giant stands here, angered by your presence. }
+  longdesc {
+This huge creature is approximatly 8 feet tall, He grasps a huge bolt
+of lightning it his right hand.... He doesnt look happy to see you.
+  }
+  race { giant }
+  height { 400 }
+  level { 274 }
+  alignment { -1000 }
+  gold { 13700  }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 1.7 }
+  head { -55, 10 }
+  body { -55, 10 }
+  arms { -60, 10 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  hp { 165, 8, 2250  }
+  move { 300 }
+  experience { 293218 }
+  damage { 4, 8, 8  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, aggressive }
+}
+
+25007
+{
+  name { a White Gold Manticore }
+  namelist { white gold manticore }
+  shortdesc { A statuesque manticore stands here, crafted entirely of white gold. }
+  longdesc {
+The statue is beautifully crafted, the whole statue is formed entirely
+of white gold. Its eyes seem to watch your every move.. they almost
+appear is if they were alive.
+  }
+  race { none }
+  height { 160 }
+  level { 258 }
+  alignment { 0 }
+  gold { 22700  }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 1.5 }
+  head { -70, 15 }
+  body { -70, 15 }
+  arms { -80, 15 }
+  legs { -70, 15 }
+  feet { -70, 15 }
+  hp { 5, 8, 2650  }
+  move { 300 }
+  experience { 272211 }
+  damage { 3, 9, 6  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, aggressive }
+}
+
+25008
+{
+  name { an Efreet }
+  namelist { flaming efreet }
+  shortdesc { A huge flaming figure stands here, with a glint of evil in his eyes. }
+  longdesc {
+The creature is formed entirely of flames. The creature gives off an
+intense heat.
+  }
+  race { none }
+  height { 300 }
+  level { 275 }
+  alignment { -1000 }
+  gold { 15000  }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -70, 5 }
+  body { -70, 5 }
+  arms { -70, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  hp { 550, 8, 550  }
+  move { 300 }
+  experience { 302196 }
+  damage { 3, 7, 8  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary }
+  act { sentinel, aggressive }
+}
+
+25009
+{
+  name { the Hydra }
+  namelist { hydra }
+  shortdesc { A huge eight headed hydra is sleeping here }
+  longdesc {
+The huge, scaled creature  has eight heads... each capable of breathing
+a dangerous stream of fire.
+  }
+  race { herbiv }
+  height { 400 }
+  level { 505 }
+  alignment { -1000 }
+  gold { 13500 }
+  hit_bonus { 35 }
+  dam_bonus { 35 }
+  attacks_per_round { 4 }
+  head { -50, 8 }
+  body { -50, 8 }
+  arms { -50, 8 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  hp { 745, 8, 17450  }
+  move { 300 }
+  experience { 599113 }
+  damage { 4, 40, 5  }
+  immune { charm }
+  affected { sanctuary }
+  act { special, sentinel, aggressive }
+}
+
+25010
+{
+  name { the Kraken }
+  namelist { kraken }
+  shortdesc { A large squid-like creature erputs from the waters beneath you! }
+  longdesc {
+This large creature is a close relative of the squid but a much larger
+size. its huge tentacles grasp something... though you can not make out
+what the object is.
+  }
+  race { herbiv }
+  height { 500 }
+  level { 767 }
+  alignment { -1000 }
+  gold { 14700  }
+  hit_bonus { 40 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  head { -60, 8 }
+  body { -60, 8 }
+  arms { -70, 8 }
+  legs { -50, 3 }
+  feet { -50, 3 }
+  hp { 9, 8, 25000  }
+  move { 300 }
+  experience { 296576 }
+  damage { 4, 40, 5  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, aggressive }
+}
+
+25011
+{
+  name { the Treant }
+  namelist { treant tree }
+  shortdesc { A large tree-like creature reaches out for you with its many limbs. }
+  longdesc {
+It is a rather large creature resembling a tree. At the base of the trunk
+is a large opening that looks very much like a mouth.
+  }
+  race { tree }
+  height { 160 }
+  level { 226 }
+  alignment { -1000 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 1.1 }
+  head { -40, 12 }
+  body { -70, 12 }
+  arms { -50, 12 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  hp { 5, 8, 2000  }
+  move { 300 }
+  experience { 207922 }
+  damage { 3, 10, 5  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, aggressive }
+}
+
+25012
+{
+  name { a Githyanki }
+  namelist { githyanki }
+  shortdesc { A disgusting creature of etheral nature stands here, its body completely
+  wraped in bandages.. }
+  longdesc {
+This man sized creature has bandages wrapped all about its body. Its eyes
+glow with a brilliant red fire, in its right hand he grasps a an extremely
+sharp blade of magical nature.
+  }
+  race { undead }
+  height { 170 }
+  level { 260 }
+  alignment { -1000 }
+  gold { 7700  }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  head { -55, 6 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -20, 5 }
+  feet { -20, 5 }
+  hp { 6, 48, 2560  }
+  move { 300 }
+  experience { 218709 }
+  damage { 3, 7, 5  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+
+25013
+{
+  name { Kalas }
+  namelist { kalas }
+  shortdesc { Kalas, the guardian and knight of the castle stands here preparing himself for
+  battle. }
+  longdesc {
+He is a large, muscular man of undead nature. He is clad in rather magical
+looking suit of armor, his sword burning fiercly.
+  }
+  race { human }
+  height { 200 }
+  level { 535 }
+  alignment { -1000 }
+  gold { 150000 }
+  hit_bonus { 40 }
+  dam_bonus { 31 }
+  attacks_per_round { 3.5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  hp { 50, 18, 42151  }
+  move { 300 }
+  experience { 3922508 }
+  damage { 4, 20, 5  }
+  immune { charm }
+  resistant { fire }
+  resist_magic {100}
+  resist_fire {200}
+  affected { true-sight, sanctuary }
+  act { aggressive, special }
+  caster { 80 }
+  spells { fireball, mage fire, dispel magic }
+  mana { 10000 }
+}
+
+25014
+{
+  name { the Death knight }
+  namelist { death knight }
+  shortdesc { The death knight stands here, preparing to do you in. }
+  longdesc {
+This creature is the result of a powerful mage animating the dead remains
+of a once mighty warrior. Its eyes are fixed coldly upon you, unsheathing
+its sword, he charges for battle.
+  }
+  race { undead }
+  height { 200 }
+  level { 288 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 3 }
+  head { -50, 9 }
+  body { -50, 9 }
+  arms { -60, 10 }
+  legs { -50, 8 }
+  feet { -50, 8 }
+  hp { 12, 8, 3500  }
+  move { 300 }
+  experience { 305435 }
+  damage { 3, 9, 9  }
+  immune { charm }
+  affected { sanctuary }
+  act { special, sentinel, aggressive }
+}
+
+25015
+{
+  name { the Neo-Otyugh }
+  namelist { Neo Otyugh }
+  shortdesc { A large, disgusting, vile creature stands here, smelling putrid. }
+  longdesc {
+This creature is covered with slime like substance, many tentacles protrude
+from its disgusting body.
+  }
+  race { vegman }
+  height { 200 }
+  level { 330 }
+  alignment { -1000 }
+  gold { 18000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 0.5 }
+  head { -40, 8 }
+  body { -40, 8 }
+  arms { -60, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  hp { 950, 8, 950  }
+  move { 300 }
+  experience { 372912 }
+  damage { 3, 8, 7  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, aggressive }
+}
+
+25016
+{
+  name { a Shadow Daemon }
+  namelist { shadow daemon }
+  shortdesc { A shadowy figure stands here, looking you over with greed. }
+  longdesc {
+This creature has almost no form, it looks like some sort of shadow with
+wings.
+  }
+  race { undead }
+  height { 140 }
+  level { 40 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { -20, 4 }
+  body { -20, 4 }
+  arms { -20, 4 }
+  legs { -20, 4 }
+  feet { -20, 4 }
+  hp { 15, 8, 150  }
+  move { 300 }
+  experience { 4818 }
+  damage { 2, 6, 7  }
+  affected { detect-invisible }
+  act { aggressive }
+}
+
+25017
+{
+  name { the Gatekeeper }
+  namelist { gatekeeper gate keeper }
+  shortdesc { A huge warrior stands here guarding the portal beyond. }
+  longdesc {
+He is a huge man, his strong, muscular body stands about 8 feet tall.
+He guards the portal beyond him angrily.
+  }
+  race { human }
+  height { 300 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 1.2 }
+  head { -70, 4 }
+  body { -70, 4 }
+  arms { -70, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  hp { 935, 8, 935  }
+  move { 300 }
+  experience { 376755 }
+  damage { 2, 8, 9  }
+  immune { charm }
+  affected { sanctuary }
+  act { special, sentinel }
+}
+
+25100
+{
+  name { the Paladin Guardsman }
+  namelist { paladin guardsman }
+  shortdesc { A Paladin guardsman stands here, silently standing watch. }
+  longdesc {
+   He looks very skilled in combat, and is clad heavy, metal armor.
+Strapped to his right arm is a heavy, golden shield with the insignia
+of the guild of paladins engraved into it.
+  }
+  race { human }
+  level { 235 }
+  alignment { 1000 }
+  gold { 22300  }
+  hit_bonus { 20 }
+  dam_bonus { 11 }
+  attacks_per_round { 1.2 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 400, 8, 600  }
+  move { 300 }
+  experience { 450000 }
+  damage { 4, 6, 17  }
+  immune { charm }
+  affected { sanctuary}
+  act { special, sentinel, nosummon }
+}
+
+25101
+{
+  name { the Grand Knight of Paladins }
+  namelist { grand knight paladin }
+  shortdesc { The Grand Knight of Paladins rests here, welcoming you to his guild. }
+  longdesc {
+   He is huge warrior, clad in very magical armor, he rests here,
+silently observing you.
+  }
+  race { human }
+  height { 200 }
+  level { 535 }
+  alignment { 1000 }
+  gold { 150000 }
+  hit_bonus { 35 }
+  dam_bonus { 40 }
+  attacks_per_round { 3 }
+  caster { 70 }
+  mana { 5000 }
+  power { 5000 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  dexterity { 25 }
+  hp { 50, 18, 28150  }
+  move { 300 }
+  experience { 537290 }
+  damage { 5, 40, 8  }
+  spells { disruptor, dispel magic, harm }
+  immune { charm }
+  affected { true-sight, sanctuary }
+  act { special, sentinel, healer }
+}
+
+25126
+{
+  name { Vascar the Guardian }
+  namelist { Vascar }
+  shortdesc { Vascar, guardian of the enchanted realm stands here. }
+  longdesc {
+   He is a rather tall mage with long, flowing black hair that cascades
+down the shoulders and back of his black robe. His silver eyes seem to hold
+a power only known to him.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 416 }
+  alignment { 1000 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 786, 18194  }
+  move { 300 }
+  experience { 797782 }
+  damage { 2, 30, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25127
+{
+  name { Ralthar the Guardian }
+  namelist { Ralthar }
+  shortdesc { Ralthar, guardian of the Temple of Lucenia stands here. }
+  longdesc {
+   He is a rather large, well built cleric. His strong arms and
+broad shoulders clearly tell you that this man would die to protect
+this temple.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 417 }
+  alignment { 1000 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 717, 17182  }
+  move { 300 }
+  experience { 772686 }
+  damage { 2, 10, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25128
+{
+  name { the Draco }
+  namelist { Draco }
+  shortdesc { A large winged beast with the body of a human and the head of a dragon stands
+  here }
+  longdesc {
+   This large dragon-like creature seems to be the cross between a dragon
+and a man. the razor sharp teeth in the mouth of the beast strikes fear into
+you at the very thought of the damage they are capable of.
+  }
+  race { dragon }
+  height { 160 }
+  weight { 10000 }
+  level { 487 }
+  alignment { 0 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 787, 18209  }
+  move { 300 }
+  experience { 804195 }
+  damage { 2, 9, 3  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25129
+{
+  name { Tashir the Dark Assassin }
+  namelist { Tashir }
+  shortdesc { Tashir, the dark assassin stands here, ready for battle. }
+  longdesc {
+   This man is about 5 feet tall, and his face is covered by a black hood
+over his head. In his right hand is a dagger with a strange blade.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 740 }
+  alignment { -1000 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 740, 17519  }
+  move { 300 }
+  experience { 783027 }
+  damage { 4, 4, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25130
+{
+  name { the Balrog-Dragon }
+  namelist { Balrog-Dragon }
+  shortdesc { A Balrog dragon stands here, eyeing you hungrily. }
+  longdesc {
+   This horrible creature stands about 8 feet tall and looks like the
+cross between a balrog and a dragon. Although is looks quite mean, from
+what you can tell, it has no breath ability.
+  }
+  race { dragon }
+  height { 160 }
+  weight { 10000 }
+  level { 336 }
+  alignment { -1000 }
+  gold { 2500  }
+  hit_bonus { 27 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 4, 336, 4768  }
+  move { 300 }
+  experience { 446356 }
+  damage { 2, 20, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { aggressive, stay-zone }
+}
+
+25131
+{
+  name { a Balrog }
+  namelist { Balrog }
+  shortdesc { A large demonic looking balrog stand here. }
+  longdesc {
+   It is a rather tough looking demon, looking closely at it
+reveals its sharp claws and you decide that its not a good idea to
+upset it.
+  }
+  race { dragon }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { -1000 }
+  gold { 4000  }
+  hit_bonus { 25 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 280, 2640  }
+  move { 300 }
+  experience { 279676 }
+  damage { 3, 6, 3  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+
+25132
+{
+  name { the Shambling Mound }
+  namelist { shambling mound }
+  shortdesc { A large pile of moss slowly forms into a human shape creature. }
+  longdesc {
+   This large, disgusting creature is formed entirely of plant
+life and looks quits strong.
+  }
+  race { vegman }
+  height { 160 }
+  weight { 10000 }
+  level { 360 }
+  alignment { 0 }
+  gold { 2750  }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 5 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 360, 5680  }
+  move { 300 }
+  experience { 436282 }
+  damage { 2, 15, 7  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+
+25133
+{
+  name { Raylock }
+  namelist { raylock blacksmith }
+  shortdesc { Raylock stands here, offering you a look at his finest wares. }
+  longdesc {
+   He is a large man, well built and the scares scattering his
+body tell you that he is not a man to make angry. From the look on
+the mans face, and the rather large sword in his hand, you decide it
+would be wise to leave this one alone.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 709 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 8 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 709, 17065  }
+  move { 300 }
+  experience { 837459 }
+  damage { 25, 1, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25134
+{
+  name { the Rainbow Dragon }
+  namelist { rainbow dragon }
+  shortdesc { The legendary Rainbow Dragon dwells here, luckily for you its sleeping. }
+  longdesc {
+   This large dragon has several large, multi-colored scales about its
+body, it appears to be guarding a large chest that rests beside its large
+form.
+  }
+  race { dragon }
+  height { 160 }
+  weight { 10000 }
+  level { 359 }
+  alignment { -1000 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1.5 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 709, 17065  }
+  move { 300 }
+  experience { 729216 }
+  damage { 10, 10, 15  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25135
+{
+  name { Cyanis }
+  namelist { cyanis }
+  shortdesc { Cyanis, keeper of the tower of Lucenia stands here. }
+  longdesc {
+   This is a short, aging man garbed in flowing white robes, adorned with
+many arcane symbols. Around his neck, you notice a cloak, which appears to
+be giving him some sort of glowing aura.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 786 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 786, 18194  }
+  move { 300 }
+  experience { 797782 }
+  damage { 2, 25, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel, stay-zone }
+}
+
+25136
+{
+  name { the Lucenian Mage }
+  namelist { lucenian wizard }
+  shortdesc { The mage of Lucenia stands here, trying to sell the products or his creation. }
+  longdesc {
+   This man is fairly short, about 5 feet tall, and has practically
+no hair at all. Even though he looks very odd and clumsy, from his regal
+clothing and strange magical gestures, you could easily see that he is
+a powerful adept in the magical arts.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 719 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 4 }
+  body { -100, 4 }
+  arms { -100, 4 }
+  legs { -100, 4 }
+  feet { -100, 4 }
+  hp { 4, 719, 17211  }
+  move { 300 }
+  experience { 819418 }
+  damage { 100, 1, 5  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25137
+{
+  name { the Lucenian baker }
+  namelist { lucenian baker }
+  shortdesc { The baker of lucenia stands here, selling various baked goods. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 728 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 6 }
+  head { -100, 4 }
+  body { -100, 4 }
+  arms { -100, 4 }
+  legs { -100, 4 }
+  feet { -100, 4 }
+  hp { 4, 728, 17343  }
+  move { 300 }
+  experience { 840989 }
+  damage { 1, 100, 15  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25138
+{
+  name { the Lucenian Barkeep }
+  namelist { lucenian barkeep }
+  shortdesc { The local barkeep stands here, calmly serving his patrons. }
+  longdesc {
+   He is a large, muscular man, and he doesnt look like he would
+hesitate to rip your head off if you cause him any trouble.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 704 }
+  alignment { 1000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 4 }
+  body { -100, 4 }
+  arms { -100, 4 }
+  legs { -100, 4 }
+  feet { -100, 4 }
+  hp { 4, 704, 16991  }
+  move { 300 }
+  experience { 812268 }
+  damage { 2, 50, 15  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25139
+{
+  name { the Arch-Wizard }
+  namelist { arch wizard guildguard }
+  shortdesc { An arch-wizard stands here, faithfully guarding his place of learning. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 715 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 715, 17153  }
+  move { 300 }
+  experience { 731776 }
+  damage { 2, 50, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25140
+{
+  name { the Knight of Lucenia }
+  namelist { knight guildguard }
+  shortdesc { The knight of lucenia stands here, defending his guild. }
+  longdesc {
+   This large man is clad in an extremely fine suit of armor,
+he wields a large bastard sword and looks as though he has killed
+many with the use of its blade.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 713 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 5 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 713, 17123  }
+  move { 300 }
+  experience { 816558 }
+  damage { 2, 20, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25141
+{
+  name { the Master Assassin }
+  namelist { assassin thief guildguard }
+  shortdesc { A master assassin stands here, threatening to kill you. }
+  longdesc {
+   He is a tall man, his features hidden beneath the fabric of his hooded
+cloak. Though you see no weapon in sight, he could easily be concealing one beneath his clothing.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 755 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 755, 17739  }
+  move { 300 }
+  experience { 783926 }
+  damage { 2, 40, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25142
+{
+  name { the Bishop }
+  namelist { bishop cleric guildguard }
+  shortdesc { A Bishop of the hall of clerics stands here, looking for those in need. }
+  longdesc {
+   He is a rather normal looking cleric, nothiing out of the ordinary to
+specify that he has and true fighting abilities, but you never can be sure.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 728 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 728, 17343  }
+  move { 300 }
+  experience { 771866 }
+  damage { 3, 20, 10  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25143
+{
+  name { the Guildmaster }
+  namelist { cleric guildmaster }
+  shortdesc { The clerics guildmaster stands here, waiting to train you. }
+  longdesc {
+   The guildmaster is quite old, you dont see how he could possibly do
+your skills any good.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 743 }
+  alignment { 1000 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 743, 17563  }
+  move { 300 }
+  experience { 743705 }
+  damage { 10, 1, 90  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25144
+{
+  name { the Guildmaster }
+  namelist { mage guildmaster }
+  shortdesc { The mages guildmaster is here, waiting to train you. }
+  longdesc {
+   The guildmaster is quite old, you do not see how he could possibly do
+your skills any good.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 724 }
+  alignment { 1000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 724, 17285  }
+  move { 300 }
+  experience { 735616 }
+  damage { 10, 1, 90  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25145
+{
+  name { the Guildmaster }
+  namelist { warrior guildmaster }
+  shortdesc { The warriors guildmaster is here, waiting to train you. }
+  longdesc {
+   The guildmaster is quite old, you do not see how he could possibly do
+your skills any good.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 768 }
+  alignment { 1000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 768, 17930  }
+  move { 300 }
+  experience { 754380 }
+  damage { 10, 1, 90  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25146
+{
+  name { the Guildmaster }
+  namelist { thief guildmaster }
+  shortdesc { The thieves guildmaster is here, waiting to train you. }
+  longdesc {
+   the guildmaster is quite old, you do not see how he could possibly do
+your skiils any good.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 762 }
+  alignment { 1000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 762, 17842  }
+  move { 300 }
+  experience { 751820 }
+  damage { 10, 1, 90  }
+  immune { charm }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision }
+  act { sentinel }
+}
+
+25147
+{
+  name { a Warrior Trainee }
+  namelist { warrior trainee }
+  shortdesc { A young warrior trainee stands here, learning his fighting skills. }
+  longdesc {
+   He is a young lad, clad entirely in training armor. Though not quite
+adept in the art of fighting, he is still well built.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+}
+
+25148
+{
+  name { a Mage Trainee }
+  namelist { mage trainee }
+  shortdesc { A noble looking trainee mage stands here, practicing arcane gestures. }
+  longdesc {
+   He is a regal looking young man, dressed in the usual training robes
+of the mage class. Though not adept in his art, he looks as though he could
+cast a mean magic missile.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 95, 0 }
+  body { 95, 0 }
+  arms { 95, 0 }
+  legs { 95, 0 }
+  feet { 95, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+}
+
+25149
+{
+  name { a Thief Trainee }
+  namelist { thief trainee }
+  shortdesc { A seedy looking thief trainee stands here, counting his pilferings. }
+  longdesc {
+   He is a small, seedy looking rogue, he appears to be counting a small
+pile of coins in his hand, todays "earnings" no doubt.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+}
+
+25150
+{
+  name { a Cleric Trainee }
+  namelist { cleric trainee }
+  shortdesc { A peacefull looking man stands here, making friendly gestures. }
+  longdesc {
+   He is a rather gentle looking man, as you glare at him he makes
+a warm welcoming gesture towords you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+25151
+{
+  name { a Small Duck }
+  namelist { duck }
+  shortdesc { A smalll duck swims in the fountain here. }
+  longdesc {
+   He is a normal looking duck, swimming peacfully in the gentle
+waters of the fountain.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 17 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 895 }
+  damage { 1, 4, 1  }
+  act { sentinel }
+}
+
+25152
+{
+  name { the Town Watchman }
+  namelist { watchman }
+  shortdesc { The town watchman stands here, eyeing you curiously. }
+  longdesc {
+   He is a tall, lean looking man, dressed in a full suit of armor,
+though not fine steel, the armor serves its purpose well.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 16, 958  }
+  move { 300 }
+  experience { 1530 }
+  damage { 1, 10, 2  }
+  act { stay-zone }
+}
+
+25153
+{
+  name { a Small Pigeon }
+  namelist { pigeon }
+  shortdesc { A small pigeon walks here. }
+  longdesc {
+   Its your average, every day pigeon...
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 287 }
+  damage { 1, 4, 1  }
+  act { stay-zone }
+}
+
+25154
+{
+  name { the Wyvern }
+  namelist { wyvern }
+  shortdesc { A wyvern stands here, its hugh wings extended in preperation for flight. }
+  longdesc {
+   Its hugh wingspan and sharp teeth make you think twice about harming him,
+for he may decide that your presence isnt needed.
+  }
+  race { dragon }
+  height { 160 }
+  weight { 10000 }
+  level { 240 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 4, 24, 3072  }
+  move { 300 }
+  experience { 92337 }
+  damage { 2, 4, 20  }
+  act { stay-zone }
+}
+
+25155
+{
+  name { a Paladin Guard }
+  namelist { paladin guard }
+  shortdesc { A paladin guard stands here, guarding the town. }
+  longdesc {
+   He is a tall, muscular man, clad in a full suit of plate armor,
+and carrying a fierce looking sword.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 1000 }
+  gold {  2500 }
+  hit_bonus { 24 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { 10, 12 }
+  body { 10, 12 }
+  arms { 10, 12 }
+  legs { 10, 12 }
+  feet { 10, 12 }
+  hp { 4, 320, 5160  }
+  move { 300 }
+  experience { 384753 }
+  damage { 2, 7, 5  }
+  immune { charm }
+  act { stay-zone, nosummon  }
+}
+
+25156
+{
+  name { the Janitor }
+  namelist { janitor }
+  shortdesc { The town janitor stands here, smelling of garbage. }
+  longdesc {
+   He is a small, dirty man. His dirt covered clothes make him
+smell horribly of garbage.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 16 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 887 }
+  damage { 1, 8, 1  }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+25157
+{
+  name { an Elderly Beggar }
+  namelist { beggar man }
+  shortdesc { An old, frail looking man limps here, his eyes light up with hope as you enter. }
+  longdesc {
+   He is dressed in old, tattered clothing, which bears a horrible stench.
+He looks to be somewhere near 80 years of age, and doesnt look very strong.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 12 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 6, 1  }
+  act { stay-zone }
+}
+
+25158
+{
+  name { the Guardian Wizard }
+  namelist { guardian wizard }
+  shortdesc { A tall man stands here, patroling the area for signs of trouble. }
+  longdesc {
+   He is a tall man, dressed in the flowing black robes, that identifies
+him as a member of local magi.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 1000 }
+  gold { 7000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 160410 }
+  damage { 1, 10, 7  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone, wimpy }
+}
+
+25159
+{
+  name { an Arch-Magi }
+  namelist { arch magi }
+  shortdesc { An arch-magi stands here, making strange, arcane gestures. }
+  longdesc {
+   He looks pretty adept at spell casting, and would probaly make an
+tough opponent.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 592 }
+  alignment { 1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 0, 3 }
+  body { 0, 3 }
+  arms { 0, 3 }
+  legs { 0, 3 }
+  feet { 0, 3 }
+  hp { 4, 192, 956  }
+  mana { 3000 }
+  move { 3000 }
+  caster { 99 }
+  spells { fireball, magic missile, dispel magic }
+  experience { 158507 }
+  damage { 1, 10, 7  }
+  immune { charm, blunt, cold, fire, electricity }
+  act { stay-zone }
+}
+
+25160
+{
+  name { an Enchanter }
+  namelist { enchanter }
+  shortdesc { An enchanter stands here, wadering aimlessly. }
+  longdesc {
+   He looks like he would make a tough opponent.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 60, 1 }
+  body { 60, 1 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6489 }
+  damage { 1, 10, 5  }
+  act { stay-zone }
+}
+
+25161
+{
+  name { an Elven Lord }
+  namelist { elven lord }
+  shortdesc { An elven lord stands here, practicing battle techniques. }
+  longdesc {
+   He looks like a fighter that is quite adepts in the art of battle.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 360 }
+  alignment { 0 }
+  gold { 8200 }
+  hit_bonus { 20 }
+  dam_bonus { 26 }
+  attacks_per_round { 2 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 160, 12620  }
+  move { 3000 }
+  experience { 131824 }
+  damage { 2, 70, 7  }
+  act { stay-zone }
+}
+
+25162
+{
+  name { the Illusionist }
+  namelist { illusionist }
+  shortdesc { An illusionist stands here. }
+  longdesc {
+   He looks quite adept in the art of magic.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2017 }
+  damage { 1, 10, 2  }
+  act { stay-zone }
+}
+
+25163
+{
+  name { the Cutthroat }
+  namelist { cutthroat }
+  shortdesc { A cutthroat stands here, looking for his next victim. }
+  longdesc {
+   He looks like he is very skilled in the art of theft.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 20, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 17633 }
+  damage { 1, 10, 9  }
+  act { stay-zone }
+}
+
+25164
+{
+  name { the Patriarch }
+  namelist { patriarch }
+  shortdesc { A patriarch stands here. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 50, 3 }
+  body { 50, 3 }
+  arms { 50, 3 }
+  legs { 50, 3 }
+  feet { 50, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 17468 }
+  damage { 1, 10, 9  }
+  act { stay-zone }
+}
+
+25165
+{
+  name { the Vicar }
+  namelist { vicar }
+  shortdesc { A vicar stands here. }
+  longdesc {
+   He looks very skilled in the arts of healing.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1510 }
+  damage { 1, 10, 3  }
+  act { stay-zone }
+}
+
+25166
+{
+  name { the Medium }
+  namelist { medium }
+  shortdesc { A medium of magic stands here. }
+  longdesc {
+   He looks pretty sorry in the arts of magic.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 7, 1  }
+  act { stay-zone }
+}
+
+25167
+{
+  name { the Rogue }
+  namelist { rogue }
+  shortdesc { A rogue stands here. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 60, 2 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 11044 }
+  damage { 1, 10, 5  }
+  act { stay-zone }
+}
+
+25168
+{
+  name { the Wizard }
+  namelist { wizard tailor }
+  shortdesc { A wizard stands here, making clothing for mages. }
+  longdesc {
+   He is dressed in the regal robes of an Arch-Magi, it would be best to avoid him.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 256 }
+  alignment { 0 }
+  gold { 17000 }
+  hit_bonus { 20 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 256, 2108  }
+  move { 300 }
+  experience { 222836 }
+  damage { 2, 7, 5  }
+  immune { charm }
+  act { stay-zone }
+}
+
+
+25102
+{
+  name { a Paladin Warrior }
+  namelist { paladin Warrior }
+  shortdesc { A paladin warrior stands here, honing his sword. }
+  longdesc {
+   He is a tall, muscular man, clad in a full suit of plate armor,
+and carrying a fierce looking sword.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 350 }
+  alignment { 1000 }
+  gold { 50500 }
+  hit_bonus { 34 }
+  dam_bonus { 25 }
+  attacks_per_round { 3 }
+  head { -30, 12 }
+  body { -30, 12 }
+  arms { -30, 12 }
+  legs { -30, 12 }
+  feet { -30, 12 }
+  hp { 7, 320, 9160  }
+  move { 300 }
+  experience { 784753 }
+  damage { 5, 7, 5  }
+  immune { charm }
+  act { nosummon  }
+}
+
+

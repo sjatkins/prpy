@@ -1,0 +1,807 @@
+5500
+{
+name { a huge wolf spider }
+namelist { spider wolf }
+shortdesc { A huge wolf spider stares at you menacingly, as green ichor 
+drips from its protruding fangs. }
+longdesc {
+A huge furry spider with multiple eyes stares at you with a deep menace 
+as you progress.  A thick green ichor drips slowly down its elongated 
+fangs, as it raises its front legs towards you.  Faint chittering seems 
+to emanate from this magically enhanced arachnid, echoing faintly 
+before fading away.  Trails of shredded webs trail along its body, as a 
+faint acrid odor fills the air.  This quick and nimble arachnid 
+scrambles easily along any surface, searching for a better place to 
+catch its prey.
+   }
+   race { insect }
+   level { 195 }
+   alignment { -100 }
+   gold { 1000 }
+   hit_bonus { 19 }
+   dam_bonus { 2 }
+   attacks_per_round { 2 }
+   head { -30, 2 }
+   body { -20, 4 }
+   arms { -40, 2 }
+   legs { -40, 2 }
+   feet { -40, 2 }
+   hp { 30, 4, 2000  }
+   move { 400 }
+   experience { 151000 }
+   damage { 2, 4, 4  }
+   spells { poison }
+   act { aggressive }
+   affected { detect-invisible, infravision } 
+   immune { charm }
+}
+
+
+5501
+{
+name { a large furry bat }
+namelist { bat furry }
+shortdesc { A large furry bat spreads its wings in flight, fangs 
+gleaming in the faint light. }
+longdesc {
+An extremely large bat, covered in a thick brown fur spreads its wings 
+in flight as it takes to the sky.  A high-pitched whine emits from its 
+mouth, as it turns its head back and forth, searching constantly for 
+its signal.  Wickedly sharp claws reflect in the light, curled at the 
+end of the thick membranes that make up its vast wingspan.  A pug nose 
+and sharp black glittering eyes stare back at you from its face, as its 
+plump body twitches in anticipation.
+   }
+   level { 190 }
+   alignment { 0 }
+   gold { 950 }
+   hit_bonus { 21 }
+   dam_bonus { 1 }
+   attacks_per_round { 2 }
+   head { -30, 2 }
+   body { -20, 3 }
+   arms { -30, 2 }
+   legs { -30, 2 }
+   feet { -30, 2 }
+   hp { 60, 2, 1900  }
+   move { 400 }
+   experience { 144500 }
+   damage { 2, 6, 2  }
+   act { aggressive }
+   affected { detect-invisible, infravision } 
+   immune { charm }
+}
+
+
+
+5502
+{
+name { a large grey wolf }
+namelist { wolf grey }
+shortdesc { A large grey wolf growls menacingly at your approach, its 
+fur bristling in challenge. }
+longdesc {
+A large wolf with bristling grey fur tinged with silver highlights, 
+growls menacingly at your arrival.  The fur has coarse edges, and 
+stands deep on end in anticipation for a fight for dominance.  Almond-
+shaped eyes reflect in the light, glowing an eerie haunting green in 
+the near darkness.  Large sharp fangs glisten wetly, as a throaty growl 
+escapes its massive jaws.  Its well-muscled body quivers with sheer 
+power and rage, as its near silent approach can be felt in the air.
+   }
+   race { none }
+   level { 205 }
+   alignment { -250 }
+   gold { 1200 }
+   hit_bonus { 20 }
+   dam_bonus { 4 }
+   attacks_per_round { 2 }
+   head { -20, 4 }
+   body { -10, 5 }
+   arms { -20, 4 }
+   legs { -20, 4 }
+   feet { -20, 3 }
+   hp { 70, 4, 2050  }
+   move { 400 }
+   experience { 158500 }
+   damage { 2, 8, 2  }
+     act { aggressive }
+     affected { detect-invisible, infravision } 
+     immune { charm }
+}
+
+
+
+5503
+{
+name { a skeletal rat}
+namelist { rat skeletal }
+shortdesc { The enchanted skeletal remains of a rat clatters toward 
+you. }
+longdesc {
+Minor necromantic enchantments bind the bones of this rat, allowing 
+them to move of their own volition.  The sharp clattering of bones 
+fills the air, as the clicking of bony claws on the ground echo 
+constantly.  The jaws of the rat have been sharpened and hang slightly 
+open, clacking shut together and opening again in hunger.  Small 
+pinpoints of crimson light can be seen in the eye sockets of the skull, 
+a burning hatred for all things living.
+   }
+   level { 200 }
+   race { undead }
+   alignment { 0 }
+   gold { 100 }
+   hit_bonus { 33 }
+   dam_bonus { 2 }
+   attacks_per_round { 2 }
+   head { 20, 3 }
+   body { 10, 4 }
+   arms { 20, 2 }
+   legs { 20, 2 }
+   feet { 20, 2 }
+   hp { 60, 3, 2000  }
+   move { 300 }
+   experience { 153900 }
+   damage { 1, 5, 1  }
+   act { aggressive }
+   affected { detect-invisible, infravision } 
+   immune { charm, backstab } 
+   resistant { pierce }
+}
+
+
+
+
+5504
+{
+name { an immense hunter owl }
+namelist { owl hunter }
+shortdesc { An immense hunter owl swoops out of the darkness, searching 
+for prey. }
+longdesc {
+An immense hunter owl stretches its feathered pinions wide, as its 
+claws are outstretched in the anticipation of an upcoming kill.  The 
+round feathered head swivels constantly to and fro, its eyes wide and 
+circular, seeming to see everything around it.  The sharp twisted beak 
+opens and closes, a faint clicking echoing in the air.  A gentle rustle 
+of its feathers are the only thing most prey hears, shortly before its 
+grisly demise.  
+   }
+   level { 230 }
+   alignment { 0 }
+   gold { 100 }
+   hit_bonus { 23 }
+   dam_bonus { 9 }
+   attacks_per_round { 3 }
+   head { -20, 4 }
+   body { -10, 5 }
+   arms { -20, 4 }
+   legs { -20, 3 }
+   feet { -20, 3 }
+   hp { 60, 4, 2800  }
+   move { 400 }
+   experience { 206500 }
+   damage { 2, 7, 2  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+     immune { charm }
+immune { charm } 
+}
+
+
+
+5505
+{
+name { a shuffling zombie }
+namelist { zombie shuffling }
+shortdesc { A slow moving putrid corpse shuffles toward you, its arms 
+outstretched. }
+longdesc {
+A putrid mass of rotting flesh that was once a living being, shuffles 
+toward you with its arms outstretched.  Its entire body is decaying, as 
+the flesh of its body is starting to liquefy.  Patches of skin flakes 
+to the ground, as clumps of battered flesh drop off its bones to fall 
+to the floor with a thump.  Its eyes are vacant unthinking things, yet 
+there is a definite hatred for all living things.  A sickening smell of 
+putrid meat pervades the air, as a low moan of anguish escapes its 
+desiccated lips.
+   }
+   race { undead } 
+   level { 360 }
+   alignment { -500 }
+   gold { 250 }
+   hit_bonus { 21 }
+   dam_bonus { 33 }
+   attacks_per_round { 2 }
+   head { -90, 17 }
+   body { -100, 18 }
+   arms { -90, 16 }
+   legs { -90, 16 }
+   feet { -90, 16 }
+   hp { 100, 2, 4000  }
+   move { 400 }
+   experience { 414200 }
+   damage { 2, 7, 6  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+resistant { slash }
+immune { charm, backstab } 
+}
+
+
+
+
+5506 
+{
+name { a juju zombie }
+namelist { zombie juju}
+shortdesc { An unusually large corpse shuffles toward you, hatred 
+gleaming in its eyes. }
+longdesc {
+An unusually large mass of rotting flesh shuffles toward you, its eyes 
+gleaming with crimson pinpoints of light.  Within its vast depths, one 
+can see, and almost feel, the intelligence and hatred of all things 
+living coming from these orbs.  This juju zombie has been heavily 
+enchanted with the dark arts of necromancy, allowing it powers beyond 
+the norm.  An almost palatable cloud of decay and rot seems to surround 
+it, bringing illness to those nearby.  A low growl of anger escapes its 
+leathery lips, as it lunges forward into battle.
+}
+   race { undead } 
+   level { 370 }
+   alignment { -750 }
+   gold { 350 }
+   mana { 10000 }
+   hit_bonus { 28 }
+   dam_bonus { 25 }
+   attacks_per_round { 4 }
+   head { -130, 8 }
+   body { -140, 9 }
+   arms { -120, 7 }
+   legs { -120, 7 }
+   feet { -120, 7 }
+   hp { 135, 2, 4725  }
+   move { 500 }
+   experience { 475500 }
+   damage { 2, 8, 2  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+resistant { slash }
+immune { charm, backstab } 
+caster { 50 } 
+spells { colour spray, weakness }
+}
+
+
+5507
+{
+name { an animated skeleton }
+namelist { skeleton animated }
+shortdesc { A magically animated skeleton rises up from a pile of 
+bones, ready for battle. }
+longdesc {
+Magical enchantments of the necromantic sphere have animated these 
+piles of bones.  Skeletons of chipped and yellowed bone arise from 
+their resting place, clad in rusted armor, ready for battle.  Their 
+armor is dented and battered, covered in a crimson film.  Their bones 
+are ancient, discolored and damaged with age, yet magically hardened.  
+Their jaws clatter together, opening and closing in a grimacing smile.  
+Long skeleton hands reach out toward the living, small pinpoints of 
+hatred reflected within their ocular sockets.
+   }
+   race { undead } 
+   level { 350 }
+   alignment { -400 }
+   gold { 150 }
+   hit_bonus { 35 }
+   dam_bonus { 10 }
+   attacks_per_round { 4 }
+   head { -100, 0 }
+   body { -200, 0 }
+   arms { -200, 0 }
+   legs { -200, 0 }
+   feet { -100, 0 }
+   hp { 60, 2, 3525  }
+   move { 350 }
+   experience { 412500 }
+   damage { 2, 6, 2  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+resistant { pierce }
+immune { charm, backstab } 
+}
+
+
+5508
+{
+name { a malice filled shadow }
+namelist { shadow malice }
+shortdesc { An almost invisible shadow flitters back and forth in the 
+near darkness, a cold chill following it. }
+longdesc {
+A bone-chilling sensation fills the air, as a shadowy formation 
+materializes in front of you.  Two dark glowing eyes, burning bright 
+crimson stares back at you, hatred filled within their depths.  Black 
+energy, cold as night, crackles along its arms as it reaches towards 
+you, disdain and hatred in its malice filled heart.  Silent as a still 
+night, quick as a chill wind, evil as only man could once be, this 
+shadow lives on in the afterlife, seeking vengeance.  
+   }
+   race { undead } 
+   level { 370 }
+   alignment { -450 }
+   gold { 250 }
+   hit_bonus { 30 }
+   dam_bonus { 5 }
+   attacks_per_round { 2 }
+   head { -30, 8 }
+   body { -40, 8 }
+   arms { -20, 8 }
+   legs { -20, 8 }
+   feet { -20, 8 }
+   hp { 60, 2, 3150  }
+   move { 500 }
+   experience { 406500 }
+   damage { 2, 7, 1  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+resistant { pierce, slash }
+immune { charm, backstab } 
+mana { 10000 }
+caster { 399 }
+spells { chill touch, weakness }
+}
+
+
+5509
+{
+name { a pile of grubs }
+namelist { grubs pile }
+shortdesc { A writhing pile of grubs slithers towards you, feeding on 
+the living. }
+longdesc {
+A writhing pile of maggots, worms, and other assorted grubs move 
+together in a cluster.  A trail of sticky mucous follows wherever the 
+grubs go, clinging to any surface it comes in contact with.  They seem 
+to multiply quickly over a short period of time, as there are many of 
+them and the numbers continue to grow.  Faint slithering sounds comes 
+from the pile, followed by the sounds of minute devouring, as the grubs 
+consume all the vegetation and animal remains they come across.
+   }
+   race { none }
+   level { 200 }
+   alignment { 0 }
+   gold { 75 }
+   hit_bonus { 17 }
+   dam_bonus { 2 }
+   attacks_per_round { 8 }
+   head { 30, 1 }
+   body { 20, 2 }
+   arms { 30, 1 }
+   legs { 30, 1 }
+   feet { 30, 1 }
+   hp { 40, 3, 2150  }
+   move { 300 }
+   experience { 203000 }
+   damage { 2, 2, 2  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+immune { charm, backstab } 
+}
+
+5510
+{
+name { a howling spectre }
+namelist { spectre howling }
+shortdesc { A transparent apparition howls in anger and hatred, as it 
+reaches out to drain your life essence. }
+longdesc { A wailing howl filled with a deep and utter hatred, combined 
+with an anger at all things that still cling to the material world, 
+echoes throughout the air.  A distorted translucent image materializes 
+from the darkness of the void, a pale reflection of what was 
+represented in life.  Crazed orbs of deep crimson reflect the hatred 
+and madness that fills this undead, as it reaches out towards you.   
+Long crackling bolts climb up and down its forearms, a deep shade of 
+midnight magicks that threaten the life essences of the living.
+   }
+   race { undead } 
+   level { 380 }
+   alignment { -1000 }
+   gold { 500 }
+   hit_bonus { 37 }
+   dam_bonus { 15 }
+   attacks_per_round { 3 }
+   head { -30, 9 }
+   body { -40, 9 }
+   arms { -30, 9 }
+   legs { -30, 9 }
+   feet { -30, 9 }
+   hp { 60, 3, 3000  }
+   move { 500 }
+   experience { 393500 }
+   damage { 2, 2, 2  }
+   caster { 325 } 
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+resistant { pierce }
+immune { charm, backstab, slash }
+spells { energy drain }
+mana { 10000 }
+}
+
+5511
+{
+name { a foul smelling wight }
+namelist { wight foul }
+shortdesc { A foul smelling creature escapes its barrows, in the hunt 
+for the living. }
+longdesc {
+A creature of nightmares, a pale reflection and parody of what it was 
+once in life, escapes its barrows to enter the hunt.  A feeling of 
+unease fills the air, as a noxious odor clings to every surface.  The 
+pale and rotted remains of this undead are animated by the darkest of 
+arts, as well as its undying hatred for those that still live.  Strips 
+of flesh hang from the bones, greyish long dead flesh.  Bolts of the 
+darkest hue crackle along its clawed hands, as it strives to fulfil an 
+unending hunger.
+   }
+   race { undead } 
+   level { 375 }
+   alignment { -1000 }
+   gold { 400 }
+   hit_bonus { 36 }
+   dam_bonus { 15 }
+   attacks_per_round { 3 }
+   head { -20, 7 }
+   body { -30, 8 }
+   arms { -20, 7 }
+   legs { -20, 7 }
+   feet { -20, 7 }
+   hp { 50, 3, 3450  }
+   move { 500 }
+   experience { 420200 }
+   damage { 2, 2, 2  }
+   act { aggressive }
+     affected { detect-invisible, infravision } 
+     resistant { pierce }
+     caster { 325 }
+immune { charm, backstab, slash } 
+spells { energy drain }
+mana { 10000 }
+}
+
+
+
+5512
+{
+name { the graveyard caretaker }
+namelist { caretaker graveyard }
+shortdesc { The animated remains of the caretaker, dressed in battered 
+overalls, shuffles toward you. }
+longdesc {
+The caretaker of the graveyard has fallen under the same curse that has 
+struck this area.  Once living, his soul is now trapped in this 
+unending form, in constant agony, as he searches for an escape.  His 
+flesh has rotted away, the remains of bones poking through the putrid 
+skin and muscles.  Tendons and ligaments snap from their moorings and 
+sway gently in the wind, as the caretaker progresses through what was 
+once his home.  He wears the old battered overalls that he once 
+cherished in life, one of the few things of his previous life that he 
+retains, in this realm of constant nightmare.  
+   }
+   race { undead } 
+   level { 500 }
+   alignment { 0 }
+   gold { 1500 }
+   hit_bonus { 40 }
+   dam_bonus { 18 }
+   attacks_per_round { 4 }
+   head { -30, 8 }
+   body { -40, 9 }
+   arms { -20, 8 }
+   legs { -20, 8 }
+   feet { -20, 8 }
+   hp { 100, 5, 5200  }
+   move { 550 }
+   experience { 524000 }
+   damage { 2, 8, 2  }
+   act { sentinel }
+     affected { detect-invisible, infravision } 
+     immune { charm }
+resistant { pierce, slash }
+immune { charm, backstab } 
+}
+
+
+5513
+{
+name { a wandering spirit }
+namelist { spirit wandering }
+shortdesc { A pale apparition wanders for all eternity, searching for 
+redemption. }
+longdesc {
+A fading memory is all that remains of these apparitions, as they 
+wander for all eternity.  Their unending search is for a redemption 
+that will never come, a fruitless search till the ends of time.  Slowly 
+the passing of the ages has worn the poor soul down, shredding some of 
+its remains and sanity, till all that is left is a pale waning 
+reflection of what it once was.  
+   }
+   race { undead }
+   level { 340 }
+   alignment { 0 }
+   gold { 250 }
+   hit_bonus { 33 }
+   dam_bonus { 9 }
+   attacks_per_round { 2 }
+   head { -10, 6 }
+   body { -20, 7 }
+   arms { -10, 6 }
+   legs { -10, 6 }
+   feet { -10, 6 }
+   hp { 50, 2, 3350  }
+   move { 450 }
+   experience { 5200 }
+   damage { 2, 2, 2  }
+   act { sentinel }
+     affected { detect-invisible, infravision } 
+resistant { pierce, slash }
+immune { charm, backstab } 
+}
+
+
+
+5514
+{
+name { the mortician }
+namelist { mortician }
+shortdesc { The Undead Mortician rises to meet you. }
+longdesc { 
+A heavy curse of darken magicks parvades the room.  The mortician 
+stands before you, a once holy office to help aid the recent dead 
+on their journey into the afterlife, now desecrated.  His flesh 
+has shriveled and started to decay, segments of bone jutting through 
+the openings in his skin.  His dark black clothes of mourning have 
+also started to rot, a mockery of the once fine tailoring that they
+once were.  Yet he continues to move with a quiet grace, his 
+long spindly arms reaching out to greet those that enter.
+   }
+   race { Ghost }
+   level { 750 }
+   alignment { -500 }
+   gold { 2100 }
+   hit_bonus { 42 }
+   dam_bonus { 21 }
+   attacks_per_round { 8 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 6750  }
+   move { 550 }
+   experience { 775000 }
+   damage { 30, 20, 2  }
+   act  { special, sentinel, citizen }
+affected { true-sight, sanctuary, infravision }
+resistant { pierce, slash }
+immune { charm, backstab } 
+}
+
+
+5515
+{
+name { the accursed priest }
+namelist { priest accursed }
+shortdesc { The animated remains of a holy priest, cursed by the dark 
+arts, rises from the altar. }
+longdesc {
+The twisted remains of a once holy priest, still dressed in the 
+remnants of his holy vestments, rises from the altar at your approach.  
+Dark crackling energies of protection hum gently in the air, as faint 
+magicks spark along his body.  His eyes glimmer with a faint fire, dark 
+azure blazes where his eyes once were.  His flesh is smooth, yet there 
+is a deep shadow that tinges his once fair skin, a darkness that is 
+slowly spreading.  He beckons a warning to leave these premises, as a 
+danger has corrupted these hallowed halls.
+   }
+   race { undead } 
+   level { 450 }
+   alignment { 0 }
+   gold { 2000 }
+   hit_bonus { 32 }
+   dam_bonus { 18 }
+   attacks_per_round { 4 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 4750  }
+   move { 550 }
+   experience { 475000 }
+   damage { 3, 6, 2  }
+   act  { sentinel }
+affected { sanctuary,    true-sight, infravision }
+resistant { pierce, slash }
+immune { charm, backstab} 
+spells { shriek }
+mana { 10000 }
+caster { 470 }
+}
+
+
+
+
+
+
+
+5516
+{
+name { the embalmer }
+namelist { embalmer }
+shortdesc { The animated smooth remains of the embalmer looks up from 
+his devices, and grins evilly at your presence. }
+longdesc { 
+The irony of the darken curse is evident here, as the embalmer seems 
+untouched from the chaotic spread of decay that has claimed the others.  
+His skin is smooth and unbroken, yet there is a deepening shadow that 
+clings to and crawls along its surface.  His eyes blaze with emerald 
+flames, as he reaches for his devices and chemicals.  The faint and 
+bitter odor of embalming liquids clings to him, an acrid cloud of 
+preservatives seeming to envelope him in their noxious mists.  A wide 
+toothy grin splits his face, as a look of sheer sadistic delight 
+spreads across his face.
+   }
+   race { undead } 
+   level { 450 }
+   alignment { 0 }
+   gold { 2000 }
+   hit_bonus { 32 }
+   dam_bonus { 18 }
+   attacks_per_round { 4 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 4750  }
+   move { 550 }
+   experience { 475000 }
+   damage { 3, 6, 2  }
+   act  { sentinel }
+affected { sanctuary,    true-sight, infravision }
+resistant { pierce, slash }
+immune { charm, backstab}
+}
+
+
+
+5517
+{
+name { the cremator }
+namelist { cremator }
+shortdesc { The ashen remains of the cremator springs to life, small 
+flames dancing along its body. }
+longdesc { 
+Flames dance along the surface of the cremator, dancing quickly to and 
+from. Oddly these non-consuming fires burn brightly while leaving him 
+relatively untouched.  His body is slightly burnt, and covered in a 
+thick dark ash that never seems to fade. Deep crimson fires replace his 
+knowing orbs, tiny flames of intellect and hatred that will burn for 
+all eternity.  A faint cloud of brimstone seems to hang on him, the 
+sulfuric stench pervading the room.  He reaches out with his arm, 
+layers of ash falling to the ground in slow twirling eddies, as 
+flickering flames dance along his fingers, beckoning to be released.
+   }
+   race { undead } 
+   level { 450 }
+   alignment { 0 }
+   gold { 2000 }
+   hit_bonus { 32 }
+   dam_bonus { 18 }
+   attacks_per_round { 4 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 4750  }
+   move { 550 }
+   experience { 475000 }
+   damage { 3, 6, 2  }
+   act  { sentinel }
+affected { fireshield, true-sight, infravision }
+resistant { pierce, slash }
+immune { charm, backstab} 
+spells { fireball }
+mana { 10000 }
+caster { 470 }
+}
+
+
+
+
+5518
+{
+name { the coffin maker }
+namelist { maker coffin coffinmaker }
+shortdesc { The undead remains of the coffin maker reaches out towards 
+you, as wood shavings and sawdust trickle to the floor. }
+longdesc { 
+Curled wood shavings and sawdust trickle gently to the floor, as the 
+coffin maker looks up.  His skin is rotted, yet bears an uncanny 
+resemblance to the medium he worked with throughout his life.  Knots 
+and swirls decorate his skin, as it takes on a more wooden appearance.  
+A thick apron of worked leather protects his body, with pockets to hold 
+his many carving tools.  Hollow eyes stare back at you, yet they seem 
+to contain a burning desire for vengeance in their vast depths.  Long 
+nimble fingers dance along the handles of his tools, as he awaits your 
+approach.
+   }
+   race { undead } 
+   level { 450 }
+   alignment { 0 }
+   gold { 2000 }
+   hit_bonus { 32 }
+   dam_bonus { 18 }
+   attacks_per_round { 4 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 4750  }
+   move { 550 }
+   experience { 475000 }
+   damage { 3, 6, 2  }
+   act  { sentinel }
+affected { sanctuary,    true-sight, infravision }
+resistant { pierce, slash }
+immune { charm, backstab}
+}
+
+
+
+5519
+{
+name { the gravecrawler }
+namelist { gravecrawler }
+shortdesc { The gravecrawler is here, spreading its vile corruption! }
+longdesc { 
+This humanoid corpse is not animated by some necromancy.  Rather, this foul
+creature is a product of it's own internal desires and willpower.  In life,
+the gravecrawler worked in a cemetery of some kind, it's job a mortician or
+an embalmer of the dead.  And what it desired most was to be one of them,
+one of the dead, that was treated so lovingly under it's care.  Now it crawls
+around, as if prone of the ground, moving from dead to dead, drawing on their
+power and feeding its own.  Don't let its prone state deceive you, for it
+moves faster than anything you would have ever seen! 
+   }
+   race { undead } 
+   level { 550 }
+   alignment { 0 }
+   gold { 4000 }
+   hit_bonus { 45 }
+   dam_bonus { 18 }
+   attacks_per_round { 8 }
+   head { -30, 9 }
+   body { -50, 10 }
+   arms { -20, 9 }
+   legs { -20, 9 }
+   feet { -10, 8 }
+   hp { 100, 5, 8750  }
+   move { 550 }
+   experience { 875000 }
+   damage { 3, 6, 2  }
+   act  { sentinel }
+affected { sanctuary, fireshield, true-sight, infravision }
+resistant { pierce, slash, blunt }
+immune { charm, backstab}
+}
+
+
+
+
+
+

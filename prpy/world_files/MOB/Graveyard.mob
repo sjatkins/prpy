@@ -1,0 +1,1101 @@
+2500
+{
+  name { The Jailer }
+  namelist { jailer }
+  shortdesc { The Jailer is standing here, leering at you }
+  longdesc {
+He smiles knowingly, and whacks you very hard.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 100 }
+  gold { 300 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 2931 }
+  damage { 1, 8, 1  }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { special, scavenger }
+}
+
+2501
+{
+  name { Bangfizzle }
+  namelist { bangfizzle }
+  shortdesc { Bangfizzle wanders behind the counter, trying to make new magic items }
+  longdesc {
+She is wearing tattered brown robes, and seems to be having a
+conversation with the her beakers.  All the more disturbing
+because the beakers occasionally explode with a thunderous roar.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 502 }
+  alignment { 0 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 792, 18282  }
+  move { 300 }
+  experience { 776568 }
+  damage { 8, 8, 38  }
+  immune { charm }
+  resistant { fire, electricity }
+  act { sentinel }
+}
+
+2502
+{
+  name { the Cheeser }
+  namelist { cheeser }
+  shortdesc { The Cheeser looks at you calmly, wiping debris from his face with one hand. }
+  longdesc {
+A fat, nice looking Cheeser. But you can see that he has many scars on his
+body, probably because he is so close to Bangfizzle.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 494 }
+  alignment { 0 }
+  gold { 4750  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 624, 15385  }
+  move { 300 }
+  experience { 660548 }
+  damage { 5, 6, 26  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+2503
+{
+  name { the Pawnbroker }
+  namelist { pawnbroker }
+  shortdesc { A Pawnbroker stands at the counter, he looks as if he would gladly sell
+  you your children for one of his items. }
+  longdesc {
+A tall Pawnbroker, who moves two 200 pound bags of stuff around on his
+shoulders.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 489 }
+  alignment { 0 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 729, 17358  }
+  move { 300 }
+  experience { 714686 }
+  damage { 5, 5, 29 }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+2504
+{
+  name { the dwarven slave weaponsmith }
+  namelist { weaponsmith }
+  shortdesc { A dwarven slave weaponsmith. }
+  longdesc {
+An old tired dwarven weaponsmith, who still has yet to escape.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 471 }
+  alignment { 0 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 771, 17974  }
+  move { 300 }
+  experience { 714335 }
+  damage { 5, 9, 32  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+2505
+{
+  name { the Armorer }
+  namelist { militia armorer }
+  shortdesc { A Militia armorer stands here. }
+  longdesc {
+An old but very strong armorer, he has made more armor in his
+lifetime than you have ever seen.  Shame it doesn't look very good.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 450 }
+  alignment { 0 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 710, 17079  }
+  move { 300 }
+  experience { 706824 }
+  damage { 5, 5, 42  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+2506
+{
+  name { the receptionist }
+  namelist { receptionist }
+  shortdesc { A buxom receptionist is here, expertly filing her nails. }
+  longdesc {
+She seems very good at her job, whatever that entails.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 454 }
+  alignment { -500 }
+  gold { 5000  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 1 }
+  body { -100, 1 }
+  arms { -100, 1 }
+  legs { -100, 1 }
+  feet { -100, 1 }
+  hp { 4, 754, 17725  }
+  move { 300 }
+  experience { 760110 }
+  damage { 5, 5, 60 }
+  immune { charm }
+  resistant { fire, electricity }
+  act { sentinel }
+}
+
+2507
+{
+  name { The Warren Guard }
+  namelist { warren guard }
+  shortdesc { A Warren Guard stands here, grinning evilly. }
+  longdesc {
+As you peer intently at the Warren Guard it sneers at you, revealing
+rotting yellow teeth.  The guard is dressed in a motley asortment of
+armor, none of which looks like it's doing much good.  Fortunately, for
+it, it appears to be very quick, and very strong.  As you approach it
+brandishes it's glaive and mumbles something about dinner ariving.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { -900 }
+  gold { 320  }
+  hit_bonus { 11 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  head { 50, 6 }
+  body { 50, 6 }
+  arms { 50, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  hp { 4, 168, 936  }
+  move { 300 }
+  experience { 31568 }
+  damage { 2, 5, 8  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, wimpy }
+}
+
+2508
+{
+  name { Queeklor, God of the Rats }
+  namelist { queeklor }
+  shortdesc { Queeklor, God of the Rats has seen you, flee! }
+  longdesc {
+You are lucky if you come up to Queeklor's knees.  From beneath
+his snout, rancid breath assaults your nose, its stench unbearable.
+Boy, you wish you had a breath mint about now.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 540 }
+  alignment { -1000 }
+  gold { 3255750  }
+  hit_bonus { 30 }
+  dam_bonus { 50 }
+  attacks_per_round { 3 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 4, 360, 55680  }
+  move { 300 }
+  experience { 1486238 }
+  damage { 6, 10, 35  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible, infravision, sneak }
+  act { sentinel, scavenger, aggressive, wimpy }
+}
+
+2509
+{
+  name { the Ratman Templar }
+  namelist { ratman templar }
+  shortdesc { A wicked big rat stands here, his description fully outfitted in chaos armor. }
+  longdesc {
+The Ratman Templar is outfitted in very ornate brown and yellow chaos
+armor.  Atop his head is a chaos helm, and in his very capable paws,
+is a wicked glaive.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 304 }
+  alignment { -800 }
+  gold { 2250  }
+  hit_bonus { 30 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { 40, 12 }
+  body { 40, 12 }
+  arms { 40, 12 }
+  legs { 40, 12 }
+  feet { 40, 12 }
+  hp { 4, 304, 3552  }
+  move { 300 }
+  experience { 351468 }
+  damage { 5, 6, 40  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible, sanctuary, infravision }
+  act { sentinel }
+}
+
+2510
+{
+  name { the Waitress }
+  namelist { ratwoman waitress }
+  shortdesc { A Ratwoman Waitress stands here, carefully trying not to smile so much. }
+  longdesc {
+Closer inspection reveals why she is not showing her pearly whites,
+er, better make that rotting yellows.  Even so she is more than willing
+to sell you a drink.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 304 }
+  alignment { -900 }
+  gold { 2250  }
+  hit_bonus { 30 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { 40, 12 }
+  body { 40, 12 }
+  arms { 40, 12 }
+  legs { 40, 12 }
+  feet { 40, 12 }
+  hp { 4, 304, 3552  }
+  move { 300 }
+  experience { 301633 }
+  damage { 4, 5, 20  }
+  immune { charm }
+  resistant { fire, electricity }
+  act { sentinel, wimpy }
+}
+
+2511
+{
+  name { a greasy cook }
+  namelist { greasy cook ratdude }
+  shortdesc { A rotund rat is here, cheerfully cooking some sort of questionable substance. }
+  longdesc {
+The apron that this rat is wearing barely covers his rather large belly.
+Ocassionally the cook prods the roasted cat with one finger, sticks it
+in his mouth, and smiles happily.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 304 }
+  alignment { -900 }
+  gold { 2250  }
+  hit_bonus { 35 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { 60, 12 }
+  body { 60, 12 }
+  arms { 60, 12 }
+  legs { 60, 12 }
+  feet { 60, 12 }
+  hp { 4, 304, 3552  }
+  move { 300 }
+  experience { 301633 }
+  damage { 5, 9, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel, wimpy }
+}
+
+2400
+{
+name { the bony skeleton }
+namelist { skeleton bony }
+shortdesc { A bony skeleton is here. }
+longdesc {
+  Brown bones with tufts of clothing still hanging from them. This
+skeleton looks very mindless but still dangerous...
+}
+race { undead }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 35300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 15 }
+body { -90, 9 }
+arms { -90, 9 }
+legs { -90, 9 }
+feet { -90, 9 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1000342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible, infravision }
+act { aggressive, stay-zone }
+}
+
+2401
+{
+name { The undead zombie }
+namelist { undead zombie }
+shortdesc { An undead zombie sits here munching on something... }
+longdesc {
+  His body is totally white and slowly rotting away.  Each Zombie looks
+quite different from the next because they were, of course, once alive and
+human.
+}
+race { undead }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 40300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 12 }
+body { -90, 6 }
+arms { -90, 6 }
+legs { -90, 6 }
+feet { -90, 6 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 990342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2402
+{
+name { The ghoul }
+namelist { undead ghoul }
+shortdesc { A ghoul is here staring at you hungrily. }
+longdesc {
+The ghoul no longer resembles the adventurer he once was.  Nonetheless
+he looks like he hasn't forgot his fighting skills.
+}
+race { undead }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 44300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000 }
+move { 200 }
+experience { 1200342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible, infravision }
+act { aggressive, stay-zone }
+}
+
+2403
+{
+name { The wraith }
+namelist { undead wraith }
+shortdesc { You spot a wraith advancing towards you from the shadows. }
+longdesc {
+The wraith no longer has a material form.  He is wearing a tattered
+black robe which hides all but the darkness of his face and the glimmer
+in his eyes.
+}
+race { undead }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 35300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1200342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible, infravision }
+act { aggressive, stay-zone }
+}
+
+2404
+{
+name { The guardian vampire }
+namelist { undead guardian vampire }
+shortdesc { A vampire is here hiding his face from your light source. }
+longdesc {
+The guardian vampire looks quite EVIL.  Just by looking at him the hair on your
+arms raises. He looks mighty tough to be just a minor minion.
+}
+race { undead }
+height { 100 }
+level { 410 }
+alignment { -999 }
+gold { 65000 }
+hit_bonus { 20 }
+dam_bonus { 45 }
+attacks_per_round { 3 }
+head { -90, 40 }
+body { -90, 40 }
+arms { -90, 40 }
+legs { -90, 40 }
+feet { -90, 40 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1500000 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2405
+{
+name { The priest }
+namelist { priest }
+shortdesc { A priest of all gods stands here solemnly speaking words of praise. }
+longdesc {
+Obviously a goodly man, you feel somehow...closer to the gods just
+by gazing upon this man.  Dressed in white, fine white hair, and
+a soft slighty wrinkled face...this man has an sacred beauty.
+You'd swear you saw a halo around his head.
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 35300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000 }
+move { 200 }
+experience { 1600342 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2406
+{
+name { The Mi-Go }
+namelist { Mi-Go Fungi }
+shortdesc { A Mig-Go is walking around here }
+longdesc {
+Mi-Go, the Fungi from Yuggoth...it is a pinkish being about five feet long;
+with a custaceous body bearing a vast pair of or membraneous wings and several
+sets of articulate limbs, and with a sort of convuluted ellipsoid, covered with
+multitudes of very small antennae, where a head would ordinarily be. ... These
+beings sometimes walk on all their legs and sometimes on the hindmost pair only
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 35300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1010342 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2407
+{
+name { The nightgaunt }
+namelist { nightgaunt }
+shortdesc { A nightgaunt is standing here }
+longdesc {
+...shocking and uncouth black thing with smooth, oily, skin, unpleasant horns
+that curve inward toward each other, bat wings whose beating make no sound,
+ugly prehensile paws, and a barbed tail that lashes disquietingly.  And worst
+of all, it makes absolutely no sound or speach and smiles not at all because
+it has no face, only a suggestive blackness where a face ought to be...
+}
+race { undead }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 43500  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1010342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible, infravision }
+act { aggressive, stay-zone }
+}
+
+2408
+{
+name { The hunting horror }
+namelist { hunting horror }
+shortdesc { The hunting horror is here in wait of an unwary traveler... }
+longdesc {
+Serving Nyarlathotep, and now Roch'tar these beings are hunting for victims.
+These beings resemble enormous ropy black serpents or worms possessing bat-
+like or umbrella-like wings.  Their forms continually shift and change,
+twitching and writhing, so it is hard to look at them.  They speak in great
+harsh voices. A hunting horror is HUGE, normally around 40 feet long.
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 50000  }
+hit_bonus { 20 }
+dam_bonus { 42 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 960050 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2409
+{
+name { Some cave weeds spring up out of the ground}
+namelist { weeds }
+shortdesc { Some weeds are creeping across the floor. }
+longdesc {
+  Just some unpleasant looking vine-like growths...
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 35300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -150, 30 }
+body { -90, 30 }
+arms { -90, 30 }
+legs { -90, 30 }
+feet { -90, 30 }
+hp { 5000, 3, 7000  }
+move { 200 }
+experience { 890342 }
+damage { 4, 6, 4  }
+immune {  charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2410
+{
+name { Snapper Joe }
+namelist { snapper joe }
+shortdesc { Snapper Joe is standing here leering at you chillingly }
+longdesc {
+  What an ugly fiend! He is about 6'6'' and has mostly greenish skin with
+bright red hair. Half his face is burnt off and he has a perpetual smile.
+He is called up from his service in hell in order to aid the Undying One.
+}
+race { human }
+height { 100 }
+level { 468 }
+alignment { -999 }
+gold { 165300  }
+hit_bonus { 20 }
+dam_bonus { 50 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 11000  }
+move { 200 }
+experience { 1440000 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible, infravision, true-sight }
+act { aggressive, stay-zone }
+}
+
+2411
+{
+name { The X'ist flesh eater }
+namelist { X'ist flesh eater }
+shortdesc { An X'ist flesh eater is sitting here munching on some coffin remains }
+longdesc {
+  A large hairy monsterous beast, the only LIVE thing you have seen down
+here. It stands approximately 8 feet tall and hunches over to fit in this
+small room. It has a pair of tremendous claws that he uses to rip and tear.
+It has dog-like face except ...different... Bright glowing eyes and a grimace
+lend you to believe that he knew that you were coming...
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 45300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1100342 }
+damage { 4, 6, 4  }
+immune {  charm, fire, charm }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2412
+{
+name { The spirit of King Crotus }
+namelist { spirit ghost king crotus }
+shortdesc { The spirit of King Crotus is floating here lazing above the floor }
+longdesc {
+  Floating above the ground here and looking a bit dead, he whispers
+softly into the air : "The forces of evil have unlocked my spirit as
+                       well as one other. Free me from this misery
+                       anyone that can hear. The peace of the grave
+                       calls me but I am blocked from its quiet."
+}
+race { undead }
+height { 100 }
+level { 550 }
+alignment { -999 }
+gold { 265000  }
+world_limit { 1 }
+hit_bonus { 20 }
+dam_bonus { 75 }
+attacks_per_round { 3 }
+head { -150, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+spells { shocking grasp, magic missile }
+caster { 40 }
+mana { 800 }
+power { 800 }
+hp { 5000, 3, 20900  }
+move { 200 }
+experience { 2590342 }
+damage { 9, 9, 24  }
+immune { backstab, charm, fire }
+affected { detect-invisible, true-sight }
+act { aggressive, stay-zone }
+}
+
+2413
+{
+name { The rock slug }
+namelist { rock slug }
+shortdesc { A rock slug is slowly creeping along, leaving a slime trail behind it }
+longdesc {
+  It is a large brownish slug. Got any salt? Didnt think so...
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 36700  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1100342 }
+damage { 4, 6, 4  }
+immune { backstab, charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2414
+{
+name { The mad etcher }
+namelist { etcher }
+shortdesc { The mad etcher is sitting here babbling to himself and working on the wall }
+longdesc {
+  Quite insane, the mad etcher has been here it seems for decades...
+His hair is white; he babbles nonsense to himself; a layer of dust covers
+his out of date clothing; and he seems to be working on the same portion of
+the wall near the base...oh and he seems quite blind.
+
+      He leers insanely at you ans says 'heh heh what can I do for you
+children?  Please dont mind my wife, she is always like that...hello
+dear can you make some tea for our company? Oh good! Now sit right down
+will you? would you like hot or cold tea? Yes the weather is....'
+
+And on he babbles....
+}
+race { human }
+height { 100 }
+level { 495 }
+alignment { -999 }
+gold { 185300 }
+hit_bonus { 20 }
+dam_bonus { 44 }
+attacks_per_round { 3 }
+head { -90, 30 }
+body { -90, 30 }
+arms { -90, 30 }
+legs { -90, 30 }
+feet { -90, 30 }
+hp { 5000, 3, 12000  }
+move { 200 }
+experience { 1703420 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2415
+{
+name { The specteral etchers wife }
+namelist { wife ghost specter }
+shortdesc { The specteral wife of the etcher is very faintly floating here }
+longdesc {
+  Yes you can barely make her out...though it almost makes you vomit.
+She is missing half her head...the one half is smashed in horribly like
+she took a nasty fall. Her one damaged eye hangs on its own. She smiles
+insanely at you thru a broken jaw and missing teeth. One hand of hers is
+resting on the shoulder of the etcher...her husband.
+}
+race { human }
+height { 100 }
+level { 468 }
+alignment { -999 }
+gold { 155300  }
+hit_bonus { 20 }
+dam_bonus { 44 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 10000  }
+move { 200 }
+experience { 1403420 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2416
+{
+name { The half-decomposed body }
+namelist { corpse body }
+shortdesc { A half-decomposed body is lying in the corner here }
+longdesc {
+  YUK! Its ugly, disgusting ...it smells ...it just also moving a bit!
+}
+race { none }
+level { 1 }
+alignment { 0 }
+gold { 175 }
+hit_bonus { 0 }
+dam_bonus { 0 }
+attacks_per_round { 1 }
+head { 100, 0 }
+body { 100, 0 }
+arms { 100, 0 }
+legs { 100, 0 }
+feet { 100, 0 }
+hp { 1, 1, 1  }
+move { 300 }
+experience { 70 }
+damage { 1, 1, 1  }
+act { aggressive, stay-zone }
+}
+
+2417
+{
+name { The priest }
+namelist { priest }
+shortdesc { A priest of all gods stands here solemnly speaking words of praise. }
+longdesc {
+Obviously a goodly man, you feel somehow...closer to the gods just
+by gazing upon this man.  Dressed in white, fine white hair, and
+a soft slighty wrinkled face...this man has an sacred beauty.
+You'd swear you saw a halo around his head.
+}
+race { human }
+height { 100 }
+level { 438 }
+alignment { -999 }
+gold { 55300  }
+hit_bonus { 20 }
+dam_bonus { 40 }
+attacks_per_round { 3 }
+head { -90, 20 }
+body { -90, 20 }
+arms { -90, 20 }
+legs { -90, 20 }
+feet { -90, 20 }
+hp { 5000, 3, 9000  }
+move { 200 }
+experience { 1200342 }
+damage { 4, 6, 4  }
+immune { charm, fire }
+affected { detect-invisible }
+act { aggressive, stay-zone }
+}
+
+2418
+{
+name { Dread }
+namelist {  Dread demon }
+shortdesc { Dread commander of the undead armies stands here contemplating battle plans. }
+longdesc { An Undead winged demon with a rather small head with huge 
+horns protruding, he is amassing an army of the dead to do his bidding }
+race { human }
+height { 150 }
+level { 705 }
+  name { Dread }
+  namelist {  Dread demon }
+  shortdesc { Dread commander of the undead armies stands here contemplating battle plans. }
+  longdesc { An Undead winged demon with a rather small head with 
+  huge horns protruding, he is amassing an army of the dead to do 
+  his bidding }
+  race { human }
+  height { 150 }
+  level { 850 }
+  alignment { -1000 }
+  gold { 1500000 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 3 }
+  head { -100, 20 }
+  body { -100, 25 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  strength { 30 }
+  dexterity { 15 }
+  hp { 50, 80, 50150 }
+  move { 300 }
+  experience { 6500000 }
+  damage { 6, 24, 49 }
+  caster { 80 }
+  spells { mind thrust, meteor swarm, disruptor, mage fire, dispel magic, weakness  }
+  immune { backstab, charm, sleep }
+  resistant { blunt }
+  affected { true-sight, infravision }
+  act { aggressive, sentinel, special }
+}
+
+2419
+{
+name { Corrupted Spirit of King Crotus }
+namelist {  king crotus spirit }
+shortdesc { King Crotus moves rapidly around the room, fueled with the   powers granted to him by his new lord. }
+longdesc { Floating above the ground and barking orders in his masters name.
+He is forceful in the inflection of his voice, and has quite possibly gone 
+mad with the powers bestowed upon him by his dark lord. }
+  name { Corrupted Spirit of King Crotus }
+  namelist {  king crotus spirit }
+  shortdesc { King Crotus moves rapidly around the room, fueled with the powers granted to him by his new lord. }
+  longdesc {   Floating above the ground and barking orders in 
+  his masters name. He is forceful in the inflection of his voice, 
+  and has quite possibly gone mad with the powers bestowed upon him 
+  by his dark lord. }
+  race { undead }
+  height { 150 }
+  level { 631 }
+  alignment { -1000 }
+  world_limit { 1 }
+  gold { 1800000 }
+  hit_bonus { 40 }
+  dam_bonus { 15 }
+  attacks_per_round { 3.5 }
+  head { -100, 10 }
+  body { -100, 25 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  strength { 30 }
+  dexterity { 15 }
+  hp { 50, 80, 55150 }
+  move { 300 }
+  experience { 6500000 }
+  damage { 6, 15, 35 }
+  caster { 80 }
+  spells { mind thrust, disruptor, fear, dispel magic }
+  immune { backstab, charm, sleep, fire }
+  resistant { slash }
+  affected { true-sight, infravision, sanctuary }
+  act { aggressive }
+}
+2420
+{
+name { Pain Bringer }
+namelist { Pain Bringer }
+shortdesc { Pain the master of darkness awaits to inflict his passion... }
+longdesc { Here stands a massive being covered with blood and gore. He has obviously been up to no good. You had better look out! }
+ race { human }
+ level { 700 }
+ height { 150 }
+ alignment { -1000 }
+ gold { 5250000 }
+ hit_bonus { 42 }
+ dam_bonus { 22 }
+ attacks_per_round { 4 }
+ head { -170, 13 }
+ body { -170, 13 }
+ arms { -170, 13 }
+ legs { -170, 13 }
+ feet { -170, 13 }
+ strength { 30 }
+ dexterity { 25 }
+ hp { 60, 50, 32000 }
+ move { 500 }
+ experience { 8000000 }
+ damage { 8, 23, 50 }
+ caster { 100 }
+ spells { mind thrust, paralyze, corrosive spray, weakness, dispel magic }
+ skills { bash }
+ immune { backstab, acid, fire, cold, charm }
+ resistant { pierce, blunt, slash }
+ affected { true-sight, infravision, sanctuary }
+ act { aggressive, sentinel, special }
+} 

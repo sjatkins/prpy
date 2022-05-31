@@ -1,0 +1,925 @@
+86850
+{
+  name { Beezlebub Junior }
+  namelist { beezlebub junior clone demon }
+  shortdesc { A smiling demon looks down at you from his throne. }
+  longdesc {
+""So", the demon smiles down at you from his throne.  "You've come to
+take back the heart of the midnight thicket?"  His smile turns into a
+huge demonic grin as he pats his stomach.  "You are too late!  I have
+already eaten its heart and ingested its power!"  Beezlebub Junior
+starts to glow with a red light.  The light has so intense that it
+illuminates the entire cavern.  "Killing me will not get back the
+heart, but you are welcome to try.", he smirks, cackling at the top of
+his lungs.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 1 }
+  level { 90 }
+  experience { 45000 }
+  hp { 8, 9, 1123 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 30, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86851
+{
+  name { A prickly demon }
+  namelist { prickly demon }
+  shortdesc { A demon with large thorns grows out from the vines. }
+  longdesc {
+The demon grows out from the vines directly in front of you.  Its colors
+are a mixture of dark green and black.  Huge black thorns with red tips,
+almost like a blade, grow out of its body.  The demon stares at you
+menacingly.  You must be intruding in his territory.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 6000 }
+  hp { 4, 6, 265 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86852
+{
+  name { A prickly demon }
+  namelist { prickly demon wandering }
+  shortdesc { A demon with large thorns slides along the vines. }
+  longdesc {
+The demon slides down a long length of vine, swerving in and out of
+large thorns sticking out from the fauna.  The prickly demon is a dark
+green color and has black patches all over its body.  Lifting its
+forearms in front of its face, large thorns grow out from its arms
+like a razor blade.  Looking up from behind its arms, it stares at you
+with an intense hatred.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 501 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86853
+{
+  name { A prickly demon }
+  namelist { prickly demon slicing }
+  shortdesc { A demon with large thorns slices at you viciously. }
+  longdesc {
+The prickly demon jumps at you from on top of a large vine.  It has
+long, curved black thorns on its forearm that look very sharp!  A
+bright red color lines the edge of the thorn.  It is difficult to tell
+if it is blood or the demon's natural color.  Slash viciously at your
+face and chest, it follows up with a high kick to your face.  Some 
+thorns from the demons legs almost take out your eyes.  What a jerk!
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 14000 }
+  hp { 8, 9, 595 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86854
+{
+  name { A vine demon }
+  namelist { vine demon }
+  shortdesc { An elongated demon grows out from the vines. }
+  longdesc {
+The demons slowly rises from one for the gigantiv vines of the midnight
+thicket.  The demon is extremely long and seems to be made up of
+bundles of tiny vines.  Well, tiny compared to the huge tree-like vines
+making up the majority of the thicket.  Red ruby eyes glow from where
+eye sockets should be.  This thing looks angry!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 7000 }
+  hp { 8, 9, 385 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 5, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86855
+{
+  name { A vine demon }
+  namelist { vine demon roaming }
+  shortdesc { An elongated demon swings and slides along the vines. }
+  longdesc {
+Swinging in like a jungle man, the vine demon lands on the vine in
+front of you with a thump.  Its long tendril like vines flail through
+the air in pure fury.  The demon's body is made up of a mass of small
+vines, dark green in color.  It moves towards you slowly in a menacing
+manner.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 11000 }
+  hp { 8, 9, 512 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86856
+{
+  name { A vine demon }
+  namelist { vine demon slashing }
+  shortdesc { An elongated demon slashes at you with a long spikey whip. }
+  longdesc {
+*CRACK*!  The vine demon snaps its whip-like hands just a few feet from
+your head.  It is obvious that the demon knows you were not looking
+because it probably could have taken off your head.  Seeming to want
+a fair fight, the demon backs off a little and allows you to draw your 
+weapon.  How nice!
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86857
+{
+  name { A black demon }
+  namelist { black demon }
+  shortdesc { A black colored demon rises from the shadows. }
+  longdesc {
+Rising slowly from the shadows, the demon would completely blend with
+the darkness if it was not for a faint outline of its figure.  Suddenly
+the outline is gone and you can feel a faint breath at your neck.
+Something or someone is definitely behind you!  Jumping away quickly,
+you can finally see the demon in full.  It almost looks like a small
+child in shape.  There are no distinct characteristics besides the
+swirling vortex that is its mouth.  It seems to be sucking everything
+in, including you!
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86858
+{
+  name { A black demon }
+  namelist { black demon roaming }
+  shortdesc { A black colored demon stares at you as he materializes. }
+  longdesc {
+Stepping out from the darkness, a pitch-black demon materializes
+directly in front of you.  The demon looks something like a small child,
+except it has no features.  Slowly opening its mouth, the darkness
+in that area begins to swirl and rotate.  It almost looks like a vortex.
+The black demon slowly moves towards you as the vortex swirls faster
+and faster.  You can almost feel yourself being pulled towards it.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 552 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86859
+{
+  name { A shivering demon }
+  namelist { shivering demon }
+  shortdesc { A shivering demon stands up slowly and creeps towards you. }
+  longdesc {
+Slowing rising from the vine in front of you, this demon shivers like
+it is intensely cold.  The air here is rather warm, so something else
+must be happening here.  The shivering demon's head jerks towards you
+with a snap and its eyes open wide.  You can tell it is hungry from 
+the look in its eyes and you appear to be its next meal.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 5000 }
+  hp { 5, 7, 205 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86860
+{
+  name { A shivering demon }
+  namelist { shivering demon roaming }
+  shortdesc { A shivering demon crawls through the vines looking very hungry. }
+  longdesc {
+The shivering demon looks like a mummy as it roams the midnight thicket.
+Its arms are stretched out straight and long, almost like it is 
+searching for something.  It stops abruptly, sensing your presence and 
+its eyes and mouth open wide.  The demon's intense red eyes stare 
+directly into yours and youcan tell only one thing is on its mind.  Its 
+next meal.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 9000 }
+  hp { 8, 9, 450 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86861
+{
+  name { A shivering demon }
+  namelist { shivering demon reaching }
+  shortdesc { A shivering demon reaches out and tries to steal your warmth. }
+  longdesc {
+The demon immediatey reaches for you as you pass by it.  Your skin
+begins to feel cold and your armor starts to crack.  The shivering
+demon begins to smile as it drains your energy.  Its grip is getting
+stronger and firmer.  This would be a great time to run.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 14000 }
+  hp { 8, 9, 595 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86862
+{
+  name { A spikey demon }
+  namelist { spikey demon }
+  shortdesc { A demon with huge spikes grows out from the vines. }
+  longdesc {
+The demon looks almost like a porcupine or puffer fish.  There are small
+spikes sticking out all over its body.  Most noticeably on its forearms,
+chest and back.  The demon is growing out directly from a large length
+of the midnight thicket.  It stares at you intently as you walk further
+along the vine.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 9000 }
+  hp { 8, 9, 462 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86863
+{
+  name { A spikey demon }
+  namelist { spikey demon roaming }
+  shortdesc { A demon covered in huge spikes jumps from vine to vine. }
+  longdesc {
+The spikey demon seems very lively!  It jumps from vine to vine,
+searcing out its next victim.  You almost get lots in its acrobatic
+feats until you realize it is moving directly towards you.  The demon
+raises his hands above his head in a clenched fist and tries to drive
+them into you.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 13000 }
+  hp { 8, 9, 610 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86864
+{
+  name { A spikey demon }
+  namelist { spikey demon shooting }
+  shortdesc { A demon with huge spikes points his fists and shoots some spikes at you. }
+  longdesc {
+You feel a slight prick in your neck, almost like a mosquito.  Looking
+around, you see a large spikey demon staring directly at you.  It 
+raises its arms straight out towards you and small spikes begin to
+fly at you.  Yikes!
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 9 }
+  level { 30 }
+  experience { 18000 }
+  hp { 8, 9, 755 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+86865
+{
+  name { A perched bird }
+  namelist { perched bird }
+  shortdesc { A chirping bird sits perched on top of a vine. }
+  longdesc {
+The bird sits perched on top of a large thorn along the vines of the
+midnight thicket.  It chirps happily and without a care in the world.
+The bird is blue in color and has a white patch on its chest.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 20 }
+  experience { 4000 }
+  hp { 8, 9, 400 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+86866
+{
+  name { A flying bird }
+  namelist { flying bird }
+  shortdesc { A distressed bird can't seem to find its way out of the vines. }
+  longdesc {
+The bird soars in and out of the vines, trying to find a way to escape.
+It can not seem to find a way out.  The bird seems to be in distress.
+It is obvious that this poor creature has been trying to escape for 
+a while.  The bird it red in color and has cute little white patches
+beneath its wings.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 20 }
+  experience { 5000 }
+  hp { 8, 9, 500 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+86867
+{
+  name { A cricket }
+  namelist { cricket }
+  shortdesc { A cricket rubs its legs together as it stares at you. }
+  longdesc {
+The cricket sits peacefully on a nearby fine.  It stares are you, but
+does not seem afraid.  Rubbing its legs together, it seems to be playing
+some music.  It could be pleasant song but may be your death knell.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 10 }
+  experience { 3000 }
+  hp { 4, 5, 300 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+86868
+{
+  name { A roaming cricket }
+  namelist { roaming cricket }
+  shortdesc { A large cricket jumps along the vines. }
+  longdesc {
+The cricket jumps from vine to vine, fluttering its wings to have even
+more air time.  It does not seem to have a care in the world.  Jumping
+on your head and resting for a second, it quickly hops off to another
+vine.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 20 }
+  experience { 4000 }
+  hp { 8, 9, 400 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+86869
+{
+  name { A grasshopper }
+  namelist { grasshopper }
+  shortdesc { A grasshopper chews on one of the larger vines. }
+  longdesc {
+The grasshopper seems to be having the time of its life.  It chews
+away on a vine like it owns the place.  The poor thing must be hungry.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 5, 200 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 0 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+86870
+{
+  name { A roaming grasshopper }
+  namelist { roaming grasshopper }
+  shortdesc { A grasshopper flies blindly through the midnight thicket. }
+  longdesc {
+The grasshopper flies full out through the midnight thicket.  It does
+not seem to want to be here anymore.  You have the same feeling!
+  }
+  race { None }
+  world_limit { 6 }
+  level { 10 }
+  experience { 3000 }
+  hp { 4, 5, 300 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+86871
+{
+  name { A millipede }
+  namelist { millipede }
+  shortdesc { A long millipede curls itself around a large thorn. }
+  longdesc {
+The millipede looks so cute as it sits curled up around the large thorn.
+Its thousand legs move and twitch like it is having a busy dream,
+maybe it is chasing smaller bugs.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 10, 200 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+86872
+{
+  name { A roaming millipede }
+  namelist { roaming millipede }
+  shortdesc { A long millipede twists and clings to a large vine. }
+  longdesc {
+The millipede twists and curls along a large vine as it moves through
+the midnight thicket.  It is quite long as it wraps around the
+considerably large vines almost two times.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 10 }
+  experience { 1000 }
+  hp { 4, 25, 100 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+86873
+{
+  name { A laughing demon }
+  namelist { laughing demon }
+  shortdesc { A demon laughs and dances around the giant cavern with his friends. }
+  longdesc {
+The demon seems to be having a great time.  It laughs at the top of
+its lungs and dances all around the gigantic cavern.  Looking up to
+its master on the top of his throne, the demon shouts something loud
+in its own tongue.  It was probably something celebratory!
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 552 }
+  alignment { 0 }
+  gold { 300 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86874
+{
+  name { A singing demon }
+  namelist { singing demon }
+  shortdesc { A smiling demon sings the praises of the demon prince. }
+  longdesc {
+The demon drops to its knees and bows to Beezlebub Junior.  It smiles
+as it see the demon glow with an intense red light.  Standing up with
+conviction, the demon lets out a strange sounding ballad in honor of
+its master.  You can not understand a thing since it is in demon
+tongue.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 14000 }
+  hp { 8, 9, 595 }
+  alignment { 0 }
+  gold { 400 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86875
+{
+  name { A spinning demon }
+  namelist { spinning demon }
+  shortdesc { A joyful demon grabs his friend and spins around in a circle. }
+  longdesc {
+Spinning like a top, the demon screams with glee as it dances around
+the cavern.  It grabs some of its friends nearby and has them join
+it in the dancing.  Screaming with delight, it lets go of its friends
+and spins off in another direction.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 16000 }
+  hp { 8, 9, 675 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+86876
+{
+  name { A laughing demon }
+  namelist { laughing demon }
+  shortdesc { A demon laughs with all his might at all the fun going on. }
+  longdesc {
+The demon grabs its stomach and doubles over in laughter.  It cannot
+seem to control itself with all the mayhem going on.  The demon stands
+up, points at its friends and laughs even louder.  What a card.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 18000 }
+  hp { 8, 9, 750 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 8 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+86877
+{
+  name { Beelzebub Junior }
+  namelist { Beelzebub junior demon }
+  shortdesc { A smiling demon looks down at you from his throne. }
+  longdesc {
+""So", the demon smiles down at you from his throne.  "You've come to
+take back the heart of the midnight thicket?"  His smile turns into a
+huge demonic grin as he pats his stomach.  "You are too late!  I have
+already eaten its heart and ingested its power!"  Beelzebub Junior
+starts to glow with a red light.  The light has so intense that it
+illuminates the entire cavern.  "Killing me will not get back the
+heart, but you are welcome to try.", he smirks, cackling at the top of
+his lungs.
+  }
+  race { Demon }
+  sex { Male }
+  world_limit { 1 }
+  level { 80 }
+  experience { 50000 }
+  hp { 8, 9, 2123 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.6 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 30, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}

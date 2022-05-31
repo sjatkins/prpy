@@ -1,0 +1,1727 @@
+4301
+{
+  name { orcish guard }
+  namelist { orc guard tall muscular sentry }
+  shortdesc { A tall and muscular orc walks in a sentry circuit, grimacing. }
+  longdesc { 
+This tall orc has obviously been put on guard duty -- he walks back and 
+forth in a sentry circuit, grimacing, and occasionally looking up at 
+the sky to ascertain the time.  He is well-built and seems suited to
+combat, and his boredom may be the result of too little of it. 
+  }
+  sex { Male }
+  level { 320 }
+  race { Orc }
+  experience { 260000 }
+  hp { 50, 10, 3500 }
+  move { 300 }
+  alignment { 0 }
+  gold { 12000 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 2 }
+  head { -50, 13 }
+  body { -40, 12 }
+  arms { -40, 12 }
+  legs { -40, 12 }
+  feet { -40, 12 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4302
+{
+name { the stonemaster }
+namelist { orc massive stone stonemaster }
+shortdesc { A massive, hulking orc seems to be lost in thought. }
+longdesc { 
+This massive orc has skin that has dulled to the color of stone, and 
+seems to have attained its consistency.  His broad brow is furrowed 
+above his slate eyes, and his massive hands folded one into the other. 
+He occasionally blinks, very slowly, as though existing in a place 
+where time moves slower than this one. 
+  }
+  sex { Male }
+  level { 520 }
+  race { Orc }
+  experience { 850000 }
+  hp { 5000, 3, 25000 }
+  move { 1000 }
+  height { 200 }
+  weight { 350 }
+  alignment { 0 }
+  gold { 50000 }
+  caster { 10 }
+  mana { 1000 }
+  power { 200 }
+  dam_bonus { 10 }
+  hit_bonus { 40 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 3 }
+  head { -100, 20 }
+  body { -100, 18 }
+  arms { -100, 18 }
+  legs { -100, 18 }
+  feet { -100, 18 }
+  spells { disruptor, weakness } 
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4303
+{
+  name { an orcish campaigner }
+  namelist { orc nervous tall }
+  shortdesc { A tall, nervous-looking orc stands here, flexing his muscles. }
+  longdesc { 
+This orc is very tall, and well-muscled. His expression is one of 
+nervousness and annoyance, however, and he checks himself over at an 
+obsessive rate.  His skin bears only token scars, perhaps arising 
+from tribal rituals, but likely not from mortal combat. 
+  }
+  sex { Male }
+  level { 350 }
+  race { Orc }
+  experience { 510000 }
+  hp { 200, 20, 7000 }
+  move { 200 }
+  height { 170 }
+  weight { 210 }
+  alignment { -500 }
+  gold { 20000 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -100, 14 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4304
+{
+  name { an elven scout }
+  namelist { elf scout }
+  shortdesc { An elf is very obviously trying to keep out of sight, here. }
+  longdesc { 
+This elf peers about nervously, hoping to remain unseen. He is possessed 
+of considerable stealth, as his continued existance testifies.  His 
+flittering eyes are hazel, and his complexion is fair and soft. His long, 
+elegant hands run themselves across surfaces as he comes into contact 
+with them, keeping the measure and texture of his surroundings. 
+  }
+  sex { Male }
+  level { 400 }
+  race { Elven }
+  experience { 550000 }
+  hp { 4000, 2, 5000 }
+  move { 200 }
+  height { 140 }
+  weight { 112 }
+  alignment { 1000 }
+  gold { 15000 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  dam_bonus { 5 }
+  hit_bonus { 19 }
+  attacks_per_round { 4 }
+  damage { 3, 10, 3 }
+  head { -100, 12 }
+  body { -100, 11 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  spells { chilly, mind thrust  }
+  affected { infravision, true-sight, sneak }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4305
+{
+  name { orcish armourer }
+  namelist { orc muscled armourer }
+  shortdesc { A muscular orcish woman stands here, arms folded across her chest, grinning toothily. }
+  longdesc { 
+This woman is built compactly, and possessed of the kind of musculature 
+normally associated with a wild animal.  Her obvious strength doesn't 
+detract from her charms, but rather seems to add to them, or perhaps 
+even be the base of them.  Her flint-grey eyes are set beneath a pair of 
+thick eyebrows, and her facial features are prominent to the point of 
+aquilinity.  Her hands are calloused and cracked from labouring. 
+  }
+  sex { Female }
+  level { 508 }
+  race { Orc }
+  experience { 800000 }
+  hp { 200, 100, 20000 }
+  move { 500 }
+  height { 170 }
+  weight { 200 }
+  alignment { 0 }
+  gold { 65000 }
+  dam_bonus { 12 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -100, 15 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4306
+{
+  name { supply clerk }
+  namelist { orc clerk supply frantic }
+  shortdesc { A frantic-looking orc runs to and fro, checking on the status of supplies. }
+  longdesc { 
+This orc moves around at a very rapid speed, his long arms reaching from 
+shelf to shelf and counter to counter, sorting powders and tinctures and 
+liquids with astonishing speed.  A sweat has broken out across his brow, 
+and droplets of moisture roll into his haggard yellow eyes. 
+  }
+  sex { Male }
+  level { 150 }
+  race { Orc }
+  experience { 220000 }
+  hp { 100, 10, 3000 }
+  move { 200 }
+  height { 160 }
+  weight { 180 }
+  alignment { 0 }
+  gold { 10000 }
+  dam_bonus { 5 }
+  hit_bonus { 17 }
+  attacks_per_round { 4 }
+  damage { 3, 4, 3 }
+  head { 30, 11 }
+  body { 40, 10 }
+  arms { 40, 10 }
+  legs { 40, 10 }
+  feet { 40, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4307
+{
+  name { an apprentice smith }
+  namelist { orc strong apprentice smith }
+  shortdesc { A very strong-looking orc works the forge. }
+  longdesc { 
+This orc has a barrel-chest and arms that ripple with muscles, gleaming 
+beneath the sheen of sweat that coats his body. He works at a steady, 
+unyielding pace and displays no sign of being tired, at all. His eyes, 
+peculiarly, are bright blue and sparkle brilliantly within his grayish, 
+grim countenance. 
+  }
+  sex { Male }
+  level { 300 }
+  race { Orc }
+  experience { 420000 }
+  hp { 200, 8, 8000 }
+  move { 300 }
+  height { 200 }
+  weight { 300 }
+  alignment { 0 }
+  gold { 15600 }
+  dam_bonus { 12 }
+  hit_bonus { 22 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 2 }
+  head { -120, 15 }
+  body { -120, 14 }
+  arms { -120, 14 }
+  legs { -120, 14 }
+  feet { -120, 14 }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4308
+{
+  name { a massive orc Blacksmith}
+  namelist { massive orc blacksmith smith }
+  shortdesc { An absolutely massive orc Blacksmith stands here, working the forge. }
+  longdesc { 
+This orc is huge.  His chest is so broad that it seems a beast attempting 
+to escape from his skin, and his long arms are bulky in the manner that 
+only unceasing physical activity can bring about.  His yellow eyes are 
+bright as jewels, and his skin is a mottled gray and black, with splotches 
+of white where it has been burned by chemicals.  His expression is grim, 
+humorless and full of concentration. 
+  }
+  sex { Male }
+  level { 450 }
+  race { Orc }
+  experience { 750000 }
+  hp { 3000, 3, 16000 }
+  move { 1000 }
+  height { 240 }
+  weight { 400 }
+  alignment { 0 }
+  gold { 35000 }
+  dam_bonus { 15 }
+  hit_bonus { 32 }
+  attacks_per_round { 5 }
+  damage { 3, 4, 2 }
+  head { -60, 15 }
+  body { -50, 14 }
+  arms { -50, 14 }
+  legs { -50, 14 }
+  feet { -50, 14 }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone, special }
+}
+
+4309
+{
+  name { a tall barbarian }
+  namelist { barbarian human quencher }
+  shortdesc { A tall human seems out of place amidst the forge, quenching steel as it is produced. }
+  longdesc { 
+This human would tower above most of his race.  His build is lanky, and 
+his green eyes display the glint of deep intelligence, muted to better 
+adapt to his condition.  His long, blonde hair is kept in an unkempt 
+ponytail that dangles halfway down his back, and his skin is covered in 
+blue and green tattoos. 
+  }
+  sex { Male }
+  level { 310 }
+  race { Human }
+  experience { 540000 }
+  hp { 20, 100, 7000 }
+  move { 200 }
+  height { 220 }
+  weight { 160 }
+  alignment { 1000 }
+  gold { 8000 }
+  dam_bonus { 5 }
+  hit_bonus { 15 }
+  attacks_per_round { 4 }
+  damage { 4, 4, 1 }
+  head { -80, 10 }
+  body { -80, 9 }
+  arms { -80, 9 }
+  legs { -80, 9 }
+  feet { -80, 9 }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4310
+{
+  name { the jeweler }
+  namelist { thin orc jeweler }
+  shortdesc { A tall, thin orc stands here, his dextrous hands moving nimbly. }
+  longdesc { 
+This tall orc is almost elfin in his appearance.  Though obviously strong, 
+his physique is more toned than muscular.  He carries himself haughtily, 
+his graying hair swept back from his temples and worn loose across his
+back.  His eyes are a brilliant shade of penetrating blue. 
+  }
+  sex { Male }
+  level { 400 }
+  race { Orc }
+  experience { 750000 }
+  hp { 200, 20, 18000 }
+  move { 400 }
+  height { 190 }
+  weight { 170 }
+  alignment { 0 }
+  gold { 70000 }
+  caster { 20 }
+  mana { 800 }
+  power { 800 }
+  dam_bonus { 6 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 2 }
+  head { -90, 13 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  spells { repulsor, mind thrust, gust of wind }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4311
+{
+  name { a towering gateguard }
+  namelist { towering gateguard orc }
+  shortdesc { A towering gateguard stands at the ready, eyes narrowed. }
+  longdesc { 
+This female orc stands at least two meters tall, and stands at full 
+alertness, gazing from the gates and into the wilderness beyond.  Her 
+body is keenly shifted to attention, and her green eyes gleam with 
+cunning and cruelty. 
+  }
+  sex { Female }
+  level { 320 }
+  race { Orc }
+  experience { 420000 }
+  hp { 30, 50, 7000 }
+  move { 500 }
+  height { 210 }
+  weight { 260 }
+  alignment { -1000 }
+  gold { 13500 }
+  dam_bonus { 8 }
+  hit_bonus { 18 }
+  attacks_per_round { 4 }
+  damage { 4, 4, 1 }
+  head { 20, 15 }
+  body { 0, 12 }
+  arms { 0, 12 }
+  legs { 1, 12 }
+  feet { 20, 12 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4312
+{
+  name { an orcish baker }
+  namelist { orc baker rotund }
+  shortdesc { A rotund orc slumps against a wall here, covered in flour and sweat. }
+  longdesc { 
+This orc bears an ample midsection, and has somehow managed to coat his 
+entire body in a layer of fine flour, disturbed only by the rivulets of 
+sweat streaming down his skin.  A weary expression rests on his face in
+such a manner that it likely seldom leaves, and his hands bear hard 
+callouses from hot surfaces and steady work. 
+  }
+  sex { Male }
+  level { 120 }
+  race { Orc }
+  experience { 95000 }
+  hp { 500, 2, 1000 }
+  move { 200 }
+  height { 160 }
+  weight { 280 }
+  alignment { 0 }
+  gold { 5000 }
+  dam_bonus { 5 }
+  hit_bonus { 15 }
+  attacks_per_round { 2 }
+  damage { 2, 8, 0 }
+  head { 20, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision, true-sight }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4313
+{
+  name { a wealthy orcish woman }
+  namelist { orc woman }
+  shortdesc { An orcish woman stands here haughtily. }
+  longdesc { 
+This orcish woman presents all of the attributes that any orc might find 
+desirable in a mate -- her tusks are perfectly formed, and curve alluringly 
+across her upper lip, while her physique displays the hardness of one 
+readied for battle coupled with the broad hips associated with childbearing. 
+  }
+  sex { Female }
+  level { 80 }
+  race { Orc }
+  experience { 90000 }
+  hp { 5, 100, 1000 }
+  move { 200 }
+  height { 140 }
+  weight { 130 }
+  alignment { 0 }
+  gold { 3000 }
+  dam_bonus { 4 }
+  hit_bonus { 10 }
+  attacks_per_round { 2 }
+  damage { 2, 6, 0 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 30, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  affected { infravision, true-sight }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4314
+{
+  name { an orcish shaman }
+  namelist { shaman orc }
+  shortdesc { A youthful orcish shaman chants slowly under his breath. }
+  longdesc { 
+This youthful orc has no marks on his skin, save for two thick scars 
+creasing his cheeks and marking him as one of the few selected to 
+undergo initiation in the shamanic rites. His eyes are a fiery shade 
+of orange, and voraciously sweep his surroundings as if to somehow 
+absorb or encapsulate them. 
+}
+  sex { Male }
+  level { 300 }
+  race { Orc }
+  experience { 820000 }
+  hp { 2, 1000, 12000 }
+  move { 200 }
+  height { 180 }
+  weight { 200 }
+  alignment { -600 }
+  gold { 16000 }
+  caster { 20 }
+  mana { 800 }
+  power { 800 }
+  dam_bonus { 7 }
+  hit_bonus { 19 }
+  attacks_per_round { 2.5 }
+  damage { 4, 5, 2 }
+  head { 10, 16 }
+  body { 10, 15 }
+  arms { 10, 15 }
+  legs { 10, 15 }
+  feet { 10, 15 }
+  spells { disruptor, weakness, harm, holy word, shriek, gust of wind }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4315
+{
+  name { the Ironaxe Chief }
+  namelist { chief large regal orc }
+  shortdesc { A large, regal-appearing orc stands casually here. }
+  longdesc { 
+This tall orc bristles with the quiet confidence of one unused to being 
+balked.  His body is well-formed, and surprisingly bears almost no scars 
+from conflict.  His large, well-worn hands display a familiarity with 
+weaponry in the pattern of their callouses, and his stance is of one
+prepared, but not expecting, an attack at any moment.  A permanent smile 
+seems to be at play across his lips, causing his tusks to be bared and 
+unbared regularly, though it doesn't twinkle in his slate-gray eyes. 
+  }
+  sex { Male }
+  level { 550 }
+  race { Orc }
+  experience { 890000 }
+  hp { 20, 100, 20000 }
+  move { 400 }
+  height { 210 }
+  weight { 280 }
+  alignment { -1000 }
+  gold { 50000 }
+  caster { 10 }
+  mana { 800 }
+  power { 800 }
+  dam_bonus { 11 }
+  hit_bonus { 25 }
+  attacks_per_round { 4 }
+  damage { 3, 5, 2 }
+  head { -110, 20 }
+  body { -95, 18 }
+  arms { -95, 18 }
+  legs { -95, 17 }
+  feet { -95, 17 }
+  spells { repulsor, blindness }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4316
+{
+  name { an Ironaxe attendant }
+  namelist { powerful warrior orc }
+  shortdesc { A powerful orcish warrior stands stiffly at attention. }
+  longdesc { 
+This attendant has been drilled since his youth in the duties of his 
+station.  He stands rigidly still, his back as straight as a board, and 
+his eyes narrowed to take in only what appears directly before him.  His 
+sea-gray eyes are expressionless, and within their depths swims only
+obedience and loyalty. 
+  }
+  sex { Male }
+  level { 380 }
+  race { Orc }
+  experience { 450000 }
+  hp { 10, 400, 6000 }
+  move { 200 }
+  height { 190 }
+  weight { 230 }
+  alignment { -1000 }
+  gold { 10000 }
+  dam_bonus { 8 }
+  hit_bonus { 30 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 2 }
+  head { -100, 10 }
+  body { -100, 8 }
+  arms { -100, 8 }
+  legs { -100, 8 }
+  feet { -100, 8 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4317
+{
+  name { an orcish man }
+  namelist { orc man }
+  shortdesc { An orcish male wanders about listlessly. }
+  longdesc { 
+This orc does not bear sufficient scars to class him as a member of the 
+warrior caste, and so it is likely that the grin dancing across his lips 
+is not due to the savouring of an enemy vanquished, but rather of another 
+gold piece earned.  Although muscular, his stomach has developed the
+paunch associated with the easy life, and he seems dull and unalert. 
+  }
+  world_limit { 2 }
+  sex { Male }
+  level { 120 }
+  race { Orc }
+  experience { 90000 }
+  hp { 2, 200, 1000 }
+  move { 200 }
+  height { 160 }
+  weight { 180 }
+  alignment { -500 }
+  gold { 4000 }
+  dam_bonus { 5 }
+  hit_bonus { 10 }
+  attacks_per_round { 2 }
+  damage { 3, 4, 3 }
+  head { 25, 5 }
+  body { 25, 5 }
+  arms { 25, 5 }
+  legs { 25, 5 }
+  feet { 25, 5 }
+  affected { infravision, true-sight }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, stay-zone }
+}
+
+4318
+{
+  name { an orcish woman }
+  namelist { orc female woman }
+  shortdesc { A bored-looking orcish female wanders nearby. }
+  longdesc { 
+This orcish woman must once have been attractive, but her tusks have 
+now yellowed and cracked in an unappealing way, making her seem 
+incapable of even drawing blood with a bite.  Her stomach is rounded, 
+though likely with mutton and not a contribution to the orcish armies.
+Her hands are appallingly smooth for an orc; she has grown used to the 
+city life, and this fact is reflected in the drowsiness evident within 
+her dim blue eyes. 
+  }
+  world_limit { 2 }
+  sex { Female }
+  level { 100 }
+  race { Orc }
+  experience { 90000 }
+  hp { 5, 100, 1200 }
+  move { 200 }
+  height { 120 }
+  weight { 140 }
+  alignment { 0 }
+  gold { 4000 }
+  dam_bonus { 8 }
+  hit_bonus { 4 }
+  attacks_per_round { 2 }
+  damage { 3, 4, 3 }
+  head { 40, 5 }
+  body { 40, 5 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  affected { infravision, true-sight }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4319
+{
+  name { the tattooist }
+  namelist { orc woman tattooist }
+  shortdesc { An tall and slender orcish woman covered in cerulean and emerald tattoos, looks about attentively. }
+  longdesc { 
+This orcish woman is as tall and slender as a willow branch, and 
+completely naked save for the tattoos that have been etched across her 
+perfect body.  The swirling patterns accentuate her flawless attributes, 
+from her hardened gray skin to her high breasts to the tusks that
+curve upwards very nearly to the bottoms of her glowing yellow eyes. 
+Her expression is one of inquisitiveness and curiousity, flirting with 
+the possibility of experimentation. 
+  }
+  sex { Female }
+  level { 440 }
+  race { Orc }
+  experience { 840000 }
+  hp { 2, 1000, 21000 }
+  move { 600 }
+  height { 190 }
+  weight { 120 }
+  alignment { 0 }
+  gold { 60000 }
+  caster { 15 }
+  mana { 700 }
+  power { 700 }
+  dam_bonus { 16 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 2 }
+  head { -50, 25 }
+  body { -50, 25 }
+  arms { -50, 20 }
+  legs { -50, 20 }
+  feet { -50, 20 }
+  spells { disruptor, repulsor, freeze, shriek, gust of wind }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4320
+{
+  name { the Spirit of Siragus }
+  namelist { spirit ghastly }
+  shortdesc { A ghastly spirit flutters here, stinking of brimstone. }
+  longdesc { 
+This horrific spirit is semi-transparent, and its form dances with flames. 
+Ashes swirl about and help to give definition to its lines -- it appears 
+to have been, in life, a mighty warrior, now reduced to an undeath of 
+hellish torment.  Laughter flows freely along with the flames, calling
+into question whether this is an eternity of punishment or glee, and 
+the shade's eyes flash red as it glances about. 
+  }
+  sex { Male }
+  level { 535 }
+  race { Undead }
+  experience { 1250000 }
+  hp { 2, 1000, 32000 }
+  move { 400 }
+  height { 180 }
+  weight { 180 }
+  alignment { -1000 }
+  gold { 25000 }
+  caster { 20 }
+  mana { 1000 }
+  power { 1000 }
+  dam_bonus { 18 }
+  hit_bonus { 30 }
+  attacks_per_round { 6 }
+  damage { 3, 4, 3 }
+  head { -120, 25 }
+  body { -120, 18 }
+  arms { -120, 18 }
+  legs { -120, 18 }
+  feet { -120, 18 }
+  spells { disruptor, dispel magic, weakness, gust of wind }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  susceptible { cold, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+4321
+{
+  name { an orcish acolyte }
+  namelist { orc acolyte scarred }
+  shortdesc { A thin, heavily scarred orc wanders about with his hands clasped before him. }
+  longdesc { 
+This orc has been ritually scarred across most of his visible body, with 
+tattoos twining about them as if to tell the story of their making.  He 
+has bright, piercing blue eyes and a facial expression best described 
+as grim.  He is, perhaps, peering into a world beyond our own and
+discovering something not to his liking. 
+  }
+  world_limit { 3 }
+  sex { Male }
+  level { 200 }
+  race { Orc }
+  experience { 280000 }
+  hp { 20, 200, 2500 }
+  move { 400 }
+  height { 170 }
+  weight { 180 }
+  alignment { 200 }
+  gold { 9000 }
+  caster { 10 }
+  mana { 500 }
+  power { 500 }
+  dam_bonus { 8 }
+  hit_bonus { 18 }
+  attacks_per_round { 2 }
+  damage { 3, 7, 3 }
+  head { -60, 12 }
+  body { -60, 10 }
+  arms { -60, 10 }
+  legs { -60, 10 }
+  feet { -60, 10 }
+  spells { mind thrust, dispel magic }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, stay-zone }
+}
+
+4322
+{
+  name { a powerful shaman }
+  namelist { shaman orc powerful }
+  shortdesc { A powerfully built orcish shaman kneels here, his body tensed. }
+  longdesc { 
+This orcish shaman has a build normally associated with a warrior, but 
+the scars and tattoos that are the right only of the shaman caste.  His 
+body trembles as he kneels, his muscles coiling and uncoiling rapidly. 
+The spiralling tattoos and the scars mingle together, until it appears 
+that you can see the blood this shaman has shed for his totems coursing 
+across his body, and feeding power into his being.  His eyes are a 
+brilliant, multi-faceted shade of green, like burning emeralds set into 
+his dark and creased visage. 
+  }
+  sex { Male }
+  level { 440 }
+  race { Orc }
+  experience { 850000 }
+  hp { 100, 100, 14000 }
+  move { 0 }
+  height { 190 }
+  weight { 240 }
+  alignment { -1000 }
+  gold { 24000 }
+  caster { 15 }
+  mana { 700 }
+  power { 700 }
+  dam_bonus { 15 }
+  hit_bonus { 22 }
+  attacks_per_round { 4 }
+  damage { 4, 4, 4 }
+  head { -100, 25 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -50, 10 }
+  feet { -50, 10 }
+  spells { disruptor, mind thrust }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4323
+{
+  name { an ancient shaman }
+  namelist { ancient shaman orc }
+  shortdesc { An ancient, weathered orc sits calmly cross-legged. }
+  longdesc { 
+This orc's nearly translucent skin has collapsed into layer upon layer 
+of wrinkles and scars, and his ritualistic tattoos have fallen into 
+the mix.  Simply distinguishing a nose or an ear can be a chore, 
+particularly with the wisps of whitened hair that hang across his face
+and chest, blowing this way and that with the breezes that caress him. 
+His sunken amber eyes, though, cannot be missed. They carry a hatred 
+and a power that seems beyond all reckoning and that sits at odds with 
+his nonchalant stance. 
+  }
+  sex { Male }
+  level { 527 }
+  race { Orc }
+  experience { 1500000 }
+  hp { 100, 100, 30000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { -1000 }
+  gold { 40000 }
+  caster { 20 }
+  mana { 1000 }
+  power { 1000 }
+  dam_bonus { 15 }
+  hit_bonus { 35 }
+  attacks_per_round { 4 }
+  damage { 4, 3, 2 }
+  head { -160, 25 }
+  body { -150, 25 }
+  arms { -120, 20 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  spells { disruptor, dispel magic, gust of wind }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4324
+{
+  name { a frenzied warrior }
+  namelist { warrior crazed frenzied orc }
+  shortdesc { A youthful orc, dripping blood, screams wildly in an ululating tone. }
+  longdesc { 
+This youthful orc has deep cuts across his collar-bones that have yet 
+to heal; they drip blood across his muscled chest and around the single 
+tattoo impressed upon it.  His canine-yellow eyes are creased by his 
+lids as he attempts to master the pain that he's been placed in, and
+his throat gives voice to a lament more savage and keening than that 
+of any wolf. 
+  }
+  sex { Male }
+  level { 200 }
+  race { Orc }
+  experience { 120000 }
+  hp { 20, 20, 1500 }
+  move { 400 }
+  height { 180 }
+  weight { 200 }
+  alignment { 0 }
+  gold { 8000 }
+  dam_bonus { 5 }
+  hit_bonus { 15 }
+  attacks_per_round { 2 }
+  damage { 3, 7, 0 }
+  head { 20, 7 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 50, 3 }
+  feet { 50, 3 }
+  affected { infravision, true-sight }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4325
+{
+  name { an orcish priest }
+  namelist { orc priest youthful }
+  shortdesc { A youthful orc stands with his hands folded across his shoulders. }
+  longdesc { 
+This orc is unscarred, and yet still has the cool confidence associated 
+with the shamanic caste. His blue eyes are dull, though that appears 
+more a deception than an actuality. He is well-built, though his 
+physique is not overpowering, and he continually makes a curious, 
+growling keen from the back of his throat. 
+  }
+  sex { Male }
+  level { 300 }
+  race { Orc }
+  experience { 820000 }
+  hp { 1000, 3, 7000 }
+  move { 400 }
+  height { 160 }
+  weight { 180 }
+  alignment { 200 }
+  gold { 19250 }
+  caster { 10 }
+  mana { 800 }
+  power { 800 }
+  dam_bonus { 15 }
+  hit_bonus { 30 }
+  attacks_per_round { 4 }
+  damage { 3, 8, 2 }
+  head { -70, 21 }
+  body { -70, 18 }
+  arms { -70, 18 }
+  legs { -60, 14 }
+  feet { -60, 14 }
+  spells { disruptor, weakness }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4326
+{
+  name { the ironmaster }
+  namelist { orc massive iron ironmaster }
+  shortdesc { A massive, hulking orc seems to be lost in thought. }
+  longdesc { 
+This massive orc has skin that has darkened to the color of worked, and 
+seems to have attained its consistency.  His broad brow is furrowed above 
+his coal eyes, and his massive hands folded one into the other.  He
+occasionally blinks, very slowly, as though existing in a place where 
+time moves slower than this one.
+  }
+  sex { Male }
+  level { 515 }
+  race { Orc }
+  experience { 1105000 }
+  hp { 5000, 3, 25000 }
+  move { 1000 }
+  height { 200 }
+  weight { 350 }
+  alignment { 0 }
+  gold { 50000 }
+  dam_bonus { 20 }
+  hit_bonus { 40 }
+  attacks_per_round { 4 }
+  damage { 4, 5, 4 }
+  head { -150, 40 }
+  body { -150, 30 }
+  arms { -150, 30 }
+  legs { -150, 30 }
+  feet { -150, 30 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4327
+{
+  name { the Bloodscalp Chief }
+  namelist { chief large bulky orc }
+  shortdesc { A bulky orc of regal bearing stands here impatiently. }
+  longdesc { 
+This bulky orc is possessed of dull yellow eyes that flit constantly 
+from side to side.  His powerful physique seems to be coiled like the 
+body of a serpent, prepared to strike at any moment.  Scars and tattoos 
+are laced sporadically across his body, particularly grouped about his
+chest. He has the bearing of a ruler, unused to taking orders but 
+accustomed to giving them. 
+  }
+  sex { Male }
+  level { 450 }
+  race { Orc }
+  experience { 875000 }
+  hp { 20, 100, 20000 }
+  move { 400 }
+  height { 210 }
+  weight { 280 }
+  alignment { -1000 }
+  gold { 50000 }
+  dam_bonus { 20 }
+  hit_bonus { 35 }
+  attacks_per_round { 4 }
+  damage { 4, 7, 2 }
+  head { -120, 30 }
+  body { -120, 30 }
+  arms { -120, 20 }
+  legs { -120, 20 }
+  feet { -120, 20 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4328
+{
+  name { a Bloodscalp attendant }
+  namelist { powerful warrior orc }
+  shortdesc { A powerful orcish warrior stands stiffly at attention. }
+  longdesc { 
+This attendant has been drilled since his youth in the duties of his 
+station.  He stands rigidly still, his back as straight as a board, and 
+his yellow eyes narrowed to take in only what appears directly before 
+him. 
+  }
+  sex { Male }
+  level { 380 }
+  race { Orc }
+  experience { 445000 }
+  hp { 10, 400, 6000 }
+  move { 200 }
+  height { 190 }
+  weight { 230 }
+  alignment { -1000 }
+  gold { 20000 }
+  dam_bonus { 5 }
+  hit_bonus { 18 }
+  attacks_per_round { 3.1 }
+  damage { 3, 5, 4 }
+  head { -100, 12 }
+  body { -100, 11 }
+  arms { -100, 11 }
+  legs { -100, 11 }
+  feet { -100, 11 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4329
+{
+  name { the Lapislaz Chieftess }
+  namelist { woman orc slender tall }
+  shortdesc { A tall and slender orcish woman stands here, smirking. }
+  longdesc { 
+This tall, slender orcish woman has deep and sombre blue eyes that do 
+not match the smirk constantly curling its way about her tusks.  Her 
+skin is virtually flawless, and a light gray in tone.  She carries 
+herself with the easy bearing of one unused to opposition and defined
+by a quiet competence. 
+  }
+  sex { Female }
+  level { 450 }
+  race { Orc }
+  experience { 850000 }
+  hp { 20, 100, 20000 }
+  move { 400 }
+  height { 220 }
+  weight { 210 }
+  alignment { 0 }
+  gold { 50000 }
+  dam_bonus { 9 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 3, 9, 6 }
+  head { -150, 25 }
+  body { -150, 20 }
+  arms { -150, 20 }
+  legs { -150, 20 }
+  feet { -150, 20 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4330
+{
+  name { a Lapislaz attendant }
+  namelist { powerful warrior orc }
+  shortdesc { A powerful orcish warrior stands stiffly at attention. }
+  longdesc { 
+This woman has been taught the rigors of loyalty since a young age, and 
+the teachings are displayed in her posture.  She stands stiffly at 
+attention, blue eyes constantly scanning the area, prepared for whatever 
+might befall her or those in her charge.  Her skin is flawless, and small
+tattoos run up her arms to her collar bones. 
+  }
+  sex { Female }
+  level { 380 }
+  race { Orc }
+  experience { 399000 }
+  hp { 10, 400, 5000 }
+  move { 200 }
+  height { 190 }
+  weight { 230 }
+  alignment { -1000 }
+  gold { 10000 }
+  dam_bonus { 8 }
+  hit_bonus { 19 }
+  attacks_per_round { 4 }
+  damage { 4, 4, 6 }
+  head { -110, 12 }
+  body { -100, 11 }
+  arms { -100, 11 }
+  legs { -100, 11 }
+  feet { -100, 11 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4331
+{
+  name { the Blackwolf Chiefess }
+  namelist { vicious female tall chieftess }
+  shortdesc { A tall and vicious looking orcish female. }
+  longdesc { 
+This tall orcish female wears a scowl tinged with bloodlust.  Her tusks 
+twist in upon themselves, eventually rising to her thin nostrils.  Her 
+body is muscular, and her movements indicate a dissatisfaction with 
+the notion of standing still.  Her eyes are a mossy shade of green, and
+almost go unnoticed, set deeply within her gray features. 
+  }
+  sex { Male }
+  level { 450 }
+  race { Orc }
+  experience { 875000 }
+  hp { 20, 100, 20000 }
+  move { 400 }
+  height { 210 }
+  weight { 280 }
+  alignment { -1000 }
+  gold { 50000 }
+  dam_bonus { 10 }
+  hit_bonus { 25 }
+  attacks_per_round { 5 }
+  damage { 4, 4, 4 }
+  head { -150, 30 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -120, 20 }
+  feet { -100, 20 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4332
+{
+  name { a Blackwolf attendant }
+  namelist { powerful orc spear spearmaiden maiden }
+  shortdesc { A powerful orcish spearmaiden stands stiffly at attention. }
+  longdesc { 
+This orcish spearmaiden has long, ropy arms and an extremely stiff 
+posture.  Her green eyes sparkle as she surveys the area around her 
+attentively. 
+  }
+  sex { Male }
+  level { 380 }
+  race { Orc }
+  experience { 475000 }
+  hp { 10, 400, 6000 }
+  move { 200 }
+  height { 190 }
+  weight { 230 }
+  alignment { -1000 }
+  gold { 10000 }
+  dam_bonus { 7 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 4, 4, 2 }
+  head { -100, 12 }
+  body { -100, 11 }
+  arms { -100, 11 }
+  legs { -100, 11 }
+  feet { -100, 11 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4333
+{
+  name { a creature of crystal and light }
+  namelist { creature crystal light }
+  shortdesc { A bizarre creature seemingly formed of crystal and light shimmers, here. }
+  longdesc { 
+This strange creature has somehow been formed from shards of razor-
+sharp crystal, seemingly bound together by ribbons of multi-coloured 
+light.  It moves in the manner of a monster on a rampage, heedless of 
+its surroundings and any beings that may inhabit them. 
+  }
+  sex { Neuter }
+  level { 350 }
+  race { Demon }
+  experience { 900000 }
+  hp { 20, 20, 20000 }
+  move { 3000 }
+  height { 300 }
+  weight { 100 }
+  alignment { 0 }
+  gold { 45000 }
+  caster { 20 }
+  power { 1000 }
+  mana { 1000 }
+  dam_bonus { 15 }
+  hit_bonus { 35 }
+  attacks_per_round { 4 }
+  damage { 4, 9, 2 }
+  head { -130, 20 }
+  body { -150, 18 }
+  arms { -130, 18 }
+  legs { -100, 18 }
+  feet { -100, 18 }
+  spells { shriek, disruptor }
+  affected { invulnerability, infravision, true-sight }
+  immune { charm, hold, backstab }
+  resistant { fire, cold }
+  susceptible { blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+
+4334
+{
+  name { a creature of shadow }
+  namelist { shadow creature humanoid }
+  shortdesc { Multiple shadows coalesce into a form vaguely resembling a humanoid. }
+  longdesc { 
+Thick, inky shadows coalesce here into a form that mostly resembles a 
+humanoid, although the number of limbs, heads, and even bodies shifts 
+and alters as the darkness oozes to and fro.  The shadows seem to have 
+no purpose, and no awareness of their surroundings. They slide 
+aimlessly onward, disregarding anything that might get in their way. 
+  }
+  sex { Neuter }
+  level { 350 }
+  race { Demon }
+  experience { 950000 }
+  hp { 300, 6, 20000 }
+  move { 3000 }
+  height { 400 }
+  weight { 0 }
+  alignment { 0 }
+  gold { 35000 }
+  caster { 20 }
+  mana { 1000 }
+  power { 1000 }
+  dam_bonus { 10 }
+  hit_bonus { 25 }
+  attacks_per_round { 6 }
+  damage { 3, 4, 5 }
+  head { -50, 25 }
+  body { -50, 20 }
+  arms { -50, 20 }
+  legs { -50, 20 }
+  feet { -50, 20 }
+  spells { mage fire, shriek, repulsor, dispel magic }
+  affected { sanctuary, infravision, true-sight, hide }
+  immune { charm, hold }
+  resistant { fire, pierce, slash }
+  susceptible { cold, electricity }
+  act { npc, stay-zone }
+}
+
+4335
+{
+  name { a misshapen creature }
+  namelist { deformed creature misshapen }
+  shortdesc { A deformed creature of indeterminate origin drags itself forward. }
+  longdesc { 
+The lineage of this creature is a mystery.  Its body appears to be formed 
+of parts of various creatures, including a heavily scarred humanoid torso 
+and the arms of some sort of giant insectoid.  Its head appears to be 
+that of an elf, but when it opens its mouth to howl mournfully, chitinous 
+inner workings can be glimpsed. 
+  }
+  sex { Neuter }
+  level { 300 }
+  race { Mutant }
+  experience { 699000 }
+  hp { 20, 100, 10000 }
+  move { 10000 }
+  height { 200 }
+  weight { 300 }
+  alignment { 0 }
+  gold { 25000 }
+  dam_bonus { 10 }
+  hit_bonus { 22 }
+  attacks_per_round { 6 }
+  damage { 4, 2, 4 }
+  head { -50, 30 }
+  body { -50, 20 }
+  arms { -50, 20 }
+  legs { -50, 20 }
+  feet { -50, 20 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, stay-zone }
+}
+
+4336
+{
+name { an insectoid creature }
+namelist { huge insectoid }
+shortdesc { A huge insectoid of some sort rests here, coated in blood and gore. }
+longdesc { 
+This massive insectoid creature has razor sharp and multi-jointed limbs 
+that, along with its mandibles, seem constantly to be in motion.  Rather 
+than being a typical insect of any sort, this creature seems to exist 
+for no other reason than to kill the unwary, and the blood and bile 
+coating the beast bear a mute and powerful testament to this fact.  A
+klacking sound issues forth from somewhere in the mass of its body, 
+unceasingly. 
+  }
+  sex { Neuter }
+  level { 480 }
+  race { Insect }
+  experience { 1000000 }
+  hp { 20, 100, 25000 }
+  move { 2000 }
+  height { 300 }
+  weight { 800 }
+  alignment { 0 }
+  gold { 45000 }
+  dam_bonus { 15 }
+  hit_bonus { 25 }
+  attacks_per_round { 6 }
+  damage { 3, 4, 2 }
+  head { -40, 20 }
+  body { -20, 18 }
+  arms { -20, 18 }
+  legs { -20, 18 }
+  feet { -20, 18 }
+  affected { infravision, true-sight }
+  immune { charm }
+  susceptible { cold, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+4337
+{
+  name { a wailing shade }
+  namelist { waling shade image orc }
+  shortdesc { A shadowy image of an orc keens mournfully. }
+  longdesc { 
+The vague outlines of this entity provide just enough detail to 
+determine that the shade must once have belonged to the orcish race, 
+being possessed of their typical physique.  From within the shade 
+issues forth a keening wail that chills the soul. 
+  }
+  sex { Neuter }
+  level { 250 }
+  race { Undead }
+  experience { 535000 }
+  hp { 2, 1000, 5000 }
+  move { 200 }
+  height { 200 }
+  weight { 0 }
+  alignment { -1000 }
+  gold { 15000 }
+  caster { 10 }
+  power { 800 }
+  mana { 800 }
+  dam_bonus { 8 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 3, 8, 6 }
+  head { -80, 20 }
+  body { -80, 19 }
+  arms { -80, 19 }
+  legs { -80, 19 }
+  feet { -80, 19 }
+  spells { shriek, mind thrust }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire, pierce, slash, blunt }
+  susceptible { cold, energy }
+  act { npc, sentinel, stay-zone }
+}
+
+4338
+{
+  name { a cautious orc }
+  namelist { orc cautious }
+  shortdesc { An orc cautiously moves through the area, peering about. }
+  longdesc { 
+This orc is extremely nervous. He constantly peers from side to side, 
+and his yellow eyes display an evident fear.  He has two wounds across 
+his collarbone, both of which drip blood in a slow but steady stream, 
+and both of which have begun to coagulate with a thick black crust. 
+  }
+  sex { Male }
+  level { 250 }
+  race { Orc }
+  experience { 320000 }
+  hp { 200, 40, 2000 }
+  move { 200 }
+  height { 180 }
+  weight { 200 }
+  alignment { 0 }
+  gold { 15000 }
+  dam_bonus { 9 }
+  hit_bonus { 25 }
+  attacks_per_round { 4 }
+  damage { 3, 2, 3 }
+  head { 10, 10 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  susceptible { cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4339
+{
+  name { the warrior of light }
+  namelist { light warrior }
+  shortdesc { The outline of a warrior can be seen faintly, absorbing and radiating large amounts of light. }
+  longdesc { 
+No features of this warrior can be seen, save that his statue is massive 
+and that he is roughly humanoid in form.  The light being cast from him 
+is too intense to distinguish any more detail. 
+  }
+  sex { Male }
+  level { 525 }
+  race { Planar }
+  experience { 1500000 }
+  hp { 20, 100, 27500 }
+  move { 1000 }
+  height { 220 }
+  weight { 300 }
+  alignment { 1000 }
+  gold { 100000 }
+  caster { 15 }
+  mana { 1000 }
+  power { 1000 }
+  dam_bonus { 20 }
+  hit_bonus { 40 }
+  attacks_per_round { 6 }
+  damage { 4, 5, 3 }
+  head { -160, 30 }
+  body { -160, 20 }
+  arms { -160, 20 }
+  legs { -120, 20 }
+  feet { -120, 20 }
+  spells { dispel magic, disruptor, repulsor }
+  affected { invulnerability, infravision, true-sight }
+  immune { charm, hold, backstab }
+  resistant { fire, cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4340
+{
+  name { a crystalline giant }
+  namelist { crystal crystalline giant }
+  shortdesc { A giant formed of sparkling crystal towers here. }
+  longdesc { 
+This giant has been constructed -- or birthed -- entirely of crystal.  
+His body sparkles as he moves, casting bows of light throughout the 
+area.  His stature is beyond being merely impressive -- his arms are 
+as thick as tree trunks, and his head is the size of a boulder.  His 
+irridescent eyes contain all the colours of the rainbow, constantly
+shifting. 
+  }
+  sex { Male }
+  level { 500 }
+  race { Giant }
+  experience { 1500000 }
+  hp { 200, 10, 26000 }
+  move { 200 }
+  height { 1000 }
+  weight { 12000 }
+  alignment { 0 }
+  gold { 40000 }
+  caster { 20 }
+  power { 500 }
+  mana { 500 }
+  dam_bonus { 25 }
+  hit_bonus { 45 }
+  attacks_per_round { 6 }
+  damage { 4, 5, 4 }
+  head { -180, 25 }
+  body { -180, 22 }
+  arms { -180, 22 }
+  legs { -180, 22 }
+  feet { -180, 22 }
+  spells { gust of wind }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { fire, slash, cold }
+  susceptible { pierce, blunt }
+  act { npc, sentinel, stay-zone }
+}
+
+4341
+{
+  name { a spotted leopard }
+  namelist { leopard spotted hungry }
+  shortdesc { A spotted leopard roams the valley hungrily. }
+  longdesc { 
+This beautiful leopard is lithe and muscular, seemingly read to pounce 
+upon unwary prey at any moment.  It moves without making a sound, and 
+causes barely a ripple in the tall grass as it undulates through it. 
+  }
+  sex { Female }
+  level { 350 }
+  race { Troll }
+  experience { 450000 }
+  hp { 3, 1000, 8000 }
+  move { 2000 }
+  height { 100 }
+  weight { 400 }
+  alignment { 0 }
+  gold { 25000 }
+  dam_bonus { 8 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 3, 4, 4 }
+  head { -50, 12 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { cold }
+  susceptible { fire, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4342
+{
+  name { a carnivorous plant }
+  namelist { plant carnvirous creeping vine }
+  shortdesc { A vine creeps forward, extending from the undergrowth. }
+  longdesc { 
+This thin creeper trails back into a plant of unknown size, though a 
+thick and knotted stem system can occasionally be glimpsed within the 
+undergrowth.  It moves with a definite purpose. 
+  }
+  sex { Neuter }
+  level { 400 }
+  race { Veggie }
+  experience { 600000 }
+  hp { 2000, 2, 5000 }
+  move { 100 }
+  height { 50 }
+  weight { 350 }
+  alignment { 0 }
+  gold { 20000 }
+  dam_bonus { 8 }
+  hit_bonus { 16 }
+  attacks_per_round { 6 }
+  damage { 2, 8, 6 }
+  head { -150, 10 }
+  body { -150, 9 }
+  arms { -150, 9 }
+  legs { -150, 9 }
+  feet { -150, 9 }
+  affected { infravision, true-sight }
+  immune { charm }
+  resistant { electricity }
+  susceptible { cold, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+4343
+{
+  name { a hulking primate }
+  namelist { primate hulking large }
+  shortdesc { A large primate drags itself through the brush. }
+  longdesc { 
+This huge primate has a creased brow and bared fangs; apparently it is 
+displeased by the notion that others might be intruding by its home.  It 
+sniffs the air periodically, moving about with a definite and dangerous
+purpose. 
+  }
+  sex { Male }
+  level { 300 }
+  race { Primate }
+  experience { 500000 }
+  hp { 1000, 4, 4000 }
+  move { 200 }
+  height { 220 }
+  weight { 400 }
+  alignment { 0 }
+  gold { 15000 }
+  dam_bonus { 9 }
+  hit_bonus { 20 }
+  attacks_per_round { 4 }
+  damage { 3, 5, 3 }
+  head { -50, 15 }
+  body { -40, 12 }
+  arms { -40, 12 }
+  legs { -40, 12 }
+  feet { -40, 12 }
+  affected { infravision, true-sight }
+  immune { charm }
+  susceptible { fire, cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+4344
+{
+  name { Balmek }
+  namelist { balmek }
+  shortdesc { Balmek Warrior King of The Ork. }
+  longdesc { 
+Balmek is a massive ork, he towers above his chiefs. His hair 
+is unkempt and greasy, he smells badly even for an ork. He values 
+his privacy when not at war and does not accept visitors kindly.  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 507 }
+  alignment { -300 }
+  gold { 1825000  }
+  hit_bonus { 77 }
+  dam_bonus { 86 }
+  attacks_per_round { 4 }
+  head { -130, 80 }
+  body { -130, 70 }
+  arms { -130, 70 }
+  legs { -130, 70 }
+  feet { -130, 70 }
+  hp { 9, 754, 92775  }
+  resist_force  { 40 }
+  move { 300 }
+  experience { 2400000 }
+  damage { 4, 10, 190  }
+  immune { charm, sleep, backstab }
+  resistant { fire, blunt, slash }
+  skills { vital attack }
+  affected { invisible, detect-invisible, true-sight, flying, infravision, water-breath }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+

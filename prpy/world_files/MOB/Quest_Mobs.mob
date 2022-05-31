@@ -1,0 +1,646 @@
+
+1160
+{
+  name { A Plush Golem }
+  namelist { plush golem }
+  shortdesc { A Plush Golem pads menacingly toward your food supplies. }
+  longdesc {
+This is a bear shaped golem with button eyes, a red thread 'X' mouth,
+and sharp claws of a strange material.
+  }
+  race { none }
+  height { 70 }
+  level { 250 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { 80, 10 }
+  body { 80, 10 }
+  arms { 80, 10 }
+  legs { 80, 5 }
+  feet { 80, 5 }
+  hp { 1, 1000, 4000  }
+  move { 300 }
+  experience { 427680 }
+  damage { 5, 5, 20  }
+  immune { backstab, charm, pierce, poison }
+  resistant { slash, blunt }
+  susceptible { fire }
+  affected { detect-invisible, sneak }
+  act { nosummon }
+}
+
+1161
+{
+  name { Major General Plush Golem }
+  namelist { major general plush golem }
+  shortdesc { A uniformed plush bear polishes its buttons. }
+  longdesc {
+This is a bear shaped golem with button eyes, a red thread 'X' mouth,
+and sharp claws of a strange material. It is wearing a red and white
+uniform with brass buttons and has a large peaked white hat.
+It bears the insignia of a Major General, and looks very tough.
+  }
+  race { none }
+  height { 100 }
+  level { 510 }
+  alignment { 350 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 8 }
+  head { 0, 10 }
+  body { 0, 20 }
+  arms { 0, 15 }
+  legs { 0, 15 }
+  feet { 0, 15 }
+  hp { 1, 1, 32000  }
+  move { 300 }
+  experience { 1900000 }
+  damage { 4, 20, 10  }
+  immune { backstab, charm, blunt, pierce, poison }
+  resistant { slash }
+  susceptible { fire }
+  affected { detect-invisible, sanctuary, sneak, hide }
+  act { nosummon }
+}
+
+1162
+{
+  name { Gundyorlchenonthiusamusharisthkuna the Toymaker }
+  namelist { gundyorlchenonthiusamusharisthkuna }
+  shortdesc { The Toymaker searchs for errant creations. }
+  longdesc {
+The Toymaker wields a huge hammer, and burns with the heat of the
+forge. You sense that he is just as good at destroying as he is
+at creating.
+  }
+  race { none }
+  sex { male }
+  height { 250 }
+  level { 999 }
+  alignment { 0 }
+  gold { 200000 }
+  hit_bonus { 20 }
+  dam_bonus { 5 }
+  attacks_per_round { 8 }
+  head { -90, 25 }
+  body { -25, 20 }
+  arms { -40, 15 }
+  legs { -30, 15 }
+  feet { -25, 15 }
+  hp { 1, 1, 32000  }
+  move { 300 }
+  experience { 2000000 }
+  damage { 4, 8, 5  }
+  immune { backstab, charm, blunt, fire }
+  resistant { slash, acid, energy, poison }
+  affected { detect-invisible, sanctuary, fireshield }
+  act { nosummon }
+}
+
+1163
+{
+  name { Sir Robin }
+  namelist { sir robin knight chicken }
+  shortdesc { A brave knight slows to a fast walk as he sees you }
+  longdesc {
+This knight is armored in light chainmail and plate armor, and seems
+able to move quite quickly despite the weight. You can tell that this
+is the brave knight featured in song, as there seems to be a pack of
+minstrels trailing behind singing it.
+  }
+  race { human }
+  sex { male }
+  height { 180 }
+  level { 500 }
+  alignment { 660 }
+  gold { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 5 }
+  attacks_per_round { 8 }
+  head { -20, 5 }
+  body { -20, 10 }
+  arms { -30, 10 }
+  legs { -30, 10 }
+  feet { -25, 10 }
+  hp { 1, 1, 32000  }
+  move { 300 }
+  experience { 331500 }
+  damage { 2, 8, 5  }
+  immune { charm }
+  resistant { slash, blunt }
+  act { scavenger, npc, wimpy }
+}
+
+1164
+{
+  name { A Ratty avatar }
+  namelist { ratty avatar }
+  shortdesc { A ratty looking avatar looks for a good place to die. }
+  longdesc {
+This ratty looking man pauses in his search and blinks at you momentarily.
+  }
+  sex { male }
+  race { human }
+  height { 150 }
+  level { 600 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 5 }
+  attacks_per_round { 8 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 1500000 }
+  damage { 3, 4, 5 }
+  immune { charm }
+  resistant { pierce }
+  affected { detect-invisible, sanctuary }
+  act { wimpy }
+}
+
+1165
+{
+  name { A Ratty terminator }
+  namelist { ratty terminator }
+  shortdesc { This ratty looking man doesn't seem quite right. }
+  longdesc {
+It looks like a man, but the skin and hair seem rather artificial under
+closer inspection.  Most people don't have glowing red eyes either...
+  }
+  race { none }
+  height { 150 }
+  level { 700 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { -20, 15 }
+  body { -20, 20 }
+  arms { -20, 10 }
+  legs { -20, 12 }
+  feet { -20, 15 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 1076802 }
+  damage { 2, 30, 10  }
+  immune { backstab, charm, cold, poison }
+  resistant { pierce, energy, blunt, slash, fire }
+  susceptible { electricity }
+  affected { detect-invisible }
+  act { nosummon }
+}
+
+1166
+{
+  name { RA-T1000 }
+  namelist { ratty terminator t1000 rat}
+  shortdesc { A silvery rat flows toward you, looking for someone. }
+  longdesc {
+It looks like a humanoid rat, but even as you watch all color leaches
+away, leaving it a metallic silver.  Its form flows to resemble someone
+very familiar...
+  }
+  race { none }
+  height { 170 }
+  level { 900 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 1 }
+  attacks_per_round { 8 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 10 }
+  feet { -80, 10 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 1856172 }
+  damage { 1, 60, 1  }
+  immune { backstab, charm, fire, pierce, poison }
+  resistant { energy, blunt, slash, acid }
+  susceptible { cold }
+  affected { detect-invisible, sneak, hide }
+  act { nosummon, wimpy }
+}
+
+1167
+{
+  name { The Black Knight }
+  namelist { black knight right arm }
+  shortdesc { A black armored warrior growls, "None Shall Pass!" }
+  longdesc {
+No flesh is visible, this figure is completely encased in a suit of
+blackened plate mail.
+  }
+  sex { male }
+  race { human }
+  height { 170 }
+  level { 500 }
+  alignment { -334 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { 50, 5 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  hp { 1, 1, 4000  }
+  move { 300 }
+  experience { 40000 }
+  damage { 2, 8, 8  }
+  immune { backstab, charm }
+  resistant { blunt, acid, poison }
+  susceptible { slash }
+  affected { true-sight, sanctuary }
+  act { sentinel }
+}
+
+1168
+{
+  name { The Black Knight }
+  namelist { black knight left arm }
+  shortdesc { A black armored warrior growls, "It's only a flesh wound." }
+  longdesc {
+No flesh is visible, this figure is completely encased in a suit of
+blackened plate mail, save for the spurting wound where it's right arm
+was.
+  }
+  sex { male }
+  race { human }
+  height { 170 }
+  level { 400 }
+  alignment { -334 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { 50, 5 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  hp { 1, 1, 3000  }
+  move { 300 }
+  experience { 12000 }
+  damage { 1, 8, 8  }
+  immune { backstab, charm }
+  resistant { blunt, acid, poison }
+  susceptible { slash }
+  affected { true-sight, sanctuary }
+  act { sentinel }
+}
+
+1169
+{
+  name { The Black Knight }
+  namelist { black knight right leg }
+  shortdesc { A black armored warrior growls, "Chicken!" }
+  longdesc {
+No flesh is visible, this figure is completely encased in a suit of
+blackened plate mail, save the bloody stumps of its arms.
+  }
+  sex { male }
+  race { human }
+  height { 170 }
+  level { 300 }
+  alignment { -334 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { -100, 50 }
+  legs { 50, 5 }
+  feet { 0, 5 }
+  hp { 1, 1, 2000  }
+  move { 300 }
+  experience { 2000 }
+  damage { 1, 4, 8  }
+  immune { backstab, charm }
+  resistant { blunt, acid, poison }
+  susceptible { slash }
+  affected { true-sight, sanctuary }
+  act { sentinel }
+}
+
+1170
+{
+  name { The Black Knight }
+  namelist { black knight left leg }
+  shortdesc { A black armored warrior growls, "I'll bleed on you!" }
+  longdesc {
+No flesh is visible, this figure is completely encased in a suit of
+blackened plate mail, save the bloody stumps of its arms and leg.
+  }
+  sex { male }
+  race { human }
+  height { 170 }
+  level { 300 }
+  alignment { -334 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { -100, 50 }
+  legs { 50, 5 }
+  feet { 0, 5 }
+  hp { 1, 1, 1000  }
+  move { 300 }
+  experience { 1000 }
+  damage { 1, 4, 8  }
+  immune { backstab, charm }
+  resistant { blunt, acid, poison }
+  susceptible { slash }
+  affected { true-sight, sanctuary }
+  act { sentinel }
+}
+
+1171
+{
+  name { The Black Knight }
+  namelist { black knight torso }
+  shortdesc { A black armored warrior growls, "Come back! I'll bite your 
+kneecaps off!" }
+  longdesc {
+No flesh is visible, this figure is completely encased in a suit of
+blackened plate mail, save the bloody stumps of its arms and leg.
+  }
+  sex { male }
+  race { human }
+  height { 100 }
+  level { 300 }
+  alignment { -334 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { -100, 50 }
+  legs { -100, 50 }
+  feet { -100, 50 }
+  hp { 1, 1, 1000  }
+  move { 300 }
+  experience { 10000 }
+  damage { 1, 4, 8  }
+  immune { backstab, charm }
+  resistant { blunt, acid, poison }
+  susceptible { slash }
+  affected { true-sight, sanctuary }
+  act { sentinel, immortal }
+}
+
+1172
+{
+  name { Beeping Plush Golem }
+  namelist { plush golem beeping }
+  shortdesc { A Plush Golem with strangely glowing button eyes beeps at you. 
+}
+  longdesc {
+This is a bear shaped golem with red glowing button eyes, a red thread 'X'
+mouth, and sharp claws of a strange material.  It seems to emit a steady
+beeping sound.
+  }
+  race { none }
+  height { 70 }
+  level { 155 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 10 }
+  body { 80, 10 }
+  arms { 80, 10 }
+  legs { 80, 5 }
+  feet { 80, 5 }
+  hp { 2, 20, 10  }
+  move { 300 }
+  experience { 66600 }
+  damage { 2, 5, 1  }
+  immune { backstab, charm, pierce, poison }
+  resistant { slash }
+  susceptible { blunt }
+  affected { detect-invisible, fireshield }
+  }
+
+1173
+{
+  name { Eeyore }
+  namelist { eeyore donkey depressive }
+  shortdesc { Despondent donkey dithers droopily. }
+  longdesc {
+This donkey stands passively with his head hanging low, you get the
+impression he'd suicide if it wasn't too much effort.  His tail seems
+to be pinned on!
+  }
+  sex { male }
+  race { none }
+  height { 120 }
+  level { 333 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 20 }
+  body { 100, 30 }
+  arms { 100, 10 }
+  legs { 100, 5 }
+  feet { 100, 5 }
+  hp { 1, 1, 34000  }
+  move { 300 }
+  experience { 320000 }
+  damage { 1, 1, 1  }
+  immune { backstab, charm, blunt, poison, cold, energy }
+  resistant { slash, pierce, electricity, acid }
+  susceptible { fire }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+1174
+{
+  name { The cute bunny rabbit }
+  namelist { solly bunny ghost electric vorpal }
+  shortdesc { A bunny glows with a blue aura here. }
+  longdesc {
+This is a cute 'lil pale white bunny rabbit.  He seems to be
+chewing on a thin bit of metal, and emits crackling blue sparks
+constantly.
+  }
+  race { undead }
+  sex { male }
+  height { 70 }
+  level { 500 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 5 }
+  attacks_per_round { 3 }
+  head { -80, 0 }
+  body { -80, 1 }
+  arms { -80, 0 }
+  legs { -80, 0 }
+  feet { -80, 0 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 1276802 }
+  damage { 8, 8, 5  }
+  immune { backstab, charm, electricity, cold, energy }
+  resistant { energy, acid, poison }
+  affected { detect-invisible, sanctuary, fireshield }
+  act { nosummon, wimpy }
+}
+
+1175
+{
+  name { Tigger }
+  namelist { tigger black orange best }
+  shortdesc { A large black and orange feline bounces madly on his tail. }
+  longdesc {
+desc
+  }
+  race { none }
+  sex { male }
+  height { 100 }
+  level { 500 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 20 }
+  dam_bonus { 5 }
+  attacks_per_round { 8 }
+  head { -100, 0 }
+  body { -100, 1 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 5, 1000, 7500  }
+  move { 300 }
+  experience { 676802 }
+  damage { 5, 5, 5  }
+  immune { backstab, charm, slash, blunt, pierce, fire }
+  resistant { cold }
+  susceptible { poison }
+  affected { detect-invisible, sanctuary }
+  act { nosummon, wimpy }
+}
+
+1176
+{
+  name { A Smurf }
+  namelist { smurf blue }
+  shortdesc { A little blue creature in white overalls sings 'La la la' }
+  longdesc {
+A little blue humanoid, wearing a conical white hat and white overalls.
+He seems unusually happy, and is far too cute to be allowed to live.
+  }
+  race { human }
+  sex { male }
+  height { 40 }
+  level { 25 }
+  alignment { 351 }
+  gold { 100 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 80, 0 }
+  body { 75, 1 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 70, 0 }
+  hp { 10, 20, 100  }
+  move { 300 }
+  experience { 8802 }
+  damage { 2, 5, 2  }
+  immune { charm, electricity, energy, fire }
+  resistant { pierce }
+  affected { detect-invisible, sneak }
+  act { wimpy }
+}
+
+1177
+{
+  name { Papa Smurf }
+  namelist { smurf papa red }
+  shortdesc { A little blue greybeard in red stands lost in thought. }
+  longdesc {
+A little blue humanoid.  This one has a white beard, and wears a red hat
+and overalls.  He seems to be concentrating on drawing glowing letters
+in the air.
+  }
+  class { scholar }
+  race { human }
+  sex { male }
+  height { 42 }
+  level { 50 }
+  alignment { 351 }
+  gold { 500 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 3 }
+  head { 70, 0 }
+  body { 60, 1 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 20, 30, 200  }
+  move { 300 }
+  experience { 76802 }
+  damage { 3, 5, 5  }
+  immune { charm, electricity, energy, fire }
+  resistant { pierce }
+  affected { detect-invisible, sanctuary, sneak }
+  act { nosummon, wimpy }
+}
+
+1178
+{
+  name { Smurfette }
+  namelist { smurfette }
+  shortdesc { A little blue creature in a white dress skips along. }
+  longdesc {
+The lone female of her race, Smurfette is a small blue humanoid with
+long golden hair, and a white distress.  Fortunately, she seems to
+have a lot of practice escaping.
+  }
+  race { human }
+  sex { female }
+  height { 37 }
+  level { 50 }
+  alignment { 369 }
+  gold { 250 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 1 }
+  body { 55, 1 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 10, 10, 400  }
+  move { 300 }
+  experience { 16802 }
+  damage { 1, 5, 1  }
+  immune { backstab, charm, electricity, energy, fire }
+  resistant { pierce, energy, poison }
+  affected { detect-invisible, sanctuary, sneak }
+  act { nosummon, wimpy }
+}
+

@@ -1,0 +1,2215 @@
+75000
+{
+  name { A sunning man }
+  namelist { sunning man }
+  shortdesc { A very tan man suns himself along the sandy beach. }
+  longdesc {
+The man looks very peaceful and content as he suns himself on a 
+multi-colored beach towel.  This poor guy is extremely tan, almost
+olive in complexion.  "Hey! Get outta my sun!", he screams at you
+as you have clearly gotten too close.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75001
+{
+  name { A sunning woman }
+  namelist { sunning woman }
+  shortdesc { An exceptionally tan woman stares up at the sun and smiles. }
+  longdesc {
+The woman is dressed simly in a one-piece purple bathing suit.  She
+smiles happily as she stares into the sun with her sunglass covered
+face.  Her tan is quite exceptional.  She must be out here every day.
+Does anybody go to work around here?
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75002
+{
+  name { A sleeping man }
+  namelist { sleeping man }
+  shortdesc { A tired looking man rolls over on his blanket, snoring away. }
+  longdesc {
+Somebody has been out in the sun entirely too long!  His skin is bright
+red, like a freshly cooked lobster.  You can almost heal his skin
+sizzling from here.  This poor man is going to be in terrible pain when
+he wakes up.  It is probably best not to disturb him.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 48000 }
+  hp { 8, 9, 1085 }
+  alignment { 0 }
+  gold { 3800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75003
+{
+  name { A sleeping woman }
+  namelist { sleeping woman }
+  shortdesc { A sleeping woman snoozes peacefully on her beach towel. }
+  longdesc {
+This woman is quite lovely.  She snoozes peacefully on a large beach
+towel.  Shifting gently under the sun, she sleeping woman finds a 
+comfortable position and resumes a deep sleep.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 38000 }
+  hp { 8, 9, 920 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75004
+{
+  name { A reading man }
+  namelist { reading man }
+  shortdesc { A content man carefully reads through the latest novel. }
+  longdesc {
+The man appears to be very comfortable on resting on his beach chair.
+He is deep into a novel and is concentrating with all his might.  It
+must be a good one!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 46000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75005
+{
+  name { A reading woman }
+  namelist { reading woman }
+  shortdesc { A young woman takes out a book and sinks back in her chair. }
+  longdesc {
+The young woman seems to be having an extremely relaxing day.  A glass
+of iced tea in one hand and a small paperback in the other, she sinks
+back into her chair with a happy sigh.  "What.", she states plainly,
+looking up at you above the rim of her sunglasses.  "Can't you see I'm 
+trying to read.".  Oh my, better not mess with her.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 36000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75006
+{
+  name { A walking man }
+  namelist { walking man }
+  shortdesc { A smiling man takes a peaceful walk along the sandy beach. }
+  longdesc {
+The man walks peacefully along the beach, enjoying the sights, sounds
+and smells of his surroundings.  He is dressed simply in some colored
+swim trunks.  His bare upper body is taking a nice licking from the 
+sun high above, as his skin is turning a love shade of brown.  Smiling
+at you as he notices you checking him out, he non-chalantly continues
+along the beach.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 120 }
+  experience { 44000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 3600 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75007
+{
+  name { A walking woman }
+  namelist { walking woman }
+  shortdesc { A beautiful woman tosses her hair as she strides across the sand. }
+  longdesc {
+Wow!  What a beautiful woman!  She almost floats across the sand as she
+walks along the beach.  Everyone on the beach stops what they are doing
+and simply stare at her, tongues wagging.  Tossing her hair at the 
+onlookers, she smiles and continues along the beach.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 100 }
+  experience { 34000 }
+  hp { 8, 9, 805}
+  alignment { 0 }
+  gold { 2800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75008
+{
+  name { A walking child }
+  namelist { walking child }
+  shortdesc { A smiling child walks carefree across the sandy beach. }
+  longdesc {
+The child walks and skips along the sandy beach.  He smiles and waves
+at all the other beach goers.  You have never seen a more carefree
+spirit in all your life.  He seems to be having the time of his life.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+75009
+{
+  name { A sand castle man }
+  namelist { sand castle man }
+  shortdesc { A smiling man builds a sand castle with his family. }
+  longdesc {
+The man carefully plans his next move.  He takes a step back to look
+at his work and begins to shake his head.  Getting on his knees, he
+looks at the sand castle and begins to smile.  "We need somemore
+water boy.", he shouts to his son.  "Run to the water and grab some
+for me, won't you?"
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75010
+{
+  name { A sand castle child }
+  namelist { sand castle child boy }
+  shortdesc { A young child helps his father build a huge sand castle. }
+  longdesc {
+The young man packs some sand into different size buckets next to the
+sand castle.  He awaits the newest order from his father with baited
+breath.  Quickly realizing that his father is too busy, he continues
+to pack more buckets with sand.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 552 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75011
+{
+  name { A sand castle child }
+  namelist { sand castle child female }
+  shortdesc { A little girl cries next to a large sand castle. }
+  longdesc {
+The little girl is a complete mess.  Her long blond pig tails are
+drooped across her face.  Strands of snot flow from her nose and
+drip into the sand as she cries for attention.  She must be jealous
+of her brother.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75012
+{
+  name { A ball playing child }
+  namelist { ball playing child }
+  shortdesc { A small child tosses a beach ball to an older boy. }
+  longdesc {
+This young man seems to be having a ball, quite literally.  "Throw it
+to me!", he shouts, jumping up and down.  "Stop hogging it all to
+yourself!".  He stands about three feet tall and has a full head of
+brown hair.  The child is dressed only in some red swimming shorts.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 14000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75013
+{
+  name { A ball playing kid }
+  namelist { ball playing kid }
+  shortdesc { A young man plays ball with a small child. }
+  longdesc {
+Taunting his playmate, the young man keeps making motions that he is
+going to throw his friend the ball, but keeps it all to himself.  The
+boy seems to be about thirteen years old and is acting every bit of
+it!  How rude.  He sticks his tongue out at the other boy and continues
+to tease him.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75014
+{
+  name { A mean kid }
+  namelist { mean kid bully }
+  shortdesc { A mean-looking young man walks up and kicks sand at you. }
+  longdesc {
+What a jerk!  This boy looks mean as spit!  He walks along the beach
+kicking sand at beach goers and making rude remarks.  The bully notices
+you looking at him and starts to move in your direction.  Stopping just
+a few feet in front of you, he kicks a nice amount of sand on your
+feet and moves about his merry way.  Jerk!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 22000 }
+  hp { 8, 9, 932 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, stay-zone }
+}
+
+75015
+{
+  name { A walking couple }
+  namelist { walking couple }
+  shortdesc { A happy couple walk hand in hand along the beach. }
+  longdesc {
+The couple does not even notice you as they walk along the beach  Their
+hands break contact briefly as they move seperately around you, only
+to reconnect quickly behind your back.  It is amazing they did not knock
+you over!  Turning around to get another look at the love birds, you
+notice them gazing lovingly in eachothers eyes.  L'amour!
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 120 }
+  experience { 60000 }
+  hp { 8, 9, 1350 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75016
+{
+  name { a life guard  }
+  namelist { life guard male }
+  shortdesc { A life guard stands watch over the ocean. }
+  longdesc {
+*WHISTLE*  "HEY!", the life guard shouts, "Stop messing around over
+there!".  Walking up and down the surf of the water, the life guard
+watches diligently over the entire ocean.  He is taking his job very
+seriously!  Blowing his stainless silver whistle again, he shouts at
+more swimmers to behave themselves.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 135 }
+  experience { 75000 }
+  hp { 8, 9, 1525 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75017
+{
+  name { a life guard  }
+  namelist { life guard female }
+  shortdesc { A life guard stands vigilant watch over the ocean. }
+  longdesc {
+The life guard looks like something out of one of those naughty
+parchments.  She is dressed in a skin tight one-piece swim suit that
+shows off all of her ample assets.  Flowing brown hair falls down her
+back like a waterfall and blows carefree from the breeze off the ocean
+waters.  Turning towards you and smiling, she warns you to be careful
+of the heavy surf.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 70000 }
+  hp { 8, 9, 1450 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75018
+{
+  name { A relaxing man }
+  namelist { relaxing man }
+  shortdesc { A man lays sprawled out over his beach towel, enjoying the day. }
+  longdesc {
+Somebody should have really re-thought the red speedo.  The over-weight
+man lays sprawled out, spread eagle on a multi-colored beach towel.  He
+smiles face up towards the sun, eyes closed.  Sweat glistens and rolls
+off his plentiful skin like a deluge from a broken dam.  Yuck!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 48000 }
+  hp { 8, 9, 1085 }
+  alignment { 0 }
+  gold { 3800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75019
+{
+  name { A relaxing woman }
+  namelist { relaxing woman }
+  shortdesc { A relaxed looking woman sits comfortably under her beach umbrella. }
+  longdesc {
+The young woman sits lazily under her beach umbrella, enjoying the bright
+day on the Oldport beach.  Her back is propped up against some beach
+towels and she has a wide-brimmed straw hat on her head.  She takes out
+a book from her sack and starts to read a book-marked page.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 38000 }
+  hp { 8, 9, 920 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75020
+{
+  name { A eating man }
+  namelist { eating man }
+  shortdesc { A smiling man eats his lunch with much vigor. }
+  longdesc {
+The man smiles as his wife passes around food for the entire family.
+He looks like he has not eaten all day and seems to be drooling just 
+a little bit.  The smiling man is dressed only in some flowered green
+swim shorts.  He grabs one of the sandwiches on the beach blanket and
+begins to devour it with much vigor.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 46000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75021
+{
+  name { A eating woman }
+  namelist { eating woman }
+  shortdesc { A joyful woman hands out food to her family. }
+  longdesc {
+What a beautiful woman!  She carefully takes out food from a straw
+picnic blanket and carefully places it on a large beach blanket.  She
+smiles tenderly at her family as she can tell they are all very hungry
+for her tasty treats.  Pouring some drink from a sweating pitcher of
+liquid into each of her family members glasses, she smiles and says,
+"Dig in!".
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 36000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75022
+{
+  name { A eating child }
+  namelist { eating child male }
+  shortdesc { A young man sucks on a purple popsicle stick. }
+  longdesc {
+This young man is really enjoying the day with his family.  His purple
+popsicle melts streaks of purple down his tanning arm.  Licking his
+lips with his purple tongue, he looks up at his mom and asks for
+another popsicle.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75023
+{
+  name { A eating child }
+  namelist { eating child female }
+  shortdesc { A young girl nibbles on a peanut butter and jelly sandwich. }
+  longdesc {
+The young girl grabs a sandwich from a plate in the center of the picnic
+blanket.  She looks up at her mother and screams her favorite letters,
+"PBJ!"  With much gusto, she starts to nibble voraciously at the yummy
+looking delight.  It is like a pack of pirahnas!  She lets out a cute
+little scream and attacks the sandwhich again.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75024
+{
+  name { A walking man }
+  namelist { walking man ankle }
+  shortdesc { A man walks peacefully in ankle deep water. }
+  longdesc {
+The beach goers is dressed in only some red swim shorts.  He walks 
+through the ankle deep water without a care in the world.  Staring up
+at the clouds, he sighs contently and continues to walk along the
+shore line.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 120 }
+  experience { 44000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 3600 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75025
+{
+  name { A walking couple }
+  namelist { walking couple ankle }
+  shortdesc { A happy couple walks hand in hand through the ankle deep water. }
+  longdesc {
+Ugh!  These people are so terribly happy it makes you start to gag.
+They walk hand in hand through the beach shore line, almost singing as
+they stare into each others eyes.  You better run before the music
+starts.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75026
+{
+  name { A wading man }
+  namelist { wading man }
+  shortdesc { A smiling man wades serenly in the water. }
+  longdesc {
+Wading hapily through the water, the swimmer smiles up at the sky and
+takes a deep breath.  He turns over onto his back and starts to float
+peacefully in the water.  Hopefully there are not any sharks close by!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75027
+{
+  name { A tubing man }
+  namelist { tubing man }
+  shortdesc { A man sits peacefully on a yellow intertube and floats along the water. }
+  longdesc {
+Legs and arms hanging over the yellow intertube, the tubing man floats
+serenely atop the ocean water.  A black visor covering his eyes, his
+face points up towards the sun and lets out a great big smile.  He lets
+out a deep sigh and seems to drift off to a peaceful sleep, hopefully
+not out to sea.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 120 }
+  experience { 48000 }
+  hp { 8, 9, 1085 }
+  alignment { 0 }
+  gold { 3800 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75028
+{
+  name { A lapping female }
+  namelist { lapping female }
+  shortdesc { A young woman does laps up and down the shoreline. }
+  longdesc {
+This lady is dedicated!  All the people around her are relaxing and
+enjoying themselves, yet here she is, doing laps along the shoreline.
+Her strokes are deep and even as she easily breaks through the ocean's
+waves.  Geez, take a break lady.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 120 }
+  experience { 46000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75029
+{
+  name { A sea gull }
+  namelist { sea gull }
+  shortdesc { A white sea gull sits on the sand, waiting for some food to drop. }
+  longdesc {
+Wings folded in and eyes on high alert, the sea gull sits around the
+beach goers.  It moves its heads back and forth, checking every inch
+of sand for some small particle of food.  This poor thing must be
+hungry.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75030
+{
+  name { A flying sea gull }
+  namelist { flying sea gull }
+  shortdesc { A white sea gull swoops from the air and scoops up some food. }
+  longdesc {
+Soaring high above the beach, the sea gull lets out a terrible screaching
+sound as it searches for food.  It circles the beach like a vulture,
+just waiting for some sign of discarded food.  Quickly diving to the
+ground, it scoops up something and climbs back into the air.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 30 }
+  experience { 25000 }
+  hp { 8, 9, 934 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 3 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { flying }
+  act { npc, stay-zone }
+}
+
+75031
+{
+  name { A crawling crab }
+  namelist { crawling crab }
+  shortdesc { A large crab crawls sideways across the sandy beach. }
+  longdesc {
+How cute!  The bright red crab crawls along the sandy beach, trying to
+escape being stepped on.  It's white and red pinchers open and close
+slowly as its many feel move quickly beneath it.  A bubbly breath sprays
+from its mandibles as it sneaks underneath an unsuspecting beach goer.
+Ouch!
+  }
+  race { None }
+  world_limit { 3 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  act { npc, stay-zone }
+}
+
+75032
+{
+  name { A swimming male }
+  namelist { swimming male }
+  shortdesc { A healthy man swims strong atop the rough ocean waters. }
+  longdesc {
+This man is in great physcial condition!  He swims quickly with tremendous
+strength along the top of the ocean.  The waters are very rough out here
+but he does not seem to be having any trouble at all.  He looks at you
+quickly through his googles and continues with his training.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 46000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75033
+{
+  name { A swimming woman }
+  namelist { swimming woman }
+  shortdesc { A strong woman swims quickly across the rough open ocean. }
+  longdesc {
+This woman is a straight up pro!  The ocean waters are not very kind 
+this far from the shoreline, but she does not seem to be bothered in the 
+slightest!  Deeping her stroke and quicking her kick, she moves with
+even more assurance throught the water.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 36000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75034
+{
+  name { A lost intertube man }
+  namelist { lost intertube man }
+  shortdesc { A panicked man tries his hardest to swim back to shore. }
+  longdesc {
+"HELP!", screams the man as he gets tossed around in the rough ocean
+water. "My boy!", he pleads, "please find and save my child!".  The
+look of desperation in his eyes brings a tear to yours.  He knows with
+the new conviction in your eyes that you will help save his boy.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 120 }
+  experience { 44000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 3600 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75035
+{
+  name { A lost intertube child }
+  namelist { lost intertube child }
+  shortdesc { A screaming child looks at you and starts to cry. }
+  longdesc {
+Tears streaming down his face, the young man looks up and you and just
+starts screaming.  "DAAAAAAADDDDDDDDYYYYYYY!", he lets loose under the
+chokes of sobbing.  He simply puts his hands up to his face and starts
+shaking untrollably.  This poor boy must have been out here for hours.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+75036
+{
+  name { A snorkling man }
+  namelist { snorkling man }
+  shortdesc { A man swims quickly though the water with a snorkel in his mouth. }
+  longdesc {
+Decked out with some huge goggles and a snorkle, the man swims through 
+the water with a smile on his face.  He seems to be enjoying all the 
+sights of the ocean.  Stopping to stare at some fish here and there, he 
+quickly moves along the bottom of the ocean.  He must have done this 
+once of twice before, he is quite skilled.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75037
+{
+  name { A snorkling woman }
+  namelist { snorkling woman }
+  shortdesc { A woman swims quickly through the water with a snorkel in her mouth. }
+  longdesc {
+This woman seems to be on a mission.  She dives down to the bottom of
+the ocean and looks all around the sand for something.  Sifting through
+the sand, she pulls out a shell and places it in a small sack.  Smiling,
+she quickly swims up to the ocean's surface for some fresh air before
+further investigation.
+  }
+  race { Human }
+  sex { female }
+  world_limit { 2 }
+  level { 80 }
+  experience { 30000 }
+  hp { 8, 9, 800 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 2, 2 }
+  head { 70, 3 }
+  body { 80, 2 }
+  arms { 80, 2 }
+  legs { 80, 2 }
+  feet { 80, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75038
+{
+  name { A snorkling couple }
+  namelist { snorkling couple }
+  shortdesc { A couple swims quickly through the water, hand in hand. }
+  longdesc {
+Awwwwwww, how sweet.  This couple is just taking their time as they
+swim through the water, checking out all the sights of the ocean.  They
+grasp each other's hands and smile lovingly into each other's eyes as
+they float back to the ocean's surface for some fresh air.
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 120 }
+  experience { 45000 }
+  hp { 8, 9, 915 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 5, 4 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75039
+{
+  name { A snorkling man }
+  namelist { snorkling man reef }
+  shortdesc { A snorkler looks at all the pretty reef life. }
+  longdesc {
+This snorkler seems to be having the time of his life.  With gigantic
+eyes, he carefully floats through the water as he examines the plentiful
+ocean reef.  Looking at all the colorful coral and stroking a few
+starfish with his fingers, he smiles and heads back up to the ocean's
+surface for some fresh air.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 100 }
+  experience { 42000 }
+  hp { 8, 9, 1015 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75040
+{
+  name { A snorkeling woman }
+  namelist { snorkeling woman reef }
+  shortdesc { A snorkeling woman carefully touches the coral reef. }
+  longdesc {
+The woman smiles lovingly as she carefully touches different parts
+of the coral reef.  She looks at all the different colors and shapes
+of the coral.  The snorkler lets out a look of diappointment as she has
+to float back to the ocean's surface for more air.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 100 }
+  experience { 35000 }
+  hp { 8, 9, 851 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75041
+{
+  name { A dolphin }
+  namelist { dolphin }
+  shortdesc { A blue and grey dolphin swims freely through the ocean. }
+  longdesc {
+What a beautiful creature!  The dolphin's skin seems to give off a blue
+and gray shimmer as the sunlight from above hits it.  It notices you 
+briefly and darts in another direction quickly.  Suddenly, you feel a
+poke at your back and see the dolphin nodding its head.  It must want
+to play some games with you!
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 120 }
+  experience { 60000 }
+  hp { 8, 9, 1350 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75042
+{
+  name { a shark  }
+  namelist { shark }
+  shortdesc { A grey shark cautiously circles around you. }
+  longdesc {
+Oh geez!  The shark looks very frigthening as it swims entirely to
+close to you.  Starting to slowly circle, you can tell the shark has
+noticed its next meal.  This shark must just be curious as it stays
+a considerable distance away from you.  It is probably best to just
+swim away from the creature as slowly as you can.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 135 }
+  experience { 80000 }
+  hp { 8, 9, 1645 }
+  alignment { 0 }
+  gold { 6500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 4, 3 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75043
+{
+  name { a shark  }
+  namelist { shark }
+  shortdesc { A grey shark swims towards your menacingly. }
+  longdesc {
+Oh geez!  The shark looks very frigthening as it swims entirely to
+close to you.  Starting to slowly circle, you can tell the shark has
+noticed its next meal.  Quickening up its pace, you can almost see
+the creature salivating at the thought of fresh meat.  This would be 
+a good time to swim faster.  The shark must have sensed your panic
+as it stops circling and opens up its mighty jaws to attack.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 135 }
+  experience { 85000 }
+  hp { 8, 9, 1755 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 4, 3 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+75044
+{
+  name { A barracuda }
+  namelist { barracuda }
+  shortdesc { A silver barracuda swims quickly through the water. }
+  longdesc {
+*Ouch!*  Something stabs at your side as you swim through the open
+water.  Looking at your side, you can see this glimmer of silver skin
+quickly swimming away.  Without much time passing, another sharp pain
+comes from you right leg.  This is a great time to swim away really
+fast.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+75045
+{
+  name { A blue fish }
+  namelist { blue fish }
+  shortdesc { A blue fish swims away from you quickly. }
+  longdesc {
+The fish is almost circular when lookin at it from the side.  As it
+turns toward you, its circular shape turns into just about a two or
+three inch width.  Its cute little fishy beak makes faces at you in
+protest for you violating its ocean.  The blue fish swims away quickly
+as you approach to get a closer look.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 80 }
+  experience { 30000 }
+  hp { 8, 9, 800 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 2, 2 }
+  head { 70, 3 }
+  body { 80, 2 }
+  arms { 80, 2 }
+  legs { 80, 2 }
+  feet { 80, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75046
+{
+  name { A red fish }
+  namelist { red fish }
+  shortdesc { A red fish darts quickly through the water. }
+  longdesc {
+The fish has almost a oblong shape as it darts through the water.  Its
+quick swimming must have stream-lined its species throughout time.  The
+red glimmer of its skin as the sun touches it almost make it look like
+a streak of flame.  How pretty!
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 25000 }
+  hp { 8, 9, 934 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 2, 2 }
+  head { 10, 3 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75047
+{
+  name { A sparkly fish }
+  namelist { sparkly fish }
+  shortdesc { A sparkly fish glitters from the falling sunlight. }
+  longdesc {
+A sparkling light shoots through the water just a few feet in front of
+you.  Adjusting your eyes a little, you can see a sparkly fish swimming
+quickly through the ocean.  The sunlight falling down through the water
+makes it look like the fish is actually emitting light.  How beautiful!
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75048
+{
+  name { A sea turtle }
+  namelist { sea turtle }
+  shortdesc { A large sea turtle slowly drifts through the water. }
+  longdesc {
+Lumbering slowly through the water, the sea turtle drifts along the
+ocean currents.  Gorgeous with a nice combination of blue and green
+colorings, the ancient creature almost smiles at you as it passes.  
+Its long and majestic fins wave and continue to drift along the 
+currents.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 4, 3 }
+  head { 70, 2 }
+  body { 80, 1 }
+  arms { 80, 1 }
+  legs { 80, 1 }
+  feet { 80, 1 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75049
+{
+  name { a giant squid }
+  namelist { giant squid }
+  shortdesc { A giant squid shoots a cloud of ink and swims off. }
+  longdesc {
+My goodness!  The scariest thing you have seen in a long time drifts
+directly into your sights.  Its many tentacles start to flail and 
+contract around your head and body.  A huge plume of ink sets off in
+the water as you feel the tentacles of the giant squid start to let
+go.  You barely get another look at the creature as the ink cloud starts
+to clear and the squid swims away in the distance.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 190 }
+  experience { 125000 }
+  hp { 18, 15, 1825 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 9000 }
+  damage { 2, 5, 2 }
+  head { 20, 5 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75050
+{
+  name { a whale }
+  namelist { whale }
+  shortdesc { A gigantic whale sings a song as it lumbers along the ocean. }
+  longdesc {
+Wow!  Easily the size of a house, the whale lumbers along the ocean
+waters directly in front of you.  A soothing sound drifts through the
+waters as you approach closer to the gigantic mammal.  Once of the
+animal's huge eyes looks at you carefully as it turns and starts to
+drift in another direction.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 190 }
+  experience { 175000 }
+  hp { 18, 15, 2175 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 9000 }
+  damage { 2, 5, 2 }
+  head { 10, 5 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75051
+{
+  name { a small crab }
+  namelist { small crab }
+  shortdesc { A small crab scrambles along the coral reef. }
+  longdesc {
+The small crab has almost an orange color to it.  The little creatures
+clambers along the coral reef, weaving in and out of holes.  It seems
+to know its home quite well and has probably been here for a while.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { water-breath }
+  act { npc, stay-zone }
+}
+
+75052
+{
+  name { A sea anemone }
+  namelist { sea anemone }
+  shortdesc { A large sea anemone sways back and forth on the coral reef. }
+  longdesc {
+The sea anemone is quite beautiful with its purple and blue colors.  It
+sways back and forth very peacefully, moving like a slave to the ocean
+current.  Tiny fish dart in and out of the sea anemone's long tentacles.
+They seem to be quite at home here.
+  }
+  race { Fish }
+  world_limit { 3 }
+  level { 80 }
+  experience { 30000 }
+  hp { 8, 9, 800 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 70, 3 }
+  body { 80, 2 }
+  arms { 80, 2 }
+  legs { 80, 2 }
+  feet { 80, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75053
+{
+  name { a small wrasse }
+  namelist { small wrasse }
+  shortdesc { A small wrasse darts in and out of the coral reef. }
+  longdesc {
+The wrasse is a tiny little fish.  It is almost gray in color and
+does not seem to have a care in the world.  The little fish just swims
+in and out of the holes along the coral reef.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { water-breath }
+  act { npc, stay-zone }
+}
+
+75054
+{
+  name { A parrot fish }
+  namelist { parrot fish }
+  shortdesc { A parrot fish swims peacefully along the coral reef. }
+  longdesc {
+The parrot fish looks at complete peace as it swims along the coral
+reef.  It has a blue-beaked mouth and orange colored scales.  The fish
+swims through the coral with great adeptness and agility.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 25000 }
+  hp { 8, 9, 934 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 2, 2 }
+  head { 10, 3 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75055
+{
+  name { An angel fish }
+  namelist { angel fish }
+  shortdesc { An angel fish swims gracefully along the coral reef. }
+  longdesc {
+The angel fish truely lives up to its name!  This is probably the
+most beautiful fish in the ocean.  The sun glistening in from the
+top of the ocean almost seems to make the animal glimmer.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75056
+{
+  name { a large sponge }
+  namelist { large sponge }
+  shortdesc { A large sponge sits affixed to the coral reef. }
+  longdesc {
+It's a sponge.  Quite honestly, what do you expect it to do.  It is
+large and yellow, and of course, quite spongey.
+  }
+  race { Fish }
+  world_limit { 3 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { water-breath }
+  act { npc, sentinel, stay-zone }
+}
+
+75057
+{
+  name { An orange starfish }
+  namelist { orange starfish }
+  shortdesc { An orange starfish sticks steadfast to the coral reef. }
+  longdesc {
+The starfish is affixed to the side of the coral reef.  It is orange
+and has five tentacles.
+  }
+  race { Fish }
+  world_limit { 3 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75058
+{
+  name { A spiny lobster }
+  namelist { spiny lobster }
+  shortdesc { A spiny lobster crawls all over the coral reef. }
+  longdesc {
+The lobster is red and has large spiked claws.  It crawls along the
+coral reef without fear, unafraid of you or anything.  Its mighty
+spiked take shakes back and forth as it continues to crawl along the
+coral reef.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 501 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 6, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  affected { water-breath }
+  act { npc, stay-zone }
+}
+
+75059
+{
+  name { A large grouper }
+  namelist { large grouper }
+  shortdesc { A large grouper swims lazily along the coral reef. }
+  longdesc {
+The grouper is rather gray in color.  It lumbers along the bottom of the
+ocean, swimming closely to the coral reef.  Perhaps it thinks that it
+can blend into the surroundings of the reef and not be captured.  The
+only thought on your mind is roasted grouper.  Go catch that lunch!
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 30 }
+  experience { 6000 }
+  hp { 4, 6, 265 }
+  alignment { 0 }
+  gold { 1900 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  affected { water-breath }
+  act { npc, stay-zone }
+}
+
+75060
+{
+  name { an albino octopus }
+  namelist { albino octopus }
+  shortdesc { A pale white octopus glares at you menacingly from the bottom of the pool. }
+  longdesc {
+The bottom of the pool starts to swirl and become cloudy as you enter it.
+Pale white tentacles shoot out towards you and begin to wrap around your
+body.  They begin to constrict like several large boa constrictors and
+the air slowly starts to leave your lungs.  Staring down to the bottom
+of the pool, you see the hungry eyes of the albino octopus looking up
+at you.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 190 }
+  experience { 180000 }
+  hp { 18, 15, 2225 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 9000 }
+  damage { 2, 5, 2 }
+  head { 10, 5 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75061
+{
+  name { a ghost shark }
+  namelist { ghost shark }
+  shortdesc { The ghost of a long dead shark swims towards you quickly. }
+  longdesc {
+Pale and translucent, the shark-like ghost shimmers through the water
+in front of you.  It emits a cold that sends shivers straight through 
+to your very bones.  The ghost shark begins to circle you as it seems
+to think of the best way to attack.  Opening its mouth, it shows an
+unnatural amount of sharp and deadly looking teeth.  This is a great
+time to get out of the water.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 190 }
+  experience { 200000 }
+  hp { 18, 15, 2375 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 9000 }
+  damage { 2, 5, 2 }
+  head { 10, 5 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { water-breath }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+75062
+{
+  name { the pirate king }
+  namelist { pirate king }
+  shortdesc { The pirate king divvies out the latest booty to the pirates. }
+  longdesc {
+Tall and strong, the pirate king stands in the center of the cave and
+looks over their latest booty.  There is a huge chest here, heaping
+with golden coins and shining gemstones.  The king has a large black
+brimmed hat with skull and crossbones on the front.  He quickly notices
+that you have entered the cave and prepares his men for attack. 
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 150000 }
+  hp { 18, 15, 1899 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75063
+{
+  name { a stocky pirate  }
+  namelist { stocky pirate }
+  shortdesc { A stocky pirate sits on a stone towards the back of the cave. }
+  longdesc {
+This pirate does not look very intelligent.  In fact, he seems to be
+picking the remainder of his intelligence directly out of his nasal
+cavity.  He looks up with a dumb stare when his commander orders an
+attack, but resumes his favorite business.  Picking his nose?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 70000 }
+  hp { 8, 9, 1450 }
+  alignment { 0 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75064
+{
+  name { A short pirate }
+  namelist { short pirate }
+  shortdesc { A short pirate plays with his dagger on the cavern floor. }
+  longdesc {
+Looking quite skilled, the short pirate almost dances with his dagger.
+He throws it in the air, twirls it around his fingers and spins it
+around his hand.  It truely seems like it is walking on air.  He stands
+quickly at his commanders orders to attack and aims his dagger directly
+at your face.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 120 }
+  experience { 60000 }
+  hp { 8, 9, 1350 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 9000 }
+  damage { 2, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75065
+{
+  name { A one-eyed pirate }
+  namelist { one eye eyed pirate }
+  shortdesc { A one-eyed pirate stares at you menacingly. }
+  longdesc {
+This pirate looks like someone just stepped on his puppy.  You have 
+never seen such a sad face in all your life.  It is probably best to
+not even mess with this person.  Unfortunately for you, his commander
+has just ordered for attack.  He stands with a terrible face and
+practically slits your throat with his eyes.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 120 }
+  experience { 50000 }
+  hp { 8, 9, 1125 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+75066
+{
+  name { a brown bat }
+  namelist { brown bat }
+  shortdesc { A brown bat stares down at you from the tunnel ceiling. }
+  longdesc {
+A pair of red eyes opens up from the top of the tunnel ceiling.  A
+large brown bat stares down at you hungrily.  It bares its teeth and
+dive bombs straight at your head.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  affected { flying }
+  act { npc, stay-zone }
+}

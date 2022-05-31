@@ -1,0 +1,973 @@
+1250
+{
+  name { a gateguard }
+  namelist { gateguard }
+  shortdesc { A gateguard is standing here. }
+  longdesc {
+A gateguard is here to stop any one who does not belong, he is heavily
+armored.  You are suprised he can even move with all his heavy platemail.
+  }
+  race { none }
+  sex { Male }
+  level { 200 }
+  world_limit { 4 }
+  experience { 300000 }
+  hp { 18, 19, 4300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 16 }
+  dam_bonus { 19 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -20, 9 }
+  body { -10, 8 }
+  arms { -10, 8 }
+  legs { -10, 8 }
+  feet { -10, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1251
+{
+  name { an archer }
+  namelist { archer }
+  shortdesc { An archer stands here looking out into the forest. }
+  longdesc {
+A archer stands here watching the forest, he give you a glance as you
+walk by.  The archer is very lightly armored but his bow is huge and
+looks like it could send an arrow through most armor.
+  }
+  race { none }
+  sex { Male }
+  level { 150 }
+  world_limit { 8 }
+  experience { 150000 }
+  hp { 17, 18, 2900 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1252
+{
+  name { a blue guard }
+  namelist { blue guard }
+  shortdesc { A blue guard stands here. }
+  longdesc {
+A blue guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 140 }
+  world_limit { 1 }
+  experience { 150000 }
+  hp { 17, 19, 3300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1253
+{
+  name { a green guard }
+  namelist { green guard }
+  shortdesc { A green guard stands here. }
+  longdesc {
+A green guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 130 }
+  world_limit { 1 }
+  experience { 160000 }
+  hp { 19, 18, 3400 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 17 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1254
+{
+  name { a yellow guard }
+  namelist { yellow guard }
+  shortdesc { A yellow guard stands here. }
+  longdesc {
+A yellow guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 160 }
+  world_limit { 1 }
+  experience { 160000 }
+  hp { 19, 18, 3500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -20, 9 }
+  body { -10, 8 }
+  arms { -10, 8 }
+  legs { -10, 8 }
+  feet { -10, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1255
+{
+  name { a purple guard }
+  namelist { purple guard }
+  shortdesc { A purple guard stands here. }
+  longdesc {
+A purple guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 130 }
+  world_limit { 1 }
+  experience { 140000 }
+  hp { 18, 16, 3500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 17 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1256
+{
+  name { a black guard }
+  namelist { black guard }
+  shortdesc { A black guard stands here. }
+  longdesc {
+A black guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 170 }
+  world_limit { 1 }
+  experience { 200000 }
+  hp { 18, 19, 3700 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 19 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1257
+{
+  name { a brown guard }
+  namelist { brown guard }
+  shortdesc { A brown guard stands here. }
+  longdesc {
+A brown guard stands here polishing his armor to get ready for his duties
+of the day.
+  }
+  race { none }
+  sex { Male }
+  level { 200 }
+  world_limit { 1 }
+  experience { 210000 }
+  hp { 18, 17, 3700 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 21 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1258
+{
+  name { a mystic }
+  namelist { mystic }
+  shortdesc { A mystic stands here. }
+  longdesc {
+A mystic stands here by his desk studying a book, he looks around as
+you come in and says you are not welcome here.  He is one old centaur
+maybe you should leave him be before gets crabby.
+  }
+  race { none }
+  sex { Male }
+  level { 215 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 19, 17, 4300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 22 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -30, 10 }
+  body { -20, 9 }
+  arms { -20, 9 }
+  legs { -20, 9 }
+  feet { -20, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1259
+{
+  name { a shaman }
+  namelist { shaman  }
+  shortdesc { A shaman warrior stands here. }
+  longdesc {
+A shaman stands here mixing potions, he gives you quizical look as you
+enter.  A shaman is clothed in a simple silk shirt.  The shaman looks
+like he is a trained warrior besides being a shaman.
+  }
+  race { none }
+  sex { Male }
+  level { 240 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 17, 16, 4300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 17 }
+  dam_bonus { 21 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -30, 10 }
+  body { -20, 9 }
+  arms { -20, 9 }
+  legs { -20, 9 }
+  feet { -20, 9 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1260
+{
+  name { a centaur warrior }
+  namelist { centaur warrior }
+  shortdesc { A strong centaur warrior stares at you menacingly. }
+  longdesc {
+The warrior is clothed in simple furs of what appears to be varying
+colored wolf pelts.  The warrior has had alot of fighting experience
+if the scars he sports are an indication of past battles.
+  }
+  race { none }
+  sex { Male }
+  level { 240 }
+  world_limit { 1 }
+  experience { 400000 }
+  hp { 18, 19, 5000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 30 }
+  dam_bonus { 22 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -50, 11 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1261
+{
+  name { a bard }
+  namelist { bard  }
+  shortdesc { A bard stands here. }
+  longdesc {
+A bard is gentley strumming his lute, he stops as you enter and turns
+to you.  The bard is dressed in very fine silks, he must be well liked
+by the king and queen to wear such fine attire.
+  }
+  race { none }
+  sex { Male }
+  level { 240 }
+  world_limit { 1 }
+  experience { 320000 }
+  hp { 18, 16, 4300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 17 }
+  dam_bonus { 22 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -20, 10 }
+  body { -10, 9 }
+  arms { -10, 9 }
+  legs { -10, 9 }
+  feet { -10, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1262
+{
+  name { a lieutenant }
+  namelist { lieutenant }
+  shortdesc { The lieutenant stands here looking agitated. }
+  longdesc {
+The lieutenant stands up as you enter and puts down the sharping stone
+he was using on his sword.  He does not put down the sword however.
+  }
+  race { none }
+  sex { Male }
+  level { 250 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 19, 19, 4100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 16 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -50, 12 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1263
+{
+  name { a captain }
+  namelist { captain }
+  shortdesc { The captain stands here looking over his boards. }
+  longdesc {
+The captain stands here looking at his boards.  The captain is wearing
+what appears to be mainly ceremonial armor.
+  }
+  race { none }
+  sex { Male }
+  level { 350 }
+  world_limit { 1 }
+  experience { 400000 }
+  hp { 20, 20, 5100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 3 }
+  damage { 3, 6, 3 }
+  head { -60, 12 }
+  body { -50, 11 }
+  arms { -50, 11 }
+  legs { -50, 11 }
+  feet { -50, 11 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+
+1264
+{
+  name { a maid }
+  namelist { maid  }
+  shortdesc { The maid is here relaxing. }
+  longdesc {
+The maid is dressed in simple wool clothing. The maid looks pretty tired
+obviously she is relaxing after a long days work.
+  }
+  race { none }
+  sex { Female }
+  level { 100 }
+  world_limit { 3 }
+  experience { 70000 }
+  hp { 8, 9, 1400 }
+  move { 400 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 4 }
+  dam_bonus { 7 }
+  attacks_per_round { 1 }
+  damage { 3, 6, 3 }
+  head { 40, 8 }
+  body { 40, 7 }
+  arms { 40, 7 }
+  legs { 40, 7 }
+  feet { 40, 7 }
+  act { npc, sentinel, stay-zone }
+}
+
+1265
+{
+  name { a clerk }
+  namelist { clerk  }
+  shortdesc { The clerk stands here. }
+  longdesc {
+The clerk is proably the smallest centaur you have seen so far. The
+clerk is dressed in a suit.... well a suit for a centaur at least.
+  }
+  race { none }
+  sex { Male }
+  level { 100 }
+  world_limit { 3 }
+  experience { 70000 }
+  hp { 8, 9, 1600 }
+  move { 400 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 14 }
+  dam_bonus { 17 }
+  attacks_per_round { 1 }
+  damage { 3, 6, 3 }
+  head { 40, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+1266
+{
+  name { a city guard }
+  namelist { city guard }
+  shortdesc { A city guard patrols the village. }
+  longdesc {
+The city guard would appear to be more of a police officer then anything
+else, he is lightly armored in leather.  The city guard looks pretty
+young, it would appear his armor is older then him.
+  }
+  race { none }
+  sex { Male }
+  level { 100 }
+  world_limit { 5 }
+  experience { 100000 }
+  hp { 16, 18, 3000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 12 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  damage { 3, 6, 3 }
+  head { 0, 10 }
+  body { 10, 9 }
+  arms { 10, 9 }
+  legs { 10, 9 }
+  feet { 10, 9 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+1267
+{
+  name { armorer }
+  namelist { armorer }
+  shortdesc { An armorer stands here working on a piece of armor. }
+  longdesc {
+The armorer is standing behind one of the display cases.  He has on
+simple leather armor.  He looks like if a customer gets out of hand
+though he might be able to handle them with the hammer he has at his
+side.
+  }
+  race { none }
+  sex { Male }
+  level { 450 }
+  world_limit { 1 }
+  experience { 500000 }
+  hp { 14, 10, 6600 }
+  move { 200 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 20 }
+  dam_bonus { 22 }
+  attacks_per_round { 3.5 }
+  damage { 3, 6, 3 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1268
+{
+  name { Darnel the Weapons Smith }
+  namelist { Darnel Weapons Smith}
+  shortdesc { Darnel the Weapons Smith stands by his forge. }
+  longdesc {
+Darnel the Weapons Smith looks to have been around a forge most of his life,
+his hands look like they could double for clubs they are so hardenened
+for working with a hammer and hot metal.  The weapons smith looks at you
+and you get the feeling you should give him your weapon to be repaired
+and be on your way.
+  }
+  race { none }
+  sex { Male }
+  level { 505 }
+  world_limit { 1 }
+  experience { 800000 }
+  hp { 18, 15, 20000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 25 }
+  dam_bonus { 28 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 3 }
+  head { -100, 13 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, special }
+}
+
+1269
+{
+  name { cleric }
+  namelist { cleric }
+  shortdesc { A cleric stands here. }
+  longdesc {
+The cleric stands here mixing potions.  The cleric appears to have had
+at least one potion go awry atleast you hope it was a potion, he has a
+greenish tent.
+  }
+  race { none }
+  sex { Male }
+  level { 450 }
+  world_limit { 1 }
+  experience { 500000 }
+  hp { 11, 12, 8600 }
+  move { 200 }
+  alignment { 0 }
+  gold { 20000 }
+  hit_bonus { 18 }
+  dam_bonus { 19 }
+  attacks_per_round { 2.5 }
+  damage { 3, 6, 3 }
+  head { -80, 10 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1270
+{
+  name { a centaur youth }
+  namelist { centaur youth }
+  shortdesc { A youth wanders about the village. }
+  longdesc {
+The youth wanders about aimlessly looking for other youths to play with.
+He is dressed orange and white leathers.
+  }
+  race { none }
+  sex { Male }
+  level { 80 }
+  world_limit { 6 }
+  experience { 60000 }
+  hp { 4, 6, 1600 }
+  move { 300 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 8 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  damage { 3, 6, 3 }
+  head { 40, 8 }
+  body { 40, 7 }
+  arms { 40, 7 }
+  legs { 40, 7 }
+  feet { 20, 7 }
+  act { npc, stay-zone }
+}
+
+1271
+{
+  name { the royal mage }
+  namelist { royal mage }
+  shortdesc { The royal mage stands here. }
+  longdesc {
+The mage stands here right next to his king, so he can give him any
+advice that he needs.  He is dressed in silk and holds a crystal wand.
+  }
+  race { none }
+  sex { Male }
+  level { 180 }
+  world_limit { 1 }
+  experience { 200000 }
+  hp { 19, 19, 3800 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -40, 10 }
+  body { -30, 9 }
+  arms { -30, 9 }
+  legs { -30, 9 }
+  feet { -30, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1272
+{
+  name { the royal priest }
+  namelist { royal priest }
+  shortdesc { The priest is here praying. }
+  longdesc {
+The priest is dressed in green robes which is covered in runes.  He
+stands up as you enter and says, "How may I help you my son".
+  }
+  race { none }
+  sex { Male }
+  level { 200 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 19, 19, 4300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 13 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.5 }
+  damage { 3, 6, 3 }
+  head { -30, 11 }
+  body { -20, 10 }
+  arms { -20, 10 }
+  legs { -20, 10 }
+  feet { -20, 10 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1273
+{
+  name { a bodyguard }
+  namelist { bodyguard }
+  shortdesc { The bodyguard stands here. }
+  longdesc {
+The bodyguard is by far the biggest centaur you have seen.  Whoever made
+his armor has put alot of time into, it is very ornate.  The bodyguard
+has massive forearms that are covered in runes on his skin.
+  }
+  race { none }
+  sex { Male }
+  level { 360 }
+  world_limit { 1 }
+  experience { 450000 }
+  hp { 18, 18, 5400 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 3 }
+  damage { 3, 6, 3 }
+  head { -80, 12 }
+  body { -70, 11 }
+  arms { -70, 11 }
+  legs { -70, 11 }
+  feet { -70, 11 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1274
+{
+  name { The centaur king }
+  namelist { centaur king }
+  shortdesc { The king sits here upon his throne. }
+  longdesc {
+The sits here upon his throne, the king wears simple ringmail he is
+also wearing a silver crown.
+             =*===
+           $$- - $$$
+           $ <    D$$
+           $ -   $$$
+     ,     $$$$  |
+    ///; ,---' _ |----.
+     \ )(           /  )
+     | \/ \.   '  _.|  \              $
+     |  \ /(   /    /\_ \          $$$$$
+      \ /  (       / /  )         $$$ $$$
+           (  ,   /_/ ,`_,-----.,$$  $$$
+           |   <----|  \---##     \   $$
+           /         \\\           |    $
+          '   '                    |
+          |                 \      /
+          /  \_|    /______,/     /
+         /   / |   /    |   |    /
+        (   /--|  /.     \  (\  (_
+         `----,( ( _\     \ / / ,/
+               | /        /,_/,/
+              _|/        / / (
+             / (        ^-/, |
+            /, |          ^-
+            ^-
+  }
+  race { none }
+  sex { Male }
+  level { 350 }
+  world_limit { 1 }
+  experience { 475000 }
+  hp { 18, 15, 6100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 18 }
+  dam_bonus { 23 }
+  attacks_per_round { 2.5 }
+  damage { 3, 6, 3 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1275
+{
+  name { a prince }
+  namelist { prince }
+  shortdesc { The prince is here playing with his toys. }
+  longdesc {
+The prince is still tiny.  He is here playing with his toys.  The prince
+is dressed in black silks.  He seems very active and seems to be enjoying
+him self.
+  }
+  race { none }
+  sex { Male }
+  level { 180 }
+  world_limit { 1 }
+  experience { 130000 }
+  hp { 13, 12, 3300 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 14 }
+  dam_bonus { 17 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -40, 10 }
+  body { -30, 9 }
+  arms { -30, 9 }
+  legs { -30, 9 }
+  feet { -30, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1276
+{
+  name { The queen }
+  namelist { queen }
+  shortdesc { The queen is relaxing here. }
+  longdesc {
+The queen is dressed in silks and has all kinds of expensive jewerly.
+She is the most beautiful centaur you have seen no wander she is the
+queen.
+  }
+  race { none }
+  sex { Female }
+  level { 300 }
+  world_limit { 1 }
+  experience { 300000 }
+  hp { 12, 15, 5100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { -50, 11 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1277
+{
+  name { Chielna }
+  namelist { Chielna }
+  shortdesc { Chielna stands here. }
+  longdesc {
+Chielna leader of all the blue guards. He is massive and has many battle scars,
+which would suggest he would be a worthy oppenent.
+  }
+  race { none }
+  sex { Male }
+  level { 400 }
+  world_limit { 1 }
+  experience { 400000 }
+  hp { 17, 19, 5100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  damage { 4, 6, 6 }
+  head { 100, 16 }
+  body { 10, 16 }
+  arms { 10, 16 }
+  legs { 10, 16 }
+  feet { 10, 16 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+1278
+{
+  name { Yoamora }
+  namelist { Yoamora }
+  shortdesc { Yoamora stands here. }
+  longdesc {
+Yoamor stands looking or ancient manuscripts of ancient spells. She has
+many golden trinkets braided in to her tail. She mos be a well respected
+member among the centaurs.
+  }
+  race { none }
+  sex { female }
+  level { 500 }
+  world_limit { 1 }
+  experience { 700000 }
+  hp { 17, 19, 7500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 500000 }
+  hit_bonus { 22 }
+  dam_bonus { 21 }
+  attacks_per_round { 2 }
+  damage { 3, 7, 5 }
+  head { 100, 24 }
+  body { 10, 16 }
+  arms { 10, 16 }
+  legs { 10, 16 }
+  feet { 10, 16 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+  spells { full harm }
+}
+1279
+{
+  name { Sielina }
+  namelist { Sielina }
+  shortdesc { Sielina stands here. }
+  longdesc {
+Sielina stands here looking more then capable of defending her fellow centaurs.
+  }
+  race { none }
+  sex { female }
+  level { 400 }
+  world_limit { 1 }
+  experience { 600000 }
+  hp { 17, 19, 7500 }
+  move { 200 }
+  alignment { 0 }
+  gold { 500000 }
+  hit_bonus { 22 }
+  dam_bonus { 22 }
+  attacks_per_round { 2.5 }
+  damage { 3, 7, 5 }
+  head { 100, 24 }
+  body { 10, 16 }
+  arms { 10, 16 }
+  legs { 10, 16 }
+  feet { 10, 16 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+

@@ -1,0 +1,247 @@
+114000
+{
+  name { Undead Centaur }
+  namelist { undead centaur }
+  shortdesc { an Undead Centaur stands here. }
+  longdesc {
+There are prices of skin torn off of this centaur. Its missing
+an eye and is moaning loudly.
+  }
+  race { none }
+  sex { female }
+  level { 400 }
+  world_limit { 1 }
+  experience { 600000 }
+  hp { 17, 19, 20000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 500000 }
+  hit_bonus { 22 }
+  dam_bonus { 28 }
+  attacks_per_round { 2.5 }
+  damage { 10, 10, 10 }
+  head { 100, 24 }
+  body { 10, 16 }
+  arms { 10, 16 }
+  legs { 10, 16 }
+  feet { 10, 16 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+114001
+{
+  name { Title the Giant }
+  namelist { title giant }
+  shortdesc { Title is on his knees... }
+  longdesc {
+This huge person is chained to the ground. You can hear him breathe,
+you get anxoius to run away from him.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 700 }
+  experience { 10203000 }
+  hp { 45, 400, 321700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 60 }
+  resist_cold   { 200 }
+  resist_fire   { 300 }
+  resist_poison { 200 }
+  immune { cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { stay-zone, nosummon, special, sentinel }
+}
+
+114002
+{
+  name { Atheno the Guardian }
+  namelist { atheno guardian }
+  shortdesc { Atheno stomps, the ground shakes.... }
+  longdesc {
+A giant guardian of the underworld sits here on his couch cluching
+his great hammer.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 700 }
+  experience { 10203000 }
+  hp { 45, 400, 321700 }
+  alignment { 0 }
+  gold { 5450000 }
+  hit_bonus { 50 }
+  dam_bonus { 101 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 5, 6, 95 }
+  head { -260, 90 }
+  body { -250, 90 }
+  arms { -250, 90 }
+  legs { -250, 90 }
+  feet { -250, 90 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 60 }
+  resist_cold   { 200 }
+  resist_fire   { 300 }
+  resist_poison { 200 }
+  immune { cold, charm, backstab }
+  affected { sanctuary, true-sight }
+  act { stay-zone, nosummon, special, sentinel }
+}
+
+114003
+{
+  name { an Insane Man }
+  namelist { insane man }
+  shortdesc { An insane looking man sitts here. }
+  longdesc {
+This man is sitting in the corner ot the room humming.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 195 }
+  experience { 313300 }
+  hp { 4, 50, 3800 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 16 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  resist_magic  { 115 }
+  immune { charm, backstab }
+  act { stay-zone, special, sentinel }
+}
+
+114004
+{
+  name { a skelleton warrior }
+  namelist { skelleton warrior }
+  shortdesc { A skelleton's bone's klink and klank as it walks... }
+  longdesc {
+You hear the klinking ol its bones as it walks across the ground. It drags
+ist axe along with him waiting for its next kill.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 195 }
+  experience { 313300 }
+  hp { 4, 50, 3800 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 16 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  resist_magic  { 115 }
+  immune { charm, backstab }
+  act { stay-zone, special, sentinel }
+}
+
+114005
+{
+  name { a slave }
+  namelist { slave }
+  shortdesc { A slave is mining for gold. }
+  longdesc {
+Screaming and yelling in pain he makes you realize that the hand
+and leg cuffs are uber tight and burning hot and blood red. he is
+forced to work and work.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 195 }
+  experience { 313300 }
+  hp { 4, 50, 3800 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 16 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.5 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  resist_magic  { 115 }
+  immune { charm, backstab }
+  act { stay-zone, special, sentinel }
+}
+
+114006
+{
+  name { The Devil }
+  namelist { devil }
+  shortdesc { the devil is sitting upon his throne.... }
+  longdesc {
+A red being with flaming eyes and large horns sits atop his throne.
+His biceps are as big as your head and he is the king of the underwirld.
+  }
+  race { demon }
+  height { 200 }
+  level { 1001 }
+  alignment { -1000 }
+  gold { 15000000 }
+  hit_bonus { 99 }
+  dam_bonus { 201 }
+  attacks_per_round { 8 }
+  head { -150, 45 }
+  body { -190, 65 }
+  arms { -170, 55 }
+  legs { -170, 55 }
+  feet { -170, 55 }
+  strength { 30 }
+  dexterity { 25 }
+  intelligence { 25 }
+  wisdom { 25 }
+  constitution { 25 }
+  luck { 25 }
+  hp { 1000, 10, 560000 }
+  move { 300 }
+  experience { 48000650 }
+  damage { 10, 6, 66  }
+  caster { 99 }
+  spells { dispel magic, fireball, cone of cold, energy drain, blindness, chill touch }
+  mana { 10000 }
+  immune { charm, fire, sleep, backstab }
+  resist_cold {200}
+  resist_magic {200}
+  affected { true-sight, detect-invisible, sanctuary, fireshield, infravision }
+  act { special, sentinel, npc }
+}

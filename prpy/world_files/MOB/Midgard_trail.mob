@@ -1,0 +1,409 @@
+50
+{
+  name { a Dragonborne noble Leader }
+  namelist { dragon rider leader noble dragonborne }
+  shortdesc { A huge multi-hued dragon stands here with a well-armored man astride it. }
+  longdesc {
+A man of clearly noble birth sits upon the back of this huge, 45-foot long
+polychromatic dragon.  He surveys the area with open contempt.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -200, 32 }
+  body { -200, 32 }
+  arms { -200, 32 }
+  legs { -200, 32 }
+  feet { -200, 32 }
+  hp { 4, 328, 29464  }
+  move { 300 }
+  experience { 759120 }
+  damage { 5, 9, 9  }
+  immune { charm }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { sentinel }
+  mana { 1000 }
+  resistant { pierce, blunt, slash, electricity, cold, fire, acid }
+}
+
+51
+{
+  name { a white Dragonborne noble }
+  namelist { white dragon noble dragonborne }
+  shortdesc { A huge white dragon stands here with a well-armored man astride it. }
+  longdesc {
+A man of obviously noble blood sits astride the huge white dragon, surveying
+the area with open contempt.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -150, 17 }
+  body { -150, 17 }
+  arms { -150, 17 }
+  legs { -150, 17 }
+  feet { -150, 17 }
+  hp { 4, 328, 23464  }
+  move { 300 }
+  experience { 359120 }
+  damage { 5, 6, 9  }
+  immune { cold, charm }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { sentinel }
+  mana { 1000 }
+  resistant {  pierce, blunt, slash }
+}
+
+52
+{
+  name { a red Dragonborne noble }
+  namelist { red dragon noble dragonborne }
+  shortdesc { A huge red dragons stands here with a well-armored man astride it. }
+  longdesc {
+A man of obviously noble blood sits astride the huge red dragon, surveying
+the area with open contempt.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -175, 19 }
+  body { -175, 19 }
+  arms { -175, 19 }
+  legs { -175, 19 }
+  feet { -175, 19 }
+  hp { 4, 328, 23464  }
+  move { 300 }
+  experience { 359120 }
+  damage { 5, 7, 9  }
+  immune { fire, charm }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { sentinel }
+  mana { 1000 }
+  resistant {  pierce, blunt, slash }
+}
+
+53
+{
+  name { a blue Dragonborne noble }
+  namelist { blue dragon noble dragonborne }
+  shortdesc { A huge blue dragon stands here with a well-armored man astride it. }
+  longdesc {
+A man of obviously noble blood sits astride the huge blue dragon, surveying
+the area with open contempt.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -165, 18 }
+  body { -165, 18 }
+  arms { -165, 18 }
+  legs { -165, 18 }
+  feet { -165, 18 }
+  hp { 4, 328, 23464  }
+  move { 300 }
+  experience { 359120 }
+  damage { 5, 7, 9  }
+  immune { electricity, charm }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { sentinel }
+  mana { 1000 }
+  resistant {  pierce, blunt, slash }
+}
+
+54
+{
+  name { a brown Dragonborne noble }
+  namelist { brown dragon noble dragonborne }
+  shortdesc { A huge brown dragon stands here with a well-armored man astride it. }
+  longdesc {
+A man of obviously noble blood sits astride the huge brown dragon, surveying
+the area with open contempt.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -140, 15 }
+  body { -140, 15 }
+  arms { -140, 15 }
+  legs { -140, 15 }
+  feet { -140, 15 }
+  hp { 4, 328, 23464  }
+  move { 300 }
+  experience { 359120 }
+  damage { 5, 6, 9  }
+  immune { acid, charm }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { sentinel }
+  mana { 1000 }
+}
+
+55
+{
+  name { a red Dragonborne soldier }
+  namelist { red dragon soldier dragonborne }
+  shortdesc { A well-armored man and his large red dragon mount stand here. }
+  longdesc {
+The rider of this 30 foot long dragon looks about with a cold, inscrutable
+gaze while his mount eyes you hungrily.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 5 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  head { -80, 8 }
+  body { -80, 8 }
+  arms { -80, 8 }
+  legs { -80, 8 }
+  feet { -80, 8 }
+  hp { 4, 328, 12064  }
+  move { 300 }
+  experience { 259120 }
+  damage { 5, 6, 5  }
+  immune { fire, charm }
+  affected { true-sight, detect-invisible, infravision }
+  act { sentinel }
+  mana { 100 }
+}
+
+56
+{
+  name { a white Dragonborne soldier }
+  namelist { white dragon soldier dragonborne }
+  shortdesc { A well-armored man and his large white dragon mount stand here. }
+  longdesc {
+The rider of this 30 foot long dragon looks about with a cold, inscrutable
+gaze while his mount eyes you hungrily.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 10 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  head { -80, 8 }
+  body { -80, 8 }
+  arms { -80, 8 }
+  legs { -80, 8 }
+  feet { -80, 8 }
+  hp { 4, 328,12064  }
+  move { 300 }
+  experience { 259120 }
+  damage { 5, 6, 5  }
+  immune { cold, charm }
+  affected { true-sight, detect-invisible, infravision }
+  act { sentinel }
+  mana { 100 }
+  resistant {  pierce, blunt, slash }
+}
+
+57
+{
+  name { a blue Dragonborne soldier }
+  namelist { blue dragon soldier dragonborne }
+  shortdesc { A well-armored man and his large blue dragon mount stand here. }
+  longdesc {
+The rider of this 30 foot long dragon looks about with a cold, inscrutable
+gaze while his mount eyes you hungrily.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 5 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  head { -80, 8 }
+  body { -80, 8 }
+  arms { -80, 8 }
+  legs { -80, 8 }
+  feet { -80, 8 }
+  hp { 4, 328, 2064  }
+  move { 300 }
+  experience { 259120 }
+  damage { 5, 6, 5  }
+  immune { electricity, charm }
+  affected { true-sight, detect-invisible, infravision }
+  act { sentinel }
+  mana { 100 }
+}
+
+58
+{
+  name { a brown Dragonborne soldier }
+  namelist { brown dragon soldier dragonborne }
+  shortdesc { A well-armored man and his large brown dragon mount stand here. }
+  longdesc {
+The rider of this 30 foot long dragon looks about with a cold, inscrutable
+gaze while his mount eyes you hungrily.
+  }
+  race { dragon }
+  height { 260 }
+  weight { 30000 }
+  level { 328 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 5 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  head { -80, 8 }
+  body { -80, 8 }
+  arms { -80, 8 }
+  legs { -80, 8 }
+  feet { -80, 8 }
+  hp { 4, 328, 2064  }
+  move { 300 }
+  experience { 259120 }
+  damage { 5, 6, 5  }
+  immune { acid, charm }
+  affected { true-sight, detect-invisible, infravision }
+  act { sentinel }
+  mana { 100 }
+}
+
+59
+{
+  name { a dark man}
+  namelist { man dark scout }
+  shortdesc { An unusually dark man skulks about in the shadows. }
+  longdesc {
+The man is so dark (almost pitch black!) that he blends into the
+shadows amazingly well.  You _think_ you see a tattoo in the
+shape of a dragon on his head, but it's hard to be certain.
+  }
+  race { human }
+  height { 160 }
+  weight { 20000 }
+  level { 228 }
+  alignment { -1000 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { -210, 21 }
+  body { -210, 21 }
+  arms { -210, 21 }
+  legs { -210, 21 }
+  feet { -210, 21 }
+  hp { 4, 100, 1000 }
+  move { 300 }
+  experience { 100120 }
+  damage { 3, 5, 9  }
+  immune { fire, cold, acid, electricity, charm }
+  affected { true-sight, detect-invisible, infravision, hide, sneak }
+  act { sentinel }
+  mana { 1000 }
+}
+
+60
+{
+  name { the Prophet }
+  namelist { prophet }
+  shortdesc { The Prophet stands here with a fanatic gleam in his eye. }
+  longdesc {
+The Prophet of the Dragon is a small but imposing figure.  There is
+a sense of both the charismatic and the mad about him.
+  }
+  race { human }
+  height { 130 }
+  weight { 14000 }
+  level { 300 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 10, 10, 1950 }
+  move { 300 }
+  mana { 1000 }
+  power { 1000 }
+  experience { 200000 }
+  damage { 3, 4, 5  }
+  immune { charm }
+  affected { detect-invisible, true-sight }
+  act { sentinel, immortal}
+  caster { 45 }
+  spells { shriek }
+}
+
+61
+{
+  name { the Yaelm }
+  namelist { yaelm }
+  shortdesc { You see a very tall, willowy creature here. }
+  longdesc {
+A seven foot tall, thin humanoid.  It has pale skin, and no visible
+hair apparent on its frame.  Its eyes are very large and expressive.
+  }
+  race { human }
+  height { 250 }
+  weight { 16000 }
+  level { 500 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 5 }
+  head { -30, 4 }
+  body { -30, 4 }
+  arms { -30, 4 }
+  legs { -30, 4 }
+  feet { -30, 4 }
+  dexterity { 17 }
+  hp { 10, 10, 3000 }
+  move { 300 }
+  power { 3000 }
+  mana { 3000 }
+  experience { 350000 }
+  damage { 3, 4, 2 }
+  immune { charm, non-magical, acid, cold, fire, electricity, hold }
+  affected { detect-invisible, true-sight, invulnerability }
+  act { sentinel }
+  caster { 20 }
+  spells { mage fire, fireball, cone of cold, meteor swarm, dispel magic, curse }
+}
+

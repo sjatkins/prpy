@@ -1,0 +1,3 @@
+#!/bin/sh
+
+../tran mob ALLMOB mob.out

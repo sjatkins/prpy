@@ -1,0 +1,554 @@
+62037
+{
+  name { the white wizard }
+  namelist { white wizard }
+  shortdesc { A white robed wizard floats high above the deep hole. }
+  longdesc {
+Deep in concentration, a white robed wizard floats about one hundred feet
+above the deep, bottomless hole.  The robes flap in the air furiously,
+as though the wizard was in the middle of a hurricane.  However, the
+air surrounding the mage appears to be in a dead calm.  Without opening
+an eye he speaks, "I can let you through, but only for a short time!".
+"Go, all of you.... GO!", he barks, thrusting his hands in the air and
+screams, "GO!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 300 }
+  experience { 50000 }
+  hp { 20, 25, 3000 }
+  alignment { 1000 }
+  gold { 2500 }
+  hit_bonus { 11 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { -20, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { flying, sanctuary, infravision }
+  immune { charm }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+62038
+{
+  name { a wandering orc warrior }
+  namelist { wandering orc warrior }
+  shortdesc { An orc warrior marches through the corridor. }
+  longdesc {
+An orc warrior, dressed in the armor of his previous victims, marches
+through the corridor.  Drool dripping from his mouth, he searches the
+hallways for any signs of trouble.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 6 }
+  level { 96 }
+  experience { 20500 }
+  hp { 10, 15, 850 }
+  alignment { -1000 }
+  gold { 3500 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 5, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62039
+{
+  name { an orc warrior }
+  namelist { orc warrior }
+  shortdesc { An orc warrior slashes the blue shield with all his might. }
+  longdesc {
+Hanging from the ladders, he unsheaths his sword and slashes at the 
+glowing blue shield with a grunt.  He shakes his head, grunts something
+in orc to his friend and they strike the shield again in unison.  Letting
+out another squeal of frustration, he attacks the shield in a flurry of 
+attacks.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 2 }
+  level { 60 }
+  experience { 15500 }
+  hp { 10, 15, 650 }
+  alignment { -1000 }
+  gold { 2900 }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 5, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62040
+{
+  name { a ghostly shadow }
+  namelist { ghost shadow }
+  shortdesc { A ghostly shadow slips through the ladders, mimicking reflections. }
+  longdesc {
+Pitch black and almost shapeless, the ghostly shadow crawls along the
+corridor walls.  It slips in and out of the shadows reflected from the
+torches hanging on the ladder like structures.  It quivers and pulsates
+when it notices you staring.
+  }
+  race { Ghost }
+  world_limit { 5 }
+  level { 65 }
+  experience { 16500 }
+  hp { 20, 15, 700 }
+  alignment { -1000 }
+  gold { 3600 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 1, 7, 2 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { true-sight, infravision }
+  immune { charm }
+  spells { chill touch }
+  act { npc, aggressive, stay-zone }
+}
+
+62041
+{
+  name { an elven warrior }
+  namelist { elven warrior }
+  shortdesc { An elven warrior shoots some arrows into climbing orcs. }
+  longdesc {
+The elven warrior dances and leaps around the cavern, avoiding capture
+from the orc assailants.  He slips his legs through a ladder rung, flips
+upside down, and quickly knocks his bow and shoots!  He is amazingly
+fast and accurate.  With a quick smirk, he rights himself on the ladder
+and continues upward.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 140 }
+  experience { 59000 }
+  hp { 15, 25, 1125 }
+  alignment { 750 }
+  gold { 5600 }
+  hit_bonus { 21 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62042
+{
+  name { a climbing orc warrior }
+  namelist { climbing orc warrior }
+  shortdesc { An orc warrior climbs quickly up the ladders. }
+  longdesc {
+Trying his best to avoid the arrows being shot at his head, the orc
+warrior swings and jumps from ladder to ladder, in order to avoid 
+getting hit.  Drool dripping from his mouth, he squeals up at his 
+attacker.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 2 }
+  level { 110 }
+  experience { 39800 }
+  hp { 10, 15, 950 }
+  alignment { -1000 }
+  gold { 3600 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 10, 6 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62043
+{
+  name { the orc leader }
+  namelist { orc leader }
+  shortdesc { A gigantic orc stares at the plans on the wall. }
+  longdesc {
+The black orc is massively muscled and takes up most of the cavern.  He
+seems to be staring with a confused look at the plans stuck up to the
+northen corridor wall.  Scratching his head, he folds his arms and
+continues to stare at the plans.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 1 }
+  level { 140 }
+  experience { 128000 }
+  hp { 25, 25, 1675 }
+  alignment { -1000 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 1, 7, 3 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62044
+{
+  name { a large wandering orc warrior }
+  namelist { large wandering orc warrior }
+  shortdesc { A large orc warrior marches through the corridor. }
+  longdesc {
+An orc warrior, dressed in the armor of his previous victims, marches
+through the corridor.  Drool dripping from his mouth, he searches the
+hallways for any signs of trouble.  He is rather large and can barely
+fit through the corridor.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 4 }
+  level { 105 }
+  experience { 49500 }
+  hp { 10, 15, 975 }
+  alignment { -1000 }
+  gold { 3400 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 5, 7 }
+  body { 10, 5 }
+  arms { 10, 5 }
+  legs { 10, 5 }
+  feet { 10, 5 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62045
+{
+  name { a human warrior }
+  namelist { human warrior }
+  shortdesc { A mighty warrior runs through the hallway, sword in hand. }
+  longdesc {
+Dressed in attire suitable for a king, the strong warrior makes his way
+along the corridor.  "They must not reach the Shire.", he speaks, "The
+white wizard can only hold them for so long.".  Lowering his sword, he 
+pleads, "Kill the orcs....Every last one!".  He nods his head and runs 
+to the next corridor.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 140 }
+  experience { 95000 }
+  hp { 15, 25, 1750 }
+  alignment { 750 }
+  gold { 7800 }
+  hit_bonus { 21 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 3 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62046
+{
+  name { a dwarf warrior }
+  namelist { dwarf warrior }
+  shortdesc { A proud dwarf warrior pounds in an orc's head. }
+  longdesc {
+"I left some for you, almost ready for death!", he boasts.  "I like to
+make them wait a while" he grins, "but, you can finish them off.".  "A
+warrior's promise!", he says, pounding a clenched fist into his chest.
+A long red beard runs down his face and across his magnificent breast
+plate.  Clearly the best dwarven mail you have ever seen.
+  }
+  race { Dwarf }
+  sex { Male }
+  world_limit { 1 }
+  level { 135 }
+  experience { 94500 }
+  hp { 15, 25, 1700 }
+  alignment { 900 }
+  gold { 5600 }
+  hit_bonus { 21 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 5 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62047
+{
+  name { a wounded orc warrior }
+  namelist { wounded orc warrior }
+  shortdesc { A bloody mess of an orc twitches on the ground. }
+  longdesc {
+Yuck!  Some has bashed this poor animals head in.  Wait a minute, it is
+an orc.... Kill it!
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 4 }
+  level { 5 }
+  experience { 4700 }
+  hp { 10, 15, 75 }
+  alignment { -1000 }
+  gold { 1800 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 2, 1 }
+  head { 5, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62048
+{
+  name { a minor ghostly shadow }
+  namelist { ghost shadow minor }
+  shortdesc { A small, ghostly shadow crawls across the wall. }
+  longdesc {
+Pitch black and almost shapeless, the ghostly shadow crawls along the
+corridor walls.  It slips in and out of the shadows reflected from the
+torches hanging on the ladder like structures.  It quivers and pulsates
+when it notices you staring.
+  }
+  race { Ghost }
+  world_limit { 6 }
+  level { 65 }
+  experience { 10200 }
+  hp { 20, 15, 350 }
+  alignment { -1000 }
+  gold { 3600 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 13 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 1, 4, 4 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { true-sight, infravision }
+  immune { charm }
+  spells { chill touch }
+  act { npc, aggressive, stay-zone }
+}
+
+62049
+{
+  name { a halfling warrior }
+  namelist { halfling warrior }
+  shortdesc { A halfling warrior creeps around in the shadows. }
+  longdesc {
+The halfling warrior creeps along the corridor walls, trying to stay in
+the darkness of the shadows.  I guess he forgot orcs can see in the dark.
+Wait a minute, why are there torches in the first place?!  So yeah,
+creeping..........  A blue glow starts to pulse around the hilt of his
+sheathed sword.  That does not look good.
+  }
+  race { Halfling }
+  sex { Male }
+  world_limit { 1 }
+  level { 115 }
+  experience { 49000 }
+  hp { 15, 25, 1125 }
+  alignment { 750 }
+  gold { 4000 }
+  hit_bonus { 21 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 2 }
+  head { -10, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62050
+{
+  name { a wounded human }
+  namelist { wounded human }
+  shortdesc { A human body lies moaning on the ground. }
+  longdesc {
+Oh my.... He is probably not going to make it.  Better put him out of 
+his misery.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 5 }
+  experience { 4100 }
+  hp { 10, 15, 65 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62051
+{
+  name { a construction orc }
+  namelist { construction orc }
+  shortdesc { A large orc warrior makes repairs to the ladders. }
+  longdesc {
+An orc warrior, dressed in the armor of his previous victims, marches
+through the corridors looking for breaks in the structure.  Awfully
+smart for an Orc!  He is huge and could easily smash your head in.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 2 }
+  level { 135 }
+  experience { 63000 }
+  hp { 10, 15, 1525 }
+  alignment { -1000 }
+  gold { 4400 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 15, 7 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62052
+{
+  name { a ghostly shadow }
+  namelist { ghost shadow }
+  shortdesc { A ghostly shadow slips through the ladders, mimicking reflections. }
+  longdesc { 
+Pitch black and almost shapeless, the ghostly shadow crawls along the corridor
+walls.  It slips in and out of the shadows reflected from the torches hanging
+on the ladder like structures.  It quivers and pulsates when it notices you 
+staring.  A soft glowing medallion appears to be lodged in the shadows neck.
+}
+  race { ghost }
+  world_limit { 1 }
+  level { 65 }
+  experience { 22500 }
+  hp { 20, 15, 700 }
+  alignment { -800 }
+  gold { 5000 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move { 200 }
+  damage { 1, 4, 2 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { true-sight, infravision }
+  immune { charm }
+  spells { chill touch }
+  act { npc, aggressive, stay-zone }
+}

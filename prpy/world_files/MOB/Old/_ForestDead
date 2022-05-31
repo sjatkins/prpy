@@ -1,0 +1,1085 @@
+1700
+{
+  name { Maschel duAngnain }
+  namelist { maschel duAngnain paladin undead slayer }
+  short { An armored elf clad in the raiments of a paladin sworn to destroy undead stands here. }
+  long {
+A tall, striking nobleman, Maschel duAngnain is a knight of both Malathar
+and Maritshome, and is a sworn enemy of undead everywhere. He is currently
+preparing to enter the Forest of the Dead once more, in another attempt to
+lay low the evil that fester here, a sore blight on the Elven holdings.
+If asked politely, he may be able to shed some light on some of the evil
+forces that control the forest, and where they may be found.
+  }
+  sex { male }
+  alignment { 1000 }
+  gold { 50 }
+  level { 80 }
+  experience { 172463 }
+  hit_bonus { 20 }
+  hp { 100, 10, 3000 }
+  damage { 5,10,30 }
+  strength     { 22 }
+  intelligence { 22 }
+  wisdom       { 22 }
+  dexterity    { 22 }
+  constitution { 22 }
+  charisma     { 22 }
+  luck         { 22 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  affected { invisible, sense-life }
+}
+
+1701
+{
+  name { Cresslix }
+  namelist { cresslix lich }
+  short { A diabolical creature of the undead cackles hideously. }
+  long {
+Utterly evil, Cresslix the damned is a vile creature, in life a necromancer
+of incredible power who has become an even greater threat in undeath. He
+sits within his blackened tower of twisted metal, plotting the eventual
+destruction of the Elven kingdom of Malathar, and many fear that he may well
+one day succeed.
+  }
+  sex { male }
+  alignment { -1000 }
+  gold { 50 }
+  level { 102 }
+  experience { 561069 }
+  hit_bonus { 20 }
+  hp { 100, 10, 11000 }
+  damage { 10,10,30 }
+  strength     { 13 }
+  intelligence { 22 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 23 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, detect-evil, detect-invisible, sense-life }
+}
+
+1703
+{
+  name { the ghost of Robert Ascerguin }
+  namelist { ghost robert ascerguin }
+  short { A shimmering, translucent figure hovers here. }
+  long {
+A paladin of Maritshome who was slain horribly by a wraith, Robert's
+ghost now remains, seeking to avenge his death. The experience has driven
+him quite mad, and he cannot differentiate between friend and foe.
+  }
+  sex { neuter }
+  alignment { 400 }
+  gold { 50 }
+  level { 56 }
+  experience { 72677 }
+  hit_bonus { 20 }
+  hp { 100, 50, 3000 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, scavenger }
+  affected { invisible, detect-evil, detect-magic }
+}
+
+1704
+{
+  name { a shambling mound }
+  namelist { shambling mound }
+  short { A pile of rotting garbage and plant matter rises in the clearing. }
+  long {
+This semi-intelligent, malevolent creature destroys any and all in its
+path. An overgrown plant, it can nevertheless inflict considerable
+damage on its victims.
+  }
+  sex { neuter }
+  alignment { -400 }
+  gold { 50 }
+  level { 52 }
+  experience { 11437 }
+  hit_bonus { 20 }
+  hp { 10, 20, 450 }
+  damage { 4,7,20 }
+  strength     { 18 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, invisible }
+}
+
+1705
+{
+  name { a skeleton warrior }
+  namelist { skeleton  }
+  short { A skeleton clad in moldering armor stumbles through the trees. }
+  long {
+This is the remains of one of the many soldiers who died in the bloody
+wars fought in these parts in centuries past. Now it is condemned to
+wander eternally, in search of something it can never find- peace.
+  }
+  sex { neuter }
+  alignment { -500 }
+  gold { 50 }
+  level { 44 }
+  experience { 6510 }
+  hit_bonus { 20 }
+  hp { 20, 10, 393 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, sentinel, scavenger }
+  affected { blind, invisible }
+}
+
+1706
+{
+  name { a forest ghoul }
+  namelist { forest ghoul }
+  short { A rotting corpse covered in twigs and other debris crawls out of the pit. }
+  long {
+Unlike its more urban cousins, the forest ghoul is not the reanimated
+corpse of a slain human, but the remains of a human whose spirit was stolen
+by evil forces and replaced by vile spirits of the dark forests, thus
+making it resistant to many of the conventional weapons used against
+"true" undead.
+  }
+  sex { neuter }
+  alignment { -656 }
+  gold { 50 }
+  level { 50 }
+  experience { 10531 }
+  hit_bonus { 20 }
+  hp { 20, 10, 693 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special }
+  affected { detect-invisible }
+}
+
+1707
+{
+  name { a tanglethorn }
+  namelist { tangle thorn }
+  short { A thick, spikey plant with long thorny tendrils waves in the wind. }
+  long {
+This is one of the many evil, semi-intelligent plants that thrives in this
+cursed wood. It subsists on the flesh of creatures it incapacitates and kills
+with its potent acidic venom.
+  }
+  sex { neuter }
+  alignment { -400 }
+  gold { 50 }
+  level { 48 }
+  experience { 6120 }
+  hit_bonus { 20 }
+  hp { 20, 10, 356 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, scavenger }
+  affected { blind, invisible, detect-evil }
+}
+
+1708
+{
+  name { a leshy }
+  namelist { leshy }
+  short { A treelike humanoid with backwards feet charges towards you. }
+  long {
+An evil forest creature, the Leshy resembles a humanoid tree, save
+that its feet are inverted, so that tracks that appear to head away
+from you are actually heading towards you...
+  }
+  sex { neuter }
+  alignment { -600 }
+  gold { 50 }
+  level { 50 }
+  experience { 6410 }
+  hit_bonus { 20 }
+  hp { 20, 10, 356 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 18 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { detect-evil, detect-invisible, detect-magic }
+}
+
+1709
+{
+  name { a zombie warrior }
+  namelist { zombie }
+  short { A zombie spearman shambles through the dark woods. }
+  long {
+This is the remains of one of the many soldiers who died in the bloody
+wars fought in these parts in centuries past. Now it is condemned to
+wander eternally, in search of something it can never find- peace.
+  }
+  sex { neuter }
+  alignment { -500 }
+  gold { 50 }
+  level { 44 }
+  experience { 10381 }
+  hit_bonus { 20 }
+  hp { 20, 10, 693 }
+  damage { 4,6,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, sentinel, scavenger }
+  affected { blind, invisible }
+}
+
+1710
+{
+  name { the slime beast }
+  namelist { slime beast }
+  short { A gruesome, slimecovered thing rises from the mire. }
+  long {
+  You look long and hard but see nothing notable. }
+  sex { neuter }
+  alignment { -887 }
+  gold { 50 }
+  level { 56 }
+  experience { 8857 }
+  hit_bonus { 20 }
+  hp { 20, 10, 593 }
+  damage { 4,5,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, invisible, detect-evil }
+}
+
+1711
+{
+  name { a barrow wight }
+  namelist { wight }
+  short { A shimmering, translucent figure rises from the tomb. }
+  long {
+The undead result of a semi-successful bid by an ancient necromancer
+for immortality, this undead is immortal, but at the price of being
+trapped in a partially-corporeal form, and unable to leave its tomb.
+Enraged at this situation, it vents its anger on those unfortunate fools
+that disturb it.
+  }
+  sex { neuter }
+  alignment { -1000 }
+  gold { 50 }
+  level { 64 }
+  experience { 21430 }
+  hit_bonus { 20 }
+  hp { 20, 10, 1593 }
+  damage { 4,5,10 }
+  strength     { 13 }
+  intelligence { 22 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { detect-invisible, sense-life }
+}
+
+1712
+{
+  name { an unholy spirit }
+  namelist { unholy spirit }
+  short { A snarling, drooling clawed creature flies screaming at you! }
+  long {
+  You look long and hard but see nothing notable. }
+  sex { neuter }
+  alignment { 0 }
+  gold { 50 }
+  level { 92 }
+  experience { 20164 }
+  hit_bonus { 20 }
+  hp { 20, 10, 1593 }
+  damage { 4,5,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, sentinel, scavenger }
+  affected { blind, detect-evil, sense-life }
+}
+
+1713
+{
+  name { a wood golem }
+  namelist { wood golem statue }
+  short { A twisted, gnarled wooden statue rises from a carpet of moss. }
+  long {
+This statue has been here for centuries, judging by the thick moss that
+covers it. A grim smile has been hacked into its face, making it look at
+once both ludicrous and disturbingly macabre.
+  }
+  sex { neuter }
+  alignment { -200 }
+  gold { 50 }
+  level { 54 }
+  experience { 16340 }
+  hit_bonus { 20 }
+  hp { 11, 10, 500 }
+  damage { 1,22,40 }
+  strength     { 18 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, sentinel, scavenger }
+  affected { blind, invisible }
+}
+
+1714
+{
+  name { She'naria }
+  namelist { druid shenaria }
+  short { A rather homely elf, clad in simple brown robes, sits meditating. }
+  long {
+An island of purity in a sea of corruption, She'naria resides in the
+dark heart of this foul wood in the hopes of one day finding a way to
+reverse the evil this place contains. She is curt, abrupt and distrustful,
+as she has an annoying habit of seeing the worst in people.
+  }
+  sex { female }
+  alignment { 200 }
+  gold { 50 }
+  level { 70 }
+  experience { 45486 }
+  hit_bonus { 20 }
+  hp { 11, 10, 1500 }
+  damage { 1,22,40 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, sentinel, scavenger }
+  affected { blind, detect-evil, detect-magic }
+}
+
+1715
+{
+  name { a rabbit }
+  namelist { rabbit }
+  short { A rather confused rabbit sits here. }
+  long {
+  You look long and hard but see nothing notable. }
+  sex { neuter }
+  alignment { 0 }
+  gold { 50 }
+  level { 10 }
+  experience { 69 }
+  hit_bonus { 2 }
+  hp { 1, 1, 30 }
+  damage { 1,4,1 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { 70, 1 }
+  body { 70, 1 }
+  arms { 70, 1 }
+  legs { 70, 1 }
+  feet { 70, 1 }
+  act { scavenger }
+  affected { blind, invisible }
+}
+
+1716
+{
+  name { a deer }
+  namelist { deer }
+  short { A deer blinks in confusion at its surrounds. }
+  long {
+She is a graceful creature on long, slender legs, and with large, brown eyes
+looking back at you with an air of watchful interest.
+  }
+  sex { female }
+  alignment { 350 }
+  gold { 50 }
+  level { 16 }
+  experience { 89 }
+  hit_bonus { 1 }
+  hp { 2, 8, 33 }
+  damage { 1,6,0 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, sentinel }
+  affected { blind, invisible }
+}
+
+1717
+{
+  name { a boar }
+  namelist { boar }
+  short { A ferocious boar grunts and lowers its head. }
+  long {
+  You look long and hard but see nothing notable. }
+  sex { neuter }
+  alignment { -200 }
+  gold { 50 }
+  level { 24 }
+  experience { 3521 }
+  hit_bonus { 20 }
+  hp { 10, 20, 216 }
+  damage { 4,4,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, sentinel }
+  affected { blind, invisible }
+}
+
+1718
+{
+  name { a giant spider }
+  namelist { giant spider }
+  short { A spider the size of a small pony scuttles across the webs. }
+  long {
+Loathsome arachnids infest most of the forests of Brythunia, a constant
+hazard to locals and visitors alike.
+  }
+  sex { neuter }
+  alignment { 0 }
+  gold { 50 }
+  level { 48 }
+  experience { 7481 }
+  hit_bonus { 20 }
+  hp { 15, 30, 680 }
+  damage { 3,6,5 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, scavenger }
+  affected { blind, detect-invisible }
+}
+
+1719
+{
+  name { a harpy }
+  namelist { harpy }
+  short { A cackling harpy pecks at bits of flesh. }
+  long {
+One of the many evil creatures that took over the stockade, it now
+returns frequently to assault curious adventurers.
+  }
+  sex { neuter }
+  alignment { -750 }
+  gold { 50 }
+  level { 64 }
+  experience { 15860 }
+  hit_bonus { 20 }
+  hp { 10, 50, 1005 }
+  damage { 3,7,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { invisible, detect-evil, detect-magic }
+}
+
+1720
+{
+  name { an elven wraith }
+  namelist { elven wraith }
+  short { An elvish soldier slain in the battle has returned as a wraith. }
+  long {
+Unable to rest after its violent death, this elf has returned to a
+semblance of existence as a wraith, doomed to haunt this place until
+it is laid to rest.
+  }
+  sex { neuter }
+  alignment { 400 }
+  gold { 50 }
+  level { 68 }
+  experience { 14037 }
+  hit_bonus { 20 }
+  hp { 20, 40, 881 }
+  damage { 3,5,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { invisible, detect-invisible, detect-magic }
+}
+
+1721
+{
+  name { the commander }
+  namelist { vampire commander }
+  short { The commander of the fort welcomes you to his office. }
+  long {
+What? Impossible. How could the commander have survived the slaughter
+outside? You shake your head, suspending disbelief to consider the
+facts. The commander certainly is an odd fellow, all tall and gaunt.
+Frowning, you peer closer; are those FANGS?
+  }
+  sex { neuter }
+  alignment { -1000 }
+  gold { 50 }
+  level { 76 }
+  experience { 71042 }
+  hit_bonus { 20 }
+  hp { 20, 10, 2280 }
+  damage { 8,4,32 }
+  strength     { 18 }
+  intelligence { 18 }
+  wisdom       { 13 }
+  dexterity    { 18 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { blind, detect-magic }
+}
+
+1722
+{
+  name { the behemoth }
+  namelist { behemoth }
+  short { A mammoth creature lies here, deep in slumber. }
+  long {
+The sleeping behemoth is a pet of Cresslix, which he releases to feed
+at a point in the forest at regular intervals. It is rumored to be
+unkillable, save by the Gods themselves. But if it is slain, its hide
+is of considerable value...
+  }
+  sex { neuter }
+  alignment { 0 }
+  gold { 50 }
+  level { 96 }
+  experience { 750000 }
+  hit_bonus { 20 }
+  hp { 11, 22, 22320 }
+  damage { 11,11,60 }
+  strength     { 25 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { blind, invisible }
+}
+
+1723
+{
+  name { a chaotic manifestation }
+  namelist { manifestation chaos }
+  short { A glowing black sphere of evil energy hovers here. }
+  long {
+This sphere of energy has only a dim consciousness, and will do
+nothing except feed off the ambient evil in the air, unless it is
+provoked or molested.
+  }
+  sex { neuter }
+  alignment { -1000 }
+  gold { 50 }
+  level { 90 }
+  experience { 204923 }
+  hit_bonus { 20 }
+  hp { 100, 10, 4500 }
+  damage { 11,4,44 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { blind, detect-magic, sense-life }
+}
+
+1724
+{
+  name { a haunt }
+  namelist { haunt }
+  short { A ghostly apparition weeps silently. }
+  long {
+This is the cursed spirit of a former noble of this once fair city,
+doomed to remain and watch it slowly decay into nothing, helpless to
+leave or prevent this or its own suffering. Coupled with this is the
+fact that anyone who could speak her language died milennia ago.
+  }
+  sex { female }
+  alignment { 750 }
+  gold { 50 }
+  level { 92 }
+  experience { 22021 }
+  hit_bonus { 20 }
+  hp { 20, 20, 1540 }
+  damage { 4,5,10 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special }
+  affected { detect-evil, sense-life }
+}
+
+1727
+{
+  name { a goblin spy }
+  namelist { goblin spy }
+  short { A small goblin creeps furtively through the woods. }
+  long {
+Sent by tribes from the south, this creature's mission is to locate
+any possible allies in this fell wood, and maybe even find the legendary
+Cresslix, the mad necromancer that is rumored to reside here, in the shifting
+halls of T'kemp.
+  }
+  sex { male }
+  alignment { -400 }
+  gold { 50 }
+  level { 36 }
+  experience { 731 }
+  hit_bonus { 20 }
+  hp { 5, 10, 60 }
+  damage { 4,4,5 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { nice-thief }
+  affected { blind, invisible, detect-invisible, detect-magic }
+}
+
+1728
+{
+  name { a clay golem }
+  namelist { clay golem }
+  short { A berserk clay golem is smashing marble and stone. }
+  long {
+Once a faithful and loyal guardian of the owner of this home, this creature
+and its brethren now runs amuck, smashing all in its path.
+  }
+  sex { neuter }
+  alignment { 0 }
+  gold { 50 }
+  level { 80 }
+  experience { 36799 }
+  hit_bonus { 20 }
+  hp { 0, 0, 1450 }
+  damage { 5,5,30 }
+  strength     { 25 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, sentinel, scavenger }
+  affected { blind, invisible, detect-evil }
+}
+
+1729
+{
+  name { Aczeal }
+  namelist { mad mage aczeal }
+  short { A gibbering, drooling mage casts spells at everything. }
+  long {
+An adventurer like yourself, Aczael became trapped by the golems in
+this ruined tower, and, being unable to leave, slowly went mad.
+  }
+  sex { male }
+  alignment { -200 }
+  gold { 50 }
+  level { 84 }
+  experience { 15892 }
+  hit_bonus { 20 }
+  hp { 25, 25, 2200 }
+  damage { 3,3,5 }
+  strength     { 13 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 13 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, sentinel, scavenger }
+  affected { blind, detect-evil, detect-magic }
+}
+
+1730
+{
+  name { a gargoyle }
+  namelist { gargoyle }
+  short { As you enter, one of the visages breaks free from the wall and comes to life! }
+  long {
+This bestial creature is one of the many twisted magical creations of
+the lich cresslix, left to guard his domain.
+  }
+  sex { neuter }
+  alignment { -400 }
+  gold { 50 }
+  level { 88 }
+  experience { 108053 }
+  hit_bonus { 20 }
+  hp { 1, 1, 4500 }
+  damage { 4,10,20 }
+  strength     { 17 }
+  intelligence { 8 }
+  wisdom       { 3 }
+  dexterity    { 17 }
+  constitution { 17 }
+  charisma     { 3 }
+  luck         { 6 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, detect-evil, detect-invisible, detect-magic }
+}
+
+1731
+{
+  name { the Vampyr Pennig }
+  namelist { pennig vampyr }
+  short { A slim, nubile young girl, scarcely in her teens, steps out of the shadows. }
+  long {
+The kidnapped daughter of Maschel, Cresslix's minions brought her here
+to be used by the lich, and he corrupted her into another member of his
+legion of undead. Despite her appearance, she is vile, conniving and
+utterly twisted and evil, her mind permanently warped by the trauma her
+body and soul has been subjected to.
+  }
+  sex { female }
+  alignment { -1000 }
+  gold { 50 }
+  level { 96 }
+  experience { 121473 }
+  hit_bonus { 20 }
+  hp { 1, 1, 8500 }
+  damage { 5,5,10 }
+  strength     { 22 }
+  intelligence { 22 }
+  wisdom       { 13 }
+  dexterity    { 22 }
+  constitution { 22 }
+  charisma     { 22 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, invisible, detect-evil, sense-life }
+}
+
+1732
+{
+  name { Marshal Klein }
+  namelist { marshal klein }
+  short { A battered, beaten man sits in a corner of the chamber. }
+  long {
+A friend of Maschel who sought to rescue Pennig, Klein has been reduced
+to being Pennig's plaything to relieve her boredom, and now awaits only
+his death, or possible rescue by Maschel.
+  }
+  sex { male }
+  alignment { 700 }
+  gold { 50 }
+  level { 92 }
+  experience { 161203 }
+  hit_bonus { 20 }
+  hp { 1, 1, 6000 }
+  damage { 25,2,10 }
+  strength     { 17 }
+  intelligence { 13 }
+  wisdom       { 13 }
+  dexterity    { 17 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -110, 10 }
+  body { -110, 10 }
+  arms { -110, 10 }
+  legs { -110, 10 }
+  feet { -110, 10 }
+  act { special, scavenger }
+  affected { blind, detect-magic }
+}
+
+1733
+{
+  name { Chopper zombie }
+  namelist { zombie chopper }
+  short { A zombie with a slight gleam of intelligence in his eyes stands here. }
+  long {
+A former servant of Cresslix, this chef-turned-mercenary-turned-undead
+has been punished by being turned into a living zombie and placed here
+to guard the lower chambers.
+  }
+  sex { neuter }
+  alignment { -555 }
+  gold { 50 }
+  level { 90 }
+  experience { 103606 }
+  hit_bonus { 20 }
+  hp { 100, 50, 1670 }
+  damage { 10,4,20 }
+  strength     { 22 }
+  intelligence { 8 }
+  wisdom       { 13 }
+  dexterity    { 15 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, scavenger }
+  affected { blind, invisible, detect-evil }
+}
+
+1734
+{
+  name { a living zombie }
+  namelist { zombie }
+  short { A former associate of Chopper staggers to his boss' aid. }
+  long {
+A former servant of Cresslix, this chef-turned-mercenary-turned-undead
+has been punished by being turned into a living zombie and placed here
+to guard the lower chambers.
+  }
+  sex { neuter }
+  alignment { -555 }
+  gold { 50 }
+  level { 90 }
+  experience { 150244 }
+  hit_bonus { 20 }
+  hp { 100, 70, 2570 }
+  damage { 10,4,20 }
+  strength     { 22 }
+  intelligence { 8 }
+  wisdom       { 13 }
+  dexterity    { 15 }
+  constitution { 13 }
+  charisma     { 13 }
+  luck         { 13 }
+  head { -10, 5 }
+  body { -10, 5 }
+  arms { -10, 5 }
+  legs { -10, 5 }
+  feet { -10, 5 }
+  act { special, scavenger }
+  affected { blind, invisible, detect-evil }
+}
+

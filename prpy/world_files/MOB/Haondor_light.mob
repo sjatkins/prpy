@@ -1,0 +1,218 @@
+6000
+{
+  name { John the Lumberjack }
+  namelist { john lumberjack }
+  shortdesc { John the Lumberjack is here, looking for some trees to chop down. }
+  longdesc {
+He is six feet tall and looks quite strong, muscles bulging under his heavy,
+chequered shirt.  His features are worn with hard work and his expression is
+one of a peaceful man leading a simple life.
+  }
+  race { giant }
+  level { 3 }
+  alignment { 350 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 5, 8, 5  }
+  move { 300 }
+  experience { 384 }
+  damage { 1, 8, 2  }
+  act { stay-zone }
+}
+
+6001
+{
+  name { the cute rabbit }
+  namelist { rabbit }
+  shortdesc { A cute rabbit is here. }
+  longdesc {
+It is a small, furry creature with long ears and big feet.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 106 }
+  damage { 1, 4, 1  }
+  act { stay-zone }
+}
+
+6002
+{
+  name { the brown bear }
+  namelist { bear }
+  shortdesc { A big, brown, angry-looking bear is here. }
+  longdesc {
+The bear is a big, brown, furry animal with very large claws and very sharp
+teeth.  It doesn't resemble those cute little thingies from toy shops at all.
+  }
+  race { none }
+  level { 15 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 16, 8, 16  }
+  move { 300 }
+  experience { 1425 }
+  damage { 2, 6, 2  }
+  act { aggressive, stay-zone }
+}
+
+6003
+{
+  name { the ferocious rabbit }
+  namelist { rabbit }
+  shortdesc { A ferocious rabbit is here, glaring hungrily at you. }
+  longdesc {
+This small, furry creature with long ears and big feet has been attacked by
+the dreaded rabbit rabies, a horrible disease that turns helpless and innocent
+rabbits into ferocious and bloodthirsty monsters.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 9, 8, 9  }
+  move { 300 }
+  experience { 586 }
+  damage { 1, 8, 1  }
+  act { aggressive, stay-zone, sentinel }
+}
+
+6004
+{
+  name { the fallow deer }
+  namelist { deer }
+  shortdesc { A fallow deer is grazing peacefully here. }
+  longdesc {
+She is a graceful creature on long, slender legs, and with large, brown eyes
+looking back at you with an air of watchful interest.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 190 }
+  damage { 1, 6, 1  }
+  affected { detect-invisible }
+  act { sentinel, nice-thief, stay-zone }
+}
+
+6005
+{
+  name { the brown fox }
+  namelist { fox }
+  shortdesc { A brown fox is here, looking for some rabbits to chew up. }
+  longdesc {
+It is a large fox with beautiful, red-brown fur and a long, thick brush.
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 446 }
+  damage { 1, 6, 1  }
+  act { stay-zone }
+}
+
+6006
+{
+  name { A large troll }
+  namelist { troll }
+  shortdesc { A large troll is standing here growling at you.. better run! }
+  longdesc {
+A big ugly mean looking troll, not fun!
+  }
+  race { none }
+  level { 50 }
+  alignment { -100 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 10, 10, 100  }
+  move { 300 }
+  experience { 1446 }
+  damage { 2, 8, 3  }
+  act { stay-zone, sentinel }
+}
+
+6007
+{
+  name { A large troll }
+  namelist { troll }
+  shortdesc { A large troll is standing here growling at you.. better run! }
+  longdesc {
+A big ugly mean looking troll, not fun!
+  }
+  race { none }
+  level { 50 }
+  alignment { -100 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 10, 10, 100  }
+  move { 300 }
+  experience { 4446 }
+  damage { 2, 9, 5  }
+  act { stay-zone, sentinel, aggressive }
+  immune { charm, cold, sleep }
+  resistant { electricity, energy, fire }
+}
+

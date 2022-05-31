@@ -1,0 +1,313 @@
+163060
+{
+  name { A fearsome grizzly bear  }
+  namelist { fearsome grizzly bear }
+  shortdesc { A fearsome looking grizzly bear roars with all his might. }
+  longdesc {
+Peeking around some trees, you can see the black grizzly bear picking
+through the remains of a recent kill.  His frame is massive, easily
+the size of an extra large human.  He licks his chops, slopping up the
+last bits of his dinner.  Sniffing in the air, he begins to let out a 
+low growl and turns his mighty head in your direction.  You freeze,
+shifting some of the underbrush beneath you.  Reacting to the sudden
+noise, the bear runs at you with full speed, teeth bared.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 6 }
+  level { 130 }
+  experience { 85000 }
+  hp { 15, 15, 1850 }
+  alignment { 0 }
+  gold { 950 }
+  hit_bonus { 13 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 20, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, aggressive, scavenger, stay-zone }
+}
+
+163061
+{
+  name { a cute bear cub }
+  namelist { cute bear cub }
+  shortdesc { A cute bear cub playfully tumbles around on the ground. }
+  longdesc {
+A brown bear cub plays with some pine cones on the ground.  It has cute
+litte ears and innocent brown eyes.  It grabs a pine cone in its mouth
+and throws it up in the air, only to slap it back down to the ground
+with its paws and pounce on it.  How cute.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 85 }
+  experience { 12500 }
+  hp { 10, 15, 650 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 30, 5 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}
+
+163062
+{
+  name { A tropical bird }
+  namelist { tropical bird }
+  shortdesc { A multi-colored bird squaks at you from a tree limb. }
+  longdesc {
+The bird irritatingly ruffles its feathers at you and lets out a loud
+squak.  It has a plump black body with a multi-colored beak.  The colors
+run in strips of red, white and orange.  It lets out another loud squak
+and flies away to another tree.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 10 }
+  level { 52 }
+  experience { 9500 }
+  hp { 10, 15, 400 }
+  alignment { 0 }
+  gold { 325 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 50, 4 }
+  body { 60, 3 }
+  arms { 60, 3 }
+  legs { 60, 3 }
+  feet { 60, 3 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+163063
+{
+  name { A white and gray bird }
+  namelist { white gray bird }
+  shortdesc { A white and gray colored bird flies through the forest. }
+  longdesc {
+A small white bird with brown wings sits picking through some underbrush.
+It quickly sticks its beak straight up in the air and reveals that its
+searching wasn't for naught.  A plump, pink earthworm dangles out of
+its beak.  It gulps down its prize and quickly flies away.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 6 }
+  level { 64 }
+  experience { 9900 }
+  hp { 10, 15, 500 }
+  alignment { 0 }
+  gold { 375 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+163064
+{
+  name { A white speckled deer }
+  namelist { white speckled deer }
+  shortdesc { A brown and white speckled deer nibbles on some leaves. }
+  longdesc {
+Long, branched horns stick out from the bucks head.  He has brown fur
+with white spots all along his side.  His head shoots up, possibly
+noticing your presence.  His strong jaw continues to munch on his lunch
+as he looks around for signs of trouble.  Seemingly finding some, he
+quickly hops away, deeper into the forest.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 6 }
+  level { 90 }
+  experience { 15000 }
+  hp { 12, 15, 775 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 13 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 30, 5 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}
+
+163065
+{
+  name { a wandering crab }
+  namelist { a wandering crab }
+  shortdesc { A red, horned crab scurries sideways across the beach. }
+  longdesc {
+A large crab snaps its claws at you menacingly.  Its body is a red and
+pink hued color and the top of its back is covered in rugged looking
+horns.  It scurries quickly to the left, walking sideways on its many
+legs.  Little air bubbles spit from the mandibles before its mouth.
+  }
+  race { None }
+  sex { neuter }
+  world_limit { 1 }
+  level { 40 }
+  experience { 4500 }
+  hp { 10, 15, 205 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 13 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}
+
+163066
+{
+  name { An elven traveller }
+  namelist { elven traveller }
+  shortdesc { An elven traveller walks quickly through the forest. }
+  longdesc {
+The elf is dressed in a long, green travelling cloak.  He nearly blends
+in completely with the forest.  His walking pace is so quick that you 
+almost miss him passing by.  You barely notice him putting his bow back
+under his cloak and wonder if you missed him pointing it at you!  He must 
+not consider you a threat.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 75000 }
+  hp { 10, 15, 1910 }
+  alignment { 1000 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}
+
+163067
+{
+  name { A orc scout }
+  namelist { orc scout }
+  shortdesc { A large orc is running through the forest. }
+  longdesc {
+Making no attempt to conceal his movement through the forest, the large
+orc appears to be looking for something.  He is mostly covered in a 
+tattered black cloak that must be his attempt at concealing himself.
+This scout does not appear to be much of a scout at all.
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 75000 }
+  hp { 10, 15, 1960 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}
+
+163068
+{
+  name { A human ranger }
+  namelist { human ranger }
+  shortdesc { A green cloaked human raises his bow to attack. }
+  longdesc {
+Carefully walking through the forest, the human ranger has his bow knocked
+and ready for attack.  Without making a sound, he quickly moves in and
+out of the trees and underbrush.  He must know this area well.  He is
+dressed in a long green cloak that almost makes him disappear within 
+the thick forest.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 75000 }
+  hp { 10, 15, 1910 }
+  alignment { -200 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, scavenger, stay-zone }
+}

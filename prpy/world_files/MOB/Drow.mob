@@ -1,0 +1,1246 @@
+5100
+{
+  name { a goblin slave }
+  namelist { goblin slave }
+  shortdesc { A goblin slave stands here awaiting orders. }
+  longdesc {
+This poor goblin has been enslaved by the Drow.  He obeys every order
+without question, for the consequences of disobedience far outweigh
+whatever task his cruel master's inflict upon him.
+  }
+  race { goblin }
+  level { 20 }
+  alignment { 0 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 8, 9, 100  }
+  move { 300 }
+  experience { 17000 }
+  damage { 2, 2, 2  }
+  affected { infravision }
+  act { npc, stay-zone }
+}
+
+5101
+{
+  name { a Drow commoner of House Udrinor }
+  namelist { drow commoner udrinor male elf }
+  shortdesc { A Drow commoner wearing the sigil of House Udrinor is here. }
+  longdesc {
+Drow commoners are common in every house in Drow society. They
+function as guards, servants, cooks, cleaners and a plethora of
+other roles that are beneath the nobles. They are the fodder on
+the field of battle. But don't let their lesser status fool you,
+even a Drow commoner is a dangerous foe! This one wears a sigil
+that shows he belongs to House Udrinor.
+  }
+  race { elven }
+  level { 49 }
+  alignment { -1000 }
+  gold { 70  }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.3 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 6, 8, 354  }
+  move { 300 }
+  experience { 7464 }
+  damage { 1, 8, 1  }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  act { aggressive, stay-zone }
+}
+
+5102
+{
+  name { a Drow commoner of House Udrinor }
+  namelist { drow commoner udrinor female elf }
+  shortdesc { A female Drow commoner wearing the sigil of House Udrinor is here, supervising. }
+  longdesc {
+Even in the lowest ranks of Drow society, the females are the
+stronger, more dominant sex of the species. No female, no matter
+what her status, would ever be so common as to be a servant or
+cook. No. The females are always in charge of something and this
+one is supervising the tasks that her lesser male cousins and the
+slaves are performing. Don't let her lesser status fool you, it
+is well know that every Drow female has the ability to cast spells!
+This one wears a sigil that shows she belongs to House Udrinor.
+  }
+  race { elven }
+  level { 69 }
+  alignment { -1000 }
+  gold { 800  }
+  hit_bonus { 5 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  head { 15, 2 }
+  body { 15, 2 }
+  arms { 15, 2 }
+  legs { 15, 2 }
+  feet { 15, 2 }
+  hp { 7, 8, 420  }
+  move { 300 }
+  experience { 8464 }
+  damage { 1, 9, 2 }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  caster { 69 }
+  spells { cause light, faerie fire }
+  act { aggressive, stay-zone }
+}
+
+5103
+{
+  name { a Drow commoner of House Sardavac }
+  namelist { drow commoner sardavac male elf }
+  shortdesc { A Drow commoner wearing the sigil of House Udrinor is here. }
+  longdesc {
+Drow commoners are common in every house in Drow society. They
+function as guards, servants, cooks, cleaners and a plethora of
+other roles that are beneath the nobles. They are the fodder on
+the field of battle. But don't let their lesser status fool you,
+even a Drow commoner is a dangerous foe! This one wears a sigil
+that shows he belongs to House Sardavac.
+  }
+  race { elven }
+  level { 51 }
+  alignment { -1000 }
+  gold { 70  }
+  hit_bonus { 3 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.4 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 6, 8, 374  }
+  move { 300 }
+  experience { 7564 }
+  damage { 1, 8, 1  }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  act { aggressive, stay-zone }
+}
+
+5104
+{
+  name { a Drow commoner of House Sardavac }
+  namelist { drow commoner sardavac female elf }
+  shortdesc { A female Drow commoner wearing the sigil of House Sardavac is here, supervising. }
+  longdesc {
+Even in the lowest ranks of Drow society, the females are the
+stronger, more dominant sex of the species. No female, no matter
+what her status, would ever be so common as to be a servant or
+cook. No. The females are always in charge of something and this
+one is supervising the tasks that her lesser male cousins and the
+slaves are performing. Don't let her lesser status fool you, it
+is well know that every Drow female has the ability to cast spells!
+This one wears a sigil that shows she belongs to House Sardavac.
+  }
+  race { elven }
+  level { 72 }
+  alignment { -1000 }
+  gold { 800  }
+  hit_bonus { 5 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.6 }
+  head { 14, 2 }
+  body { 14, 2 }
+  arms { 14, 2 }
+  legs { 14, 2 }
+  feet { 14, 2 }
+  hp { 7, 8, 440  }
+  move { 300 }
+  experience { 8664 }
+  damage { 1, 10, 2 }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  caster { 72 }
+  spells { cause light, faerie fire }
+  act { aggressive, stay-zone }
+}
+
+
+5105
+{
+  name { a Drow commoner of House Parastric }
+  namelist { drow commoner parastric male elf }
+  shortdesc { A Drow commoner wearing the sigil of House Parastric is here. }
+  longdesc {
+Drow commoners are common in every house in Drow society. They
+function as guards, servants, cooks, cleaners and a plethora of
+other roles that are beneath the nobles. They are the fodder on
+the field of battle. But don't let their lesser status fool you,
+even a Drow commoner is a dangerous foe! This one wears a sigil
+that shows he belongs to House Parastric.
+  }
+  race { elven }
+  level { 53 }
+  alignment { -1000 }
+  gold { 75 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  head { 18, 1 }
+  body { 18, 2 }
+  arms { 18, 1 }
+  legs { 18, 1 }
+  feet { 18, 1 }
+  hp { 6, 8, 394  }
+  move { 300 }
+  experience { 7764 }
+  damage { 1, 9, 1  }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  act { aggressive, stay-zone }
+}
+
+5106
+{
+  name { a Drow commoner of House Parastric }
+  namelist { drow commoner parastric female elf }
+  shortdesc { A female Drow commoner wearing the sigil of House Parastric is here, supervising. }
+  longdesc {
+Even in the lowest ranks of Drow society, the females are the
+stronger, more dominant sex of the species. No female, no matter
+what her status, would ever be so common as to be a servant or
+cook. No. The females are always in charge of something and this
+one is supervising the tasks that her lesser male cousins and the
+slaves are performing. Don't let her lesser status fool you, it
+is well know that every Drow female has the ability to cast spells!
+This one wears a sigil that shows she belongs to House Parastric.
+  }
+  race { elven }
+  level { 75 }
+  alignment { -1000 }
+  gold { 820  }
+  hit_bonus { 5 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.7 }
+  head { 14, 2 }
+  body { 14, 3 }
+  arms { 14, 3 }
+  legs { 14, 3 }
+  feet { 14, 3 }
+  hp { 7, 8, 460  }
+  move { 300 }
+  experience { 8864 }
+  damage { 1, 10, 3 }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  caster { 75 }
+  spells { cause light, faerie fire }
+  act { aggressive, stay-zone }
+}
+
+5107
+{
+  name { a Drow commoner of House Moivas }
+  namelist { drow commoner moivas male elf }
+  shortdesc { A Drow commoner wearing the sigil of House Moivas is here. }
+  longdesc {
+Drow commoners are common in every house in Drow society. They
+function as guards, servants, cooks, cleaners and a plethora of
+other roles that are beneath the nobles. They are the fodder on
+the field of battle. But don't let their lesser status fool you,
+even a Drow commoner is a dangerous foe! This one wears a sigil
+that shows he belongs to House Moivas.
+  }
+  race { elven }
+  level { 55 }
+  alignment { -1000 }
+  gold { 80 }
+  hit_bonus { 4 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.6 }
+  head { 17, 2 }
+  body { 15, 2 }
+  arms { 15, 2 }
+  legs { 15, 2 }
+  feet { 15, 2 }
+  hp { 6, 8, 414  }
+  move { 300 }
+  experience { 7964 }
+  damage { 1, 10, 1  }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  act { aggressive, stay-zone }
+}
+
+5108
+{
+  name { a Drow commoner of House Moivas }
+  namelist { drow commoner moivas female elf }
+  shortdesc { A female Drow commoner wearing the sigil of House Moivas is here, supervising. }
+  longdesc {
+Even in the lowest ranks of Drow society, the females are the
+stronger, more dominant sex of the species. No female, no matter
+what her status, would ever be so common as to be a servant or
+cook. No. The females are always in charge of something and this
+one is supervising the tasks that her lesser male cousins and the
+slaves are performing. Don't let her lesser status fool you, it
+is well know that every Drow female has the ability to cast spells!
+This one wears a sigil that shows she belongs to House Moivas.
+  }
+  race { elven }
+  level { 78 }
+  alignment { -1000 }
+  gold { 1000 }
+  hit_bonus { 7 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.8 }
+  head { 10, 3 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  hp { 7, 8, 490  }
+  move { 300 }
+  experience { 9064 }
+  damage { 1, 11, 4 }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  caster { 78 }
+  spells { cause light, faerie fire, cause critical }
+  act { aggressive, stay-zone }
+}
+
+5109
+{
+  name { A Drow warrior of House Udrinor }
+  namelist { drow warrior udrinor male elf }
+  shortdesc { A Drow warrior of House Udrinor stands here at his post. }
+  longdesc {
+Drow warriors are elite combatants, trained from the youngest age to be
+skilled in all weapons and tactics. It can be said that even the lowliest
+of Drow warriors is more than a match for any warrior of any other race.
+At least, that is said by the Drow themselves. He is dressed in elaborate
+armour and carries a deadly, magical weapon to help him at his task. This
+one wears the sigil of House Udrinor.
+  }
+  race { elven }
+  sex { Male }
+  level { 90 }
+  world_limit { 1 }
+  experience { 45000 }
+  hp { 8, 6, 530 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 100 }
+  hit_bonus { 7 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  damage { 1, 8, 2 }
+  head { -20, 3 }
+  body { -20, 4 }
+  arms { -20, 4 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5110
+{
+  name { A Drow warrior of House Sardavac }
+  namelist { drow warrior Sardavac male elf }
+  shortdesc { A Drow warrior of House Sardavac stands here at his post. }
+  longdesc {
+Drow warriors are elite combatants, trained from the youngest age to be
+skilled in all weapons and tactics. It can be said that even the lowliest
+of Drow warriors is more than a match for any warrior of any other race.
+At least, that is said by the Drow themselves. He is dressed in elaborate
+armour and carries a deadly, magical weapon to help him at his task. This
+one wears the sigil of House Sardavac.
+  }
+  race { elven }
+  sex { Male }
+  level { 92 }
+  world_limit { 1 }
+  experience { 45200 }
+  hp { 8, 6, 550 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 100 }
+  hit_bonus { 7 }
+  dam_bonus { 5 }
+  attacks_per_round { 2.1 }
+  damage { 1, 9, 2 }
+  head { -24, 4 }
+  body { -24, 4 }
+  arms { -24, 4 }
+  legs { -24, 4 }
+  feet { -24, 4 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+
+5111
+{
+  name { A Drow warrior of House Parastric }
+  namelist { drow warrior Parastric male elf }
+  shortdesc { A Drow warrior of House Parastric stands here at his post. }
+  longdesc {
+Drow warriors are elite combatants, trained from the youngest age to be
+skilled in all weapons and tactics. It can be said that even the lowliest
+of Drow warriors is more than a match for any warrior of any other race.
+At least, that is said by the Drow themselves. He is dressed in elaborate
+armour and carries a deadly, magical weapon to help him at his task. This
+one wears the sigil of House Parastric.
+  }
+  race { elven }
+  sex { Male }
+  level { 95 }
+  world_limit { 1 }
+  experience { 47200 }
+  hp { 8, 7, 590 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 100 }
+  hit_bonus { 7 }
+  dam_bonus { 6 }
+  attacks_per_round { 2.3 }
+  damage { 1, 9, 3 }
+  head { -24, 4 }
+  body { -24, 5 }
+  arms { -24, 5 }
+  legs { -24, 5 }
+  feet { -24, 4 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+
+5112
+{
+  name { A Drow warrior of House Moivas }
+  namelist { drow warrior Moivas male elf }
+  shortdesc { A Drow warrior of House Moivas stands here at his post. }
+  longdesc {
+Drow warriors are elite combatants, trained from the youngest age to be
+skilled in all weapons and tactics. It can be said that even the lowliest
+of Drow warriors is more than a match for any warrior of any other race.
+At least, that is said by the Drow themselves. He is dressed in elaborate
+armour and carries a deadly, magical weapon to help him at his task. This
+one wears the sigil of House Moivas.
+  }
+  race { elven }
+  sex { Male }
+  level { 99 }
+  world_limit { 1 }
+  experience { 50200 }
+  hp { 8, 8, 610 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 100 }
+  hit_bonus { 8 }
+  dam_bonus { 7 }
+  attacks_per_round { 2.5 }
+  damage { 1, 9, 4 }
+  head { -30, 4 }
+  body { -30, 5 }
+  arms { -30, 5 }
+  legs { -30, 5 }
+  feet { -30, 4 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5113
+{
+  name { A Drow mage Noble of House Udrinor }
+  namelist { drow noble mage udrinor male elf }
+  shortdesc { A Drow mage Noble of House Udrinor stands here bending the winds of magic. }
+  longdesc {
+Drow males are forbidden to directly worship their cruel diety, Lloth, so
+Noble males have the choice of becoming Weaponsmaster's or Mages. Very few
+choose the life of a warrior, preferring the prestige and power that being
+a mighty mage will bring them. It is only the mages who rival the clergy,
+the priestesses, in power. A fact that makes every Drow priestess extremely
+wary of any mage. This one wears the sigil of House Udrinor.
+  }
+  race { elven }
+  sex { Male }
+  level { 85 }
+  world_limit { 1 }
+  experience { 45000 }
+  hp { 15, 8, 400 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1250 }
+  hit_bonus { 4 }
+  dam_bonus { 3 }
+  attacks_per_round { 0.7 }
+  damage { 1, 6, 1 }
+  head { 80, 0 }
+  body { 60, 1 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  spells { magic missile, acid blast, shield, dispel magic, faerie fire, shocking grasp }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5114
+{
+  name { A Drow mage Noble of House Sardavac }
+  namelist { drow noble mage sardavac male elf }
+  shortdesc { A Drow mage Noble of House Sardavac stands here bending the winds of magic. }
+  longdesc {
+Drow males are forbidden to directly worship their cruel diety, Lloth, so
+Noble males have the choice of becoming Weaponsmaster's or Mages. Very few
+choose the life of a warrior, preferring the prestige and power that being
+a mighty mage will bring them. It is only the mages who rival the clergy,
+the priestesses, in power. A fact that makes every Drow priestess extremely
+wary of any mage. This one wears the sigil of House Sardavac.
+  }
+  race { elven }
+  sex { Male }
+  level { 89 }
+  world_limit { 1 }
+  experience { 47000 }
+  hp { 16, 8, 420 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1250 }
+  hit_bonus { 4 }
+  dam_bonus { 3 }
+  attacks_per_round { 0.8 }
+  damage { 1, 6, 2 }
+  head { 75, 0 }
+  body { 60, 1 }
+  arms { 75, 0 }
+  legs { 75, 0 }
+  feet { 75, 0 }
+  immune { charm, energy }
+  caster { 89 }
+  spells { magic missile, acid blast, shield, dispel magic, faerie fire, shocking grasp, lightning bolt }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5115
+{
+  name { A Drow mage Noble of House Parastric }
+  namelist { drow noble mage Parastric male elf }
+  shortdesc { A Drow mage Noble of House Parastric stands here bending the winds of magic. }
+  longdesc {
+Drow males are forbidden to directly worship their cruel diety, Lloth, so
+Noble males have the choice of becoming Weaponsmaster's or Mages. Very few
+choose the life of a warrior, preferring the prestige and power that being
+a mighty mage will bring them. It is only the mages who rival the clergy,
+the priestesses, in power. A fact that makes every Drow priestess extremely
+wary of any mage. This one wears the sigil of House Parastric.
+  }
+  race { elven }
+  sex { Male }
+  level { 94 }
+  world_limit { 1 }
+  experience { 49000 }
+  hp { 17, 8, 440 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1250 }
+  hit_bonus { 5 }
+  dam_bonus { 3 }
+  attacks_per_round { 0.9 }
+  damage { 1, 7, 2 }
+  head { 75, 1 }
+  body { 60, 2 }
+  arms { 75, 1 }
+  legs { 75, 1 }
+  feet { 75, 1 }
+  immune { charm, energy }
+  caster { 94 }
+  spells { magic missile, acid blast, shield, dispel magic, faerie fire, shocking grasp, lightning bolt, stone skin }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5116
+{
+  name { A Drow mage Noble of House Moivas }
+  namelist { drow noble mage moivas male elf }
+  shortdesc { A Drow mage Noble of House Moivas stands here bending the winds of magic. }
+  longdesc {
+Drow males are forbidden to directly worship their cruel diety, Lloth, so
+Noble males have the choice of becoming Weaponsmaster's or Mages. Very few
+choose the life of a warrior, preferring the prestige and power that being
+a mighty mage will bring them. It is only the mages who rival the clergy,
+the priestesses, in power. A fact that makes every Drow priestess extremely
+wary of any mage. This one wears the sigil of House Moivas.
+  }
+  race { elven }
+  sex { Male }
+  level { 97 }
+  world_limit { 1 }
+  experience { 51000 }
+  hp { 17, 8, 460 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1300 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  damage { 1, 7, 3 }
+  head { 60, 1 }
+  body { 50, 2 }
+  arms { 60, 1 }
+  legs { 60, 1 }
+  feet { 60, 1 }
+  immune { charm, energy }
+  caster { 97 }
+  spells { magic missile, acid blast, shield, dispel magic, faerie fire, shocking grasp, lightning bolt, stone skin }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5117
+{
+  name { A Drow priestess of House Udrinor }
+  namelist { drow priestess udrinor female elf }
+  shortdesc { A Drow priestess of House Udrinor is here attending to her matron. }
+  longdesc {
+Every noble Drow house has at least one Priestess to serve and aid her
+Matron Mother. The more powerful the house, the priestesses that will
+be in attendance to the Matron, for this is where the main bulk of the
+Drow power flows from. The priestesses are the voice and will of Lloth,
+and every priestess has the desire to become a Matron Mother herself.
+Stronger than any male, these are scourges of Drow society, the rulers
+and the peacemakers. Nothing is more feared. This one wears the sigil
+of House Udrinor.
+  }
+  race { elven }
+  sex { Female }
+  level { 101 }
+  world_limit { 1 }
+  experience { 85000 }
+  hp { 20, 8, 530 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1800 }
+  hit_bonus { 3 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.3 }
+  damage { 2, 4, 4 }
+  head { -40, 2 }
+  body { -40, 3 }
+  arms { -40, 2 }
+  legs { -40, 2 }
+  feet { -40, 2 }
+  immune { charm, energy }
+  caster { 101 }
+  spells { shriek, armor, cause light, cause critical, cure light, sanctuary, faerie fire }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5118
+{
+  name { A Drow priestess of House Sardavac }
+  namelist { drow priestess sardavac female elf }
+  shortdesc { A Drow priestess of House Sardavac is here attending to her matron. }
+  longdesc {
+Every noble Drow house has at least one Priestess to serve and aid her
+Matron Mother. The more powerful the house, the priestesses that will
+be in attendance to the Matron, for this is where the main bulk of the
+Drow power flows from. The priestesses are the voice and will of Lloth,
+and every priestess has the desire to become a Matron Mother herself.
+Stronger than any male, these are scourges of Drow society, the rulers
+and the peacemakers. Nothing is more feared. This one wears the sigil
+of House Sardavac.
+  }
+  race { elven }
+  sex { Female }
+  level { 103 }
+  world_limit { 1 }
+  experience { 87000 }
+  hp { 21, 8, 540 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1800 }
+  hit_bonus { 4 }
+  dam_bonus { 7 }
+  attacks_per_round { 1.5 }
+  damage { 2, 4, 5 }
+  head { -40, 3 }
+  body { -40, 4 }
+  arms { -40, 3 }
+  legs { -40, 3 }
+  feet { -40, 3 }
+  immune { charm, energy }
+  caster { 103 }
+  spells { shriek, armor, cause light, cause critical, cure light, sanctuary, faerie fire, cure critic }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, aggressive }
+}
+
+
+5119
+{
+  name { A Drow priestess of House Parastric }
+  namelist { drow priestess parastric female elf }
+  shortdesc { A Drow priestess of House Parastric is here attending to her matron. }
+  longdesc {
+Every noble Drow house has at least one Priestess to serve and aid her
+Matron Mother. The more powerful the house, the priestesses that will
+be in attendance to the Matron, for this is where the main bulk of the
+Drow power flows from. The priestesses are the voice and will of Lloth,
+and every priestess has the desire to become a Matron Mother herself.
+Stronger than any male, these are scourges of Drow society, the rulers
+and the peacemakers. Nothing is more feared. This one wears the sigil
+of House Parastric.
+  }
+  race { elven }
+  sex { Female }
+  level { 105 }
+  world_limit { 1 }
+  experience { 89000 }
+  hp { 22, 8, 550 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1850 }
+  hit_bonus { 4 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.7 }
+  damage { 3, 4, 5 }
+  head { -50, 3 }
+  body { -50, 4 }
+  arms { -50, 3 }
+  legs { -50, 3 }
+  feet { -50, 3 }
+  immune { charm, energy }
+  caster { 105 }
+  spells { shriek, armor, cause light, cause critical, cure light, sanctuary, faerie fire, cure critic, heal }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5120
+{
+  name { A Drow priestess of House Moivas }
+  namelist { drow priestess moivas female elf }
+  shortdesc { A Drow priestess of House Moivas is here attending to her matron. }
+  longdesc {
+Every noble Drow house has at least one Priestess to serve and aid her
+Matron Mother. The more powerful the house, the priestesses that will
+be in attendance to the Matron, for this is where the main bulk of the
+Drow power flows from. The priestesses are the voice and will of Lloth,
+and every priestess has the desire to become a Matron Mother herself.
+Stronger than any male, these are scourges of Drow society, the rulers
+and the peacemakers. Nothing is more feared. This one wears the sigil
+of House Moivas.
+  }
+  race { elven }
+  sex { Female }
+  level { 109 }
+  world_limit { 1 }
+  experience { 92000 }
+  hp { 23, 8, 570 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 1950 }
+  hit_bonus { 6 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.9 }
+  damage { 3, 5, 5 }
+  head { -50, 4 }
+  body { -50, 5 }
+  arms { -50, 4 }
+  legs { -50, 4 }
+  feet { -50, 4 }
+  immune { charm, energy }
+  caster { 99 }
+  spells { shriek, armor, cause light, cause critical, cure light, sanctuary, faerie fire, cure critic, heal, harm }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, aggressive }
+}
+
+5121
+{
+  name { The Weaponmaster of House Parastric }
+  namelist { drow weaponmaster parastric male elf }
+  shortdesc { The Drow Weaponmaster of House Parastric is here practicing his swordplay. }
+  longdesc {
+Without being a mage, a weaponmaster is the highest honour that a male
+can attain in Drow society. These warriors have advanced to legendary
+status with their weapons, often dual-wielding or using unconventional
+pole-arms just to show off their skills. Weaponmaster's train warriors
+from all Houses, and it is not uncommon for a Weaponmaster to train
+nobles from more powerful houses, thus earning their own house prestige
+and fame. Anyone tackling a weaponmaster should be wary, for not only
+are these males skilled at arms, they are often adorned with the very
+best of magical aids. This weaponmaster wears the sigil of House
+Parastric.
+  }
+  race { elven }
+  sex { male }
+  level { 180 }
+  world_limit { 1 }
+  experience { 62020 }
+  hp { 20, 8, 1200 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 900 }
+  hit_bonus { 8 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.3 }
+  damage { 3, 6, 3 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  skills { dual wield, kick, bash }
+  immune { charm, energy }
+  affected { infravision, detect-invisible }
+  act { npc, sentinel, stay-zone, aggressive }
+}
+
+5122
+{
+  name { Haeltyna Udrinor, Matron Mother of House Udrinor }
+  namelist { drow matron mother haeltyna udrinor female elf }
+  shortdesc { Matron Mother Haeltyna Udrinor of House Udrinor is standing here, glowering. }
+  longdesc {
+The singular most powerful position in Drow society is that of Matron
+Mother. It is not just a title, she literally is the mother of her
+House, having given birth to most of the Drow in powerful positions
+beneath her. She is a powerful priestess, blessed by her cruel deity,
+Lloth. Although a Matron Mother will rarely leave the relative safety
+of her house boundaries, when she does all fear her very tread, for
+her word is life and death.
+
+Matron Healtyna Udrinor is a young Drow of a meagre ninety years.  She
+has a powerful, if short, frame and looks like she could crush your
+skull quite easily.
+  }
+  race { elven }
+  sex { Female }
+  height { 100 }
+  level { 280 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 2.2 }
+  head { -60, 5 }
+  body { -60, 5 }
+  arms { -60, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  hp { 24, 8, 2900  }
+  move { 200 }
+  experience { 281544 }
+  damage { 4, 8, 3  }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  caster { 280 }
+  spells { shriek, cause critical, sanctuary, faerie fire, heal, harm, poison, fear, dispel magic }
+  act { special, aggressive, stay-zone, sentinel }
+}
+
+5123
+{
+  name { Qitlara Sardavac, Matron Mother of House Sardavac }
+  namelist { drow matron mother qitlara sardavac female elf }
+  shortdesc { Matron Mother Qitlara Sardavac of House Sardavac is standing here, snarling. }
+  longdesc {
+The singular most powerful position in Drow society is that of Matron
+Mother. It is not just a title, she literally is the mother of her
+House, having given birth to most of the Drow in powerful positions
+beneath her. She is a powerful priestess, blessed by her cruel deity,
+Lloth. Although a Matron Mother will rarely leave the relative safety
+of her house boundaries, when she does all fear her very tread, for
+her word is life and death.
+
+Matron Qitlara Sardavac is a stern looking Drow standing just over five
+feet tall.  Every inch of her perfect, ebony skin is covered in a dazzling
+array of swirling white tattoos that seem to make her glow with evil intent.
+  }
+  race { elven }
+  sex { Female }
+  height { 100 }
+  level { 285 }
+  alignment { -1000 }
+  gold { 8300 }
+  hit_bonus { 14 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.5 }
+  head { -60, 5 }
+  body { -70, 7 }
+  arms { -60, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  hp { 25, 8, 3000  }
+  move { 200 }
+  experience { 288544 }
+  damage { 4, 8, 4 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  caster { 285 }
+  spells { shriek, cause critical, sanctuary, faerie fire, heal, harm, poison, fear, dispel magic }
+  act { special, aggressive, stay-zone, sentinel }
+}
+
+5124
+{
+  name { Indica Violenta Parastric, Matron Mother of House Parastric }
+  namelist { drow matron mother indica violenta parastric female elf }
+  shortdesc { Indica Violenta Parastric, Matron Mother of House Parastric is standing here, growling. }
+  longdesc {
+The singular most powerful position in Drow society is that of Matron
+Mother. It is not just a title, she literally is the mother of her
+House, having given birth to most of the Drow in powerful positions
+beneath her. She is a powerful priestess, blessed by her cruel deity,
+Lloth. Although a Matron Mother will rarely leave the relative safety
+of her house boundaries, when she does all fear her very tread, for
+her word is life and death.
+
+Matron Indica Violenta Parastric is an ancient woman.  Her skin has
+paled over the millennia is lined and wrinkled.  She sits hunched up
+small and almost vulnerable.  Yet, there is an underlying sense of
+tremendous power about her.
+  }
+  race { elven }
+  sex { Female }
+  height { 100 }
+  level { 290 }
+  alignment { -1000 }
+  gold { 8500 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  attacks_per_round { 2.7 }
+  head { -60, 7 }
+  body { -70, 9 }
+  arms { -60, 7 }
+  legs { -60, 7 }
+  feet { -60, 7 }
+  hp { 26, 8, 3100  }
+  move { 200 }
+  experience { 295544 }
+  damage { 5, 8, 5 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  caster { 290 }
+  spells { shriek, cause critical, sanctuary, faerie fire, heal, harm, poison, fear, dispel magic }
+  act { special, aggressive, stay-zone, sentinel }
+  group_with { 5131 }
+}
+
+5125
+{
+  name { Ruinia Moivas, Matron Mother of House Moivas }
+  namelist { drow matron mother ruinia moivas female elf }
+  shortdesc { Ruinia Moivas, Matron Mother of House Moivas is standing here, hissing. }
+  longdesc {
+The singular most powerful position in Drow society is that of Matron
+Mother. It is not just a title, she literally is the mother of her
+House, having given birth to most of the Drow in powerful positions
+beneath her. She is a powerful priestess, blessed by her cruel deity,
+Lloth. Although a Matron Mother will rarely leave the relative safety
+of her house boundaries, when she does all fear her very tread, for
+her word is life and death.
+
+Ruinia Moivas is a diminutive woman, even for a Drow.  She stands shorter
+than most of the males that serve her.  Yet, under that short stature and
+that sweet smile and those lavender eyes, rages the destructive, evil,
+malign soul of a true terror. 
+  }
+  race { elven }
+  sex { Female }
+  height { 100 }
+  level { 300 }
+  alignment { -1000 }
+  gold { 9000 }
+  hit_bonus { 17 }
+  dam_bonus { 17 }
+  attacks_per_round { 3 }
+  head { -70, 8 }
+  body { -80, 10 }
+  arms { -70, 8 }
+  legs { -70, 8 }
+  feet { -70, 8 }
+  hp { 27, 8, 3300  }
+  move { 200 }
+  experience { 315544 }
+  damage { 5, 9, 5 }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  caster { 300 }
+  spells { shriek, cause critical, sanctuary, faerie fire, heal, harm, poison, fear, dispel magic }
+  act { special, aggressive, stay-zone, sentinel }
+  group_with { 5132 }
+}
+
+5126
+{
+  name { A yochlol }
+  namelist { yochlol }
+  shortdesc { A yochlol forms out of a swirling mist. }
+  longdesc {
+A yochlol! The very handmaiden of the Drow deity Lloh herself! This
+demonic creature was clearly summoned, although for what purpose is
+yet unknown. The creature appears to look like a melted blob of wax
+with 8 arms that continually reforms and remoulds itself. Yuck! 
+  }
+  race { demon }
+  world_limit { 1 }
+  level { 353 }
+  experience { 501002 }
+  hp { 14, 18, 6013 }
+  alignment { -1000 }
+  gold { 9800 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move { 300 }
+  damage { 5, 7, 19 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { fire, cold, charm, backstab, poison, electricity, energy }
+  resistant { pierce }
+  affected { sanctuary, true-sight }
+  caster { 353 }
+  spells { dispel magic, summon demon, pword blind, vampiric touch, *51 }
+  act { sentinel, stay-zone, nosummon, aggressive }
+}
+
+5127
+{
+  name { a hobgoblin slave }
+  namelist { hobgoblin slave }
+  shortdesc { A small hobgoblin stands here, doing what it's told. }
+  longdesc {
+This Hobgoblin is lifting and dragging masonry, hard at work for the
+cruel Drow master's that it is forced to serve. Whatever it is doing,
+it is a sign that the Drow are clearly up to something.
+  }
+  race { goblin }
+  sex { male }
+  level { 25 }
+  experience { 32843 }
+  hp { 8, 9, 135 }
+  alignment { 0 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 10, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  affected { infravision }
+  act { npc, stay-zone }
+}
+5128
+{
+  name { an ogre slave }
+  namelist { ogre slave }
+  shortdesc { An ogre stands grunts as it carries something heavy. }
+  longdesc {
+Not even the ogre's are safe from the slavery of the Drow. This
+poor beast is being used to haul heavy machinery under the watchful
+gaze and cruel whip of his Drow overseer.
+  }
+  race { ogre }
+  sex { male }
+  level { 55 }
+  experience { 39422 }
+  hp { 11, 12, 230 }
+  alignment { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { -10, 3 }
+  body { -20, 3 }
+  arms { -20, 3 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  affected { infravision }
+  act { npc, stay-zone }
+}
+5129
+{
+  name { The Weaponmaster of House Moivas }
+  namelist { drow weaponmaster moivas male elf }
+  shortdesc { The Drow Weaponmaster of House Moivas is here training budding warriors. }
+  longdesc {
+Without being a mage, a weaponmaster is the highest honour that a male
+can attain in Drow society. These warriors have advanced to legendary
+status with their weapons, often dual-wielding or using unconventional
+pole-arms just to show off their skills. Weaponmaster's train warriors
+from all Houses, and it is not uncommon for a Weaponmaster to train
+nobles from more powerful houses, thus earning their own house prestige
+and fame. Anyone tackling a weaponmaster should be wary, for not only
+are these males skilled at arms, they are often adorned with the very
+best of magical aids. This weaponmaster wears the sigil of House
+Moivas.
+  }
+  race { elven }
+  sex { male }
+  level { 190 }
+  world_limit { 1 }
+  experience { 66920 }
+  hp { 23, 8, 1290 }
+  move { 200 }
+  alignment { -1000 }
+  gold { 999 }
+  hit_bonus { 8 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.5 }
+  damage { 4, 6, 4 }
+  head { -20, 1 }
+  body { -30, 2 }
+  arms { -20, 2 }
+  legs { -20, 2 }
+  feet { -20, 2 }
+  skills { dual wield, kick, bash, strike }
+  immune { charm, energy }
+  affected { infravision, detect-invisible }
+  act { npc, sentinel, stay-zone, aggressive }
+}
+5130
+{
+  name { a Drow commoner of House Vexidyre }
+  namelist { drow commoner vexidyre male elf messenger }
+  shortdesc { A Drow commoner wearing the sigil of House Vexidyre is here delivering a message. }
+  longdesc {
+Drow commoners are common in every house in Drow society. They
+function as guards, servants, cooks, cleaners and a plethora of
+other roles that are beneath the nobles. They are the fodder on
+the field of battle. But don't let their lesser status fool you,
+even a Drow commoner is a dangerous foe! This one wears a sigil
+that shows he belongs to House Vexidyre.
+  }
+  race { elven }
+  level { 60 }
+  alignment { -1000 }
+  gold { 87 }
+  hit_bonus { 5 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.8 }
+  head { 12, 2 }
+  body { 10, 3 }
+  arms { 10, 3 }
+  legs { 10, 3 }
+  feet { 10, 3 }
+  hp { 7, 8, 424  }
+  move { 300 }
+  experience { 8364 }
+  damage { 1, 10, 2  }
+  affected { detect-invisible, infravision }
+  immune { charm, energy }
+  act { sentinel, aggressive, stay-zone }
+}
+5131
+{
+  name { a hideous drider }
+  namelist { drider hideous }
+  shortdesc { A hideous drider stands here, ready to defend it's Mistress. }
+  longdesc {
+Driders are aberrations that were once Drow.  These individuals either angered Lloth or failed one of Her tests, and the priestesses performed the rituals required to mutate the lackless Drow into the abomination you see before you: half-Drow from the waist up, and half-spider from the waist down.
+  }
+  race { arachnid }
+  level { 200 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -40, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 10, 15, 1000 }
+  move { 300 }
+  experience { 241000 }
+  damage { 2, 4, 10 }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+5132
+{
+  name { a grotesque drider }
+  namelist { drider grotesque }
+  shortdesc { A grotesque drider stands here, ready to defend it's Mistress. }
+  longdesc {
+Driders are aberrations that were once Drow.  These individuals either angered Lloth or failed one of Her tests, and the priestesses performed the rituals required to mutate the lackless Drow into the abomination you see before you: half-Drow from the waist up, and half-spider from the waist down.
+  }
+  race { arachnid }
+  level { 200 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -40, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 10, 15, 1000 }
+  move { 300 }
+  experience { 241000 }
+  damage { 2, 4, 10 }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, stay-zone, aggressive }
+}
+5133
+{
+  name { a buggy bug }
+  namelist { buggy bug }
+  shortdesc { A bug is here! Quick! Slay it! }
+  longdesc {
+This is a tiny little bug. It is brown. It is up to no good! Slay it!
+  }
+  race { insect }
+  level { 700 }
+  experience { 10 }
+  hp { 1, 8, 3 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 0.1 }
+  move { 20000 }
+  damage { 1, 1, 1 }
+  head { -300, 0 }
+  body { -300, 0 }
+  arms { -300, 0 }
+  legs { -300, 0 }
+  feet { -300, 0 }
+  affected { sneak }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, stay-zone }
+}
+

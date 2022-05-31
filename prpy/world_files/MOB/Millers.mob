@@ -1,0 +1,1499 @@
+163001
+{
+  name { a cave bat }
+  namelist { cave bat }
+  shortdesc { A large, brown cave bat flaps its wings. }
+  longdesc {
+A large, brown cave bat grasps tightly to the cavern's roof.  Its
+wings flap restlesly as you cross its path.
+  }
+  race { None }
+  level { 20 }
+  experience { 450 }
+  hp { 5, 6, 247 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+163002
+{
+  name { A white salamander }
+  namelist { white salamander }
+  shortdesc { A translucent looking creature scurries under a rock. }
+  longdesc {
+This slimy looking creature has a pale white appearance.  Its tongue
+flicks quickly from its mouth, as it turns and scurries under a rock.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 15 }
+  experience { 400 }
+  hp { 5, 6, 188 }
+  alignment { +1000 }
+  gold { 150 }
+  hit_bonus { 0 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163003
+{
+  name { a white fish }
+  namelist { white fish }
+  shortdesc { An oddly white fish swims down the river. }
+  longdesc {
+A pale white fish stares blankly at you from the river.  It quickly
+swims away as you move closer.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 25 }
+  experience { 400 }
+  hp { 5, 6, 342 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163004
+{
+  name { The water sprite }
+  namelist { water sprite }
+  shortdesc { A cute water sprite dances beautifully in the water. }
+  longdesc {
+The water sprite floats serenly in the water, smiling shyly towards
+you.  She is singing the most soothing song you have ever heard.  You
+can barely keep your eyes open, as you notice her shy smile turns into 
+a grin and she starts swimming towards you.
+  }
+  race { ghost }
+  sex { female }
+  level { 225 }
+  experience { 125000 }
+  hp { 3, 20, 1025 }
+  move { 300 }
+  gold { 9500 }
+  mana { 1000 }
+  power { 1000 }
+  alignment { -1000 }
+  caster { 10 }
+  damage { 2, 6, 2 }
+  hit_bonus { 18 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  head { -30, 2 }
+  body { -30, 2 }
+  arms { -30, 2 }
+  legs { -30, 2 }
+  feet { -30, 2 }
+  immune { charm, fire, sleep }
+  act { sentinel, npc, stay-zone, aggressive }
+  affected { true-sight, sanctuary }
+  spells { sleep, cone of cold, frost breath }
+}
+
+163005
+{
+  name { a small fish }
+  namelist { small fish }
+  shortdesc { A small, colorless fish swims through the water. }
+  longdesc {
+A pale, gray fish stares blankly at you from the water.  It quickly
+swims away as you move closer.
+  }
+  race { Fish }
+  level { 15 }
+  experience { 75 }
+  hp { 5, 6, 40 }
+  alignment { -800 }
+  gold { 25 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163006
+{
+  name { a giant fish }
+  namelist { giant fish }
+  shortdesc { A huge fish stares at you with a hungry look. }
+  longdesc {
+A huge gray fish opens its gaping mouth and races across the cavern
+floor.  This thing is about the size of a bear, its teeth the length
+of knives, its eyes are focused on you.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 75 }
+  experience { 65000 }
+  hp { 5, 6, 1700 }
+  alignment { -1000 }
+  gold { 5400 }
+  hit_bonus { 18 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  immune { charm }
+  act { stay-zone, aggressive, npc }
+}
+
+163007
+{
+  name { a group of guppies }
+  namelist { guppy guppies }
+  shortdesc { A small group of guppies dart through the water. }
+  longdesc {
+A lovely group of guppies swim quickly through the water.  Some red,
+some yellow, they dart quickly around eachother and move on.
+  }
+  race { Fish }
+  world_limit { 4 }
+  level { 15 }
+  experience { 250 }
+  hp { 5, 6, 125 }
+  alignment { 150 }
+  gold { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163008
+{
+  name { a tiny puffball puddle }
+  namelist { tiny puffball puddle }
+  shortdesc { A tiny, black puddle tries to slowly climb the walls. }
+  longdesc {
+You see a bit of fur covered slime stuck to the wall.  There are no
+eyes, ears or any other appendage that you can see.  It slowly 
+contracts its body and makes a move to climb the walls.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 10 }
+  experience { 40 }
+  hp { 5, 6, 15 }
+  alignment { -1000 }
+  gold { 25 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 2, 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { sentinel, npc, stay-zone }
+}
+
+163009
+{
+  name { a puffball }
+  namelist { puffball }
+  shortdesc { A fist sized puffball sits afixed to the wall. }
+  longdesc {
+The black, furry mold has seemed to form into a small puffball.  There
+are no eyes, ears or other appendage that you can see.  It rustles its
+fur as you stare closer at it.
+  }
+  race { None }
+  world_limit { 7 }
+  level { 30 }
+  experience { 175 }
+  hp { 5, 6, 125 }
+  alignment { -1000 }
+  gold { 50 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { sentinel, npc, stay-zone }
+}
+
+163010
+{
+  name { a medium puffball}
+  namelist { medium puffball }
+  shortdesc { A puffball, about the size of your head, lets out a low growl. }
+  longdesc {
+The black puffballs have grown even larger.  This puffball bears a
+nice row of teeth at you, shivering against the wall.  It lets out
+a low growl as you climb along the staircase.
+  }
+  race { None }
+  world_limit { 7 }
+  level { 65 }
+  experience { 750 }
+  hp { 5, 6, 200 }
+  alignment { -1000 }
+  gold { 125 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163011
+{
+  name { a large puffball }
+  namelist { large puffball }
+  shortdesc { A large puffball swims ackwardly through the water. }
+  longdesc {
+This puffball is about the size of a large dog.  There are fins,
+that appear to be forming legs, pushing the puffball through the water.
+Tiny claws jut out from its chest, dangling uselessly in the water.
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 9000 }
+  hp { 5, 15, 750 }
+  alignment { -1000 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+163012
+{
+  name { a giant puffball }
+  namelist { giant puffball }
+  shortdesc { The biggest puffball yet rests lazily in the corner. }
+  longdesc {
+Easily the size of a horse, the moss covered puffball rests happily
+in the southwest corner of the room.  Fortunately for you, it doesn't
+seem very interested in you disturbing dinner time.  It must have
+just eaten.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 150 }
+  experience { 85000 }
+  hp { 5, 6, 1500 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 11 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { -10, 4 }
+  body { -10, 4 }
+  arms { -10, 4 }
+  legs { -10, 4 }
+  feet { -10, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+163013
+{
+  name { a water monster }
+  namelist { water monster }
+  shortdesc { A scary looking monster blinks its eyes at you from its hiding spot. }
+  longdesc {
+You can barely get a good look at this thing with all the teeth
+chomping in your face and fins flailing about.  The water monster is
+so enraged it heads face first into the wall, knocking bricks onto 
+the ground.  It immediately turns and charges at you again, mouth wide,
+teeth bared.
+  }
+  race { Predator }
+  world_limit { 1 }
+  level { 250 }
+  experience { 225000 }
+  hp { 5, 6, 3100 }
+  alignment { -1000 }
+  gold { 10400 }
+  hit_bonus { 20 }
+  dam_bonus { 13 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 2 }
+  head { -20, 4 }
+  body { -20, 4 }
+  arms { -20, 4 }
+  legs { -20, 4 }
+  feet { -20, 4 }
+  affected { sanctuary, true-sight, hide }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+163014
+{
+  name { a giant water monster }
+  namelist { giant water monster }
+  shortdesc { A giant monster rises from the ground and attacks! }
+  longdesc {
+Cold, blank eyes stare at you from the back of the room. Dust from
+the floor of the caverns begins to rise in the water as this huge monster
+floats into the middle of the room.  Huge, white teeth jut out from its
+closed mouth as he stares right back at you.  This beheamoth is at
+least two times your size. Backing out of the cavern, you startle the
+water monster and it begins to attack.
+  }
+  race { Predator }
+  world_limit { 1 }
+  level { 350 }
+  experience { 348000 }
+  hp { 5, 6, 5200 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 26 }
+  dam_bonus { 11 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 7, 3 }
+  head { -30, 2 }
+  body { -30, 2 }
+  arms { -30, 2 }
+  legs { -30, 2 }
+  feet { -30, 2 }
+  affected { sanctuary, true-sight }
+  immune { charm }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+163015
+{
+  name { a medium fish }
+  namelist { medium fish }
+  shortdesc { A good size fish swims quietly through the water. }
+  longdesc {
+A good size fish swims through the water before you.  The colors are
+non-existant, as it has been out of the sun for too long.  It quickly
+swims away as you try to grab it.
+  }
+  race { Fish }
+  world_limit { 8 }
+  level { 20 }
+  experience { 1400 }
+  hp { 5, 6, 320 }
+  alignment { 222 }
+  gold { 150 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163016
+{
+  name { Seperina }
+  namelist { Seperina }
+  shortdesc { A half fish, half man floats peacefully in the water. }
+  longdesc {
+You stand before the mighty Seperina.  The water practically swirls
+around him, as though he was in the middle of a whirlpool.  A bright
+blue helmet sits atop his head.  A soft looking white cape floats
+freely behind the powerful mage's shoulders.  A slender, ruby and
+crystal encrusted trident is slung across his back.  His hands begin to glow
+with a green luster as he notices you eyeing his prized possessions.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 510 }
+  experience { 980000 }
+  hp { 15, 40, 23682 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 40 }
+  dam_bonus { 45 }
+  attacks_per_round { 6 }
+  caster { 20 }
+  mana { 1500 }
+  power { 1500 }
+  move  { 200 }
+  damage { 4, 22, 7 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, sanctuary }
+  immune { charm, cold, fire }
+  susceptible { energy, pierce }
+  act { npc, sentinel, stay-zone }
+  spells { meteor swarm, mage fire }
+}
+
+163017
+{
+  name { a small rat }
+  namelist { small rat }
+  shortdesc { A small rat scurries across the floor. }
+  longdesc {
+A small black rat looks very malnutritioned.  It looks like it hasn't
+eaten in weeks.  Its tiny head drops and turns away as it realizes you
+aren't a meal.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 10 }
+  experience { 392 }
+  hp { 5, 6, 54 }
+  alignment { -1000 }
+  gold { 25 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163018
+{
+  name { a seagull }
+  namelist { seagull }
+  shortdesc { A seagull sits atop the posts of the dock. }
+  longdesc {
+A white seagull fluffs its wings as you pass.  It folds its wings
+back into its side and goes back to sleep, not thinking you are a
+threat.
+  }
+  race { Bird }
+  world_limit { 2 }
+  level { 30 }
+  experience { 1250 }
+  hp { 5, 6, 600 }
+  alignment { -1000 }
+  gold { 700 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  act { npc, sentinel, stay-zone }
+}
+
+163019
+{
+  name { a sick dog }
+  namelist { sick dog }
+  shortdesc { An emaciated dog is sniffing a flower. }
+  longdesc {
+A sick looking dog is sniffing a lone yellow flower growing from
+the ruins of a flower cart.  The dog looks like he has not eaten in
+weeks.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 5 }
+  experience { 225 }
+  hp { 5, 6, 20 }
+  alignment { -1000 }
+  gold { 25 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { sentinel, npc, stay-zone }
+}
+
+163020
+{
+  name { a vagrant man }
+  namelist { vagrant man keyholder }
+  shortdesc { A nervous looking man hurries along in the street. }
+  longdesc {
+He appears to not want to look you in the eye.  Dressed only in rags,
+you doubt he has anyplace to go.  He quickly looks up and darts away,
+noticing you are staring at him.  There is a shiny glimmer coming from
+his back pocket.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 95 }
+  experience { 42000 }
+  hp { 10, 15, 1111 }
+  alignment { -1000 }
+  gold { 4400 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 15, 4 }
+  body { 15, 4 }
+  arms { 15, 4 }
+  legs { 15, 4 }
+  feet { 15, 4 }
+  act { npc, stay-zone }
+}
+
+163021
+{
+  name { a vagrant man }
+  namelist { vagrant man }
+  shortdesc { A nervous looking man hurries along in the street. }
+  longdesc {
+He appears to not want to look you in the eye.  Dressed only in rags,
+you doubt he has anyplace to go.  He quickly looks up and darts away,
+noticing you are staring at him.
+  }
+  race { Human }
+  world_limit { 4 }
+  level { 95 }
+  experience { 22000 }
+  hp { 10, 15, 1111 }
+  alignment { -1000 }
+  gold { 4400 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 15, 4 }
+  body { 15, 4 }
+  arms { 15, 4 }
+  legs { 15, 4 }
+  feet { 15, 4 }
+  act { npc, stay-zone }
+}
+
+163022
+{
+  name { a dog }
+  namelist { dog }
+  shortdesc { A dog sniffs through some garbage in the road. }
+  longdesc {
+A brown colored dog is picking through some garbage on the street.
+It appears it has not eaten in weeks.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 15 }
+  experience { 500 }
+  hp { 5, 6, 440 }
+  alignment { -1000 }
+  gold { 75 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  act { npc, stay-zone }
+}
+
+163023
+{
+  name { a lepper }
+  namelist { lepper }
+  shortdesc { A sickly looking man rests on the ground, wrapped in bandages. }
+  longdesc {
+Gross!  The parts of this person not wrapped in bandages are covered
+in sores and lesions.  You can't tell if there is a man or woman under
+all those bandages and clothes.  It doesn't even move as you poke
+it with a stick.
+  }
+  race { Human }
+  world_limit { 5 }
+  level { 80 }
+  experience { 16422 }
+  hp { 5, 6, 922 }
+  alignment { -1000 }
+  gold { 5150 }
+  hit_bonus { 12 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 35, 3 }
+  body { 35, 3 }
+  arms { 35, 3 }
+  legs { 35, 3 }
+  feet { 35, 3 }
+  act { npc, stay-zone }
+}
+
+163024
+{
+  name { a vagrant man bully }
+  namelist { vagrant man bully }
+  shortdesc { A mean looking vagrant is beating up some poor lepper. }
+  longdesc {
+He appears to not want to look you in the eye.  Dressed only in rags,
+you doubt he has anyplace to go.  He is beating the living soul out of
+a poor, unfortunate lepper.  He must want to steal his room.
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 95 }
+  experience { 28000 }
+  hp { 10, 15, 1584 }
+  alignment { -1000 }
+  gold { 4600 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 15, 4 }
+  body { 15, 4 }
+  arms { 15, 4 }
+  legs { 15, 4 }
+  feet { 15, 4 }
+  act { npc, sentinel, stay-zone }
+}
+
+163025
+{
+  name { a wounded lepper }
+  namelist { lepper }
+  shortdesc { A sickly looking man lays wounded on the ground, beaten to a pulp. }
+  longdesc {
+  Gross!  The parts of this person not wrapped in bandages are covered
+in sores and lesions.  You can't tell if there is a man or woman under
+all those bandages and clothes.  It doesn't even move as you poke
+it with a stick.  This poor bum has been beaten beyond recognition.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 80 }
+  experience { 16422 }
+  hp { 5, 6, 922 }
+  alignment { -1000 }
+  gold { 4150 }
+  hit_bonus { 12 }
+  dam_bonus { 7 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 7, 1 }
+  head { 35, 3 }
+  body { 35, 3 }
+  arms { 35, 3 }
+  legs { 35, 3 }
+  feet { 35, 3 }
+  act { npc, sentinel, stay-zone }
+}
+
+
+163026
+{
+  name { a man ghost }
+  namelist { man ghost }
+  shortdesc { The foggy mist seems to take the form of a man. }
+  longdesc {
+The mist has taken the form of one of the former townspeople.  Dressed
+in white and black dinnerwear you can tell this person was on his way
+to a fancy meal.  His nose stuck up in the air gives you a hint of his
+manners.  The huge gash across his midsection gives you a hint of his
+death.  Didn't the townspeople die of plague?
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 280 }
+  experience { 196000 }
+  hp { 10, 25, 3600 }
+  alignment { -1000 }
+  gold { 8400 }
+  hit_bonus { 11 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 2 }
+  head { -30, 8 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { sanctuary, true-sight }
+  immune { charm  }
+  act { npc, aggressive, stay-zone }
+}
+
+163027
+{
+  name { a woman ghost }
+  namelist { woman ghost }
+  shortdesc { The foggy mist seems to take the form of a woman. }
+  longdesc {
+The mist has taken the form of one of the former townspeople.  She
+is wearing a pretty, yellow dress and holds a white parasol.  As she
+turns and walks right through you, you notice her head has been
+severed.  Her head hangs loosely by a piece of gore, her eyes stare
+blankly through you.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 250 }
+  experience { 175000 }
+  hp { 14, 15, 3500 }
+  alignment { -1000 }
+  gold { 7200 }
+  hit_bonus { 10 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 4, 2 }
+  head { -35, 7 }
+  body { -35, 7 }
+  arms { -35, 7 }
+  legs { -35, 7 }
+  feet { -35, 7 }
+  affected { true-sight, sanctuary }
+  immune { charm  }
+  act { npc, aggressive, stay-zone }
+}
+
+163028
+{
+  name { a girl ghost }
+  namelist { girl ghost }
+  shortdesc { The mist has taken the form of a small girl. }
+  longdesc {
+The ghost of a young girl stands before you.  Her best sunday dress
+is drenched in blood.  Her cold, lonely eyes seem to be looking right
+through you.  Her arms, cut off at the elbows, reach out for you
+wantingly.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 280 }
+  experience { 225000 }
+  hp { 15, 26, 4500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 2 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+163029
+{
+  name { a monster }
+  namelist { demon monster }
+  shortdesc { The scariest thing you have ever seen creeps out from an empty grave. }
+  longdesc {
+A mass of arms and legs slowly crawls out from the emtpy gave.  The
+only face you can see is a skinless knob at the shoulders of this
+mixed up creature.  A dark hole in the middle of the knob slowly turns
+in your direction and starts to pulsate.  A dark, stinky liquid starts
+to spurt from the hole, around the room and all over you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 450 }
+  experience { 765000 }
+  hp { 15, 38, 18536 }
+  alignment { -1000 }
+  gold { 450000 }
+  hit_bonus { 25 }
+  dam_bonus { 41 }
+  attacks_per_round { 6 }
+  caster { 15 }
+  mana { 1500 }
+  power { 1500 }
+  move  { 200 }
+  damage { 4, 15, 6 }
+  head { -80, 15 }
+  body { -80, 15 }
+  arms { -80, 15 }
+  legs { -80, 15 }
+  feet { -80, 15 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+  spells { acid blast }
+}
+
+163030
+{
+  name { the gravekeeper }
+  namelist { gravekeeper }
+  shortdesc { A large man, with a huge shovel on his back, stands before you. }
+  longdesc {
+The gravekeeper is easily as large as two men.  He scowls at you
+menacingly, grabbing for the shovel on his back.  His large, dirt
+covered hands grasp the shovel tightly, swinging it across the hallway.
+"You may NOT disturb these graves!", he shouts.  "I will just bury you
+too!", he bellows as he swings his shovel towards your head.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 350 }
+  experience { 345652 }
+  hp { 28, 45, 6358 }
+  alignment { +1000 }
+  gold { 15000 }
+  hit_bonus { 20 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 2 }
+  head { -45, 6 }
+  body { -45, 6 }
+  arms { -45, 6 }
+  legs { -45, 6 }
+  feet { -45, 6 }
+  immune { charm }
+  affected { true-sight }
+  act { npc, aggressive,stay-zone }
+}
+
+163031
+{
+  name { an invisible killer }
+  namelist { killer man invisible }
+  shortdesc { A mad man stares at you from the shadows, licking his knife. }
+  longdesc {
+You somehow survive being backstabbed.  The cackling from this man
+is so unnerving you begin to lose your step.  Turning and looking into
+his eyes, you only see the eyes of a mad man.  Death is the only thing
+on this man's mind and he will not stop until he is satisfied.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 550 }
+  experience { 554863 }
+  hp { 33, 45, 7263 }
+  alignment { -1000 }
+  gold { 20500 }
+  hit_bonus { 25 }
+  dam_bonus { 34 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 4, 7, 5 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { charm }
+  affected { invisible, flying, true-sight, sanctuary, hide }
+  act { npc, aggressive, stay-zone }
+}
+
+163032
+{
+  name { giant rat master }
+  namelist { giant rat master }
+  shortdesc { The biggest rat you have ever seen sits smiling at you. }
+  longdesc {
+This is the biggest rat you have ever seen.  Its front teeth are
+easily the size of your head, its beaty red eyes the size of your fists.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 250 }
+  experience { 256832 }
+  hp { 5, 6, 2563 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 2 }
+  head { -15, 2 }
+  body { -15, 2 }
+  arms { -15, 2 }
+  legs { -15, 2 }
+  feet { -15, 2 }
+  immune { charm }
+  act { sentinel, npc, stay-zone }
+}
+
+163033
+{
+  name { a black rat }
+  namelist { black rat }
+  shortdesc { A small black rat scurries across the floor. }
+  longdesc {
+A small black rat looks very malnutritioned.  It looks like it hasn't
+eaten in weeks.  Its tiny head drops and turns away as it realizes you
+aren't a meal.
+  }
+  race { None }
+  world_limit { 125 }
+  level { 20 }
+  experience { 462 }
+  hp { 8, 10, 112 }
+  alignment { -1000 }
+  gold { 25 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+163034
+{
+  name { mage man master }
+  namelist { mage man master }
+  shortdesc { A man stands here talking to his rats. }
+  longdesc {
+You have never seen such a dirty individual.  His skin appears to be
+caked in sewer mud and rat feces.  He is wrapped in a tattered black
+robe.  A scarf of blue silk wraps totally around his neck and drapes
+down the center of his back.  Little red eyes appear from every fold
+and crevis in his outfit.  This man is totally covered in rats.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 400 }
+  experience { 764865 }
+  hp { 23, 45, 14068 }
+  alignment { -1000 }
+  gold { 30500 }
+  hit_bonus { 19 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  caster { 20 }
+  mana { 1000 }
+  power { 1000 }
+  damage { 5, 7, 6 }
+  head { -30, 5 }
+  body { -30, 5 }
+  arms { -30, 5 }
+  legs { -30, 5 }
+  feet { -30, 5 }
+  immune { charm }
+  affected { true-sight, sanctuary }
+  act { npc, sentinel, stay-zone }
+  spells { dispel magic, meteor swarm }
+}
+
+163035
+{
+  name { a redeyed monster }
+  namelist { monster }
+  shortdesc { A pair of red eyes stare at you from the darkness. }
+  longdesc {
+>From the darkess, a pair of red eyes seems to be staring directly at
+you.  As you get adjusted to the room, you can begin to make out its
+shape.  This thing covers the entire room, ceiling to floor.  There are
+at least four arms and three feet.  Its mouth slowly opens, revealing
+several rows of sharp, small teeth.  It is clearly meant for grinding
+bones.
+  }
+  race { Predator }
+  world_limit { 1 }
+  level { 350 }
+  experience { 462585 }
+  hp { 8, 15, 2564 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 15 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 2, 6, 5 }
+  head { -15, 8 }
+  body { -15, 8 }
+  arms { -15, 8 }
+  legs { -15, 8 }
+  feet { -15, 8 }
+  immune { charm }
+  affected { true-sight, sanctuary }
+  act { npc, sentinel, stay-zone }
+}
+
+163036
+{
+  name { a hidden serial killer }
+  namelist { hidden serial killer }
+  shortdesc { You see a whip hover up into the air, rearing to attack. }
+  longdesc {
+You can barely make out the outline of a man holding the gore drenched
+whip. You see right through him, like distortions in the water, the air
+ripples around the man before you.  The whip is at least four feet long.
+The head splits into a nine-tailed spiked rope, that is still dripping
+with the blood and gore from a fresh kill.  The whip rears back with
+a snap and flys towards you.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 450 }
+  experience { 789000 }
+  hp { 22, 45, 9256 }
+  alignment { -1000 }
+  gold { 150000 }
+  hit_bonus { 20 }
+  dam_bonus { 23 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 4, 8, 5 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, invis, sanctuary, hide }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+163037
+{
+  name { a master mage }
+  namelist { magus master mage }
+  shortdesc { A man dressed in flowing black robes hovers inches above the floor. }
+  longdesc {
+The man before you is covered entirely in flowing black robes.  Power
+erupts from the magus so forcefully that his robes rustle and float
+around him.  His piercing eyes open and lock onto yours.  He begins to chant
+and you find that you are unable to move.  A bright green glow starts
+to emit from his hands and he brings them together like he is making
+a prayer.  The last thing you see is the smile forming on his mouth.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 501 }
+  experience { 872000 }
+  hp { 6, 66, 9666 }
+  alignment { -1000 }
+  gold { 250000 }
+  hit_bonus { 25 }
+  dam_bonus { 10 }
+  caster { 15 }
+  mana { 1500 }
+  power { 1500 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 10, 5 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, flying, sanctuary }
+  spells { dispel magic, meteor swarm, mage fire, fireball }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+163038
+{
+  name { a giant griffin }
+  namelist { giant griffin }
+  shortdesc { A proud and mighty griffin snaps its beak at you. }
+  longdesc {
+A beautiful griffin stands in the arena before you.  It spreads its
+wings and rears onto its hind legs.  Someone has clipped this poor
+creature's wings so it cannot escape the arena.  It falls back onto
+its front legs and sets into a charge.
+  }
+  race { Bird }
+  world_limit { 1 }
+  level { 350 }
+  experience { 546388 }
+  hp { 15, 25, 7898 }
+  alignment { -1000 }
+  gold { 28000 }
+  hit_bonus { 19 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 5, 5 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -50, 6 }
+  feet { -50, 6 }
+  affected { true-sight, sanctuary }
+  immune { charm, hold, backstab }
+  act { npc, aggressive, stay-zone }
+}
+
+163039
+{
+  name { a strongman man giant }
+  namelist { strongman man giant }
+  shortdesc { A hooded, overly muscled man stares at you angrily from the corner. }
+  longdesc {
+A tiny, tiny head protrudes from a heaping mass of muscles.  His head
+is covered with a thin black hood.  His red, bloodshot eyes stare
+at you with a look of pure hatred.  His bare chest is criss-crossed
+with a leather strap that holds up his britches.  He does not appear
+to have a weapon and will probably rip you to pieces with his bare
+hands.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 550 }
+  experience { 485365 }
+  hp { 5, 6, 5465 }
+  alignment { -1000 }
+  gold { 85000 }
+  hit_bonus { 25 }
+  dam_bonus { 19 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 4, 9, 5 }
+  head { -85, 8 }
+  body { -85, 8 }
+  arms { -85, 8 }
+  legs { -85, 8 }
+  feet { -85, 8 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+163040
+{
+  name { a centaur beast }
+  namelist { centaur beast }
+  shortdesc { A mighty centaur snorts through its nose and charges towards you. }
+  longdesc {
+Half man, half beast, the centaur towers above you.  Huge stone
+bracelets seem to bolt the beasts arms down.  A huge, golden spear is
+strapped to its back.
+  }
+  race { Predator }
+  world_limit { 1 }
+  level { 550 }
+  experience { 350000 }
+  hp { 9, 15, 4823 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -25, 5 }
+  body { -25, 5 }
+  arms { -25, 5 }
+  legs { -25, 5 }
+  feet { -25, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+163041
+{
+  name { a scary clown }
+  namelist { scary clown }
+  shortdesc { A disturbingly scary clown juggles puppies while dancing on a ball. }
+  longdesc {
+A huge cheshire grin glows from the clown's face.  His eyes immediately
+connect with yours upon entrance to the room.  He does not faulter a
+single step or drop one puppy as you come closer to his performance.
+Without missing a beat, he jumps off his ball, grabs some puppy dog
+tails and begins to pummel you mercilessly with them.  A maniacal 
+cackle lets lose from his fat and sweaty face.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 500 }
+  experience { 564333 }
+  hp { 10, 15, 6543 }
+  alignment { -1000 }
+  gold { 18000 }
+  hit_bonus { 20 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 8, 5 }
+  head { -35, 9 }
+  body { -35, 9 }
+  arms { -35, 9 }
+  legs { -35, 9 }
+  feet { -35, 9 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+163042
+{
+  name { Crazed Scientist }
+  namelist { Crazed Scientist }
+  shortdesc { A mad-looking man steps out from the shadows with a crazed look in his eyes. }
+  longdesc {
+The scientist is dressed in white surgical gowns that are splattered in
+gore and blood.  Wet pieces of red matter from a fresh kill still drip 
+down his gown as he walks towards you from the back of the room.  A green 
+surgical mask covers the man's face.  You can see his lips moving from 
+behind the cloth yet no words are coming out.  The eyes above the mask 
+are blood-shot red, their pupils are completely dialated.  Their piercing 
+glare stares right down at you with utter hatred.  He begins to let 
+loose a small giggle as he moves more quickly towards you.  Yanking down 
+the chain from the window above, he begins to swing it in a circle above
+his head and rears to attack.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 490 }
+  sex { Male }
+  experience { 650000 }
+  hp { 22, 22, 15950 }
+  alignment { -1000 }
+  gold { 29000 }
+  caster { 15 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 6, 5 }
+  head { -80, 12 }
+  body { -70, 11 }
+  arms { -70, 11 }
+  legs { -70, 11 }
+  feet { -70, 11 }
+  spells { repulsor, blindness }
+  affected { sanctuary, true-sight }
+  immune { charm }
+  susceptible { fire, electricity }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+163043
+{
+  name { Ghost Cook }
+  namelist { Ghost Cook }
+  shortdesc { A fat and long dead ghost picks up a pan from the oven top and rears to attack. }
+  longdesc {
+The etheral ghost floats in the air in front of the stove lying against
+the northern wall of the ship.  He seems to have been the cook of the
+ship, as he is still dressed in a cook's smock and chef's hat.  The
+ghost cook continues to cook in death as he did in life, terribly.
+There is a wretched strench coming from the pots and pans on and in
+the stove.  If this did not kill the crew, they were strong sailors
+indeed.  Noticing you holding your nose in disgust, the ghost cook seems
+to get angered and slowly turns in your direction.  He quickly grabs
+a large frying pan from the stove and rears to attack.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 490 }
+  sex { Male }
+  experience { 675000 }
+  hp { 25, 25, 15975 }
+  alignment { -1000 }
+  gold { 30000 }
+  caster { 20 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 6, 5 }
+  head { -80, 12 }
+  body { -70, 11 }
+  arms { -70, 11 }
+  legs { -70, 11 }
+  feet { -70, 11 }
+  spells { repulsor, shriek, weakness }
+  affected { sanctuary, true-sight }
+  immune { charm }
+  susceptible { fire, electricity }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+163044
+{
+  name { Mad Alchemist }
+  namelist { Mad Alchemist }
+  shortdesc { A crazy looking man in a long white trench coat glares at you menacingly. }
+  longdesc {
+The crazed man takes a long, hard look at you from across his long
+wooden table.  The alchemist has some thin wire-rimmed glasses across
+his pudgy nose.  You can see his blood shot eyes pulsing from behind
+them as he stares intently into yours.  The poor man's hair is pure
+white and is standing up in clumps and in multiple directions.  It looks
+like he has been electrocuted or blown up repeatedly.  His breathing
+begins to quicken as he notices you approaching his work table.  This
+is probably a good time to run in the other direction.
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 490 }
+  sex { Male }
+  experience { 675000 }
+  hp { 25, 25, 15975 }
+  alignment { -1000 }
+  gold { 30000 }
+  caster { 10 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 4, 6, 5 }
+  head { -80, 12 }
+  body { -70, 11 }
+  arms { -70, 11 }
+  legs { -70, 11 }
+  feet { -70, 11 }
+  spells { colour spray, gust of wind }
+  affected { sanctuary, true-sight }
+  immune { charm }
+  susceptible { fire, electricity }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+163045
+{
+  name { a wandering ghost }
+  namelist { wandering ghost }
+  shortdesc { A ghostly crewmate wanders the ship in search of his captain. }
+  longdesc {
+This poor soul looks very lost.  It sadly wanders up and down the ship,
+endlessly searching for its captain.  The creature just wails and cries
+as it floats throughout the ship.  Stopping immediately upon sensing you,
+it turns abruptly and charges in your direction.  Trespassing is bad!
+  }
+  race { Ghost }
+  world_limit { 3 }
+  level { 280 }
+  experience { 225000 }
+  hp { 15, 26, 4500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 6, 2 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  affected { true-sight, sanctuary }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}

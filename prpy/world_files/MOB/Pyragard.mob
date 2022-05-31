@@ -1,0 +1,2011 @@
+16200
+{
+  name { A stone giant }
+  namelist { giant stone }
+  shortdesc { A stone giant stands here }
+  longdesc {
+Shorter than all their cousins, these giants stand around eight feet tall.  They
+have hard, dark brown skin than seems to resemble rocks and in some cases lichen
+even grows were a beard or mane of hair should be.  Their eyes are dull, white
+marbles that seem to see through even the most diligent of disguises.  They may
+be slow, but they are powerful.
+  }
+  race { giant }
+  sex { female }
+  height { 250 }
+  weight { 10000 }
+  level { 456 }
+  alignment { -400 }
+  gold { 71000 }
+  hit_bonus { 32 }
+  dam_bonus { 100 }
+  attacks_per_round { 3.5 }
+  head { -40, 42 }
+  body { -40, 42 }
+  arms { -40, 42 }
+  legs { -40, 42 }
+  feet { -40, 42 }
+  hp { 4, 56, 10348  }
+  move { 300 }
+  experience { 600064 }
+  damage { 4, 15, 20  }
+  immune { blunt, charm, backstab}
+  act { sentinel, scavenger, aggressive }
+}
+
+16201
+{
+  name { A cloud giant }
+  namelist { giant cloud }
+  shortdesc { A cloud giant stands here. }
+  longdesc {
+Rising up like Zeus upon his mountain, with skin that is translucent like the
+billowing of steam and all held together by bright flashes of lightning, these
+giants are the rulers of their kind.  Towering up to fifteen feet in height,
+with the power to bring down storms upon their foes, Cloud giants are rarely
+seen, but greatly feared.
+  }
+  race { giant }
+  height { 460 }
+  weight { 10000 }
+  level { 499 }
+  alignment { -400 }
+  gold { 80000 }
+  hit_bonus { 39 }
+  dam_bonus { 120 }
+  attacks_per_round { 4 }
+  head { -30, 12 }
+  body { -30, 12 }
+  arms { -30, 12 }
+  legs { -30, 12 }
+  feet { -30, 12 }
+  hp { 4, 56, 15348  }
+  move { 300 }
+  experience { 800064 }
+  damage { 4, 15, 25  }
+  immune { electricity, charm, backstab }
+  act { sentinel, scavenger, aggressive }
+}
+
+16202
+{
+  name { A fire giant }
+  namelist { giant fire }
+  shortdesc { A fire giant is here. }
+  longdesc {
+Standing well over ten-feet tall, these giants have blackened, cracked skin that
+burns with a fiery heat.  Their hair and beards are living flames, their eyes
+like pools of molten gold that steam and spark as they blink.  They have an evil
+reputation and are known for being soldiers, conquerors and savage overlords.
+  }
+  race { giant }
+  height { 360 }
+  weight { 10000 }
+  level { 490 }
+  alignment { -400 }
+  gold { 75000 }
+  hit_bonus { 34 }
+  dam_bonus { 105 }
+  attacks_per_round { 3.2 }
+  head { -80, 0 }
+  body { -80, 0 }
+  arms { -80, 0 }
+  legs { -80, 0 }
+  feet { -80, 0 }
+  hp { 4, 56, 12348  }
+  move { 300 }
+  experience { 712064 }
+  damage { 3, 10, 20  }
+  immune { fire, charm, backstab }
+  act { sentinel, aggressive, stay-zone }
+}
+
+16203
+{
+  name { A frost giant }
+  namelist { giant frost }
+  shortdesc { A frost giant is here. }
+  longdesc {
+Cyan-blue skin, hair as white as the freshest snow, eyes like distant stars that
+burn and steam with intense cold, the Frost giant thrives in icy, frigid places.
+They are not as evil as their fiery cousins, but they are far more cunning. 
+They have been known to group up against other giant-clans and overthrow them,
+even enslaving them.  It is rumoured they can freeze a man with a touch...
+  }
+  race { giant }
+  height { 290 }
+  weight { 10000 }
+  level { 470 }
+  alignment { -400 }
+  gold { 69000 }
+  hit_bonus { 29 }
+  dam_bonus { 99 }
+  attacks_per_round { 4.1 }
+  head { 0, 10 }
+  body { 0, 20 }
+  arms { 0, 10 }
+  legs { 0, 10 }
+  feet { 0, 10 }
+  hp { 4, 56, 9348  }
+  move { 300 }
+  experience { 622064 }
+  damage { 4, 8, 15  }
+  immune { cold, charm, backstab }
+  act { sentinel, aggressive, stay-zone }
+}
+
+16204
+{
+  name { Jarl Bjorn }
+  namelist { Jarl Bjorn }
+  shortdesc { Jarl Bjorn of the stone giants is here, brooding angrily. }
+  longdesc {
+Jarl Bjorn is the leader of the stone giant clan that controls the valley
+between the icy tundra of the frost giants, the lofty valley tops of the
+cloud giants and the dark, heat-filled caves of the fire giants.  He is
+said to be a harsh but fair ruler, respected by his clan and by the other
+giants.
+}
+  race { giant }
+  sex { male }
+  level { 520 }
+  height { 300 }
+  weight { 3550 }
+  experience { 600200 }
+  hp { 10, 100, 22000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 100 }
+  damage { 3, 10, 30 }
+  attacks_per_round { 4 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, blunt, backstab }
+  act { special, stay-zone, aggressive }
+}
+
+16205
+{
+  name { Ulf }
+  namelist { Ulf }
+  shortdesc { Ulf of the frost giants stands here, snarling. }
+  longdesc {
+Ulf is a thickly built brute of a giant.  He dwarfs all the others in
+the hall by at least a foot.  His shock of what hair hangs like a mane
+around his bull-like neck.  Known only for wearing the Hide of Fenris
+and wielding his axe Hausakljufr, one wonders why Jarl Kaldrhond would
+place such a well known recluse in a position of bargaining.
+}
+  race { giant }
+  sex { male }
+  level { 520 }
+  height { 300 }
+  weight { 3550 }
+  experience { 600200 }
+  hp { 10, 100, 22000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 100 }
+  damage { 3, 10, 30 }
+  attacks_per_round { 4 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, cold, backstab }
+  act { special, stay-zone, aggressive }
+}
+
+16206
+{
+  name { Arne }
+  namelist { Arne }
+  shortdesc { Arne of the cloud giants stands here, tall and proud. }
+  longdesc {
+Arne is short for a cloud giant, standing at around twelve feet tall.  He
+is not less impressive for that however; his arms are thickly corded and
+uncovered, showing off muscles and scars that have no doubt been built
+and earned in countless battles.  Rumour has it he is in love with Ravna
+of the fire giants, but that she rejected his advances in favour of her
+own Jarl Bodil, the chief who never leaves the lava caves of her people.
+}
+  race { giant }
+  sex { male }
+  level { 520 }
+  height { 300 }
+  weight { 3550 }
+  experience { 600200 }
+  hp { 10, 100, 22000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 100 }
+  damage { 3, 10, 30 }
+  attacks_per_round { 4 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, electricity, backstab }
+  act { special, stay-zone, aggressive }
+}
+
+16207
+{
+  name { Ravna }
+  namelist { Ravna }
+  shortdesc { Ravna of the fire giants is here, laughing. }
+  longdesc {
+Were it not for her tremendous height of fourteen feet, her shocking mane
+of fiery hair that hangs in braids across her shoulders and down her back,
+and that tell-tale blackened, cracked skin, Ravna might be considered a
+beauty.  A shield maid of the fire giants, she is Jarl Bodil's bride to be,
+a fact that grants her power and influence of over others of her clan and
+is a source of great amusement to her.  Rumour has it then whenever she
+enters combat, the cloud giant Arne leaps to protect her, laying down his
+life for hers if needed.  A sentiment she doesn't mirror.
+}
+  race { giant }
+  sex { female }
+  level { 520 }
+  height { 300 }
+  weight { 3550 }
+  experience { 600200 }
+  hp { 10, 100, 22000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 100 }
+  damage { 3, 10, 30 }
+  attacks_per_round { 4 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, fire, backstab }
+  act { special, stay-zone, aggressive }
+}
+
+16208
+{
+  name { Jarl Sigurd }
+  namelist { Jarl Sigurd }
+  shortdesc { Jarl Sigurd stands here, commanding his cloud giant people. }
+  longdesc {
+Sigurd is an enigma wrapped up in muscle, fine, chiselled good looks and
+a powerful intellect.  He towers above the other cloud giants and is by
+far the biggest giant yet seen.  It is said that he disapproves of the
+alliance with the Drow, but is careful not to let his opinion become too
+well known - it wouldn't be wise to disagree with the dark-skinned elves.
+}
+  race { giant }
+  sex { male }
+  level { 560 }
+  height { 300 }
+  weight { 3550 }
+  experience { 800200 }
+  hp { 10, 100, 29000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 120 }
+  damage { 4, 10, 40 }
+  attacks_per_round { 4.5 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, electricity, backstab }
+  act { special, stay-zone, aggressive }
+}
+
+16209
+{
+  name { Skald Yrsa }
+  namelist { Skald Kare }
+  shortdesc { Skald Kare is here, advising his Jarl. }
+  longdesc {
+Yrsa is an old, bent giant with a thick mop of blonde-white curly hair
+that frames her hard but wrinkled face.  In her day she was a shamanka
+of terrible power, but since the Drow came, and what the Drow bargained
+for subsequently happened, so her power was shorn in two.  She now serves
+Jarl Sigurd as his advisor, pushing for freedom of the clan away from the
+other giants and the machinations of the Drow.
+}
+  race { giant }
+  sex { female }
+  level { 520 }
+  height { 300 }
+  weight { 3550 }
+  experience { 600200 }
+  hp { 10, 100, 22000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 100 }
+  damage { 3, 10, 30 }
+  attacks_per_round { 4 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, fire, backstab }
+  affected { nofear }
+  caster { 500 }
+  spells { sanctuary, shriek, harm }
+  act { special, stay-zone, aggressive, healer }
+}
+
+16210
+{
+  name { Jarl Kaldrhond }
+  namelist { Jarl Kaldrhond }
+  shortdesc { Jarl Kaldrhond stands here, frost steaming off his icy-blue skin. }
+  longdesc {
+Kaldrhond is the Jarl of the frost giants.  He is not a particularly large
+giant, or even that cunning.  In fact, his lack of wits makes him an easy
+target for the other tribes and rumour has it that he was quickly fooled by
+the Drow in to siding with them.  But if Kaldrhond has something special,
+it is his affinity to the cold.  It is said that Kaldrhond has the ability
+to chill a man to the bone with just a glare.
+}
+  race { giant }
+  sex { male }
+  level { 560 }
+  height { 300 }
+  weight { 3550 }
+  experience { 800200 }
+  hp { 10, 100, 29000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 120 }
+  damage { 4, 10, 40 }
+  attacks_per_round { 4.5 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, cold, backstab }
+  affected { nofear }
+  caster { 900 }
+  spells { freeze }
+  act { special, stay-zone, aggressive }
+}
+
+16211
+{
+  name { Jarl Bodil }
+  namelist { Jarl Bodil }
+  shortdesc { Jarl Bodil is here, burning fiercely.  }
+  longdesc {
+Bodil is, as you may have guessed, not male.  She is one of those rare
+females who has risen to a place of power far-beyond what anyone could
+ever have dreamed possible.  Even for a fire giant, with her soot-black
+skin, eyes of white-hot molten metal and hair like dripping fire, she
+is beautiful to behold.  It is told that she stole her Jarldom from King
+Harald and imprisoned him deep in the mountain and that she took the key
+to his prison and broken it in to four parts that she spread across the
+valley.  Like many who find power in such ways, she seeks more and is
+greedy for every morsel she gets, a fact that the Drow use to their
+advantage as they give her all she desires, and nothing that she truly
+needs. 
+}
+  race { giant }
+  sex { female }
+  level { 590 }
+  height { 340 }
+  weight { 3550 }
+  experience { 1000200 }
+  hp { 10, 100, 33000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 156000 }
+  hit_bonus { 55 }
+  dam_bonus { 140 }
+  damage { 5, 10, 50 }
+  attacks_per_round { 4.8 }
+  head { -80, 20 }
+  body { -60, 40 }
+  arms { -80, 24 }
+  legs { -80, 24 }
+  feet { -80, 24 } 
+  immune { charm, poison, fire, backstab }
+  affected { nofear }  
+  act { special, stay-zone, aggressive }
+}
+
+16212
+{
+  name { Valkyrie Tora }
+  namelist { Valkyrie Tora }
+  shortdesc { The Valkyrie Tora stands here, defending her Jarl. }
+  longdesc {
+Tora is a squat, evil-looking brute of a giant.  And the fact that she
+too is female just seems to make her all that much more dangerous.  In
+spite of the fact that she loudly, and passionately, disagrees with her
+Jarl that working with Drow with benefit them, she is fiercely loyal to
+Jarl Bodil and was rumoured to be the muscle that helped imprison King
+Harald.
+}
+  race { giant }
+  sex { female }
+  level { 560 }
+  height { 300 }
+  weight { 3550 }
+  experience { 800200 }
+  hp { 10, 100, 29000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 120 }
+  damage { 4, 10, 40 }
+  attacks_per_round { 4.5 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, fire, backstab }
+  affected { nofear }
+  act { special, stay-zone, aggressive }
+}
+
+16213
+{
+  name { Shamanka Helga }
+  namelist { Shamanka Helga }
+  shortdesc { Shamanka Helga sits here, advising her leader. }
+  longdesc {
+Helga is young, barely out of her teens, although she stands well
+over nine feet tall.  Despite this, she is a powerful Shamanka,
+even with her powers severely curtailed thanks to the plotting of
+the Drow.  But her young age also makes her very naive, she is
+easily led, and Jarl Bodil uses her with precious skill.  The
+young Shamanka is most powerful near her Goddess, so the clever
+Jarl has positioned her at the very gates of the cavernous den
+that imprisons the source of her power, forcing her to be the
+one who prevents others from freeing something that would in the
+end grant her more power than she currently possesses.
+}
+  race { giant }
+  sex { female }
+  level { 560 }
+  height { 300 }
+  weight { 3550 }
+  experience { 800200 }
+  hp { 10, 100, 29000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 120 }
+  damage { 4, 10, 40 }
+  attacks_per_round { 4.5 }
+  head { -60, 20 }
+  body { -50, 40 }
+  arms { -60, 24 }
+  legs { -60, 24 }
+  feet { -60, 24 } 
+  immune { charm, poison, fire, backstab }
+  affected { nofear }
+  caster { 560 }
+  spells { sanctuary, fireshield, cause critical, harm, shriek, full harm, holy word }
+  act { special, stay-zone, aggressive, healer }
+}
+
+16214
+{
+  name { King Harald }
+  namelist { Harald King }
+  shortdesc { King Harald is here, seeking revenge! }
+  longdesc {
+King Harald, Fire Giant, scourge of the mountain valley's.  He is
+as tall as he is powerful.  He was betrayed by Bodil, the Drow
+and those closest to him when he refused to imprison the Draconic
+Goddess Tiamat for the dark skinned elves.  Now he is likely to
+aid anyone who desires to attack Tiamat for he alone knows that
+the only way to release a Goddess is to kill her, and let her be
+born again, to rise up from her own ashes more powerful that she
+ever was before.  Perhaps you could use this?
+}
+  race { giant }
+  sex { male }
+  level { 660 }
+  height { 300 }
+  weight { 3550 }
+  experience { 1800200 }
+  hp { 10, 120, 49000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 126000 }
+  hit_bonus { 45 }
+  dam_bonus { 140 }
+  damage { 4, 20, 40 }
+  attacks_per_round { 6 }
+  head { -100, 40 }
+  body { -90, 44 }
+  arms { -95, 44 }
+  legs { -95, 44 }
+  feet { -95, 44 } 
+  immune { charm, poison, cold, backstab, fire, acid, poison, electricity, slash, blunt }
+  affected { nofear }
+  act { special, stay-zone, special }
+}
+
+18003
+{
+  name { Tiamat }
+  namelist { Tiamat chromatic dragon }
+  shortdesc { Tiamat, the gargantuan, five-headed chromatic draconic goddess sleeps here. }
+  longdesc {
+Tiamat is a five-headed draconic goddess.  Each of her heads is the chromatic
+colour of one of her children, and her children's children and all their
+descendants, for all dragons that are red, blue, green, black and white are
+her progeny, and they all follow her evil nature.  It is told that when she
+roamed the skies, long years ago, she was supremely powerful, unmatched in
+all of the realms.  But she grew and she slept, and her slumbers lasted years.
+Her scales are as hard as diamond, her horns crown like aegis over each head,
+and her tail, reminiscent of a wyvern's, is complete with evil-looking stinger
+that can cause the victim to be sent in to a deep sleep that, ultimately, they
+will never wake from.  She has been shackled, a ring of dark iron around each
+of her necks and legs connected to chains so big that a man could stand inside
+a single link.  Dark red runes glow over each binding, sparking and spitting
+in the language of the Underdark.  The language of the Drow...
+  }
+  race { dragon }
+  sex { Female }
+  height { 760 }
+  weight { 10000 }
+  level { 600 }
+  alignment { -1000 }
+  gold { 2350000 }
+  hit_bonus { 60 }
+  dam_bonus { 45 }
+  attacks_per_round { 8 }
+  head { -190, 40 }
+  body { -200, 40 }
+  arms { -170, 40 }
+  legs { -160, 40 }
+  feet { -140, 40 }
+  hp { 10, 328, 67464 }
+  move { 300 }
+  experience { 11759120 }
+  damage { 4, 30, 57  }
+  resistant { blunt, slash, fire, cold, electricity, acid, poison }
+  immune { charm, sleep, backstab }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  caster { 760 }
+  spells { fire breath, frost breath, gas breath, acid breath, lightning breath }
+  act { special, sentinel, aggressive, healer }
+}
+
+
+25500
+{
+  name { A large Fire Giant }
+  namelist { fire giant sentry }
+  shortdesc { A large Fire Giant sentry eyes you suspiously. }
+  longdesc {
+   This creature is as large as a house, and as strong as a dragon.
+he stands here guarding his post faithfully.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 490 }
+  alignment { -400 }
+  gold { 350000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -120, 20 }
+  body { -120, 20 }
+  arms { -120, 20 }
+  legs { -120, 20 }
+  feet { -120, 20 }
+  hp { 4, 56, 9348  }
+  move { 300 }
+  experience { 912064 }
+  damage { 3, 10, 12  }
+  affected { detect-invisible, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+
+25501
+{
+  name { The Fire Giant lieutenant }
+  namelist { fire giant lieutenant }
+  shortdesc { A large Fire Giant is standing here }
+  longdesc {
+   This is the largest Fire Giant you have seen yet.  Massive muscles
+bulge from his gargantuan body.  A flaming helm rests atop his monstrus
+head.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 500 }
+  alignment { -400 }
+  gold { 600000 }
+  hit_bonus { 25 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -140, 12 }
+  body { -140, 12 }
+  arms { -140, 12 }
+  legs { -140, 12 }
+  feet { -140, 12 }
+  resist_fire { 250 }
+  hp { 3, 30, 15348  }
+  move { 300 }
+  experience { 912064 }
+  damage { 4, 20, 20  }
+  immune { fire, charm }
+  affected { detect-invisible, infravision, true-sight, sanctuary }
+  act { sentinel, aggressive, stay-zone, special }
+}
+
+25502
+{
+  name { The General }
+  namelist { fire giant general }
+  shortdesc { A large Fire Giant making battle plans. }
+  longdesc {
+  This ugly Fire Giant is the leader of the fire giant army.  His
+massive uniform is adorned with medals and other decorations, in
+his hands is a very powerful looking Battle Axe.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 520 }
+  alignment { -400 }
+  gold { 900000 }
+  hit_bonus { 42 }
+  dam_bonus { 15 }
+  attacks_per_round { 8 }
+  head { -150, 20 }
+  body { -150, 20 }
+  arms { -150, 20 }
+  legs { -150, 20 }
+  feet { -150, 20 }
+  resist_fire { 250 }
+  hp { 3, 30, 40348  }
+  move { 300 }
+  experience { 1230576 }
+  damage { 4, 35, 35 }
+  immune { fire, charm, backstab }
+  affected { detect-invisible, infravision, sanctuary, true-sight }
+  act { sentinel, aggressive, stay-zone, special, healer }
+}
+
+25503
+{
+  name { The Fire Giant King }
+  namelist { fire giant king }
+  shortdesc { The Fire Giant King is here resting in a large oak chair }
+  longdesc {
+   This is a very large obese creature, lines of many years of
+frustration and pain mark his aged skin. He wears a long cloak
+that covers most of his large frame, but you notice a huge great-
+sword hanging from a jeweled scabard at his side.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 580 }
+  alignment { -400 }
+  gold { 900000 }
+  hit_bonus { 40 }
+  dam_bonus { 30 }
+  attacks_per_round { 8 }
+  head { -150, 40 }
+  body { -150, 40 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  resist_fire { 250 }
+  hp { 3, 30, 57348  }
+  move { 300 }
+  experience { 1230576 }
+  damage { 4, 35, 45  }
+  immune { fire, charm, backstab }
+  affected { invisible, detect-invisible, sanctuary, true-sight }
+  act { special, sentinel }
+}
+
+25504
+{
+  name { an ancient blue dragon }
+  namelist { ancient blue dragon }
+  shortdesc { An ancient blue dragon stares at you wisely }
+  longdesc {
+   She is the largest dragon you have ever seen, she has no weapons
+and the only armor she possesses are the shiny blue scales that cover
+her massive body.
+  }
+  race { none }
+  height { 400 }
+  level { 466 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 20 }
+  dam_bonus { 19 }
+  attacks_per_round { 5 }
+  head { -100, 8 }
+  body { -100, 8 }
+  arms { -100, 17 }
+  legs { -100, 17 }
+  feet { -100, 8 }
+  hp { 4, 8, 10000  }
+  move { 300 }
+  experience { 520468 }
+  damage { 3, 8, 10  }
+  immune { electricity, charm }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, scavenger, stay-zone }
+}
+
+25505
+{
+  name { The High Priest }
+  namelist { fire giant high priest }
+  shortdesc { The High Priest is standing here }
+  longdesc {
+   He is dressed in back robes and wields a very wicked mace he
+would give you a very tough challange
+  }
+  race { human }
+  height { 300 }
+  level { 337 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 45 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -40, 30 }
+  body { -40, 30 }
+  arms { -50, 30 }
+  legs { -30, 30 }
+  feet { -30, 30 }
+  hp { 1000, 8, 32100  }
+  move { 300 }
+  experience { 362550 }
+  damage { 4, 40, 55  }
+  immune { fire, charm }
+  affected { detect-invisible, sanctuary, true-sight }
+  act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+
+25506
+{
+  name { A Giant Salamander }
+  namelist { giant salamander }
+  shortdesc { A Giant Salamander slithers here quietly }
+  longdesc {
+   This is a large snake like creature with small limbs
+extending from its long body, it glares at you hungerily
+as you approach.
+  }
+  race { none }
+  height { 160 }
+  level { 233 }
+  alignment { 0 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -30, 14 }
+  body { -30, 14 }
+  arms { -50, 14 }
+  legs { -10, 10 }
+  feet { -10, 10 }
+  hp { 150, 8, 1500  }
+  move { 300 }
+  experience { 177389 }
+  damage { 3, 6, 13  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+25507
+{
+  name { A Skeletal Giant }
+  namelist { giant skeletal }
+  shortdesc { A Massive Skeletal Giant charges at you mindlessly }
+  longdesc {
+   This is the undead remains of a long dead Fire Giant, its
+body's flesh has decayed many years ago leaving a pile of charred
+bones and a few scraps of clothing.
+  }
+  race { undead }
+  level { 248 }
+  alignment { -1000 }
+  gold { 13000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 2 }
+  head { 20, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  hp { 50, 8, 2250  }
+  move { 300 }
+  experience { 194295 }
+  damage { 4, 4, 15  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { sentinel, scavenger, aggressive, stay-zone }
+}
+
+27001
+{
+  name { The Patryn }
+  namelist { angry young patryn }
+  shortdesc { An Angry Young Patryn glares angrily at you. }
+  longdesc {
+The otherwise human-looking Patryn has brown hair with white ends and is
+covered with glowing blue runes.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 240 }
+  alignment { -250 }
+  gold { 13000 }
+  hit_bonus { 20 }
+  dam_bonus { 11 }
+  attacks_per_round { 2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 240, 1820  }
+  move { 300 }
+  experience { 209646 }
+  damage { 1, 8, 25  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, stay-zone }
+}
+
+27002
+{
+  name { The Patryn }
+  namelist { patryn runner }
+  shortdesc { A Patryn Runner considers you and prepares to attack. }
+  longdesc {
+This humanoid creature is covered in runes and wears only a loincloth.
+He is wielding a spear and knife.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -300 }
+  gold { 5000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 73707 }
+  damage { 1, 8, 20  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, aggressive, stay-zone }
+}
+
+27003
+{
+  name { The Patryn }
+  namelist { patryn squatter }
+  shortdesc { A Patryn Squatter sits here, eyeing you carefully. }
+  longdesc {
+This Humanoid is covered in glowing blue runes.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 26850 }
+  damage { 1, 8, 15  }
+  immune { fire, cold, electricity, energy }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, scavenger, stay-zone }
+}
+
+27004
+{
+  name { The Patryn }
+  namelist { old patryn }
+  shortdesc { An Old Patryn glares evilly at you. }
+  longdesc {
+This old man has glowin blue runes on his hands-the only exposed skin
+other than his head.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { -500 }
+  gold { 22500 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 346397 }
+  damage { 1, 8, 35  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, aggressive, stay-zone }
+}
+
+27005
+{
+  name { The Lord of the Nexus }
+  namelist { lord nexus patryn }
+  shortdesc { The Lord of the Nexus does not approve of your continued existance. }
+  longdesc {
+This is the oldest and most malicious Patryn you have seen.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 507 }
+  alignment { -750 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 787, 18209  }
+  move { 300 }
+  experience { 661277 }
+  damage { 8, 8, 24  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  susceptible { drain }
+  affected { detect-invisible, infravision }
+  act { special, stay-zone }
+}
+
+27006
+{
+  name { The Tytan }
+  namelist { tytan jungle tytan }
+  shortdesc { The jungle appears to be moving... }
+  longdesc {
+This isn't jungle! This is a giant humanoid!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 497 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 727, 17329  }
+  move { 300 }
+  experience { 621806 }
+  damage { 1, 100, 1  }
+  immune { energy, blunt, pierce, charm }
+  resistant { fire, cold }
+  affected { detect-invisible, sneak }
+  act { special, stay-zone }
+}
+
+27007
+{
+  name { A Chaodyn }
+  namelist { chaodyn }
+  shortdesc { An insect-like Chaodyn stands here, preparing to strike. }
+  longdesc {
+The Chaodyn has four arms and two powerful hind legs.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { -300 }
+  gold { 175 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 4 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2609 }
+  damage { 1, 10, 1  }
+  act { special, scavenger, aggressive, stay-zone }
+}
+
+27008
+{
+  name { A Snog }
+  namelist { snog }
+  shortdesc { A large snog is here. }
+  longdesc {
+The snog has a hulking body and long, razor-sharp claws. It is hungry.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { -400 }
+  gold { 3200 }
+  hit_bonus { 11 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  head { 60, 6 }
+  body { 60, 6 }
+  arms { 60, 6 }
+  legs { 60, 6 }
+  feet { 60, 6 }
+  hp { 4, 168, 636  }
+  move { 300 }
+  experience { 31568 }
+  damage { 2, 8, 6  }
+  act { aggressive, stay-zone }
+}
+
+27009
+{
+  name { A wolfen }
+  namelist { wolfen }
+  shortdesc { A wolfen growls angrily at you. }
+  longdesc {
+This wolf-like humanoid stares back with wild yellow eyes.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -300 }
+  gold { 300 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 1, 5, 1  }
+  affected { infravision }
+  act { aggressive, stay-zone }
+}
+
+27010
+{
+  name { The Elven warrior }
+  namelist { elf warrior elven }
+  shortdesc { An Elven warrior ragards you cautiously. }
+  longdesc {
+He is wearing a vest and skirt that looks like it was made of a
+tapestry...not a thing to fight in at all. He wields a shortsword.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 100 }
+  gold { 300 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3096 }
+  damage { 2, 4, 2  }
+  affected { infravision }
+  act { stay-zone }
+}
+
+27011
+{
+  name { An Elven Guard }
+  namelist { elf elven guard }
+  shortdesc { An Elven guard stands at attention. }
+  longdesc {
+He is wearing tapestry-like Elven armor and wields a shortsword.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { 1000 }
+  gold { 900 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 8652 }
+  damage { 2, 4, 6  }
+  affected { infravision }
+  act { stay-zone }
+}
+
+27012
+{
+  name { A noble Elf }
+  namelist { elf noble }
+  shortdesc { A noble Elf sneers at you. }
+  longdesc {
+She is quite beautifull, and clearly regards humans as the lowest life form
+in existance.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 700 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 879 }
+  damage { 1, 2, 1  }
+  immune { charm }
+  affected { infravision }
+  act { nice-thief, stay-zone, wimpy }
+}
+
+27013
+{
+  name { The Captain }
+  namelist { elf captain elven }
+  shortdesc { The Captain of this vessel regards you coldly. }
+  longdesc {
+He is dressed in fine Elven tapestry and has quite a commanding presence.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 80 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 9 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 80, 473  }
+  move { 300 }
+  experience { 13375 }
+  damage { 1, 8, 2  }
+  affected { infravision }
+  act { sentinel, stay-zone }
+}
+
+27014
+{
+  name { The Geir }
+  namelist { geir wizard elf }
+  shortdesc { A Geir pays no attention to you. }
+  longdesc {
+The Geir is an old Elven wizard, addorned in black robes.  He seems far more
+interested in other Elves than in you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -50 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 100, 1 }
+  body { 100, 1 }
+  arms { 100, 1 }
+  legs { 100, 1 }
+  feet { 100, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3790 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  affected { sanctuary, infravision }
+  act { special, sentinel, scavenger, stay-zone, wimpy }
+}
+
+27015
+{
+  name { A human soldier }
+  namelist { soldier human }
+  shortdesc { A human soldier stands here. }
+  longdesc {
+He is wearing much armor and has a large sword.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 700 }
+  gold { 175 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2143 }
+  damage { 1, 8, 3  }
+  act { stay-zone }
+}
+
+27016
+{
+  name { an adolescent red dragon }
+  namelist { red dragon }
+  shortdesc { An adolescent Red Dragon prepairs for dinner }
+  longdesc {
+Red Dragons possess remarkable intelligence. One is tempted to say
+malevolent intelligence, but, in fairness, who are we to judge a race
+our ancestors hunted almost to extinction? You have no dount that, if
+the dragon could speak to you, it would remind you that it has good
+cause to hate you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 360 }
+  alignment { -850 }
+  gold { 27500 }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 360, 5680  }
+  move { 300 }
+  experience { 409639 }
+  damage { 3, 10, 5  }
+  immune { fire, charm }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+27017
+{
+  name { The Sartan Necromancer }
+  namelist { sartan necromancer }
+  shortdesc { A Sartan necromancer regards you eagerly. }
+  longdesc {
+The necromancer would much rather have you be an animated corpse
+than free willed and alive.
+He is dressed in long black robes.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { -300 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 50, 5 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 22554 }
+  damage { 1, 8, 18  }
+  immune { fire, cold, electricity, energy, drain }
+  resistant { electricity }
+  affected { detect-invisible, infravision }
+  act { special, scavenger, stay-zone }
+}
+
+27018
+{
+  name { The Lazar }
+  namelist { lazar }
+  shortdesc { A Lazar is standing here,  screaming for your death. }
+  longdesc {
+The Lazar was once alive, but is no longer. It is quit unlike the
+docile animated dead you have encountered here so far. It HATES you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { -1000 }
+  gold { 2500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 24916 }
+  damage { 2, 6, 6  }
+  immune { cold, electricity, charm, blunt }
+  resistant { fire, cold }
+  susceptible { pierce, poison, drain }
+  affected { detect-invisible, sense-life, infravision }
+  act { special, aggressive, stay-zone }
+}
+
+27019
+{
+  name { The magician }
+  namelist { human magician }
+  shortdesc { A human magician stands here. }
+  longdesc {
+He appears rather wimpy as far as mages go...probably Fourth House
+at the absolute most.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 500 }
+  gold { 150 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1358 }
+  damage { 1, 4, 1  }
+  act { special, sentinel, stay-zone }
+}
+
+27020
+{
+  name { The Farming Zombie }
+  namelist { zombie farmer }
+  shortdesc { An agricultural zombie vacantly works in the field. }
+  longdesc {
+It has no clue.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 1990 }
+  damage { 2, 4, 1  }
+  resistant { fire, cold }
+  susceptible { pierce, poison, drain }
+  act { sentinel }
+}
+
+27021
+{
+  name { The Zombie Soldier }
+  namelist { zombie soldier }
+  shortdesc { A soldier zombie wander, looking for foes in a war that ended long ago. }
+  longdesc {
+Ah, it seems to recognize you...you must be the enemy!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 40, 2 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 11151 }
+  damage { 2, 4, 4  }
+  resistant { fire, cold }
+  susceptible { pierce, poison, drain }
+  affected { detect-invisible, sense-life }
+  act { aggressive, stay-zone }
+}
+
+27022
+{
+  name { The Sentry zombie }
+  namelist { zombie sentry }
+  shortdesc { An undead Sentry stares alertly off into space. }
+  longdesc {
+It could alertly watch the horizon for days and not notice you standing here.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 88 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  head { 40, 3 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  hp { 4, 88, 510  }
+  move { 300 }
+  experience { 14731 }
+  damage { 2, 6, 4  }
+  resistant { fire, cold }
+  susceptible { pierce, poison, drain }
+  act { sentinel }
+}
+
+27023
+{
+  name { The Guard zombie }
+  namelist { zombie guard }
+  shortdesc { An undead cityguard patrolls here, alert for any signs of life. }
+  longdesc {
+It seems quite animated, really.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 40, 5 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 22554 }
+  damage { 2, 8, 4  }
+  resistant { fire, cold }
+  susceptible { pierce, poison, drain }
+  affected { invisible }
+  act { sentinel, aggressive }
+}
+
+28001
+{
+  name { Chad Jackson, International Recording Artist }
+  namelist { Chad Jackson }
+  shortdesc { Chad Jackson, International Recording Artist is standing here, palming
+  a harmonica }
+  longdesc {
+You see a sturdily-built musician, holding a harmonica in one hand and
+a saxophone slung around his arm.  He says "Can I help you?" as he
+busts out the line "Hear the Drummer get Wicked!" to some nearby
+customers.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 542 }
+  alignment { 1000 }
+  gold { 47500 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -10, 1 }
+  body { -10, 1 }
+  arms { -10, 1 }
+  legs { -10, 1 }
+  feet { -10, 1 }
+  hp { 4, 632, 15635  }
+  move { 300 }
+  experience { 629533 }
+  damage { 5, 20, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel, scavenger }
+}
+
+28002
+{
+  name { Herb the Jeweler }
+  namelist { Herb }
+  shortdesc { Herb the Jeweler is here, waiting to show you his finest jewelry and stones. }
+  longdesc {
+Herb is a small, slightly overweight man dressed in fine middle aged garb.
+You notice rings on every finger, and many golden chains that he wears with
+pride around his neck.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 536 }
+  alignment { 0 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -10, 1 }
+  body { -10, 1 }
+  arms { -10, 1 }
+  legs { -10, 1 }
+  feet { -10, 1 }
+  hp { 4, 536, 12627  }
+  move { 300 }
+  experience { 526212 }
+  damage { 5, 20, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+28003
+{
+  name { Spike Leroy }
+  namelist { Spike Leroy }
+  shortdesc { Spike Leroy is here, shining a piece of fine plate mail armor. }
+  longdesc {
+Spike Leroy, famed adventurer for the ages, has settled down and owns this
+modest armory in the Forrest Landing mall.  He shoots you a toothy grin as
+you enter the store and take inventory of his fine collection of armor.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 656 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 656, 16287  }
+  move { 300 }
+  experience { 645913 }
+  damage { 5, 20, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+28004
+{
+  name { Sam Kitling }
+  namelist { Sam Kitling }
+  shortdesc { Sam Kitling greets you with a fine "Hello!" and offers to show you a sword. }
+  longdesc {
+You see a finely-built man, rough and hardy yet with a pleasant soothing voice.
+Sam greets everyone in the store with a friendly smile and provides the
+best service of any Weapons store around.  "And I don't charge you an arm and
+a leg either, like that Shire blacksmith!"
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 656 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 656, 16287  }
+  move { 300 }
+  experience { 645913 }
+  damage { 5, 20, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+28005
+{
+  name { Norm }
+  namelist { Norm }
+  shortdesc { Norm is here, waiting for your order. }
+  longdesc {
+Norm is your standard, run-of-the-mill teenage fast food worker.  A little
+short on brains and common sense, at least he remembers orders well and won't
+give you a Goblin Burger (tm) if you order a grilled cheese.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 64 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 16 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 4, 64, 398  }
+  move { 300 }
+  experience { 10802 }
+  damage { 1, 5, 2  }
+  act { sentinel }
+}
+
+28006
+{
+  name { Boots Day }
+  namelist { Boots Day }
+  shortdesc { Boots Day is here, showing a nice pair of shoes to a customer. }
+  longdesc {
+Boots Day, ex-Mercenary and gun for hire, has changed his ways.  After a near
+brush with death, Boots reformed his ways and settled down to middle class
+SillyMud life.  Boots and his wife bought a small shoe store and turned it into
+a successful franchise establishment.  Boots' wife can be seen wandering
+the mall from time to time.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 656 }
+  alignment { 150 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -20, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  hp { 4, 656, 16287  }
+  move { 300 }
+  experience { 645913 }
+  damage { 5, 20, 20  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+28007
+{
+  name { Eddy }
+  namelist { Eddy }
+  shortdesc { Eddy the Magician is here, mixing a potion dextrously. }
+  longdesc {
+Eddy is a kind middle-aged magician, wondrously talented in mixing potions.
+So, like any other intelligent magician in this day and age, he's putting
+his talents to their full use -- and making a profit.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 440 }
+  alignment { 350 }
+  gold { 35000 }
+  hit_bonus { 25 }
+  dam_bonus { 18 }
+  attacks_per_round { 1 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 440, 8332  }
+  move { 300 }
+  experience { 430393 }
+  damage { 10, 20, 20  }
+  immune { charm }
+  act { sentinel }
+}
+
+28008
+{
+  name { Forrest Landing Mall Security guard. }
+  namelist { mall security guard }
+  shortdesc { A Forrest Landing Mall Security guard is standing here, eying you suspiciously. }
+  longdesc {
+A standard rent-a-guard Mall Security person.  If it weren't for the steady
+paycheck for this guy's bulk, he might be in the circus.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 12 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 103593 }
+  damage { 2, 5, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone, wimpy }
+}
+
+28009
+{
+  name { Forrest Landing Cleaning Woman }
+  namelist { cleaning woman }
+  shortdesc { A cleaning woman is here, picking up some litter from shoppers. }
+  longdesc {
+The cleaning woman is here, with broom and dustpan, trying to keep the
+Forrest Landing mall somewhat clean.  She is losing her battle.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 850 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1451 }
+  damage { 1, 7, 1  }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+28010
+{
+  name { A crying child }
+  namelist { lost kid }
+  shortdesc { A child is here, crying for his mommy. }
+  longdesc {
+A small child; he is holding a pudding pop, but is lost.  Can you help him
+find his mommy?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 155 }
+  gold { 130 }
+  hit_bonus { 9 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 1, 2  }
+  act { stay-zone }
+}
+
+28011
+{
+  name { Tiffany }
+  namelist { Tiffany }
+  shortdesc { Tiffany is here, singing to the gathered mall teeny-boppers. }
+  longdesc {
+Tiffany is as young, cute and atonal as expected.  This is her latest stop
+on her SillyMud in '92 tour.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -1000 }
+  gold { 150 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1425 }
+  damage { 1, 5, 1  }
+  act { sentinel }
+}
+
+28012
+{
+  name { Mrs. Day }
+  namelist { mrs day wife }
+  shortdesc { Mrs. Day is here, enjoying a little shopping. }
+  longdesc {
+Mrs. Day, the wife of The Bootery's Boots Day, is here spending a little of
+her husband's hard-earned money.  Think twice about crossing her -- she has
+credit cards and knows how to use them!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 400 }
+  gold { 7000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 200, 1100  }
+  move { 300 }
+  experience { 81571 }
+  damage { 2, 5, 15  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+28013
+{
+  name { George, the head of Mall Security }
+  namelist { George head mall security }
+  shortdesc { George, the head of Forrest Landing Mall Security is standing here. }
+  longdesc {
+George, a very muscular man, stands here at the entrance of the Forrest
+Landing Mall, making sure the mall is secure.  He locks up the mall at closing
+time every night, and opens it up the following morning without fail.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 773 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  head { 0, 1 }
+  body { 0, 1 }
+  arms { 0, 1 }
+  legs { 0, 1 }
+  feet { 0, 1 }
+  hp { 4, 773, 18003  }
+  move { 300 }
+  experience { 591070 }
+  damage { 1, 1, 1  }
+  immune { charm }
+  act { sentinel, immortal }
+}
+

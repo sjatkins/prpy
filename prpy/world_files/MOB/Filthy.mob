@@ -1,0 +1,609 @@
+2650
+{
+  name { A fat man }
+  namelist { fat pathetic useless man }
+  shortdesc { A sad, pathetic and fat man stares intently at the glowing box. }
+  longdesc {
+Sitting in a chewed up leather chair behind the desk in the back of the
+basement,  this fat pathectic loser stares entranced at the glowing box
+before him.  He looks so sad that all you want to do is kill him.
+Please make sure to fulfil his wish.  It would make everyone happy.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 175000 }
+  hp { 20, 25, 2925 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { detect-invis, infravision }
+  immune { charm, hold }
+  act { npc, sentinel, stay-zone }
+}
+
+2651
+{
+  name { A singing chef  }
+  namelist { singing chef fat man }
+  shortdesc { A rotund man dances around the kitchen, singing at the top of his lungs. }
+  longdesc {
+The ridiculously fat man dances around the kitchen as he prepares 
+today's meals.  It is obvious that this slob does not miss any meals.  
+He sings and hums a pleasant melody as he adds spices, mixes up 
+liquids and carefully brings prepared food to the main kitchen to cook.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 85000 }
+  hp { 11, 12, 1950 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2652
+{
+  name { A reading teenager  }
+  namelist { reading teenager }
+  shortdesc { A colorfully dressed teenager reads a long parchment on her bed. }
+  longdesc {
+This young teenager is dressed in the most atrocious clothing you have
+ever imagined.  Probably every color of the rainbow is present in her
+attempt at fashion.  She sits peacefully in her bed, reading over a
+long parchment.  Quickly tossing it aside, she rolls over and looks
+out the broken window to the front yard.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 95000 }
+  hp { 10, 11, 2000 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2653
+{
+  name { Snickers  }
+  namelist { dog snickers }
+  shortdesc { A large dog runs across the yard and tries to lick you to death. }
+  longdesc {
+The dog is brown with little, white, faded speckles all over her fur.
+She runs over to you quickly, almost menacingly, but immediately pushes
+you to the ground, lickly you all over.  It is a shame that you have
+kill her rather violently.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 40000 }
+  hp { 8, 9, 1525 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+2654
+{
+  name { Bruno  }
+  namelist { dog Bruno }
+  shortdesc { A big fat dog rolls around on the enormous mattress. }
+  longdesc {
+Easily the biggest dog in the house, he rolls all over the sheets with
+grunts of pleasure.  Bruno is mostly black with little brown patches
+over his face.  He looks up from his activity as you walk into the room
+and beings to pant quietly.  Not recognizing you as a threat he goes
+back to the thrashing of the enormous mattress.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 75000 }
+  hp { 8, 9, 1825 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2655
+{
+  name { Pebbles  }
+  namelist { dog Pebbles }
+  shortdesc { A small dog growls at you from beneath her muzzle. }
+  longdesc {
+She looks at you with almost a human-like intelligence.  A black mesh
+muzzle has been placed over her face to prevent her from biting the
+other dogs.  You can tell that she is the real terror of the house.
+Pebbles begin to growl beneath her muzzle as you traverl deeper into
+her room.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 45000 }
+  hp { 8, 9, 1595 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2656
+{
+  name { Towlie  }
+  namelist { dog towlie }
+  shortdesc { A large dog runs across the yard and barks at you menacingly. }
+  longdesc {
+Stupid and ugly, this dog is not capable of more responses than barking.
+You want to run your weapon through him immediately.  Please kill him
+and get is over with.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 25000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+2657
+{
+  name { Blanket  }
+  namelist { dog Blanket }
+  shortdesc { A good sized dog barks at you relentlessly from the back of the room. }
+  longdesc {
+The dog is a lovely brown, almost mahogany color.  She was quiet until
+you entered her room.  She immediately lets out a relentless barrage of
+baking and howling that nearly causes your ears to burst!  The only
+answer is to kill this animal immediately.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 40000 }
+  hp { 8, 9, 1525 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2658
+{
+  name { Wimpy  }
+  namelist { dog wimpy }
+  shortdesc { A shaking and wimpering dog raises its head and looks at you with sad eyes. }
+  longdesc {
+You have never seen a sadder sight in your life.  The dog shivers,
+shakes and whimpers in the back of the room.  She looks up at you with
+sad eyes and immediately buries her head back into her paws.  Please
+kill her.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 15000 }
+  hp { 8, 9, 725 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2659
+{
+  name { A Dust Monster  }
+  namelist { dust monster }
+  shortdesc { The dust on the floor swirls into a tornado and forms a giant monster. }
+  longdesc {
+The dust along the floor of the room begins to move and shake as you
+move within the mansion.  The dust begins to raise into the air and
+begin to swirl around like a mini tornado.  The dust begins to form
+together into the shape of a giant dust monster!  Its glowing red eyes
+glare at you from within its sockets.  This is probably a good time to
+run.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 130 }
+  experience { 15000 }
+  hp { 8, 9, 725 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2660
+{
+  name { A Killer Sink  }
+  namelist { killer sink kitchen }
+  shortdesc { The kitchen sink rises from the counter with a loud gurgling sound. }
+  longdesc {
+The dishes and pans left in the sink begin to shake and tremble as you
+move further into the kitchen.  A disconcerting gurgling sound, like a
+stuck drain trying to unclog itself, erupts from the center of the sink
+sending out a wave of dirty water.  Yuck!  Some eyes slowly begin to
+open just below the pile of dishes.  Two large arms reach out from
+beneath the sink and pull it from the counter, directly towards you!
+Stop screaming like a girl, it will just make it more hungry.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 130 }
+  experience { 80000 }
+  hp { 8, 9, 1795 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2661
+{
+  name { A Dog Hair Monster  }
+  namelist { dog hair monster }
+  shortdesc { Tufts of dog hair roll across the floor and form a giant monster. }
+  longdesc {
+Small tufts of dog hair start to roll across the floor like tumbleweed
+and begin sticking together in the middle of the room.  The pile of 
+hair grows bigger andbegins to take a humanoid like shape.  Suddendly, 
+the hair tufts stop moving and a giant dog hair monster is standing
+before you.  It does not look happy to see you.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 130 }
+  experience { 12000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2662
+{
+  name { A Filth Monster  }
+  namelist { filth trash monster }
+  shortdesc { Piles of trash and filth fly across the room and form a giant monster. }
+  longdesc {
+The piles of trash and filth begin to fly together like a garbage magnet
+was stuck in the middle of the floor.  It is rather disgusting and smelly
+as its humanoid shape begins to take form.  Red pulsing eyes stare out
+at you from within its head.  The filth monster reaches towards you
+with a moan.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 130 }
+  experience { 18000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2663
+{
+  name { A Filth Monster  }
+  namelist { filth trash monster wandering }
+  shortdesc { Piles of trash and filth fly across the floor and form a giant monster. }
+  longdesc {
+The piles of trash and filth begin to fly together like a garbage magnet
+was stuck in the middle of the floor.  It is rather disgusting and smelly
+as its humanoid shape begins to take form.  Red pulsing eyes stare out
+at you from within its head.  The filth monster reaches towards you
+with a moan.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 130 }
+  experience { 18000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+2664
+{
+  name { A Mail Monster  }
+  namelist { mail bill monster }
+  shortdesc { The unpaid bills begins to rise from the furniture and slowly form a giant monster. }
+  longdesc {
+The scrolls and parchments all over the desks and furniture slowly begin
+to rise and circle around the room.  The papers fly together and fold
+in an origami like manner to form into a humanoid like shape.  Perhaps
+if the home owners paid their bills this would not have happened.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 130 }
+  experience { 25000 }
+  hp { 8, 9, 1111 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+2665
+{
+  name { A disgusting cockroach  }
+  namelist { disgusting cockroach }
+  shortdesc { A huge cockroach walks along the walls of the house. }
+  longdesc {
+Yuck!  A huge brown cockroach runs quickly along the walls of the 
+house.  It stops and wiggles its antenna at you tauntingly.  Does this
+thing want a fight?!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 130 }
+  experience { 5000 }
+  hp { 8, 9, 310 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  act { npc, stay-zone }
+}
+
+2666
+{
+  name { A smelly rat  }
+  namelist { smelly rat }
+  shortdesc { A smelly rat walks across the floor and twitches its nose at you. }
+  longdesc {
+Ugh, nothing says dirty like a nasty and smelly rat.  The rat looks
+almost at home as it wanders along the floor of the mansion.  It quickly
+twitches its nose at you and moves along its way.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 130 }
+  experience { 8000 }
+  hp { 8, 9, 325 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  act { npc, stay-zone }
+}
+
+2667
+{
+  name { A Dog Hair Monster  }
+  namelist { dog hair monster wandering }
+  shortdesc { Tufts of dog hair roll across the floor and form a giant monster. }
+  longdesc {
+Small tufts of dog hair start to roll across the floor like tumbleweed
+and begin sticking together in the middle of the room.  The pile of 
+hair grows bigger andbegins to take a humanoid like shape.  Suddendly, 
+the hair tufts stop moving and a giant dog hair monster is standing
+before you.  It does not look happy to see you.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 130 }
+  experience { 12000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}

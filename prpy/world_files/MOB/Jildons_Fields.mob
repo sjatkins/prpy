@@ -1,0 +1,403 @@
+2600
+{
+   name { a farmland bovine }
+   namelist { bovine farmland }
+   shortdesc { A farmland bovine, unconcerned about the surroundings. }
+   longdesc {
+With its thick and healthy looking hide, this muscular bovine
+stare blindly into the air, concerned about nothing but its own
+well being. Shifting between bright white, and grayish black, the
+creature seem well tended by its handlers. Muscular shaped legs
+keep the cattle standing within its cage for several  hours without
+rest, truly a magnificent creation. A plain metal collar, with a
+number etched into its surface fits tightly around the creature's
+neck, allowing the keeper to identify its cattle.
+   }
+   race { none }
+   level { 35 }
+   alignment { 0 }
+   gold { 0 }
+   hit_bonus { 2 }
+   dam_bonus { 4 }
+   attacks_per_round { 1 }
+   head { 40, 1 }
+   body { 10, 2 }
+   arms { 40, 1 }
+   legs { 20, 1 }
+   feet { 40, 1 }
+   hp { 60, 5, 100  }
+   move { 300 }
+   experience { 3000 }
+   damage { 2, 8, 2  }
+   act { sentinel, stay-zone }
+}
+
+2601
+{
+   name { a fat-looking pig }
+   namelist { pig fat-looking }
+   shortdesc { A dirt-stained pig, searching the ground for food. }
+   longdesc {
+Rumbling around upon the ground, this pig seems well fed. Since
+it's very fat, the creature is having trouble moving around properly.
+The color shifts between pink and pale red, with spots of dirt upon
+its skin. Its tail waves happily high above in the air, not knowing
+its fate. The eyes have been placed deep within the head, with the
+hungry mouth between, always searching for food.
+   }
+   race { none }
+   level { 15 }
+   alignment { 0 }
+   gold { 0 }
+   hit_bonus { 2 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 60, 0 }
+   body { 50, 0 }
+   arms { 60, 0 }
+   legs { 60, 0 }
+   feet { 60, 0 }
+   hp { 8, 12, 10  }
+   move { 100 }
+   experience { 1300 }
+   damage { 3, 3, 1  }
+   act { sentinel, stay-zone, wimpy }
+}
+
+2602
+{
+   name { a draft horse }
+   namelist { horse draft }
+   shortdesc { A heavy-muscled draft horse, waiting for its master. }
+   longdesc {
+Standing proud here, holding its head high, the horse looks impressive.
+Used for heavy work upon the fields, has made this horse more muscled
+than the ordinary riding horse, tended with careful but yet firm hand.
+Muscles seen to move beneath its blackish healthy skin, as it shifts
+position, moving the weight over towards the back legs. A thick brown
+fur surrounds the horse's hooves, an adding protection when riding
+through rough terrain. A burn mark has been set into the creature's
+left side, "Property of Dundred". The horse moves uneasy, willing
+to serve instantly or ready to protect itself fiercely.
+   }
+   race { none }
+   level { 38 }
+   alignment { 0 }
+   gold { 0 }
+   hit_bonus { 2 }
+   dam_bonus { 4 }
+   attacks_per_round { 1 }
+   head { 50, 0 }
+   body { 20, 1 }
+   arms { 50, 0 }
+   legs { 40, 1 }
+   feet { 20, 1 }
+   hp { 55, 5, 65  }
+   move { 300 }
+   experience { 4200 }
+   damage { 2, 9, 5  }
+   act { sentinel, stay-zone }
+}
+
+2603
+{
+   name { a fierce dog }
+   namelist { dog fierce }
+   shortdesc { A skinny dog, growling dangerously. }
+   longdesc {
+During the years, this guard dog has received several nasty-looking
+scars, defending its keeper's farmstead or properties. Shifting
+between deep black, and light brown in color, the dog seem capable
+of defending itself quite well, with a set of sharp teeth visibly
+sticking out. Its hair-crowned ears lean backwards when someone
+unknown approaches, otherwise standing up, listening for sounds
+of trouble. The dog seems lanky from too little food, bones lie
+visible through the skin here and there. A fierce opponent, the dog
+keeps a constant eye on the surroundings.
+   }
+   race { none }
+   level { 32 }
+   alignment { 0 }
+   gold { 0 }
+   hit_bonus { 3 }
+   dam_bonus { 3 }
+   attacks_per_round { 2 }
+   head { 80, 0 }
+   body { 80, 0 }
+   arms { 80, 0 }
+   legs { 80, 0 }
+   feet { 60, 0 }
+   hp { 35, 4, 40  }
+   move { 500 }
+   experience { 3800 }
+   damage { 2, 4, 4  }
+   act { stay-zone }
+}
+
+2604
+{
+   name { a family dog }
+   namelist { dog family }
+   shortdesc { A rabis-infested dog, growling dangerously. }
+   longdesc {
+Shifting between deep black, and deep brown in color, the dog
+seem capable of defending itself quite well, with a set of sharp
+teeth visible sticking out, traces of saliva runs down its lips.
+Its hair-crowned ears lean backwards when someone approaches,
+always listening for sounds of trouble. Bones almost ready to burst
+out through the skin, eyes have drawn back deep into its head, making
+it appear unfriendly. Unclean and uncut claws stick out from the paws,
+ready to strike its unfortunate victim.
+   }
+   race { none }
+   level { 45 }
+   alignment { 0 }
+   gold { 0 }
+   hit_bonus { 1 }
+   dam_bonus { 3 }
+   attacks_per_round { 2 }
+   head { 80, 0 }
+   body { 80, 0 }
+   arms { 80, 0 }
+   legs { 80, 0 }
+   feet { 80, 0 }
+   hp { 55, 4, 60 }
+   move { 200 }
+   experience { 6000 }
+   damage { 2, 6, 4  }
+   act { sentinel, stay-zone, aggressive }
+}
+
+2605
+{
+   name { the elder farmer }
+   namelist { farmer elder }
+   shortdesc { A tired-looking farmer considers your presence. }
+   longdesc {
+The tired eyes make this man's age hard to determine. He stands
+high among most men, with broad shoulders, and big hands, gained
+from years of heavy work upon the fields and cattle handling.
+A thin, almost invisible scar stains this once beautiful man's face,
+running from his forehead, towards his lower lip. His hair, black
+as coal, flows down past his shoulders, neatly collected in a tight
+held ponytail. His pale-blue eyes are placed close to each other,
+and quite far into his face, giving him a primitive look.
+   }
+   race { human }
+   level { 35 }
+   alignment { 100 }
+   gold { 150 }
+   hit_bonus { 2 }
+   dam_bonus { 3 }
+   attacks_per_round { 1 }
+   head { 50, 0 }
+   body { 50, 1 }
+   arms { 50, 0 }
+   legs { 50, 1 }
+   feet { 50, 0 }
+   hp { 42, 8, 42 }
+   move { 300 }
+   experience { 4000 }
+   damage { 1, 8, 6  }
+   act { stay-zone }
+}
+
+2606
+{
+   name { the young farmer }
+   namelist { child farmer }
+   shortdesc { A young farmer child, eyeing you carefully. }
+   longdesc {
+This young child seem ready to perform small pranks whenever
+possible. Short blond hair, and bright blue eyes, this child
+could be around his tenth year. Short, chubby legs and thin
+arms, the boy hasn't been forced to do any heavy bodywork yet,
+but will surely grow with time. Constantly in movement,
+he seems to have a hard time to relax, he rushes back and forth,
+looking for something, or someone to play with.
+   }
+   race { human }
+   level { 15 }
+   alignment { 500 }
+   gold { 10 }
+   hit_bonus { 1 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 80, 0 }
+   body { 80, 0 }
+   arms { 80, 0 }
+   legs { 80, 0 }
+   feet { 80, 0 }
+   hp { 20, 8, 15 }
+   move { 300 }
+   experience { 2000 }
+   damage { 1, 3, 2  }
+   act { stay-zone, wimpy, sentinel }
+}
+
+2607
+{
+   name { the mistress farmer }
+   namelist { mistress farmer }
+   shortdesc { A flour-stained mistress of the household. }
+   longdesc {
+A friendly face, with traces of flour upon it, this mistress
+emits a welcoming and friendly feeling. She is quite large,
+her skin soft as silk, the only thing not stained with the
+signs of age. She misses a few teeth, visible within her
+thick red lips. Her silver-colored hair is kept in a neat
+ellipse-shape upon  her head, kept in position by several
+hair-needles. Her deep brown eyes watch the surroundings,
+looking for someone to fed.
+   }
+   race { human }
+   level { 25 }
+   alignment { 800 }
+   gold { 80 }
+   hit_bonus { 2 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 60, 0 }
+   body { 60, 1 }
+   arms { 60, 0 }
+   legs { 60, 0 }
+   feet { 60, 0 }
+   hp { 50, 8, 50 }
+   move { 300 }
+   experience { 2800 }
+   damage { 1, 6, 5  }
+   act { stay-zone, sentinel }
+}
+
+2608
+{
+   name { the lady farmer }
+   namelist { lady farmer }
+   shortdesc { A beautiful farmer lady, lost in thoughts. }
+   longdesc {
+A beauty, with smooth silk-like skin, dark-green eyes and flowing
+blond hair, running far down beneath her waist. Well-shaped and
+untouched innocent hands, with long fingers, edged off by neatly
+trimmed fingernails, this lady could easily be a princess in anyone's
+court. Her eyebrows have taken on a deep black color, giving a perfect
+contrast against her pale-white skin. Her look is intense as fire,
+causing most men to turn away, blushing, the lady of family Ember
+stands out above most women.
+   }
+   race { human }
+   level { 25 }
+   alignment { 800 }
+   gold { 80 }
+   hit_bonus { 2 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 60, 0 }
+   body { 60, 1 }
+   arms { 60, 0 }
+   legs { 60, 0 }
+   feet { 60, 0 }
+   hp { 45, 8, 35 }
+   move { 300 }
+   experience { 2500 }
+   damage { 1, 5, 6  }
+   act { stay-zone, sentinel }
+}
+
+2609
+{
+   name { the farmer boy }
+   namelist { boy farmer }
+   shortdesc { A well-fed child, staring into the air. }
+   longdesc {
+Everything about this young man seem to be a mess, his hair is
+standing out into all directions, small spots of dirt visible
+upon his face, and small unhealed bruises here and there upon
+his body. His brown eyes peer out into the air, searching for
+something undetectable, he seems to wander in his own world.
+He's quite fat for his age, chubby short legs slowly making their
+way towards its next goal.
+   }
+   race { human }
+   level { 10 }
+   alignment { 400 }
+   gold { 5 }
+   hit_bonus { 1 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 80, 0 }
+   body { 80, 0 }
+   arms { 80, 0 }
+   legs { 80, 0 }
+   feet { 80, 0 }
+   hp { 20, 8, 15 }
+   move { 300 }
+   experience { 1866 }
+   damage { 1, 3, 2  }
+   act { stay-zone, wimpy, sentinel }
+}
+
+2610
+{
+   name { the farmer daughter }
+   namelist { daughter farmer }
+   shortdesc { A polite-looking girl, scanning the area. }
+   longdesc {
+Slightly above the age of 15, this girl has adopted fully to
+her country position. She's quite sturdy for a girl in her age,
+with thick underarms, which easily could belong to a man in her
+age. Her face remains very female, with rosy skin, looking almost
+stretched out towards the sides of her face. Her nose, slightly
+red a quite large, positioned in the very middle, with two deep
+blue eyes on each side.
+   }
+   race { human }
+   level { 12 }
+   alignment { 500 }
+   gold { 15 }
+   hit_bonus { 1 }
+   dam_bonus { 1 }
+   attacks_per_round { 1 }
+   head { 80, 0 }
+   body { 80, 0 }
+   arms { 80, 0 }
+   legs { 80, 0 }
+   feet { 80, 0 }
+   hp { 20, 9, 15 }
+   move { 300 }
+   experience { 1866 }
+   damage { 1, 3, 5  }
+   act { stay-zone, wimpy }
+}
+
+2611
+{
+   name { the farmer father }
+   namelist { father farmer }
+   shortdesc { A tired-looking farmer son considers your presence. }
+   longdesc {
+Before you stands a hairy old man, skinny but yet muscular. Several
+scars cover his worn-out hands, running across the skin in
+unidentified figures. His hair, brightly white, kept short,
+with a hairless area just on top of his head. Icy-blue eyes
+with bushy white eyebrows above them, constantly keep a watching
+eye at the surroundings. Several wrinkles stains his wise face, a
+certain sign of knowledge.
+   }
+   race { human }
+   level { 45 }
+   alignment { 800 }
+   gold { 250 }
+   hit_bonus { 2 }
+   dam_bonus { 3 }
+   attacks_per_round { 1 }
+   head { 50, 0 }
+   body { 50, 1 }
+   arms { 50, 0 }
+   legs { 50, 1 }
+   feet { 50, 0 }
+   hp { 42, 8, 42 }
+   move { 300 }
+   experience { 4200 }
+   damage { 1, 8, 8  }
+   act { stay-zone, sentinel }
+}

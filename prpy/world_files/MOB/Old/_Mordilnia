@@ -1,0 +1,790 @@
+18200
+{
+  name { Emilither }
+  namelist { emilither }
+  shortdesc { Emilither paces the room, trying to remember what he's brewing. }
+  longdesc {
+Emilither is a stately old Mage, garbed in mouse-colored robes, and the
+tattered remnants of a graying beard.  His puzzled expression is that of
+undiscovered bewilderment.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 464 }
+  alignment { 1000 }
+  gold { 35000 }
+  hit_bonus { 25 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 464, 9011  }
+  move { 300 }
+  experience { 516471 }
+  damage { 3, 8, 8  }
+  immune { charm }
+  resistant { electricity }
+  act { special, sentinel }
+}
+
+18201
+{
+  name { Belmirek }
+  namelist { belmirek jeweller }
+  shortdesc { Belmirek the Jeweller stands here, appraising you with his beady eyes. }
+  longdesc {
+He looks like a fink.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 696 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 696, 16874  }
+  move { 300 }
+  experience { 701046 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18202
+{
+  name { Heimslan }
+  namelist { heimslan }
+  shortdesc { Heimslan stands at the counter, taking inventory. }
+  longdesc {
+A tall, brooding man.  He looks around, then smiles at you.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 696 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 696, 16874  }
+  move { 300 }
+  experience { 701046 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18203
+{
+  name { Damathar }
+  namelist { damathar }
+  shortdesc { Damathar the Blacksmith is standing here. }
+  longdesc {
+Damathar is a man of great muscular strength; ideal for his work of forging
+metals.  His long, fiery red hair falls over one eye as he peers at you,
+inspecting your manner.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 696 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -60, 0 }
+  body { -60, 0 }
+  arms { -60, 0 }
+  legs { -60, 0 }
+  feet { -60, 0 }
+  hp { 4, 696, 16874  }
+  move { 300 }
+  experience { 701046 }
+  damage { 5, 5, 7  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18204
+{
+  name { Syrathen }
+  namelist { syrathen }
+  shortdesc { Syrathen the Healer stands here. }
+  longdesc {
+You see before you a young, bright cleric.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 696 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 22 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 696, 16874  }
+  move { 300 }
+  experience { 672778 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18205
+{
+  name { Illyari }
+  namelist { illyari innkeeper }
+  shortdesc { Illyari sits here, at a desk.  She appears to be filing papers. }
+  longdesc {
+   Illyari is a small, elven maiden.  Her long, dark hair seems to
+flow down her shoulders.  Best not to look too long, as she may become
+offended, and unpredictable.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 759 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 759, 17798  }
+  move { 300 }
+  experience { 762268 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { fire, electricity }
+  act { sentinel }
+}
+
+18206
+{
+  name { the Guildmaster }
+  namelist { guildmaster master }
+  shortdesc { Your guildmaster is standing here. }
+  longdesc {
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she posesses. She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 280, 2640  }
+  move { 300 }
+  experience { 323899 }
+  damage { 5, 5, 3  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { fire, electricity }
+  act { special, sentinel }
+}
+
+18207
+{
+  name { the Guildmaster }
+  namelist { guildmaster master }
+  shortdesc { Your guildmaster is standing here. }
+  longdesc {
+You are in no doubt that this guildmaster is truly close to your god; he has
+a peaceful, loving look. You notice that he is surrounded by a white aura.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 280, 2640  }
+  move { 300 }
+  experience { 362145 }
+  damage { 5, 5, 4  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  affected { sanctuary }
+  act { special, sentinel }
+}
+
+18208
+{
+  name { the Guildmaster }
+  namelist { guildmaster master }
+  shortdesc { Your guildmaster is standing here. }
+  longdesc {
+You realize that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief. She is dressed in poor clothing, having
+the appearance of a beggar.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 3 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 280, 2640  }
+  move { 300 }
+  experience { 345412 }
+  damage { 5, 5, 4  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { fire, electricity }
+  act { special, sentinel }
+}
+
+18209
+{
+  name { the Guildmaster }
+  namelist { guildmaster master }
+  shortdesc { Your guildmaster is standing here. }
+  longdesc {
+This is your master. Big and strong with bulging muscles. Several scars
+across his body proves that he was using arms before you were born. He
+has a calm look on his face.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 312 }
+  alignment { 1000 }
+  gold { 22500 }
+  hit_bonus { 30 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 312, 3856  }
+  move { 300 }
+  experience { 392899 }
+  damage { 5, 5, 2  }
+  immune { fire, cold, electricity, energy, charm }
+  resistant { electricity }
+  act { special, sentinel }
+}
+
+18210
+{
+  name { Shazilmira }
+  namelist { shazilmira }
+  shortdesc { Shazilmira the Master Wizard is guarding the entrance. }
+  longdesc {
+He is an experienced mage who has specialized in the field of Combat Magic.
+He is here to guard the Mage's Guild and his superior knowledge of offensive as
+well as defensive spells make him a deadly opponent.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 800 }
+  gold { 27500 }
+  hit_bonus { 28 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 4, 352, 5376  }
+  move { 300 }
+  experience { 434431 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18211
+{
+  name { Grenath }
+  namelist { grenath }
+  shortdesc { Grenath the High Priest is guarding the entrance. }
+  longdesc {
+He is a specially trained warrior belonging to the military order of the Faith.
+His duty is to protect the faithful from persecution and infidel attacks and
+his religious devotion combined with his superior skill makes him a deadly
+opponent.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 288 }
+  alignment { 800 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  head { 60, 11 }
+  body { 60, 11 }
+  arms { 60, 11 }
+  legs { 60, 11 }
+  feet { 60, 11 }
+  hp { 4, 288, 2944  }
+  move { 300 }
+  experience { 314163 }
+  damage { 5, 5, 8  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18212
+{
+  name { Hyiastrin }
+  namelist { hyiastrin }
+  shortdesc { Hyiastrin the Master Thief is guarding the entrance. }
+  longdesc {
+He is a thief who has specialized in killing others as effectively as possible,
+using all sorts of weapons.  His superior knowledge of how and where to use
+them combined with his extraordinary stealth makes him a deadly opponent.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 240 }
+  alignment { 800 }
+  gold { 13000 }
+  hit_bonus { 30 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { 20, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  hp { 4, 240, 1820  }
+  move { 300 }
+  experience { 219059 }
+  damage { 5, 5, 14  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18213
+{
+  name { Melchar }
+  namelist { melchar }
+  shortdesc { Melchar the Human Lord is guarding the entrance. }
+  longdesc {
+He is an expert warrior who has attained knighthood through countless
+chivalrous deeds.  His duty is to protect the Guild of Warriors and his
+extreme skill combined with his experience in warfare makes him a deadly
+opponent.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 288 }
+  alignment { 800 }
+  gold { 20000 }
+  hit_bonus { 29 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  head { 60, 11 }
+  body { 60, 11 }
+  arms { 60, 11 }
+  legs { 60, 11 }
+  feet { 60, 11 }
+  hp { 4, 288, 2944  }
+  move { 300 }
+  experience { 323980 }
+  damage { 5, 5, 14  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18214
+{
+  name { Adair }
+  namelist { adair }
+  shortdesc { Adair Bladebreakers stands behind the bar, mixing drinks. }
+  longdesc {
+A longtime Mercenary, Adair Bladebreakers has retired to a good life
+as owner and barkeeper of Der Ratskeller's Bar and Grille.  He is of
+medium height, of stocky build, and has long, black hair.  His left
+eye is obscured by an ornate red eyepatch.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 900 }
+  gold { 22500 }
+  hit_bonus { 18 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { 20, 12 }
+  body { 20, 12 }
+  arms { 20, 12 }
+  legs { 20, 12 }
+  feet { 20, 12 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 299822 }
+  damage { 5, 5, 3  }
+  immune { charm }
+  resistant { electricity }
+  act { sentinel }
+}
+
+18215
+{
+  name { the City Patrolman }
+  namelist { patrolman guard }
+  shortdesc { A City Patrolguard stands here, watching for trouble. }
+  longdesc {
+You see a well-trained soldier of the peace.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 160 }
+  alignment { 1000 }
+  gold { 3200 }
+  hit_bonus { 10 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 90, 6 }
+  body { 90, 6 }
+  arms { 90, 6 }
+  legs { 90, 6 }
+  feet { 90, 6 }
+  hp { 4, 160, 620  }
+  move { 300 }
+  experience { 27580 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { special, stay-zone, wimpy }
+}
+
+18216
+{
+  name { the Streetsweeper }
+  namelist { streetsweeper janitor }
+  shortdesc { A streetsweeper is walking around, sweeping the streets. }
+  longdesc {
+He has a look of pure bored content on his face..
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 900 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 7, 1  }
+  act { special }
+}
+
+18217
+{
+  name { the rabid cur dog }
+  namelist { dog rabid cur }
+  shortdesc { A cur dog is here, foaming at the mouth. }
+  longdesc {
+Perhaps you should stay away from it?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -200 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { special, aggressive, wimpy }
+}
+
+18218
+{
+  name { the Gladiator }
+  namelist { gladiator }
+  shortdesc { A Gladiator stands here, taking a break from the arena. }
+  longdesc {
+He looks pretty scarred to you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { -200 }
+  gold { 150 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1458 }
+  damage { 1, 6, 1  }
+  act { scavenger }
+}
+
+18219
+{
+  name { the Citizen }
+  namelist { citizen }
+  shortdesc { A wandering citizen is standing here.. }
+  longdesc {
+Nothing spectacular here....
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 400 }
+  gold { 130 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 833 }
+  damage { 1, 6, 1  }
+}
+
+18220
+{
+  name { the Pauper }
+  namelist { pauper }
+  shortdesc { A pauper is here, bedraggled and filthy. }
+  longdesc {
+The pauper looks like she has never eaten in her life.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 400 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+  act { sentinel }
+}
+
+18221
+{
+  name { Sylira }
+  namelist { sylira }
+  shortdesc { Sylira the Swordpupil is standing here. }
+  longdesc {
+You see nothing special about her...but she does have an evil glint in her
+eye...
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { -200 }
+  gold { 130 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 822 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { special, aggressive, wimpy }
+}
+
+18222
+{
+  name { the Gateguard }
+  namelist { gateguard guard }
+  shortdesc { A gateguard stands here, alertly doing his job. }
+  longdesc {
+A hulking, armor-encrusted guard.  He has a look of helpfulness about
+him.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 1000 }
+  gold { 2500 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { 80, 5 }
+  body { 80, 5 }
+  arms { 80, 5 }
+  legs { 80, 5 }
+  feet { 80, 5 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 23842 }
+  damage { 1, 8, 1  }
+  act { special, sentinel, stay-zone }
+}
+
+18223
+{
+  name { the City Watchman }
+  namelist { watchman guard }
+  shortdesc { A City Watchman is here, patrolling the area. }
+  longdesc {
+You see a large, dark-mooded guard of the Watch standing before you,
+glancing in various directions for lawbreakers of every sort.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 288 }
+  alignment { 1000 }
+  gold { 20000 }
+  hit_bonus { 19 }
+  dam_bonus { 14 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 288, 2944  }
+  move { 300 }
+  experience { 279801 }
+  damage { 1, 8, 8  }
+  immune { charm }
+  act { special }
+}
+
+18224
+{
+  name { the evil rogue }
+  namelist { evil rogue }
+  shortdesc { An evil-looking rogue crouches here in the shadows. }
+  longdesc {
+He is a scruffy-looking character, with a nasty scar on his face.  His
+clothes are all black, and he carries an assortment of knives with him.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 121 }
+  alignment { -100 }
+  gold { 2500 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 20, 4 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  hp { 4, 120, 600  }
+  move { 300 }
+  experience { 21340 }
+  damage { 1, 4, 5  }
+  affected { detect-invisible, sneak }
+  act { sentinel, aggressive, stay-zone }
+}
+

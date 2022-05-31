@@ -1,0 +1,552 @@
+26500
+{
+  name { a horned worm }
+  namelist { horned worm }
+  shortdesc { A large worm swims through the sand and right towards you. }
+  longdesc {
+A tan brown worm is about he size of large horse.  A sharp beak opens
+in a scream from the worm's mouth.  It swims and jumps through the sand
+with amazing ease.  There are long, sharp horns growing all down its
+back.  The worm quickly starts to swim towards you when it realizes you
+are stuck in its home.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 190 }
+  experience { 170000 }
+  hp { 20, 25, 3125 }
+  alignment { 0 }
+  caster { 15 }
+  mana { 200 }
+  power { 200 }
+  gold { 2500 }
+  hit_bonus { 18 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 4 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { true-sight, infravision }
+  spells { poison }
+  immune { charm, hold }
+  resistant { pierce, slash, fire }
+  susceptible { blunt, cold }
+  act { npc, aggressive, scavenger, stay-zone }
+}
+
+26501
+{
+  name { a large rattlesnake }
+  namelist { large rattlesnake }
+  shortdesc { A large rattlesnake is coiled in a pile, shaking its tail. }
+  longdesc {
+*RATTLE*RATTLE*RATTLE*  The large tan snake with green diamonds running
+along its thick body shakes its tail at you menacingly.  Coiled and
+ready the pounce, the rattlesnake stares at you with a hungry look in
+its eyes. *RATTLE*RATTLE*RATTLE*
+  }
+  race { None }
+  world_limit { 2 }
+  level { 22 }
+  experience { 2210 }
+  hp { 5, 8, 130 }
+  caster { 10 }
+  mana { 100 }
+  power { 100 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  spells { poison }
+  immune { charm }
+  resistant { pierce, cold }
+  susceptible { fire, electricity }
+  act { npc, aggressive, scavenger, stay-zone }
+}
+
+26502
+{
+  name { a black vulture }
+  namelist { black vulture }
+  shortdesc { A black vulture with a long white neck flies over head. }
+  longdesc {
+The vulture circles high above the plains.  It is probaby looking for
+something to eat.  It has a fat black feathered body with a white 
+feathery collar.  It squacks at you impatiently, waiting for you to die.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  resistant { pierce }
+  act { npc, stay-zone }
+}
+
+26503
+{
+  name { A brown bison  }
+  namelist { brown bison }
+  shortdesc { A large and furry bison roams the plains, looking for food. }
+  longdesc {
+The bison is very large considering there is no noticable water source
+for miles.  Its shiny brown coat glistens under the relentless light
+from the sun.  Bending its head down, it chews up some grass and begins
+to munch contently.  The mighty beast does not seem to have a worry in
+the world.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 2 }
+  level { 130 }
+  experience { 91000 }
+  hp { 15, 16, 1950 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash, blunt, cold }
+  susceptible { fire, pierce }
+  act { npc, scavenger, stay-zone }
+}
+
+26504
+{
+  name { a plains mouse }
+  namelist { plains mouse }
+  shortdesc { A small plains mouse scurries out from beneath a rock and over your feet. }
+  longdesc {
+A small brown mouse cutely scurries out from beneath a rock and looks
+up at you innocently.  It twitches its nose back and forth, quickly
+deciding that it needs to run over your shoes and in the other
+direction.  What a weird little creature.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 10 }
+  experience { 600 }
+  hp { 4, 6, 50 }
+  alignment { 0 }
+  gold { 65 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  resistant { pierce }
+  susceptible { blunt, fire }
+  act { npc, scavenger, stay-zone }
+}
+
+26505
+{
+  name { an elder black dragon }
+  namelist { black dragon elder }
+  shortdesc { An elder black dragon hovers menacingly in the air. }
+  longdesc {
+The black dragon's scales seem to suck in all the sunlight.  The suns
+incandesence is almost eclipsed by this monsters very being.  A
+bubbling, smelly liquid drips from the dragon's mouth and lands with
+a hiss, burning through the floor.  The dragon's ruby red eyes stare
+through you as though you are not even there.  It roars with a terrible
+scream and dives at you to attack.
+  }
+  race { Dragon }
+  sex { Male }
+  world_limit { 1 }
+  level { 550 }
+  experience { 535600 }
+  hp { 26, 18, 4725 }
+  alignment { 0 }
+  gold { 7500 }
+  caster { 15 }
+  mana { 400 }
+  power { 400 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { true-sight, flying }
+  spells { colour spray, poison, lightning bolt }
+  immune { charm, hold, backstab }
+  resistant { pierce, slash, energy, fire, cold }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, scavenger, stay-zone }
+}
+
+26506
+{
+  name { A stranded grizzly bear  }
+  namelist { stranded grizzly bear }
+  shortdesc { A moaning and yelping grizzly bear tries to escape the sand. }
+  longdesc {
+The black grizzly bear fights for its life to escape the sand pit.  It
+moans and yelps in frustation as it sinks deeper into the center of the
+pit.  You can tell that the bear is worn down and ready to give into
+the sands.  What can it be trying to escape from?
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 87000 }
+  hp { 15, 15, 1850 }
+  alignment { 0 }
+  gold { 950 }
+  hit_bonus { 13 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26507
+{
+  name { A trapped orc  }
+  namelist { trapped orc }
+  shortdesc { A large orc struggles for its life to escape from the sand pit. }
+  longdesc {
+Screaming in orcish tongue the large orc struggles for its life to escape
+the sand pit.  The orc is dressed in standard armor for a scout but it
+is probably weighing him down.  He claws and treads his way up the
+sandy embankment but the twisting tide continues to drag him into the
+center.  What is he so scared of?
+  }
+  race { Orc }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 95000 }
+  hp { 10, 15, 1960 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26508
+{
+  name { A white and gray bird }
+  namelist { white gray bird }
+  shortdesc { A white and gray colord bird flies through the forest. }
+  longdesc {
+A small white bird with brown wings sits picking through some underbrush.
+It quickly sticks its beak straight up in the air and reveals that its
+searching wasn't for naught.  A plump, pink earthworm dangles out of
+its beak.  It gulps down its prize and quickly flies away.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 3 }
+  level { 64 }
+  experience { 9900 }
+  hp { 10, 15, 500 }
+  alignment { 0 }
+  gold { 375 }
+  hit_bonus { 11 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26509
+{
+  name { A white speckled deer }
+  namelist { white speckled deer }
+  shortdesc { A brown and white speckled deer nibbles on some leaves. }
+  longdesc {
+Long, branched horns stick out from the bucks head.  He has brown fur
+with white spots all along his side.  His head shoots up, possibly
+noticing your presence.  His strong jaw continues to munch on his lunch
+as he looks around for signs of trouble.  Seemingly finding some, he
+quickly hops away, deeper into the forest.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 3 }
+  level { 90 }
+  experience { 15000 }
+  hp { 12, 15, 775 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 4, 4 }
+  head { 30, 5 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26510
+{
+  name { A fearsome grizzly bear  }
+  namelist { fearsome grizzly bear }
+  shortdesc { A fearsome looking grizzly bear roars with all his might. }
+  longdesc {
+Peeking around some trees, you can see the black grizzly bear picking
+through the remains of a recent kill.  His frame is massive, easily
+the size of an extra large human.  He licks his chops, slopping up the
+last bits of his dinner.  Sniffing in the air, he begins to let out a 
+low growl and turns his mighty head in your direction.  You freeze,
+shifting some of the underbrush beneath you.  Reacting to the sudden
+noise, the bear runs at you with full speed, teeth bared.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 3 }
+  level { 130 }
+  experience { 89000 }
+  hp { 15, 15, 1850 }
+  alignment { 0 }
+  gold { 950 }
+  hit_bonus { 13 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, aggressive, sentinel, scavenger, stay-zone }
+}
+
+26511
+{
+  name { a ranger lizard }
+  namelist { ranger lizard }
+  shortdesc { A cloaked lizard is carefully watching the farm to the north. }
+  longdesc {
+The ranger glares and watches the farm to the north very carefully from 
+behind a thick tree.  It is covered in a full length gray cloak that 
+almost perfectly blends into the darkness of the shade.  Suddenly the
+lizard disappears from sight.  There are no tracks or signs of the
+lizards where abouts.  A piercing pressure comes sharply and quickly
+from your neck.  Looking as far back as you can, you can see a large
+reptilian arm holding the weapon.  A low hiss whispers in your ear,
+"Don't you even think of coming to the swamps.  Your kind is not welcome
+there.".  Without so much as a sound the lizard is gone.  It's almost 
+as if he was never there.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 45 }
+  experience { 4500 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 350 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 7 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  resistant { slash }
+  susceptible { pierce, fire }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26512
+{
+  name { a yellow billed woodpecker }
+  namelist { yellow billed woodpecker }
+  shortdesc { A tiny yellow billed woodpecker drills its beak into a tree. }
+  longdesc {
+The woodpecker has a yellow head and neck with a brown body.  It clings
+to a tree with its feet and drills its beak into it.  It drills and
+drills until it digs out a hole worth crawling into.  Finally, all that
+pecking will stop.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  resistant { pierce }
+  act { npc, sentinel, stay-zone }
+}
+
+26513
+{
+  name { A wounded brown bison  }
+  namelist { wounded brown bison }
+  shortdesc { A large and furry bison screams in pain as a grizzly tears it apart. }
+  longdesc {
+This poor creature has been torn to shreds.  Somehow he is still able
+to wail in pain, even though you are positive that those are his lungs 
+laying on the ground.  His legs kick back and forth in reflex as the
+large gizzly bear tears into its side.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 91000 }
+  hp { 15, 16, 1950 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  resistant { slash, blunt, cold }
+  susceptible { fire, pierce }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+26514
+{
+  name { A bloody grizzly bear  }
+  namelist { bloody grizzly bear }
+  shortdesc { A blood drenched grizzly bear rips into a screaming bison. }
+  longdesc {
+Frenzied and in blood lust, the gigantic black grizzly bear claws and
+bites his way into his fresh kill.  The bear does not seem to notice
+you with all his attention towards his latest meal.  He must not get
+to eat like this very often.  His entire head is soaked in the bison's
+blood and gore.  He stops and begins to sniff the air.  The large
+creature must sense his next meal.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 130 }
+  experience { 87000 }
+  hp { 15, 15, 1850 }
+  alignment { 0 }
+  gold { 950 }
+  hit_bonus { 13 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { true-sight }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, scavenger, stay-zone }
+}

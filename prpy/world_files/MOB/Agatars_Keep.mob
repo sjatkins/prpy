@@ -1,0 +1,517 @@
+2201
+{
+  name { a warrior monk of Agatar }
+  namelist { warrior monk agatar }
+  shortdesc { A well built white clad figure stands silently nearby. }
+  longdesc {
+A strongly built figure stands before you.  The well spun woolen
+cloth falls tightly across his prominent muscles.  His biceps ripple
+as he grips his longsword in his hands.  His eyes stare out in the
+distance as if there is more to this world than just what you can see.
+  }
+  race { Human }
+  sex { male }
+  level { 60 }
+  experience { 32818 }
+  hp { 3,37,623 }
+  gold { 2900 }
+  move { 500 }
+  mana { 1000 }
+  power { 1000 }
+  height { 160 }
+  weight { 160 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  alignment { 725 }
+  caster { 20 }
+  attacks_per_round { 2 }
+  damage { 4, 8, 1 }
+    head { 15, 7 }
+    body { 15, 0 }
+    arms { 15, 7 }
+    legs { 15, 7 }
+    feet { 15, 7 }
+    immune { charm, drain, hold }
+    resistant { poison, sleep }
+    act { stay-zone }
+    affected { detect-evil, sanctuary }
+    spells { sleep }
+}
+
+2202
+{
+  name { a cleric from Agatar's Order }
+  namelist { cleric agatar's order }
+  shortdesc { A cleric from Agatar's Order is standing here. }
+  longdesc {
+The cleric is busily mumbling.  The white cloth hangs gracefully
+from the shoulders and hides the feet from view.  It looks as if
+the cleric is moving on air and maybe it is true for the eyes are
+old and deep, a deep sky blue with a sea blue instead of a black
+iris....
+  }
+  race { Human }
+  level { 53 }
+  experience { 29171 }
+  gold { 3300 }
+  hp { 3, 34, 604 }
+  move { 500 }
+  mana { 1000 }
+  power { 1000 }
+  height { 130 }
+  weight { 130 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  alignment { 750 }
+  caster { 20 }
+  damage { 1, 50, 10 }
+attacks_per_round { 1 }
+  head { 13, 6 }
+    body { 13, 0 }
+    arms { 13, 6 }
+    legs { 13, 6 }
+    feet { 13, 6 }
+    immune { charm, drain, hold }
+    resistant { poison, sleep }
+    act { stay-zone }
+    affected { detect-evil, detect-magic, sanctuary }
+    spells { sleep, curse, cause serious }
+}
+
+2203
+{
+  name { a guardian warrior }
+  namelist { warrior guardian agatar }
+  shortdesc { A well built white clad figure stands silently nearby. }
+  longdesc {
+A strongly built figure stands before you.  The well spun woolen
+cloth falls tightly across his prominent muscles.  His biceps ripple
+as he grips his longsword in his hands.  His eyes stare out in the
+distance as if there is more to this world than just what you can see.
+  }
+  race { Human }
+  sex { male }
+  level { 60 }
+  experience { 30607 }
+  gold { 4000 }
+  hp { 3,37,657 }
+  move { 500 }
+  mana { 1000 }
+  power { 1000 }
+  height { 160 }
+  weight { 160 }
+  hit_bonus { 12 }
+  dam_bonus { 12 }
+  alignment { 750 }
+  caster { 10 }
+  attacks_per_round { 2 }
+  damage { 4, 8, 1 }
+   head { 15, 7 }
+    body { 15, 0 }
+    arms { 15, 7 }
+    legs { 15, 7 }
+    feet { 15, 7 }
+    immune { charm, drain, hold }
+    resistant { poison, sleep }
+    act { sentinel, stay-zone }
+    affected { detect-evil, sanctuary }
+    spells { sleep }
+}
+
+2204
+{
+  name { The Abbot of Agatar }
+  namelist { abbot of agatar }
+  shortdesc { The Abbot of Agatar is standing here, smiling peacefully at you. }
+  longdesc {
+The Abbot is a friendly looking character who could do with a few 
+more meals.  He's lean and gaunt but the smile encompasses you
+with a welcoming warmth.  The eyes are strangely blue on blue
+and his hands are not those of a simple cleric.
+  }
+  race { Human }
+  sex { male }
+  gold { 9300 }
+  level { 170}
+  experience { 48164 }
+  hp { 3,45,720 }
+  move { 500 }
+  mana { 2000 }
+  power { 2000 }
+  height { 155 }
+  weight { 155 }
+  hit_bonus { 16 }
+  dam_bonus { 20 }
+  attacks_per_round { 1 }
+  damage { 1, 100, 1 }
+  alignment { 1000 }
+  caster { 20 }
+  head { -10, 9 }
+    body { -20, 0 }
+    arms { -20, 9 }
+    legs { -20, 9 }
+    feet { -20, 9 }
+    immune { charm, drain, sleep, hold }
+    resistant { non-magical }
+    act { sentinel, stay-zone }
+    affected { true-sight, detect-evil, detect-magic, sanctuary }
+    spells { sleep, blindness, dispel magic }
+}
+
+2205
+{
+  name { A young monk of Agatar }
+  namelist { young monk agatar }
+  shortdesc { A young monk stands nervously nearby, fingering his sword }
+  longdesc {
+The young monk is obviously in training.  Hanging from the belt
+about his waist you can see a small book and a short sword.
+His face still has the look of youth, not yet fully tempered by
+life.
+  }
+  race { Human }
+  level { 20 }
+  experience { 6859 }
+  gold { 2510 }
+  hp { 3,23,401 }
+  move { 500 }
+  mana { 1000 }
+  power { 1000 }
+  height { 150 }
+  weight { 150 }
+  hit_bonus { 6 }
+  dam_bonus { 6 }
+  alignment { 660 }
+  caster { 25 }
+  attacks_per_round { 2 }
+  damage { 1, 4, 1 }
+    head { 8, 4 }
+    body { 8, 0 }
+    arms { 8, 4 }
+    legs { 8, 4 }
+    feet { 8, 4 }
+    immune { drain, hold }
+    resistant { poison, sleep }
+    act { stay-zone }
+    affected { sanctuary }
+}
+
+2206
+{
+  name { A withered spirit }
+  namelist { withered spirit }
+  shortdesc { A withered spirit hovers in the half-light. }
+  longdesc {
+The visage before you is neither in the here or the beyond
+but in that limbo in between.  It is translucent and gleaming
+and has a haunted look in its eyes.
+  }
+  race { Ghost }
+  level { 22  }
+  experience { 11326 }
+  gold { 5000 }
+  hp { 3,21,330 }
+  move { 500 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 7 }
+  dam_bonus { 7 }
+  alignment { -460 }
+  attacks_per_round { 6 }
+  damage { 1, 4, 1 }
+    head { 6, 3 }
+    body { 6, 0 }
+    arms { 6, 3 }
+    legs { 6, 3 }
+    feet { 6, 3 }
+    immune { sleep, hold }
+    act { wimpy, stay-zone, annoying }
+    affected { flying, sense-life, invisible, sneak, hide }
+}
+
+2207
+{
+  name { A haunted soul }
+  namelist { A haunted soul }
+  shortdesc { A haunted soul is barely visible before you. }
+  longdesc {
+The visage before you is neither in the here or the beyond
+but in that limbo in between.  It is nearly opaque and gleams
+and glistens with every movement.  There is a haunted hunted
+look in its eyes, a look of desperation and hunger.
+
+  }
+  race { Ghost }
+  sex { neuter }
+  level { 30 }
+  experience { 16127 }
+  gold { 5000 }
+  hp { 3,23,375 }
+  move { 500 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 12 }
+  dam_bonus { 12 }
+ alignment { -680 }
+  attacks_per_round { 6 }
+  damage { 1, 4, 3 }  
+   head { 8, 4 }
+    body { 8, 0 }
+    arms { 8, 4 }
+    legs { 8, 4 }
+    feet { 8, 4 }
+    immune { sleep, hold }
+    act { wimpy, aggressive, stay-zone, annoying }
+    affected { flying, sense-life, invisible, sneak, hide }
+}
+
+2208
+{
+  name { A withered soldier }
+  namelist { withered soldier }
+  shortdesc { A withered soldier is standing here. }
+  longdesc {
+The poor soul that was the proud soldier that this wreck
+of a vision once was.  The armour hangs mysteriously
+off its shoulders, its sword held by a wisp of darkness.
+Staring into its face you sense a great sadness, a desire
+to be set free.
+  }
+  race { Undead }
+  sex { male }
+  level { 50  }
+  experience { 21168 }
+  gold { 5000 }
+  hp { 3,28,496 }
+  move { 500 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 3 }
+  dam_bonus { 10 }
+  attacks_per_round { 6 }
+  damage { 2, 4, 3 }  
+  alignment { -250 }
+    head { 11, 5 }
+    body { 11, 5 }
+    arms { 11, 5 }
+    legs { 11, 5 }
+    feet { 11, 5 }
+    immune { charm, sleep, hold }
+    act { aggressive, stay-zone }
+    affected { sense-life, sneak }
+}
+
+2209
+{
+  name { A kitchen ghost }
+  namelist { kitchen ghost }
+  shortdesc { A kitchen ghost is standing here, it looks surprisingly friendly. }
+  longdesc {
+Ooh you reach out to touch it and it feels nice... This is strange,
+the body is contorted in pain but it is as if the goodness of the
+character survived this transformation and still shines.... poor
+soul.
+  }
+  race { Ghost }
+  level { 30 }
+  experience { 5956 }
+  gold { 2000 }
+  hp { 3,20,322 }
+  move { 500 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 5 }
+  dam_bonus { 4 }
+  alignment { 150 }
+  attacks_per_round { 2 }
+  damage { 1, 4, 1 }  
+    head { 5, 2 }
+    body { 5, 2 }
+    arms { 5, 2 }
+    legs { 5, 2 }
+    feet { 5, 2 }
+    immune { charm, poison, sleep }
+    act { stay-zone }
+    affected { flying, sense-life }
+}
+
+2210
+{
+  name { A green slime }
+  namelist { green slime }
+  shortdesc { A green slime covers the floor. }
+  longdesc {
+the slime is icky to the touch and smelly too.  With every step
+upon it you squeeze a green watery liquid out of it, which quickly
+is absorbed by the rest of the slime.  The slime has a movement all
+of its own, a slithering movement down the walls and along the 
+floor, slipping down to the lowest level.
+  }
+  race { Slime }
+  sex { neuter }
+  level { 14 }
+  experience { 4672 }
+  gold { 2000 }
+  hp { 3,18,288 }
+  move { 3,11,177 }
+  height { 2,6,3 }
+  weight { 1,5,2 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  damage { 1, 4, 1 }  
+    head { 10, 1 }
+    body { 10, 1 }
+    arms { 10, 1 }
+    legs { 10, 1 }
+    feet { 10, 1 }
+    immune { charm, poison, drain, sleep, hold }
+    act { sentinel, aggressive, stay-zone }
+    affected { sneak }
+}
+
+2211
+{
+  name { A deep darkness }
+  namelist { deep darkness }
+  shortdesc { A deep darkness stands before you. }
+  longdesc {
+What can be said, its dark, just dark, nothing else.  A pillar
+of deep deep darkness in the middle of the room, forming
+a barrier blocking the light.
+  }
+  race { Ghost }
+  sex { neuter }
+  level { 80 }
+  experience { 39742 }
+  gold { 8000 }
+  hp { 3,45,1739 }
+  move { 500 }
+  mana { 2000 }
+  power { 2000 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 25 }
+  dam_bonus { 25 }
+  alignment { -1000 }
+  caster { 15 }
+  attacks_per_round { 2 }
+  damage { 1, 4, 4 }  
+    head { -50, 9 }
+    body { -50, 9 }
+    arms { -50, 9 }
+    legs { -50, 9 }
+    feet { -50, 9 }
+    immune { charm, poison, sleep, hold }
+    resistant { non-magical }
+    act { aggressive, stay-zone, healer }
+    affected { flying, detect-invisible, sense-life, sneak, detect-magic }
+    spells { shriek, curse }
+}
+
+2212
+{
+  name { A dull darkness }
+  namelist { dull darkness }
+  shortdesc { A dull darkness stands before you. }
+  longdesc {
+What can be said, its dark, just dark, nothing else.  A pillar
+of great darkness in the middle of the room.
+  }
+  race { Ghost }
+  sex { neuter }
+  level { 50 }
+  experience { 22597 }
+  gold { 7000 }
+  hp { 3,29,1492 }
+  move { 500 }
+  mana { 2000 }
+  power { 2000 }
+  height { 100 }
+  weight { 1 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  alignment { -1000 }
+  caster { 15 }
+  attacks_per_round { 2 }
+  damage { 1, 4, 1 }  
+    head { 11, 5 }
+    body { 11, 5 }
+    arms { 11, 5 }
+    legs { 11, 5 }
+    feet { 11, 5 }
+    immune { charm, poison, sleep, hold }
+    act { aggressive, stay-zone }
+    affected { flying, detect-invisible, sense-life, sneak, detect-magic }
+    spells { fear }
+}
+
+2213
+{
+  name { A soulless guardian }
+  namelist { soulless guardian }
+  shortdesc { A soulless guardian is standing here. }
+  longdesc {
+A stolid figure, not just dressed in black, but enamating black,
+stands before you.  The figure has no eyes but the sockets seem
+to blaze fire, baring your soul, raising your actions to be seen, the
+good to be punished, the evil praised.
+  }
+  race { Undead }
+  sex { neuter }
+  level { 80 }
+  experience { 41305 }
+  gold { 8000 }
+  hp { 3,38,857 }
+  move { 3,23,413 }
+  height { 100 }
+  weight { 100 }
+  hit_bonus { 5 }
+  dam_bonus { 19 }
+  alignment { -1000 }
+ attacks_per_round { 2 }
+  damage { 2, 4, 4 }  
+    head { 15, 7 }
+    body { 15, 7 }
+    arms { 15, 7 }
+    legs { 15, 7 }
+    feet { 15, 7 }
+    immune { charm, sleep, hold }
+    resistant { non-magical }
+    act { aggressive, stay-zone }
+    affected { sense-life, detect-magic }
+}
+
+2214
+{
+  name { A dark guardian }
+  namelist { dark guardian }
+  shortdesc { A dark guardian is standing here. }
+  longdesc {
+A stolid figure, not just dressed in black, but enamating black,
+stands before you.  The figure has no eyes but the sockets seem
+to blaze fire, baring your sou.
+  }
+  race { Undead }
+  sex { neuter }
+  level { 80 }
+  experience { 42467 }
+  gold { 6000 }
+  hp { 3,27,1460 }
+  move { 500  }
+  height { 500  }
+  weight { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 12 }
+  alignment { -1000 }
+ attacks_per_round { 2 }
+  damage { 2, 4, 4 }  
+    head { 10, 5 }
+    body { 10, 5 }
+    arms { 10, 5 }
+    legs { 10, 5 }
+    feet { 10, 5 }
+    immune { charm, sleep, hold }
+    act { aggressive, stay-zone }
+    affected { sense-life, detect-magic }
+}

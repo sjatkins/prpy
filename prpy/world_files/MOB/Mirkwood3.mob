@@ -1,0 +1,2734 @@
+15800
+{
+  name { the wilkey }
+  namelist { wilkey }
+  shortdesc { An angry wilkey stands here, howling at the moon. }
+  longdesc {
+   This wolf-like creature has shaggy black fur. His teeth are
+large, but his most menacing weapon is his horned snout.
+He doesn't seem happy to see you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { -100 }
+  gold { 1000 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3014 }
+  damage { 1, 7, 4  }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+15801
+{
+  name { the owl }
+  namelist { owl giant }
+  shortdesc { A Giant Owl snaps its beak at you. }
+  longdesc {
+   This giant owl is pretty mean looking. Best keep your distance.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 200  }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 3812 }
+  damage { 2, 4, 2  }
+  resistant { fire, electricity }
+  act { sentinel, scavenger }
+}
+
+15802
+{
+  name { the huge eagle }
+  namelist { eagle }
+  shortdesc { A Huge Eagle is here ruffling its feathers. }
+  longdesc {
+   This huge bird is truly a work of nature. It has beautiful plummage.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 200  }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3068 }
+  damage { 2, 6, 2  }
+  resistant { fire, electricity }
+  act { sentinel, scavenger }
+}
+
+15803
+{
+  name { the Skexie Reject }
+  namelist { skexie reject }
+  shortdesc { A Skexie Reject makes his home in this pit. }
+  longdesc {
+   This Skexie is a gnarled old codger. His beak is horribly crooked.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 1600  }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 27378 }
+  damage { 2, 6, 3  }
+  immune { fire, cold, electricity, charm }
+  act { sentinel, scavenger, wimpy }
+}
+
+15804
+{
+  name { the Festering Charik }
+  namelist { charik }
+  shortdesc { A Festering Charik flashes his tail at you. }
+  longdesc {
+   This armadillo type animal has a long pointed tail with a diamond
+at its tip. Its scales look like pretty good protection.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 900 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 8736 }
+  damage { 2, 4, 1  }
+  immune { fire, blunt, charm }
+  resistant { cold }
+  act { sentinel, aggressive, nosummon }
+}
+
+15805
+{
+  name { the Ghost of Brackenred }
+  namelist { apparition ghost brackenred skexie }
+  shortdesc { An Appartion hisses at you. }
+  longdesc {
+   This is the ghost of Brackenred. He's not expecting visitors today.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 776 }
+  alignment { -1000 }
+  gold { 110000  }
+  spells { energy drain }
+  caster { 99 }
+  hit_bonus { 29 }
+  dam_bonus { 22 }
+  attacks_per_round { 2.5 }
+  head { -90, 4 }
+  body { -90, 4 }
+  arms { -90, 4 }
+  legs { -90, 4 }
+  feet { -90, 4 }
+  hp { 4, 576, 26000 }
+  move { 300 }
+  mana { 10000 }
+  experience { 775945 }
+  damage { 4, 8, 7  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, aggressive }
+}
+
+15806
+{
+  name { the flying rat }
+  namelist { rat flying }
+  shortdesc { A Flying Rat whizzes by your head. }
+  longdesc {
+   This is some sort of mutated pigeon/rat. His beak is really
+sharp though!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 150  }
+  hit_bonus { 21 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 4, 8, 49  }
+  move { 300 }
+  experience { 926 }
+  damage { 2, 4, 1  }
+  act { aggressive, stay-zone }
+}
+
+15807
+{
+  name { a secrant }
+  namelist { secrant }
+  shortdesc { A trash eating Secrant gobbles some nearby junk. }
+  longdesc {
+   This insatiable little guy looks like some sort of small dog.
+He can open his jaws really wide, though, to let garbage into his
+seemingly bottomless gullet.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2182 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  resistant { fire, cold }
+  affected { sneak }
+  act { sentinel, scavenger, wimpy }
+}
+
+15808
+{
+  name { the Skexie Guard }
+  namelist { guard skexie }
+  shortdesc { A Skexie guard is here checking your progress. }
+  longdesc {
+   This Skexie has a certain robustness about him. His feathers
+are rather shiny. He's only here doing his job. Don't mess with him,
+and he won't mess with you.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 6000  }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.2 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 28080 }
+  damage { 2, 6, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+15809
+{
+  name { the Skexie Maiden }
+  namelist { maiden skexie }
+  shortdesc { An ugly Skexie Maiden winks at you suggestively. }
+  longdesc {
+   Wow! Is she ugly!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4130 }
+  damage { 2, 4, 2  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+15810
+{
+  name { the Skexie Matron }
+  namelist { matron skexie }
+  shortdesc { An obese, Matronly Skexie is here barking orders. }
+  longdesc {
+   Wow! Is she ugly! And so fat! Sheeesh!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 152 }
+  alignment { 0 }
+  gold { 2700  }
+  hit_bonus { 14 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  head { 20, 6 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  hp { 4, 152, 604  }
+  move { 300 }
+  experience { 28044 }
+  damage { 2, 6, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+15811
+{
+  name { the Skexie Nanny }
+  namelist { nanny skexie }
+  shortdesc { A Skexie Nanny tends to Skexie young here. }
+  longdesc {
+   She seems really run down from chasing these little demons.
+  }
+  race { dwarf }
+  height { 160 }
+  world_limit { 8 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6988 }
+  damage { 2, 5, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15812
+{
+  name { the Fledgling Skexie }
+  namelist { fledgling skexie youth }
+  shortdesc { A Fledgling Skexie youth is here exercising his wings. }
+  longdesc {
+   This little guys is really flapping hard. His young feathers
+are still growing. His beak looks real sharp though.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 6 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2066 }
+  damage { 2, 5, 2  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel, scavenger, nice-thief, wimpy }
+}
+
+15813
+{
+  name { the Ancient Mantern }
+  namelist { mantern ancient }
+  shortdesc { An Ancient Mantern snickers at your feeble armor. }
+  longdesc {
+  A cross between a human and a giant vulture, the Mantern is a
+relative of the Skexie. His claws are huge long spikes. Mantern's are
+very hateful creatures. Queeklor is their god. He has magic in
+his eyes!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 368 }
+  alignment { -1000 }
+  gold { 70000  }
+  hit_bonus { 29 }
+  dam_bonus { 16 }
+  attacks_per_round { 1.3 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 368, 8500 }
+  spells { dispel magic, fireball, shriek }
+  move { 300 }
+  experience { 648060 }
+  damage { 3, 6, 4  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+15814
+{
+  name { the Skexie Guard }
+  namelist { guard skexie }
+  shortdesc { A Skexie guard is here using the facilties. }
+  longdesc {
+   This Skexie has a certain robustness about him. His feathers
+are rather shiny. He's only here doing his job. Don't mess with him,
+and he won't mess with you. Let him pull his pants up!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { 0 }
+  gold { 3800  }
+  hit_bonus { 19 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 20, 5 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 28080 }
+  damage { 2, 6, 2  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15815
+{
+  name { the Ancient Skexie }
+  namelist { ancient skexie }
+  shortdesc { An Ancient Skexie with blue robes stands here performing a ritual. }
+  longdesc {
+   This Skexie is really old. He has several tallisman around
+his neck. His wiry claws have many rings. His eyes are a firey red.
+Do not bother him now, he is praying.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 376 }
+  alignment { 0 }
+  gold { 46000  }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 1.3 }
+  head { -10, 1 }
+  body { -10, 1 }
+  arms { -10, 1 }
+  legs { -10, 1 }
+  feet { -10, 1 }
+  hp { 4, 376, 9000 }
+  spells { dispel magic }
+  move { 300 }
+  experience { 532037 }
+  damage { 3, 6, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, healer }
+}
+
+15816
+{
+  name { the Neathar Supervisor }
+  namelist { supervisor neathar }
+  shortdesc { A Neathar Construction Supervisor is here supervising some workmen. }
+  longdesc {
+   This man is rather strong and commands a great deal of respect.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -350 }
+  gold { 9400  }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 111267 }
+  damage { 3, 5, 1  }
+  immune { charm }
+  act { sentinel }
+}
+
+15817
+{
+  name { the Neathar Workman }
+  world_limit { 4 }
+  namelist { workman neathar }
+  shortdesc { A Neathar Workman is here repairing the masonry. }
+  longdesc {
+   This man is rather strong and can carry huge bricks.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 113 }
+  alignment { -350 }
+  gold { 3050  }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 25, 4 }
+  body { 25, 4 }
+  arms { 25, 4 }
+  legs { 25, 4 }
+  feet { 25, 4 }
+  hp { 4, 112, 600  }
+  move { 300 }
+  experience { 22494 }
+  damage { 2, 8, 1  }
+  act { sentinel }
+}
+
+15818
+{
+  name { the Skexie Altar Boy }
+  namelist { skexie boy altar }
+  shortdesc { A Skexie Altar Boy is here praying quietly. }
+  longdesc {
+   This young Skexie seems to be a bit more studious than others.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 1200  }
+  hit_bonus { 4 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3041 }
+  damage { 2, 6, 1  }
+  immune { fire, cold, electricity }
+  resistant { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15819
+{
+  name { Palthor the Skexie Sergeant }
+  namelist { palthor skexie }
+  shortdesc { Palthor the Skexie Sergeant at Arms is here practicing his swordsmanship. }
+  longdesc {
+   Palthor is a very strong middle-aged Skexie. He is red feathered
+and shows signs of many battles. He is a very serious Skexie, and prefers
+prefers to be left alone.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 0 }
+  gold { 33000 }
+  skills { bash }
+  hit_bonus { 27 }
+  dam_bonus { 16 }
+  attacks_per_round { 1.2 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 4, 352, 10000  }
+  move { 300 }
+  experience { 411566 }
+  damage { 3, 8, 6  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+15820
+{
+  name { Wegendel the Skexie Illusionist }
+  namelist { wegendel skexie }
+  shortdesc { Wegendel the Skexie Illusionist waves his hands in a magical gesture. }
+  longdesc {
+   Wegendel is a master of illusion. His feathers are green and red.
+he has a very strong beak. He has several strings of decorative beads
+hanging from his neck.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 436 }
+  alignment { 0 }
+  gold { 95000  }
+  hit_bonus { 26 }
+  dam_bonus { 15 }
+  attacks_per_round { 1.1 }
+  spells { dispel magic, shriek, fear }
+  caster { 90 }
+  mana { 4000 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 336, 8500  }
+  move { 300 }
+  experience { 695033 }
+  damage { 2, 8, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+15821
+{
+  name { Crandel the Skexie Mage }
+  namelist { crandel skexie }
+  shortdesc { Crandel the Skexie Mage is here playing with reality. }
+  longdesc {
+   Crandel is a master of magic. His feathers are green and red.
+He has a very strong beak. An unusual mark has been burnt into
+his chest. He often assists the Ancient Skexie in performing special
+rituals.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 560 }
+  alignment { 0 }
+  gold { 160000 }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 1.1 }
+  caster { 99 }
+  mana { 9000 }
+  spells { dispel magic, sleep, colour spray, meteor swarm }
+  head { -60, 2 }
+  body { -60, 2 }
+  arms { -60, 2 }
+  legs { -60, 2 }
+  feet { -60, 2 }
+  hp { 4, 360, 8500 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 796291 }
+  damage { 2, 3, 4  }
+  immune { fire, cold, electricity, charm, hold, backstab }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+15822
+{
+  name { Alastair the Skexie Leader }
+  namelist { alastair skexie }
+  shortdesc { Alastair the Skexie Leader is here relaxing in an easy chair. }
+  longdesc {
+   Alastair doesn't take his job too seriously. He is a very large
+robust Skexie. His feathers are red and yellow. His entire appearance
+is a bit more professional than that the other Skexies, however.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 584 }
+  alignment { 0 }
+  gold { 70000 }
+  hit_bonus { 28 }
+  dam_bonus { 20 }
+  attacks_per_round { 1.3 }
+  head { -80, 2 }
+  body { -80, 2 }
+  arms { -80, 2 }
+  legs { -80, 2 }
+  feet { -80, 2 }
+  hp { 4, 584, 14131  }
+  move { 300 }
+  experience { 717344 }
+  damage { 5, 8, 7  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { special, sentinel }
+  skills { bash, kick }
+}
+
+15823
+{
+  name { Turendac the Skexie High Magister }
+  namelist { turendac skexie }
+  shortdesc { Turendac the Skexie High Magister is here smoking a pipe. }
+  longdesc {
+   Turendac is a very professional Skexie. He handles most of the
+disputes that occur among Skexie. He is highly revered for his
+intelligence and fairness.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 352 }
+  alignment { 0 }
+  gold { 60000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 352, 5376  }
+  move { 300 }
+  experience { 372369 }
+  damage { 3, 4, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15824
+{
+  name { the Skexie Child }
+  namelist { deaf skexie child }
+  shortdesc { A Deaf Skexie Child is here banging a big hammer on the ground. }
+  longdesc {
+   This Skexie cannot hear a thing.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3233 }
+  damage { 2, 6, 1  }
+  immune { fire, cold, charm, electricity }
+  affected { detect-invisible }
+  act { sentinel, nice-thief }
+}
+
+15825
+{
+  name { the Skexie Jester }
+  namelist { jester skexie }
+  shortdesc { The Skexie Jester falls down laughing. }
+  longdesc {
+   This Skexie is dressed in human clothing. The Skexie find
+this very amusing.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 17 }
+  dam_bonus { 7 }
+  attacks_per_round { 1 }
+  head { -40, 2 }
+  body { -40, 2 }
+  arms { -40, 2 }
+  legs { -40, 2 }
+  feet { -40, 2 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 431842 }
+  damage { 4, 4, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15826
+{
+  name { the Skexie Magister }
+  namelist { magister skexie }
+  shortdesc { The Skexie Magister has a very serious look about him. }
+  longdesc {
+   This Skexie is the assistant to the Skexie High Magister.
+He takes his job very seriously. He says, "What are you doing in
+my room! Get out!"
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 420 }
+  alignment { 0 }
+  gold { 55000 }
+  hit_bonus { 18 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 746397 }
+  damage { 4, 4, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15827
+{
+  name { the Skexie Scribe }
+  namelist { scribe skexie }
+  shortdesc { The Skexie Scribe sits at a nearby desk scribling frantically. }
+  longdesc {
+   He doesn't even care that you are looking. He keeps on writing.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 4, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15828
+{
+  name { the Skexie Bard }
+  namelist { bard skexie }
+  shortdesc { The Skexie Bard is here fiddling with a strange instrument. }
+  longdesc {
+   He's not too impressed with you. He continues to twang away.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 40000 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 1.2 }
+  head { -40, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 6160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 5, 4  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15829
+{
+  name { the Skexie Lair Guard }
+  namelist { guard skexie lair }
+  shortdesc { A Skexie Lair Guard stands here rather concerned about your presence. }
+  longdesc {
+   The is a very big strong Skexie. Normally outsiders are not
+welcome in the lair. You'd better go quickly to the Challenge Area.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 360 }
+  alignment { 0 }
+  gold { 48000 }
+  hit_bonus { 18 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 360, 5680  }
+  move { 300 }
+  experience { 692987 }
+  damage { 3, 5, 7  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15830
+{
+  name { the Mulichort }
+  namelist { mulichort }
+  shortdesc { A Mulichort jumps up out of the tank and snaps his jaws at you. }
+  longdesc {
+   This is some sort of mean reptile!
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 368 }
+  alignment { 0 }
+  gold { 26000 }
+  hit_bonus { 13 }
+  dam_bonus { 8 }
+  attacks_per_round { 1.3 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 368, 5984  }
+  move { 300 }
+  experience { 410722 }
+  damage { 4, 6, 5  }
+  immune { charm }
+  affected { hide }
+  act { sentinel }
+}
+
+15831
+{
+  name { the Champion of Queeklor }
+  namelist { queeklor champion }
+  shortdesc { The Champion of Queeklor is here guarding the statue. }
+  longdesc {
+   He is a 20' tall Golem with the head of a rat. His fists are
+the size of an average shield! He hits really hard!
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 721 }
+  alignment { -1000 }
+  gold { 100000 }
+  hit_bonus { 22 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { -70, 2 }
+  body { -70, 2 }
+  arms { -70, 2 }
+  legs { -70, 2 }
+  feet { -70, 2 }
+  hp { 4, 721, 17241  }
+  move { 300 }
+  experience { 407284 }
+  damage { 6, 4, 8  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+15832
+{
+  name { the Champion of Rugrat }
+  namelist { ruggy champion }
+  shortdesc { Ruggy the Champion of Rugrat is here guarding the statue. }
+  longdesc {
+   He is a 20' tall Golem with the head of a rat. His fists are
+the size of an average shield! He hits really hard!
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 729 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 2 }
+  head { -50, 2 }
+  body { -50, 2 }
+  arms { -50, 2 }
+  legs { -50, 2 }
+  feet { -50, 2 }
+  hp { 4, 729, 17358  }
+  move { 300 }
+  experience { 400795 }
+  damage { 6, 4, 10  }
+  immune { fire, cold, electricity, energy, charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+15833
+{
+  name { a Bachelor Skexie }
+  namelist { bachelor skexie }
+  shortdesc { A Skexie Bachelor relaxes on a nearby nest. }
+  longdesc {
+   This Skexie has black and red feathers. He is otherwise a
+normal looking bird-man.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 168 }
+  alignment { 0 }
+  gold { 5200 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1.2 }
+  head { 30, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  hp { 4, 168, 1000 }
+  move { 300 }
+  experience { 32706 }
+  damage { 2, 5, 2  }
+  immune { fire, charm, cold, electricity }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15834
+{
+  name { a Gentleman Skexie }
+  namelist { gentleman skexie }
+  shortdesc { A Skexie Gentleman sits in his chair. }
+  longdesc {
+   This Skexie has black and orange feathers. He is otherwise a
+normal looking bird-man.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 200 }
+  alignment { 0 }
+  gold { 5800 }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.2 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 200, 1800  }
+  move { 300 }
+  experience { 79461 }
+  damage { 2, 6, 3  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15835
+{
+  name { an Adolescent Skexie }
+  namelist { adolescent skexie }
+  shortdesc { A Skexie Adolecent is lying on the floor looking quite intoxicated. }
+  longdesc {
+   Boy is he hammered! He has black and yellow feathers. He's been
+in a scuffle recently and has lost some feathers.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 40 }
+  alignment { 0 }
+  gold { 1300  }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 4, 40, 120  }
+  move { 300 }
+  experience { 4094 }
+  damage { 1, 8, 2  }
+  immune { fire, cold, electricity }
+  affected { detect-invisible }
+  resistant { charm }
+  act { sentinel }
+}
+
+15836
+{
+  name { the Skexie Waiter }
+  namelist { waiter skexie }
+  shortdesc { A Skexie Waiter is here preparing for a feast. }
+  longdesc {
+   This Skexie has all black feathers. This job is considered
+very undesirable.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 48 }
+  alignment { 0 }
+  gold { 1400 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 48, 264  }
+  move { 300 }
+  experience { 6988 }
+  damage { 2, 6, 1  }
+  immune { fire, cold, charm, electricity }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+15837
+{
+  name { the Gelfling Child }
+  namelist { child gelfling }
+  shortdesc { A Gelfling Child throws a big snowball at you. }
+  longdesc {
+   Fun and frolicking all the time. All fun, and no work. He
+points his finger and laughs at your appearance.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1523 }
+  damage { 1, 6, 1  }
+  resistant { electricity, charm }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15838
+{
+  name { the Blink Dog }
+  namelist { blink dog }
+  shortdesc { A Blink Dog flashes into phase nearby. }
+  longdesc {
+   This is no regular dog. He can travel ethereally. The Gelfling
+feed them and keep them as pets.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 600 }
+  gold { 1000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 4096 }
+  damage { 2, 4, 1  }
+  affected { sanctuary }
+  act { scavenger, stay-zone }
+  immune { charm }
+}
+
+15839
+{
+  name { the Striped Bechemel }
+  namelist { bechemel striped }
+  shortdesc { A Striped Bechemel smiles cutely at you. }
+  longdesc {
+   A friend of the Gelfling, the Bechemel come in all colors.
+This one happens to be black and white.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 600 }
+  gold { 1300 }
+  hit_bonus { 9 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1471 }
+  damage { 1, 8, 1  }
+  resistant { electricity }
+  affected { sneak }
+  act { scavenger, stay-zone }
+}
+
+15840
+{
+  name { the Polkadotted Bechemel }
+  namelist { bechemel polkadotted }
+  shortdesc { A Polkadotted Bechemel smiles cutely at you. }
+  longdesc {
+   A friend of the Gelfling, the Bechemel come in all colors.
+This one happens to be polkadotted.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 24 }
+  alignment { 600 }
+  gold { 1300 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 24, 72  }
+  move { 300 }
+  experience { 2201 }
+  damage { 1, 8, 1  }
+  resistant { electricity }
+  affected { sneak }
+  act { scavenger, stay-zone }
+}
+
+15841
+{
+  name { the Herringbone Bechemel }
+  namelist { bechemel herringbone }
+  shortdesc { A Herringbone Bechemel smiles cutely at you. }
+  longdesc {
+   A friend of the Gelfling, the Bechemel come in all colors.
+This one happens to be wearing a herringbone suit.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 32 }
+  alignment { 600 }
+  gold { 1600 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 4, 32, 96  }
+  move { 300 }
+  experience { 3151 }
+  damage { 2, 4, 2  }
+  resistant { electricity }
+  affected { sneak }
+  act { scavenger, stay-zone }
+}
+
+15842
+{
+  name { the Midnight Bechemel }
+  namelist { bechemel midnight }
+  shortdesc { A Midnight Bechemel smiles cutely at you. }
+  longdesc {
+   A friend of the Gelfling, the Bechemel come in all colors.
+This one happens to be wearing a midnight suit.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 56 }
+  alignment { 600 }
+  gold { 2800 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 9064 }
+  damage { 2, 5, 2  }
+  resistant { electricity }
+  affected { sneak }
+  act { scavenger, stay-zone }
+}
+
+15843
+{
+  name { the Gelfling Guardsman }
+  namelist { guardsman gelfling }
+  shortdesc { A Gelfling Guardsman smiles broadly. }
+  longdesc {
+   He is very happy to see you. He's glad that you will some
+day destroy the Skexies!
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 3800 }
+  hit_bonus { 5 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 10832 }
+  damage { 2, 5, 1  }
+  resistant { charm, electricity }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15844
+{
+  name { the Gelfling Cleric }
+  namelist { cleric gelfling }
+  shortdesc { The Gelfling Cleric sits here meditating. }
+  longdesc {
+   This Gelfling is dressed in white robes. His face is a pale
+color. His robes are lined with a golden silk.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 105 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { 30, 4 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  hp { 4, 54, 100  }
+  move { 40 }
+  experience { 23436 }
+  damage { 2, 5, 2  }
+  resistant { charm, electricity }
+  susceptible { cold }
+  affected { sanctuary }
+  act { special, sentinel }
+}
+
+15845
+{
+  name { Gilkey }
+  namelist { gilkey gelfling }
+  shortdesc { Gilkey the Gelfling is here sharpening his knives. }
+  longdesc {
+   Gilkey is highly respected among Gelfling. He is bearded and
+a bit portly.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 3000  }
+  level { 56 }
+  alignment { 0 }
+  gold { 2800 }
+  hit_bonus { 7 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.3 }
+  head { 30, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  hp { 4, 56, 348  }
+  move { 300 }
+  experience { 9064 }
+  damage { 2, 5, 2  }
+  resistant { electricity, charm }
+  susceptible { cold }
+  act { sentinel }
+}
+
+15846
+{
+  name { the Gelfling Weaponsmaster }
+  namelist { weaponsmaster gelfling }
+  shortdesc { The Gelfling Weaponsmaster is here pounding away at some metal. }
+  longdesc {
+   He is a very strong Gelfling. His muscles ripple, and he sweats,
+even in this cold environment.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 184 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 20, 7 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  hp { 4, 184, 812  }
+  move { 300 }
+  experience { 50798 }
+  damage { 2, 5, 2  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { cold }
+  act { sentinel }
+}
+
+15847
+{
+  name { the Mad Gelfling }
+  namelist { mad gelfling }
+  shortdesc { The Mad Gelfling stands here acting like a Skexie. }
+  longdesc {
+   Except for looking like a Gelfling, he acts like a Skexie.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 0 }
+  gold { 23000 }
+  hit_bonus { 16 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.2 }
+  head { 20, 8 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 169188 }
+  damage { 2, 5, 2  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { cold }
+  act { special, sentinel, aggressive }
+}
+
+15848
+{
+  name { the Warrior Gelfling }
+  namelist { warrior gelfling }
+  shortdesc { A Gelfling Warrior is here socializing. }
+  longdesc {
+   He is a more muscular Gelfling, and has more experience with
+fighting the Skexies.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 72 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 13 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 40, 2 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  hp { 4, 72, 435  }
+  move { 300 }
+  experience { 11682 }
+  damage { 2, 5, 1  }
+  resistant { electricity }
+  susceptible { cold }
+  immune { charm }
+  act { stay-zone }
+}
+
+15849
+{
+  name { the Beautiful Gelfling }
+  namelist { woman gelfling }
+  shortdesc { A Beautiful Gelfling Woman smiles at you. }
+  longdesc {
+   She is quite attractive. She has a wonderous body and lovely
+long dark hair.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 64 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 5 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 50, 2 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  hp { 4, 64, 398  }
+  move { 300 }
+  experience { 9751 }
+  damage { 2, 5, 1  }
+  resistant { fire, charm, electricity }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15850
+{
+  name { the Porgi }
+  namelist { porgi }
+  shortdesc { A Porgi waddles around happily. }
+  longdesc {
+   This is a penguin type creature with extra long feet. He is
+really cute.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 16 }
+  alignment { 0 }
+  hit_bonus { 3 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 4, 16, 58  }
+  move { 300 }
+  experience { 1358 }
+  damage { 1, 6, 1  }
+  resistant { fire, electricity }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15851
+{
+  name { Feuq the Gelfling }
+  namelist { feuq gelfling }
+  shortdesc { Feuq the Gelfling is here working on some new traps for the Skexies. }
+  longdesc {
+   Feuq is a very popular Gelfling. He makes the best traps
+among all the Gelfling.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18622 }
+  damage { 2, 5, 2  }
+  resistant { electricity, charm }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15852
+{
+  name { Dasillea the Gelfling }
+  namelist { dasillea gelfling }
+  shortdesc { Dasillea the Gelfling is wandering around searching for troublemakers. }
+  longdesc {
+   Dasillea the Gelfling is a rather beautiful young woman.
+She is quite busty in fact!
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 4001 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18622 }
+  damage { 2, 5, 2  }
+  resistant { fire, electricity }
+  susceptible { cold }
+  act { special, stay-zone }
+  immune { charm }
+}
+
+15853
+{
+  name { Thrack the Gelfling }
+  namelist { thrack gelfling }
+  shortdesc { Thrack the Gelfling stands here. He smiles. Then gives you the bird! }
+  longdesc {
+   Thrack is a really well known warrior. He also has a bit
+of a sense of humor.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 4400 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18622 }
+  damage { 2, 5, 2  }
+  resistant { electricity }
+  susceptible { cold }
+  act { stay-zone }
+  immune { charm }
+}
+
+15854
+{
+  name { Driscol the Gelfling }
+  namelist { driscol gelfling }
+  shortdesc { Driscol the Gelfling pokes you in the ribs. }
+  longdesc {
+   Driscol is a generally nice guy.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 4400 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18622 }
+  damage { 2, 5, 2  }
+  resistant { electricity, charm }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15855
+{
+  name { Haag the Gelfling }
+  namelist { haag gelfling }
+  shortdesc { Haag the Gelfling Gentleman shakes your hand. He's really glad to see you. }
+  longdesc {
+   Haag is very much a gentleman. Too bad you have to kill him.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { 0 }
+  gold { 4400 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1.3 }
+  head { 30, 3 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 18622 }
+  damage { 2, 5, 2  }
+  resistant { electricity, charm }
+  susceptible { cold }
+  act { stay-zone }
+}
+
+15856
+{
+  name { a Lost Soul }
+  namelist { challenge lost soul }
+  shortdesc { A ghostly apparition floats here, staring at you in utter hatred. }
+  longdesc {
+The lost soul is a ghostly apparition, seeking revenge on the living.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 145 }
+  alignment { -1000 }
+  gold { 1700 }
+  hit_bonus { 25 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 144, 600  }
+  move { 300 }
+  experience { 30888 }
+  damage { 2, 7, 4  }
+  affected { detect-invisible, infravision }
+  act { sentinel, scavenger }
+  immune { charm }
+}
+
+15857
+{
+  name { a dwarven worker }
+  namelist { challenge dwarven worker }
+  shortdesc { A dwarven mining worker is here. }
+  longdesc {
+He is very dirty, and looks extremely over-worked.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 184 }
+  alignment { 900 }
+  gold { 500  }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 20, 7 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  hp { 4, 184, 812  }
+  move { 300 }
+  experience { 47233 }
+  damage { 2, 4, 4  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, scavenger }
+}
+
+15858
+{
+  name { the huge, green dragon }
+  namelist { challenge dragon green }
+  shortdesc { A huge green dragon is here, its narrow yellow eyes glowing with rage. }
+  longdesc {
+This enormous winged serpent has dark green scales covering most of its
+colossal body.  Numerous holes in its heavy wings tell of many fights as does
+the nicks in the horns on its head.  It smells as disgusting as only dragons
+do.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 96 }
+  alignment { -1000 }
+  gold { 120100 }
+  hit_bonus { 19 }
+  dam_bonus { 4 }
+  attacks_per_round { 2.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 96, 568  }
+  move { 300 }
+  experience { 21424 }
+  damage { 3, 8, 1  }
+  resistant {  blunt }
+  immune { fire }
+  susceptible { poison }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, scavenger, nosummon }
+}
+
+15859
+{
+  name { the black enfan }
+  namelist { challenge enfan black }
+  shortdesc { There is a positively evil enfan in front of you. He is dressed in black and
+  carries a large weapon. }
+  longdesc {
+He looks like a large piece of licoriche, only bigger.
+  }
+  race { enfan }
+  height { 160 }
+  weight { 10000 }
+  level { 328 }
+  alignment { -1000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 328, 4464  }
+  move { 300 }
+  experience { 318202 }
+  damage { 5, 6, 3  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, scavenger }
+}
+
+15860
+{
+  name { A Polar Bear }
+  namelist { challenge bear polar }
+  shortdesc { A giant white polar bear is here. }
+  longdesc {
+A large white furball.... He is handing out Klondike Ice Cream (tm) bars.
+Would you like one?
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 264 }
+  alignment { 0 }
+  hit_bonus { 13 }
+  dam_bonus { 13 }
+  attacks_per_round { 1.6 }
+  head { 30, 10 }
+  body { 30, 10 }
+  arms { 30, 10 }
+  legs { 30, 10 }
+  feet { 30, 10 }
+  hp { 4, 264, 2252  }
+  move { 300 }
+  experience { 226042 }
+  damage { 2, 10, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel, scavenger }
+}
+
+15861
+{
+  name { The Enchanter }
+  namelist { challenge master enchanter mage }
+  shortdesc { The Enchanter is here placing a dweomer upon well made sword }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -200 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 67971 }
+  damage { 3, 5, 6  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, scavenger }
+}
+
+15862
+{
+  name { The master charmer }
+  namelist { challenge master charmer }
+  shortdesc { The master charmer utters the words, 'uuuzzldctz' }
+  longdesc {
+The master charmer sizes you up, always looking for a new pet.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -400 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { -40, 0 }
+  body { -40, 0 }
+  arms { -40, 0 }
+  legs { -40, 0 }
+  feet { -40, 0 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 66250 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, scavenger }
+}
+
+15863
+{
+  name { The Ringwraith }
+  namelist { challenge wraith ringwraith nazgul }
+  shortdesc { A Ringwraith stands here. }
+  longdesc {
+Dressed in black, it is almost invisible within the shadows. It promises
+to be a formidable opponent
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { -1000 }
+  hit_bonus { 25 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.5 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 363862 }
+  damage { 2, 8, 8  }
+  immune { slash, charm }
+  resistant { electricity }
+  susceptible { poison, drain, plus 1 }
+  affected { detect-invisible, infravision, sneak }
+  act { special, sentinel, scavenger }
+}
+
+15864
+{
+  name { Sisyphus Jr. }
+  namelist { challenge sisyphus }
+  shortdesc { Sisyphus Jr. of Corinth stands here, guarding the gate. }
+  longdesc {
+The once tyrannical King of Corinth has been consigned to barring
+unqualified characters from entering the Tower.  A Sisyphean task indeed.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 368 }
+  alignment { 1000 }
+  hit_bonus { 25 }
+  dam_bonus { 16 }
+  attacks_per_round { 1 }
+  head { -70, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  hp { 4, 368, 5984  }
+  move { 300 }
+  experience { 390356 }
+  damage { 4, 6, 9  }
+  immune { charm }
+  act { special, sentinel }
+}
+
+15865
+{
+  name { The Bengal tiger }
+  namelist { challenge tiger white bengal }
+  shortdesc { A white bengal tiger is here. }
+  longdesc {
+Large and very ferocious looking.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 105 }
+  alignment { 0 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 3 }
+  head { 30, 4 }
+  body { 30, 4 }
+  arms { 30, 4 }
+  legs { 30, 4 }
+  feet { 30, 4 }
+  hp { 4, 104, 600  }
+  move { 300 }
+  experience { 21576 }
+  damage { 2, 8, 6  }
+  act { sentinel, scavenger }
+}
+
+15866
+{
+  name { the Elven Wizard }
+  namelist { challenge elven wizard }
+  shortdesc { An Elven Wizard is here, creating fireworks for the festivities. }
+  longdesc {
+The Elven Wizard looks at you in a solemn sort of way.  His gaze seems
+penetrate through your innermost being.  He is wearing a silvery cloak
+and holding a multi-colored staff.  Although he appears to be older
+than the oldest man, he seems to have an inner strength which most mortals
+cannot overcome.
+  }
+  race { elven }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 500 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 30006 }
+  damage { 2, 8, 6  }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+
+15867
+{
+  name { The Flame }
+  namelist { challenge flame }
+  shortdesc { The Flame hovers here before you. }
+  longdesc {
+The Flame flickers almost imperceptibly about you.  You can barely feel the
+warmth, so gentle is The Flame.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 176 }
+  alignment { 900 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 176, 668  }
+  move { 300 }
+  experience { 37476 }
+  damage { 3, 3, 4  }
+  immune { charm }
+  resistant { fire, cold }
+  act { sentinel }
+}
+
+15868
+{
+  name { the Queen Spider }
+  namelist { challenge queen spider }
+  shortdesc { The huge, bulky Queen Spider is here. }
+  longdesc {
+This disgusting creature is at the size of a small elephant.  It has eight
+huge, hairy legs that would give it a tremendous speed on almost any surface
+if it wasn't so immensely fat.  Its large, bulbous eyes stare back at you.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 192 }
+  alignment { -1000 }
+  hit_bonus { 14 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 10, 7 }
+  body { 10, 7 }
+  arms { 10, 7 }
+  legs { 10, 7 }
+  feet { 10, 7 }
+  hp { 4, 192, 956  }
+  move { 300 }
+  experience { 64243 }
+  damage { 2, 8, 2  }
+  immune { charm }
+  resistant { fire, electricity }
+  susceptible { poison }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, nice-thief, stay-zone, deadly }
+}
+
+15869
+{
+  name { Raistlin }
+  namelist { challenge raistlin }
+  shortdesc { Raistlin the Arch-Magi }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 240 }
+  alignment { 200 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  attacks_per_round { 1 }
+  head { 30, 9 }
+  body { 30, 9 }
+  arms { 30, 9 }
+  legs { 30, 9 }
+  feet { 30, 9 }
+  hp { 4, 240, 1820  }
+  move { 300 }
+  experience { 177985 }
+  damage { 1, 1, 15  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, scavenger, wimpy }
+}
+
+15870
+{
+  name { the black enfan }
+  namelist { challenge enfan black number2 }
+  shortdesc { There is a positively evil enfan in front of you. He is dressed in black and
+  carries a large weapon. }
+  longdesc {
+He looks like a large piece of licoriche, only bigger.
+  }
+  race { enfan }
+  height { 160 }
+  weight { 10000 }
+  level { 328 }
+  alignment { -1000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 4, 328, 4464  }
+  move { 300 }
+  experience { 318202 }
+  damage { 5, 6, 3  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, aggressive }
+}
+
+15871
+{
+  name { A wizard }
+  namelist { challenge wizard speaker mage }
+  shortdesc { An old wizard is here making a speach }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 129 }
+  alignment { 400 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 128, 600  }
+  move { 300 }
+  experience { 27064 }
+  damage { 3, 4, 8  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone, wimpy }
+}
+
+15872
+{
+  name { Anubis }
+  namelist { challenge anubis }
+  shortdesc { Anubis sits in his throne, wearing a glowing key. }
+  longdesc {
+He has the body of a man, and the head of a jackal.
+  }
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 272 }
+  alignment { 0 }
+  hit_bonus { 18 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  head { -20, 0 }
+  body { -20, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -20, 0 }
+  hp { 4, 272, 2396  }
+  move { 300 }
+  experience { 261288 }
+  damage { 3, 6, 4  }
+  immune { charm }
+  act { sentinel, scavenger }
+}
+
+15873
+{
+  name { The Librarian }
+  namelist { challenge librarian mage }
+  shortdesc { The Librarian has fallen asleep at his desk here }
+  longdesc {
+He looks like a rather peaceful old man.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 450 }
+  hit_bonus { 17 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 161832 }
+  damage { 3, 6, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, aggressive, stay-zone, wimpy }
+}
+
+15874
+{
+  name { the battle master }
+  namelist { challenge battle master }
+  shortdesc { The battle master offers you the services of his fine trainees. }
+  longdesc {
+The battle master is a wizened fighter, with many scars to prove his worth.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 296 }
+  alignment { 350 }
+  hit_bonus { 18 }
+  dam_bonus { 14 }
+  attacks_per_round { 2.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 296, 3248  }
+  move { 300 }
+  experience { 284579 }
+  damage { 2, 8, 7  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+15875
+{
+  name { The High Priest }
+  namelist { challenge fire giant high priest }
+  shortdesc { The High Priest is standing here }
+  longdesc {
+   He is dressed in back robes and wields a very wicked mace he
+would give you a very tough challange
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { -1000 }
+  hit_bonus { 25 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -30, 1 }
+  body { -30, 1 }
+  arms { -30, 1 }
+  legs { -30, 1 }
+  feet { -30, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 366773 }
+  damage { 4, 5, 10  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { fire }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+
+15876
+{
+  name { a dwarven guard }
+  namelist { challenge dwarven guard }
+  shortdesc { A dwarven guard is here. }
+  longdesc {
+The guard looks very tough and mean.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 169188 }
+  damage { 3, 2, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15877
+{
+  name { The Necromancer }
+  namelist { challenge necromancer master }
+  shortdesc { The Necromancer is here raising undead servants }
+  longdesc {
+Attired all in black, the Necromancer is tall and gangly, but still quite
+an imposing figure. A dark cowl shrouds most of his face, but two blazing
+embers which must serve as eyes can be seen through the shadow.
+The Necromancer shrieks some obsenities and orders his minions to attack.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { -950 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  head { -80, 1 }
+  body { -80, 1 }
+  arms { -80, 1 }
+  legs { -80, 1 }
+  feet { -80, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 340575 }
+  damage { 3, 7, 7  }
+  immune { charm }
+  affected { detect-invisible }
+  act { special, sentinel, scavenger, aggressive, stay-zone, wimpy }
+}
+
+15878
+{
+  name { Lord Python of Castle Python }
+  namelist { challenge Lord Python }
+  shortdesc { Lord Python is resting on his great throne. }
+  longdesc {
+     Lord Python sits here contemplating higher realities and bad
+sketches. However Python has killed more people on the battlefield
+than you have ever seen.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 500 }
+  hit_bonus { 28 }
+  dam_bonus { 15 }
+  attacks_per_round { 2 }
+  head { -50, 1 }
+  body { -50, 1 }
+  arms { -50, 1 }
+  legs { -50, 1 }
+  feet { -50, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 363862 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  resistant { electricity }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15879
+{
+  name { Yevaud }
+  namelist { challenge dragon Yevaud }
+  shortdesc { Yevaud the Usurper of Midgaard is here, grinning evilly at you. }
+  longdesc {
+Old, scaly, but still with a lot of bite in him left.
+  }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  alignment { -1000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.3 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 208, 1244  }
+  move { 300 }
+  experience { 119900 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  resistant { electricity }
+  susceptible { fire }
+  affected { detect-invisible, infravision }
+  act { special, sentinel, scavenger, stay-zone }
+}
+
+15880
+{
+  name { the Grand Knight of Paladins }
+  namelist { challenge grand knight paladin }
+  shortdesc { The Grand Knight of Paladins rests here, welcoming you to his guild. }
+  longdesc {
+   He is huge warrior, clad in very magical armor, he rests here,
+silently observing you.
+  }
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 480 }
+  alignment { 1000 }
+  hit_bonus { 30 }
+  dam_bonus { 19 }
+  attacks_per_round { 4 }
+  head { -100, 2 }
+  body { -100, 2 }
+  arms { -100, 2 }
+  legs { -100, 2 }
+  feet { -100, 2 }
+  hp { 4, 480, 10069  }
+  move { 300 }
+  experience { 618311 }
+  damage { 5, 5, 15  }
+  immune { charm }
+  affected { sanctuary }
+  act { special, sentinel }
+}
+
+15881
+{
+  name { a dwarven guard }
+  namelist { challenge dwarven guard set2 }
+  shortdesc { A dwarven guard is here. }
+  longdesc {
+The guard looks very tough and mean.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 224 }
+  alignment { 500 }
+  hit_bonus { 19 }
+  dam_bonus { 10 }
+  attacks_per_round { 1.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 4, 224, 1532  }
+  move { 300 }
+  experience { 169188 }
+  damage { 3, 2, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15882
+{
+  name { the Keeper of the Ring }
+  namelist { ring keeper }
+  shortdesc { The Keeper of the Ring is here, guarding his treasure jealously. }
+  longdesc {
+The Ring Keeper is a rather big but short halfling.  His short stature and
+bulbous nose belie his true nature.  An elven sword that glows with a blue
+light hangs from his belt, and on his finger you see the One Ring.  Although
+usually a halfling of peace, he will fight you to the death if you attempt
+to take away that which belongs to him.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 216 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 18 }
+  dam_bonus { 10 }
+  attacks_per_round { 1 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  hp { 4, 216, 1388  }
+  move { 300 }
+  experience { 142178 }
+  damage { 2, 8, 15  }
+  immune { charm }
+  affected { invisible, detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+15883
+{
+  name { larry Skexie gentleman }
+  namelist { gentleman skexie larry }
+  shortdesc { Leisure Suit Larry, the Lord Gentleman Skexie }
+  longdesc {
+Larry was a nerdy geek all his life and eventually became a computer programmer.
+He never had close relations with friends, women, or his colleagues, and every
+day of his life was identical. He lived with his mother and brother.
+Around his 38th birthday, his brain hit a sexual alarm and started having his first
+kinky thoughts. He started reading adult magazines and could not concentrate on his
+work. Because of this his life was destroyed; he was fired from his job, and upon
+returning home he found his house had been sold and his mother had left for vacation.
+  }
+  race { dwarf }
+  height { 160 }
+  weight { 10000 }
+  level { 400 }
+  alignment { 0 }
+  gold { 60900  }
+  hit_bonus { 30 }
+  dam_bonus { 19 }
+  attacks_per_round { 1.4 }
+  head { -30, 18 }
+  body { -30, 18 }
+  arms { -30, 18 }
+  legs { -30, 18 }
+  feet { -30, 18 }
+  hp { 4, 200, 3000  }
+  move { 300 }
+  experience { 679461 }
+  damage { 4, 8, 8  }
+  immune { fire, cold, electricity, charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+15884
+{
+  name { Brackenred }
+  namelist { Brackenred skexie }
+  shortdesc { Brackenred the former skexie champion }
+  longdesc {
+    Brackenred is the largest skexie you've seen. He is wearing a breastplate and his beak
+  has sustained heavy damage from battle. it has been replaced by a sharpened steel prosthetic.
+  He is in meditation as to what his plans should be going forward. He was betrayed by Queeklor
+  who envied his power and status and wanted to become champion himself. But Queeklor was no
+  match physically and restorted to poison to gain position. }
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 635 }
+  alignment { 1000 }
+  gold { 4505000  }
+  hit_bonus { 29 }
+  dam_bonus { 28 }
+  attacks_per_round { 3 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 32000  }
+  move { 300 }
+  experience { 3500000 }
+  damage { 4, 9, 12  }
+  immune { charm, sleep, fire }
+  mana { 50000 }
+  spells { energy drain }
+  caster { 99 }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision, water-breath, true-sight}
+  act { sentinel }
+}
+

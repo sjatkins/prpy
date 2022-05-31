@@ -1,0 +1,5210 @@
+93200
+{
+  name { a huge mosquito }
+  namelist { huge mosquito }
+  shortdesc { A large mosquito lands on your arm and starts to suck your blood. }
+  longdesc {
+Ouch!  Slapping your arm, the bloody and black remains of a mosquito are
+left smeared there.  Its body is about the size of a gold coin!  These
+suckers are huge.  Better watch out, they are swarming.
+  }
+  race { None }
+  world_limit { 75 }
+  level { 2 }
+  experience { 125 }
+  hp { 3, 5, 10 }
+  alignment { 0 }
+  gold { 115 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 1, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { blunt, fire, cold }
+  act { npc, aggressive, stay-zone }
+}
+
+93201
+{
+  name { a beautiful butterfly }
+  namelist { beautiful butterfly }
+  shortdesc { A beautiful butterfly flutters lazily from flower to flower. }
+  longdesc {
+The butterfly has colorful patterns on its wings that resemble a large
+eye.  When the butterfly's wings are outstretched it looks like someone
+is starting straight at you.  It flutters away as it senses you have
+gotten too close.
+  }
+  race { None }
+  world_limit { 8 }
+  level { 3 }
+  experience { 135 }
+  hp { 3, 5, 15 }
+  alignment { 0 }
+  gold { 115 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93202
+{
+  name { a large walking stick }
+  namelist { large walking stick }
+  shortdesc { A large walking stick is engaged in a fight to the death. }
+  longdesc {
+The walking stick is about a foot long.  It is fighting for its life
+against another large walking stick.  Their stick hands make a quick
+barrage of clicking sounds as they spar against each other.  It gets
+the upper hand by chopping of its friend's leg and going in for the
+kill.  Geez, these things do not play around.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 6 }
+  experience { 550 }
+  hp { 5, 7, 60 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93203
+{
+  name { a baby walking stick }
+  namelist { baby walking stick }
+  shortdesc { A newborn walking stick walks around the hatchery. }
+  longdesc {
+These walking sticks are so cute!  As they hatch from their eggs, they
+shake the goo off their stick like bodies and immediately start to run
+around.  You can see some babies eating leaves, some of the babies are
+sleeping and a few of the babies are already fighting!  These creatures
+sure are from some hearty stock.
+  }
+  race { None }
+  world_limit { 10 }
+  level { 3 }
+  experience { 130 }
+  hp { 3, 5, 15 }
+  alignment { 0 }
+  gold { 115 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93204
+{
+  name { a walking stick }
+  namelist { walking stick }
+  shortdesc { A walking stick clicks its hands together loudly at you. }
+  longdesc {
+A walking stick is roaming around the hatchery, helping the newborn
+babies along.  It helps them break out of their eggs and also helps
+break up some fights.  These creatures are always fighting.  Sensing 
+your presence, the walking stick runs up to you angrily, clicking its
+arms at you loudly.  It must be trying to defend the babies.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 5 }
+  experience { 475 }
+  hp { 5, 7, 50 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93205
+{
+  name { an old walking stick }
+  namelist { old walking stick }
+  shortdesc { An elderly walking stick tries to start a fight in the trees. }
+  longdesc {
+An old walking stick fights with a friend in the tree.  You can tell
+these sticks are old due to the heavy amount of scars all over their
+bodies.  It feebly tries to swipe its stick arm at the other walking
+stick but slips and falls into the mud.  What silly creatures.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 6 }
+  experience { 525 }
+  hp { 5, 7, 58 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 60, 5 }
+  body { 75, 4 }
+  arms { 75, 4 }
+  legs { 75, 4 }
+  feet { 75, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93206
+{
+  name { a water strider }
+  namelist { water strider }
+  shortdesc { A cute little water strider glides across the water. }
+  longdesc {
+The cute little bug skips and glides across the pond water.  It looks
+so innocent, playfully dancing around like an ice skater.  The water
+striders wings beat non-stop.  They seem to propel the insect across
+the pond.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 2 }
+  experience { 130 }
+  hp { 3, 5, 11 }
+  alignment { 0 }
+  gold { 115 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93207
+{
+  name { a dragonfly }
+  namelist { dragonfly }
+  shortdesc { A red and green dragonfly quickly buzzes after mosquitos. }
+  longdesc {
+The dragonfly buzzes around the air, chasing after mosquitos.  It has
+a bright red upper body with a green tail.  Its little wings beat
+wildly through the air as it manuevers around the swamp.  The dragonfly
+doesn't seem to be very helpful with controlling the mosquito population.
+It really needs to eat much faster.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 2 }
+  experience { 240 }
+  hp { 3, 5, 35 }
+  alignment { 0 }
+  gold { 135 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 2, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { blunt, fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93208
+{
+  name { a giant frog }
+  namelist { giant frog }
+  shortdesc { A giant green frog swims through the swampy water. }
+  longdesc {
+A large bubble floats from the frogs mouth as it croaks at you from the
+bottom of the murky marsh.  The frog as rather large, as frogs go.  It
+is probably the size of a bear.  It uses its powerful legs to jump off
+the swamp floor and begins to swim all around the pound.  The giant
+frog is extremely graceful as it dances through the murky water.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 22 }
+  experience { 2120 }
+  hp { 5, 8, 110 }
+  alignment { 0 }
+  gold { 550 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 50, 5 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93209
+{
+  name { a large python }
+  namelist { large python }
+  shortdesc { A large python hangs from the mossy tree, eyeing you hungrily. }
+  longdesc {
+It was hard to see the gigantic python at first.  Its long and sleek body
+seems to meld into the mossy tree it nests in.  However, you can now
+seem the snake slithering in and out of the branches in the tree above
+you.  Its head suddenly drops down from the tree, mouth wide in a fear-
+some hiss.  Venom slowly drips down its teeth and into your clothes.  The
+liquid starts to burn through leaving a huge hole.  How rude!  Its red 
+eyes stare at you with a deep and hungry gaze.  The center of its eyes 
+seem to be spinning, almost as if it was hypnotizing you.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 26 }
+  experience { 2350 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 665 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93210
+{
+  name { an ancient beetle }
+  namelist { ancient beetle }
+  shortdesc { An ancient looking beetle sleeps atop a comfy padded bed. }
+  longdesc {
+The beetle is a brownish color and has beautiful, shining wings covering
+its back.  The ancient beetle is in a deep sleep atop and comfy padded
+bed.  It seems that this beetle is someone of importance.  It glitters
+with the same iridescence as the other beetles as the sun reflects off
+its shell.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 12 }
+  experience { 1450 }
+  hp { 7, 8, 82 }
+  alignment { 0 }
+  gold { 275 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 75, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { electricity, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93211
+{
+  name { a large beetle }
+  namelist { large beetle }
+  shortdesc { A large iridescent beetle climbs all over the log. }
+  longdesc {
+The shine off the beetles shell is almost blinding.  It is very hard
+to maneuver around the beetles home when you cannot even see what lies
+ahead of you.  It flutters its wings quickly as you are about to step
+on one of the smaller beetles.  Better watch where you are going.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 6 }
+  experience { 525 }
+  hp { 4, 6, 33 }
+  alignment { 0 }
+  gold { 275 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { electricity, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93212
+{
+  name { a small beetle }
+  namelist { small beetle }
+  shortdesc { A small iridescent beetle twinkles in the sunlight. }
+  longdesc {
+The small beetles are difficult not to step on.  They scurry around the
+floor of the log without regard to where you are going.  They do not
+seem to glitter as much as the large beetles, regardless of how much
+sun light shines on them.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 4 }
+  experience { 375 }
+  hp { 4, 6, 21 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { electricity, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93213
+{
+  name { an army ant }
+  namelist { army ant }
+  shortdesc { A red army ant walks in single file along a tree branch. }
+  longdesc {
+Walking in the single file line, the red army ants seem to be very busy.
+They are all doing their duties, wether it is carrying food to or from
+their nest.  Ouch!  You better not get to close because they sure do
+like to bite.
+  }
+  race { None }
+  world_limit { 20 }
+  level { 4 }
+  experience { 350 }
+  hp { 3, 5, 25 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, fire, cold }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93214
+{
+  name { a queen ant }
+  namelist { queen ant }
+  shortdesc { A large queen ant rests on a small hill, chewing on leaves. }
+  longdesc {
+The crimson red queen ant does not appear to have any worries in the 
+world.  She sits atop a tiny dirt hill, surrounded by her army ants and
+chews on some delicate green leaves.  The army ants continually march
+up and down the hill bringing the queen ant her food.  That is one
+lucky ant!
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 8 }
+  experience { 1050 }
+  hp { 3, 5, 75 }
+  alignment { 0 }
+  gold { 450 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 1 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, fire, cold }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93215
+{
+  name { a fierce lion }
+  namelist { fierce lion }
+  shortdesc { A fierce lion bursts through the brush and charges towards you. }
+  longdesc {
+A rustling in the bramble underbrush produces a massive and fierce
+looking lion.  It roars, sending the wildlife in the surrounding areas
+running.  The lion quickly takes control of the situation, starting to
+circle around the room, looking for a clean shot.  It roars again and
+leaps into the air to attack.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 2950 }
+  hp { 6, 8, 195 }
+  alignment { 0 }
+  gold { 865 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93216
+{
+  name { a black crow }
+  namelist { black crow }
+  shortdesc { A jet black crow circles high in the air. }
+  longdesc {
+The crow circles from far above the river.  It is almost as though it
+is waiting for some carcasses to be left around.  What do they know
+that you do not?  The crows are pitch-black and have large feathery
+wings.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 5 }
+  experience { 190 }
+  hp { 3, 5, 35 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93217
+{
+  name { a female deer }
+  namelist { female deer }
+  shortdesc { A brown and white speckled deer drinks from the river. }
+  longdesc {
+The doe gently laps up some sparkling water from the passing stream.
+There is a small fawn benath the doe, hiding between her legs.  The doe
+carefully nudges the fawn towards the stream to take a drink, but the
+animal is reluctant to leave its mother's side.  How cute.  Sensing
+some movement, the doe's head shoots straight up, listening for any
+signs of trouble.  Not finding any, she goes back to drinking from the
+river.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 3 }
+  level { 9 }
+  experience { 1150 }
+  hp { 3, 5, 80 }
+  alignment { 0 }
+  gold { 575 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93218
+{
+  name { a small fawn }
+  namelist { small fawn }
+  shortdesc { A small brown fawn hides between its mother's legs. }
+  longdesc {
+The gentle fawn looks like it is ready to fall down at any time.  It is
+possible it was recently born and has not had time to get steady on its
+hooves.  The fawn is brown and has a large variety of white speckled 
+spots covering its side and under-carriage.  It seems very reluctant
+to leave its mother's side.  Maybe it senses danger near by?
+  }
+  race { None }
+  world_limit { 2 }
+  level { 3 }
+  experience { 450 }
+  hp { 3, 5, 40 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93219
+{
+  name { a large stag }
+  namelist { large stag }
+  shortdesc { A large brown stag with mighty horns watchs out for trouble. }
+  longdesc {
+The large stag is tall and very strong looking.  He carefully watches
+out over his pack, looking for any signs of trouble.  The stag's horns
+are huge and covered in a mossy fur.  The stag is a solid brown color 
+with no white patches to be seen.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 3 }
+  level { 9 }
+  experience { 1575 }
+  hp { 3, 5, 110 }
+  alignment { 0 }
+  gold { 425 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93220
+{
+  name { a sleeping bear }
+  namelist { sleeping bear }
+  shortdesc { A large brown bear has fallen fast asleep in the blueberry patch. }
+  longdesc {
+It looks so cute sleeping in the thick blueberry patch.  Its blueberry
+stained paws swipe at the air, like it is attacking something in its
+sleep.  Awwww, how cute.  Its fur is a matted brown and you can see
+fleas jumping all over the poor creature.  The bear lets out a mighty
+yawn and scratches its side with its huge paw.  *SNAP*  You seemed
+to have stepped on a thick briar branch and woken up the bear.  Better
+run.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 20 }
+  experience { 2050 }
+  hp { 6, 8, 155 }
+  alignment { 0 }
+  gold { 565 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93221
+{
+  name { a swarm of hornets }
+  namelist { swarm hornets }
+  shortdesc { A nasty looking hive of hornets is built into the tree. }
+  longdesc {
+A cloud of scary looking hornets seems to be swarming around a large
+tree in the thicket.  They fly in and out of the tree going about their
+business.  This must be a huge nest.  *Ouch*  One of the hornets stings
+you.  *OuchOuch*  They start to swarm above your head and all over you.
+This is not the time to be standing around!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 10 }
+  experience { 400 }
+  hp { 3, 5, 30 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { fire, cold }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93222
+{
+  name { a field mouse }
+  namelist { field mouse }
+  shortdesc { A small field mouse scurries out of the brush and over your feet. }
+  longdesc {
+The thick underbrush seperates and a cute field mouse runs out.  Its
+nose twitches back and forth as it looks you over carefully.  The mouse
+must not assess you are a threat as it runs over your boots and into 
+another thick patch of underbrush.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 6 }
+  experience { 500 }
+  hp { 4, 6, 30 }
+  alignment { 0 }
+  gold { 165 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93223
+{
+  name { a construction lizard }
+  namelist { construction lizard hauler }
+  shortdesc { A well built lizard is hauling timber along the trail. }
+  longdesc {
+The lizard stands about five feet tall.  It has a long tail that wags
+lazily behind it.  The lizard is well muscled so this kind of work must
+be its only job.  It carries two thick tree trunks along the trail,
+waiting to be told where to put them.  It stares impatiently at the
+chubby lizard and shouts something in their language.  It was probably
+not very friendly.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 45 }
+  experience { 4500 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 850 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93224
+{
+  name { a construction lizard }
+  namelist { construction lizard mover }
+  shortdesc { A large and muscular lizard carries a huge load of stones. }
+  longdesc {
+Wow, this lizard is big.  Standing at least six feet tall, it seems to
+be the largest of its race that you have seen to far.  The lizard's huge
+arms are hauling a substantial load of round, stone plates.  The plates
+look to be several hundred pounds.  The lizard's green face does not
+show the slightest sign of fatigue.  It patiently waits for the chubby
+lizard to give some orders.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 48 }
+  experience { 4700 }
+  hp { 6, 8, 300 }
+  alignment { 0 }
+  gold { 875 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 1 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93225
+{
+  name { a construction lizard }
+  namelist { construction lizard manager }
+  shortdesc { A chubby lizard is barking some orders at the workers. }
+  longdesc {
+Standing to the side of the muddy swamp path, the chubby lizard looks
+over a piece of parchment.  He looks at the paper in a strange manner
+and scratches his head.  One of his workers shouts at him in their
+tongue and the manager barks back to him, almost violently.  Turning
+to you the lizard says, "Sorry travellers, we will have construction
+to the path done shortly."  He smiles, "Please pass on by."
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 4100 }
+  hp { 6, 8, 230 }
+  alignment { 0 }
+  gold { 900 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93226
+{
+  name { a green frog }
+  namelist { green frog }
+  shortdesc { A small green frog croaks at you from the swamp floor. }
+  longdesc {
+The frog cocks its little head sideways and blinks its round eyes to
+you innocently.  It flicks its long tongue out to catch a mosquito and
+gulps it down happily.  *ribbit**ribbit*
+  }
+  race { None }
+  world_limit { 2 }
+  level { 5 }
+  experience { 400 }
+  hp { 4, 6, 20 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93227
+{
+  name { a mad hermit }
+  namelist { mad hermit }
+  shortdesc { A strange old reptile lays crying on the floor. }
+  longdesc {
+You stare at the man and he looks at you and says, "I was once a great 
+mage.  I could cast spells you could never attempt.  I should not be hiding 
+in disgrace like this.  Help me please."  He grabs your shirt to keep you 
+here, but you shrug him off easily.  Madmen can be so distasteful at times.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 34 }
+  experience { 3200 }
+  hp { 6, 8, 205 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 1 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93228
+{
+  name { a bridge guard }
+  namelist { bridge guard lizard }
+  shortdesc { Crouched and ready to pounce, a large lizard balances on the bridge rail. }
+  longdesc {
+A long, dark-green cloak covers the lizards face and upper torso.  You
+can feel the lizard is staring straight at you.  "What is your business
+here.", it speaks calmly.  "Evil ones..... are not welcome here.", it
+says, lifting its arm to remove the cloak from in front of its face.  A
+large scar runs down the the middle of the lizard's right eye.  A long
+smile runs across its face as it sees you step back.  Moving its hand to
+the hilt of its dagger it sneers, "Go back to where you come from before
+I have to kill you.".
+  }
+  race { None }
+  world_limit { 1 }
+  level { 37 }
+  experience { 3700 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 875 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 1 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93229
+{
+  name { a lizard fisherman }
+  namelist { lizard fisherman }
+  shortdesc { A lizard creature fishes off the side of the rowboat. }
+  longdesc {
+The lizard throws a net off the side of the boat and lets it sink into
+the mirky waters.  He waits a couple minutes and hauls up the net with
+all his might.  The net is full of bony, black fish the wiggle in an
+attempt to get free.  He dumps the net into his boat and continues the
+process.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 36 }
+  experience { 3500 }
+  hp { 6, 8, 250 }
+  alignment { 0 }
+  gold { 850 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 1 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93230
+{
+  name { a lizard fisherman }
+  namelist { lizard fisherman }
+  shortdesc { A lizard creature throws a net into the deep section of the lake. }
+  longdesc {
+The lizard barks at you to stop disturbing the water.  At least thats
+what it is probably saying since it is speaking in its own tongue.  It
+hauls a large net with a long cord attached into the air and swings it
+in a circle above its head.  The lizard tosses the net into the deep
+part of the lake and calmly waits.  Jerking the net back after a few
+minutes, it takes the fish it caught out of the net and throws them
+into a bucket.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 35 }
+  experience { 3400 }
+  hp { 6, 8, 225 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 1 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93231
+{
+  name { a tour guide }
+  namelist { tour guide }
+  shortdesc { A lizard with a red scarf is talking to the crowd of people. }
+  longdesc {
+The lizard stands confidently before the crowd of people.  It smiles and 
+says, "We are about to leave for the Swamp Birds of Amnos Tour!".  It
+coughs politely into its fist saying, "Please be sure to listen carefully.
+If you journey too far from the tour group you could be lost.  I assure
+you.  There are parts of this swamp even I do not like to go to.".  It
+smiles again and laughs, "So are we ready?".  "Please take out your
+Swamp Birds card and check off all the birds you see!", the lizard
+turns to the north and heads into the swamps.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 26 }
+  experience { 2200 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 550 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93232
+{
+  name { a human camper }
+  namelist { human camper male }
+  shortdesc { A human male is setting up a large red tent. }
+  longdesc {
+The human appears to be about thirty years old.  He is on his knees,
+spreading out the tent supplies and setting up to camp.  "What?!", he
+shouts at his wife angrily, "Don't you want a nice place to sleep?".
+He goes back to doing his work, totally oblivious to the fact that the
+tour is about to start.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93233
+{
+  name { a human camper }
+  namelist { human camper female }
+  shortdesc { A female human dressed in camping gear is listening to the tour guide. }
+  longdesc {
+She keeps looking from her husband, to the tour guide, to her husband to
+the tour guide.  You can tell that she is trying to listen carefully to
+what the tour guide is saying.  "Hal", she whispers.  "HAL", she shouts
+to the man setting up the tent.  "We are about to leave.  I don't want
+to leave our stuff here.  For the last time, please stop setting up the
+tent.".  Frustrated, she returns to listening to the tour guide.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 85 }
+  experience { 7700 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 1525 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93234
+{
+  name { an annoyed camper }
+  namelist { annoyed camper male }
+  shortdesc { A red faced human stands arms crossed listening to the tour guide. }
+  longdesc {
+Steam is practically pouring out this pour man's ears.  His arms are
+crossed across his chest and his face has turned beat red.  "This is
+the last time Helen.", he says teeth clenched to the whining woman.
+"I am not wasting another vacation like this.", he mutters under his
+breath, returning to listening to the tour guide.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 18 }
+  experience { 12200 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 1975 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93235
+{
+  name { a whining camper }
+  namelist { whining camper female }
+  shortdesc { A human female is talking and whining over the tour guide's instructions. }
+  longdesc {
+"Does it have to be this hot out here?", the woman whines to her husband.
+She shouts, "Hey, tour guide lizard.  Yeah, you.  Is there a local inn
+or something around here?".  She jumps back and slaps a mosquito off her
+wrist, screaming bloody murder.  "HaaaaaaaaAAAAAAAAROLD!", she screams.
+"I wanna go home!".
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 16 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 1475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93236
+{
+  name { a whining child }
+  namelist { whining camper child }
+  shortdesc { A human child is pulling at his mother's shorts, balling his eyes out and screaming. }
+  longdesc {
+Snot is dripping from his nose and a river of tears is pouring from this
+poor child's face.  He is holding a well-worn teddy bear beneath is right
+arm and tugging at his mother's shorts with his left hand.  The child
+notices you looking at him and grinds his face into his mother's leg.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 16 }
+  experience { 1300 }
+  hp { 6, 8, 85 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 8, 1 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93237
+{
+  name { a lizard shopkeeper }
+  namelist { lizard shopkeeper }
+  shortdesc { A old hunched over lizard stands behind the counter. }
+  longdesc {
+The lizard looks to be very old.  There is a white goatee growing from
+the shopkeeper's chin.  It carefully goes towards the entrance of the
+tent and shouts, "Go away, I'm closed to the likes of you!".  Waving
+you over it whispers, "I have to say that, it scares off the tourists.".
+The old lizard smiles and strokes its goatee with its hand.  "Please,
+I can tell you are a hearty adventurer.", it says quickly, walking back
+behind the counter.  "What can I do for you?  Anything on the shelves
+is for sale today.  10% off since you look so strong!", it states,
+looking at you with a careful smile.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 3800 }
+  hp { 6, 8, 250 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93238
+{
+  name { the head tour guide }
+  namelist { head tour guide }
+  shortdesc { A lovely looking lizard looks up from her paperwork. }
+  longdesc {
+It is obvious now that there are male and female lizards.  This lizard
+is very lovely and has a purple sash wrapped around its neck.  It blinks
+a few times and says, "We have a few tour packages available today!
+There is the very popular bayou tour, the hot springs tour and the swamp
+bird tour.".  It smiles, continuing to go about its paperwork.  "Please,
+let me know when you have come to a decision."
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 4100 }
+  hp { 6, 8, 230 }
+  alignment { 0 }
+  gold { 1300 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93239
+{
+  name { a mad fairy }
+  namelist { mad fairy }
+  shortdesc { A mad little fairy flys around freezing all the plants. }
+  longdesc {
+The fairy is awfully tiny for the amount of chaos it is creating.  The
+little creature flys all around the brush freezing everything it can.
+The poor creature screams in frustration as her efforts are for naught.
+The plants that she is freezing seem to defrost a few seconds after
+she freezes them.  So much for fairy power.
+  }
+  race { Elven }
+  sex { Female }
+  world_limit { 1 }
+  level { 105 }
+  experience { 35600 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 5300 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  spells { chill touch, cone of cold }
+  resistant { cold }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93240
+{
+  name { a tour guide }
+  namelist { tour guide brush }
+  shortdesc { A red scarved lizard tries to calm down a lost camper. }
+  longdesc {
+The tour guide is trying its hardest to bring the camper to his scenses.
+It trys to talk to him, it pours some cold water on his head and finally
+slaps him across the face!  Now that is some tour guide training.  "Sir,
+SIR!", it shouts, "Please remain calm and follow me back to the camp
+site.  We can find some help for you there.".
+  }
+  race { None }
+  world_limit { 1 }
+  level { 26 }
+  experience { 2200 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93241
+{
+  name { a lost camper }
+  namelist { lost camper }
+  shortdesc { A cold and shivering camper looks completely lost. }
+  longdesc {
+This poor gentleman is covered in frost.  Little icicles hang from his 
+hair.  His arms are clasped across his chest and you swear you can hear
+his knees knocking together.  "It's...  it's...  it's true!", he screams
+out suddenly, "There is a fairy in the brush.  Don't go any further."  
+His face starts to turn from a pinkish color to a pale blue.  The man's
+eyes roll back into his head and he falls limp to the ground.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93242
+{
+  name { a confused camper }
+  namelist { confused camper }
+  shortdesc { A confused looking camper stumbles around the brush. }
+  longdesc {
+A few days growth sprouts from the man's face.  His clothes are worn
+and torn, as though they have not been changed in a week.  A wild look
+is in the man's eyes.  "I'm going to find the fairy.", he whispers.
+"It's only been a week,", he laughs, "I just need a little more time.
+A little more time.  A little more time.".  He laughs somemore and
+starts to run around the room.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 78 }
+  experience { 12200 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 1975 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93243
+{
+  name { a damselfly }
+  namelist { damselfly }
+  shortdesc { A navy blue damselfly clings lazily to the cattails. }
+  longdesc {
+How strange that the damselfly isn't buzzing around.  It just calmly
+rests on a cattail, as if waiting for something.  Its wings beat softly
+as it takes off and flys away.  You must have gotten too close.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 2 }
+  experience { 240 }
+  hp { 3, 5, 35 }
+  alignment { 0 }
+  gold { 135 }
+  hit_bonus { 13 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 85, 5 }
+  body { 90, 4 }
+  arms { 90, 4 }
+  legs { 90, 4 }
+  feet { 90, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { blunt, fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93244
+{
+  name { vach the mouse }
+  namelist { vach mouse }
+  shortdesc { A small mouse takes off his black top hat and bows to you. }
+  longdesc {
+"My name is Vach.", the little mouse states very clearly as he stands
+up in its canoe and takes a small bow.  He continues, "I was once a
+mighty wizard!".  He stops and stares down at his feet.  "The lizard
+creatures showed me the error of my ways.", he smiles and goes back to
+his rowing.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 65 }
+  experience { 8750 }
+  hp { 6, 8, 620 }
+  alignment { 0 }
+  gold { 3600 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, flying }
+  spells { blindness, weakness }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93245
+{
+  name { a giant pike }
+  namelist { giant pike }
+  shortdesc { A giant pike trashes about in murky swamp water with another pike. }
+  longdesc {
+The giant fish appears to be about four feet long.  Its skin seens to
+be a greenish color with black spots all over.  The pike fights for its
+life against another giant pike or could they possibly be mating?  It
+is mating season after all.  Wow, that would certainly not be a fun way
+to continue to species.
+  }
+  race { Fish }
+  world_limit { 2 }
+  level { 25 }
+  experience { 5500 }
+  hp { 5, 6, 425 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 20, 7 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93246
+{
+  name { a pickerel }
+  namelist { pickerel }
+  shortdesc { A small pickerel hides behind the weeds. }
+  longdesc {
+The pickerel's skin is almost translucent at this point in its life.  
+The sun shining down from above seems to go right through the small 
+fish.  The young pike is about eight inches and is almost hidden 
+completely within the green weeds.  You would never have found it if
+it wasn't for the sun reflecting off its scales.
+  }
+  race { Fish }
+  world_limit { 4 }
+  level { 20 }
+  experience { 1400 }
+  hp { 5, 6, 210 }
+  alignment { 0 }
+  gold { 650 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 70, 4 }
+  body { 80, 3 }
+  arms { 80, 3 }
+  legs { 80, 3 }
+  feet { 80, 3 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93247
+{
+  name { a small goldfish }
+  namelist { small goldfish }
+  shortdesc { A small goldfish swims swiftly through the murky water. }
+  longdesc {
+The small goldfish swims around as though it does not have a care in
+the world.  It swims around its school mates, playing in their little
+games.  What fun!
+  }
+  race { Fish }
+  level { 15 }
+  world_limit { 10 }
+  experience { 75 }
+  hp { 5, 6, 40 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 80, 2 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93248
+{
+  name { a large muskie }
+  namelist { large muskie pike }
+  shortdesc { A large muskie tries unsuccefully to hide in the weeds. }
+  longdesc {
+The large pike thinks it is very clever, hiding behind a large clump
+of weeds.  It does not realize that half of its body is sticking out
+for the world to see.  The bright sun shining down from above shines
+brightly off the muskie's brilliant white and sharp teeth.  Very scary.
+  }
+  race { Fish }
+  world_limit { 1 }
+  level { 25 }
+  experience { 5500 }
+  hp { 5, 6, 425 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 20, 7 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93249
+{
+  name { a small pickerel }
+  namelist { pickerel wandering }
+  shortdesc { A small pickerel makes its way through the swampy water. }
+  longdesc {
+The pickerel's skin is almost translucent at this point in its life.  
+The sun shining down from above seems to go right through the small 
+fish.  The young pike is about eight inches.  It tries valiantly to make
+its way through the water.  You would probably never have found it if
+it was hiding on the bottom of the lake.
+  }
+  race { Fish }
+  world_limit { 3 }
+  level { 20 }
+  experience { 1400 }
+  hp { 5, 6, 210 }
+  alignment { 0 }
+  gold { 650 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 70, 4 }
+  body { 80, 3 }
+  arms { 80, 3 }
+  legs { 80, 3 }
+  feet { 80, 3 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, stay-zone }
+}
+
+93250
+{
+  name { a small goldfish }
+  namelist { small goldfish wandering }
+  shortdesc { A little goldfish seems to have wandered away from its school. }
+  longdesc {
+The goldfish looks very odd swimming all alone in the water.  Its little
+tail and fins flap as fast and hard as they can to propoel the goldfish
+through the swampy water.  Where in Oldport is it going?
+  }
+  race { Fish }
+  level { 15 }
+  world_limit { 2 }
+  experience { 75 }
+  hp { 5, 6, 40 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 80, 2 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { pierce, electricity }
+  act { npc, stay-zone }
+}
+
+93251
+{
+  name { a black mussel }
+  namelist { black mussel }
+  shortdesc { A black mussel sticks out from the sandy lake bottom. }
+  longdesc {
+A tiny stream of bubbles is released from the mussel's shell.  The shell
+is completely black which offsets it nicely from the dusty-gray sand.  A
+whitish-pink tongue slowly creeps out of the shell and the mussel digs 
+itself back into the deep sand.
+  }
+  race { Fish }
+  level { 15 }
+  world_limit { 4 }
+  experience { 60 }
+  hp { 5, 6, 30 }
+  alignment { 0 }
+  gold { 125 }
+  hit_bonus { 14 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 80, 2 }
+  body { 90, 1 }
+  arms { 90, 1 }
+  legs { 90, 1 }
+  feet { 90, 1 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93252
+{
+  name { a black cormorant }
+  namelist { black cormorant }
+  shortdesc { A black cormorant sits on a tree limb drying off its wings. }
+  longdesc {
+The cormorants have no oil on their feathers so they must dry them after 
+swimming in the water.  They stretch their wings out wide to catch the 
+most sun as possible.  They are shiney black and have small feather tufts
+on the tops of their heads.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93253
+{
+  name { a swamp sparrow }
+  namelist { swamp sparrow }
+  shortdesc { An angry swamp sparrow does an intricate dive bomb at your head. }
+  longdesc {
+The swamp sparrow is a dull blue color with black speckles on its under
+belly.  It carefully sits on top of a nest high in the trees.  The
+sparrow squaks at you as you get too close to its tree.  It stands up
+and dive bombs your head to give you another reminder.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93254
+{
+  name { a yellow-crowned night heron }
+  namelist { yellow-crowned night heron }
+  shortdesc { A yellow-crowned night heron walks through the swamp land. }
+  longdesc {
+The yellow-crowned night heron is a very beautiful creature.  It walks
+through the swamp in an almost majestic manner.  There is a cute yellow
+ploom of feathers growing from its cheaks to the back of its head.  It
+ruffles its feathers to show you how brilliants its colors are.  What
+a stuck up bird!
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93255
+{
+  name { an anhinga }
+  namelist { anhinga }
+  shortdesc { An anhinga's head quickly zips through the swamp water. }
+  longdesc {
+The Anhinga is a graceful bird with with a long thin neck.  Most of the
+bird is submerged in the water.  Just its neck sticks out.  It blinks
+at you quickly and dives back into the water.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93256
+{
+  name { a cory's least bittern }
+  namelist { corys least bittern }
+  shortdesc { A Cory's Least Bittern runs quickly through the reeds. }
+  longdesc {
+What a rare find!  It is the elusive Cory's Least Bittern.  The bird is
+brown colored and has two white lines running from the bottom of its
+beak to the bottom of its underbelly.  It quickly freezes when it senses
+you are staring at it.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93257
+{
+  name { a snowy-white egret }
+  namelist { snowy white egret }
+  shortdesc { A snowy-white egret is walking on the swamp floor. }
+  longdesc {
+You see a small white heron that has a narrow black bill.  It must be 
+the breeding season for it because it has beautiful plumes all along 
+its back.  It ruffles its feathers and continues walking along the
+swamp floor.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93258
+{
+  name { a mother duck }
+  namelist { mother duck }
+  shortdesc { A yellow-billed duck quacks at you while it stands on an old log. }
+  longdesc {
+The momma duck is completely white with a yellow bill.  She fluffs her
+feathers and quacks at you as you get closer.  She must be protecting
+something.  Better not mess with a mother.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93259
+{
+  name { a baby duck }
+  namelist { baby duck }
+  shortdesc { A baby duck shivers in fear behind an old log. }
+  longdesc {
+The baby duck looks so cute! Even shivering and in fear for death, it
+looks up at you with huge button eyes and sheds a single tear.  Oh
+yeah, gotta kill it.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 5 }
+  experience { 475 }
+  hp { 5, 7, 50 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 90, 5 }
+  body { 95, 4 }
+  arms { 95, 4 }
+  legs { 95, 4 }
+  feet { 95, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93260
+{
+  name { a barred owl }
+  namelist { barred owl }
+  shortdesc { A barred owl hoots at you from a long tree branch. }
+  longdesc {
+*HootHoot**HootHoot* echoes down to you from the tree limbs above.
+Looking up, you can see a brown barred owl sitting on a long tree branch.
+It appears to be about a foot high and has a white patch for a face.
+*HootHoot**HootHoot*.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93261
+{
+  name { a red billed woodpecker }
+  namelist { red billed woodpecker }
+  shortdesc { A tiny red billed woodpecker drills its beak into a tree. }
+  longdesc {
+The woodpecker has a red head and neck with a black body.  It clings
+to a tree with its feet and drills its beak into it.  It drills and
+drills until it digs out a hole worth crawling into.  Finally, all that
+pecking will stop.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93262
+{
+  name { a white ibis }
+  namelist { white ibis }
+  shortdesc { A beautiful white ibis walks gracefully through the swamp. }
+  longdesc {
+What a magnificent creature.  The ibis is the purest white you have
+ever seen.  It's like a bright shining light within the swamps.  The
+ibis carefully walks through the swamp, trying to fish for some food.
+It spears its beak into the water and pulls out a fresh catch.  Lunch!
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93263
+{
+  name { a prothonitary warbler }
+  namelist { prothonitary warbler }
+  shortdesc { A prothonitary warbler flutters quickly through the air. }
+  longdesc {
+A lovely yellow under belly is all you can see as the warbler flys past
+at high speeds.  The bird appears to be brown in color but it could be
+black.  Its hard to tell from this distance.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93264
+{
+  name { Russel the skiff salesman }
+  namelist { russel skiff salesman }
+  shortdesc { A cigar smoking lizard appears from the darkness. }
+  longdesc {
+Smiling wryly and taking a deep inhale from his smoking cigar, a lizard
+creature steps out from the darkness of the swamps.  "I got just what
+you need there.", he states, blowing out a plume of smoke in your face.
+He grins, "Skiffs for sale.  Since you are my favorite customer I'll 
+give you a bargain price.".  The lizard has a black leather vest covering
+his chest.  A studded black eye patch covers an obvious scar running
+down his face.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 4100 }
+  hp { 6, 8, 230 }
+  alignment { 0 }
+  gold { 1300 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93265
+{
+  name { an innocent manatee }
+  namelist { innocent manatee }
+  shortdesc { Two large eyes stare up at you innocently from the water. }
+  longdesc {
+The manatee's large body floats lazily through the water, munching on
+some green plant life.  It doesn't even bother to move as your boat runs
+right over it.  The sea cow turns and looks at you innocently, almost
+looking as though it is about to weep.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 2050 }
+  hp { 6, 8, 105 }
+  alignment { 0 }
+  gold { 865 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93266
+{
+  name { an innocent manatee }
+  namelist { innocent manatee wandering }
+  shortdesc { Two large eyes stare up at you innocently from the water. }
+  longdesc {
+The manatee's large body floats lazily through the water, munching on
+some green plant life.  It doesn't even bother to move as your boat runs
+right over it.  The sea cow turns and looks at you innocently, almost
+looking as though it is about to weep.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 2050 }
+  hp { 6, 8, 105 }
+  alignment { 0 }
+  gold { 865 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, stay-zone }
+}
+
+93267
+{
+  name { a large crocodile }
+  namelist { large crocodile }
+  shortdesc { A scaly green crocodile is swimming through the bayou. }
+  longdesc {
+The large crocodile is easily six feet long.  It swims quickly through
+the water, almost like a snake.  Its black eyes seem to be staring at
+you.  You better not get too close or you may wind up the next meal!
+  }
+  race { None }
+  world_limit { 2 }
+  level { 30 }
+  experience { 2950 }
+  hp { 6, 8, 195 }
+  alignment { 0 }
+  gold { 965 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93268
+{
+  name { a large crocodile }
+  namelist { large crocodile wandering }
+  shortdesc { A scaly green crocodile is swimming through the bayou. }
+  longdesc {
+The large crocodile is easily six feet long.  It swims quickly through
+the water, almost like a snake.  Its black eyes seem to be staring at
+you.  You better not get too close or you may wind up the next meal!
+  }
+  race { None }
+  world_limit { 4 }
+  level { 30 }
+  experience { 2950 }
+  hp { 6, 8, 195 }
+  alignment { 0 }
+  gold { 965 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, aggressive, stay-zone }
+}
+
+93269
+{
+  name { a snapping turtle }
+  namelist { a snapping turtle }
+  shortdesc { A red and green colored snapping turtle almost takes off your finger. }
+  longdesc {
+Ouch!  Looking down into the water, you can see the red and green shell
+of a snapping turtle as it dives back down into the bayou.  Its little
+head turns back and almost seems to smile at you.  How rude.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 1310 }
+  hp { 5, 6, 115 }
+  alignment { 0 }
+  gold { 635 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93270
+{
+  name { a screaming monkey }
+  namelist { screaming monkey }
+  shortdesc { A brown monkey screams at you from the tree branches. }
+  longdesc {
+The monkey jumps up and down on the swamp tree's branches.  It throws
+a piece of fruit it was holding at you and screams at you with all its
+might.  The monkey turns around, scratches his butt at you and swings
+away to another tree.
+  }
+  race { None }
+  level { 26 }
+  experience { 1500 }
+  hp { 6, 8, 130 }
+  alignment { 0 }
+  gold { 650 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93271
+{
+  name { the monkey king }
+  namelist { monkey king }
+  shortdesc { A regal looking monkey stares down at you from the branches. }
+  longdesc {
+The large monkey's face looks down at you with displeasure.  It folds
+its arms across its chest and lets out a grunt.  The monkey king lets
+out a loud shout and screaming monkeys begin to pelt you with fruit.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 25 }
+  experience { 5100 }
+  hp { 5, 6, 400 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 20, 7 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce }
+  act { npc, sentinel, stay-zone }
+}
+
+93272
+{
+  name { a swamp monster }
+  namelist { swamp monster }
+  shortdesc { A pile of swamp moss slowly rises from the river. }
+  longdesc {
+The swamp moss starts to shift and move along the river.  Clumps of
+the green moss rise into the air, gathering together into a humanoid
+like shape.  Bright red eyes begin to glow where eyes should be.  The
+swamp monster opens its mouth, letting out a low, inhuman moan.  The
+moan slowly rises into a loud roar as the monster raises its giant arm
+and reaches out for you.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 135 }
+  experience { 28200 }
+  hp { 6, 8, 1260 }
+  alignment { 0 }
+  gold { 3950 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 7, 2 }
+  head { 10, 6 }
+  body { 20, 5 }
+  arms { 20, 5 }
+  legs { 20, 5 }
+  feet { 20, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire, cold }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+93273
+{
+  name { a monkey child }
+  namelist { monkey child }
+  shortdesc { A small monkey child is drinking water from the stream. }
+  longdesc {
+Leaning over to drink from the stream, the young monkey cups its hands
+into the bayou and lifts some water to its mouth.  The monkey child
+screams and scampers back up a tree when is realizes you are staring
+at it.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 8 }
+  experience { 750 }
+  hp { 6, 8, 65 }
+  alignment { 0 }
+  gold { 175 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93274
+{
+  name { a gray baboon }
+  namelist { gray baboon }
+  shortdesc { A large gray baboon stares down at you from the trees. }
+  longdesc {
+Stoic and proud, the large baboon stares down at you from the tree limbs.
+It has a furry gray pelt with a bright red face.  There are white and
+yellow striped lines under the creature's eyes.  The baboon stands back
+patiently and lets its king do all the talking.
+  }
+  race { None }
+  world_limit { 7 }
+  level { 26 }
+  experience { 1675 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 450 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93275
+{
+  name { the baboon king }
+  namelist { baboon king }
+  shortdesc { A large baboon stands at the front of troop. }
+  longdesc {
+The baboon king raises its arms out wide and starts to viciously beat
+its own chest.  It grunts at you, letting you know who is in charge
+of the bayou.  The baboon quickly charges across a tree limb and 
+directly at you.  It stops suddenly and lets out several loud 
+gutteral grunts.  The baboon king resumes beating its chest with all
+its might.  That really has to hurt.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 25 }
+  experience { 5500 }
+  hp { 5, 6, 425 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 20, 7 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce }
+  act { npc, sentinel, stay-zone }
+}
+
+93276
+{
+  name { Lildenowin the dwarven mage }
+  namelist { lildenowin dwarven mage }
+  shortdesc { A ghost of a dwarven mage wanders through the hallways. }
+  longdesc {
+The dwarven mage is almost transparent, as you can see straight through
+him.  A long blue hat with golden stars sits atop his head.  The stars
+seem to move in constant motion.  A long white robe covers his body.  
+It reaches the floor and sweeps along behind him.  A gigantic golden
+moon flames and flares the back of the robe.  It seems to pulse and turn
+in a clockwise direction.  Lildenowin is reading a giant volume of text.
+He raises his hand to his chin, giving a pensive look.  *Creek*  The
+floor you just stepped on reveals your intrusion.  A bright white fire
+starts to surround the mage.  "Can't you see people are working here.",
+Lildenowin speaks, turning to greet you.  His eyes spark and burn with
+a deep hate.  "I'll teach you to sneak up on the king's royal mage.",
+he grins, as he starts to chant and move his long fingers in the air.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 35500 }
+  hp { 6, 8, 1310 }
+  alignment { 0 }
+  gold { 4200 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision }
+  spells { weakness, chill touch, dispel magic, shriek }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, stay-zone }
+}
+
+93277
+{
+  name { a queen spider }
+  namelist { queen spider }
+  shortdesc { The queen spider looks at you with a hungry gleam in her eyes. }
+  longdesc {
+The queen spider covers a majority of the room.  Her body is easily as
+large an adult human.  Her long, hairy legs seem to make her even larger.
+She suspends herself in the middle of the room with silky threads that
+are attached to the main supports of the web.  A large egg sack hangs
+from the end of her abdomen and seems to go down and to the west.  Some
+fluid drops from her mouth as she sees her latest meal has arrived. Her
+eight eyes are locked completely on you as she moves from her comfortable
+position and straight towards you.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 81 }
+  experience { 9100 }
+  hp { 6, 8, 642 }
+  alignment { 0 }
+  gold { 1700 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  spells { poison }
+  immune { charm }
+  susceptible { blunt, pierce, fire }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93278
+{
+  name { a large spider }
+  namelist { large spider }
+  shortdesc { A large spider walks along the silky spider webs. }
+  longdesc {
+The spider's body is about the size of a large dog.  Its eight long legs
+easily move the spider quickly along the silky spider webs.  The spiders
+body is grayish black and has prickly hairs along its cephalothorax.  It
+immediately turns and moves in your direction when it feels you vibrate
+the webs with your feet.
+  }
+  race { None }
+  world_limit { 20 }
+  level { 20 }
+  experience { 2050 }
+  hp { 6, 8, 155 }
+  alignment { 0 }
+  gold { 565 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  spells { poison }
+  immune { charm }
+  susceptible { pierce, blunt, fire }
+  act { npc, aggressive, stay-zone }
+}
+
+93279
+{
+  name { a baby spider }
+  namelist { baby spider wandering }
+  shortdesc { A little baby spider skitters quickly along the web trails. }
+  longdesc {
+Awwww, the baby spider is so cute!  It runs aimlessly along the spider
+webs.  It must be lost.  The little thing would probably be crying if
+it could.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 6 }
+  experience { 550 }
+  hp { 5, 7, 60 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 1, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, blunt, fire }
+  act { npc, stay-zone }
+}
+
+93280
+{
+  name { a baby spider }
+  namelist { baby spider }
+  shortdesc { A huge mass of baby spiders crawl out of a giant egg sack. }
+  longdesc {
+Ewwwwwww, you must have ruptured the egg sack, as a cancer like mass of
+baby spiders poors out.  They shake off the white fluid covering them
+and run as fast as they can towards you.  Being born works up quite the
+appetite.
+  }
+  race { None }
+  world_limit { 35 }
+  level { 6 }
+  experience { 550 }
+  hp { 5, 7, 60 }
+  alignment { 0 }
+  gold { 150 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 1, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, blunt, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93281
+{
+  name { a trapped fly }
+  namelist { trapped fly }
+  shortdesc { A gigantic fly tries to free its wings from the sticky webs. }
+  longdesc {
+Vibrating its wings as fast as it can, the gigantic fly tries to free
+itself from the sticky white webs.  You can almost see a panicked look
+in its two huge eyes.  The fly has a green body with multi-colored
+wings.  There are two long antenna sticking out from its head.  Suddenly,
+two spiders show up out of nowhere and start to spin the trapped fly
+into a cacoon.  Better get moving before they do it to you too.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 525 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 1 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { fire, cold }
+  act { npc, stay-zone }
+}
+
+93282
+{
+  name { a black spider }
+  namelist { black spider }
+  shortdesc { A small black spider makes its way along the webs to the west. }
+  longdesc {
+The spiders move along the webs to the west.  The spiders are not all
+that large, almost babies really.  They are definitely not here to
+defend the web.  Where are they going?
+  }
+  race { None }
+  world_limit { 5 }
+  level { 6 }
+  experience { 700 }
+  hp { 5, 7, 70 }
+  alignment { 0 }
+  gold { 165 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 1, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, blunt, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93283
+{
+  name { a parachute spider }
+  namelist { parachute spider }
+  shortdesc { A spider spins some silk into a parachute and floats away with the wind. }
+  longdesc {
+Several of the spiders as spinning their silky threads into a parachute.
+They finish their project and wait patiently.  The wind soon picks up, 
+lifting their parachute into the air and carrying the spiders away.
+What fun!
+  }
+  race { None }
+  world_limit { 5 }
+  level { 6 }
+  experience { 700 }
+  hp { 5, 7, 70 }
+  alignment { 0 }
+  gold { 165 }
+  hit_bonus { 14 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 1, 1 }
+  head { 60, 5 }
+  body { 70, 4 }
+  arms { 70, 4 }
+  legs { 70, 4 }
+  feet { 70, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, blunt, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93284
+{
+  name { a human tourist }
+  namelist { human tourist love }
+  shortdesc { A male tourist looks lovingly at his girlfiend. }
+  longdesc {
+The man is dressed in some brown shorts and forest green button down
+shirt.  He has a tan hat on his head and tips it a bit as he stares at
+his girlfriend.  His cheeks glow with a bright red luster as he reaches
+into the pocket of his shorts and pulls out a little box.  Clearing his
+throat, he tries to open up the tiny box and fumbles it into the pool
+of water.  Oh no!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93285
+{
+  name { a lovely tourist }
+  namelist { lovely tourist }
+  shortdesc { A very pretty tourist gazes longingly into the deep sapphire water. }
+  longdesc {
+The lovely blond female rests her elbows on the railing of the pool and
+stares deeply into the sparkling sapphire water.  She sighs a little as
+she marvels at the beauty of the deep sapphire pool.  The tourist has
+long, flowing blond hair that seems to blow in the wind.  She barely
+even notices her boyfriend is here.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 16 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 1475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93286
+{
+  name { an irritated tourist }
+  namelist { irritated tourist }
+  shortdesc { An irritated tourist stands at the railing, tapping his foot impatiently. }
+  longdesc {
+The human male looks about at the end of his ropes.  Arms crossed and
+face beet red, he taps his foot impatiently on the ground.  "Always on
+time.  Always on time.", he says mockingly to the female tourist.  "It
+is too hot in this hot spring to be waiting around like this."  He looks
+to the north and says, "Let's just go around the mountain.  I hear the
+views up there are wonderful!"  You can practially see the steam coming
+out of his ears.  Maybe it's just the hot spring.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 23 }
+  experience { 14700 }
+  hp { 6, 8, 925 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93287
+{
+  name { a watching tourist }
+  namelist { watching tourist }
+  shortdesc { A male tourist checks his sand-dial and looks over the railing. }
+  longdesc {
+"I can't believe this.", he says checking out the mini sand-dial on his
+wrist.  "The geyser is always on time every ten minutes!  Something has
+to be wrong with this stupid sand-dial."  The man is about five and a
+half feet tall with brown hair.  He has on a blue polo shirt and some
+cargo pants.  It must be hot in those pants!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 18 }
+  experience { 12200 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 1975 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93288
+{
+  name { a patient tourist }
+  namelist { patient tourist woman }
+  shortdesc { A middle-aged woman waits patiently for the geyser to appear. }
+  longdesc {
+The woman appears to be about forty years of age.  She looks very pretty
+in tan shorts and a peach polo shirt.  She stands looking to the west,
+waiting for the geyser to go off.  She sighs at the impatient tourist
+and says, "It's always on time.  Just a few more seconds dear.".  She
+goes back to staring absent-mindedly to the west.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 85 }
+  experience { 7700 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 1525 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93289
+{
+  name { a chatting tourist }
+  namelist { chatting tourist woman }
+  shortdesc { An old woman talks up a storm with her friends. }
+  longdesc {
+The old woman looks very happy in her one-piece swim suit and hair net.
+She smiles and chats with her friends like there is no tomorrow.  She
+does not seem to care that there are other people trying to enjoy the
+hot spring.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 84 }
+  experience { 7500 }
+  hp { 6, 8, 470 }
+  alignment { 0 }
+  gold { 1525 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93290
+{
+  name { an elder male }
+  namelist { elder male man }
+  shortdesc { An old man covers his ears and tries to enjoy the steam bath. }
+  longdesc {
+The poor old man leans back, trying to enjoy the hot springs.  He looks
+over to the chatting ladies with an irritated look on his face.  The
+old man gives up and just puts his hands over his ears.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93291
+{
+  name { a deaf old man }
+  namelist { deaf old man male }
+  shortdesc { An old man looks totally a peace resting in the steam bath. }
+  longdesc {
+Singing and rocking back and forth, the old man seems to really enjoy
+the hot steam bath.  He looks over to the chatting ladies and says, "Huh?
+Did you say something Marge?".  Not getting a response, he immediately
+returns to enjoying his bath.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 70 }
+  experience { 9100 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93292
+{
+  name { a red steam bather }
+  namelist { red steam bather }
+  shortdesc { An extremely red steam bather is revealing his next big idea. }
+  longdesc {
+"We can expand.", the heavy set man proclaims, "Nobody owns the forest
+and we can just take it over!".  Looking excited, he raises his hands
+in victory and states, "Profit is what its all about!"  The business
+man's skin is completely red.  The water and steam seems to have boiled
+him like a lobster.  He sways a little from the intense heat and then
+continues spewing out ideas to the young business man.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 31 }
+  experience { 18300 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93293
+{
+  name { a young business man }
+  namelist { young business man }
+  shortdesc { A young man takes notes as fast as he can while sweating profusely. }
+  longdesc {
+Taking notes at a frantic pace, the young business man shifts uncomfort-
+ably in the steam bath.  "Sir..  sir..  it's a little hot in here and
+I'm starting to get sick.", he young man proclaims as his skin turns
+from a pinkish to a deep red.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 72 }
+  experience { 9900 }
+  hp { 6, 8, 660 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93294
+{
+  name { a large clay blob }
+  namelist { large clay blob }
+  shortdesc { A large clay blob wanders around the caverns at a snail's pace. }
+  longdesc {
+The blob looks likes an erupting mound of moving clay.  Ripples of clay
+flow down its body in constant motion.  It does not seem to have any
+wants or needs.  Its mouth opens in a silent scream, revealing a deep
+black hole in the creatures face.  A large ball of mud shoots out of its
+mouth and straight at your head!  How rude.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 37 }
+  experience { 3700 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 1275 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, stay-zone }
+}
+
+93295
+{
+  name { a clay blob }
+  namelist { clay blob wandering }
+  shortdesc { A clay blob is playing around and caushing a ruckus. }
+  longdesc {
+The clay blob is playing with its friends around the cave.  It is about
+the size of a bowl of jelly and quivers just as easily.  It is so cute
+how they spit little balls of clay at eachother.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 27 }
+  experience { 1400 }
+  hp { 6, 8, 130 }
+  alignment { 0 }
+  gold { 675 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, stay-zone }
+}
+
+93296
+{
+  name { a clay blob }
+  namelist { clay blob }
+  shortdesc { A clay blob looks at you curiously and then spits some clay at you. }
+  longdesc {
+The blob just sits there, staring at you.  The blob is a reddish-brown
+color.  It looks to be two feet tall.  The blob bobs its head up and down
+and gives you an extremely curious look.  It takes a deep breath and spits
+a good size ball of clay at you.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 26 }
+  experience { 2200 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 650 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93297
+{
+  name { a teenage climber }
+  namelist { teenage climber female }
+  shortdesc { A human female teenager giggles with her friends near the edge of the mountain. }
+  longdesc {
+She looks about sixteen years old.  The teenager has a yellow ribbon in
+her brown, shoulder length hair.  Her friends must like to copy her
+because they all have the same hair cut.  How clicky.  She giggles and
+cheers with her friends about the fact that they actually climbed the
+mountain side.  The young girl gets excited when the tour guide says
+its time to start climbing down.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 81 }
+  experience { 3600 }
+  hp { 6, 8, 290 }
+  alignment { 0 }
+  gold { 1475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93298
+{
+  name { a teenage climber }
+  namelist { teenage climber male }
+  shortdesc { A teenager stands at the edge of the mountain breathing heavy. }
+  longdesc {
+This boy looks scared to death.  It looks like he is starting to hyper-
+ventilate as his breathing picks up to a rapid, heaving pace.  "Do we
+really have to climb back down?", he pleads to the tour guide.  "You 
+said there was a way to walk back down right?", he asks with some tears
+in his eyes.
+  }
+  race { Human }
+  sex { male }
+  world_limit { 3 }
+  level { 81 }
+  experience { 4100 }
+  hp { 6, 8, 320 }
+  alignment { 0 }
+  gold { 1475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93299
+{
+  name { a tour guide }
+  namelist { tour guide }
+  shortdesc { A lizard with a red scarf is giving instruction to tourists. }
+  longdesc {
+"Is everyone ready?", the tour guide starts off.  "We are about to get
+started.  Please make sure to listen to me carefully and watch your step.",
+he smiles.  "Ladies, please start off and we will follow behind you.",
+he says.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 26 }
+  experience { 2200 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93300
+{
+  name { a climbing tourist }
+  namelist { climbing tourist male }
+  shortdesc { A male tourist is making his way up the mountain with his team. }
+  longdesc {
+Decked out in the latest camping gear, the tourist makes his way up the
+mountain side.  Looking down to make sure his friends are ok, he nails
+in another piton and continues upwards.  He grips the rocks carefully,
+making sure not to miss step.  He looks up and smiles as he realizes he
+doesn't have that far to go.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 93 }
+  experience { 11100 }
+  hp { 6, 8, 850 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93301
+{
+  name { a male climber }
+  namelist { male climber }
+  shortdesc { A male climber carefully follows his lizard instructor's directions. }
+  longdesc {
+This is obviously this man's first time climbing.  He does not seem to
+get the rythym of the lizard's instructions.  "Mister, listen.  I just
+think I'm going to stay down here.", he complains to the tour guide.
+He pouts and sits down on the ground.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 9500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93302
+{
+  name { a female climber }
+  namelist { female climber }
+  shortdesc { A female climber tries her best to climb and follow directions at the same time. }
+  longdesc {
+This may be the lady's first time, but she is trying her best.  She
+carefully follows the lizard's instructions and is making her way up
+the mountain side.  "Hey!", she says laughing, "This isn't that hard
+after all!".
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 85 }
+  experience { 7700 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 1525 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  affected { infravision }
+  act { npc, sentinel, stay-zone }
+}
+
+93303
+{
+  name { a black blob }
+  namelist { black blob }
+  shortdesc { A black blob laughs and throws stones off the mountain. }
+  longdesc {
+You see a black creature four feet tall with webbed feet.  He looks over
+the edge of the cliff to the north, throwing down rocks and cackling.  
+Then all of a sudden he whirls around and sees you.  He quickly scampers
+away.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 4 }
+  level { 9 }
+  experience { 1550 }
+  hp { 3, 5, 110 }
+  alignment { 0 }
+  gold { 625 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, sneak }
+  immune { charm }
+  susceptible { fire, electricity }
+  act { npc, stay-zone }
+}
+
+93304
+{
+  name { the ghost of king Gilfor }
+  namelist { ghost king gilfor }
+  shortdesc { The ghost of king Gilfor stares transfixed at his riches. }
+  longdesc {
+The ghost is a truely horrible sight to behold.  He appears to be a 
+half formed creature composed of half dwarven and half lizard features.
+A long lizard tail swings behind him as he stares down at you from the 
+throne.  He notices you reaching for his treasure and slaps your hand.
+"I am king Gilfor.", he smiles.  The smile instantly turns into a frown
+and he growls,"Do not touch that, it is mine to keep....  forever!".  
+He leaps from his throne with a hiss and swipes his lizard like claws 
+at you.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 51100 }
+  hp { 6, 8, 1675 }
+  alignment { 0 }
+  gold { 8100 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { -20, 8 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  spells { fear }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+93305
+{
+  name { a ghost of a dwarven elder }
+  namelist { ghost dwarven elder male }
+  shortdesc { The ghost of a male dwarven elder waits patiently in a chair. }
+  longdesc {
+You can see the faint outline of a dwarven elder sitting in the one of
+the plush chairs of the waiting room.  He is dressed in a regal blue
+robe from head to toe.  His hairs have turned white, including the long,
+braided goatee growing from his chin.  The poor man's head keeps bobbing
+forward and back as if he is nodding to someone, but you can tell that
+he is just taking little cat naps.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 31 }
+  experience { 18300 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93306
+{
+  name { a ghost of a dwarven elder }
+  namelist { ghost dwarven elder female }
+  shortdesc { An old female dwarven ghost is reviewing some paperwork before she sees the king. }
+  longdesc {
+The ghost of a dwarven elder pushes her wire trimmed glasses back up 
+her nose as she reviews some paperwork.  An entire of stack of this
+paperwork sits on her lap.  She must plan on speaking with the king for
+quite some time.  It's fortunate for her that she is dead because she
+now has all eternity to do so.
+  }
+  race { Ghost }
+  sex { Female }
+  world_limit { 1 }
+  level { 23 }
+  experience { 14700 }
+  hp { 6, 8, 925 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93307
+{
+  name { a ghost of a dwarven guard }
+  namelist { ghost dwarven guard }
+  shortdesc { The ghost of a strong dwarven guard is guarding the hallways. }
+  longdesc {
+Stout and very strong looking, the ghost of a dwarven guard stands ready
+for any sort of attack.  He is dressed to the hilt heavy battle gear.
+The dwarves must have been preparing for a huge fight before the flood.
+He finally notices you starting, unsheaths his sword and thrusts an
+attack.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 4 }
+  level { 155 }
+  experience { 35500 }
+  hp { 6, 8, 1310 }
+  alignment { 0 }
+  gold { 7200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93308
+{
+  name { a ghost of a dwarven guard }
+  namelist { ghost dwarven guard wandering }
+  shortdesc { The ghost of a strong dwarven guard is patrolling the hallways. }
+  longdesc {
+Stout and very strong looking, the ghost of a dwarven guard stands ready
+for any sort of attack.  He is dressed to the hilt heavy battle gear.
+The dwarves must have been preparing for a huge fight before the flood.
+He finally notices you starting, unsheaths his sword and thrusts an
+attack.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 4 }
+  level { 155 }
+  experience { 35500 }
+  hp { 6, 8, 1310 }
+  alignment { 0 }
+  gold { 7200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, stay-zone }
+}
+
+93309
+{
+  name { a ghost of a dwarven princess }
+  namelist { ghost dwarven princess }
+  shortdesc { The ghost of a dwarven princess sits combing her long brown hair. }
+  longdesc {
+The dwarven princess sits at her vanity combing her long brown hair.
+She sets down her jeweled silver hair brush and grabs a bottle of bright
+green liquid.  She sprays a little of it on her neck and a squirt or
+two in the air.  She smiles brightly, grabbing a white ribbon and tying
+into her hair as a bow.  Her eyes shift to the top of the mirror as she
+finally realizes she is not alone.  Standing up quickly, she kicks her
+seat at you and grabs her brush.  Letting out a small growl, she chucks
+the brush at your head and leaps into a flying kick.  Geez, where is
+Neo?
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 22300 }
+  hp { 6, 8, 960 }
+  alignment { 0 }
+  gold { 6900 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93310
+{
+  name { a ghost of a dwarven prince }
+  namelist { ghost dwarven princess }
+  shortdesc { The ghost of a crying child sits crying in the corner of the room.  }
+  longdesc {
+Dressed in all black and crouched in the corner, the dwarven prince is
+crying his eyes out.  He looks to be about eight years old.  His big
+brown eyes peer out in between his fingers.  The young prince stands
+up and starts to walk towards you, hands still covering his face.  He
+removes his hands and lets out a loud shriek.  Better run before the
+guards hear it.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 25100 }
+  hp { 6, 8, 1030 }
+  alignment { 0 }
+  gold { 7900 }
+  caster { 10 }
+  mana { 100 }
+  power { 100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  spells { shriek }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93311
+{
+  name { a ghost of a dwarven prince }
+  namelist { ghost dwarven prince }
+  shortdesc { The ghost of a dwarven prince dances around the room. }
+  longdesc {
+The dwarven prince dances and prances around the room.  He is wearing
+a frilly white shirt and black spandex pants.  He jumps into the air
+and spins over to a vase of flowers on his desk.  Smiling, he smells
+the flowers and continues to dance around the room.  He doesn't appear
+to have a care in the world!  No wonder the king had another son.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 135 }
+  experience { 28200 }
+  hp { 6, 8, 1260 }
+  alignment { 0 }
+  gold { 8950 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 7, 3 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+93312
+{
+  name { a ghost of a dwarven crown prince }
+  namelist { ghost dwarven crown prince }
+  shortdesc { The ghost of a crown prince is reviewing some scrolls at his desk. }
+  longdesc {
+The crown prince looks very tall for a dwarf, even while sitting.  He
+is vigorously reviewing some paperwork on his desk and making little
+notes on a piece of paper.  He stops and looks up at you, "The guards
+didn't stop you.  Good.".  Smiling, he stands and bows to you, "I 
+haven't had a good fight all day.".  He reaches into his desk and pulls
+out two long, cleaver like knives.  Twirling the daggers around like
+a martial arts master, he assumes a fighting stance and motions you
+towards him with his left hand's fingers.  Geez, Gilfor really trained
+these kids how to fight.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 37800 }
+  hp { 6, 8, 1380 }
+  alignment { 0 }
+  gold { 8200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93313
+{
+  name { a ghost of a dwarven queen }
+  namelist { ghost dwarven queen }
+  shortdesc { The ghost of a dwarven queen sitting at her vanity, looking in the broken mirror. }
+  longdesc {
+The queen sits sraight up in her chair and stares into the mirror on
+her vanity.  She is dressed in a long silky night gown that reveals
+her amble bussom.  The queen is quite beautiful for a dwarf, she must
+be of mixed blood.  She looks up at her lady in waiting and sighs
+impatiently.  Must be tiring being waited on hand and foot.  "Enough.",
+the queen says pushing away her lady in waiting.  "Enough!", she says,
+standing to address you.  "My husband's insanity does not reflect our
+people's pride.  Damn him for cursing our people to live as lizards."
+She starts to cry and sits back down, staring deep into her vanity
+mirror.  "Just get it over with.", she says matter of factly to the
+mirror, staring back at you through the reflection with piercing eyes.
+"I know what you came here to do."
+  }
+  race { Ghost }
+  sex { Female }
+  world_limit { 1 }
+  level { 155 }
+  experience { 43500 }
+  hp { 6, 8, 1550 }
+  alignment { 0 }
+  gold { 9200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+93314
+{
+  name { a ghost of a lady in waiting }
+  namelist { ghost dwarven lady waiting }
+  shortdesc { A young dwarven female ghost is carefully dressing the queen's hair. }
+  longdesc {
+The dwarven girl tries her hardest to finsh the queen's hair.  She pins
+and ties sections of the queen's hair into a beautiful work of art.
+The young girl is dressed in rags compared to the rest of the royal
+family.  It is obvious she is not of the king's blood line.  She smiles
+at the queen when the matriarch sighs at her and then sticks her tongue
+at the queen when she turns her head away.
+  }
+  race { Ghost }
+  sex { Female }
+  world_limit { 1 }
+  level { 23 }
+  experience { 16200 }
+  hp { 6, 8, 945 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 7 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93315
+{
+  name { a young lizard }
+  namelist { young lizard female }
+  shortdesc { A young lizard sleeps in a nest on the queen's bed. }
+  longdesc {
+The young female lizard is curled up in her nest on the queen's bed.
+She jumps as you enter the room.  "She said I could stay here.", the
+young lizard shouts at you.  "The queen said I was beautiful and I
+don't have to be ashamed for being a lizard.", the girl sniffles as
+a tear drips from her big eyes.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 36 }
+  experience { 3500 }
+  hp { 6, 8, 250 }
+  alignment { 0 }
+  gold { 1250 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93316
+{
+  name { a human thief }
+  namelist { human thief black man }
+  shortdesc { A man dressed in all black ramages through the king's belongings. }
+  longdesc {
+Overturning dresser drawers and rifiling through the king's possessions,
+the thief takes anything valuable and stuffs it in a large bag.  The
+man looks human and stands about six feet tall.  He is dressed completely
+in black and has a cloth covering his face.  He doesn't even stop his
+stealing spree when he notices you enter the room.  There must be some
+good stuff in here.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 31 }
+  experience { 18300 }
+  hp { 6, 8, 1050 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+93317
+{
+  name { a ghost of a dwarven miner }
+  namelist { ghost dwarven miner }
+  shortdesc { A strong looking dwarven ghost is trying to break through the wall. }
+  longdesc {
+The dwarven ghost looks very strong with his well muscled arms.  He
+ineffectually swings his pickaxe into the cave wall, trying to do his
+job in death as he did in life.  The weapon does not seem to do any
+damage to the wall.  The miner is wearing some sturdy blue overalls and 
+has some muddy boots on his feet.  He stops swinging and grasps the 
+pickaxe tightly.  Looking quickly to his friend, he gives a quick nod.  
+"We'll teach you to wander through the dwarven kingdom.", he shouts.  
+Grasping the end of the pickaxe with his strong right hand, he lifts 
+it above has head and aims his weapon directly at yours.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 4 }
+  level { 155 }
+  experience { 34600 }
+  hp { 6, 8, 1295 }
+  alignment { 0 }
+  gold { 6200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93318
+{
+  name { a ghost of a dwarven miner }
+  namelist { ghost dwarven miner }
+  shortdesc { The ghost of a dwarven miner pushes a cart out of the store room. }
+  longdesc {
+The stout and plump ghost of a dwarven miner is suprised by your 
+entrance into the store room.  He can't seem to figure out what to do.
+He is frozen in his tracks.  "Um...  You there.", he stutters, slowly
+coming to his senses.  "I'll show you!", he shouts, jumping over the
+cart and running directly towards you.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 34100 }
+  hp { 6, 8, 1270 }
+  alignment { 0 }
+  gold { 7200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93319
+{
+  name { a ghost of a dwarven miner }
+  namelist { ghost dwarven miner }
+  shortdesc { The ghost of a dwarven miner wanders through the hallways. }
+  longdesc {
+The large dwarf almost looks lost.  He has a glazed look over his eyes
+and is dragging his pickaxe on the ground.  A stream of etheral ooze
+drips from his mouth and into the dirt on the cavern floor.  Is he
+asleep?
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 2 }
+  level { 155 }
+  experience { 34600 }
+  hp { 6, 8, 1295 }
+  alignment { 0 }
+  gold { 7200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision, water-breath }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93320
+{
+  name { a young lizard girl }
+  namelist { young lizard girl }
+  shortdesc { A young lizard girl is sitting in the mud, crying into her scaly hands. }
+  longdesc {
+This poor lizard is crying her eyes out.  She sits crouched in the mud
+with her hands over her eyes.  When you ask her why she says, "I like 
+being a reptile, but I'm not supposed to."  You try in vain to get her
+to talk to you again but can't.  Her weeping starts to get worse and
+snot starts seeping from her nose.  Gross.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 18 }
+  experience { 1300 }
+  hp { 6, 8, 80 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93321
+{
+  name { a reptilian child }
+  namelist { reptilian child }
+  shortdesc { A reptilian child is playing ball with its friends. }
+  longdesc {
+The lizard looks to be quite young, probably a child by reptile standards.
+It laughs and plays with its friends, throwing the ball back and forth.
+The lizard stops playing and looks at you as you walk through the muck.
+Its friend takes this opportunity to peg it in the head with the ball
+they were throwing around.  Nice.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 18 }
+  experience { 1500 }
+  hp { 6, 8, 93 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93322
+{
+  name { an old lizard }
+  namelist { old lizard }
+  shortdesc { An old lizard swings down from the trees and scolds the children. }
+  longdesc {
+The lizard looks old and is very wrinkley.  It swings down from a tree
+branch and lands with a splat in the muck.  The old lizard slowly rises,
+staring at the young lizards and says, "You know better than to play like
+this.  We must be quiet and good to prove to the Earth Mother that we 
+have reformed.  You don't want to be reptiles all your life, do you?".
+*tchh*  The lizard clicks its tongue, climbing back up a tree.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 24 }
+  experience { 2000 }
+  hp { 6, 8, 140 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93323
+{
+  name { a lizard mage }
+  namelist { lizard mage }
+  shortdesc { A blue robed lizard is casting an intricate spell. }
+  longdesc {
+The lizard stands in the muck with its arms outstretched.  The lizard
+seems to be chanting in its own language, but it seems to have an elven
+sound to the dialect.  A tree begins to grow from the ground and up
+into the sky as the lizard mage moves his arms and fingers in intricate
+patterns.  The lizards falls to the ground huffing and puffing heavily.
+There must be some heavy magics involved here.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 37 }
+  experience { 3700 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 1275 }
+  caster { 10 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  spells { weakness, blindness, shocking grasp }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93324
+{
+  name { a lizard shopkeeper }
+  namelist { lizard shopkeeper }
+  shortdesc { A old hunched over lizard stands behind the counter. }
+  longdesc {
+The shopkeeper looks extremely old.  His scaley skin has gone all wrinkley
+with age.  He give you an odd look and lets out a short hiss.  "Look,
+I don't have all day with my age.  What do you want?"
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 3800 }
+  hp { 6, 8, 273 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93325
+{
+  name { a sleeping lizard }
+  namelist { sleeping lizard }
+  shortdesc { A lizard creature is sleeping on the floor in the corner of the room. }
+  longdesc {
+The lizard does not even notice you have entered the room.  It continues
+to take a nap on the bare floor.  It's curled up like a little dog.  
+How cute.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 2700 }
+  hp { 6, 8, 160 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93326
+{
+  name { a lizard creature }
+  namelist { lizard creature muck }
+  shortdesc { A lizard creature walks quickly through the muck. }
+  longdesc {
+The lizard looks about four feet tall.  It has olive green scaley skin
+covering its entire body.  A long tail waves innocently behind it.  The
+lizard moves quickly through the muck.  The muddy, gooey mess does not
+seem to hinder it in the least.  It sees you staring at it and quickly
+walks in another direction.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 30 }
+  experience { 2900 }
+  hp { 6, 8, 180 }
+  alignment { 0 }
+  gold { 1230 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, scavenger, stay-zone }
+}
+
+93327
+{
+  name { a lizard creature }
+  namelist { lizard creature house }
+  shortdesc { A lizard creature walks quickly through the hallways. }
+  longdesc {
+The lizard looks about four feet tall.  It has olive green scaley skin
+covering its entire body.  A long tail waves innocently behind it.  The
+lizard moves quickly through the house.  It must have somewhere to go
+and something to do.  It sees you staring at it and quickly walks in 
+another direction.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 30 }
+  experience { 2900 }
+  hp { 6, 8, 180 }
+  alignment { 0 }
+  gold { 1230 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, stay-zone }
+}
+
+93328
+{
+  name { a lizard school teacher }
+  namelist { lizard school teacher }
+  shortdesc { A lizard is standing in front of his class giving a lecture. }
+  longdesc {
+The lizard holds a text book with his left hand and addresses the class
+with his right.  "King Gilfor could not rid himself of his greed.", the
+teach says to his students.  "We are lizards because of his selfishness."
+Noticing the children starting to get upset he says, "It was not all
+bad though.  The elves have taught us humility and honor.  There is
+nothing greater.".  He proudly puts his in front of his heart and smiles,
+"We must atone for the sins of our forefathers.  All hail the Earth
+Mother."  The children repeat after him in their cute little voices.
+He finally looks at you.  "We are a school here.  Please move on."
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 3500 }
+  hp { 6, 8, 210 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93329
+{
+  name { a lizard school teacher }
+  namelist { lizard school teacher smoking }
+  shortdesc { A lizard is sitting behind his desk smoking a pipe. }
+  longdesc {
+The lizard takes a deep inhale from his pipe with a pleasant smile.  He
+leans back on his chair and exhales a huge ploom of smoke.  Jumping to
+his feet when he notices you, he says to you with a scared look, "You
+didn't see anything.".  The lizard then slips you a gold coin.  Wee!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 3500 }
+  hp { 6, 8, 210 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93330
+{
+  name { a lizard school child }
+  namelist { lizard school child }
+  shortdesc { A lizard child is listening to its instructor and taking notes. }
+  longdesc {
+The lizard looks so cute sitting on the floor and taking notes on its
+slate.  It looks up at its teacher in awe as he talks about their former
+king.  The young reptilian child is enraptured by its teacher's lecture.
+  }
+  race { None }
+  world_limit { 8 }
+  level { 18 }
+  experience { 1300 }
+  hp { 6, 8, 80 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93331
+{
+  name { Llendolwir lizard girl }
+  namelist { llendolwir lizard girl }
+  shortdesc { A lizard girl rests on some cypress branches. }
+  longdesc {
+How strange.  Most of the lizard creatures don't wear clothes, but this
+young girl has a blue dress on.  "The last.", she says to you, staring
+up at you from the floor.  "I am the last of the king's descendants.  The
+blood line stops...", and she stops, letting out an insane cackle.  The
+lizard girl stands and shakes her fists at you.  "Blood line!  HA!  Who 
+would want this accursed blood.", she laughs, falling down and curling 
+up into a ball.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 23 }
+  experience { 16300 }
+  hp { 6, 8, 995 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93332
+{
+  name { a singing lizard }
+  namelist { singing lizard }
+  shortdesc { A lizard sings songs from an elven hymnal. }
+  longdesc {
+A lizard creature stands with the rest of the choir.  The singing lizard
+is holding a hymnal that appears to have elven writing on the cover.
+The lizards are singing in their native tongue.  It does not sound much
+like singing, but more like a harmonic series of croaks and throat
+clicks.  The lizard looks at you curiously as you make your way through
+the choir.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 30 }
+  experience { 2300 }
+  hp { 6, 8, 145 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93333
+{
+  name { a choir master }
+  namelist { choir master }
+  shortdesc { The choir master conducts the lizard choir with his hands. }
+  longdesc {
+The choir master screams at you as you make your way through the choir.
+"Hey!  This is a place of worship.", the choir master screams at you.
+"Can't you have a little respect?!"  He tries to compose himself and
+continues to conduct the choir members.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 2500 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 40, 5 }
+  body { 50, 4 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 50, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93334
+{
+  name { a lizard priest }
+  namelist { lizard priest }
+  shortdesc { The priest glares at you from on top of his pulpit. }
+  longdesc {
+The priest is dressed in a simple black scarf.  He holds an elven gospel
+in his hands as he preaches his sermon to the praying lizards.  The
+lizard is very old as you can see his mane is mostly white.  His eyes
+pierce through the crowd and right at you as you walk through the praying
+lizards.  You must be making too much noise.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 42 }
+  experience { 3500 }
+  hp { 6, 8, 210 }
+  alignment { 0 }
+  gold { 1225 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 50, 5 }
+  body { 60, 4 }
+  arms { 60, 4 }
+  legs { 60, 4 }
+  feet { 60, 4 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93335
+{
+  name { a praying lizard }
+  namelist { praying lizard }
+  shortdesc { A lizard creature prays on its hands and knees while listening to the sermon. }
+  longdesc {
+The lizard reads from the elven gospel as it tries not to fall asleep
+from the boring drone of the priest.  It looks from the book, to its
+friend, to the priest, to its friend.  The lizard must be ready to go.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 26 }
+  experience { 2200 }
+  hp { 6, 8, 150 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93336
+{
+  name { a meditating lizard }
+  namelist { meditating lizard }
+  shortdesc { A lizard woman quietly meditates in the middle of the smoke filled room. }
+  longdesc {
+The lizard is sitting indian style on the floor with its eyes closed.
+It seems to be humming in a meditative state.  It rocks back and forth
+as it takes deep breaths of the sweet smelling smoke.  *Hum*Hum**Hum*
+Better get a move on before you fall asleep.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 26 }
+  experience { 2400 }
+  hp { 6, 8, 160 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93337
+{
+  name { a janitor lizard }
+  namelist { janitor lizard }
+  shortdesc { An old lizard sweeps up around the museum. }
+  longdesc {
+The thin and old looking lizard slowly sweeps for the floors of the
+Museum of Rememberance.  It does not seem to be enjoying its job in
+the least.  Looking around, it's strange that someone is sweeping up
+in this place at all.  The museum is in prestine condition.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 24 }
+  experience { 2000 }
+  hp { 6, 8, 135 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, stay-zone }
+}
+
+93338
+{
+  name { a janitor lizard }
+  namelist { janitor lizard wandering }
+  shortdesc { A hearty lizard walks through the swamp picking up trash. }
+  longdesc {
+The lizard has a nice blue scarf tied around its neck.  There is a 
+leather strap across its left shoulder that is attached to a large
+sack on the lizard's hip.  The janitor walks along the swamp trails
+picking up and trash left from the tourists.  A lizard's work is never
+done.  He smiles at you and continues along the trail.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 24 }
+  experience { 2500 }
+  hp { 6, 8, 170 }
+  alignment { 0 }
+  gold { 1150 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 60, 6 }
+  body { 70, 5 }
+  arms { 70, 5 }
+  legs { 70, 5 }
+  feet { 70, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, stay-zone }
+}
+
+93339
+{
+  name { a ranger lizard }
+  namelist { ranger lizard }
+  shortdesc { A cloaked lizard moves silently through the swamps. }
+  longdesc {
+The ranger weaves silently in and out of the swamp tree shadows.  It
+is covered in a full length gray cloak that almost perfectly blends
+into the darkness of the shade.  Suddenly the lizard disappears from
+sight.  There are no tracks or signs of the lizards where abouts.
+A piercing pressure comes sharply and quickly from your neck.  Looking
+as far back as you can, you can see a large reptilian arm holding the
+weapon.  A low hiss whispers in your ear, "You've wandered a little
+far from the trail.  I suggest you turn around.".  Without so much as
+a sound the lizard is gone.  It's almost as if he was never there.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 45 }
+  experience { 4500 }
+  hp { 6, 8, 260 }
+  alignment { 0 }
+  gold { 1350 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 30, 6 }
+  body { 40, 5 }
+  arms { 40, 5 }
+  legs { 40, 5 }
+  feet { 40, 5 }
+  affected { infravision, flying }
+  immune { charm }
+  susceptible { pierce, fire }
+  act { npc, stay-zone }
+}
+
+93340
+{
+  name { a bronze dragon }
+  namelist { bronze dragon }
+  shortdesc { A small bronze dragon sweeps down from the sky. }
+  longdesc {
+The dragon's skin is very beautiful.  It glistens and shines in the
+beaming sunlight.  You almost forget that a fearsome dragon is roaring
+at you.  The dragon stretches out his might wings and flaps them at
+you violently.  The remains of corpses and skeletons fly at you at an
+amazing speed.  *Ouch*  The remains pelt you everywhere, leaving a 
+fresh barrage of bruises.  A white glow starts to shine from the dragon's
+mouth.  A fountain of electric sparks flow out and strike some bones
+on the ground, turing them to dust.
+  }
+  race { Dragon }
+  sex { Male }
+  world_limit { 1 }
+  level { 210 }
+  experience { 53600 }
+  hp { 6, 8, 1725 }
+  alignment { 0 }
+  gold { 8100 }
+  caster { 15 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { -30, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { infravision, flying }
+  spells { gust of wind }
+  immune { charm }
+  resistant { pierce, slash, energy, fire, cold }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+93341
+{
+  name { a black vulture }
+  namelist { black vulture }
+  shortdesc { A black vulture with a long red neck flies over head. }
+  longdesc {
+The vulture circles high above the battle field.  It is probaby
+looking for something to eat.  It has a fat black feathered body with a
+white feathery collar.  It squacks at you impatiently, waiting for you 
+to die.
+  }
+  race { None }
+  level { 20 }
+  experience { 1250 }
+  hp { 5, 6, 105 }
+  alignment { 0 }
+  gold { 1125 }
+  hit_bonus { 14 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 70, 5 }
+  body { 80, 4 }
+  arms { 80, 4 }
+  legs { 80, 4 }
+  feet { 80, 4 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93342
+{
+  name { a dwarven skeleton }
+  namelist { dwarven skeleton }
+  shortdesc { A dwarven skeleton is choking the hell out of a elven skeleton.  }
+  longdesc {
+A pile of bones slowly rises from the field, floating into the air to
+form the skeletal frame of a dwarf.  The bones seem to glow with a dark
+light.  The skeleton's frame is stout and the bones are thick.  This
+is definitely the frame of a dwarf.  The skeleton immediately attacks
+an elven skeleton that has formed across the room.  Death must not stop
+the need for a fresh kill.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 25100 }
+  hp { 6, 8, 1030 }
+  alignment { 0 }
+  gold { 5900 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93343
+{
+  name { an elven skeleton }
+  namelist { elven skeleton }
+  shortdesc { An elven skeleton is choking the hell out of a elven skeleton.  }
+  longdesc {
+A pile of bones floats up from the ground and forms the skeletal remains
+of an elven warrior.  The bones of the warrior glow with a dark energy.
+The skeletal elf immediately charges across the field and starts choking
+a skeletal dwarf.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 26300 }
+  hp { 6, 8, 1150 }
+  alignment { 0 }
+  gold { 3950 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93344
+{
+  name { A skeletal mage }
+  namelist { skeletal mage skeleton }
+  shortdesc { A piles of bones begins to glow and slowly forms a skeletal human mage. }
+  longdesc {
+A pile of bones slowly rises from the ground and begin to pulse with
+a dark burning light.  The bones form the skeleton of a long dead human
+being.  The skeletal remains seem to smile at you.  A bright red luster
+seems to rotate clockwise in its eye sockets.  The skeletons jaw starts
+to move as though it was talking, possibly making some incantations.
+Better run.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 155 }
+  experience { 35500 }
+  hp { 6, 8, 1310 }
+  alignment { 0 }
+  gold { 4200 }
+  caster { 20 }
+  mana { 200 }
+  power { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 0, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  affected { infravision }
+  spells { weakness, blindness, chill touch, dispel magic, shriek }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93345
+{
+  name { a dwarven skeleton }
+  namelist { dwarven skeleton wandering }
+  shortdesc { A dwarven skeleton is wandering around the battlefield looking for a fight.  }
+  longdesc {
+A pile of bones slowly rises from the field, floating into the air to
+form the skeletal frame of a dwarf.  The bones seem to glow with a dark
+light.  The skeleton's frame is stout and the bones are thick.  This
+is definitely the frame of a dwarf.  The skeleton picks up some weapons
+and begins to hunt for fresh prey.  It may not have a stomach but you
+can tell it is hungry.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 3 }
+  level { 155 }
+  experience { 25100 }
+  hp { 6, 8, 1030 }
+  alignment { 0 }
+  gold { 4900 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, stay-zone }
+}
+
+93346
+{
+  name { an elven skeleton }
+  namelist { elven skeleton wandering }
+  shortdesc { An elven skeleton wandering around the battlefield looking for a dwarf to fight.  }
+  longdesc {
+A storm of bones rises into the air, circling like it is caught in a 
+tornado of some sort.  When the dust settles the bones have formed into
+the skeleton of an elven warrior.  The warrior immedialy picks up a
+weapon and starts to hunt some dwarfs.  Some bad blood never dies.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 10 }
+  level { 155 }
+  experience { 26300 }
+  hp { 6, 8, 1150 }
+  alignment { 0 }
+  gold { 4950 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { blunt, electricity }
+  act { npc, aggressive, stay-zone }
+}
+
+93347
+{
+  name { a tree guard }
+  namelist { tree guard }
+  shortdesc { A massive cypress tree blocks your entrance. }
+  longdesc {
+A tree slowly pulls its roots from the swampy earth and moves
+onto the path, blocking any entrance to the south.  A flock of
+birds fly from the cypress's head from all the movement.
+*SniffSniff* the tree snorts at you, "You smell of power!
+the Swamps of Amnos are only for those lower than the level
+of 175!"  Two deeps lights pulsate from where the eyes of this
+beast would be located, and it starts to sway its giant branches
+in a display of its mighty power.
+}
+  race { none }
+  sex { male }
+  world_limit { 2 }
+  level { 501 }
+  experience { 376000 }
+  hp { 16, 13, 6030 }
+  alignment { 0 }
+  gold { 29000 }
+  hit_bonus { 17 }
+  dam_bonus { 12 }
+  attacks_per_round { 5 }
+  move { 200 }
+  damage { 4, 6, 5 }
+  head { -20, 9 }
+  body { -10, 8 }
+  arms { -10, 8 }
+  legs { -10, 8 }
+  feet { -10, 8 }
+  affected { infravision, true-sight }
+  immune { charm }
+  susceptible { slash, fire }
+  act { npc, sentinel, stay-zone }
+}
+

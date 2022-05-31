@@ -1,0 +1,584 @@
+65001
+{
+  name { Captain of the guards }
+  namelist { elven captain }
+  shortdesc { The captain stands here looking over reports. }
+  longdesc {
+The captain is rather well dressed in his green silks, and has a silver
+jewelled dagger belted to his waist.  He stands here looking over the 
+reports of the day.  He does not look like some one who would take too 
+kindly to being interrupted.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 500 }
+  gold { 5000 }
+  alignment { 1000 }
+  Experience { 750000 }
+  hp { 45, 92, 42000 }
+  hit_bonus { 17 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 6, 18, 33 }
+  head { -300, 12 }
+  body { -300, 10 }
+  arms { -290, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, fire, energy, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+}
+
+65002
+{
+  name { The outpost guard }
+  namelist { outpost guard }
+  shortdesc { The elven guard stands here eyeing you suspiciously. }
+  longdesc {
+The elven guard, with his green armour, would be almost invisible from 
+the ground.  All an intruder would see would be a flash of silver as he 
+drew his sword.
+  }
+  race { elven }
+  sex { Male }
+  world_limit { 6 }
+  level { 410 }
+  gold { 3000 }
+  alignment { 1000 }
+  Experience { 400000 }
+  hp { 45, 3000, 30000 } 
+  hit_bonus { 10 }
+  dam_bonus { 12 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 6, 20, 65 }
+  head { -200, 12 }
+  body { -200, 10 }
+  arms { -190, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, energy, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+}
+
+65003
+{
+  name { The elven priestess }
+  namelist { elven priestess }
+  shortdesc { The priestess stands here by her altar. }
+  longdesc {
+The priestess is the picture of serenity in her ceremonial robes. But 
+with the hammer she carries, she definitely looks like she can defend 
+herself, if the need arose.
+  }
+  race { Elven }
+  sex { Female }
+  world_limit { 1 }
+  level { 510 }
+  gold { 30000 }
+  alignment { 1000 }
+  experience { 600000 }
+  caster { 500 }
+  mana { 1500 }
+  hp { 50, 5000, 65000 }
+  hit_bonus { 26 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 6, 70, 25 }
+  head { -220, 12 }
+  body { -200, 10 }
+  arms { -190, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, energy, fire, backstab }
+  act { sentinel, stay-zone } 
+  affected { sanctuary, detect-invisible }
+  spells { shriek, cone of cold, dispel magic, curse }
+}
+
+65004
+{
+  name { The elven ranger }
+  namelist { elven ranger }
+  Shortdesc { The ranger stands here inspecting his equipment for the trip back into the forest. }
+  longdesc {
+The ranger is here looking over his equipment. If you were not standing
+right here in the room with him, he would be invisible in the forest, 
+with his full length multi-hued cloak.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 499 }
+  gold { 3000 }
+  alignment { 1000 }
+  Experience { 500000 }
+  caster { 499 }
+  mana { 1000 }
+  hp { 50, 1100, 80000}
+  hit_bonus { 19 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 } 
+  move { 500 }
+  damage { 6, 80, 27 }
+  head { -420, 15 }
+  body { -400, 12 }
+  arms { -290, 12 }
+  legs { -400, 10 }
+  feet { -400, 15 }
+  immune { charm, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+  spells { meteor swarm, dispel magic, teleport }
+}
+
+65005
+{
+  name { The elven lieutenant }
+  namelist { elven lieutenant }
+  shortdesc { The lieutenant stands here awaiting commands from the general. }
+  longdesc {
+The lieutenant is more heavily armoured then the other elves you have 
+seen so far.  His mithril armour is well cared for and his sword was 
+designed for use, not ceremony.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 2 }
+  level { 410 }
+  gold { 6000 }
+  alignment { +1000 }
+  experience { 550000 }
+  hp { 60, 120, 33000 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 5, 6, 37 }
+  head { -320, 12 }
+  body { -290, 10 }
+  arms { -290, 10 }
+  legs { -300, 10 }
+  feet { -300, 12 }
+  immune { charm, backstab, fire }
+  act { sentinel, stay-zone }
+  affected { detect-invisible }
+}
+
+65006
+{
+  name { The elven general }
+  namelist { elven general }
+  shortdesc { The general stands here looking over his maps. }
+  longdesc { 
+The general stands here in his ceremonial armour.  Although his armour is
+ceremonial, he exudes an aura of command.  He definitely looks like 
+someone who expects his commands to be obeyed at once.
+  }
+  race {  Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 750 }
+  gold { 257500 }
+  alignment { 1000 }
+  experience { 940000 }
+  hp { 150, 225, 100000 }
+  hit_bonus { 29 }
+  dam_bonus { 21 }
+  attacks_per_round { 8 } 
+  move { 500 }
+  damage { 7, 10, 221 }
+  head { -530, 33 }
+  body { -410, 20 }
+  arms { -420, 20 }
+  legs { -400, 20 }
+  feet { -400, 25 }
+  immune { charm, backstab, fire }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+}
+
+65007
+{
+  name { The chamber guard }
+  namelist { chamber guard }
+  shortdesc { The chamber guard stands here to turn back those who should not be here. }
+  longdesc {
+The chamber guard is more heavily armoured then the other guards you 
+have seen so far.  His demeanour and armour let you know he will not let 
+anyone pass by him.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 2 }
+  level { 400 }
+  gold { 25000 }
+  alignment { 1000 }
+  experience { 310000 }
+  hp { 45, 100, 20000 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.5 }
+  move { 500 }
+  damage { 5, 7, 40 }
+  head { -200, 12 }
+  body { -200, 10 }
+  arms { -190, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { sanctuary, detect-invisible }
+}
+
+65008
+{
+  name { The elven archer }
+  namelist { elven archer }
+  shortdesc { The archer is here scanning the forest. }
+  longdesc {
+The archer stands here scanning the forest floor for possible enemies.
+He is clothed in simple silks and only lightly armored.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 2 }
+  level { 390 }
+  gold { 10000 }
+  alignment { 1000 }
+  experience { 260000 }
+  hp { 40, 95, 50000 }
+  hit_bonus { 18 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 5, 6, 50 }
+  head { -200, 12 }
+  body { -200, 10 }
+  arms { -190, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { sanctuary, detect-invisible }
+}
+
+65009
+{
+  name { The elven scholar }
+  namelist { elven scholar }
+  shortdesc { The scholar is here reading an ancient tome. }
+  longdesc {
+The scholar looks very old, which means he must be ancient, even by 
+elven standards.  He is dressed in very fine purple silks.  He 
+radiates a magical aura.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 470 }
+  gold { 25000 }
+  alignment { 1000 }
+  experience { 410000 }
+  caster { 500 }
+  mana { 1500 }
+  hp { 45, 110, 35000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  move { 500 }
+  damage { 6, 7, 50 }
+  head { -120, 12 }
+  body { -100, 10 }
+  arms { -90, 10 }
+  legs { -100, 10 }
+  feet { -100, 12 }
+  immune { charm, fire, backstab }
+  act { sentinel, stay-zone, npc }
+  affected { detect-invisible }
+  spells { meteor swarm, mage fire, dispel magic, fireshield, metalskin }
+}
+
+65010
+{
+  name { An ancient king }
+  namelist { ancient king }
+  shortdesc { The king is here and he does not look pleased about it. }
+  longdesc {
+The king emanates with ancient and mysterious powers.  He is dressed in 
+ancient golden armour, and he has drawn an ancient sword as he turns 
+toward you.  You get the feeling he is planning on using it too.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 700 }
+  gold { 720000 }
+  alignment { -1000 }
+  experience { 1040000 }
+  caster { 600 }
+  mana { 1500 }
+  hp { 100, 175, 100000 }
+  hit_bonus { 18 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 16, 8, 80 }
+  head { -330, 24 }
+  body { -300, 28 }
+  arms { -390, 20 }
+  legs { -300, 20 }
+  feet { -300, 22 }
+  immune { charm, fire, electricity, energy, acid, backstab, blunt }
+  act { npc, sentinel, stay-zone, aggressive }
+  affected { sanctuary, detect-invisible }
+  spells { dispel magic, meteor swarm, cone of cold }
+}
+
+65011
+{
+  name { The statue guard }
+  namelist { statue guard }
+  shortdesc { The statue is here to guard his king. }
+  longdesc {
+The statue creaks and groans, rubbing stone on stone! It starts to move 
+toward you as you enter the room and, although it might be slow, it 
+definitely looks like it can use the huge axe in its hand. }
+  race { Human }
+  sex { Neuter }
+  world_limit { 1 }
+  level { 440 }
+  gold { 0 }
+  alignment { 0 }
+  Experience { 600000 }
+  hp { 12, 25, 165000 }
+  hit_bonus { 18 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 6, 5, 200 }
+  head { -520, 32 }
+  body { -500, 30 }
+  arms { -490, 30 }
+  legs { -500, 30 }
+  feet { -500, 32 }
+  immune { charm, fire, cold, acid, energy, slash, pierce, backstab, electricity, poison }
+  susceptible { blunt }
+  act { npc, sentinel, stay-zone, aggressive }
+  affected { true-sight, detect-invisible }
+}
+
+65012
+{
+  name { An ancient magic user }
+  namelist { ancient magic user }
+  shortdesc { The form of an ancient magic user floats here by his altar. }
+  longdesc {
+The form of an ancient magic user floats here by his altar, eyeing you 
+with menace in his eyes.  He literally glows with magical power.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 600 }
+  gold { 206000 }
+  alignment { -1000 }
+  experience { 660000 }
+  caster { 600 }
+  mana { 1500 }
+  hp { 100, 200, 28000 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }  
+  attacks_per_round { 2 }
+  move { 500 }
+  damage { 5, 6, 50 }
+  head { -130, 14 }
+  body { -100, 18 }
+  arms { -90, 10 }
+  legs { -100, 10 }
+  feet { -100, 12 }
+  immune { charm, backstab, fire }
+  act { npc, sentinel, stay-zone, aggressive }
+  affected { fireshield, detect-invisible, infravision }
+  spells { dispel magic, meteor swarm, cone of cold, fireball }
+}
+
+65013
+{
+  name { The sentinel }
+  namelist { sentinel }
+  shortdesc { The sentinel stands here guarding the circle. }
+  longdesc {
+The sentinel stands here, in his mithril armour, to stop all those who 
+should not have gotten this far into the outpost.  He looks like he 
+would be well suited to his duties here.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 502 }
+  gold { 5000 }
+  alignment { 1000 }
+  experience { 350000 }
+  hp { 15, 18, 30500 }
+  hit_bonus { 26 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  move { 500 }
+  damage { 5, 9, 35 }
+  head { -300, 12 }
+  body { -300, 10 }
+  arms { -290, 10 }
+  legs { -300, 10 }
+  feet { -300, 12 }
+  immune { charm, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+}
+
+65014
+{
+  name { An old half-elf warrior }
+  namelist { old elf warrior }
+  shortdesc { An old half-elf stands here. }
+  longdesc {
+The ancient warrior, even lounging in his room, has his battle armour 
+on and it looks like it has been well used.  The ancient warrior eyes 
+you and a confident smile comes across his face, as he stands and faces
+you.
+  }
+  race { Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 490 }
+  gold { 1000 }
+  alignment { 1000 }
+  experience { 380000 }
+  hp { 15, 25, 50000 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 6, 8, 36 }
+  head { -130, 12 }
+  body { -110, 15 }
+  arms { -120, 10 }
+  legs { -100, 10 }
+  feet { -100, 15 }
+  immune { charm, backstab, fire }
+  act { npc, sentinel, stay-zone }
+  affected { sanctuary, detect-invisible }
+}
+
+65015
+{
+  name { The elven bard }
+  namelist { elven bard }
+  shortdesc { The bard lounges here strumming a harp. }
+  longdesc {
+The bard lounges here strumming an old harp.  He looks like he has 
+traveled far and wide and has many stories to tell and songs to sing. 
+You think he would have to be rather handy with that staff he 
+carries, to be traveling alone for so long.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 500 }
+  gold { 6000 }
+  alignment { 1000 }
+  Experience { 380000 }
+  caster { 20 }
+  mana { 1500 }
+  hp { 9, 14, 37000 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move { 500 }
+  damage { 6, 8, 38 }
+  head { -220, 12 }
+  body { -200, 10 }
+  arms { -190, 10 }
+  legs { -200, 10 }
+  feet { -200, 12 }
+  immune { charm, fire, backstab }
+  act { npc, sentinel, stay-zone }
+  affected { sanctuary, detect-invisible }
+  spells { shriek, sleep, dispel magic }
+}
+
+
+65016
+{
+  name { The gold dragon }
+  namelist { gold dragon }
+  shortdesc { The dragon raises up its head and turns toward you. }
+  longdesc {
+The gold dragon although beautiful, looks very dangerous and is rearing
+back to breathe at you.
+  }
+  race { dragon }
+  sex { Male }
+  world_limit { 1 }
+  level { 680 }
+  gold { 5750000 }
+  alignment { 1000 }
+  Experience { 4000000 }
+  hp { 75, 110, 206000 }
+  hit_bonus { 12 }  
+  dam_bonus { 9 } 
+  mana { 1000 }
+  caster { 680 }
+  attacks_per_round { 8 }
+  move { 500 }
+  damage { 16, 10, 150 }
+  head { -520, 42 }
+  body { -500, 40 }
+  arms { -490, 40 }
+  legs { -500, 40 }
+  feet { -500, 42 }
+  susceptible { energy }
+  immune { charm, fire, cold, backstab }
+  act { npc, sentinel, stay-zone, special }
+  affected { infravision, detect-invisible }
+  spells { acid blast, meteor swarm, chain lightning, corrosive spray }
+}
+65017
+{
+  name { Prince Torrel }
+  namelist { torrel prince }
+  shortdesc { Prince Torrel stands here, surveying the outpost }
+  longdesc { 
+This is Prince Torrel, heir to the Elven Throne, the last surviving grand-
+son of Coringor, the cursed Elven king.  He stands dressed in his battle
+gear, his cloak tied loose around his shoulders, and his sword, Ringil,
+hanging at his side, ready to use.
+  }
+  race {  Elven }
+  sex { Male }
+  world_limit { 1 }
+  level { 890 }
+  gold { 10 }
+  alignment { 1000 }
+  experience { 2940000 }
+  hp { 150, 225, 124000 }
+  hit_bonus { 40 }
+  dam_bonus { 65 }
+  attacks_per_round { 8 } 
+  move { 500 }
+  damage { 9, 12, 290 }
+  head { -630, 43 }
+  body { -610, 40 }
+  arms { -620, 40 }
+  legs { -600, 40 }
+  feet { -600, 45 }
+  immune { charm, backstab, fire }
+  act { npc, sentinel, stay-zone }
+  affected { detect-invisible }
+}
+

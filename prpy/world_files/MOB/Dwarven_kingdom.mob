@@ -1,0 +1,491 @@
+6500
+{
+  name { a dwarven guard }
+  namelist { dwarven guard }
+  shortdesc { A dwarven guard is here. }
+  longdesc {
+The guard looks very tough and mean.
+  }
+  race { dwarf }
+  level { 49 }
+  alignment { 500 }
+  gold { 70 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 72, 8, 72  }
+  move { 300 }
+  experience { 8215 }
+  damage { 3, 2, 5  }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+6501
+{
+  name { a dwarven worker }
+  namelist { dwarven worker }
+  shortdesc { A dwarven mining worker is here. }
+  longdesc {
+He is very dirty, and looks extremely over-worked.
+  }
+  race { dwarf }
+  level { 47 }
+  alignment { 900 }
+  gold { 70 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 64, 8, 64  }
+  move { 300 }
+  experience { 6452 }
+  damage { 2, 4, 4  }
+  act { stay-zone }
+}
+
+6502
+{
+  name { a Night Wraith }
+  namelist { wraith }
+  shortdesc { A Wraith is awaiting your first move here. }
+  longdesc {
+A black, almost transparent wraith.
+  }
+  race { undead }
+  level { 15 }
+  alignment { -900 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 16, 8, 16  }
+  move { 300 }
+  experience { 1571 }
+  damage { 2, 5, 5  }
+  affected { detect-invisible }
+  act { sentinel, aggressive }
+}
+
+6503
+{
+  name { the Hide & Tooth storekeeper }
+  namelist { keeper storekeeper }
+  shortdesc { There is the Hide & Tooth storekeeper standing here, waiting patiently. }
+  longdesc {
+The storekeeper is very rotund, but looks in excellent condition.
+  }
+  race { dwarf }
+  level { 67 }
+  alignment { 900 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 100, 8, 100  }
+  move { 300 }
+  experience { 10050 }
+  damage { 2, 8, 12  }
+  act { sentinel }
+}
+
+6504
+{
+  name { Granite Head the baker }
+  namelist { baker }
+  shortdesc { Granite Head, the baker, is waiting for a customer here. }
+  longdesc {
+Granite Head is covered with flour and grains.
+  }
+  race { dwarf }
+  level { 67 }
+  alignment { 900 }
+  gold { 1400 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 100, 8, 100  }
+  move { 300 }
+  experience { 10050 }
+  damage { 2, 8, 12  }
+  act { sentinel }
+}
+
+6505
+{
+  name { The giant lizard }
+  namelist { giant lizard }
+  shortdesc { A giant lizard is here. }
+  longdesc {
+This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+  }
+  race { none }
+  level { 39 }
+  alignment { 100 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 36, 8, 36  }
+  move { 300 }
+  experience { 3925 }
+  damage { 4, 3, 5  }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+6506
+{
+  name { The giant }
+  namelist { giant }
+  shortdesc { A giant is here. }
+  longdesc {
+The giant is about 8 feet tall, with arms of steel, and looks in
+excellent physical condition.
+  }
+  race { giant }
+  level { 47 }
+  alignment { 0 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 64, 8, 64  }
+  move { 300 }
+  experience { 6271 }
+  damage { 5, 6, 1  }
+  act { stay-zone }
+}
+
+6507
+{
+  name { A dwarven mineworker }
+  namelist { miner mineworker }
+  shortdesc { A dwarven mineworker is here. }
+  longdesc {
+The mineworker is very tired, and very dirty, and he has bulging muscles.
+  }
+  race { dwarf }
+  level { 8 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 840 }
+  damage { 3, 3, 1  }
+  act { sentinel }
+}
+
+6508
+{
+  name { A dwarven mine leader }
+  namelist { mine leader }
+  shortdesc { A dwarven mine leader is here. }
+  longdesc {
+The mine leader is very big and very strong.
+  }
+  race { dwarf }
+  level { 46 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 60, 8, 60  }
+  move { 300 }
+  experience { 6322 }
+  damage { 3, 4, 4  }
+  act { sentinel }
+}
+
+6509
+{
+  name { the dwarven doctor }
+  namelist { dwarven doctor }
+  shortdesc { The dwarven doctor is here. }
+  longdesc {
+He is a very skilled surgeon, with hands of steel.
+  }
+  race { dwarf }
+  level { 4 }
+  alignment { 1000 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 1569 }
+  damage { 3, 3, 2  }
+  affected { detect-invisible, sanctuary }
+  act { sentinel }
+}
+
+6510
+{
+  name { the dwarven peon }
+  namelist { dwarven peon }
+  shortdesc { A dwarven peon is awaiting help here. }
+  longdesc {
+You see nothing special.
+  }
+  race { dwarf }
+  level { 3 }
+  alignment { 500 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 446 }
+  damage { 3, 3, 3  }
+  act { sentinel }
+}
+
+6511
+{
+  name { the dwarf }
+  namelist { dwarf }
+  shortdesc { A dwarf is here. }
+  longdesc {
+You see nothing special.
+  }
+  race { dwarf }
+  level { 8 }
+  alignment { 500 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 12, 8, 12  }
+  move { 300 }
+  experience { 953 }
+  damage { 3, 3, 1  }
+  act { sentinel }
+}
+
+6512
+{
+  name { the unwanted son }
+  namelist { unwanted son }
+  shortdesc { An unwanted son is here. }
+  longdesc {
+You see nothing special.
+  }
+  race { dwarf }
+  level { 4 }
+  alignment { 250 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 569 }
+  damage { 3, 2, 1  }
+  act { stay-zone }
+}
+
+6513
+{
+  name { the unwanted daughter }
+  namelist { unwanted daughter }
+  shortdesc { An unwanted daughter is here. }
+  longdesc {
+You see nothing special.
+  }
+  race { dwarf }
+  level { 4 }
+  alignment { 250 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 569 }
+  damage { 3, 3, 1  }
+  act { stay-zone }
+}
+
+6514
+{
+  name { the barrack's guard }
+  namelist { barrack guard }
+  shortdesc { A barrack guard is here. }
+  longdesc {
+He looks alert
+  }
+  race { dwarf }
+  level { 26 }
+  alignment { 100 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 24, 8, 24  }
+  move { 300 }
+  experience { 2286 }
+  damage { 3, 5, 1  }
+  act { sentinel }
+}
+
+6515
+{
+  name { the dwarf in waiting }
+  namelist { waiting dwarf }
+  shortdesc { A dwarf in waiting is here. }
+  longdesc {
+He looks bored.
+  }
+  race { dwarf }
+  level { 1 }
+  alignment { 300 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 3, 8, 3  }
+  move { 300 }
+  experience { 244 }
+  damage { 3, 3, 2  }
+  act { sentinel }
+}
+
+6516
+{
+  name { the mazekeeper }
+  namelist { keeper mazekeeper }
+  shortdesc { A mazekeeper is here. }
+  longdesc {
+He looks VERY tough.
+  }
+  race { dwarf }
+  level { 219 }
+  alignment { -1000 }
+  gold { 7000 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 6 }
+  head { -30, 0 }
+  body { -30, 0 }
+  arms { -30, 0 }
+  legs { -30, 0 }
+  feet { -30, 0 }
+  hp { 130, 8, 1300  }
+  move { 300 }
+  experience { 156654 }
+  damage { 5, 5, 15  }
+  immune { charm }
+  affected { sanctuary }
+  act { sentinel, aggressive }
+}
+
+6517
+{
+  name { the giant snake }
+  namelist { giant snake }
+  shortdesc { There is a giant snake here. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 51 }
+  alignment { -1000 }
+  hit_bonus { 3 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  head { 20, 2 }
+  body { 20, 2 }
+  arms { 20, 2 }
+  legs { 20, 2 }
+  feet { 20, 2 }
+  hp { 75, 8, 75  }
+  move { 300 }
+  experience { 7507 }
+  damage { 2, 4, 6  }
+  act { sentinel, aggressive }
+}
+

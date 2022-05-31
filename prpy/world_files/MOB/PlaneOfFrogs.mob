@@ -1,0 +1,33 @@
+108000
+{
+  name { An ANnoYiNG Frog Demon }
+  namelist { annoying frog demon }
+  shortdesc { #{flash}#{YELLOW}An ANnoYiNG demonic frog is here, about to ribbit at you.#{off} }
+  longdesc { demon }
+  race { undead }
+  height { 200 }
+  level { 530 }
+  alignment { -1000 }
+  gold { 750  }
+  hit_bonus { 40 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 15 }
+  body { -100, 15 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  strength { 30 }
+  dexterity { 25 }
+  hp { 9, 8, 5099  }
+  move { 300 }
+  experience { 2630 }
+  damage { 2, 20, 35  }
+  caster { 100 }
+  spells { energy drain, petrify, paralyze }
+  mana { 10000 }
+  immune { charm, sleep, slash, blunt, pierce, fire }
+  resist_all { 200 }
+  affected { true-sight, detect-invisible, sanctuary, infravision, fireshield }
+  act { aggressive }
+}

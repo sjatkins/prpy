@@ -1,0 +1,745 @@
+7100                                                                     
+{
+  name { Apep }
+  namelist { serpent snake Apep }
+  shortdesc { The serpent god Apep is angered by your presence here. }
+  longdesc {
+Apep is a dark serpent worshiped by the goblins.  He is an evil god who 
+despises the light.  His length is nearly fifty feet, and his eyes glow 
+bright green in the darkness.  His massive form slithers towards you 
+preparing to strike.  Your presence here is most unwelcomed.                                                          
+  }
+  race { None }
+  world_limit { 1 }
+  level { 150 }
+  experience { 230000 }
+  hp { 4, 6, 2200 }
+  caster { 25 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  move  { 500 }
+  damage { 3, 6, 2 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { poison }
+  affected { detect-invisible }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7101
+{
+  name { goblin guardian}
+  namelist { goblin guardian }
+  shortdesc { The goblin guardian stands here guarding the entrance to the temple. }
+  longdesc {
+The goblin guardian stands here scanning the courtyard.  He has been placed 
+here to protect the temple against would be thieves.  For a goblin he is 
+extremely large.  He holds both a shield and sword, poised to attack should a 
+situation present itself.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 130 }
+  experience { 80000 }
+  hp { 3, 6, 1800 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 4 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7102
+{
+  name { goblin priestess }
+  namelist { goblin priestess }
+  shortdesc { The goblin priestess is performing a sacrifice to Apep. }
+  longdesc {
+The goblin priestess is adorned with a long flowing white robe.  There 
+is a quite calm about her has she mutters to herself, ... sacrifice ... 
+Apep ... darkness ...  You hear but a few words but realize great evil is 
+drawing near.                                                           
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 90 }
+  experience { 65000 }
+  hp { 4, 6, 1500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7103
+{
+  name { goblin priest }
+  namelist { goblin priest }
+  shortdesc { The goblin priest is preparing a sacrifice for Apep. }
+  longdesc {
+The goblin priest holds a sacrificial dagger high above his head.  Blood
+drips from the blade down onto the altar.  You stand there horrified as he 
+prepares to sacrifice to Apep, the evil serpent god.                                                           
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 90 }
+  experience { 65000 }
+  hp { 4, 6, 1500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7104
+{
+  name { goblin guard}
+  namelist { goblin guard }
+  shortdesc { The goblin guard stands ready to attack. }
+  longdesc {
+A goblin guard is here protecting the entryway to the temple.  No one is 
+allowed past the gate, save the priest themselves.  He is clothed in rags 
+and a small padded helmet.  He wields a long spear and moves to attack 
+upon your approach.                                                         
+  }
+  race { Goblin }
+  world_limit { 2 }
+  level { 50 }
+  experience { 45000 }
+  hp { 6, 8, 900 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 2 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, aggressive }
+}
+
+7105
+{
+  name { Mbenr }
+  namelist { goblin Mbenr }
+  shortdesc { Mbenr stands alert guarding the path towards the temple ruins. }
+  longdesc {
+Mbenr is a trained killer.  He lurks in and out of the shadows lying in 
+wait to ambush his enemies.  He is cloaked in dark brown to help him 
+blend in with the roots.  He carries a blowgun and some poisonous darts 
+for attacking from a distance.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 120 }
+  experience { 90000 }
+  hp { 4, 6, 1600 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 8 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7106
+{
+  name { goblin archer }
+  namelist { goblin archer }
+  shortdesc { The goblin archer trains his bow upon you. }
+  longdesc {
+The goblin archer works with Mbenr to protect the path towards the 
+temple.  He feels right at home in the roots and the muck.  His skin is 
+brown with dark yellow eyes.  He wears soft leather armor to protect him 
+in battle.                                                         
+  }
+  race { Goblin }
+  world_limit { 2 }
+  level { 50 }
+  experience { 30000 }
+  hp { 4, 6, 750 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 500 }
+  damage { 1, 6, 4 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, aggressive }
+}
+
+7107
+{
+  name { Dutz }
+  namelist { goblin dutz }
+  shortdesc { Dutz the goblin hunter is here cleaning his latest quarry. }
+  longdesc {
+Dutz is an experienced hunter in these woods.  With several of his quarry 
+at hand, he begins to clean them one by one using a dull hunter's knife.  
+He is completely wrapped in a thick fur pelt with only his head showing.  
+His eyes are a pale orange and he is covered with green skin.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 120 }
+  experience { 90000 }
+  hp { 4, 6, 1600 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 8 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7108
+{
+  name { Xrok }
+  namelist { goblin Xrok mage }
+  shortdesc { Xrok the goblin mage stands here brewing his potions. }
+  longdesc {
+Xrok seeks great power like all mages.  He is extremely short, even by 
+goblin standards.  His blood red eyes are fixed intently on his potions.  
+His skin has a greenish hue and he is covered mostly in rags, save a 
+small medallion around his neck.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 55 }
+  experience { 75000 }
+  hp { 4, 6, 800 }
+  caster { 40 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 1, 6, 2 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { poison, weakness, chill touch, blindness, multiple }
+  affected { detect-invisible }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7109
+{
+  name { great horned owl}
+  namelist { horned owl }
+  shortdesc { A great horned owl sits here on its perch. }
+  longdesc {
+The great horned owl sits on a nearby branch.  He turns his head side to 
+side searching for his prey.  He has a razor-sharp beak and claws.  His 
+feathers are a dark gray, which disguise him well in the forest at night.  
+All you can really see are his dark red eyes.                                                         
+  }
+  race { None }
+  world_limit { 1 }
+  level { 40 }
+  experience { 12000 }
+  hp { 6, 6, 650 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 2 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  affected { fly }
+  act { npc, sentinel }
+}
+
+7110
+{
+  name { cave troll }
+  namelist { cave troll }
+  shortdesc { A cave troll sits here warming himself by the fire. }
+  longdesc {
+The cave troll is crouching next to the fire for warmth.  His shoulders 
+are hunched over with his head resting on his knees.  You can see a pair 
+of greaves on his legs and a large battle-axe next to his side.  His skin 
+is a grayish brown with long dark hair.                                                         
+  }
+  race { None }
+  world_limit { 1 }
+  level { 120 }
+  experience { 135000 }
+  hp { 6, 8, 3000 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 8, 4 }
+  head { 10, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7111
+{
+  name { cave troll}
+  namelist { cave troll }
+  shortdesc { A cave troll sits here leaning against his shield. }
+  longdesc {
+The cave troll is in the back of the room leaning against his massive 
+shield.  In his hands you can see a large sword.  He seems to be reliving 
+the battles he has fought as he swings his sword back and fourth.  You 
+notice several scars on his arm, perhaps he is counting the number of 
+humans he has killed.                                                         
+  }
+  race { None }
+  world_limit { 1 }
+  level { 120 }
+  experience { 165000 }
+  hp { 6, 8, 3800 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 15 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 8, 4 }
+  head { 10, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7112
+{
+  name { cave troll leader }
+  namelist { cave troll leader }
+  shortdesc { The cave troll leader sits upon his throne admiring his treasure. }
+  longdesc {
+The cave troll leader is completely entranced by the loot the goblins 
+have collected for him.  He scoops up a big pile of jewels and lets them 
+slowly run through his fingers.  The cave troll leader has a large steel 
+gorget wrapped around his neck.  On the floor next to his feet you can 
+see a large maul.                                                          
+  }
+  race { None }
+  world_limit { 1 }
+  level { 150 }
+  experience { 290000 }
+  hp { 6, 8, 5500 }
+  alignment { -1000 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 3, 6, 4 }
+  head { 10, 9 }
+  body { 20, 9 }
+  arms { 20, 9 }
+  legs { 20, 9 }
+  feet { 20, 9 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7113
+{
+  name { Kgen }
+  namelist { Kgen goblin shaman }
+  shortdesc { Kgen the goblin shaman is here mixing his herbs.  }
+  longdesc {
+Kgen is the goblin's resident shaman and healer.  Kgen is sitting Indian 
+style on the floor with his hands clasped together.  He is performing 
+some type of chant or ritual.  On his head is a large headdress that 
+hangs down to the small of his back.  It is made up of several different 
+colored feathers.  On his belt you see a small pouch with a number of 
+herbs overflowing the brim.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 90 }
+  experience { 75000 }
+  hp { 4, 6, 1100 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 12 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 8 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7114
+{
+  name { Tsor }
+  namelist { Tsor goblin taskmaster }
+  shortdesc { Tsor the goblin taskmaster is here taking inventory. }
+  longdesc {
+Tsor is dressed in fine clothes from his dark leather jacket to his 
+steel-toed boots.  He has been rewarded well by the cave trolls to 
+enslave his own people.  He is a violent man with a lust for blood.  
+His skin is a fiery red that contrasts with his demonic black eyes.                                                         
+  }
+  race { Goblin }
+  world_limit { 1 }
+  level { 130 }
+  experience { 145000 }
+  hp { 5, 5, 2500 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 20 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 600 }
+  damage { 3, 6, 3 }
+  head { 10, 7 }
+  body { 20, 8 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}
+
+7115
+{
+  name { Warg }
+  namelist { warg }
+  shortdesc { A warg wanders aimlessly searching for food. }
+  longdesc {
+The warg is a monstrous creature.  His shoulders are arched up well above 
+the rest of his body.  He is covered in brown four and walks on all four.  
+He is extremely dangerous with razor-sharp claws and fangs.  His armor is 
+still in place from his last attack run on Midgard.                                                         
+  }
+  race { None }
+  world_limit { 4 }
+  level { 45 }
+  experience { 18000 }
+  hp { 3, 8, 750 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 2 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  act { npc }
+}
+
+7116
+{
+  name { wolf }
+  namelist { wolf }
+  shortdesc { A wolf is here darting in and out of the trees. }
+  longdesc {
+The wolf is here darting back and forth between the trees trying to 
+avoid being seen.  He has a nice gray coat of fur with pale brown eyes.  
+His tongue hangs out as he pants for air.  He can not stop long or a 
+goblin might have him for dinner.                                                         
+  }
+  race { None }
+  world_limit { 4 }
+  level { 35 }
+  experience { 10000 }
+  hp { 3, 8, 550 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 2 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  act { npc }
+}
+
+7117
+{
+  name { goblin woman}
+  namelist { goblin woman }
+  shortdesc { A goblin woman is here gathering berries. }
+  longdesc {
+The goblin woman is clothed in rags and scraps of cloth.  She is picking 
+berries in the forest.  A small dagger can be seen tucked into her belt.  
+She has long black hair and deep green eyes.                                                         
+  }
+  race { Goblin }
+  world_limit { 3 }
+  level { 35 }
+  experience { 15000 }
+  hp { 3, 8, 550 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 3 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive  }
+}
+
+7118
+{
+  name { goblin child }
+  namelist { goblin child }
+  shortdesc { The goblin child is running about playing in the woods. }
+  longdesc {
+The goblin child is swinging from the branches.  He is hanging upside 
+down using his legs to hold him in place.  He chuckles once or twice and 
+then spits in your direction.  He is covered in rags.                                                         
+  }
+  race { Goblin }
+  world_limit { 3 }
+  level { 15 }
+  experience { 5000 }
+  hp { 3, 8, 250 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 1, 4, 3 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  immune { charm }
+  act { npc, aggressive  }
+}
+
+7119
+{
+  name { goblin warrior }
+  namelist { goblin warrior }
+  shortdesc { The goblin warrior sits here planning his next plunder. }
+  longdesc {
+The goblin warrior is a stout little fellow.  He is covered in padded 
+armor and carries a small sword.  He looks anxious to plunder and 
+destroy.  He has dark hair and thick brown skin.                                                         
+  }
+  race { Goblin }
+  world_limit { 2 }
+  level { 55 }
+  experience { 25000 }
+  hp { 3, 8, 650 }
+  alignment { -1000 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 600 }
+  damage { 2, 4, 3 }
+  head { 40, 4 }
+  body { 40, 4 }
+  arms { 40, 4 }
+  legs { 40, 4 }
+  feet { 40, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive  }
+}
+
+7120
+{
+  name { goblin mage }
+  namelist { goblin mage }
+  shortdesc { The goblin mage wanders aimlessly reciting spells. }
+  longdesc {
+The goblin mage is here practicing his craft.  Muttering several magical 
+incantations the air around him erupts with fire.  He is dressed very 
+shabbily with some old cloth.                                                           
+  }
+  race { Goblin }
+  world_limit { 2 }
+  level { 35 }
+  experience { 15000 }
+  hp { 4, 6, 180 }
+  caster { 40 }
+  power { 500 }
+  mana { 500 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 6 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 500 }
+  damage { 1, 6, 2 }
+  head { 10, 7 }
+  body { 20, 9 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 2 }
+  spells { poison, weakness, chill touch, blindness, magic missile}
+  affected { detect-invisible }
+  immune { charm }
+  act { npc, aggressive }
+}
+
+7121
+{
+  name { bugbear warrior}
+  namelist { bugbear warrior }
+  shortdesc { The bugbear warrior is here searching for a fight. }
+  longdesc {
+The bugbear warrior is covered in brown fur.  He does not wear any armor 
+nor does he need it.  He carries a small stone axe tied together with 
+some rope.                                                         
+  }
+  race { None }
+  world_limit { 4 }
+  level { 50 }
+  experience { 45000 }
+  hp { 6, 8, 900 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 2 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, aggressive }
+}
+
+7122
+{
+  name { bugbear chieftain }
+  namelist { bugbear chieftain }
+  shortdesc { The bugbear chieftain is here giving orders to his warriors. }
+  longdesc {
+The bugbear chieftain stands here barking out orders.  He is much larger 
+than the other bugbears.  He carries a large stone club that he is waving 
+vigorously in the air.  His fur is dark black.                                                         
+  }
+  race { None }
+  world_limit { 1 }
+  level { 50 }
+  experience { 65000 }
+  hp { 6, 8, 1200 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 400 }
+  damage { 2, 4, 3 }
+  head { 10, 5 }
+  body { 20, 6 }
+  arms { 50, 4 }
+  legs { 50, 4 }
+  feet { 30, 4 }
+  immune { charm }
+  act { npc, sentinel, aggressive }
+}

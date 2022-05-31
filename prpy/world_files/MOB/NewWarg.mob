@@ -1,0 +1,554 @@
+62021
+{
+  name { a wandering warg }
+  namelist { wandering warg }
+  shortdesc { A large warg darts in and out of the trees. }
+  longdesc {
+The warg is covered in a brown and black matted pelt.  The fleas and
+ticks practically jump off and on the animal, like its a giant bus.
+Snarling at your intrusion to its home, the warg crouches down to
+attack.
+  }
+  race { None }
+  world_limit { 7 }
+  level { 50 }
+  experience { 7100 }
+  hp { 5, 10, 350 }
+  alignment { 0 }
+  gold { 1700 }
+  hit_bonus { 10 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 20, 3 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62022
+{
+  name { a warg villager male }
+  namelist { warg villager male }
+  shortdesc { A carefree villager tends to the fire. }
+  longdesc {
+The warg villager tends to his fire, as though he does not have a care
+in the world.  He is dressed simply, in what appears to be clothing made
+from the local animals.  "Come, warm yourself by the fire with me.", he
+smiles at you.  "These woods can be very chilly at night", he remarks,
+poking a stick into the fire.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 95 }
+  experience { 19750 }
+  hp { 10, 15, 800 }
+  alignment { 450 }
+  gold { 3400 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 15, 4 }
+  body { 15, 4 }
+  arms { 15, 4 }
+  legs { 15, 4 }
+  feet { 15, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62023
+{
+  name { a warg villager female }
+  namelist { warg villager female }
+  shortdesc { A smiling warg villager tends to her home. }
+  longdesc {
+Humming quietly to herself, the beautiful warg villager continues to do
+tasks around her home.  Stirring some soup on the fire, folding some
+clothes on a pile near the wall and sweeping up the pine needle covered
+floor, she sure takes care of her home.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 95 }
+  experience { 11750 }
+  hp { 10, 15, 600 }
+  alignment { 450 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 20, 4 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62024
+{
+  name { a warg villager pregnant }
+  namelist { warg villager female pregnant }
+  shortdesc { A very pregnant warg villager tries to run after her small children. }
+  longdesc {
+She looks extremely uncomfortable.  Clearly ready to give birth at any
+second, she places her hands on her hips and heaves herself out of her
+chair, revealing her huge pregnant belly.  With a lovely smile, she
+chases after her children, in what seems to be a game of tag.  Laughing
+cutely, she soon tires and returns to her chair.  This poor woman.
+Where on earth could her husband be?
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 95 }
+  experience { 12550 }
+  hp { 10, 15, 650 }
+  alignment { 500 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 4 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62025
+{
+  name { a warg villager child }
+  namelist { warg villager child }
+  shortdesc { A young warg villager runs around his house, making a mess. }
+  longdesc {
+A young child runs around the house, chasing after his brothers.  He
+performs some summersaults and then punches one of his brothers in the
+nose.  "Sorry mom, we know.....no rough housing.", he sulks, and then
+immediately starts running after his brothers again.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 6 }
+  level { 40 }
+  experience { 8600 }
+  hp { 10, 15, 400 }
+  alignment { -1000 }
+  gold { 1800 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 2 }
+  head { 50, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62026
+{
+  name { a warg villager warrior }
+  namelist { warg villager warrior }
+  shortdesc { A strong looking warrior looks you over carefully. }
+  longdesc {
+Glaring at you with hatred, the warg warrior places his hand on his
+sword hilt.  "This is sacred ground.", he bellows.  "You should not have
+come here."  He is dressed in standard studded leather gear.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 105 }
+  experience { 22575 }
+  hp { 10, 15, 850 }
+  alignment { 450 }
+  gold { 3000 }
+  hit_bonus { 18 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 10, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62027
+{
+  name { a warg villager musician }
+  namelist { warg villager musician }
+  shortdesc { A proud warrior beats a drum in a furious rhythm. }
+  longdesc {
+Finally, the source of the drums is realized.  The warg villager stands
+towards the back of the clearing, beating on his drums like a madman.
+The drumbeats are furious and intricate.  It is almost like they are
+sending out a message that only the local villagers can understand.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 75 }
+  experience { 18250 }
+  hp { 10, 15, 700 }
+  alignment { 450 }
+  gold { 2500 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 10, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62028
+{
+  name { a warg villager leader }
+  namelist { warg villager leader }
+  shortdesc { A powerful warrior draws his sword and sets into an attack. }
+  longdesc {
+A long scar runs from the top right side of his forhead to the bottom 
+left side of his face.  Whatever scratched or slashed him took his left
+eye with it.  A studded leather eye patch covers what was left of his 
+eye.  Drawing his sword, he places his right foot forward and sets into 
+an attack.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 180 }
+  experience { 92334 }
+  hp { 15, 25, 1500 }
+  alignment { 450 }
+  gold { 5000 }
+  hit_bonus { 21 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { -20, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62029
+{
+  name { a warg villager scientist }
+  namelist { warg villager scientist }
+  shortdesc { The warg scientist walks through his house, cackling madly. }
+  longdesc {
+He starts to giggle as you stare at him.  "You seem to have gotten lost,
+young adventurer.  This is MY house.", he laughs at you.  He runs over
+to the door, blocking the exit.  "Do not worry.", he grins, "You will
+not be able to make that mistake again.".  "They have tried to stop my
+experiments before,", he cackles, "and I doubt they will ever try
+again!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 150 }
+  experience { 65500 }
+  hp { 15, 25, 1150 }
+  alignment { -1000 }
+  gold { 3500 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 15 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 15, 6 }
+  body { 15, 4 }
+  arms { 15, 4 }
+  legs { 15, 4 }
+  feet { 15, 4 }
+  affected { infravision }
+  spells { colour spray }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62030
+{
+  name { an undead warg villager }
+  namelist { warg villager undead }
+  shortdesc { An ethereal hand reaches out towards you from the mist. }
+  longdesc {
+A cloud of mist rolls through the air in large fluffy clumps.  "You
+should NOT have come here!", echoes from the mist, "This is holy
+ground."  A boney, ethereal hand stretches out from the mist and right
+towards you.  "I will make you pay.", the voice bellows, "I will make
+you ALL pay.". }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 125 }
+  experience { 67500 }
+  hp { 15, 25, 1125 }
+  alignment { -750 }
+  gold { 1950 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { -30, 8 }
+  body { -30, 6 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision, flying, sanctuary }
+  spells { dispel magic }
+  immune { charm }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62031
+{
+  name { an enhanced warg }
+  namelist { enhanced warg }
+  shortdesc { A large warg drools and snarls viciously at you. }
+  longdesc {
+The warg is covered in a brown and black matted pelt.  The fleas and
+ticks practically jump off and on the animal, like its a giant bus.
+There are several hand stitched scars running across the wargs body.
+You can tell that this warg is somehow genetically enhanced, but the
+almost human eyes hint that there is something more going on.  Snarling 
+at your intrusion, the warg crouches down to attack.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 90 }
+  experience { 24500 }
+  hp { 5, 10, 875 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 10, 5 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62032
+{
+  name { A warg villager cheering }
+  namelist { warg villager cheering }
+  shortdesc { A warg villager cheers the battles going on below. }
+  longdesc {
+Smiling and cheering, the warg villager has all his attention on the 
+fights in the cage towards the middle of the arena.  "Go, go, go!", he
+shouts with excitement, holding his ticket in the air.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 95 }
+  experience { 15700 }
+  hp { 10, 15, 650 }
+  alignment { 450 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 10, 5 }
+  body { 20, 4 }
+  arms { 20, 4 }
+  legs { 20, 4 }
+  feet { 20, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62033
+{
+  name { A warg villager gambler }
+  namelist { warg villager gambler }
+  shortdesc { An excited villager tries to get you to bet on the next fight. }
+  longdesc {
+"Two for one odds!", he shouts at you, "You can't beat that!".  The man
+is dripping in sweat and it is obvious he has not changed his clothes
+in a long time.  The smell alone is nauseating.  Noticing you are not
+interested, he turns away and runs to the next customer.  "Hey, hey!
+I've got a deal for you!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 95 }
+  experience { 11500 }
+  hp { 10, 15, 550 }
+  alignment { 450 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 3 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 20, 4 }
+  body { 30, 3 }
+  arms { 30, 3 }
+  legs { 30, 3 }
+  feet { 30, 3 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+62034
+{
+  name { a warg villager trainer }
+  namelist { warg villager trainer }
+  shortdesc { The warg villager guards the gate to the cage. }
+  longdesc {
+Solemnly standing guard, the villager eyes you suspicously.  The sounds
+of cheering and battle does not seem to phase him in the least.  There
+is a small glimmer shining from his front vest pocket.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 75 }
+  experience { 19950 }
+  hp { 10, 15, 750 }
+  alignment { 450 }
+  gold { 3400 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 10, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62035
+{
+  name { a warg villager trainer }
+  namelist { warg villager trainer }
+  shortdesc { A warg villager walks back and forth in front of the torches. }
+  longdesc {
+Solemnly standing guard, the villager eyes you suspicously.  The sounds
+of cheering and battle does not seem to phase him in the least.  There
+is a small glimmer shining from his front vest pocket.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 75 }
+  experience { 19150 }
+  hp { 10, 15, 700 }
+  alignment { 450 }
+  gold { 3400 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 1 }
+  head { 10, 5 }
+  body { 10, 4 }
+  arms { 10, 4 }
+  legs { 10, 4 }
+  feet { 10, 4 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+62036
+{
+  name { A warg villager vender }
+  namelist { warg villager vender }
+  shortdesc { A nice warg villager offers you a bite to eat. }
+  longdesc {
+Smiling warmly, the vender shows you his goods for sale.  "I just made
+these today!", he says with pride.  "They are all fresh and warm.  Only
+10 coins!"
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 65 }
+  experience { 10200 }
+  hp { 10, 15, 425 }
+  alignment { 450 }
+  gold { 2400 }
+  hit_bonus { 18 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 30, 4 }
+  body { 40, 3 }
+  arms { 40, 3 }
+  legs { 40, 3 }
+  feet { 40, 3 }
+  affected { infravision }
+  immune { charm }
+  act { npc, stay-zone }
+}
+

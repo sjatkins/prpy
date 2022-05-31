@@ -1,0 +1,1134 @@
+93120
+{
+  name { a rock creature }
+  namelist { rock creature }
+  shortdesc { A rock creature walks along the cavern hallways. }
+  longdesc {
+The rock creature is about six feet tall.  Its expression is vacant as
+it wanders along the cavern hallways.  Its black eyes stare straight
+foward.  The creature must have somewhere to go.  Its large stone arms
+hang to its side.  There are scratches and chips on his huge fists.  They
+are clearly meant for breaking rocks.
+  }
+  race { None }
+  world_limit { 15 }
+  level { 150 }
+  experience { 68500 }
+  hp { 20, 25, 1900 }
+  alignment { 1000 }
+  gold { 3500 }
+  hit_bonus { 18 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -20, 8 }
+  body { -10, 7 }
+  arms { -10, 7 }
+  legs { -10, 7 }
+  feet { -10, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+93121
+{
+  name { a clay creature }
+  namelist { clay creature }
+  shortdesc { A clay creature carries some rock debris through the cavern. }
+  longdesc {
+The clay creature is a reddish-brown color.  It looks like a walking mud
+puddle.  Dark black eyes stare out from a melting clay face.  Its skin
+seems to be in constant movement.  Ripples form and move in a downward
+motion all over its body.  The creature is carrying a load of debris
+somewhere.  The debris seems to be broken up rocks.  What could it be
+up to?
+  }
+  race { None }
+  world_limit { 12 }
+  level { 135 }
+  experience { 39000 }
+  hp { 20, 25, 1400 }
+  alignment { 1000 }
+  gold { 3300 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 1 }
+  head { 5, 8 }
+  body { 10, 7 }
+  arms { 10, 7 }
+  legs { 10, 7 }
+  feet { 10, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+93122
+{
+  name { a rock creature }
+  namelist { rock wall breaker creature }
+  shortdesc { A rock creature stands here, breaking down the cavern walls. }
+  longdesc {
+Pummeling his fist into the cavern, the rock creature breaks off pieces
+of the wall.  It looks to be about six feet tall and is very muscular.
+Well, for a rock creature anyway.  It continues to pound away at the
+wall, even with your intrusion to cavern.  In fact, it does not even
+seem to notice you at all.  Its only job must be to break through the
+walls.
+  }
+  race { None }
+  world_limit { 10 }
+  level { 175 }
+  experience { 82000 }
+  hp { 20, 25, 1800 }
+  alignment { 1000 }
+  gold { 3625 }
+  hit_bonus { 17 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { -20, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93123
+{
+  name { a clay guard }
+  namelist { clay guard }
+  shortdesc { A clay guard slithers along the cavern hallways. }
+  longdesc {
+A large clay guard slithers along the rocky cavern hallways.  It does
+not have any legs or feet, but its lower body seems to creep along the
+hallway floor, like a snake.  Its upper body is much more developed than
+the other clay creatures you have seen walking along the hallway.  This
+creature has huge, muscled arms and a broad chest.  There is a muddy
+carapice atop its head, almost like the mud has hardened into a helmet.
+Noticing you at last, its arms morph into a giant pick-axe and it starts
+to move towards you.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 180 }
+  experience { 92000 }
+  hp { 20, 25, 2000 }
+  alignment { 1000 }
+  gold { 3800 }
+  hit_bonus { 17 }
+  dam_bonus { 18 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 7, 2 }
+  head { -30, 8 }
+  body { -25, 7 }
+  arms { -25, 7 }
+  legs { -25, 7 }
+  feet { -25, 7 }
+  affected { infravision }
+  susceptible { fire }
+  act { npc, aggressive, stay-zone }
+}
+
+93124
+{
+  name { a giant flower bulb }
+  namelist { giant flower bulb }
+  shortdesc { A gigantic red and yellow flower bulb grows from the vines. }
+  longdesc {
+A red and yellow flower bulb is growing out of a tangle a vines to the
+back of the cave.  The petal's tips of the bulb are thorned and red in
+color.  The color turns into a bright yellow about half way down the
+bulb, continuing to the stem.  The bulb is about 3 feet long.  It is
+gigantic!  The vines around the run start to wiggle and stir as you move
+closer to the plant.  Suddenly, the petals start to bloom into a bright
+and lovely flower, except for a huge mouth of teeth in the middle.  The
+teeth open and close quickly, drooling a greenish fluid onto the cavern
+floor.  Gross.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 190 }
+  experience { 110000 }
+  hp { 20, 25, 2625 }
+  alignment { 0 }
+  gold { 5200 }
+  hit_bonus { 18 }
+  dam_bonus { 16 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 8, 2 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, aggressive, sentinel, stay-zone }
+}
+
+93125
+{
+  name { a tangled stone creature }
+  namelist { tangled stone creature }
+  shortdesc { A rock creature seems to have tangled itself in the vines. }
+  longdesc {
+One of the rock creatures is trapped in a tangle of green vines.  It
+continues to struggle in an attempt to break free and get out of this
+cavern.  It would probably be screaming for help if it could talk.  Poor
+thing.
+  }
+  race { dwarf }
+  world_limit { 1 }
+  level { 95 }
+  experience { 18000 }
+  hp { 20, 25, 875 }
+  alignment { 1000 }
+  gold { 1875 }
+  hit_bonus { 15 }
+  dam_bonus { 14 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { -20, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93126
+{
+  name { a rock villager }
+  namelist { rock villager }
+  shortdesc { A rock villager sits on a stone against the cavern wall. }
+  longdesc {
+A rock villager sits on a large stone, staring into the darkness.  It
+does not appear to have anywhere to go, unlike the rest of the creatures
+walking around the caverns.  Its eyes look dark and lonely.  It does not
+even stir when you wave your fingers annoyingly in front of its face.
+Stop that!
+  }
+  race { None }
+  world_limit { 2 }
+  level { 100 }
+  experience { 19000 }
+  hp { 20, 25, 955 }
+  alignment { 1000 }
+  gold { 2900 }
+  hit_bonus { 15 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 9, 2 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93127
+{
+  name { a rock villager }
+  namelist { rock villager mom }
+  shortdesc { A rock creature is rocking a baby clay creature to sleep. }
+  longdesc {
+The rock creature does not seem to be as large as the other rock types
+that you have seen.  It is only about four feet tall.  There is a small
+baby clay creature cradled in the rock creature's arms.  The baby seems
+to be sleeping peacefully.  The rock creature looks at its baby lovingly
+and continues to rock it back and forth.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 70 }
+  experience { 12225 }
+  hp { 20, 25, 600 }
+  alignment { 1000 }
+  gold { 2500 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93128
+{
+  name { a clay villager }
+  namelist { clay villager mom }
+  shortdesc { A clay creature is rocking a baby rock creature to sleep. }
+  longdesc {
+The clay creature does not seem to be as large as the other clay types
+that you have seen.  It is only about three feet tall.  There is a small
+baby rock creature cradled in the clay creature's arms.  The baby seems
+to be sleeping peacefully.  The clay creature looks at its baby lovingly
+and continues to rock it back and forth.
+
+  }
+  race { None }
+  world_limit { 1 }
+  level { 70 }
+  experience { 11225 }
+  hp { 20, 25, 550 }
+  alignment { 1000 }
+  gold { 2500 }
+  hit_bonus { 16 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93129
+{
+  name { a clay baby }
+  namelist { clay baby sleeping	}
+  shortdesc { A clay baby is sleeping quietly in a rock creatures arms. }
+  longdesc {
+The clay baby looks so peaceful sleeping in the rock creatures arms.  A
+small spit bubble forms on its mouth and pops.  How cute!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 38 }
+  experience { 4875 }
+  hp { 20, 25, 200 }
+  alignment { 1000 }
+  gold { 1225 }
+  hit_bonus { 15 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93130
+{
+  name { a rock baby }
+  namelist { rock baby sleeping	}
+  shortdesc { A rock baby is sleeping quietly in a rock creatures arms. }
+  longdesc {
+The rock baby looks so peaceful sleeping in the clay creatures arms.  A
+small spit bubble forms on its mouth and pops.  How cute!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 40 }
+  experience { 5125 }
+  hp { 20, 25, 225 }
+  alignment { 1000 }
+  gold { 1250 }
+  hit_bonus { 15 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93131
+{
+  name { a small vine creature }
+  namelist { small vine creature }
+  shortdesc { A small vine creature runs along the cavern hallway. }
+  longdesc {
+The vine creature appears to be about the size of a small dog.  Its body
+is made mostly of vines and its feet are some brown roots.  The vine
+creatures behavior is even reminiscent of a canine.  It appears to be
+playful and love to run around after the rock and clay children.  It
+walks up to your boots, takes a sniff and takes off into another cavern.
+  }
+  race { dwarf }
+  world_limit { 10 }
+  level { 85 }
+  experience { 15650 }
+  hp { 20, 25, 525 }
+  alignment { 1000 }
+  gold { 1625 }
+  hit_bonus { 11 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 30, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  susceptible { slash, fire }
+  act { npc, stay-zone }
+}
+
+93132
+{
+  name { a large vine creature }
+  namelist { large vine creature }
+  shortdesc { A large vine creature sniffs a pile of rock debris. }
+  longdesc {
+The large vine creature seems to look like the bears in the Oldport
+forest.  Its body is made up mostly of green vines and there are large
+brown roots for legs and feet.  It starts to charge at you when it
+notices you staring at it.  Didn't your mother teach you not to stare?
+Its mouth opens wide in a silent roar.  The vine creaures black eyes
+stare right at you.  It rears onto its vine legs and swipes it root
+paw at you.
+  }
+  race { dwarf }
+  world_limit { 6 }
+  level { 180 }
+  experience { 46115 }
+  hp { 20, 25, 1550 }
+  alignment { 1000 }
+  gold { 2350 }
+  hit_bonus { 11 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 20, 6 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  affected { infravision }
+  susceptible { slash, fire }
+  act { npc, aggressive, stay-zone }
+}
+
+93133
+{
+  name { An abnormal creature }
+  namelist { abnormal creature }
+  shortdesc { An abnormal looking creature tries to hide in the corner. }
+  longdesc {
+A sad looking creature cowers against the side of the cave.  You would
+not have been able to find it if it weren't for the creature's constant 
+shivering.  It seems to be an amalgam of the cavern creatures.  There 
+are rock, clay and vine features.  Vine whips flail at the end of the 
+creatures rock arms.  Its body is mostly rock, but there are clay and
+vines interlaced throughout.  A sad, clay face stares are you from the
+darkness, but quickly throws its hands over its face.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 205 }
+  experience { 125600 }
+  hp { 20, 25, 2800 }
+  alignment { 1000 }
+  gold { 7500 }
+  hit_bonus { 18 }
+  dam_bonus { 13 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 2, 7, 2 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { infravision }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+93134
+{
+  name { a rock shopkeeper }
+  namelist { rock shopkeeper }
+  shortdesc { A rock creature stands behind the counter, handing out goods. }
+  longdesc {
+The rock storekeeper is about average size for a rock creature.  It
+stands behind a large stone counter.  The counter runs the length of
+the rock cavern.  The storekeeper reaches underneath the counter and
+pulls out two bottles and a rock cake.  It hands the goods to some
+customers at the counter and gives a little smile.  The shopkeeper
+starts to stare at you uncomfortably.  It must be waiting for you to
+order something.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 89 }
+  experience { 14750 }
+  hp { 20, 25, 750 }
+  alignment { 1000 }
+  gold { 1700 }
+  hit_bonus { 16 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 0, 8 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+93135
+{
+  name { a clay shopkeeper }
+  namelist { clay shopkeeper }
+  shortdesc { The clay shopkeeper stands behind the counter, helping customers. }
+  longdesc {
+The clay storekeeper is about average size for a clay creature.  It
+stands behind a large stone counter.  The counter runs the length of
+the rock cavern.  The storekeeper reaches underneath the counter and
+pulls out two bottles and a mud cake.  It hands the goods to some
+customers at the counter and gives a little smile.  The shopkeeper
+starts to stare at you uncomfortably.  It must be waiting for you to
+order something.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 85 }
+  experience { 14500 }
+  hp { 20, 25, 725 }
+  alignment { 1000 }
+  gold { 1675 }
+  hit_bonus { 16 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+93136
+{
+  name { a vine shopkeeper }
+  namelist { vine shopkeeper }
+  shortdesc { A human shaped vine creature stands behind the counter. }
+  longdesc {
+The storekeeper is about size of an adult human, maybe six feet.  He is
+made up entirely of green vines and brown roots.  His arms and hands are
+mostly root but are interlaced with the bright green vines.  Almost as
+though the vines were moving the roots.  It stands behind a large stone 
+counter.  The counter runs the length of the rock cavern.  The storekeeper 
+reaches underneath the counter and pulls out two steaming cups of tea and 
+an herbal muffin.  Mmmm... herbal muffin......  It hands the goods to some
+customers at the counter and gives a little smile.  The shopkeeper starts 
+to stare at you uncomfortably.  It must be waiting for you to order 
+something.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 89 }
+  experience { 14250 }
+  hp { 20, 25, 700 }
+  alignment { 1000 }
+  gold { 1650 }
+  hit_bonus { 17 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 20, 8 }
+  body { 30, 7 }
+  arms { 30, 7 }
+  legs { 30, 7 }
+  feet { 30, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire, slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93137
+{
+  name { a small vine creature }
+  namelist { small vine creature pen }
+  shortdesc { A small vine creature runs and plays around the pen. }
+  longdesc {
+The vine creature appears to be about the size of a small dog.  Its body
+is made mostly of vines and its feet are some brown roots.  The vine
+creatures behavior is even reminiscent of a canine.  It appears to be
+playful and loves to run around after its brothers and sisters.  It
+walks up to your boots, takes a sniff and takes off to another part of
+the pen.
+  }
+  race { dwarf }
+  world_limit { 5 }
+  level { 85 }
+  experience { 15650 }
+  hp { 20, 25, 525 }
+  alignment { 1000 }
+  gold { 1625 }
+  hit_bonus { 11 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 30, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  affected { infravision }
+  susceptible { slash, fire }
+  act { npc, stay-zone }
+}
+
+93138
+{
+  name { a clay caretaker }
+  namelist { clay caretaker pen }
+  shortdesc { A clay creature is watching over and playing with the puppies. }
+  longdesc {
+The clay creature does not seem to be as large as the other clay types
+that you have seen.  It is only about three feet tall.  The creature is
+walking around the vine pen, taking care of the vine creatures.  It
+starts playing with some of the vine creatures as they jump up and tackle
+it for attention.  What a tuff job.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 70 }
+  experience { 12112 }
+  hp { 20, 25, 575 }
+  alignment { 1000 }
+  gold { 1500 }
+  hit_bonus { 17 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+93139
+{
+  name { a rock baby }
+  namelist { rock baby wandering }
+  shortdesc { A rock baby is running rampant around the nursery. }
+  longdesc {
+The baby would be cute if it wasn't for its rampage around the nursery.
+It runs around on its tiny legs with its arms raised staight above its
+head.  The baby waives its arms back and forth and kicks toys across
+the cavern.  It kicks a rubber duck across the room and nails the clay
+caretaker in the face.  Ouch!
+  }
+  race { None }
+  world_limit { 3 }
+  level { 42 }
+  experience { 5750 }
+  hp { 20, 25, 275 }
+  alignment { 1000 }
+  gold { 1250 }
+  hit_bonus { 19 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+93140
+{
+  name { a clay baby }
+  namelist { clay baby wandering }
+  shortdesc { A clay baby is causing a ruckus in the nursery. }
+  longdesc {
+The clay baby crawls along the cavern ceiling.  It looks like a cute
+moving bowl of jello.  There is a wide smile across the baby's face as
+it slithers across the ceiling.  It takes a deep breath and spits a
+ball of mud at the clay caretaker.  These babies are out of control!
+  }
+  race { None }
+  world_limit { 3 }
+  level { 38 }
+  experience { 4925 }
+  hp { 20, 25, 225 }
+  alignment { 1000 }
+  gold { 1225 }
+  hit_bonus { 15 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+93141
+{
+  name { a clay caretaker }
+  namelist { clay caretaker nursery }
+  shortdesc { A clay creature is trying to put the babies back in their cribs. }
+  longdesc {
+The clay creature does not seem to be as large as the other clay types
+that you have seen.  It is only about three feet tall.  There are clay
+are rock babies hanging all over this poor creature.  The caretaker
+doesn't seem to notice as it continues to attempt to put the babies 
+back in the cribs.  The creature gently pulls a baby off itself, rocks
+it to sleep and lays it down in the crip.  The sleeping babies look so
+happy.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 70 }
+  experience { 12112 }
+  hp { 20, 25, 575 }
+  alignment { 1000 }
+  gold { 1500 }
+  hit_bonus { 17 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+93142
+{
+  name { a rock and clay dancers }
+  namelist { rock clay dancer }
+  shortdesc { A rock and clay creature dances around the throne room. }
+  longdesc {
+They are dancing very beautifully.  The creatures move in perfect time
+to the music flowing through the cavern.  The creatures appear to be
+having the time of their lives.  They would probably be laughing if
+they could talk.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 100 }
+  experience { 83500 }
+  hp { 20, 25, 1095 }
+  alignment { 1000 }
+  gold { 4200 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 9, 2 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold, fire }
+  act { npc, stay-zone }
+}
+
+93143
+{
+  name { two rock dancers }
+  namelist { rock dancer }
+  shortdesc { Two rock creatures dance around the throne room. }
+  longdesc {
+They are dancing very beautifully.  The creatures move in perfect time
+to the music flowing through the cavern.  The creatures appear to be
+having the time of their lives.  They would probably be laughing if
+they could talk.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 100 }
+  experience { 83000 }
+  hp { 20, 25, 1155 }
+  alignment { 1000 }
+  gold { 4200 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 9, 2 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold, fire }
+  act { npc, stay-zone }
+}
+
+93144
+{
+  name { two clay dancers }
+  namelist { clay dancer }
+  shortdesc { Two clay creatures dance around the throne room. }
+  longdesc {
+They are dancing very beautifully.  The creatures move in perfect time
+to the music flowing through the cavern.  The creatures appear to be
+having the time of their lives.  They would probably be laughing if
+they could talk.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 100 }
+  experience { 88500 }
+  hp { 20, 25, 955 }
+  alignment { 1000 }
+  gold { 4100 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 9, 2 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold, fire }
+  act { npc, stay-zone }
+}
+
+93145
+{
+  name { a rock musician }
+  namelist { rock musician }
+  shortdesc { A rock creature dances around the party, playing a violin. }
+  longdesc {
+The rock creature is playing a lovely wooden violin.  However, when the
+creature moves its bow over the strings of the violin, an entire 
+orchestra of music comes out.  There must be magic at work!  The rock
+musician gracefully dances around the many groups of creatures at the
+party, careful not to bump into anyone.  It is very skillful at its job.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 135 }
+  experience { 37000 }
+  hp { 20, 25, 1337 }
+  alignment { 1000 }
+  gold { 1900 }
+  hit_bonus { 19 }
+  dam_bonus { 13 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 9, 2 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+93146
+{
+  name { the mountain king }
+  namelist { mountain king man }
+  shortdesc { The mountain king sits atop his throne, looking out over the party. }
+  longdesc {
+A thin looking human is sitting upon the rocky throne before you.  He
+is dressed in simple black attire with a black cloak.  He sits straight
+up on his throne with his black against the seat.  His eyes stare right
+through you and over the crowd of creatures.  He seems to be muttering
+something.  Suddenly, his eyes look to the up and to the west.  A cold
+sweat breaks out over his face and he returns to looking over the crowd.
+His mouth begins to move again.  The words don't appear to make any
+coherent setences.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 250 }
+  experience { 250000 }
+  hp { 20, 25, 3825 }
+  alignment { 1000 }
+  gold { 13500 }
+  hit_bonus { 19 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 8, 8 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 9 }
+  affected { infravision }
+  immune { charm }
+  resistant { pierce, slash }
+  act { npc, sentinel, stay-zone }
+}
+
+93147
+{
+  name { an evil mage }
+  namelist { evil mage }
+  shortdesc { A black robed figure is whispering in the King's ear. }
+  longdesc {
+Standing behind the throne, invisible and hiding, the black robed mage
+whispers into the King's ear.  He appears to be very skinny and frail.
+His black robe hangs loosely over his body, revealing a skeletal figure.
+The mage's eyes lock onto yours, but he does not stop whispering into
+the King's ear.  His lips being to move faster and faster.  He appears
+to be chanting an incantation.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 300 }
+  experience { 165000 }
+  hp { 20, 25, 3000 }
+  alignment { 1000 }
+  gold { 1500 }
+  caster { 30 }
+  mana { 500 }
+  power { 500 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 3, 6, 7 }
+  head { -20, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { sanctuary, hide, infravision, invisible }
+  immune { charm }
+  resistant { pierce }
+  spells { weakness, shriek, blindness, chill touch }
+  act { npc, sentinel, stay-zone }
+}
+
+93148
+{
+  name { a rock soldier }
+  namelist { rock soldier wandering }
+  shortdesc { The rock soldier makes his way through the party, towards you. }
+  longdesc {
+This is the largest rock soldier yet.  It is easily eight feet tall and
+looks like it could pound you to a pulp.  The giant rock creature carries
+a spear nearly as tall as it is.  It does not give you a friendly look
+as it inches closer and closer to your position.  It whips the spear
+down and prepares to attack.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 150 }
+  experience { 185000 }
+  hp { 20, 25, 3100 }
+  alignment { 1000 }
+  gold { 4500 }
+  hit_bonus { 18 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 8, 6 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, aggressive, stay-zone }
+}
+
+93149
+{
+  name { a rock soldier }
+  namelist { rock soldier }
+  shortdesc { A strong rock soldier stands watch against the wall. }
+  longdesc {
+This is the largest rock soldier yet.  It is easily eight feet tall and
+looks like it could pound you to a pulp.  It carres a long stone spear
+as long as it is tall.  It eyes you suspiciously from the side of the
+room.  Better not get in its way.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 150 }
+  experience { 185000 }
+  hp { 20, 25, 3100 }
+  alignment { 1000 }
+  gold { 4500 }
+  hit_bonus { 18 }
+  dam_bonus { 15 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 8, 6 }
+  head { -30, 8 }
+  body { -20, 7 }
+  arms { -20, 7 }
+  legs { -20, 7 }
+  feet { -20, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { cold }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+93150
+{
+  name { a clay youth }
+  namelist { clay youth }
+  shortdesc { A young clay creature runs through the hallways. }
+  longdesc {
+The young looking clay creature is about two feet tall.  It is 
+running along the cavern hallways causing all sorts of mischief.
+It walks over to a small vine creature, gives it a quick kick 
+and runs off, how rude!
+}
+  race { none }
+  world_limit { 4 }
+  level { 60 }
+  experience { 9500 }
+  hp { 20, 25, 450 }
+  alignment { 1000 }
+  gold { 1250 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 2 }
+  move { 200 }
+  damage { 2, 6, 2 }
+  head { 30,8 }
+  body { 40, 7 }
+  arms { 40, 7 }
+  legs { 40, 7 }
+  feet { 40, 7 }
+  affected { infravision }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+93151
+{
+  name { a rock youth }
+  namelist { rock youth }
+  shortdesc { A young rock creature runs through the hallways. }
+  longdesc {
+The young rock creature is about four feet tall.  It towers over
+the young clay creatures you have seen.  The rock youth look very 
+strong for its size, and appears to be able to handle its own.
+}
+  race { none }
+  world_limit { 4 }
+  level { 65 }
+  experience { 10100 }
+  hp { 20, 25, 550 }
+  alignment { 1000 }
+  gold { 2500 }
+  hit_bonus { 18 }
+  dam_bonus { 12 }
+  attacks_per_round { 2 }
+  move { 200 }
+  damage { 2, 6, 2 }
+  head { 20, 8 }
+  body { 30, 7 }
+  arms { 30, 7 }
+  legs { 30, 7 }
+  feet { 30, 7 }
+  affected { infravision }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+

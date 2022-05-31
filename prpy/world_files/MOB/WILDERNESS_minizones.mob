@@ -1,0 +1,324 @@
+28020
+{
+  name { Johan the Harbour Keeper }
+  namelist { johan keeper }
+  shortdesc { Johan sits beside an old desk, smoking a pipe. }
+  longdesc {
+Johan wears a tacky old suit and smokes a long hawthorn pipe.  
+His hands are rough and worn from his many days sailing the
+southern seas, a weathered man, tough as old leather.
+  }
+  race { human }
+  level { 800 }
+  alignment { 900 }
+  gold { 70000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -100, 10 }
+  body { -100, 10 }                                                               arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 400  }
+  move { 300 }
+  experience { 596002 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  act { sentinel }
+}
+
+40010
+{
+  name { Rachele }
+  namelist { Rachele }
+  shortdesc { Rachele rests behind her desk waiting for the next visitor}
+  longdesc {
+She wears a bright white dress and a blue apron.  In her hand is a small notebook and pen that she uses to check in new visitors.  She sighs for a moment and looks at you, trying to figure out if you are going to stay the evening.
+  }
+  race { human }
+  height { 170 }
+  level { 350 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 13}
+  dam_bonus { 13 }
+  attacks_per_round { 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 5 }
+  feet { -80, 5 }
+  hp { 1, 1, 15000 }
+  move { 300 }
+  experience { 427802 }
+  damage { 5, 5, 15  }
+  immune { backstab, charm }
+  act { sentinel}
+}
+
+40011
+{
+  name { Betty Baker }
+  namelist { Betty baker }
+  shortdesc { Betty Baker looks at you from behind the counter with a smile. }
+  longdesc {
+A plump older woman, Betty looks as though she has had many miscreants in her bakery
+throughout her lifetime.  She happily sings to herself as she brushes butter on pasteries.
+  }
+  race { human }
+  level { 400 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -90, 0 }
+  body { -90, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 15000  }
+  move { 300 }
+  experience { 754602 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  act { sentinel }
+}
+
+40012
+{
+  name { Alex the Bartender}
+  namelist { Alex Bartender}
+  shortdesc {Alex the Bartender stands behind the counter watering down drinks. }
+  longdesc {
+He looks around the room wondering if he'll get caught as he attempts to justify
+his contemptable actions within his own mind.  He is a seasoned looking gentleman,
+knowledgable of the world and its ways .
+  }
+  race { human }
+  level { 380}
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 20000  }
+  move { 300 }
+  experience { 659602 }
+  damage { 5, 5, 10  }
+  immune { charm }
+  act { sentinel }
+}
+
+40013
+{
+  name { Victoria the Priestess }
+  namelist { Victoria Priestess }
+  shortdesc { Victoria the Priestess stands at an altar tending to candles. }
+  longdesc {
+A beautiful young woman stands before you in shimmering robes of silk and taffeta.  
+She moves gracefuly and without haste as she tends to the many candles within the chapel.
+  }
+  race { human }
+  level { 420 }
+  alignment { 1000 }
+  gold { 30000 }
+  hit_bonus { 17 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  head { -60, 0 }
+  body { -60, 0 }
+  arms { -60, 0 }
+  legs { -60, 0 }
+  feet { -60, 0 }
+  hp { 1, 1, 30000  }
+  move { 300 }
+  experience { 857602 }
+  damage { 5, 5, 7  }
+  immune { charm }
+  act { sentinel }
+}
+
+40014
+{
+  name { Annabelle the Armorer }
+  namelist { Annabelle armorer }
+  shortdesc { Annabelle the Armorer stands here. }
+  longdesc {
+She appears to be a frail and fragile young woman, inexperienced in the ways of the world.
+She smiles happily as she dusts armor and places weapons in their proper places.
+  }
+  race { human }
+  level { 900 }
+  alignment { 900 }
+  gold { 50000 }
+  hit_bonus { 15 }
+  dam_bonus { 35}
+  attacks_per_round { 4 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 200000  }
+  move { 300 }
+  experience { 0 }
+  damage { 4, 10, 1  }
+  immune { charm, fire }
+  act { sentinel }
+}
+
+40015
+{
+  name { Byron the Pawn Broker }
+  namelist { Byron Broker }
+  shortdesc { Byron sits at his desk with an adbecus contemplating future riches. }
+  longdesc {
+Byron wears a tacky old suit and an eye piece over his left eye.  He hums the
+tune of some unknown classical song as he contemplates massive fortunes and higher
+interest rates.
+  }
+  race { human }
+  level { 400 }
+  alignment { 900 }
+  gold { 70000 }
+  hit_bonus { 20 }
+  dam_bonus { 15 }
+  attacks_per_round { 3 }
+  head { -100, 10 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  hp { 1, 1, 40000  }
+  move { 300 }
+  experience { 596002 }
+  damage { 5, 5, 6  }
+  immune { charm }
+  act { sentinel }
+}
+
+40016
+{
+  name { The Mist Wyvern }
+  namelist { Mist Wyvern }
+  shortdesc { A majestic Mist Wyvern protects the entrance of this town. }
+  longdesc {
+The Mist Wyvern towers next to the gates of this small town.  Its eyes 
+are gentle, its face is kind and sweet.  She stares off into the distance looking
+for imminent danger.
+  }
+  race { dragon }
+  level { 360 }
+  alignment { 1000 }
+  gold { 100000 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 1, 1, 38000  }
+  move { 300 }
+  experience { 899285 }
+  damage { 5, 5, 20  }
+  immune { charm }
+  act { sentinel }
+}
+
+40017
+{
+  name { the wandering warrior }
+  namelist { wandering warrior}
+  shortdesc { A Wandering Warrior stands here, waiting to help you. }
+  longdesc {
+He stands proud and tall.  Clad in the finest of armor, he seeks to help
+those in need whenever possible.  He is rather handsome!
+  }
+  race { human }
+  level { 320}
+  alignment { 900 }
+  gold { 11800 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 3 }
+  head { -20, 3 }
+  body { -20, 3 }
+  arms { -20, 3 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  hp { 1, 1, 8000  }
+  move { 300 }
+  experience { 243618 }
+  damage { 3, 7, 1 }
+  act { stay-zone }
+}
+
+40018
+{
+  name { An Elven woman }
+  namelist { Elven woman }
+  shortdesc { An Elven woman in a pretty white dress. }
+  longdesc {
+She looks around as if to find somwhere to rest herself.  In her arms she 
+holds a small basket full of items to sell in the market.  Her appearance is
+neat, her clothes are well pressed and taken care of.
+
+  }
+  race { Elven }
+  level { 400 }
+  alignment { 1000 }
+  gold { 43500  }
+  hit_bonus { 18 }
+  dam_bonus { 18 }
+  attacks_per_round { 4 }
+  head { -60, 17 }
+  body { -60, 17 }
+  arms { -60, 17 }
+  legs { -60, 17 }
+  feet { -60, 17 }
+  hp { 1, 1, 13000  }
+  move { 300 }
+  experience { 454127 }
+  damage { 5, 4, 2  }
+  immune { fire }
+  act { stay-zone }
+}
+
+40019
+{
+  name { a tiny warrior }
+  namelist { tiny warrior}
+  shortdesc { A tiny Warrior mutters something to himself about "short jokes". }
+  longdesc {
+This miniature warrior is not actually a man, but a child in training to
+protect the town! He snickers as you peer at him, trying to figure out if he's
+actually some kind of pixie.
+  }
+  race { human }
+  level { 260}
+  alignment { 1000 }
+  gold { 11800 }
+  hit_bonus { 4 }
+  dam_bonus { 4 }
+  attacks_per_round { 2 }
+  head { -20, 3 }
+  body { -20, 3 }
+  arms { -20, 3 }
+  legs { -20, 3 }
+  feet { -20, 3 }
+  hp { 1, 1, 6000  }
+  move { 300 }
+  experience { 213618 }
+  damage { 3, 6, 1 }
+  act { stay-zone }
+}
+
+

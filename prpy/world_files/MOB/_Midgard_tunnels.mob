@@ -1,0 +1,1476 @@
+100
+{
+  name { a zombie }
+  namelist { zombie }
+  shortdesc { A rotting zombie stands here vacantly. }
+  longdesc {
+Its eyes show no sign of intelligence, or free will. It is but the animated
+flesh of a luckless being.
+  }
+  race { undead }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 150 }
+  damage { 1, 8, 1  }
+  immune { backstab, poison, drain }
+  act { sentinel, nice-thief }
+}
+
+101
+{
+  name { A giant troll }
+  namelist { giant troll }
+  shortdesc { A giant troll stands here }
+  longdesc {
+It looks really pissed to be in its current predicament.
+  }
+  race { troll }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 3, 8, 8  }
+  move { 300 }
+  experience { 365 }
+  damage { 2, 8, 6  }
+}
+
+199
+{
+  name { A shark }
+  namelist { a shark }
+  shortdesc { A large shark swims here. }
+  longdesc {
+It's a man-eating shark!
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 110 }
+  damage { 3, 6, 1  }
+  affected { water-breath }
+  act { sentinel, aggressive }
+}
+
+201
+{
+  name { a goblin }
+  namelist { goblin }
+  shortdesc { A goblin stands here. }
+  longdesc {
+The goblin is small and pitiful looking.  He is dressed in filthy clothes,
+and looks rather repulsive.
+  }
+  race { goblin }
+  level { 1 }
+  alignment { -100 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 104 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+202
+{
+  name { an orc }
+  namelist { orc }
+  shortdesc { An orc stands here. }
+  longdesc {
+The orc is small and pitiful looking.  He is dressed in filthy clothes,
+and looks rather repulsive.
+  }
+  race { orc }
+  level { 1 }
+  alignment { -100 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 106 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+203
+{
+  name { a badger }
+  namelist { badger }
+  shortdesc { a badger stands here. }
+  longdesc {
+She is small, but moves very quickly
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 233 }
+  damage { 1, 2, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+204
+{
+  name { a fire beetle }
+  namelist { fire beetle }
+  shortdesc { A fire beetle stands here }
+  longdesc {
+It is small, and has glowing red spots on its abdomen
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 183 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+205
+{
+  name { A troglodyte }
+  namelist { troglodyte trog }
+  shortdesc { A small troglodyte stands here }
+  longdesc {
+She smells repulsive.
+  }
+  race { troll }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 157 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+206
+{
+  name { a cow }
+  namelist { cow }
+  shortdesc { A cow stands here }
+  longdesc {
+She is quietly chewing her cud
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 173 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  act { wimpy }
+}
+
+207
+{
+  name { A wild dog }
+  namelist { dog wild }
+  shortdesc { A wild dog stands here }
+  longdesc {
+He looks well, wild...
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 173 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+208
+{
+  name { A giant frog }
+  namelist { frog giant }
+  shortdesc { A giant frog stands here }
+  longdesc {
+Its not easy being green.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 104 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+209
+{
+  name { A hobgoblin }
+  namelist { hobgoblin }
+  shortdesc { A hobgoblin stands here }
+  longdesc {
+He is fierce looking, and fairly strong
+  }
+  race { goblin }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 107 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+210
+{
+  name { A large spider }
+  namelist { spider large }
+  shortdesc { A large spider stands here }
+  longdesc {
+She is small, but moves quickly
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 103 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+211
+{
+  name { a gnoll }
+  namelist { gnoll }
+  shortdesc { A gnoll stands here, he looks mean. }
+  longdesc {
+He is dressed in yellow rags, and has a dog-like face.  He is not very much
+fun to stare at like this.  People are looking at you
+  }
+  race { goblin }
+  level { 1 }
+  alignment { -200 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 107 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+212
+{
+  name { A giant beetle }
+  namelist { beetle giant }
+  shortdesc { A giant beetle stands here }
+  longdesc {
+It is about 3 feet long, and looks like a sturdy fighter
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 186 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+213
+{
+  name { a giant ant }
+  namelist { ant }
+  shortdesc { A giant ant stands here. }
+  longdesc {
+It has large mandibles, and looks like it could lift 16 times its own weight.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 171 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+214
+{
+  name { A war dog }
+  namelist { war dog }
+  shortdesc { A war dog stands here }
+  longdesc {
+He is large, and trained to kill
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 176 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+215
+{
+  name { A giant frog }
+  namelist { frog giant }
+  shortdesc { A giant frog stands here }
+  longdesc {
+It is fairly large, and tough looking.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 159 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+216
+{
+  name { A lemure }
+  namelist { lemure }
+  shortdesc { A lemure stands here }
+  longdesc {
+It is mindless and looks pretty gross too!
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 215 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+217
+{
+  name { A giant toad }
+  namelist { toad giant }
+  shortdesc { A giant toad sits here. }
+  longdesc {
+Large and covered with warts.  Don't touch him or you'll get them too!
+(heh)
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 336 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+218
+{
+  name { A stirge }
+  namelist { stirge }
+  shortdesc { A stirge flaps about here }
+  longdesc {
+Looks like an interesting cross between a mosquito and a bird.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 103 }
+  damage { 1, 3, 4  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+219
+{
+  name { A troglodyte }
+  namelist { troglodyte trog }
+  shortdesc { A troglodyte stands here. }
+  longdesc {
+Big, ugly and really smelly
+  }
+  race { troll }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 212 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+220
+{
+  name { The human fighter }
+  namelist { human fighter }
+  shortdesc { A human fighter stands here. }
+  longdesc {
+Looks like a fairly tough fellow.
+  }
+  race { human }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 352 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+221
+{
+  name { a bugbear }
+  namelist { bugbear }
+  shortdesc { A bugbear stands here. }
+  longdesc {
+He is furry, and nasty.  He looks like a mean walking carpet.  You probably
+don't want to piss him off.
+  }
+  race { none }
+  level { 3 }
+  alignment { -300 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 457 }
+  damage { 1, 12, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+222
+{
+  name { A boring beetle }
+  namelist { beetle boring giant }
+  shortdesc { A giant boring beetle stands here. }
+  longdesc {
+It has a shiny black carapace
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 224 }
+  damage { 5, 4, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+223
+{
+  name { A ghoul }
+  namelist { ghoul }
+  shortdesc { A ghoul stands here. }
+  longdesc {
+It smells awful!  And looks worse!
+  }
+  race { undead }
+  level { 1 }
+  alignment { -1000 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 2, 8, 1  }
+  move { 300 }
+  experience { 212 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+224
+{
+  name { A giant lizard }
+  namelist { lizard giant }
+  shortdesc { A giant lizard rests here. }
+  longdesc {
+It is rather large.  Could probably swallow a small child whole.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 107 }
+  damage { 1, 10, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+225
+{
+  name { A wererat }
+  namelist { wererat }
+  shortdesc { A wererat stands here, staring at you intently. }
+  longdesc {
+It is small, but VERY quick.  A combination of rat, and man, standing
+about 4'.
+  }
+  race { none }
+  level { 1 }
+  alignment { -300 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 106 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  affected { infravision }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+226
+{
+  name { An ogre }
+  namelist { ogre }
+  shortdesc { An ogre stands here, grinning at you }
+  longdesc {
+He is rather large, and nasty looking.  You are well aware of his huge
+muscles.  Pissing him off is not a good idea.
+  }
+  race { ogre }
+  level { 1 }
+  alignment { -400 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 107 }
+  damage { 1, 10, 6  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+227
+{
+  name { A huge spider }
+  namelist { spider huge }
+  shortdesc { A huge spider scurries about. }
+  longdesc {
+It looks like this spider would have no problem carrying off small
+children.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 176 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+228
+{
+  name { A giant tick }
+  namelist { tick giant }
+  shortdesc { A giant tick sits here }
+  longdesc {
+It looks like a nasty bloodsucker.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 233 }
+  damage { 1, 10, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+229
+{
+  name { A giant weasel }
+  namelist { weasel giant }
+  shortdesc { A giant weasel scurries about. }
+  longdesc {
+It is moving so fast that all you can see is some fur, a tail and at least
+4 legs.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 3, 8, 3  }
+  move { 300 }
+  experience { 249 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+230
+{
+  name { A black dragon }
+  namelist { dragon black baby }
+  shortdesc { A very young black dragon sits here. }
+  longdesc {
+It is very small, and looks rather lost
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 5 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 6, 8, 56  }
+  move { 300 }
+  experience { 534 }
+  damage { 1, 6, 1  }
+  immune { acid }
+  act { special, scavenger }
+}
+
+231
+{
+  name { A carniverous ape }
+  namelist { ape carniverous }
+  shortdesc { A carniverous ape stands here. }
+  longdesc {
+He looks rather hungrily back at you
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 5, 8, 51  }
+  move { 300 }
+  experience { 401 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+232
+{
+  name { A blink dog }
+  namelist { blink dog }
+  shortdesc { A blink dog stand here, randomly teleporting }
+  longdesc {
+He doesn't stay still long enough to get a good look at him
+  }
+  race { none }
+  level { 2 }
+  alignment { 500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 51  }
+  move { 300 }
+  experience { 299 }
+  damage { 1, 6, 6  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+233
+{
+  name { A blue dragon }
+  namelist { dragon blue }
+  shortdesc { A very young blue dragon. }
+  longdesc {
+She looks lost and confused.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 5 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 8, 8, 58  }
+  move { 300 }
+  experience { 664 }
+  damage { 1, 7, 1  }
+  immune { electricity, charm }
+  affected { infravision }
+  act { special, scavenger, wimpy }
+}
+
+234
+{
+  name { A dwarven cleric }
+  namelist { dwarf cleric }
+  shortdesc { A dwarven cleric stands here }
+  longdesc {
+He looks rather holy.
+  }
+  race { dwarf }
+  level { 4 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 8, 8, 58  }
+  move { 300 }
+  experience { 596 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+235
+{
+  name { A gargoyle }
+  namelist { gargoyle }
+  shortdesc { A gargoyle stands here. }
+  longdesc {
+He is man-sized, and has leathery bat-like wings.
+  }
+  race { devil }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 4 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 4, 8, 54  }
+  move { 300 }
+  experience { 394 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  affected { infravision }
+  act { scavenger, aggressive, wimpy }
+}
+
+236
+{
+  name { A ghast }
+  namelist { ghast }
+  shortdesc { A ghast is here. }
+  longdesc {
+Ugly and smelly beyond description.
+  }
+  race { undead }
+  level { 2 }
+  alignment { -1000 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 51  }
+  move { 300 }
+  experience { 356 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  affected { infravision }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+237
+{
+  name { A werewolf }
+  namelist { werewolf wolfman }
+  shortdesc { A werewolf stands here }
+  longdesc {
+He looks viscious and evil.
+  }
+  race { human }
+  level { 1 }
+  alignment { -500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 3, 8, 53  }
+  move { 300 }
+  experience { 254 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+238
+{
+  name { An owlbear }
+  namelist { owlbear }
+  shortdesc { An owlbear stands here. }
+  longdesc {
+Looks like a cross between a large owl, and a large bear.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 2, 8, 52  }
+  move { 300 }
+  experience { 229 }
+  damage { 1, 8, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+239
+{
+  name { A shadow }
+  namelist { shadow }
+  shortdesc { You see a shadow on the ground. }
+  longdesc {
+It doesn't look like it belongs to anyone.
+  }
+  race { undead }
+  level { 1 }
+  alignment { -500 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 3, 8, 53  }
+  move { 300 }
+  experience { 244 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  affected { invisible, infravision }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+240
+{
+  name { A poisonous toad }
+  namelist { toad poisonous }
+  shortdesc { A poisonous toad hops about. }
+  longdesc {
+It looks fairly large, and the poison (you suspect) can be lethal.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 2, 8, 101  }
+  move { 300 }
+  experience { 159 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  act { special, scavenger, wimpy, deadly }
+}
+
+241
+{
+  name { An Elven assassin }
+  namelist { elf assassin elven }
+  shortdesc { An Elven assassin stands here. }
+  longdesc {
+She is dangerous to provoke.
+  }
+  race { elven }
+  level { 3 }
+  alignment { -100 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 5, 8, 105  }
+  move { 300 }
+  experience { 422 }
+  damage { 1, 8, 2  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+242
+{
+  name { A displacer beast }
+  namelist { displacer beast }
+  shortdesc { A displacer beast stands um... somewhere }
+  longdesc {
+The displacer beast is a large cat-like creature with two large
+tentacles.  It magically shifts its image, so it is hard to fight.
+  }
+  race { none }
+  level { 3 }
+  alignment { -100 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 6, 8, 81  }
+  move { 300 }
+  experience { 511 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+243
+{
+  name { A white dragon }
+  namelist { white dragon }
+  shortdesc { A young adult white dragon slithers about. }
+  longdesc {
+A white, lizard like creature.  Looks fairly competent, and ready to
+kill
+  }
+  race { none }
+  level { 3 }
+  alignment { -300 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 5 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 6, 8, 81  }
+  move { 300 }
+  experience { 482 }
+  damage { 1, 5, 1  }
+  immune { cold, charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+244
+{
+  name { A leucrotta }
+  namelist { leucrotta }
+  shortdesc { A leucrotta stands here. }
+  longdesc {
+A disgusting horse-like beast, with a long, forked tongue
+  }
+  race { none }
+  level { 1 }
+  alignment { -200 }
+  gold { 25 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 1, 8, 81  }
+  move { 300 }
+  experience { 109 }
+  damage { 2, 6, 1  }
+  immune { charm }
+  act { scavenger, wimpy }
+}
+
+245
+{
+  name { A giant lizard }
+  namelist { lizard giant subterranean }
+  shortdesc { A subterranean lizard stands here }
+  longdesc {
+Very large.  It could probably swallow a large child.
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 6, 8, 81  }
+  move { 300 }
+  experience { 412 }
+  damage { 2, 6, 2  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+246
+{
+  name { A wereboar }
+  namelist { wereboar }
+  shortdesc { A wereboar stands here. }
+  longdesc {
+It is a human/pig combo.  Rather ugly too.
+  }
+  race { none }
+  level { 1 }
+  alignment { -100 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 3, 8, 83  }
+  move { 300 }
+  experience { 320 }
+  damage { 1, 5, 1  }
+  immune { charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+247
+{
+  name { A minotaur }
+  namelist { minotaur }
+  shortdesc { A minotaur stands here, snorting. }
+  longdesc {
+A large man with the head of a bull.. Not the type you want to mess with.
+  }
+  race { human }
+  level { 1 }
+  alignment { -200 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 2 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 3, 8, 83  }
+  move { 300 }
+  experience { 299 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  act { scavenger, aggressive, wimpy }
+}
+
+248
+{
+  name { A two-headed snake }
+  namelist { snake twoheaded }
+  shortdesc { A snake slithers about here.. It has a head at either end! }
+  longdesc {
+It must move about by gripping one head with the other!
+  }
+  race { none }
+  level { 3 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 6, 8, 81  }
+  move { 300 }
+  experience { 482 }
+  damage { 1, 3, 1  }
+  immune { cold, charm }
+  act { special, scavenger, aggressive, wimpy }
+}
+
+249
+{
+  name { A rattlesnake }
+  namelist { snake poisonous rattle }
+  shortdesc { A rattlesnake shakes his tail in warning. }
+  longdesc {
+It is rather large for a snake... You probably want to go now...
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 2, 8, 82  }
+  move { 300 }
+  experience { 179 }
+  damage { 1, 3, 1  }
+  immune { charm }
+  act { special, scavenger, wimpy, deadly }
+}
+

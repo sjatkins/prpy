@@ -1,0 +1,593 @@
+71001
+{
+  name { Nasis }
+  namelist { nasis }
+  shortdesc { Nasis, leader of the Aradorian resistance, grins at you evilly. }
+  longdesc {
+Nasis, a prominent human sorceror took his followers to this land in
+hopes of ridding themselves of the militant Ar Nardor, who forced them
+away from their land.  Now, he takes his frustrations out on those who
+oppose him.
+  }
+  race { Human }
+  sex { male }
+  level { 530 }
+  experience { 1250000 }
+  gold { 350000  }
+  alignment { 0 }
+  hp { 30, 100, 25900 }
+  move { 1300 }
+  mana { 1900 }
+  height { 186 }
+  weight { 220 }
+  hit_bonus { 32 }
+  dam_bonus { 18 }
+  alignment { -1000 }
+  caster { 60 }
+  damage { 2, 30, 30 }
+  attacks_per_round { 5 }
+  head { -275, 25 }
+  body { -175, 12 }
+  arms { -175, 12 }
+  legs { -175, 12 }
+  feet { -175, 12 }
+  strength { 20 }
+  immune { charm, fire }
+  susceptible { poison }
+  resist_magic {150}
+  act { sentinel, aggressive, nosummon }
+  affected { detect-invisible, sanctuary }
+  spells { fireball, mage fire, weakness, sleep }
+}
+ 
+71002
+{
+  name { Adina }
+  namelist { adina }
+  shortdesc { Adina, a relentless and dominating warrior, stands before you. }
+  longdesc {
+Her muscles resemble those of an oxen, massive and toned.  Many
+years ago, she dueled with Nasis and his men in a war that would
+effect this world for years to come.  Now she puts the blame on you.
+  }
+  race { Human }
+  sex { female }
+  level { 555 }
+  experience { 1175000 }
+  gold { 250000  }
+  hp { 30, 94, 28000 }
+  move { 1300 }
+  height { 180 }
+  weight { 150 }
+  alignment { -1000 }
+  damage { 2, 32, 25 }
+  hit_bonus { 32 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -205, 25 }
+  body { -185, 15 }
+  arms { -185, 15 }
+  legs { -185, 15 }
+  feet { -185, 15 }
+  dexterity { 16 }
+  resist_magic {150}
+  resist_fire {125}
+  act { sentinel, aggressive, nosummon }
+  affected { sanctuary, true-sight, detect-invisible, hide }
+}
+ 
+71003
+{
+  name { Trichlid }
+  namelist { trichlid }
+  shortdesc { A disgusting pile of decaying bone and flesh lies here. }
+  longdesc {
+Several animated bones and rotten flesh are combined to form this
+satanic creature.  He is well aware of your presence and preparing to
+defend his home.
+  }
+  race { Undead }
+  level { 550 }
+  experience { 822898 }
+  gold { 150000 }
+  hp { 20, 45, 22000 }
+  move { 1300 }
+  height { 85 }
+  weight { 75 }
+  alignment { -1000 }
+  caster { 25 }
+  damage { 2, 30, 30 }
+  hit_bonus { 24 }
+  dam_bonus { 12 }
+  attacks_per_round { 6 }
+  head { -165, 22 }
+  body { -165, 12 }
+  arms { -165, 12 }
+  legs { -165, 12 }
+  feet { -165, 12 }
+  immune { charm, fire, backstab }
+  act { sentinel, aggressive, nosummon }
+  affected { true-sight, sanctuary }
+  spells { fireball, sleep, blindness, acid blast }
+}
+ 
+71004
+{
+  name { Sespore }
+  namelist { sespore }
+  shortdesc { The sespore slithers through the trash here setting it ablaze. }
+  longdesc {
+A Fiery, snake-like creature wades through this disgusting sespool in
+search of dinner.  It seems to take a liking to you.  Perhaps, you will be
+its next meal.
+  }
+  race { Snake }
+  sex { neuter }
+  level { 460 }
+  experience { 850818 }
+  hp { 76, 97, 6500 }
+  move { 300 }
+  height { 150 }
+  weight { 95 }
+  alignment { -1000 }
+  gold { 70000  }
+  damage { 3, 20, 20 }
+  hit_bonus { 22 }
+  dam_bonus { 16 }
+  attacks_per_round { 5 }
+  head { -195, 29 }
+  body { -155, 15 }
+  arms { -155, 15 }
+  legs { -155, 15 }
+  feet { -155, 15 }
+  immune { charm, sleep }
+  act { sentinel, aggressive, nosummon }
+  affected { sense-life, water-breath, fireshield }
+}
+ 
+71005
+{
+  name { A prison guard }
+  namelist { prison guard }
+  shortdesc { A massive and toned man guards the prison entrance from intruders.
+ }
+  longdesc {
+This man is huge!  He stares down at you with a cold and intimidating
+glare.  You sure wouldn't want to be thrown in this prison.
+  }
+  race { Human }
+  sex { male }
+  level { 420 }
+  experience { 831858 }
+  hp { 24, 97, 6108 }
+  move { 300 }
+  height { 95 }
+  weight { 185 }
+  gold { 94500  }
+  alignment { -400 }
+  damage { 2, 20, 18 }
+  attacks_per_round { 4 }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  head { -120, 20 }
+  body { -120, 12 }
+  arms { -120, 12 }
+  legs { -120, 12 }
+  feet { -120, 12 }
+  act { sentinel, aggressive, guarding, nosummon }
+  affected { sanctuary, true-sight }
+}
+ 
+71006
+{
+  name { A prisoner }
+  namelist { prisoner }
+  shortdesc { A prisoner tries to clamber to his feet. }
+  longdesc {
+These prisoners must be held for some serious crimes.  They are almost
+forgotten as their boney figures show the signs of malnutrition and
+sickness.
+  }
+  race { Human }
+  sex { male }
+  level { 420 }
+  experience { 455425 }
+  gold { 25  }
+  hp { 35, 82, 4871 }
+  move { 315 }
+  height { 90 }
+  weight { 120 }
+  hit_bonus { 25 }
+  dam_bonus { 10 }
+  damage { 3, 15, 10 }
+  attacks_per_round { 3 }
+  head { -140, 26 }
+  body { -100, 18 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  act { sentinel, aggressive, citizen, nosummon }
+}
+ 
+71007
+{
+  name { Nasis' henchman }
+  namelist { nasis henchman }
+  shortdesc { Nasis' henchman dare you to endure his challenging maze. }
+  longdesc {
+These are simple minded people who have sacrificed themselves to
+serve the almighty Nasis.  They are prepared to do all it takes to protect their leader.
+  }
+  race { Human }
+  sex { male }
+  level { 450 }
+  experience { 585298 }
+  gold { 52250  }
+  hp { 39, 91, 5500 }
+  move { 3d20+334 }
+  height { 130 }
+  weight { 190 }
+  damage { 2, 16, 15 }
+  attacks_per_round { 4 }
+  hit_bonus { 22 }
+  dam_bonus { 16 }
+  head { -72, 25 }
+  body { -72, 15 }
+  arms { -72, 15 }
+  legs { -72, 15 }
+  feet { -72, 15 }
+  resist_magic { 100 }
+  act { aggressive, nosummon }
+  affected { detect-invisible, sanctuary }
+}
+ 
+71008
+{
+  name { A hidden thief }
+  namelist { hidden thief }
+  shortdesc { A sneaky thief searches your pockets for gold and valuables. }
+  longdesc {
+Suprisingly you notice this sneaky little trouble-maker.  He is lightning
+quick and stealthy.  You had better check your pockets!
+  }
+  race { Human }
+  sex { male }
+  level { 435 }
+  experience { 627018 }
+  gold { 50000 }
+  hp { 52, 23, 5259 }
+  hit_bonus { 22 }
+  dam_bonus { 15 }
+  move { 1365 }
+  height { 95 }
+  weight { 150 }
+  damage { 3, 10, 15 }
+  attacks_per_round { 4 }
+  hit_bonus { 16 }
+  head { -90, 25 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  act { stay-zone, nosummon }
+  affected { sneak, hide, true-sight }
+}
+ 
+71009
+{
+  name { A hidden assassin }
+  namelist { hidden assassin }
+  shortdesc { A mysterious assassin hides in the shadows here. }
+   longdesc {
+An undistinguishable man tries to hide in the shadows from you.  He is
+alerted to your presence and doesn't appreciate you being here.
+  }
+  race { Human }
+  sex { male }
+  level { 440 }
+  experience { 539778 }
+  gold { 40000  }
+  hp { 4, 50, 6350 }
+  move { 388 }
+  height { 95 }
+  weight { 150 }
+  damage { 4, 11, 16 }
+  hit_bonus { 22 }
+  dam_bonus { 12 }
+  attacks_per_round { 5 }
+  head { -90, 25 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  act { aggressive, nosummon }
+  affected { detect-invisible, hide, true-sight, sneak }
+}
+ 
+71010
+{
+  name { An ugly witch }
+  namelist { ugly witch }
+  shortdesc { An ugly old woman with a pointed nose stirs her kettle fervently.
+}
+  longdesc {
+This woman is scary but really pays no attention to you.  She is too
+busy making her concoction.  You can't get over the ugly wart on her
+nose.
+  }
+  race { Human }
+  sex { female }
+  level { 460 }
+  experience { 779778 }
+  gold { 154000  }
+  hp { 20, 50, 8500 }
+  move { 3d88 }
+  mana { 1200 }
+  height { 85 }
+  weight { 125 }
+  alignment { -1000 }
+  hit_bonus { 24 }
+  caster { 80 }
+  damage { 3, 9, 15 }
+  attacks_per_round { 3 }
+  head { -90, 25 }
+  body { -90, 12 }
+  arms { -90, 12 }
+  legs { -90, 12 }
+  feet { -90, 12 }
+  immune { charm, sleep, backstab }
+  resistant { fire, cold }
+  act { sentinel, nosummon }
+  affected { sanctuary }
+  spells { weakness, fear, dispel magic, ice lance, chill touch, shriek }
+}
+
+71011
+{
+  name { A solemn priest }
+  namelist { solemn priest }
+  shortdesc { A dark, robed man mumbles incantations as he kneels in prayer. }
+  longdesc {
+You are unable to see his face as his hooded robe casts a dark shadow
+over it.  It is a mystery to you why this man is here, especially why he carries
+a gold key tied to his waist.
+  }
+  race { Human }
+  sex { male }
+  level { 515 }
+  experience { 615298 }
+  gold { 94200 }
+  hp { 35, 91, 7632 }
+  move { 334 }
+  mana { 350 }
+  height { 100 }
+  weight { 120 }
+  alignment { -200 }
+  caster { 75 }
+  damage { 5, 5, 10 }
+  hit_bonus { 22 }
+  dam_bonus { 12 }
+  attacks_per_round { 3 }
+  head { -82, 25 }
+  body { -82, 12 }
+  arms { -82, 12 }
+  legs { -82, 12 }
+  feet { -82, 12 }
+  act { sentinel, nosummon }
+  affected { true-sight, sanctuary }
+  spells { heal, true word, dispel magic, shriek }
+}
+ 
+71012
+{
+  name { A stone angel }
+  namelist { stone angel }
+  shortdesc { A stone angel breaks free from her restricting fountain. }
+  longdesc {
+This creature must be a magical animation.  Whoever is controlling her
+surely doesn't appreciate you being here and certainly will not offer you
+an invitation to come back if you survive.
+  }
+  race { Undead }
+  sex { female }
+  level { 480 }
+  experience { 1389778 }
+  gold { 191000  }
+  hp { 59, 86, 6940 }
+  move { 388 }
+  height { 79 }
+  weight { 230 }
+  damage { 5, 9, 14 }
+  hit_bonus { 22 }
+  dam_bonus { 16 }
+  attacks_per_round { 6 }
+  head { -126, 25 }
+  body { -97, 15 }
+  arms { -97, 15 }
+  legs { -97, 15 }
+  feet { -97, 15 }
+  resistant { pierce }
+  immune { charm, poison, backstab }
+  act { sentinel, aggressive, nosummon }
+  affected { true-sight, sanctuary }
+}
+ 
+71013
+{
+  name { A hairy man }
+  namelist { hairy man }
+  shortdesc { A hairy man leans against the small statue here. }
+  longdesc {
+This man is disgusting.  Hair flows out of almost every pore in his entire
+body.  You don't even want to touch him let alone fight him.
+  }
+  race { Human }
+  sex { male }
+  level { 450 }
+  experience { 845298 }
+  gold { 86000 }
+  hp { 27, 51, 7532 }
+  move { 334 }
+  height { 120 }
+  weight { 210 }
+  damage { 10, 5, 10 }
+  hit_bonus { 22 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -92, 26 }
+  body { -92, 15 }
+  arms { -92, 12 }
+  legs { -92, 12 }
+  feet { -92, 12 }
+  immune { charm, cold }
+  act { sentinel, aggressive, nosummon }
+}
+ 
+71014
+{
+  name { a mature red dragon }
+  namelist { red dragon matue }
+  shortdesc { A mature red dragon stares at his next fried dinner. }
+  longdesc {
+This fierce dragon is trapped in Nasis' small trap.  It must have been one
+his pets that he captured.  Unfortunately, he doesn't look to be enjoying
+himself in here.
+ }
+  race { Dragon }
+  level { 495 }
+  experience { 1239098 }
+  gold { 245000  }
+  hp { 19, 95, 23761 }
+  move { 348 }
+  mana { 700 }
+  height { 750 }
+  weight { 3500 }
+  caster { 45 }
+  damage { 5, 8, 15 }
+  hit_bonus { 22 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -98, 25 }
+  body { -98, 20 }
+  arms { -98, 12 }
+  legs { -98, 12 }
+  feet { -98, 12 }
+  immune { fire }
+  act { sentinel, aggressive, nosummon }
+  affected { infravision, fireshield, flying }
+  spells { fireball, meteor swarm, mage fire }
+}
+
+71015
+{
+  name { Elvid }
+  namelist { Elvid }
+  shortdesc { A strange man sits here with reddish skin. }
+  longdesc { 
+Elvid has strangely pointed teeth, a forked tongue and seems to look right past you.
+  }
+  race { Demon }
+  level { 575 }
+  experience { 1663666 }
+  hp { 26, 66, 39666 }
+  alignment { -1000 }
+  gold { 666666 }
+  power { 1500 }
+  mana { 1500 }
+  hit_bonus { 30 }
+  dam_bonus { 26 }
+  attacks_per_round { 6 }
+  strength { 10 }
+  dexterity { 12 }
+  move { 800 }
+  damage { 2, 6, 75 }
+  head { -220, 75 }
+  body { -220, 70 }
+  arms { -220, 70 }
+  legs { -220, 70 }
+  feet { -220, 70 }
+  resist_acid { 250 }
+  resist_magic  { 300 }
+  resist_fire   { 300 }
+  immune { charm, backstab, electricity }
+  affected { sanctuary, fireshield, true-sight }
+  act { sentinel, aggressive, hateful, nosummon }
+}
+
+71016
+{
+  name { Rizillizesixxiz }
+  namelist { Rizillizesixxiz }
+  shortdesc { A very large blue dragon waits here to avenge Adina. }
+  longdesc { 
+Rizillizesixxiz is surrounded by a blue glow, the ground below it freezing, large puffs of vapor come 
+ from its jaws and nostrils. The tail of this dragon is quite easily longer than its body with
+ a shard of ice on the tip. 
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1824000 }
+  hp { 12, 155, 38555 }
+  alignment { -1000 }
+  gold { 1500000 }
+  caster { 60 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 34 }
+  dam_bonus { 16 }
+  attacks_per_round { 5 }
+  move { 600 }
+  dexterity { 15 }
+  damage { 4, 37, 43 }
+  head { -190, 70 }
+  body { -170, 70 }
+  arms { -170, 70 }
+  legs { -170, 70 }
+  feet { -170, 70 }
+  spells { ice storm, cone of cold, freeze, ice lance, chill touch }
+  immune { charm, sleep, cold, backstab }
+  resist_magic { 80 }
+  susceptible { fire }
+  affected { sanctuary, true-sight, fly }
+  act { aggressive, sentinel, healer, nosummon }
+}
+
+71017
+{
+  name { Siqixisas }
+  namelist { Siqixisas }
+  shortdesc { Siqixisas, protector of the Chalice. }
+  longdesc { 
+A rather short male human, looks around for the chalice and seems to think
+that you have stolen it.
+  }
+  race { human }
+  sex { male }
+  world_limit { 1 }
+  level { 540 }
+  experience { 1548200 }
+  hp { 40, 33, 38444 }
+  alignment { -900 }
+  gold { 1172400 }
+  hit_bonus { 34 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  dexterity { 14 }
+  move { 300 }
+  damage { 4, 32, 26 }
+  head { -140, 75 }
+  body { -130, 75 }
+  arms { -130, 75 }
+  legs { -130, 75 }
+  feet { -130, 75 }
+  immune { charm, sleep, fire }
+  susceptible { cold }
+  resist_acid {80}
+  resist_magic {80}
+  caster { 65 }
+  spells { poison, chill touch, shriek }
+  affected { sanctuary, detect-invis, fly }
+  act { sentinel, aggressive, healer, nosummon }  
+}

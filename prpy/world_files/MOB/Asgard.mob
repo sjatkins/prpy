@@ -1,0 +1,1704 @@
+1000
+{
+  name { the Elven Wizard }
+  namelist { elven wizard }
+  shortdesc { An Elven Wizard is here, creating fireworks for the festivities. }
+  longdesc {
+The Elven Wizard looks at you in a solemn sort of way.  His gaze seems
+penetrate through your innermost being.  He is wearing a silvery cloak
+and holding a multi-coloured staff.  Although he appears to be older
+than the oldest man, he seems to have an inner strength which most mortals
+cannot overcome.
+  }
+  race { elven }
+  level { 300 }
+  alignment { 500 }
+  gold { 9500 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 1.5 }
+  spells { fireball, shield, magic missile, chain lightning, sleep, ice storm }
+  caster { 300 }
+  mana { 2100 }
+  head { -50, 2 }
+  body { -50, 2 }
+  arms { -50, 2 }
+  legs { -50, 2 }
+  feet { -50, 2 }
+  hp { 4, 336, 4500  }
+  move { 300 }
+  experience { 295033 }
+  damage { 2, 8, 3  }
+  immune { charm }
+  affected { detect-invisible, sanctuary }
+  act { special, sentinel }
+}
+
+1001
+{
+  name { the Keeper of the Ring }
+  namelist { ring keeper }
+  shortdesc { The Keeper of the Ring is here, guarding his treasure jealously. }
+  longdesc {
+The Ring Keeper is a rather big but short halfling.  His short stature and
+bulbous nose belie his true nature.  An elven sword that glows with a blue
+light hangs from his belt, and on his finger you see the One Ring.  Although
+usually a halfling of peace, he will fight you to the death if you attempt
+to take away that which belongs to him.
+  }
+  race { undead }
+  level { 220 }
+  sex { Male }
+  experience { 212633 }
+  hp { 3, 400, 3888 }
+  alignment { 0 }
+  gold { 12000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.2 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { 1, 7 }
+  body { 1, 7 }
+  arms { 1, 7 }
+  legs { 1, 7 }
+  feet { 1, 7 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1002
+{
+  name { Farmer Gamgee }
+  namelist { farmer gamgee }
+  shortdesc { Farmer Gamgee sniffs the air, wondering if harvest time is near. }
+  longdesc {
+Farmer Gamgee is a short, stout halfling of thirty years.  His skin has
+been tanned from working the fields night and day.  He's quite a jolly
+chap, always ready to befriend an injured bunny rabbit.
+  }
+  race { halfling }
+  level { 220 }
+  alignment { 0 }
+  gold { 12250  }
+  hit_bonus { 14 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  head { 0, 6 }
+  body { 0, 6 }
+  arms { 0, 6 }
+  legs { 0, 6 }
+  feet { 0, 6 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 213842 }
+  damage { 4, 5, 5  }
+  immune { charm }
+  affected { detect-invisible }
+  act { sentinel }
+}
+
+1003
+{
+  name { a toddler }
+  namelist { toddler }
+  shortdesc { A toddler crawls about, looking for something to chew on. }
+  longdesc {
+The toddler is dressed in nothing but his birthday suit.  He crawls about
+for he hasn't learned to walk yet.  He peers up at you and asks "da da?"
+  }
+  race { halfling }
+  sex { Female }
+  world_limit { 6 }
+  level { 80 }
+  experience { 34960 }
+  hp { 10, 5, 900 }
+  alignment { 1000 }
+  gold { 2500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 16 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  affected { hide }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+
+1004
+{
+  name { a nursemaid }
+  namelist { nursemaid }
+  shortdesc { A nursemaid wanders about, trying to keep track of all the toddlers. }
+  longdesc {
+The nursemaid looks rather tired and worn out.  Taking care of so many
+toddlers for too long has evidently taken its toll.  She looks to you and
+in her eyes you can see her longing for a better life.
+  }
+  race { halfling }
+  sex { Female }
+  level { 160 }
+  world_limit { 1 }
+  experience { 163500 }
+  hp { 17, 18, 2500 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 4, 6, 1 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1005
+{
+  name { a cow }
+  namelist { cow }
+  shortdesc { A cow is here, chewing her cud. }
+  longdesc {
+The cow looks like it hasn't been milked in quite some time.  Although she
+is past her prime, you see that she still has a lot of years left, and that
+if provoked, her rear kick can be quite deadly.
+  }
+  race { none }
+  world_limit { 3 }
+  level { 60 }
+  experience { 21200 }
+  hp { 8, 9, 900 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1006
+{
+  name { a pig }
+  namelist { pig }
+  shortdesc { A pig wallows in the mud and oinks in contentment. }
+  longdesc {
+The pig appears quite happy to be a pig.  He is oblivious to your presence
+and cares only for the care-free life that he leads.  It is enormously fat
+and consequently cannot move around very quickly.
+  }
+  race { none }
+  world_limit { 6 }
+  level { 60 }
+  experience { 20400 }
+  hp { 8, 9, 850 }
+  alignment { 0 }
+  gold { 1900 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 10, 6 }
+  arms { 10, 6 }
+  legs { 10, 6 }
+  feet { 10, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1007
+{
+  name { a chicken }
+  namelist { chicken }
+  shortdesc { A chicken sits on her nest. }
+  longdesc {
+The chicken is bright and healthy.  She has no weapons but her beak.
+  }
+  race { none }
+  world_limit { 6 }
+  level { 30 }
+  experience { 9150 }
+  hp { 10, 5, 300 }
+  alignment { 1000 }
+  gold { 9500 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 3 }
+  head { 30, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+
+1008
+{
+  name { a bull }
+  namelist { bull }
+  shortdesc { A bull scratches at the ground and lowers his head. }
+  longdesc {
+The bull is in top condition.  He looks like quite a fighter, nothing to be
+reckoned with.  With his horns and his hooves he can attack just about
+anything.
+  }
+  race { none }
+  sex { Male }
+  level { 90 }
+  world_limit { 2 }
+  experience { 32980 }
+  hp { 17, 18, 2900 }
+  move { 200 }
+  alignment { -150 }
+  gold { 2000 }
+  hit_bonus { 16 }
+  dam_bonus { 4 }
+  attacks_per_round { 2.2 }
+  damage { 2, 6, 2 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1009
+{
+  name { a horse }
+  namelist { horse }
+  shortdesc { A horse becomes frightened by your presence. }
+  longdesc {
+The horse looks at you and turns away.  You can tell that it is afraid of you.
+  }
+  race { none }
+  world_limit { 4 }
+  level { 60 }
+  experience { 23450 }
+  hp { 8, 9, 1000 }
+  alignment { 0 }
+  gold { 1100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1010
+{
+  name { a shiriff Ryas }
+  namelist { shiriff Ryas }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1011
+{
+  name { a shiriff Theron }
+  namelist { shiriff Theron }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1012
+{
+  name { the Thain }
+  namelist { thain }
+  shortdesc { The Thain commands respect from all Shire folk. }
+  longdesc {
+A personable yet serious halfling, the Thain looks at you and yells a
+deep 'Hullo'.  He walks about comfortably, secure in the knowledge that
+as long as he's in office, the Shire will always remain a safe haven for
+Shire folk.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1013
+{
+  name { the Innkeeper }
+  namelist { innkeeper }
+  shortdesc { The Innkeeper stands here awaiting your order. }
+  longdesc {
+The Innkeeper is a jolly old halfling who spends his days eavesdropping on
+local gossip.  In his younger days, he was quite a seasoned traveller.
+  }
+  race { halfling }
+  world_limit { 2 }
+  level { 350 }
+  sex { Male }
+  experience { 352633 }
+  hp { 15, 40, 3488 }
+  alignment { 0 }
+  gold { 10000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.2 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -30, 8 }
+  body { -10, 8 }
+  arms { -10, 8 }
+  legs { -10, 8 }
+  feet { -10, 8 }
+  affected { true-sight }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1014
+{
+  name { the Miller }
+  namelist { miller }
+  shortdesc { The Miller is here, overseeing his busy mill workers. }
+  longdesc {
+The Miller is an impatient young halfling, always trying to command more
+respect from his workers than he can get.  He looks like the type of person
+who deserves a spanking but never got one.
+  }
+  race { halfling }
+  sex { Male }
+  level { 220 }
+  world_limit { 1 }
+  experience { 199220 }
+  hp { 18, 16, 3700 }
+  move { 200 }
+  alignment { 0 }
+  gold { 7000 }
+  hit_bonus { 17 }
+  dam_bonus { 9 }
+  attacks_per_round { 2.4 }
+  damage { 3, 6, 6 }
+  head { 20, 10 }
+  body { 10, 9 }
+  arms { 10, 9 }
+  legs { 10, 9 }
+  feet { 10, 9 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1015
+{
+  name { the mill worker }
+  namelist { mill worker }
+  shortdesc { The mill worker runs to and fro. }
+  longdesc {
+The mill worker is in fine shape from the hard labor that he does at the
+mill.  He doesn't notice your presence, but he looks like he could break you
+in two without thinking about it.
+  }
+  race { None }
+  sex { Male }
+  level { 50 }
+  world_limit { 8 }
+  experience { 18700 }
+  hp { 7, 8, 900 }
+  move { 200 }
+  alignment { 150 }
+  gold { 3000 }
+  hit_bonus { 16 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.2 }
+  damage { 3, 6, 1 }
+  head { 30, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1016
+{
+  name { the elven warrior }
+  namelist { elven warrior }
+  shortdesc { The elven warrior watches you solemnly. }
+  longdesc {
+The tall elven warrior is light and fair-skinned.  The expression that he wears
+on his countenance is solemn and tragic.  He cares not for this world any
+longer and wearies of it.
+  }
+  race { elven }
+  sex { Male }
+  level { 300 }
+  world_limit { 1 }
+  experience { 274600 }
+  hp { 19, 19, 5100 }
+  move { 200 }
+  alignment { 400 }
+  gold { 10000 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.7 }
+  damage { 3, 6, 6 }
+  head { -50, 2 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1017
+{
+  name { the dwarven prince }
+  namelist { dwarven prince }
+  shortdesc { The dwarven prince sits here patiently for the return of his king. }
+  longdesc {
+Grim and cold, the dwarven prince is quite strong and bulky, even for the
+dwarves of his land.  His glowing eyes peer out of his bushy face and stare
+beyond your gaze.
+  }
+  race { dwarf }
+  sex { male }
+  level { 320 }
+  world_limit { 1 }
+  experience { 427300 }
+  hp { 20, 20, 7100 }
+  move { 200 }
+  alignment { 600 }
+  gold { 10000 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 2.5 }
+  damage { 3, 7, 5 }
+  head { 0, 7 }
+  body { 0, 7 }
+  arms { 0, 7 }
+  legs { 0, 7 }
+  feet { 0, 7 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1018
+{
+  name { the shopkeeper }
+  namelist { shopkeeper }
+  shortdesc { the shopkeeper smiles and patiently waits for you to buy something. }
+  longdesc {
+The shopkeeper will fight like a madman to protect his store from riff-raff
+like you.
+  }
+  race { halfling }
+  sex { Male }
+  level { 240 }
+  world_limit { 1 }
+  experience { 252100 }
+  hp { 18, 19, 4000 }
+  move { 200 }
+  alignment { 600 }
+  gold { 3000 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 2.8 }
+  damage { 3, 6, 6 }
+  head { -5, 4 }
+  body { -4, 4 }
+  arms { -4, 4 }
+  legs { -4, 4 }
+  feet { -4, 4 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1019
+{
+  name { the grocer }
+  namelist { grocer }
+  shortdesc { The grocer offers you the finest breads in all the land. }
+  longdesc {
+The grocer is a large, jovial halfling who knows how to enjoy his pipeweed.
+However, he also knows that it's worth protecting and so will do everything
+in his power to prevent riff-raff like you from stealing it.
+  }
+  race { halfling }
+  sex { Male }
+  level { 240 }
+  world_limit { 1 }
+  experience { 254600 }
+  hp { 18, 19, 4000 }
+  move { 200 }
+  alignment { 600 }
+  gold { 3000 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 2.9 }
+  damage { 3, 6, 3 }
+  head { 0, 5 }
+  body { 0, 5 }
+  arms { 0, 5 }
+  legs { 0, 5 }
+  feet { 0, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1020
+{
+  name { Shammy the Shopkeeper }
+  namelist { Shammy Shopkeeper }
+  shortdesc { Shammy the Shopkeeper bids you welcome to his humble store. }
+  longdesc {
+Shammy is a lean and mean fighting machine.  His knowledge of weapons
+and armour would certainly help him in any fight against riff-raff like you.
+  }
+  race { halfling }
+  level { 400 }
+  alignment { 600 }
+  gold { 15000 }
+  hit_bonus { 21 }
+  dam_bonus { 18 }
+  attacks_per_round { 2.8 }
+  head { -100, 0 }
+  body { -100, 0 }
+  arms { -100, 0 }
+  legs { -100, 0 }
+  feet { -100, 0 }
+  hp { 7, 8, 6580  }
+  move { 300 }
+  experience { 507026 }
+  damage { 3, 8, 8  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1021
+{
+  name { the battle master }
+  namelist { battle master }
+  shortdesc { The battle master offers you the services of his fine trainees. }
+  longdesc {
+The battle master is a wizened fighter, with many scars to prove his worth.
+  }
+  race { human }
+  world_limit { 1 }
+  level { 300 }
+  experience { 272600 }
+  hp { 4, 400, 5100 }
+  alignment { 0 }
+  gold { 10200 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 3, 8, 6 }
+  head { -50, 6 }
+  body { -40, 5 }
+  arms { -40, 5 }
+  legs { -40, 5 }
+  feet { -40, 5 }
+  immune { fire, cold, charm }
+  act { special, sentinel }
+  skills { bash, kick }
+}
+
+1022
+{
+  name { a halfling youth }
+  namelist { halfling youth }
+  shortdesc { A halfling youth stands here, waiting for nothing in particular. }
+  longdesc {
+The halfling youth is not yet quite in the prime of his youth.  He's knee
+high and you get the sudden urge to step on him.
+  }
+  race { halfling }
+  sex { female }
+  world_limit { 6 }
+  level { 80 }
+  experience { 37350 }
+  hp { 8, 9, 1160 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 2, 6, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, stay-zone, wimpy }
+}
+
+1023
+{
+  name { a seasoned adventurer }
+  namelist { seasoned adventurer }
+  shortdesc { A seasoned adventurer sits here, telling tales of fame and fortune. }
+  longdesc {
+The seasoned adventurer has seen his share of glory days.  Although he is
+past his prime, he still looks like he could put up more than his share of
+a good fight.
+  }
+  race { human }
+  sex { Male }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  immune { charm }
+  skills { kick }
+  act { npc, sentinel, stay-zone }
+}
+
+1024
+{
+  name { a local gossip }
+  namelist { local gossip }
+  shortdesc { A local gossip asks you, "Have you heard the latest?" }
+  longdesc {
+The gossip is all talk and no action.  You're transfixed by her ability to
+talk so much so quickly.
+  }
+  race { halfling }
+  level { 170 }
+  experience { 101350 }
+  hp { 18, 19, 2000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  damage { 3, 8, 9 }
+  head { 20, 2 }
+  body { 30, 2 }
+  arms { 30, 2 }
+  legs { 30, 2 }
+  feet { 30, 2 }
+  immune { charm }
+  act { sentinel, scavenger, stay-zone, wimpy }
+}
+
+1025
+{
+  name { a halfling beauty }
+  namelist { halfling beauty }
+  shortdesc { A halfling beauty stares dreamily into your eyes. }
+  longdesc {
+She is the most beautiful creature you've seen in quite some time.  As you
+stare at her, thoughts of all else vanish.  You get the sudden urge to grovel
+at her feet, hoping she'll take you in like a lost puppy.  You wouldn't dare
+harm a hair on her precious little head.
+  }
+  race { halfling }
+  sex { Female }
+  level { 160 }
+  alignment { 0 }
+  gold { 6900  }
+  hit_bonus { 19 }
+  dam_bonus { 11 }
+  attacks_per_round { 4 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 200, 1800  }
+  move { 300 }
+  experience { 163461 }
+  damage { 2, 8, 5  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1026
+{
+  name { a trainee }
+  namelist { trainee }
+  shortdesc { A trainee screams a death cry as he delivers the fatal blow to a dummy. }
+  longdesc {
+The trainee smiles smugly, aware of your interest in him.  He's a little
+fresh, but his enthusiasm and desire to please more than make up for what
+he lacks in skill.
+  }
+  race { halfling }
+  sex { Male }
+  level { 120 }
+  world_limit { 3 }
+  experience { 65500 }
+  hp { 4, 60, 2550 }
+  alignment { 0 }
+  gold { 7600 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 100 }
+  damage { 3, 5, 5 }
+  head { 40, 4 }
+  body { -50, 13 }
+  arms { -50, 13 }
+  legs { -50, 13 }
+  feet { -50, 13 }
+  immune { charm }
+  act { sentinel }
+}
+
+1027
+{
+  name { a chic urbanite }
+  namelist { chic urbanite }
+  shortdesc { A chic urbanite sits here, enjoying his class status. }
+  longdesc {
+The urbanite seems very much at home in his surroundings.  His clothes are
+all of the latest fashions and his manners impeccable.  He offers you some
+coins if you'd be so good as to order a drink for him.
+  }
+  race { halfling }
+  level { 190 }
+  experience { 161200 }
+  hp { 18, 15, 1625 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 24 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 3 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  immune { charm }
+  act { sentinel, stay-zone, wimpy }
+}
+
+1028
+{
+  name { a country bumpkin }
+  namelist { country bumpkin }
+  shortdesc { A country bumpkin dreams of pipeweed and its many uses. }
+  longdesc {
+The country bumpkin snores noisily.
+  }
+  race { halfling }
+  sex { Male }
+  level { 135 }
+  sex { male }
+  alignment { 0 }
+  gold { 7000  }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 2.5 }
+  head { -40, 19 }
+  body { -40, 19 }
+  arms { -40, 19 }
+  legs { -40, 19 }
+  feet { -40, 19 }
+  hp { 4, 208, 1444 }
+  move { 300 }
+  experience { 134267 }
+  damage { 3, 5, 4  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1030
+{
+  name { the Innkeeper }
+  namelist { innkeeper }
+  shortdesc { The Innkeeper stands here awaiting your order. }
+  longdesc {
+The Innkeeper is a jolly old halfling who spends his days eavesdropping on
+local gossip.  In his younger days, he was quite a seasoned traveller.
+  }
+  race { halfling }
+  sex { Female }
+  level { 150 }
+  world_limit { 2 }
+  experience { 152250 }
+  hp { 17, 18, 2900 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  damage { 3, 6, 3 }
+  head { 10, 9 }
+  body { 20, 8 }
+  arms { 20, 8 }
+  legs { 20, 8 }
+  feet { 20, 8 }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1031
+{
+  name { the receptionist }
+  namelist { receptionist }
+  shortdesc { The receptionist sits here, signing forms. }
+  longdesc {
+He is a very professional looking type.
+  }
+  race { human }
+  sex { male }
+  level { 250 }
+  experience { 345298 }
+  gold { 3200  }
+  hp { 3, 31, 5532 }
+  move { 334 }
+  height { 120 }
+  weight { 210 }
+  damage { 10, 2, 5 }
+  hit_bonus { 7 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { 22, 2 }
+  body { 22, 2 }
+  arms { 22, 2 }
+  legs { 22, 2 }
+  feet { 22, 2 }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+
+1032
+{
+  name { a shiriff Anash }
+  namelist { shiriff Anash }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1033
+{
+  name { a shiriff Pim }
+  namelist { shiriff Pim }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1034
+{
+  name { a shiriff Morche }
+  namelist { shiriff Morche }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1035
+{
+  name { a shiriff Turich }
+  namelist { shiriff Turich }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1036
+{
+  name { a shiriff Solige}
+  namelist { shiriff Solige }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1037
+{
+  name { a shiriff Luor }
+  namelist { shiriff Luor }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1038
+{
+  name { a shiriff Kall }
+  namelist { shiriff Kall }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1039
+{
+  name { a shiriff Tasora }
+  namelist { shiriff Tasora }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1040
+{
+  name { a shiriff Enrad }
+  namelist { shiriff Enrad }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1041
+{
+  name { a shiriff Engtia }
+  namelist { shiriff Engtia }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1042
+{
+  name { a shiriff Ardunt }
+  namelist { shiriff Ardunt }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1043
+{
+  name { a shiriff Emory }
+  namelist { shiriff Emory }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1044
+{
+  name { a shiriff Bafir }
+  namelist { shiriff Bafir }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1045
+{
+  name { a shiriff Ort }
+  namelist { shiriff Ort }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1046
+{
+  name { a shiriff Samtor }
+  namelist { shiriff Samtor }
+  shortdesc { A shiriff of the Shire looks for signs of trouble. }
+  longdesc {
+The shiriff is over waist high, quite tall for a halfling.  His eyes are
+ever roaming, looking for signs of trouble from riff-raff like you.  In
+his belt is a thin dagger, and on his body he wears a suit of leather armor.
+This is one halfling you don't want to mess with.
+  }
+  race { halfling }
+  sex { Male }
+  level { 195 }
+  world_limit { 8 }
+  experience { 155650 }
+  hp { 10, 18, 3200 }
+  move { 200 }
+  alignment { 150 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 9 }
+  attacks_per_round { 1.8 }
+  damage { 3, 6, 3 }
+  head { 10, 3 }
+  body { 20, 3 }
+  arms { 20, 3 }
+  legs { 20, 3 }
+  feet { 20, 3 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1047
+{
+  name { Therman }
+  namelist { Therman }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 1000, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1048
+{
+  name { Thermanb }
+  namelist { Thermanb }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 1500, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1049
+{
+  name { Thermanc }
+  namelist { Thermanc }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 1000, 2, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1050
+{
+  name { Thermand }
+  namelist { Thermand }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 2500, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1051
+{
+  name { Thermane }
+  namelist { Thermane }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 3000, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1052
+{
+  name { Thermanf }
+  namelist { Thermanf }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 3500, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}
+
+1053
+{
+  name { Thermang }
+  namelist { Thermang }
+  shortdesc { The Judgement maker is here, weighing your soul. }
+  longdesc {
+An angelic being of immense power, the judgement maker looks truly
+protected by god.  Not someone to mess with.
+  }
+  race { human }
+  height { 276 }
+  weight { 30000 }
+  level { 860 }
+  alignment { 1000 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 20 }
+  head { -100, 25 }
+  body { -100, 25 }
+  arms { -100, 25 }
+  legs { -100, 25 }
+  feet { -100, 25 }
+  hp { 1, 1, 249990  }
+  move { 300 }
+  experience { 900000 }
+  damage { 4000, 1, 1  }
+  immune { fire, cold, electricity, energy, acid, poison, drain, charm, backstab, hold }
+  resistant { blunt, pierce, slash }
+  affected { detect-invisible, sense-life, sanctuary, protect-evil }
+  act { sentinel, deadly }
+}

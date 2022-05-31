@@ -1,0 +1,238 @@
+8000
+{
+  name { the Shredder }
+  namelist { shredder }
+  shortdesc { A Shredder advances towards you, claws clicking menacingly. }
+  longdesc {
+It is obviously a large creature, but an improbable number of sharp
+blades, claws and edges makes it near impossible to see its actual
+body. It is gleaming, a metallic black, although occasionally a claw or
+blade changes colour for a while, becoming a neon yellow.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold {  3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+8001
+{
+  name { the bug }
+  namelist { bug }
+  shortdesc { A bug scuttles towards you, running in small circles around your feet. }
+  longdesc {
+It is a smallish creature, with too many legs to count, obviously
+very fast. It has a multicoloured carapace (looking much like an oil
+slick on a puddle), and bright red pinpoint eyes.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold {  3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+8003
+{
+  name { the Daemon }
+  namelist { daemon }
+  shortdesc { The Daemon looks at you expressionlessly, from the comfort of its
+chair (it feels that way, anyway... You can't see its eyes). Then its
+  attention returns to the screens. }
+  longdesc {
+It appears to be a vaguely man-shaped (but larger than man-sized!) hole
+in the fabric of reality... looking closely, you can see stars, either
+inside it, or far beyond it...
+  }
+  race { undead }
+  height { 200 }
+  level { 238 }
+  alignment { -999 }
+  gold {  3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+
+8005
+{
+  name { the cursor }
+  namelist { cursor }
+  shortdesc { The Cursor is here, tracing incomprehensible patterns in the air. }
+  longdesc {
+It is a ball of pulsating colours, extruding and retracting sharp
+points continually, sometimes changing shape altogether into some
+regular solid like a cube or an octahedron.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { 999 }
+  gold {  3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+8006
+{
+  name { the Juggernaut }
+  namelist { juggernaut }
+  shortdesc { A Juggernaut a working its way methodically through this area. }
+  longdesc {
+It is _very_ large, some 10 yds in length, walking on several hundred
+tiny legs. It is metallic-looking, with large spots of corrosion
+marring its angular skin. On its sides are large signs, written in an
+incomprehensible language. On its top, a small eye cluster swivels back
+and forth continually. A number of tentacles sweeps the ground around
+it.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold {  3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+8008
+{
+  name { the butterfly }
+  namelist { butterfly fly }
+  shortdesc { A beautiful, butterfly-like thing is fluttering around here. }
+  longdesc {
+It is, on closer inspection, not really an animal, but a variable
+number of brightly-coloured, translucent planes of breathtaking beauty
+and delicacy. The planes pulse, waver, sometimes disappear, but are
+always replaced by another. None of the planes move, but through
+continuous replacement, the butterfly does, in random sweeps.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+
+8010
+{
+  name { the cowboy }
+  namelist { cowboy }
+  shortdesc { A hard-eyed cowboy is here, going about his business. }
+  longdesc {
+He is dressed in jeans, boots, a hat that shades his face so that it
+is hard to see, where he's looking. He is walking around purposefully,
+as if searching for something, occasionally getting down to one knee,
+making strange passes in the air, then picking up pieces of the ground
+that are apparently not so solid now. He is carrying a leather satchel
+over the shoulder, into which he sometimes place some of the pieces. At
+his belt hangs a strange, bluish whip
+When ne notices your intense scrutiny, he looks at you coldly, until you
+are forced to look away.
+  }
+  race { human }
+  height { 200 }
+  level { 238 }
+  alignment { -999 }
+  gold { 1300 }
+  hit_bonus { 11 }
+  dam_bonus { 11 }
+  attacks_per_round { 3 }
+  head { -50, 6 }
+  body { -50, 6 }
+  arms { -50, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 30, 90, 900  }
+  move { 200 }
+  experience { 190342 }
+  damage { 3, 8, 12  }
+  immune { pierce, charm }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+

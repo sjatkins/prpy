@@ -1,0 +1,992 @@
+6850
+{
+  name { The mushroom king }
+  namelist { mushroom king }
+  shortdesc { The mushroom king sits smiling upon his throne. }
+  longdesc {
+The mushroom king sits upon him simple throne.  The smiles with the
+pride and job exemplified througout his kingdom.  His smiling face
+widens as you approach his throne.  With stubby fingers and a tiny
+little hand, he reaches out to you to shake hands in a greeting of
+friendship.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 190 }
+  experience { 125000 }
+  hp { 18, 15, 1825 }
+  alignment { 0 }
+  gold { 8000 }
+  hit_bonus { 18 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 5, 2 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { detect-invis }
+  immune { charm, hold }
+  act { npc, sentinel, stay-zone }
+}
+
+6851
+{
+  name { The mushroom queen  }
+  namelist { mushroom queen }
+  shortdesc { A frantic looking mushroom looks all around the room. }
+  longdesc {
+The mushroom queen looks quite frazzled!  She looks around the inside
+of the gigantic tree in a frantic manner.  The queen searches under
+each mushroom with care in an attempt to find something.  "My children!",
+she shouts out to you.  "Have you seen the prince and princess?"  She
+immediately returns to her hurried search.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 145 }
+  experience { 100000 }
+  hp { 11, 12, 1722 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.3 }
+  move  { 200 }
+  damage { 2, 3, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6852
+{
+  name { The mushroom prince  }
+  namelist { mushroom prince }
+  shortdesc { A smiling mushroom wanders about the grassy fields. }
+  longdesc {
+Without a care in the world, the mushroom prince wanders freely around
+the grassy fields.  He stops to smell some flowers and lets out a
+huge smile.  The prince stares up at the run for a second and continues
+on his way along the rolling fields of green grass.
+  }
+  race { None }
+  sex { Male }
+  world_limit { 1 }
+  level { 135 }
+  experience { 75000 }
+  hp { 8, 9, 1525 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6853
+{
+  name { The mushroom princess  }
+  namelist { mushroom princess }
+  shortdesc { A blushing mushroom looks at you and runs away. }
+  longdesc {
+The mushroom princess looks very peaceful as she picks different
+colored and smelling flowers across the grassy fields.  She stops to
+smell every different flower and smiles with pleasure and joy.
+Carefully placing the flowers in her mushroom pouch, she continues to
+the next patch of beautiful looking flowers.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 130 }
+  experience { 70000 }
+  hp { 8, 9, 1450 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6854
+{
+  name { A mushroom villager }
+  namelist { mushroom villager planted }
+  shortdesc { A cute mushroom villager looks up at you from the field. }
+  longdesc {
+The cute little mushroom snuggles comfortably in its dirt bed.  It
+looks up at you with a careful look and smiles as it realizes you are
+not going to step on it.  The mushroom closes its eyes and begins to
+take a sleepy nap.
+  }
+  race { None }
+  world_limit { 8 }
+  level { 80 }
+  experience { 25000 }
+  hp { 8, 9, 995 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6855
+{
+  name { A mushroom villager }
+  namelist { mushroom villager planted smiling }
+  shortdesc { A cute mushroom villager smiles as you walk by. }
+  longdesc {
+This mushroom pops immediately out of its dirt bed and smiles to greet
+you.  Its cute little mushroom cap head wiggles with excitement from
+seeing a new visitor to the mushroom fields.  It runs up to you quickly
+and beings to rub its head against your leg.  How cute!
+  }
+  race { None }
+  world_limit { 6 }
+  level { 86 }
+  experience { 22000 }
+  hp { 8, 9, 925 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6856
+{
+  name { A mushroom villager  }
+  namelist { mushroom villager walking }
+  shortdesc { A mushroom villager walks carefree along the trails. }
+  longdesc {
+This mushroom villager is a little larger than the planted mushrooms.
+It walks along the trails around the tree with a carefree manner.  Its
+mushroom cap head bobs side to side with each step its short and stumpy
+stems take.
+  }
+  race { None }
+  world_limit { 6 }
+  level { 91 }
+  experience { 20000 }
+  hp { 8, 9, 910 }
+  alignment { 0 }
+  gold { 2700 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6857
+{
+  name { A mushroom villager  }
+  namelist { mushroom villager sunning }
+  shortdesc { A mushroom villager raises its head towards the sun and smiles. }
+  longdesc {
+The young mushroom shakes the morning dew from its cap and tilts its
+head towards the sun with a smile.  It sways its stem back and forth
+as the breeze sweeping across the plain passes through.
+
+  }
+  race { None }
+  world_limit { 6 }
+  level { 82 }
+  experience { 15000 }
+  hp { 8, 9, 725 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 12 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6858
+{
+  name { A mushroom warrior  }
+  namelist { mushroom warrior guard }
+  shortdesc { A large mushroom warrior stands guard over the king. }
+  longdesc {
+The mushroom guard looks almost stoic as it stands before the king's
+mushroom cap with its long stem arms crossed on its chest.  The guard
+is much larger than the other mushroom villagers and looks like it
+could put up quite a fight.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6859
+{
+  name { A mushroom warrior  }
+  namelist { mushroom warrior }
+  shortdesc { A large mushroom warrior stands guard over the village. }
+  longdesc {
+The mushroom guard stands silently before a large patch of its fellow
+villagers.  It is quite a bit larger than the rest of the mushrooms
+that you have seen so far.  The guard glares at you with an intense
+stare as you pass.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 115 }
+  experience { 50000 }
+  hp { 8, 9, 1195 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6860
+{
+  name { A mushroom warrior  }
+  namelist { mushroom warrior guarding }
+  shortdesc { A large mushroom warrior fights off a large black crow. }
+  longdesc {
+"Step back!", the guards shouts as you pass through the mushroom fields.
+It lifts up its stem arms and flails them at the large crow.  The
+relentless attacks from the crow do not dissuade these loyal villagers
+in the least.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 110 }
+  experience { 45000 }
+  hp { 8, 9, 1045 }
+  alignment { 0 }
+  gold { 3700 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6861
+{
+  name { A mushroom warrior  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior walks across the grassy field. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6862
+{
+  name { A large black crow  }
+  namelist { large black crow }
+  shortdesc { A large black crow pecks viciously at some mushroom warriors. }
+  longdesc {
+The large black crow looks very menacing with its piercing red eyes.
+It viciously pecks at the mushroom warriors trying to protect the
+growing mushrooms of the village.  It opens up its wings, rears back
+and swipes one of its sharp feet right across the face of one of the
+mushroom warriors.  Ouch!
+  }
+  race { None }
+  world_limit { 1 }
+  level { 90 }
+  experience { 60000 }
+  hp { 8, 9, 1300 }
+  alignment { 0 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6863
+{
+  name { A wild hog }
+  namelist { wild hog }
+  shortdesc { A wild hog sniffs the mushrooms with a hungry look. }
+  longdesc {
+The hog is black with patches of gray all over its hide.  It snorts
+and makes gutteral noises as it sniffs all through the growing
+mushroom villagers.  Looks like someone is hungry!
+  }
+  race { None }
+  world_limit { 3 }
+  level { 75 }
+  experience { 25000 }
+  hp { 8, 9, 795 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6864
+{
+  name { A gigantic boar }
+  namelist { gigantic boar }
+  shortdesc { A gigantic boar chews up every mushroom it can fit in its mouth. }
+  longdesc {
+The gigantic boar has a huge smile across its face.  Mushroom pieces
+fall from its fat face as it chews up its most recent victims.  The
+mushroom villagers try to run away from this huge beast but it quickly
+snatches them in its mouth and chews away.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 85 }
+  experience { 35000 }
+  hp { 8, 9, 850 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 11 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6865
+{
+  name { A pink sow }
+  namelist { pink sow }
+  shortdesc { A pink sow happily rolls around in the field. }
+  longdesc {
+The sow is a beutiful shade of pink.  It rolls around in the grassy
+field with an almost happy smile on its face.  The pig lets out a
+snort as you walk buy and continues warming itself under the bright
+sun.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 80 }
+  experience { 30000 }
+  hp { 8, 9, 800 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 2 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6866
+{
+  name { A beautiful butterfly  }
+  namelist { beautiful butterfly }
+  shortdesc { A beautiful butterfly flutters from flower to flower. }
+  longdesc {
+The butterfly gracefully flies around the fields of flowers with a
+gentle flap of its beautiful wings.  It lands on a flower, flutters
+it colorful wings and flys off to find a new place to land.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 575 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 10 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { flying }
+  act { npc, stay-zone }
+}
+
+6867
+{
+  name { A white termite  }
+  namelist { white termite }
+  shortdesc { A white termite falls from within the tree and lands on a mushroom cap. }
+  longdesc {
+The termite falls from the ceiling and lands on a mushroom cap with
+a soft squish.  It clicks its mandibles together and quick jumps off
+the mushroom cap, trying to dig its way back into the tree.
+  }
+  race { None }
+  world_limit { 4 }
+  level { 25 }
+  experience { 8000 }
+  hp { 8, 9, 375 }
+  alignment { 0 }
+  gold { 1000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { infravision }
+  act { npc, stay-zone }
+}
+
+6868
+{
+  name { Infested Mushroom King }
+  namelist { infested mushroom king }
+  shortdesc { the King stands here, something has completely taken him over }
+  longdesc {
+An infested Mushroom King stands here, you better get out while you can, he
+has clearly no control over his body anymore.
+  }
+  race { none }
+  height { 49 }
+  weight { 7600 }
+  level { 220 }
+  alignment { 0 }
+  gold { 100000 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.6 }
+  head { -40, 9 }
+  body { -40, 6 }
+  arms { -20, 6 }
+  legs { -20, 6 }
+  feet { -20, 6 }
+  hp { 17, 15, 1500  }
+  move { 300 }
+  experience { 351375 }
+  damage { 2, 5, 3  }
+  immune { sleep, charm }
+  affected { sanctuary, true-sight }
+  act { npc, sentinel, stay-zone }
+}
+
+6869
+{
+  name { A mushroom warrior with resist all 0  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 0 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6870
+{
+  name { A mushroom warrior with resist all 100  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 100 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6871
+{
+  name { A mushroom warrior with resist all 200  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 200 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6872
+{
+  name { A mushroom warrior with resist all 300  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 300 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6873
+{
+  name { A mushroom warrior with resist all 400  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 400 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6874
+{
+  name { A mushroom warrior with resist all 500  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 500 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6875
+{
+  name { A mushroom warrior with resist all 600  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 600 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6876
+{
+  name { A mushroom warrior with resist all 700  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 700 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6877
+{
+  name { A mushroom warrior with resist all 800  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 800 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6878
+{
+  name { A mushroom warrior with resist all 900  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 900 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}
+6879
+{
+  name { A mushroom warrior with resist all 1000  }
+  namelist { mushroom warrior walking }
+  shortdesc { A large mushroom warrior is happy for you to use him as a test. }
+  longdesc {
+The large mushroom warrior walks with an almost stern face along the
+paths of the grassy fields.  It marches in perfect rhythm with the
+swaying of its stemmy arms.  Its stubby little stem legs look so
+cute!
+  }
+  race { None }
+  world_limit { 8 }
+  level { 100 }
+  experience { 40000 }
+  hp { 8, 9, 985 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  resist_all { 1000 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  affected { detect-invis }
+  immune { charm }
+  act { npc, stay-zone, sentinel }
+}

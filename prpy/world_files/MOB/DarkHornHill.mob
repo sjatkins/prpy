@@ -1,0 +1,879 @@
+106000
+{
+  name { The Blue Slaad }
+  namelist { Blue Slaad }
+  shortdesc { The Blue Slaad hulks here, guarding the passages in to Dark Horn Hill. }
+  longdesc {
+The Blue Slaad is a demonic humanoid toad. It stands around 18 feet tall
+and is built like a strapping human; all muscle and definition.  It's maw
+is full of razor-sharp teeth and it's fists end in long, boney claws; both
+of which drip some horrid blue slime...  No doubt some nasty poison. It's
+skin is blue, as its name suggests, and ranges from a pale, almost creamy
+blue on its stomach, chest and thighs to dark, ocean blue on its back and
+crown of its head. The skin also looks very, very tough.  It looks very
+aggressive!
+}
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 545 }
+  experience { 1472000 }
+  hp { 300, 2, 40500 }
+  alignment { 0 }
+  gold { 50000 }
+  hit_bonus { 61 }
+  dam_bonus { 225 }
+  damage { 14, 6, 56 }
+  attacks_per_round { 8 }
+  dexterity { 17 }
+  move { 600 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  immune { charm, poison, backstab }
+  act { special, sentinel, stay-zone, scavenger, aggressive }
+}
+106001
+{
+  name { The Red Slaad }
+  namelist { Red Slaad }
+  shortdesc { A Red Slaad is hiding amongst the reeds here. }
+  longdesc {
+The Red Slaad is a demonic humanoid toad. It stands around 7 and a half feet
+tall. It's maw is full of razor-sharp teeth and it's large fists look quite
+capable of bludgeoning you to death. It's skin is red, as its name suggests,
+and ranges from a pale, almost creamy red on its stomach, chest and thighs to
+dark, ochre-red on its back and crown of its head. The skin also looks very,
+very tough.
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 11063120 }
+  hp { 200, 10, 40000 }
+  alignment { -550 }
+  move { 600 }
+  gold { 55000 }
+  hit_bonus { 38 }
+  dam_bonus { 150 }
+  damage { 5, 10, 17 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  affected { hide, detect-invisible, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { stay-zone, scavenger, wimpy }
+}
+106002
+{
+  name { The Green Slaad }
+  namelist { Green Slaad }
+  shortdesc { A Green Slaad is here, searching for magical power. }
+  longdesc {
+The Green Slaad is a demonic humanoid toad. It stands around 9 and a half feet
+tall. It's maw is full of razor-sharp teeth and it's large fists look quite
+capable of bludgeoning you to death. It's skin is green, as its name suggests,
+and ranges from a pale, almost creamy green on its stomach, chest and thighs to
+dark, olive-red on its back and crown of its head. The skin also looks very,
+very tough.
+}
+  race { demon }
+  sex { none }
+  level { 550 }
+  height { 250 }
+  weight { 12000 }
+  experience { 13015000 }
+  hp { 200, 10, 42000 }
+  alignment { -650 }
+  move { 600 }
+  gold { 75000 }
+  hit_bonus { 58 }
+  dam_bonus { 80 }
+  damage { 5, 10, 17 }
+  attacks_per_round { 8 }
+  head { -100, 36 }
+  body { -120, 42 }
+  arms { -110, 39 }
+  legs { -110, 39 }
+  feet { -110, 39 }
+  caster { 40 }
+  spells { blindness, weakness, chilly, chill touch, energy drain, lightning bolt, teleport, sanctuary }
+  affected { detect-invisible, sanctuary, infravision, true-sight }
+  immune { charm, poison, backstab }
+  act { stay-zone, scavenger }
+}
+106003
+{
+  name { A Skink Scout }
+  namelist { Skink Scout }
+  shortdesc { A blue-scaled skink is here, scouting the bog for intruders. }
+  longdesc {
+The skink is a hobbit-sized humanoid lizard.  It is covered in Blue scales
+and has a large blue crest on its head that reveals a bright red fan when
+it gets angry.  Its eyes are yellow, and they flit here and there looking
+for danger.  It carries a short bronze-tipped javelin in one hand.
+}
+  race { lizardman }
+  sex { male }
+  level { 250 }
+  height { 75 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 5266 }
+  alignment { -50 }
+  move { 600 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 5, 13 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision, sneak }
+  immune { charm, poison }
+  act { stay-zone }
+}
+106004
+{
+  name { A Skink Warrior }
+  namelist { Skink Warrior }
+  shortdesc { A blue-scaled skink is here, ready to fight. }
+  longdesc {
+The skink is a hobbit-sized humanoid lizard.  It is covered in Blue scales
+and has a large blue crest on its head that reveals a bright red fan when
+it gets angry.  Its eyes are yellow, and they flit here and there looking
+for danger.  It carries a short bronze xiphos in one hand and a wood and
+bronze shield in the other.
+}
+  race { lizardman }
+  sex { male }
+  level { 325 }
+  height { 80 }
+  weight { 1250 }
+  experience { 350410 }
+  hp { 10, 30, 10000 }
+  alignment { -75 }
+  move { 600 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  damage { 5, 5, 13 }
+  attacks_per_round { 4 }
+  head { -30, 10 }
+  body { -55, 15 }
+  arms { -39, 12 }
+  legs { -39, 12 }
+  feet { -39, 12 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone, aggressive }
+}
+106005
+{
+  name { A Skink Warrior Elite }
+  namelist { Skink Warrior Elite }
+  shortdesc { A blue-scaled skink is here, ready to fight. }
+  longdesc {
+The skink is a hobbit-sized humanoid lizard.  It is covered in Blue scales
+and has a large blue crest on its head that reveals a bright red fan when
+it gets angry.  Its eyes are yellow, and they flit here and there looking
+for danger.  It carries a sharp bronze sickle in one hand and a heavy-
+looking bronze shield in the other.
+}
+  race { lizardman }
+  sex { male }
+  level { 410 }
+  height { 85 }
+  weight { 1250 }
+  experience { 450000 }
+  hp { 10, 30, 13286 }
+  alignment { -100 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 9 }
+  damage { 5, 10, 22 }
+  attacks_per_round { 4 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  affected { infravision }
+  immune { charm, poison }
+  act { sentinel, stay-zone, aggressive }
+}
+106006
+{
+  name { Barbula, Ottaconqua's Bodyguard }
+  namelist { Barbula Ottaconqua's Bodyguard }
+  shortdesc { Barbula, the green scaled Skink bodyguard stands here, ready to defend Ottaconqua. }
+  longdesc {
+This is Barbula, a large and muscular Skink. He once challenged Ottaconqua's
+leadership, and now bares the scars of his attempt as a badge of honour. He
+now serves Ottaconqua with undying loyalty. Barbula is covered in green scales
+and has a large green crest on his head that reveals a bright cyan fan when
+he gets angry.  His eyes are purple, and they flit here and there looking
+for danger.  He carries only the finest in bronze weaponry and armour...
+}
+  race { lizardman }
+  sex { male }
+  level { 485 }
+  height { 85 }
+  weight { 1250 }
+  experience { 570200 }
+  hp { 10, 30, 13286 }
+  alignment { -150 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 32 }
+  damage { 5, 10, 22 }
+  attacks_per_round { 6 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  skills { bash, rescue }
+  affected { infravision }
+  immune { charm, poison, acid }
+  group_with { 106008 }
+  act { sentinel, stay-zone, aggressive }
+}
+106007
+{
+  name { Varcula, Ottaconqua's Bodyguard }
+  namelist { Varcula Ottaconqua's Bodyguard }
+  shortdesc { Varcula, the grey scaled Skink bodyguard stands here, ready to defend Ottaconqua. }
+  longdesc {
+This is Varcula. Although he is only as big as the other Skinks you have
+seen, he wields his bronze weapons with masterly ease. He has served as
+Ottaconqua's favoured lieutenant for many years, and most of the Skink
+tribe believe he will one day succeed Ottaconqua as leader. He is covered
+in grey scales and has a large blue crest on his head that reveals a bright
+yellow fan when he gets angry.  His eyes are black, and they flit here and
+there looking for danger.  He carries only the finest in bronze weaponry
+and armour...
+}
+  race { lizardman }
+  sex { male }
+  level { 485 }
+  height { 85 }
+  weight { 1250 }
+  experience { 570200 }
+  hp { 10, 30, 13286 }
+  alignment { -150 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 10, 22 }
+  attacks_per_round { 6 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  skills { bash, rescue }
+  affected { infravision }
+  immune { charm, poison, energy }
+  group_with { 106008 }
+  act { sentinel, stay-zone, aggressive }
+}
+106008
+{
+  name { Ottaconqua the Skink Chief }
+  namelist { Ottaconqua Skink Chief }
+  shortdesc { A big blue-scaled skink is here, dressed in finery. }
+  longdesc {
+Ottaconqua is a Skink with ambitions.  A clever warrior, he also
+acts as spiritual leader for his Skinks, offering prayers to the
+crocodile Goddess, Krocoatl. He twirls his twin silver Xiphos with
+the air of a master... You had best be careful with this one!
+}
+  race { lizardman }
+  sex { male }
+  level { 525 }
+  height { 125 }
+  weight { 1500 }
+  experience { 770350 }
+  hp { 100, 45, 13986 }
+  alignment { -250 }
+  move { 600 }
+  gold { 92500 }
+  hit_bonus { 65 }
+  dam_bonus { 66 }
+  damage { 10, 7, 22 }
+  attacks_per_round { 8 }
+  head { -75, 10 }
+  body { -99, 15 }
+  arms { -81, 12 }
+  legs { -81, 12 }
+  feet { -81, 12 }
+  skills { dual wield }
+  dexterity { 25 }
+  caster { 45 }
+  spells { poison, weakness, blindness, wither }
+  affected { infravision, sanctuary }
+  immune { charm, poison, backstab }
+  act { special, sentinel, stay-zone, aggressive }
+}
+106009
+{
+  name { A Lizardman }
+  namelist { lizardman }
+  shortdesc { A lizardman is here, going about its business. }
+  longdesc {
+The lizardman is a monstrous humanoid lizard.  They are most commonly covered
+in green scales but colours can vary from violet blue to deep, ochre-red.  It
+stands around 6 feet tall and is roughly equal in weight to an adult, human
+male.
+}
+  race { lizardman }
+  sex { male }
+  level { 325 }
+  height { 150 }
+  weight { 2250 }
+  experience { 350410 }
+  hp { 10, 30, 10286 }
+  alignment { 0 }
+  move { 600 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 5, 11 }
+  attacks_per_round { 4 }
+  head { -30, 10 }
+  body { -55, 15 }
+  arms { -39, 12 }
+  legs { -39, 12 }
+  feet { -39, 12 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone }
+}
+106010
+{
+  name { A Lizardman Warrior }
+  namelist { lizardman warrior }
+  shortdesc { A lizardman warrior is here, looking for intruders. }
+  longdesc {
+The lizardman is a monstrous humanoid lizard.  They are most commonly covered
+in green scales but colours can vary from violet blue to deep, ochre-red.  It
+stands around 6 feet tall and is roughly equal in weight to an adult, human
+male. This one is well armed with bronze xiphos and wicker and bronze shield.
+}
+  race { lizardman }
+  sex { male }
+  level { 425 }
+  height { 165 }
+  weight { 2500 }
+  experience { 450000 }
+  hp { 10, 30, 13286 }
+  alignment { -350 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 10, 22 }
+  attacks_per_round { 5 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone, aggressive }
+}
+106011
+{
+  name { Lizardman Guard }
+  namelist { Lizardman Guard }
+  shortdesc { A lizardman guards the path here. }
+  longdesc {
+This lizardman has deep green scales and yellow eyes. It's blue forked
+tongue continually tastes the air for danger. It carries a long spear
+tipped with a sharp bronze point, ready to repel any intruders.
+}
+  race { lizardman }
+  sex { male }
+  level { 485 }
+  height { 175 }
+  weight { 2800 }
+  experience { 570200 }
+  hp { 10, 30, 13286 }
+  alignment { -500 }
+  move { 600 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 10, 22 }
+  attacks_per_round { 5 }
+  head { -50, 19 }
+  body { -62, 25 }
+  arms { -55, 21 }
+  legs { -55, 21 }
+  feet { -55, 21 }
+  affected { infravision }
+  immune { charm, poison }
+  act { sentinel, stay-zone, aggressive }
+}
+106012
+{
+  name { Rabekka, the Night Hag }
+  namelist { Rabekka Night Hag }
+  shortdesc { Rabekka the ancient and evil Night Hag has made her home here. }
+  longdesc {
+This ancient, blue-skinned old crone is actually a demon from some dark and deep
+outer plane.  How it got here is anyones guess, however, here it is and it is
+really enjoying itself, making a home in the bog. "Hello my pretty!" she squeals
+when she spots you. Uh oh!
+}
+  race { devil }
+  sex { female }
+  level { 780 }
+  height { 195 }
+  weight { 1450 }
+  experience { 4030200 }
+  hp { 99, 11, 42000 }
+  alignment { -1000 }
+  move { 600 }
+  gold { 2625000 }
+  hit_bonus { 65 }
+  dam_bonus { 66 }
+  damage { 9, 11, 49 }
+  attacks_per_round { 6 }
+  head { -23, 20 }
+  body { -39, 80 }
+  arms { -29, 35 }
+  legs { -29, 35 }
+  feet { -29, 35 }
+  affected { true-sight, sanctuary }
+  caster { 475 }
+  spells { energy drain, weakness, blindness, fireball, ice storm } 
+  immune { charm, backstab }
+  resistant { fire, cold }
+  act { special, stay-zone, aggressive }
+}
+106013
+{
+  name { Yug-Yug the Bog Troll }
+  namelist { Yug-Yug Bog Troll }
+  shortdesc { Yug-Yug, the foul old Bog Troll is here, eating some disgusting pond-scum! }
+  longdesc {
+Old, wiry and tough. Yug-Yug roams the bog looking for things to eat. Which
+could be anything!  He has long, slimey-grey arms that end in long, hook-like
+claws and small, beady, black eyes. He doesn't look like he see's too well.
+}
+  race { troll }
+  sex { male }
+  level { 546 }
+  height { 261 }
+  weight { 3550 }
+  experience { 890200 }
+  hp { 10, 100, 33000 }
+  alignment { -900 }
+  move { 600 }
+  gold { 166000 }
+  hit_bonus { 45 }
+  dam_bonus { 180 }
+  damage { 6, 10, 60 }
+  attacks_per_round { 6 }
+  head { -74, 40 }
+  body { -80, 80 }
+  arms { -76, 44 }
+  legs { -76, 44 }
+  feet { -76, 44 }
+  caster { 75 } 
+  immune { charm, poison, backstab }
+  act { special, stay-zone, aggressive }
+}
+106014
+{
+  name { A Stirge }
+  namelist { Stirge }
+  shortdesc { A massive Stirge zips and buzzes around... Annoying thing! }
+  longdesc {
+The Stirge looks like a Dalmatian-sized mosquito! Ack! If it bites you with
+that you're going to need more than a band-aid!
+}
+  race { insect }
+  sex { none }
+  level { 150 }
+  height { 50 }
+  weight { 36 }
+  experience { 126000 }
+  hp { 10, 100, 4000 }
+  alignment { 0 }
+  move { 600 }
+  gold { 3000 }
+  hit_bonus { 21 }
+  dam_bonus { 17 }
+  damage { 4, 4, 19 }
+  attacks_per_round { 2 }
+  head { 0, 40 }
+  body { -10, 80 }
+  arms { -1, 44 }
+  legs { -1, 44 }
+  feet { -1, 44 } 
+  immune { charm, poison }
+  act { stay-zone, aggressive }
+}
+106015
+{
+  name { A Barrow Wight }
+  namelist { Barrow Wight }
+  shortdesc { A Barrow Wight is here, lurking in the shadows. }
+  longdesc {
+Once, long-ago, wight simply meant man. Now it means death, decay and
+ancient un-ending evil. The barrow wight is the pale, corporeal corpse
+of the deceased who was once buried here. Skin, now stretched taught
+over sinewy muscle, is translucent and papery. The nails of on the
+wights' death-blackened hands are long and disease ridden... You have
+heard tales of how ghouls can paralyse...  You should think twice
+before attacking this creature un-aided.
+}
+  race { undead }
+  sex { none }
+  level { 500 }
+  height { 150 }
+  weight { 89 }
+  experience { 1889001 }
+  hp { 50, 50, 40050 }
+  alignment { -1000 }
+  move { 600 }
+  gold { 1895000 }
+  hit_bonus { 59 }
+  dam_bonus { 30 }
+  damage { 10, 7, 17 }
+  attacks_per_round { 4 }
+  head { -100, 50 }
+  body { -100, 50 }
+  arms { -100, 50 }
+  legs { -100, 50 }
+  feet { -100, 50 } 
+  affected { true-sight }
+  immune { charm, poison, cold }
+  susceptible { fire }
+  act { special, sentinel, stay-zone, aggressive }
+}
+106016
+{
+  name { A Gnoll warrior }
+  namelist { gnoll warrior }
+  shortdesc { A Gnoll warrior is here, evading the Skinks. }
+  longdesc { 
+This gnoll stands around 7 feet tall. It has a shaggy-dog like head
+and massive canines. It doesn't look very aggressive, in fact, if
+anything it doesn't look like it wants to attack you at all! Its eyes
+dart around the surrounding area, keeping a weary eye out for Skinks.
+It is wearing some old, but serviceable leather armour and carries a
+long pike.
+  }
+  race { predator }
+  sex { Male }
+  level { 280 }
+  world_limit { 5 }
+  experience { 280000 }
+  hp { 4, 100, 3000 }
+  move { 300 }
+  alignment { -500 }
+  gold { 300 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 3 }
+  damage { 3, 6, 5 }
+  head { -50, 1 }
+  body { -20, 1 }
+  arms { -20, 1 }
+  legs { -20, 1 }
+  feet { -20, 1 }
+  act { npc, stay-zone }
+}
+106017
+{
+  name { Biter }
+  namelist { biter gnoll leader }
+  shortdesc { Biter, the Gnoll Alpha, is here ready to defend his pack! }
+  longdesc {
+Biter is one of the last of a once mighty pack of Gnolls that once
+ruled the whole of the bog.  Then the lizardmen came and a short
+and bloody war ended with the Gnolls losing everything.  Biter was
+the last of a group of Gnoll guards, nearly all his pack killed or 
+taken, but his position left him as alpha of the other six Gnolls
+who have survived ever since.  They squeeze out a a living in the
+bog as best as they can, but they know they're days are numbered.
+He carries a crude cleaver.
+  }
+  race { predator }
+  sex { male }
+  height { 260 }
+  weight { 10000 }
+  level { 320 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 23 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  head { -80, 1 }
+  body { -40, 1 }
+  arms { -40, 1 }
+  legs { -40, 1 }
+  feet { -40, 1 }
+  hp { 4, 320, 4160  }
+  move { 300 }
+  experience { 446397 }
+  damage { 4, 8, 5  }
+  immune { charm, backstab }
+  affected { infravision }
+  caster { 320 }
+  spells { shriek }
+  act { sentinel, stay-zone, special }
+}
+106018
+{
+  name { a blood fly }
+  namelist { blood fly }
+  shortdesc { A blood fly buzzes around looking for something to suck. }
+  longdesc {
+Yuck! It's a big, bloated blood fly! Ack! Squash it, quick!
+  }
+  race { parasite }
+  sex { none }
+  level { 30 }
+  experience { 9250 }
+  hp { 8, 9, 305 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  affected { fly }
+  act { stay-zone, aggressive }
+}
+106019
+{
+  name { a water rat }
+  namelist { water rat }
+  shortdesc { A water rat scrabbles around here. }
+  longdesc {
+It looks like a small water-logged rat. You could catch something petting it!
+  }
+  race { rat }
+  sex { none }
+  level { 30 }
+  experience { 9250 }
+  hp { 8, 9, 305 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { stay-zone, wimpy }
+}
+106020
+{
+  name { a deadly viper }
+  namelist { deadly viper }
+  shortdesc { A deadly viper is slithering around here. }
+  longdesc {
+A small snake with zig-zag patterns down its back... It might be poisonous, so be careful!
+  }
+  race { reptile }
+  sex { none }
+  level { 30 }
+  experience { 9250 }
+  hp { 8, 9, 305 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { stay-zone, deadly }
+}
+106021
+{
+  name { A small blue slaad }
+  namelist { small blue slaad }
+  shortdesc { A small blue slaad is here, }
+  longdesc {
+The Blue Slaad is a demonic humanoid toad. It stands around 12 feet tall
+and is built like a strapping human; all muscle and definition.  It's maw
+is full of razor-sharp teeth and it's fists end in long, boney claws; both
+of which drip some horrid blue slime...  No doubt some nasty poison. It's
+skin is blue, as its name suggests, and ranges from a pale, almost creamy
+blue on its stomach, chest and thighs to dark, ocean blue on its back and
+crown of its head. The skin also looks very, very tough.  It looks very
+aggressive!
+
+  }
+  race { demon }
+  sex { none }
+  level { 730 }
+  height { 450 }
+  weight { 40000 }
+  experience { 29067040 }
+  hp { 450, 10, 155500 }
+  alignment { -750 }
+  move { 600 }
+  gold { 195000 }
+  hit_bonus { 89 }
+  dam_bonus { 335 }
+  damage { 14, 6, 70 }
+  attacks_per_round { 4 }
+  head { -175, 50 }
+  body { -210, 55 }
+  arms { -180, 52 }
+  legs { -180, 52 }
+  feet { -180, 52 }
+  affected { detect-invisible, infravision, true-sight }
+  immune { charm, poison, backstab }
+  resist_acid { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, sanctuary, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+106022
+{
+  name { Krocoatl the Crocodile Goddess }
+  namelist { krocoatl skink goddess }
+  shortdesc { The fearsome Krocoatl the Crocodile Goddess looms here. }
+  longdesc {
+Krocoatl is the manifestation of the Skink belief in their crocodile 
+Goddess.  She stands 9 feet tall, her scales are as hard as rock and 
+her mouth is filled with hundreds of razor-sharp teeth!  Around her 
+waist she wears a belt of interlinked golden discs, the seemingly only
+ornamentation given to this mighty beast.
+  }
+  race { demon }
+  sex { female }
+  level { 730 }
+  height { 950 }
+  weight { 40000 }
+  experience { 25067040 }
+  hp { 450, 10, 32500 }
+  alignment { -950 }
+  move { 600 }
+  gold { 125000 }
+  hit_bonus { 59 }
+  dam_bonus { 129 }
+  damage { 14, 6, 27 }
+  attacks_per_round { 3.2 }
+  head { -175, 50 }
+  body { -210, 55 }
+  arms { -180, 52 }
+  legs { -180, 52 }
+  feet { -180, 52 }
+  affected { detect-invisible, infravision, true-sight }
+  immune { charm, poison, backstab }
+  resist_cold { 190 }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+106023
+{
+  name { Scratcher }
+  namelist { scratcher gnoll }
+  shortdesc { Scratcher is here, snickering insanely. }
+  longdesc { 
+Scratcher is the reason that this band of Gnolls still exist in
+the bog.  She is much weaker than her male counterparts, but
+what she lacks in strength she makes up for in cunning.  She
+was the Gnoll that learned how to evade the Skinks, how to lay
+traps and capture them, how to skin them and then extract all
+of their knowledge from them.  She is a learned cleric, a mage,
+and she has all the skill and cunning of a rogue.  She carries
+a wicked-looking spike and is adorned in the bright blue, green
+and cyan skins of her enemies.  Be wary of this one...
+  }
+  race { predator }
+  sex { female }
+  level { 280 }
+  world_limit { 1 }
+  experience { 375225 }
+  hp { 4, 100, 3000 }
+  move { 300 }
+  alignment { -500 }
+  gold { 300 }
+  hit_bonus { 30 }
+  dam_bonus { 9 }
+  attacks_per_round { 5 }
+  damage { 2, 7, 2 }
+  head { -90, 1 }
+  body { -70, 1 }
+  arms { -70, 1 }
+  legs { -70, 1 }
+  feet { -70, 1 }
+  immune { charm }
+  caster { 280 }
+  spells { shriek, weakness, ice lance, sanctuary, mind thrust }
+  act { npc, stay-zone, healer }
+}
+106024
+{
+  name { A tortured Lizardman Warrior }
+  namelist { lizardman warrior tortured }
+  shortdesc { A lizardman warrior is here, bound, gagged and tortured. }
+  longdesc {
+The lizardman is a monstrous humanoid lizard.  They are most commonly covered
+in green scales but colours can vary from violet blue to deep, ochre-red.  It
+stands around 6 feet tall and is roughly equal in weight to an adult, human
+male. This one has been beaten, bound and gagged.  It is unlikely to put up
+much of a fight.
+}
+  race { lizardman }
+  sex { male }
+  level { 425 }
+  height { 165 }
+  weight { 2500 }
+  experience { 2000 }
+  hp { 1, 1, 1 }
+  alignment { -350 }
+  move { 600 }
+  gold { 80 }
+  hit_bonus { 15 }
+  dam_bonus { 1 }
+  damage { 5, 10, 1 }
+  attacks_per_round { 3 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  affected { infravision }
+  immune { charm, poison }
+  act { stay-zone, sentinel }
+}

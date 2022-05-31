@@ -1,0 +1,347 @@
+105000
+{
+  name { The Dragon Turtle }
+  namelist { dragon turtle }
+  shortdesc { A dragon turtle dozes in a cloud of hazy super-heated water here.  }
+  longdesc {
+The dragon turtle looks like a turtle with a dragons head. It's great pock marked shell looks harder than anything you have ever seen before. It might be a good idea to use sledgehammers to crack it open!
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 575 }
+  alignment { 0 }
+  experience { 1750000 }
+  gold { 1050500 }
+  head { -40, 120 }
+  body { -300, 120 }
+  legs { -40, 60 }
+  arms { -40, 60 }
+  feet { -90, 10 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 50 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 0.5 }
+  dexterity { 14 }
+  hit_bonus { 45 }
+  dam_bonus { 45 }
+  hp { 1, 1, 85000 }
+  mana { 1500 }
+  damage { 32, 120, 120 }
+  resistant { slash }
+  immune { fire, charm, pierce }
+  affected { true-sight, detect-invisible }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+105001
+{
+  name { a gargantuan fire elemental }
+  namelist { a towering fire column guard gargantuan elemental }
+  shortdesc { A towering column of fire stands guard here. }
+  longdesc {
+This towering column of fire is actually a giant fire elemental, so tall and wide that it is quite possibly the biggest single thing you have ever seen. Heat rolls off it in waves that cause the air to shimmer and burn. Fighting this terrible beast would most likely end in your firey death...
+  }
+  race { none }
+  sex { none }
+  world_limit { 1 }
+  level { 550 }
+  experience { 1972000 }
+  hp { 300, 2, 50500 }
+  alignment { 0 }
+  gold { 700000 }
+  hit_bonus { 22 }
+  dam_bonus { 18 }
+  attacks_per_round { 6 }
+  dexterity { 17 }
+  move { 600 }
+  damage { 12, 8, 14 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -90, 15 }
+  legs { -90, 15 }
+  feet { -90, 15 }
+  power { 1500 }
+  mana { 1500 }
+  immune { fire, charm, }
+  spells { fireball, inferno, burning hands, nova, flamestrike, mage fire, firestorm, sunray, fire bolt, thanosis word of fire }
+  susceptible { cold }
+  resist_acid { 50 }
+  resist_poison { 50 }
+  resist_magic { 190 }
+  affected { true-sight, detect-invisible, fireshield, infravision }
+  act { npc, sentinel, stay-zone, nosummon }
+}
+105002
+{
+  name { Ember the mad Dwarven pyromancer }
+  namelist { ember mad pyromancer dwarven mage red robed }
+  shortdesc { A red-robed mage is here casting enchantments on a dragon egg. }
+  longdesc {
+This is Ember, the mad pyromancer and traitor to the good Dwarves of Fortrum. For years he has dared to experiment with fire, and he sports the results of his labours with pride; his skin a mass of melted, wax-like lesions and evil-looking blisters. His eyes peer out from long-dried sockets and his teeth stand black and rotten in his lip-less mouth. His hair and beard have been reduced to a few odd ochre-coloured clumps, burnt and frayed by fire. His red robe is loose and flowing and covered in magical sigils--no doubt to ward off the intense heat. At his belt hangs a flail with three flaming skulls for heads. He is surrounded by a glowing red aura, almost as if he made of the very substance he molds with his magic. His fire-blackened fingers cradle a lone dragon egg, the shell of which shimmers with magics as he concentrates on mutating the creature inside to suit his needs.
+  }
+  race { dwarf }
+  sex { male }
+  world_limit { 1 }
+  level { 590 }
+  experience { 2903000 }
+  hp { 4, 400, 75700 }
+  alignment { 0 }
+  gold { 3900000 }
+  hit_bonus { 85 }
+  dam_bonus { 80 }
+  attacks_per_round { 4 }
+  dexterity { 23 }
+  move  { 300 }
+  damage { 5, 60, 55 }
+  head { -160, 45 }
+  body { -150, 35 }
+  arms { -150, 35 }
+  legs { -150, 35 }
+  feet { -150, 35 }
+  caster { 700 }
+  power { 10000 }
+  mana { 1000 }
+  spells { multiple magic missile, energy drain, fireball, inferno, thanosis word of fire, burning hands, fire bolt, sunray, inferno,}
+  immune { fire, charm, backstab }
+  susceptible { cold }
+  affected { sanctuary, fireshield, true-sight, invisible }
+  act { sentinel, stay-zone, nosummon }
+}
+105003
+{
+  name { a mutated dragon hatchling }
+  namelist { dragon mutated young hatchling }
+  shortdesc { A young dragon with 2 heads rocks and back and forth here.  }
+  longdesc {
+This poor hatchling has been given the gift of two heads! Ack! Look at it, struggling to work out what is happening in the world. Clearly it is mad. One of it's head is a ghostly gray colour and drags along the floor, the other is a vibrant crimson with bright, evil yellow eyes.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 490 }
+  alignment { 0 }
+  experience { 610000 }
+  gold { 90000 }
+  head { -70, 9 }
+  body { -100, 30 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  attacks_per_round { 4 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  hp { 1, 18, 10482 }
+  mana { 1100 }
+  damage { 4, 20, 16 }
+  affected { true-sight, detect-invisible }
+  act { npc, aggressive, stay-zone }
+}
+105004
+{
+  name { a mutated dragon hatchling }
+  namelist { dragon mutated young hatchling }
+  shortdesc { A young dragon with 15 legs scuttles around here.  }
+  longdesc {
+This poor hatchling has been given the gift of fifteen legs! Ack! Look at it, struggling to work out what is happening in the world. Clearly it is mad. It's head and body is covered in frosty white scales which steam in the super-heated air, and it's eyes are beads of jet black.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 490 }
+  alignment { 0 }
+  experience { 610000 }
+  gold { 90000 }
+  head { -70, 9 }
+  body { -100, 30 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  attacks_per_round { 4 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  hp { 1, 18, 10482 }
+  mana { 1100 }
+  damage { 4, 20, 16 }
+  affected { true-sight, detect-invisible }
+  act { npc, aggressive, stay-zone }
+}
+105005
+{
+  name { a mutant green dragon }
+  namelist { dragon green mutant }
+  shortdesc { A terrifying green dragon with a razor-sharp feet glares at you.  }
+  longdesc {
+This dragon has a long, flattened feet covered in razor sharp barbs--quite possibly it could slice you in half! It's head and body is covered in glowing emerald scales which contrasts with the pale cream of it's soft underbelly and life-less eyes.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 525 }
+  alignment { 0 }
+  experience { 1050000 }
+  gold { 290500 }
+  head { -40, 20 }
+  body { -100, 100 }
+  legs { -40, 20 }
+  feet { -40, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 30 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 8 }
+  dexterity { 25 }
+  hit_bonus { 30 }
+  dam_bonus { 45 }
+  hp { 1, 1, 29099 }
+  mana { 1500 }
+  damage { 10, 10, 20 }
+  immune { poison, charm }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { npc, aggressive, stay-zone }
+}
+105006
+{
+  name { a mutant red dragon }
+  namelist { dragon red mutant }
+  shortdesc { A terrifying red dragon with a razor-sharp claws glares at you.  }
+  longdesc {
+This dragon has a long claws covered in razor sharp barbs--quite possibly it could slice you in half! It's head and body is covered in glowing red scales which contrasts with the black of it's soft underbelly and life-less eyes.
+  }
+  race { dragon }
+  sex { male }
+  world_limit { 1 }
+  level { 525 }
+  alignment { 0 }
+  experience { 1050000 }
+  gold { 290500 }
+  head { -40, 20 }
+  body { -100, 100 }
+  legs { -40, 20 }
+  feet { -40, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 30 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 8 }
+  dexterity { 25 }
+  hit_bonus { 30 }
+  dam_bonus { 45 }
+  hp { 1, 1, 29099 }
+  mana { 1500 }
+  damage { 10, 10, 20 }
+  immune { poison, charm }
+  affected { true-sight, detect-invisible, fireshield }
+  act { npc, aggressive, stay-zone }
+}
+
+105007
+{
+  name { a mutant blue dragon }
+  namelist { dragon blue mutant }
+  shortdesc { A terrifying blue dragon with a razor-sharp horn glares at you.  }
+  longdesc {
+This dragon has a long horn poking from its forhead. It's head and body is covered in glowing blue scales which contrasts with the pale red of it's soft underbelly and life-less eyes.
+  }
+  race { dragon }
+  sex { female }
+  world_limit { 1 }
+  level { 525 }
+  alignment { 0 }
+  experience { 1050000 }
+  gold { 290500 }
+  head { -40, 20 }
+  body { -100, 100 }
+  legs { -40, 20 }
+  feet { -40, 20 }
+  resist_acid   { 200 }
+  resist_magic  { 200 }
+  resist_force  { 30 }
+  resist_cold   { 200 }
+  resist_fire   { 200 }
+  resist_poison { 200 }
+  attacks_per_round { 8 }
+  dexterity { 25 }
+  hit_bonus { 30 }
+  dam_bonus { 45 }
+  hp { 1, 1, 29099 }
+  mana { 1500 }
+  damage { 10, 10, 20 }
+  immune { poison, charm }
+  affected { true-sight, detect-invisible, sanctuary }
+  act { npc, aggressive, stay-zone }
+}
+
+
+105008
+{
+  name { Salamander }
+  namelist { Salamander lava }
+  shortdesc { Before you rests a massive red salamader. Heat pulses from its scales. }
+  longdesc { A giant red and black Salamander radiates heat from its scales. Its body is covered in a patchwork of molten rock and scale. }
+  race { dragon }
+  level { 560 }
+  alignment { -800 }
+  experience { 800000 }
+  gold { 102000 }
+  head { -100, 25 }
+  body { -100, 25 }
+  legs { -100, 25 }
+  arms { -100, 25 }
+  feet { -100, 25 }
+  attacks_per_round { 6 }
+  hit_bonus { 45 }
+  hp { 100, 2, 49999 }
+  mana { 1500 }
+  dam_bonus { 70 }
+  damage { 4, 5, 15 }
+  resistant { slash, blunt, energy }
+  immune { fire, charm, drain, }
+  affected { true-sight, detect-invisible, sanctuary, fireshield }
+  act { aggressive, stay-zone }
+}
+
+105009
+{
+  name { Infernablazix }
+  namelist { Infernablazix }
+  shortdesc { A giant, flaming red dragon rages here. }
+  longdesc { Infernablazix rages against the shackles binding her to the walls. Each shackle
+  is attached to a chain fastened into the walls keeping her from escaping her prison. Sigils
+  carved into the shackles blaze with white hot light as she struggles to be free. Free to 
+  exact her revenge on the dwarven mage Ember who uses her magic and eggs in his infernal 
+  experiments. The cry's of anguish from her tortued children echoing around the cave system
+  causing her to strain aginst her bondage all the more.
+   }
+  race { dragon }
+  height { 1160 }
+  weight { 100000 }
+  level { 580 }
+  alignment { -1000 }
+  gold { 2205000  }
+  hit_bonus { 27 }
+  dam_bonus { 46 }
+  attacks_per_round { 8 }
+  head { -130, 40 }
+  body { -130, 30 }
+  arms { -130, 30 }
+  legs { -130, 30 }
+  feet { -130, 30 }
+  hp { 9, 754, 87775  }
+  move { 300 }
+  experience { 2900000 }
+  damage { 4, 10, 150  }
+  mana { 50000 }
+  immune { fire, charm, sleep }
+  spells { fireball, inferno, burning hands, nova, flamestrike, mage fire, firestorm, sunray, fire bolt, thanosis word of fire }
+  susceptible { cold }
+  caster { 90 }
+  affected { invisible, detect-invisible, sanctuary, flying, infravision, water-breath, fireshield, true-sight}
+  act { sentinel }
+}
+
+

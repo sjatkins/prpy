@@ -1,0 +1,628 @@
+1320
+{
+  name { a black scorpion }
+  namelist { black scorpion }
+  shortdesc { A black scorpion raises its tail and rears to attack. }
+  longdesc {
+A black scorpion skitters out from under a rock and snaps its claws at
+you.  Its tail begins to twitch, slowly raises and forms a sort of
+question mark.  A drop of poison drips from its tail and burns straight
+through the sand.
+  }
+  race { None }
+  world_limit { 2 }
+  level { 20 }
+  experience { 3420 }
+  hp { 6, 8, 195 }
+  alignment { 0 }
+  gold { 1750 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 4 }
+  head { 70, 4 }
+  body { 80, 3 }
+  arms { 80, 3 }
+  legs { 80, 3 }
+  feet { 80, 3 }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+1321
+{
+  name { a scaly lizard }
+  namelist { scaly lizard }
+  shortdesc { A green scaly lizard flicks its tongue and runs under a rock. }
+  longdesc {
+The lizard has bright white eyes that seem to twirl in its sockets.  It
+tilts its little head to the right, looking at you almost quizmically.
+Flicking its tongue at you quickly, it turns and runs under the nearest
+rock.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 20 }
+  experience { 3275 }
+  hp { 3, 5, 110 }
+  alignment { 0 }
+  gold { 1600 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 2, 3 }
+  head { 70, 4 }
+  body { 80, 3 }
+  arms { 80, 3 }
+  legs { 80, 3 }
+  feet { 70, 3 }
+  act { npc, stay-zone }
+}
+
+1322
+{
+  name { an old scientist }
+  namelist { old scientist }
+  shortdesc { An old scientist is examining the hieroglyphics. }
+  longdesc {
+The scientist's gray hair reveals his age.  He has a long beard growing
+from his face.  He appears to be in deep thought as he ponders the
+etchings on the front of the sarcophagus.  Rasing his hand, he carefully
+traces the intricate patterns with his fingers and continues to converse
+with his colleagues.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 52 }
+  experience { 9500 }
+  hp { 6, 8, 525 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1323
+{
+  name { a writing scientist }
+  namelist { write writing scientist }
+  shortdesc { A young scientist is carefully making notes on a clipboard. }
+  longdesc {
+The scientist is completely wrapped up in his work.  He stares carefully
+at the etchings on the wall and makes some quick notes on his clipboard.
+He continues this process until he has examined every inch of the wall.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 6 }
+  level { 45 }
+  experience { 7700 }
+  hp { 6, 8, 380 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1324
+{
+  name { a sifting scientist }
+  namelist { sifting scientist }
+  shortdesc { A scientist carefully sifts through the sands in the catacombs. }
+  longdesc {
+Carrying a mesh net tray, the scientest carefully shovels a small amount
+of sand into it and shakes it ever so carefully.  The sands falls through
+the net to the ground, leaving small pieces of remnants from the decaying
+wall.  He looks pleased with himself as he stop to catagorize his find
+and repeats the process.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 68 }
+  experience { 12200 }
+  hp { 6, 8, 675 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.4 }
+  move  { 200 }
+  damage { 2, 2, 5 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1325
+{
+  name { a scared scientist }
+  namelist { scared scientist }
+  shortdesc { A scared scientist cowers in fear against the walls of the catacombs. }
+  longdesc {
+The scientist seems to have been through quite an ordeal.  Cowering in
+fear, the poor man has his arms covering his head, as though he is
+protecting himself from something.  What could he be so afraid of?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 6 }
+  level { 69 }
+  experience { 6700 }
+  hp { 6, 8, 320 }
+  alignment { 0 }
+  gold { 2750 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1.2 }
+  move  { 200 }
+  damage { 2, 2, 3 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1326
+{
+  name { a frightened scientist }
+  namelist { frightened scientist }
+  shortdesc { A frightened scientist runs around the room, screaming his head off. }
+  longdesc {
+The poor man is running around the room like a chicken with its head
+cut off.  "Mummies.....  MUMMIES!", the screaming man is proclaiming.
+What on earth is he talking about?  The scientist runs up to you and
+grabs your shirt yelling, "Can't you seem them?!  Run for your lives!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 6 }
+  level { 66 }
+  experience { 6500 }
+  hp { 6, 8, 300 }
+  alignment { 0 }
+  gold { 1750 }
+  hit_bonus { 8 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.4 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1327
+{
+  name { a worried scientist }
+  namelist { worried scientist }
+  shortdesc { A worried scientist looks around with a panicked look on his face. }
+  longdesc {
+The scientist seems to be sweating profusely, large beads of sweat pour
+down his face.  He wipes his face with his sleeve and nervously looks
+around for signs of trouble.  He looks from is colleagues
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 4 }
+  level { 72 }
+  experience { 10875 }
+  hp { 6, 8, 615 }
+  alignment { 0 }
+  gold { 1900 }
+  hit_bonus { 7 }
+  dam_bonus { 1 }
+  attacks_per_round { 1.5 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1328
+{
+  name { A mummy }
+  namelist { mummy }
+  shortdesc { A bandage-wrapped mummy lunges at you from across the room. }
+  longdesc {
+The mummy is wrapped completely in some white cloth bandages.  Its
+mouth slowly opens, letting loose an inhuman moan.  The moan chills you
+to your very core.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 4 }
+  level { 90 }
+  experience { 19500 }
+  hp { 6, 8, 810 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+1329
+{
+  name { A wandering mummy }
+  namelist { wandering mummy }
+  shortdesc { A bandage-wrapped mummy slowly creeps through the catacombs. }
+  longdesc {
+The mummy is completely wrapped in white cloth bandages.  It slowly
+creeps up and down the hallways of the catacomb, dragging a foot behind
+it.  The mummy raises its arms and changes directions, right towards 
+you.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 4 }
+  level { 90 }
+  experience { 21500 }
+  hp { 6, 8, 910 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 2.1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+1330
+{
+  name { A wandering 2nd level mummy }
+  namelist { wandering second mummy }
+  shortdesc { A bandage-wrapped mummy slowly creeps through the catacombs. }
+  longdesc {
+The mummy is completely wrapped in white cloth bandages.  It slowly
+creeps up and down the hallways of the catacomb, dragging a foot behind
+it.  The mummy raises its arms and changes directions, right towards 
+you.  It opens its mouth and lets loose and inhuman moan.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 2 }
+  level { 90 }
+  experience { 21500 }
+  hp { 6, 8, 910 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 2.2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+1331
+{
+  name { A royal mummy }
+  namelist { royal mummy }
+  shortdesc { A bandage-wrapped mummy stands guard over the pharaoh's sarcophagus. }
+  longdesc {
+The mummy is completely wrapped in white bandages.  It holds a long
+wooden spear and has some ceremonial dressings draped over its shoulders.
+It quickly notices that you have invaded its pharaohs final resting
+place and rears to attack.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 2 }
+  level { 90 }
+  experience { 27500 }
+  hp { 6, 8, 1080 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 2.5 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, stay-zone }
+}
+
+1332
+{
+  name { The prince }
+  namelist { mummy prince }
+  shortdesc { The mummy of the prince slowly rises from his sarcophagus. }
+  longdesc {
+A tiny hand slowly raises from the sarcophagus, grasping at the air
+like it needs to breath.  The prince throws back the cover and stands
+straight up on the altar.  He stairs straight at you with a look of
+pure hatred moaning, "My toys..... my toys.".  Jumping off the altar,
+the young prince charges right towards you.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 90 }
+  experience { 27500 }
+  hp { 6, 8, 1080 }
+  alignment { 0 }
+  gold { 5100 }
+  hit_bonus { 8 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+1333
+{
+  name { The queen }
+  namelist { mummy queen }
+  shortdesc { The mummy of the queen quickly crawls across the floor towards you. }
+  longdesc {
+The queen is completely wrapped in white cloth bandages.  She slowly
+crawls hand over hand, dragging her long dead body out from the over-
+turned sarcophagus.  She lets out an unholy moan and quickens her
+movement as she senses warm bodies.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 90 }
+  experience { 35200 }
+  hp { 6, 8, 1380 }
+  alignment { 0 }
+  gold { 6250 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 1.9 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+1334
+{
+  name { The pharaoh }
+  namelist { mummy pharaoh }
+  shortdesc { The mummy of the pharaoh stares down at you with contempt. }
+  longdesc {
+The pharaoh is wrapped completely in white cloth bandages.  He stands
+arms crossed on the top of the white marble altar.  Looking down at
+you with the utmost comtempt, the pharaoh starts to moan in a particularly
+disturbing manner.  You can tell that he is letting you know you are
+not welcome here.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 1 }
+  level { 90 }
+  experience { 48200 }
+  hp { 6, 8, 1580 }
+  alignment { 0 }
+  gold { 9750 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  attacks_per_round { 2.4 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+1335
+{
+  name { a blue scarab }
+  namelist { blue scarab }
+  shortdesc { A blue scarab crawls quickly across the walls of the catacomb. }
+  longdesc {
+The scarab rather large.  It seems to glow with a deep blue sapphire
+luster as the light from the torches lining the catacomb walls reflects
+off its shell.  The scarab buzzes its wings at you and flies off down
+the hallway.
+  }
+  race { None }
+  world_limit { 5 }
+  level { 20 }
+  experience { 3510 }
+  hp { 6, 8, 195 }
+  alignment { 0 }
+  gold { 1750 }
+  hit_bonus { 6 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 4, 4 }
+  head { 70, 4 }
+  body { 80, 3 }
+  arms { 80, 3 }
+  legs { 80, 3 }
+  feet { 80, 3 }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+1336
+{
+  name { a thief }
+  namelist { thief }
+  shortdesc { A black robed thief stares at you from the darkness. }
+  longdesc {
+The thief darts in and out of the shadows of the room.  The collapsed
+hallways and overturned coffins provide him excellent cover to hide.
+A sparkling gleam reflects from his belt as the light from the hallways
+shines in.  What could he be hiding there?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 68 }
+  experience { 12500 }
+  hp { 6, 8, 675 }
+  alignment { 0 }
+  gold { 2900 }
+  hit_bonus { 9 }
+  dam_bonus { 3 }
+  attacks_per_round { 1.8 }
+  move  { 200 }
+  damage { 2, 2, 5 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+1337
+{
+  name { A mummy servant }
+  namelist { mummy servant }
+  shortdesc { A bandage-wrapped mummy walks lazily around the room. }
+  longdesc {
+The mummy is completely wrapped in white cloth bandages.  It walks
+around the room picking up the mess, much like it must have when it
+was alive.
+  }
+  race { Ghost }
+  sex { Male }
+  world_limit { 2 }
+  level { 90 }
+  experience { 19500 }
+  hp { 6, 8, 810 }
+  alignment { 0 }
+  gold { 2900 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+1338
+{
+  name { A stone statue }
+  namelist { stone statue }
+  shortdesc { A gigantic stone statue blocks any further travel to the north. }
+  longdesc {
+The stone statue stoically stands guard along the swirling vortex's
+path.  It looks down at you and smiles, but impassively returns to
+guarding whatever lies to the north.  What could be over there?
+"Please read the sign.", it says to you with its eyes closed.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 90 }
+  experience { 19500 }
+  hp { 6, 8, 810 }
+  alignment { 0 }
+  gold { 3200 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}

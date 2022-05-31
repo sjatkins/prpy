@@ -1,0 +1,4812 @@
+14500
+{
+  name { a flying demon }
+  namelist { flying demon }
+  shortdesc { A winged demon flies freely throughout the large abyss. }
+  longdesc {
+Completely black, the demon looks almost like a shadow flying through
+the air.  It comes to a complete stop and begins to look around the
+abyss.  A red glimmer emits from its eye sockets as it glares around
+its surroundings.  What could it be looking for?  It's diffcult to 
+judge as it floats in the air, but the demon seems to be about seven
+feet tall.  A long curved neck stretches out from the top of its torso.
+Its head looks like a hammerhead sharks, lying lengthwise on the top
+of its neck.
+  }
+  race { Demon }
+  world_limit { 8 }
+  level { 250 }
+  sex { Neuter }
+  experience { 212633 }
+  hp { 15, 20, 2688 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, stay-zone }
+}
+
+14501
+{
+  name { an eating demon }
+  namelist { eating demon }
+  shortdesc { A winged demon greedily devours on a lost soul. }
+  longdesc {
+The demon hovers in mid-air with a glowing blue soul in its claws.  It
+rips and tears at the poor soul's flesh with its vicious looking teeth.
+Whipping its long neck into the air, the demon gulps down large pieces
+of the soul.  It is difficult to tell from here, but the demon appears
+to be about seven feet tall.  Its body is completely black, except for
+the deep red glimmer from its eyes.  The demon seems to notice you
+as its long neck slowly turns in your direction, but it quickly returns
+to its meal.
+  }
+  race { Demon }
+  world_limit { 6 }
+  level { 220 }
+  sex { Neuter }
+  experience { 132511 }
+  hp { 10, 15, 2188 }
+  alignment { -1000 }
+  gold { 5500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14502
+{
+  name { a fighting demon }
+  namelist { fighting demon }
+  shortdesc { A winged demon fights with all its might against another demon. }
+  longdesc {
+Loud shrieks are coming from the demon.  It is difficult to tell if it
+is shrieking from pleasure or pain.  It claws at its friend with both 
+hands and feet.  They seem to be fighting over a lost soul that is 
+grasped in one of the demon's feet.  Unfortunately for both of them, 
+the soul has wiggled free and is drifting back down towards the bottom 
+of the abyss.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 210 }
+  sex { Neuter }
+  experience { 115440 }
+  hp { 10, 10, 2188 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14503
+{
+  name { a fighting demon }
+  namelist { kick fighting demon }
+  shortdesc { A winged demon fights against a terrordon with its clawed feet. }
+  longdesc {
+Swooping and twisting through the air, the demon slashes its sharply
+clawed feet at the terrordon.  It does not seem to want to get close
+to the mighty creature.  It flaps its wings and flies back into the
+air.  Letting out a ear-splitting shriek, it speeds down and under
+the terrordon, slicing at its underbelly.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 210 }
+  sex { Neuter }
+  experience { 105440 }
+  hp { 10, 10, 2188 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14504
+{
+  name { a fighting demon }
+  namelist { clawing fighting demon }
+  shortdesc { A winged demon claws viciously at a flaming sulfiend. }
+  longdesc {
+It is strange to see an almost worried look on the demon's face.  It
+backs up anytime the sulfiend gets close to it.  Holding tightly to 
+the soul grasped in its feet, the demon slashes its sharp claws at the 
+flaming sulfiend.  Its claws start to blister and pop the longer it 
+draws out the fight.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 210 }
+  sex { Neuter }
+  experience { 105440 }
+  hp { 10, 10, 2188 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14505
+{
+  name { a climbing demon }
+  namelist { climbing demon }
+  shortdesc { A wingless demon crawls quickly along the walls of the abyss. }
+  longdesc {
+The black demon looks almost like a snake as it crawls along the rocky
+walls of the abyss.  This must be a lesser demon because it has not 
+grown the wings of its brothers.  It twists its long neck and hisses
+at you as it senses your presence.  The demon's claws look very sharp.
+You probably should not get too close.
+  }
+  race { Demon }
+  world_limit { 10 }
+  level { 110 }
+  sex { Neuter }
+  experience { 81334 }
+  hp { 10, 10, 1562 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14506
+{
+  name { a lost soul }
+  namelist { lost soul }
+  shortdesc { A lost soul stares at you with a blank look on its face. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+contrast nicely with the pulsing color emitting from its body.  The
+creature looks at you blankly, tilting its head from side to side.  It
+must not sense you are a threat as it goes back to floating through
+the fires of the cavern floor.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 90 }
+  sex { Neuter }
+  experience { 22156 }
+  hp { 10, 10, 867 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14507
+{
+  name { a screaming lost soul }
+  namelist { screaming lost soul }
+  shortdesc { A lost soul screams in pain as it burns eternally in the fire. }
+  longdesc {
+The glowing blue soul does not seem to be in pain, but it is screaming
+at the top of its lungs.  The soul's body is an opaque white that has
+a dull blue pulse emitting from it.  Its pale eyes stare up into the 
+air as it lets loose another tirade of wails.  It begins to drift away
+as you get closer.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 99 }
+  sex { Neuter }
+  experience { 24156 }
+  hp { 10, 10, 967 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14508
+{
+  name { a writhing lost soul }
+  namelist { writhing lost soul }
+  shortdesc { The lost soul twists and contorts in pain as it burns in the fire. }
+  longdesc {
+This poor soul is doubled over in pain, its body twists and contorts
+in unnatural directions.  It hovers inches above the ground, slowing
+summersaulting through the intense flames.  The soul is completely
+opaque white and has a blue pulse emitting from deep within its body.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 90 }
+  sex { Neuter }
+  experience { 21123 }
+  hp { 10, 10, 830 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14509
+{
+  name { a crying lost soul }
+  namelist { crying lost soul }
+  shortdesc { A lost soul hovers in the air, crying quietly to itself. }
+  longdesc {
+The soul is completely opaque white and has a blue glow emitting from
+deep inside its body.  The soul hovers in mid-air, holding its hands
+over its eyes.  Shining silver tears leak out from its eyes, fall into
+the air and down into the flaming fires below.
+  }
+  race { Undead }
+  world_limit { 3 }
+  level { 90 }
+  sex { Neuter }
+  experience { 21003 }
+  hp { 10, 10, 810 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14510
+{
+  name { a half-eaten lost soul }
+  namelist { half eaten lost soul }
+  shortdesc { A half-eaten lost soul lies all too still in the air. }
+  longdesc {
+This poor creature is not happy.  A lost arm, half a leg and a large
+section of its torso has been ripped out.  Its pale white eyes stare
+at you with no emotion.  At least the lost soul does not seem to be
+in any pain.
+  }
+  race { Undead }
+  world_limit { 4 }
+  level { 50 }
+  sex { Neuter }
+  experience { 12156 }
+  hp { 10, 10, 467 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14511
+{
+  name { a tasty lost soul }
+  namelist { tasty lost soul }
+  shortdesc { A lost soul does not seem concerned that a demon is feasting on it. }
+  longdesc {
+The soul rests quietly within the demon's claws.  It does not squirm or
+try to escape its captor's grasp.  Its pale white eyes stare at you
+blankly, even as the demon rips into its body and tears off some flesh.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 90 }
+  sex { Neuter }
+  experience { 16225 }
+  hp { 10, 10, 667 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, stay-zone, sentinel }
+}
+
+14512
+{
+  name { a sulfiend }
+  namelist { sulfiend }
+  shortdesc { A glowing pair of eyes stares at you from within a ball of flame. }
+  longdesc {
+The flaming creature looks like a giant match stick engulfed in a ball
+of fire.  What looks like a silver strand of fabric runs through the
+middle of the sulfiend where the stick of a match would be.  A glowing 
+pair of red eyes stares out at you from the top of the fireball with 
+utter hatred.  Some flame-like hands begin to form and reach out from
+the middle of the sulfiend.  It slowly begins to move towards you.
+  }
+  race { Demon }
+  world_limit { 6 }
+  level { 180 }
+  sex { Neuter }
+  experience { 94666 }
+  hp { 10, 15, 1125 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { flying, fireshield }
+  immune { charm }
+  resistant { blunt }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+14513
+{
+  name { a fighting sulfiend }
+  namelist { fighting sulfiend }
+  shortdesc { A flaming sulfiend closes in on a flying demon. }
+  longdesc {
+The flames burning around the sulfiend seem to be getting hotter and
+turn from red to white.  The sulfiend's eyes are completely focused
+on the demon and the lost soul in the demon's clutches.  It has not
+even noticed how close you have gotten to its battles.  The sulfiend
+must be very hungry.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 135 }
+  sex { Neuter }
+  experience { 82666 }
+  hp { 10, 10, 1025 }
+  alignment { -1000 }
+  gold { 4200 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 5, 4 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { flying, fireshield }
+  immune { charm }
+  resistant { blunt }
+  susceptible { cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14514
+{
+  name { a flaming demon }
+  namelist { flaming demon }
+  shortdesc { A flaming demon strides along the cavern floor. }
+  longdesc {
+The demon looks almost exactly like its flying brothers except it has
+no wings.  Its skin is a flaming ruby red, unlike the pitch-black
+luster of the demons flying above your head.  Laughing and smiling,
+the demons walks along the cavern floor whipping the hell out of any
+lost soul it can attack.  The whip appears to be made is pure fire and
+looks to be about eight feet in length.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 250 }
+  sex { Neuter }
+  experience { 208221 }
+  hp { 15, 15, 2552 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  immune { charm, fire }
+  resistant { pierce, slash }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+14515
+{
+  name { a flaming worm }
+  namelist { flaming worm }
+  shortdesc { A fire red worm swims freely through the flames on the cavern floor. }
+  longdesc {
+This creature is enormous!  The worm is ruby red in color.  It appears
+to be about thirty feet long and almost just as wide.  It swims freely
+through the flames as though it was wading through water.  Lost souls
+have grabbed onto the sides of the worm and seem to be enjoying the 
+ride.  At least they probably would be if they could show any emotions.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 250 }
+  sex { Neuter }
+  experience { 212225 }
+  hp { 15, 20, 2688 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { sanctuary }
+  immune { charm, fire }
+  resistant { pierce, slash }
+  susceptible { cold }
+  act { npc, stay-zone }
+}
+
+14516
+{
+  name { a flying terrordon }
+  namelist { flying terrordon }
+  shortdesc { A flying beast charges at you in mid-air. }
+  longdesc {
+The terrordon is about the size of a large elephant and is sandy brown
+in complexion.  It is covered from the top of its neck to the base of 
+its back with pointy spikes.  A long tail swings behing the creature 
+with a spiked ball at the end.  Its face looks like a large shield
+with long, curved spikes sticking out from ten o'clock, twelve o'clock
+and two o'clock.  It leaps around the air as though it was walking on 
+the ground.  The terrordon turns and charges at you when it realizes 
+you are staring at it.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 225 }
+  sex { Neuter }
+  experience { 220110 }
+  hp { 15, 17, 2388 }
+  alignment { -1000 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -70, 9 }
+  body { -60, 8 }
+  arms { -60, 8 }
+  legs { -60, 8 }
+  feet { -60, 8 }
+  feet { -60, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, stay-zone }
+}
+
+14517
+{
+  name { a fighting terrordon }
+  namelist { fighting terrordon }
+  shortdesc { An angry terrordon savagely bites at the lost soul in a demon's arms. }
+  longdesc {
+The terrordon is about the size of a large elephant and is sandy brown
+in complexion.  It is covered from the top of its neck to the base of 
+its back with pointy spikes.  A long tail swings behind the creature 
+with a spiked ball at the end.  Its face looks like a large shield
+with long, curved spikes sticking out from ten o'clock, twelve o'clock
+and two o'clock.  It charges through the air and tries to gorge the
+flying demon before it.  The terrordon takes a large bite out of the
+lost soul in the demon's arms and continues its charge.  Turning
+around, it rears on its hind legs and starts into another charge.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 225 }
+  sex { Neuter }
+  experience { 220110 }
+  hp { 15, 17, 2388 }
+  alignment { -1000 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -70, 9 }
+  body { -60, 8 }
+  arms { -60, 8 }
+  legs { -60, 8 }
+  feet { -60, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14518
+{
+  name { a climbing terrordon }
+  namelist { climbing terrordon }
+  shortdesc { A terrordon makes its way across the cavern walls. }
+  longdesc {
+The terrordon is a little different from the flying ones.  The spikes
+on its body have not fully developed and it only has one long, curved
+spike sticking out from the top of its shield-like head.  Its tail is
+short and does not have a spiked ball on it.  The terrordon does not
+seem to be able to fly freely, but it easily walks up and down the 
+walls of the abyss.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 210 }
+  sex { Neuter }
+  experience { 195322 }
+  hp { 10, 10, 2199 }
+  alignment { -1000 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, stay-zone }
+}
+
+14519
+{
+  name { a mother terrordon }
+  namelist { mother terrordon }
+  shortdesc { An angry terrordon stomps its feet on the ground and prepares to charge. }
+  longdesc {
+This is a strange terrordon indeed.  Its back and neck are completely
+smooth.  There are spikes all over the terridon's face, almost like
+a very scary meat tendorizer.  It seems to be guarding something that
+is in the back of the cave.  What could that be?  It stomps its feet at
+you, shaking the cavern walls a little.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 225 }
+  sex { Female }
+  experience { 100115 }
+  hp { 10, 12, 2015 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -70, 9 }
+  body { -60, 8 }
+  arms { -60, 8 }
+  legs { -60, 8 }
+  feet { -60, 8 }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14520
+{
+  name { a baby terrordon }
+  namelist { baby terrordon }
+  shortdesc { A baby terrordon crawls around the cavern floor. }
+  longdesc {
+Awwww, how cute.  The baby crawls around the cavern floor with its
+brothers and sisters.  It fights over some scraps of lost souls with
+its new family and then starts to chase another baby around the room.
+  }
+  race { Demon }
+  world_limit { 5 }
+  level { 75 }
+  sex { Neuter }
+  experience { 19225 }
+  hp { 9, 8, 830 }
+  alignment { -1000 }
+  gold { 1900 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14521
+{
+  name { a crying baby terrordon }
+  namelist { crying baby terrordon }
+  shortdesc { A baby terrordon cries as it tries to break free from its egg shell. }
+  longdesc {
+The baby terrordon screams and cries as it tries to break free from its
+egg.  It rolls over and uses its legs to kick apart the egg shell, 
+finally freeing itself.  Standing and shaking off some birth slime, it
+yawns and joins it brothers and sisters.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 75 }
+  sex { Neuter }
+  experience { 18460 }
+  hp { 9, 8, 780 }
+  alignment { -1000 }
+  gold { 1900 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14522
+{
+  name { a flying tunnel demon }
+  namelist { flying tunnel demon }
+  shortdesc { A winged demon hovers a few inches above the floor of the rocky cavern. }
+  longdesc {
+A pair of glowing red eyes stares out at you from the shadows.  Emerging
+from the darkness, the flying demon glides into the middle of the cavern
+hallway.  The demon flaps its leathery black wings, kicking up some
+dust in the hallway.  It unclenches its claws with a *snikt*, revealing
+long blade-like nails.  You almost think its smiling as it closes in,
+blocking your escape down another cavern hallway.
+  }
+  race { Demon }
+  world_limit { 6 }
+  level { 250 }
+  sex { Neuter }
+  experience { 262633 }
+  hp { 15, 20, 2688 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, stay-zone }
+}
+
+14523
+{
+  name { a climbing tunnel demon }
+  namelist { climbing tunnel demon }
+  shortdesc { A wingless demon creeps along the walls of the rocky hallway. }
+  longdesc {
+The black demon looks almost like a snake as it crawls along the rocky
+walls of the hallway.  This must be a lesser demon because it has not 
+grown the wings of its brothers.  It twists its long neck and hisses
+at you as it senses your presence.  The demon's claws look very sharp.
+You probably should not get too close.
+  }
+  race { Demon }
+  world_limit { 10 }
+  level { 110 }
+  sex { Neuter }
+  experience { 81334 }
+  hp { 10, 10, 1562 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14524
+{
+  name { a feasting tunnel demon }
+  namelist { feasting tunnel demon }
+  shortdesc { A winged demon crouches in the corner, feasting on a lost soul. }
+  longdesc {
+Silvery blood drips down the demon's chin, pooling into a puddle on the
+cavern floor.  The demon is crouched down with its wings tucked behind
+its back.  It shoves its face into the lost soul, ripping off a large
+piece of opaque white flesh and tilts its head back to gulp it down.
+The demon seems to tilt its head slightly in your direction, but not
+sensing you are not a threat returns to its meal.
+  }
+  race { Demon }
+  world_limit { 6 }
+  level { 220 }
+  sex { Neuter }
+  experience { 163655 }
+  hp { 10, 15, 2188 }
+  alignment { -1000 }
+  gold { 5500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14525
+{
+  name { a shrieking tunnel demon }
+  namelist { shrieking tunnel demon }
+  shortdesc { A winged demon shrieks loudly at you from the back of the cave. }
+  longdesc {
+The demon opens its mouth and lets out an ear-piercing shriek from the
+back of the cavern.  Spreading out its leathery wings, it flaps them
+at you in a brasen attempt of bravado.  It does not seem to want to get
+close to you, maybe it is calling for back-up?
+  }
+  race { Demon }
+  world_limit { 6 }
+  level { 220 }
+  sex { Neuter }
+  experience { 182511 }
+  hp { 10, 15, 2188 }
+  alignment { -1000 }
+  gold { 5500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14526
+{
+  name { a tunnel terrordon }
+  namelist { tunnel terrordon }
+  shortdesc { A large terrordon stomps through the rocky hallways. }
+  longdesc {
+Shaking and rumbling the rocky hallways, the terrodon charges in your
+direction.  Its large head is tilted down, horns barred.  It lets
+out a mighty roar and begins to pick up speed as it closes in.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 225 }
+  sex { Neuter }
+  experience { 220110 }
+  hp { 15, 17, 2388 }
+  alignment { -1000 }
+  gold { 8000 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { -70, 9 }
+  body { -60, 8 }
+  arms { -60, 8 }
+  legs { -60, 8 }
+  feet { -60, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { electricity }
+  act { npc, stay-zone }
+}
+
+14527
+{
+  name { a half-eaten lost tunnel soul }
+  namelist { half eaten lost tunnel soul }
+  shortdesc { A half-eaten lost soul lies all too still on the cavern floor. }
+  longdesc {
+Lying in a pool of its own silvery blood, this poor creature looks a
+sad sight.  Missing a leg, half its arm and a majority of its mid-
+section, this lost soul is truely a mess.  Its head turns to you as
+you enter this part of the cavern and stare blankly.  At least it does
+not seem to be in much pain.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 50 }
+  sex { Neuter }
+  experience { 12156 }
+  hp { 10, 10, 467 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14528
+{
+  name { a lost tunnel soul }
+  namelist { lost tunnel soul }
+  shortdesc { A lost soul stares at you with a blank look on its face. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+contrast nicely with the pulsing color emitting from its body.  The
+creature looks at you blankly, tilting its head from side to side.  It
+must not sense you are a threat as it goes back to wandering through
+the cavernous hallways.
+  }
+  race { Undead }
+  world_limit { 6 }
+  level { 90 }
+  sex { Neuter }
+  experience { 22156 }
+  hp { 10, 10, 867 }
+  alignment { -1000 }
+  gold { 3000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14529
+{
+  name { Greed }
+  namelist { Greed }
+  shortdesc { A grinning demon stares down at your from the pile of treasures. }
+  longdesc {
+Emerging from the shadows, the demon Greed stares down at you with
+a dangerous grin.  It is dressed in the most decadent armor that you
+have ever seen, most likely stripped from the corpses of previous
+adventurers.  "My treasure, huh?", the demon finally speaks.  "If you
+think you are going to get your hands on it.... it will be the last
+thought in your little head.".  It grasps a hilt on its waist and
+draws an unnaturally large and long sword.  Grinning even further when
+it notices your shock it disappears from the top of the pile.  *POOF*
+Reappearing directly if front of you it says, "Hmm.... I think you have 
+something I could add to my collection."  Its face turns from a smile 
+and contorts into wraith-like scream, "GIVE IT TO ME!".
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 480 }
+  sex { Neuter }
+  experience { 592663 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 4, 30, 150 }
+  head { -80, 50 }
+  body { -70, 50 }
+  arms { -70, 50 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { weakness, mind thrust, gust of wind }
+  affected { sanctuary, true-sight, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire }
+  act { npc, sentinel, stay-zone }
+}
+
+14530
+{
+  name { a fighting warrior }
+  namelist { fighting warrior }
+  shortdesc { A warrior brandishes its sword and swings for its teammate. }
+  longdesc {
+The warrior's flesh is practically falling from its bones.  It's
+obvious that this poor creature has been here forever.  It is dressed
+in the usual attire of a warrior, but you notice that all of the
+warriors are dressed alike.  What could be so valuable that teammates
+are turning on each other?  Whatever it is, the warrior is completely
+content with slicing and dicing through its friends to get it.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 52555 }
+  hp { 10, 10, 1423 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14531
+{
+  name { a kicking warrior }
+  namelist { kicking warrior }
+  shortdesc { A warrior kicks its teammate in the leg with a powerful hit. }
+  longdesc {
+Dodging an attack from its teammate, the warrior quick rolls across
+the cavern floor and kicks out a teammate's legs from beneath it.  The
+warrior quickly stands and runs towards the altar, only to be punched
+in the face and fall to the floor.  What carnage!  The warrior's flesh 
+is practically falling from its bones.  It's obvious that this poor 
+creature has been here forever.  It is dressed in the usual attire of a
+warrior, but you notice that all of the warriors are dressed alike. 
+This is no way for teammates to act!
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 52875 }
+  hp { 10, 10, 1499 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14532
+{
+  name { a ground warrior }
+  namelist { ground warrior }
+  shortdesc { A warrior reaches up for the altar as its teammates pummel it mercilessly. }
+  longdesc {
+Crawling across the floor, the warrior heads directly towards the altar.
+The undead warrior tries to stand but quickly falls back to the floor
+with two shattered legs.  Finally reaching the altar, it reaches up
+and grabs the diamond, only to have it disappear.  The warrior does
+not have must time to grieve as one of its friends smashes its shield
+into this poor creatures back.  The warrior's flesh is practically 
+falling from its bones.  It's obvious that this poor creature has been 
+here forever.  It is dressed in the usual attire of a warrior, but you 
+notice that all of the warriors are dressed alike. 
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 50775 }
+  hp { 10, 10, 1461 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14533
+{
+  name { a punching warrior }
+  namelist { punching warrior }
+  shortdesc { A warrior lets out a barrage of punches on its teammates. }
+  longdesc {
+Running towards the altar, this warrior barely misses getting its
+head cut off by one of its teammates.  It dodges and flips towards the
+altar, only to be kicked half way across the cavern.  Standing up and
+letting out an unholy scream, the warrior runs across the room and
+starts punching anything it can get its fists on.  The warrior's flesh 
+is practically falling from its bones.  It's obvious that this poor 
+creature has been here forever.  It is dressed in the usual attire of 
+a warrior, but you notice that all of the warriors are dressed alike.
+It's such a shame when friends fight over possessions. 
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 52555 }
+  hp { 10, 10, 1523 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14534
+{
+  name { a smashing warrior }
+  namelist { smashing warrior }
+  shortdesc { A warrior smashes his heavy shield into the middle of his teammates back. }
+  longdesc {
+The warrior's flesh is practically falling from its bones.  It's
+obvious that this poor creature has been here forever.  It is dressed
+in the usual attire of a warrior, but you notice that all of the
+warriors are dressed alike.  Smashing anything it can swing its shield
+at, the warrior walks through the cavern battling its friends.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 51062 }
+  hp { 10, 10, 1475 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14535
+{
+  name { a grinning shadow }
+  namelist { grinning shadow }
+  shortdesc { An unholy smile forms in a shadow on the cavern wall. }
+  longdesc {
+The shadows begin to swirl as a chesire smile shines in the darkness.
+The shadows give form to a head, then torso and finally an entire body 
+compossed of darkness.  A hand reaches out from the darkness and 
+directly towards you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 87665 }
+  hp { 10, 10, 1966 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { hide, invisible }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14536
+{
+  name { a smiling shadow }
+  namelist { smiling shadow }
+  shortdesc { An almost pleasant smile forms in a shadow on the cavern wall. }
+  longdesc {
+The shadows begin to swirl as an almost pleasant smile shines out at
+you from the darkness.  The shadows give form to a head, then torso and 
+finally an entire body compossed of darkness.  A hand reaches out from 
+the darkness and directly towards you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 87552 }
+  hp { 10, 10, 1943 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { hide, invisible }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14537
+{
+  name { a staring shadow }
+  namelist { staring shadow }
+  shortdesc { A pair of intense looking eyes form in a shadow on the wall. }
+  longdesc {
+The shadows behind the ring begin to swirl as an intense pair of eyes
+open up and stare out at you the darkness.  A shadowed hand reaches
+out from the darkness and reach for the ring, only to have it disappear
+from its grasp.  A loud groan echoes through the cave and the shadows
+begin to swirl even faster.  Suddenly, the eyes become part of a shadowed
+head as a darkness covered creature steps from the shadows.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 87435 }
+  hp { 10, 10, 1901 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { hide, invisible }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14538
+{
+  name { a fighting soldier }
+  namelist { fighting soldier }
+  shortdesc { A soldier fights with its teammates in a pile on the cavern floor. }  
+  longdesc {
+Fighting with its teammates, the soldier struggles with all its might
+to keep its hands on the helmet.  It turns and sticks a knife into
+one of its friends as they put their hands on it.  Fortunately for them
+they are already dead.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 45535 }
+  hp { 10, 10, 1265 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14539
+{
+  name { a kicking soldier }
+  namelist { kicking soldier }
+  shortdesc { A soldier in the pile kicks one of its teammates in the head. }  
+  longdesc {
+The soldier struggles to get its hands on the glowing helmet.  It
+reaches down to touch the object, only to get bitten by one of its
+teammates. Ouch!  The soldier kicks its friend in the face as a thank
+you.  Some friend!
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 45007 }
+  hp { 10, 10, 1223 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14540
+{
+  name { a ground soldier }
+  namelist { ground soldier }
+  shortdesc { A soldier looks up at its teammates from the bottom of the pile. }  
+  longdesc {
+The soldier jumps to its feet as the glowing helmet wiggles free from
+another soldier's grasp and starts to fly around the room.  The soldier
+cheers with joy as it grabs the helmet and falls to the ground.
+Unfortunately for this soldier, the other soldiers are right behind it
+and bury him beneath a pile of their bodies.  The soldier looks up at
+its teammates with a smile as realizes it has the treasure in its
+hands.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 42667 }
+  hp { 10, 10, 1165 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14541
+{
+  name { a crying soldier }
+  namelist { crying soldier }
+  shortdesc { A soldier cries quietly to itself next to the pile of undead men. }  
+  longdesc {
+Weeping like a wimp, the soldier sits on the cavern floor next to a
+pile of its friends and pouts.  It seems that no matter how many times
+the glowing helmet circles and flies around the room this soldier can
+never get its hands on the treasure.  Poor baby.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 45535 }
+  hp { 10, 10, 1265 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14542
+{
+  name { a mean soldier }
+  namelist { mean soldier }
+  shortdesc { A mean looking soldier pokes one of its teammates in the eye. }  
+  longdesc {
+This soldier will do anything it can to get its hands on the glowing
+helmet.  It kicks one of its teammates in the groin, slits another's
+throat and forms a peace sign, only to poke another in the eyes.  This
+is no way for teamwork to be done!
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 45007 }
+  hp { 10, 10, 1223 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14543
+{
+  name { a soldier leader }
+  namelist { soldier leader }
+  shortdesc { A large soldier seems to be kicking more ass than the others. }  
+  longdesc {
+The leader seems to have even less control over its men it death as it
+did in life.  It is deeply entrenched in the fighting, stabbing and
+punching the hell out of its men.  It stands up and begins to throw
+its men around the room, kicking and punching them as they run back.
+What a fight!
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 76553 }
+  hp { 10, 10, 1866 }
+  alignment { -1000 }
+  gold { 5000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14544
+{
+  name { a smiling warrior }
+  namelist { smiling warrior }
+  shortdesc { A smiling warrior clutches a sledge hammer towards the back of the cave. }
+  longdesc {
+A gleaming white smile shines out at you from the back of the cavern.
+It is strange that such a thing would occur in a place of total carnage.
+A man steps out from the darkness, tightly clutching a brilliant green
+sledge hammer to his chest.  His smile turns into a sickly-wide grin
+as he notices you staring at his treasure.  "Mine", he says out loud.
+"All...... MINE!", he yells, raising the gigantic hammer above his
+head and rearing to attack.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 375 }
+  sex { Male }
+  experience { 356422 }
+  hp { 15, 20, 4435 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -50, 9 }
+  body { -40, 8 }
+  arms { -40, 8 }
+  legs { -40, 8 }
+  feet { -40, 8 }
+  affected { sanctuary }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, stay-zone, sentinel }
+}
+
+14545
+{
+  name { a greed demon }
+  namelist { greed demon }
+  shortdesc { A demon stands in the back of the cave, clutching its treasures. }
+  longdesc {
+The demon seems to be more interested in looking at its treasures than
+attacking you.  It stands in the back of the cave, carefully polishing
+and admiring every shiny object on its body.  It holds up its claws 
+palms out to take a closer look at its many shiny rings.  While looking
+through the gaps in its claws it notices you, but still is enjoying
+its treasure more than fighting.  It must not want to loose them.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14546
+{
+  name { a wandering greed demon }
+  namelist { wandering greed demon }
+  shortdesc { A demon with a giant "G" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "G" has been burned into the front of this demon.  That
+must have hurt!  The demon walks through the rocky hallways looking
+around for shinies to add to its collection.  The demon is covered
+head to claw in a variety of treasures it has probably taken from
+previous explorers.  Better not mess with it.  The demon quickly darts
+to the ground and picks up an object, only to disgard the object when
+it finds it's junk.  What a greedy jerk.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2599 }
+  alignment { -1000 }
+  gold { 5500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14547
+{
+  name { Pride }
+  namelist { Pride }
+  shortdesc { A beautiful demon skates gracefully on the lake of blood. }
+  longdesc {
+This beautiful demon is perfection personified.  Its wears a pristine
+white skaters one-piece and has its hair bunned up Princess Leia style.
+It skates around the lake of blood perfectly, never disturbing the 
+suface enough to dirty its uniform.  Extending its wings and arms out
+gracefully, it performs intricate patterns that would make Dorothy
+Hamel jealous.  It lands perfectly and begins to skate over to you,
+smiling to itself in contentment.  This would be a great time to run.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 480 }
+  sex { Neuter }
+  experience { 791115 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 4, 50, 150 }
+  head { -80, 10 }
+  body { -70, 50 }
+  arms { -70, 50 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { poison, repulsor, gust of wind }
+  affected { sanctuary, true-sight, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy, cold }
+  susceptible { fire, electricity }
+  act { npc, stay-zone }
+}
+
+14548
+{
+  name { a stretching ballet dancer }
+  namelist { stretching ballet dancer }
+  shortdesc { A ballet dancer does her warm-up stretches on the floor. }  
+  longdesc {
+The ballet dancer looks almost perfect.  It is obvious she takes much
+pride in the study of dance.  Straightening her leg and placing it
+on the dance bar, she begins to stretch in preperation for her next
+class.  She probably does not want to make her teacher look bad or be
+disappointed.
+  }
+  race { Undead }
+  world_limit { 2 }
+  level { 110 }
+  sex { Female }
+  experience { 54663 }
+  hp { 10, 10, 1044 }
+  alignment { -1000 }
+  gold { 3500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14549
+{
+  name { a dancing ballerina }
+  namelist { dancing ballerina }
+  shortdesc { A skinny ballerina practices her dance moves around the class. }  
+  longdesc {
+This dancer is so skinny that you can see her ribs sticking out.  If it
+was not for the fact she was already dead, you would definitely want
+to get her a hot dog or something.  She performs an intricate series
+of dance steps and admires herself in the studio's long mirror while
+she does it.  What a ham!
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 65535 }
+  hp { 10, 10, 1265 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14550
+{
+  name { a pirouette ballerina }
+  namelist { pirouette ballerina }
+  shortdesc { A petit ballerina pirouettes gracefully around the classroom. }  
+  longdesc {
+The ballerina is dressed very eloquently in a frilly white tutu.  She
+spins and pirouettes all over the dance floor, smiling at herself in
+the mirror the whole time.  She does not miss a single step or a single
+beat.  She takes intense pride in her work.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 65535 }
+  hp { 10, 10, 1265 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14551
+{
+  name { a dance teacher }
+  namelist { dance teacher }
+  shortdesc { A dance teacher beams at her students with pride. }  
+  longdesc {
+The dance teacher beams a huge smile as she watches her students perform
+with perfection.  She does not have to criticize a single step, as all
+her students are moving with pride today.  She casually changes a record
+from the player when a song is over so that her students do not have 
+to stop dancing.  She suddenly realizes you are disturbing her class
+and turns in your direction.  Better run.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 96553 }
+  hp { 10, 10, 1866 }
+  alignment { -1000 }
+  gold { 6000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14552
+{
+  name { a lawn mower man }
+  namelist { lawn mower man }
+  shortdesc { A man yells at you to stay off his beautiful grass. }
+  longdesc {
+"Get off my lawn you damn kids!", is shouted from the back yard as 
+you hear the distinct sound of a lawn mower getting closer.  Finally
+you can see the mower and the demon driving it come into view.  At
+one time this was probably a human, but taking such extreme pride
+in the condition of his lawn has corrupted his soul.  "I'm not going
+to tell you again.", the demon shouts, contorting his face into much
+more demon like qualities.  "GET OFF MY LAWN!", he shouts, picking up
+his lawn mower and throwing it in your direction.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 280 }
+  sex { Male }
+  experience { 445665 }
+  hp { 10, 15, 3215 }
+  alignment { -1000 }
+  gold { 14000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, stay-zone, sentinel }
+}
+
+14553
+{
+  name { a beauty queen }
+  namelist { beauty queen }
+  shortdesc { A beautiful woman sits at her vanity, staring in the mirror. }
+  longdesc {
+This woman is quite lovely as she stares into the vanity's mirror.  She
+picks up a brush and begins to comb her long, beautiful brown hair.
+Her eyes have a sapphire blue luster that seem to sparkle in the mirror.
+The woman grabs some make-up and carefully begins to apply the product
+to her face.  However, as far as you can tell from here, she does not
+need any help in the least.  Her eyes suddenly see you staring from
+the corner of the vanity's mirror.  As she stands up and turns to you,
+you see a completely different site from what you were looking at in
+the mirror.  Her hair is short and completely frazzled.  Her face is
+half torn off and scars are running across what is left of it.  She is
+not appreciative that you messed up the pride she sees in the mirror
+and rears to attack.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 280 }
+  sex { Female }
+  experience { 445331 }
+  hp { 10, 15, 3215 }
+  alignment { -1000 }
+  gold { 14000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, stay-zone, sentinel }
+}
+
+14554
+{
+  name { an undead skater }
+  namelist { undead skater }
+  shortdesc { A skeleton thin skater slides along the top of the bloody pool. }  
+  longdesc {
+The skin has almost completely fallen off of this poor soul.  Bones
+stick out of its clothes like sharp knives.  The skater slowly skates
+along the top of the pool, trying to avoid running into Greed.  Even
+an undead soul does not want to mess with a greater demon.
+  }
+  race { Undead }
+  world_limit { 2 }
+  level { 110 }
+  sex { Neuter }
+  experience { 85535 }
+  hp { 10, 10, 1265 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 30, 9 }
+  body { 40, 8 }
+  arms { 40, 8 }
+  legs { 40, 8 }
+  feet { 40, 8 }
+  immune { charm }
+  resistant { pierce, slash, cold }
+  susceptible { fire, energy }
+  act { npc, stay-zone }
+}
+
+14555
+{
+  name { a pride demon }
+  namelist { pride demon }
+  shortdesc { A demon stares into a mirror with true pride. }
+  longdesc {
+The demon is completely black, almost blending in with the shadows
+of the cavern hallways.  You would probably not have noticed it if it 
+wasn't for the glimmer of the mirror in its hand reflecting off your 
+light source.  The demon cannot stop itself from looking at its visage 
+in the mirror.  It is truely a sight only a mother could love.  You 
+have to admit to yourself, this is probably one of the more beautiful 
+demons that you have seen in the abyss.  That's saying something.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 173667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14556
+{
+  name { a wandering pride demon }
+  namelist { wandering pride demon }
+  shortdesc { A demon with a giant "P" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "P" has been burned into the front of this demon.  That
+must have hurt!  The demon walks through the rocky hallways in search
+of things to make itself look more beautiful.  The demon is already
+quite beautiful, its pitch-black body almost radiates in the darkness.
+It flips its long silky black hair and smiles as it notices you staring.
+Unfortunately for you, the demon side in it takes over and she rears
+to attack.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14557
+{
+  name { Lust }
+  namelist { Lust }
+  shortdesc { An androgynous looking demon rises from the party and points at you invitingly. }
+  longdesc {
+Opening its wings and flapping them softly, the demon Lust slowly rises
+from the sexy party and hovers above them.  Its hair is a short black
+and its lips shine with ruby red lipstick.  A black corset covers its
+torso and abodomen and a pair of fish net stockings covers its legs.
+Its bosom it not ample in the least, an almost manly chest sticks out
+from the top of the corset. Hmmm, what a strange demon.  Lust purses
+its lips and seems to blow a kiss at you.  It raises one slender arm
+and points a long clawed finger at you, inviting you to join in on the
+fun.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 485 }
+  sex { Neuter }
+  experience { 823101 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 4, 30, 150 }
+  head { -80, 50 }
+  body { -70, 50 }
+  arms { -70, 59 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { blindness, disruptor, gust of wind }
+  affected { sanctuary, true-sight, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy, cold }
+  susceptible { fire, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14558
+{
+  name { a male jacuzzi demon }
+  namelist { male jacuzzi demon }
+  shortdesc { A male demon relaxes in the boiling lava jacuzzi. }  
+  longdesc {
+This demon is having the time of his life.  He is the only man in a
+jacuzzi full of female demons.  What more could a demon ask for?  He
+lays back and relaxes, knowing that the women will have to come to him.
+Unfortunately for him, the women seem to see to be busy with plans of
+their own.  He quickly snaps awake and begins to make whitty banter
+with the women.  Most of them are uninterested but he seems to have
+caught the interest of one particularly giddy female.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Male }
+  experience { 65535 }
+  hp { 10, 10, 1299 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14559
+{
+  name { a female jacuzzi demon }
+  namelist { female jacuzzi demon }
+  shortdesc { A female demon sips a glass of warm blood while she relaxes in the lava. }  
+  longdesc {
+Extremely uninterested in what the male demon has to say, this female
+sips blood from a beautiful jeweled gauntlet that she has brought into
+the jacuzzi.  She rolls her eyes as the female next to her laughs
+at all the male's lame jokes.  However, her eyes perk up when she 
+notices the action happening at the other end of the jacuzzi.  Not so
+delicately, she stands up walks over to the ladies on the far side of
+the lava jacuzzi.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 65899 }
+  hp { 10, 10, 1285 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14560
+{
+  name { a laughing female jacuzzi demon }
+  namelist { laughing female jacuzzi demon }
+  shortdesc { A female demon laughs at all the male demon's jokes and twirls her hair. }  
+  longdesc {
+The demon is laughing hysterically at the male demon's jokes and comments.
+She sticks her fingers in her hair and begins to twirls some strands
+as he continues to talk.  She seems very interested in what he has
+to say, or is very concerned with her hair.  Regardless, her laugh
+is making you want to bash her head in.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 65535 }
+  hp { 10, 10, 1285 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14561
+{
+  name { a moaning female jacuzzi demon }
+  namelist { moaning jacuzzi demon }
+  shortdesc { A female demon moans as another demon provides her with lustful pleasures. }  
+  longdesc {
+This demon is being extremely naughty.  She is engaged in all sorts
+of sinful activities with another female demon.  They are putting on
+quite the show for any one watching.  The moans coming from this demon
+are echoing all throughout the cavern.  Oh my!
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 66112 }
+  hp { 10, 10, 1362 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14562
+{
+  name { an inviting female jacuzzi demon }
+  namelist { inviting female jacuzzi demon }
+  shortdesc { A female demon looks up from her lustful activities and beckons you to the pool. }  
+  longdesc {
+She is in complete control of the situation.  She teases and taunts
+another female demon, bringing the creature to a moan, even scream.
+She looks around the hot tub, making sure all the other demons are
+watching.  Noticing you are now watching, she smiles and beckons you
+over to join in on the fun.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Female }
+  experience { 65535 }
+  hp { 10, 10, 1285 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14563
+{
+  name { a neglige demon }
+  namelist { neglige demon }
+  shortdesc { A neglige dressed demon eyes you wantingly as she plays with her friend. }  
+  longdesc {
+The demon plays coyly on top of the silk sheets of the four-poster
+bed.  She engages in all sorts of lustful and sinful activities with
+her friend.  The demon is dressed in a sexy white neglige and has long
+white stockings that go up to her mid-thigh.  She stops to take a quick
+look at you in between..... whatever she was up to.  She gives a sexy
+little wink and continues with her fun.  These demons are so naughty!
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 110 }
+  sex { Female }
+  experience { 127663 }
+  hp { 18, 18, 1685 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14564
+{
+  name { a hell dog }
+  namelist { hell dog }
+  shortdesc { A rabid looking dog charges at you from across the room. }
+  longdesc {
+This dog is unlike any canine you have ever seen.  It has at least three
+eyes and has a blueish-white liquid foaming from its mouth.  It seems
+to be chained to the four-poster bed in the northeast part of the cave.
+The hell dog charges at you from across the cave but is immediately
+yanked back when it reached the end of its chain.  The poor thing.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 75 }
+  sex { Neuter }
+  experience { 39225 }
+  hp { 9, 8, 830 }
+  alignment { -1000 }
+  gold { 1900 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce, slash }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14565
+{
+  name { a sleeping demon }
+  namelist { sleeping demon }
+  shortdesc { A demon has collapsed and is sleeping on the cavern floor. }
+  longdesc {
+The demon is drenched in sweat and covered in filth.  Long gashes line
+its chest and back from where it was clawed in vicious passion.  You 
+would think it was dead if it wasn't for the dreadful snoring the 
+creature is unleashing.  The smile on its face tells the tale.  It 
+must have had a very good time at the party in the southeast corner 
+of the cave.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 75 }
+  sex { Neuter }
+  experience { 38460 }
+  hp { 9, 8, 780 }
+  alignment { -1000 }
+  gold { 1900 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, scavenger, sentinel, stay-zone }
+}
+
+14566
+{
+  name { a napping demon }
+  namelist { napping demon }
+  shortdesc { A demon is laying on the floor with its friends, taking a nap. }
+  longdesc {
+This demon looks like it could wake up at any moment.  Its head rests
+on one of its sleeping friends as it tries to catch a little demon nap.
+It kicks its feet out and lets loose a little snort.  Yawning, it turns
+over and goes back to sleep.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 75 }
+  sex { Neuter }
+  experience { 38662 }
+  hp { 9, 8, 840 }
+  alignment { -1000 }
+  gold { 1900 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 4, 2 }
+  head { 0, 9 }
+  body { 10, 8 }
+  arms { 10, 8 }
+  legs { 10, 8 }
+  feet { 10, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14567
+{
+  name { a moaning demon }
+  namelist { moaning demon }
+  shortdesc { A demon moans loudly from all of the lustful activities. }
+  longdesc {
+The demon gets very close to the rest of the group.  Claws, tongues
+and other various limbs are touching and feeling everyone and
+everything.  The demon moans at the sinful pleasure and continues to
+enjoy the group activitiy.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 52555 }
+  hp { 10, 10, 1423 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14568
+{
+  name { a sighing demon }
+  namelist { sighing demon }
+  shortdesc { A demon sighs as it gets left out from the group fun. }
+  longdesc {
+The demon trys its hardest to get back into the group.  It jumps into
+the middle of the fun only to be tossed right back out again.  The
+demon sighs and walks around the outskirts of the group, trying to
+find a way back in.  This demon wants some action!
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 82875 }
+  hp { 10, 10, 1499 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14569
+{
+  name { a busy demon }
+  namelist { busy demon }
+  shortdesc { The demon looks awfully busy with whatever naughtiness it is engaging in. }
+  longdesc {
+This demon is being extremely naughty!  It is involved with everything
+and everyone.  No demon goes unturned!  It smiles as it realises the
+moans and shivering are being caused by its hard work.  A demon's job
+is never done!  Don't get too close, those claws look awfully sharp.
+Ouch!
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 110 }
+  sex { Neuter }
+  experience { 70775 }
+  hp { 10, 10, 1461 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14570
+{
+  name { a frantic demon }
+  namelist { frantic demon }
+  shortdesc { A demon looks extremely frantic as the activities get it very excited. }
+  longdesc {
+This demon looks ready to explode.  It speeds up its activities to such
+a furvor that it is cutting into some of the other demons.  Ouch!  It
+begins to howl and shake as the movements of the group rise in intensity.
+Better not get too close!
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 72555 }
+  hp { 10, 10, 1523 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14571
+{
+  name { a shivering demon }
+  namelist { shivering demon }
+  shortdesc { A demon shivers and undulates as the group moans in pleasure. }
+  longdesc {
+This demon's eyes are rolling back in its head.  It can barely control
+itself as the sinful activities of the group continue.  The demon
+shakes and shivers as the party seems to move and undulate in one giant
+mass.  This is just plain naughty!
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 71062 }
+  hp { 10, 10, 1475 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14572
+{
+  name { a lust demon }
+  namelist { lust demon }
+  shortdesc { A demon stares at you invitingly from the cavern wall. }
+  longdesc {
+The demon is resting against one of the cavern walls.  It looks up and
+winks at you as you pass.  Maybe it is looking for a good time?  The
+demon is dressed in some cute pink panties and a pink-laced bra.  Where
+are these demons getting all this night ware from?  Is there a local
+Victoria's Secret in hell?  We already know there has to be a Starbucks.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14573
+{
+  name { a wandering lust demon }
+  namelist { wandering lust demon }
+  shortdesc { A demon with a giant "L" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "L" has been burned into the front of this demon.  That
+must have hurt!  The demon walks through the rocky hallways in search
+of a good time.  It is dressed in a lacey-white bra and has some thigh
+high white stockings on.  The demon's stiletto high heels click along
+the rocky hallway floor as it walks towards you.  "Hey baby", it calls 
+out to you.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14574
+{
+  name { Wrath }
+  namelist { Wrath }
+  shortdesc { A powerful demon stares down at you from on top of its throne. }
+  longdesc{
+Wrath stares down at you from its throne with intense hated.  This is
+the largest creature you have ever seen.  Its mighty wings ruffle as
+you enter its throne room.  It eyes sparkle and glow at you through
+the darkness.  You can see a snarl start to form on the demon's face.
+Wrath stands up from its throne with a growl and begins to move across
+the room, directly towards you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 500 }
+  sex { Neuter }
+  experience { 1015225 }
+  hp { 50, 80, 166150 }
+  alignment { -1000 }
+  gold { 50000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 10 }
+  attacks_per_round { 10 }
+  move  { 200 }
+  damage { 4, 30, 170 }
+  head { -90, 50 }
+  body { -80, 50 }
+  arms { -80, 50 }
+  legs { -80, 50 }
+  feet { -80, 50 }
+  spells { weakness, disruptor, dispel magic, gust of wind }
+  affected { sanctuary, true-sight, invulnerability, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy, cold }
+  susceptible { fire, electricity }
+  act { npc, stay-zone, sentinel }
+}
+
+14575
+{
+  name { a sword fighting lost soul }
+  namelist { sword fighting lost soul }
+  shortdesc { A lost soul grabs a sword and fights against another soul. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+of this soul are much more intense than the souls in the main abyss
+cavern.  This soul obviously has a lot on its mind.  It grabs a loose
+sword from the cavern wall and attacks another lost soul in the arena.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 90 }
+  sex { Neuter }
+  experience { 42156 }
+  hp { 10, 10, 1067 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14576
+{
+  name { a staff fighting lost soul }
+  namelist { staff fighting lost soul }
+  shortdesc { A lost soul grabs staff from the dirt and attacks another soul. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+of this soul are much more intense than the souls in the main abyss
+cavern.  This soul obviously has a lot on its mind.  It grabs a loose
+staff from the cavern floor and attacks another lost soul in the arena.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 90 }
+  sex { Neuter }
+  experience { 42156 }
+  hp { 10, 10, 1067 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14577
+{
+  name { a kick fighting lost soul }
+  namelist { kick fighting lost soul }
+  shortdesc { A lost soul runs across the arena floor and kicks another soul in the head. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+of this soul are much more intense than the souls in the main abyss
+cavern.  This soul obviously has a lot on its mind.  The soul runs
+across the floor, jumps in the air and kicks another soul right in the
+face.  It looks quickly towards the throne room above and continues
+to fight with all its might.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 90 }
+  sex { Neuter }
+  experience { 42156 }
+  hp { 10, 10, 1067 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14578
+{
+  name { a fist fighting lost soul }
+  namelist { fist fighting lost soul }
+  shortdesc { A lost soul runs across the arena floor and punches another soul in the head. }
+  longdesc {
+A blue glow pulses from the opaque white body of the lost soul.  Its
+face is rather featureless except for two pale white eyes.  The eyes
+of this soul are much more intense than the souls in the main abyss
+cavern.  This soul obviously has a lot on its mind.  The soul runs
+across the floor, slides under a sword swing and punches another soul 
+right in the face.  It looks quickly towards the throne room above 
+and continues to fight with all its might.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 90 }
+  sex { Neuter }
+  experience { 42156 }
+  hp { 10, 10, 1067 }
+  alignment { -1000 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 4 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  immune { fire }
+  act { npc, stay-zone }
+}
+
+14579
+{
+  name { a caged wife }
+  namelist { caged wife }
+  shortdesc { A dirty and malnutritioned woman thanks you for saving her. }
+  longdesc {
+Dressed in dirty rags this poor woman looks in desperate shape.  She
+begins to cry as you open the cage to her freedom.  Falling down to
+her knees, she reaches for your feet and thanks you through her tears.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 18 }
+  experience { 14200 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14580
+{
+  name { a caged daughter }
+  namelist { caged daughther }
+  shortdesc { A young lady starts to cry as she knows she is about to be rescued. }
+  longdesc {
+The young lady stands behind the older woman and peers at you from
+behind her back.  Tears begin to well in her eyes as she realizes she
+is about to be rescued.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 16 }
+  experience { 9700 }
+  hp { 6, 8, 420 }
+  alignment { 0 }
+  gold { 2475 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 1000 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14581
+{
+  name { a caged son }
+  namelist { caged son }
+  shortdesc { A young boy sits in the back of the cage, covered in his own filth. }
+  longdesc {
+This poor boy is extremely malnourished, it looks like he hasn't eaten
+in weeks.  He is dressed in dirty, torn rags and appears to have soiled
+himself.  He runs up to you and starts begging for some food.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 85 }
+  experience { 17700 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14582
+{
+  name { a caged grandfather }
+  namelist { caged grandfather }
+  shortdesc { An old grandfather sits covered in blankets on the floor of the cage. }
+  longdesc {
+Hunched over and shaking, the old man leans against the bars towards
+the back of the cage.  His eyes are closed and a little bit of foam
+is drooling from his mouth.  He starts to cry when he hears joyful
+sounds coming from the ladies.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 3000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14583
+{
+  name { a typing worker }
+  namelist { typing worker }
+  shortdesc { A diligent worker types away at his desk. }
+  longdesc {
+This man is very involved in his work.  He grabs papers from his desk
+and begins to input data in his computer.  Once done, he puts the
+completed work to the left of his computer and repeats the process.
+He sure can type fast!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19562 }
+  hp { 8, 7, 640 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 40, 8 }
+  body { 50, 6 }
+  arms { 50, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+14584
+{
+  name { a writing worker }
+  namelist { writing worker }
+  shortdesc { A happy worker quickly writes her way through a huge report. }
+  longdesc {
+This worker smiles and whistles as he works.  He quickly tears through
+a huge report, making notes and writing where he needs to do.  You can
+tell that he has been doing this for years.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 52 }
+  experience { 12800 }
+  hp { 7, 6, 435 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14585
+{
+  name { an sorting worker }
+  namelist { sorting worker }
+  shortdesc { A busy worker sorts his way through a tall stack of papers. }
+  longdesc {
+Tall stacks of work are piled on top of this poor man's desk.  You can
+barely see him as he works hard to get all the work done.  He wipes
+some sweat from his brow and gulps down a cold glass of water.  Poor
+guy.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 75 }
+  experience { 19750 }
+  hp { 7, 8, 965 }
+  alignment { 0 }
+  gold { 4300 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 5 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14586
+{
+  name { an intense manager }
+  namelist { intense manager }
+  shortdesc { An intense looking manager walks up in down the isles of the office. }
+  longdesc {
+The manager is dressed in a business suit and looks very professional.
+He walks up and down the isles of the office, making sure everyone is
+doing everything they are supposed to.  Of course, he's not doing much
+work himself, but management rarely does.  Oh the humanity.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 92 }
+  experience { 29700 }
+  hp { 8, 9, 1055 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  act { npc, sentinel, stay-zone }
+}
+
+14587
+{
+  name { an enraged worker }
+  namelist { enraged worker }
+  shortdesc { An enraged worker bursts through the door shouting madly. }
+  longdesc {
+Bursting through the door, the demon starts shouting madly, "It wasn't
+right, it wasn't fair.".  It looks around the room at all the workers
+with intense hated and finally sets its eyes upon the manager.  "You",
+he says softly, "YOU!".  It reaches behind its back and pulls out a 
+long curved knife.  "I was just taking a nap under my desk.  I was
+freaking tired!", it screams, "You'll never be able to fire anyone
+again!".
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 71011 }
+  hp { 10, 10, 1399 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14588
+{
+  name { a cheating man }
+  namelist { cheating man }
+  shortdesc { A smiling man sits on the couch next to a beautiful woman. }
+  longdesc {
+A smiling man sits on a couch, trying to get closer to the beautiful
+lady.  He eyes her from head to toe, licking his lips hungrily.  He 
+takes off the golden ring on his wedding finger and slips it into his
+shirt pocket.  He inches even closer to the woman and makes his move.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 78 }
+  experience { 32312 }
+  hp { 8, 9, 799 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 20, 7 }
+  body { 30, 6 }
+  arms { 30, 6 }
+  legs { 30, 6 }
+  feet { 30, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+14589
+{
+  name { a nervous woman }
+  namelist { nervous woman }
+  shortdesc { A pretty woman sits next to a man on the couch, eyeing the door nervously. }
+  longdesc {
+The woman sits on the couch nervously.  She looks over to her male
+friend and some beads of sweat break on her forhead and drop down her
+cheek.  She looks from her friend to the door and back to her friend.
+She does not look very comfortable the closer her friend gets to her.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 85 }
+  experience { 17855 }
+  hp { 8, 9, 499 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 6 }
+  head { 40, 6 }
+  body { 50, 5 }
+  arms { 50, 5 }
+  legs { 50, 5 }
+  feet { 50, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14590
+{
+  name { an upset boyfriend }
+  namelist { upset boyfriend }
+  shortdesc { An upset looking boyfriend opens the door at stares at the couch in disbelief. }
+  longdesc {
+Bursting through the front door of the house, this demon stares at the
+couch in utter disbelief.  "Six years baby.", the demon states, "SIX
+YEARS!".  "How could you betray my trust like this.", the demon screams.
+Reaching into its coat pocket, it pulls out a sharp dagger and moves
+towards the couch.  "I assure both of you.....", the demons face turns
+into a wraith-like quality and screeches, "you will NEVER get the 
+chance to do this again!".
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 72558 }
+  hp { 10, 10, 1550 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14591
+{
+  name { a mean child }
+  namelist { mean child }
+  shortdesc { A mean child laughs with his friends on the swings. }
+  longdesc {
+The child looks like a mean bully.  He rocks back and forth on the
+swing slowly, laughing with his friends about today's activities.
+"We got that kid good, right?", he cackles, pushing off the ground to
+swing even faster.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 84 }
+  experience { 17500 }
+  hp { 6, 8, 470 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14592
+{
+  name { a laughing child }
+  namelist { laughing child }
+  shortdesc { A laughing child pushes off the ground and swings with all his might. }
+  longdesc {
+This child does not look nearly as mean as his friends.  He swings
+nervously, almost like he is not happy with the current conversation.
+His laughter is a nervous one, forced to make his friends happy.  He
+pushes off the ground to swing even higher.  He is not very interested
+in their convesation.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 84 }
+  experience { 17525 }
+  hp { 7, 8, 485 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 3 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14593
+{
+  name { a snickering child }
+  namelist { snickering child }
+  shortdesc { A child sits on the slide, snickering with gleeful joy. }
+  longdesc {
+The child sits at the end of the slide, snickering with a wry smily
+on his face.  Holding up a book bag he proclaims, "We got that nerd
+good!".  Opending up the book bag and emptying its contents on the 
+ground he says, "Looks like Mr. Straight A's won't beg getting to
+his homework tonite.".  Cackling madly, he stands up and throws the
+book bag into the trash.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19625 }
+  hp { 8, 7, 675 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 30, 8 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+14594
+{
+  name { an upset child }
+  namelist { upset child }
+  shortdesc { An upset child glares at the children on the playground from behind the slide. }
+  longdesc {
+The demon child listens to the conversation the human children are
+having on the playground from behind the slide.  Black tears drop from
+its glowing read eyes and stain its white t-shirt.  The demon gets
+more infurated the longer it listens to the children mock and laugh
+about all its hard work.  It moves its hand to its belt and slides
+the dagger in and out of the scabbard, amost as though it was hesistant
+to take wrath upon the laughing children.  However, once it notices
+the children empty its backback, it unsheaths its sharp weapon and
+charges towards the childen.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 70782 }
+  hp { 10, 10, 1461 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14595
+{
+  name { a busy postal worker }
+  namelist { busy postal worker }
+  shortdesc { A busy postal worker sorts through some mail on the counter. }
+  longdesc {
+The postal worker looks very busy.  He dumps out the mail bag and begins
+to sort through its contents.  He is much too busy to notice someone
+staring at his activities through the window at the front of the post
+office.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19525 }
+  hp { 7, 7, 626 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 5 }
+  head { 40, 8 }
+  body { 50, 7 }
+  arms { 50, 7 }
+  legs { 50, 7 }
+  feet { 50, 7 }
+  act { npc, sentinel, stay-zone }
+}
+
+14596
+{
+  name { a postal worker }
+  namelist { postal worker }
+  shortdesc { A postal worker stands at the front desk, not doing much of anything. }
+  longdesc {
+Smiling and not doing much work, the postal worker stands behind the
+front desk.  He would be ready to greet any customers, if they had any.
+Its strange that even though he is not doing anything he still does
+not notice the man staring through the front window of the post office.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 70 }
+  experience { 18975 }
+  hp { 8, 7, 495 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 6 }
+  head { 50, 8 }
+  body { 60, 7 }
+  arms { 60, 7 }
+  legs { 60, 7 }
+  feet { 60, 7 }
+  act { npc, sentinel, stay-zone }
+}
+
+14597
+{
+  name { a frantic postal worker }
+  namelist { frantic postal worker }
+  shortdesc { A frantic postal worker points at the front window with a shaking finger. }
+  longdesc {
+Shaking and shivering, the postal worker frantically points her finger
+at the crazy looking man that is staring through the front window
+of the post office.  She begins to turn and run into the back, but
+it is already too late.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19966 }
+  hp { 8, 7, 668 }
+  alignment { 0 }
+  gold { 4100 }
+  hit_bonus { 17 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 6 }
+  head { 30, 7 }
+  body { 40, 6 }
+  arms { 40, 6 }
+  legs { 40, 6 }
+  feet { 40, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+14598
+{
+  name { a gun toting maniac }
+  namelist { gun toting maniac }
+  shortdesc { A gun toting maniac bursts through the glass doors, guns ablazing. }
+  longdesc {
+Bursting through the glass front doors of the post office, the maniac
+reaches into its long jacket and pulls out two hand guns.  It instantly
+shoots the frantic postal worker that is trying to run away in the knee
+caps.  "Oh no,", it says calmly, "you are all going to stay here and
+listen to what I have to say."  It walks over to the front counter,
+staring the postal worker right in the eyes.  "Two thousand days in
+a row without a day off.... TWO THOUSAND.", it screams.  "This shit
+can't be legal!  You people will never do this to another person again.",
+he yells as he begins to blow his former co-workers away.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 72875 }
+  hp { 10, 10, 1499 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -30, 9 }
+  body { -20, 8 }
+  arms { -20, 8 }
+  legs { -20, 8 }
+  feet { -20, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14599
+{
+  name { a wrath demon }
+  namelist { wrath demon }
+  shortdesc { A demon glares at you from the back of the cavern. }
+  longdesc {
+The demon stands against the walls of the cavern, glaring at you with
+instense hatred.  It is not happy that you are traveling in its
+hallways and it is going to show you the way out.  The demon looks to
+be about seven feet tall and is completely black.  Its slender body
+has a long curved neck coming out of the torso and a hammerhead like
+head on the top.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14600
+{
+  name { a wandering wrath demon }
+  namelist { wandering wrath demon }
+  shortdesc { A demon with a giant "W" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "W" has been burned into the front of this demon.  That
+must have hurt!  The demon walks through the rocky hallways in search
+of someone to beat down.  The demon looks very angry and will probably
+pummel the first thing it can get its sharp claws on.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14601
+{
+  name { Envy }
+  namelist { Envy }
+  shortdesc { A healthy looking tree flourishes in the beautiful garden. }
+  longdesc {
+The tree's leaves begin to shake as you walk on the green grass of the
+garden.  The tree is full of multi-colored fruit that hangs from its
+many branches.  The fruit looks sweet and ripe enough to take a huge
+bite.  Upon closer inspection, every piece of fruit has a face on it.
+The faces are contorted and seem to be screaming in pain.  Hmm, maybe
+this should be thrown to the ground with the others.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 485 }
+  sex { Neuter }
+  experience { 823450 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 4, 30, 150 }
+  head { -80, 50 }
+  body { -70, 50 }
+  arms { -70, 50 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { blindness, mind thrust, weakness, repulsor }
+  affected { sanctuary, true-sight, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14602
+{
+  name { a swinging female }
+  namelist { swinging female }
+  shortdesc { A smiling female sits on the wooden front porch swing. }
+  longdesc {
+The female looks very happy as she ways on the wooden porch swing with
+her husband.  She snuggles close to him and stares into the sky.  She
+closes her eyes and just enjoys the quiet time.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 18 }
+  experience { 32200 }
+  hp { 6, 8, 775 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 7 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14603
+{
+  name { a swinging male }
+  namelist { swinging male }
+  shortdesc { A content looking man swings on the wooden front porch swing. }
+  longdesc {
+The man puts his arm around his wife and draws her close.  He moves
+his legs back and forth, forcing the swing to sway ever so gently.  He
+gazes at his wife with such love that it would make anyone envious.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19562 }
+  hp { 8, 7, 640 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 5, 3 }
+  head { 40, 8 }
+  body { 50, 6 }
+  arms { 50, 6 }
+  legs { 50, 6 }
+  feet { 50, 6 }
+  act { npc, sentinel, stay-zone }
+}
+
+14604
+{
+  name { an envious man }
+  namelist { an envious man }
+  shortdesc { An envious man watches the happy couple from the bushes. }
+  longdesc {
+The demon hides in the bushes of the front yard and watches the couple
+with a sad longing.  Black tears weep from its red eyes and fall into
+the green grass with a hiss.  The demon cannot take his eyes off of
+their happy times.  It is truely envious.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 72555 }
+  hp { 10, 10, 1423 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14605
+{
+  name { a middle female child }
+  namelist { middle male child }
+  shortdesc { A young female sits down at the table for dinner. }
+  longdesc {
+The child sits down at the kitchen table and discusses her day with
+the family.  She is dressed very simply, ready for a delicious dinner.
+The girl talks very excitedly about her goings on for the day.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 81 }
+  experience { 14500 }
+  hp { 6, 8, 290 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 5 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14606
+{
+  name { a middle male child }
+  namelist { middle male child }
+  shortdesc { A young male child sits down at the table for dinner. }
+  longdesc {
+The young man sits down at the kitchen table and gets ready for a 
+delicious dinner.  His mouth is drooling at the wonderful smells coming
+from the kitchen.  His father tries to engage him in conversation but
+he is too hungry to listen.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 81 }
+  experience { 14600 }
+  hp { 6, 8, 320 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 5 }
+  head { 70, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14607
+{
+  name { a older female child }
+  namelist { older female child }
+  shortdesc { A teenage female child sits down at the table for dinner. }
+  longdesc {
+The teenager sits down at the kitchen table and immediately starts to
+engage in coversation with her family.  She talks excitedly about
+her day at school and all the things she learned.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 85 }
+  experience { 17700 }
+  hp { 6, 8, 490 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14608
+{
+  name { a older male child }
+  namelist { older male child }
+  shortdesc { A teenage male sits down at the table for dinner. }
+  longdesc {
+The teenager sits down at the kitchen table with a slump.  He does not
+seem interested in dinner or any of the conversations going on at the
+table.  He pulls out a picture of his girlfriend and sighs quietly.
+A small tear falls from his eye.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 72 }
+  experience { 19500 }
+  hp { 6, 8, 625 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 6 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14609
+{
+  name { a happy dad }
+  namelist { happy dad }
+  shortdesc { A smiling dad sits down at the kitchen table for dinner. }
+  longdesc {
+The dad beams happily at all of his children.  He folds up his news
+paper and tries to engage each child in conversation.  He does not seem 
+to notice the small child at the end of the table however.  The child 
+starts to cry as its eyes glow with a deep red.  The father does not 
+seem the least concerned.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 93 }
+  experience { 31100 }
+  hp { 6, 8, 850 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 7 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14610
+{
+  name { a smiling mom }
+  namelist { smiling mom }
+  shortdesc { A smiling mom brings a great smelling turkey to the dinner table. }
+  longdesc {
+The mother beams with pride as she carries a delicious looking and
+smelling turkey to the kitch table.  She sets it down and waits for
+a thank you from the family.  Not receiving one, she turns with a smile
+and returns to the kitchen for more food.  A mother's work is never
+done!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 93 }
+  experience { 30422 }
+  hp { 6, 8, 815 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 4 }
+  head { 20, 6 }
+  body { 30, 5 }
+  arms { 30, 5 }
+  legs { 30, 5 }
+  feet { 30, 5 }
+  act { npc, sentinel, stay-zone }
+}
+
+14611
+{
+  name { an unhappy child }
+  namelist { unhappy child }
+  shortdesc { A lonely child stares at its family with an unhappy frown. }
+  longdesc {
+The demon is the last one to arrive to dinner.  It takes its little
+body and hoists itself onto one of the chairs.  The demon looks around
+the table and frowns when it finds no one talking to it.  Some black
+tears leak from its glowing red eyes and drip into the floor with a
+hiss.  It looks around enviously for someone, anyone to talk to it.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 72555 }
+  hp { 10, 10, 1423 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14612
+{
+  name { a smiling manager }
+  namelist { smiling manager }
+  shortdesc { A smiling manager sits behind his desk and addresses his employees. }
+  longdesc {
+The manager looks very proudly at the two employees.  He holds up some
+paperwork and shows them how the profits have doubled in the last month
+alone.  He walks over to one of the employees and shakes their hands,
+returning to his desk shortly after.  He continues to go on about how
+he could not have done it without them.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 92 }
+  experience { 39700 }
+  hp { 8, 9, 1055 }
+  alignment { 0 }
+  gold { 4500 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 4, 5 }
+  head { 10, 8 }
+  body { 20, 7 }
+  arms { 20, 7 }
+  legs { 20, 7 }
+  feet { 20, 7 }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+14613
+{
+  name { a happy worker }
+  namelist { happy worker }
+  shortdesc { A happy worker smiles as her manager sings her praises. }
+  longdesc {
+The worker sits in the chair in front of the manager's desk and beams
+a wide smile.  "Yes sir, it was my idea, even though he did help me
+out a little bit.", she says, smiling to her co-worker.  "We have been
+working on this project for months and we are just glad it is helping
+out the company."  She sits up straight in her chair and shakes the
+manager's hand as he walks over to her.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 52 }
+  experience { 8800 }
+  hp { 7, 6, 435 }
+  alignment { 0 }
+  gold { 6000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 2, 4 }
+  head { 50, 6 }
+  body { 60, 5 }
+  arms { 60, 5 }
+  legs { 60, 5 }
+  feet { 60, 5 }
+  act { npc, sentinel, scavenger, stay-zone }
+}
+
+14614
+{
+  name { an unhappy worker }
+  namelist { unhappy worker }
+  shortdesc { An unhappy worker grumbles in its chair as the manger talks. }
+  longdesc {
+"She's so smug.", the demon thinks to itself as she talks to the man in
+charge.  "It should have been my idea, I could have thought of it
+myself.".  The demon grumbles below its breath and sinks down into the
+chair.  "I'm so envious of her success.".  The demons red eyes glow
+with a dark intensity.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 110 }
+  sex { Neuter }
+  experience { 70775 }
+  hp { 10, 10, 1461 }
+  alignment { -1000 }
+  gold { 4500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { 20, 9 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14615
+{
+  name { a peeping tom }
+  namelist { peeping tom }
+  shortdesc { A peeping tom looks in through a window at a happy family. }
+  longdesc {
+The demon looks through the window of the house with a frown on its
+face.  It carefully places its claw on the window and rubs a panel
+remorsefully.  Black tears weep from its red eyes as it sighs and turns
+towards you.  "Some love....I just want to be loved," the demon whispers.
+"It should have been my family.  I'm so envious.".
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 280 }
+  sex { Male }
+  experience { 445665 }
+  hp { 10, 15, 3215 }
+  alignment { -1000 }
+  gold { 14000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14616
+{
+  name { an envy demon }
+  namelist { envy demon }
+  shortdesc { An envious demon looks at you with sad eyes from the cavern wall. }
+  longdesc {
+The demon stares at you with sad glowing red eyes from the back of the
+cavern.  Black tears drop from its eyes as it sees you walk freely
+through the hallways.  It crouches down and hugs its knees with its
+arms, rocking back and forth slowly.  Freedom, what a concept.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14617
+{
+  name { a wandering envy demon }
+  namelist { wandering envy demon }
+  shortdesc { A demon with a giant "E" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "E" has been burned into the front of this demon.  That
+must have hurt!  The demon walks through the rocky hallways in search
+of some attention.  It looks very lonely with its sad glowing red eyes.
+It almost runs away when it see how happy you are.
+  }
+  race { Demon }
+  world_limit { 4 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14618
+{
+  name { Sloth }
+  namelist { Sloth }
+  shortdesc { A tall and lanky demon slowly rises from the pile of bones. }
+  longdesc {
+The pile of bones start to shift as a long top hat slowly rises from
+the top of the remains.  A skeletal thin black face is beneath the
+hat.  It smiles scarily at you as its body continues to ascend.  Its
+body is as skinny and frail as its face.  You can see its bones right
+through its almost translucent black skin.  Its arms are long, almost
+twice the length of its body.  Black and white stripes run up and down
+the imposing appendages.  Finally revealing its full form, Sloth uses
+its long arms to slowly descend the large pile of bones.  It walks kind
+of like a bat, folding its arms and wobbling with each stop.  You take
+as step back as you notice everywhere the demon's hand touch instantly
+shatters and turns to dust.  This demon is amazingly strong.  Better
+not let it land a hit.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 485 }
+  sex { Neuter }
+  experience { 823442 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 6, 30, 150 }
+  head { -80, 50 }
+  body { -70, 50 }
+  arms { -70, 50 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { blindness, repulsor, gust of wind }
+  affected { sanctuary, true-sight, flying, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy, cold }
+  susceptible { fire, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14619
+{
+  name { a dirty man }
+  namelist { dirty man }
+  shortdesc { A dirty man rises from a pile of trash and filth. }
+  longdesc {
+Phew!  Not only is this demon dirty but it smells terrible!  It slowly
+rises from a huge pile of trash and snaps up its glowing red eyes.  The
+demon kicks away the filth and begins to slowly walk straight towards
+you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 325 }
+  sex { Male }
+  experience { 463466 }
+  hp { 10, 15, 3642 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14620
+{
+  name { a bad maid }
+  namelist { bad maid }
+  shortdesc { A bad maid wanders around the room, not doing its job. }
+  longdesc {
+This maid has obviously not had much training.  This room has not been
+properly cleaned in, well, forever!  Dust and trash lie all about the
+room.  Chairs are turned over and the bed has probably never been
+made.  Someone needs to be fired!  The maid smiles as it sees the
+repulsion on your face and walks towards you slowly.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 280 }
+  sex { Male }
+  experience { 453442 }
+  hp { 10, 15, 3465 }
+  alignment { -1000 }
+  gold { 14000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, scavenger, sentinel, stay-zone }
+}
+
+14621
+{
+  name { an sloth demon }
+  namelist { sloth demon }
+  shortdesc { A sloth demon moves very slowly in the back of the cavern. }
+  longdesc {
+The demon is scary indeed, almost resembling a clown.  It slowly stands
+up from the floor and unfolds its insanely long arms.  The arms easily
+reach from the top to the bottom of the cavern.  It has a classy top
+hat on its head and its face is completely made-up with beauty products.
+A creepy smile has been drawn across its face so that it can never turn
+into a frown.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 6, 7 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, sentinel, stay-zone }
+}
+
+14622
+{
+  name { a wandering sloth demon }
+  namelist { wandering sloth demon }
+  shortdesc { A demon with a giant "S" burned into its chest walks through the hallways. }
+  longdesc {
+A sizzling red "S" has been burned into the front of this demon.  That
+must have hurt!  The demon walks slowly through the rock cavern hallways.
+Its movements are almost in slow motion as it raises its long thin
+arms to stop you.  It mouth opens wide to let out a shriek, but you
+walk too quickly by it and miss the noise.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 6, 8 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14623
+{
+  name { Gluttony }
+  namelist { Gluttony }
+  shortdesc { A long and swollen worm dives in and out of the lake of slime. }
+  longdesc {
+Yuck!  Gluttony looks like a grub you would find in a garden, except it
+is the size of a whale.  The demon is swollen and its banana yellow
+skin seems to bubble and undulate as it swims through the slime.  The
+slime weeps out from the demon's skin and falls into the pool.  Gross.
+The demon quickly dives into the slime and disappears completely.  It
+is awfully fast for such a large creature.  The slime below you seems
+to bubble and churn, better move!
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 485 }
+  sex { Neuter }
+  experience { 823101 }
+  hp { 50, 80, 146150 }
+  alignment { -1000 }
+  gold { 28000 }
+  caster { 40 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 7 }
+  move  { 200 }
+  damage { 4, 6, 150 }
+  head { -80, 50 }
+  body { -70, 50 }
+  arms { -70, 50 }
+  legs { -70, 50 }
+  feet { -70, 50 }
+  spells { blindness, disruptor, repulsor, poison }
+  affected { sanctuary, true-sight, fireshield }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold, electricity }
+  act { npc, sentinel, stay-zone }
+}
+
+14624
+{
+  name { a fried donut salesman }
+  namelist { fried donut salesman }
+  shortdesc { A fried donut salesman offers you a tray of delicious looking treats. }
+  longdesc {
+The salesman smiles at you from behind the donut kiosk.  It reaches
+under the counter and pulls out a huge tray of delicious looking donuts.
+The donuts are of several differnt varieties, not one sweet smelling
+treat looks alike.  "Please,", the demon speaks directly to you, "take
+all you want, eat all you want.  Join us.".  It smiles as its body
+begins to swell and expand.  Man this demon is fat.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 325 }
+  sex { Male }
+  experience { 563466 }
+  hp { 10, 15, 3642 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14625
+{
+  name { a snack cake vendor }
+  namelist { snack cake vendor }
+  shortdesc { A cute demon offers you a tray of various baked goods. }
+  longdesc {
+The snack cake vender smiles at you from behind its kiosk.  The demon
+is quite large and has obviously not been excersizing.  Broccoli has
+never been in this demon's diet.  It reaches under the counter and
+pulls out a silver tray full of delicious looking baked goods.  They
+smell even better than they look.  It points from the tray to you and
+back to the tray.  The demon must want to you to gorge yourself as it
+has.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 280 }
+  sex { Male }
+  experience { 453442 }
+  hp { 10, 15, 3465 }
+  alignment { -1000 }
+  gold { 14000 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { fire, cold }
+  act { npc, sentinel, stay-zone }
+}
+
+14626
+{
+  name { an gluttony demon }
+  namelist { gluttony demon }
+  shortdesc { A worm-like demon undulates in the back of the cavern. }
+  longdesc {
+Ewww.  The demon sits in the back of the cave, undulating disgustinly.
+It looks almost like a large grub and it's skin is has a putrid yellow
+hue.  With each movement, a spray of banana colored slime squirts out 
+from random spots and all over the cave.  The demon is almost in a 
+puddle of its own waste.  That's just nasty.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 220 }
+  sex { Neuter }
+  experience { 183667 }
+  hp { 10, 15, 2435 }
+  alignment { -1000 }
+  gold { 6500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 6, 7 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { cold, fire }
+  act { npc, sentinel, stay-zone }
+}
+
+14627
+{
+  name { a wandering gluttony demon }
+  namelist { wandering gluttony demon }
+  shortdesc { A demon with a giant "G" burned into its stomach slithers through the hallways. }
+  longdesc {
+A sizzling red "G" has been burned into the demon's stomach.  That
+must have hurt!  The worm-like demon slithers and undulates through
+the hallways in search of something to eat.  The demon's color is a
+putrid banana yellow.  It leaves a slime trail behind it in the same 
+nasty color.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 220 }
+  sex { Neuter }
+  experience { 195102 }
+  hp { 10, 15, 2699 }
+  alignment { -1000 }
+  gold { 7500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 5, 6, 8 }
+  head { -40, 9 }
+  body { -30, 8 }
+  arms { -30, 8 }
+  legs { -30, 8 }
+  feet { -30, 8 }
+  immune { charm }
+  resistant { pierce, slash, energy }
+  susceptible { cold, fire }
+  act { npc, stay-zone }
+}
+
+14628
+{
+  name { a swimming fat worm }
+  namelist { swimming fat worm }
+  shortdesc { A fat worm slims slowly across the slime pool. }
+  longdesc {
+Just a large and bloated worm, the demon swims carefree across the top
+of the pool.  It turns and swims towards you as it realizes its next
+meal has arrived.
+  }
+  race { Demon }
+  world_limit { 2 }
+  level { 110 }
+  sex { Neuter }
+  experience { 107665 }
+  hp { 10, 10, 1966 }
+  alignment { -1000 }
+  gold { 5500 }
+  hit_bonus { 17 }
+  dam_bonus { 6 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 2, 6, 4 }
+  head { -10, 9 }
+  body { 0, 8 }
+  arms { 0, 8 }
+  legs { 0, 8 }
+  feet { 0, 8 }
+  affected { flying }
+  immune { charm }
+  resistant { pierce, slash, fire }
+  susceptible { energy }
+  act { npc, stay-zone }
+}
+
+14629
+{
+  name { A wandering angel }
+  namelist { wandering angel male }
+  shortdesc { A angelic creature wanders through the hallway slaying demons. }
+  longdesc {
+The angel glows with a pure white light.  He is dressed in sturdy looking
+white plate armor with platinum gold runes and designs engraved into it.
+Long and beautiful white wings stick up and out from its back.  
+The angel turns quickly as you approach and swings its mighty sword, only
+stopping at the last minute when it realizes that you are in fact, not a demon.
+
+"Did you hear my sister in the caverns above?", he shouts at you.
+"KILL THEM ALL!", he says before turning and running down another hallway.
+
+  }
+  race { Human }
+  world_limit { 1 }
+  level { 485 }
+  sex { Male }
+  experience { 750111 }
+  hp { 20, 20, 10923 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  move  { 20000 }
+  damage { 3, 6, 7 }
+  head { -80, 10 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  affected { sanctuary, true-sight, flying }
+  immune { charm }
+  resistant { pierce, slash, energy, blunt }
+  susceptible { fire, cold, electricity }
+  act { npc }
+}
+
+14630
+{
+  name { A wandering angel }
+  namelist { wandering angel female }
+  shortdesc { A beautiful female angel runs through the rocky hallways.
+ }
+  longdesc {
+The angel looks like she has been in quite a fight.  She glows with a
+pure white light.  A pair of long and beautiful white wings stick up
+and out from her back, almost reaching the floor.  Some of her white
+plate armor has been scratched and torn.  Demon blood is splashed on
+almost every piece.  You notice the angel is extremely beautiful as
+she flings her long brown hear over her shoulder to get it out of her
+face.  She notices you staring and gives a little smile.  "Here to
+help human?", she states plainly, "You must have found my sister.".
+"Just kill them all!", she says slowly losing her smile. "We do not
+ have
+time to waste.".
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 485 }
+  sex { Female }
+  experience { 750225 }
+  hp { 20, 20, 10923 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  move  { 20000 }
+  damage { 4, 6, 7 }
+  head { -80, 10 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  affected { sanctuary, true-sight, flying }
+  immune { charm }
+  resistant { pierce, slash, energy, blunt }
+  susceptible { fire, cold, electricity }
+  act { npc }
+}
+
+14631
+{
+  name { An angelic mage }
+  namelist { angelic mage }
+  shortdesc { An angelic looking mage hovers a few inches about the
+ floor here. }
+  longdesc {
+The mage indian-style in mid-air above the cavern hallways.  His eyes
+are closed but you can sense that he can see you.  He is dressed in
+white plate armore that is embroidered with platinum gold runes and
+signs.  He has long and beautiful white wings that grow up and out from
+its back, almost reaching down to the cavern floor.  The white energy
+around the mage begins to crackle and glow brighter as you approach.
+"That's close enough human.", he says out loud, not opening his eyes.
+"Let us kill all this demon filth.  Do NOT let one of these foul
+creatures live.", he yells, rotating in the air and flying down one
+of the dark corridors.
+  }
+  race { Undead }
+  world_limit { 1 }
+  level { 485 }
+  sex { Male }
+  experience { 750111 }
+  hp { 15, 15, 6715 }
+  alignment { 0 }
+  gold { 0 }
+  caster { 50 }
+  mana { 2000 }
+  power { 2000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 20000 }
+  damage { 4, 6, 7 }
+  head { -80, 10 }
+  body { -70, 9 }
+  arms { -70, 9 }
+  legs { -70, 9 }
+  feet { -70, 9 }
+  spells { weakness, disruptor, blindness, dispel magic }
+  affected { sanctuary, true-sight, flying }
+  immune { charm }
+  resistant { pierce, slash, energy, blunt }
+  susceptible { fire, cold, electricity }
+  act { npc }
+}
+
+14632
+{
+  name { a wounded angel }
+  namelist { wounded angel }
+  shortdesc { A wounded angel limps through the cavern, holding her wounds. }
+  longdesc {
+The angle hobbles and limbs along the rocky corridors.  One of her wings
+has been broken off and she is bleeding from several gaping wounds.
+Sensing your presence, she turns around and says, "The sins of man must
+be destroyed.  You must eliminate them all!".  Falling to the floor
+from exhaustion, she looks up at you with tearful eyes, ".....please.".
+"The Mountain King blocks the portal to the abyss.", she whispers
+before passing out.
+  }
+  race { None }
+  sex { Female }
+  world_limit { 1 }
+  level { 80 }
+  experience { 6700 }
+  hp { 6, 8, 420 }
+  alignment { 1000 }
+  gold { 1000 }
+  hit_bonus { 16 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 1000 }
+  damage { 3, 5, 7 }
+  head { -60, 10 }
+  body { -50, 9 }
+  arms { -50, 9 }
+  legs { -50, 9 }
+  feet { -50, 9 }
+  affected { sanctuary }
+  immune { charm }
+  resistant { pierce, slash, blunt }
+  act { npc, stay-zone }
+}

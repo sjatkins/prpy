@@ -1,0 +1,645 @@
+
+
+69001
+{
+  name { a wandering draggahn }
+  namelist { draggahn }
+  shortdesc { A starving draggahn is lurking here. }
+  longdesc {
+You see a scaley humanoid, that has large yellow teeth, and piercing
+eyes. It wears a torn primitive cloak, denoting some kind of tribal
+rank. It grins evilly at you.  Large wings are folded behind its back.
+  }
+  race { Lizardman }
+  world_limit { 1 }
+  level { 75 }
+  experience { 35000 }
+  hp { 5, 6, 600 }
+  alignment { -1000 }
+  gold { 1400 }
+  hit_bonus { 11 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 5 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  immune { charm }
+  act { scavenger, stay-zone }
+}
+ 
+69002
+{
+  name { a snarling bear }
+  namelist { snarling bear }
+  shortdesc { A snarling bear is pawing at the ground here. }
+  longdesc {
+You see a very large black bear, with huge dripping fangs.  It seems to
+sniff the air in your direction... assessing your presence here.
+  }
+  race { Predator }
+  level { 80 }
+  world_limit { 1 }
+  experience { 40000 }
+  hp { 5, 10, 700 }
+  move { 3d9+140 }
+  height { 180 }
+  gold { 1000 }
+  hit_bonus { 8 }
+  dam_bonus { 3 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 3 }
+  head { 52, 1 }
+  body { 52, 1 }
+  arms { 52, 1 }
+  legs { 52, 1 }
+  feet { 52, 1 }
+  immune { charm }
+  act { stay-zone }
+}
+ 
+69003
+{
+  name { a jungle lion }
+  namelist { jungle lion }
+  shortdesc { A jungle lion is prowling here. }
+  longdesc {
+You see a large lion, lazily stalking around the trees. It seems quite
+agile and sensitive to your presence. It growls, sniffing the air.
+  }
+  race { Predator }
+  level { 80 }
+  world_limit { 1 }
+  experience { 40000 }
+  hp { 3, 20, 700 }
+  move { 600 }
+  gold { 1400 }
+  hit_bonus { 9 }
+  dam_bonus { 5 }
+  damage { 4, 5, 5 }
+  attacks_per_round { 4 }
+  head { 52, 1 }
+  body { 32, 1 }
+  arms { 42, 1 }
+  legs { 22, 1 }
+  feet { 62, 1 }
+  immune { charm }
+  act { stay-zone }
+}
+ 
+69004
+{
+  name { a travelling merchant }
+  namelist { travelling merchant }
+  shortdesc { A travelling merchant is looking for directions here. }
+  longdesc {
+You see a merchant wearing strange clothes, obviously wandering along
+from a distant land. The man wears heavy robes, hiding any bags, or
+possessions he may have.
+  }
+  race { Human }
+  level { 20 }
+  experience { 2500 }
+  hp { 2, 8, 230 }
+  alignment { 0 }
+  move { 400 }
+  gold { 300 }
+  hit_bonus { 1 }
+  dam_bonus { 2 }
+  damage { 2, 5, 6 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  immune { charm }
+  act { stay-zone }
+}
+ 
+69005
+{
+  name { a burdened trader }
+  namelist { trader }
+  shortdesc { A hunting trader is standing here. }
+  longdesc {
+You see a trader who is bearing animal skins from his hunting adventures
+in the jungle. He appears to be a strong, guarded man.
+  }
+  race { Elven }
+  level { 70 }
+  experience { 37500 }
+  hp { 5, 12, 700 }
+  move { 500 }
+  alignment { 1000 }
+  gold { 2400 }
+  hit_bonus { 8 }
+  dam_bonus { 6 }
+  damage { 2, 8, 6 }
+  attacks_per_round { 4 }
+  head { 60, 0 }
+  body { 82, 0 }
+  arms { 83, 0 }
+  legs { 81, 0 }
+  feet { 82, 0 }
+  strength { 20 }
+  dexterity { 18 }
+  affected { sneak, sense-life }
+  act { scavenger }
+  immune { charm }
+}
+ 
+69006
+{
+  name { a cloaked figure }
+  namelist { cloaked figure }
+  shortdesc { A cloaked figure is standing here. }
+  longdesc {
+You see a shadowy, cloaked figure. It hides from your gaze, fumbling
+around to avoid contact with anyone. You see no face beneath its
+dark hood.
+  }
+  race { Human }
+  level { 60 }
+  experience { 40000 }
+  hp { 3, 15, 775 }
+  move { 300 }
+  gold { 2400 }
+  alignment { -1000 }
+  damage { 4, 4, 10 }
+  hit_bonus { 6 }
+  dam_bonus { 5 }
+  attacks_per_round { 3 }
+  head { 82, 1 }
+  body { 82, 1 }
+  arms { 82, 1 }
+  legs { 82, 1 }
+  feet { 82, 1 }
+  act { stay-zone }
+  immune { charm }
+}
+ 
+69007
+{
+  name { a screeching buzzard }
+  namelist { buzzard }
+  shortdesc { A buzzard is flying low here. }
+  longdesc {
+A thin buzzard is hovering before, hoping that you will be its next
+easy meal.  It seems to be scanning for carcases in the area.
+  }
+  race { Bird }
+  level { 45 }
+  experience { 32000 }
+  hp { 3, 20, 600 }
+  move { 300 }
+  gold { 3200 }
+  alignment { 0 }
+  hit_bonus { 6 }
+  damage { 3, 7, 2 }
+  attacks_per_round { 2 }
+  head { 91, 0 }
+  body { 91, 0 }
+  arms { 91, 0 }
+  legs { 91, 0 }
+  feet { 91, 0 }
+  act { stay-zone }
+  immune { charm }
+  world_limit { 1 }
+}
+ 
+69008
+{
+  name { a grass snake }
+  namelist { grass snake }
+  shortdesc { A large red grass snake is wriggling here. }
+  longdesc {
+This beast has long reddish stripes on its back.  It is a huge snake,
+with coils that are almost twenty feet long.
+  }
+  race { Reptile }
+  level { 70 }
+  experience { 30000 }
+  hp { 3, 10 , 600 }
+  move { 300 }
+  alignment { 0 }
+  gold { 2400 }
+  damage { 3, 4, 2 }
+  attacks_per_round { 4 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  head { 71, 0 }
+  body { 71, 0 }
+  arms { 71, 0 }
+  legs { 71, 0 }
+  feet { 71, 0 }
+  immune { blunt, charm }
+  act { stay-zone, deadly }
+}
+ 
+69009
+{
+  name { a small cheetah }
+  namelist { cheetah }
+  shortdesc { A small cheetah is stalking here. }
+  longdesc {
+You see the graceful grasslands runner, a wild cheetah. It seems oblivious
+to any danger. It playfully paws at a nearby field mouse.
+  }
+  race { Predator }
+  level { 55 }
+  experience { 27500 }
+  hp { 2, 12, 400 }
+  move { 300 }
+  alignment { 0 }
+  gold { 2400 }
+  damage { 4, 4, 4 }
+  hit_bonus { 6 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  act { stay-zone }
+}
+ 
+69010
+{
+  name { a badger }
+  namelist { badger }
+  shortdesc { A badger is clawing at the ground here. }
+  longdesc {
+This small badger is quite frightened, as it senses your approach.
+It tries to hide in a bush to get away from you, snarling in defiance.
+  }
+  race { Predator }
+  level { 10 }
+  experience { 300 }
+  hp { 1, 5 ,22 }
+  move { 300 }
+  alignment { 0 }
+  damage { 2, 5 ,2 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  act { stay-zone }
+}
+ 
+69011
+{
+  name { a silver wolf }
+  namelist { silver wolf }
+  shortdesc { A silver wolf is prowling here. }
+  longdesc {
+You see one of the guardian animals of the great plains, a massive
+silver wolf.  It stands proudly before you, bearing its large fangs.
+  }
+  race { Predator }
+  level { 130 }
+  experience { 42000 }
+  hp { 3, 17, 1200 }
+  move { 300 }
+  gold { 5000 }
+  alignment { 1000 }
+  damage { 5, 4, 4 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  immune { fire, charm }
+  act { stay-zone }
+}
+ 
+69012
+{
+  name { a patrolling warrior }
+  namelist { patrolling warrior }
+  shortdesc { A patrolling warrior is keeping track of the road here. }
+  longdesc {
+A battle hardened fighter stands here, watching over the Bandit's Run
+with experienced eyes, looking for signs of invaders.
+  }
+  race { Human }
+  level { 100 }
+  experience { 72000 }
+  hp { 3, 14, 1200 }
+  move { 300 }
+  alignment { -1000 }
+  gold { 7000 }
+  damage { 4, 5, 2 }
+  attacks_per_round { 3 }
+  hit_bonus { 10 }
+  dam_bonus { 4 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  act { scavenger, guarding, hateful, stay-zone }
+}
+ 
+69013
+{
+  name { a peasant }
+  namelist { peasant }
+  shortdesc { A feeble peasant is looking for wisdom and learning here. }
+  longdesc {
+This peasant looks as if they are about to starve to death.  But they
+avert their eyes from your probing gaze, and humbly back into a submissive
+posture.
+  }
+  race { Human }
+  level { 5 }
+  experience { 127 }
+  hp { 1, 5, 22 }
+  move { 300 }
+  alignment { 0 }
+  gold { 50 } 
+  hit_bonus { 0 }
+  damage { 1, 8, 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  act { wimpy, stay-zone }
+}
+ 
+69014
+{
+  name { a pathetic beggar }
+  namelist { beggar }
+  shortdesc { A beggar is slouching here, looking at you with sad eyes. }
+  longdesc {
+The beggar has a wild look in their eyes, as if they might be desperate
+enought to take whatever they need from you, at any cost.
+  }
+  race { Human }
+  level { 5 }
+  experience { 250 }
+  hp { 1, 5, 23 }
+  move { 300 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  damage { 1, 8, 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  act { wimpy, stay-zone }
+}
+ 
+69015
+{
+  name { The Grey Dragon }
+  namelist { grey dragon }
+  shortdesc { The giant grey dragon stares at you icily, looking into your soul.
+ }
+  longdesc {
+This old dragon has seen more than one adventurer gaze upon its
+presence.  It smirks as you approach, fully confident that it can
+blast you into oblivion with one breath should you dare to threaten
+it.
+  }
+  race { Dragon }
+  sex { neuter }
+  level { 400 }
+  experience { 375000 }
+  hp { 3, 20, 7500 }
+  move { 300 }
+  gold { 50000 }
+  mana { 1000 }
+  alignment { -1000 }
+  caster { 80 }
+  damage { 4, 10, 10 }
+  hit_bonus { 22 }
+  dam_bonus { 4 }
+  attacks_per_round { 4 }
+  head { -100, 9 }
+  body { -80, 9 }
+  arms { -80, 9 }
+  legs { -80, 9 }
+  feet { -80, 9 }
+  immune { charm, fire, sleep }
+  act { sentinel, stay-zone, aggressive }
+  affected { flying, sanctuary }
+  spells { ice storm, cone of cold, frost breath }
+}
+ 
+69016
+{
+  name { a humble townsman }
+  namelist { townsman }
+  shortdesc { A townsman is wandering along the road here, whistling pleasantly.
+ }
+  longdesc {
+This person wears the drab brown colors of typical Phul clothing,
+as most fancier garments are rare and expensive.  He looks
+as if he has seen many a strange traveller here as he goes along
+his way on the road.
+  }
+  race { Human }
+  sex { male }
+  level { 10 }
+  experience { 300 }
+  hp { 1, 5, 100 }
+  move { 300 }
+  alignment { 0 }
+  gold { 50 }
+  damage { 1, 10, 1 }
+  attacks_per_round { 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  act { stay-zone }
+}
+ 
+69017
+{
+  name { Owlbane }
+  namelist { owlbane }
+  shortdesc { The archmage Owlbane paces here, contemplating odd mysteries. }
+  longdesc {
+This mage radiates power and magical presence.  He has a worried
+look upon his brow, as if things are not at all as they should be.
+  }
+  race { Human }
+  sex { male }
+  level { 400 }
+  experience { 320000 }
+  hp { 3, 20, 4000 }
+  move { 300 }
+  mana { 1111 }
+  alignment { 0 }
+  gold { 1000 }
+  caster { 40 }
+  damage { 4, 8, 2 }
+  hit_bonus { 24 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { -50, 5 }
+  body { -50, 5 }
+  arms { -50, 5 }
+  legs { -50, 5 }
+  feet { -50, 5 }
+  immune { charm, energy, fire, cold, electricity, drain }
+  act { sentinel, stay-zone, hateful }
+  affected { detect-invisible, sanctuary }
+}
+
+69019
+{
+  name { a bandit }
+  namelist { bandir }
+  shortdesc { A stealthy bandit is plotting evil schemes here. }
+  longdesc {
+The bandit wears the black robes of the bandit clan. He thumbs his nose at
+you as you pass by him through the camp.
+  }
+  race { Human }
+  level { 30 }
+  experience { 3200 }
+  hp { 3, 5, 200 }
+  move { 300 }
+  alignment { 0 }
+  gold { 200 }
+  damage { 2, 7, 1 }
+  attacks_per_round { 1 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  act { stay-zone }
+}
+ 
+69020
+{
+  name { a thug }
+  namelist { thug }
+  shortdesc { A brutal looking thug is picking his nose here. }
+  longdesc {
+The thug wears the typical rags of carefree life in the jungle.  He stiffens
+as you approach, thinking that you are one of the bandit leaders.
+  }
+  race { Human }
+  level { 30 }
+  experience { 3150 }
+  hp { 3, 4, 250 }
+  move { 300 }
+  alignment { 4 }
+  gold { 200 }
+  damage { 1, 12, 4 }
+  attacks_per_round { 2 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  act { stay-zone }
+}
+ 
+69021
+{
+  name { an assassin }
+  namelist { assassin }
+  shortdesc { A cold blooded assassin is sharpening his knives here. }
+  longdesc {
+The assassin wears the chameleon-like robes of the jungle hunter. He peers
+at you very intently, sizing up your combat skills.
+  }
+  race { Human }
+  level { 30 }
+  experience { 32500 }
+  hp { 3, 15, 700 }
+  move { 300 }
+  damage { 4, 6, 4 }
+  hit_bonus { 6 }
+  dam_bonus { 5 }
+  attacks_per_round { 4 }
+  alignment { -1000 }
+  gold { 3200 }
+  head { 80, 0 }
+  body { 80, 0 }
+  arms { 80, 0 }
+  legs { 80, 0 }
+  feet { 80, 0 }
+  immune { charm }
+  act { stay-zone }
+}
+ 
+69022
+{
+  name { a berserker }
+  namelist { berserker }
+  shortdesc { An anxious berserker hacks at a wooden stump here. }
+  longdesc {
+The berserker wears tattered rags, and has a fevorish look in his eyes.  He
+seems to be struggling with a decision about how soon he should attack you.
+  }
+  race { Human }
+  level { 300 }
+  experience { 275000 }
+  hp { 3, 20, 3750 }
+  move { 300 }
+  alignment { 0 }
+  gold { 27500 }
+  damage { 4, 5, 10 }
+  hit_bonus { 21 }
+  dam_bonus { 10 }
+  attacks_per_round { 4 }
+  head { -50, 0 }
+  body { -50, 0 }
+  arms { -50, 0 }
+  legs { -50, 0 }
+  feet { -50, 0 }
+  immune { charm }
+  act { aggressive, stay-zone }
+}
+ 
+69025
+{
+  name { The Master Bandit }
+  namelist { master bandit }
+  shortdesc { The Master of Bandits is plotting here. }
+  longdesc {
+The master blabbers on and on about his grandios planes for his guild.
+No one is listening to him, as the stories often repeat themselves.
+  }
+  race { Human }
+  level { 70 }
+  experience { 35000 }
+  hp { 3, 10, 1000 }
+  move { 300 }
+  mana { 200 }
+  spells { sleep, fireball, weakness, blindness }
+  caster { 20 }
+  head { 61, 0 }
+  body { 61, 0 }
+  arms { 61, 0 }
+  legs { 61, 0 }
+  feet { 61, 0 }
+  hit_bonus { 9 }
+  dam_bonus { 8 }
+  damage { 3, 4, 10 }
+  attacks_per_round { 2 }
+  act { sentinel, stay-zone }
+} 

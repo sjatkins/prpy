@@ -1,0 +1,239 @@
+8020
+{
+name { A hunter }
+namelist { hunter man dirty }
+shortdesc { A dirty hunter gives you a toothless grin as you pass. }
+longdesc  {
+   This is a stern looking middle aged man with a bushy red beard 
+and long matted hair. His hands are large and blood stained, probably
+used more than once to break a neck. He is dressed in a animal skin
+jacket and blood stained pants. As you approach he gives you a toothless 
+grin, daring you to challenge his abilities. 
+}
+  race { human}
+  height { 160 }
+  weight { 10000 }
+  level { 284 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 16 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 00, 7 }
+  body { 00, 7 }
+  arms { 00, 7 }
+  legs { 00, 7 }
+  feet { 00, 7 }
+  hp { 4, 184, 2812  }
+  move { 300 }
+  experience { 80798 }
+  damage { 2, 5, 9  }
+  immune { charm }
+  act { stay-zone }
+}
+
+8021
+{
+name { Tunis, the Chief Hunter }
+namelist { tunis hunter man chief old }
+shortdesc { Tunis, the chief hunter is here sharpening his weapons. }
+longdesc {
+   Tunis is an older man with a long flowing white beard and a completely
+bald head. He towers above all of his subordinates and displays his
+fighting abilities through bulging forearms and biceps. He is well
+dressed in the finest furs from the all over the world. Brandishing a large
+two handed bastard sword you can tell that he not only likes to kill but
+slaughter his prey.
+}
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 508 }
+  alignment { 100 }
+  gold { 2700  }
+  hit_bonus { 30 }
+  dam_bonus { 20 }
+  attacks_per_round { 2 }
+  head { -80, 4 }
+  body { -80, 4 }
+  arms { -80, 4 }
+  legs { -80, 4 }
+  feet { -80, 4 }
+  hp { 4, 208, 6244  }
+  move { 300 }
+  experience { 351267 }
+  damage { 3, 5, 41  }
+  immune { charm }
+  act { sentinel }
+  affected { detect-invisible, sense-life }
+}
+
+8022
+{
+name { A travelling Merchant }
+namelist { travelling merchant skinny man }
+shortdesc { A travelling Merchant is here displaying his wares }
+longdesc {
+   The merchant is a tall skinny man dressed in fine silk. He has a sickly look
+as though he hasn't eaten in a while. As you approach he forces a smile and
+asks if you would like to look at his wares. His hands shake and body quivers
+as the hunters laugh and spit at him. You feel sorry for the poor fellow, maybe
+you can put him out of his misery.
+}
+  race { human }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { 00 }
+  gold { 180 }
+  hit_bonus { 25 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  hp { 4, 80, 2473  }
+  move { 300 }
+  experience { 163375 }
+  damage { 6, 6, 38  }
+  immune { charm }
+  act { sentinel, scavenger }
+}
+
+8024
+{
+name { A hunting dog }
+namelist { hunting dog hungry }
+shortdesc { A hunting dog glares at you hungrily. }
+longdesc {
+   This is a scrawny little dog obviously due to starvation and frequent
+beatings. It sniffs the air as you approach detecting that you are 
+carrying food. It crouches on its hind legs ready to jump at
+your throat hoping win a meal.
+}
+  race { none }
+  height { 160 }
+  weight { 10000 }
+  level { 8 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 2 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 349  }
+  move { 300 }
+  experience { 856 }
+  damage { 1, 7, 1  }
+  act { aggressive }
+}
+
+
+8025
+{
+name { A fat cook }
+namelist { fat cook chef }
+shortdesc { A fat cook is here making supper over a boiling pot. }
+longdesc {
+   This is a fat, portly man with a blonde beard which covers his double chin.
+He continues to cut meat and throw it into a boiling pot even though
+it is obviously rotten. Constantly his dips his finger in to test the water
+and tasting the concoction. An apron covered with food and blood
+barely covers his fat gut. He points at the pot as you enter, enticing
+you to taste his mixture. You decide not to take his offer.
+}
+  race { giant }
+  height { 160 }
+  weight { 10000 }
+  level { 280 }
+  alignment { 00 }
+  gold { 180 }
+  hit_bonus { 25 }
+  dam_bonus { 24 }
+  attacks_per_round { 1 }
+  head { -30, 3 }
+  body { -30, 3 }
+  arms { -30, 3 }
+  legs { -30, 3 }
+  feet { -30, 3 }
+  hp { 4, 80, 4473  }
+  move { 300 }
+  experience { 93375 }
+  damage { 3, 6, 8  }
+  immune { charm }
+  act { sentinel, scavenger, stay-zone}
+}
+
+
+
+
+8026
+{
+name { An animal skinner }
+namelist { man young animal skinner hunter }
+shortdesc { A young hunter is here skinning and gutting the days kill. }
+longdesc {
+   Oh how he longs to hunt with the others. Due to his young age 
+and small stature he was forced to spend his time skinning and 
+cleaning each days killing. Covered in blood and wearing an old
+apron over his raggedy cloths he looks very displeased with his
+duties. He vows to one day prove his skill with weapons to the 
+chief hunter. He smiles at you as if he has found the answer to
+all his problems.
+}
+  race { human}
+  height { 160 }
+  weight { 10000 }
+  level { 154 }
+  alignment { 0 }
+  gold { 200 }
+  hit_bonus { 12 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  head { 00, 7 }
+  body { 00, 7 }
+  arms { 00, 7 }
+  legs { 00, 7 }
+  feet { 00, 7 }
+  hp { 4, 184, 1012  }
+  move { 300 }
+  experience { 30798 }
+  damage { 2, 9, 9  }
+  immune { charm }
+  act { stay-zone }
+}
+
+8027
+{
+name { A black stallion }
+namelist { horse black stallion wild }
+shortdesc { A black stallion grazes here preparing to kick as you approach. }
+longdesc {
+   This is a black stallion, it was probably captured from the wild and trained
+to be ridden. The horse glares you in the eye without fear, wanting
+nothing else but to be free. Scars cover his body and head from
+several whippings. He waits, ready to kick as you approach.
+}
+  race { none }
+  level { 66 }
+  alignment { 0 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 24, 8, 824  }
+  move { 300 }
+  experience { 8222 }
+  damage { 1, 18, 1  }
+  act { stay-zone }
+}

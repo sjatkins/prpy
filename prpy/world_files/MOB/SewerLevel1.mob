@@ -1,0 +1,591 @@
+7000
+{
+  name { The horrifying Mudmonster }
+  namelist { mud monster mudmonster }
+  shortdesc { A horrifying Mudmonster is slowly evolving from the mud ... }
+  longdesc {
+It sure looks like something out of a horror movie. It strongly resembles
+a huge figure made up from mud alone, and it sure looks like it had human
+flesh for breakfast and is strongly intent on having the same for dinner
+- Perhaps you?
+  }
+  race { none }
+  level { 39 }
+  alignment { -250 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 6 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  hp { 36, 36, 700  }
+  move { 300 }
+  experience { 63925 }
+  damage { 3, 7, 1  }
+  affected { sneak, true-sight }
+  act { stay-zone, nosummon }
+  resistant { pierce, slash, blunt }
+  immune { charm }
+}
+
+7001
+{
+  name { The small bat }
+  namelist { bat }
+  shortdesc { The small fierce-looking bat is hanging from the ceiling, obviously sleeping. }
+  longdesc {
+You have never in your entire life seen such a mean looking small creature,
+though it looks rather peaceful, hanging there, sleeping. The thought of
+arousing this cruel creature doesn't appeal to you
+  }
+  race { none }
+  level { 1 }
+  alignment { -500 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 2, 8, 2  }
+  move { 300 }
+  experience { 183 }
+  damage { 2, 5, 1  }
+  affected { sneak }
+  act { aggressive, stay-zone }
+}
+
+7002
+{
+  name { The Great Sewer Rat }
+  namelist { rat }
+  shortdesc { The Huge Hungry-looking Sewer Rat sits here }
+  longdesc {
+It is large, and very hungry looking
+  }
+  race { none }
+  level { 6 }
+  alignment { -1000 }
+  gold { 30 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 690 }
+  damage { 3, 4, 10 }
+  act { aggressive }
+  immune { charm }
+}
+
+7003
+{
+  name { The small Spider }
+  namelist { spider }
+  shortdesc { The small hairy Spider }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 2 }
+  alignment { -700 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 959 }
+  damage { 5, 9, 10  }
+  affected { sneak }
+  act { aggressive }
+}
+
+7004
+{
+  name { The giant earth beetle }
+  namelist { beetle }
+  shortdesc { The Giant Mean-looking Earth Beetle }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 235 }
+  alignment { -300 }
+  gold { 300 }
+  hit_bonus { 5 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 4 }
+  body { 0, 4 }
+  arms { 0, 4 }
+  legs { 0, 4 }
+  feet { 0, 4 }
+  hp { 32, 32, 500  }
+  move { 300 }
+  experience { 75523 }
+  damage { 5, 6, 7  }
+  immune { charm, electricity, fire }
+  resistant { blunt, energy, cold }
+}
+
+7005
+{
+  name { The maggot }
+  namelist { maggot }
+  shortdesc { The Giant Maggot }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 8 }
+  alignment { 300 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 12, 18, 12  }
+  move { 300 }
+  experience { 3806 }
+  damage { 2, 7, 1  }
+}
+
+7006
+{
+  name { The slithering snake }
+  namelist { snake }
+  shortdesc { The snake slithers towards you }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 4 }
+  alignment { -500 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 529 }
+  damage { 1, 6, 1  }
+  act { special, aggressive }
+}
+
+7007
+{
+  name { The evil wanderer }
+  namelist { wanderer }
+  shortdesc { The evil wanderer stares at you }
+  longdesc {
+The evil wanderer is very thin. He is dressed in a grey cloak.
+  }
+  race { human }
+  level { 22 }
+  alignment { -1000 }
+  gold { 175 }
+  hit_bonus { 10 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 20, 30, 2020  }
+  move { 300 }
+  experience { 89979 }
+  damage { 5, 5, 5  }
+  immune { charm, fire }
+  resistant { pierce, blunt, energy, electricity }
+  act { scavenger, aggressive, hateful }
+  affected { true-sight, sanctuary }
+}
+
+7008
+{
+  name { the creature homonculous }
+  namelist { homonculus homo }
+  shortdesc { The creature homonculous is here, looking at you with an evil look. }
+  longdesc {
+The Homonculous appers in a man-like form, about 18'' tall, have a
+greenish, reptilian skin, leathery wings, and a batlike mouth, with
+teeth passing on a venom.
+  }
+  race { devil }
+  level { 4 }
+  alignment { -780 }
+  gold { 100 }
+  hit_bonus { 10 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { -10, 0 }
+  body { -10, 0 }
+  arms { -10, 0 }
+  legs { -10, 0 }
+  feet { -10, 0 }
+  hp { 8, 8, 8  }
+  move { 300 }
+  experience { 25660 }
+  damage { 1, 100, 20  }
+  affected { detect-invisible, true-sight }
+  act { special }
+}
+
+7009
+{
+  name { The Grand Knight of Paladins }
+  namelist { grand knight paladin }
+  shortdesc { The Grand Knight is standing here, waiting for someone to help. }
+  longdesc {
+The Knight is standing here, smiling at you. He is dressed all in
+white, blue and silver. He looks VERY strong, as he stands here, ready to
+help the innocent.
+  }
+  race { human }
+  level { 279 }
+  alignment { 1000 }
+  gold { 1000 }
+  hit_bonus { 14 }
+  dam_bonus { 14 }
+  attacks_per_round { 4 }
+  head { 100, 11 }
+  body { 100, 11 }
+  arms { 100, 11 }
+  legs { 100, 11 }
+  feet { 100, 11 }
+  hp { 150, 8, 2500  }
+  move { 300 }
+  experience { 267170 }
+  damage { 4, 8, 9  }
+  immune { charm }
+  affected { detect-invisible }
+  act { stay-zone }
+}
+
+7010
+{
+  name { the evil chr-eff'n }
+  namelist { chr-eff'n chr }
+  shortdesc { The chr-eff'n is crawling here, looking around with its yellow eyes. }
+  longdesc {
+The head and torso of a chr-eff'n is copper-covered, with yellow
+glowing eyes. The lower body is in an orange shading.
+  }
+  race { none }
+  level { 1 }
+  alignment { -830 }
+  gold { 25 }
+  hit_bonus { 9 }
+  dam_bonus { 9 }
+  attacks_per_round { 2 }
+  head { -35, 5 }
+  body { -35, 5 }
+  arms { -35, 5 }
+  legs { -35, 5 }
+  feet { -35, 5 }
+  hp { 10, 80, 500  }
+  move { 300 }
+  experience { 35500 }
+  damage { 3, 8, 6  }
+  immune { charm, blunt }
+  resistant { fire }
+  affected { detect-invisible, infravision, sneak }
+  act { scavenger, wimpy, nosummon }
+}
+
+7011
+{
+  name { the shadowy morkoth }
+  namelist { morkoth }
+  shortdesc { The morkoth are standing here, waiting for someone to KILL! }
+  longdesc {
+It's a five feet tall, shadow monster. This has the shape between
+a human and a rat. It breaths very heavily, while it stares at you.
+  }
+  race { none }
+  level { 41 }
+  alignment { -900 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 40, 8, 400  }
+  move { 300 }
+  experience { 14306 }
+  damage { 3, 6, 1  }
+  immune { charm }
+  affected { infravision }
+  act { aggressive, wimpy }
+}
+
+7012
+{
+  name { Madam Esther }
+  namelist { esther madam }
+  shortdesc { Madam Esther is standing here, trying to sell dust. }
+  longdesc {
+She is very big standing here, smiling to you. She looks like the
+mother of the town, sometimes playing with the children, sometimes
+helping the old people, with their daily work. All this in spite of
+her own hard work.
+  }
+  race { none }
+  level { 2 }
+  alignment { 1000 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 4, 8, 4  }
+  move { 300 }
+  experience { 329 }
+  damage { 1, 6, 1  }
+}
+
+7040
+{
+  name { The young red dragon }
+  namelist { red dragon young }
+  shortdesc { A young yet fierce looking red dragon stares at you angrily }
+  longdesc {
+The young red dragon stares at you, angrilly, as he wakes when you
+arrives.  He says 'Oh, human YOU woke me up...Hsssss', as
+he moves closer ,'Can one NEVER sleep in peace..Hssss'.
+  }
+  race { none }
+  height { 300 }
+  level { 314 }
+  alignment { -1000 }
+  gold { 22500 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 5 }
+  head { 0, 9 }
+  body { 0, 9 }
+  arms { -20, 14 }
+  legs { -20, 14 }
+  feet { 0, 9 }
+  hp { 44, 88, 6400  }
+  move { 300 }
+  experience { 324246 }
+  damage { 2, 8, 6  }
+  immune { fire, charm }
+  resistant { pierce, energy, electricity }
+  affected { detect-invisible, infravision, true-sight }
+  act { sentinel, aggressive }
+}
+
+7041
+{
+  name { The sea hag }
+  namelist { sea hag }
+  shortdesc { The Sea Hag is swimming around here }
+  longdesc {
+The sea hag is so ghastly looking that you feel the deepest
+fear. Big yellow eyes and sharp teeth. Its ears are very big,
+and it have small sharp horns. This type of monsters are one of
+the greatest haters of beauty (Next after Medusa).
+  }
+  race { none }
+  level { 30 }
+  alignment { -800 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 10, 1 }
+  body { 10, 1 }
+  arms { 10, 1 }
+  legs { 10, 1 }
+  feet { 10, 1 }
+  hp { 28, 8, 280 }
+  move { 300 }
+  experience { 5017 }
+  damage { 2, 8, 1  }
+  affected { detect-invisible, infravision }
+  act { special, aggressive }
+}
+
+7042
+{
+  name { The guardian naga }
+  namelist { guardian naga }
+  shortdesc { The Guardian Naga looks kindly at you. }
+  longdesc {
+The naga are a snake-liked creature. She is covered in green-gold
+scale with silvery triangles along her back. Her eyes are golden.
+She notice that you look at her, and she says: 'Watch out. This way
+leads to some evil creatures'.
+  }
+  race { none }
+  level { 41 }
+  alignment { 700 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 4192 }
+  damage { 2, 7, 1  }
+  act { special, sentinel }
+}
+
+7043
+{
+  name { The scaled basilisk }
+  namelist { scaled basilisk }
+  shortdesc { The scaled Basilisk crawls towards you slowly. }
+  longdesc {
+The basilisk is a reptilian monster. It has eight legs, and a strong
+toothy jaws. It is dull brown with yellowish underbell. It's eyes are
+glowing pale green.
+  }
+  race { none }
+  level { 40 }
+  alignment { -250 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 39, 8, 39  }
+  move { 300 }
+  experience { 4539 }
+  damage { 3, 7, 1  }
+  affected { detect-invisible, infravision }
+  act { scavenger }
+}
+
+7044
+{
+  name { The lemure }
+  namelist { lemure blob }
+  shortdesc { The lemure blob slithers terribly precisely towards you for an attack! }
+  longdesc {
+This looks like a vaguely human blob. Big black yellow eyes, and a
+mouth going a little bit out from the face. The lemure does not look
+interested in you at all, but anyway it attackes. It looks like it's
+mind has been burned out.
+  }
+  race { none }
+  level { 22 }
+  alignment { -500 }
+  gold { 175 }
+  hit_bonus { 5 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 20, 8, 20  }
+  move { 300 }
+  experience { 4775 }
+  damage { 4, 4, 1  }
+  affected { charm }
+  act { aggressive }
+}
+
+7045
+{
+  name { Jones 'cruncher' the ettin }
+  namelist { jones cruncher ettin }
+  shortdesc { Jones is standing here glaring at you. }
+  longdesc {
+At the first sight you thought Jones was an Orc, but when it came
+closer you saw his second head. He wears an animal skinn dress,
+filthy and moth eaten. Jones really stinks...
+  }
+  race { orc }
+  level { 250 }
+  alignment { -480 }
+  gold { 300 }
+  hit_bonus { 9 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { -90, 28 }
+  body { -90, 28 }
+  arms { -90, 28 }
+  legs { -90, 28 }
+  feet { -90, 28 }
+  hp { 3, 88, 3000  }
+  move { 300 }
+  experience { 73186 }
+  damage { 4, 6, 5  }
+  affected { infravision, detect-invisible }
+  act { scavenger, aggressive }
+}
+
+7046
+{
+  name { Harold 'the mouse-killer' ettin }
+  namelist { harold mouse killer ettin }
+  shortdesc { Harold is standing here looking confused at you. }
+  longdesc {
+When you look at Harold, you feel petty. His dress are really poor,
+and the one of his heads hangs down. At the rope around his stomach
+hangs dead mouses and rats. He does not smell good.
+  }
+  race { ogre }
+  level { 39 }
+  alignment { 200 }
+  gold { 300 }
+  hit_bonus { 20 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 40, 1 }
+  body { 40, 1 }
+  arms { 40, 1 }
+  legs { 40, 1 }
+  feet { 40, 1 }
+  hp { 36, 88, 1036  }
+  move { 300 }
+  experience { 33717 }
+  damage { 3, 8, 5  }
+  affected { infravision }
+  act { scavenger }
+}
+

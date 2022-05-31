@@ -1,0 +1,2075 @@
+6600
+{
+  name { A knife thrower }
+  namelist { knife thrower }
+  shortdesc { A dangerous looking man tosses weapons at the wall. }
+  longdesc {
+The knife thrower looks at you with a smirk as you enter his booth.
+He stands of medium height and has a slender build.  The knife thrower
+has on some loose gray pants and wears a leather vest.  He notices you
+looking at him and he walks over to his weapons rack.  Gently caressing
+his sharp and wicked looking tools, he quickly grabs one and flings it
+at the bulls-eye across the room.  Scary!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6601
+{
+  name { A flame breather }
+  namelist { flame breather }
+  shortdesc { A dirt-covered man releases a plume of fire into the air. }
+  longdesc {
+It looks like this man has not taken a bath in weeks, he is completely
+covered in dirt and soot.  The flame breather walks with heavy and
+dramatic steps across the dirty carnival path.  He makes sure that
+everyone is watching every move that he makes.  Quickly taking a swig
+of liquid from a flask, he raises his wand to his mouth and spits out
+a huge plume of fire.  This guy is going to burn down the carnival!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 635 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6602
+{
+  name { A juggler }
+  namelist { juggler }
+  shortdesc { A dexterous man manipulates objects and tosses them in the air. }
+  longdesc {
+Looking towards you with a sly look, the juggler shows you his fists
+and opens his empty hands.  He spreads his fingers and shakes his hands.
+Suddenly, several different colored balls lay clamped between his
+fingers.  Shaking his hands again, balls now lie between each of his
+fingers.  Throwing his hands straight up, he launves the balls high into
+the air.  The juggler catches each of the balls and begins to manipulate
+and juggle each of the balls with amazing dexterity.  Amazing!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 645 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6603
+{
+  name { The ring master }
+  namelist { ring master }
+  shortdesc { A charismatic man takes off his top hat and bows to the crowd. }
+  longdesc {
+The ring master smiles to the crowd and takes off top hat.  Bowing to
+the crowd, he reaches into the hat and pulls out a glittering scroll.
+"Ladies and gentleman!", he grins, unrolling the scroll.  Fireworks
+begin to shoot out from the scroll and all throughout the the bigtop.
+He shouts to the crowd, "Welcome to the circus!  We hope that you have
+the time of your lives!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 825 }
+  alignment { 0 }
+  gold { 4000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 30, 3 }
+  body { 40, 2 }
+  arms { 40, 2 }
+  legs { 40, 2 }
+  feet { 40, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6604
+{
+  name { A smiling clown }
+  namelist { smiling clown }
+  shortdesc { The clown smiles as a pie gets thrown in her face. }
+  longdesc {
+The clown is dressed in standard clown gear, colorful down to the last
+detail.  She smiles to the crowd and walks towards the front of the
+stage.  Bowing for a brief moment, she stands up with a frown as she
+realizes another clown slammed a pie in her face.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6605
+{
+  name { A creepy clown }
+  namelist { creepy clown }
+  shortdesc { A creepy looking clown slams a whip cream pie in his friend's face. }
+  longdesc {
+The clown creeps along the stage, pie in hand, looking for his next
+victim.  His make-up matches his creppy demeanor.  The make-up looks
+almost like a smiling demon.  Yuck!  He waits for his friend to bend
+over, slides right between her legs and slams his pie in her face.
+How mean!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6606
+{
+  name { A sad clown }
+  namelist { sad clown }
+  shortdesc { A colorful clown pretends to weep real tears from the goings on. }
+  longdesc {
+The clown is dressed in pretty standard clown gear, colorful and very
+baggy.  He stays crouched in the middle of the stage, hands in fists
+in front of his face.  Wrenching the fists back and forth, it makes
+it appear as though he is crying.  He throws his arms out at the
+mischevious actions of his friends and makes a pouty face.  His make-up
+even has tears painted down his face.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 552 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6607
+{
+  name { An excited clown }
+  namelist { excited clown }
+  shortdesc { A very happy clown does cartwheels around the ring. }
+  longdesc {
+The clown claps and cheers at all the excitement going on all over
+the stage.  He starts to do cartwheels around his friends and laughs
+as he flips head over heals.  He stops abruptly towards the edge of
+the stage and shoots confetti out over the crowd.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 562 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6608
+{
+  name { A trick clown }
+  namelist { trick clown }
+  shortdesc { A short and pudgy clown tries to pull a prank on another performer. }
+  longdesc {
+This clown is not very nice.  He stands behind the clown holding balloons
+and looks out over the audience.  Grabbing the clown's waistband, he
+starts to laugh and pants the poor man!  What a mean trick.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 501 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6609
+{
+  name { A balloon clown }
+  namelist { balloon clown }
+  shortdesc { A smiling clown tries to hand you a colorful balloon. }
+  longdesc {
+The clown stands towards the edge of the stage.  He is dressed in pretty
+typical clown clothes, colorful and baggy.  Grabbing one of his balloons,
+he reaches down and tries to hand one to you.  Unfortunately for him,
+one of his friends has snuck up behind him and pulled down his pants.
+Reaching down to pull up his pants, he mistakingly releases all his
+balloons into the air.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 13000 }
+  hp { 8, 9, 610 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6610
+{
+  name { A cotton candy vendor }
+  namelist { cotton candy vendor }
+  shortdesc { A pudgy man offers you a sweet smelling treat. }
+  longdesc {
+The pudgy man stands behind the counter, working diligently on his
+next batch of sweets.  He mixes in a large bag of sugar into a giant
+steel cauldron and stirs with all his might.  Sweat pours down his
+face and hopefully not into his cotton candy!  He sticks a white stick
+into the cauldron, twirls it around and pulls out a nice puff of
+pink sticky goodness.  He smiles in your direction as he notices you
+salivating.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6611
+{
+  name { A hot peanut vendor }
+  namelist { hot peanut vendor }
+  shortdesc { A tall and skinny man offers you a sack of nuts. }
+  longdesc {
+Standing behind the stand, the peanut vendor tosses his nuts very
+carefully over the fire.  He is strangely tall, clearly towering over
+everyone at the carnival.  His head pops out over the top of the
+carnival booth.  Noticing you looking he asks, "Want to try my salty
+nuts?  They will taste great in your mouth!".  He raises his nut sack
+in your direction.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6612
+{
+  name { A hot dog vendor }
+  namelist { hot dog vendor }
+  shortdesc { A homely looking woman grabs a weiner and slaps it on a bun. }
+  longdesc {
+Someone forgot to coome their hair before coming to work!  The hot dog
+vendor barely smiles as you approach the counter of her booth.  "Hot
+dog?", she asks nonchalantly, grabbing a weiner from the boiling cauldron
+and slapping it on a bun.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 9000 }
+  hp { 8, 9, 415 }
+  alignment { 0 }
+  gold { 1600 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6613
+{
+  name { A fried dough vendor }
+  namelist { fried dough vendor }
+  shortdesc { A sweating man sprinkles some powdered sugar over his treats. }
+  longdesc {
+Geez!  This man needs to wear a sweatband.  Rivers of sweat flow down
+this poor man's face as he kneeds some dought on the counter.  The
+fried dough vendor's clothes have pools sweat all over his body.  He
+really needs to change his clothes.  Taking the now beaten dough in
+his hand, he turns to the deep fryer and tosses it in.  The fried
+dought slowly rises back to the top of the oil and he scoops it out,
+back onto the counter.  Sprinkling the top of the dough with some
+sugar, he smiles at you as he notices you drooling.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6614
+{
+  name { A fierce tiger }
+  namelist { fierce tiger }
+  shortdesc { A growling tiger stares at the crown menacingly. }
+  longdesc {
+Oh my!  This creature should not be messed with.  It is tied down with
+a collar and long steel chain, but it looks like it could break free
+at any moment.  The tiger is an orange color and has black stripes all
+over.  It bares its pearly white fangs at you and makes a growling
+sound.  This is a good time to run.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6615
+{
+  name { A dancing bear }
+  namelist { dancing bear }
+  shortdesc { A friendly looking bear dances on top of a gigantic ball. }
+  longdesc {
+The bear seems to be concentrating as it tries to keep its balance atop
+a gigantic red ball.  The bears fur is a shiny brown color and it looks
+like it has been well kept for.  There is even a cute little red hat
+on the top of its head.  The bear slowly rolls its ball around the
+ring, trying not to fall off.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8500 }
+  hp { 8, 9, 455 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc,  stay-zone }
+}
+
+6616
+{
+  name { A large elephant }
+  namelist { large elephant }
+  shortdesc { A large elephant munches on hay in the back of the tent. }
+  longdesc {
+This animal does not seem to be doing much of anything.  It is tied to
+a stake near the back of the tent with a thick tweeded rope.  The
+elephant grabs some hay with its enourmous and muscular trunk and lifts
+the food into its mouth.  Chewing away, it just stares at the action
+in the center ring.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 30 }
+  experience { 20000 }
+  hp { 8, 9, 875 }
+  alignment { 0 }
+  gold { 3500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6617
+{
+  name { A ball game man }
+  namelist { ball game man }
+  shortdesc { A plesant man asks if you would like to play a game. }
+  longdesc {
+"Winner, winner!", the man says to you as you approach the counter
+of his game table.  The game man seems to be dressed in the standard
+uniform for the fair, slacks and a button down shirt.  He raises
+several multi-colored balls to you and begs the questions, "Care to
+take a chance?".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 18000 }
+  hp { 8, 9, 755 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6618
+{
+  name { A dart game woman }
+  namelist { dart game woman }
+  shortdesc { A smiling woman asks if you would like to play a game. }
+  longdesc {
+The game woman is quite lovely.  She has long flowing blond hair that
+hangs straight down her back.  Dressed in the standard carnival uniform,
+her slacks and button down white shirt seem to fit her much more snuggly
+than the other workers.  They must be trying to show off her amazing
+figure.  She smiles as you stare at everywhere besides her eyes and
+says, "There are lots of other people that would like to play, hun.".
+Holding up three shiny darts to you she whispers, "Care to take a
+chance?".
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 17000 }
+  hp { 8, 9, 715 }
+  alignment { 0 }
+  gold { 2400 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6619
+{
+  name { A balloon game man }
+  namelist { balloon game man }
+  shortdesc { A grinning man asks if you would like to play a game. }
+  longdesc {
+The game man chuckles a little as you enter his carnival booth.  He
+grins his a sucker is born every minute smile and moves closely to the
+counter as you approach it.  Dressed in the standard the standard
+carnival uniform, he scratches his privates as you waste his time.
+Gross!  "I don't have all night patron.", he bemuses staring at you.
+Holding up three shiny darts he grins, "Care to take a chance?".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 16000 }
+  hp { 8, 9, 655 }
+  alignment { 0 }
+  gold { 2300 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6620
+{
+  name { A hoop game man }
+  namelist { hoop game man }
+  shortdesc { A smiling man asks if you would like to play a game. }
+  longdesc {
+The game man shakes his waste as he whirls a hool hoop around and
+around.  With a swift shift of his waste, he hurls the hoop into the
+air and grabs it with his hand.  Picking up two other hoops from the
+ground, he turns to you and says, "Care to take a chance?".  His warm
+and wide smiles compels you to reach for your coins and play the game.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 599 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6621
+{
+  name { A strength game man }
+  namelist { strength game man }
+  shortdesc { A strong man asks if you would like to play a game. }
+  longdesc {
+This guy must sure work out!  Every muscle on this man is bulging with
+purge strength.  He flexes a little as he notices you staring at his
+tremendous size.  The strong man has even had to cut off the sleeves
+of his uniform because his massive size could obviously not fit into
+them.  He wears a steel mesh vest over the cut off button down white
+shirt.  Grabbing an extremely heavy hammer against the wall with his
+huge hands, he slams it on the sandbag, forcing the weight to hit the
+bell at the top of the pole.  "See, little one?", he asks with a smile.
+"This game is easy!  Care to take a chance?", he proposes as he hands
+you the hammer.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 19000 }
+  hp { 8, 9, 794 }
+  alignment { 0 }
+  gold { 2200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6622
+{
+  name { A trapeze artist }
+  namelist { trapeze artist }
+  shortdesc { A young woman smiles and waves at the cheering crowd. }
+  longdesc {
+She stands at the top of the trapeze platform, looking out over the
+cheering crowd.  The trapeze artist has on a sparkling sky blue leotard.
+She waves to the crowd in the bleachers below, getting them even more
+excited.  A beautiful pink sash flows from her neck, reaching half way
+down her back.  Smiling at you as you reach the top of the platform,
+she reaches for one of the trapeze and hurls herself into the air.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 18000 }
+  hp { 8, 9, 755 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6623
+{
+  name { A carousel ticket man }
+  namelist { carousel ticket man }
+  shortdesc { A sloppy man asks for your ticket to the carousel. }
+  longdesc {
+Geez, someone should have checked his clothes when he arrived at work.
+His shirt is untucked, his pants are all wrinkled and it looks like
+both pieces of clothing could use a good wash.  Pointing to the lock
+on the gate of the carousel he says, "Just unlock the gate and you
+can go right on the ride.".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6624
+{
+  name { A content man }
+  namelist { content man }
+  shortdesc { A smiling man stares contently at this girlfriend. }
+  longdesc {
+This man seems to really be enjoying the carousel ride.  Sitting on
+on a bench in the image of two githyankis touching claws, he stares
+lovingly into his girlfriend's eyes.  Maybe he might pop the question!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 5000 }
+  hp { 5, 7, 205 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6625
+{
+  name { A dreaming woman }
+  namelist { dreaming woman }
+  shortdesc { A beautiful woman stares longingly into her boyfriend's eyes. }
+  longdesc {
+The young woman cannot seem to take her eyes off her boyfriend's face.
+Her hands are clasped in his, just like the githyanki bench they are
+sitting on are touching claws.  She sighs contently as the ride
+continues.  The beautiful woman seems to be having the time of her
+life.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6626
+{
+  name { A bratty child }
+  namelist { bratty child }
+  shortdesc { A screaming child demands that the ride go faster. }
+  longdesc {
+Ugh, someone smack this kid.  "DADDY!", he shouts, "Make the ride go
+faster!".  Pouting to himself, he makes a puffy face and sticks his
+tongue out at his dad.  What a little brat!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 10 }
+  experience { 1000 }
+  hp { 2, 3, 80 }
+  alignment { 0 }
+  gold { 500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6627
+{
+  name { A frowning father }
+  namelist { frowning father }
+  shortdesc { An unhappy man man holds his hands over his face and just shakes his head. }
+  longdesc {
+This poor man just hides his head in his hands as the carousel goes
+round and round.  He sits atop a skexie seat, right next to his son's
+warg seat.  These seats sure look realistic!  The frowning father tries
+to apologize to you as you pass him.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 5000 }
+  hp { 4, 6, 225 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6628
+{
+  name { A smiling child }
+  namelist { smiling child }
+  shortdesc { A smiling child seems to be really enjoying the carousel ride. }
+  longdesc {
+This child seems to be having the time of his life.  He could not be
+happier sitting atop his Demi-lich seat as the carousel continues to
+go round and round.  The brown, floppy haired youngster kicks his heels,
+almost as though he is trying to make his seat gallop foward.  What
+a cute kid.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 5, 91 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6629
+{
+  name { The ticket man }
+  namelist { ticket man }
+  shortdesc { A well dressed man welcomes you to the carnival. }
+  longdesc {
+"Come one, come all!", the man shouts as you approach the entrance of
+the circus.  He is dressed in a black and white tuxedo with a black
+shiny top hat.  "Take your time patrons, please!", he implores, "There
+are plenty of tickets for everyone!".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { sentinel, stay-zone, special }
+}
+
+6630
+{
+  name { A watching man }
+  namelist { watching man }
+  shortdesc { A smiling man watches the goings on in the center ring. }
+  longdesc {
+The man stares intently at the center ring.  He smiles with joy as
+he sees the ring master fight off the dangerous looking tiger.  He
+cheers with excitement every time the tiger takes a vicious swipe
+at the ring master, only missing by inches.  Standing up with a shout,
+he claps his hands and cheers even louder.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 501 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6631
+{
+  name { A watching woman }
+  namelist { watching woman }
+  shortdesc { An excited woman screams in joy at the action in the center ring. }
+  longdesc {
+The woman sits pristinely in her seat as she stares at all the action
+going on in the center ring.  She screams at the top of her lungs as
+it appears the ferocious looking tiger is about at reach the ring
+master.  Settling back into her seat when she notices the man is just
+fine, she wipes her sweating brow and breathes a deep sigh of relief.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 30 }
+  experience { 7000 }
+  hp { 8, 9, 385 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6632
+{
+  name { A old man }
+  namelist { old man }
+  shortdesc { An old man looks at his sleeping wife and smiles. }
+  longdesc {
+The old man looks at his wife contently as she takes a little nap. He
+smiles and continues to watch the circus going on below.  What a good
+husband.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 6000 }
+  hp { 4, 6, 265 }
+  alignment { 0 }
+  gold { 1900 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6633
+{
+  name { A sleeping lady }
+  namelist { sleeping lady }
+  shortdesc { An old lady snoozes peacefully on her husband's shoulder. }
+  longdesc {
+Wow, this lady can sure sleep.  There is no way someone can take a nap
+through all this excitement.  Everyone around her is cheering and
+screaming at the top of their lungs.  Maybe she has her hearing aid
+turned off.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 5000 }
+  hp { 4, 6, 225 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6634
+{
+  name { A coddling mother }
+  namelist { coddling mother }
+  shortdesc { A slightly pudgy mother gazes lovingly at her sleeping baby. }
+  longdesc {
+The mother smiles as her baby sleeps peacefully in her arms.  Rocking
+it back and forth lovingly, she sings it a gentle lullaby that can
+barely be heard above the roar of the crowd.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6635
+{
+  name { A sleeping baby }
+  namelist { sleeping baby }
+  shortdesc { A beautiful baby sleeps peacefully in his mother's arms. }
+  longdesc {
+How on earth can this baby be sleeping to peacefully with all this
+racket?  The baby is wrapped in a red blankey and is nuzzled deep
+within its mother's arms.  What a lucky baby.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 10 }
+  experience { 1000 }
+  hp { 4, 5, 50 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6636
+{
+  name { An annoying child }
+  namelist { annoying child }
+  shortdesc { An annoying child bothers the other spectators. }
+  longdesc {
+This little kid is a jerk!  He tosses popcorn and other assorted food
+stuff at other spectators.  He chews up some paper, grabs a straw
+from his drink and starts shooting spit balls at people.  How rude!
+Somebody slap this kid!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 5, 91 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6637
+{
+  name { A watching child }
+  namelist { watching child }
+  shortdesc { A child watches the center ring in amazement. }
+  longdesc {
+Sitting down like a little gentleman, the child watches the center ring
+in complete awe.  He cheers with excitement with every move the tiger
+and the ring master make.  Smiling at his parents, he stands up and
+shouts at the top of his lungs with joy.  This must be his first time
+to the circus.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 5, 91 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6638
+{
+  name { A wandering man }
+  namelist { wandering man }
+  shortdesc { A man snacks on some cotton candy as he walks through the carnival. }
+  longdesc {
+Humming a happy tune, the man walks along the dirty carnival path.  He
+happily eats from his cotton candy treat.  He smiles with each bite that
+he takes.  It must very very enjoyable!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+6639
+{
+  name { A wandering woman }
+  namelist { wandering pregnant woman }
+  shortdesc { A desperate looking woman rocks her baby as she runs through the carnival. }
+  longdesc {
+This lady really needs to calm down with the breeding.  Not only is
+she very preganant and carrying a baby in her arms, but she seems to
+have lost another child!  "My little girl!", she screams, "Has anyone
+seen a lost little girl?".  She hurredly runs past you, screaming to
+the next group of people.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 30 }
+  experience { 7000 }
+  hp { 8, 9, 385 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+6640
+{
+  name { A happy couple }
+  namelist { happy couple }
+  shortdesc { A happy couple walks hand in hand through the carnival. }
+  longdesc {
+They stare into each others eyes as they walk hand in hand through the
+carnival.  The happy couple do not seem to notice any of the carnivals
+other patrons.  They seem to be totally lost in each other.  Must be
+nice.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 562 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+6641
+{
+  name { A wandering child }
+  namelist { wandering child }
+  shortdesc { A small child looks around in wonderment. }
+  longdesc {
+The child walks around the dirty paths of the carnival with his
+mouth and eyes wide open.  He cannot seem to take enough of the sights
+in as his eyes dart from one attraction to another.  Bumping into other
+patrons since he isnt watching where he is going, he apologize and moves
+on.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+6642
+{
+  name { A wandering child }
+  namelist { wandering lost child }
+  shortdesc { A young child rubs her nose and sniffles, breaking out in tears. }
+  longdesc {
+This poor thing.  She is stopped in the middle of the road and is just
+staring at people.  Rubbing her nose and sniffling a little bit, she
+can not help herself from breaking out in tears.  "MOMMMMMMMMMY!"
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+6643
+{
+  name { A child thief }
+  namelist { child thief }
+  shortdesc { A dirty looking child stares at your wallet and runs away. }
+  longdesc {
+The child walks stealthfully through the crowd, weaving in and out
+of other carnival patrons.  He catches a quick eye of your wallet and
+suddenly disappears.  Suddenly you feel some light tugging at your back
+pocket.  HEY!
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 30 }
+  experience { 3000 }
+  hp { 8, 9, 145 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+6644
+{
+  name { A wandering salesman }
+  namelist { wandering salesman }
+  shortdesc { A man wanders the streets, selling his goods. }
+  longdesc {
+The salesman is carrying a large box filled with assorted goods.  There
+are several straps attached to the box that are hooked over his shoulders,
+making is easier to carry.  "Fresh popcorn!  Cold drinks!  Come and
+get it!", the salesman shouts as he passes by.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+
+6645
+{
+  name { A wandering dog }
+  namelist { wandering dog }
+  shortdesc { A sad looking dog begs for a bite of food. }
+  longdesc {
+This poor animal sure looks pathetic.  His mane is all manged and is
+covered with flees.  He sits down in the dirt and gives you the most
+pathetic looks you have ever seen.  Whelping with regret, he turns and
+wanders over to the next person to beg from.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, stay-zone }
+}
+
+6646
+{
+  name { A house of mirrors ticket man }
+  namelist { house of mirrors ticket man }
+  shortdesc { A cock-eyed man asks for your ticket to the house of mirrors. }
+  longdesc {
+This guy seems to have affected by standing in front of the house of
+mirrors all day.  His eyes have gone all cock-eyed and crazy.  He looks
+like he just escaped from the looney bin.  Pointing to the gate to the
+back of the booth, he says, "Just unlock the gate yourself, you can
+handle it.".
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6647
+{
+  name { A lost man }
+  namelist { lost man }
+  shortdesc { A man looks lost and confused as he walks through the house of mirrors. }
+  longdesc {
+"Thank god you are here!", he shouts.  " I have been lost in this place
+all day."  The man starts to weep and breaks down right in front of you.
+How sad.  He rolls up in a little ball and may have even peed himself.
+Yikes.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 5000 }
+  hp { 4, 6, 225 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6648
+{
+  name { A lost woman }
+  namelist { lost woman }
+  shortdesc { A lost woman starts to cry as she see you approaching. }
+  longdesc {
+"Thank the heavans!" the woman cries as you approach her.  "I just
+cannot find my way out of here."  She looks around maniacally, staring
+from mirror to mirror.  She whispers in your ear, "It doesn't matter
+which way I go, I always wind up back here.  Please help!".  She
+cries even harder and falls down to the floor in a heap.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6649
+{
+  name { A lost child }
+  namelist { lost child }
+  shortdesc { A child lays on the floor crying his eyes out. }
+  longdesc {
+The poor child cannot even look up from the floor.  He just lays here,
+sprawled out on the floor.  A pool of drool is forming beneath him.
+It is obvious that he has been stuck in here for hours, possibly days.
+Poor thing.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 10 }
+  experience { 2000 }
+  hp { 4, 5, 91 }
+  alignment { 0 }
+  gold { 750 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6650
+{
+  name { A ferris wheel ticket man }
+  namelist { ferris wheel ticket man }
+  shortdesc { A bored man asks for your ticket to the ferris wheel. }
+  longdesc {
+Yawning as you approach him, the ferris wheel attendant looks very
+bored.  He points to the gate and says, "Just unlock it yourself.  I'm
+busy.".  Nice that he at least tries to do his job.  At least he stopped
+the ferris wheel for a second so that you could get on.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6651
+{
+  name { A confused rider }
+  namelist { confused rider }
+  shortdesc { A confused looking rider rushes out of the cart as you enter. }
+  longdesc {
+The man gasps deeply as you rush into the ferris wheel cage.  He must
+have thought that his girl friend and him were all alone.  Standing
+up and grabbinghis girl friend's hand, he runs away with her at full
+speed.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 5000 }
+  hp { 4, 6, 225 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6652
+{
+  name { A confused woman }
+  namelist { confused woman }
+  shortdesc { A shocked woman screams and runs out of the cart as you enter. }
+  longdesc {
+The shocked woman screams as you burst into their ferris wheel cage.
+She stands up and starts to hit you over the head!  Her boyfriend grabs
+her hand and hurriedly rushes her from the cage.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6653
+{
+  name { A contortionist }
+  namelist { contortionist }
+  shortdesc { A young woman contorts and bends her body in interesting shapes. }
+  longdesc {
+The contortionist moves in unnatural ways as she slithers and undulates
+across the stage.  She is dressed in a blue leotard and has on some
+red leggings.  How flashdance!  What a feeling!
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 30 }
+  experience { 15000 }
+  hp { 8, 9, 625 }
+  alignment { 0 }
+  gold { 2100 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 40, 3 }
+  body { 50, 2 }
+  arms { 50, 2 }
+  legs { 50, 2 }
+  feet { 50, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6654
+{
+  name { A game player man }
+  namelist { game player man }
+  shortdesc { A man tries his hardest to beat the game. }
+  longdesc {
+This game player is concentrating very hard on beating the game.  He
+uses every last brain cell to try and figure out the strategy.  Taking
+a deep breath, he relaxes and gives is another try.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6655
+{
+  name { A game player woman }
+  namelist { game player woman }
+  shortdesc { A woman looks hesitantly at the game, deciding if she wants to play. }
+  longdesc {
+The woman looks at the other people playing and blushes.  She watches
+as they do their thing and plans a strategy to beat this thing.  Taking
+a few coins from her purse, she holds them tightly to her chest.  It
+looks like she is having second thoughts.  What a wimp.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 2 }
+  level { 30 }
+  experience { 7000 }
+  hp { 8, 9, 385 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6656
+{
+  name { A game player couple }
+  namelist { game player couple }
+  shortdesc { A happy couple plays one of the carnival games. }
+  longdesc {
+The couple laughs and smiles at each other as they enjoy the carnival
+game.  They look completely in love as they stare into each other's
+eyes.  Almost oblivious to the others playing, they take a second to
+share a quick kiss.  Awwwwwwww.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 12000 }
+  hp { 8, 9, 562 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6657
+{
+  name { A happy child }
+  namelist { happy child }
+  shortdesc { A happy child tries his hardest to beat the carnival game. }
+  longdesc {
+This kid is persistant!  He slams some money on the counter and demands
+another try.  Trying his hardest, he goes for another attempt to win
+the game.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 30 }
+  experience { 4000 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 1500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6658
+{
+  name { A gang of kids }
+  namelist { gang of kids }
+  shortdesc { A gang of kids harasses the woman behind the counter. }
+  longdesc {
+What a bunch of punks.  They all look like they just got out of the
+local orphanage.  The gang is doing nothing but harrasing the poor
+lady behind the counter.  You shake your fist angrily at them.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 1, 1, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+6659
+{
+  name { A game player loser }
+  namelist { game player loser }
+  shortdesc { A man slams his fist into the counter as he loses another game. }
+  longdesc {
+This poor man has been playing all day.  He has yet to win any of the
+carnival games.  The game attendant behind the counter is almost ready
+to give him a prize for free.  The loser sighs and throws another
+couple of coins on the counter.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 8000 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 2, 3, 1 }
+  head { 60, 3 }
+  body { 70, 2 }
+  arms { 70, 2 }
+  legs { 70, 2 }
+  feet { 70, 2 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+
+6660
+{
+  name { A wandering gang of kids }
+  namelist { wandering gang of kids }
+  shortdesc { A gang of kids walks towards you menacingly. }
+  longdesc {
+These kids are just mean.  They push carnival patrons as they pass them.
+they steal whatever carnival patrons are holding or eating directly
+out of their mouths and hands.  The gang laughs at every act of
+terrorism they can commit.  They glare at you menacingly as they get
+closer to you.  What a bunch of punks.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 30 }
+  experience { 10000 }
+  hp { 8, 9, 510 }
+  alignment { 0 }
+  gold { 2000 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 1, 1, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+
+6661
+{
+  name { A wandering woman }
+  namelist { wandering woman }
+  shortdesc { A carefree woman wanders with a smile through the carnival. }
+  longdesc {
+This lovely woman seems to be having the time of her life.  She walks
+carefree through the carnival, enjoying everything and talking to
+everyone that she can.  The woman almost seems to be skipping!  She
+sure is happy.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 3 }
+  level { 30 }
+  experience { 6500 }
+  hp { 8, 9, 385 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 50, 3 }
+  body { 60, 2 }
+  arms { 60, 2 }
+  legs { 60, 2 }
+  feet { 60, 2 }
+  act { npc, stay-zone }
+}
+6662
+{
+  name { a bearded lady }
+  namelist { bearded lady guard }
+  shortdesc { A large, bearded lady is here, checking identifications and tickets for the carnival. }
+  longdesc {
+This woman has a full, thick, macho beard. I would not mess with her if
+I was you.
+  }
+  race { human }
+  sex { female }
+  level { 950 }
+  world_limit { 1 }
+  experience { 600000 }
+  hp { 17, 19, 20000 }
+  move { 200 }
+  alignment { 0 }
+  gold { 500000 }
+  hit_bonus { 22 }
+  dam_bonus { 28 }
+  attacks_per_round { 2.5 }
+  damage { 10, 10, 10 }
+  head { 100, 24 }
+  body { 10, 16 }
+  arms { 10, 16 }
+  legs { 10, 16 }
+  feet { 10, 16 }
+  immune { charm }
+  act { npc, sentinel, stay-zone, special }
+}

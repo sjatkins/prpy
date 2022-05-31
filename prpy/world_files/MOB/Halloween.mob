@@ -1,0 +1,735 @@
+62001
+{
+  name { an old gravekeeper }
+  namelist { old gravekeeper }
+  shortdesc { An old gravekeeper runs around swinging his shovel in the air. }
+  longdesc {
+The gravekeeper looks scared for his life.  Tightly grasping his trusty
+shovel to his chest,  he scans the graves around him, looking for.....
+something.  An inhuman houl echoes through the air, causing the poor
+old soul to jump to his feet.  He starts to swing his shovel around in
+the air as though he is being attacked.  What a freak.
+  }
+  race { Giant }
+  sex { Male }
+  world_limit { 1 }
+  level { 300 }
+  experience { 340000 }
+  hp { 5, 110, 3556 }
+  alignment { +1000 }
+  gold { 10500 }
+  hit_bonus { 19 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -80, 10 }
+  body { -80, 10 }
+  arms { -80, 10 }
+  legs { -80, 10 }
+  feet { -80, 10 }
+  immune { charm, sleep }
+  affected { sanctuary }
+  act { npc, wimpy, stay-zone }
+}
+
+62002
+{
+  name { a wandering zombie }
+  namelist { zombie }
+  shortdesc { An animated corpse is walking through the graveyard. }
+  longdesc {
+A low moan comes from this poor creature as it walks aimlessly through
+the graveyard.  Its hair and skin clumps into pieces and falls onto the
+ground as its body starts to degrade.  It stops.  The moan is rising 
+into a scream.  Turning in your direction, its decaying legs start 
+hobbling towards you.
+  }
+  race { Demon }
+  world_limit { 3 }
+  level { 280 }
+  experience { 445000 }
+  hp { 25, 40, 6500 }
+  alignment { -1000 }
+  gold { 12000 }
+  hit_bonus { 18 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -100, 12 }
+  body { -100, 12 }
+  arms { -100, 12 }
+  legs { -100, 12 }
+  feet { -100, 12 }
+  affected { true-sight, sanctuary, invisible }
+  immune { charm, sleep }
+  act { npc, aggressive, stay-zone }
+}
+
+62003
+{
+  name { a wandering ghast }
+  namelist { ghast }
+  shortdesc { An opaque, humanoid-like outline hovers in the air. }
+  longdesc {
+The ghast lets out an ear-splitting scream as he floats around the
+graveyard.  It is difficult to see the ghast through the overcast and
+foggy weather conditions.  The moon pokes through the clouds, raining
+down some columns of light and illuminating the outline of a ghast,
+directly above your head.
+  }
+  race { Ghost }
+  world_limit { 3 }
+  level { 280 }
+  experience { 464000 }
+  hp { 25, 50, 6900 }
+  alignment { -1000 }
+  gold { 15000 }
+  hit_bonus { 19 }
+  dam_bonus { 9 }
+  caster { 10 }
+  power { 500 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 4 }
+  head { -140, 14 }
+  body { -100, 14 }
+  arms { -100, 14 }
+  legs { -100, 14 }
+  feet { -100, 14 }
+  affected { true-sight, sanctuary, invisible, flying }
+  spells { chilly }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62004
+{
+  name { Doctor Frankenstein *QUEST* }
+  namelist { doctor frankenstein }
+  shortdesc { A madman stands cackling before a giant machine. }
+  longdesc {
+The mad doctor is oblivious to your entrance in to the room.  His
+attention is focused on the machine covering the east wall.  He turns
+some knobs and presses a few buttons.  *CRACK*  A loud clap of thunder
+comes from above your head.  He stops, stares straight up and lets out
+an insane laugh with all his might.  What is he looking at?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 502 }
+  experience { 1280000 }
+  hp { 25, 75, 15668 }
+  alignment { -200 }
+  gold { 10000 }
+  caster { 20 }
+  power { 1000 }
+  mana { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 3, 6, 8 }
+  head { -100, 20 }
+  body { -100, 18 }
+  arms { -100, 18 }
+  legs { -100, 18 }
+  feet { -100, 18 }
+  immune { charm, energy, fire, cold, hold, backstab,sleep }
+  resistant { pierce, slash, blunt }
+  spells { disruptor, mind thrust }
+  affected { sanctuary, true-sight, infravision }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+62005
+{
+  name { Doctor Frankenstein }
+  namelist { doctor frankenstein }
+  shortdesc { A madman stands cackling before a giant machine. }
+  longdesc {
+The mad doctor is oblivious to your entrance in to the room.  His
+attention is focused on the machine covering the east wall.  He turns
+some knobs and presses a few buttons.  *CRACK*  A loud clap of thunder
+comes from above your head.  He stops, stares straight up and lets out
+an insane laugh with all his might.  What is he looking at?
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 400 }
+  experience { 770000 }
+  hp { 25, 75, 10668 }
+  alignment { -200 }
+  gold { 15000 }
+  caster { 20 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 2 }
+  head { -90, 10 }
+  body { -90, 8 }
+  arms { -90, 8 }
+  legs { -90, 8 }
+  feet { -90, 8 }
+  immune { charm,sleep }
+  spells { repulsor }
+  affected { sanctuary, true-sight, infravision }
+  act { npc, sentinel, wimpy, stay-zone }
+}
+
+62006
+{
+  name { Frankenstein's monster }
+  namelist { frankenstein monster }
+  shortdesc { A giant monster rages around the room. }
+  longdesc {
+The monster is completely tearing up the room.  There are stitches all
+across its skin.  It looks as though it was pieced together.  The skin
+types do not even match.  Some steel bolts jut out from its neck.  A
+bright spark seems to jolt out of the bolts when the monster loses 
+control.  The sparks suddenly turn into fireworks, as you now realize 
+the monster is staring straight at you.
+  }
+  race { Demon }
+  world_limit { 1 }
+  level { 500 }
+  experience { 910000 }
+  hp { 30, 85, 12468 }
+  alignment { -1000 }
+  gold { 15000 }
+  caster { 15 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 2 }
+  head { -90, 10 }
+  body { -90, 8 }
+  arms { -90, 8 }
+  legs { -90, 8 }
+  feet { -90, 8 }
+  immune { charm,sleep }
+  spells { shriek }
+  affected { sanctuary, true-sight, infravision }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62007
+{
+  name { a wandering corpse }
+  namelist { corpse }
+  shortdesc { A patch-work corpse walks randomly along the hallways. }
+  longdesc {
+Mindless and broken, the patch-work corpse limps along the hallway.  It
+does not seem to have anywhere to go.  There are limbs from various
+bodies making up the corpse.  The arm of a slim lady, the leg and head
+of a fat man and the hands of of strong warrior all make its appearance
+very disturbing.  Moaning, it turns and jumps at you, sensing your 
+warmth.
+  }
+  race { Undead }
+  world_limit { 3 }
+  level { 150 }
+  experience { 105000 }
+  hp { 25, 40, 1542 }
+  alignment { -750 }
+  gold { 5500 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 2 }
+  head { -60, 6 }
+  body { -60, 6 }
+  arms { -60, 6 }
+  legs { -60, 6 }
+  feet { -60, 6 }
+  affected { true-sight, infravision }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62008
+{
+  name { a mutilated experiment }
+  namelist { experiment }
+  shortdesc { A mutilated experiment moans from the examination table. }
+  longdesc {
+Its body jumps and seizes as you move closer to get a better look.  It
+stares at you, with its one good eye.  A metal plate has been molded
+and bolted across the right side of its head.  A tear drops from its
+eye.  "K...k....Kill ME!", it desperately whispers.  "I cannot live
+like this anymore!", it weeps, closing its eye.  A green luster seems
+to be emitting from its body.
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 250 }
+  experience { 325000 }
+  hp { 25, 40, 3666 }
+  alignment { -750 }
+  gold { 10500 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 4 }
+  head { -85, 9 }
+  body { -85, 9 }
+  arms { -85, 9 }
+  legs { -85, 9 }
+  feet { -85, 9 }
+  affected { true-sight, invulnerability, infravision }
+  immune { charm,sleep }
+  act { npc, sentinel, stay-zone }
+}
+
+62009
+{
+  name { Sparky, a mutilated experiment }
+  namelist { sparky experiment }
+  shortdesc { A mutilated experiment moans from the examination table. }
+  longdesc {
+Its body jumps and seizes as you move closer to get a better look.  It
+stares at you with sad desperation.  A bolt of lightning soars from
+the sky a strikes the poor creature.  Its body shakes so hard it falls
+off the table.  It raises its head towards you and you see a tear drop 
+from its eye.  "K...k....kill me!", it desperately whispers.  "I cannot
+live like this anymore!", it weeps, closing its eyes.  A green luster 
+seems to be emitting from its body.
+  }
+  race { Human }
+  world_limit { 2 }
+  level { 280 }
+  experience { 345000 }
+  hp { 25, 40, 4223 }
+  alignment { -750 }
+  gold { 12000 }
+  caster { 10 }
+  power { 1000 }
+  hit_bonus { 20 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 6 }
+  head { -95, 12 }
+  body { -95, 9 }
+  arms { -95, 9 }
+  legs { -95, 9 }
+  feet { -95, 9 }
+  affected { true-sight, invulnerability, infravision }
+  spells { chain lightning }
+  immune { charm,sleep }
+  act { npc, sentinel, stay-zone }
+}
+
+62010
+{
+  name { The vampire Lestat *QUEST* }
+  namelist { lestat vampire }
+  shortdesc { A pale and weak looking figure lurks in the shadows. }
+  longdesc { 
+Your initial fear subsides as you notice the figure cower from you.  
+>From the looks of him, he has been rotting away here for some time now.
+He may not have the strength to move, let alone be a threat to you. 
+However, as you approach, you notice two abnormally pointy teeth.  
+There is also a certain gleam in his eye that tells you this fellow 
+isn't looking for a new friend.
+  }
+  race { Vampire }
+  world_limit { 1 }
+  level { 510 }
+  experience { 1325995 }
+  hp { 30, 300, 20000 }
+  alignment { -100 }
+  gold { 50000 }
+  hit_bonus { 20 }
+  dam_bonus { 11 }
+  attacks_per_round { 6 }
+  move  { 800 }
+  damage { 3, 6, 9 }
+  head { -100, 20 }
+  body { -100, 20 }
+  arms { -100, 20 }
+  legs { -100, 20 }
+  feet { -100, 20 }
+  affected { invisible, nosummon, true-sight, detect-invisible, infravision, sneak, flying }
+  immune { charm, poison, sleep, cold, hold, backstab }
+  resistant { energy, slash, pierce }
+  susceptible { fire }
+  act { npc, sentinel, scavenger, wimpy }
+  caster { 75 }
+  power { 1000 }
+  mana { 1000 }
+  spells { energy drain, fear, heal }
+}
+
+62011
+{
+  name { The vampire lord }
+  namelist { vampire lord }
+  shortdesc { The vampire lord eyes you hungrily from the back of the room. }
+  longdesc { 
+A handsome man, dressed in a classic black tuxedo, rests against the
+wall to the back of the room.  He looks to be very young in age, but the
+haunted look in his eyes reveals an amost agelessness.  His face
+contorts into a smile as he realizes you are staring at him.  Two long,
+sharp canine teeth are revealed beneath his ruby red lips.
+  }
+  race { Vampire }
+  world_limit { 1 }
+  level { 350 }
+  experience { 475000 }
+  hp { 30, 30, 6823 }
+  alignment { -1000 }
+  gold { 17000 }
+  caster { 10 }
+  mana { 1000 }
+  power { 1000 }
+  hit_bonus { 18 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -100, 15 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, flying, sanctuary }
+  spells { fear, harm }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, aggressive }
+}
+
+62012
+{
+  name { The vampire underling }
+  namelist { vampire underling }
+  shortdesc { A young man hisses at you and rears to attack. }
+  longdesc { 
+The vampire underling stands before his master, hissing at you with his
+teeth bared.  He is dressed in a shining black tuxedo and his hair is
+completely slicked back.  Some trickles of blood still linger on his
+chin.
+  }
+  race { Vampire}
+  world_limit { 2 }
+  level { 250 }
+  experience { 390000 }
+  hp { 30, 30, 4651 }
+  alignment { -1000 }
+  gold { 13000 }
+  hit_bonus { 15 }
+  dam_bonus { 6 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -90, 10 }
+  body { -90, 8 }
+  arms { -90, 8 }
+  legs { -90, 8 }
+  feet { -90, 8 }
+  affected { true-sight, flying }
+  immune { charm }
+  susceptible { fire }
+  act { npc, sentinel, aggressive }
+}
+
+62013
+{
+  name { a vampire bat }
+  namelist { vampire bat }
+  shortdesc { A large, black vampire bat flies around the room. }
+  longdesc {
+*Whoosh*  The vampire bat does a kamikaze dive straight for your head.
+The bat is quite large and its color is pitch black.  It flies back up,
+screeches at you and sets back into another dive.
+  }
+  race { None }
+  world_limit { 20 }
+  level { 21 }
+  experience { 5800 }
+  hp { 5, 6, 275 }
+  alignment { -1000 }
+  gold { 2125 }
+  hit_bonus { 12 }
+  dam_bonus { 4 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, special, wimpy, stay-zone }
+}
+
+62014
+{
+  name { a vampire bat }
+  namelist { vampire bat }
+  shortdesc { A large, black vampire bat flies around the room. }
+  longdesc {
+*Whoosh*  The vampire bat does a kamikaze dive straight for your head.
+The bat is quite large and its color is pitch black.  It flies back up,
+screeches at you and sets back into another dive.
+  }
+  race { None }
+  world_limit { 10 }
+  level { 21 }
+  experience { 5800 }
+  hp { 5, 6, 275 }
+  alignment { -1000 }
+  gold { 2125 }
+  hit_bonus { 12 }
+  dam_bonus { 5 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 2 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  affected { infravision, flying }
+  immune { charm }
+  act { npc, wimpy, stay-zone }
+}
+
+62015
+{
+  name { Patricia, the lonely ghost }
+  namelist { patricia ghost }
+  shortdesc { The ghost of a lonely woman sits with some skeletons near the corner. }
+  longdesc {
+A lovely looking old lady floats in the corner, speaking to some long
+dead skeletons.  "Oh course, Mr. Penniweather, I will get us some tea
+right now!", she cheerfully bellows.  Floating over to a table, made
+out of some broken tombstones, she grabs a tea set and brings it back
+over to her friends.  "One lump or two, Mrs. Simpson.".
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 280 }
+  experience { 656000 }
+  hp { 25, 40, 6689 }
+  alignment { 0 }
+  gold { 15000 }
+  caster { 10 }
+  power { 1000 }
+  hit_bonus { 15 }
+  dam_bonus { 7 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -95, 12 }
+  body { -95, 10 }
+  arms { -95, 10 }
+  legs { -95, 10 }
+  feet { -95, 10 }
+  affected { true-sight, sanctuary, flying }
+  spells { dispel magic }
+  immune { charm,sleep }
+  act { npc, sentinel, stay-zone }
+}
+
+62016
+{
+  name { The Pumpkin King *QUEST* }
+  namelist { pumpkin king }
+  shortdesc { A gigantic orange pumpkin etched with battle scars sits here. }
+  longdesc { 
+The Pumpkin King rests in a patch of thorny, green vines.  A shiny
+golden crown sits upon his gigantic pumpkin head.  His head is slowly
+pushed up by the vines beneath him.  The vines start to form a body,
+then some arms and legs.  The Pumpkin King now towers high above you.
+A giant, oval eye slowly opens in the middle of its face.  A vicious
+smile opens width wise across his face, revealing a black pit of
+swirling mist.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 525 }
+  experience { 1650000 }
+  hp { 75, 75, 20000 }
+  alignment { -1000 }
+  gold { 6666 }
+  hit_bonus { 25 }
+  dam_bonus { 11 }
+  attacks_per_round { 6 }
+  move  { 200 }
+  damage { 4, 5, 10 }
+  head { -140, 25 }
+  body { -100, 25 }
+  arms { -100, 15 }
+  legs { -100, 15 }
+  feet { -100, 15 }
+  affected { true-sight, sanctuary, invisible, flying }
+  immune { charm,sleep, pierce, slash, hold, backstab }
+  act { npc, aggressive, scavenger, stay-zone }
+}
+
+62017
+{
+  name { The Pumpkin King }
+  namelist { pumpkin king }
+  shortdesc { A gigantic orange pumpkin slowly rises from the mist. }
+  longdesc { 
+The Pumpkin King slowly rises from a glowing, foggy mist.  A shiny
+golden crown sits upon his gigantic pumpkin head.  Thousands of thorny,
+green vines shout out from the bottom of its head, like thin, waving
+arms.  A mighty golden brown sceptor with a pumpkin at the top is held
+tightly with some of the vines.  A giant, oval eye slowly opens in the
+middle of its face.  A vicious smile opens width wise across his face,
+revealing a black pit of swirling mist.
+  }
+  race { Ghost }
+  world_limit { 1 }
+  level { 520 }
+  experience { 1300000 }
+  hp { 100, 20, 18000 }
+  alignment { -1000 }
+  gold { 50000 }
+  caster { 20 }
+  power { 1000 }
+  mana { 1000 }
+  hit_bonus { 22 }
+  dam_bonus { 11 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 7, 6 }
+  head { -140, 20 }
+  body { -120, 15 }
+  arms { -120, 15 }
+  legs { -120, 15 }
+  feet { -120, 15 }
+  affected { true-sight, sanctuary, flying }
+  spells { weakness, dispel magic, shriek, disruptor }
+  immune { charm,sleep }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62018
+{
+  name { A wandering pumpkin }
+  namelist { pumpkin }
+  shortdesc { A giant pumpkin roams the pumpkin patch for its next victim. }
+  longdesc {
+A giant pumpkin roams along the trails of the pumpkin patch.  The
+pumpkin is a glowing orange color and has a bunch of thorny, green
+vines beneath it, moving it along.  You cannot see an eye, mouth, nose
+or ear, but you can tell the pumpkin is well aware you are intruding on
+his turf.  A very pumpkin-like moan comes from the creature as he rears
+to attack.
+  }
+  race { None }
+  world_limit { 3 }
+  level { 350 }
+  experience { 495000 }
+  hp { 25, 40, 5111 }
+  alignment { -1000 }
+  gold { 20500 }
+  caster { 10 }
+  power { 500 }
+  mana { 500 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -85, 12 }
+  body { -85, 11 }
+  arms { -85, 11 }
+  legs { -85, 11 }
+  feet { -85, 11 }
+  affected { true-sight, nosummon }
+  spells { shriek, gust of wind, repulsor }
+  immune { charm }
+  act { npc, aggressive, stay-zone }
+}
+
+62019
+{
+  name { A giant pumpkin }
+  namelist { giant pumpkin }
+  shortdesc { A giant pumpkin blocks the way to the east. }
+  longdesc {
+This pumpkin is easily the size of a small shack.  Its color is a 
+beautiful golden orange hue.  The thorny, green vines drape over and
+around it, as though they are holding it to the ground.  Pretty white
+and yellow flowers are growing from the green vines.  The pumpkin 
+starts to shake and a fine yellow power starts to drift from the
+blossoms.  *Ah-Chew*!  You seem to have inhaled some of the yellow
+powder and your eyes are getting very sleepy.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 450 }
+  experience { 699000 }
+  hp { 25, 40, 7500 }
+  alignment { -1000 }
+  gold { 15000 }
+  caster { 10 }
+  power { 800 }
+  mana { 800 }
+  hit_bonus { 20 }
+  dam_bonus { 9 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 6, 5 }
+  head { -135, 15 }
+  body { -115, 13 }
+  arms { -115, 13 }
+  legs { -115, 13 }
+  feet { -115, 13 }
+  affected { true-sight, sanctuary, nosummon }
+  spells { shriek, weakness, repulsor, gust of wind }
+  immune { charm,sleep }
+  act { npc, sentinel, aggressive, stay-zone }
+}
+
+62020
+{
+  name { A simple scarecrow }
+  namelist { scarecrow }
+  shortdesc { A simple scarecrow sticks out from the pumpkin patch. }
+  longdesc {
+The scarecrow is dressed in a simple brown and gray suit.  The suit is
+in very good condition considering the scarecrow is stuck out in the
+open and has probably been for awhile.  A warm energy seems to be 
+emitting from the scarecrow.  Maybe it is not as simple as it looks.  A
+wide smile seems to have appeared no its face.
+  }
+  race { None }
+  world_limit { 1 }
+  level { 250 }
+  experience { 485500 }
+  hp { 30, 50, 4865 }
+  alignment { -750 }
+  gold { 15000 }
+  hit_bonus { 15 }
+  dam_bonus { 8 }
+  attacks_per_round { 4 }
+  move  { 200 }
+  damage { 3, 5, 4 }
+  head { -120, 12 }
+  body { -100, 10 }
+  arms { -100, 10 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { true-sight, sanctuary, nosummon }
+  immune { charm,sleep }
+  act { npc, sentinel, stay-zone }
+}
+

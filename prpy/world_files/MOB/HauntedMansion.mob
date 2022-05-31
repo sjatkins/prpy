@@ -1,0 +1,1026 @@
+67001
+{
+  name { an insubstancial ghost }
+  namelist { ghost }
+  shortdesc { A beautiful yet insubstantial ghost floats here.  She wants to be your friend. }
+  longdesc {
+If you were in to girls, this would be your ideal woman.  It is almost as if
+the very essence of what you deem beautiful has been lifted from your mind
+and given form.  Of course, if you're not in to girls, then she just looks
+like a very pretty girl-ghost. 
+  }
+  race { undead }
+  sex { female }
+  height { 100 }
+  level { 110 }
+  alignment { -999 }
+  gold { 7000 }
+  hit_bonus { 18 }
+  dam_bonus { 5 }
+  attacks_per_round { 2 }
+  head { -35, 12 }
+  body { -35, 12 }
+  arms { -35, 12 }
+  legs { -32, 12 }
+  feet { -32, 12 }
+  hp { 9, 60, 2000  }
+  move { 200 }
+  experience { 62500 }
+  damage { 2, 5, 10 }
+  immune { charm }
+  caster { 110 }
+  spells { fear }  
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+67002
+{
+  name { A Giant Bat }
+  namelist { bat giant }
+  shortdesc { A Giant Bat swoops in at you from above. }
+  longdesc {
+This huge bat has a 16 foot wingspan.  It has huge claws that look
+capable of tearing you apart, and razor sharp fangs that could
+penetrate stone!
+  }
+  race { none }
+  world_limit { 20 }
+  height { 100 }
+  level { 300 }
+  alignment { -999 }
+  gold { 9500 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 3 }
+  head { -60, 5 }
+  body { -60, 5 }
+  arms { -60, 5 }
+  legs { -60, 5 }
+  feet { -60, 5 }
+  hp { 3, 200, 10000  }
+  move { 200 }
+  experience { 653000 }
+  damage { 3, 7, 9  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67003
+{
+  name { a haunt }
+  namelist { haunt }
+  short { A ghostly apparition weeps silently. }
+  long {
+This is the cursed spirit of a former noble of this once fair house,
+doomed to remain and watch it slowly decay into nothing, helpless to
+leave or prevent this or its own suffering. Coupled with this is the
+fact that anyone who could speak her language died millennia ago.
+  }
+  race { undead }
+  sex { female }
+  level { 140 }
+  alignment { -999 }
+  gold { 7000 }
+  hit_bonus { 19 }
+  dam_bonus { 11 }
+  attacks_per_round { 2.2 }
+  head { -45, 8 }
+  body { -45, 6 }
+  arms { -45, 6 }
+  legs { -42, 6 }
+  feet { -42, 6 }
+  hp { 8, 50, 1300  }
+  move { 200 }
+  experience { 132800 }
+  damage { 2, 7, 5  }
+  immune { charm }
+  resistant { pierce }
+  caster { 140 }
+  spells { weakness }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+67004
+{
+  name { The Heartchord }
+  namelist { heartchord zombie }
+  shortdesc { The Heartchord stands here, it's heart beating visibly between the open wound of his chest. }
+  longdesc {
+Long dead, with mildew clinging to the rotting, stinking flesh, the Heartchord
+is a giant, restless zombie.  It's name comes from the open, gaping wound on it's
+chest where it's purple-black heart can be seen visibly pounding with every beat.
+It is rumoured that Lord Flay attempted to tear the heart out in his rampage, but
+succeeded only in leaving the gaping wound we see now.
+  }
+  race { undead }
+  height { 100 }
+  level { 300 }
+  alignment { -999 }
+  gold { 11100 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 3 }
+  head { -15, 5 }
+  body { -15, 0 }
+  arms { -15, 6 }
+  legs { -12, 6 }
+  feet { -12, 6 }
+  hp { 10, 100, 4150 }
+  move { 200 }
+  experience { 222000 }
+  damage { 3, 5, 8  }
+  immune { charm }
+  resistant { pierce, fire, cold, electricity, energy, acid, poison }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67005
+{
+  name { a greasy cook }
+  namelist { greasy cook ratdude }
+  shortdesc { A rotund rat is here, cheerfully cooking some sort of questionable s
+ubsatnce. }
+  longdesc {
+The apron that this rat is wearing barely covers his rather large belly.
+Occasionally the cook prods the roasted cat with one finger, sticks it
+in his mouth, and smiles happily.
+  }
+  race { none }
+  height { 100 }
+  level { 238 }
+  alignment { -999 }
+  gold { 10750 }
+  hit_bonus { 22 }
+  dam_bonus { 14 }
+  attacks_per_round { 2 }
+  head { -21, 4 }
+  body { -19, 6 }
+  arms { -21, 6 }
+  legs { -21, 6 }
+  feet { -21, 6 }
+  hp { 4, 50, 4000  }
+  move { 200 }
+  experience { 212550 }
+  damage { 3, 9, 5 }
+  immune { charm }
+  resistant { cold }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67006
+{
+  name { the Zombie Master }
+  namelist { ZombieMaster master }
+  shortdesc { The Zombie Master is standing here looking very frightening. }
+  longdesc {
+    The Zombie Master is tall (7'2") and skinny.  He's wearing a tie-dye
+  T-shirt and blue jeans.  He's fairly handsome if you don't consider
+  the hordes of walking dead following him around...
+  }
+  race { undead }
+  level { 100 }
+  alignment { 0 }
+  gold { 3100 }
+  hit_bonus { 5 }
+  dam_bonus { 8 }
+  attacks_per_round { 1 }
+  head { 30, 10 }
+  body { 30, 10 }
+  arms { 30, 10 }
+  legs { 30, 10 }
+  feet { 30, 10 }
+  hp { 8, 8, 1400  }
+  move { 300 }
+  experience { 70050 }
+  damage { 3, 6, 3  }
+  act { special }
+}
+67007
+{
+  name { the wraith }
+  namelist { wraith }
+  shortdesc { A misty wraith is drifting around here. }
+  longdesc {
+Made up of the pure negative energy the wraith feasts upon the life energy of
+all living creatures.
+  }
+  race { undead }
+  height { 100 }
+  level { 118 }
+  alignment { -999 }
+  gold { 5900 }
+  hit_bonus { 20 }
+  dam_bonus { 4 }
+  attacks_per_round { 2.5 }
+  head { 15, 6 }
+  body { 15, 6 }
+  arms { 15, 6 }
+  legs { 12, 6 }
+  feet { 12, 6 }
+  hp { 7, 10, 4000  }
+  move { 200 }
+  experience { 173000 }
+  damage { 3, 7, 4 }
+  immune { charm }
+  spells { energy drain }
+  resistant { backstab, fire }
+  affected { detect-invisible }
+  act { aggressive, stay-zone }
+}
+67008
+{
+  name { A Skeletal Giant }
+  namelist { giant skeletal }
+  shortdesc { A Massive Skeletal Giant charges at you mindlessly }
+  longdesc {
+   This is the undead remains of a long dead Fire Giant, its
+body's flesh has decayed many years ago leaving a pile of charred
+bones and a few scraps of clothing.
+  }
+  race { undead }
+  height { 100 }
+  level { 320 }
+  alignment { -999 }
+  gold { 9200 }
+  hit_bonus { 20 }
+  dam_bonus { 8 }
+  attacks_per_round { 2.5 }
+  head { -1, 7 }
+  body { -1, 9 }
+  arms { -1, 9 }
+  legs { -1, 9 }
+  feet { -1, 9 }
+  hp { 10, 50, 5000  }
+  move { 200 }
+  experience { 426000 }
+  damage { 3, 8, 7  }
+  immune { charm }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67009
+{
+  name { Vartha, the Vampiress }
+  namelist { vampire vampiress }
+  shortdesc { Vartha, the Vampiress stands here, licking her fangs. }
+  longdesc {
+Vartha is a short girl, standing only 5' tall, although the gentle
+curve of her legs makes her appear taller.  She was turned in to a
+vampire when she was still a teen and, like many teenagers, has a
+tendency towards petulance and small evil acts.  Be careful around
+her, for she is like to look upon you as her plaything!
+  }
+  race { undead }
+  sex { female }
+  height { 152 }
+  level { 550 }
+  world_limit { 1 }
+  alignment { -999 }
+  gold { 91600 }
+  mana { 1600 }
+  power { 2000 }
+  hit_bonus { 40 }
+  dam_bonus { 30 }
+  attacks_per_round { 5 }
+  head { -150, 14 }
+  body { -150, 16 }
+  arms { -150, 16 }
+  legs { -120, 16 }
+  feet { -120, 16 }
+  hp { 10, 20, 33000  }
+  move { 200 }
+  experience { 2200000 }
+  damage { 1, 50, 11  }
+  immune { charm, backstab }  
+  affected { detect-invisible }
+  act { aggressive, stay-zone, sentinel }
+  caster { 552 }
+  spells { shriek, energy drain, blindness, weakness, repulsor }  
+}
+67010
+{
+  name { Lord Flay }
+  namelist { juggernaut spirit lord flay }
+  shortdesc { Lord Flay, the Juggernaut looms here, full of fury and malice. }
+  longdesc {
+Lord Flay, known as the Juggernaut for his ferocity and malice, was
+once the owner of this mansion.  Legend says that in a fit of rage
+he destroyed his family and cursed them all with un-life.  The hellish
+existence attracted the attentions of the paladin, Sir Wrathschide,
+who managed to trap Lord Flay at the top of his tower, but at the
+cost of his immortal soul, for should he leave, Lord Flay would be
+free of his prison and able to roam the world!
+  }
+  race { undead }
+  height { 560 }
+  level { 600 }
+  alignment { 0 }
+  gold { 1975000 }
+  mana { 1000 }
+  power { 1600 }
+  hit_bonus { 75 }
+  dam_bonus { 25 }
+  attacks_per_round { 4 }
+  head { -190, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  hp { 2, 200, 47700 }
+  move { 200 }
+  experience { 3505140 }
+  damage { 2, 35, 50  }
+  caster { 560 }
+  spells { repulsor }
+  immune { charm }
+  resistant { fire, cold, electricity, acid, poison }
+  susceptible { energy }
+  affected { invisible, detect-invisible, sanctuary }
+  act { sentinel, stay-zone }
+}
+67011
+{
+  name { Squire Trellary, the Death Knight }
+  namelist { death knight squire trellary }
+  shortdesc { The Death Knight, Squire Trellary, is praying here. }
+  longdesc {
+Squire Trellary was a paladin, a knight in service under Sir Wrath-
+schide.  In life he was hot-headed, quick to judge and mistook bravery
+for recklessness.  He rushed on ahead of Sir Wrathschide, convinced he
+would slay all the evildoers and return triumphant.  He met Lord Flay
+soon on and was bested.  As he lay bleeding, dying, on the floor, Lord
+Flay cursed his foolishness, making him rise as a Death Knight for all
+eternity.
+  }
+  race { undead }
+  sex { male }
+  height { 200 }
+  level { 400 }
+  alignment { -999 }
+  gold { 22000 }
+  hit_bonus { 26 }
+  dam_bonus { 17 }
+  attacks_per_round { 4 }
+  head { -50, 23 }
+  body { -50, 22 }
+  arms { -50, 22 }
+  legs { -20, 22 }
+  feet { -20, 22 }
+  hp { 30, 30, 7000  }
+  move { 200 }
+  experience { 550000 }
+  damage { 3, 8, 12  }
+  immune { charm }
+  caster { 400 }
+  spells { curse, cause serious, harm }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67012
+{
+  name { the Cambion }
+  namelist { cambion }
+  shortdesc { The Cambion stands here, radiating power.
+The Cambion is surrounded by an evil aura. }
+  longdesc {
+The Cambion is an arch-duke in the deeper layers of Hell.  It was summoned 
+and set loose in the mansion to wreak havoc and destroy all it encountered.
+Having long ago accomplished it's mission, it now sits and waits for the
+souls it feeds upon to come to it where it devours them slowly, savouring
+their terror.
+  }
+  race { demon }
+  height { 300 }
+  level { 481 }
+  world_limit { 1 }
+  alignment { -1000 }
+  gold { 53000 }
+  hit_bonus { 54 }
+  dam_bonus { 33 }
+  attacks_per_round { 4 }
+  head { -150, 6 }
+  body { -150, 6 }
+  arms { -150, 6 }
+  legs { -120, 6 }
+  feet { -120, 6 }
+  hp { 30, 50, 40500  }
+  move { 200 }
+  experience { 110000 }
+  damage { 2, 5, 20  }
+  immune { charm }
+  caster { 481 }
+  spells { sunray }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67013
+{
+name { the Crippled Boy }
+namelist { boy crippled child corpse }
+shortdesc { The corpse of a crippled child is here, squirming on the floor. }
+longdesc {
+In life, the Crippled Boy was the son of Lord Flay.  He loved to run
+and play in the fields surrounding the house.  He would chase butter-
+flies and catch frogs to scare his mother with.  And then the madness
+descended and Lord Flay broke both his legs before unleashing the
+horror upon the mansion, knowing that his son, the poor Crippled Boy,
+would never be able to run away his doom.
+  }
+  race { undead }
+  height { 100 }
+  level { 350 }
+  alignment { 999 }
+  hit_bonus { 20 }
+  dam_bonus { 9 }
+  gold { 7000 }
+  attacks_per_round { 4 }
+  head { -15, 6 }
+  body { -15, 6 }
+  arms { -15, 6 }
+  legs { -12, 6 }
+  feet { -12, 6 }
+  hp { 100, 100, 11000  }
+  move { 200 }
+  experience { 105000 }
+  damage { 3, 2, 2  }
+  immune { charm }
+  resistant { pierce }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+67014
+{
+name { the Fallen Guardian }
+namelist { fallen guardian }
+shortdesc { A fallen knight stands here, guarding the way upwards. }
+longdesc {
+When Sir Wrathschide sought to cleanse the mansion, he brought with
+him many good men who had sworn to vanquish evil.  Many of the knight
+companions fell to the power of Lord Flay, being unable to withstand
+the sheer power.  As the c
+  }
+  race { none }
+  height { 100 }
+  level { 338 }
+  alignment { -999 }
+  gold { 43600 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 3.5 }
+  head { -150, 20 }
+  body { -150, 20 }
+  arms { -150, 20 }
+  legs { -120, 20 }
+  feet { -120, 20 }
+  hp { 50, 100, 6000  }
+  move { 200 }
+  experience { 400000 }
+  damage { 3, 5, 10  }
+  immune { charm }
+  resistant { fire }
+  affected { detect-invisible, sanctuary }
+  act { sentinel, stay-zone }
+}
+67015
+{
+  name { the skeletal warrior }
+  namelist { skeletal warrior }
+  shortdesc { A skeletal warrior stands guard here. }
+  longdesc {
+Larger than a regular skeleton and certainly more power, this skeleton looks
+as if it has been standing guard here for centuries.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 308 }
+  gold { 5000 }
+  alignment { -1000 }
+  hit_bonus { 17 }
+  dam_bonus { 12 }
+  attacks_per_round { 2 }
+  head { 30, 8 }
+  body { 30, 8 }
+  arms { 30, 8 }
+  legs { 30, 8 }
+  feet { 30, 8 }
+  hp { 4, 208, 2244 }
+  move { 300 }
+  experience { 211267 }
+  damage { 2, 6, 6 }
+  immune { charm }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { sentinel, aggressive, stay-zone }
+}
+67016
+{
+  name { Gorn }
+  namelist { gorn guardian eternal haunted }
+  shortdesc { Gorn, Guardian Eternal }
+  longdesc {
+Gorn, Guardian Eternal, formerly a soldier in Sareks personal guard appears
+to be weary of his task.  With a saddening glance Gorn says "I am truly
+sorry, but I am afraid I must kill you."
+  }
+  race { human }
+  height { 100 }
+  level { 360 }
+  alignment { 1000 }
+  gold { 54600 }
+  hit_bonus { 20 }
+  dam_bonus { 12 }
+  attacks_per_round { 3.5 }
+  head { -150, 26 }
+  body { -150, 26 }
+  arms { -150, 26 }
+  legs { -120, 26 }
+  feet { -120, 26 }
+  hp { 50, 100, 7000  }
+  move { 200 }
+  experience { 531000 }
+  damage { 3, 5, 20  }
+  immune { charm }
+  resistant { blunt }
+  affected { detect-invisible }
+  act { aggressive, sentinel, stay-zone }
+}
+67017
+{
+  name { Byrn }
+  namelist { byrn guardian eternal }
+  shortdesc { Byrn, Guardian Eternal }
+  longdesc {
+Byrn, Guardian Eternal, bears the ensignia of Sarek.  He glows red and
+looks like a demon from hell.
+  }
+  race { human }
+  height { 100 }
+  level { 438 }
+  alignment { 1000 }
+  gold { 81000 }
+  hit_bonus { 20 }
+  dam_bonus { 14 }
+  attacks_per_round { 3 }
+  head { -50, 30 }
+  body { -50, 26 }
+  arms { -50, 26 }
+  legs { -20, 26 }
+  feet { -20, 26 }
+  hp { 100, 20, 8000  }
+  move { 200 }
+  experience { 669000 }
+  damage { 3, 5, 14  }
+  immune { charm }
+  resistant { backstab }
+  affected { fireshield, detect-invisible }
+  act { sentinel, stay-zone } 
+}
+67018  
+{
+  name { Krin }
+  namelist { krin guardian eternal }
+  shortdesc { Krin, Guardian Eternal }
+  longdesc {
+Krin, Guardian Eternal, bears the ensignia of Sarek.  Krin looks at you
+and says "Fear not, your deaths shall swift and painless."
+  }
+  race { human }
+  height { 100 }
+  level { 438 }
+  alignment { 1000 }
+  gold { 54600 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -150, 30 }
+  body { -150, 26 }
+  arms { -150, 26 }
+  legs { -120, 26 }
+  feet { -120, 26 }
+  hp { 100, 100, 9000  }
+  move { 200 }
+  experience { 689000 }
+  damage { 3, 5, 14  }
+  immune { charm }
+  resistant { pierce, backstab }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+67019
+{
+  name { Seth }
+  namelist { seth guardian eternal }
+  shortdesc { Seth, Guardian Eternal }
+  longdesc {
+Seth, Guardian Eternal, bears the ensignia of Sarek.  His eyes speak of
+a longing to end the Guardianship, the endless vigil.  Krin looks at you
+with smouldering eyes, striking fear into your veins.
+  }
+  race { none }
+  height { 100 }
+  level { 438 }
+  alignment { -999 }
+  gold { 24600 }
+  hit_bonus { 20 }
+  dam_bonus { 16 }
+  attacks_per_round { 3 }
+  head { -150, 36 }
+  body { -150, 26 }
+  arms { -150, 26 }
+  legs { -120, 26 }
+  feet { -120, 26 }
+  hp { 50, 100, 10000  }
+  move { 200 }
+  experience { 700000 }
+  damage { 3, 5, 20  }
+  immune { charm }
+  resistant { backstab }
+  affected { detect-invisible }
+  act { sentinel, stay-zone }
+}
+67020
+{
+  name { Lord Hansen }
+  namelist { hansen lord guardian eternal }
+  shortdesc { Lord Hansen, Guardian Eternal }
+  longdesc {
+Lord Hansen, Guardian Eternal, bears the ensignia of Sarek.  Lord Hansen
+appears to be weary of this world, almost as if longing for death. }
+  sex { Male }
+  level { 500 }
+  race { human }
+  experience { 900000 }
+  hp { 100, 100, 14000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { 1000 }
+  gold { 330000 }
+  dam_bonus { 30 }
+  hit_bonus { 35 }
+  attacks_per_round { 4 }
+  damage { 4, 3, 20 }
+  head { -160, 35 }
+  body { -150, 25 }
+  arms { -120, 20 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { sanctuary, true-sight, infravision }
+  immune { charm, backstab }
+  resistant { fire }
+  act { sentinel }
+}
+
+67021
+{
+  name { the black baron }
+  namelist { baron black undead }
+  shortdesc { The black baron stands here staring out over the balcony into the distance. }
+  longdesc {
+  The black baron is a nasty looking man converted to the dark side of life, his ears have been cut off and the only thing on him that reminds that he was once a human being is the fact that he still got his nose and eyes. Both blue!
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 180 }
+  alignment { -1000 }
+  gold { 5050 }
+  hit_bonus { 17 }
+  dam_bonus { 8 }
+  attacks_per_round { 2 }
+  head { 1, 2 }
+  body { 1, 2 }
+  arms { 1, 2 }
+  legs { 1, 2 }
+  feet { 1, 2 }
+  hp { 4, 180, 3000 }
+  move { 300 }
+  experience { 45410 }
+  damage { 3, 4, 9 }
+  affected { detect-invisible, sanctuary }
+  act { sentinel }
+  immune { pierce }
+}
+67022
+{
+  name { the bone devil }
+  namelist { bone devil }
+  shortdesc { A bone devil hisses at you in defiance. }
+  longdesc {
+This monster is one of the lesser devils of this plane. He stands nearly nine
+feet tall and has a tail with a poisonous barbed stinger on the end.
+  }
+  race { undead }
+  height { 160 }
+  weight { 10000 }
+  level { 208 }
+  gold { 5000 }
+  alignment { -1000 }
+  hit_bonus { 22 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -40, 21 }
+  body { -40, 11 }
+  arms { -40, 11 }
+  legs { -40, 11 }
+  feet { -40, 11 }
+  hp { 4, 208, 2000 }
+  move { 300 }
+  experience { 319900 }
+  damage { 3, 4, 20 }
+  immune { fire, charm }
+  resistant { fire, cold }
+  affected { detect-invisible }
+  act { special, sentinel, stay-zone }
+}
+67023
+{
+  name { A Bone Guardian }
+  namelist { bone guardian skeleton }
+  shortdesc { A Bone Guardian is here, waiting to kill you. }
+  longdesc {
+Formed entirely of bones, this immense skeleton leaps form the surrounding
+bones to attack!
+  }
+  race { undead }
+  height { 320 }
+  weight { 70000 }
+  level { 579 }
+  gold { 95000 }
+  alignment { -1000 }
+  hit_bonus { 30 }
+  dam_bonus { 30 }
+  attacks_per_round { 6 }
+  strength  { 21 }
+  head { -190, 34 }
+  body { -90, 30 }
+  arms { -90, 30 }
+  legs { -90, 30 }
+  feet { -90, 30 }
+  hp { 50, 100, 11000 }
+  move { 300 }
+  experience { 588911 }
+  damage { 4, 10, 14 }
+  immune { poison, drain, sleep, charm, hold, backstab }
+  affected { detect-invisible, sense-life, infravision }
+  act { sentinel, aggressive, stay-zone }
+}
+67024
+{
+  name { an unholy spirit }
+  namelist { unholy spirit }
+  short { A snarling, drooling clawed creature flies screaming at you! }
+  long {
+You look long and hard but see nothing notable. }
+  }
+  race { undead }
+  height { 100 }
+  level { 300 }
+  alignment { -999 }
+  gold { 72000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 3 }
+  head { -150, 35 }
+  body { -150, 26 }
+  arms { -150, 26 }
+  legs { -120, 26 }
+  feet { -120, 26 }
+  hp { 50, 100, 6000  }
+  move { 200 }
+  experience { 610000 }
+  damage { 3, 5, 10 }
+  immune { charm }          
+  act { special, sentinel, scavenger }
+  affected { blind, detect-evil, sense-life }
+}
+67025
+{
+  name { Hyd }
+  namelist { hyd guardian eternal }
+  shortdesc { Hyd, Guardian Eternal }
+  longdesc {
+Hyd, Guardian Eternal, bears the ensignia of Sarek.  It is hard to get a
+good look at him as he darts into the shadows.
+  }
+  race { human }
+  height { 100 }
+  level { 470 }
+  alignment { 100 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head { -150, 24 }
+  body { -150, 26 }
+  arms { -150, 26 }
+  legs { -120, 26 }
+  feet { -120, 26 }
+  hp { 50, 100, 9000  }
+  move { 200 }
+  experience { 734000 }
+  damage { 3, 5, 16  }
+  immune { charm }
+  resistant { backstab }
+  affected { sanctuary, true-sight, detect-invisible }
+  act { stay-zone, sentinel }
+}
+67026
+{
+  name { Cerne }
+  namelist { cerne guardian eternal }
+  shortdesc { Cerne, Guardian Eternal }
+  longdesc {
+Cerne, Guardian Eternal, bears the ensignia of Sarek.  Cerne, proud and
+noble, promises to be a worthy opponent.
+  }
+  race { human }
+  height { 100 }
+  level { 470 }
+  alignment { 100 }
+  gold { 45000 }
+  hit_bonus { 20 }
+  dam_bonus { 20 }
+  attacks_per_round { 4 }
+  head {-150, 34 }
+  body { 150, 16 }
+  arms { -150, 16 }
+  legs { -120, 16 }
+  feet { -120, 16 }
+  hp { 50, 100, 10000  }
+  move { 200 }
+  experience { 754000 }
+  damage { 3, 5, 18 }
+  immune { charm }
+  resistant { backstab }
+  affected { sanctuary, true-sight, detect-invisible }
+  act { stay-zone, sentinel }
+}
+67027
+{
+  name { Sir Wrathschide }
+  namelist { wrathschide sir paladin knight }
+  shortdesc { Sir Wrathschide, the Guardian Eternal, is ever alert here.
+Sir Wrathschide glows with a silvery sheen. }
+  longdesc {
+Sir Wrathschide stormed the mansion with his men long ago.  Their task
+was simple; hold back the spreading evil and destroy Lord Flay.  Sadly,
+Lord Flay proved too powerful to destroy and the only way that the evil
+could be contained was to lock it away in the very top of the tower and
+prevent anyone from ever getting to it.  So Sir Wrathschide laid down
+his life to this end, swearing that he would remain a vigilant guardian
+until the day Lord Flay was no longer a threat. }
+  level { 500 }
+  race { human }
+  experience { 1900000 }
+  hp { 50, 100, 30000 }
+  move { 1000 }
+  height { 140 }
+  weight { 90 }
+  alignment { 1000 }
+  gold { 200000 }
+  dam_bonus { 40 }
+  hit_bonus { 35 }
+  attacks_per_round { 5 }
+  damage { 4, 10, 20 }
+  head { -160, 35 }
+  body { -150, 25 }
+  arms { -120, 20 }
+  legs { -100, 10 }
+  feet { -100, 10 }
+  affected { sanctuary, infravision, true-sight }
+  immune { charm }
+  resistant { fire }
+  act { sentinel, stay-zone }
+}
+67028
+{
+  name { The Drowned Son }
+  namelist { son drowned corpse }
+  shortdesc { A sopping wet, pale-blue corpse shuffles around here. }
+  longdesc {
+This poor, dishevelled, sopping wet corpse was once Lord Flay's son.  He was
+handsome in life, standing over two meters tall, with flowing dark locks.
+Those same tresses now hang limply, damply across his shoulders, his skin
+wrinkled and pale from water exposure.  Lord Flay drowned his own son in the
+bath.  And there was, apparently, no reason for such madness!
+  }
+  race { human }
+  height { 200 }
+  level { 226 }
+  gold { 14500 }
+  alignment { -1000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  head { -1, 13 }
+  body { -1, 13 }
+  arms { -1, 13 }
+  legs { -1, 13 }
+  feet { -1, 13 }
+  hp { 5, 200, 4200  }
+  move { 200 }
+  experience { 215733 }
+  damage { 3, 7, 5  }
+  immune { charm }
+  act { sentinel }
+}
+67029
+{
+  name { a manes demon }
+  namelist { manes demon }
+  shortdesc { A manes demon is staring you with an insane bloodlust. }
+  longdesc {
+A man sized figured with long taloned hands. It has been summoned here by a
+greater power to serve without question.
+  }
+  race { devil }
+  height { 125 }
+  level { 337 }
+  gold { 2000 }
+  alignment { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 15 }
+  attacks_per_round { 2.5 }
+  head { -100, 13 }
+  body { -100, 13 }
+  arms { -100, 13 }
+  legs { -100, 13 }
+  feet { -100, 13 }
+  hp { 5, 1000, 2000  }
+  move { 200 }
+  experience { 265733 }
+  damage { 3, 7, 10  }
+  immune { charm }
+  act { sentinel, stay-zone }
+}
+67030
+{
+  name { A demon lord }
+  namelist { demon lord }
+  shortdesc { An enormous demon notices you and steps out of the shadows }
+  longdesc {
+This is on impressive being he has an enormous set of horns on his head,
+which match the rest of him he must be atleast 10 feet tall, and he just fills
+the room with his presence. He turns towards and flash you a smile with alot of
+big pointy teeth in it. Maybe he thinks dinner has arrived..........
+  }
+  race { demon }
+  height { 125 }
+  level { 700 }
+  alignment { 0 }
+  gold { 1175000 }
+  mana { 1000 }
+  power { 1600 }
+  hit_bonus { 45 }
+  dam_bonus { 60 }
+  attacks_per_round { 6 }
+  head { -160, 50 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  hp { 40, 100, 35500  }
+  move { 200 }
+  experience { 1055140 }
+  damage { 4, 10, 80  }
+  caster { 30 }
+  spells { fireball, repulsor, poison cloud }
+  immune { charm, blunt, backstab }
+  resistant { fire, cold, pierce }
+  susceptible { cold }
+  affected { invisible, detect-invisible, fireshield, true-sight }
+  act { sentinel, stay-zone, aggressive }
+}
+67031
+{
+  name { A group of skeletons }
+  namelist { skeletons }
+  shortdesc { A huge pile of bones start to move on the floor }
+  longdesc {
+A group of skeletons start to form up from out of the pile of bones.
+  }
+  race { undead }
+  height { 125 }
+  level { 650 }
+  alignment { 0 }
+  gold { 1075000 }
+  hit_bonus { 45 }
+  dam_bonus { 50 }
+  attacks_per_round { 8 }
+  head { -160, 40 }
+  body { -200, 50 }
+  arms { -150, 40 }
+  legs { -150, 40 }
+  feet { -150, 40 }
+  hp { 40, 100, 30000  }
+  move { 200 }
+  experience { 1055140 }
+  damage { 4, 11, 90  }
+  immune { charm, pierce, slash, backstab, fire }
+  resistant { cold, energy }
+  susceptible { electricity }
+  affected { invisible, detect-invisible, sanctuary, true-sight }
+  act { sentinel, stay-zone, aggressive }
+}

@@ -1,0 +1,1300 @@
+92001
+{
+  name { a red beholder }
+  namelist { beholder red }
+  shortdesc { A big red beholder floats here, alert for intruders. }
+  longdesc {
+This enormous beholder is bright red in colour. It's massive central eye
+is a flitting orb of yellow that darts this way and that, ever alert to
+signs of intruders.
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 5 }
+  level { 485 }
+  experience { 623000 }
+  hp { 4, 400, 9700 }
+  alignment { -1000 }
+  gold { 25000 }
+  hit_bonus { 34 }
+  dam_bonus { 20 }
+  attacks_per_round { 3.3 }
+  dexterity { 25 }
+  intelligence { 20 }
+  move  { 300 }
+  damage { 4, 20, 12 }
+  head { -60, 10 }
+  resist_magic  { 300 }
+  immune { charm }
+  susceptible { cold }
+  affected { true-sight }
+  act { stay-zone, nosummon, aggressive }
+}
+92002
+{
+  name { a purple beholder }
+  namelist { beholder purple }
+  shortdesc { A purple beholder floats here, going about its business. }
+  longdesc {
+This beholder is purple in colour.  It's massive central eye lazily
+flits about, it's eye-stalk eyes mimicking the movement as it floats
+around, doing whatever it is that beholders do.
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 10 }
+  level { 420 }
+  experience { 431500 }
+  hp { 4, 40, 7900 }
+  alignment { 0 }
+  gold { 18000 }
+  hit_bonus { 30 }
+  dam_bonus { 17 }
+  attacks_per_round { 2.8 }
+  move  { 300 }
+  damage { 3, 18, 10 }
+  head { -20, 11 }
+  body { -10, 11 }
+  arms { -10, 11 }
+  legs { -10, 11 }
+  feet { -10, 11 }
+  resist_magic { 215 }
+  immune { charm }
+  susceptible { cold }
+  act { stay-zone, nosummon }
+}
+92003
+{
+  name { a yellow beholder }
+  namelist { beholder yellow }
+  shortdesc { A yellow beholder floats here, protecting the emperor. }
+  longdesc {
+Big, ugly and yellow.  The eye stalks on this giant beholder have been
+eaten off, leaving just the scarred stalks as a reminder of what it once
+had.  But don't that fool you.  These beholders are powerful, able to
+burn your skin to a crisp with their stares!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 4 }
+  level { 700 }
+  experience { 1223000 }
+  hp { 4, 400, 12800 }
+  alignment { 0 }
+  gold { 32000 }
+  hit_bonus { 40 }
+  dam_bonus { 22 }
+  attacks_per_round { 3.4 }
+  dexterity { 25 }
+  move  { 300 }
+  damage { 5, 19, 14 }
+  head { -99, 26 }
+  resist_magic  { 400 }
+  immune { charm }
+  susceptible { cold }
+  affected { true-sight }
+  act { sentinel, stay-zone, nosummon }
+}
+92004
+{
+  name { a green beholder }
+  namelist { beholder }
+  shortdesc { A beholder floats here, snoring gently. }
+  longdesc {
+This beholder is bulbous, green and currently asleep.  In fact
+you could probably give it a hug and it wouldn't wake up.  But
+I wouldn't try that if I were you...
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 1 }
+  level { 230 }
+  experience { 295700 }
+  hp { 4, 400, 4000 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 22 }
+  dam_bonus { 10 }
+  attacks_per_round { 2 }
+  move  { 300 }
+  damage { 3, 10, 6 }
+  head { -10, 6 }
+  resist_magic  { 150 }
+  susceptible { cold }
+  immune { charm }
+  act { sentinel, stay-zone, nosummon }
+}
+92005
+{
+  name { Gynax Misraria }
+  namelist { Gynax Misraria Devourer }
+  shortdesc { Gynax Misraria the Devourer is wandering the caverns. }
+  longdesc {
+Gynax Misraria is a Drow wizard of significance.  He is part of the
+contingent that arrived with Morgania Misraria and whilst she conducts
+the business of the Spider Queen with the beholders, he has taken a
+stroll through the complex with the Beholder's blessing.  We all know
+that Drow do not simply take a stroll for their own amusement, so he
+must be up to something.  Spying?  Who know's? It might be best to
+avoid this one, rumour has it he is more powerful than any wizard from
+Midgard. 
+  }
+  race { elven }
+  sex { male }
+  world_limit { 1 }
+  level { 600 }
+  experience { 2503000 }
+  hp { 4, 400, 39700 }
+  alignment { -1000 }
+  gold { 1100000 }
+  hit_bonus { 32 }
+  dam_bonus { 35 }
+  attacks_per_round { 4 }
+  dexterity { 25 }
+  strength { 40 }
+  intelligence { 25 }
+  move  { 300 }
+  spell_power { 500 }
+  damage { 6, 8, 55 }
+  head { -210, 70 }
+  body { -200, 60 }
+  arms { -200, 60 }
+  legs { -200, 60 }
+  feet { -200, 60 }
+  caster { 85 }
+  spells { repulsor, mind thrust, fireball, disruptor, energy drain, blindness, weakness, fireshield }
+  immune { charm, energy }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+92006
+{
+  name { a mindless slave }
+  namelist { mindless slave }
+  shortdesc { A slave, the life beaten out of her, wanders along here on some errand for the beholders. }
+  longdesc {
+This slave is dressed in dirty rags and wears shackles on her wrists that
+have left horrible red welts. But what you really notice is her eyes.
+They are lifeless. Dead. She is no longer a person. The beholders have
+destroyed her will and she is utterly in their power.
+  }
+  race { human }
+  sex { female }
+  world_limit { 15 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, stay-zone }
+}
+92007
+{
+  name { a food slave }
+  namelist { food slave }
+  shortdesc { A slave stands here, quaking, waiting for the feasting beholders to devour her. }
+  longdesc {
+This slave resisted the beholders domination and is now doomed to be
+eaten alive!
+  }
+  race { human }
+  sex { female }
+  world_limit { 2 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+92008
+{
+  name { a prisoner }
+  namelist { prisoner }
+  shortdesc { A prisoner hangs here, being abused and beaten by the beholders. }
+  longdesc {
+This poor girl is being worked on by the beholders. They are trying to
+break her mind and turn her in to a slave.
+  }
+  race { human }
+  sex { female }
+  world_limit { 3 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+92009
+{
+  name { an albino beholder }
+  namelist { albino beholder }
+  shortdesc { An albino beholder floats, gazing around myopically. }
+  longdesc {
+Albino beholders are rare and elusive!  In most cases these poor
+creatures are eaten immediately upon birth by their spawn-kin.
+The ones that do survive to be adults are rumoured to be the most
+powerful of all beholder-kin.
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 1 }
+  level { 545 }
+  experience { 3205900 }
+  alignment { -1000 }
+  gold { 105000 }
+  hp { 4, 400, 11000 }
+  hit_bonus { 30 }
+  dam_bonus { 23 }
+  attacks_per_round { 3 }
+  dexterity { 12 }
+  intelligence { 30 }
+  wisdom { 30 }
+  move  { 300 }
+  damage { 4, 19, 2 }
+  head { -100, 19 }
+  body { 0, 0 }
+  resist_magic  { 300 }
+  caster { 480 }
+  spells { mage fire, dispel magic, armour as air, mind thrust, fire bolt, chilly, sanctuary, blindness, weakness, energy drain, fireshield }
+  immune { charm, energy }
+  affected { true-sight }
+  act { npc, sentinel, stay-zone, special }
+}
+92010
+{
+  name { The Balor }
+  namelist { Balor }
+  shortdesc { The balor is here wreathed in ash and flame. }
+  longdesc {
+The Balor is a creature of flame and shadow that hides it's hideous form 
+under clouds of billowing smoke and ash.  It wields a powerful sword in
+one hand and in the other a whip.  This particular Balor only has one
+horn left on it's big, red head, the other seems to have been sheared
+off at some point in the past.
+  }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 610 }
+  experience { 3503000 }
+  hp { 40, 40, 22356 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 32 }
+  dam_bonus { 40 }
+  attacks_per_round { 5 }
+  dexterity { 17 }
+  strength { 45 }
+  constitution { 30 }
+  wisdom { 17 }
+  intelligence { 15 }
+  charisma { 19 }
+  move  { 300 }
+  damage { 5, 5, 38 }
+  head { -210, 70 }
+  body { -200, 60 }
+  arms { -200, 60 }
+  legs { -200, 60 }
+  feet { -200, 60 }
+  immune { fire, poison, charm, backstab }
+  resist_acid { 15 }
+  resist_cold { -70 }
+  resist_magic { 30 }
+  resist_electricity { 15 }
+  caster { 400 }
+  spells { gust of wind }
+  skills { dual wield }
+  affected { fireshield, true-sight }
+  act { sentinel, stay-zone, nosummon, healer, aggressive }
+}
+92011
+{
+  name { Mexxil }
+  namelist { Mexxil lizardman emissary }
+  shortdesc { Mexxil the lizardman emissary sits here patiently. }
+  longdesc {
+Mexxil the lizardman is not dissimilar to most of his kind; covered in
+greeny-blue scales, reptilian eyes and a bright blue forked tongue. But
+his speech is quick and fast and those eyes reveal an intelligence you
+did not expect. Where could he hail from? He is dressed in rich looking
+bronze armour and carries a wicked-looking bronze xiphos.
+  }
+  race { lizardman }
+  sex { Male }
+  level { 350 }
+  world_limit { 1 }
+  experience { 475000 }
+  hp { 18, 15, 6100 }
+  move { 200 }
+  alignment { 0 }
+  gold { 15000 }
+  hit_bonus { 18 }
+  dam_bonus { 23 }
+  attacks_per_round { 4 }
+  damage { 3, 6, 3 }
+  head { -90, 13 }
+  body { -80, 12 }
+  arms { -80, 12 }
+  legs { -80, 12 }
+  feet { -80, 12 }
+  affected { sanctuary }
+  immune { charm }
+  act { npc, sentinel, stay-zone,  }
+}
+92012
+{
+  name { Morgania Misraria }
+  namelist { morgania misraria drow emissary }
+  shortdesc { Morgania Misraria, an emissary from the Drow is here in talks with the Beholders. }
+  longdesc {
+Morgania Misraria is a messenger.  But don't let that simple title fool
+you.  She has long served her house and greater good of the Drow by acting
+as a diplomat to other races who might aid or serve the greater Drow plan.
+What she is doing with the beholders?  That is anyone's guess.  She is
+dressed in some of the finest attire her kind can produce and it has been
+rumoured that she is also a cleric of formidable skill.
+  }
+  race { elven }
+  sex { female }
+  height { 160 }
+  weight { 100 }
+  level { 540 }
+  alignment { -1000 }
+  gold { 203001 }
+  hit_bonus { 28 }
+  dam_bonus { 36 }
+  attacks_per_round { 3 }
+  caster { 400 }
+  mana { 3500 }
+  spells { shriek, sanctuary, blindness, weakness, heal }
+  head { -160, 50 }
+  body { -160, 50 }
+  arms { -160, 50 }
+  legs { -160, 50 }
+  feet { -160, 50 }
+  hp { 40, 700, 34620 }
+  move { 3000 }
+  mana { 9000 }
+  experience { 1526291 }
+  damage { 6, 4, 52  }
+  immune { charm, energy }
+  affected { detect-invisible, infravision }
+  act { npc, sentinel, stay-zone, aggressive, healer }
+}
+92013
+{
+  name { a beholder hatchling }
+  namelist { beholder hatchling }
+  shortdesc { A small beholder zips and darts around here. }
+  longdesc {
+This hatchling is only hours old, and yet it already displays powers you
+could only dream of.
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 2 }
+  level { 230 }
+  experience { 245700 }
+  hp { 4, 400, 4000 }
+  alignment { -500 }
+  gold { 5000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  move  { 300 }
+  damage { 3, 7, 6 }
+  head { -10, 6 }
+  resist_magic  { 150 }
+  caster { 20 }
+  spells { mind thrust }
+  immune { charm }
+  act { sentinel, stay-zone, nosummon }
+}
+92014
+{
+  name { the Emperor beholder }
+  namelist { emperor beholder }
+  shortdesc { The emperor beholder floats here, speaking to the latest emissary. }
+  longdesc {
+The Emperor beholder is massive. It's sheer size staggers your senses.
+It's mouth is big enough to swallow a giant barbarian whole. It's skin is
+lime green and the many eye stalks crowning it dart about looking in
+every direction. It's massive red eye is fixed firmly on the emissary
+it is speaking to though. You should be safe whilst it's talking!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 1 }
+  level { 520 }
+  experience { 900100 }
+  hp { 7, 9, 30700 }
+  alignment { -1000 }
+  gold { 105000 }
+  hit_bonus { 20 }
+  dam_bonus { 24 }
+  attacks_per_round { 10 }
+  dexterity { 17 }
+  move  { 800 }
+  damage { 3, 4, 2 }
+  head { -55, 90 }
+  body { -55, 90 }
+  arms { -55, 90 }
+  legs { -55, 90 }
+  feet { -55, 90 }
+  intelligence { 30 }
+  power { 2000 }
+  spell_power { 250 }
+  magic_penetration { 100 }
+  resist_magic { 300 }
+  resist_fire { 55 }
+  resist_cold { 55 }
+  resist_electricity { 10 }
+  resist_water { 55 }
+  resist_acid { -145 }
+  resist_poison { 0 }
+  resist_force { 120 }
+  resist_light { -150 }
+  resist_darkness { 100 }
+  resist_energy { 55 }
+  immune { backstab, charm }
+  affected { true-sight, infravision }
+  caster { 520 }
+  spells { fireshield, ice lance, sleep, dispel magic }
+  act { sentinel, stay-zone, nosummon, special }
+}
+92015
+{
+  name { a red feeding beholder }
+  namelist { feeding beholder }
+  shortdesc { A red beholder floats here, gorging itself on fresh meat. }
+  longdesc {
+This beholder is feeding on a rotting corpse. Gross!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 2 }
+  level { 230 }
+  experience { 415700 }
+  hp { 4, 400, 4000 }
+  alignment { -500 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  move  { 300 }
+  damage { 3, 7, 6 }
+  head { -10, 6 }
+  resist_magic  { 150 }
+  immune { charm }
+  act { stay-zone, sentinel, nosummon, aggressive }
+}
+92016
+{
+  name { a purple gorging beholder }
+  namelist { gorging beholder }
+  shortdesc { A purple beholder floats here, feasting on fresh meat. }
+  longdesc {
+This big beholder is gorging itself on the bodies of dead slaves
+Ewww!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 2 }
+  level { 230 }
+  experience { 395700 }
+  hp { 4, 400, 4000 }
+  alignment { -500 }
+  gold { 8000 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 3 }
+  move  { 300 }
+  damage { 3, 7, 6 }
+  head { -10, 6 }
+  resist_magic  { 150 }
+  immune { charm }
+  act { stay-zone, sentinel, nosummon, aggressive }
+}
+92017
+{
+  name { an ochre beholder }
+  namelist { ochre beholder }
+  shortdesc { An ochre beholder is here, inflicting pain and misery on the prisoners! }
+  longdesc {
+Ochre beholders are well known for their malice and cruelty towards any-
+thing that is not beholder-kin. This one has been tasked with destroying
+the will of prisoners and turning them in to mindless slaves. It has been
+doing a good job too, much to your disgust!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 1 }
+  level { 500 }
+  experience { 703000 }
+  hp { 4, 400, 16700 }
+  alignment { -1000 }
+  gold { 20000 }
+  hit_bonus { 30 }
+  dam_bonus { 15 }
+  attacks_per_round { 4 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 4, 25, 15 }
+  head { -50, 10 }
+  resist_magic  { 200 }
+  immune { charm }
+  affected { sanctuary, true-sight }
+  act { sentinel, stay-zone, nosummon }
+}
+92018
+{
+  name { a gauth }
+  namelist { gauth beholder }
+  shortdesc { A small gauth floats here, making some slaves do some work. }
+  longdesc {
+The gauth is a lesser beholder that is of a yucky bogey-green colour.
+It has a large central eye and six eye- stalks. This one has been
+forced to work for its more powerful cousins and is exacting a heavy
+toll from the slaves it is forcing to work.
+  }
+  race { none }
+  sex { none }
+  world_limit { 4 }
+  level { 138 }
+  experience { 63000 }
+  hp { 9, 15, 3000 }
+  alignment { -1000 }
+  gold { 1000 }
+  hit_bonus { 10 }
+  dam_bonus { 3 }
+  attacks_per_round { 3 }
+  dexterity { 17 }
+  move  { 300 }
+  damage { 5, 3, 6 }
+  head { -50, 10 }
+  resist_magic  { 200 }
+  caster { 20 }
+  spells { mind thrust }
+  affected { true-sight }
+  act { sentinel, stay-zone }
+}
+92019
+{
+  name { a working slave }
+  namelist { working slave }
+  shortdesc { A slave is here, furiously working to patch the tunnel floor. }
+  longdesc {
+This slave is exhausted! Too many hours labour and not enough rest or food.
+  }
+  race { human }
+  sex { female }
+  world_limit { 8 }
+  level { 120 }
+  experience { 55000 }
+  hp { 8, 9, 1225 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 6, 6 }
+  head { 10, 7 }
+  body { 20, 6 }
+  arms { 20, 6 }
+  legs { 20, 6 }
+  feet { 20, 6 }
+  immune { charm }
+  act { npc, sentinel, stay-zone }
+}
+92020
+{
+  name { a Glabrezu }
+  namelist { Glabrezu }
+  shortdesc { The powerful form of a Glabrezu is here! }
+  longdesc {
+Standing as tall as a giant, it's body broad and muscular, a horned dog-like
+head and 4 arms, two of which end in powerful pincers, the Glabrezu is no elf
+to be admired and fawned upon.  It exudes power, confidence, evil.  To even
+be in the same room as this creature is to court disaster.
+  }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 555 }
+  experience { 2803000 }
+  hp { 35, 35, 18356 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 32 }
+  dam_bonus { 25 }
+  attacks_per_round { 6 }
+  dexterity { 21 }
+  strength { 30 }
+  constitution { 30 }
+  wisdom { 17 }
+  intelligence { 21 }
+  charisma { 19 }
+  move  { 300 }
+  damage { 4, 4, 18 }
+  head { -220, 50 }
+  body { -200, 70 }
+  arms { -150, 130 }
+  legs { -140, 40 }
+  feet { -140, 40 }
+  immune { fire, poison, charm, backstab }
+  resist_acid { 15 }
+  resist_cold { -70 }
+  resist_magic { 50 }
+  resist_electricity { 15 }
+  caster { 400 }
+  spells { sleep, weakness, blind, freeze }
+  affected { true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive }
+}
+92021
+{
+  name { A Yochlol }
+  namelist { Yochlol }
+  shortdesc { A Yochlol forms out of a swirling mist. }
+  longdesc {
+A Yochlol! The very handmaiden of the Drow deity Lloth herself! This
+demonic creature was clearly summoned, although for what purpose is
+yet unknown. The creature appears to look like a melted blob of wax
+with 8 arms that continually reforms and remoulds itself. Yuck!
+  }
+  race { demon }
+  world_limit { 1 }
+  level { 353 }
+  experience { 501002 }
+  hp { 14, 18, 6013 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 4 }
+  move { 300 }
+  damage { 5, 7, 19 }
+  head { -40, 10 }
+  body { -40, 10 }
+  arms { -40, 10 }
+  legs { -40, 10 }
+  feet { -40, 10 }
+  immune { fire, cold, charm, backstab, poison, electricity, energy }
+  resistant { pierce }
+  affected { sanctuary, true-sight }
+  caster { 353 }
+  spells { dispel magic, summon demon, pword blind, vampiric touch, *51 }
+  act { sentinel, stay-zone, nosummon, aggressive }
+}
+92022
+{
+  name { an Incubus }
+  namelist { Incubus }
+  shortdesc { The beautiful form of an Incubus is here! }
+  longdesc {
+Grinning like a true demon, the Incubus is beautiful to behold.  His
+energy, his charisma, his charm, all seem to glow around him like an
+aura.  Were it not for the gigantic batwings that grow from its back
+this would be the perfect specimen of maledom.
+  }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 320 }
+  experience { 403000 }
+  hp { 24, 12, 4500 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 15 }
+  dam_bonus { 10 }
+  attacks_per_round { 3.5 }
+  dexterity { 20 }
+  strength { 22 }
+  constitution { 25 }
+  wisdom { 21 }
+  intelligence { 25 }
+  charisma { 40 }
+  move  { 300 }
+  damage { 6, 2, 15 }
+  head { -40, 0 }
+  body { -30, 0 }
+  arms { -20, 0 }
+  legs { -20, 0 }
+  feet { -30, 0 }
+  immune { fire, poison, charm, backstab }
+  resist_acid { 15 }
+  resist_cold { -70 }
+  resist_magic { 50 }
+  resist_electricity { 15 }
+  caster { 510 }
+  spells { charm, sleep, weakness, blind, freeze, gust of wind, dispel magic, sanctuary }
+  affected { true-sight }
+  act { sentinel, stay-zone, nosummon, aggressive }
+}
+92023
+{
+  name { a Vrock }
+  namelist { Vrock }
+  shortdesc { The terrible form of a Vrock is here! }
+  longdesc {
+Although this cross between a human and vulture stands over eight feet tall,
+it's hunched form makes it appear smaller.  Covered in thick, grey skin, with
+vicious claws at the end of it's arms and legs, a maw filled with razor-sharp
+teeth, the Vrock has the appearance of a terrible foe!
+  }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 180 }
+  experience { 303000 }
+  hp { 20, 20, 3900 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 12 }
+  dam_bonus { 19 }
+  attacks_per_round { 3 }
+  dexterity { 14 }
+  strength { 32 }
+  constitution { 20 }
+  wisdom { 12 }
+  intelligence { 9 }
+  charisma { 8 }
+  move  { 300 }
+  damage { 3, 3, 7 }
+  head { 0, 130 }
+  body { 0, 190 }
+  arms { 0, 130 }
+  legs { 0, 130 }
+  feet { 0, 130 }
+  immune { fire, poison, charm, backstab }
+  resist_acid { 15 }
+  resist_cold { -70 }
+  resist_magic { 50 }
+  resist_electricity { 15 }
+  caster { 110 }
+  spells { gust of wind }
+  affected { true-sight }
+  act { sentinel, stay-zone, nosummon, healer, aggressive }
+}
+92024
+{
+  name { a Wastrilith }
+  namelist { Wastrilith }
+  shortdesc { The slithering form of a Wastrilith is here! }
+  longdesc {
+Floating in the air, skin a pale, deathly-blue, the Wastrilith looks like a
+giant eel with bulbous, milky eyes and a maw filled with razor sharp teeth.
+It doesn't appear to be very intelligent, but it is likely more powerful than
+the biggest barbarian with the biggest axe!
+  }
+  race { demon }
+  sex { male }
+  world_limit { 1 }
+  level { 90 }
+  experience { 123000 }
+  hp { 13, 10, 2900 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 14 }
+  dam_bonus { 7 }
+  attacks_per_round { 2 }
+  dexterity { 30 }
+  strength { 23 }
+  constitution { 15 }
+  wisdom { 3 }
+  intelligence { 3 }
+  charisma { 3 }
+  move  { 300 }
+  damage { 2, 4, 9 }
+  head { -10, 20 }
+  body { 0, 30 }
+  arms { -10, 20 }
+  legs { -10, 20 }
+  feet { -10, 20 }
+  immune { fire, poison, charm, backstab }
+  resist_acid { 15 }
+  resist_cold { -70 }
+  resist_magic { 50 }
+  resist_electricity { 15 }
+  affected { true-sight }
+  act { sentinel, stay-zone, nosummon, healer, aggressive }
+}
+92025
+{
+  name { Doctor Maldraxion }
+  namelist { Doctor Maldraxion }
+  shortdesc { Doctor Maldraxion is here, flaying its latest victim. }
+  longdesc {
+Doctor Maldraxion is a mind flayer.  A true, living, powerful mind 
+flayer.  Its skin is a pale, deathly grey, its eyes black like those
+of a shark.  It has a thin, gaunt humanoid body and a head that is
+shaped like that of an octopus.  Four thin tentacles writhe around a
+lamprey-like mouth.  It is more intelligent that you will ever be.
+  }
+  race { MindFlayer }
+  world_limit { 1 }
+  level { 620 }
+  experience { 2703000 }
+  hp { 4, 400, 39700 }
+  alignment { -750 }
+  gold { 2100000 }
+  hit_bonus { 72 }
+  dam_bonus { 87 }
+  attacks_per_round { 2.4 }
+  dexterity { 19 }
+  strength { 15 }
+  intelligence { 40 }
+  wisdom { 40 }
+  move  { 300 }
+  spell_power { 650 }
+  magic_penetration { 350 }
+  damage { 8, 10, 52 }
+  head { -20, 20 }
+  body { -30, 20 }
+  arms { -20, 20 }
+  legs { -20, 20 }
+  feet { -20, 20 }
+  caster { 500 }
+  spells { repulsor, mind thrust, disruptor, energy drain, blindness, weakness, fireshield }
+  immune { charm, cold, fire, electricity, backstab }
+  susceptible { blunt, slash, pierce }
+  affected { true-sight, invulnerability }
+  act { sentinel, stay-zone, nosummon, aggressive, special, healer }
+}
+
+92026
+{
+  name { a hulking aberration }
+  namelist { hulking aberration }
+  shortdesc { A hulking aberration stands here, gazing mindlessly around. }
+  longdesc {
+This disgusting beast might once have been a troll, or a giant, or an ogre.
+Or even any one of a number of humanoids that stood taller than a man.  It
+is huge, covered in thick, corded muscles.  It has fists bigger than any
+hammer you have seen, the knuckles of which have been enhanced by hammered
+iron plates covered in spikes.  Naked it may be, it gives off an aura of
+danger.
+}
+  race { giant }
+  sex { male }
+  level { 520 }
+  height { 321 }
+  weight { 4250 }
+  experience { 799200 }
+  hp { 10, 100, 30000 }
+  alignment { 0 }
+  move { 6000 }
+  gold { 201000 }
+  hit_bonus { 38 }
+  dam_bonus { 160 }
+  damage { 7, 9, 55 }
+  attacks_per_round { 6.4 }
+  strength { 50 }
+  head { -10, 29 }
+  body { -20, 55 }
+  arms { -10, 29 }
+  legs { -10, 29 }
+  feet { -10, 29 }
+  immune { charm, poison, backstab, cold }
+  act { special, stay-zone, aggressive, special }
+}
+92027
+{
+  name { a mindless aberration }
+  namelist { mindless aberration }
+  shortdesc { A mindless aberration stands here, gazing mindlessly around. }
+  longdesc {
+Human-sized, but oh-so-fast. This abberation seems to blur even whilst it
+remains stationary.  It might once have been an elf, or a lizardman, or
+even a Drow, but whatever it was, it is now this thing you see before you.
+A thin strip of iron has been hammered around its head, as the top was, at
+some time, removed and then replaced after the brain had been played with.
+Naked it may be, it gives off an aura of danger.
+}
+  race { human }
+  sex { male }
+  level { 520 }
+  height { 200 }
+  weight { 129 }
+  experience { 699200 }
+  hp { 10, 100, 21000 }
+  alignment { 0 }
+  move { 6000 }
+  gold { 199000 }
+  hit_bonus { 52 }
+  dam_bonus { 40 }
+  damage { 5, 5, 25 }
+  attacks_per_round { 10 }
+  dexterity { 40 }
+  head { -44, 0 }
+  body { -60, 0 }
+  arms { -44, 0 }
+  legs { -44, 0 }
+  feet { -44, 0 }
+  immune { charm, poison, backstab, cold }
+  act { special, stay-zone, aggressive, special }
+}
+92028
+{
+  name { Zain Misraria }
+  namelist { Zain Misraria }
+  shortdesc { Zain Misraria the Drow Scholar sits here, working on a spell. }
+  longdesc {
+Rare enough to find a male who has managed to become a cleric, but
+to find a male who has mastered the mystical arts and the clerical
+ones is a wonder indeed.  His powers are perfectly in-tune with the
+Spider Queen's needs, his magical powers enhanced by the his link
+to his Goddess.  He summons creatures from the lower planes to
+serve his Goddess here, in the material world.
+  }
+  race { elven }
+  sex { male }
+  world_limit { 1 }
+  level { 600 }
+  experience { 2703000 }
+  hp { 4, 400, 39700 }
+  alignment { 0 }
+  gold { 1200400 }
+  hit_bonus { 32 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  dexterity { 25 }
+  strength { 40 }
+  intelligence { 25 }
+  move  { 300 }
+  spell_power { 600 }
+  damage { 6, 8, 62 }
+  head { -210, 70 }
+  body { -200, 60 }
+  arms { -200, 60 }
+  legs { -200, 60 }
+  feet { -200, 60 }
+  caster { 85 }
+  spells { disruptor, energy drain, blindness, weakness, fireshield, sanctuary, heal }
+  immune { charm, energy, backstab }
+  affected { infravision, detect-invisible }
+  act { sentinel, stay-zone, nosummon, aggressive, special }
+}
+92029
+{
+  name { a thrall }
+  namelist { thrall }
+  shortdesc { A thrall is here, following orders to the letter. }
+  longdesc {
+This is a human slave, a thrall, in complete control of someone else.
+She doesn't have any will of her own and has been programmed with a
+few basic commands and suggestions.  It's likely she will defend her-
+self when attacked, but otherwise she shouldn't bother you.
+}
+  race { human }
+  sex { female }
+  level { 250 }
+  height { 75 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 5266 }
+  alignment { -50 }
+  move { 600 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 5, 13 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision }
+  immune { charm }
+  act { stay-zone, special }
+}
+92030
+{
+  name { a ferocious drider }
+  namelist { drider ferocious }
+  shortdesc { A drider is here, guarding the hall. }
+  longdesc {
+Drider's are used by the Drow for all sorts of purposes, from guards and
+watchers to farmers and slaves.  A drider has no will and follows the
+order's of it's maker to letter.  In this case, the maker was the Matron
+of House Misraria.  But what they are doing here, and what they are
+guarding is unknown.  The ways of the Drow are dark and mysterious.
+  }
+  race { none }
+  level { 500 }
+  alignment { -1000 }
+  gold { 115000 }
+  hit_bonus { 35 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  head { -150, 40 }
+  body { -150, 40 }
+  arms { -140, 40 }
+  legs { -110, 40 }
+  feet { -110, 40 }
+  hp { 10, 15, 9000 }
+  move { 300 }
+  experience { 541000 }
+  damage { 2, 40, 40 }
+  immune { charm }
+  affected { detect-invisible, infravision, sanctuary }
+  act { sentinel, stay-zone, special }
+}
+92031
+{
+  name { a vicious drider }
+  namelist { drider vicious }
+  shortdesc { A drider is here, guarding the hall. }
+  longdesc {
+Drider's are used by the Drow for all sorts of purposes, from guards and
+watchers to farmers and slaves.  A drider has no will and follows the
+order's of it's maker to letter.  In this case, the maker was the Matron
+of House Misraria.  But what they are doing here, and what they are
+guarding is unknown.  The ways of the Drow are dark and mysterious.
+  }
+  race { none }
+  level { 500 }
+  alignment { -1000 }
+  gold { 115000 }
+  hit_bonus { 35 }
+  dam_bonus { 40 }
+  attacks_per_round { 4 }
+  head { -150, 40 }
+  body { -150, 40 }
+  arms { -140, 40 }
+  legs { -110, 40 }
+  feet { -110, 40 }
+  hp { 10, 15, 9000 }
+  move { 300 }
+  experience { 541000 }
+  damage { 2, 40, 40 }
+  immune { charm }
+  affected { detect-invisible, infravision, sanctuary }
+  act { sentinel, stay-zone, special }
+}
+92032
+{
+  name { a flayed orc }
+  namelist { orc flayed }
+  shortdesc { A flayed orc is here, going crazy in its madness! }
+  longdesc {
+This orc has been flayed to within an inch of his life.  There is no
+doubt whatsoever that this poor creature has lots his mind, but there
+seems to be some issue about controlling it... Uh oh!
+}
+  race { human }
+  sex { female }
+  level { 250 }
+  height { 75 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 5266 }
+  alignment { -50 }
+  move { 600 }
+  gold { 4000 }
+  hit_bonus { 15 }
+  dam_bonus { 11 }
+  damage { 5, 5, 13 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision }
+  immune { charm }
+  act { stay-zone, sentinel, aggressive, special }
+}
+92033
+{
+  name { a corpse devourer }
+  namelist { devourer corpse slug }
+  shortdesc { A disgusting slug-like thing is here devouring corpses! }
+  longdesc {
+This is a corpse devourer.  It looks like a slug that is around fifteen
+feet long and has the weight and power of several storm giants all rolled
+in to a single sleeping bag.  It has slimy, black, glistening skin and
+eye stalks that peer around myopically.  It doesn't seem to see very well
+but it does have an amazing sense of smell!  Although it just uses that
+for finding corpses.  It wouldn't be wise to go petting it for it is has
+been known to rear up in to an attack posture and spray attackers with a
+concentrated acid that is likely to melt weapons, armour, flesh and bone.
+  }
+  race { parasite }
+  sex { none }
+  level { 500 }
+  height { 950 }
+  weight { 40000 }
+  experience { 25067040 }
+  hp { 450, 10, 32500 }
+  alignment { -950 }
+  move { 600 }
+  gold { 125000 }
+  hit_bonus { 59 }
+  dam_bonus { 99 }
+  damage { 14, 5, 25 }
+  attacks_per_round { 4.2 }
+  head { -175, 50 }
+  body { -210, 55 }
+  arms { -180, 52 }
+  legs { -180, 52 }
+  feet { -180, 52 }
+  affected { blind }
+  immune { charm, poison, acid, backstab }
+  resist_electricity { 290 }
+  resist_fire { 290 }
+  resist_cold { 290 }
+  susceptible { pierce }
+  act { npc, sentinel, stay-zone, nosummon, special }
+}
+92034
+{
+  name { a flayed purple beholder }
+  namelist { beholder purple flayed }
+  shortdesc { A purple beholder has been secured to a device here, it's massive gooey brain exposed! }
+  longdesc {
+This purple beholder has been the victim of some kind of horrible,
+evil experiment!  The thick, gelatinous-like skin around the top of
+it's... Well... It's head has been peeled back to reveal the
+pulsating, disgusting blob of pink biomass that is the poor creatures
+brain!  Yuck!  It looks at you in fear and horror, blinking wildly
+as if to communicate a call for help or mercy!
+  }
+  race { parasite }
+  sex { none }
+  world_limit { 1 }
+  level { 420 }
+  experience { 12500 }
+  hp { 4, 40, 79 }
+  alignment { 0 }
+  gold { 18 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 0.1 }
+  move  { 300 }
+  damage { 3, 1, 1 }
+  head { 100, 0 }
+  body { 100, 0 }
+  arms { 100, 0 }
+  legs { 100, 0 }
+  feet { 100, 0 }
+  resist_magic { 215 }
+  immune { charm }
+  susceptible { cold }
+  act { stay-zone, nosummon, sentinel }
+}
+92035
+{
+  name { a #{red}#{bold}Hell hound#{o} }
+  namelist { hell hound }
+  shortdesc { A #{red}#{bold}Hell hound#{o} is here, attacking wildly! }
+  longdesc {
+This Hell hound resembles a monstrous dogs with a powerful physique.
+It stands around four and half feet high at the shoulder and weighs
+about one hundred and twenty pounds.  Its fearsome form is covered in
+short, rust-red and red-brown fur and its eyes glow like red-hot coals.
+The markings on its body, as well and its fangs and tongue, is the
+colour of soot. It reeks of sulphurous smoke.
+}
+  race { predator }
+  sex { none }
+  level { 250 }
+  height { 137 }
+  weight { 1200 }
+  experience { 290670 }
+  hp { 20, 20, 5266 }
+  alignment { -1000 }
+  move { 600 }
+  gold { 40000 }
+  hit_bonus { 27 }
+  dam_bonus { 11 }
+  damage { 5, 5, 18 }
+  attacks_per_round { 2 }
+  head { -20, 5 }
+  body { -40, 7 }
+  arms { -30, 6 }
+  legs { -30, 6 }
+  feet { -30, 6 }
+  affected { infravision }
+  immune { charm, backstab }
+  resist_fire { 200 }
+  susceptible { cold }
+  act { stay-zone, sentinel, aggressive, special }
+}
+92036
+{
+  name { the #{cyan}Sorrowborn Warrior#{o} }
+  namelist { sorrowborn warrior }
+  shortdesc { The #{cyan}Sorrowborn Warrior#{o} is here, defending its master! }
+  longdesc {
+The Sorrowborn Warrior is a demonic mirror of a mortal warrior with
+skin that resembles armour, one hand that looks like a sword and the
+other that looks like a shield.  It is covered in a black, glossy hide
+that folds and twists as if it was real platemail, and looks just as
+thick as the real thing.  Its eyes are a dim, dark-red umber, and are
+the only source of colour on the creature.  It exists to fight, to
+kill.  And you are likely to be its next victim. 
+}
+  race { demon }
+  sex { none }
+  level { 499 }
+  height { 220 }
+  weight { 3250 }
+  experience { 499200 }
+  hp { 10, 100, 11000 }
+  alignment { -1000 }
+  move { 6000 }
+  gold { 4001000 }
+  hit_bonus { 38 }
+  dam_bonus { 42 }
+  damage { 7, 9, 28 }
+  attacks_per_round { 3 }
+  strength { 30 }
+  dexterity { 25 }
+  head { -150, 35 }
+  body { -170, 35 }
+  arms { -150, 35 }
+  legs { -150, 35 }
+  feet { -150, 35 }
+  immune { charm, backstab }
+  resist_fire { 200 }
+  susceptible { cold }
+  act { special, stay-zone, aggressive, special }
+}

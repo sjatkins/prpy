@@ -1,0 +1,526 @@
+5000
+{
+  name { The dervish }
+  namelist { dervish raggity }
+  shortdesc { The raggity dervish walks on aimlessly. }
+  longdesc {
+Dressed in loose fitting rags, this man looks like he could use
+some rest.
+  }
+  race { orc }
+  level { 25 }
+  alignment { -1 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 50, 1 }
+  body { 50, 1 }
+  arms { 50, 1 }
+  legs { 50, 1 }
+  feet { 50, 1 }
+  hp { 9, 8, 85  }
+  move { 300 }
+  experience { 2140 }
+  damage { 2, 4, 1  }
+  immune { charm }
+  affected { sneak }
+  act { special, scavenger, stay-zone, wimpy }
+}
+
+5001
+{
+  name { The dervish }
+  namelist { dervish large }
+  shortdesc { The large dervish watches for signs of trouble. }
+  longdesc {
+Dressed in loose fitting rags, this man looks like he could use
+LOTS of rest.
+  }
+  race { orc }
+  level { 26 }
+  alignment { 100 }
+  gold { 175 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 24, 8, 24  }
+  move { 300 }
+  experience { 2414 }
+  damage { 2, 6, 1  }
+  affected { sneak }
+  act { aggressive, stay-zone }
+}
+
+5002
+{
+  name { The coral snake }
+  namelist { snake coral }
+  shortdesc { A brightly colored snake slithers along the sands. }
+  longdesc {
+This relatively harmless snake has bright alternating bands of red, yellow
+and black.
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 4, 8, 1  }
+  move { 300 }
+  experience { 306 }
+  damage { 1, 9, 1  }
+  act { special, stay-zone }
+}
+
+5003
+{
+  name { The small scorpion }
+  namelist { scorpion small }
+  shortdesc { A small, red scorpion scuttles away at your approach. }
+  longdesc {
+The little tail is mighty dangerous for such a small creature.
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 3 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 293 }
+  damage { 1, 5, 1  }
+  act { special, stay-zone }
+}
+
+5004
+{
+  name { The giant, purple sand worm }
+  namelist { worm giant }
+  shortdesc { A giant, purple sand worm thrusts up out of the sand and attacks! }
+  longdesc {
+He's EXTREMELEY big, mean, and purple. Watch out!
+  }
+  race { none }
+  level { 275 }
+  alignment { -100 }
+  gold { 170000 }
+  hit_bonus { 23 }
+  dam_bonus { 27 }
+  attacks_per_round { 3.2 }
+  head { -130, 0 }
+  body { -130, 0 }
+  arms { -130, 0 }
+  legs { -130, 0 }
+  feet { -130, 0 }
+  hp { 400, 12, 19400  }
+  move { 300 }
+  experience { 1149150 }
+  damage { 2, 8, 25  }
+  immune { poison, charm, backstab }
+  resistant { fire, cold }
+  affected { hide }
+  act { special, sentinel, scavenger, aggressive, stay-zone }
+}
+
+5005
+{
+  name { The brass dragon }
+  namelist { dragon brass }
+  shortdesc { A very large brass dragon steps out of the darkness and says "Hello". }
+  longdesc {
+The brass dragon is large, brassy and very majestic!  It seems friendly enough.
+  }
+  race { dragon }
+  sex { female }
+  height { 400 }
+  level { 530 }
+  alignment { 450 }
+  gold { 200005 }
+  hit_bonus { 24 }
+  dam_bonus { 21 }
+  attacks_per_round { 4.2 }
+  head { -90, 15 }
+  body { -90, 15 }
+  arms { -120, 20 }
+  legs { -100, 20 }
+  feet { -90, 15 }
+  hp { 1600, 3, 32216  }
+  move { 300 }
+  experience { 1305000 }
+  damage { 6, 4, 10  }
+  immune { energy, charm, backstab, poison, sleep }
+  resistant { blunt, fire, cold }
+  susceptible { acid, electricity }
+  affected { detect-invisible, sanctuary, infravision, flying }
+  caster { 530 }
+  spells { gust of wind, sanctuary, shocking grasp, sunray, disruptor, dispel magic }
+  act { sentinel, stay-zone }
+}
+
+5006
+{
+  name { The nomad leader }
+  namelist { nomad leader }
+  shortdesc { The nomad leader sits silently in prayer. }
+  longdesc {
+He is clad in silk robes lined with gold thread. At his side
+is a large, engraved cutlass. He has an especially haughty air
+about him.
+  }
+  race { human }
+  level { 41 }
+  alignment { 950 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 42, 8, 42  }
+  move { 300 }
+  experience { 4847 }
+  damage { 1, 7, 2  }
+  immune { charm }
+  act { stay-zone, wimpy }
+}
+
+5007
+{
+  name { The nomad commander }
+  namelist { nomad commander }
+  shortdesc { The nomad commander stands here staring suspiciously at you. }
+  longdesc {
+This is the nomad leader's second in command. His clothes are richly
+woven of silk and gold thread. A nasty cutlass hangs at his side.
+  }
+  race { human }
+  level { 39 }
+  alignment { 900 }
+  gold { 300 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 10, 1 }
+  body { 10, 1 }
+  arms { 10, 1 }
+  legs { 10, 1 }
+  feet { 10, 1 }
+  hp { 36, 8, 36  }
+  move { 300 }
+  experience { 4236 }
+  damage { 1, 5, 3  }
+  act { sentinel }
+}
+
+5008
+{
+  name { The nomad warrior }
+  namelist { nomad warrior }
+  shortdesc { A proud nomad warrior stands here. }
+  longdesc {
+You see nothing special.
+  }
+  race { human }
+  level { 41 }
+  alignment { 700 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 4192 }
+  damage { 1, 7, 1  }
+  act { sentinel }
+}
+
+5009
+{
+  name { The slave }
+  namelist { slave young }
+  shortdesc { A young slave sits here staring at you with pleading eyes. }
+  longdesc {
+What are you looking at?
+  }
+  race { human }
+  level { 1 }
+  alignment { 1000 }
+  gold { 50 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 3, 8, 1  }
+  move { 300 }
+  experience { 206 }
+  damage { 1, 5, 1  }
+  immune { charm }
+  act { sentinel, wimpy }
+}
+
+5010
+{
+  name { The dracolich }
+  namelist { dracolich lich }
+  shortdesc { A pile of bones rises up to form a skeletal dracolich. }
+  longdesc {
+The dracolich is now only bone with pieces of flesh hanging from it.
+Obviously it no longer fears death.
+  }
+  race { undead }
+  level { 520 }
+  alignment { -1000 }
+  gold { 120000 }
+  hit_bonus { 23 }
+  dam_bonus { 29 }
+  attacks_per_round { 5.4 }
+  head { -150, 0 }
+  body { -150, 0 }
+  arms { -150, 0 }
+  legs { -150, 0 }
+  feet { -150, 0 }
+  hp { 2500, 8, 23500  }
+  move { 300 }
+  experience { 1252247 }
+  damage { 6, 6, 24  }
+  caster { 490 }
+  spells { fireball, fire breath, gust of wind, dispel magic }
+  immune { backstab, poison, drain, sleep, charm, hold }
+  resistant { cold }
+  susceptible { fire }
+  affected { detect-invisible, sense-life, sanctuary }
+  act { special, sentinel, aggressive }
+}
+
+5011
+{
+  name { The drider }
+  namelist { drider drow }
+  shortdesc { The drider looks at you with anger while it draws its sword. }
+  longdesc {
+This half-spider, half-drow creature is a formidable opponent.
+  }
+  race { elven }
+  level { 43 }
+  alignment { -1000 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 3 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 18, 8, 180  }
+  move { 300 }
+  experience { 5259 }
+  damage { 2, 4, 5  }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+
+5012
+{
+  name { The dark dwarf }
+  namelist { duergar dwarf }
+  shortdesc { A duergar is here mining precious stones with his pick. }
+  longdesc {
+The duergar could crush your head as easily as it does those rocks.
+  }
+  race { dwarf }
+  level { 44 }
+  alignment { -850 }
+  gold { 500 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 20, 8, 200  }
+  move { 300 }
+  experience { 5191 }
+  damage { 2, 10, 6  }
+  affected { detect-invisible, infravision }
+  act { aggressive, stay-zone }
+}
+
+5013
+{
+  name { The myconoid }
+  namelist { myconoid fungusman }
+  shortdesc { A myconoid lumbers along peacefully. }
+  longdesc {
+The myconoid looks something like a giant mushroom (and probably
+has the same effect).
+  }
+  race { none }
+  level { 3 }
+  alignment { 850 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 6, 8, 6  }
+  move { 300 }
+  experience { 468 }
+  damage { 2, 7, 1  }
+  immune { charm }
+  affected { detect-invisible, infravision }
+  act { stay-zone, wimpy }
+}
+
+5014
+{
+  name { The myconoid shaman }
+  namelist { myconoid shaman }
+  shortdesc { A rather large myconoid stands here chanting in a strange tounge. }
+  longdesc {
+The shaman shoots spores into the air.
+  }
+  race { none }
+  level { 48 }
+  alignment { 850 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 68, 8, 68  }
+  move { 300 }
+  experience { 7918 }
+  damage { 2, 7, 2  }
+  immune { sleep, charm }
+  resistant { poison }
+  affected { detect-invisible, sanctuary, infravision }
+  act { special, sentinel, wimpy }
+}
+
+5015
+{
+  name { The dustdigger }
+  namelist { dustdigger }
+  shortdesc { A small oasis invites you to dive in. }
+  longdesc {
+You see nothing special.
+  }
+  race { none }
+  level { 4 }
+  alignment { 0 }
+  gold { 100 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 2 }
+  head { 10, 0 }
+  body { 10, 0 }
+  arms { 10, 0 }
+  legs { 10, 0 }
+  feet { 10, 0 }
+  hp { 7, 8, 7  }
+  move { 300 }
+  experience { 600 }
+  damage { 2, 3, 1  }
+  affected { hide }
+  act { sentinel, scavenger, aggressive }
+}
+
+5017
+{
+  name { The rabid camel }
+  namelist { camel rabid }
+  shortdesc { A very dangerous rabid camel snorts at you. }
+  longdesc {
+Don't mess with this animal.
+  }
+  race { none }
+  level { 6 }
+  alignment { 0 }
+  gold { 130 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 10, 8, 10  }
+  move { 300 }
+  experience { 673 }
+  damage { 2, 4, 3  }
+  act { sentinel, aggressive }
+}
+
+5020
+{
+  name { The sand worm }
+  namelist { sand worm young }
+  shortdesc { The young sandworm launches out of the sand to attack you! }
+  longdesc {
+It is about 50 feet long, and looks very dangerous.  Better
+flee!
+  }
+  race { none }
+  level { 46 }
+  alignment { -100 }
+  gold { 700 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  head { 30, 1 }
+  body { 30, 1 }
+  arms { 30, 1 }
+  legs { 30, 1 }
+  feet { 30, 1 }
+  hp { 60, 8, 60  }
+  move { 300 }
+  experience { 6154 }
+  damage { 2, 8, 2  }
+  affected { sneak }
+  act { scavenger, aggressive, stay-zone }
+}
+

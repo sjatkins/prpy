@@ -1,0 +1,865 @@
+1400
+{
+  name { the black Rook }
+  namelist { rook black chess bqr }
+  shortdesc { A black rook stands here, prepared for battle. }
+  longdesc {
+It reminds of you a stone golem, but quite a bit smaller.
+  }
+  race { Human }
+  sex { Male }
+  level { 25 }
+  experience { 8250 }
+  hp { 8, 9, 275 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1401
+{
+  name { the black Knight }
+  namelist { knight black chess }
+  shortdesc { There is a scraggly knight dressed in black here. }
+  longdesc {
+This is most certainly not the Black Knight of legendary fame.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 1300 }
+  experience { 11250 }
+  hp { 8, 9, 475 }
+  alignment { 0 }
+  gold { 7 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1402
+{
+  name { the black Bishop }
+  namelist { bishop black chess bqb }
+  shortdesc { There is a bishop dressed in black standing here. }
+  longdesc {
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 1400 }
+  experience { 9250 }
+  hp { 8, 9, 405 }
+  alignment { 0 }
+  gold { 9 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1403
+{
+  name { the black Queen }
+  namelist { queen black chess bq }
+  shortdesc { There is a queen dressed in black standing here. }
+  longdesc {
+She looks rather fearsome.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 35 }
+  experience { 15250 }
+  hp { 8, 9, 605 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1404
+{
+  name { the black King }
+  namelist { king black chess bk }
+  shortdesc { The King, Ruler of Darkness, is standing here. }
+  longdesc {
+He is a far cry from the white haired wizened old man you might expect.  It
+looks as though he could put up a good fight.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 35 }
+  experience { 25250 }
+  hp { 8, 9, 805 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1405
+{
+  name { the black Pawn }
+  namelist { pawn black chess bpqr }
+  shortdesc { A statuesque black pawn stands here. }
+  longdesc {
+Though this scrawny fighter is not an impressive sight, he is obedient to his
+master.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 3 }
+  level { 15 }
+  experience { 4580 }
+  hp { 8, 9, 175 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1406
+{
+  name { The Mini Mindflayer }
+  namelist { mini flayer mindflayer minimindflayer }
+  shortdesc { The mini mindflayer is here, looking at you with a... well, some kind of look. }
+  longdesc {
+It's a three foot tall humanoid that seems rather menacing for its size.
+In the middle of its head are four tentacles with sharp points.
+  }
+  race { mindflayer }
+  level { 1 }
+  alignment { -250 }
+  gold { 800 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 4, 3, 4  }
+  move { 300 }
+  experience { 791 }
+  damage { 1, 3, 2  }
+  immune { charm }
+  affected { detect-invisible }
+  act { scavenger, wimpy }
+}
+
+1407
+{
+  name { The Curser }
+  namelist { curser }
+  shortdesc { The Curser is here, muttering incomprehensible obscenities to the air. }
+  longdesc {
+It is short stocky guy dressed in clashing colors, spewing gutteral sounds
+and interjections continuously.
+  }
+  race { none }
+  level { 1 }
+  alignment { -600 }
+  gold { 450 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 2, 2, 4  }
+  move { 300 }
+  experience { 630 }
+  damage { 1, 4, 1  }
+  act { stay-zone }
+}
+
+1408
+{
+  name { The Cow }
+  namelist { cow }
+  shortdesc { A hard-eyed cow is here, going about his business. }
+  longdesc {
+He is walking around purposefully, as if searching for something,
+occasionally lowering his head, sniffing at the air, then eating
+pieces of the ground that are apparently somewhat grassy.  When he
+notices your intense scrutiny, he looks at you coldly, until you are
+forced to look away.
+  }
+  race { none }
+  level { 2 }
+  alignment { 400 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 60, 0 }
+  body { 60, 0 }
+  arms { 60, 0 }
+  legs { 60, 0 }
+  feet { 60, 0 }
+  hp { 3, 4, 15  }
+  move { 300 }
+  experience { 936 }
+  damage { 2, 4, 1  }
+}
+
+1409
+{
+  name { Net Lag }
+  namelist { net lag }
+  shortdesc { Net Lag cuts your link, throws his head back, and cackles with insane glee! }
+  longdesc {
+As you try to peer into his beady eyes, you feel your sense of time slowing,
+slowing, slowing....
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 50, 0 }
+  body { 50, 0 }
+  arms { 50, 0 }
+  legs { 50, 0 }
+  feet { 50, 0 }
+  hp { 1, 8, 1  }
+  move { 300 }
+  experience { 307 }
+  damage { 1, 3, 1  }
+}
+
+1410
+{
+  name { The young sapling, walking on dainty roots }
+  namelist { sapling young }
+  shortdesc { A sapling stands here eye to eye with you. }
+  longdesc {
+Its roots are rather petite, and small parts of them are above ground.
+  }
+  race { none }
+  level { 2 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 6 }
+  head { 40, 0 }
+  body { 40, 0 }
+  arms { 40, 0 }
+  legs { 40, 0 }
+  feet { 40, 0 }
+  hp { 2, 8, 10  }
+  move { 300 }
+  experience { 356 }
+  damage { 1, 2, 1  }
+}
+
+1411
+{
+  name { The Jugglernaut }
+  namelist { juggler jugglernaut }
+  shortdesc { A Jugglernaut is here, juggling madly. }
+  longdesc {
+It is kind of large, some 10 yds in length, walking on several hundred
+tiny legs. It is metallic-looking, with large spots of corrosion
+marring its angular skin. On its sides are large signs, written in an
+incomprehensible language. On its top, a small eye cluster swivels back
+and forth continually.  A number of tentacles are juggling a dizzying
+blur of objects.
+  }
+  race { none }
+  level { 14 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 14, 8, 24  }
+  move { 300 }
+  experience { 4698 }
+  damage { 2, 2, 1  }
+  affected { detect-invisible }
+  act { special, scavenger, nice-thief, stay-zone }
+}
+
+1412
+{
+  name { The Mutterfly }
+  namelist { mutterfly butterfly fly }
+  shortdesc { An ugly butterfly-like thing is here, muttering about its problems. }
+  longdesc {
+ it is ugly, and unfriendly
+  }
+  race { none }
+  level { 1 }
+  alignment { -1000 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 8, 6  }
+  move { 300 }
+  experience { 453 }
+  damage { 1, 3, 1  }
+  act { nice-thief, stay-zone }
+}
+
+1413
+{
+  name { The banana peel }
+  namelist { peel banana }
+  shortdesc { There is a magical banana peel here. }
+  longdesc {
+It seems harmless enough, although according to ancient legend, they
+cause people to slip and fall.
+  }
+  race { none }
+  level { 1 }
+  alignment { -400 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 70, 0 }
+  body { 70, 0 }
+  arms { 70, 0 }
+  legs { 70, 0 }
+  feet { 70, 0 }
+  hp { 1, 3, 6  }
+  move { 300 }
+  experience { 1137 }
+  damage { 1, 6, 1  }
+  immune { charm }
+  affected { detect-invisible, sense-life, sneak }
+  act { special, aggressive, wimpy }
+}
+
+1414
+{
+  name { the white Pawn }
+  namelist { pawn white chess wpqr }
+  shortdesc { A statuesque white pawn stands here. }
+  longdesc {
+Though this scrawny fighter is not an impressive sight, he is obedient to his
+master.
+  }
+  race { Human }
+  sex { Male }
+  level { 15 }
+  experience { 5620 }
+  hp { 8, 9, 205 }
+  alignment { 0 }
+  gold { 800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  move  { 200 }
+  damage { 1, 3, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1415
+{
+  name { the white Rook }
+  namelist { rook white chess wqr }
+  shortdesc { A white rook stands here, prepared for battle. }
+  longdesc {
+It reminds of you a stone golem, but quite a bit smaller.  He matches the
+white marble quite nicely.
+  }
+  race { Human }
+  sex { Male }
+  level { 25 }
+  experience { 12250 }
+  hp { 8, 9, 375 }
+  alignment { 0 }
+  gold { 1200 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1416
+{
+  name { the white Knight }
+  namelist { knight white chess wqn }
+  shortdesc { There is a scraggly knight dressed in white here. }
+  longdesc {
+You're not so sure that you'd want *him* to come to your rescue.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 1300 }
+  experience { 15250 }
+  hp { 8, 9, 575 }
+  alignment { 0 }
+  gold { 7 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1417
+{
+  name { the white Bishop }
+  namelist { bishop white chess wqb }
+  shortdesc { There is a bishop dressed in white standing here. }
+  longdesc {
+Hmm, maybe it's an arch bishop.  Or an arch arch bishop.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 2 }
+  level { 1400 }
+  experience { 10250 }
+  hp { 8, 9, 445 }
+  alignment { 0 }
+  gold { 9 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 4, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1418
+{
+  name { the white Queen }
+  namelist { queen white chess wq }
+  shortdesc { There is a queen dressed in white standing here. }
+  longdesc {
+She looks rather fearsome.
+  }
+  race { Human }
+  sex { Female }
+  world_limit { 1 }
+  level { 35 }
+  experience { 19250 }
+  hp { 8, 9, 675 }
+  alignment { 0 }
+  gold { 1800 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 5, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1419
+{
+  name { the white King }
+  namelist { king white chess wk }
+  shortdesc { The King, Protector of the Flame, is standing here. }
+  longdesc {
+He is a far cry from the white haired wizened old man you might expect.  It
+looks as though he could put up a good fight.
+  }
+  race { Human }
+  sex { Male }
+  world_limit { 1 }
+  level { 35 }
+  experience { 29250 }
+  hp { 8, 9, 855 }
+  alignment { 0 }
+  gold { 2500 }
+  hit_bonus { 8 }
+  dam_bonus { 2 }
+  attacks_per_round { 2 }
+  move  { 200 }
+  damage { 1, 6, 1 }
+  head { 80, 3 }
+  body { 90, 2 }
+  arms { 90, 2 }
+  legs { 90, 2 }
+  feet { 90, 2 }
+  act { npc, sentinel, stay-zone }
+}
+
+1420
+{
+  name { The Jabberwocky }
+  namelist { jabberwocky }
+  shortdesc { The Jabberwocky stands here, prepared to maul you. }
+  longdesc {
+It is big, and alien in appearance.  Probably not here for a cup of tea.
+  }
+  race { none }
+  level { 13 }
+  alignment { -900 }
+  gold { 3000 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 6, 8, 56  }
+  move { 300 }
+  experience { 1551 }
+  damage { 3, 2, 2  }
+  affected { detect-invisible }
+  act { sentinel, scavenger, aggressive }
+}
+
+1421
+{
+  name { A pair of Medics }
+  namelist { medics pair paramedics }
+  shortdesc { A pair of Medics is here, looking for someone to help. }
+  longdesc {
+Not only are they identical twins, but they do everything in perfect unison.
+  }
+  race { human }
+  level { 10 }
+  alignment { 1000 }
+  gold { 800 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 40, 30 }
+  body { 40, 30 }
+  arms { 40, 30 }
+  legs { 40, 30 }
+  feet { 40, 30 }
+  hp { 14, 8, 114  }
+  move { 300 }
+  experience { 9097 }
+  damage { 2, 4, 2  }
+  immune { charm }
+  act { nosummon, citizen, special, scavenger, wimpy }
+}
+
+1422
+{
+  name { The Flame }
+  namelist { flame }
+  shortdesc { The Flame hovers here before you. }
+  longdesc {
+The Flame flickers almost imperceptibly about you.  You can barely feel the
+warmth, so gentle is The Flame.
+  }
+  race { none }
+  level { 40 }
+  alignment { 900 }
+  gold { 5000 }
+  hit_bonus { 7 }
+  dam_bonus { 2 }
+  attacks_per_round { 2.5 }
+  head { 0, 0 }
+  body { 0, 0 }
+  arms { 0, 0 }
+  legs { 0, 0 }
+  feet { 0, 0 }
+  hp { 6, 8, 196  }
+  move { 300 }
+  experience { 49485 }
+  damage { 2, 5, 2  }
+  immune { fire }
+  susceptible { cold }
+  act { sentinel }
+}
+
+1423
+{
+  name { A Delivery Beast }
+  namelist { delivery beast }
+  shortdesc { A Delivery Beast is here, sleeping on the job. }
+  longdesc {
+Well, it looks beastly.  And oily.  It's black, and shiny, and oozes
+slime as it goes...hard to be more specific than that.
+  }
+  race { none }
+  level { 14 }
+  alignment { 800 }
+  gold { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 10, 8, 40  }
+  move { 300 }
+  experience { 9378 }
+  damage { 1, 6, 3  }
+  act { special, sentinel }
+}
+
+1424
+{
+  name { An Oil Beast }
+  namelist { oil beast }
+  shortdesc { An Oil Beast is here, working quasi-diligently. }
+  longdesc {
+Well, it looks beastly.  And oily.  It's black, and shiny, and oozes
+slime as it goes...hard to be more specific than that.
+  }
+  race { none }
+  level { 14 }
+  alignment { 800 }
+  gold { 0 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 0 }
+  body { 20, 0 }
+  arms { 20, 0 }
+  legs { 20, 0 }
+  feet { 20, 0 }
+  hp { 10, 8, 40  }
+  move { 300 }
+  experience { 13378 }
+  damage { 1, 6, 2  }
+  act { sentinel }
+}
+
+1425
+{
+  name { The Delivery Elf }
+  namelist { delivery elf }
+  shortdesc { An Elf is here, making deliveries for the Market Plaza Bakery. }
+  longdesc {
+You see nothing special.
+  }
+  world_limit { 5 }
+  race { elven }
+  level { 41 }
+  alignment { 800 }
+  gold { 900 }
+  hit_bonus { 2 }
+  dam_bonus { 2 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 40, 8, 40  }
+  move { 300 }
+  experience { 9192 }
+  damage { 2, 6, 3  }
+  affected { detect-invisible }
+  act { special, sentinel }
+}
+
+1426
+{
+  name { An Elf }
+  namelist { elf }
+  shortdesc { An Elf is here, working diligently. }
+  longdesc {
+He looks busy.
+  }
+  race { elven }
+  level { 26 }
+  alignment { 800 }
+  gold { 900 }
+  hit_bonus { 1 }
+  dam_bonus { 1 }
+  attacks_per_round { 1 }
+  head { 20, 1 }
+  body { 20, 1 }
+  arms { 20, 1 }
+  legs { 20, 1 }
+  feet { 20, 1 }
+  hp { 20, 8, 40  }
+  move { 300 }
+  experience { 7433 }
+  damage { 2, 6, 3  }
+  act { sentinel }
+}
+
+1427
+{
+  name { The Cheshire Cat }
+  namelist { cat cheshire }
+  shortdesc { The Cheshire Cat flashes a grin at you. }
+  longdesc {
+Looks like the obligatory invisible monster for this area.  He has that
+confident, artificial smile that means he knows too much about you.
+  }
+  race { none }
+  level { 1 }
+  alignment { 600 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 30, 0 }
+  body { 30, 0 }
+  arms { 30, 0 }
+  legs { 30, 0 }
+  feet { 30, 0 }
+  hp { 1, 4, 8  }
+  move { 300 }
+  experience { 171 }
+  damage { 1, 9, 1  }
+  affected { detect-invisible }
+  act { scavenger }
+}
+
+1428
+{
+  name { The Pigeon }
+  namelist { pigeon }
+  shortdesc { A plump pigeon is wandering here, oblivious to your presence. }
+  longdesc {
+Dinner on the table....
+  }
+  race { none }
+  level { 1 }
+  alignment { 0 }
+  gold { 0 }
+  hit_bonus { 0 }
+  dam_bonus { 0 }
+  attacks_per_round { 1 }
+  head { 90, 0 }
+  body { 90, 0 }
+  arms { 90, 0 }
+  legs { 90, 0 }
+  feet { 90, 0 }
+  hp { 1, 4, 1  }
+  move { 300 }
+  experience { 80 }
+  damage { 1, 4, 1  }
+  immune { charm }
+  act { wimpy }
+}
+
+1429
+{
+  name { Sisyphus }
+  namelist { sisyphus }
+  shortdesc { Sisyphus of Corinth stands here, guarding the gate. }
+  longdesc {
+The once tyrannical King of Corinth has been consigned to barring
+unqualified characters from entering the Tower.  A Sisyphean task indeed.
+  }
+  race { elven }
+  level { 387 }
+  alignment { 1000 }
+  gold { 30000 }
+  hit_bonus { 16 }
+  dam_bonus { 16 }
+  attacks_per_round { 1 }
+  head { -70, 0 }
+  body { -70, 0 }
+  arms { -70, 0 }
+  legs { -70, 0 }
+  feet { -70, 0 }
+  hp { 7, 7, 7470  }
+  move { 300 }
+  experience { 386004 }
+  damage { 4, 6, 12  }
+  immune { charm }
+  act { special, sentinel }
+}
+
