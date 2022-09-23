@@ -11,27 +11,7 @@ Midgard.room file.
 Had two "#offset " lines.
 ### ThaumloreFortress.room
 Extra closing brace at ~#1554
-## exceptions parsing room files
+# Mobs
 
-exception in Arachnos.room: dictionary update sequence element #0 has length 1; 2 is required
-
-exception in Chessboard.room: dictionary update sequence element #0 has length 1; 2 is required
-
-exception in Drow.room: list index out of range
-
-exception in EyeofTerror.room: list index out of range
-
-exception in Grass_Barrows.room: dictionary update sequence element #0 has length 1; 2 is required
-
-exception in Kyoto.room: dictionary update sequence element #0 has length 1; 2 is required
-
-exception in MidgardLibrary.room: list index out of range
-
-exception in PillarsAnarchy.room: dictionary update sequence element #0 has length 1; 2 is required
-
-exception in Pyragard.room: list index out of range
-
-exception in Void.room: list index out of range
-
-exception in Yuanti.room: list index out of range
-
+It looks like it should be trivial to pull block structure from these files
+using same Block code as for Rooms.  This also seems to be the case for Objects.
